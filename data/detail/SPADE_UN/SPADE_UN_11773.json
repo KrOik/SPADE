@@ -1,0 +1,74 @@
+{
+    "SPADE_UN_11773": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_11773",
+            "Peptide Name": "StigA25 (Derived from Stigmurin)",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "FFSLIPSLVKKLIKAFK",
+            "Sequence Length": 17,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic form",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "[Ref.30709056]Gram-positive bacteria :Staphylococcus aureus (ATCC 29213)(MIC=1.2 μM), Staphylococcus epidermidis (ATCC 12228)(MIC=2.3 μM), Enterococcus faecalis (ATCC 4028)(MIC=4.7 μM);Gram-negative bacteria :Pseudomonas aeruginosa (ATCC 27853)(MIC=4.7 μM), Escherichia coli (ATCC 25922)(MIC=2.3 μM), Enterobacter cloacae (ATCC 13047)(MIC=18.8 μM);Fungi :Candida albicans (ATCC 90028)(MIC=9.4 μM), Candida glabrata (ATCC 90030)(MIC=9.4 μM), Candida krusei (ATCC 6258)(MIC=9.4 μM)",
+            "Hemolytic Activity": "[Ref.30709056] 1% hemolysis at 1.2 μg/ml , 5% hemolysis at 2.3 μg/ml , 9% hemolysis at 4.7 μg/ml , 19% hemolysis at 9.4 μg/ml , 33% hemolysis at 18.8 μg/ml , 60% hemolysis at 37.5 μg/ml , 78% hemolysis at 75 μg/ml , 93% hemolysis at 150 μg/ml against human red blood cells",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C100H163N21O20",
+            "Mass": 1979.49,
+            "PI": 10.48,
+            "Net Charge": 4,
+            "Hydrophobicity": 0.94,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Function": "Antibacterial activity against Gram-positive bacteria and Gram-negative bacteria, Antifungal activity agaist Candida albicans, Candida glabrata, Candida krusei",
+            "Literature": [
+                {
+                    "Title": "Potent and Broad-Spectrum Antimicrobial Activity of Analogs from the Scorpion Peptide Stigmurin",
+                    "Pubmed ID": "30709056",
+                    "Reference": "Int J Mol Sci. 2019 Jan 31;20(3). pii E623. doi 10.3390/ijms20030623.",
+                    "Author": "Bruno Amorim-Carmo , Alessandra Daniele-Silva , Adriana M. S. Parente ,Allanny A. Furtado , Eneas Carvalho , Johny W. F. Oliveira , Elizabeth C. G. Santos , Marcelo S. Silva , Sérgio R. B. Silva , Arnóbio A. Silva-Júnior , Norberto K. Monteiro and Matheus F. Fernandes-Pedrosa",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=30709056"
+                }
+            ],
+            "Frequent Amino Acids": "KFL",
+            "Absent Amino Acids": "CDEGHMNOQRTUWY",
+            "Basic Residues": 4,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 8,
+            "Positive Residues": 4,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_24443",
+                    "Similarity": 0.8823529411764706,
+                    "Sequence": "FFSLIPKLVGKLIKAFK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_11774",
+                    "Similarity": 0.8823529411764706,
+                    "Sequence": "FFKLIPKLVKKLIKAFK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01186",
+                    "Similarity": 0.8333333333333334,
+                    "Sequence": "FFSMIPKIATGIASLVKNL"
+                }
+            ]
+        }
+    }
+}

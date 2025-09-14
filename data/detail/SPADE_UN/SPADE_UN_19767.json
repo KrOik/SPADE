@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_19767": {
+        "Sequence Information": {
+            "Peptide Name": "Puroindoline-A (34-46)[K6,9,12R], PuroA [K6,9,12R]",
+            "Sequence": "FPVTWRWWRWWRG",
+            "Sequence Length": 13,
+            "Biological Activity": [
+                "Anti-Gram-",
+                "Anticancer",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P33432",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P33432",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Improving the Activity of Trp-Rich Antimicrobial Peptides by Arg/Lys Substitutions and Changing the Length of Cationic Residues.",
+                    "Pubmed ID": "29671805",
+                    "Reference": "Biomolecules. 2018;8:E19",
+                    "Author": "Arias M, Piga KB, Hyndman ME, Vogel HJ",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/29671805"
+                },
+                {
+                    "Title": "Selective anticancer activity of synthetic peptides derived from the host defence peptide tritrpticin.",
+                    "Pubmed ID": "32126228",
+                    "Reference": "Biochim Biophys Acta. 2020;1862:183228",
+                    "Author": "Arias M, Haney EF, Hilchie AL, Corcoran JA, Hyndman ME, Hancock REW, Vogel HJ",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/32126228"
+                }
+            ],
+            "Mass": 1919.2,
+            "PI": 12.0,
+            "Net Charge": 3,
+            "Hydrophobicity": -1.05,
+            "Frequent Amino Acids": "WRF",
+            "Absent Amino Acids": "ACDEHIKLMNOQSUY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 2,
+            "Polar Residues": 11,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_19767",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_09587",
+                    "Similarity": 1.0,
+                    "Sequence": "FPVLFPV"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09589",
+                    "Similarity": 1.0,
+                    "Sequence": "FPVFPV"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09592",
+                    "Similarity": 1.0,
+                    "Sequence": "FPVFPV"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=>=65 µM,Human PBMC:IC50=23.0 µM",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=8-16µM),Jurkat T-cell leukemia(IC50=10.0µM)"
+        }
+    }
+}

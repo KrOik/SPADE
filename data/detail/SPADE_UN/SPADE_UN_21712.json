@@ -1,0 +1,61 @@
+{
+    "SPADE_UN_21712": {
+        "Sequence Information": {
+            "Peptide Name": "",
+            "Sequence": "KWWK",
+            "Sequence Length": 4,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Tuning the antimicrobial pharmacophore to enable discovery of short lipopeptides with multiple modes of action.",
+                    "Pubmed ID": "24946217",
+                    "Reference": "Eur J Med Chem. 2014;83:36-44",
+                    "Author": "Fang Y, Zhong W, Wang Y, Xun T, Lin D, Liu W, Wang J, Lv L, Liu S, He J",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/24946217"
+                }
+            ],
+            "Mass": 646.78,
+            "PI": 10.0,
+            "Net Charge": 2,
+            "Hydrophobicity": -2.4,
+            "Frequent Amino Acids": "KW",
+            "Absent Amino Acids": "ACDEFGHILMNOPQRSTUVY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 0,
+            "Polar Residues": 4,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_21712",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03541",
+                    "Similarity": 1.0,
+                    "Sequence": "FPVTWRWWKWWKG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03542",
+                    "Similarity": 1.0,
+                    "Sequence": "FPVTWPTKWWKG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03543",
+                    "Similarity": 1.0,
+                    "Sequence": "FSIARLLKWWKG"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:55% Hemolysis=62.5-125 µg/ml,Human erythrocytes:65% Hemolysis=250 µg/ml",
+            "Target Organism": "Staphylococcus aureus ATCC 12600(MIC=3.9µg/ml),Escherichia coli ATCC 25922(MIC=7.8µg/ml),Candida albicans ATCC 14053(MIC=15.6µg/ml)"
+        }
+    }
+}

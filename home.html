@@ -1,0 +1,1957 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPADE - System for Antimicrobial Peptide Management and Database</title>
+    <link rel="shortcut icon" href="source/img/favicon.ico">
+
+    <!-- 关键CSS资源 - 优先加载 -->
+    <link rel="stylesheet" href="css/loading-indicator.css">
+    
+    <!-- 乐观加载器脚本 - 尽早加载以管理其他资源 -->
+    <script src="js/optimistic-loader.js"></script>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- ECharts -->
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+    
+    <!-- fullPage.js -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.20/fullpage.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.20/fullpage.min.js"></script>
+    
+    <!-- Translation Component -->
+    <!-- <link rel="stylesheet" href="css/translation-component.css">
+    <script src="js/translation-component.js"></script> -->
+    <link rel="stylesheet" href="css/language-selector-minimal.css">
+    <link rel="stylesheet" href="css/custom-fonts.css">
+    <script src="js/language-selector-minimal.js"></script>
+
+    <style>
+        :root {
+            --primary-color: #2b1055;
+            --secondary-color: #7597de;
+            --accent-color: #50e2c2;
+            --text-white: #ffffff;
+            --bg-black: #000000;
+            --bg-gradient: linear-gradient(135deg, #2b1055 0%, #1a0d3a 50%, #0a0a0a 100%);
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--bg-black);
+            color: var(--text-white);
+            overflow: hidden;
+        }
+        
+        /* Header Styles */
+        header {
+            background: linear-gradient(to bottom, rgba(43, 16, 85, 0.98) 0%, rgba(43, 16, 85, 0.9) 100%);
+            position: fixed; 
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 15px 100px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+            backdrop-filter: blur(8px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            transition: background 0.3s ease;
+        }
+
+        .logo-container {
+            position: relative;
+            display: inline-block;
+            align-items: center;
+        }
+
+        header .logo {
+            color: #fff;
+            font-weight: 800;
+            text-decoration: none;
+            font-size: 1.6em;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            display: flex;
+            align-items: center;
+        }
+        
+        header .logo img {
+            margin-right: 10px; 
+        }
+
+        header ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        header ul li {
+            list-style: none;
+            margin-left: 20px;
+        }
+        
+        header ul li a {
+            text-decoration: none;
+            padding: 6px 15px;
+            color: #fff;
+            border-radius: 20px;
+            transition: all 0.3s ease;
+        }
+
+        header ul li a:hover,
+        header ul li a.active {
+            background: rgba(255, 255, 255, 0.9);
+            color: #2b1055;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transform: translateY(-2px);
+        }
+
+        /* Navigation Toggle Button */
+        .nav-toggle {
+            display: none;
+            background: none;
+            border: none;
+            color: #fff;
+            font-size: 1.5em;
+            cursor: pointer;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #250b53;
+            color: white;
+            padding: 40px 20px;
+            position: relative;
+            z-index: 100;
+            width: 100%;
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .footer-section {
+            flex: 1;
+            min-width: 200px;
+            margin-bottom: 20px;
+        }
+
+        .footer-section h4 {
+            color: #9db4f0;
+            margin-bottom: 15px;
+        }
+
+        .footer-section ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-section ul li {
+            margin-bottom: 8px;
+        }
+
+        .footer-section ul li a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer-section ul li a:hover {
+            color: #9db4f0;
+        }
+
+        .footer-copyright {
+            text-align: right;
+            padding-top: 20px;
+            color: #aaa;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 1023px) {
+            header {
+                padding: 15px 50px;
+            }
+        }
+
+        @media (max-width: 767px) {
+            header {
+                padding: 12px 20px;
+            }
+
+            .nav-toggle {
+                display: block;
+            }
+
+            .nav-menu {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 100%;
+                background: rgba(43, 16, 85, 0.95);
+                flex-direction: column;
+                align-items: center;
+                padding: 20px 0;
+                z-index: 1000;
+                border-radius: 0 0 10px 10px;
+                box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+            }
+
+            .nav-menu.active {
+                display: flex;
+            }
+
+            .nav-menu li {
+                margin: 10px 0;
+            }
+            
+            .nav-menu li a {
+                padding: 8px 20px;
+                font-size: 1em;
+                border-radius: 25px;
+            }
+            
+            .logo {
+                font-size: 1.2em !important;
+            }
+            
+            .logo-container div {
+                font-size: 0.5em !important;
+            }
+            
+
+        }
+        
+        .section {
+            position: relative;
+            overflow: hidden;
+            background: var(--bg-gradient);
+        }
+        
+        .hero-gradient {
+            background: radial-gradient(ellipse at center, rgba(117, 151, 222, 0.15) 0%, rgba(43, 16, 85, 0.8) 50%, transparent 100%);
+        }
+        
+        .giant-text {
+            font-size: clamp(3rem, 12vw, 8rem);
+            font-weight: 900;
+            line-height: 0.9;
+            letter-spacing: -0.02em;
+            background: linear-gradient(135deg, #ffffff 0%, #7597de 50%, #50e2c2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .accent-glow {
+            font-family: 'Quantum', sans-serif;
+            color: var(--accent-color);
+            text-shadow: 0 0 30px rgba(80, 226, 194, 0.5);
+        }
+        
+        .secondary-glow {
+            color: var(--secondary-color);
+            text-shadow: 0 0 30px rgba(117, 151, 222, 0.5);
+        }
+        
+        .primary-glow {
+            color: var(--primary-color);
+            text-shadow: 0 0 30px rgba(43, 16, 85, 0.8);
+        }
+        
+        .parallax-element {
+            transition: transform 0.3s ease-out;
+        }
+        
+        .fade-in {
+            opacity: 0;
+            transform: translateY(50px);
+            transition: all 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        }
+        
+        .fade-in.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        .slide-in-left {
+            opacity: 0;
+            transform: translateX(-100px);
+            transition: all 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        }
+
+        .slide-in-left.active {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        .slide-in-right {
+            opacity: 0;
+            transform: translateX(100px);
+            transition: all 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        }
+
+        .slide-in-right.active {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        .scale-in {
+            opacity: 0;
+            transform: scale(0.8);
+            transition: all 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        }
+        
+        .scale-in.active {
+            opacity: 1;
+            transform: scale(1);
+        }
+        
+        .chart-container {
+            width: 100%;
+            height: 400px;
+            opacity: 0.9;
+        }
+        
+        .glass-card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 20px;
+            padding: 2rem;
+            transition: all 0.3s ease;
+        }
+        
+        .glass-card:hover {
+            background: rgba(255, 255, 255, 0.15);
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+        }
+        
+        .search-container {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 50px;
+            padding: 8px;
+            display: flex;
+            align-items: center;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .search-input {
+            flex: 1;
+            background: transparent;
+            border: none;
+            outline: none;
+            color: white;
+            font-size: 1.1rem;
+            padding: 12px 20px;
+        }
+        
+        .search-input::placeholder {
+            color: rgba(255, 255, 255, 0.6);
+        }
+        
+        .search-button {
+            background: linear-gradient(135deg, var(--secondary-color) 0%, var(--accent-color) 100%);
+            border: none;
+            border-radius: 50px;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .search-button:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 20px rgba(117, 151, 222, 0.4);
+        }
+        
+        .floating-particle {
+            position: absolute;
+            width: 4px;
+            height: 4px;
+            background: var(--accent-color);
+            border-radius: 50%;
+            opacity: 0.6;
+            animation: float 6s ease-in-out infinite;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-20px) rotate(180deg); }
+        }
+        
+        .feature-icon {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, var(--secondary-color) 0%, var(--accent-color) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .nav-dot {
+            position: relative;
+        }
+
+        .nav-dot::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 0;
+            height: 0;
+            background: var(--accent-color);
+            border-radius: 50%;
+            transition: all 0.3s ease;
+        }
+
+        .nav-dot.active::before {
+            width: 20px;
+            height: 20px;
+        }
+
+        .progress-line {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 2px;
+            height: 100%;
+            background: linear-gradient(to bottom, transparent 0%, var(--accent-color) 50%, transparent 100%);
+            opacity: 0.3;
+        }
+        
+        .counter-animation {
+            font-size: 4rem;
+            font-weight: 900;
+            background: linear-gradient(135deg, var(--secondary-color) 0%, var(--accent-color) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .header-fixed {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: rgba(43, 16, 85, 0.95);
+            backdrop-filter: blur(10px);
+            z-index: 1000;
+            padding: 1rem 2rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+
+
+        
+        .mobile-warning {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(43, 16, 85, 0.95);
+            backdrop-filter: blur(10px);
+            z-index: 10000;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 2rem;
+        }
+        
+        @media (max-width: 768px) {
+            .mobile-warning {
+                display: flex;
+            }
+            
+            .giant-text {
+                font-size: clamp(2rem, 8vw, 4rem);
+            }
+            
+            .chart-container {
+                height: 300px;
+            }
+        }
+        
+        /* 隐藏fullPage.js水印 */
+        .fp-watermark {
+            display: none !important;
+        }
+        
+        /* 自定义滚动条 */
+        #fp-nav ul li a span {
+            background: rgba(255, 255, 255, 0.3);
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            transition: all 0.3s ease;
+        }
+        
+        #fp-nav ul li a.active span {
+            background: var(--accent-color);
+            transform: scale(1.5);
+            box-shadow: 0 0 10px rgba(80, 226, 194, 0.5);
+        }
+        
+        #fp-nav ul li .fp-tooltip {
+            background: rgba(43, 16, 85, 0.9);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 8px;
+            color: white;
+            font-size: 0.8rem;
+            padding: 8px 12px;
+        }
+        
+        /* 3D轮播卡片样式 */
+        .carousel-3d-container {
+            position: relative;
+            width: 100%;
+            height: 400px;
+            perspective: 1000px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .carousel-3d-wrapper {
+            position: relative;
+            width: 280px;
+            height: 350px;
+            transform-style: preserve-3d;
+            transition: transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        }
+        
+        .carousel-3d-card {
+            position: absolute;
+            width: 280px;
+            height: 200px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 20px;
+            padding: 30px;
+            text-align: center;
+            transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            cursor: pointer;
+            overflow: hidden;
+        }
+        
+        .carousel-3d-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, 
+                rgba(117, 151, 222, 0.1) 0%, 
+                rgba(80, 226, 194, 0.1) 50%, 
+                rgba(43, 16, 85, 0.1) 100%);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .carousel-3d-card:hover::before {
+            opacity: 1;
+        }
+
+        .card-content {
+            position: relative;
+            z-index: 2;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .card-content h3 {
+            color: white;
+            font-weight: 600;
+        }
+        
+        .card-content p {
+            color: rgba(255, 255, 255, 0.8);
+            line-height: 1.5;
+        }
+        
+        /* 3D旋转位置 */
+        .carousel-3d-card[data-index="0"] {
+            transform: translate(-50%, -50%) rotateX(0deg) translateZ(150px);
+                opacity: 1;
+            z-index: 5;
+        }
+        
+        .carousel-3d-card[data-index="1"] {
+            transform: translate(-50%, -50%) rotateX(72deg) translateZ(150px);
+            opacity: 0.8;
+            z-index: 4;
+        }
+        
+        .carousel-3d-card[data-index="2"] {
+            transform: translate(-50%, -50%) rotateX(144deg) translateZ(150px);
+            opacity: 0.6;
+            z-index: 3;
+        }
+        
+        .carousel-3d-card[data-index="3"] {
+            transform: translate(-50%, -50%) rotateX(216deg) translateZ(150px);
+            opacity: 0.4;
+            z-index: 2;
+        }
+        
+        .carousel-3d-card[data-index="4"] {
+            transform: translate(-50%, -50%) rotateX(288deg) translateZ(150px);
+            opacity: 0.2;
+            z-index: 1;
+        }
+        
+        /* 轮播控制按钮 */
+        .carousel-3d-controls {
+            position: absolute;
+            right: -80px;
+            top: 50%;
+            transform: translateY(-50%);
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        
+        .carousel-btn {
+            width: 50px;
+            height: 50px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 50%;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 1.2rem;
+        }
+        
+        .carousel-btn:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: scale(1.1);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+        
+        .carousel-btn:active {
+            transform: scale(0.95);
+        }
+        
+        /* 神经网络层级样式 */
+        .neural-network-container {
+            width: 100%;
+            height: 500px;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 40px;
+            overflow: hidden;
+        }
+
+        .neural-layer {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            z-index: 2;
+        }
+        
+        .layer-title {
+            color: white;
+            font-size: 1rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+            text-align: center;
+            opacity: 0.9;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .layer-nodes {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            align-items: center;
+        }
+        
+        .neural-node {
+            width: 20px;
+            height: 20px;
+            background: rgba(117, 151, 222, 0.8);
+            border: 2px solid rgba(255, 255, 255, 0.4);
+            border-radius: 50%;
+            position: relative;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 0 10px rgba(117, 151, 222, 0.3);
+        }
+        
+        .neural-node::before {
+            content: '';
+            position: absolute;
+            top: -5px;
+            left: -5px;
+            right: -5px;
+            bottom: -5px;
+            background: radial-gradient(circle, rgba(117, 151, 222, 0.4) 0%, transparent 70%);
+            border-radius: 50%;
+            opacity: 0;
+            transform: scale(0.8);
+            transition: all 0.3s ease;
+        }
+        
+        .neural-node:hover {
+            transform: scale(1.3);
+            background: rgba(80, 226, 194, 0.9);
+            border-color: rgba(255, 255, 255, 0.8);
+            box-shadow: 0 0 20px rgba(80, 226, 194, 0.6);
+        }
+        
+        .neural-node:hover::before {
+            opacity: 1;
+            transform: scale(1.5);
+        }
+        
+        .neural-node.active {
+            background: rgba(80, 226, 194, 0.9);
+            animation: neuralPulse 2s infinite;
+        }
+        
+        .neural-node.flashing {
+            animation: neuralFlash 1.5s infinite;
+        }
+        
+        .neural-connections {
+        position: absolute;
+        top: 0;
+        left: 0;
+            z-index: 1;
+        pointer-events: none;
+    }
+    
+        .neural-connection {
+            stroke: rgba(117, 151, 222, 0.3);
+            stroke-width: 1.5;
+            fill: none;
+        transition: all 0.3s ease;
+        }
+        
+        .neural-connection.active {
+            stroke: rgba(80, 226, 194, 0.8);
+            stroke-width: 2;
+            animation: connectionPulse 2s infinite;
+        }
+        
+        /* 神经网络动画 */
+        @keyframes neuralPulse {
+            0% {
+                box-shadow: 0 0 10px rgba(117, 151, 222, 0.3);
+                transform: scale(1);
+            }
+            50% {
+                box-shadow: 0 0 25px rgba(80, 226, 194, 0.8);
+                transform: scale(1.2);
+            }
+            100% {
+                box-shadow: 0 0 10px rgba(117, 151, 222, 0.3);
+            transform: scale(1);
+        }
+    }
+    
+        @keyframes neuralFlash {
+            0%, 50%, 100% {
+                opacity: 1;
+                background: rgba(117, 151, 222, 0.8);
+            }
+            25%, 75% {
+                opacity: 0.3;
+                background: rgba(80, 226, 194, 0.9);
+            }
+        }
+        
+        @keyframes connectionPulse {
+            0%, 100% {
+                stroke-opacity: 0.3;
+        }
+        50% {
+                stroke-opacity: 0.8;
+            }
+        }
+        
+        /* 层级特定样式 */
+        .neural-layer[data-layer="input"] .neural-node {
+            width: 18px;
+            height: 18px;
+            background: rgba(117, 151, 222, 0.9);
+        }
+        
+        .neural-layer[data-layer="hidden1"] .neural-node {
+            width: 20px;
+            height: 20px;
+            background: rgba(80, 226, 194, 0.8);
+        }
+        
+        .neural-layer[data-layer="hidden2"] .neural-node {
+            width: 22px;
+            height: 22px;
+            background: rgba(43, 16, 85, 0.8);
+            border-color: rgba(117, 151, 222, 0.6);
+        }
+        
+        .neural-layer[data-layer="hidden3"] .neural-node {
+            width: 24px;
+            height: 24px;
+            background: rgba(117, 151, 222, 0.8);
+            border-color: rgba(80, 226, 194, 0.6);
+        }
+        
+        .neural-layer[data-layer="output"] .neural-node {
+            width: 26px;
+            height: 26px;
+            background: rgba(80, 226, 194, 0.9);
+            border-color: rgba(255, 255, 255, 0.8);
+        }
+        
+        /* 响应式适配 */
+        @media (max-width: 768px) {
+            .neural-network-container {
+                height: 400px;
+                padding: 20px;
+                flex-direction: column;
+                gap: 30px;
+            }
+            
+            .neural-layer {
+                width: 100%;
+            }
+            
+            .layer-nodes {
+                flex-direction: row;
+                gap: 10px;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            
+            .neural-node {
+                width: 16px;
+                height: 16px;
+            }
+            
+            .carousel-3d-container {
+                height: 350px;
+            }
+            
+            .carousel-3d-wrapper {
+                width: 250px;
+                height: 300px;
+            }
+            
+            .carousel-3d-card {
+                width: 250px;
+                height: 180px;
+                padding: 20px;
+            }
+            
+            .carousel-3d-controls {
+                right: -60px;
+            }
+            
+            .carousel-btn {
+                width: 40px;
+                height: 40px;
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- 加载指示器 -->
+    <div class="loading-indicator">
+        <div class="loading-spinner"></div>
+        <div class="loading-text" data-translate="loading_text">正在加载 SPADE...</div>
+        <div class="loading-progress-container">
+            <div class="loading-progress-bar" id="loadingProgressBar"></div>
+        </div>
+        <div class="loading-status" id="loadingStatus"></div>
+    </div>
+    
+    <!-- Header -->    
+    <header>
+        <div class="logo-container">
+            <a href="#" class="logo">
+                <img src="./source/img/logo.png" style="vertical-align: middle; height: 30px;">
+                <span style="font-family: 'Quantum', sans-serif;">SPADE</span>
+            </a>
+            <div style="color: white; font-size: 0.6em;">System for Antimicrobial Peptide<br>Management and Database</div>
+        </div>
+        <button class="nav-toggle" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-menu">
+                                    <li><a href="home.html" class="active" data-translate="home_nav">Home</a></li>
+                        <li><a href="search.html" data-translate="search_nav">Search</a></li>
+                        <li><a href="statistics.html" data-translate="statistics_nav">Statistics</a></li>
+                        <li><a href="tools.html" data-translate="tools_nav">Tools</a></li>
+        </ul>
+    </header>
+
+    <!-- 移动设备警告 -->
+    <div class="mobile-warning">
+        <div>
+            <i class="fas fa-mobile-alt text-6xl mb-4 accent-glow"></i>
+            <h2 class="text-2xl font-bold mb-4" data-translate="mobile_warning_title">Best Viewed on Desktop</h2>
+            <p class="text-lg opacity-80" data-translate="mobile_warning_text">For the optimal experience, please visit SPADE on a desktop or laptop computer.</p>
+                        </div>
+                </div>
+                
+    <!-- 可拖动的语言选择器 -->
+    <div class="language-selector" id="languageSelector">
+        <div class="language-current">
+            <i class="fas fa-globe"></i>
+        </div>
+    </div>
+    
+
+                
+    <!-- 全屏分页容器 -->
+    <div id="fullpage">
+        <!-- 1. 封面页 -->
+        <div class="section hero-gradient">
+            <div class="absolute inset-0 flex items-center justify-center">
+                <div class="text-center parallax-element">
+                    <div class="giant-text mb-6" data-translate="welcome_title">
+                        Welcome to <span class="accent-glow" style="font-family: 'Quantum', sans-serif;">SPADE</span>
+                    </div>
+                    <div class="text-xl md:text-2xl font-light mb-8 opacity-80" data-translate="welcome_subtitle">
+                        System for Antimicrobial Peptide Management and Database
+                    </div>
+                    <div class="search-container">
+                        <form id="searchForm" action="search.html" method="get" class="w-full flex">
+                            <input type="text" 
+                                   name="query"
+                                   class="search-input" 
+                                   placeholder="Enter peptide sequence..." 
+                                   data-translate-placeholder="search_placeholder">
+                            <button type="submit" class="search-button">
+                                <i class="fas fa-search text-white"></i>
+                </button>
+                        </form>
+            </div>
+        </div>
+            </div>
+            
+            <!-- 浮动粒子 -->
+            <div class="floating-particle" style="top: 20%; left: 10%; animation-delay: 0s;"></div>
+            <div class="floating-particle" style="top: 60%; right: 15%; animation-delay: 2s;"></div>
+            <div class="floating-particle" style="bottom: 30%; left: 20%; animation-delay: 4s;"></div>
+            
+            <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2">
+                <i class="fas fa-chevron-down text-2xl opacity-50 animate-bounce"></i>
+                </div>
+                </div>
+
+        <!-- 2. 什么是SPADE -->
+        <div class="section">
+            <div class="container mx-auto px-8 h-full flex items-center">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                    <div class="fade-in">
+                        <div class="text-5xl md:text-6xl font-bold mb-8">
+                            What is <span class="secondary-glow">SPADE</span>?
+                </div>
+                        <p class="text-xl leading-relaxed mb-6 opacity-90" data-translate="spade_description">
+                            SPADE is a comprehensive database and management system for antimicrobial peptides, 
+                            providing researchers with powerful tools for peptide discovery, analysis, and application.
+                        </p>
+                        <div class="text-sm font-light uppercase tracking-wider opacity-60">
+                            Antimicrobial Peptide Database System
+                </div>
+                </div>
+                    <div class="fade-in">
+                        <div class="carousel-3d-container">
+                            <div class="carousel-3d-wrapper" id="featureCarousel">
+                                <div class="carousel-3d-card" data-index="0">
+                                    <div class="card-content">
+                                        <i class="fas fa-shield-alt text-4xl mb-4 accent-glow"></i>
+                                        <h3 class="text-xl font-bold mb-3" data-translate="comprehensive_coverage">Comprehensive Coverage</h3>
+                                        <p class="text-sm opacity-80" data-translate="coverage_description">46,000+ verified antimicrobial peptides from diverse sources</p>
+            </div>
+          </div>
+                                <div class="carousel-3d-card" data-index="1">
+                                    <div class="card-content">
+                                        <i class="fas fa-search text-4xl mb-4 secondary-glow"></i>
+                                        <h3 class="text-xl font-bold mb-3" data-translate="advanced_search">Advanced Search</h3>
+                                        <p class="text-sm opacity-80" data-translate="advanced_search_description">Multi-parameter filtering and intelligent query system</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-3d-card" data-index="2">
+                                    <div class="card-content">
+                                        <i class="fas fa-chart-line text-4xl mb-4 primary-glow"></i>
+                                        <h3 class="text-xl font-bold mb-3" data-translate="data_analytics">Data Analytics</h3>
+                                        <p class="text-sm opacity-80" data-translate="analytics_description">Real-time visualization and statistical analysis tools</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-3d-card" data-index="3">
+                                    <div class="card-content">
+                                        <i class="fas fa-users text-4xl mb-4 accent-glow"></i>
+                                        <h3 class="text-xl font-bold mb-3" data-translate="global_collaboration">Global Collaboration</h3>
+                                        <p class="text-sm opacity-80" data-translate="collaboration_description">Connect with researchers worldwide for shared discoveries</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-3d-card" data-index="4">
+                                    <div class="card-content">
+                                        <i class="fas fa-brain text-4xl mb-4 secondary-glow"></i>
+                                        <h3 class="text-xl font-bold mb-3" data-translate="ai_insights">AI-Powered Insights</h3>
+                                        <p class="text-sm opacity-80" data-translate="ai_description">Machine learning algorithms for peptide prediction</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-3d-controls">
+                                <button class="carousel-btn carousel-prev" id="carouselPrev">
+                                    <i class="fas fa-chevron-up"></i>
+          </button>
+                                <button class="carousel-btn carousel-next" id="carouselNext">
+                                    <i class="fas fa-chevron-down"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 3. 核心功能 -->
+        <div class="section">
+            <div class="container mx-auto px-8 h-full flex flex-col justify-center">
+                <div class="text-center mb-16">
+                    <div class="text-5xl font-bold mb-4" data-translate="core_features">Core Features</div>
+                    <div class="text-sm font-light uppercase tracking-wider opacity-60">Advanced Research Tools</div>
+        </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                    <div class="fade-in glass-card text-center">
+                        <i class="fas fa-database feature-icon"></i>
+                        <div class="text-2xl font-bold mb-4" data-translate="comprehensive_database">Comprehensive Database</div>
+                        <p class="opacity-80" data-translate="database_description">
+                            Access over 46,000 antimicrobial peptides with detailed structural and functional data
+                        </p>
+                    </div>
+                    <div class="fade-in glass-card text-center">
+                        <i class="fas fa-search-plus feature-icon"></i>
+                        <div class="text-2xl font-bold mb-4" data-translate="advanced_search">Advanced Search</div>
+                        <p class="opacity-80" data-translate="search_description">
+                            Powerful filtering and search capabilities for precise peptide discovery
+                        </p>
+                    </div>
+                    <div class="fade-in glass-card text-center">
+                        <i class="fas fa-chart-line feature-icon"></i>
+                        <div class="text-2xl font-bold mb-4" data-translate="data_analysis">Data Analysis</div>
+                        <p class="opacity-80" data-translate="analysis_description">
+                            Comprehensive analysis tools for peptide structure and function research
+                        </p>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+        <!-- 4. 研究流程 -->
+        <div class="section">
+            <div class="container mx-auto px-8 h-full flex items-center">
+                <div class="w-full">
+                    <div class="text-center mb-12">
+                        <div class="text-5xl font-bold mb-4" data-translate="research_workflow">Research Workflow</div>
+                        <div class="text-sm font-light uppercase tracking-wider opacity-60">From Discovery to Application</div>
+                    </div>
+                    <div id="neuralNetworkCanvas" class="neural-network-container">
+                        <div class="neural-layer" data-layer="input">
+                            <div class="layer-title" data-translate="data_collection">Data Collection</div>
+                            <div class="layer-nodes">
+                                <div class="neural-node" data-node="input-1"></div>
+                                <div class="neural-node" data-node="input-2"></div>
+                                <div class="neural-node" data-node="input-3"></div>
+                                <div class="neural-node" data-node="input-4"></div>
+                                <div class="neural-node" data-node="input-5"></div>
+                                <div class="neural-node" data-node="input-6"></div>
+                                <div class="neural-node" data-node="input-7"></div>
+                                <div class="neural-node" data-node="input-8"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="neural-layer" data-layer="hidden1">
+                            <div class="layer-title" data-translate="processing">Processing</div>
+                            <div class="layer-nodes">
+                                <div class="neural-node" data-node="hidden1-1"></div>
+                                <div class="neural-node" data-node="hidden1-2"></div>
+                                <div class="neural-node" data-node="hidden1-3"></div>
+                                <div class="neural-node" data-node="hidden1-4"></div>
+                                <div class="neural-node" data-node="hidden1-5"></div>
+                                <div class="neural-node" data-node="hidden1-6"></div>
+            </div>
+                        </div>
+                        
+                        <div class="neural-layer" data-layer="hidden2">
+                            <div class="layer-title" data-translate="analysis">Analysis</div>
+                            <div class="layer-nodes">
+                                <div class="neural-node" data-node="hidden2-1"></div>
+                                <div class="neural-node" data-node="hidden2-2"></div>
+                                <div class="neural-node" data-node="hidden2-3"></div>
+                                <div class="neural-node" data-node="hidden2-4"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="neural-layer" data-layer="hidden3">
+                            <div class="layer-title" data-translate="visualization">Visualization</div>
+                            <div class="layer-nodes">
+                                <div class="neural-node" data-node="hidden3-1"></div>
+                                <div class="neural-node" data-node="hidden3-2"></div>
+                                <div class="neural-node" data-node="hidden3-3"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="neural-layer" data-layer="output">
+                            <div class="layer-title" data-translate="application">Application</div>
+                            <div class="layer-nodes">
+                                <div class="neural-node" data-node="output-1"></div>
+                                <div class="neural-node" data-node="output-2"></div>
+                    </div>
+                </div>
+                
+                        <svg class="neural-connections" width="100%" height="100%">
+                            <!-- 连接线将通过JavaScript动态生成 -->
+                        </svg>
+                    </div>
+                </div>
+                </div>
+            </div>
+            
+        <!-- 5. 数据统计 -->
+        <div class="section">
+            <div class="container mx-auto px-8 h-full flex flex-col justify-center">
+                <div class="text-center mb-16">
+                    <div class="text-5xl font-bold mb-4" data-translate="database_statistics">Database Statistics</div>
+                    <div class="text-sm font-light uppercase tracking-wider opacity-60">Real-time Data Overview</div>
+                    </div>
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                    <div class="fade-in text-center">
+                        <div class="counter-animation" data-target="46877">0</div>
+                        <div class="text-xl font-semibold mt-2" data-translate="peptides_count">Peptides</div>
+                        <div class="text-sm opacity-60" data-translate="total_sequences">Total Sequences</div>
+                </div>
+                    <div class="fade-in text-center">
+                        <div class="counter-animation" data-target="358">0</div>
+                        <div class="text-xl font-semibold mt-2" data-translate="institutions_count">Institutions</div>
+                        <div class="text-sm opacity-60" data-translate="research_centers">Research Centers</div>
+                    </div>
+                    <div class="fade-in text-center">
+                        <div class="counter-animation" data-target="4328">0</div>
+                        <div class="text-xl font-semibold mt-2" data-translate="publications_count">Publications</div>
+                        <div class="text-sm opacity-60" data-translate="scientific_papers">Scientific Papers</div>
+                </div>
+                    <div class="fade-in text-center">
+                        <div class="counter-animation" data-target="342">0</div>
+                        <div class="text-xl font-semibold mt-2" data-translate="targets_count">Targets</div>
+                        <div class="text-sm opacity-60" data-translate="bacterial_strains">Bacterial Strains</div>
+            </div>
+                    </div>
+                <div class="mt-16">
+                    <div id="statisticsChart" class="chart-container"></div>
+                </div>
+            </div>
+                </div>
+                
+        <!-- 6. 应用案例 -->
+        <div class="section">
+            <div class="container mx-auto px-8 h-full flex items-center">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                    <div class="fade-in">
+                        <div class="text-5xl font-bold mb-8" data-translate="use_cases">Use Cases</div>
+                        <div class="text-sm font-light uppercase tracking-wider opacity-60 mb-8">Real-world Applications</div>
+                        <div class="space-y-6">
+                            <div class="glass-card">
+                                <div class="flex items-center mb-2">
+                                    <i class="fas fa-microscope text-2xl accent-glow mr-4"></i>
+                                    <div class="text-xl font-semibold" data-translate="drug_discovery">Drug Discovery</div>
+                    </div>
+                                <p class="opacity-80" data-translate="drug_discovery_desc">
+                                    Accelerate antimicrobial drug development through comprehensive peptide analysis
+                                </p>
+                </div>
+                            <div class="glass-card">
+                                <div class="flex items-center mb-2">
+                                    <i class="fas fa-dna text-2xl secondary-glow mr-4"></i>
+                                    <div class="text-xl font-semibold" data-translate="genomic_research">Genomic Research</div>
+            </div>
+                                <p class="opacity-80" data-translate="genomic_research_desc">
+                                    Explore peptide-genome relationships and evolutionary patterns
+                                </p>
+        </div>
+                            <div class="glass-card">
+                                <div class="flex items-center mb-2">
+                                    <i class="fas fa-flask text-2xl primary-glow mr-4"></i>
+                                    <div class="text-xl font-semibold" data-translate="biotech_applications">Biotech Applications</div>
+        </div>
+                                <p class="opacity-80" data-translate="biotech_applications_desc">
+                                    Industrial applications in biotechnology and pharmaceutical sectors
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fade-in">
+                        <div id="applicationsChart" class="chart-container"></div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            
+        <!-- 7. 研究网络 -->
+        <!-- <div class="section">
+            <div class="container mx-auto px-8 h-full flex items-center">
+                <div class="w-full">
+                    <div class="text-center mb-12">
+                        <div class="text-5xl font-bold mb-4" data-translate="global_network">Global Research Network</div>
+                        <div class="text-sm font-light uppercase tracking-wider opacity-60">Worldwide Collaboration</div>
+                </div>
+                    <img src="./source/img/introduce/1.jpg" alt="Global Research Network" class="w-1/4 h-auto rounded-lg shadow-lg">
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                        <div class="fade-in glass-card text-center">
+                            <i class="fas fa-university text-4xl accent-glow mb-4"></i>
+                            <div class="text-xl font-semibold" data-translate="academic_partners">Academic Partners</div>
+                            <p class="opacity-80 mt-2" data-translate="academic_partners_desc">Leading universities and research institutions</p>
+                    </div>
+                        <div class="fade-in glass-card text-center">
+                            <i class="fas fa-industry text-4xl secondary-glow mb-4"></i>
+                            <div class="text-xl font-semibold" data-translate="industry_collaborations">Industry Collaborations</div>
+                            <p class="opacity-80 mt-2" data-translate="industry_collaborations_desc">Pharmaceutical and biotech companies</p>
+                </div>
+                        <div class="fade-in glass-card text-center">
+                            <i class="fas fa-globe text-4xl primary-glow mb-4"></i>
+                            <div class="text-xl font-semibold" data-translate="global_reach">Global Reach</div>
+                            <p class="opacity-80 mt-2" data-translate="global_reach_desc">International research communities</p>
+                </div>
+            </div>
+                </div>
+            </div>
+        </div> -->
+
+        <!-- 8. 未来展望 -->
+        <div class="section">
+            <div class="container mx-auto px-8 h-full flex items-center">
+                <div class="text-center w-full">
+                    <div class="text-6xl font-bold mb-8" data-translate="future_outlook">Future Outlook</div>
+                    <div class="text-sm font-light uppercase tracking-wider opacity-60 mb-12">Next Generation Research</div>
+                    <div class="max-w-4xl mx-auto">
+                        <p class="text-2xl leading-relaxed mb-8 opacity-90" data-translate="future_description">
+                            SPADE will evolve into a comprehensive AI-powered platform, 
+                            integrating machine learning for peptide prediction and optimization, 
+                            ultimately accelerating the discovery of novel antimicrobial solutions.
+                        </p>
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
+                            <div class="fade-in glass-card text-center">
+                                <div class="text-4xl font-bold accent-glow mb-2" style="font-family: 'Inter', sans-serif;">2025</div>
+                                <div class="text-lg font-semibold mb-2" data-translate="ai_integration">AI Integration</div>
+                                <div class="text-sm opacity-60" data-translate="ai_integration_desc">Machine learning algorithms</div>
+            </div>
+                            <div class="fade-in glass-card text-center">
+                                <div class="text-4xl font-bold secondary-glow mb-2">2027</div>
+                                <div class="text-lg font-semibold mb-2" data-translate="predictive_modeling">Predictive Modeling</div>
+                                <div class="text-sm opacity-60" data-translate="predictive_modeling_desc">Advanced drug prediction</div>
+            </div>
+                            <div class="fade-in glass-card text-center">
+                                <div class="text-4xl font-bold secondary-glow mb-2">2030</div>
+                                <div class="text-lg font-semibold mb-2" data-translate="personalized_medicine">Personalized Medicine</div>
+                                <div class="text-sm opacity-60" data-translate="personalized_medicine_desc">Tailored antimicrobial solutions</div>
+            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 9. Footer Section -->
+        <div class="section">
+            <div class="container mx-auto px-8 h-full flex items-center justify-center">
+                <div class="w-full">
+                    <footer>
+                        <div class="footer-content">
+                            <!-- About Section -->
+                            <div class="footer-section">
+                                <h4 id="about-spade-footer">About</h4>
+                                <ul>
+                                    <li><a href="spade.html#about-spade-footer">About SPADE</a></li>
+                                    <li><a id="advertising-policy-footer" href="spade.html#advertising-policy-footer">Advertising policy</a></li>
+                                    <li><a id="attribution-citations-footer" href="spade.html#attribution-citations-footer">Attribution & citations</a></li>
+                                </ul>
+                            </div>
+                            
+                            <!-- Terms & Privacy Section -->
+                            <div class="footer-section">
+                                <h4 id="terms-of-use-footer">Terms & privacy</h4>
+                                <ul>
+                                    <li><a href="spade.html#terms-of-use-footer">Terms of use</a></li>
+                                    <li><a id="editorial-policy-footer" href="spade.html#editorial-policy-footer">Editorial policy</a></li>
+                                    <li><a id="privacy-policy-footer" href="spade.html#privacy-policy-footer">Privacy policy</a></li>
+                                </ul>
+                            </div>
+                            
+                            <!-- Support Section -->
+                            <div class="footer-section">
+                                <h4 id="help-center-footer">Support</h4>
+                                <ul>
+                                    <li><a href="spade.html#help-center-footer">Help center</a></li>
+                                    <li><a id="sitemap-footer" href="spade.html#sitemap-footer">Sitemap</a></li>
+                                    <li><a id="contact-us-footer" href="spade.html#contact-us-footer">Contact us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="footer-copyright">
+                            &copy; SPADE.
+                        </div>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // 更新加载进度条函数
+        function updateLoadingProgress(percent, statusText) {
+            const progressBar = document.getElementById('loadingProgressBar');
+            const statusElement = document.getElementById('loadingStatus');
+            
+            if (progressBar) {
+                progressBar.style.width = `${percent}%`;
+            }
+            
+            if (statusElement && statusText) {
+                statusElement.textContent = statusText;
+            }
+        }
+        
+        // 初始加载进度
+        updateLoadingProgress(10, '初始化页面...');
+        
+        // 为页面元素添加动画类
+        function addAnimationClasses() {
+            const sections = document.querySelectorAll('.section > div > div');
+            sections.forEach(section => {
+                section.classList.add('section-animation');
+            });
+        }
+        
+        // DOM内容加载完成
+        document.addEventListener('DOMContentLoaded', function() {
+            // 更新加载进度
+            updateLoadingProgress(50, '加载核心组件...');
+            
+            // 添加动画类
+            addAnimationClasses();
+            
+            // 语言切换器的事件处理已经在translation-component.js中实现
+            // 这里只需要确保组件已初始化
+            if (window.SPADE_TRANSLATION_UTILS && !window.SPADE_TRANSLATION_UTILS.initialized) {
+                window.SPADE_TRANSLATION_UTILS.initialize();
+            }
+            
+            // 更新加载进度
+            updateLoadingProgress(75, '准备页面内容...');
+        });
+        
+        // 页面完全加载完成
+        window.addEventListener('load', function() {
+            // 更新最终加载进度
+            updateLoadingProgress(100, '加载完成');
+            
+            // 延迟移除加载指示器，给用户一个完成的视觉反馈
+            setTimeout(function() {
+                const loadingIndicator = document.querySelector('.loading-indicator');
+                if (loadingIndicator) {
+                    loadingIndicator.classList.add('fade-out');
+                    
+                    // 完全移除加载指示器
+                    setTimeout(function() {
+                        loadingIndicator.style.display = 'none';
+                        document.body.classList.add('fully-loaded');
+                    }, 500);
+                }
+            }, 300);
+        });
+        
+
+
+        // fullPage.js 初始化
+        new fullpage('#fullpage', {
+            autoScrolling: true,
+            scrollingSpeed: 1000,
+            navigation: true,
+            navigationPosition: 'right',
+            showActiveTooltip: true,
+            navigationTooltips: ['Home', 'About', 'Features', 'Workflow', 'Statistics', 'Applications', 'Future', 'Info'],
+            easing: 'easeInOutCubic',
+            paddingTop: '80px', // 为header留出空间
+            // licenseKey: 'YOUR_KEY_HERE', // 免费版本不需要许可证密钥
+            onLeave: function(origin, destination, direction) {
+                // 重置所有动画元素
+                const elements = destination.item.querySelectorAll('.fade-in, .slide-in-left, .slide-in-right, .scale-in');
+                elements.forEach(el => {
+                    el.classList.remove('active');
+                });
+                
+                // 延迟添加动画类
+                setTimeout(() => {
+                    elements.forEach((el, index) => {
+                        setTimeout(() => {
+                            el.classList.add('active');
+                        }, index * 100);
+                    });
+                }, 200);
+            },
+            afterLoad: function(origin, destination) {
+                // 视差效果
+                const parallaxElements = destination.item.querySelectorAll('.parallax-element');
+                
+                const handleMouseMove = (e) => {
+                    const x = (e.clientX / window.innerWidth - 0.5) * 30;
+                    const y = (e.clientY / window.innerHeight - 0.5) * 30;
+                    parallaxElements.forEach(el => {
+                        el.style.transform = `translate(${x}px, ${y}px)`;
+                    });
+                };
+                
+                window.addEventListener('mousemove', handleMouseMove);
+                
+                // 数字计数动画
+                if (destination.index === 4) { // 统计页面
+                    animateCounters();
+                }
+            }
+        });
+
+        // 数字计数动画
+        function animateCounters() {
+            const counters = document.querySelectorAll('.counter-animation');
+            counters.forEach(counter => {
+                const target = parseInt(counter.getAttribute('data-target'));
+                const increment = target / 100;
+                let current = 0;
+                
+                const updateCounter = () => {
+                    current += increment;
+                    if (current < target) {
+                        counter.textContent = Math.floor(current);
+                        requestAnimationFrame(updateCounter);
+                    } else {
+                        counter.textContent = target;
+                    }
+                };
+                
+                updateCounter();
+            });
+        }
+
+        // 3D轮播卡片控制
+        class Carousel3D {
+            constructor() {
+                this.currentIndex = 0;
+                this.cards = document.querySelectorAll('.carousel-3d-card');
+                this.wrapper = document.getElementById('featureCarousel');
+                this.totalCards = this.cards.length;
+                this.angleStep = 360 / this.totalCards;
+                this.init();
+            }
+            
+            init() {
+                this.updatePositions();
+                this.bindEvents();
+                this.startAutoRotation();
+            }
+            
+            updatePositions() {
+                this.cards.forEach((card, index) => {
+                    const angle = (index - this.currentIndex) * this.angleStep;
+                    const rotateX = angle;
+                    const translateZ = 150;
+                    
+                    // 计算透明度和层级
+                    let opacity = 1;
+                    let zIndex = 5;
+                    
+                    if (index === this.currentIndex) {
+                        opacity = 1;
+                        zIndex = 5;
+                    } else {
+                        const distance = Math.abs(index - this.currentIndex);
+                        const adjustedDistance = Math.min(distance, this.totalCards - distance);
+                        opacity = Math.max(0.2, 1 - adjustedDistance * 0.2);
+                        zIndex = 5 - adjustedDistance;
+                    }
+                    
+                    card.style.transform = `translate(-50%, -50%) rotateX(${rotateX}deg) translateZ(${translateZ}px)`;
+                    card.style.opacity = opacity;
+                    card.style.zIndex = zIndex;
+                    
+                    // 更新data-index以便CSS识别
+                    card.setAttribute('data-index', (index - this.currentIndex + this.totalCards) % this.totalCards);
+                });
+            }
+            
+            next() {
+                this.currentIndex = (this.currentIndex + 1) % this.totalCards;
+                this.updatePositions();
+                this.resetAutoRotation();
+            }
+            
+            prev() {
+                this.currentIndex = (this.currentIndex - 1 + this.totalCards) % this.totalCards;
+                this.updatePositions();
+                this.resetAutoRotation();
+            }
+            
+            bindEvents() {
+                const prevBtn = document.getElementById('carouselPrev');
+                const nextBtn = document.getElementById('carouselNext');
+                
+                if (prevBtn) {
+                    prevBtn.addEventListener('click', () => this.prev());
+                }
+                
+                if (nextBtn) {
+                    nextBtn.addEventListener('click', () => this.next());
+                }
+                
+                // 卡片点击事件
+                this.cards.forEach((card, index) => {
+                    card.addEventListener('click', () => {
+                        this.currentIndex = index;
+                        this.updatePositions();
+                        this.resetAutoRotation();
+                });
+            });
+            
+                // 鼠标悬停暂停自动旋转
+                this.wrapper.addEventListener('mouseenter', () => {
+                    this.stopAutoRotation();
+                });
+                
+                this.wrapper.addEventListener('mouseleave', () => {
+                    this.startAutoRotation();
+                });
+            }
+            
+            startAutoRotation() {
+                this.autoRotationTimer = setInterval(() => {
+                    this.next();
+                }, 4000); // 每4秒自动切换
+            }
+            
+            stopAutoRotation() {
+                if (this.autoRotationTimer) {
+                    clearInterval(this.autoRotationTimer);
+                    this.autoRotationTimer = null;
+                }
+            }
+            
+            resetAutoRotation() {
+                this.stopAutoRotation();
+                this.startAutoRotation();
+            }
+        }
+
+        // ECharts 图表配置
+        document.addEventListener('DOMContentLoaded', function() {
+            // 初始化3D轮播
+            const carousel3D = new Carousel3D();
+
+            // 神经网络层级控制
+            class NeuralNetworkVisualizer {
+                constructor() {
+                    this.container = document.getElementById('neuralNetworkCanvas');
+                    this.svg = this.container.querySelector('.neural-connections');
+                    this.layers = {
+                        input: { nodes: 8, name: 'input' },
+                        hidden1: { nodes: 6, name: 'hidden1' },
+                        hidden2: { nodes: 4, name: 'hidden2' },
+                        hidden3: { nodes: 3, name: 'hidden3' },
+                        output: { nodes: 2, name: 'output' }
+                    };
+                    this.activationHistory = new Set(); // 记录已激活的节点
+                    this.connectionHistory = new Set(); // 记录已激活的连接
+                    this.init();
+                }
+                
+                init() {
+                    this.createConnections();
+                    this.startInitialActivation();
+                    this.bindEvents();
+                }
+                
+                createConnections() {
+                    const layerOrder = ['input', 'hidden1', 'hidden2', 'hidden3', 'output'];
+                    
+                    for (let i = 0; i < layerOrder.length - 1; i++) {
+                        const currentLayer = layerOrder[i];
+                        const nextLayer = layerOrder[i + 1];
+                        
+                        const currentNodes = this.container.querySelectorAll(`[data-layer="${currentLayer}"] .neural-node`);
+                        const nextNodes = this.container.querySelectorAll(`[data-layer="${nextLayer}"] .neural-node`);
+                        
+                        currentNodes.forEach(currentNode => {
+                            nextNodes.forEach(nextNode => {
+                                this.createConnection(currentNode, nextNode);
+                            });
+                        });
+                    }
+                }
+                
+                createConnection(fromNode, toNode) {
+                    const fromRect = fromNode.getBoundingClientRect();
+                    const toRect = toNode.getBoundingClientRect();
+                    const containerRect = this.container.getBoundingClientRect();
+                    
+                    const x1 = fromRect.left + fromRect.width / 2 - containerRect.left;
+                    const y1 = fromRect.top + fromRect.height / 2 - containerRect.top;
+                    const x2 = toRect.left + toRect.width / 2 - containerRect.left;
+                    const y2 = toRect.top + toRect.height / 2 - containerRect.top;
+                    
+                    const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+                    line.setAttribute('x1', x1);
+                    line.setAttribute('y1', y1);
+                    line.setAttribute('x2', x2);
+                    line.setAttribute('y2', y2);
+                    line.setAttribute('class', 'neural-connection');
+                    line.setAttribute('data-from', fromNode.getAttribute('data-node'));
+                    line.setAttribute('data-to', toNode.getAttribute('data-node'));
+                    
+                    this.svg.appendChild(line);
+                }
+                
+                // 首次加载时的随机激活
+                startInitialActivation() {
+                    // 延迟启动，确保页面完全加载
+                    setTimeout(() => {
+                        this.triggerRandomActivation();
+                        
+                        // 每3-6秒触发一次随机激活
+                        setInterval(() => {
+                            this.triggerRandomActivation();
+                        }, Math.random() * 3000 + 3000);
+                    }, 2000);
+                }
+                
+                // 随机激活单个节点
+                triggerRandomActivation() {
+                    const nodes = this.container.querySelectorAll('.neural-node');
+                    const availableNodes = Array.from(nodes).filter(node => 
+                        !this.activationHistory.has(node.getAttribute('data-node'))
+                    );
+                    
+                    if (availableNodes.length === 0) {
+                        // 如果所有节点都已激活过，重置历史记录
+                        this.activationHistory.clear();
+                        this.connectionHistory.clear();
+                        return;
+                    }
+                    
+                    // 随机选择一个节点
+                    const randomNode = availableNodes[Math.floor(Math.random() * availableNodes.length)];
+                    const nodeId = randomNode.getAttribute('data-node');
+                    
+                    // 激活节点
+                    this.activateNode(randomNode);
+                    this.activationHistory.add(nodeId);
+                    
+                    // 延迟激活下一层的随机节点
+                    setTimeout(() => {
+                        this.activateNextLayerNodes(randomNode);
+                    }, 800);
+                }
+                
+                // 激活单个节点
+                activateNode(node) {
+                    node.classList.add('flashing');
+                    
+                    // 激活相关连接
+                    const nodeId = node.getAttribute('data-node');
+                    const connections = this.svg.querySelectorAll(`[data-from="${nodeId}"], [data-to="${nodeId}"]`);
+                    
+                    connections.forEach(connection => {
+                        const connectionId = `${connection.getAttribute('data-from')}-${connection.getAttribute('data-to')}`;
+                        if (!this.connectionHistory.has(connectionId)) {
+                            connection.classList.add('active');
+                            this.connectionHistory.add(connectionId);
+                            
+                            setTimeout(() => {
+                                connection.classList.remove('active');
+                            }, 2000);
+                        }
+                    });
+                    
+                    setTimeout(() => {
+                        node.classList.remove('flashing');
+                    }, 2000);
+                }
+                
+                // 激活下一层的随机节点
+                activateNextLayerNodes(sourceNode) {
+                    const sourceLayer = sourceNode.closest('.neural-layer').getAttribute('data-layer');
+                    const layerOrder = ['input', 'hidden1', 'hidden2', 'hidden3', 'output'];
+                    const currentIndex = layerOrder.indexOf(sourceLayer);
+                    
+                    if (currentIndex >= layerOrder.length - 1) return;
+                    
+                    const nextLayer = layerOrder[currentIndex + 1];
+                    const nextLayerNodes = this.container.querySelectorAll(`[data-layer="${nextLayer}"] .neural-node`);
+                    
+                    // 随机选择1-3个下一层节点进行激活
+                    const activationCount = Math.floor(Math.random() * 3) + 1;
+                    const availableNodes = Array.from(nextLayerNodes).filter(node => 
+                        !this.activationHistory.has(node.getAttribute('data-node'))
+                    );
+                    
+                    if (availableNodes.length === 0) return;
+                    
+                    // 随机选择节点
+                    const selectedNodes = [];
+                    const maxSelect = Math.min(activationCount, availableNodes.length);
+                    
+                    for (let i = 0; i < maxSelect; i++) {
+                        const randomIndex = Math.floor(Math.random() * availableNodes.length);
+                        selectedNodes.push(availableNodes[randomIndex]);
+                        availableNodes.splice(randomIndex, 1);
+                    }
+                    
+                    // 激活选中的节点
+                    selectedNodes.forEach((node, index) => {
+                        setTimeout(() => {
+                            this.activateNode(node);
+                            this.activationHistory.add(node.getAttribute('data-node'));
+                        }, index * 300); // 每个节点间隔300ms激活
+                    });
+                }
+                
+                bindEvents() {
+                    const nodes = this.container.querySelectorAll('.neural-node');
+                    
+                    nodes.forEach(node => {
+                        node.addEventListener('mouseenter', () => {
+                            this.highlightNodeConnections(node);
+                        });
+                        
+                        node.addEventListener('mouseleave', () => {
+                            this.unhighlightConnections();
+                        });
+                        
+                        node.addEventListener('click', () => {
+                            this.triggerNodeActivation(node);
+                        });
+                    });
+                }
+                
+                highlightNodeConnections(node) {
+                    const nodeId = node.getAttribute('data-node');
+                    const connections = this.svg.querySelectorAll(`[data-from="${nodeId}"], [data-to="${nodeId}"]`);
+                    
+                    connections.forEach(connection => {
+                        connection.style.stroke = 'rgba(80, 226, 194, 0.8)';
+                        connection.style.strokeWidth = '2.5';
+                    });
+                }
+                
+                unhighlightConnections() {
+                    const connections = this.svg.querySelectorAll('.neural-connection');
+                    connections.forEach(connection => {
+                        connection.style.stroke = '';
+                        connection.style.strokeWidth = '';
+                    });
+                }
+                
+                triggerNodeActivation(node) {
+                    node.classList.add('active');
+                    
+                    // 激活相关连接
+                    const nodeId = node.getAttribute('data-node');
+                    const connections = this.svg.querySelectorAll(`[data-from="${nodeId}"], [data-to="${nodeId}"]`);
+                    
+                    connections.forEach(connection => {
+                        connection.classList.add('active');
+                        setTimeout(() => {
+                            connection.classList.remove('active');
+                        }, 2000);
+                    });
+                    
+                    setTimeout(() => {
+                        node.classList.remove('active');
+                    }, 2000);
+                }
+            }
+            
+            // 初始化神经网络可视化（延迟执行以确保DOM完全加载）
+            setTimeout(() => {
+                const neuralNetwork = new NeuralNetworkVisualizer();
+            }, 100);
+
+            // 统计图表
+            const statisticsChart = echarts.init(document.getElementById('statisticsChart'));
+            statisticsChart.setOption({
+                backgroundColor: 'transparent',
+                xAxis: {
+                    type: 'category',
+                    data: ['Peptides', 'Institutions', 'Publications', 'Targets', 'Users'],
+                    axisLine: { lineStyle: { color: 'rgba(255,255,255,0.3)' } },
+                    axisLabel: { color: '#fff' }
+                },
+                yAxis: {
+                    type: 'value',
+                    axisLine: { lineStyle: { color: 'rgba(255,255,255,0.3)' } },
+                    axisLabel: { color: '#fff' },
+                    splitLine: { lineStyle: { color: 'rgba(255,255,255,0.1)' } }
+                },
+                series: [{
+                    data: [4600, 3580, 4300, 3420, 5000],
+                    type: 'bar',
+                    itemStyle: {
+                        color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
+                            { offset: 0, color: '#7597de' },
+                            { offset: 1, color: '#50e2c2' }
+                        ])
+                    },
+                    emphasis: {
+                        itemStyle: {
+                            color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
+                                { offset: 0, color: '#50e2c2' },
+                                { offset: 1, color: '#7597de' }
+                            ])
+                        }
+                    }
+                }]
+            });
+
+            // 应用案例图表
+            const applicationsChart = echarts.init(document.getElementById('applicationsChart'));
+            applicationsChart.setOption({
+                backgroundColor: 'transparent',
+                series: [{
+                    type: 'pie',
+                    radius: ['40%', '70%'],
+                    avoidLabelOverlap: false,
+                    label: {
+                        show: true,
+                        position: 'outside',
+                        color: '#fff',
+                        fontSize: 14
+                    },
+                    emphasis: {
+                        label: {
+                            show: true,
+                            fontSize: 16,
+                            fontWeight: 'bold'
+                        }
+                    },
+                    labelLine: {
+                        show: true,
+                        lineStyle: {
+                            color: 'rgba(255,255,255,0.5)'
+                        }
+                    },
+                    data: [
+                        { value: 35, name: 'Drug Discovery' },
+                        { value: 28, name: 'Genomic Research' },
+                        { value: 20, name: 'Biotech Applications' },
+                        { value: 17, name: 'Academic Research' }
+                    ],
+                    itemStyle: {
+                        color: function(params) {
+                            const colors = ['#7597de', '#50e2c2', '#2b1055', '#9db4f0'];
+                            return colors[params.dataIndex];
+                        }
+                    }
+                }]
+            });
+
+            // 响应式处理
+            window.addEventListener('resize', () => {
+                statisticsChart.resize();
+                applicationsChart.resize();
+                
+                // 重新绘制神经网络连接线
+                setTimeout(() => {
+                    const neuralContainer = document.getElementById('neuralNetworkCanvas');
+                    if (neuralContainer) {
+                        const svg = neuralContainer.querySelector('.neural-connections');
+                        if (svg) {
+                            svg.innerHTML = '';
+                            const neuralNetwork = new NeuralNetworkVisualizer();
+                        }
+                    }
+                }, 100);
+            });
+
+            // 初始化翻译（由translation-component.js处理）
+            
+            // 移动端导航菜单切换
+            const navToggle = document.querySelector('.nav-toggle');
+            const navMenu = document.querySelector('.nav-menu');
+            
+            if (navToggle && navMenu) {
+                navToggle.addEventListener('click', () => {
+                    navMenu.classList.toggle('active');
+                });
+                
+                // 点击菜单项后关闭菜单
+                const navLinks = navMenu.querySelectorAll('a');
+                navLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        navMenu.classList.remove('active');
+                    });
+                });
+            }
+        });
+    </script>
+</body>
+</html>
+

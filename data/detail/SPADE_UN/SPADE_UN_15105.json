@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_15105": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_15105",
+            "Peptide Name": "Apelin-12",
+            "Source": "Synthetic construct",
+            "Family": "Retroviridae",
+            "Gene": "Not found",
+            "Sequence": "RPRLSHKGPMPF",
+            "Sequence Length": 12,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q9TUI9##K7GLR4"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antiviral"
+            ],
+            "Target Organism": "[Ref.10802050]HIV:Inhibition of HIV infection in NP-2/CD4/APJ cells(IC50=63.0 μg/ml).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information or data found in the reference(s) presented in this entry",
+            "Binding Target": "APJ receptor",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C64H103N21O14S",
+            "Mass": 1422.7,
+            "PI": 12.0,
+            "Net Charge": 4,
+            "Hydrophobicity": -1.13,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Mechanism of action": "APJ receptor could help HIV virus enter the target cells. The peptide can bind with APJ receptor and block virus entry, thus inhibiting virus infection.",
+            "Literature": [
+                {
+                    "Title": "Apelin peptides block the entry of human immunodeficiency virus (HIV).",
+                    "Pubmed ID": "10802050",
+                    "Reference": "FEBS Lett. 2000 May 4;473(1)15-8.",
+                    "Author": "Zou MX, Liu HY, Haraguchi Y, Soda Y, Tatemoto K, Hoshino H.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=10802050"
+                }
+            ],
+            "Frequent Amino Acids": "PRF",
+            "Absent Amino Acids": "ACDEINOQTUVWY",
+            "Basic Residues": 4,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 5,
+            "Positive Residues": 4,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06237",
+                    "Similarity": 1.0,
+                    "Sequence": "QRPRLSHKGPMPF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06238",
+                    "Similarity": 1.0,
+                    "Sequence": "LVQPRGPRSGPGPWQGGRRKFRRQRPRLSHKGPMPF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10950",
+                    "Similarity": 1.0,
+                    "Sequence": "RRIRPRPR"
+                }
+            ]
+        }
+    }
+}

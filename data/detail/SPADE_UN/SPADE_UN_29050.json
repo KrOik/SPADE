@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_29050": {
+        "Sequence Information": {
+            "Peptide Name": "",
+            "Sequence": "WWRWRW",
+            "Sequence Length": 6,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Antimicrobial activity of short arginine- and tryptophan-rich peptides.",
+                    "Pubmed ID": "12212806",
+                    "Reference": "J Pept Sci. 2002;8:431-437",
+                    "Author": "Strøm MB, Rekdal O, Svendsen JS",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/12212806"
+                }
+            ],
+            "Mass": 1075.23,
+            "PI": 12.0,
+            "Net Charge": 2,
+            "Hydrophobicity": -2.1,
+            "Frequent Amino Acids": "WR",
+            "Absent Amino Acids": "ACDEFGHIKLMNOPQSTUVY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 0,
+            "Polar Residues": 6,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_29050",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_08803",
+                    "Similarity": 1.0,
+                    "Sequence": "RRWRRWWRRWRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08957",
+                    "Similarity": 1.0,
+                    "Sequence": "WGRRGWGPGRRYWWRWR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10114",
+                    "Similarity": 1.0,
+                    "Sequence": "RWWRYWR"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=590 µg/ml",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=10µg/ml),Pseudomonas aeruginosa ATCC 27853(MIC=20µg/ml),Staphylococcus aureus ATCC 25923(MIC=5µg/ml)"
+        }
+    }
+}

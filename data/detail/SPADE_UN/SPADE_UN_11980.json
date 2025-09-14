@@ -1,0 +1,78 @@
+{
+    "SPADE_UN_11980": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_11980",
+            "Peptide Name": "PV (Derived from pEM-2 and MP-VT1)",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "KKWRWWLKALAKKLL",
+            "Sequence Length": 15,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic form",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.27591703] Gram-positive bacteria :Staphylococcus aureus isolates(MIC=0.5 ± 0.0 mg/L, MBC=0.5 ± 0.0 mg/L), Enterococcus faecalis isolates(MIC=0.7 ± 0.3 mg/L, MBC=0.8 ± 0.3 mg/L);Gram-negative bacteria :Pseudomonas aeruginosa isolates(MIC=1.2 ± 0.8 mg/L, MBC=1.3 ± 0.6 mg/L), Acinetobacter baumannii isolates(MIC=0.4 ± 0.1 mg/L, MBC=0.5 ± 0.0 mg/L)",
+            "Hemolytic Activity": "[Ref.27591703] 0% hemolysis at 32 μg/ml , 5% hemolysis at 64 μg/ml against human red blood cells; 0% hemolysis at 32 μg/ml , 8% hemolysis at 64 μg/ml against sheep red blood cells",
+            "Cytotoxicity": "[Ref.27591703] The cell viability of HEK293 cells induced by PV is 98.8%, 97.4%, 85.8%, 56.2%, 22.8%, 12.2% and 2.3% at peptide concentrations of 1, 2, 4, 8, 16, 32, 64 μg/mL within 24h.",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C99H158N26O16",
+            "Mass": 1968.48,
+            "PI": 11.39,
+            "Net Charge": 6,
+            "Hydrophobicity": -0.53,
+            "Half Life": "Mammalian:1.3 hourYeast:3 minE.coli:2 min",
+            "Function": "Antibacterial activity against Gram-positive bacteria and Gram-negative bacteria",
+            "Literature": [
+                {
+                    "Title": "Design and characterization of short hybrid antimicrobial peptides from pEM-2, mastoparan-VT1, and mastoparan-B.",
+                    "Pubmed ID": "27591703",
+                    "Reference": "Chem Biol Drug Des. 2017 Mar;89(3)327-338. doi 10.1111/cbdd.12864.",
+                    "Author": "Memariani H, Shahbazzadeh D, Ranjbar R, Behdani M, Memariani M, Pooshang Bagheri K",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=27591703"
+                },
+                {
+                    "Title": "Rational Evolution of Antimicrobial Peptides Containing Unnatural Amino Acids to Combat Burn Wound Infections",
+                    "Pubmed ID": "",
+                    "Author": "Xiong M, Chen M, Zhang J"
+                }
+            ],
+            "Frequent Amino Acids": "KLW",
+            "Absent Amino Acids": "CDEFGHIMNOPQSTUVY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 8,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_00601",
+                    "Similarity": 1.0,
+                    "Sequence": "WLKKW"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_05408",
+                    "Similarity": 1.0,
+                    "Sequence": "RLKRRKKWR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_11979",
+                    "Similarity": 1.0,
+                    "Sequence": "KKWRWWLKALAKK"
+                }
+            ]
+        }
+    }
+}

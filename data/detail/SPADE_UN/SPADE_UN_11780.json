@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_11780": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_11780",
+            "Peptide Name": "PapMA (Derived from Papiliocin and Magainin 2)",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "RWKIFKKIPKFLHSAKKF",
+            "Sequence Length": 18,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic form",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.26053120] Gram-positive bacteria :Bacillus subtilis(MIC=4.0 μM), Enterococcus faecalis(MIC=16 μM), Staphylococcus aureus(MIC=4.0 μM), ;Gram-negative bacteria :Escherichia coli(MIC=2.0 μM), Pseudomonas aeruginosa(MIC=4.0 μM), Salmonella typhimurium(MIC=4.0 μM)",
+            "Hemolytic Activity": "[Ref.26053120] MHC=100 μM against human red blood cells",
+            "Cytotoxicity": "[Ref.26053120] IC50 = 10 μM against mouse macrophage-derived RAW264.7 cells.IC50 = 9 μM for NIH3T3 fibroblasts.",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "PapMA and PapMA-k exhibited α-helical structures in 50 mM DPC micelles and 50% TFE/H2O but displayed unordered structures in aqueous solution.",
+            "Formula": "C115H180N30O20",
+            "Mass": 2302.85,
+            "PI": 11.43,
+            "Net Charge": 8,
+            "Hydrophobicity": -0.63,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Function": "Antibacterial activity against Gram-positive bacteria and Gram-negative bacteria",
+            "Literature": [
+                {
+                    "Title": "Peptoid-Substituted Hybrid Antimicrobial Peptide Derived from Papiliocin and Magainin 2 with Enhanced Bacterial Selectivity and Anti-inflammatory Activity",
+                    "Pubmed ID": "26053120",
+                    "Reference": "Biochemistry. 2015 Jun 30;54(25)3921-31. doi 10.1021/acs.biochem.5b00392.",
+                    "Author": "Areum Shin, Eunjung Lee,  Dasom Jeon, Young-Guen Park, Jeong Kyu Bang, Yong-Sun Park, Song Yub Shin, and Yangmee Kim",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=26053120"
+                }
+            ],
+            "Frequent Amino Acids": "KFI",
+            "Absent Amino Acids": "CDEGMNOQTUVY",
+            "Basic Residues": 8,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 10,
+            "Positive Residues": 8,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_10818",
+                    "Similarity": 1.0,
+                    "Sequence": "RWKIFKKIKFLHSAKKF"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_29958",
+                    "Similarity": 1.0,
+                    "Sequence": "RWKIFKKIKFLHSAKKF"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_21664",
+                    "Similarity": 1.0,
+                    "Sequence": "KFLHSAKKF"
+                }
+            ]
+        }
+    }
+}

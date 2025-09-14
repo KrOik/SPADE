@@ -1,0 +1,82 @@
+{
+    "SPADE_N_02017": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02017",
+            "Peptide Name": "Pseudin-4 (Pseudin 4; Frogs, amphibians, animals)",
+            "Source": "Pseudis paradoxa (Paradoxical frog)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "GINTLKKVIQGLHEVIKLVSNHA",
+            "Sequence Length": 23,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P83191"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "Gram-negative bacterium:Escherichia coli;Gram-positive bacterium:Staphylococcus aureus;yeast Candida albicans.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C113H195N33O31",
+            "Mass": 2511.96,
+            "PI": 9.7,
+            "Net Charge": 4,
+            "Hydrophobicity": 0.21,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Possesses antifungal activity against C. albicans and is also active against E. coli and S. aureus.",
+            "Tissue specificity": "Expressed by the skin glands.",
+            "Literature": [
+                {
+                    "Title": "Pseudin-2 an antimicrobial peptide with low hemolytic activity from the skin of the paradoxical frog.",
+                    "Pubmed ID": "11689009",
+                    "Reference": "Biochem Biophys Res Commun. 2001 Nov 9;288(4)1001-1005.",
+                    "Author": "Olson L 6rd, Soto AM, Knoop FC, Conlon JM.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=11689009"
+                },
+                {
+                    "Title": "Pseudin-2: an antimicrobial peptide with low hemolytic activity from the skin of the paradoxical frog.",
+                    "Pubmed ID": "",
+                    "Author": "Conlon J.M.,Knoop F.C.,Soto A.M.,Olson L. III"
+                }
+            ],
+            "Frequent Amino Acids": "IKL",
+            "Absent Amino Acids": "CDFMOPRUWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 14,
+            "Positive Residues": 5,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02016",
+                    "Similarity": 0.9565217391304348,
+                    "Sequence": "GINTLKKVIQGLHEVIKLVSNHE"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10610",
+                    "Similarity": 0.9130434782608695,
+                    "Sequence": "GLNTLKKVIQGLHEVIKLVNNHA"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02014",
+                    "Similarity": 0.7391304347826086,
+                    "Sequence": "GLNTLKKVFQGLHEAIKLINNHVQ"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "SPADE_N_00044": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00044",
+            "Peptide Name": "Nisin F (Bacteriocin; Perclinical)",
+            "Source": "Lactococcus lactis F10 (Gram-positive bacteria)",
+            "Family": "Belongs to the type A lantibiotic family (Class I bacteriocin)",
+            "Gene": "Not found",
+            "Sequence": "ITSISLCTPGCKTGALMGCNMKTATCNCSVHVSK",
+            "Sequence Length": 34,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+"
+            ],
+            "Target Organism": "Gram-positive bacteria:Staphylococcus aureus, Staphylococcus carnosus, Lactobacillus curvatus N1902, Lactobacillus plantarum, Lactobacillus reuteri.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Lipid II",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C140H243N41O46S7",
+            "Mass": 3461.13,
+            "PI": 8.78,
+            "Net Charge": 4,
+            "Hydrophobicity": 0.4,
+            "Half Life": "Mammalian:20 hourYeast:30 minE.coli:>10 hour",
+            "Function": "defense response to Gram-positive bacteria.",
+            "Literature": [
+                {
+                    "Title": "Characterization of the structural gene encoding nisin F, a new lantibiotic produced by a Lactococcus lactis subsp. lactis isolate from freshwater catfish (Clarias gariepinus).",
+                    "Pubmed ID": "18039827",
+                    "Reference": "Appl Environ Microbiol. 2008 Jan;74(2)547-549.",
+                    "Author": "de Kwaadsteniet M, Ten Doeschate K, Dicks LM.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=18039827"
+                }
+            ],
+            "Frequent Amino Acids": "CTS",
+            "Absent Amino Acids": "DEFOQRUWY",
+            "Basic Residues": 4,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 24,
+            "Positive Residues": 4,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06114",
+                    "Similarity": 1.0,
+                    "Sequence": "MSTKDFNLDLVSVSKKDSGASPRITSISLCTPGCKTGALMGCNMKTATCNCSVHVSK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14082",
+                    "Similarity": 1.0,
+                    "Sequence": "ITSISLCTPGCKTGALMGCNMK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00030",
+                    "Similarity": 0.9705882352941176,
+                    "Sequence": "ITSISLCTPGCKTGALMGCNMKTATCNCSIHVSK"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "SPADE_UN_28217": {
+        "Sequence Information": {
+            "Peptide Name": "Cathelicidin-AM",
+            "Sequence": "GRLRNLIEKAGQNIRGKIQGIGRRIKDILKNLQPRPQV",
+            "Sequence Length": 38,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "G1L3J9",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/G1L3J9",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "The cathelicidin-like peptide derived from panda genome is a potential antimicrobial peptide.",
+                    "Pubmed ID": "22101189",
+                    "Reference": "Gene. 2012;492:368-374",
+                    "Author": "Yan X, Zhong J, Liu H, Liu C, Zhang K, Lai R",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/22101189"
+                }
+            ],
+            "Mass": 4348.12,
+            "PI": 12.0,
+            "Net Charge": 8,
+            "Hydrophobicity": -0.82,
+            "Frequent Amino Acids": "IRG",
+            "Absent Amino Acids": "CFHMOSTUWY",
+            "Basic Residues": 10,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 26,
+            "Positive Residues": 10,
+            "Negative Residues": 2,
+            "SPADE ID": "SPADE_UN_28217",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_01219",
+                    "Similarity": 0.75,
+                    "Sequence": "LRLRLRLRLRLRLRLRLR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_01220",
+                    "Similarity": 0.75,
+                    "Sequence": "LRLRLRLRLRLRLRLRLRLRLR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04422",
+                    "Similarity": 0.6176470588235294,
+                    "Sequence": "RLKELITTGGQKIGEKIRRIGQRIKDFFKNLQPR"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:2% Hemolysis=200 µg/ml,Rabbit erythrocytes:1% Hemolysis=200 µg/ml",
+            "Target Organism": "Acinetobacter calcoaceticus(MIC=3.28µg/ml),Acinetobacter baumannii(MIC=4.7µg/ml),Escherichia coli ATCC 25922(MIC=>200µg/ml),Klebsiella pneumoniae(MIC=26.25-52.5µg/ml),Serratia marcescens(MIC=7.0µg/ml),Pseudomonas aeruginosa 1411(MIC=6.5µg/ml),Salmonella enterica subsp. enterica serovar Typhi(MIC=75µg/ml),Staphylococcus aureus ATCC 2592(MIC=6.5µg/ml),Staphylococcus sciuri 090312(MIC=1.2µg/ml),Staphylococcus haemolyticus(MIC=18.75µg/ml),Staphylococcus epidermidis(MIC=37.5µg/ml),Bacillus subtilis(MIC=>100µg/ml),Candida albicans ATCC 2002(MIC=6.5µg/ml),Candida albicans 08030401(MIC=6.5µg/ml)"
+        }
+    }
+}

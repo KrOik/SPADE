@@ -1,0 +1,75 @@
+{
+    "SPADE_N_00938": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00938",
+            "Peptide Name": "Ascalin (Plants)",
+            "Source": "Allium cepa var. aggregatum (shallot)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "YQCGQGG",
+            "Sequence Length": 7,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P84071"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antifungal",
+                "Antiviral"
+            ],
+            "Target Organism": "Botrytis cinerea, HIV-1 reverse transcriptase (IC50=10 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C28H41N9O11S",
+            "Mass": 711.74,
+            "PI": 5.52,
+            "Net Charge": 0,
+            "Hydrophobicity": -1.0,
+            "Half Life": "Mammalian:2.8 hourYeast:10 minE.coli:2 min",
+            "Function": "Has antifungal activity against Botrytis cinerea. Inhibits HIV-1 reverse transcriptase.",
+            "Miscellaneous": "Inhibits HIV-1 reverse transcriptase with an IC50 of 10 µM.",
+            "Literature": [
+                {
+                    "Title": "Ascalin, a new anti-fungal peptide with human immunodeficiency virus type 1 reverse transcriptase-inhibiting activity from shallot bulbs.",
+                    "Pubmed ID": "12126728",
+                    "Reference": "Peptides. 2002 Jun;23(6)1025-1029.",
+                    "Author": "Wang HX, Ng TB.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=12126728"
+                }
+            ],
+            "Frequent Amino Acids": "GQC",
+            "Absent Amino Acids": "ADEFHIKLMNOPRSTUVW",
+            "Basic Residues": 0,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 1,
+            "Polar Residues": 4,
+            "Positive Residues": 0,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_14492",
+                    "Similarity": 1.0,
+                    "Sequence": "SGCANNTCYNVSVIVPDYQC"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_17326",
+                    "Similarity": 1.0,
+                    "Sequence": "CSKSSDYQC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08484",
+                    "Similarity": 1.0,
+                    "Sequence": "GQGGGY"
+                }
+            ]
+        }
+    }
+}

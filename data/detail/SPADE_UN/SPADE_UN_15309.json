@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_15309": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_15309",
+            "Peptide Name": 17,
+            "Source": "Synthetic",
+            "Family": "",
+            "Gene": "Not found",
+            "Sequence": "YXGFM",
+            "Sequence Length": 5,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Notavailable"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Target Organism": "Tumor cells:HBL (0.8% inhibition at 1μM, 1.4% inhibition at 10μM, 2.4% inhibition at 100μM, 18.3% inhibition at 1000μM); HEp-2 (1% inhibition at 1μM, 10.1% inhibition at 10μM, 16.8% inhibition at 100μM, 36.1% inhibition at 1000μM); SW620 (12.2% inhibition at 1μM, 15.5% inhibition at 10μM, 24.7% inhibition at 100μM, 29% inhibition at 1000μM); MCF-7 (22.8% inhibition at 1000μM); CaCo-2 (3% inhibition at 1μM, 8.4% inhibition at 10μM, 18.5% inhibition at 100μM, 10.6% inhibition at 1000μM); HT-29 (3.3% inhibition at 1μM, 11% inhibition at 10μM, 7.9% inhibition at 100μM, 23.7% inhibition at 1000μM); HeLa (4.9% inhibition at 1μM, 10.2% inhibition at 10μM, 13.3% inhibition at 100μM, 28% inhibition at 1000μM)",
+            "Hemolytic Activity": "Not available",
+            "Cytotoxicity": "Not available",
+            "Binding Target": "Not available",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C25H30N4O5S",
+            "Mass": 68012,
+            "PI": 6.09,
+            "Net Charge": 0,
+            "Hydrophobicity": 0.6,
+            "Half Life": "Mammalian:2.8 hourYeast:10 minE.coli:2 min",
+            "Comments": "lead to apoptosis",
+            "Literature": [
+                {
+                    "Title": "Tumor-cell-targeted methionine-enkephalin analogues containing unnatural amino acids design, synthesis, and in vitro antitumor activity",
+                    "Pubmed ID": "16722632",
+                    "Reference": "J Med Chem. 2006 Jun 1;49(11)3136-42.",
+                    "Author": "Horvat S, Mlinarić-Majerski K, Glavas-Obrovac L, Jakas A, Veljković J, Marczi S, Kragol G, Roscić M, Matković M, Milostić-Srb A.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16722632"
+                }
+            ],
+            "Frequent Amino Acids": "FGM",
+            "Absent Amino Acids": "ACDEHIKLNOPQRSTUVW",
+            "Basic Residues": 0,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 3,
+            "Polar Residues": 1,
+            "Positive Residues": 0,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00639",
+                    "Similarity": 1.0,
+                    "Sequence": "YEDSCSTDEECRRNCLCDVAYCDKSRDKCDYGFMNRVDVRFPKHPYISKNKDGSGR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05272",
+                    "Similarity": 1.0,
+                    "Sequence": "MNEEKLKMILLLLEDIPRDEWNRLVNEVNNQYSYQADKVGLASDNCQQIANNYKHYGF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05628",
+                    "Similarity": 1.0,
+                    "Sequence": "VVYALKRNGRTLYGF"
+                }
+            ]
+        }
+    }
+}

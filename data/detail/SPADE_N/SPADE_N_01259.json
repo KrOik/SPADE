@@ -1,0 +1,73 @@
+{
+    "SPADE_N_01259": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01259",
+            "Peptide Name": "Maculatin-1.4 (frog, amphibia, animals)",
+            "Source": "Litoria eucnemis (Australian anurans)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "GLLGLLGSVVSHVLPAITQHL",
+            "Sequence Length": 21,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+"
+            ],
+            "Target Organism": "Gram-positive bacteria:Bacillus cereus (MIC=100 µg/ml), Bacillus cereus (MIC=6 µg/ml), Listeria innocua (MIC=100 µg/ml), Micrococcus luteus (MIC=50 µg/ml), Staphylococcus aureus (MIC=50 µg/ml), Staphylococcus epidermidis (MIC=50 µg/ml), Streptococcus uberis (MIC=50 µg/ml).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C98H166N26O26",
+            "Mass": 2124.52,
+            "PI": 6.92,
+            "Net Charge": 2,
+            "Hydrophobicity": 1.27,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Shows antibacterial activity against the Gram-positive bacteria.",
+            "PTM": "C-terminal amidation.",
+            "Literature": [
+                {
+                    "Title": "Host-defence peptides of Australian anurans structure, mechanism of action and evolutionary significance.",
+                    "Pubmed ID": "15203252",
+                    "Reference": "Peptides. 2004 Jun; 25 1035-1054.",
+                    "Author": "Apponyi MA, Pukala TL, Brinkworth CS, Maselli VM, Bowie JH, Tyler MJ, Booker GW, Wallace JC, Carver JA, Separovic F, Doyle J, Llewellyn LE.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=15203252"
+                }
+            ],
+            "Frequent Amino Acids": "LGV",
+            "Absent Amino Acids": "CDEFKMNORUWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 10,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_18900",
+                    "Similarity": 1.0,
+                    "Sequence": "FLPIVGGLLKGLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_13388",
+                    "Similarity": 0.875,
+                    "Sequence": "LKKWWKKVKGLLGGLLGK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03226",
+                    "Similarity": 0.8333333333333334,
+                    "Sequence": "FLPIPRPILLGLL"
+                }
+            ]
+        }
+    }
+}

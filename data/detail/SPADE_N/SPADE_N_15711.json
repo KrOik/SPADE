@@ -1,0 +1,71 @@
+{
+    "SPADE_N_15711": {
+        "Sequence Information": {
+            "Peptide Name": "Antimicrobial peptide MBP-1",
+            "Sequence": "RSGRGECRRQCLRRHEGQPWETQECMRRCRRRG",
+            "Sequence Length": 33,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "1. Zea mays",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P28794",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P28794",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                },
+                {
+                    "uniprotId": "B6SLF6",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/B6SLF6",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Purification and characterization of a novel antimicrobial peptide from maize (Zea mays L.) kernels.",
+                    "Pubmed ID": "1527010",
+                    "Reference": "J Biol Chem. 1992;267:18814-18820",
+                    "Author": "Duvick JP, Rood T, Rao AG, Marshak DR",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/1527010"
+                }
+            ],
+            "Mass": 4130.68,
+            "PI": 11.35,
+            "Net Charge": 8,
+            "Hydrophobicity": -2.03,
+            "Frequent Amino Acids": "RCE",
+            "Absent Amino Acids": "ADFIKNOUVY",
+            "Basic Residues": 12,
+            "Acidic Residues": 4,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 27,
+            "Positive Residues": 12,
+            "Negative Residues": 4,
+            "SPADE ID": "SPADE_N_15711",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_00026",
+                    "Similarity": 1.0,
+                    "Sequence": "RSGRGECRRQCLRRHEGQPWETQECMRRCRRRG"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_07894",
+                    "Similarity": 1.0,
+                    "Sequence": "RSGRGECRRQCLRRHEGQPWETQECMRRCRRRGG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_12840",
+                    "Similarity": 1.0,
+                    "Sequence": "RRRGRSPRRRTPSPRRRRSQSPRRRRS"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Escherichia coli DH5alpha(MBC=3µg/ml),Clavibacter michiganensis subsp. nebraskensis(MBC=>30µg/ml),Fusarium graminearum(MIC=60µg/ml),Alternaria longipes(MIC=30µg/ml),Sclerotinia trifoliorum(MIC=30µg/ml),Fusarium verticillioides(MIC=>60µg/ml),Aspergillus flavus(no activity data)"
+        }
+    }
+}

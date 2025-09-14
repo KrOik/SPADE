@@ -1,0 +1,209 @@
+/* 修复后的语言选择器样式 */
+.language-selector {
+    position: fixed;
+    right: 30px;
+    top: 85px;
+    z-index: 10000;
+    user-select: none;
+    touch-action: none;
+}
+
+/* 主按钮 */
+.language-current {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    background: rgba(43, 16, 85, 0.95);
+    border-radius: 50%;
+    cursor: grab;
+    transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+}
+
+.language-current i {
+    font-size: 18px;
+    color: white;
+    transition: all 0.3s ease;
+    pointer-events: none;
+}
+
+/* 悬停效果 */
+.language-selector:hover .language-current {
+    background: rgba(43, 16, 85, 0.98);
+    transform: scale(1.05);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* 拖拽状态 */
+.language-selector.dragging .language-current {
+    cursor: grabbing;
+    transform: scale(1.1);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* 边缘收缩状态 */
+.language-selector.edge-collapsed .language-current {
+    width: 24px;
+    height: 24px;
+    border-radius: 6px;
+    background: rgba(43, 16, 85, 0.8);
+}
+
+.language-selector.edge-collapsed .language-current i {
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+/* 下拉菜单 */
+.language-dropdown {
+    position: absolute;
+    top: calc(100% + 8px);
+    right: 0;
+    background: rgba(43, 16, 85, 0.95);
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+    width: 140px;
+    max-height: 320px;
+    overflow-y: auto;
+    display: none;
+    z-index: 1002;
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transform: translateY(-10px);
+    opacity: 0;
+    transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+    pointer-events: none;
+    user-select: none;
+}
+
+.language-dropdown.show {
+    display: block;
+    transform: translateY(0);
+    opacity: 1;
+    pointer-events: auto;
+}
+
+/* 语言选项 */
+.language-option {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 12px 16px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 14px;
+    font-weight: 500;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.language-option:last-child {
+    border-bottom: none;
+}
+
+.language-option:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateX(4px);
+}
+
+.language-option.active {
+    background: rgba(80, 226, 194, 0.2);
+    color: #50e2c2;
+    font-weight: 600;
+    position: relative;
+}
+
+.language-option.active::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background: #50e2c2;
+    box-shadow: 0 0 8px rgba(80, 226, 194, 0.4);
+    border-radius: 0 2px 2px 0;
+}
+
+/* 自定义滚动条 */
+.language-dropdown::-webkit-scrollbar {
+    width: 4px;
+}
+
+.language-dropdown::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 2px;
+}
+
+.language-dropdown::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 2px;
+}
+
+.language-dropdown::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+/* 脉冲动画 */
+@keyframes pulse {
+    0%, 100% {
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+    50% {
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15), 0 0 0 6px rgba(80, 226, 194, 0.2);
+    }
+}
+
+.language-selector.pulse .language-current {
+    animation: pulse 1s ease-in-out;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .language-selector {
+        right: 20px;
+        top: 80px;
+    }
+    
+    .language-current {
+        width: 44px;
+        height: 44px;
+    }
+    
+    .language-current i {
+        font-size: 16px;
+    }
+    
+    .language-dropdown {
+        width: 120px;
+        right: -10px;
+    }
+    
+    .language-option {
+        padding: 10px 14px;
+        font-size: 13px;
+    }
+}
+
+/* 减少动画模式 */
+@media (prefers-reduced-motion: reduce) {
+    .language-current,
+    .language-dropdown,
+    .language-option {
+        transition: none;
+    }
+    
+    .language-selector:hover .language-current {
+        transform: none;
+    }
+    
+    .language-option:hover {
+        transform: none;
+    }
+} 

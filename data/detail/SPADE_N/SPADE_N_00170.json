@@ -1,0 +1,74 @@
+{
+    "SPADE_N_00170": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00170",
+            "Peptide Name": "Acidocin A (Bacteriocin)",
+            "Source": "Lactobacillus acidophilus TK9201 (Gram-positive bacteria)",
+            "Family": "Not found",
+            "Gene": "acdA",
+            "Sequence": "KTYYGTNGVHCTKKSLWGKVRLKNVIPGTLCRKQSLPIKQDLKILLGWATGAFGKTFH",
+            "Sequence Length": 58,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q48496"
+            ],
+            "Protein Existence": "Predicted",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+"
+            ],
+            "Target Organism": "Gram-positive bacteria:Listeria monocytogenes, Clostridium sporogenes, Brochothrix thermosphacta, Lactobacillus fermentum, Lactobacillus delbrueckii subsp. Bulgaricus. Inmost other Lactobacillus species.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C299H481N83O75S2",
+            "Mass": 6502.66,
+            "PI": 10.26,
+            "Net Charge": 12,
+            "Hydrophobicity": -0.3,
+            "Half Life": "Mammalian:1.3 hourYeast:3 minE.coli:2 min",
+            "Function": "Acidocin A is active against closely related lactic acid bacteria and food-borne pathogens including Listeria monocytogenes.",
+            "Literature": [
+                {
+                    "Title": "Isolation and characterization of acidocin A and cloning of the bacteriocin gene from Lactobacillus acidophilus.",
+                    "Pubmed ID": "7793908",
+                    "Reference": "Appl Environ Microbiol. 1995 Mar;61(3)1061-1067.",
+                    "Author": "Kanatani K, Oshimura M, Sano K.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=7793908"
+                }
+            ],
+            "Frequent Amino Acids": "KGL",
+            "Absent Amino Acids": "EMOU",
+            "Basic Residues": 13,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 23,
+            "Polar Residues": 34,
+            "Positive Residues": 13,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06039",
+                    "Similarity": 1.0,
+                    "Sequence": "MISMISSHQKTLTDKELALISGGKTYYGTNGVHCTKKSLWGKVRLKNVIPGTLCRKQSLPIKQDLKILLGWATGAFGKTFH"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05482",
+                    "Similarity": 0.7547169811320755,
+                    "Sequence": "KTYYGTNGVHCTKNSLWGKVRLKNMKYDQNTTYMGRLQDILLGWATGAFGKTFH"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14867",
+                    "Similarity": 0.7307692307692307,
+                    "Sequence": "KTYYGTNGVHCTKNSLWGKVRLKNMKYDQNTTYMGRLQDILLGWATGAFGKTH"
+                }
+            ]
+        }
+    }
+}

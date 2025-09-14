@@ -1,0 +1,76 @@
+{
+    "SPADE_N_03240": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03240",
+            "Peptide Name": "Antimicrobial peptide ctriporin (Riporin; Arthropods, animals)",
+            "Source": "Chaerilus tricostatus (Scorpion)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "FLWGLIPGAISAVTSLIKK",
+            "Sequence Length": 19,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/G1FE62"
+            ],
+            "Protein Existence": "Transcript level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+"
+            ],
+            "Target Organism": "Gram-positive bacteria:Staphylococcus aureus (MIC=5 µg/ml), Micrococcus luteus (MIC=5 µg/ml), Bacillus thuringiensis (MIC=10 µg/ml), B. subtilis (MIC=10 µg/ml).Fungi:Candida albicans (MIC=20 µg/ml).Antibiotic-resistant pathogens:methicillin-resistant Staphylococcus aureus (MIC=5-10 µg/ml), penicillin-resistant S. epidermidis (MIC=10 µg/ml).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Cell membrane",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C98H160N22O23",
+            "Mass": 2014.45,
+            "PI": 10.0,
+            "Net Charge": 2,
+            "Hydrophobicity": 1.16,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Function": "Antimicrobial peptide that acts by breaking the cell wall. Has antibacterial activity against Gram-positive bacteria and Gram-negative bacteria. Is efficient in curing staphylococcal skin infection in mice, when externally applied.",
+            "Tissue specificity": "Expressed by the venom gland.",
+            "Miscellaneous": "Has no activity against Gram-negative bacteria (E.coli and P.aeruginosa).",
+            "Literature": [
+                {
+                    "Title": "Ctriporin, a new anti-methicillin-resistant Staphylococcus aureus peptide from the venom of the scorpion Chaerilus tricostatus.",
+                    "Pubmed ID": "21876042",
+                    "Reference": "Antimicrob Agents Chemother. 2011 Nov;55(11)5220-9.",
+                    "Author": "Fan Z, Cao L, He Y, Hu J, Di Z, Wu Y, Li W, Cao Z.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=21876042"
+                }
+            ],
+            "Frequent Amino Acids": "ILA",
+            "Absent Amino Acids": "CDEHMNOQRUY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 8,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_14388",
+                    "Similarity": 0.9473684210526315,
+                    "Sequence": "FLWKLIPGAISAVTSLIKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_26206",
+                    "Similarity": 0.9473684210526315,
+                    "Sequence": "FLWKLIPGAISAVTSLIKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05722",
+                    "Similarity": 0.8947368421052632,
+                    "Sequence": "FLWSLIPSAISAVTSLIKK"
+                }
+            ]
+        }
+    }
+}

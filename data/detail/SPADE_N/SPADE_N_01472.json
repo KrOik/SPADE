@@ -1,0 +1,84 @@
+{
+    "SPADE_N_01472": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01472",
+            "Peptide Name": "Aurein-3.3 (Frogs, amphibians, animals)",
+            "Source": "Litoria raniformis (blue-thighed treefrog)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "GLFDIVKKIAGHIVSSI",
+            "Sequence Length": 17,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P82396"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anticancer"
+            ],
+            "Target Organism": "Gram-positive bacteria:Leuconostoc lactis (MIC=12 μg/ml), Micrococcus luteus (MIC=100 μg/ml), Staphylococcus epidermidis (MIC=50 μg/ml), Streptococcus uberis (MIC=25 μg/ml), Staphylococcus aureus (MIC=100 μg/ml);Gram-negative bacterium:Pasteurella multocida (MIC=100 μg/ml)",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Cell membrane",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C84H141N21O22",
+            "Mass": 1797.15,
+            "PI": 8.6,
+            "Net Charge": 2,
+            "Hydrophobicity": 1.05,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "The aurein antibiotics show more activity towards gram-positive than gram-negative pathogens. Probably acts by disturbing membrane functions with its amphipathic structure. Shows anticancer activity.",
+            "Tissue specificity": "Expressed by the skin dorsal glands.",
+            "Literature": [
+                {
+                    "Title": "The antibiotic and anticancer active aurein peptides from the Australian Bell Frogs Litoria aurea and Litoria raniformis the solution structure of aurein 1.2.",
+                    "Pubmed ID": "10951191",
+                    "Reference": "Eur J Biochem. 2000 Sep;267(17)5330-5341.",
+                    "Author": "Rozek T, Wegener KL, Bowie JH, Olver IN, Carver JA, Wallace JC, Tyler MJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=10951191"
+                },
+                {
+                    "Title": "Host-defence peptides of Australian anurans structure, mechanism of action and evolutionary significance.",
+                    "Pubmed ID": "15203252",
+                    "Reference": "Peptides. 2004 Jun;25(6)1035-1054.",
+                    "Author": "Apponyi MA, Pukala TL, Brinkworth CS, Maselli VM, Bowie JH, Tyler MJ, Booker GW, Wallace JC, Carver JA, Separovic F, Doyle J, Llewellyn LE.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=15203252"
+                }
+            ],
+            "Frequent Amino Acids": "IGK",
+            "Absent Amino Acids": "CEMNOPQRTUWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 8,
+            "Positive Residues": 3,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01473",
+                    "Similarity": 1.0,
+                    "Sequence": "FDIVKKIAGHIVSSI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01471",
+                    "Similarity": 0.9411764705882353,
+                    "Sequence": "GLFDIVKKIAGHIASSI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01469",
+                    "Similarity": 0.9285714285714286,
+                    "Sequence": "GLFDIVKKIAGHIA"
+                }
+            ]
+        }
+    }
+}

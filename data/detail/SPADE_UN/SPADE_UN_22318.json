@@ -1,0 +1,61 @@
+{
+    "SPADE_UN_22318": {
+        "Sequence Information": {
+            "Peptide Name": "Dermaseptin-AC4 [A10L,A12K,A17V,L18A,V25A], DRP-AC4a",
+            "Sequence": "SLWGKLKEMLAKAGKAVANAVNGLANQ",
+            "Sequence Length": 27,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Identification and Rational Design of a Novel Antibacterial Peptide Dermaseptin-AC from the Skin Secretion of the Red-Eyed Tree Frog Agalychnis callidryas.",
+                    "Pubmed ID": "32397600",
+                    "Reference": "Antibiotics (Basel). 2020;9:E243",
+                    "Author": "Gong Z, Pei X, Ren S, Chen X, Wang L, Ma C, Xi X, Chen T, Shaw C, Zhou M",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/32397600"
+                }
+            ],
+            "Mass": 2783.25,
+            "PI": 10.0,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.01,
+            "Frequent Amino Acids": "AKL",
+            "Absent Amino Acids": "CDFHIOPRTUY",
+            "Basic Residues": 4,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 14,
+            "Positive Residues": 4,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_UN_22318",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_22319",
+                    "Similarity": 0.9629629629629629,
+                    "Sequence": "SLWGKLKEMLAAAGKAVANAVNGLANQ"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_13666",
+                    "Similarity": 0.8148148148148148,
+                    "Sequence": "SLWGKLKEMAAAAGKAALNAVNGLVNQ"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01527",
+                    "Similarity": 0.6666666666666666,
+                    "Sequence": "SLWSKIKEMAATAGKAALNAVTGMVNQ"
+                }
+            ],
+            "Hemolytic Activity": "Horse erythrocytes:10% Hemolysis=14.49 µM,Horse erythrocytes:40% Hemolysis=50 µM",
+            "Target Organism": "Staphylococcus aureus NCTC 10788(MIC=8µM),Staphylococcus aureus NCTC 10788(MBC=16µM),Escherichia coli NCTC 10418(MIC=8µM),Escherichia coli NCTC 10418(MBC=8µM),Candida albicans NCTC 1467(MIC=16µM),Candida albicans NCTC 1467(MBC=32µM),Pseudomonas aeruginosa ATCC 27853(MIC=32µM),Pseudomonas aeruginosa ATCC 27853(MBC=128µM),Enterococcus faecalis NCTC 12697(MIC=8µM),Enterococcus faecalis NCTC 12697(MBC=32µM),Klebsiella pneumoniae ATCC 43816(MIC=8µM),Klebsiella pneumoniae ATCC 43816(MBC=16µM),Staphylococcus aureus NCTC 12493(MIC=8µM),Staphylococcus aureus NCTC 12493(MBC=32µM)"
+        }
+    }
+}

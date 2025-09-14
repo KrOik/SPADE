@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_24354": {
+        "Sequence Information": {
+            "Peptide Name": "Crotamine (30-39)",
+            "Sequence": "CRWRWKCCKK",
+            "Sequence Length": 10,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anticancer"
+            ],
+            "Binding Target": "1. Lipid Bilayer\n2. DNA / RNA",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "Q9PWF3",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/Q9PWF3",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Tachyplesin and CyLoP-1 as efficient anti-mycobacterial peptides: A novel finding.",
+                    "Pubmed ID": "35271828",
+                    "Reference": "Biochim Biophys Acta. 2022;1864:183895",
+                    "Author": "Priya A, Aditya A, Budagavi DB, Chugh A",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/35271828"
+                }
+            ],
+            "Mass": 1396.75,
+            "PI": 9.9,
+            "Net Charge": 5,
+            "Hydrophobicity": -1.5,
+            "Frequent Amino Acids": "CKR",
+            "Absent Amino Acids": "ADEFGHILMNOPQSTUVY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 3,
+            "Polar Residues": 7,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_24354",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02195",
+                    "Similarity": 1.0,
+                    "Sequence": "YKQCHKKGGHCFPKEKICLPPSSDFGKMDCRWRWKCCKKGSG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02450",
+                    "Similarity": 1.0,
+                    "Sequence": "NPLSCRLNRGICVPIRCPGNLRQIGTCFTPSVKCCRWR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03641",
+                    "Similarity": 1.0,
+                    "Sequence": "YKQCHKKGGHCFPKEKICIPPSSDFGKMDCRWRWKCCKKGSGK"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Mycobacterium smegmatis(MIC=10-20µM),Mycobacterium smegmatis(MBC=10-20µM),Mycobacterium fortuitum(MIC=>20µM),Mycobacterium fortuitum(MBC=>20µM),Mycobacterium wolinskyi(MIC=20µM),Mycobacterium wolinskyi(MBC=>20µM),Murine macrophage cells RAW 264.7(50-60% Cytotoxicity=113.1µM)"
+        }
+    }
+}

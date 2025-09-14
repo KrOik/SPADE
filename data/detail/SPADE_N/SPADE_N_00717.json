@@ -1,0 +1,74 @@
+{
+    "SPADE_N_00717": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00717",
+            "Peptide Name": "ChaC10 (Chassatide C10; Plant defensin)",
+            "Source": "Chassalia chartacea",
+            "Family": "Belongs to the cyclotide family",
+            "Gene": "Not found",
+            "Sequence": "GEYCGESCYLIPCFTPGCYCVSRQCVNKN",
+            "Sequence Length": 29,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anticancer"
+            ],
+            "Target Organism": "Gram-negative bacterium:Escherichia coli (MIC>80 µM);Gram-positive bacteria:Staphylococcus aureus (MIC>80 µM), Staphylococcus epidermidis (MIC>80 µM).",
+            "Hemolytic Activity": "[Ref.22467870] HD50>25 µM against human type A red blood cells.",
+            "Cytotoxicity": "[Ref.22467870] Cytotoxicity:HeLa cells (IC50=5.0 µM).",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "No specific N-terminal",
+            "C-terminal Modification": "No specific C-terminal",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C137H206N36O43S6",
+            "Mass": 3237.71,
+            "PI": 6.1,
+            "Net Charge": 0,
+            "Hydrophobicity": -0.07,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "IC50=5.0 µM, HD50>25 µM.##Note IC50 (concentration that gives a survival index of 50%) and HD50 (concentration that causes 50% lysis of red blood cells).",
+            "Literature": [
+                {
+                    "Title": "Novel Cyclotides and Uncyclotides with Highly Shortened Precursors from Chassalia chartacea and Effects of Methionine Oxidation on Bioactivities.",
+                    "Pubmed ID": "22467870",
+                    "Reference": "J Biol Chem. 2012 May 18;287(21)17598-17607.",
+                    "Author": "Nguyen GK, Lim WH, Nguyen PQ, Tam JP.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=22467870"
+                }
+            ],
+            "Frequent Amino Acids": "CGY",
+            "Absent Amino Acids": "ADHMOUW",
+            "Basic Residues": 2,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 19,
+            "Positive Residues": 2,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00745",
+                    "Similarity": 0.6071428571428571,
+                    "Sequence": "GTACGESCYVLPCFTVGCTCTSSQCFKN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07748",
+                    "Similarity": 0.5769230769230769,
+                    "Sequence": "CGESCVYIPCFIPGCSCRNRVCYLNSAIA"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06521",
+                    "Similarity": 0.5714285714285714,
+                    "Sequence": "GFPCGESCVYIPCFTAAIGCSCKSKVCYKN"
+                }
+            ]
+        }
+    }
+}

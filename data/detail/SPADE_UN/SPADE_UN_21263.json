@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_21263": {
+        "Sequence Information": {
+            "Peptide Name": "Oncocin [R11T]",
+            "Sequence": "VDKPPYLPRPTPPRRIYNR",
+            "Sequence Length": 19,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Binding Target": "1. Cytoplasmic Protein\n2. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "A0A2R7WNA0",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/A0A2R7WNA0",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Optimization of oncocin for antibacterial activity using a SPOT synthesis approach: extending the pathogen spectrum to Staphylococcus aureus.",
+                    "Pubmed ID": "26334348",
+                    "Reference": "Amino Acids. 2016;48:269-280",
+                    "Author": "Knappe D, Ruden S, Langanke S, Tikkoo T, Ritzer J, Mikut R, Martin LL, Hoffmann R, Hilpert K",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/26334348"
+                }
+            ],
+            "Mass": 2335.71,
+            "PI": 10.93,
+            "Net Charge": 4,
+            "Hydrophobicity": -1.54,
+            "Frequent Amino Acids": "PRY",
+            "Absent Amino Acids": "ACEFGHMOQSUW",
+            "Basic Residues": 5,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 3,
+            "Polar Residues": 16,
+            "Positive Residues": 5,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_UN_21263",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_16434",
+                    "Similarity": 1.0,
+                    "Sequence": "VDKPPYLPRPPPRRIYNR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_21780",
+                    "Similarity": 1.0,
+                    "Sequence": "VDKPPYLPRPTPPRRIYN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10447",
+                    "Similarity": 0.9473684210526315,
+                    "Sequence": "VDKPPYLPRPTPPRRIYNNR"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Escherichia coli UB1005(MIC=5µg/ml),Pseudomonas aeruginosa PAO1(MIC=128µg/ml),Staphylococcus aureus ATCC 25923(MIC=>128µg/ml)"
+        }
+    }
+}

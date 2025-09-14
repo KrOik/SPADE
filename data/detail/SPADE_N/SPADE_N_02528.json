@@ -1,0 +1,82 @@
+{
+    "SPADE_N_02528": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02528",
+            "Peptide Name": "Beta-defensin 138",
+            "Source": "Canis familiaris (Dog) (Canis lupus familiaris)",
+            "Family": "Not found",
+            "Gene": "CBD138",
+            "Sequence": "MRLLFLLFLLLVCLVQMTSGREKRRKSLECERMGGVCKHQKTHGCSILPAECKSRNKHCCRV",
+            "Sequence Length": 62,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q30KR8"
+            ],
+            "Protein Existence": "Predicted",
+            "Biological Activity": [
+                "Antimicrobial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C306H524N98O80S10",
+            "Mass": 7176.69,
+            "PI": 9.72,
+            "Net Charge": 12,
+            "Hydrophobicity": -0.11,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Cross-species analysis of the mammalian beta-defensin gene family presence of syntenic gene clusters and preferential expression in the male reproductive tract.",
+                    "Pubmed ID": "16033865",
+                    "Reference": "Physiol Genomics. 2005 Sep 21;23(1)5-17.",
+                    "Author": "Patil AA, Cai Y, Sang Y, Blecha F, Zhang G.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16033865"
+                },
+                {
+                    "Title": "Genome sequence, comparative analysis and haplotype structure of the domestic dog.",
+                    "Pubmed ID": "R2005J0572",
+                    "Author": "Jaffe D.B.,Karlsson E.K.,Mikkelsen T.S.,Wade C.M.,Lindblad-Toh K."
+                },
+                {
+                    "Title": "Cross-species analysis of the mammalian beta-defensin gene family: presence of syntenic gene clusters and preferential expression in the male reproductive tract.",
+                    "Pubmed ID": "R2005J0403",
+                    "Author": "Zhang G.,Blecha F.,Sang Y.,Cai Y.,Patil A.A."
+                }
+            ],
+            "Frequent Amino Acids": "LCR",
+            "Absent Amino Acids": "DOUWY",
+            "Basic Residues": 16,
+            "Acidic Residues": 4,
+            "Hydrophobic Residues": 22,
+            "Polar Residues": 37,
+            "Positive Residues": 16,
+            "Negative Residues": 4,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03747",
+                    "Similarity": 0.8,
+                    "Sequence": "RPCEKMGGICKSQKTHGCSILPAECKSRYKHCCRL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03431",
+                    "Similarity": 0.7903225806451613,
+                    "Sequence": "MRLLFLLFLLLVCLIQMASGHEKTGRKHECQNMGGACKHQKTHGCAILPADCKSRNKHCCRV"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02949",
+                    "Similarity": 0.7142857142857143,
+                    "Sequence": "RKRNSKFRPCEKMGGICKSQKTHGCSILPAECKSRYKHCCRL"
+                }
+            ]
+        }
+    }
+}

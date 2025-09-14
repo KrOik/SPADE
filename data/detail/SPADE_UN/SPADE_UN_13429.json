@@ -1,0 +1,78 @@
+{
+    "SPADE_UN_13429": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_13429",
+            "Peptide Name": "Ano-1β (variant of Anoplin)",
+            "Source": "Synthetic construct (Ano-1β is a variant of Anoplin, which is a linear cationic α-helical AMPs isolated from the venom sac of anoplius samariensis(solitary spider wasps))",
+            "Family": "Not found",
+            "Gene": "N/A",
+            "Sequence": "ALLKRIKTLL",
+            "Sequence Length": 10,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic form",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.32654770] Gram-negative multidrug-resistant bacteria:P. aeruginosa 119 (MIC = 8 μM or 8.93 μg/mL), P. aeruginosa 124 (MIC = 8 μM or 8.93 μg/mL), P. aeruginosa 86 (MIC = 4 μM or 4.47 μg/mL);Gram-negative bacteria:P. aeruginosa ATCC 27853 (MIC = 8 μM or 8.93 μg/mL), P. aeruginosa ATCC 9027 (MIC = 8 μM or 8.93 μg/mL), E. coli ATCC 25922  (MIC = 32 μM or 35.72 μg/mL), K. pneumonia ATCC 700603 (MIC = 32 μM or 35.72 μg/mL), A. baumannii ATCC 19606 (MIC = 64 μM or 71.44 μg/mL);Gram-positive bacteria:S. aureus ATCC 25923 (MIC = 128 μM or 142.88 μg/mL), S. epidermidis ATCC 12228 (MIC = 8 μM or 8.93 μg/mL)",
+            "Hemolytic Activity": "[Ref.32654770]Ano-1β induced inappreciable hemolytic activity with less than 5 % hemolysis at all the tested concentrations and HC > 256 μM. Note:Minimum hemolysis concentration (HC, μM) was defined as the minimal peptide concentration induced 10 % hemolysis.",
+            "Cytotoxicity": "[Ref.32654770]After 1 h of incubation, Ano-1β, similar to their parent peptide anoplin, maintained more than 80 % cell viability of the two cells at all tested concentrations. After incubating for 24 h, Ano-1β still maintained more than 80 % cell viability of HEK 293 T cells at all tested concentrations but displayed cytotoxicity against Hela cells at the highest concentration (256 μM). The cell viability of Hela after 24 h of incubation is around 80%.",
+            "Binding Target": "Membrane",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "As shown in Fig. 1, the new peptides displayed mostly unordered conformations in the aqueous environment as demonstrated by a negative peak at approximately 195 nm. However, in 30 mM SDS, the new peptides folded typical α-helical conformations, as evidenced by a characteristic positive peak at approximately 195 nm and double negative peaks at approximately 208 nm and 222 nm.",
+            "Formula": "C55H105N15O12",
+            "Mass": 1168.52,
+            "PI": 11.17,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.85,
+            "Half Life": "Mammalian:4.4 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "the incorporation of β-Ala had significant influence on the antimicrobial activity of peptides mainly due to the changes of hydrophobicity and net positive charge. Ano-1β exhibited good antimicrobial potency, which was stable under physiological conditions and displayed preferable in vivo antimicrobial activity with less acute toxicity. In particular, Ano-1β showed low tendency to develop bacterial resistance in contrast to conventional antibiotics rifampicin and gentamicin, and they exhibited better anti-biofilm activity and synergistic or additive effects in combination with conventional antibiotics. Ano-1β might stands as a promising antimicrobial candidate to overcome increasing bacterial resistance, and the incorporation of β-Ala was a reasonable strategy for the development of promising antimicrobial agents.",
+            "Literature": [
+                {
+                    "Title": "Synthesis and anti-pseudomonal activity of new ß-Ala modified analogues of the antimicrobial peptide anoplin",
+                    "Pubmed ID": "32654770",
+                    "Reference": "Int J Med Microbiol. 2020 Jul;310(5)151433. doi 10.1016/j.ijmm.2020.151433. Epub 2020 May 27.",
+                    "Author": "Zhong C, Zhu Y, Zhu N, Liu T, Gou S, Zhang F, Yao J, Xie J, Ni J",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=32654770"
+                },
+                {
+                    "Title": "Structure-activity relationship study of anoplin",
+                    "Pubmed ID": "",
+                    "Author": "Ifrah D, Doisy X, Ryge TS, Hansen PR"
+                }
+            ],
+            "Frequent Amino Acids": "LKA",
+            "Absent Amino Acids": "CDEFGHMNOPQSUVWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 5,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_13914",
+                    "Similarity": 1.0,
+                    "Sequence": "FLKSNALL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14805",
+                    "Similarity": 1.0,
+                    "Sequence": "ALL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15227",
+                    "Similarity": 1.0,
+                    "Sequence": "FLKSALL"
+                }
+            ]
+        }
+    }
+}

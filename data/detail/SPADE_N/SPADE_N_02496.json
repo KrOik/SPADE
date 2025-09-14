@@ -1,0 +1,74 @@
+{
+    "SPADE_N_02496": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02496",
+            "Peptide Name": "Dro2 protein (Drosomycin 2; Drosomycin-like 2; Drosomycin-like D; Drosomycin-like H; Predicted)",
+            "Source": "Drosophila melanogaster (Fruit fly)",
+            "Family": "Not found",
+            "Gene": "Drsl2",
+            "Sequence": "MVQIKFLFVFLAVMTIVVLAANMADADCLSGKYKGPCAVWDNEMCRRICKEEGHISGHCSPSLKCWCEGC",
+            "Sequence Length": 70,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q7YXH9",
+                "http://www.uniprot.org/uniprot/Q9VZR3"
+            ],
+            "Protein Existence": "Predicted",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antifungal"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C339H534N90O94S12",
+            "Mass": 7759.19,
+            "PI": 6.68,
+            "Net Charge": 2,
+            "Hydrophobicity": 0.38,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Functional divergence of six isoforms of antifungal peptide Drosomycin in Drosophila melanogaster.",
+                    "Pubmed ID": "16824706",
+                    "Reference": "Gene. 2006 Sep 1;37926-32.",
+                    "Author": "Yang WY, Wen SY, Huang YD, Ye MQ, Deng XJ, Han D, Xia QY, Cao Y.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16824706"
+                }
+            ],
+            "Frequent Amino Acids": "CAV",
+            "Absent Amino Acids": "OU",
+            "Basic Residues": 9,
+            "Acidic Residues": 7,
+            "Hydrophobic Residues": 33,
+            "Polar Residues": 38,
+            "Positive Residues": 9,
+            "Negative Residues": 7,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02686",
+                    "Similarity": 1.0,
+                    "Sequence": "DCLSGKYKGPCAVWDNEMCRRICKEEGHISGHCSPSLKCWCEGC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02685",
+                    "Similarity": 0.8863636363636364,
+                    "Sequence": "DCLSGRYKGPCAVWDNETCRRVCKEEGRSSGHCSPSLKCWCEGC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02494",
+                    "Similarity": 0.7971014492753623,
+                    "Sequence": "MQIKFLYLFLAVMTIFILGAKEADADCLSGRYGGPCAVWDNETCRRVCKEEGRSSGHCSPSLKCWCEGC"
+                }
+            ]
+        }
+    }
+}

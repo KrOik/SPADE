@@ -1,0 +1,75 @@
+{
+    "SPADE_N_00331": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00331",
+            "Peptide Name": "Antifungal protein 1 large subunit (CW-1; Plants)",
+            "Source": "Malva parviflora (Little mallow) (Cheeseweed mallow)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "VAGPFRIPPLRREFQ",
+            "Sequence Length": 15,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P83141"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antifungal"
+            ],
+            "Target Organism": "Fungi:Phytophthora infestans.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C83H131N25O19",
+            "Mass": 1783.08,
+            "PI": 11.7,
+            "Net Charge": 2,
+            "Hydrophobicity": -0.39,
+            "Half Life": "Mammalian:100 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Possesses antifungal activity against P. infestans but not F. graminearum.",
+            "Subunit structure": "Heterodimer of a large and a small subunit.",
+            "Miscellaneous": "Antimicrobial activity is not affected by salt concentration.",
+            "Literature": [
+                {
+                    "Title": "Potent heterologous antifungal proteins from cheeseweed (Malva parviflora).",
+                    "Pubmed ID": "11118343",
+                    "Reference": "Biochem Biophys Res Commun. 2000 Dec 20;279(2)669-673.",
+                    "Author": "Wang X, Bunkers GJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=11118343"
+                }
+            ],
+            "Frequent Amino Acids": "PRF",
+            "Absent Amino Acids": "CDHKMNOSTUWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 6,
+            "Positive Residues": 3,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00330",
+                    "Similarity": 0.9285714285714286,
+                    "Sequence": "PAGPFRIPPRREFQ"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_13747",
+                    "Similarity": 0.7333333333333333,
+                    "Sequence": "PAGPFRIPKCRKEFQQAQHLRACQQWLHKQAMQSGSGPSWTLDDEFDFEDDMENPQGPQQRPPLLQQCCNELHQEEPLCVCPTLKGASKAVKQQVRQQLGQQGQQGPHLQHVISRIYQTATHLPKVCNIRQVSVCPFKKTMPGPS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10704",
+                    "Similarity": 0.6,
+                    "Sequence": "KKLFKKILKYLAGPAKKLFKKILKYLAGPA"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "SPADE_UN_27136": {
+        "Sequence Information": {
+            "Peptide Name": "CT1-long (C-ternimus of CsTx-1), Omega-ctenitoxin-Cs1a (45-74)",
+            "Sequence": "GRPMGHQAIETGLNIFRGLFKGKKKNKKTK",
+            "Sequence Length": 30,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antiparasitic",
+                "Insecticidal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P81694",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P81694",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "A venom-derived neurotoxin, CsTx-1, from the spider Cupiennius salei exhibits cytolytic activities.",
+                    "Pubmed ID": "22613721",
+                    "Reference": "J Biol Chem. 2012;287:25640-25649",
+                    "Author": "Kuhn-Nentwig L, Fedorova IM, Lüscher BP, Kopp LS, Trachsel C, Schaller J, Vu XL, Seebeck T, Streitberger K, Nentwig W, Sigel E, Magazanik LG",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/22613721"
+                }
+            ],
+            "Mass": 3384.01,
+            "PI": 11.3,
+            "Net Charge": 9,
+            "Hydrophobicity": -1.09,
+            "Frequent Amino Acids": "KGF",
+            "Absent Amino Acids": "CDOSUVWY",
+            "Basic Residues": 10,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 22,
+            "Positive Residues": 10,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_UN_27136",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_08923",
+                    "Similarity": 1.0,
+                    "Sequence": "SCIPKHEECTNDKHNCCRKGLFKLKCQCSTFDDESGQPTERCACGRPMGHQAIETGLNIFRGLFKGKKKNKKTK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08924",
+                    "Similarity": 1.0,
+                    "Sequence": "SCIPKHEECTNDKHNCCRKGLFKLKCQCSTFDDESGQPTERCACGRPMGHQAIETGLNIFR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08925",
+                    "Similarity": 1.0,
+                    "Sequence": "SCIPKHEECTNDKHNCCRKGLFKLKCQCSTFDDESGQPTERCACGRPMGHQAIETGLNIF"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Escherichia coli ATCC 25922(no activity data),Escherichia coli SBS 363(MIC=4.66-9.32µM),Staphylococcus aureus ATCC 29213(MIC=>149µM),Trypanosoma brucei brucei MiTat1.2(221)(EC50=5.01µM),Drosophila melanogaster(LD50=82.64nmol/g)"
+        }
+    }
+}

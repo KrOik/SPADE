@@ -1,0 +1,104 @@
+{
+    "SPADE_N_02934": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 2006/0034820 A1",
+                "Patent Link": "http://www.lens.org/lens/patent/US_2006_0034820_A1",
+                "Patent Type": "Patent Application",
+                "Publication Date": "2006-2-16",
+                "Family Info": "US7338936,US20070207963,US20090023893",
+                "Patent Title": "Use of antimicrobial proteins and peptides for the treatment of otitis media and paranasal sinusitis.",
+                "Abstract": "The pharmaceutical composition and a method of treatment of infectious diseases, such as otitis media, paranasal sinusitis, labyrinthitis and meningitis are described. The composition comprises EP2E or homologues thereof."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02934",
+            "Peptide Name": "Beta-defensin 8 (BD-8, mBD-8; Defensin, beta 8; Rodents, mammals, animals)",
+            "Source": "Mus musculus (Mouse)",
+            "Family": "Belongs to the beta-defensin family",
+            "Gene": "Defb8",
+            "Sequence": "NEPVSCIRNGGICQYRCIGLRHKIGTCGSPFKCCK",
+            "Sequence Length": 35,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q91V82",
+                "http://www.uniprot.org/uniprot/Q8R556"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-positive bacterium:Staphylococcus aureus;Gram-negative bacteria:Pseudomonas aeruginosa, Escherichia coli, Burkholderia cepacia.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C161H266N52O45S6",
+            "Mass": 3842.55,
+            "PI": 9.15,
+            "Net Charge": 6,
+            "Hydrophobicity": -0.21,
+            "Half Life": "Mammalian:1.4 hourYeast:3 minE.coli:>10 hour",
+            "PTM": "Contains three disulfide bonds 6-33; 13-27; 17-34.",
+            "Function": "The antimicrobial activity against S. aureus, E. coli and B.cepacia is reduced in raised concentration of NaCl, but its action against Pseudomonas aeruginosa is independent of NaCl concentration.",
+            "Literature": [
+                {
+                    "Title": "Cloning and characterization of mBD-7 and mBD-8, two novel mouse beta-defensins.",
+                    "Pubmed ID": "PubMed ID is not available",
+                    "Reference": "Submitted (JUL-2001) to the EMBL/GenBank/DDBJ databases.",
+                    "Author": "Conejo-Garcia JR, Nehls MC, Wattler S, Bals R, Heitland A, Kluever E, Liepke C, Adermann K, Forssmann WG.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=PubMed ID is not available"
+                },
+                {
+                    "Title": "Structure determination of human and murine beta-defensins reveals structural conservation in the absence of significant sequence similarity.",
+                    "Pubmed ID": "11714914",
+                    "Reference": "Protein Sci. 2001 Dec;10(12)2470-2479.",
+                    "Author": "Bauer F, Schweimer K, Klüver E, Conejo-Garcia JR, Forssmann WG, Rösch P, Adermann K, Sticht H.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=11714914"
+                },
+                {
+                    "Title": "Identification and characterisation a novel murine beta defensin related gene.",
+                    "Pubmed ID": "",
+                    "Author": "Dorin J.R.,Cross S.H.,Kilanowski F.M.,Rolfe M.,Morrison G.M."
+                },
+                {
+                    "Title": "",
+                    "Pubmed ID": "",
+                    "Author": "Dorin J.R.,Cross S.H.,Kilanowski F.M.,Rolfe M.,Morrison G.M."
+                }
+            ],
+            "Frequent Amino Acids": "CGI",
+            "Absent Amino Acids": "ADMOUW",
+            "Basic Residues": 7,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 21,
+            "Positive Residues": 7,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_04188",
+                    "Similarity": 1.0,
+                    "Sequence": "MRIHYLLFTFLLVLLSPLAAFSQKINEPVSCIRNGGICQYRCIGLRHKIGTCGSPFKCCK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03684",
+                    "Similarity": 1.0,
+                    "Sequence": "VSCIRNGGICQYRCIGLRHKIGTCGSPFKCCK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02968",
+                    "Similarity": 0.9117647058823529,
+                    "Sequence": "DPVTYIRNGGICQYRCIGLRHKIGTCGSPFKCCK"
+                }
+            ]
+        }
+    }
+}

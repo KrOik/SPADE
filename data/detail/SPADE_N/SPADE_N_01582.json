@@ -1,0 +1,72 @@
+{
+    "SPADE_N_01582": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01582",
+            "Peptide Name": "Temporin-LT1 (Frogs, amphibians, animals)",
+            "Source": "Hylarana latouchii",
+            "Family": "Belongs to the frog skin active peptide family (Brevinin subfamily)",
+            "Gene": "Not found",
+            "Sequence": "FLPGLIAGIAKML",
+            "Sequence Length": 13,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+"
+            ],
+            "Target Organism": "[Ref.19340924]Gram-positive bacteria:Staphylococcus aureus (MIC=12.5 µM), Bacillus subtilis (MIC=25 µM).",
+            "Hemolytic Activity": "[Ref:19340924]LD50>100 µg/ml against rabbit red blood cells",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C65H110N14O14S",
+            "Mass": 1343.72,
+            "PI": 8.75,
+            "Net Charge": 1,
+            "Hydrophobicity": 1.72,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Function": "Temporin-LT1 shows hemolytic activities against rabbit red blood cells (LD50>100 µg/ml).",
+            "Literature": [
+                {
+                    "Title": "Isolation, characterization and molecular cloning of new antimicrobial peptides belonging to the brevinin-1 and temporin families from the skin of Hylarana latouchii (Anura Ranidae).",
+                    "Pubmed ID": "19340924",
+                    "Reference": "Biochimie. 2009 Apr;91(4)540-547.",
+                    "Author": "Wang H, Yan X, Yu H, Hu Y, Yu Z, Zheng H, Chen Z, Zhang Z, Liu J.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=19340924"
+                }
+            ],
+            "Frequent Amino Acids": "LAG",
+            "Absent Amino Acids": "CDEHNOQRSTUVWY",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 3,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_11322",
+                    "Similarity": 0.8333333333333334,
+                    "Sequence": "GIAKFLHSAKKFGKAFVAEIMNS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01554",
+                    "Similarity": 0.7692307692307693,
+                    "Sequence": "FLAGLIGGLAKML"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01597",
+                    "Similarity": 0.75,
+                    "Sequence": "FLPALAGIAGLLGKIFGK"
+                }
+            ]
+        }
+    }
+}

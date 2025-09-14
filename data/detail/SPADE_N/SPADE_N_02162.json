@@ -1,0 +1,75 @@
+{
+    "SPADE_N_02162": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02162",
+            "Peptide Name": "L-amino-acid oxidase (BiLAO; LAAO; LAO; snakes, reptils, animals)",
+            "Source": "Bothrops insularis (Golden lancehead) (Queimada jararaca)",
+            "Family": "Belongs to the flavin monoamine oxidase family (FIG1 subfamily)",
+            "Gene": "Not found",
+            "Sequence": "ADDKNPLEECFREDDYEGFLEIAKNGLSTTSNPKRVVIVGAGMSGLAAY",
+            "Sequence Length": 49,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P0DI87"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Antiparasitic"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C230H361N61O78S2",
+            "Mass": 5292.82,
+            "PI": 4.4,
+            "Net Charge": -4,
+            "Hydrophobicity": -0.38,
+            "Half Life": "Mammalian:4.4 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Catalyzes an oxidative deamination of predominantly hydrophobic and aromatic L-amino acids, thus producing hydrogen peroxide that may contribute to the diverse toxic effects of this enzyme. Exhibits diverse biological activities, such as hemorrhage, hemolysis, edema, antibacterial and antiparasitic activities, as well as regulation of platelet aggregation. Its effect on platelets is controversial, since it either induces aggregation or inhibits agonist-induced aggregation. These different effects are probably due to different experimental conditions (By similarity). In addition, this protein induces apoptosis and necrosis and has inhibitory effects on rat kidney Function",
+            "Tissue specificity": "Expressed by the venom gland.",
+            "Literature": [
+                {
+                    "Title": "Purification and biological effects of L-amino acid oxidase isolated from Bothrops insularis venom.",
+                    "Pubmed ID": "17983639",
+                    "Reference": "Toxicon. 2008 Feb;51(2)199-207.",
+                    "Author": "Braga MD, Martins AM, Amora DN, de Menezes DB, Toyama MH, Toyama DO, Marangoni S, Alves CD, Barbosa PS, de Sousa Alves R, Fonteles MC, Monteiro HS.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=17983639"
+                }
+            ],
+            "Frequent Amino Acids": "AEG",
+            "Absent Amino Acids": "HOQUW",
+            "Basic Residues": 5,
+            "Acidic Residues": 9,
+            "Hydrophobic Residues": 21,
+            "Polar Residues": 24,
+            "Positive Residues": 5,
+            "Negative Residues": 9,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_00179",
+                    "Similarity": 0.9,
+                    "Sequence": "ADDRNPLEECFRETDYEEFLEIAKNGLSTT"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02166",
+                    "Similarity": 0.8888888888888888,
+                    "Sequence": "ADDKNPLEEAFREADYEVFLEIAKNGL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02163",
+                    "Similarity": 0.8648648648648649,
+                    "Sequence": "ADDKNPLEECFRETDYEEFLEIARNGLKATSNPKRVV"
+                }
+            ]
+        }
+    }
+}

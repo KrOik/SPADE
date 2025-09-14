@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_20346": {
+        "Sequence Information": {
+            "Peptide Name": "Aurein 2.2 (1-13)[G1R;F3W;K7,8R;V9W;A12W]-C, Peptide 73c",
+            "Sequence": "RLWDIVRRWVGWLC",
+            "Sequence Length": 14,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P82389",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P82389",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Aurein-derived antimicrobial peptides formulated with pegylated phospholipid micelles to target methicillin-resistant Staphylococcus aureus skin infections.",
+                    "Pubmed ID": "30565465",
+                    "Reference": "ACS Infect Dis. 2018;:",
+                    "Author": "Kumar P, Pletzer D, Haney EF, Rahanjam N, Cheng JJT, Yue M, Aljehani W, Hancock REW, Kizhakkedathu JN, Straus SK",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/30565465"
+                }
+            ],
+            "Mass": 1858.22,
+            "PI": 10.26,
+            "Net Charge": 2,
+            "Hydrophobicity": 0.21,
+            "Frequent Amino Acids": "RWL",
+            "Absent Amino Acids": "AEFHKMNOPQSTUY",
+            "Basic Residues": 3,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 8,
+            "Positive Residues": 3,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_UN_20346",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_12669",
+                    "Similarity": 1.0,
+                    "Sequence": "RLWDIVRRWVGWL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14887",
+                    "Similarity": 1.0,
+                    "Sequence": "GPLGVRGKRLWDIVRRWVGWL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_12046",
+                    "Similarity": 1.0,
+                    "Sequence": "RRLWKKTWKRLW"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:19% Hemolysis=50 µg/ml,Human PBMC:60% Cytotoxicity=50 µg/ml",
+            "Target Organism": "Staphylococcus aureus USA 300(MIC=8µg/ml)"
+        }
+    }
+}

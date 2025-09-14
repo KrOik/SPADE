@@ -1,0 +1,72 @@
+{
+    "SPADE_N_05586": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_05586",
+            "Peptide Name": "BacCH91(Bacteriocin)",
+            "Source": "Staphylococcus aureus CH-91",
+            "Family": "Belongs to the lantibiotics family (Class I bacteriocin)",
+            "Gene": "bacCH91",
+            "Sequence": "ITSFIGCTPGCGKTGSFNSFCC",
+            "Sequence Length": 22,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+"
+            ],
+            "Target Organism": "Gram-positive",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Similar to Gallidermin and epidermin. The fourth residue was phenylalanine in BacCH91 but lysine in both epidermin and gallidermin, which explains the more hydrophobic character of BacCH91.",
+            "Formula": "C95H144N24O30S4",
+            "Mass": 2230.56,
+            "PI": 7.88,
+            "Net Charge": 1,
+            "Hydrophobicity": 0.56,
+            "Half Life": "Mammalian:20 hourYeast:30 minE.coli:>10 hour",
+            "Comments": "The bacteriocin was not affected by any of the staphylococcal peptidases tested, particularly StpC. BacCH91 was unaffected by trypsin and proteinase K.",
+            "Literature": [
+                {
+                    "Title": "Isolation, biochemical characterization, and cloning of a bacteriocin from the poultry-associated Staphylococcus aureus strain CH-91.",
+                    "Pubmed ID": "23196985",
+                    "Reference": "Appl Microbiol Biotechnol. 2013 Aug;97(16)7229-39.",
+                    "Author": "Wladyka B, Wielebska K, Wloka M, Bochenska O, Dubin G, Dubin A, Mak P.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=23196985"
+                }
+            ],
+            "Frequent Amino Acids": "CGF",
+            "Absent Amino Acids": "ADEHLMOQRUVWY",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 12,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_05608",
+                    "Similarity": 0.8181818181818182,
+                    "Sequence": "ITSFSLCTPGCAKTGSFNSYCC"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_11371",
+                    "Similarity": 0.8181818181818182,
+                    "Sequence": "ITSHSLCTPGCAKTGSFNSFCC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00024",
+                    "Similarity": 0.7272727272727273,
+                    "Sequence": "IASKFICTPGCAKTGSFNSYCC"
+                }
+            ]
+        }
+    }
+}

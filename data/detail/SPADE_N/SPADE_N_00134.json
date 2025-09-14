@@ -1,0 +1,77 @@
+{
+    "SPADE_N_00134": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00134",
+            "Peptide Name": "Thuricin CDalpha (Trn-alpha; one peptide of Thuricin CD; Bacteriocin)",
+            "Source": "Bacillus thuringiensis DPC 6431 (Gram-positive bacteria)",
+            "Family": "Belongs to the class IIb bacteriocin",
+            "Gene": "Not found",
+            "Sequence": "GNAACVIGCIGSCVISEGIGSLVGTAFTLG",
+            "Sequence Length": 30,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/F5AT07"
+            ],
+            "Protein Existence": "Predicted",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+"
+            ],
+            "Target Organism": "Gram-positive bacteria:Clinical Clostridium difficile isolates (MIC in the range of nM) and Listeria monocytogenes, Lactobacillus fermentum.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Trn-α has L-stereochemistry at Ser21 (alpha-R), L-stereochemistry at Thr25 (alpha-R), and D-stereochemistry at Thr28 (alpha-S) (an LLD isomer).",
+            "Formula": "C118H197N31O39S3",
+            "Mass": 2770.21,
+            "PI": 4.05,
+            "Net Charge": -1,
+            "Hydrophobicity": 1.34,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Thuricin CD is produced by Bacillus thuringiensis DPC 6431, a bacterial strain isolated from a human fecal sample, and it consists of two distinct peptides, Trn-alpha and Trn-beta, that act synergistically to kill a wide range of clinical C. difficile isolates. Thuricin CD showes no activity against any Gram-negative organisms tested, including Escherichia coli, Pseudomonas sp., Salmonella sp., and Bacteroides fragilis.",
+            "Biophysicochemical properties": "Cell-free supernatants of thuricin were active throughout the pH range of 2-9 and heat stable up to 85 °C. There was, however, a reduction in activity at 90 °C and a complete loss of activity at 100 °C after 15 min.",
+            "Literature": [
+                {
+                    "Title": "Thuricin CD, a posttranslationally modified bacteriocin with a narrow spectrum of activity against Clostridium difficile.",
+                    "Pubmed ID": "20435915",
+                    "Reference": "Proc Natl Acad Sci U S A. 2010 May 18;107(20)9352-9357.",
+                    "Author": "Rea MC, Sit CS, Clayton E, O'Connor PM, Whittal RM, Zheng J, Vederas JC, Ross RP, Hill C.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=20435915"
+                },
+                {
+                    "Title": "The 3D structure of thuricin CD, a two-component bacteriocin with cysteine sulfur to alpha-carbon cross-links.",
+                    "Pubmed ID": "21526839",
+                    "Reference": "J Am Chem Soc. 2011 May 25;133(20)7680-7683.",
+                    "Author": "Sit CS, McKay RT, Hill C, Ross RP, Vederas JC.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=21526839"
+                }
+            ],
+            "Frequent Amino Acids": "GIA",
+            "Absent Amino Acids": "DHKMOPQRUWY",
+            "Basic Residues": 0,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 15,
+            "Positive Residues": 0,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06154",
+                    "Similarity": 1.0,
+                    "Sequence": "MEVMNNALITKVDEEIGGNAACVIGCIGSCVISEGIGSLVGTAFTLG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01467",
+                    "Similarity": 0.5384615384615384,
+                    "Sequence": "GLFDIAKKVIGVIGSL"
+                }
+            ]
+        }
+    }
+}

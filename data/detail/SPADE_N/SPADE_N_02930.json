@@ -1,0 +1,90 @@
+{
+    "SPADE_N_02930": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 7384911 B2",
+                "Patent Link": "http://www.lens.org/lens/patent/US_7384911_B2",
+                "Patent Type": "Granted Patent",
+                "Publication Date": "2008-6-10",
+                "Family Info": "CA2492053A1,DE60330454D1,EP1517916A2,EP1517916B1,US20050245437,WO2004003006A2,WO2004003006A3",
+                "Patent Title": "Peptides having antimicrobial properties and compositions containing them, notably for the preservation of foodstuffs.",
+                "Abstract": "An isolated peptide including an amino acid sequence of formula (II): Xaa-Ca1-Xab-Ca2-Xac-Ca3-Xad-Ca4-Xae-Ca5-Ca6-Xaf (II). wherein Xaa is Ser-Phe-Gly-Leu, Xab is Arg-Leu-Arg-Arg-Gly-Phe, Xac is Ala-Xac2-Gly-Arg, Xad is Arg-Phe-Pro-Ser-Ile-Pro-Ile-Gly-Arg, Xae is Ser-Arg-Phe-Val-Gln, and Xaf is Arg-Arg-Val-Trp, Xac2 is histidine or arginine, Ca1, Ca2, Ca3, Ca4, Ca5 and Ca6 are sulfur containing amino acids, wherein each of Ca1-Ca5, Ca2-Ca4 and Ca3-Ca6 are linked together by a sulfur bridge, and wherein the amino acid sequence has antimicrobial activity."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02930",
+            "Peptide Name": "Beta-defensin 4 (BD-4, mBD-4; Defensin, beta 4; Rodents, mammals, animals)",
+            "Source": "Mus musculus (Mouse)",
+            "Family": "Belongs to the beta-defensin family",
+            "Gene": "Defb4",
+            "Sequence": "QIINNPITCMTNGAICWGPCPTAFRQIGNCGHFKVRCCKIR",
+            "Sequence Length": 41,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P82019"
+            ],
+            "Protein Existence": "Transcript level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-negative bacterium:Escherichia coli;Gram-positive bacterium:Staphylococcus aureus.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C196H315N61O51S7",
+            "Mass": 4566.43,
+            "PI": 9.22,
+            "Net Charge": 6,
+            "Hydrophobicity": 0.06,
+            "Half Life": "Mammalian:0.8 hourYeast:10 minE.coli:>10 hour",
+            "PTM": "Contains three disulfide bonds 9-37; 16-30; 20-38. When expressed as a fusion protein, mBD-4 showed activity against both E. coli and S. aureus at 1ug/ml as well as chemotactic activity via CCR6-expressing cells (Rohrl J et al. J Biol Chem. 2010 Mar 5;285(10)",
+            "Literature": [
+                {
+                    "Title": "A novel murine beta-defensin expressed in tongue, esophagus, and trachea.",
+                    "Pubmed ID": "10922379",
+                    "Reference": "J Biol Chem. 2000 Oct 27;275(43)33314-33320.",
+                    "Author": "Jia HP, Wowk SA, Schutte BC, Lee SK, Vivado A, Tack BF, Bevins CL, McCray PB Jr.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=10922379"
+                },
+                {
+                    "Title": "The transcriptional landscape of the mammalian genome.",
+                    "Pubmed ID": "R2005J1471",
+                    "Author": "Frith M.C.,Gough J.,Katayama S.,Kasukawa T.,Carninci P."
+                }
+            ],
+            "Frequent Amino Acids": "CIG",
+            "Absent Amino Acids": "DELOSUY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 16,
+            "Polar Residues": 24,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_04184",
+                    "Similarity": 1.0,
+                    "Sequence": "MRIHYLLFTFLLVLLSPLAAFTQIINNPITCMTNGAICWGPCPTAFRQIGNCGHFKVRCCKIR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14828",
+                    "Similarity": 1.0,
+                    "Sequence": "IINNPITCMTNGAICWGPCPTAFRQIGNCGHFKVRCCKIR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04019",
+                    "Similarity": 1.0,
+                    "Sequence": "INNPITCMTNGAICWGPCPTAFRQIGNCGHFKVRCCKIR"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "SPADE_N_00114": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00114",
+            "Peptide Name": "Acidocin J1132 alpha peptide (Bacteriocin)",
+            "Source": "Lactobacillus acidophilus JCM 1132 (Gram-positive bacteria)",
+            "Family": "Belongs to the class IIb bacteriocin",
+            "Gene": "Not found",
+            "Sequence": "NPKVAHCASQIGRSTAWGAVSGA",
+            "Sequence Length": 23,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q9R4A0"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "Lactobacillus.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C96H154N32O30S",
+            "Mass": 2268.51,
+            "PI": 9.51,
+            "Net Charge": 3,
+            "Hydrophobicity": -0.04,
+            "Half Life": "Mammalian:1.4 hourYeast:3 minE.coli:>10 hour",
+            "Comments": "Acidocin J1132 is a pore-forming bacteriocin that creates cell membrane channels through the \"barrel-stave\" mechanism. Both alpha and beta had inhibitory activity, and an increase in activity by the complementary action of the two components was observed.",
+            "Literature": [
+                {
+                    "Title": "Isolation, partial characterization, and mode of action of Acidocin J1132, a two-component bacteriocin produced by Lactobacillus acidophilus JCM 1132.",
+                    "Pubmed ID": "8975617",
+                    "Reference": "Appl Environ Microbiol. 1996 Mar;62(3)892-897.",
+                    "Author": "Tahara T, Oshimura M, Umezawa C, Kanatani K.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=8975617"
+                }
+            ],
+            "Frequent Amino Acids": "AGS",
+            "Absent Amino Acids": "DEFLMOUY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 17,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00115",
+                    "Similarity": 1.0,
+                    "Sequence": "GNPKVAHCASQIGRSTAWGAVSGA"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04115",
+                    "Similarity": 1.0,
+                    "Sequence": "MEKLMVLNEEKLSYVIGGGNPKVAHCASQIGRSTAWGAVSGAATGTAVGQAVGALGGALFGGSMGVIKGSAACVSYLTRHRHH"
+                }
+            ]
+        }
+    }
+}

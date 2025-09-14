@@ -1,0 +1,81 @@
+{
+    "SPADE_UN_27502": {
+        "Sequence Information": {
+            "Peptide Name": "Anoplin [R5W]",
+            "Sequence": "GLLKWIKTLL",
+            "Sequence Length": 10,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "2MJR",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P0C005",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P0C005",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Structure-activity relationship study of anoplin.",
+                    "Pubmed ID": "15635634",
+                    "Reference": "J Pept Sci. 2005;11:113-121",
+                    "Author": "Ifrah D, Doisy X, Ryge TS, Hansen PR",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/15635634"
+                },
+                {
+                    "Title": "Rational design of alpha-helical antimicrobial peptides: do's and don'ts.",
+                    "Pubmed ID": "25530580",
+                    "Reference": "Chembiochem. 2015;16:242-253",
+                    "Author": "Uggerhøj LE, Poulsen TJ, Munk JK, Fredborg M, Sondergaard TE, Frimodt-Moller N, Hansen PR, Wimmer R",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/25530580"
+                },
+                {
+                    "Title": "Synthetic analogs of anoplin show improved antimicrobial activities.",
+                    "Pubmed ID": "24019229",
+                    "Reference": "J Pept Sci. 2013;19:669-675",
+                    "Author": "Munk JK, Uggerhøj LE, Poulsen TJ, Frimodt-Møller N, Wimmer R, Nyberg NT, Hansen PR",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/24019229"
+                }
+            ],
+            "Mass": 1184.51,
+            "PI": 10.0,
+            "Net Charge": 2,
+            "Hydrophobicity": 0.99,
+            "Frequent Amino Acids": "LKG",
+            "Absent Amino Acids": "ACDEFHMNOPQRSUVY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 5,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_27502",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01235",
+                    "Similarity": 1.0,
+                    "Sequence": "FLPIVGKLLSGLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01237",
+                    "Similarity": 1.0,
+                    "Sequence": "LLPIVGKLLSGLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01477",
+                    "Similarity": 1.0,
+                    "Sequence": "ILGPILGLVSNAGGLL"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=7 µg/ml,Human erythrocytes:50% Hemolysis=20 µM",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=2µg/ml),Staphylococcus aureus ATCC 25923(MIC=2µg/ml),Escherichia coli ATCC 25922(MIC=37.5µM),Staphylococcus aureus ATCC 33591(MIC=9.5µM),Enterococcus faecium ATCC 700221(MIC=9.5µM),Pseudomonas aeruginosa ATCC 27853(MIC=28.4µM),Candida albicans ATCC 200955(MIC=28.4µM)"
+        }
+    }
+}

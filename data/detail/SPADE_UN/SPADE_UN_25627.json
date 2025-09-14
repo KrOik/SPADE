@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_25627": {
+        "Sequence Information": {
+            "Peptide Name": "PMAP-23 (16-23)",
+            "Sequence": "KFVTVWVR",
+            "Sequence Length": 8,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P49930",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P49930",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Broad-spectrum hybrid antimicrobial peptides derived from PMAP-23 with potential LPS binding ability.",
+                    "Pubmed ID": "36921633",
+                    "Reference": "Biochem Pharmacol. 2023;210:115500",
+                    "Author": "Lyu Y, Tan M, Xue M, Hou W, Yang C, Shan A, Xiang W, Cheng B",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/36921633"
+                }
+            ],
+            "Mass": 1034.25,
+            "PI": 11.0,
+            "Net Charge": 2,
+            "Hydrophobicity": 0.68,
+            "Frequent Amino Acids": "VFK",
+            "Absent Amino Acids": "ACDEGHILMNOPQSUY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 4,
+            "Polar Residues": 4,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_25627",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02561",
+                    "Similarity": 1.0,
+                    "Sequence": "RIIDLLWRVRRPQKPKFVTVWVR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06365",
+                    "Similarity": 1.0,
+                    "Sequence": "VKRFKKFFRKLKKFV"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10585",
+                    "Similarity": 1.0,
+                    "Sequence": "HRWGKFV"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:5% Hemolysis=>256 µM",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=64µM),Escherichia coli UB1005(MIC=64µM),Salmonella enterica subsp. enterica serovar Typhimurium C77-31(MIC=>128µM),Staphylococcus aureus ATCC 29213(MIC=64µM),Staphylococcus aureus ATCC 25923(MIC=64µM),Staphylococcus epidermidis ATCC 12228(MIC=64µM)"
+        }
+    }
+}

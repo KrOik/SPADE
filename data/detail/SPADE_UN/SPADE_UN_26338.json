@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_26338": {
+        "Sequence Information": {
+            "Peptide Name": "Cathelicidin-BF-15 [S14V]",
+            "Sequence": "VKRFKKFFRKLKKVV",
+            "Sequence Length": 15,
+            "Biological Activity": [
+                "Anticancer",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer\n2. Mitochondrial membrane",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "B6D434",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/B6D434",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Design, synthesis and biological evaluation of novel peptides with anti-cancer and drug resistance-reversing activities",
+                    "Pubmed ID": "25462264",
+                    "Reference": "Eur J Med Chem. 2015;89:540-548",
+                    "Author": "Deng X, Qiu Q, Yang B, Wang X, Huang W, Qian H",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/25462264"
+                }
+            ],
+            "Mass": 1951.49,
+            "PI": 12.0,
+            "Net Charge": 8,
+            "Hydrophobicity": -0.51,
+            "Frequent Amino Acids": "KFV",
+            "Absent Amino Acids": "ACDEGHIMNOPQSTUWY",
+            "Basic Residues": 8,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 8,
+            "Positive Residues": 8,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_26338",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_26338",
+                    "Similarity": 1.0,
+                    "Sequence": "VKRFKKFFRKLKKVV"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_22042",
+                    "Similarity": 1.0,
+                    "Sequence": "KRFKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08642",
+                    "Similarity": 1.0,
+                    "Sequence": "KKVVVKVKFK"
+                }
+            ],
+            "Hemolytic Activity": "Human gastric epithelial cells GES-1:IC50=64.6 µM,Rabbit erythrocytes:<5% Hemolysis=160 µM",
+            "Target Organism": "Human breast adenocarcinoma MCF-7(IC50=4.9µM),Human myelogenous leukemia K562(IC50=5.0µM)"
+        }
+    }
+}

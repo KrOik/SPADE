@@ -1,0 +1,74 @@
+{
+    "SPADE_N_01821": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01821",
+            "Peptide Name": "Brevinin-2-OA8 (Frogs, amphibians, animals)",
+            "Source": "Odorrana andersonii (Chinese odorous frog)",
+            "Family": "Belongs to the frog skin active peptide family (Brevinin subfamily)",
+            "Gene": "Not found",
+            "Sequence": "GVLATVKNLLNGTGDGAAQSVLKTLSCKLSNDC",
+            "Sequence Length": 33,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "Gram-negative bacteria:Escherichia coli ATCC 25922 (MIC=7.9 µg/ml), Bacillus pyocyaneus CMCCB 10104 (MIC=15.8 µg/ml);Gram-positive bacterium:Staphylococcus aureus ATCC 25923 (MIC=4.0 µg/ml).Yeast:Candida albicans (MIC=4.0 µg/ml).",
+            "Hemolytic Activity": "[Ref.22029824] It shows no hemolytic activity against human red blood cells at the concentration of 50 μg/mL.",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Cyclization (Cys27 and Cys33)",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C138H240N40O48S2",
+            "Mass": 3291.75,
+            "PI": 8.03,
+            "Net Charge": 1,
+            "Hydrophobicity": 0.21,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Has antibacterial and antifungal activity.",
+            "Literature": [
+                {
+                    "Title": "Extremely abundant antimicrobial peptides existed in the skins of nine kinds of Chinese odorous frogs.",
+                    "Pubmed ID": "22029824",
+                    "Reference": "J Proteome Res. 2012 Jan 1;11(1)306-319.",
+                    "Author": "Yang X, Lee WH, Zhang Y.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=22029824"
+                }
+            ],
+            "Frequent Amino Acids": "LGA",
+            "Absent Amino Acids": "EFHIMOPRUWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 21,
+            "Positive Residues": 3,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01819",
+                    "Similarity": 0.9696969696969697,
+                    "Sequence": "GVLATVKNLLIGTGDGAAQSVLKTLSCKLSNDC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01707",
+                    "Similarity": 0.8484848484848485,
+                    "Sequence": "GVLGTVKNLLIGAGKSAAQSVLKTLSCKLSNDC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01294",
+                    "Similarity": 0.8181818181818182,
+                    "Sequence": "GVLGTVKNLLIGAGKSAAQSVLKTLSCKLFNDC"
+                }
+            ]
+        }
+    }
+}

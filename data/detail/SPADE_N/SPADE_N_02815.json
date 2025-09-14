@@ -1,0 +1,77 @@
+{
+    "SPADE_N_02815": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02815",
+            "Peptide Name": "M-zodatoxin-Lt8g (M-ZDTX-Lt8g; Cytoinsectotoxin-1g, CIT-1g; spiders, Arthropods, animals)",
+            "Source": "Lachesana tarabaevi (Spider)",
+            "Family": "Belongs to the cytoinsectotoxin family",
+            "Gene": "cit 1-8",
+            "Sequence": "GFFGNTWKKIKGKADKIMLKKAVKIMVKKEGISKEEAQAKVDAMSKKQIRLYVLKHYGKKALQKASEKL",
+            "Sequence Length": 69,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P85259",
+                "http://www.uniprot.org/uniprot/B3W6I5"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram-",
+                "Insecticidal"
+            ],
+            "Target Organism": "Gram-negative bacterium:Escherichia coli.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C359H608N98O92S3",
+            "Mass": 7865.46,
+            "PI": 10.21,
+            "Net Charge": 15,
+            "Hydrophobicity": -0.63,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Has insecticidal activity against the flesh fly S. carnaria. Forms voltage-dependent, ion-permeable channels in membranes. At high concentration causes cell membrane lysis.",
+            "Tissue specificity": "Expressed by the venom gland.",
+            "Literature": [
+                {
+                    "Title": "Cyto-insectotoxins, a novel class of cytolytic and insecticidal peptides from spider venom.",
+                    "Pubmed ID": "18215128",
+                    "Reference": "Biochem J. 2008 May 1;411(3)687-696.",
+                    "Author": "Vassilevski A.A, Kozlov S.A, Samsonova O.V, Egorova N.S, Karpunin D.V, Pluzhnikov K.A, Feofanov A.V, Grishin E.V.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=18215128"
+                }
+            ],
+            "Frequent Amino Acids": "KAG",
+            "Absent Amino Acids": "COPU",
+            "Basic Residues": 21,
+            "Acidic Residues": 6,
+            "Hydrophobic Residues": 29,
+            "Polar Residues": 42,
+            "Positive Residues": 21,
+            "Negative Residues": 6,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02811",
+                    "Similarity": 0.9855072463768116,
+                    "Sequence": "GFFGNTWKKIKGKADKIMLKKAVKIMVKKEGISKEEAQAKVDAMSKKQIRLYVLKYYGKKALQKASEKL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02814",
+                    "Similarity": 0.9855072463768116,
+                    "Sequence": "GFFGNTWKKIKGKADKIMLKKAVKIMVKKEGISKEEAQAKVDAMSKKQIRLYLLKHYGKKALQKASEKL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02818",
+                    "Similarity": 0.9855072463768116,
+                    "Sequence": "GFFGNTWKKIKGKADKIMLKKAVKIMVKKEGISKEEAQAKVDAMSKKQIRLYVLKHYGKKALQKVSEKL"
+                }
+            ]
+        }
+    }
+}

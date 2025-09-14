@@ -1,0 +1,55 @@
+{
+    "SPADE_UN_28339": {
+        "Sequence Information": {
+            "Peptide Name": "Lasioglossin LL-III [W3ALA-4-pen][L7ALA-4-pen][I10ALA-4-pen][V14ALA-4-pen]",
+            "Sequence": "VNXKKIXGKXIKVXK",
+            "Sequence Length": 15,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "C0HK44",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/C0HK44",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Effect of hydrocarbon stapling on the properties of ?-helical antimicrobial peptides isolated from the venom of hymenoptera.",
+                    "Pubmed ID": "22526241",
+                    "Reference": "Amino Acids. 2012;43:2047-2058",
+                    "Author": "Chapuis H, Slaninová J, Bednárová L, Monincová L, Budesínský M#dublicated, Cerovský V#dublicated",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/22526241"
+                }
+            ],
+            "SPADE ID": "SPADE_UN_28339",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_02367",
+                    "Similarity": 1.0,
+                    "Sequence": "WKSKLSVNK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_09166",
+                    "Similarity": 1.0,
+                    "Sequence": "AVPFRRTSKTRKRLRRTHFKLQVPGMVQCPNCGEWKLAHRVCKACGTYKGRDVVNK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_28339",
+                    "Similarity": 1.0,
+                    "Sequence": "VNKKIGKIKVK"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=>100 µM",
+            "Target Organism": "Micrococcus luteus CCM 144(MIC=2µM),Bacillus subtilis 168(MIC=1.1µM),Staphylococcus aureus(MIC=80µM),Escherichia coli B(MIC=20µM),Pseudomonas aeruginosa(MIC=>100µM),Candida albicans F7-39/IDE99(MIC=>100µM)"
+        }
+    }
+}

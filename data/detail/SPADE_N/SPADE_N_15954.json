@@ -1,0 +1,64 @@
+{
+    "SPADE_N_15954": {
+        "Sequence Information": {
+            "Peptide Name": "Sm AMP-1.1a",
+            "Sequence": "SGPNGQCGPGWGGCRGGLCCSQYGYCGSGPKYCAH",
+            "Sequence Length": 35,
+            "Biological Activity": [
+                "Antifungal"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "1. Stellaria media",
+            "Gene": "1. amp-1",
+            "PDB ID": "2KUS",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "E1UYT9",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/E1UYT9",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "A novel antifungal peptide from leaves of the weed Stellaria media L.",
+                    "Pubmed ID": "26196691",
+                    "Reference": "Biochimie. 2015;116:125-132",
+                    "Author": "Rogozhin EA, Slezina MP, Slavokhotova AA, Istomina EA, Korostyleva TV, Smirnov AN, Grishin EV, Egorov TA, Odintsova TI",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/26196691"
+                }
+            ],
+            "Mass": 3468.84,
+            "PI": 8.29,
+            "Net Charge": 3,
+            "Hydrophobicity": -0.51,
+            "Frequent Amino Acids": "GCP",
+            "Absent Amino Acids": "DEFIMOTUV",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 27,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_N_15954",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_15955",
+                    "Similarity": 0.6857142857142857,
+                    "Sequence": "VGPGGECGGRFGGCAGGQCCSRFGFCGSGPKYCAH"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00922",
+                    "Similarity": 0.6774193548387096,
+                    "Sequence": "AQCGAQGGGATCPGGLCCSQWGWCGSTPKYCGAGCQSNCK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00923",
+                    "Similarity": 0.6774193548387096,
+                    "Sequence": "AQCGAQGGGATCPGGLCCSQWGWCGSTPKYCGAGCQSNCR"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Botrytis cinerea SGR-1(IC50=2.4µM),Fusarium solani IVK(IC50=3.5µM),Alternaria alternata DVZ(IC50=2.6µM)"
+        }
+    }
+}

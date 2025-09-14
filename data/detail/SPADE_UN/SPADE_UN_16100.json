@@ -1,0 +1,72 @@
+{
+    "SPADE_UN_16100": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_16100",
+            "Peptide Name": "M5",
+            "Source": "Synthetic",
+            "Family": "",
+            "Gene": "Not found",
+            "Sequence": "GSGILILIKRK",
+            "Sequence Length": 11,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Notavailable"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Target Organism": "Tumor cells:U-937 (LD50>64 µM)",
+            "Hemolytic Activity": "Not available",
+            "Cytotoxicity": "Not available",
+            "Binding Target": "Not available",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C55H104N16O13",
+            "Mass": 1197.51,
+            "PI": 11.17,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.65,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Literature": [
+                {
+                    "Title": "Rational design of artificial β-strand-forming antimicrobial peptides with biocompatible properties",
+                    "Pubmed ID": "25192319",
+                    "Reference": "Mol Pharm. 2014 Oct 6;11(10)3492-502.",
+                    "Author": "Rapsch K, Bier FF, von Nickisch-Rosenegk M.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=25192319"
+                }
+            ],
+            "Frequent Amino Acids": "IGK",
+            "Absent Amino Acids": "ACDEFHMNOPQTUVWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 4,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02195",
+                    "Similarity": 1.0,
+                    "Sequence": "YKQCHKKGGHCFPKEKICLPPSSDFGKMDCRWRWKCCKKGSG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03643",
+                    "Similarity": 1.0,
+                    "Sequence": "YKRCHIKGGHCFPKEKICIPPSSDFGKMDCPWRRKCCKKGSG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03645",
+                    "Similarity": 1.0,
+                    "Sequence": "YKRCHIKGGHCFPKEKICIPPSSDFGKMDCPWRRKSLKKGSG"
+                }
+            ]
+        }
+    }
+}

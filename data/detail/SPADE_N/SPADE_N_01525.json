@@ -1,0 +1,71 @@
+{
+    "SPADE_N_01525": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01525",
+            "Peptide Name": "Dermaseptin-S13 (DS13; Frogs, amphibians, animals)",
+            "Source": "Phyllomedusa sauvagei (Sauvage's leaf frog)",
+            "Family": "Belongs to the frog skin active peptide family (Dermaseptin subfamily)",
+            "Gene": "Not found",
+            "Sequence": "GLRSKIKEAAKTAGKMALGFVNDMA",
+            "Sequence Length": 25,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C113H195N33O33S2",
+            "Mass": 2608.09,
+            "PI": 10.0,
+            "Net Charge": 3,
+            "Hydrophobicity": -0.06,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Dermaseptin S9, an alpha-helical antimicrobial peptide with a hydrophobic core and cationic termini.",
+                    "Pubmed ID": "16401077",
+                    "Reference": "Biochemistry. 2006 Jan 17;45(2)468-480.",
+                    "Author": "Lequin O, Ladram A, Chabbert L, Bruston F, Convert O, Vanhoye D, Chassaing G, Nicolas P, Amiche M.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16401077"
+                }
+            ],
+            "Frequent Amino Acids": "AKG",
+            "Absent Amino Acids": "CHOPQUWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 14,
+            "Positive Residues": 5,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01488",
+                    "Similarity": 1.0,
+                    "Sequence": "DEEKRENEDEENQEDDEQSEMRRGLRSKIKEAAKTAGKMALGFVNDMAGEQ"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01487",
+                    "Similarity": 0.88,
+                    "Sequence": "EEEKRENEDEENQEDDEQSEMRRGLWSKIKEAAKTAGKMAMGFVNDMVGEQ"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01524",
+                    "Similarity": 0.88,
+                    "Sequence": "GLWSKIKEAAKTAGKMAMGFVNDMV"
+                }
+            ]
+        }
+    }
+}

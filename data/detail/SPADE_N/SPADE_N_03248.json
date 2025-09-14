@@ -1,0 +1,75 @@
+{
+    "SPADE_N_03248": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03248",
+            "Peptide Name": "Potassium channel toxin MeuTXK-beta-2 (MeuTXKbeta2; Arthropods, animals)",
+            "Source": "Mesobuthus eupeus (Lesser Asian scorpion) (Buthus eupeus)",
+            "Family": "Belongs to the long chain scorpion toxin family (Class 1 subfamily)",
+            "Gene": "Not found",
+            "Sequence": "GFREKHFQRFVKYAVPESTLRTVLQTVVHKVGKTQFGCSAYQGYCDDHCQDIEKKEGFCHGFKCKCGIPMGF",
+            "Sequence Length": 72,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/A9XE59"
+            ],
+            "Protein Existence": "Transcript level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "[Ref.20045493]Slight hemolytic activity against mouse erythrocytes",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C368H558N102O101S7",
+            "Mass": 8251.44,
+            "PI": 8.82,
+            "Net Charge": 8,
+            "Hydrophobicity": -0.45,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Has a low affinity binding to potassium channels of rat brain synaptosomes. Displays weak antibacterial activity against Stenotrophomonas sp. Strongly inhibits the development of the Plasmodium berghei ookinetes. Displays slight hemolytic effect on mouse erythrocytes. Induces cytolysis on Xenopus oocytes at high concentrations. Is not toxic on mice and on the insect Tenebrio molitor.",
+            "Tissue specificity": "Expressed by the venom gland.",
+            "PTM": "Contains three disulfide bonds (By similarity).",
+            "Literature": [
+                {
+                    "Title": "MeuTXKbeta1, a scorpion venom-derived two-domain potassium channel toxin-like peptide with cytolytic activity.",
+                    "Pubmed ID": "20045493",
+                    "Reference": "Biochim Biophys Acta. 2010 Apr;1804(4)872-883.",
+                    "Author": "Zhu S, Gao B, Aumelas A, del Carmen RodrÃ­guez M, Lanz-Mendoza H, Peigneur S, Diego-Garcia E, Martin-Eauclaire MF, Tytgat J, Possani LD.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=20045493"
+                }
+            ],
+            "Frequent Amino Acids": "GKF",
+            "Absent Amino Acids": "NOUW",
+            "Basic Residues": 15,
+            "Acidic Residues": 7,
+            "Hydrophobic Residues": 25,
+            "Polar Residues": 43,
+            "Positive Residues": 15,
+            "Negative Residues": 7,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_28555",
+                    "Similarity": 1.0,
+                    "Sequence": "GFREKHFQRFVKYAVPESTLR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03247",
+                    "Similarity": 0.9861111111111112,
+                    "Sequence": "GFREKHFQRFVKYAVPESTLRTVLQTVVHKVGKTQFGCPAYQGYCDDHCQDIEKKEGFCHGFKCKCGIPMGF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09766",
+                    "Similarity": 0.9803921568627451,
+                    "Sequence": "TVLQTVVHKVGKTQFGCPAYQGYCDDHCQDIEKKEGFCHGFKCKCGIPMGF"
+                }
+            ]
+        }
+    }
+}

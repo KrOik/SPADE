@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_30578": {
+        "Sequence Information": {
+            "Peptide Name": "Lysozyme C (107-115)[A2,5K]",
+            "Sequence": "RKWVKWRNR",
+            "Sequence Length": 9,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P61626",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P61626",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Improved antimicrobial activity of h-lysozyme (107-115) by rational Ala substitution.",
+                    "Pubmed ID": "20582913",
+                    "Reference": "J Pept Sci. 2010;16:424-429",
+                    "Author": "González R, Albericio F, Cascone O, Iannucci NB",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/20582913"
+                }
+            ],
+            "Mass": 1328.57,
+            "PI": 12.0,
+            "Net Charge": 5,
+            "Hydrophobicity": -2.49,
+            "Frequent Amino Acids": "RKW",
+            "Absent Amino Acids": "ACDEFGHILMOPQSTUY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 1,
+            "Polar Residues": 8,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_30578",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_09925",
+                    "Similarity": 1.0,
+                    "Sequence": "GVSCLRNGGFCIPIRCPGHTRQIGTCFGPRVKCCRKW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09926",
+                    "Similarity": 1.0,
+                    "Sequence": "GVSCLRNGGFCIPIRCPGHTRQIGTCFGPRVKSCRKW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09927",
+                    "Similarity": 1.0,
+                    "Sequence": "GFCIPIRCPGHTRQIGTCFGPRVKSCRKW"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=125µg/ml),Staphylococcus aureus ATCC 29213(MIC=31.25µg/ml)"
+        }
+    }
+}

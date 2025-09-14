@@ -1,0 +1,74 @@
+{
+    "SPADE_N_15946": {
+        "Sequence Information": {
+            "Peptide Name": "Dermal antimicrobial peptide Hs-1",
+            "Sequence": "FLPLILPSIVTALSSFLKQG",
+            "Sequence Length": 20,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antiviral",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer\n2. Virus entry",
+            "Source": "1. Hypsiboas semilineatus",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "T2D330",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/T2D330",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Identification and characterization of an antimicrobial peptide of Hypsiboas semilineatus (Spix, 1824) (Amphibia, Hylidae). ",
+                    "Pubmed ID": "25772860",
+                    "Reference": "Toxicon. 2015;99:16-22",
+                    "Author": "Nacif-Marçal L, Pereira GR, Abranches MV, Costa NC, Cardoso SA, Honda ER, de Paula SO, Feio RN, Oliveira LL",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/25772860"
+                },
+                {
+                    "Title": "The Antimicrobial Peptide HS-1 Inhibits Dengue Virus Infection",
+                    "Pubmed ID": "29153860",
+                    "Reference": "Virology. 2018;514:79-87",
+                    "Author": "Monteiro JMC, Oliveira MD, Dias RS, Nacif-Marçal L, Feio RN, Ferreira SO, Oliveira LL, Silva CC, de Paula SO",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/29153860"
+                }
+            ],
+            "Mass": 2144.59,
+            "PI": 8.75,
+            "Net Charge": 1,
+            "Hydrophobicity": 1.27,
+            "Frequent Amino Acids": "LSF",
+            "Absent Amino Acids": "CDEHMNORUWY",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 9,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_N_15946",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_17799",
+                    "Similarity": 1.0,
+                    "Sequence": "LKQGNHINLPS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02874",
+                    "Similarity": 0.8461538461538461,
+                    "Sequence": "FLPLILRKIVTAL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_21571",
+                    "Similarity": 0.8461538461538461,
+                    "Sequence": "FLPLILFWIVTAL"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=82 µM,Vero cells:50% Cell death=31.25 µg/ml",
+            "Target Organism": "Staphylococcus aureus ATCC 33591(MIC=11.7µM),Bacillus cereus ATCC 14579(MIC=23.3µM),Bacillus subtilis ATCC 23858(MIC=23.3µM),Listeria monocytogenes ATCC 7644(MIC=46.6µM),Citrobacter freundii ATCC 8090(no activity data),Cronobacter sakazakii ATCC 29004(no activity data),Escherichia coli ATCC 29214(no activity data),Moraxella catarrhalis ATCC 25238(no activity data),Proteus vulgaris ATCC 13315(no activity data),Salmonella enterica subsp. enterica serovar Typhimurium ATCC 14028(no activity data),Shigella flexneri ATCC 12022(no activity data),DENV-2(90-100% Inhibition=15.625µg/ml),DENV-3(90-100% Inhibition=3.9µg/ml)"
+        }
+    }
+}

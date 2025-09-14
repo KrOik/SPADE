@@ -1,0 +1,73 @@
+{
+    "SPADE_N_02348": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02348",
+            "Peptide Name": "Beta-defensin 105A (Defensin, beta 105; Defensin, beta 105A; primates, mammals, animals)",
+            "Source": "Hylobates lar (Common gibbon) (White-handed gibbon)",
+            "Family": "Belongs to the beta-defensin family",
+            "Gene": "DEFB105A",
+            "Sequence": "GLDFSQPFPSGEFAVFESCKFSRGKCRKECLENEKPDGNCRLNFLCCRQSI",
+            "Sequence Length": 51,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/A4H208"
+            ],
+            "Protein Existence": "Homology",
+            "Biological Activity": [
+                "Antimicrobial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C251H388N72O76S6",
+            "Mass": 5822.59,
+            "PI": 7.77,
+            "Net Charge": 1,
+            "Hydrophobicity": -0.56,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Has antimicrobial activity (By similarity).",
+            "PTM": "Contains three disulfide bonds (By similarity).",
+            "Literature": [
+                {
+                    "Title": "Evolution and sequence variation of human beta-defensin genes.",
+                    "Pubmed ID": "PubMed ID is not available",
+                    "Reference": "Submitted (NOV-2006) to the EMBL/GenBank/DDBJ databases",
+                    "Author": "Hollox EJ, Armour JAL.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=PubMed ID is not available"
+                }
+            ],
+            "Frequent Amino Acids": "CFE",
+            "Absent Amino Acids": "HMOTUWY",
+            "Basic Residues": 8,
+            "Acidic Residues": 7,
+            "Hydrophobic Residues": 16,
+            "Polar Residues": 26,
+            "Positive Residues": 8,
+            "Negative Residues": 7,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03739",
+                    "Similarity": 0.9393939393939394,
+                    "Sequence": "ESCKLGRGKCRKECLENEKPDGNCRLNFLCCRQ"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02302",
+                    "Similarity": 0.9215686274509803,
+                    "Sequence": "GLDFSQPFPSGEFAVCESCKLGRGKCRKECLENEKPDGNCRLNFLCCRQRI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08121",
+                    "Similarity": 0.9215686274509803,
+                    "Sequence": "MALIRKTFYFLFAMFFILVQLPSGCQAGLDFSQPFPSGEFAVCESCKLGRGKCRKECLENEKPDGNCRLNFLCCRQRI"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,95 @@
+{
+    "SPADE_N_01840": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 2005/0260715 A1",
+                "Patent Link": "http://www.lens.org/lens/patent/US_2005_0260715_A1",
+                "Patent Type": "Patent Application",
+                "Publication Date": "2005-11-24",
+                "Family Info": "US6946261",
+                "Patent Title": "Efficient methods for producing antimicrobial cationic peptides in host cells.",
+                "Abstract": "Endogenously produced cationic antimicrobial peptides are ubiquitous components of host defenses in mammals, birds, amphibia, insects, and plants. Cationic peptides are also effective when administered as therapeutic agents. A practical drawback in cationic peptide therapy, however, is the cost of producing the agents. The methods described herein provide a means to efficiently produce cationic peptides from recombinant host cells. These recombinantly-produced cationic peptides can be rapidly purified from host cell proteins using anion exchange chromatography."
+            },
+            {
+                "Patent No": "US 7862826 B2",
+                "Patent Link": "http://www.lens.org/lens/patent/US_7862826_B2",
+                "Patent Type": "Granted Patent",
+                "Publication Date": "2011-1-4",
+                "Family Info": "US20090298741A1,US11214372,US60604912,US20070207209,WO\n0209738",
+                "Patent Title": "Trophic factor combinations for nervous system treatment",
+                "Abstract": "The present invention relates to a composition including an effective amount of at least one of an antimicrobial peptide and a substance having an antimicrobial peptide effect and an effective amount of a neurotrophin. The composition can also include an effective amount of at least one of a growth factor and a neuropeptide. The present invention also relates a method of treating an injury to a nervous system of an animal that includes the steps of identifying the injury to the nervous system and applying to the injury an effective amount of at least one of antimicrobial peptide and a substance having an antimicrobial peptide effect. The method can also include applying an effective amount of one or more trophic factors selected from the group consisting of a growth factor, a neurotrophin, and a neuropeptide to the injury."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01840",
+            "Peptide Name": "Brevinin-2E (Frogs, amphibians, animals)",
+            "Source": "Rana esculenta (Edible frog) (Pelophylax esculentus)",
+            "Family": "Belongs to the frog skin active peptide family (Brevinin subfamily)",
+            "Gene": "Not found",
+            "Sequence": "GIMDTLKNLAKTAGKGALQSLLNKASCKLSGQC",
+            "Sequence Length": 33,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P32413"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "[Ref.8508915]Gram-positive bacteria:Bacillus megaterium Bm11 (MIC=0.2 µM), Staphylococcus aureus Cowan 1 (MIC=2.0 µM);Gram-negative bacteria:Escherichia coli D21 (MIC=0.5 µM), Pseudomonas aeruginosa ATCC 15692 (MIC>30 µM).",
+            "Hemolytic Activity": "[Ref.8163497]LC50>100 μM against human red blood cells",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Cyclization (Cys27 and Cys33)",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C142H252N42O45S3",
+            "Mass": 3363.97,
+            "PI": 9.6,
+            "Net Charge": 4,
+            "Hydrophobicity": -0.03,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Shows antibacterial activity against representative Gram-negative and Gram-positive bacterial species, and hemolytic activity.",
+            "Literature": [
+                {
+                    "Title": "Novel antimicrobial peptides from skin secretion of the European frog Rana esculenta.",
+                    "Pubmed ID": "8508915",
+                    "Reference": "FEBS Lett. 1993 Jun 14;324(2)159-161.",
+                    "Author": "Simmaco M, Mignogna G, Barra D, Bossa F.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=8508915"
+                }
+            ],
+            "Frequent Amino Acids": "LKA",
+            "Absent Amino Acids": "EFHOPRUVWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 20,
+            "Positive Residues": 5,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01752",
+                    "Similarity": 0.9696969696969697,
+                    "Sequence": "GIMDTLKNLAKTAGKGALQSLLNHASCKLSGQC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07870",
+                    "Similarity": 0.9393939393939394,
+                    "Sequence": "GIMDTLKNLAKTAGKGALQSLLNHASCKLSKQC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01723",
+                    "Similarity": 0.9090909090909091,
+                    "Sequence": "GIMDTLKNLAKTAGKGALQSLVKMASCKLSGQC"
+                }
+            ]
+        }
+    }
+}

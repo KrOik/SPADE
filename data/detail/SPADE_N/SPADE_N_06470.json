@@ -1,0 +1,77 @@
+{
+    "SPADE_N_06470": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_06470",
+            "Peptide Name": "ChMAP-28",
+            "Source": "Goat Antimicrobial",
+            "Family": "",
+            "Gene": "Not found",
+            "Sequence": "GRFKRFRKKLKRLWHKVGPFVGPILHY",
+            "Sequence Length": 27,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Notavailable"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Target Organism": "Tumor cells:HL-60 (IC50=3.39±0.15 μM); B16-F1 (IC50=4.82±1.01 μM); SK-BR-3 (IC50=5.63±1.05 μM); A431 (IC50=6.49±0.09 μM)",
+            "Hemolytic Activity": "Human erythrocytes:ChMAP-28 has a low hemolytic activity (hemolysis less than 10%) at a concentration range up to 10 μM.",
+            "Cytotoxicity": "HEK293T:IC50=5.09±0.40 μM; HEF:IC50=8.95±2.68 μM",
+            "Binding Target": "Not available",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C163H255N49O29",
+            "Mass": 3365.08,
+            "PI": 12.0,
+            "Net Charge": 11,
+            "Hydrophobicity": -0.66,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Literature": [
+                {
+                    "Title": "Anticancer Activity of the Goat Antimicrobial Peptide ChMAP-28",
+                    "Pubmed ID": "30622471",
+                    "Reference": "Front Pharmacol. 2018 Dec 21;91501.",
+                    "Author": "Emelianova AA, Kuzmin DV, Panteleev PV, Sorokin M, Buzdin AA, Ovchinnikova TV.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=30622471"
+                },
+                {
+                    "Title": "Combined Antibacterial Effects of Goat Cathelicidins With Different Mechanisms of Action",
+                    "Pubmed ID": "",
+                    "Author": "Panteleev PV, Bolosov IA, Kalashnikov A��, Kokryakov Vn, Shamova OV, Emelianova AA, Balandin SV, Ovc"
+                }
+            ],
+            "Frequent Amino Acids": "KRF",
+            "Absent Amino Acids": "ACDEMNOQSTU",
+            "Basic Residues": 11,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 14,
+            "Positive Residues": 11,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_27005",
+                    "Similarity": 1.0,
+                    "Sequence": "RFRFRPGRFRFR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_27006",
+                    "Similarity": 0.8571428571428571,
+                    "Sequence": "FRFRFRPGRFRFRF"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_15104",
+                    "Similarity": 0.7333333333333333,
+                    "Sequence": "GRFKRFRKKFKKLFK"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,76 @@
+{
+    "SPADE_UN_21172": {
+        "Sequence Information": {
+            "Peptide Name": "FhHDM-1p2  (14-31) [T2,13Q; E3K, I7K, D14K, R15I, E17Q]",
+            "Sequence": "IQKVIQKLLNRLQKILQK",
+            "Sequence Length": 18,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "F6KNY7",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/F6KNY7",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                },
+                {
+                    "uniprotId": "H8WG12",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/H8WG12",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                },
+                {
+                    "uniprotId": "A0A286RXS6",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/A0A286RXS6",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Helminth Defense Molecules as Design Templates for Membrane Active Antibiotics.",
+                    "Pubmed ID": "31117348",
+                    "Reference": "ACS Infect Dis. 2019;:",
+                    "Author": "Hammond K, Lewis H, Faruqui N, Russell C, Hoogenboom BW, Ryadnov MG",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/31117348"
+                }
+            ],
+            "Mass": 2204.74,
+            "PI": 11.33,
+            "Net Charge": 5,
+            "Hydrophobicity": -0.26,
+            "Frequent Amino Acids": "KLQ",
+            "Absent Amino Acids": "ACDEFGHMOPSTUWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 10,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_21172",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_21172",
+                    "Similarity": 1.0,
+                    "Sequence": "IQKVIQKLLNRLQKILQK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_23856",
+                    "Similarity": 1.0,
+                    "Sequence": "VFRAKKWIQKVI"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_23858",
+                    "Similarity": 1.0,
+                    "Sequence": "VFRLKAWIQKVI"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:<=5% Hemolysis=250 µM",
+            "Target Organism": "Pseudomonas aeruginosa ATCC 27853(MIC=3.1µM),Escherichia coli ATCC 15597(MIC=3.1µM),Staphylococcus aureus ATCC 6538(MIC=>50µM),Micrococcus luteus ATCC 49732(MIC=1.05±0.44µM),Bacillus subtilis ATCC 6633(MIC=4.2±1.8µM),Salmonella typhimurium DA6192(MIC=20.8±7.2µM),Klebsiella pneumoniae NCTC 5055(MIC=12.5µM)"
+        }
+    }
+}

@@ -1,0 +1,75 @@
+{
+    "SPADE_N_00195": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00195",
+            "Peptide Name": "Trifolitoxin (TFX; Bacteriocin)",
+            "Source": "Rhizobium leguminosarum bv. Trifolii T24 (Gram-negative bacteria)",
+            "Family": "Not found",
+            "Gene": "tfxA",
+            "Sequence": "DIGGSRQGCVA",
+            "Sequence Length": 11,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P42723"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C41H71N15O16S",
+            "Mass": 1062.16,
+            "PI": 5.83,
+            "Net Charge": 0,
+            "Hydrophobicity": -0.05,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:>10 hour",
+            "Function": "Antibiotic whose production provides the bacteria a mechanism of host root nodule competitiveness with other invading inefficient strains.",
+            "PTM": "Synthesized ribosomally as a prepeptide that is post-translationally modified to the active peptide. TfxB, TfxD and TfxF are all required for this processing.The chromophore is probably a six-membered ring derived from the cyclization of Gln-38. Maturation of thiazole and oxazole containing antibiotics involves the enzymic condensation of a Cys, Ser or Thr with the alpha-carbonyl of the preceding amino acid to form a thioether or ether bond, then dehydration to form a double bond with the alpha-amino nitrogen. Thiazoline or oxazoline rings are dehydrogenated to form thiazole or oxazole rings.",
+            "Biophysicochemical properties": "pH dependence (Sensitive to extremes of pH); Temperature dependence (Thermostable).",
+            "Literature": [
+                {
+                    "Title": "DNA sequence and mutational analysis of genes involved in the production and resistance of the antibiotic peptide trifolitoxin.",
+                    "Pubmed ID": "8509324",
+                    "Reference": "J Bacteriol. 1993 Jun;175(12)3693-3702.",
+                    "Author": "Breil BT, Ludden PW, Triplett EW.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=8509324"
+                }
+            ],
+            "Frequent Amino Acids": "GAC",
+            "Absent Amino Acids": "EFHKLMNOPTUWY",
+            "Basic Residues": 1,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 3,
+            "Polar Residues": 6,
+            "Positive Residues": 1,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00101",
+                    "Similarity": 1.0,
+                    "Sequence": "KYYGNGVTCGLHDCRVDRGKATCGIINNGGMWGDIG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03217",
+                    "Similarity": 1.0,
+                    "Sequence": "DTHISEKIIDCNDIG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06157",
+                    "Similarity": 1.0,
+                    "Sequence": "MDNKVAKNVEVKKGSIKATFKAAVLKSKTKVDIGGSRQGCVA"
+                }
+            ]
+        }
+    }
+}

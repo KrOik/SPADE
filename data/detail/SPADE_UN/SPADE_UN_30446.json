@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_30446": {
+        "Sequence Information": {
+            "Peptide Name": "Tat (48–60)",
+            "Sequence": "GRKKRRQRRRPPQ",
+            "Sequence Length": 13,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "Q75539",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/Q75539",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Effects of dimerization of the cell-penetrating peptide Tat analog on antimicrobial activity and mechanism of bactericidal action.",
+                    "Pubmed ID": "19206074",
+                    "Reference": "J Pept Sci. 2009;15:345-352",
+                    "Author": "Zhu WL, Shin SY",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/19206074"
+                },
+                {
+                    "Title": "Membrane-active peptides and the clustering of anionic lipids.",
+                    "Pubmed ID": "22853904",
+                    "Reference": "Biophys J. 2012;103:265-274",
+                    "Author": "Wadhwani P, Epand RF, Heidenreich N, Bürck J, Ulrich AS, Epand RM",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/22853904"
+                }
+            ],
+            "Mass": 1719.01,
+            "PI": 12.0,
+            "Net Charge": 8,
+            "Hydrophobicity": -3.49,
+            "Frequent Amino Acids": "RKP",
+            "Absent Amino Acids": "ACDEFHILMNOSTUVWY",
+            "Basic Residues": 8,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 0,
+            "Polar Residues": 13,
+            "Positive Residues": 8,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_30446",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_04906",
+                    "Similarity": 1.0,
+                    "Sequence": "YGRKKRRQRRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06292",
+                    "Similarity": 1.0,
+                    "Sequence": "KAQIRAMECNILGRKKRRQRRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06889",
+                    "Similarity": 1.0,
+                    "Sequence": "GRKKRRQRRRPP"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:5% Hemolysis=>200 µM",
+            "Target Organism": "Escherichia coli KCTC 1682(MIC=2µM),Pseudomonas aeruginosa KCTC 1637(MIC=4µM),Salmonella typhimurium KCTC 1926(MIC=8µM),Bacillus subtilis KCTC 3068(MIC=4µM),Staphylococcus epidermidis KCTC 1917(MIC=4µM),Staphylococcus aureus KCTC 1621(MIC=4µM),Escherichia coli DSM 1103(MIC=>128µM),Pseudomonas aeruginosa DSM 1117(MIC=128µM),Staphylococcus aureus DSM 1104(MIC=128µM),Staphylococcus epidermidis DSM 1798(MIC=>128µM)"
+        }
+    }
+}

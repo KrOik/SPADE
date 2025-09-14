@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_14370": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_14370",
+            "Peptide Name": "P-74",
+            "Source": "Synthetic construct",
+            "Family": "Retroviridae",
+            "Gene": "Not found",
+            "Sequence": "WEEWEKKIEEYTKKIEEILKKSEEQQKKNEEELKKLEK",
+            "Sequence Length": 38,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P03377"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antiviral"
+            ],
+            "Target Organism": "[Ref.30089693]HIV-1 HXB2:inhibition of cell-cell fusion in TZM-bl cells(IC50=0.4±0.1 nM);HIV-1 NL4-3:inhibition of pseudovirus infection in TZM-bl cells(IC50=0.8±0.1 nM);HIV-1 JRCSF:inhibition of virus infection in TZM-bl cells(IC50=1.4±0.4 nM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information or data found in the reference(s) presented in this entry",
+            "Binding Target": "membrane",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Acetylation",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C219H354N54O71",
+            "Mass": 4879.47,
+            "PI": 5.19,
+            "Net Charge": -2,
+            "Hydrophobicity": -2.07,
+            "Half Life": "Mammalian:2.8 hourYeast:3 minE.coli:2 min",
+            "Mechanism of action": "The peptide acts by binding to the heptad repeat 1 (HR1) region of gp41 and preventing the interaction of the HR1 and HR2 domains, which is required for virus–cell fusion.(By similar)",
+            "Literature": [
+                {
+                    "Title": "Structural and Functional Characterization of Membrane Fusion Inhibitors with Extremely Potent Activity against Human Immunodeficiency Virus Type 1 (HIV-1), HIV-2, and Simian Immunodeficiency Virus.",
+                    "Pubmed ID": "30089693",
+                    "Reference": "J Virol. 2018 Sep 26;92(20)e01088-18.",
+                    "Author": "Chong H, Zhu Y, Yu D, He Y.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=30089693"
+                }
+            ],
+            "Frequent Amino Acids": "EKI",
+            "Absent Amino Acids": "ACDFGHMOPRUV",
+            "Basic Residues": 11,
+            "Acidic Residues": 13,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 17,
+            "Positive Residues": 11,
+            "Negative Residues": 13,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_14346",
+                    "Similarity": 1.0,
+                    "Sequence": "WEEWEKKIEEYTKKIEEILKKSEEQQKKNEEELKKLE"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_14347",
+                    "Similarity": 1.0,
+                    "Sequence": "EMTWEEWEKKIEEYTKKIEEILKKSEEQQKKNEEELKKLE"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_14371",
+                    "Similarity": 1.0,
+                    "Sequence": "EMTWEEWEKKIEEYTKKIEEILKKSEEQQKKNEEELKKLEK"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_25174": {
+        "Sequence Information": {
+            "Peptide Name": "IsCT [I1A;G3,8K;I5F]",
+            "Sequence": "ALKKFWEKIKSLF",
+            "Sequence Length": 13,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "Q8MMJ7",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/Q8MMJ7",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Synthetic Peptide Derived from Scorpion Venom Displays Minimal Toxicity and Anti-infective Activity in an Animal Model.",
+                    "Pubmed ID": "34463484",
+                    "Reference": "ACS Infect Dis. 2021;7:2736-2745",
+                    "Author": "Oliveira CS, Torres MDT, Pedron CN, Andrade VB, Silva Jr PI, Silva FD, de la Fuente-Núnez C, Oliveira Jr VX",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/34463484"
+                }
+            ],
+            "Mass": 1638.0,
+            "PI": 10.0,
+            "Net Charge": 3,
+            "Hydrophobicity": -0.1,
+            "Frequent Amino Acids": "KFL",
+            "Absent Amino Acids": "CDGHMNOPQRTUVY",
+            "Basic Residues": 4,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 7,
+            "Positive Residues": 4,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_UN_25174",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06700",
+                    "Similarity": 1.0,
+                    "Sequence": "FALALKALKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06712",
+                    "Similarity": 1.0,
+                    "Sequence": "FALKALKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09500",
+                    "Similarity": 1.0,
+                    "Sequence": "KKLALKALLLWLKALLKLAKLALKK"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:<5% Hemolysis=32 µM",
+            "Target Organism": "Escherichia coli ATCC 11775(MIC=4µg/ml),Escherichia coli AIG 221(MIC=16µg/ml),Escherichia coli AIG 222(MIC=2µg/ml),Staphylococcus aureus ATCC 12600(MIC=8µg/ml),Klebsiella pneumoniae ATCC 13883(MIC=32µM),Acinetobacter baumannii ATCC 19606(MIC=8µM),Pseudomonas aeruginosa PAO1(MIC=32µM),Pseudomonas aeruginosa PA14(MIC=32µM),Escherichia coli BL21(MIC=2µM),Staphylococcus aureus ATCC 12600(MIC=32µM),Staphylococcus aureus ATCC 29213(MIC=32µM),Staphylococcus epidermidis ATCC 12228(MIC=8µM),Klebsiella oxytoca CIP 79.32(MIC=16µM),Pseudomonas aeruginosa PA14(MIC=>64µM),Enterobacter cloacae beta-12(MIC=16µM)"
+        }
+    }
+}

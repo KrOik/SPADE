@@ -1,0 +1,72 @@
+{
+    "SPADE_N_06448": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_06448",
+            "Peptide Name": "Ilamycin B1",
+            "Source": "Streptomyces atratus SCSIO ZH16",
+            "Family": "",
+            "Gene": "Not found",
+            "Sequence": "XXLXAXX",
+            "Sequence Length": 7,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Notavailable"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Target Organism": "Tumor cells:A549 (IC50>50µM); CNE2 (IC50>50µM); HeLa (IC50>50µM); HepG2 (IC50>50µM); MCF-7 (IC50>50µM)",
+            "Hemolytic Activity": "Not available",
+            "Cytotoxicity": "HL-7702 (L02):IC50>50µM; HUVEC:IC50>50µM",
+            "Binding Target": "Not available",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C9H8N2O-2",
+            "Mass": 76938,
+            "PI": 6.11,
+            "Net Charge": 0,
+            "Hydrophobicity": 0.8,
+            "Half Life": "Mammalian:/Yeast:/E.coli:/",
+            "Literature": [
+                {
+                    "Title": "Biosynthesis of ilamycins featuring unusual building blocks and engineered production of enhanced anti-tuberculosis agents",
+                    "Pubmed ID": "28855504",
+                    "Reference": "Nat Commun. 2017 Aug 30;8(1)391.",
+                    "Author": "Ma J, Huang H, Xie Y, Liu Z, Zhao J, Zhang C, Jia Y, Zhang Y, Zhang H, Zhang T, Ju J.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=28855504"
+                }
+            ],
+            "Frequent Amino Acids": "XAL",
+            "Absent Amino Acids": "CDEFGHIKMNOPQRSTUVWY",
+            "Basic Residues": 0,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 2,
+            "Polar Residues": 1,
+            "Positive Residues": 0,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00012",
+                    "Similarity": 1.0,
+                    "Sequence": "GNGVVLTLTHECNLATWTKKLKCC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00019",
+                    "Similarity": 1.0,
+                    "Sequence": "GTPLALLGGAATGVIGYISNQTCPTTACTRAC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00025",
+                    "Similarity": 1.0,
+                    "Sequence": "GKNGVFKTISHECHLNTWAFLATCCS"
+                }
+            ]
+        }
+    }
+}

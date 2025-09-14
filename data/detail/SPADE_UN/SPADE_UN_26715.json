@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_26715": {
+        "Sequence Information": {
+            "Peptide Name": "Carrier domain-containing protein (276-290)",
+            "Sequence": "LANVLFRRNATTILQ",
+            "Sequence Length": 15,
+            "Biological Activity": [
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "A0A7J5ZMD0",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/A0A7J5ZMD0",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Identification, Synthesis, and In Vitro Activities of Antimicrobial Peptide from African Catfish against the Extended-Spectrum Beta-Lactamase (ESBL)-Producing Escherichia coli",
+                    "Pubmed ID": "39065546",
+                    "Reference": "Pharmaceutics. 2024;16:850",
+                    "Author": "Okella H, Odongo S, Vertommen D, Okello E",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/39065546"
+                }
+            ],
+            "Mass": 1730.02,
+            "PI": 12.0,
+            "Net Charge": 2,
+            "Hydrophobicity": 0.37,
+            "Frequent Amino Acids": "LAN",
+            "Absent Amino Acids": "CDEGHKMOPSUWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 7,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_26715",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_14321",
+                    "Similarity": 1.0,
+                    "Sequence": "EKIQSLFIKSDLLANV"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_04001",
+                    "Similarity": 1.0,
+                    "Sequence": "TILQSLKNIFK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_08780",
+                    "Similarity": 0.8333333333333334,
+                    "Sequence": "GIVLIGLKLIPLLANVLR"
+                }
+            ],
+            "Hemolytic Activity": "Rabbit erythrocytes:<5% Hemolysis=100 µg/ml",
+            "Target Organism": "Escherichia coli ATCC 35218(MIC=91.3±1.2µg/ml)"
+        }
+    }
+}

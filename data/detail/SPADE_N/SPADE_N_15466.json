@@ -1,0 +1,47 @@
+{
+    "SPADE_N_15466": {
+        "Sequence Information": {
+            "Peptide Name": "Stellettapeptin A",
+            "Sequence": "XXXXXXGLXXX",
+            "Sequence Length": 11,
+            "Biological Activity": [
+                "Antiviral",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "1. Stelletta sp.",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Stellettapeptins A and B, HIV-inhibitory cyclic depsipeptides from the marine sponge Stelletta sp",
+                    "Pubmed ID": "26139946",
+                    "Reference": "Tetrahedron Lett. 2015;56:4215-4219",
+                    "Author": "Shin HJ, Rashid MA, Cartner LK, Bokesch HR, Wilson JA, McMahon JB, Gustafson KR",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/26139946"
+                }
+            ],
+            "SPADE ID": "SPADE_N_15466",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00002",
+                    "Similarity": 1.0,
+                    "Sequence": "WKSESVCTPGCVTGLLQTCFLQTITCNCKISK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00020",
+                    "Similarity": 1.0,
+                    "Sequence": "TTPACFTIGLGVGALFSAKFC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00055",
+                    "Similarity": 1.0,
+                    "Sequence": "KNYGNGVHCTKKGCSVDWGYAATNIANNSVMNGLTG"
+                }
+            ],
+            "Hemolytic Activity": "CEM-SS cells:IC50=0.367 µM",
+            "Target Organism": "HIV-1(EC50=0.023µM)"
+        }
+    }
+}

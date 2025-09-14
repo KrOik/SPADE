@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_21785": {
+        "Sequence Information": {
+            "Peptide Name": "Globulin-like protein (133-144)",
+            "Sequence": "SSFSKGVQRAAF",
+            "Sequence Length": 12,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "Q9ZRG9",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/Q9ZRG9",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Identification and characterization of multifunctional cationic peptides derived from peptic hydrolysates of rice bran protein",
+                    "Pubmed ID": "",
+                    "Reference": "Journal of Functional Foods. 2017;34:287-296",
+                    "Author": "Taniguchi M, Kameda M, Namae T, Ochiai A, Saitoh E, Tanaka T",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/"
+                }
+            ],
+            "Mass": 1284.42,
+            "PI": 11.0,
+            "Net Charge": 2,
+            "Hydrophobicity": -0.11,
+            "Frequent Amino Acids": "SAF",
+            "Absent Amino Acids": "CDEHILMNOPTUWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 7,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_21785",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07177",
+                    "Similarity": 0.8,
+                    "Sequence": "CETWRTETTGATGQASSLLSGRLLEQKAASCHNSYIVLCIENSFMTSFSK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_03532",
+                    "Similarity": 0.8,
+                    "Sequence": "QRAAVVLIVIRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_03599",
+                    "Similarity": 0.8,
+                    "Sequence": "RRAAFVLIVIRR"
+                }
+            ],
+            "Hemolytic Activity": "Sheep erythrocytes:4.3% Hemolysis=500 µM",
+            "Target Organism": "Candida albicans NBRC 1385(no activity data),Porphyromonas gingivalis ATCC 33277(IC50=78.5µM),Cutibacterium acnes JCM 6473(no activity data),Streptococcus mutans JCM 5705(no activity data)"
+        }
+    }
+}

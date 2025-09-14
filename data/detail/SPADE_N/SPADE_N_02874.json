@@ -1,0 +1,91 @@
+{
+    "SPADE_N_02874": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 2005/0260715 A1",
+                "Patent Link": "http://www.lens.org/lens/patent/US_2005_0260715_A1",
+                "Patent Type": "Patent Application",
+                "Publication Date": "2005-11-24",
+                "Family Info": "US6946261",
+                "Patent Title": "Efficient methods for producing antimicrobial cationic peptides in host cells.",
+                "Abstract": "Endogenously produced cationic antimicrobial peptides are ubiquitous components of host defenses in mammals, birds, amphibia, insects, and plants. Cationic peptides are also effective when administered as therapeutic agents. A practical drawback in cationic peptide therapy, however, is the cost of producing the agents. The methods described herein provide a means to efficiently produce cationic peptides from recombinant host cells. These recombinantly-produced cationic peptides can be rapidly purified from host cell proteins using anion exchange chromatography."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02874",
+            "Peptide Name": "Crabrolin (Insects, animals)",
+            "Source": "Vespa crabro (European hornet)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "FLPLILRKIVTAL",
+            "Sequence Length": 13,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P01518"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti Mammalian cells"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "[Ref.6206053] Hemolysis is 20% of total at 10µg/ml against guinea pig red blood cell.",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C74H129N17O15",
+            "Mass": 1496.92,
+            "PI": 11.0,
+            "Net Charge": 2,
+            "Hydrophobicity": 1.72,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Function": "Mast cell degranulating peptide. Induces the chemotaxis of neutrophils. Has antimicrobial and hemolytic activity.",
+            "Literature": [
+                {
+                    "Title": "Antimicrobial and hemolytic activities of crabrolin, a 13-residue peptide from the venom of the European hornet, Vespa crabro, and its analogs.",
+                    "Pubmed ID": "9273892",
+                    "Reference": "J Pept Res. 1997 Aug;50(2)88-93.",
+                    "Author": "Krishnakumari V, Nagaraj R.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=9273892"
+                },
+                {
+                    "Title": "Isolation and characterization of two new peptides, mastoparan C and crabrolin, from the venom of the European hornet, Vespa crabro.",
+                    "Pubmed ID": "6206053",
+                    "Reference": "J Biol Chem. 1984 Aug 25;259(16)10106-10111.",
+                    "Author": "Argiolas A, Pisano JJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=6206053"
+                }
+            ],
+            "Frequent Amino Acids": "LIA",
+            "Absent Amino Acids": "CDEGHMNOQSUWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 5,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_25842",
+                    "Similarity": 0.9230769230769231,
+                    "Sequence": "FLPRILRKIVTAL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_25843",
+                    "Similarity": 0.9230769230769231,
+                    "Sequence": "FLPKILRKIVTAL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_25844",
+                    "Similarity": 0.9230769230769231,
+                    "Sequence": "FLPLILRKRVTAL"
+                }
+            ]
+        }
+    }
+}

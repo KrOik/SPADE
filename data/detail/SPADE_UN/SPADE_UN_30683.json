@@ -1,0 +1,49 @@
+{
+    "SPADE_UN_30683": {
+        "Sequence Information": {
+            "Peptide Name": "",
+            "Sequence": "LKXLKXG",
+            "Sequence Length": 7,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "The effect of glycine replacement with flexible ω-amino acids on the antimicrobial and haemolytic activity of an amphipathic cyclic heptapeptide.",
+                    "Pubmed ID": "26318064",
+                    "Reference": "Eur J Med Chem. 2015;102:574-581",
+                    "Author": "Oddo A, Nyberg NT, Frimodt-Møller N, Thulstrup PW, Hansen PR",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/26318064"
+                }
+            ],
+            "SPADE ID": "SPADE_UN_30683",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06025",
+                    "Similarity": 1.0,
+                    "Sequence": "LKWLLKLLKLK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06547",
+                    "Similarity": 1.0,
+                    "Sequence": "LKLKLKLKLKLK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06656",
+                    "Similarity": 1.0,
+                    "Sequence": "FAKKLLAKALKL"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=>150 µM,Human erythrocytes:13% Hemolysis=150 µM",
+            "Target Organism": "Staphylococcus aureus ATCC 33591(MIC=32µM),Escherichia coli ATCC 25922(MIC=128µM),Enterococcus faecium ATCC 700221(MIC=16µM),Klebsiella pneumoniae ATCC 700603(MIC=>128µM),Pseudomonas aeruginosa ATCC 27853(MIC=128µM),Candida albicans ATCC 200955(MIC=64µM),Acinetobacter baumannii ATCC BAA-1605(MIC=>128µM)"
+        }
+    }
+}

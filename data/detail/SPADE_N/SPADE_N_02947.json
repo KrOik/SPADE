@@ -1,0 +1,73 @@
+{
+    "SPADE_N_02947": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02947",
+            "Peptide Name": "Beta-defensin 29 (BD-29, mBD-29; Defensin, beta 29; Rodents, mammals, animals)",
+            "Source": "Mus musculus (Mouse)",
+            "Family": "Belongs to the beta-defensin family",
+            "Gene": "Defb29",
+            "Sequence": "GLFGFRSSKRQEPWIACELYQGLCRNACQKYEIQYLSCPKTRKCCLKYPRKITSF",
+            "Sequence Length": 55,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q8BGW9"
+            ],
+            "Protein Existence": "Transcript level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C292H458N82O77S6",
+            "Mass": 6541.65,
+            "PI": 9.5,
+            "Net Charge": 8,
+            "Hydrophobicity": -0.57,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "PTM": "Contains three disulfide bonds 17-44; 24-38; 28-45.",
+            "Literature": [
+                {
+                    "Title": "The transcriptional landscape of the mammalian genome.",
+                    "Pubmed ID": "16141072",
+                    "Reference": "Science. 2005 Sep 2;309(5740)1559-1563.",
+                    "Author": "Carninci P, Kasukawa T, Katayama S, Gough J, Frith M.C, et al, Hayashizaki Y.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16141072"
+                }
+            ],
+            "Frequent Amino Acids": "CKL",
+            "Absent Amino Acids": "DHMOUV",
+            "Basic Residues": 11,
+            "Acidic Residues": 3,
+            "Hydrophobic Residues": 21,
+            "Polar Residues": 34,
+            "Positive Residues": 11,
+            "Negative Residues": 3,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_08153",
+                    "Similarity": 1.0,
+                    "Sequence": "MPVTKSYFMTVVVVLILVDETTGGLFGFRSSKRQEPWIACELYQGLCRNACQKYEIQYLSCPKTRKCCLKYPRKITSF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03710",
+                    "Similarity": 1.0,
+                    "Sequence": "IACELYQGLCRNACQKYEIQYLSCPKTRKCCLK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03005",
+                    "Similarity": 0.7818181818181819,
+                    "Sequence": "GLFGLRSGKRREPWVSCELYQGSCRNACQKYEIQYLTCPKKRKCCLKFPMKITRV"
+                }
+            ]
+        }
+    }
+}

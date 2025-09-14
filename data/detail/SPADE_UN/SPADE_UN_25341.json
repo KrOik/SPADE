@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_25341": {
+        "Sequence Information": {
+            "Peptide Name": "[R7W4]",
+            "Sequence": "RRRRRRRWWWW",
+            "Sequence Length": 11,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Membrane-Active Cyclic Amphiphilic Peptides: Broad-Spectrum Antibacterial Activity Alone and in Combination with Antibiotics.",
+                    "Pubmed ID": "36442155",
+                    "Reference": "J Med Chem. 2022;65:15819-15839",
+                    "Author": "Mohammed EHM, Lohan S, Ghaffari T, Gupta S, Tiwari RK, Parang K",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/36442155"
+                }
+            ],
+            "Mass": 1856.15,
+            "PI": 12.0,
+            "Net Charge": 7,
+            "Hydrophobicity": -3.19,
+            "Frequent Amino Acids": "RW",
+            "Absent Amino Acids": "ACDEFGHIKLMNOPQSTUVY",
+            "Basic Residues": 7,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 0,
+            "Polar Residues": 11,
+            "Positive Residues": 7,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_25341",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_09932",
+                    "Similarity": 1.0,
+                    "Sequence": "RRRWWW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10932",
+                    "Similarity": 1.0,
+                    "Sequence": "RRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11097",
+                    "Similarity": 1.0,
+                    "Sequence": "WWRRRRRRRR"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=190 µg/ml",
+            "Target Organism": "Staphylococcus aureus ATCC BAA-1556(MIC=16µg/ml),Klebsiella pneumoniae ATCC BAA-1705(MIC=64µg/ml),Pseudomonas aeruginosa ATCC 27883(MIC=32µg/ml),Escherichia coli ATCC 25922(MIC=32µg/ml)"
+        }
+    }
+}

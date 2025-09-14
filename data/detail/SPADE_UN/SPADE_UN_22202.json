@@ -1,0 +1,76 @@
+{
+    "SPADE_UN_22202": {
+        "Sequence Information": {
+            "Peptide Name": "",
+            "Sequence": "VKFAIKKIGKKAAKKVIVKA",
+            "Sequence Length": 20,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "A0A5R9DIN6",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/A0A5R9DIN6",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                },
+                {
+                    "uniprotId": "A0A1L3JX65",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/A0A1L3JX65",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                },
+                {
+                    "uniprotId": "A0A4Q7DXR0",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/A0A4Q7DXR0",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Novel Antimicrobial Peptide Discovery Using Machine Learning and Biophysical Selection of Minimal Bacteriocin Domains.",
+                    "Pubmed ID": "31483516",
+                    "Reference": "Drug Dev Res. 2020;81:43-51",
+                    "Author": "Fields FR, Freed SD, Carothers KE, Hamid MN, Hammers DE, Ross JN, Kalwajtys VR, Gonzalez AJ, Hildreth AD, Friedberg I, Lee SW",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/31483516"
+                }
+            ],
+            "Mass": 2168.8,
+            "PI": 10.85,
+            "Net Charge": 8,
+            "Hydrophobicity": 0.23,
+            "Frequent Amino Acids": "KAI",
+            "Absent Amino Acids": "CDEHLMNOPQRSTUWY",
+            "Basic Residues": 8,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 9,
+            "Positive Residues": 8,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_22202",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_22199",
+                    "Similarity": 1.0,
+                    "Sequence": "IKKIGKKAAKKVIVKAIQAI"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_22200",
+                    "Similarity": 1.0,
+                    "Sequence": "KKIGKKAAKKVIVKAIQAIV"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09741",
+                    "Similarity": 1.0,
+                    "Sequence": "VIVKAIATLASKLL"
+                }
+            ],
+            "Hemolytic Activity": "Sheep erythrocytes:0% Hemolysis=128 µM,Human keratinocytes HaCat:0% Cytotoxicity=128 µM",
+            "Target Organism": "Pseudomonas aeruginosa PAO1(MIC=32µM),Pseudomonas aeruginosa PAO1(MBC=128µM),Escherichia coli BL21(MIC=128µM),Escherichia coli BL21(MBC=>128µM),Staphylococcus aureus USA 300(MIC=>128µM),Staphylococcus aureus USA 300(MBC=>128µM)"
+        }
+    }
+}

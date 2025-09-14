@@ -1,0 +1,72 @@
+{
+    "SPADE_N_06445": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_06445",
+            "Peptide Name": "L-K6",
+            "Source": "some cationic antimicrobial peptides",
+            "Family": "",
+            "Gene": "Not found",
+            "Sequence": "IKKILSKIKKLLK",
+            "Sequence Length": 13,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Notavailable"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Target Organism": "Tumor cells:MCF-7 (IC50=23 μM ); MCF-7 (IC50=31 μM ); MCF-7 (IC50=34 μM ); MCF-7 (IC50=38 μM )",
+            "Hemolytic Activity": "Rabbit red blood cells:modest hemolytic activity(as show in Fig.2)",
+            "Cytotoxicity": "HUVEC:IC50=65.88±4.5 μM",
+            "Binding Target": "Not available",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C75H145N19O15",
+            "Mass": 1553.07,
+            "PI": 10.7,
+            "Net Charge": 6,
+            "Hydrophobicity": 0.05,
+            "Half Life": "Mammalian:20 hourYeast:30 minE.coli:>10 hour",
+            "Literature": [
+                {
+                    "Title": "Cell surface binding, uptaking and anticancer activity of L-K6, a lysine/leucine-rich peptide, on human breast cancer MCF-7 cells",
+                    "Pubmed ID": "28811617",
+                    "Reference": "Sci Rep. 2017 Aug 15;7(1)8293.",
+                    "Author": "Wang C, Dong S, Zhang L, Zhao Y, Huang L, Gong X, Wang H, Shang D.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=28811617"
+                }
+            ],
+            "Frequent Amino Acids": "KIL",
+            "Absent Amino Acids": "ACDEFGHMNOPQRTUVWY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 7,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01054",
+                    "Similarity": 1.0,
+                    "Sequence": "ILGPVLSLVGSALGGLIKKI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01055",
+                    "Similarity": 1.0,
+                    "Sequence": "ILGPVLGLVSNAIGGLIKKI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01058",
+                    "Similarity": 1.0,
+                    "Sequence": "ILGPVLSMVGSALGGLIKKI"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "SPADE_UN_19761": {
+        "Sequence Information": {
+            "Peptide Name": "HBD4 (2-18)[C5,12,16AIB], L1UE",
+            "Sequence": "LDRIXGYGTARXRKKXR",
+            "Sequence Length": 17,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "Q8WTQ1",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/Q8WTQ1",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Engineering of a linear inactive analog of human ?-defensin 4 to generate peptides with potent antimicrobial activity.",
+                    "Pubmed ID": "25810238",
+                    "Reference": "J Pept Sci. 2015;21:501-511",
+                    "Author": "Sharma H, Mathew B, Nagaraj R",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/25810238"
+                }
+            ],
+            "SPADE ID": "SPADE_UN_19761",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_10517",
+                    "Similarity": 1.0,
+                    "Sequence": "ELDRICGYGTARCRKKR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11938",
+                    "Similarity": 1.0,
+                    "Sequence": "EFELDRIGYGTARCRKKRSQEYRIGRPNTYACLRK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11939",
+                    "Similarity": 1.0,
+                    "Sequence": "EFELDRICGYGTARCRKKRSQEYRIGRPNTYACCLRK"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:-=NA",
+            "Target Organism": "Escherichia coli MG1655(no activity data),Pseudomonas aeruginosa NCTC 6750(no activity data),Staphylococcus aureus NCTC 8530(no activity data),Candida albicans ATCC 18804(MFC=40µM)"
+        }
+    }
+}

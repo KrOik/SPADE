@@ -1,0 +1,80 @@
+{
+    "SPADE_UN_00836": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_00836",
+            "Peptide Name": "Crotamine Ile-19 (CRO_Ile-19)",
+            "Source": "Crotalus durissus ruruima (South American rattlesnake) (Mt. Roraimarattlesnake)",
+            "Family": "Belongs to the crotamine-myotoxin family",
+            "Gene": "Not found",
+            "Sequence": "YKQCHKKGGHCFPKEKICIPPSSDFGKMDCRWRWKCCKKGSG",
+            "Sequence Length": 42,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P63327"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Toxin"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "The crystal structure of the myotoxic, cell-penetrating, basic polypeptide crotamine isolated from the venom of Crotalus durissus terrificus has been determined by single-wavelength anomalous dispersion techniques and refined at 1.7 Å resolution. The structure reveals distinct cationic and hydrophobic surface regions that are located on opposite sides of the molecule. (Ref.2)",
+            "Formula": "C214H332N64O54S7",
+            "Mass": 4889.78,
+            "PI": 9.51,
+            "Net Charge": 10,
+            "Hydrophobicity": -1.08,
+            "Half Life": "Mammalian:2.8 hourYeast:10 minE.coli:2 min",
+            "Function": "Cationic peptide that possess multiple functions. It acts as a cell-penetrating peptide (CPP), and as a potent voltage- gated potassium channel (Kv) inhibitor and exhibits antimicrobial activities (By similarity). It also elicts a short-lasting hyperextension of the hind limb. It does not causes observable tissue damage (whereas the whole venom causes severe myonecrosis accompanied by edema and hemorrhage).",
+            "Literature": [
+                {
+                    "Title": "Purification and properties of a crotamine analog from Crotalus durissus ruruima venom.",
+                    "Pubmed ID": "PubMed ID is not available",
+                    "Reference": "Toxicon 1993,31166-166.",
+                    "Author": "Dos Santos M.C., Morhy L., Ferreira L.C.L., Oliveira E.B.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=PubMed ID is not available"
+                },
+                {
+                    "Title": "Structure of the polypeptide crotamine from the Brazilian rattlesnake Crotalus durissus terrificus.",
+                    "Pubmed ID": "24100315",
+                    "Reference": "Acta Crystallogr D Biol Crystallogr. 2013 Oct;69(Pt 10)1958-1964.",
+                    "Author": "Coronado MA, Gabdulkhakov A, Georgieva D, Sankaran B, Murakami MT, Arni RK, Betzel C.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=24100315"
+                }
+            ],
+            "Frequent Amino Acids": "KCG",
+            "Absent Amino Acids": "ALNOTUV",
+            "Basic Residues": 13,
+            "Acidic Residues": 3,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 24,
+            "Positive Residues": 13,
+            "Negative Residues": 3,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03641",
+                    "Similarity": 1.0,
+                    "Sequence": "YKQCHKKGGHCFPKEKICIPPSSDFGKMDCRWRWKCCKKGSGK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03642",
+                    "Similarity": 1.0,
+                    "Sequence": "KQCHKKGGHCFPKEKICIPPSSDFGKMDCRWRWKCCKKGSGK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_12190",
+                    "Similarity": 1.0,
+                    "Sequence": "CRWRWKCCKK"
+                }
+            ]
+        }
+    }
+}

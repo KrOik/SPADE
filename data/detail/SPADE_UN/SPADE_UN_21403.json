@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_21403": {
+        "Sequence Information": {
+            "Peptide Name": "DFTamP1 [L3,5,6,9Del], DFT526",
+            "Sequence": "GLSSLGKLL",
+            "Sequence Length": 9,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Low cationicity is important for systemic in vivo efficacy of database-derived peptides against drug-resistant Gram-positive pathogens.",
+                    "Pubmed ID": "31209048",
+                    "Reference": "Proc Natl Acad Sci U S A. 2019;116:13517-13522",
+                    "Author": "Mishra B, Lakshmaiah Narayana J, Lushnikova T, Wang X, Wang G",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/31209048"
+                }
+            ],
+            "Mass": 887.08,
+            "PI": 8.75,
+            "Net Charge": 1,
+            "Hydrophobicity": 0.99,
+            "Frequent Amino Acids": "LGS",
+            "Absent Amino Acids": "ACDEFHIMNOPQRTUVWY",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 4,
+            "Polar Residues": 5,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_21403",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_05540",
+                    "Similarity": 1.0,
+                    "Sequence": "LGSCVANKIKDEFFAMISISAIVKAAQKKAWKELAVTVLRFAKANGLKTNAIIVAGQLALWAVQCGLS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07465",
+                    "Similarity": 1.0,
+                    "Sequence": "MRTLAILAAILLFALLAQAKSLQETADDAATQEQPGEDDQDLAVSFEENGLS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_13495",
+                    "Similarity": 1.0,
+                    "Sequence": "FLPIVGKSLSGLSGKL"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=>300 µM",
+            "Target Organism": "Staphylococcus aureus USA 300(MIC=>25µM),Pseudomonas aeruginosa PAO1(MIC=>25µM),Escherichia coli ATCC 25922(MIC=>25µM),Klebsiella pneumoniae ATCC 13883(MIC=>25µM)"
+        }
+    }
+}

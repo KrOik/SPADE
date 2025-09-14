@@ -1,0 +1,61 @@
+{
+    "SPADE_N_15831": {
+        "Sequence Information": {
+            "Peptide Name": "Anti-lipopolysaccharide factor isoform 5, PtALF5",
+            "Sequence": "ASFDISSFISTTADTVIKRLYVDREINLFDHYCIISRSPHISRWELKWQATVTCPGWTPVKGKVRGYSNPLSAEREATRDFVQRIVQRGLVTRDEASEWL",
+            "Sequence Length": 100,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "1. Portunus trituberculatus",
+            "Gene": "1. ALF5",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "H9MYY3",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/H9MYY3",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Molecular cloning, expression pattern and antimicrobial activity of a new isoform of anti-lipopolysaccharide factor from the swimming crab Portunus trituberculatus.",
+                    "Pubmed ID": "22516300",
+                    "Reference": "Fish Shellfish Immunol. 2012;33:85-91",
+                    "Author": "Liu Y, Cui Z, Li X, Song C, Li Q, Wang S",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/22516300"
+                }
+            ],
+            "Mass": 11573.97,
+            "PI": 8.74,
+            "Net Charge": 4,
+            "Hydrophobicity": -0.36,
+            "Frequent Amino Acids": "RSI",
+            "Absent Amino Acids": "MOU",
+            "Basic Residues": 16,
+            "Acidic Residues": 12,
+            "Hydrophobic Residues": 34,
+            "Polar Residues": 66,
+            "Positive Residues": 16,
+            "Negative Residues": 12,
+            "SPADE ID": "SPADE_N_15831",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02551",
+                    "Similarity": 1.0,
+                    "Sequence": "YVDREINLFDHYCIISRSPHISRWELKWQATVTCPGWTPVKGKVRGYSNPLSAEREATRDFVQRIVQRGLVTRDEASEWL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15869",
+                    "Similarity": 0.75,
+                    "Sequence": "GSFDFSSLLSSVANTAIKRLFVEREIDLFDHYCVLSRSPHIYSWELKFEATVTCPGWTPEKGRVRGYSSPTSAEREATKDFVQKIVRRGLVTREEASEWL"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Vibrio alginolyticus(MIC=7.78µM),Edwardsiella tarda(MIC=15.54µM),Pseudomonas aeruginosa(MIC=31.08µM),Micrococcus luteus(MIC=>124.32µM),Staphylococcus aureus(MIC=>124.32µM),Pichia pastoris(MIC=>124.32µM)"
+        }
+    }
+}

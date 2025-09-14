@@ -1,0 +1,70 @@
+{
+    "SPADE_N_00346": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00346",
+            "Peptide Name": "Antimicrobial peptide 2 (ToAMP2; Cys-rich; Plant defensin)",
+            "Source": "Taraxacum officinale (Common dandelion) (Leontodon taraxacum)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "GGKCTVDWGGQGGGRRLPSPLFCCYKPTRICYLNQETCETETCP",
+            "Sequence Length": 44,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/B3EWQ2"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Antifungal"
+            ],
+            "Target Organism": "Fungi:Botrytis cinerea (IC50=5.2 µM), Aspergillus niger (IC50=2.6 µM), Bipolaris sorokiniana (IC50=5.2 µM), Pythium debaryanum (IC50=2.6 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C205H319N59O64S6",
+            "Mass": 4826.47,
+            "PI": 7.77,
+            "Net Charge": 1,
+            "Hydrophobicity": -0.57,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Possesses antifungal activity. Also active against bacterial species P. syringae, B. subtilis and X. campestris.",
+            "Tissue specificity": "Expressed in flowers but not in leaves, seeds or roots (at protein level).",
+            "Literature": [
+                {
+                    "Title": "Discovery of novel antimicrobial peptides with unusual cysteine motifs in dandelion Taraxacum officinale Wigg. flowers.",
+                    "Pubmed ID": "22640720",
+                    "Reference": "Peptides. 2012 Aug;36(2)266-271.",
+                    "Author": "Astafieva AA, Rogozhin EA, Odintsova TI, Khadeeva NV, Grishin EV, Egorov TsA.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=22640720"
+                }
+            ],
+            "Frequent Amino Acids": "GCT",
+            "Absent Amino Acids": "AHMOU",
+            "Basic Residues": 5,
+            "Acidic Residues": 4,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 23,
+            "Positive Residues": 5,
+            "Negative Residues": 4,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_01645",
+                    "Similarity": 0.6666666666666666,
+                    "Sequence": "CGGGGGGCGGGGCGGGGGGGGGCGGGGGGCC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00347",
+                    "Similarity": 0.5833333333333334,
+                    "Sequence": "VAKCTEESGGKYFVFCCYKPTRICYMNEQKCESTCIGK"
+                }
+            ]
+        }
+    }
+}

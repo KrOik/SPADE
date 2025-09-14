@@ -1,0 +1,348 @@
+{
+  "activity_types": {
+    "label": "活性类型",
+    "options": [
+      {
+        "value": "Antibacterial",
+        "label": "抗菌"
+      },
+      {
+        "value": "Antifungal",
+        "label": "抗真菌"
+      },
+      {
+        "value": "Antiviral",
+        "label": "抗病毒"
+      },
+      {
+        "value": "Antimicrobial",
+        "label": "抗微生物"
+      },
+      {
+        "value": "Anticancer",
+        "label": "抗癌"
+      },
+      {
+        "value": "Anti-inflammatory",
+        "label": "抗炎"
+      },
+      {
+        "value": "Immunomodulatory",
+        "label": "免疫调节"
+      },
+      {
+        "value": "Cytotoxic",
+        "label": "细胞毒性"
+      },
+      {
+        "value": "Hemolytic",
+        "label": "溶血"
+      },
+      {
+        "value": "Unknown",
+        "label": "未知"
+      }
+    ]
+  },
+  "target_organisms": {
+    "label": "目标生物",
+    "options": [
+      {
+        "value": "Gram-positive bacteria",
+        "label": "革兰氏阳性菌"
+      },
+      {
+        "value": "Gram-negative bacteria",
+        "label": "革兰氏阴性菌"
+      },
+      {
+        "value": "Yeast",
+        "label": "酵母菌"
+      },
+      {
+        "value": "Fungi",
+        "label": "真菌"
+      },
+      {
+        "value": "Virus",
+        "label": "病毒"
+      },
+      {
+        "value": "Bacillus",
+        "label": "芽孢杆菌"
+      },
+      {
+        "value": "Staphylococcus",
+        "label": "葡萄球菌"
+      },
+      {
+        "value": "Escherichia coli",
+        "label": "大肠杆菌"
+      },
+      {
+        "value": "Candida",
+        "label": "念珠菌"
+      },
+      {
+        "value": "Listeria",
+        "label": "李斯特菌"
+      },
+      {
+        "value": "Enterococcus",
+        "label": "肠球菌"
+      },
+      {
+        "value": "Lactobacillus",
+        "label": "乳酸杆菌"
+      },
+      {
+        "value": "Pseudomonas",
+        "label": "假单胞菌"
+      },
+      {
+        "value": "Streptococcus",
+        "label": "链球菌"
+      },
+      {
+        "value": "No MICs found in DRAMP database",
+        "label": "无数据"
+      }
+    ]
+  },
+  "families": {
+    "label": "家族",
+    "options": [
+      {
+        "value": "Belongs to the cathelicidin family",
+        "label": "Cathelicidin家族"
+      },
+      {
+        "value": "Belongs to the defensin family",
+        "label": "Defensin家族"
+      },
+      {
+        "value": "Belongs to the cecropin family",
+        "label": "Cecropin家族"
+      },
+      {
+        "value": "Belongs to the magainin family",
+        "label": "Magainin家族"
+      },
+      {
+        "value": "Belongs to the lantibiotic family",
+        "label": "Lantibiotic家族"
+      },
+      {
+        "value": "Belongs to the bacteriocin family",
+        "label": "Bacteriocin家族"
+      },
+      {
+        "value": "Belongs to the melittin family",
+        "label": "Melittin家族"
+      },
+      {
+        "value": "Belongs to the tachyplesin family",
+        "label": "Tachyplesin家族"
+      },
+      {
+        "value": "Belongs to the temporin family",
+        "label": "Temporin家族"
+      },
+      {
+        "value": "Unknown",
+        "label": "未知"
+      }
+    ]
+  },
+  "sources": {
+    "label": "来源",
+    "options": [
+      {
+        "value": "Human",
+        "label": "人类"
+      },
+      {
+        "value": "Bovine",
+        "label": "牛"
+      },
+      {
+        "value": "Porcine",
+        "label": "猪"
+      },
+      {
+        "value": "Frog",
+        "label": "蛙"
+      },
+      {
+        "value": "Snake",
+        "label": "蛇"
+      },
+      {
+        "value": "Scorpion",
+        "label": "蝎子"
+      },
+      {
+        "value": "Bee",
+        "label": "蜜蜂"
+      },
+      {
+        "value": "Plant",
+        "label": "植物"
+      },
+      {
+        "value": "Bacteria",
+        "label": "细菌"
+      },
+      {
+        "value": "Fungi",
+        "label": "真菌"
+      },
+      {
+        "value": "Unknown",
+        "label": "未知"
+      }
+    ]
+  },
+  "binding_targets": {
+    "label": "结合目标",
+    "options": [
+      {
+        "value": "Cell membrane",
+        "label": "细胞膜"
+      },
+      {
+        "value": "Lipid bilayer",
+        "label": "脂质双层"
+      },
+      {
+        "value": "DNA",
+        "label": "DNA"
+      },
+      {
+        "value": "RNA",
+        "label": "RNA"
+      },
+      {
+        "value": "Cytoplasmic protein",
+        "label": "细胞质蛋白"
+      },
+      {
+        "value": "Membrane protein",
+        "label": "膜蛋白"
+      },
+      {
+        "value": "Virus entry",
+        "label": "病毒进入"
+      },
+      {
+        "value": "Virus replication",
+        "label": "病毒复制"
+      },
+      {
+        "value": "Immunomodulation",
+        "label": "免疫调节"
+      },
+      {
+        "value": "Unknown",
+        "label": "未知"
+      }
+    ]
+  },
+  "linear_cyclic": {
+    "label": "结构类型",
+    "options": [
+      {
+        "value": "Linear",
+        "label": "线性"
+      },
+      {
+        "value": "Cyclic",
+        "label": "环状"
+      },
+      {
+        "value": "Unknown",
+        "label": "未知"
+      }
+    ]
+  },
+  "charge_ranges": {
+    "label": "电荷",
+    "options": [
+      {
+        "value": "Positive",
+        "label": "正电荷"
+      },
+      {
+        "value": "Negative",
+        "label": "负电荷"
+      },
+      {
+        "value": "Neutral",
+        "label": "中性"
+      }
+    ]
+  },
+  "hydrophobicity_ranges": {
+    "label": "疏水性",
+    "options": [
+      {
+        "value": "Very Hydrophilic",
+        "label": "极亲水"
+      },
+      {
+        "value": "Hydrophilic",
+        "label": "亲水"
+      },
+      {
+        "value": "Neutral",
+        "label": "中性"
+      },
+      {
+        "value": "Hydrophobic",
+        "label": "疏水"
+      }
+    ]
+  },
+  "mass_ranges": {
+    "label": "分子量",
+    "options": [
+      {
+        "value": "Small (<1kDa)",
+        "label": "小分子 (<1kDa)"
+      },
+      {
+        "value": "Medium (1-3kDa)",
+        "label": "中等分子 (1-3kDa)"
+      },
+      {
+        "value": "Large (3-5kDa)",
+        "label": "大分子 (3-5kDa)"
+      },
+      {
+        "value": "Very Large (>5kDa)",
+        "label": "超大分子 (>5kDa)"
+      }
+    ]
+  },
+  "length_ranges": {
+    "label": "长度",
+    "options": [
+      {
+        "value": "Very Short (<10)",
+        "label": "极短 (<10)"
+      },
+      {
+        "value": "Short (10-20)",
+        "label": "短 (10-20)"
+      },
+      {
+        "value": "Medium (20-50)",
+        "label": "中等 (20-50)"
+      },
+      {
+        "value": "Long (>50)",
+        "label": "长 (>50)"
+      }
+    ]
+  }
+} 

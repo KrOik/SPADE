@@ -1,0 +1,73 @@
+{
+    "SPADE_N_07115": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_07115",
+            "Peptide Name": "SALF",
+            "Source": "Penaeus monodon",
+            "Family": "",
+            "Gene": "Not found",
+            "Sequence": "ECKFTVKPYLKRFQVYYKGRMWCP",
+            "Sequence Length": 24,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Notavailable"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Target Organism": "Tumor cells:HeLa (65% Inhibition=100μg/ml)",
+            "Hemolytic Activity": "Not available",
+            "Cytotoxicity": "Not available",
+            "Binding Target": "Not available",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Acetylation",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C145H216N36O32S3",
+            "Mass": 3071.68,
+            "PI": 9.7,
+            "Net Charge": 5,
+            "Hydrophobicity": -0.67,
+            "Half Life": "Mammalian:1 hourYeast:30 minE.coli:>10 hour",
+            "Comments": "SALF can induce apoptotic gene expressions, enhance antitumor activity of cisplatin in vitro, and inhibit tumor growth in nude mice.",
+            "Literature": [
+                {
+                    "Title": "Shrimp anti-lipopolysaccharide factor peptide enhances the antitumor activity of cisplatin in vitro and inhibits HeLa cells growth in nude mice",
+                    "Pubmed ID": "20214941",
+                    "Reference": "Peptides. 2010 Jun;31(6)1019-25.",
+                    "Author": "Lin MC, Lin SB, Chen JC, Hui CF, Chen JY.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=20214941"
+                }
+            ],
+            "Frequent Amino Acids": "KYC",
+            "Absent Amino Acids": "ADHINOSU",
+            "Basic Residues": 6,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 15,
+            "Positive Residues": 6,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_08315",
+                    "Similarity": 1.0,
+                    "Sequence": "QGWEAVAAAVASKIVGLWRNEKTELLGHECKFTVKPYLKRFQVYYKGRMWCPGWTAIRGEASTRSQSGVAGKTAKDFVRKAFQKGLISQQEANQWLSS"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_21553",
+                    "Similarity": 1.0,
+                    "Sequence": "ECKFTVKPYLKRFQVYYKGRMWCP"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_29451",
+                    "Similarity": 1.0,
+                    "Sequence": "ECKFTVKPYLKRFQVYYKGRMWCP"
+                }
+            ]
+        }
+    }
+}

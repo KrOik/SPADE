@@ -1,0 +1,75 @@
+{
+    "SPADE_N_05849": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_05849",
+            "Peptide Name": "DAN1",
+            "Source": "Danaus plexippus (monarch butterfly)",
+            "Family": "Belongs to the cecropin family.",
+            "Gene": "KGM_210268",
+            "Sequence": "KWKIFKKIEKVGRNVRDGIIKAGPAVQVVGQATSIAK",
+            "Sequence Length": 37,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/A0A212EJN7"
+            ],
+            "Protein Existence": "Transcript level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.29501691] Gram-positive bacteria:Bacillus subtilis (MIC=131.3μ±μ46.1 μg/mL);Gram-negative bacteria:Escherichia coli (MIC=4.9μ±μ2.3 μg/mL), Pseudomonas aeruginosa (MIC=7μ±μ0.8 μg/mL), Klebsiella pneumoniae (MIC=16.2μ±μ1.9 μg/mL)",
+            "Hemolytic Activity": "[Ref.29501691] 0% haemolysis at 10 μg/ml, 0% haemolysis at 25 μg/ml, 0% haemolysis at 50 μg/ml, 0% haemolysis at 100 μg/ml, 0% haemolysis at 200 μg/ml against sheep red blood cells",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C184H314N54O47",
+            "Mass": 4034.8,
+            "PI": 10.73,
+            "Net Charge": 7,
+            "Hydrophobicity": -0.16,
+            "Half Life": "Mammalian:1.3 hourYeast:3 minE.coli:2 min",
+            "Function": "Antibacterial activity against the Gram-positive and Gram-negative bacteria.",
+            "Literature": [
+                {
+                    "Title": "Identification and screening of potent antimicrobial peptides in arthropod genomes.",
+                    "Pubmed ID": "29501691",
+                    "Reference": "Peptides. 2018 May;10326-30. doi 10.1016/j.peptides.2018.01.017.",
+                    "Author": "Duwadi D, Shrestha A, Yilma B, Kozlovski I, Sa-Eed M, Dahal N, Jukosky J.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=29501691"
+                }
+            ],
+            "Frequent Amino Acids": "KIV",
+            "Absent Amino Acids": "CHLMOUY",
+            "Basic Residues": 9,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 17,
+            "Polar Residues": 23,
+            "Positive Residues": 9,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_24133",
+                    "Similarity": 1.0,
+                    "Sequence": "KWKIFKKIEKVGRNVRDGIIKAGPAVQVVGQATSIAK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_21606",
+                    "Similarity": 0.9545454545454546,
+                    "Sequence": "RWKIFKKIEKVGRNVRDGIIKA"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11295",
+                    "Similarity": 0.9333333333333333,
+                    "Sequence": "KIFKKIEKVGRNVRDGIIKAGPAVAVVEQA"
+                }
+            ]
+        }
+    }
+}

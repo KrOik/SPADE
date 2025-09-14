@@ -1,0 +1,77 @@
+{
+    "SPADE_UN_15903": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_15903",
+            "Peptide Name": "Chol-KAaK",
+            "Source": "Synthetic",
+            "Family": "",
+            "Gene": "Not found",
+            "Sequence": "KAAK",
+            "Sequence Length": 4,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Notavailable"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Target Organism": "Not available",
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=60 µM",
+            "Cytotoxicity": "Not available",
+            "Binding Target": "Not available",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Cholesterol",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "Mix",
+            "Structure Description": "Not found",
+            "Formula": "C15H29N5O3",
+            "Mass": 416.52,
+            "PI": 10.0,
+            "Net Charge": 2,
+            "Hydrophobicity": -1.05,
+            "Half Life": "Mammalian:1.3 hourYeast:3 minE.coli:2 min",
+            "Literature": [
+                {
+                    "Title": "Ultrashort peptide bioconjugates are exclusively antifungal agents and synergize with cyclodextrin and amphotericin B",
+                    "Pubmed ID": "22006001",
+                    "Reference": "Antimicrob Agents Chemother. 2012 Jan;56(1)1-9.",
+                    "Author": "Arnusch CJ, Ulm H, Josten M, Shadkchan Y, Osherov N, Sahl HG, Shai Y.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=22006001"
+                },
+                {
+                    "Title": "Ultrashort antibacterial and antifungal lipopeptides",
+                    "Pubmed ID": "",
+                    "Author": "Makovitzki A, Avrahami D, Shai Y"
+                }
+            ],
+            "Frequent Amino Acids": "AK",
+            "Absent Amino Acids": "CDEFGHILMNOPQRSTUVWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 2,
+            "Polar Residues": 4,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00962",
+                    "Similarity": 1.0,
+                    "Sequence": "AVTCNTVVSSLAPCVPFFAGSAAQPTAACCNGVRSLNSAARTTPDRRTACNCIKSSASSIGLNYNKAAKLPSRCTVNVTVPISPSVNCAT"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01536",
+                    "Similarity": 1.0,
+                    "Sequence": "GMWSKIKNAGKAAKAAAKAAGKAALGAVSEAM"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01769",
+                    "Similarity": 1.0,
+                    "Sequence": "SFLTTFKDLAIKAAKSAGQSVLSTLSCKLSNTC"
+                }
+            ]
+        }
+    }
+}

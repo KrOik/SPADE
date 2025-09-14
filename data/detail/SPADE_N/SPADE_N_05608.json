@@ -1,0 +1,71 @@
+{
+    "SPADE_N_05608": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_05608",
+            "Peptide Name": "Hyicin 3682 (bacteriocin)",
+            "Source": "Staphylococcus hyicus 3682",
+            "Family": "Belongs to the lantibiotic family.",
+            "Gene": "Not found",
+            "Sequence": "ITSFSLCTPGCAKTGSFNSYCC",
+            "Sequence Length": 22,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C97H146N24O31S4",
+            "Mass": 2290.61,
+            "PI": 7.88,
+            "Net Charge": 1,
+            "Hydrophobicity": 0.42,
+            "Half Life": "Mammalian:20 hourYeast:30 minE.coli:>10 hour",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Genetic and biochemical characterization of hyicin 3682, the first bacteriocin reported for Staphylococcus hyicus.",
+                    "Pubmed ID": "28285660",
+                    "Reference": "Microbiol Res. 2017 May;19836-46.",
+                    "Author": "Carlin Fagundes P, Nascimento de Sousa Santos I, Silva Francisco M, Mattos Albano R, de Freire Bastos MD.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=28285660"
+                }
+            ],
+            "Frequent Amino Acids": "CST",
+            "Absent Amino Acids": "DEHMOQRUVW",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 15,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_11371",
+                    "Similarity": 0.9090909090909091,
+                    "Sequence": "ITSHSLCTPGCAKTGSFNSFCC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00033",
+                    "Similarity": 0.8636363636363636,
+                    "Sequence": "IASKFLCTPGCAKTGSFNSYCC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06079",
+                    "Similarity": 0.8636363636363636,
+                    "Sequence": "MEAVKEKNELFDLDVKVNAKESNDSGAEPRIASKFLCTPGCAKTGSFNSYCC"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "SPADE_N_03205": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03205",
+            "Peptide Name": "Gallinacin-11 (Gal-11; Beta-defensin 11; Birds, animals)",
+            "Source": "Gallus gallus (Chicken)",
+            "Family": "Belongs to the beta-defensin family",
+            "Gene": "GAL11",
+            "Sequence": "LPRDTSRCVGYHGYCIRSKVCPKPFAAFGTCSWRQKTCCVDTTSDFHTCQDKGGHCVSPKIRCLEEQLGLCPLKRWTCCKEI",
+            "Sequence Length": 82,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q6IV20",
+                "http://www.uniprot.org/uniprot/A0A1W6",
+                "http://www.uniprot.org/uniprot/Q09MT4",
+                "http://www.uniprot.org/uniprot/Q9PS49"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-negative bacterium:Escherichia coli (MIC=50 nM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C399H630N118O114S12",
+            "Mass": 9288.77,
+            "PI": 8.78,
+            "Net Charge": 9,
+            "Hydrophobicity": -0.38,
+            "Half Life": "Mammalian:5.5 hourYeast:3 minE.coli:2 min",
+            "Tissue specificity": "Detected in outer membrane of the vitelline layer of the egg (at protein level). Expressed in the liver, gall bladder, kidney, testis, ovary and male and female reproductive tracts. Expressed in the ovarian stroma, but not in the ovarian follicles. No expression is detected in bone marrow. PTM",
+            "Literature": [
+                {
+                    "Title": "Changes in the expression of gallinacins, antimicrobial peptides, in ovarian follicles during follicular growth and in response to lipopolysaccharide in laying hens (Gallus domesticus).",
+                    "Pubmed ID": "17244739",
+                    "Reference": "Reproduction. 2007 Jan;133(1)127-133.",
+                    "Author": "Subedi K, Isobe N, Nishibori M, Yoshimura Y.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=17244739"
+                },
+                {
+                    "Title": "Isolation of a novel protein from the outer layer of the vitelline membrane.",
+                    "Pubmed ID": "1520265",
+                    "Reference": "Biochem J. 1992 Aug 15;286 (Pt 1)17-22.",
+                    "Author": "Kido S, Morimoto A, Kim F, Doi Y.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=1520265"
+                }
+            ],
+            "Frequent Amino Acids": "CKT",
+            "Absent Amino Acids": "MNOU",
+            "Basic Residues": 16,
+            "Acidic Residues": 7,
+            "Hydrophobic Residues": 26,
+            "Polar Residues": 51,
+            "Positive Residues": 16,
+            "Negative Residues": 7,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07600",
+                    "Similarity": 1.0,
+                    "Sequence": "DTSRCVGYHGYCIRSKVCPKPFAAFGTCSWRQKTCCVDTTSDFHTCQDKGGHCVSPKIRCLEEQLGLCPLKRWTCCKEI"
+                }
+            ]
+        }
+    }
+}

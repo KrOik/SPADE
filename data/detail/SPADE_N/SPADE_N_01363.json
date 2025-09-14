@@ -1,0 +1,73 @@
+{
+    "SPADE_N_01363": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01363",
+            "Peptide Name": "Esculentin-1ISa (Frogs, amphibians, animals)",
+            "Source": "Odorrana ishikawae (Japanese Endangered frog)",
+            "Family": "Belongs to the frog skin active peptide family (Brevinin subfamily)",
+            "Gene": "Not found",
+            "Sequence": "GIFSKFAGKGIKNLLVKGVKNIGKEVGMDVIRTGIDIAGCKIKGEC",
+            "Sequence Length": 46,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-negative bacterium:Escherichia coli (MC=6.3 µM);Gram-positive bacteria:Staphylococcus aureus (MIC=3.1 µM), Staphylococcus aureus (MRSA) (MIC=25 µM), Bacillus subtilis (MIC=25 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Cyclization (Cys40 and Cys46)",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C214H367N59O59S3",
+            "Mass": 4806.76,
+            "PI": 9.63,
+            "Net Charge": 5,
+            "Hydrophobicity": 0.22,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Shows antibacterial activity.",
+            "Literature": [
+                {
+                    "Title": "Identification and characterization of antimicrobial peptides from the skin of the endangered frog Odorrana ishikawae.",
+                    "Pubmed ID": "21193000",
+                    "Reference": "Peptides. 2011 Apr;32(4)670-676.",
+                    "Author": "Iwakoshi-Ukena E, Ukena K, Okimoto A, Soga M, Okada G, Sano N, Fujii T, Sugawara Y, Sumida M.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=21193000"
+                }
+            ],
+            "Frequent Amino Acids": "GKI",
+            "Absent Amino Acids": "HOPQUWY",
+            "Basic Residues": 9,
+            "Acidic Residues": 4,
+            "Hydrophobic Residues": 18,
+            "Polar Residues": 21,
+            "Positive Residues": 9,
+            "Negative Residues": 4,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01366",
+                    "Similarity": 0.8913043478260869,
+                    "Sequence": "GLFSKFAGKGIKNLIFKGVKHIGKEVGMDVIRTGIDVAGCKIKGEC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08355",
+                    "Similarity": 0.8913043478260869,
+                    "Sequence": "GLFSKFAGKGIKNFLIKGVKHIGKEVGMDVIRTGIDVAGCKIKGEC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01359",
+                    "Similarity": 0.8695652173913043,
+                    "Sequence": "GIFSKFGGKAIKNLFIKGAKNIGKEVGMDVIRTGIDVAGCKIKGEC"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "SPADE_UN_20132": {
+        "Sequence Information": {
+            "Peptide Name": "Cecropin A (1-7) + Melittine (2-9) [V14K]",
+            "Sequence": "KWKLFKKIGAVLKKL",
+            "Sequence Length": 15,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P01501",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P01501",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                },
+                {
+                    "uniprotId": "P01507",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P01507",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Lysine-enriched cecropin-mellitin antimicrobial peptides with enhanced selectivity.",
+                    "Pubmed ID": "18852279",
+                    "Reference": "Antimicrob Agents Chemother. 2008;52:4463-4465",
+                    "Author": "Sato H, Feix JB",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/18852279"
+                }
+            ],
+            "Mass": 1800.32,
+            "PI": 10.7,
+            "Net Charge": 6,
+            "Hydrophobicity": 0.0,
+            "Frequent Amino Acids": "KLA",
+            "Absent Amino Acids": "CDEHMNOPQRSTUY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 8,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_20132",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_05754",
+                    "Similarity": 1.0,
+                    "Sequence": "KWKLFKKI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06734",
+                    "Similarity": 1.0,
+                    "Sequence": "KWKLF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07815",
+                    "Similarity": 1.0,
+                    "Sequence": "LVLKYCPKIGYCSNTCSKTQIWATSHGCKMYCCLPASWKWK"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:4% Hemolysis=64 µM",
+            "Target Organism": "Escherichia coli BL21(MIC=1-4µM),Pseudomonas aeruginosa PAO1(MIC=2-4µM),Staphylococcus aureus ATCC 6538P(MIC=4-8µM),Staphylococcus aureus ATCC BAA-41(MIC=8µM),Staphylococcus epidermidis(MIC=0.25-0.5µM)"
+        }
+    }
+}

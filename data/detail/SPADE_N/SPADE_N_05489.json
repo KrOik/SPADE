@@ -1,0 +1,75 @@
+{
+    "SPADE_N_05489": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_05489",
+            "Peptide Name": "Toxin LyeTx 1",
+            "Source": "Lycosa erythrognatha (Spider) (Scaptocosa raptoria)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "IWLTALKFLGKNLGKHLAKQQLAKL",
+            "Sequence Length": 25,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/C0HJU9"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.19946788]Gram-positive bacterium:S.aureus (MIC=3.79 μM);Gram-negative bacterium:E.coli (MIC=7.81 μM);Yeasts:C.krusei (MIC=26.3 μM), C.neoformans (MIC=13.2 μM).",
+            "Hemolytic Activity": "[Ref.19946788]ED50=1.3 × 10−4 M against rabbit erythrocytes",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C135H226N36O30",
+            "Mass": 2833.46,
+            "PI": 10.6,
+            "Net Charge": 6,
+            "Hydrophobicity": 0.15,
+            "Half Life": "Mammalian:20 hourYeast:30 minE.coli:>10 hour",
+            "Function": "Has hemolytic activity against rabbit erythrocytes. Forms pores in lipid bilayers in vitro; pore formation is reduced when cholesterol is present in the bilayers.",
+            "Literature": [
+                {
+                    "Title": "LyeTx I, a potent antimicrobial peptide from the venom of the spiderLycosa erythrognatha.",
+                    "Pubmed ID": "19946788",
+                    "Reference": "Amino Acids 39135-144(2010)",
+                    "Author": "Santos D.M., Verly R.M., Pilo-Veloso D., de Maria M.,de Carvalho M.A., Cisalpino P.S., Soares B.M., Diniz C.G.,Farias L.M., Moreira D.F., Frezard F., Bemquerer M.P., Pimenta A.M.,de Lima M.E.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=19946788"
+                }
+            ],
+            "Frequent Amino Acids": "LKA",
+            "Absent Amino Acids": "CDEMOPRSUVY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 13,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06468",
+                    "Similarity": 1.0,
+                    "Sequence": "IWLTALKFLGKNLGKLAKQQLAKL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_19790",
+                    "Similarity": 1.0,
+                    "Sequence": "IWLTALKFLGKNLGKLAKQQLAKL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_23083",
+                    "Similarity": 1.0,
+                    "Sequence": "IWLTALKFLGKNLGK"
+                }
+            ]
+        }
+    }
+}

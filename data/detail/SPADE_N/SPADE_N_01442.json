@@ -1,0 +1,74 @@
+{
+    "SPADE_N_01442": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01442",
+            "Peptide Name": "Caerin-2.4 (Frogs, amphibians, animals)",
+            "Source": "Litoria caerulea (Green tree frog)",
+            "Family": "Belongs to the frog skin active peptide family (Caerin subfamily)",
+            "Gene": "Not found",
+            "Sequence": "GLVSSIGKALGGLLADVVKTKEQPA",
+            "Sequence Length": 25,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P56236"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C109H191N29O34",
+            "Mass": 2451.86,
+            "PI": 8.5,
+            "Net Charge": 1,
+            "Hydrophobicity": 0.4,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Antimicrobial peptide, that adopts an alpha helical conformation which can disrupt bacterial membranes. Each caerin displays a different antimicrobial specificity.",
+            "Tissue specificity": "Expressed by the skin parotoid and/or rostral glands.",
+            "Literature": [
+                {
+                    "Title": "Peptides from Australian frogs. The structures of the caerins from Litoria caerula.",
+                    "Pubmed ID": "PubMed ID is not available",
+                    "Reference": "J. Chem. Res. 1993; 138 910-936.",
+                    "Author": "Stone DJM, Waugh RJ, Bowie JH, Wallace JC, Tyler MJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=PubMed ID is not available"
+                }
+            ],
+            "Frequent Amino Acids": "GLA",
+            "Absent Amino Acids": "CFHMNORUWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 13,
+            "Positive Residues": 3,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01441",
+                    "Similarity": 0.9411764705882353,
+                    "Sequence": "ALGGLLADVVKSKEQPA"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01440",
+                    "Similarity": 0.92,
+                    "Sequence": "GLVSSIGRALGGLLADVVKSKEQPA"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07875",
+                    "Similarity": 0.92,
+                    "Sequence": "GLVSSIGKALGGLLADVVKSKGQPA"
+                }
+            ]
+        }
+    }
+}

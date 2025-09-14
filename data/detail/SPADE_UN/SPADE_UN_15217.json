@@ -1,0 +1,71 @@
+{
+    "SPADE_UN_15217": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_15217",
+            "Peptide Name": "EF",
+            "Source": "Synthetic construct",
+            "Family": "Flaviviridae",
+            "Gene": "Not found",
+            "Sequence": "EF",
+            "Sequence Length": 2,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antiviral"
+            ],
+            "Target Organism": "[Ref.24612829]dengue virus 2(DENV2):inhibition of viral entry in Vero cells(IC50=96.50 µM); inhibition of viral replication in Vero cells(83.47% inhibition at 200 μM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "[Ref.24612829]No cytotoxicity against Vero cells up to 500 µM.",
+            "Binding Target": "E protein",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C14H18N2O5",
+            "Mass": 294.3,
+            "PI": 4.05,
+            "Net Charge": -1,
+            "Hydrophobicity": -0.35,
+            "Half Life": "Mammalian:1 hourYeast:30 minE.coli:>10 hour",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Peptide inhibitors against dengue virus infection.",
+                    "Pubmed ID": "24612829",
+                    "Reference": "Chem Biol Drug Des. 2014 Aug;84(2)148-57.",
+                    "Author": "Panya A, Bangphoomi K, Choowongkomon K, Yenchitsomanus PT.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=24612829"
+                }
+            ],
+            "Frequent Amino Acids": "EF",
+            "Absent Amino Acids": "ACDGHIKLMNOPQRSTUVWY",
+            "Basic Residues": 0,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 1,
+            "Polar Residues": 0,
+            "Positive Residues": 0,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00072",
+                    "Similarity": 1.0,
+                    "Sequence": "TSYGNGVHCNKSKCWIDVSELETYKAGTVSNPKDILWSLKE"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00107",
+                    "Similarity": 1.0,
+                    "Sequence": "KKWGWLAWVEPAGEFLKGFGKGAIKEGNKDKWKNI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00109",
+                    "Similarity": 1.0,
+                    "Sequence": "KKWGWLAWVDPAYEFIKGFGKGAIKEGNKDKWKNI"
+                }
+            ]
+        }
+    }
+}

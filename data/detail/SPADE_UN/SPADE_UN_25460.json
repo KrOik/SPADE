@@ -1,0 +1,61 @@
+{
+    "SPADE_UN_25460": {
+        "Sequence Information": {
+            "Peptide Name": "",
+            "Sequence": "KARKKRAH",
+            "Sequence Length": 8,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Antifungal",
+                "Anti-Mammalian Cell",
+                "Antibiofilm"
+            ],
+            "Binding Target": "1. Cytoplasmic Protein\n2. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Rational design, synthesis, antifungal evaluation and docking studies of antifungal peptide CGA-N12 analogues based on the target CtKRE9.",
+                    "Pubmed ID": "36669359",
+                    "Reference": "Bioorg Chem. 2023;132:106355",
+                    "Author": "Li R, Wu J, He F, Xu Q, Yin K, Li S, Li W, Wei A, Zhang L, Zhang XH, Zhang B",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/36669359"
+                }
+            ],
+            "Mass": 994.2,
+            "PI": 12.0,
+            "Net Charge": 6,
+            "Hydrophobicity": -2.54,
+            "Frequent Amino Acids": "KAR",
+            "Absent Amino Acids": "CDEFGILMNOPQSTUVWY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 2,
+            "Polar Residues": 6,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_25460",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_04557",
+                    "Similarity": 1.0,
+                    "Sequence": "QCIRLEKAR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11548",
+                    "Similarity": 1.0,
+                    "Sequence": "CKYKAR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_09433",
+                    "Similarity": 1.0,
+                    "Sequence": "MGRSLKKGPFVAASLLRKIDKLNDKGDKQVVKTWSRASTILPQMVGHTIAVHNGRQHVPVFVSEQMVGHKLGEFAPTRTFRSHSKSDKKARK"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:5% Hemolysis=546.66 ± 62.21 µg/ml",
+            "Target Organism": "Candida tropicalis ATCC MYA-3404(MIC=3.46 ± 0.12µg/ml),Candida tropicalis ATCC MYA-3404(MIC=8µg/ml),Candida tropicalis(MIC=31.42 ± 0.25µg/ml),Listeria monocytogenes ATCC 13932(MIC=3.91µg/ml),Enterococcus faecalis ATCC 700802(MIC=15.63µg/ml),Staphylococcus aureus ATCC 25923(MIC=7.82µg/ml)"
+        }
+    }
+}

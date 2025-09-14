@@ -1,0 +1,80 @@
+{
+    "SPADE_N_00082": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 2023/0416797 A1",
+                "Patent Link": "http://www.lens.org/lens/patent/US_2023_0416797_A1",
+                "Patent Type": "Patent Application",
+                "Publication Date": "2023-12-28",
+                "Family Info": "JP2023548477A,EP4243844A1,CN116685204A,WO2022104321A1",
+                "Patent Title": "MODULATING ANTIMICROBIAL PEPTIDE HALF-LIFE",
+                "Abstract": "Methods of modulating the half-life of an antimicrobial peptide are described. The method may include administering an antimicrobial peptide to an environment where the antimicrobial peptide remains active until a specified endpoint, and on or after the specified endpoint, digesting the antimicrobial peptide with a protease to thereby inactivate the antimicrobial peptide and modulate its half-life. Compositions and kits for modulating the half-life of an antimicrobial peptide are also described."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00082",
+            "Peptide Name": "Lactococcin MMFII (Pediocin-like peptide; Bacteriocin)",
+            "Source": "Lactococcus lactis subsp. lactis (Streptococcus lactis) (Gram-positive bacteria)",
+            "Family": "Belongs to the class IIa bacteriocin",
+            "Gene": "Not found",
+            "Sequence": "TSYGNGVHCNKSKCWIDVSELETYKAGTVSNPKDILW",
+            "Sequence Length": 37,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P83002"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "Lactococcus cremoris, Listeria ivanovii.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C183H280N48O58S2",
+            "Mass": 4144.6,
+            "PI": 6.43,
+            "Net Charge": 1,
+            "Hydrophobicity": -0.54,
+            "Half Life": "Mammalian:7.2 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Bacteriocin active against Listeria monocytogenes and Lactococcus cremoris.",
+            "Literature": [
+                {
+                    "Title": "Lactococcin MMFII, a novel class IIa bacteriocin produced by Lactococcus lactis MMFII, isolated from a Tunisian dairy product.",
+                    "Pubmed ID": "11728715",
+                    "Reference": "FEMS Microbiol Lett. 2001 Nov 27;205(1)49-55.",
+                    "Author": "Ferchichi M, Fr¨re J, Mabrouk K, Manai M.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=11728715"
+                },
+                {
+                    "Title": "Chemical synthesis, molecular modeling, and antimicrobial activity of a novel bacteriocin, MMFII.",
+                    "Pubmed ID": "11708769",
+                    "Reference": "Biochem Biophys Res Commun. 2001 Nov 23;289(1)13-18.",
+                    "Author": "Ferchichi M, Fathallah M, Mansuelle P, Rochat H, Sabatier JM, Manai M, Mabrouk K.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=11708769"
+                }
+            ],
+            "Frequent Amino Acids": "KSG",
+            "Absent Amino Acids": "FMOQRU",
+            "Basic Residues": 5,
+            "Acidic Residues": 4,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 23,
+            "Positive Residues": 5,
+            "Negative Residues": 4,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00072",
+                    "Similarity": 1.0,
+                    "Sequence": "TSYGNGVHCNKSKCWIDVSELETYKAGTVSNPKDILWSLKE"
+                }
+            ]
+        }
+    }
+}

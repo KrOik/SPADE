@@ -1,0 +1,74 @@
+{
+    "SPADE_UN_12065": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_12065",
+            "Peptide Name": "RPb (Frogs, amphibians, animals)",
+            "Source": "synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "SFLTTVKKLVTNLAAL",
+            "Sequence Length": 16,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic form",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "[Ref.31242693] Gram-positive bacteria:Staphylococcus aureus (MIC=8 μM; MBC=8 μM), MRSA (MIC=16 μM; MBC=32 μM), Enterococcus faecalis (MIC=32 μM; MBC=128 μM);Gram-negative bacteria:Escherichia coli (MIC=16 μM; MBC=16 μM), Pseudomonas aeruginosa (MIC=64 μM; MBC=256 μM);Fungi:Candida albicans (MIC=16 μM; MBC=16 μM)",
+            "Hemolytic Activity": "[Ref.31242693] 7% hemolysis at 16 μM, 18% hemolysis at 32 μM, 20% hemolysis at 64 μM, 40% hemolysis at 128 μM, 70% hemolysis at 256 μM, 100% hemolysis at 512 μM on horse erythrocytes.",
+            "Cytotoxicity": "[Ref.31242693] RPb only possessed inhibitory effect on the proliferation of H157 with the IC value of 6.856 μM, while showed no inhibitory effect on the proliferation of MCF-7, U251MG, PC-3 and MDA-MB-435s. DETAILED DATA:①The cell viabillity of NCI-H157 induced by RPb is 98.7%, 102.5%, 96.9%, 98.1%, 38.1%, 9.4% at peptide concentrations of 0.001, 0.01, 0.1, 1, 10, 100 μM, while the cell viability induced by Melittin is 100%, 95%, 89.4%, 41.2%, 16.2% and 16.2% at 0.001, 0.01, 0.1, 1, 10, 100 μM. ②The cell viability of MCF-7 induced by RPb is 100.6%, 92.5%, 90%, 99.4%, 36.2% and 11.2% at peptide concentrations of 0.001, 0.01, 0.1, 1, 10, 100 μM, , while the cell viability induced by Melittin is 100%, 98.1%, 92.5%, 7.5%, 8.7% and 8.7% at 0.001, 0.01, 0.1, 1, 10, 100 μM. ③The cell viability of U251-MG induced by RPb is 105%, 103.1%, 109.4%, 102.5%, 105.6% and 13.1% at peptide concentrations of 0.001, 0.01, 0.1, 1, 10, 100 μM, while the cell viability induced by Melittin is 99.4%, 99.4%, 75.6%, 18.7%, 11.9% and 18.1% at 0.001, 0.01, 0.1, 1, 10, 100 μM.④The cell viability of PC-3 induced by RPa is 108.8%, 103.8%, 118.1%, 125.6%, 116.9% and 68.8% at peptide concentrations of 0.001, 0.01, 0.1, 1, 10, 100 μM, while the cell viability induced by Melittin is 110%, 113.1%, 109.4%, 33.1%, 16.9% and 16.2% at 0.001, 0.01, 0.1, 1, 10, 100 μM. ⑤The cell viability of MDA-MB-435S induced by RPa is 98.1%, 95%, 100.6%, 97.5%, 80.6% and 43.1%, while the cell viability induced by Melittin is 100%, 93.1%, 82.5%, 18.8%, 18.8% and 18.1%.",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C80H139N19O22",
+            "Mass": 1719.07,
+            "PI": 10.0,
+            "Net Charge": 2,
+            "Hydrophobicity": 0.99,
+            "Half Life": "Mammalian:1.9 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Antibacterial activity against Gram-positive bacteria and Gram-negative bacteria. Antifungal activity against Candida albicans.",
+            "Literature": [
+                {
+                    "Title": "Bioevaluation of Ranatuerin-2Pb from the Frog Skin Secretion of Rana pipiens and its Truncated Analogues",
+                    "Pubmed ID": "31242693",
+                    "Reference": "Biomolecules. 2019 Jun 25;9(6)249. doi 10.3390/biom9060249.",
+                    "Author": "Zhou, XW; Shi, DN; Zhong, RM; Ye, ZM; Ma, CB; Zhou, M; Xi, XP; Wang, L; Chen, TB; Kwok, HF",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=31242693"
+                }
+            ],
+            "Frequent Amino Acids": "LTA",
+            "Absent Amino Acids": "CDEGHIMOPQRUWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 11,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_05876",
+                    "Similarity": 1.0,
+                    "Sequence": "SFLTTVKKLVTNLAALAGTVIDTIKCKVTGGCRT"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_04140",
+                    "Similarity": 1.0,
+                    "Sequence": "SLKHLCRKALRSFLT"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_12064",
+                    "Similarity": 1.0,
+                    "Sequence": "SFLTTVKKLVTNLAALAGTVIDTIKCKVTGGC"
+                }
+            ]
+        }
+    }
+}

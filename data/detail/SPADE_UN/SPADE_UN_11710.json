@@ -1,0 +1,76 @@
+{
+    "SPADE_UN_11710": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_11710",
+            "Peptide Name": "[K]3-VmCT1-NH2 VmCT1 petide derivative",
+            "Source": "Synthetic construct",
+            "Family": "Belongs to the scorpion NDBP 6 family",
+            "Gene": "Not found",
+            "Sequence": "FLKALWNVAKSVF",
+            "Sequence Length": 13,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "[Ref.27912176] Gram-negative bacteria:Escherichia coli (SBS 363)(MIC=1.56μmol/L);Pseudomonas aeruginosa (ATCC 27853)(MIC=0.78μmol/L);Escherichia coli (D31)(MIC=1.56μmol/L);Serratia marcescens (ATCC 4112)(MIC=1.56μmol/L);Enterobacter cloacae (beta-12)(MIC=6.25μmol/L);Gram-positive bacteria:Micrococcus luteus (A270)(MIC=0.78μmol/L);Staphylococcus aureus (ATCC 29213)(MIC=3.12μmol/L);Bacillus subtilis (ATCC 6633)(MIC=6.25μmol/L);Staphylococcus epidermidis (ATCC 12228)(MIC=3.12μmol/L);Fungi:Candida albicans MDM8(MIC=3.12μmol/L);Candida tropicalis (IOC 4560)(MIC=3.12μmol/L);Candida parapsilosis (IOC 4564)(MIC=6.25μmol/L);Aspergillus niger(MIC=12.5μmol/L);Cladosporium herbarum (ATCC 26362)(MIC=25μmol/L);Cryptococcus neoformans(MIC=3.12μmol/L)",
+            "Hemolytic Activity": "[Ref.27912176] MHC=1.60 μmol/L against human red blood cells",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "The peptide adopts Helical fraction 0.10 in water;0.60 in TFE/Water;0.98 in POPC;0.52 in POPC:POPG;1 in POPC:DOPE;",
+            "Formula": "C76H115N17O16",
+            "Mass": 1522.83,
+            "PI": 10.0,
+            "Net Charge": 2,
+            "Hydrophobicity": 0.94,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Function": "Antibacterial activity against the Gram-positive and Gram-negative bacteria and fungi.It presented higher or equivalent antimicrobial activity when compared to VmCT1.",
+            "Literature": [
+                {
+                    "Title": "Novel designed VmCT1 analogs with increased antimicrobial activity.",
+                    "Pubmed ID": "27912176",
+                    "Reference": "Eur J Med Chem. 2017 Jan 27;126456-463.",
+                    "Author": "Pedron CN, Torres MT, Lima JADS, Silva PI, Silva FD, Oliveira VX.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=27912176"
+                },
+                {
+                    "Title": "novel designed VmCT1 analogs with increased antimicrobial activity",
+                    "Pubmed ID": "",
+                    "Author": "Pedron Cn, Torres MT, Lima JA, Silva PI, Silva FD, Oliveira VX"
+                }
+            ],
+            "Frequent Amino Acids": "AFK",
+            "Absent Amino Acids": "CDEGHIMOPQRTUY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 8,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_12097",
+                    "Similarity": 0.9230769230769231,
+                    "Sequence": "FLKALWKVAKSVF"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_12098",
+                    "Similarity": 0.9230769230769231,
+                    "Sequence": "FLKALWNVAKKVF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03252",
+                    "Similarity": 0.9230769230769231,
+                    "Sequence": "FLGALWNVAKSVF"
+                }
+            ]
+        }
+    }
+}

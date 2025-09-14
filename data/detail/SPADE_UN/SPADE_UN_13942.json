@@ -1,0 +1,71 @@
+{
+    "SPADE_UN_13942": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_13942",
+            "Peptide Name": "4315(derived from the RNase H domain of HIV-1 RT (20-mes))",
+            "Source": "Synthetic construct(derived from HIV-1 Reverse Transcriptase)",
+            "Family": "Retroviridae",
+            "Gene": "Not found",
+            "Sequence": "GYVTNRGRQKVVTLTDTTNQ",
+            "Sequence Length": 20,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antiviral"
+            ],
+            "Target Organism": "[Ref.15790559]HIV-1:the level of peptide binding to HIV integrase is very low",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information or data found in the reference(s) presented in this entry",
+            "Binding Target": "Integrase",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C94H159N31O33",
+            "Mass": 2251.46,
+            "PI": 9.99,
+            "Net Charge": 2,
+            "Hydrophobicity": -0.98,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Mechanism of action": "Two viral encoded enzymes(reverse transcriptase and integrase) play central roles in the early stages of the replication of retroviruses and retrotransposons.The peptide derived from the RNase H domain of HIV-1 RT inhibits integrase-associated activities (3′-end processing and strand transfer) and inhibit virus replication.",
+            "Literature": [
+                {
+                    "Title": "Peptides derived from the reverse transcriptase of human immunodeficiency virus type 1 as novel inhibitors of the viral integrase.",
+                    "Pubmed ID": "15790559",
+                    "Reference": "J Biol Chem. 2005 Jun 10;280(23)21987-96.",
+                    "Author": "Oz Gleenberg I, Avidan O, Goldgur Y, Herschhorn A, Hizi A.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=15790559"
+                }
+            ],
+            "Frequent Amino Acids": "TVG",
+            "Absent Amino Acids": "ACEFHIMOPSUW",
+            "Basic Residues": 3,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 16,
+            "Positive Residues": 3,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_13943",
+                    "Similarity": 1.0,
+                    "Sequence": "VVTLTDTTNQKTELQAIYLA"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08673",
+                    "Similarity": 0.5333333333333333,
+                    "Sequence": "VTNVGGKVVTGKTAK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_20723",
+                    "Similarity": 0.5333333333333333,
+                    "Sequence": "VTNVGGKVVTGKTAK"
+                }
+            ]
+        }
+    }
+}

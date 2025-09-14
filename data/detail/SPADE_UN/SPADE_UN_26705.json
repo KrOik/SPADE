@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_26705": {
+        "Sequence Information": {
+            "Peptide Name": "",
+            "Sequence": "DWHKIGKKVIKVIK",
+            "Sequence Length": 14,
+            "Biological Activity": [
+                "Anti-Gram-",
+                "Anticancer",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Machine Learning Guided Discovery of Non-Hemolytic Membrane Disruptive Anticancer Peptides",
+                    "Pubmed ID": "35880810",
+                    "Reference": "ChemMedChem. 2022;17:e202200291",
+                    "Author": "Zakharova E, Orsi M, Capecchi A, Reymond JL",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/35880810"
+                }
+            ],
+            "Mass": 1692.1,
+            "PI": 10.18,
+            "Net Charge": 5,
+            "Hydrophobicity": -0.4,
+            "Frequent Amino Acids": "KIV",
+            "Absent Amino Acids": "ACEFLMNOPQRSTUY",
+            "Basic Residues": 6,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 9,
+            "Positive Residues": 6,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_UN_26705",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_07291",
+                    "Similarity": 1.0,
+                    "Sequence": "VIKCFQDSDCPKYMCMFPLKPKCVYILVFPPPWTAQCICD"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_18238",
+                    "Similarity": 1.0,
+                    "Sequence": "VIKEKALTL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_05634",
+                    "Similarity": 0.8,
+                    "Sequence": "VKVIKKFVR"
+                }
+            ],
+            "Hemolytic Activity": "Human embryonic kidney HEK293 cells:IC50=>50 µM,Human erythrocytes:50% Hemolysis=>400 µM",
+            "Target Organism": "Pseudomonas aeruginosa PAO1(MIC=>16µg/ml),Acinetobacter baumannii ATCC 19606(MIC=>16µg/ml),Human cervical carcinoma HeLa(IC50=>50µM)"
+        }
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_24182": {
+        "Sequence Information": {
+            "Peptide Name": "",
+            "Sequence": "RCCKLVFR",
+            "Sequence Length": 8,
+            "Biological Activity": [
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Utilizing Red Spotted Apollo Butterfly Transcriptome to Identify Antimicrobial Peptide Candidates against Porphyromonas gingivalis.",
+                    "Pubmed ID": "34069966",
+                    "Reference": "Insects. 2021;12:466",
+                    "Author": "Lee K-W, Kim J-G, Veerappan K, Chung H, Natarajan S, Kim K-Y, Park J",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/34069966"
+                }
+            ],
+            "Mass": 1024.31,
+            "PI": 9.7,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.36,
+            "Frequent Amino Acids": "CRF",
+            "Absent Amino Acids": "ADEGHIMNOPQSTUWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 3,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_24182",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07490",
+                    "Similarity": 1.0,
+                    "Sequence": "RDVICLMQHGTCRLFFCHSGEKKSEICSDPWNRCC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07519",
+                    "Similarity": 1.0,
+                    "Sequence": "RDVICLTQHGTCRLFFCHFGERKAEICSDPWNRCC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_12665",
+                    "Similarity": 1.0,
+                    "Sequence": "CPAIQRCC"
+                }
+            ],
+            "Hemolytic Activity": "Human keratinocytes HaCat:25% Killing=24.4 µM",
+            "Target Organism": "Porphyromonas gingivalis KCTC 5352(MIC=>97.6µM),Cryptococcus neoformans var. gattii KCTC 17528(MIC=>97.6µM),Meyerozyma guilliermondii KCTC 7211(MIC=97.6µM)"
+        }
+    }
+}

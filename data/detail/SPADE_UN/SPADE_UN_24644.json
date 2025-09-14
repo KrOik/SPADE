@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_24644": {
+        "Sequence Information": {
+            "Peptide Name": "Bacteriocin TP [N5K; T8W; G9,13K; A12W]",
+            "Sequence": "ASVVKKLWKGVWKLLK",
+            "Sequence Length": 16,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P21880",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P21880",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Optimization of Antibacterial Activity in Tibetan Swine α-Helix Peptide TP by Site-Directed Mutagenesis.",
+                    "Pubmed ID": "35859740",
+                    "Reference": "Front Microbiol. 2022;13:864374",
+                    "Author": "Li G, Yuan X, Chen H, Li B, Shao C, Zhu Y, Lai Z, Shan A",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/35859740"
+                }
+            ],
+            "Mass": 1883.37,
+            "PI": 10.6,
+            "Net Charge": 5,
+            "Hydrophobicity": 0.21,
+            "Frequent Amino Acids": "KLV",
+            "Absent Amino Acids": "CDEFHIMNOPQRTUY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 9,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_24644",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_22981",
+                    "Similarity": 1.0,
+                    "Sequence": "KLLKIVKKVVGALG"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_22982",
+                    "Similarity": 1.0,
+                    "Sequence": "KLLKLVKKVVGALG"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_15989",
+                    "Similarity": 1.0,
+                    "Sequence": "KLLKKFKKLQ"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=>128 µM,Intestinal Porcine Epithelial Cells IPEC-J2:50% Cell death=128 µM,Human embryonic kidney HEK293T cells:50% Cell death=128 µM",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=1µM),Escherichia coli ATCC 25922(MIC=4µM),Escherichia coli ATCC 25922(MIC=2µM),Escherichia coli UB1005(MIC=2µM),Escherichia coli UB1005(MIC=2µM),Salmonella enterica subsp. enterica serovar Typhimurium C77-31(MIC=4µM),Pseudomonas aeruginosa ATCC 27853(MIC=2µM),Pseudomonas aeruginosa PAO1(MIC=2µM),Staphylococcus aureus ATCC 29213(MIC=2µM),Staphylococcus aureus ATCC 29213(MIC=1µM),Staphylococcus aureus ATCC 29213(MIC=4µM),Staphylococcus aureus ATCC 29213(MIC=8µM),Staphylococcus aureus ATCC 25923(MIC=2µM),Staphylococcus aureus ATCC 43300(MIC=2µM),Enterococcus faecalis ATCC 29212(MIC=2µM),Staphylococcus epidermidis ATCC 12228(MIC=2µM)"
+        }
+    }
+}

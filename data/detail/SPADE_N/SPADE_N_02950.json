@@ -1,0 +1,75 @@
+{
+    "SPADE_N_02950": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02950",
+            "Peptide Name": "Beta-defensin 34 (BD-34, mBD-34; Defensin, beta 34; Rodents, mammals, animals)",
+            "Source": "Mus musculus (House mouse)",
+            "Family": "Belongs to the beta-defensin family",
+            "Gene": "Defb34",
+            "Sequence": "FFFFDEKCSRINGRCTASCLKNEELVALCWKNLKCCVTVQSCGRSKGNQSDEGSGHMGTRG",
+            "Sequence Length": 61,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q7TNV8"
+            ],
+            "Protein Existence": "Transcript level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C282H449N87O89S8",
+            "Mass": 6738.63,
+            "PI": 8.57,
+            "Net Charge": 4,
+            "Hydrophobicity": -0.44,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Function": "Has antibacterial activity.",
+            "Tissue specificity": "Only expressed in epididymis (caput, corpus and cauda).",
+            "PTM": "Contains three disulfide bonds (By similarity).",
+            "Literature": [
+                {
+                    "Title": "Identification on mouse chromosome 8 of new beta-defensin genes with regionally specific expression in the male reproductive organ.",
+                    "Pubmed ID": "14718547",
+                    "Reference": "J Biol Chem. 2004 Mar 26;279(13)12421-6.",
+                    "Author": "Zaballos A, Villares R, Albar JP, Martínez-A C, Márquez G.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=14718547"
+                }
+            ],
+            "Frequent Amino Acids": "CGS",
+            "Absent Amino Acids": "OPUY",
+            "Basic Residues": 10,
+            "Acidic Residues": 6,
+            "Hydrophobic Residues": 16,
+            "Polar Residues": 37,
+            "Positive Residues": 10,
+            "Negative Residues": 6,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_08154",
+                    "Similarity": 1.0,
+                    "Sequence": "MKTFLFLFAVLFFWSQPRMHFFFFDEKCSRINGRCTASCLKNEELVALCWKNLKCCVTVQSCGRSKGNQSDEGSGHMGTRG"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_30679",
+                    "Similarity": 1.0,
+                    "Sequence": "FFFFFFFF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03743",
+                    "Similarity": 1.0,
+                    "Sequence": "EKCSRINGRCTASCLKNEELVALCWKNLKCCVT"
+                }
+            ]
+        }
+    }
+}

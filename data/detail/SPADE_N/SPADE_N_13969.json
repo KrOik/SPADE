@@ -1,0 +1,70 @@
+{
+    "SPADE_N_13969": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_13969",
+            "Peptide Name": "Peptide g (Synthetic AMPs, Lys-rich; N-terminal fragment of PMAP-36, UCLL1c, XXA)",
+            "Source": "Sequence truncation",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "KRLKKIGKVLKWI",
+            "Sequence Length": 13,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 1610.09,
+            "PI": 11.39,
+            "Hydrophobicity": -0.35,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Biondi B, de Pascale L, Mardirossian M, Di Stasi A, Favaro M, Scocchi M, Peggion C. 2023",
+                    "Reference": "Sci Rep. 2023 Sep 13;13(1):15132. doi: 10.1038/s41598-023-41945-1.PubMed.",
+                    "Title": "Structural and biological characterization of shortened derivatives of the cathelicidin PMAP-36"
+                }
+            ],
+            "Frequent Amino Acids": "KIL",
+            "Absent Amino Acids": "ACDEFHMNOPQSTUY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 7,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "Net Charge": 6,
+            "Comments": "Sequence analysis: APD analysis reveals this sequence is most similar (60%) tohybrid CM15K: 38%; L=I: 15%. GRAVY: 0.145; M Wt:  2569.131; M formula: C126H186N36O21S1; Mol ex coeff: 22200.Activity: Active against E. coli ATCC 25922 (MIC 4 uM), S-aureus ATCC 25923 (MIC >64 uM), A. baumannii ATCC 19606 (MIC 2 uM), K. pneumoniae ATCC 700603 (MIC 8 uM), P. aeruginosa ATCC 27853 (MIC 8 uM), S. epidermidis ATCC 12228 (MIC 4 uM). Noticably, this 13mer retained activity against Gram- bacteria similar to PMAP-36.Toxicity: not toxic (hemo-lytic: ram RBC) at 32 uM.Structure: helical in SDS or TFE.",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02563",
+                    "Similarity": 1.0,
+                    "Sequence": "GRFRRLRKKTRKRLKKIGKVLKWIPPIVGSIPLGCG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02564",
+                    "Similarity": 1.0,
+                    "Sequence": "GRFRRLRKKTRKRLKKIGKV"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02565",
+                    "Similarity": 1.0,
+                    "Sequence": "GRFRRLRKKTRKRLKKIGKVLKWIPPIVGSIPLG"
+                }
+            ]
+        }
+    }
+}

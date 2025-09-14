@@ -1,0 +1,79 @@
+{
+    "SPADE_N_00084": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00084",
+            "Peptide Name": "Sakacin G (SakG; Pediocin-like peptide; Bacteriocin)",
+            "Source": "Lactobacillus sakei 2512 (Gram-positive bacteria)",
+            "Family": "Belongs to the class IIa bacteriocin",
+            "Gene": "skgA2",
+            "Sequence": "KYYGNGVSCNSHGCSVNWGQAWTCGVNHLANGGHGVC",
+            "Sequence Length": 37,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+"
+            ],
+            "Target Organism": "Gram-positive bacteria:Streptococcus caprinus, S. macedonicus, Listeria innocua, L. sakei, L. ivanovii subsp. ivanovii and Listeria monocytogenes, Lactococcus lactis subsp. Lactis.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C162H234N52O50S4",
+            "Mass": 3838.17,
+            "PI": 7.9,
+            "Net Charge": 4,
+            "Hydrophobicity": -0.3,
+            "Half Life": "Mammalian:1.3 hourYeast:3 minE.coli:2 min",
+            "Mechanism of action": "The mode of activity against Listeria innocua 2030C and L. ivanovii subsp. ivanovii ATCC 19119 was bactericidal, resulting in cell lysis and enzyme- and DNA-leakage.",
+            "Literature": [
+                {
+                    "Title": "Sakacin G, a new type of antilisterial bacteriocin.",
+                    "Pubmed ID": "12450870",
+                    "Reference": "Appl Environ Microbiol 2002; 68 6416-6420.",
+                    "Author": "Simon L, Fremaux C, Cenatiempo Y, Berjeaud JM.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=12450870"
+                },
+                {
+                    "Title": "Characterization of a bacteriocin produced by Lactobacillus sakeii R1333 isolated from smoked salmon.",
+                    "Pubmed ID": "20152920",
+                    "Reference": "Anaerobe. 2011 Feb;17(1)23-31.",
+                    "Author": "Todorov SD, Rachman C, Fourrier A, Dicks LM, van Reenen CA, Pr©vost H, Dousset X.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=20152920"
+                }
+            ],
+            "Frequent Amino Acids": "GNC",
+            "Absent Amino Acids": "DEFIMOPRU",
+            "Basic Residues": 4,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 26,
+            "Positive Residues": 4,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06138",
+                    "Similarity": 1.0,
+                    "Sequence": "MKNAKSLTIQEMKSITGGKYYGNGVSCNSHGCSVNWGQAWTCGVNHLANGGHGVC"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_25290",
+                    "Similarity": 0.7777777777777778,
+                    "Sequence": "KYYGNGVHCTKSGCSVNW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00092",
+                    "Similarity": 0.7297297297297297,
+                    "Sequence": "KYYGNGVTCGKHSCSVNWGQAFSCSVSHLANFGHGKC"
+                }
+            ]
+        }
+    }
+}

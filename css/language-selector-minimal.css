@@ -1,0 +1,352 @@
+/* Language Selector 极简版样式 */
+:root {
+    --ls-primary-color: #2b1055;
+    --ls-accent-color: #50e2c2;
+    --ls-text-color: #ffffff;
+    --ls-border-color: rgba(255, 255, 255, 0.2);
+    --ls-hover-bg: rgba(255, 255, 255, 0.1);
+    --ls-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    --ls-radius: 8px;
+    --ls-transition: all 0.2s ease;
+}
+
+/* 主容器 */
+.language-selector-minimal {
+    position: fixed;
+    right: 30px;
+    top: 120px;
+    z-index: 10000;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+/* 触发按钮 */
+.ls-trigger-minimal {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    background: var(--ls-primary-color);
+    color: var(--ls-text-color);
+    border: 1px solid var(--ls-border-color);
+    border-radius: var(--ls-radius);
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    transition: var(--ls-transition);
+    box-shadow: var(--ls-shadow);
+    min-width: 80px;
+    justify-content: space-between;
+}
+
+.ls-trigger-minimal:hover {
+    background: rgba(43, 16, 85, 0.9);
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.ls-trigger-minimal:focus {
+    outline: none;
+    border-color: var(--ls-accent-color);
+    box-shadow: 0 0 0 2px rgba(80, 226, 194, 0.2);
+}
+
+/* 触发按钮内容 */
+.ls-trigger-content-minimal {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.ls-trigger-flag {
+    font-size: 16px;
+}
+
+.ls-current-lang-text {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.ls-dropdown-arrow {
+    width: 16px;
+    height: 16px;
+    transition: transform 0.2s ease;
+    opacity: 0.7;
+}
+
+.ls-trigger-minimal[aria-expanded="true"] .ls-dropdown-arrow {
+    transform: rotate(180deg);
+}
+
+/* 下拉菜单 */
+.ls-dropdown-minimal {
+    position: absolute;
+    top: calc(100% + 4px);
+    right: 0;
+    background: var(--ls-primary-color);
+    border: 1px solid var(--ls-border-color);
+    border-radius: var(--ls-radius);
+    box-shadow: var(--ls-shadow);
+    min-width: 140px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px);
+    transition: var(--ls-transition);
+    overflow: hidden;
+}
+
+.ls-dropdown-minimal.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+/* 滚动容器 - 移除滚动限制，确保所有选项完全显示 */
+.ls-dropdown-scroll-minimal {
+    max-height: none;
+    overflow-y: visible;
+}
+
+/* 下拉菜单容器调整 */
+.ls-dropdown-minimal {
+    position: absolute;
+    top: calc(100% + 4px);
+    right: 0;
+    background: var(--ls-primary-color);
+    border: 1px solid var(--ls-border-color);
+    border-radius: var(--ls-radius);
+    box-shadow: var(--ls-shadow);
+    min-width: 140px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px);
+    transition: var(--ls-transition);
+    overflow: visible;
+    /* 确保下拉菜单不会被页面边界裁剪 */
+    max-height: none;
+}
+
+/* 当下拉菜单接近页面底部时，向上展开 */
+.ls-dropdown-minimal.show-upward {
+    top: auto;
+    bottom: calc(100% + 4px);
+    transform: translateY(8px);
+}
+
+.ls-dropdown-minimal.show-upward.show {
+    transform: translateY(0);
+}
+
+/* 语言选项 */
+.ls-option-minimal {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 12px;
+    color: var(--ls-text-color);
+    cursor: pointer;
+    transition: background-color 0.15s ease;
+    font-size: 14px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.ls-option-minimal:last-child {
+    border-bottom: none;
+}
+
+.ls-option-minimal:hover {
+    background: var(--ls-hover-bg);
+}
+
+.ls-option-minimal:focus {
+    outline: none;
+    background: var(--ls-hover-bg);
+}
+
+.ls-option-minimal.active {
+    background: rgba(80, 226, 194, 0.15);
+    color: var(--ls-accent-color);
+}
+
+/* 选项内容 */
+.ls-option-flag-minimal {
+    font-size: 16px;
+    width: 20px;
+    text-align: center;
+}
+
+.ls-option-text-minimal {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.ls-option-name-minimal {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.ls-option-native-minimal {
+    font-size: 12px;
+    opacity: 0.7;
+    line-height: 1.2;
+}
+
+.ls-option-check {
+    width: 16px;
+    height: 16px;
+    opacity: 0;
+    transition: opacity 0.15s ease;
+    color: var(--ls-accent-color);
+}
+
+.ls-option-minimal.active .ls-option-check {
+    opacity: 1;
+}
+
+/* 切换按钮模式 */
+.ls-toggle-mode-minimal {
+    display: flex;
+    background: var(--ls-primary-color);
+    border: 1px solid var(--ls-border-color);
+    border-radius: var(--ls-radius);
+    overflow: hidden;
+    box-shadow: var(--ls-shadow);
+}
+
+.ls-toggle-option-minimal {
+    padding: 8px 16px;
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+    transition: var(--ls-transition);
+    font-size: 14px;
+    font-weight: 500;
+    border-right: 1px solid var(--ls-border-color);
+    background: transparent;
+}
+
+.ls-toggle-option-minimal:last-child {
+    border-right: none;
+}
+
+.ls-toggle-option-minimal:hover {
+    background: var(--ls-hover-bg);
+    color: var(--ls-text-color);
+}
+
+.ls-toggle-option-minimal.active {
+    background: var(--ls-accent-color);
+    color: var(--ls-primary-color);
+}
+
+.ls-toggle-option-minimal:focus {
+    outline: none;
+    background: var(--ls-hover-bg);
+}
+
+/* 加载状态 */
+.ls-trigger-minimal.loading {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.ls-trigger-minimal.loading .ls-dropdown-arrow {
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+/* 滚动条样式 */
+.ls-dropdown-scroll-minimal::-webkit-scrollbar {
+    width: 4px;
+}
+
+.ls-dropdown-scroll-minimal::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.ls-dropdown-scroll-minimal::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 2px;
+}
+
+.ls-dropdown-scroll-minimal::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .language-selector-minimal {
+        right: 20px;
+        top: 80px;
+    }
+    
+    .ls-trigger-minimal {
+        padding: 6px 12px;
+        font-size: 13px;
+        min-width: 70px;
+    }
+    
+    .ls-dropdown-minimal {
+        min-width: 120px;
+    }
+    
+    .ls-option-minimal {
+        padding: 8px 10px;
+        font-size: 13px;
+    }
+    
+    .ls-option-name-minimal {
+        font-size: 13px;
+    }
+    
+    .ls-option-native-minimal {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 480px) {
+    .language-selector-minimal {
+        right: 16px;
+        top: 75px;
+    }
+    
+    .ls-trigger-minimal {
+        padding: 6px 10px;
+        font-size: 12px;
+        min-width: 60px;
+    }
+    
+    .ls-dropdown-minimal {
+        min-width: 100px;
+        right: -10px;
+    }
+}
+
+/* 无障碍访问 */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+
+/* 高对比度模式 */
+@media (prefers-contrast: high) {
+    :root {
+        --ls-border-color: rgba(255, 255, 255, 0.5);
+        --ls-hover-bg: rgba(255, 255, 255, 0.2);
+        --ls-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    }
+}
+
+/* 深色模式适配 */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --ls-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    }
+}

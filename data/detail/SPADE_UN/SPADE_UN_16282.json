@@ -1,0 +1,72 @@
+{
+    "SPADE_UN_16282": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_16282",
+            "Peptide Name": "Gradient2",
+            "Source": "Synthetic",
+            "Family": "",
+            "Gene": "Not found",
+            "Sequence": "AWLKRIKKFLKALFWVWVW",
+            "Sequence Length": 19,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Notavailable"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Target Organism": "Tumor cells:MCF-7 (EC50=19.0 ± 1.8 µM); A549 (EC50>50 µM)",
+            "Hemolytic Activity": "Not available",
+            "Cytotoxicity": "Not available",
+            "Binding Target": "Not available",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C132H192N30O20",
+            "Mass": 2519.13,
+            "PI": 11.33,
+            "Net Charge": 5,
+            "Hydrophobicity": 0.52,
+            "Half Life": "Mammalian:4.4 hourYeast:>20 hourE.coli:>10 hour",
+            "Literature": [
+                {
+                    "Title": "In silico design and optimization of selective membranolytic anticancer peptides",
+                    "Pubmed ID": "31375699",
+                    "Reference": "Sci Rep. 2019 Aug 2;9(1)11282.",
+                    "Author": "Gabernet G, Gautschi D, Müller AT, Neuhaus CS, Armbrecht L, Dittrich PS, Hiss JA, Schneider G.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=31375699"
+                }
+            ],
+            "Frequent Amino Acids": "KWL",
+            "Absent Amino Acids": "CDEGHMNOPQSTUY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 14,
+            "Polar Residues": 9,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_25165",
+                    "Similarity": 1.0,
+                    "Sequence": "WVVWVWRRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09169",
+                    "Similarity": 0.75,
+                    "Sequence": "LKRIKTLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10974",
+                    "Similarity": 0.75,
+                    "Sequence": "GLKRIKKL"
+                }
+            ]
+        }
+    }
+}

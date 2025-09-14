@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_26995": {
+        "Sequence Information": {
+            "Peptide Name": "KIA21W-2",
+            "Sequence": "KWAGKIAKIAGKIAKIAGKIA",
+            "Sequence Length": 21,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Trp residues near peptide termini enhance the membranolytic activity of cationic amphipathic α-helices",
+                    "Pubmed ID": "39657392",
+                    "Reference": "Biophys Chem. 2024;318:107365",
+                    "Author": "Strandberg E, Horten P, Bentz D, Wadhwani P, Bürck J, Ulrich AS",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/39657392"
+                }
+            ],
+            "Mass": 2136.67,
+            "PI": 10.7,
+            "Net Charge": 6,
+            "Hydrophobicity": 0.37,
+            "Frequent Amino Acids": "AKI",
+            "Absent Amino Acids": "CDEFHLMNOPQRSTUVY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 10,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_26995",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_26991",
+                    "Similarity": 1.0,
+                    "Sequence": "KWAGKIAKIAGKIA"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_26999",
+                    "Similarity": 1.0,
+                    "Sequence": "KWAGKIAKIAGKIAKIAGKIAKWA"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11598",
+                    "Similarity": 1.0,
+                    "Sequence": "KIAGKIAKIAGKIA"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:8% Hemolysis=16 µg/ml,Human erythrocytes:14% Hemolysis=64 µg/ml,Human erythrocytes:22% Hemolysis=128 µg/ml,Human erythrocytes:38±7% Hemolysis=256 µg/ml",
+            "Target Organism": "Escherichia coli DSM 1116(MIC=4µM),Franconibacter helveticus DSM 18390(MIC=2µM),Bacillus subtilis DSM 347(MIC=2-4µM),Staphylococcus xylosus DSM 20287(MIC=16-32µM)"
+        }
+    }
+}

@@ -1,0 +1,84 @@
+{
+    "SPADE_N_01200": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01200",
+            "Peptide Name": "Phylloseptin-7 (PS-7; Frogs, amphibians, animals)",
+            "Source": "Phyllomedusa azurea (Orange-legged monkey frog) (Phyllomedusa hypochondrialis azurea)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "FLSLIPHAINAVSAIAKHF",
+            "Sequence Length": 19,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P85882"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-negative bacterium:Escherichia coli ATCC 11775 (MIC=7.2 µM);Gram-positive bacteria:Staphylococcus aureus ATCC 12600 (MIC=3.6 µM), Micrococcus luteus ATCC 49732 (MIC=1.8 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C98H153N25O23",
+            "Mass": 2049.42,
+            "PI": 8.76,
+            "Net Charge": 3,
+            "Hydrophobicity": 1.11,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Function": "Has antibacterial activity but does not inhibit the growth of the fungus C. albicans.",
+            "Tissue specificity": "Expressed by the skin glands.",
+            "PTM": "Phenylalanine amide at F19.",
+            "Literature": [
+                {
+                    "Title": "A combined mass spectrometric and cDNA sequencing approach to the isolation and characterization of novel antimicrobial peptides from the skin secretions of Phyllomedusa hypochondrialis azurea.",
+                    "Pubmed ID": "17553595",
+                    "Reference": "Peptides. 2007 Jul;28(7)1331-1343.",
+                    "Author": "Thompson AH, Bjourson AJ, Orr DF, Shaw C, McClean S.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=17553595"
+                },
+                {
+                    "Title": "Isolation and biochemical characterization of peptides presenting antimicrobial activity from the skin of Phyllomedusa hypochondrialis.",
+                    "Pubmed ID": "16963159",
+                    "Reference": "Peptides. 2006 Dec;27(12)3092-3099.",
+                    "Author": "Conceição K, Konno K, Richardson M, Antoniazzi MM, Jared C, Daffre S, Camargo AC, Pimenta DC.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16963159"
+                }
+            ],
+            "Frequent Amino Acids": "AIF",
+            "Absent Amino Acids": "CDEGMOQRTUWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 11,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01199",
+                    "Similarity": 1.0,
+                    "Sequence": "FLSLIPHAINAVSAIAKHFG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01198",
+                    "Similarity": 1.0,
+                    "Sequence": "SLIPHAINAVSAIAKHF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01188",
+                    "Similarity": 0.9473684210526315,
+                    "Sequence": "FLSLIPHAINAVSAIAKHS"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,82 @@
+{
+    "SPADE_N_00304": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00304",
+            "Peptide Name": "Non-specific lipid-transfer protein 3 (LTP 3; CW-19; CW-20; Plants)",
+            "Source": "Hordeum vulgare (Barley)",
+            "Family": "Belongs to the plant LTP family",
+            "Gene": "LTP3",
+            "Sequence": "AISCGQVSSALSPCISYARGNGAKPPVACCSGVKRLAGAAQSTADKQAACRCLKSLATSIKGINMGKVSGVPGKCGVSVPFPISMSTDCNKVH",
+            "Sequence Length": 93,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q43766"
+            ],
+            "Protein Existence": "Homology",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Antifungal"
+            ],
+            "Target Organism": "Fungi:Fusarim solani (EC50=3-20×10-6 M), Pseudomonas solanacearum (EC50=3-6×10-7 M), Pythium aphanidermatum, Clavibacter michiganensis subsp. Sepedonicus (EC50=l-3×10-7 M).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Lipid-binding",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C390H658N118O121S10",
+            "Mass": 9256.76,
+            "PI": 9.47,
+            "Net Charge": 10,
+            "Hydrophobicity": 0.17,
+            "Half Life": "Mammalian:4.4 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Plant non-specific lipid-transfer proteins transfer phospholipids as well as galactolipids across membranes. May play a role in wax or cutin deposition in the cell walls of expanding epidermal cells and certain secretory tissues.",
+            "PTM": "Contains four disulfide bonds (By similarity).",
+            "Literature": [
+                {
+                    "Title": "Lipid transfer proteins (nsLTPs) from barley and maize leaves are potent inhibitors of bacterial and fungal plant pathogens.",
+                    "Pubmed ID": "8420795",
+                    "Reference": "FEBS Lett. 1993 Jan 25;316(2)119-122.",
+                    "Author": "Molina A, Segura A, García-Olmedo F.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=8420795"
+                },
+                {
+                    "Title": "Developmental and pathogen-induced expression of three barley genes encoding lipid transfer proteins.",
+                    "Pubmed ID": "8281190",
+                    "Reference": "Plant J. 1993 Dec;4(6)983-991.",
+                    "Author": "Molina A, Garc­a-Olmedo F.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=8281190"
+                }
+            ],
+            "Frequent Amino Acids": "SAG",
+            "Absent Amino Acids": "EOUW",
+            "Basic Residues": 12,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 39,
+            "Polar Residues": 63,
+            "Positive Residues": 12,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00306",
+                    "Similarity": 0.8,
+                    "Sequence": "AISCGQVSSALSPCISYARGNGAKPPVACCSGVKRLAGAAQSTADKQAACKCIKSAAGGLNAGKAAGIPSMCGVSVPYAISASVDCSKIR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00305",
+                    "Similarity": 0.7888888888888889,
+                    "Sequence": "AISCGQVSSALSPCISYARGNGAKPPAACCSGVKRLAGAAQSTADKQAACKCIKSAAGGLNAGKAAGIPSMCGVSVPYAISASVDCSKIR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_07872",
+                    "Similarity": 0.7777777777777778,
+                    "Sequence": "AISCGQVSSALSPCISYARGNGAKPPAACCSGYKRLAGAAQSTADKQATCRCIKSAAGGLNAGKAAGIPSMCGVSVPYAISASVDCSKIR"
+                }
+            ]
+        }
+    }
+}

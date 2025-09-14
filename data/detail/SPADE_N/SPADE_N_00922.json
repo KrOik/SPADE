@@ -1,0 +1,74 @@
+{
+    "SPADE_N_00922": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00922",
+            "Peptide Name": "Fa-AMP1 (Fagopyrum antimicrobial peptide 1; hevein-type; Plant defensin)",
+            "Source": "Fagopyrum esculentum Moench (buckwheat)",
+            "Family": "Belongs to the hevein-like family",
+            "Gene": "Not found",
+            "Sequence": "AQCGAQGGGATCPGGLCCSQWGWCGSTPKYCGAGCQSNCK",
+            "Sequence Length": 40,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "Gram-positive bacteria:Clavibacter michiganensis (IC50=14 µg/ml), Curtobacterium accumfaciens (IC50=13 µg/ml);Gram-negative bacteria:Erwinia carotovora (IC50=11 µg/ml), Agrobacterium radiobacter (IC50=24 µg/ml), Agrobacterium rhizogenes (IC50=20 µg/ml).Fungi:Fusarium oxysporum (IC50=19 µg/ml), Geotrichum candidum (IC50=36 µg/ml).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C156H237N49O52S8",
+            "Mass": 3887.37,
+            "PI": 8.22,
+            "Net Charge": 2,
+            "Hydrophobicity": -0.21,
+            "Half Life": "Mammalian:4.4 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Has antibacterial avtivity against Gram-positive bacteria and Gram-negative bacteria, also has antifungal activity.",
+            "Literature": [
+                {
+                    "Title": "Purification, characterization, and sequencing of a novel type of antimicrobial peptides, Fa-AMP1 and Fa-AMP2, from seeds of buckwheat (Fagopyrum esculentum Moench.).",
+                    "Pubmed ID": "12951494",
+                    "Reference": "Biosci Biotechnol Biochem. 2003 Aug;67(8)1636-1642.",
+                    "Author": "Fujimura M, Minami Y, Watanabe K, Tadera K.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=12951494"
+                }
+            ],
+            "Frequent Amino Acids": "GCA",
+            "Absent Amino Acids": "DEFHIMORUV",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 25,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00923",
+                    "Similarity": 0.975,
+                    "Sequence": "AQCGAQGGGATCPGGLCCSQWGWCGSTPKYCGAGCQSNCR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08291",
+                    "Similarity": 0.95,
+                    "Sequence": "AQCGAQGGGQTCPGGLCCSQWGWCGSTPKYCGAGCQSNCR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00929",
+                    "Similarity": 0.7,
+                    "Sequence": "EQCGRQAGGKLCPNNLCCSQWGWCGSTDEYCSPDHNCQSNCKD"
+                }
+            ]
+        }
+    }
+}

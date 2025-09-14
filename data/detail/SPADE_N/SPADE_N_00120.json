@@ -1,0 +1,80 @@
+{
+    "SPADE_N_00120": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00120",
+            "Peptide Name": "Abp118 beta (Salivaricin CRL1328 beta peptide)",
+            "Source": "Lactobacillus salivarius (Gram-positive bacteria)",
+            "Family": "Belongs to the class IIb bacteriocin",
+            "Gene": "abp118beta",
+            "Sequence": "KNGYGGSGNRWVHCGAGIVGGALIGAIGGPWSAVAGGISGGFTSCR",
+            "Sequence Length": 46,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q8KWH9"
+            ],
+            "Protein Existence": "Predicted",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C189H291N59O55S2",
+            "Mass": 4333.82,
+            "PI": 9.5,
+            "Net Charge": 4,
+            "Hydrophobicity": 0.29,
+            "Half Life": "Mammalian:1.3 hourYeast:3 minE.coli:2 min",
+            "Function": "Abp118beta can enhanced the antimicrobial activity.",
+            "Literature": [
+                {
+                    "Title": "Characterization of the genetic locus responsible for the production of ABP-118, a novel bacteriocin produced by the probiotic bacterium Lactobacillus salivarius subsp. salivarius UCC118.",
+                    "Pubmed ID": "11932444",
+                    "Reference": "Microbiology. 2002 Apr;148(Pt 4)973-984.",
+                    "Author": "Flynn S, van Sinderen D, Thornton GM, Holo H, Nes IF, Collins JK.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=11932444"
+                },
+                {
+                    "Title": "Characterization of salivaricin CRL 1328, a two-peptide bacteriocin produced by Lactobacillus salivarius CRL 1328 isolated from the human vagina.",
+                    "Pubmed ID": "19591924",
+                    "Reference": "Res Microbiol. 2009 Jul-Aug;160(6)401-408.",
+                    "Author": "Vera Pingitore E, Hebert E.M, Nader-Macias M.E, Sesma F.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=19591924"
+                }
+            ],
+            "Frequent Amino Acids": "GAI",
+            "Absent Amino Acids": "DEMOQU",
+            "Basic Residues": 4,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 18,
+            "Polar Residues": 22,
+            "Positive Residues": 4,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00122",
+                    "Similarity": 0.9565217391304348,
+                    "Sequence": "KNGYGGSGNRWVHCGAGIVGGALIGAIGGPWSAVAGGISGGFASCH"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_08801",
+                    "Similarity": 0.6,
+                    "Sequence": "GGGGSGGGGSGGGGSGGGGS"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_08803",
+                    "Similarity": 0.6,
+                    "Sequence": "GGGGSGGGGSGGGGSGGGGSGGGGSGGGGS"
+                }
+            ]
+        }
+    }
+}

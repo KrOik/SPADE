@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_28819": {
+        "Sequence Information": {
+            "Peptide Name": "Gramicidin A [l10,12k]",
+            "Sequence": "VGALAVVVWKWKWLW",
+            "Sequence Length": 15,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Solubilized gramicidin A as potential systemic antibiotics.",
+                    "Pubmed ID": "22113881",
+                    "Reference": "Chembiochem. 2012;13:51-55",
+                    "Author": "Wang F, Qin L, Pace CJ, Wong P, Malonis R, Gao J",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/22113881"
+                }
+            ],
+            "Mass": 1841.25,
+            "PI": 10.0,
+            "Net Charge": 2,
+            "Hydrophobicity": 1.08,
+            "Frequent Amino Acids": "VWA",
+            "Absent Amino Acids": "CDEFHIMNOPQRSTUY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 7,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_28819",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03504",
+                    "Similarity": 1.0,
+                    "Sequence": "GKLNLFLSRLEILKLFVGAL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11866",
+                    "Similarity": 1.0,
+                    "Sequence": "GLFDIVKKVVGAL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_18513",
+                    "Similarity": 1.0,
+                    "Sequence": "RRVRTPAEFRRAGFVVSKAVGNAVTRNRVKRRLRALPVLVQVLRRETVGAL"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=>100 µM",
+            "Target Organism": "Escherichia coli BL21(no activity data),Bacillus subtilis ATCC 6633(MIC=2.5µM),Staphylococcus aureus ATCC 6538(MIC=5µM),Streptococcus pyogenes ATCC 19615(MIC=0.32µM)"
+        }
+    }
+}

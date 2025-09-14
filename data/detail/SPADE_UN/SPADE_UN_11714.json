@@ -1,0 +1,76 @@
+{
+    "SPADE_UN_11714": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_11714",
+            "Peptide Name": "[E]7-VmCT1-NH2 VmCT1 petide derivative",
+            "Source": "Synthetic construct",
+            "Family": "Belongs to the scorpion NDBP 10 family",
+            "Gene": "Not found",
+            "Sequence": "FLGALWEVAKSVF",
+            "Sequence Length": 13,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "[Ref.27912176] Gram-negative bacteria:Escherichia coli (SBS 363)(MIC=1.56μmol/L);Pseudomonas aeruginosa (ATCC 27853)(MIC=0.78μmol/L);Escherichia coli (D31)(MIC=1.56μmol/L);Serratia marcescens (ATCC 4112)(MIC=1.56μmol/L);Enterobacter cloacae (beta-12)(MIC=25μmol/L);Gram-positive bacteria:Micrococcus luteus (A270)(MIC=1.56μmol/L);Staphylococcus aureus (ATCC 29213)(MIC=6.25μmol/L);Bacillus subtilis (ATCC 6633)(MIC=12.5μmol/L);Staphylococcus epidermidis (ATCC 12228)(MIC=6.25μmol/L);Fungi:Candida albicans MDM8(MIC=12.5μmol/L);Candida tropicalis (IOC 4560)(MIC=12.5μmol/L);Candida parapsilosis (IOC 4564)(MIC=50μmol/L);Aspergillus niger(MIC=25μmol/L);Cladosporium herbarum (ATCC 26362)(MIC=25μmol/L);Cryptococcus neoformans(MIC=6.25μmol/L)",
+            "Hemolytic Activity": "[Ref.27912176] MHC=1.60μmol/L against human red blood cells",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "The peptide adopts Helical fraction 0.04 in water;0.24 in TFE/Water;0.57 in POPC;0.44 in POPC:POPG;0.64 in POPC:DOPE;",
+            "Formula": "C73H107N15O17",
+            "Mass": 1466.72,
+            "PI": 6.0,
+            "Net Charge": 0,
+            "Hydrophobicity": 1.21,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Function": "Antibacterial activity against the Gram-positive and Gram-negative bacteria and fungi.It analog presented a reduction or similar antimicrobial activity when compared to model molecule, this analog had an increase on activity against Escherichia coli SBS 363, Bacillus subtilis and C. herbarum.",
+            "Literature": [
+                {
+                    "Title": "Novel designed VmCT1 analogs with increased antimicrobial activity.",
+                    "Pubmed ID": "27912176",
+                    "Reference": "Eur J Med Chem. 2017 Jan 27;126456-463.",
+                    "Author": "Pedron CN, Torres MT, Lima JADS, Silva PI, Silva FD, Oliveira VX.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=27912176"
+                },
+                {
+                    "Title": "novel designed VmCT1 analogs with increased antimicrobial activity",
+                    "Pubmed ID": "",
+                    "Author": "Pedron Cn, Torres MT, Lima JA, Silva PI, Silva FD, Oliveira VX"
+                }
+            ],
+            "Frequent Amino Acids": "AFL",
+            "Absent Amino Acids": "CDHIMNOPQRTUY",
+            "Basic Residues": 1,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 6,
+            "Positive Residues": 1,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_13818",
+                    "Similarity": 1.0,
+                    "Sequence": "KRVNWRKVGRNTALGASYVLSFLG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03252",
+                    "Similarity": 0.9230769230769231,
+                    "Sequence": "FLGALWNVAKSVF"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_11711",
+                    "Similarity": 0.9230769230769231,
+                    "Sequence": "FLGALWKVAKSVF"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,70 @@
+{
+    "SPADE_UN_19072": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_19072",
+            "Peptide Name": "PlVi1 (AI predicted AMPs, Leu-rich, UCLL1)",
+            "Source": "AI predicted,Plasmopara viticola, protists (?)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "ILDKVRLWLARIRLNLLKR",
+            "Sequence Length": 19,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 2389.97,
+            "PI": 12.0,
+            "Hydrophobicity": 0.22,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Li C, Sutherland D, Salehi A, Richter A, Lin D, Aninta SI, Ebrahimikondori H, Yanai A, Coombe L, Warren RL, Kotkoff M, Hoang LMN, Helbing CC, Birol I. 2025",
+                    "Reference": "Protein Sci. 2025 Apr;34(4):e70083. doi: 10.1002/pro.70083.PubMed",
+                    "Title": "Mining the UniProtKB/Swiss-Prot database for antimicrobial peptides."
+                }
+            ],
+            "Frequent Amino Acids": "LRI",
+            "Absent Amino Acids": "CEFGHMOPQSTUY",
+            "Basic Residues": 6,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 9,
+            "Positive Residues": 6,
+            "Negative Residues": 1,
+            "Net Charge": 5,
+            "Comments": "Sequence analysis: APD analysis reveals that this sequence is similar (47.37%) tosynthetic ((RLA)2R)2L: 32%; R: 21%, I=K: 11%.Activity:  Active against E. coli ATCC 25922 (MIC 4-8 ug/ml) and S. aureus ATCC 29213 (MIC 32 ug/ml). Warning: other bacteria not tested.",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_09182",
+                    "Similarity": 0.8,
+                    "Sequence": "GLLKRIKNLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_27508",
+                    "Similarity": 0.8,
+                    "Sequence": "GLLKRIKNLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_12244",
+                    "Similarity": 0.75,
+                    "Sequence": "LKKLWKRLARLLKRFIRQLRRPVR"
+                }
+            ]
+        }
+    }
+}

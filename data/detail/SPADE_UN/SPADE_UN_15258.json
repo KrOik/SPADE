@@ -1,0 +1,71 @@
+{
+    "SPADE_UN_15258": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_15258",
+            "Peptide Name": "RJ8-R5G18",
+            "Source": "Synthetic construct",
+            "Family": "Herpesviridae",
+            "Gene": "Not found",
+            "Sequence": "ARRARRRARRAARRARRGARR",
+            "Sequence Length": 21,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antiviral"
+            ],
+            "Target Organism": "[Ref.16923027]Herpes simplex virus 1(HSV-1):inhibition of viral entry into Vero cells(IC50=1.9 µM); inhibition of viral infection in MRC-5 cells(IC50=4.8 µM);Herpes simplex virus 2(HSV-2):inhibition of viral infection in MRC-5 cells(IC50=96 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "[Ref.16923027]No cytotoxicity against Human fibroblasts MRC-5 cells up to 448 µM.",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C101H196N60O22",
+            "Mass": 2603.03,
+            "PI": 12.0,
+            "Net Charge": 13,
+            "Hydrophobicity": -2.2,
+            "Half Life": "Mammalian:4.4 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Prediction of activity, synthesis and biological testing of anti-HSV active peptides.",
+                    "Pubmed ID": "16923027",
+                    "Reference": "Chem Biol Drug Des. 2006 Jul;68(1)58-66.",
+                    "Author": "Jenssen H, Gutteberg TJ, Rekdal Ø, Lejon T.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16923027"
+                }
+            ],
+            "Frequent Amino Acids": "RAG",
+            "Absent Amino Acids": "CDEFHIKLMNOPQSTUVWY",
+            "Basic Residues": 13,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 20,
+            "Positive Residues": 13,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_10933",
+                    "Similarity": 1.0,
+                    "Sequence": "ARR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11155",
+                    "Similarity": 1.0,
+                    "Sequence": "ARRWFKFL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11233",
+                    "Similarity": 1.0,
+                    "Sequence": "RGARRR"
+                }
+            ]
+        }
+    }
+}

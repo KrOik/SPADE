@@ -1,0 +1,73 @@
+{
+    "SPADE_N_00951": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00951",
+            "Peptide Name": "PvD1 (P. vulgaris defensin 1; Plants)",
+            "Source": "Phaseolus vulgaris (Seeds)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "KTCENLADTYKGPCFTTGSCD",
+            "Sequence Length": 21,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/F8QXP9"
+            ],
+            "Protein Existence": "Predicted",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antifungal"
+            ],
+            "Target Organism": "Fungi:Candida albicans, C. parapsilosis, Candida tropicalis, Candida guilliermondii, K. marxiannus, Saccharomyces cerevisiae, Fusarium oxysporum, F. solani, F. lateritium and R. solani.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C93H144N24O35S3",
+            "Mass": 2254.47,
+            "PI": 4.78,
+            "Net Charge": -1,
+            "Hydrophobicity": -0.63,
+            "Half Life": "Mammalian:1.3 hourYeast:3 minE.coli:2 min",
+            "Comments": "Its activity involves membrane permeabilization, inhibition of medium acifification, and induction of ROS in fungi cells (Curr Microbiol. 2010 Dec 19. 62 1209-1217).",
+            "Literature": [
+                {
+                    "Title": "Isolation, characterization and cloning of a cDNA encoding a new antifungal defensin from Phaseolus vulgaris L. seeds.",
+                    "Pubmed ID": "18786582",
+                    "Reference": "Peptides. 2008 Dec;29(12)2090-2100.",
+                    "Author": "Games PD, Dos Santos IS, Mello EO, Diz MS, Carvalho AO, de Souza-Filho GA, Da Cunha M, Vasconcelos IM, Ferreira Bdos S, Gomes VM.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=18786582"
+                }
+            ],
+            "Frequent Amino Acids": "TCD",
+            "Absent Amino Acids": "HIMOQRUVW",
+            "Basic Residues": 2,
+            "Acidic Residues": 3,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 13,
+            "Positive Residues": 2,
+            "Negative Residues": 3,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00364",
+                    "Similarity": 1.0,
+                    "Sequence": "KTCENLADTY"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06791",
+                    "Similarity": 1.0,
+                    "Sequence": "KTCENLADTYKGPCFTTGSCDDHCKNKEHLRSGRCRDDFRCWCTKNC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08996",
+                    "Similarity": 1.0,
+                    "Sequence": "MEKKSLAGLCFLFLVLFVAQEVVLQTEAKTCENLADTYKGPCFTTGSCDDHCKNKEHLRSGRCRDDFRCWCTKNC"
+                }
+            ]
+        }
+    }
+}

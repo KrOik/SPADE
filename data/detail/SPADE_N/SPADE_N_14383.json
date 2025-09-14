@@ -1,0 +1,69 @@
+{
+    "SPADE_N_14383": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_14383",
+            "Peptide Name": "C2-2 (CATH-2(1-15) analog, synthetic AMPs, Arg-rich, UCLL1)",
+            "Source": "amino acid substitution, avian cathelicidin analog, animal-derived, natural derivative",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "RFGRFLRKIRRMRLK",
+            "Sequence Length": 15,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 2033.54,
+            "PI": 12.0,
+            "Hydrophobicity": -1.04,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Hao S, Shi W, Chen L, Kong T, Wang B, Chen S, Guo X.2024",
+                    "Reference": "Front Cell Infect Microbiol. 2024 May 15;14:1390934. doi: 10.3389/fcimb.2024.1390934.PubMed",
+                    "Title": "CATH-2-derived antimicrobial peptide inhibits multidrug-resistant Escherichia coli infection in chickens."
+                }
+            ],
+            "Frequent Amino Acids": "RFK",
+            "Absent Amino Acids": "ACDEHNOPQSTUVWY",
+            "Basic Residues": 8,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 8,
+            "Positive Residues": 8,
+            "Negative Residues": 0,
+            "Net Charge": 8,
+            "Comments": "Sequence analysis: APD analysis reveals that this sequence is similar (86.67%) toCATH-2(1-15)R: 40%, F=I=K: 13%. FRP segment was repalced by MRL.Activity: active against E. coli ATCC 8739 or 6 resistant E strains (MIC 2-8 ug/ml). Warning: other bacteria not tested.In vitro toxicity: chicken RBC: ~10% hemolysis at 64 ug/ml (slightly hemo.lytic).   At this concentration, nearly all chicken kidney cells survived.Animal model:chicken: 21-day-old infected with E. coli via the pectoral muscle, 4h later, treated via the same route. Showed efficacy (treatment 70% survial vs. 30% survival no treatment; and CFU drop in organs such as liver, heart, and spleen). This peptide may be utilized to treat avian colibacillosis caused by E. coli.",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_09822",
+                    "Similarity": 1.0,
+                    "Sequence": "LVQRGRFGRFLRKI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09823",
+                    "Similarity": 1.0,
+                    "Sequence": "LVQRGRFGRFLRKIR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_11579",
+                    "Similarity": 1.0,
+                    "Sequence": "RFGRFLRKIRR"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "SPADE_N_05552": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_05552",
+            "Peptide Name": "HalR1(Bacteriocin)",
+            "Source": "Halobacterium salinarum GN101",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "LQSNININTAAAVILIFNQVQVGALCAPTPVSGGGPPP",
+            "Sequence Length": 38,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "",
+            "Biological Activity": [
+                "Archaeolytic"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "HalR1 is 63% identical and 71% similar to HalS8.",
+            "Formula": "C167H273N45O50S",
+            "Mass": 3743.29,
+            "PI": 5.52,
+            "Net Charge": 0,
+            "Hydrophobicity": 0.62,
+            "Half Life": "Mammalian:5.5 hourYeast:3 minE.coli:2 min",
+            "Comments": "Unlike HalH6, HalR1 does not appear to be archaeolytic, since it causes no change in the optical density or cell morphology of stationary phase Hbt. salinarum, nor can it form zones of inhibition on fully grown lawns. HalR1 has a dose-dependent, archaeostatic effect on growing Hbt. salinarum.",
+            "Literature": [
+                {
+                    "Title": "Halocins and sulfolobicins the emerging story of archaeal protein and peptide antibiotics.",
+                    "Pubmed ID": "11938468",
+                    "Reference": "J Ind Microbiol Biotechnol. 2002 Jan;28(1)23-31.",
+                    "Author": "O'Connor EM, Shand RF.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=11938468"
+                }
+            ],
+            "Frequent Amino Acids": "APG",
+            "Absent Amino Acids": "DEHKMORUWY",
+            "Basic Residues": 0,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 22,
+            "Polar Residues": 21,
+            "Positive Residues": 0,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_05816",
+                    "Similarity": 0.9736842105263158,
+                    "Sequence": "LQSNININTAAAVILIFNQVQVGALCAPTPVSGGGPVP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00197",
+                    "Similarity": 0.6666666666666666,
+                    "Sequence": "SDCNINSNTAADVILCFNQVGSCALCSPTLVGGPVP"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "SPADE_UN_18669": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_18669",
+            "Peptide Name": "SyCPA 123 (chemically synthetic AMPs20; XXD, XXL, fatty acid cyclized lipopeptide, lactam, XXJ, UCSB1e; BBMm)",
+            "Source": "bioinformatic predicted bacterial nonribosomal gene cluster,Rhodococcus jostiiRHA1, bacteria-derived, natural derivatives",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "FSTRF",
+            "Sequence Length": 5,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-MRSA"
+            ],
+            "Target Organism": "active against B. subtilis 168 1A1 (MIC 4 ug/ml), E. faecium Com15 (MIC 8 ug/ml), S. aureus USA300 (MIC 4 ug/ml), E-coli DH5alpha (MIC>64 ug/ml), K-pneumoniae ATCC 10031 (MIC>64 ug/ml), A. baumannii ATCC 17978 (MIC 8 ug/ml), P-aeruginosa PAO1 (MIC>64 ug/ml), E-cloacae ATCC 14037 (MIC>64 ug/ml), M-tuberculosis H37RV (MIC>12.5 ug/ml).",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "coupled with fatty acid 3-aminotetradecanoic acid. T3 is a D-amino acid",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 656.73,
+            "PI": 9.75,
+            "Hydrophobicity": -0.08,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Chu J, Koirala B, Forelli N, Vila-Farres X, Ternei MA, Ali T, Colosimo DA, Brady SF. 2020",
+                    "Reference": "J Am Chem Soc. 2020 Aug 19;142(33):14158-14168. doi: 10.1021/jacs.0c04376.PubMed",
+                    "Title": "Synthetic-Bioinformatic Natural Product Antibiotics with Diverse Modes of Action."
+                }
+            ],
+            "Frequent Amino Acids": "FRS",
+            "Absent Amino Acids": "ACDEGHIKLMNOPQUVWY",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 2,
+            "Polar Residues": 3,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "Net Charge": 1,
+            "Mechanism of action": "it permeabilized bacterial memrbanes",
+            "Comments": "Discovery: the peptide was predicted but made in a different way.",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_12110",
+                    "Similarity": 1.0,
+                    "Sequence": "KVWSRLRKIFSTR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_24261",
+                    "Similarity": 1.0,
+                    "Sequence": "TRFLT"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01303",
+                    "Similarity": 0.8,
+                    "Sequence": "GIFSTVFKAGKGIVCGLTGLC"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_28075": {
+        "Sequence Information": {
+            "Peptide Name": "Cecropin(1-7)+Melittin(2-9) K7(Me 3 )",
+            "Sequence": "KWKLFKXIGAVLKVL",
+            "Sequence Length": 15,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antiparasitic",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P01501",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P01501",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                },
+                {
+                    "uniprotId": "P01507",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P01507",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Lysine N(epsilon)-trimethylation, a tool for improving the selectivity of antimicrobial peptides.",
+                    "Pubmed ID": "20617807",
+                    "Reference": "J Med Chem. 2010;53:5587-5596",
+                    "Author": "Fernández-Reyes M, Díaz D, de la Torre BG, Cabrales-Rico A, Vallès-Miret M, Jiménez-Barbero J, Andreu D, Rivas L",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/20617807"
+                }
+            ],
+            "SPADE ID": "SPADE_UN_28075",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06638",
+                    "Similarity": 1.0,
+                    "Sequence": "FAKKLAKKLKKLAKKLAKKWKL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06734",
+                    "Similarity": 1.0,
+                    "Sequence": "KWKLF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07815",
+                    "Similarity": 1.0,
+                    "Sequence": "LVLKYCPKIGYCSNTCSKTQIWATSHGCKMYCCLPASWKWK"
+                }
+            ],
+            "Hemolytic Activity": "Sheep erythrocytes:50% Hemolysis=164.0±7.8 µM",
+            "Target Organism": "Leishmania donovani MHOM/S.D./00/1S-2D (promastigote)(IC50=3.7±0.2µM),Leishmania donovani MHOM/S.D./00/1S-2D (promastigote)(LC50=2.3µM),Leishmania mexicana pifanoi MHOM/VE/60/Ltrod(IC50=11.4±0.8µM),Leishmania mexicana pifanoi MHOM/VE/60/Ltrod(LC50=12.1±1.2µM),Staphylococcus aureus CECT 240(IC50=7.2±0.6µM),Acinetobacter baumannii ATCC 19606(IC50=1.9±0.4µM)"
+        }
+    }
+}

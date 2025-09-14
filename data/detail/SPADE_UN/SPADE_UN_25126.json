@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_25126": {
+        "Sequence Information": {
+            "Peptide Name": "WCopW8",
+            "Sequence": "WLLWIGLRKK",
+            "Sequence Length": 10,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "A9XFZ7",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/A9XFZ7",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Matching amino acids membrane preference profile to improve activity of antimicrobial peptides.",
+                    "Pubmed ID": "36347951",
+                    "Reference": "Commun Biol. 2022;5:1199",
+                    "Author": "Kim S, Lee J, Lee S, Kim H, Sim JY, Pak B, Kim K, Il Kim J",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/36347951"
+                }
+            ],
+            "Mass": 1312.65,
+            "PI": 11.17,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.14,
+            "Frequent Amino Acids": "LKW",
+            "Absent Amino Acids": "ACDEFHMNOPQSTUVY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 4,
+            "Polar Residues": 6,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_25126",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_04105",
+                    "Similarity": 1.0,
+                    "Sequence": "LMWWLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04106",
+                    "Similarity": 1.0,
+                    "Sequence": "CLFWLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04108",
+                    "Similarity": 1.0,
+                    "Sequence": "VVYWLL"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:3.85% Hemolysis=25 µM,Human erythrocytes:8.51% Hemolysis=50 µM,Human erythrocytes:15.04% Hemolysis=100 µM",
+            "Target Organism": "Pseudomonas aeruginosa CCARM 2180(MIC=>20µM),Acinetobacter baumannii ATCC BAA-1605(MIC=5µM),Staphylococcus aureus KCCM 40510(MIC=2.5µM),Enterococcus faecalis ATCC 51575(MIC=5µM)"
+        }
+    }
+}

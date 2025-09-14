@@ -1,0 +1,61 @@
+{
+    "SPADE_UN_25697": {
+        "Sequence Information": {
+            "Peptide Name": "GV30 (13-30)",
+            "Sequence": "TVAAQLLKKARCKLDKSC",
+            "Sequence Length": 18,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell",
+                "Antibiofilm"
+            ],
+            "Binding Target": "",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Generation of truncated derivatives through in silico enzymatic digest of peptide GV30 target MRSA both in vitro and in vivo.",
+                    "Pubmed ID": "34584638",
+                    "Reference": "Comput Struct Biotechnol J. 2021;19:4984-4996",
+                    "Author": "Ma Y, Yao A, Chen X, Wang L, Ma C, Xi X, Chen T, Shaw C, Zhou M",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/34584638"
+                }
+            ],
+            "Mass": 1976.41,
+            "PI": 9.7,
+            "Net Charge": 4,
+            "Hydrophobicity": -0.14,
+            "Frequent Amino Acids": "KAL",
+            "Absent Amino Acids": "EFGHIMNOPUWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 9,
+            "Positive Residues": 5,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_UN_25697",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00878",
+                    "Similarity": 1.0,
+                    "Sequence": "KSCCRNTVARNCYNVCRIPGTPRPVCAATCDCKLITGTKCPPGYEK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15270",
+                    "Similarity": 1.0,
+                    "Sequence": "GVIFNALKGVAKTVAAQLLKKARCKLDKSC"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_25692",
+                    "Similarity": 1.0,
+                    "Sequence": "GVIFNALKGVAKTVAAQLLKKAR"
+                }
+            ],
+            "Hemolytic Activity": "Horse erythrocytes:<5% Hemolysis=256 µM,Human keratinocytes HaCat:<5% Cytotoxicity=100 µM",
+            "Target Organism": "Staphylococcus aureus NCTC 10788(MIC=>512µM),Escherichia coli ATCC 8739(MIC=>512µM),Staphylococcus aureus NCTC 12493(MIC=>512µM),Klebsiella pneumoniae ATCC 43816(MIC=>512µM),Enterococcus faecium NTCC 12697(MIC=>512µM),Pseudomonas aeruginosa ATCC 9027(MIC=>512µM),Staphylococcus aureus MR(MIC=>512µM),Staphylococcus aureus ATCC BAA-1707(MIC=>512µM)"
+        }
+    }
+}

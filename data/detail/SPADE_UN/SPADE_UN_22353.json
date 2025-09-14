@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_22353": {
+        "Sequence Information": {
+            "Peptide Name": "Pleurain-A1 [M5G]",
+            "Sequence": "SIITGTKEAKLPQLWKQIACRLYNTC",
+            "Sequence Length": 26,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "A8DY01",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/A8DY01",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Antioxidant peptidomics reveals novel skin antioxidant system.",
+                    "Pubmed ID": "19028675",
+                    "Reference": "Mol Cell Proteomics. 2009;8:571-583",
+                    "Author": "Yang H, Wang X, Liu X, Wu J, Liu C, Gong W, Zhao Z, Hong J, Lin D, Wang Y, Lai R",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/19028675"
+                }
+            ],
+            "Mass": 2979.52,
+            "PI": 9.3,
+            "Net Charge": 3,
+            "Hydrophobicity": -0.15,
+            "Frequent Amino Acids": "IKL",
+            "Absent Amino Acids": "DFHMOUV",
+            "Basic Residues": 4,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 16,
+            "Positive Residues": 4,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_UN_22353",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_22353",
+                    "Similarity": 1.0,
+                    "Sequence": "SIITGTKEAKLPQLWKQIACRLYNTC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01124",
+                    "Similarity": 0.9615384615384616,
+                    "Sequence": "SIITMTKEAKLPQLWKQIACRLYNTC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01129",
+                    "Similarity": 0.9615384615384616,
+                    "Sequence": "SIITTTKEAKLPQLWKQIACRLYNTC"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=60µg/ml),Staphylococcus aureus ATCC 2592(MIC=15µg/ml),Bacillus subtilis(MIC=120µg/ml),Candida albicans ATCC 2002(MIC=30µg/ml)"
+        }
+    }
+}

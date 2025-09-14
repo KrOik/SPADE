@@ -1,0 +1,92 @@
+{
+    "SPADE_N_00104": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 10723764 B2",
+                "Patent Link": "http://www.lens.org/lens/patent/US_10723764_B2",
+                "Patent Type": "Granted Patent",
+                "Publication Date": "2020-7-28",
+                "Family Info": "US20150259382A1",
+                "Patent Title": "Anti-microbial Peptides And Methods Of Use Thereof",
+                "Abstract": "Anti-microbial peptides and methods of use are provided."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00104",
+            "Peptide Name": "Plantaricin J (PlnJ; Bacteriocin)",
+            "Source": "Lactobacillus plantarum C11 (Gram-positive bacteria)",
+            "Family": "Belongs to the class IIb bacteriocin",
+            "Gene": "plnJ",
+            "Sequence": "GAWKNFWSSLRKGFYDGEAGRAIRR",
+            "Sequence Length": 25,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P71461",
+                "http://www.uniprot.org/uniprot/Q7AKW6"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+"
+            ],
+            "Target Organism": "Gram-positive bacteria:Pediococcus pentosaceus Pac 1.0 (MIC=50 nM), Lactobacillus plantarum 965 (MIC=0.1 nM), L. sake NCDO 2714 (MIC=50 nM), Leptostylus viridescens NCDO 1655 (MIC=5 nM). [PlnJ:PlnK=1:1]",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "In DPC micelles, PlnJ has an N-terminal amphiphilic alpha-helix between Trp-3 and Tyr-15. Crucial residues: Gly-13 in PlnJ is very sensitive, giving more than a 100-fold reduction in activity when large residues replace glycine. Gly-20 in PlnJ was replaced, the activity was reduced less than 10-fold.",
+            "Formula": "C133H198N42O34",
+            "Mass": 2929.26,
+            "PI": 10.93,
+            "Net Charge": 4,
+            "Hydrophobicity": -0.93,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "A 1",
+            "Literature": [
+                {
+                    "Title": "Antagonistic activity of Lactobacillus plantarum C11 two new two-peptide bacteriocins, plantaricins EF and JK, and the induction factor plantaricin A.",
+                    "Pubmed ID": "9603847",
+                    "Reference": "Appl Environ Microbiol. 1998 Jun;64(6)2269-2272.",
+                    "Author": "Anderssen EL, Diep DB, Nes IF, Eijsink VG, Nissen-Meyer J.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=9603847"
+                },
+                {
+                    "Title": "Three-dimensional structure of the two-peptide bacteriocin plantaricin JK.",
+                    "Pubmed ID": "19538999",
+                    "Reference": "Peptides. 2009 Sep;30(9)1613-1621.",
+                    "Author": "Rogne P, Haugen C, Fimland G, Nissen-Meyer J, Kristiansen PE.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=19538999"
+                }
+            ],
+            "Frequent Amino Acids": "GRA",
+            "Absent Amino Acids": "CHMOPQTUV",
+            "Basic Residues": 6,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 13,
+            "Positive Residues": 6,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06129",
+                    "Similarity": 1.0,
+                    "Sequence": "MTVNKMIKDLDVVDAFAPISNNKLNGVVGGGAWKNFWSSLRKGFYDGEAGRAIRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_07760",
+                    "Similarity": 1.0,
+                    "Sequence": "RAIRRAIRGAPRAIL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_07761",
+                    "Similarity": 1.0,
+                    "Sequence": "RAIRRAIRGAPRAILRAIL"
+                }
+            ]
+        }
+    }
+}

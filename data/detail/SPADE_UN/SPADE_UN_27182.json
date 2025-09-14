@@ -1,0 +1,67 @@
+{
+    "SPADE_UN_27182": {
+        "Sequence Information": {
+            "Peptide Name": "Kassinatuerin-1 (10-21)",
+            "Sequence": "IPHAVKAISDLI",
+            "Sequence Length": 12,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P0C010",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P0C010",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Antimicrobial and cytolytic properties of the frog skin peptide, kassinatuerin-1 and its L- and D-lysine-substituted derivatives.",
+                    "Pubmed ID": "15885852",
+                    "Reference": "Peptides. 2005;26:2104-2110",
+                    "Author": "Conlon JM, Abraham B, Galadari S, Knoop FC, Sonnevend A, Pál T",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/15885852"
+                }
+            ],
+            "Mass": 1276.52,
+            "PI": 6.74,
+            "Net Charge": 1,
+            "Hydrophobicity": 1.01,
+            "Frequent Amino Acids": "IAD",
+            "Absent Amino Acids": "CEFGMNOQRTUWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 5,
+            "Positive Residues": 2,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_UN_27182",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01134",
+                    "Similarity": 1.0,
+                    "Sequence": "GFMKYIGPLIPHAVKAISDLI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15657",
+                    "Similarity": 1.0,
+                    "Sequence": "FIQYLAPLIPHAVKAISDLI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_12414",
+                    "Similarity": 1.0,
+                    "Sequence": "DLIWKLLVKAQEKFGRGKPSKRVKKMRRQWQACKSSHHHHHH"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:0% Hemolysis=400 µM",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=>200µM),Staphylococcus aureus NCTC 8325(MIC=>200µM),Candida albicans ATCC 90028(MIC=>200µM)"
+        }
+    }
+}

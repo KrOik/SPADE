@@ -1,0 +1,76 @@
+{
+    "SPADE_N_02129": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02129",
+            "Peptide Name": "Hlsal-defensin (H. longicornis salivary gland defensin; Ticks, Arthropods, animals)",
+            "Source": "Haemaphysalis longicornis (Bush tick)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "NCIQQCVSKGAQGGYCTNEKCTCY",
+            "Sequence Length": 24,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/A4GUC4"
+            ],
+            "Protein Existence": "Predicted",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-positive bacterium:Staphylococcus aureus (MIC=5-25 mg/mL);Gram-negative bacterium:Escherichia coli (MIC=10-25 mg/mL).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C104H165N31O37S5",
+            "Mass": 2601.93,
+            "PI": 7.81,
+            "Net Charge": 1,
+            "Hydrophobicity": -0.49,
+            "Half Life": "Mammalian:1.4 hourYeast:3 minE.coli:>10 hour",
+            "Function": "Both Hlgut-defensin and Hlsal-defensin sequences have antibactrrial activity against a variety of Gram-positive and Gram-negative bacteria.",
+            "Induction": "By a lipopolysaccharide (LPS) injection.",
+            "Literature": [
+                {
+                    "Title": "Sequence characterization and expression patterns of two defensin-like antimicrobial peptides from the tick Haemaphysalis longicornis.",
+                    "Pubmed ID": "17521774",
+                    "Reference": "Peptides. 2007 Jun;28(6)1304-1310.",
+                    "Author": "Zhou J, Liao M, Ueda M, Gong H, Xuan X, Fujisaki K.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=17521774"
+                }
+            ],
+            "Frequent Amino Acids": "CGQ",
+            "Absent Amino Acids": "DFHLMOPRUW",
+            "Basic Residues": 2,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 19,
+            "Positive Residues": 2,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_08190",
+                    "Similarity": 1.0,
+                    "Sequence": "DLVCPDNPDNCIQQCVSKGAQGGYCTNEKCTCYEKIPSATKRVRIVA"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_22742",
+                    "Similarity": 1.0,
+                    "Sequence": "NCIQQCVSKGAQGGYCTNEKCTCY"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03444",
+                    "Similarity": 0.6666666666666666,
+                    "Sequence": "GGYCSGIIKQTCTCYRN"
+                }
+            ]
+        }
+    }
+}

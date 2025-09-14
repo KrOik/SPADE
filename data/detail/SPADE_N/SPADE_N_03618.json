@@ -1,0 +1,74 @@
+{
+    "SPADE_N_03618": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03618",
+            "Peptide Name": "Defensin-like protein 4",
+            "Source": "Brassica napus (Rape)",
+            "Family": "Belongs to the DEFL family (RTI/MTI-2 subfamily)",
+            "Gene": "Not found",
+            "Sequence": "DSECLKEYGGDVGFGFCAPRIYPSFCVQRCRADKGALSGKCIWGQGSNVKCLCNFCRHEP",
+            "Sequence Length": 60,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P80301"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Antifungal"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C285H435N83O83S8",
+            "Mass": 6608.53,
+            "PI": 8.19,
+            "Net Charge": 3,
+            "Hydrophobicity": -0.28,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:>10 hour",
+            "Function": "Inhibits trypsin and chymotrypsin.",
+            "Literature": [
+                {
+                    "Title": "Purification, inhibitory properties, amino acid sequence and identification of the reactive site of a new serine proteinase inhibitor from oil-rape (Brassica napus) seed.",
+                    "Pubmed ID": "8143882",
+                    "Reference": "FEBS Lett. 1994 Apr 4;342(2)221-224.",
+                    "Author": "Ceciliani F, Bortolotti F, Menegatti E, Ronchi S, Ascenzi P, Palmieri S.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=8143882"
+                }
+            ],
+            "Frequent Amino Acids": "CGF",
+            "Absent Amino Acids": "MOTU",
+            "Basic Residues": 9,
+            "Acidic Residues": 6,
+            "Hydrophobic Residues": 21,
+            "Polar Residues": 33,
+            "Positive Residues": 9,
+            "Negative Residues": 6,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00584",
+                    "Similarity": 0.7166666666666667,
+                    "Sequence": "QGNECLKEYGGDVGFGFCAPRIFPTICYTRCRENKGAKGGRCRWGQGSNVKCLCDFCDDTPQ"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00356",
+                    "Similarity": 0.7,
+                    "Sequence": "DSECLKEYGGDVGFPFCAPRIFPTICYTRCRENKGAKGGRCIWGEGTNVKCLCDYCNDSPFDQ"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00585",
+                    "Similarity": 0.6833333333333333,
+                    "Sequence": "HDSECLKEYGGDVGFGFCAPKIFPTICYRNCQKDKGANGGKCLWGEGGKVKCLCDFCSNESFNQFISLT"
+                }
+            ]
+        }
+    }
+}

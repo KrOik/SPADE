@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_00317": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_00317",
+            "Peptide Name": "hLf 21-30 (fragment of human lalctoferricin, residues 21-30)",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "FQWQRNMRKV",
+            "Sequence Length": 10,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-negative bacteria:Escherichia coli ATCC 25922 (MIC>300 µM), Escherichia coli (wild strain) (MIC>300 µM);Gram-positive bacteria:Staphylococcus aureus ATCC 25923 (MIC>300 µM), Enterococcus faecalis ATCC 29212 (MIC>300 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C62H97N21O14S",
+            "Mass": 1392.63,
+            "PI": 12.0,
+            "Net Charge": 3,
+            "Hydrophobicity": -1.54,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Function": "Shows antibacterial activity against both Gram-positive and Gram-negative bacteria.",
+            "Literature": [
+                {
+                    "Title": "Antibacterial activity of short hydrophobic and basic-rich peptides.",
+                    "Pubmed ID": "13677384",
+                    "Reference": "Am J Vet Res. 2003 Sep;64(9)1088-1092.",
+                    "Author": "Chen PW, Shyu CL, Mao FC.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=13677384"
+                }
+            ],
+            "Frequent Amino Acids": "QRF",
+            "Absent Amino Acids": "ACDEGHILOPSTUY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 4,
+            "Polar Residues": 7,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03181",
+                    "Similarity": 1.0,
+                    "Sequence": "GRRRSVQWCAVSQPEATKCFQWQRNMRKVRGPPVSCIKRDSPIQCIQA"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05730",
+                    "Similarity": 1.0,
+                    "Sequence": "FQWQRNMRKVRGPPVS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07106",
+                    "Similarity": 1.0,
+                    "Sequence": "KCFQWQRNMRKVRGPPVSC"
+                }
+            ]
+        }
+    }
+}

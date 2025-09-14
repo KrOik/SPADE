@@ -1,0 +1,67 @@
+{
+    "SPADE_UN_27889": {
+        "Sequence Information": {
+            "Peptide Name": "D-LAK120-HP13",
+            "Sequence": "KKALAHALKKWLPALKKLAHALAKK",
+            "Sequence Length": 25,
+            "Biological Activity": [
+                "Antiparasitic",
+                "Anticancer",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Conformational flexibility determines selectivity and antibacterial, antiplasmodial, and anticancer potency of cationic ?-helical peptides.",
+                    "Pubmed ID": "22869378",
+                    "Reference": "J Biol Chem. 2012;287:34120-34133",
+                    "Author": "Vermeer LS, Lan Y, Abbate V, Ruh E, Bui TT, Wilkinson LJ, Kanno T, Jumagulova E, Kozlowska J, Patel J, McIntyre CA, Yam WC, Siu G, Atkinson RA, Lam JK, Bansal SS, Drake AF, Mitchell GH, Mason AJ",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/22869378"
+                },
+                {
+                    "Title": "Cationic amphipathic D-enantiomeric antimicrobial peptides with in vitro and ex vivo activity against drug-resistant Mycobacterium tuberculosis.",
+                    "Pubmed ID": "25154927",
+                    "Reference": "Tuberculosis (Edinb). 2014;94:678-689",
+                    "Author": "Lan Y, Lam JT, Siu GK, Yam WC, Mason AJ, Lam JK",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/25154927"
+                }
+            ],
+            "Mass": 2777.49,
+            "PI": 10.85,
+            "Net Charge": 10,
+            "Hydrophobicity": -0.19,
+            "Frequent Amino Acids": "KAL",
+            "Absent Amino Acids": "CDEFGIMNOQRSTUVY",
+            "Basic Residues": 10,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 12,
+            "Positive Residues": 10,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_27889",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_12464",
+                    "Similarity": 1.0,
+                    "Sequence": "FLKLLKKAL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_20087",
+                    "Similarity": 1.0,
+                    "Sequence": "FLKLLKKAL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_00734",
+                    "Similarity": 0.9230769230769231,
+                    "Sequence": "ETELAKKALKALKLKKLA"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=79.61±2.80 µM",
+            "Target Organism": "Plasmodium falciparum C10(EC50=2.88±0.25µM),Human lung carcinoma A549(EC50=2.21±0.63µM),Murine macrophage cells RAW 264.7(EC50=2.33±0.30µM),Human acute monocytic leukemia THP-1(EC50=32.3±4.7µM),Mycobacterium tuberculosis(MIC=50-100µM)"
+        }
+    }
+}

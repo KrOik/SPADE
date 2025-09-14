@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_23501": {
+        "Sequence Information": {
+            "Peptide Name": "Anoplin [L2,3,9,10W]",
+            "Sequence": "GWWKRIKTWW",
+            "Sequence Length": 10,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P0C005",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P0C005",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Novel Broad-Spectrum Antimicrobial Peptide Derived from Anoplin and Its Activity on Bacterial Pneumonia in Mice.",
+                    "Pubmed ID": "34180670",
+                    "Reference": "J Med Chem. 2021;:",
+                    "Author": "Gou S, Li B, Ouyang X, Ba Z, Zhong C, Zhang T, Chang L, Zhu Y, Zhang J, Zhu N, Zhang Y, Liu H, Ni J",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/34180670"
+                }
+            ],
+            "Mass": 1446.7,
+            "PI": 11.17,
+            "Net Charge": 3,
+            "Hydrophobicity": -1.25,
+            "Frequent Amino Acids": "WKG",
+            "Absent Amino Acids": "ACDEFHLMNOPQSUVY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 1,
+            "Polar Residues": 9,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_23501",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03549",
+                    "Similarity": 1.0,
+                    "Sequence": "FPVTWGWWKWWKG"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_04459",
+                    "Similarity": 1.0,
+                    "Sequence": "KNKGKKNGWWWWW"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_04463",
+                    "Similarity": 1.0,
+                    "Sequence": "KNKGWWWWW"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:10% Hemolysis=102.54 µM,Human glomerular mesangial cells (GMC):IC50=25.17 µM",
+            "Target Organism": "Staphylococcus aureus ATCC 25923(MIC=4µM),Bacillus subtilis ATCC 23857(MIC=8µM),Enterococcus faecalis ATCC 29212(MIC=16µM),Staphylococcus epidermidis ATCC 12228(MIC=8µM),Escherichia coli ATCC 25922(MIC=8µM),Pseudomonas aeruginosa ATCC 27853(MIC=4µM),Klebsiella pneumoniae ATCC 700603(MIC=8µM),Acinetobacter baumannii ATCC 19606(MIC=8µM)"
+        }
+    }
+}

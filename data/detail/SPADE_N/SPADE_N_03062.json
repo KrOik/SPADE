@@ -1,0 +1,76 @@
+{
+    "SPADE_N_03062": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03062",
+            "Peptide Name": "La-LTP (LJAFP; Insects, animals)",
+            "Source": "Leonurus japonicus (Chinese motherwort) (Leonurus artemisia)",
+            "Family": "Not found",
+            "Gene": "Afp",
+            "Sequence": "AIGCNTVASKMAPCLPYVTGKGPLGGCCGGVKGLIDAARTTPDRQAVCNCLKTLAKSYSGINLGNAAGLPGKCGVSIPYQISPNTDCSKVH",
+            "Sequence Length": 91,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q52RN7"
+            ],
+            "Protein Existence": "Homology",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "Gram-positive Bacteria:Bacillus subtilis (IC50>15 µM).Gram-negative Bacteria:Pseudomonas solanacearum (IC50=7.5-15 µM), Ralstonia solanacearum (IC50=15 µM).Fungi:Alternaria alternate (IC50<7.5 µM), Alternaria brassicae (IC50<7.5 µM), Aspergillus niger (IC50<7.5 µM), Bipolaris maydis (IC50<7.5 µM), Botrytis cinerea (IC50=7.5-15 µM), Cerospora personata (IC50=7.5-15 µM), Colletotrichum gloeosporiodes (IC50<7.5 µM), Fusarium graminearum (IC50=7.5-15 µM), Fusarium oxysporum (IC50=7.5-15 µM), Penicillium digitatum (IC50>15 µM), Pyricularia grisea (IC50=7.5-15 µM), Rhizoctonia solani (IC50<7.5 µM), Rhizoctonia cerealis (IC50=7.5-15 µM), Saccharomyces cerevisiae (IC50>15 µM), Sclerotinia sclerotiorum (IC50>15 µM), Trichoderma harzianum (IC50=7.5-15 µM), Verticillium dahliae (IC50=7.5-15 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Lipid-binding",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C390H645N113O120S9",
+            "Mass": 9125.56,
+            "PI": 9.02,
+            "Net Charge": 7,
+            "Hydrophobicity": 0.09,
+            "Half Life": "Mammalian:4.4 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Plant non-specific lipid-transfer proteins transfer phospholipids as well as galactolipids across membranes. May play a role in wax or cutin deposition in the cell walls of expanding epidermal cells and certain secretory tissues (By similarity).",
+            "Literature": [
+                {
+                    "Title": "LJAFP, a novel non-specific lipid transfer protein-like antimicrobial protein from motherwort (Leonurus japonicus) confers disease resistance against phytopathogenic fungi and bacterium in transgenic tobacco.",
+                    "Pubmed ID": "PubMed ID is not available",
+                    "Reference": "Submitted (MAR-2005) to the EMBL/GenBank/DDBJ databases",
+                    "Author": "Yang X, Xiao Y, Pei Y, Zhen C.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=PubMed ID is not available"
+                }
+            ],
+            "Frequent Amino Acids": "GAC",
+            "Absent Amino Acids": "EFOUW",
+            "Basic Residues": 10,
+            "Acidic Residues": 3,
+            "Hydrophobic Residues": 38,
+            "Polar Residues": 55,
+            "Positive Residues": 10,
+            "Negative Residues": 3,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00326",
+                    "Similarity": 0.7647058823529411,
+                    "Sequence": "GPLGGCCGGIKKSAAAGISGINYGIAAGLPGKCGVNIPYKISPSTDCSKVQ"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00307",
+                    "Similarity": 0.6483516483516484,
+                    "Sequence": "AITCGQVTSNLAPCLAYLRNTGPLGRCCGGVKALVNSARTTEDRQIACTCLKSAAGAISGINLGKAAGLPSTCGVNIPYKISPSTDCSKVQ"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00312",
+                    "Similarity": 0.6333333333333333,
+                    "Sequence": "GITCGMVSSKLAPCIGYLKGGPLGGGCCGGIKALNAAAATTPDRKTACNCLKSAANAIKGINYGKAAGLPGMCGVHIPYAISPSTNCNAVH"
+                }
+            ]
+        }
+    }
+}

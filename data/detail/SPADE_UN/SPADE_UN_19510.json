@@ -1,0 +1,54 @@
+{
+    "SPADE_UN_19510": {
+        "Sequence Information": {
+            "Peptide Name": "HBD-4-2d",
+            "Sequence": "EFELDRICXGYGTARCRKKRSQEYRIGRXPNTYACCLRK",
+            "Sequence Length": 39,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "Q8WTQ1",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/Q8WTQ1",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Human ?-defensin 4 with non-native disulfide bridges exhibit antimicrobial activity.",
+                    "Pubmed ID": "25785690",
+                    "Reference": "PLoS One. 2015;10:e0119525",
+                    "Author": "Sharma H, Nagaraj R",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/25785690"
+                }
+            ],
+            "SPADE ID": "SPADE_UN_19510",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03156",
+                    "Similarity": 1.0,
+                    "Sequence": "EFELDRICGYGTARCRKKCRSQEYRIGRCPNTYACCLRKWDESLLNRTKP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08024",
+                    "Similarity": 1.0,
+                    "Sequence": "MQRLVLLLAVSLLLYQDLPVRSEFELDRICGYGTARCRKKCRSQEYRIGRCPNTYACCLRKWDESLLNRTKP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11938",
+                    "Similarity": 1.0,
+                    "Sequence": "EFELDRIGYGTARCRKKRSQEYRIGRPNTYACLRK"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Escherichia coli MG1655(LC=10±2.01µM),Pseudomonas aeruginosa NCTC 6750(LC=6.5±1.09µM),Staphylococcus aureus NCTC 8530(LC=7.5±0.28µM),Candida albicans ATCC 18804(MFC=10±2.96µM)"
+        }
+    }
+}

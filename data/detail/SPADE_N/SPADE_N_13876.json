@@ -1,0 +1,71 @@
+{
+    "SPADE_N_13876": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_13876",
+            "Peptide Name": "Spampcin(56-75) (Spa20; Synthetic AMPs20, shorter fragment of Spampcin, residues 56-75, UCLL1)",
+            "Source": "Sequence truncation, animal-derived, natural derivative",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "RRAAHGLLPRLRAPPPFHKR",
+            "Sequence Length": 20,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 2346.79,
+            "PI": 12.0,
+            "Hydrophobicity": -1.0,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Jiang M, Chen R, Zhang J, Chen F, Wang KJ. 2022",
+                    "Reference": "Int J Mol Sci. 2022 Nov 1;23(21):13316. doi: 10.3390/ijms232113316.PubMed",
+                    "Title": "A Novel Antimicrobial Peptide Spampcin56-86 from Scylla paramamosain Exerting Rapid Bactericidal and Anti-Biofilm Activity In Vitro and Anti-Infection In Vivo."
+                }
+            ],
+            "Frequent Amino Acids": "RPA",
+            "Absent Amino Acids": "CDEIMNOQSTUVWY",
+            "Basic Residues": 8,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 11,
+            "Positive Residues": 8,
+            "Negative Residues": 0,
+            "Net Charge": 8,
+            "Comments": "Sequence analysis: APD analysis reveals this sequence is most similar (64.52%) toVicBacP: 20%; R: 25%. a Pro-rich like peptide. Possibly disulfide bond formation.  Mol. Wt: 2346.821; GRAVY: -1; Mol Formula: C106H176N40O21; mol ex coeff: 0. Spampcin is likely an AMP with 153 amino acids (no activity is known). However, the fragment is active.Activity: active against Gram+ S. aureus (MIC 12-24 uM), L. monocytogenes (MIC 24-48 uM), E.faecalis (MIC >96 uM), E.faecium (MIC >96 uM), S. epidermidis (MIC 6-12 uM), Gram- P. aeruginosa (MIC 12-24 uM), E. coli (MIC 12-24 uM), A. baunmannii (MIC 3-6 uM), fungi C. neoformans (MFC 24-48 uM), F. graminearum (MFC 12-24 uM), F. solani (MFC 12-24 uM), A. niger (MFC 12-24 uM). Compared to Spa31, this further shortened peptide became less active against numerous strains. Jan2023",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_13875",
+                    "Similarity": 1.0,
+                    "Sequence": "RRAAHGLLPRLRAPPPFHKRCVCLCRTAPPP"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_21505",
+                    "Similarity": 1.0,
+                    "Sequence": "ARRARRRWRRRARRA"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_25321",
+                    "Similarity": 1.0,
+                    "Sequence": "RRAAHGLLPRLRAPPPFHKRCVCLCRTAPPP"
+                }
+            ]
+        }
+    }
+}

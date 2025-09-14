@@ -1,0 +1,74 @@
+{
+    "SPADE_UN_00445": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_00445",
+            "Peptide Name": "[L6, K11]-IsCT (IsCT analog through amino acids substitution)",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "ILGKILKGIKKLF",
+            "Sequence Length": 13,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-negative bacteria:Escherichia coli KCTC 1682 (MIC=2 µM), Pseudomonas aeruginosa KCTC 1637 (MIC=2 µM), Salmonella typhimurium KCTC 1926 (MIC=1 µM);Gram-positive bacteria:Staphylococcus epidermidis KCTC 1917 (MIC=1 µM), Staphylococcus aureus KCTC 1621 (MIC=2 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Cell membrane",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C73H131N17O14",
+            "Mass": 1470.93,
+            "PI": 10.48,
+            "Net Charge": 4,
+            "Hydrophobicity": 0.87,
+            "Half Life": "Mammalian:20 hourYeast:30 minE.coli:>10 hour",
+            "Function": "[L6, K11]-IsCT displays a similar or 2-fold higher antibacterial activity relative to that of native IsCT.",
+            "Chemical modification": "C-terminal amidation.",
+            "Literature": [
+                {
+                    "Title": "Antibiotic activity and structural analysis of the scorpion-derived antimicrobial peptide IsCT and its analogs.",
+                    "Pubmed ID": "15369808",
+                    "Reference": "Biochem Biophys Res Commun. 2004 Oct 15;323(2)712-719.",
+                    "Author": "Lee K, Shin SY, Kim K, Lim SS, Hahm KS, Kim Y.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=15369808"
+                }
+            ],
+            "Frequent Amino Acids": "KIL",
+            "Absent Amino Acids": "ACDEHMNOPQRSTUVWY",
+            "Basic Residues": 4,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 4,
+            "Positive Residues": 4,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01613",
+                    "Similarity": 1.0,
+                    "Sequence": "FLPFLKSILGKIL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05584",
+                    "Similarity": 1.0,
+                    "Sequence": "MGALIKTGAKIIGSGAAGGLGTYIGHKILGK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07613",
+                    "Similarity": 1.0,
+                    "Sequence": "MMSKLVVFSLLIAAAVMSVSAAPQKRITCDLLGGVWILGADTACAGHCYTLNHPGGHCEGGYCYCRPGTFSEILG"
+                }
+            ]
+        }
+    }
+}

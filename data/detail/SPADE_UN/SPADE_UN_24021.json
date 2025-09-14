@@ -1,0 +1,72 @@
+{
+    "SPADE_UN_24021": {
+        "Sequence Information": {
+            "Peptide Name": "RP40-20/1",
+            "Sequence": "LAIDQSVLLLK",
+            "Sequence Length": 11,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "A0A2A2LNI5",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/A0A2A2LNI5",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                },
+                {
+                    "uniprotId": "A0A044RF80",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/A0A044RF80",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Encrypted antimicrobial peptides from proteins present in the plasma of the millipede Rhinocricus sp.",
+                    "Pubmed ID": "33894375",
+                    "Reference": "J Proteomics. 2021;242:104239",
+                    "Author": "Segura-Ramírez PJ, de Godoy PM, Avino NA, Junior PIS",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/33894375"
+                }
+            ],
+            "Mass": 1212.48,
+            "PI": 5.84,
+            "Net Charge": 0,
+            "Hydrophobicity": 1.27,
+            "Frequent Amino Acids": "LAD",
+            "Absent Amino Acids": "CEFGHMNOPRTUWY",
+            "Basic Residues": 1,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 4,
+            "Positive Residues": 1,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_UN_24021",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_12132",
+                    "Similarity": 1.0,
+                    "Sequence": "PLAI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14913",
+                    "Similarity": 1.0,
+                    "Sequence": "ALALAI"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_07790",
+                    "Similarity": 1.0,
+                    "Sequence": "WETLPRRIRGGRLWILAI"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:0% Hemolysis=237.44 µM,Vero cells:20% Killing=100 µM",
+            "Target Organism": "Escherichia coli SBS 363(MIC=14.84µM),Micrococcus luteus A270(MIC=14.84µM),Candida albicans MDM8(MIC=29.68µM),Aspergillus niger(no activity data)"
+        }
+    }
+}

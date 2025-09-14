@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_00407": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_00407",
+            "Peptide Name": "Cecropin A(1-8)-Magainin 2(1-12)hybrid peptide analogue (P2)",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "KWKLFKKIPKFLHSAKKF",
+            "Sequence Length": 18,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P01507"
+            ],
+            "Protein Existence": "Synthetic",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C115H180N28O20",
+            "Mass": 2274.84,
+            "PI": 10.78,
+            "Net Charge": 8,
+            "Hydrophobicity": -0.64,
+            "Half Life": "Mammalian:1.3 hourYeast:3 minE.coli:2 min",
+            "Comments": "P2 retained effective lytic activities and pore-forming activity.",
+            "Literature": [
+                {
+                    "Title": "Role of the hinge region and the tryptophan residue in the synthetic antimicrobial peptides, cecropin A(1-8)-magainin 2(1-12) and its analogues, on their antibiotic activities and structures.",
+                    "Pubmed ID": "11009597",
+                    "Reference": "Biochemistry. 2000 Oct 3;39(39)11855-11864.",
+                    "Author": "Oh D, Shin SY, Lee S, Kang JH, Kim SD, Ryu PD, Hahm KS, Kim Y.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=11009597"
+                }
+            ],
+            "Frequent Amino Acids": "KFL",
+            "Absent Amino Acids": "CDEGMNOQRTUVY",
+            "Basic Residues": 8,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 10,
+            "Positive Residues": 8,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_05754",
+                    "Similarity": 1.0,
+                    "Sequence": "KWKLFKKI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06734",
+                    "Similarity": 1.0,
+                    "Sequence": "KWKLF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10840",
+                    "Similarity": 1.0,
+                    "Sequence": "KWKLFKKIAKKFAKAFVAEIM"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,77 @@
+{
+    "SPADE_N_01703": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01703",
+            "Peptide Name": "Brevinin-2GHb (AMP-2; Frogs, amphibians, animals)",
+            "Source": "Rana guentheri (Gunther's frog)",
+            "Family": "Belongs to the frog skin active peptide family (Brevinin subfamily)",
+            "Gene": "br2GHb",
+            "Sequence": "GVITDALKGAAKTVAAELLRKAHCKLTNSC",
+            "Sequence Length": 30,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/A0AEI5"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-positive bacteria:Staphylococcus aureus FDA209P (MIC=16.5 µg/ml), Bacillus subtilis ATCC 6633 (MIC>64 µg/ml);Gram-negative bacteria:Escherichia coli O111 (MIC=8.2 µg/ml), Escherichia coli ATCC 25922 (MIC=8.2 µg/ml).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Cyclization (Cys24 and Cys30)",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C132H232N40O40S2",
+            "Mass": 3083.63,
+            "PI": 9.31,
+            "Net Charge": 4,
+            "Hydrophobicity": 0.21,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Antimicrobial peptide.",
+            "Tissue specificity": "Expressed by the skin glands.",
+            "PTM": "Problely contains one disulfide bond 24-30.",
+            "Literature": [
+                {
+                    "Title": "Purification and characterization of novel antimicrobial peptides from the skin secretion of Hylarana guentheri.",
+                    "Pubmed ID": "16979798",
+                    "Reference": "Peptides. 2006 Dec;27(12)3077-3084.",
+                    "Author": "Zhou J, McClean S, Thompson A, Zhang Y, Shaw C, Rao P, Bjourson AJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16979798"
+                }
+            ],
+            "Frequent Amino Acids": "AKL",
+            "Absent Amino Acids": "FMOPQUWY",
+            "Basic Residues": 6,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 21,
+            "Positive Residues": 6,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_13753",
+                    "Similarity": 0.9666666666666667,
+                    "Sequence": "GVITDALKGAAKTVAAELLKKAHCKLTNSC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05995",
+                    "Similarity": 0.9565217391304348,
+                    "Sequence": "GVITDALKGAAKTVAAELPRKAH"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01708",
+                    "Similarity": 0.9333333333333333,
+                    "Sequence": "GVIIDTLKGAAKTVAAELLRKAHCKLTNSC"
+                }
+            ]
+        }
+    }
+}

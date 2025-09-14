@@ -1,0 +1,73 @@
+{
+    "SPADE_N_14863": {
+        "Sequence Information": {
+            "Peptide Name": "Antifungal protein PAFB",
+            "Sequence": "KFGGECSLKHNTCTYLKGGKNHVVNCGSAANKKCKSDRHHCEYDEHHKRVDCQTPV",
+            "Sequence Length": 56,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antiviral",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer\n2. Virus replication",
+            "Source": "1. Penicillium chrysogenum\n2. Penicillium rubens",
+            "Gene": "1. afp\n2. afp",
+            "PDB ID": "2NC2",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "D0EXD3",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/D0EXD3",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                },
+                {
+                    "uniprotId": "B6GXZ8",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/B6GXZ8",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "New Antimicrobial Potential and Structural Properties of PAFB: A Cationic, Cysteine-Rich Protein from Penicillium chrysogenum Q176.",
+                    "Pubmed ID": "29379111",
+                    "Reference": "Sci Rep. 2018;8:1751",
+                    "Author": "Huber A, Hajdu D, Bratschun-Khan D, Gáspári Z, Varbanov M, Philippot S, Fizil Á, Czajlik A, Kele Z, Sonderegger C, Galgóczy L, Bodor A, Marx F, Batta G",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/29379111"
+                }
+            ],
+            "Mass": 6300.03,
+            "PI": 8.83,
+            "Net Charge": 10,
+            "Hydrophobicity": -1.12,
+            "Frequent Amino Acids": "KCH",
+            "Absent Amino Acids": "IMOUW",
+            "Basic Residues": 16,
+            "Acidic Residues": 6,
+            "Hydrophobic Residues": 15,
+            "Polar Residues": 41,
+            "Positive Residues": 16,
+            "Negative Residues": 6,
+            "SPADE ID": "SPADE_N_14863",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02142",
+                    "Similarity": 1.0,
+                    "Sequence": "LSKFGGECSLKHNTCTYLKGGKNHVVNCGSAANKKCKSDRHHCEYDEHHKRVDCQTPV"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_08873",
+                    "Similarity": 0.9090909090909091,
+                    "Sequence": "LSKYGGECSRHNTCTYRKGGKNQVVNCGSAANKKCKSDRHHCEYDEYHKRVDCQTPV"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_08865",
+                    "Similarity": 0.8928571428571429,
+                    "Sequence": "LSKYGGECSLKHNTCTYRKGGKNQVVNCGTAANKKCKTDRHHCEYDEYHKRVDCQTPV"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Aspergillus fumigatus ATCC 46645(MIC=0.25µM),Aspergillus niger CSB 12049(MIC=0.50µM),Aspergillus terreus T90(MIC=1µM),Neurospora crassa FGSC 4200(MIC=0.12µM),Penicillium chrysogenum ATCC 10002(MIC=0.50µM),Trichophyton rubrum ATCC 28188(MIC=0.50µM),Candida albicans CBS 5982(MIC=1µM),Candida albicans CBS 5982(80-90% Killing=1µM),Saccharomyces cerevisiae BY4741(MIC=1µM),Escherichia coli DH5alpha(MIC=>32µM),Bacillus subtilis ATCC 6633(MIC=>32µM),HCoV-229E(20-30% Inhibition=8µM)"
+        }
+    }
+}

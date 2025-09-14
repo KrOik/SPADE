@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_00399": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_00399",
+            "Peptide Name": "Human recombinant Ser-Thr-Ala-CGA1-78 peptide (hrVS-1)",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "STALPVNSPMNKGDTEVMKCIVEVISDTLSKPSPMPVSQECFETLRGDERILSILRHQNLLKELQDLALQGAKERAHQQKK",
+            "Sequence Length": 81,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Antifungal"
+            ],
+            "Target Organism": "Gram-positive bacteria:Micrococcus luteus (MIC=30 µM), Bacillus megaterium (MIC=30 µM).Fungi:Neurospora crassa (MIC=10 µM), Alternaria brassicicola (MIC=1 µM), Nectria haematococca (MIC=3 µM), Fusarium culmorum (MIC=5 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C390H655N113O124S5",
+            "Mass": 9071.38,
+            "PI": 6.69,
+            "Net Charge": 2,
+            "Hydrophobicity": -0.51,
+            "Half Life": "Mammalian:1.9 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Antibacterial and antifungal activities of vasostatin-1, the N-terminal fragment of chromogranin A.",
+                    "Pubmed ID": "10753865",
+                    "Reference": "J Biol Chem. 2000 Apr 14;275(15)10745-10753.",
+                    "Author": "Lugardon K, Raffner R, Goumon Y, Corti A, Delmas A, Bulet P, Aunis D, Metz-Boutigue MH.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=10753865"
+                }
+            ],
+            "Frequent Amino Acids": "LEK",
+            "Absent Amino Acids": "OUWY",
+            "Basic Residues": 13,
+            "Acidic Residues": 11,
+            "Hydrophobic Residues": 32,
+            "Polar Residues": 44,
+            "Positive Residues": 13,
+            "Negative Residues": 11,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_00401",
+                    "Similarity": 1.0,
+                    "Sequence": "TLRGDERILSILRHQNLLKE"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_00402",
+                    "Similarity": 1.0,
+                    "Sequence": "TLRGDERILSILRHQNLLKELQDLALQGAK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07799",
+                    "Similarity": 1.0,
+                    "Sequence": "RILSILRHQNLLKELQDLAL"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "SPADE_UN_25310": {
+        "Sequence Information": {
+            "Peptide Name": "Temporin-L [Q3P,L9l,G10Nle]-GG-CYS(PEG4-Chol)",
+            "Sequence": "FVPWFSKFLXRILGGX",
+            "Sequence Length": 16,
+            "Biological Activity": [
+                "Antiviral",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P57104",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P57104",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Broad-Spectrum Antiviral Activity of the Amphibian Antimicrobial Peptide Temporin L and Its Analogs.",
+                    "Pubmed ID": "35216177",
+                    "Reference": "Int J Mol Sci. 2022;23:2060",
+                    "Author": "Zannella C, Chianese A, Palomba L, Marcocci ME, Bellavita R, Merlino F, Grieco P, Folliero V, De Filippis A, Mangoni M, Nencioni L, Franci G, Galdiero M",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/35216177"
+                }
+            ],
+            "SPADE ID": "SPADE_UN_25310",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_11520",
+                    "Similarity": 1.0,
+                    "Sequence": "FVPWFSKFLPRIL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_11618",
+                    "Similarity": 1.0,
+                    "Sequence": "FVPWFSKFLGRIL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_11706",
+                    "Similarity": 1.0,
+                    "Sequence": "FVPWFSKFLKRIL"
+                }
+            ],
+            "Hemolytic Activity": "Vero cells:50% Cytotoxicity=>100 µM",
+            "Target Organism": "HSV-1(IC90 I=47.95µM),HSV-1(IC50 I=9.54µM),SARS-CoV-2(IC90 I=49.95µM),SARS-CoV-2(IC50 I=12.12µM),Mink enteritis virus (MeV)(IC90 I=>50µM),Mink enteritis virus (MeV)(IC50 I=40.89µM),Human Influenza A Virus H1N1(IC90 I=49.90µM),Human Influenza A Virus H1N1(IC50 I=21.12µM)"
+        }
+    }
+}

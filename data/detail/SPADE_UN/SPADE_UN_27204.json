@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_27204": {
+        "Sequence Information": {
+            "Peptide Name": "Gaegurin-5 (1-13)[G3K,V8A,A9L,S10K,V12L], PTP7k3k10",
+            "Sequence": "FLKALFKALKKLL",
+            "Sequence Length": 13,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P80399",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P80399",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Correlation between the activities of alpha-helical antimicrobial peptides and hydrophobicities represented as RP HPLC retention times.",
+                    "Pubmed ID": "15894405",
+                    "Reference": "Peptides. 2005;26:2050-2056",
+                    "Author": "Kim S, Kim SS, Lee BJ",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/15894405"
+                }
+            ],
+            "Mass": 1533.0,
+            "PI": 10.48,
+            "Net Charge": 4,
+            "Hydrophobicity": 0.97,
+            "Frequent Amino Acids": "LKA",
+            "Absent Amino Acids": "CDEGHIMNOPQRSTUVWY",
+            "Basic Residues": 4,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 4,
+            "Positive Residues": 4,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_27204",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_12092",
+                    "Similarity": 1.0,
+                    "Sequence": "KKLKAFLKAWAKLFKAL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_12093",
+                    "Similarity": 1.0,
+                    "Sequence": "KALKKFLKAWAKLFKAL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_27204",
+                    "Similarity": 1.0,
+                    "Sequence": "FLKALFKALKKLL"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:19% Hemolysis=100 µg/ml",
+            "Target Organism": "Staphylococcus aureus ATCC 6538(MIC=9µg/ml),Staphylococcus epidermidis ATCC 12228(MIC=10µg/ml),Micrococcus luteus ATCC 4698(MIC=3µg/ml),Escherichia coli DH5alpha(MIC=12µg/ml)"
+        }
+    }
+}

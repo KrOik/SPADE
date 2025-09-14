@@ -1,0 +1,83 @@
+{
+    "SPADE_N_00982": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 5750504 A",
+                "Patent Link": "http://www.lens.org/lens/patent/US_5750504_A",
+                "Patent Type": "Granted Patent",
+                "Publication Date": "1998-5-12",
+                "Family Info": "CA2177854A1,CN1080303C,CN1139454A,DE69434071D1,DE69434071T2,EP0736096A1,EP0736096B1,US5919918,WO1995018229A1",
+                "Patent Title": "Antimicrobial proteins.",
+                "Abstract": "Antimicrobial proteins capable of isolation from seeds of Heuchera or Aesculus show a wide range of antifungal activity and some activity against Gram-positive bacteria. DNA encoding the proteins may be isolated and incorporated into vectors. Plants transformed with this DNA may be produced. The proteins find commercial application as antifungal or antibacterial agents; transformed plants will show increased disease-resistance."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00982",
+            "Peptide Name": "Defensin-like protein (Clone PSAS10; Plant defensin)",
+            "Source": "Vigna unguiculata (cowpea seeds)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "KTCENLVDTYRGPCFTTGSCDDHCKNKEHLLSGRCRDDVRCWCTRNC",
+            "Sequence Length": 47,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P18646"
+            ],
+            "Protein Existence": "Homology",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antifungal"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C220H349N73O73S8",
+            "Mass": 5441.09,
+            "PI": 7.72,
+            "Net Charge": 3,
+            "Hydrophobicity": -0.92,
+            "Half Life": "Mammalian:1.3 hourYeast:3 minE.coli:2 min",
+            "Comments": "This protein is required for germination.",
+            "Literature": [
+                {
+                    "Title": "Stored mRNA in cotyledons of Vigna unguiculata seeds nucleotide sequence of cloned cDNA for a stored mRNA and induction of its synthesis by precocious germination.",
+                    "Pubmed ID": "2103443",
+                    "Reference": "Plant Mol Biol. 1990 Jul;15(1)59-64.",
+                    "Author": "Ishibashi N, Yamauchi D, Minamikawa T.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=2103443"
+                }
+            ],
+            "Frequent Amino Acids": "CDR",
+            "Absent Amino Acids": "AIMOQU",
+            "Basic Residues": 10,
+            "Acidic Residues": 7,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 31,
+            "Positive Residues": 10,
+            "Negative Residues": 7,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07923",
+                    "Similarity": 1.0,
+                    "Sequence": "MEKKSIAGLCFLFLVLFVAQEVVVQSEAKTCENLVDTYRGPCFTTGSCDDHCKNKEHLLSGRCRDDVRCWCTRNC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08325",
+                    "Similarity": 0.9787234042553191,
+                    "Sequence": "KTCENLADTYRGPCFTTGSCDDHCKNKEHLLSGRCRDDVRCWCTRNC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00957",
+                    "Similarity": 0.9148936170212766,
+                    "Sequence": "KTCENLANTYRGPCFTTGSCDDHCKNKEHLRSGRCRDDFRCWCTRNC"
+                }
+            ]
+        }
+    }
+}

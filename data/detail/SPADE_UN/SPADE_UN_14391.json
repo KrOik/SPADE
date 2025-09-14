@@ -1,0 +1,71 @@
+{
+    "SPADE_UN_14391": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_14391",
+            "Peptide Name": "CPE",
+            "Source": "Synthetic construct(derived from the C-terminal sequence of α1-antitrypsin)",
+            "Family": "Retroviridae",
+            "Gene": "Not found",
+            "Sequence": "CPFVFLE",
+            "Sequence Length": 7,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antiviral"
+            ],
+            "Target Organism": "[Ref.22406118]HIV-1 IIIB:inhibition of virus replication(IC50=55.84 ± 3.31μM);inhibition of cell-cell fusion between H9/HIV-1IIIB cells and MT-2 cells(IC50=115.58 ± 6.28 μM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "[Ref.22406118]MT-2 cells:CC50>200 μM.",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Cyclization (N termini to C termini)",
+            "C-terminal Modification": "Cyclization (N termini to C termini)",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C42H59N7O10S",
+            "Mass": 854.02,
+            "PI": 4.6,
+            "Net Charge": -1,
+            "Hydrophobicity": 1.57,
+            "Half Life": "Mammalian:1.2 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Short cyclic peptides derived from the C-terminal sequence of α1-antitrypsin exhibit significant anti-HIV-1 activity.",
+                    "Pubmed ID": "22406118",
+                    "Reference": "Bioorg Med Chem Lett. 2012 Apr 1;22(7)2393-5.",
+                    "Author": "Jia Q, Jiang X, Yu F, Qiu J, Kang X, Cai L, Li L, Shi W, Liu S, Jiang S, Liu K.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=22406118"
+                }
+            ],
+            "Frequent Amino Acids": "FCE",
+            "Absent Amino Acids": "ADGHIKMNOQRSTUWY",
+            "Basic Residues": 0,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 2,
+            "Positive Residues": 0,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_05826",
+                    "Similarity": 1.0,
+                    "Sequence": "FLKGCWTKWYSLKPKCPF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15335",
+                    "Similarity": 1.0,
+                    "Sequence": "PFV"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_14386",
+                    "Similarity": 1.0,
+                    "Sequence": "PFVFLE"
+                }
+            ]
+        }
+    }
+}

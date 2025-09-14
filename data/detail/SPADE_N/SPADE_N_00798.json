@@ -1,0 +1,109 @@
+{
+    "SPADE_N_00798": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00798",
+            "Peptide Name": "Kalata-B1 (Plant defensin)",
+            "Source": "Oldenlandia affinis",
+            "Family": "Belongs to the cyclotide family",
+            "Gene": "OAK1",
+            "Sequence": "GLPVCGETCVGGTCNTPGCTCSWPVCTRN",
+            "Sequence Length": 29,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P56254"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Antiviral"
+            ],
+            "Target Organism": "[Ref.10430870]Gram-positive bacterium:Staphylococcus aureus (MIC=0.26 µM), Micrococcus luteus (MIC=40.4 µM);Gram-negative bacterium:Klebsiella oxytoca (MIC=54.8 µM);Fungi:Candida kefyr (MIC=21.4 µM).[Ref.18008336]Virus:HIV:inhibition the cytopathic effects of HIV-1 infection in cultured human T-lymphoblast (CEM-SS) cells(EC50=140 nM).",
+            "Hemolytic Activity": "[Ref.12779323] HD50 = 300 μM against Human type A red blood cells.",
+            "Cytotoxicity": "[Ref.18008336]CEM-SS cells:IC50=3500 nM.",
+            "Binding Target": "Cell membrance",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Cyclization (N termini to C termini)",
+            "C-terminal Modification": "Cyclization (C termini to N termini)",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C117H187N35O40S6",
+            "Mass": 2916.34,
+            "PI": 5.96,
+            "Net Charge": 0,
+            "Hydrophobicity": 0.15,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Probably participates in a plant defense mechanism. Has antibiotic activity. Has a diuretic effect. Has a uterotonic effect in humans. Active against the Gram-positive S. aureus. Relatively ineffective against Gram-negative bacteria such as E. coli and P. aeruginosa. Inhibitory effect on the growth and development of larvae from H. punctigera. The unmodified form has hemolytic activity, the oxidized form lacks hemolytic activity. If the protein is linearized, hemolytic activity is lost.",
+            "Mechanism of action": "a small number of cyclotides bind to the membrane surface and then insert first into the outer membrane leaflet followed by penetration through the membrane and pore formation. At higher concentrations of cyclotides, destabilization of membranes occurs.",
+            "Tissue specificity": "Leaves and stems. Lower in roots.",
+            "Medical use": "The uteroactive properties of Kalata have been discovered by African traditional medicine. It is used as an ingredient of a herbal tea to accelerate childbirth.",
+            "PTM": "Kalata-B1 is a cyclic peptide which contains three disulfide bonds 5-19; 11-21; 14-26.",
+            "Literature": [
+                {
+                    "Title": "Cyclotides as natural anti-HIV agents.",
+                    "Pubmed ID": "18008336",
+                    "Reference": "Biopolymers. 2008;90(1)51-60.",
+                    "Author": "Ireland DC, Wang CK, Wilson JA, Gustafson KR, Craik DJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=18008336"
+                },
+                {
+                    "Title": "An unusual structural motif of antimicrobial peptides containing end-to-end macrocycle and cystine-knot disulfides.",
+                    "Pubmed ID": "10430870",
+                    "Reference": "Proc Natl Acad Sci U S A. 1999 Aug 3;96(16)8913-8918.",
+                    "Author": "Tam JP, Lu YA, Yang JL, Chiu KW.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=10430870"
+                },
+                {
+                    "Title": "Elucidation of the primary and three-dimensional structure of the uterotonic polypeptide kalata B1.",
+                    "Pubmed ID": "7703226",
+                    "Reference": "Biochemistry. 1995 Apr 4;34(13)4147-4158.",
+                    "Author": "Saether O, Craik DJ, Campbell ID, Sletten K, Juul J, Norman DG.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=7703226"
+                },
+                {
+                    "Title": "The cyclotide fingerprint in oldenlandia affinis elucidation of chemically modified, linear and novel macrocyclic peptides.",
+                    "Pubmed ID": "17534989",
+                    "Reference": "Chembiochem. 2007 Jun 18;8(9)1001-1011.",
+                    "Author": "Plan MR, Göransson U, Clark RJ, Daly NL, Colgrave ML, Craik DJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=17534989"
+                },
+                {
+                    "Title": "Cyclotides insert into lipid bilayers to form membrane pores and destabilize the membrane through hydrophobic and phosphoethanolamine-specific interactions.",
+                    "Pubmed ID": "23129773",
+                    "Reference": "J Biol Chem. 2012 Dec 21;287(52)43884-98.",
+                    "Author": "Wang CK, Wacklin HP, Craik DJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=23129773"
+                }
+            ],
+            "Frequent Amino Acids": "CGT",
+            "Absent Amino Acids": "ADFHIKMOQUY",
+            "Basic Residues": 1,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 18,
+            "Positive Residues": 1,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07230",
+                    "Similarity": 1.0,
+                    "Sequence": "CGETCVGGTCNTPGCTCSWPVCTRNGLPV"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07430",
+                    "Similarity": 1.0,
+                    "Sequence": "VCGETCVGGTCNTPGCTCSWPVCTRNGLP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08102",
+                    "Similarity": 1.0,
+                    "Sequence": "TCVGGTCNTPGCTCSWPVCTRNGLPVCGE"
+                }
+            ]
+        }
+    }
+}

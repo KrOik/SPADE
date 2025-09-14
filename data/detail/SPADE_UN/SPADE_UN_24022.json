@@ -1,0 +1,61 @@
+{
+    "SPADE_UN_24022": {
+        "Sequence Information": {
+            "Peptide Name": "RP40-20/2",
+            "Sequence": "IQALAALATHVTATGPFK",
+            "Sequence Length": 18,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Encrypted antimicrobial peptides from proteins present in the plasma of the millipede Rhinocricus sp.",
+                    "Pubmed ID": "33894375",
+                    "Reference": "J Proteomics. 2021;242:104239",
+                    "Author": "Segura-Ramírez PJ, de Godoy PM, Avino NA, Junior PIS",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/33894375"
+                }
+            ],
+            "Mass": 1810.1,
+            "PI": 8.76,
+            "Net Charge": 2,
+            "Hydrophobicity": 0.74,
+            "Frequent Amino Acids": "ATL",
+            "Absent Amino Acids": "CDEMNORSUWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 8,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_24022",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_13390",
+                    "Similarity": 0.75,
+                    "Sequence": "LALALALALALALALALALALA"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_21166",
+                    "Similarity": 0.75,
+                    "Sequence": "LALALALALALALALALALALA"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_12481",
+                    "Similarity": 0.6666666666666666,
+                    "Sequence": "KWKVLKKKIMKMLRNRINGLVKAGPALKVKLQALAL"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:<5% Hemolysis=118.22 µM,Vero cells:20% Killing=100 µM",
+            "Target Organism": "Escherichia coli SBS 363(MIC=3.69µM),Micrococcus luteus A270(MIC=3.69µM),Candida albicans MDM8(MIC=14.77µM),Aspergillus niger(no activity data)"
+        }
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "SPADE_N_01402": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01402",
+            "Peptide Name": "Rugosin-RN3 (Frogs, amphibians, animals)",
+            "Source": "Rana nigrovittata",
+            "Family": "Belongs to the frog skin active peptide family (Brevinin subfamily)",
+            "Gene": "Not found",
+            "Sequence": "SIRDKIKTIAIDLAKSAGMGILKTLICKLDKSC",
+            "Sequence Length": 33,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "Gram-positive bacteria:Staphylococcus aureus ATCC25923 (MIC=16.51 µg/ml), Bacillus subtilis (MIC=18.75 µg/ml);Gram-negative bacterium:Escherichia coli ML-35P (MIC=25.00 µg/ml).Yeast:Candida albicans ATCC2002 (MIC=15.00 µg/ml).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Cyclization (Cys27 and Cys33)",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C155H280N42O45S3",
+            "Mass": 3548.33,
+            "PI": 9.51,
+            "Net Charge": 4,
+            "Hydrophobicity": 0.35,
+            "Half Life": "Mammalian:1.9 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Peptidomics and genomics analysis of novel antimicrobial peptides from the frog, Rana nigrovittata.",
+                    "Pubmed ID": "19778602",
+                    "Reference": "Genomics. 2010 Jan;95(1)66-71.",
+                    "Author": "Ma Y, Liu C, Liu X, Wu J, Yang H, Wang Y, Li J, Yu H, Lai R.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=19778602"
+                }
+            ],
+            "Frequent Amino Acids": "IKL",
+            "Absent Amino Acids": "EFHNOPQUVWY",
+            "Basic Residues": 7,
+            "Acidic Residues": 3,
+            "Hydrophobic Residues": 14,
+            "Polar Residues": 17,
+            "Positive Residues": 7,
+            "Negative Residues": 3,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01401",
+                    "Similarity": 0.9393939393939394,
+                    "Sequence": "SIRDKIKTIAIDLAKSAGTGVLKTLICKLDKSC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01403",
+                    "Similarity": 0.9090909090909091,
+                    "Sequence": "SIRDKIKTIAIDLAKSAGTGVLKTLICKLNKSC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15643",
+                    "Similarity": 0.9090909090909091,
+                    "Sequence": "SIRDKIKTMAIDLAKSAGTGVLKTLICKLDKSC"
+                }
+            ]
+        }
+    }
+}

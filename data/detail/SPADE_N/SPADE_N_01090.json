@@ -1,0 +1,80 @@
+{
+    "SPADE_N_01090": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01090",
+            "Peptide Name": "Ocellatin-1 (Frogs, amphibians, animals)",
+            "Source": "Leptodactylus ocellatus (Argus frog) (Leptodactylus macrosternum)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "GVVDILKGAGKDLLAHLVGKISEKV",
+            "Sequence Length": 25,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P83951"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Swiss_Prot Entry P83951]Gram-negative bacterium:Escherichia coli",
+            "Hemolytic Activity": "[Ref:15648972]Show hemolytic activity against human red blood cells",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C116H203N31O33",
+            "Mass": 2560.04,
+            "PI": 8.44,
+            "Net Charge": 2,
+            "Hydrophobicity": 0.52,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Has hemolytic activity against human erythrocytes and antibacterial activity against the Gram-negative bacterium E. coli.",
+            "Tissue specificity": "Expressed by the skin dorsal glands.",
+            "Literature": [
+                {
+                    "Title": "Ocellatins new antimicrobial peptides from the skin secretion of the South American frog Leptodactylus ocellatus (Anura Leptodactylidae).",
+                    "Pubmed ID": "15648972",
+                    "Reference": "Protein J. 2004 Nov;23(8)501-508.",
+                    "Author": "Nascimento AC, Zanotta LC, Kyaw CM, Schwartz EN, Schwartz CA, Sebben A, Sousa MV, Fontes W, Castro MS.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=15648972"
+                },
+                {
+                    "Title": "Ocellatins: new antimicrobial peptides from the skin secretion of the South American frog Leptodactylus ocellatus (Anura: Leptodactylidae).",
+                    "Pubmed ID": "R2004J0955",
+                    "Author": "Schwartz C.A.,Schwartz E.N.F.,Kyaw C.M.,Zanotta L.C.,Nascimento A.C.C."
+                }
+            ],
+            "Frequent Amino Acids": "GKL",
+            "Absent Amino Acids": "CFMNOPQRTUWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 3,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 12,
+            "Positive Residues": 5,
+            "Negative Residues": 3,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01097",
+                    "Similarity": 0.84,
+                    "Sequence": "GVVDILKGAGKDLLAHALSKLSEKV"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01098",
+                    "Similarity": 0.84,
+                    "Sequence": "GVLDILKGAGKDLLAHALSKISEKV"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_22821",
+                    "Similarity": 0.8125,
+                    "Sequence": "GVVDILKGAAKDLAGH"
+                }
+            ]
+        }
+    }
+}

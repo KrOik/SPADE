@@ -1,0 +1,72 @@
+{
+    "SPADE_N_14406": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_14406",
+            "Peptide Name": "TS-CATH (Lys-rich, cathelicidin, natural AMPs; snake, reptiles, animals, UCLL1; BBMm)",
+            "Source": "Common garter snake,Thamnophis sirtalis",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "KRFKKFFKKIKKSVKKRVKKLFKKPRVIPISIPF",
+            "Sequence Length": 34,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-inflammatory",
+                "Wound healing"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 4217.36,
+            "PI": 12.0,
+            "Hydrophobicity": -0.65,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Wang J, Zhang M, Li C, Liu M, Qi Y, Xie X, Zhou C, Ma L. 2024",
+                    "Reference": "Comput Struct Biotechnol J. 2024 May 17;23:2388-2406. doi: 10.1016/j.csbj.2024.05.020.PubMed",
+                    "Title": "A novel cathelicidin TS-CATH derived from Thamnophis sirtalis combats drug-resistant gram-negative bacteria in vitro and in vivo."
+                }
+            ],
+            "Frequent Amino Acids": "KFI",
+            "Absent Amino Acids": "ACDEGHMNOQTUWY",
+            "Basic Residues": 16,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 16,
+            "Polar Residues": 21,
+            "Positive Residues": 16,
+            "Negative Residues": 0,
+            "Net Charge": 16,
+            "Comments": "Sequence analysis: APD analysis reveals that this sequence is similar (85.29%) toBF-CATHK: 38%, F: 15%, I: 12%. GRAVY: -0.653; Mol Wt: 4217.38; mol formula: C207H352N56O37; mol ex coeff: 0.Activity: active against E. coli 11 isolates (MIC 8-16 ug/ml) one AMP-resistant? strain MIC >128 ug/ml, P. aeruginosa 10 strains (MIC 16-32 ug/ml), A. baumannii 9 strains (MIC 16-32 ug/ml) one AMP-resistant? strain MIC >128 ug/ml, and K. pneumoniae 7 isolates (MIC 16 ug/ml) one AMP-resistant? strain MIC >128 ug/ml.MOA:bacteria:E. coli:  act on membranes: charge neutralization and membrane permeation (PI) and depolarization.Structure:  random coil in water and helical in 25 mM SDS.In vitro toxicity: sheep RBC, less than 20% hemolysis at 512 ug/ml: poor hemo.lytic.Animal model:mouse: wound infected with P. aeruginosa, treated with TS-CATH hydrogels (10 mg/kg), dose-dependent reduced bacterial burden on day 7 and promoted wound healing on day 13.  Systemic bacteremia: IP infected with ceftazidime-resistant E. coli, IP treated with 10 mg/kg protected 85.7% mice from death. At 8 h post treatment, the peptide suppressed the levels of IL-1beta, TNF-alpha, and IL-6.",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06401",
+                    "Similarity": 0.9285714285714286,
+                    "Sequence": "KRFKKFFKKVKKSV"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_28366",
+                    "Similarity": 0.9090909090909091,
+                    "Sequence": "KRFKKFFKKLK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_28370",
+                    "Similarity": 0.9090909090909091,
+                    "Sequence": "KRFKKFFKKPK"
+                }
+            ]
+        }
+    }
+}

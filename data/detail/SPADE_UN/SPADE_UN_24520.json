@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_24520": {
+        "Sequence Information": {
+            "Peptide Name": "Putative C-C motif chemokine 28 (52-76), smCCL27b-25",
+            "Sequence": "APLKMKAILEIVHRRMKQNKMKAAF",
+            "Sequence Length": 25,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "A0A2U9BSX3",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/A0A2U9BSX3",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "LcCCL28-25, Derived from Piscine Chemokine, Exhibits Antimicrobial Activity against Gram-Negative and Gram-Positive Bacteria In Vitro and In Vivo",
+                    "Pubmed ID": "35616397",
+                    "Reference": "Microbiol Spectr. 2022;:e0251521",
+                    "Author": "Su J, Li H, Hu J, Wang D, Zhang F, Fu Z, Han F",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/35616397"
+                }
+            ],
+            "Mass": 2953.68,
+            "PI": 11.22,
+            "Net Charge": 7,
+            "Hydrophobicity": -0.29,
+            "Frequent Amino Acids": "KAM",
+            "Absent Amino Acids": "CDGOSTUWY",
+            "Basic Residues": 8,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 12,
+            "Positive Residues": 8,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_UN_24520",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_01002",
+                    "Similarity": 0.6666666666666666,
+                    "Sequence": "KKAAAFAAAAAFAAWAAFAAAKKKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_01014",
+                    "Similarity": 0.6666666666666666,
+                    "Sequence": "KKAAAFAAAAAFAAAAFAAAKKKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_01035",
+                    "Similarity": 0.6666666666666666,
+                    "Sequence": "KKKKKKAAFAAFAAFAA"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:<7% Hemolysis=500 µg/ml",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=50.0µg/ml),Klebsiella pneumoniae CMCC 46117(MIC=>50.0µg/ml),Aeromonas hydrophila ATCC 7966(MIC=>50.0µg/ml),Pseudomonas aeruginosa PAO1(MIC=50.0µg/ml),Pseudomonas aeruginosa(MIC=25.0µg/ml),Staphylococcus aureus ATCC 25923(MIC=25.0µg/ml),Streptococcus agalactiae ATCC 13813(MIC=25.0µg/ml),Streptococcus pneumoniae ATCC 49619(MIC=25.0µg/ml),Staphylococcus aureus ATCC 43300(MIC=>50.0µg/ml),Staphylococcus aureus USA 300(MIC=25.0µg/ml)"
+        }
+    }
+}

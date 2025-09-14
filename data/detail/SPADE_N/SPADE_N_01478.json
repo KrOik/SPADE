@@ -1,0 +1,84 @@
+{
+    "SPADE_N_01478": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01478",
+            "Peptide Name": "Bombinin-H5 (Frogs, amphibians, animals)",
+            "Source": "Bombina variegata (European frog)",
+            "Family": "Belongs to the bombinin family",
+            "Gene": "Not found",
+            "Sequence": "IIGPVLGLVGSALGGLLKKI",
+            "Sequence Length": 20,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P82285"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.8223491]Gram-negative bacterium:Escherichia coli D21 (MIC=5.0 µM);Gram-positive bacterium:Staphylococcus aureus Cowan 1 (MIC=3.0 µM).",
+            "Hemolytic Activity": "[Ref:8223491]Not found",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "Mixed (2D-aIle(alloisoleucine))",
+            "Structure Description": "Not found",
+            "Formula": "C91H164N22O22",
+            "Mass": 1918.41,
+            "PI": 10.0,
+            "Net Charge": 2,
+            "Hydrophobicity": 1.52,
+            "Half Life": "Mammalian:20 hourYeast:30 minE.coli:>10 hour",
+            "Function": "Has antimicrobial activity.",
+            "Tissue specificity": "Expressed by the skin glands.",
+            "PTM": "C-terminal amidation and D-amino acid.",
+            "Literature": [
+                {
+                    "Title": "Antibacterial and haemolytic peptides containing D-alloisoleucine from the skin of Bombina variegata.",
+                    "Pubmed ID": "8223491",
+                    "Reference": "EMBO J. 1993 Dec;12(12)4829-4832",
+                    "Author": "Mignogna G, Simmaco M, Kreil G, Barra D.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=8223491"
+                },
+                {
+                    "Title": "Solution structure and orientation of bombinin H2 and H4 in a membrane-mimetic environment.",
+                    "Pubmed ID": "PubMed ID is not available",
+                    "Reference": "TO BE PUBLISHED",
+                    "Author": "Zangger K, Jilek A, Khatai L.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=PubMed ID is not available"
+                }
+            ],
+            "Frequent Amino Acids": "GLI",
+            "Absent Amino Acids": "CDEFHMNOQRTUWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 6,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07885",
+                    "Similarity": 1.0,
+                    "Sequence": "IGPVLGLVGSALGGLLKKI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09177",
+                    "Similarity": 1.0,
+                    "Sequence": "GLLKKIKTLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10426",
+                    "Similarity": 1.0,
+                    "Sequence": "GLLKKIKKLL"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "SPADE_UN_13433": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_13433",
+            "Peptide Name": "TC19 (derived from the human thrombocidin-1-derived peptide L3)",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "N/A",
+            "Sequence": "LRCMCIKWWSGKHPK",
+            "Sequence Length": 15,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic form",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.32376222] Gram-positive bacteria:E. coli ESBL (LC99.9 = 3.75 μM in PT buffer, LC99.9 = 15 μM in PBS buffer);Gram-negative bacteria:S. aureus JAR060131 (LC99.9 = 3.75 μM in PT buffer, LC99.9 = 7.5-15 μM in PBS buffer, LC99.9 = 15-30 μM in 50% plasma).Multi-drug resistant (MDR) gram-positive bacteria:E.faecium LUH10330 (LC99.9 = 1.6(1.6-3.2) μM in PBS buffer, LC99.9 =6.4 (3.2-6.4) μM in 50% plasma), S.aureus LUH14616 (LC99.9 = 3.2(3.2-6.4) μM in PBS buffer, LC99.9 = 12.8 (3.2-12.8) μM in 50% plasma).Multi-drug resistant (MDR) and pan-drug resistant (PDR) gram-negative bacteria:K.pneumoniae LUH8995 (LC99.9 = 1.6(0.8-1.6) μM in PBS buffer, LC99.9 = 3.2 μM in 50% plasma), A.baumannii RUH875 (LC99.9 = 1.6(1.6-3.2) μM in PBS buffer, LC99.9 =6.4 (6.4-12.8) μM in 50% plasma), P.aeruginosa LUH15100 (LC99.9 = 4.8(3.2-6.4) μM in PBS buffer, LC99.9 > 204.8 μM in 50% plasma), E.cloacae LUH15114 (LC99.9 = 25.6 μM in PBS buffer, LC99.9 = 204.8 μM in 50% plasma)Note:Results are expressed as the lethal concentration (LC) 99.9%, i.e. the lowest peptide concentration that resulted in >= 99.9% killing of bacteria after 2 h of incubation in PT buffer (10 mM phosphate buffer, pH 7.0, with 1% (v/v) TSB), phosphate buffered saline (PBS, pH 7.4) and in PBS with 50% (v/v) human plasma (one experiment, performed in duplicate).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "[Ref.32891601]Up to 40 μM TC19 did not permeabilize human fibroblasts, whereas at 80 μM an increase in PI-positivity was recorded after 4 h of exposure. After 4h of incubation with TC19 at indicated concentration (80 μM), PI-uptake by normal human dermal fibroblasts (NHDF) had increased from 5% to 20% comparing to the result after 1h of incubation.",
+            "Binding Target": "Bacterial membrane",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C85H133N25O17S3",
+            "Mass": 1873.32,
+            "PI": 9.85,
+            "Net Charge": 5,
+            "Hydrophobicity": -0.59,
+            "Half Life": "Mammalian:5.5 hourYeast:3 minE.coli:2 min",
+            "Comments": "TC19 combined low cytotoxicity towards human fibroblasts with efficient and rapid killing in human plasma of MDR strains of several bacterial species of the ESKAPE panel. However, the hemolytic activity data and secondary structure is missing.",
+            "Literature": [
+                {
+                    "Title": "Thrombocidin-1-derived antimicrobial peptide TC19 combats superficial multi-drug resistant bacterial wound infections",
+                    "Pubmed ID": "32376222",
+                    "Reference": "Biochim Biophys Acta Biomembr. 2020 Aug 1;1862(8)183282. doi 10.1016/j.bbamem.2020.183282. Epub 2020 May 3.",
+                    "Author": "Riool M, de Breij A, Kwakman PHS, Schonkeren-Ravensbergen E, de Boer L, Cordfunke RA, Malanovic N, Drijfhout JW, Nibbering PH, Zaat SAJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=32376222"
+                },
+                {
+                    "Title": "Synthetic antimicrobial peptides delocalize membrane bound proteins thereby inducing a cell envelope stress response",
+                    "Pubmed ID": "",
+                    "Author": "Omardien S, Drijfhout JW, van Veen H, Schachtschabel S, Riool M, Hamoen LW, Brul S, Zaat SAJ"
+                }
+            ],
+            "Frequent Amino Acids": "KCW",
+            "Absent Amino Acids": "ADEFNOQTUVY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 8,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_25990",
+                    "Similarity": 1.0,
+                    "Sequence": "CRVRLRCRRGRCKVSLRC"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_25991",
+                    "Similarity": 1.0,
+                    "Sequence": "CRVRLRCRRRRCKVRLRC"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_26133",
+                    "Similarity": 1.0,
+                    "Sequence": "LCCLRCRLKLRC"
+                }
+            ]
+        }
+    }
+}

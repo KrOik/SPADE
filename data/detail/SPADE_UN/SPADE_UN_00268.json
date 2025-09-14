@@ -1,0 +1,72 @@
+{
+    "SPADE_UN_00268": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_00268",
+            "Peptide Name": "Cyclic hexapeptide KKWWKF",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "KKWWKF",
+            "Sequence Length": 6,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.16075425] Gram-negative bacterium:Escherichia coli(MIC=25 μM);Gram-positive bacterium:Bacillus subtilis(MIC=25 μM)",
+            "Hemolytic Activity": "[Ref.16075425] It has 10% hemolysis at 100 μM against erythrocytes.",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "No specific N-terminal",
+            "C-terminal Modification": "No specific C-terminal",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C49H67N11O7",
+            "Mass": 922.13,
+            "PI": 10.3,
+            "Net Charge": 3,
+            "Hydrophobicity": -1.78,
+            "Half Life": "Mammalian:1.3 hourYeast:3 minE.coli:2 min",
+            "Function": "Antibacterial activity against Escherichia coli and Bacillus subtilis. Has hemolytic activity.",
+            "Literature": [
+                {
+                    "Title": "Structure of the antimicrobial, cationic hexapeptide cyclo(RRWWRF) and its analogues in solution and bound to detergent micelles.",
+                    "Pubmed ID": "16075425",
+                    "Reference": "Chembiochem. 2005 Sep;6(9)1654-1662.",
+                    "Author": "Appelt C, Wessolowski A, S?derh??ll JA, Dathe M, Schmieder P.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16075425"
+                }
+            ],
+            "Frequent Amino Acids": "KWF",
+            "Absent Amino Acids": "ACDEGHILMNOPQRSTUVY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 3,
+            "Polar Residues": 3,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02322",
+                    "Similarity": 1.0,
+                    "Sequence": "FISNDECPSEYYYHCRLKCNADEHAIRYCADFSICCKLKIIEIHGQKKW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03174",
+                    "Similarity": 1.0,
+                    "Sequence": "FISNDECPSEYYHCRLKCNADEHAIRYCADFSICCKLKIIEIDGQKKW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06726",
+                    "Similarity": 1.0,
+                    "Sequence": "KFKKLAKKW"
+                }
+            ]
+        }
+    }
+}

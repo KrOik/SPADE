@@ -1,0 +1,74 @@
+{
+    "SPADE_N_03608": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03608",
+            "Peptide Name": "Px-cec1",
+            "Source": "Plutella xylostella (Diamondback moth)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "KPFKKLEKVGRNIRDGIIKAGPAVAVIGQATSIARPTGK",
+            "Sequence Length": 39,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "[Ref.22921836]Gram-positive bacterium:S. aureus (MIC=2 µM);Gram-negative bacteria:E. coli (MIC=0.1 µM), Pseudomonas fluorescent (MIC=1.1 µM), Salmonella choleraesuis (MIC=2.1 µM);Fungi:Aureobasidium pullulans (MIC=4.0 µM), Aspergillus flavus (MIC=14.5 µM), Aspergillus fumigatus (MIC=16.0 µM), Aspergillus niger (MIC=14.6 µM), Fusarium oxysporum (MIC=8.0 µM).",
+            "Hemolytic Activity": "[Ref.22921836]Non-hemolytic activity against human erythrocytes.",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "A circular dichroism (CD) analysis revealed that the recombinant Px-cec1 mainly contained α-helixes.",
+            "Formula": "C183H318N56O49",
+            "Mass": 4086.83,
+            "PI": 11.17,
+            "Net Charge": 7,
+            "Hydrophobicity": -0.24,
+            "Half Life": "Mammalian:1.3 hourYeast:3 minE.coli:2 min",
+            "Function": "Recombinant Px-cec1 exhibites a broad spectrum of anti-microbial properties against fungi, Gram-positive and Gram-negative bacteria, but it does not exhibit hemolytic activity against human erythrocytes.",
+            "Literature": [
+                {
+                    "Title": "cDNA cloning and characterization of the antibacterial peptide cecropin 1 from the diamondback moth, Plutella xylostella L.",
+                    "Pubmed ID": "22921836",
+                    "Reference": "Protein Expr Purif. 2012 Oct;85(2)230-238.",
+                    "Author": "Jin F, Sun Q, Xu X, Li L, Gao G, Xu Y, Yu X, Ren S.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=22921836"
+                }
+            ],
+            "Frequent Amino Acids": "KAG",
+            "Absent Amino Acids": "CHMOUWY",
+            "Basic Residues": 9,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 18,
+            "Polar Residues": 22,
+            "Positive Residues": 9,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07628",
+                    "Similarity": 1.0,
+                    "Sequence": "MKLSNIFFFVFMAFFAVASVSAAPRWKPFKKLEKVGRNIRDGIIKAGPAVAVIGQATSIARPTGK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15740",
+                    "Similarity": 0.9487179487179487,
+                    "Sequence": "RWKPFKKELKVGRNIRDGIIKAGPAVAVIGQATSIARPTGK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05699",
+                    "Similarity": 0.9487179487179487,
+                    "Sequence": "MAFKKLEKVGRNIRDGIIKAGPAVAVIGQATSIARPTGK"
+                }
+            ]
+        }
+    }
+}

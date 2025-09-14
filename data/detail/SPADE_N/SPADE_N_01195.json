@@ -1,0 +1,101 @@
+{
+    "SPADE_N_01195": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01195",
+            "Peptide Name": "Phylloseptin-1 (PS-1; Frogs, amphibians, animals)",
+            "Source": "Phyllomedusa hypochondrialis (Orange-legged leaf frog)",
+            "Family": "Not found",
+            "Gene": "psn1",
+            "Sequence": "FLSLIPHAINAVSAIAKHN",
+            "Sequence Length": 19,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P84566"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Antiprotozoal"
+            ],
+            "Target Organism": "[Ref.15752569]Gram-positive bacteria:Staphylococcus aureus (MIC=7.9 µM), Enterococcus faecalis (MIC=4.0 µM);Gram-negative bacteria:Escherichia coli (MIC=7.9 µM), Psecdomonas aeruginosa (MIC=4 µM), Psecdomonas aeruginosa wt (MIC=3 µM).",
+            "Hemolytic Activity": "[Ref:15752569]0.3% hemolytic activity at 4 μM, 0.57% hemolytic activity at 8 μM, 0.6% hemolytic activity at 16 μM, 0.98% hemolytic activity at 32 μM, 1.98% hemolytic activity at 64 μM against human red blood cells",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Cell membrane",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "The antimicrobial phylloseptin peptides adopt alpha-helical conformations in membrane environments which are stabilized by electrostatic interactions of the helix dipole as well as other contributions such hydrophobic and capping interactions.(Ref.2)",
+            "Formula": "C93H150N26O24",
+            "Mass": 2016.35,
+            "PI": 8.76,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.78,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Function": "Atomic force microscopy experiments indicated that the bacteriolytic properties of these peptides might be related to their disruptive action on the cell membrane. PS-1 did not exhibit significant hemolytic activity on human erythrocytes.",
+            "Tissue specificity": "Expressed by the skin glands.",
+            "PTM": "C-terminal amidation.",
+            "Literature": [
+                {
+                    "Title": "Phylloseptins a novel class of anti-bacterial and anti-protozoan peptides from the Phyllomedusa genus.",
+                    "Pubmed ID": "15752569",
+                    "Reference": "Peptides. 2005 Apr;26(4)565-573.",
+                    "Author": "Leite JR, Silva LP, Rodrigues MI, Prates MV, Brand GD, Lacava BM, Azevedo RB, Bocca AL, Albuquerque S, Bloch C Jr.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=15752569"
+                },
+                {
+                    "Title": "Solution NMR structures of the antimicrobial peptides phylloseptin-1, -2, and -3 and biological activity the role of charges and hydrogen bonding interactions in stabilizing helix conformations.",
+                    "Pubmed ID": "18656510",
+                    "Reference": "Peptides. 2008 Oct;29(10)1633-1644.",
+                    "Author": "Resende JM, Moraes CM, Prates MV, Cesar A, Almeida FC, Mundim NC, Valente AP, Bemquerer MP, PilÃ³-Veloso D, Bechinger B.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=18656510"
+                },
+                {
+                    "Title": "Elements of the granular gland peptidome and transcriptome persist in air-dried skin of the South American orange-legged leaf frog, Phyllomedusa hypocondrialis.",
+                    "Pubmed ID": "R2006J0488",
+                    "Author": "Shaw C.,Walker B.,Gagliardo R.,Zhou M.,Chen T."
+                },
+                {
+                    "Title": "Phylloseptins: a novel class of anti-bacterial and anti-protozoan peptides from the Phyllomedusa genus.",
+                    "Pubmed ID": "R2005J0992",
+                    "Author": "Brand G.D.,Prates M.V.,Rodrigues M.I.S.,Silva L.P.,Leite J.R.S.A."
+                },
+                {
+                    "Title": "Solution NMR structures of the antimicrobial peptides phylloseptin-1, -2, and -3 and biological activity: the role of charges and hydrogen bonding interactions in stabilizing helix conformations.",
+                    "Pubmed ID": "R2008J1210",
+                    "Author": "Almeida F.C.,Cesar A.,Prates M.V.,Moraes C.M.,Resende J.M."
+                }
+            ],
+            "Frequent Amino Acids": "AIH",
+            "Absent Amino Acids": "CDEGMOQRTUWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 12,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01188",
+                    "Similarity": 0.9473684210526315,
+                    "Sequence": "FLSLIPHAINAVSAIAKHS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01199",
+                    "Similarity": 0.9473684210526315,
+                    "Sequence": "FLSLIPHAINAVSAIAKHFG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01200",
+                    "Similarity": 0.9473684210526315,
+                    "Sequence": "FLSLIPHAINAVSAIAKHF"
+                }
+            ]
+        }
+    }
+}

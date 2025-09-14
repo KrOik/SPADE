@@ -1,0 +1,74 @@
+{
+    "SPADE_N_00902": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00902",
+            "Peptide Name": "Thionin (Plant defensin)",
+            "Source": "Pyrularia pubera (Buffalo nut) (Oil nut)",
+            "Family": "Belongs to the thionin family",
+            "Gene": "THI1",
+            "Sequence": "KSCCRNTWARNCYNVCRLPGTISREICAKKCDCKIISGTTCPSDYPK",
+            "Sequence Length": 47,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P07504"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Cytotoxic"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C220H362N68O67S8",
+            "Mass": 5288.16,
+            "PI": 9.06,
+            "Net Charge": 6,
+            "Hydrophobicity": -0.51,
+            "Half Life": "Mammalian:1.3 hourYeast:3 minE.coli:2 min",
+            "Function": "Thionins are small plant proteins which are toxic to animal cells. They seem to exert their toxic effect at the level of the cell membrane.",
+            "Toxic Dose": "At concentrations of 0.04 mg/ml the protein causes visible disruption of cultured mouse B16 melanoma cells.",
+            "PTM": "Contains three disulfide bonds 3-41; 4-31; 16-27 (By similarity).",
+            "Literature": [
+                {
+                    "Title": "A toxic thionin from Pyrularia pubera purification, properties, and amino acid sequence.",
+                    "Pubmed ID": "3985614",
+                    "Reference": "Arch Biochem Biophys. 1985 Apr;238(1)18-29.",
+                    "Author": "Vernon LP, Evett GE, Zeikus RD, Gray WR.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=3985614"
+                }
+            ],
+            "Frequent Amino Acids": "CKI",
+            "Absent Amino Acids": "FHMOQU",
+            "Basic Residues": 9,
+            "Acidic Residues": 3,
+            "Hydrophobic Residues": 14,
+            "Polar Residues": 33,
+            "Positive Residues": 9,
+            "Negative Residues": 3,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_08491",
+                    "Similarity": 1.0,
+                    "Sequence": "CCRNTWARNCYNVCRLPGTISREICAKKCDCKIISGTTC"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_28675",
+                    "Similarity": 1.0,
+                    "Sequence": "CCRNTWARNCYNVCRLPGTISREICAKKCDCKIISGTTC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08493",
+                    "Similarity": 1.0,
+                    "Sequence": "TWARNCYNVCRLPGTISREICAKKCD"
+                }
+            ]
+        }
+    }
+}

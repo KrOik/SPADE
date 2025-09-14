@@ -1,0 +1,76 @@
+{
+    "SPADE_N_02679": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02679",
+            "Peptide Name": "Ceratotoxin-D (Insects, animals)",
+            "Source": "Ceratitis capitata (Mediterranean Fruit fly) (Tephritis capitata)",
+            "Family": "Not found",
+            "Gene": "CTXD",
+            "Sequence": "SIGTAVKKAVPIAKKVGKVAIPIAKAVLSVVGQLVG",
+            "Sequence Length": 36,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/O17513"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Swiss_Prot Entry O17513]Female-specific peptides with potent activity against Gram-positive and Gram-negative bacteria",
+            "Hemolytic Activity": "[Swiss_Prot Entry O17513]has hemolytic activity",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C163H293N43O41",
+            "Mass": 3511.33,
+            "PI": 10.7,
+            "Net Charge": 6,
+            "Hydrophobicity": 1.0,
+            "Half Life": "Mammalian:1.9 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Female-specific peptides with potent activity against Gram-positive and Gram-negative bacteria. Has hemolytic activity.",
+            "Biophysicochemical properties": "Temperature dependence (Thermostable. Still active at 100 degrees Celsius).",
+            "Literature": [
+                {
+                    "Title": "The genes encoding the antibacterial sex-specific peptides ceratotoxins are clustered in the genome of the medfly Ceratitis capitata.",
+                    "Pubmed ID": "9569644",
+                    "Reference": "Insect Biochem Mol Biol. 1997 Dec;27(12)1039-1046.",
+                    "Author": "Rosetto M, De Filippis T, Manetti AG, Marchini D, Baldari CT, Dallai R.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=9569644"
+                }
+            ],
+            "Frequent Amino Acids": "VAK",
+            "Absent Amino Acids": "CDEFHMNORUWY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 22,
+            "Polar Residues": 24,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_01357",
+                    "Similarity": 0.72,
+                    "Sequence": "SIGSAFKKALPVAKKIGKAALPIAK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02677",
+                    "Similarity": 0.6896551724137931,
+                    "Sequence": "SIGSAFKKALPVAKKIGKAALPIAKAALP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02678",
+                    "Similarity": 0.6896551724137931,
+                    "Sequence": "SIGSALKKALPVAKKIGKIALPIAKAALP"
+                }
+            ]
+        }
+    }
+}

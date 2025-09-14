@@ -1,0 +1,76 @@
+{
+    "SPADE_UN_13492": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_13492",
+            "Peptide Name": "XT-7 [P5K]",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "N/A",
+            "Sequence": "GLLGKLLKIAAKVGSNLL",
+            "Sequence Length": 18,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P84381"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "[Ref.18554256]Gram-negative bacteria:Escherichia coli ATCC 25726(MIC=12.5 µM);Gram-positive bactria:Staphylococcus aureus ATCC 25923(MIC=3 µM);Fungi:Candida albicans ATCC 900280(MIC=6 µM);Cancer:human hepatoma‐derived cells HepG2 (LC50=14 µM).",
+            "Hemolytic Activity": "[Ref.18554256]Hemolysis against human erythrocytes (LC50=15 µM).",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "liposomes",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "53% α-helix was determined from the circular dichroism spectra recorded in 50% trifluoroethanol-water.",
+            "Formula": "C84H154N22O21",
+            "Mass": 1808.26,
+            "PI": 10.3,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.99,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Antibacterial activity against Gram-positive bacteria and Gram-negative bacteria.Antifungal activity against Candida albicans.",
+            "Literature": [
+                {
+                    "Title": "Design of potent, non-toxic antimicrobial agents based upon the naturally occurring frog skin peptides, ascaphin-8 and peptide XT-7.",
+                    "Pubmed ID": "18554256",
+                    "Reference": "Chem Biol Drug Des. 2008 Jul;72(1)58-64.",
+                    "Author": "Conlon JM, Galadari S, Raza H, Condamine E.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=18554256"
+                }
+            ],
+            "Frequent Amino Acids": "LGK",
+            "Absent Amino Acids": "CDEFHMOPQRTUWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 8,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01216",
+                    "Similarity": 1.0,
+                    "Sequence": "MFTMKKSLLLLFFLGTIHLSLCEQERNAEEERRDDLGERQAEVEKRFLPIAGKLLSGLSGLLGK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01217",
+                    "Similarity": 1.0,
+                    "Sequence": "MFTLKKSLLLLFFLGTINLSLCEQERNAEEERRDEPDERNAEVEKRFFPIVGKLLFGLSGLLGK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01218",
+                    "Similarity": 1.0,
+                    "Sequence": "MFTLKKSLLLLFFLGTINLSLCEQERNAEEERRDEPDERNAEVEKRFFPIVGKLLSGLSGLLGK"
+                }
+            ]
+        }
+    }
+}

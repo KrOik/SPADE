@@ -1,0 +1,72 @@
+{
+    "SPADE_UN_11360": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_11360",
+            "Peptide Name": "NAI-802 (Bacteriocin)",
+            "Source": "Actinoplanes strains ID104802 and ID104771",
+            "Family": "Belongs to the lantibiotics family (Class I bacteriocin)",
+            "Gene": "Not found",
+            "Sequence": "ASSGWVCTLTIECGTVICACR",
+            "Sequence Length": 21,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+"
+            ],
+            "Target Organism": "Gram-positive",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Lipid II",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "This peptide shares 19 residues with class II lantibiotic actagardine. In addition, it contains one extra Ala at the N-terminus and an extra Arg at the C-terminus. Actagardine, Ala(0)-actagardine, actagardine B, michiganin A, NAI-802 and Ala(0)-NAI-802 share three conserved thioether bridges within a core 19-aa peptide consisting of 14 invariant residues.",
+            "Formula": "C90H149N25O29S4",
+            "Mass": 2173.56,
+            "PI": 6.01,
+            "Net Charge": 0,
+            "Hydrophobicity": 1.02,
+            "Half Life": "Mammalian:4.4 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "As expected from the overall higher positive charge, NAI-802 was slightly more active than actagardine against staphylococci and streptococci. Further improvement of its antibacterial activity was achieved by adding one additional positive charge through conversion of the C-terminal carboxylate into the corresponding basic amide.",
+            "Literature": [
+                {
+                    "Title": "Isolation and characterization of NAI-802, a new lantibiotic produced by two different Actinoplanes strains.",
+                    "Pubmed ID": "23168402",
+                    "Reference": "J Antibiot (Tokyo). 2013 Feb;66(2)73-8.",
+                    "Author": "Simone M, Monciardini P, Gaspari E, Donadio S, Maffioli SI.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=23168402"
+                }
+            ],
+            "Frequent Amino Acids": "CTA",
+            "Absent Amino Acids": "DFHKMNOPQUY",
+            "Basic Residues": 1,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 14,
+            "Positive Residues": 1,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06163",
+                    "Similarity": 1.0,
+                    "Sequence": "SSGWVCTLTIECGTVICAC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07649",
+                    "Similarity": 1.0,
+                    "Sequence": "ICACRRRFCPNSERFSGYCRVNGARYVRCCSRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00051",
+                    "Similarity": 0.9473684210526315,
+                    "Sequence": "ASGWVCTLTIECGTVICAC"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,75 @@
+{
+    "SPADE_N_01639": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01639",
+            "Peptide Name": "Temporin-1Ce (Temporin 1Ce; Frogs, amphibians, animals)",
+            "Source": "Rana clamitans (Green frog) (Lithobates clamitans)",
+            "Family": "Belongs to the frog skin active peptide (FSAP) family. Brevinin subfamily.",
+            "Gene": "Not found",
+            "Sequence": "FLPFLATLLSKVL",
+            "Sequence Length": 13,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P82884"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+"
+            ],
+            "Target Organism": "[Ref.10822101] Gram-positive bacterium:Staphylococcus aureus (MIC=100 μM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C74H120N14O16",
+            "Mass": 1461.83,
+            "PI": 8.75,
+            "Net Charge": 1,
+            "Hydrophobicity": 1.82,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Function": "Antibacterial activity against Gram-positive bacterium Staphylococcus aureus.",
+            "Tissue specificity": "Expressed by the skin glands.",
+            "Literature": [
+                {
+                    "Title": "Purification and characterization of antimicrobial peptides from the skin of the North American green frog Rana clamitans.",
+                    "Pubmed ID": "10822101",
+                    "Reference": "Peptides. 2000 Apr;21(4)469-476.",
+                    "Author": "Halverson T, Basir YJ, Knoop FC, Conlon JM.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=10822101"
+                }
+            ],
+            "Frequent Amino Acids": "LFA",
+            "Absent Amino Acids": "CDEGHIMNOQRUWY",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 5,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_09966",
+                    "Similarity": 1.0,
+                    "Sequence": "SKVLHLEGEVNKIALLSTNKAVVSLSNGVSVLT"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_09967",
+                    "Similarity": 1.0,
+                    "Sequence": "KVLHLEGEVNKIALLSTNKAVVSLSNGVSVLTS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10569",
+                    "Similarity": 1.0,
+                    "Sequence": "SKVLRHLRRFLHRAHRKL"
+                }
+            ]
+        }
+    }
+}

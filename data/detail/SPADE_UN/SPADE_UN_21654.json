@@ -1,0 +1,68 @@
+{
+    "SPADE_UN_21654": {
+        "Sequence Information": {
+            "Peptide Name": "Dermaseptin-PT9 [D8K,E23K]",
+            "Sequence": "GLWSKIKKAAKTAGKAALGFVNKMV",
+            "Sequence Length": 25,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anticancer",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "A0A5P9NYS6",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/A0A5P9NYS6",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "A Novel Dermaseptin Isolated from the Skin Secretion of Phyllomedusa tarsius and Its Cationicity-Enhanced Analogue Exhibiting Effective Antimicrobial and Anti-Proliferative Activities.",
+                    "Pubmed ID": "31635388",
+                    "Reference": "Biomolecules. 2019;9:E628",
+                    "Author": "Li M, Xi X, Ma C, Chen X, Zhou M, Burrows JF, Chen T, Wang L",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/31635388"
+                }
+            ],
+            "Mass": 2618.19,
+            "PI": 10.7,
+            "Net Charge": 6,
+            "Hydrophobicity": 0.15,
+            "Frequent Amino Acids": "KAG",
+            "Absent Amino Acids": "CDEHOPQRUY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 13,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_21654",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_13633",
+                    "Similarity": 0.92,
+                    "Sequence": "GLWSKIKDAAKTAGKAALGFVNEMV"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01517",
+                    "Similarity": 0.88,
+                    "Sequence": "GLWSKIKEAAKTAGKAAMGFVNEMV"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01487",
+                    "Similarity": 0.84,
+                    "Sequence": "EEEKRENEDEENQEDDEQSEMRRGLWSKIKEAAKTAGKMAMGFVNDMVGEQ"
+                }
+            ],
+            "Hemolytic Activity": "Human microvascular endothelial cells HMEC-1:IC50=48.80 µM,Horse erythrocytes:50% Hemolysis=107 µM",
+            "Target Organism": "Staphylococcus aureus NCTC 10788(MIC=2µM),Staphylococcus aureus NCTC 10788(MBC=4µM),Staphylococcus aureus NCTC 12493(MIC=2µM),Staphylococcus aureus NCTC 12493(MBC=4µM),Enterococcus faecalis NCTC 12697(MIC=2µM),Enterococcus faecalis NCTC 12697(MBC=4µM),Escherichia coli NCTC 10418(MIC=2µM),Escherichia coli NCTC 10418(MBC=4µM),Pseudomonas aeruginosa ATCC 27853(MIC=4µM),Pseudomonas aeruginosa ATCC 27853(MBC=8µM),Klebsiella pneumoniae ATCC 43816(MIC=2µM),Klebsiella pneumoniae ATCC 43816(MBC=4µM),Candida albicans NCYC 1467(MIC=4µM),Candida albicans NCYC 1467(MFC=8µM),Human breast adenocarcinoma MCF-7(IC50=8.64µM),Human glioblastoma U251-MG(IC50=18.51µM),Human squamous lung carcinoma NCI-H157(IC50=9.88µM),Human prostate adenocarcinoma PC-3(IC50=9.97µM),Human pancreatic carcinoma Panc-1(IC50=11.17µM)"
+        }
+    }
+}

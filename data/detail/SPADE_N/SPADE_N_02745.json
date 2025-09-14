@@ -1,0 +1,73 @@
+{
+    "SPADE_N_02745": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02745",
+            "Peptide Name": "Cathelicidin-3 (Bactenecin-7, Bac7; PR-59; mammals, animals)",
+            "Source": "Ovis aries (Sheep)",
+            "Family": "Belongs to the cathelicidin family",
+            "Gene": "CATHL3",
+            "Sequence": "RRLRPRRPRLPRPRPRPRPRPRSLPLPRPQPRRIPRPILLPWRPPRPIPRPQPQPIPRWL",
+            "Sequence Length": 60,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P50415"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C341H573N125O65",
+            "Mass": 7464.0,
+            "PI": 12.0,
+            "Net Charge": 20,
+            "Hydrophobicity": -1.59,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Function": "Exerts, in vitro, a potent antimicrobial activity. Probably due to an impairment of the function of the respiratory chain and of energy-dependent activities in the inner membrane of susceptible microorganisms.",
+            "Literature": [
+                {
+                    "Title": "cDNA sequences of three sheep myeloid cathelicidins.",
+                    "Pubmed ID": "7498547",
+                    "Reference": "FEBS Lett. 1995 Dec 4;376(3)225-228.",
+                    "Author": "Bagella L, Scocchi M, Zanetti M.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=7498547"
+                }
+            ],
+            "Frequent Amino Acids": "PRL",
+            "Absent Amino Acids": "ACDEFGHKMNOTUVY",
+            "Basic Residues": 20,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 36,
+            "Polar Residues": 24,
+            "Positive Residues": 20,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_05828",
+                    "Similarity": 1.0,
+                    "Sequence": "RRLRPRRPRLPRPRPRPRPRPR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05829",
+                    "Similarity": 1.0,
+                    "Sequence": "RRLRPRRPRLPRPRPRPRPRP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_12722",
+                    "Similarity": 1.0,
+                    "Sequence": "RRLRPRRPRLPRPRPR"
+                }
+            ]
+        }
+    }
+}

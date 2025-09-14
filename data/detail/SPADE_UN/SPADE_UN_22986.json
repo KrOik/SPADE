@@ -1,0 +1,61 @@
+{
+    "SPADE_UN_22986": {
+        "Sequence Information": {
+            "Peptide Name": "KL1 [L12A, K14G]",
+            "Sequence": "KLLKLLKKLLKALG",
+            "Sequence Length": 14,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Morphing of Amphipathic Helices to Explore the Activity and Selectivity of Membranolytic Antimicrobial Peptides.",
+                    "Pubmed ID": "32936629",
+                    "Reference": "Biochemistry. 2020;59:3772-3781",
+                    "Author": "Müller AT, Posselt G, Gabernet G, Neuhaus C, Bachler S, Blatter M, Pfeiffer B, Hiss JA, Dittrich PS, Altmann K-H, Wessler S, Schneider G",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/32936629"
+                }
+            ],
+            "Mass": 1579.11,
+            "PI": 10.6,
+            "Net Charge": 5,
+            "Hydrophobicity": 0.61,
+            "Frequent Amino Acids": "LKA",
+            "Absent Amino Acids": "CDEFHIMNOPQRSTUVWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 6,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_22986",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_08367",
+                    "Similarity": 1.0,
+                    "Sequence": "KLLK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09624",
+                    "Similarity": 1.0,
+                    "Sequence": "LKLLKLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_13923",
+                    "Similarity": 1.0,
+                    "Sequence": "KWKKLLKKPLLKKLLK"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:<=5% Hemolysis=8 µM,Human dermal microvascular endothelial cells HDME:50% Cell death=4 µM,Human embryonic kidney HEK293 cells:50% Cell death=>20 µM",
+            "Target Organism": "Staphylococcus aureus SH1000(MIC=33µM),Staphylococcus aureus ATCC 43300(MIC=10µM),Escherichia coli ATCC 25922(MIC=20µM),Klebsiella pneumoniae ATCC 700603(MIC=>20µM),Acinetobacter baumannii ATCC 19606(MIC=1µM),Pseudomonas aeruginosa ATCC 27853(MIC=>20µM),Candida albicans ATCC 90028(MIC=20µM),Cryptococcus neoformans ATCC 208821(MIC=3µM)"
+        }
+    }
+}

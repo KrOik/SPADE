@@ -1,0 +1,61 @@
+{
+    "SPADE_UN_26945": {
+        "Sequence Information": {
+            "Peptide Name": "",
+            "Sequence": "KKGGII",
+            "Sequence Length": 6,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "In-Membrane Nanostructuring of Cationic Amphiphiles Affects Their Antimicrobial Efficacy and Cytotoxicity: A Comparison Study between a De Novo Antimicrobial Lipopeptide and Traditional Biocides",
+                    "Pubmed ID": "35587380",
+                    "Reference": "Langmuir. 2022;38:6623-6637",
+                    "Author": "Fa K, Liu H, Gong H, Zhang L, Liao M, Hu X, Ciumac D, Li P, Webster J, Petkov J",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/35587380"
+                }
+            ],
+            "Mass": 614.78,
+            "PI": 10.0,
+            "Net Charge": 2,
+            "Hydrophobicity": 0.07,
+            "Frequent Amino Acids": "GIK",
+            "Absent Amino Acids": "ACDEFHLMNOPQRSTUVWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 2,
+            "Polar Residues": 4,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_26945",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00209",
+                    "Similarity": 1.0,
+                    "Sequence": "YSLQMGATAIKQVKKLFKKKGG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06775",
+                    "Similarity": 1.0,
+                    "Sequence": "FRVTRTKKG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08457",
+                    "Similarity": 1.0,
+                    "Sequence": "PKAMRLLRRLLRLQKKG"
+                }
+            ],
+            "Hemolytic Activity": "Human dermal fibroblasts:EC50=110±30 µM,Mouse fibroblasts NIH 3T3:EC50=66±6 µM,Human erythrocytes:50% Hemolysis=180±30 µM",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=16±6µM),Staphylococcus aureus ATCC 6538(MIC=9±3µM),Candida albicans SC5314(MIC=12±2µM)"
+        }
+    }
+}

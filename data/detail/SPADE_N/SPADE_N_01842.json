@@ -1,0 +1,72 @@
+{
+    "SPADE_N_01842": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01842",
+            "Peptide Name": "Brevinin-1PRb (Frogs, amphibians, animals)",
+            "Source": "Rana pretiosa (North oregon spotted frog)",
+            "Family": "Belongs to the frog skin active peptide family (Brevinin subfamily)",
+            "Gene": "Not found",
+            "Sequence": "FLPVLAGLTPSIVPKLVCLLTKKC",
+            "Sequence Length": 24,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Antifungal"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "[Ref.21295070] LC50=80μM against human erythrocytes.",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Cyclization (Cys18 and Cys24)",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C121H209N27O28S2",
+            "Mass": 2554.25,
+            "PI": 9.39,
+            "Net Charge": 3,
+            "Hydrophobicity": 1.27,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Comments": "The MIC of Ranatuerin-2PRe is >50 µM.",
+            "Literature": [
+                {
+                    "Title": "Host defense peptides in skin secretions of the Oregon spotted frog Rana pretiosa implications for species resistance to chytridiomycosis.",
+                    "Pubmed ID": "21295070",
+                    "Reference": "Dev Comp Immunol. 2011 Jun;35(6)644-649.",
+                    "Author": "Conlon JM, Mechkarska M, Ahmed E, Coquet L, Jouenne T, Leprince J, Vaudry H, Hayes MP, Padgett-Flohr G.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=21295070"
+                }
+            ],
+            "Frequent Amino Acids": "LKP",
+            "Absent Amino Acids": "DEHMNOQRUWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 15,
+            "Polar Residues": 12,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01841",
+                    "Similarity": 0.9583333333333334,
+                    "Sequence": "FLPVLTGLTPSIVPKLVCLLTKKC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01844",
+                    "Similarity": 0.7916666666666666,
+                    "Sequence": "FLPMLAGLAASMVPKLVCLITKKC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01786",
+                    "Similarity": 0.7894736842105263,
+                    "Sequence": "FLPLLLAGLPKLLCLFFKKC"
+                }
+            ]
+        }
+    }
+}

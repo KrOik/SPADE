@@ -1,0 +1,72 @@
+{
+    "SPADE_N_05561": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_05561",
+            "Peptide Name": "Bactofencin A (Bacteriocin)",
+            "Source": "Lactobacillus salivarius DPC6502",
+            "Family": "Belongs to the class IId bacteriocin",
+            "Gene": "Not found",
+            "Sequence": "KRKKHRCRVYNNGMPTGMYRWC",
+            "Sequence Length": 22,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+"
+            ],
+            "Target Organism": "Gram-positive",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C119H190N42O28S4",
+            "Mass": 2785.31,
+            "PI": 10.56,
+            "Net Charge": 8,
+            "Hydrophobicity": -1.52,
+            "Half Life": "Mammalian:1.3 hourYeast:3 minE.coli:2 min",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Bactofencin A, a new type of cationic bacteriocin with unusual immunity.",
+                    "Pubmed ID": "24169573",
+                    "Reference": "MBio. 2013 Oct 29;4(6)e00498-13.",
+                    "Author": "O'Shea EF, O'Connor PM, O'Sullivan O, Cotter PD, Ross RP, Hill C.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=24169573"
+                }
+            ],
+            "Frequent Amino Acids": "RKC",
+            "Absent Amino Acids": "ADEFILOQSU",
+            "Basic Residues": 8,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 16,
+            "Positive Residues": 8,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06218",
+                    "Similarity": 1.0,
+                    "Sequence": "MFFNFMKKVDVKKNFGYKEVSRKDLAKVNGGKRKKHRCRVYNNGMPTGMYRWC"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_20362",
+                    "Similarity": 1.0,
+                    "Sequence": "KRKKHRCRVYNNGMPTGMYRWC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_12684",
+                    "Similarity": 0.9090909090909091,
+                    "Sequence": "KRKKHRCRVYNNGLPTGLYRWC"
+                }
+            ]
+        }
+    }
+}

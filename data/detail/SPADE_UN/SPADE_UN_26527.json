@@ -1,0 +1,54 @@
+{
+    "SPADE_UN_26527": {
+        "Sequence Information": {
+            "Peptide Name": "LL-37 KR-12 [Q5,D9 S-ALA-4-pen]",
+            "Sequence": "KRIVXRIKXFLR",
+            "Sequence Length": 12,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer\n2. Immunomodulation",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P49913",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P49913",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Discovery of novel antibacterial agent for the infected wound treatment: all-hydrocarbon stapling optimization of LL-37",
+                    "Pubmed ID": "38323312",
+                    "Reference": "Theranostics. 2024;14:1181-1194",
+                    "Author": "Zhang Y, Zheng M, Wang Z, Liu Z, Chen S, Li X, Shi Y, Hu H",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/38323312"
+                }
+            ],
+            "SPADE ID": "SPADE_UN_26527",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02277",
+                    "Similarity": 1.0,
+                    "Sequence": "GDFFRKSKEKIGKEFKRIVQRIKDFLRN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02332",
+                    "Similarity": 1.0,
+                    "Sequence": "LLGDFFRKAKEKIGKESKRIVQRIKDFLRNLVPRTES"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02334",
+                    "Similarity": 1.0,
+                    "Sequence": "LLGDFFRKAREKIGEEFKRIVQRIKDFLRNLVPRTES"
+                }
+            ],
+            "Hemolytic Activity": "Rabbit erythrocytes:1.7±0.1% Hemolysis=256 µg/ml,Mouse fibroblasts NIH 3T3:IC50=168.5 µg/ml",
+            "Target Organism": "Staphylococcus aureus ATCC 25923(MIC=8µg/ml),Staphylococcus epidermidis ATCC 12228(MIC=16µg/ml),Enterococcus faecalis ATCC 29212(MIC=8µg/ml),Escherichia coli ATCC 25922(MIC=8µg/ml),Acinetobacter baumannii ATCC 19606(MIC=16µg/ml),Pseudomonas aeruginosa ATCC 27853(MIC=64µg/ml),Klebsiella pneumoniae ATCC 13883(MIC=128µg/ml)"
+        }
+    }
+}

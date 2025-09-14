@@ -1,0 +1,66 @@
+{
+    "SPADE_N_15650": {
+        "Sequence Information": {
+            "Peptide Name": "Phyllin-PD, Medusin-PD",
+            "Sequence": "LLGMIPLAISAISSLSKL",
+            "Sequence Length": 18,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "1. Pachymedusa dacnicolor",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "L0P3K3",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/L0P3K3",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Medusins: a new class of antimicrobial peptides from the skin secretions of phyllomedusine frogs.",
+                    "Pubmed ID": "23415652",
+                    "Reference": "Biochimie. 2013;95:1288-1296",
+                    "Author": "Xi X, Li R, Jiang Y, Lin Y, Wu Y, Zhou M, Xu J, Wang L, Chen T, Shaw C",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/23415652"
+                }
+            ],
+            "Mass": 1827.28,
+            "PI": 8.75,
+            "Net Charge": 1,
+            "Hydrophobicity": 1.61,
+            "Frequent Amino Acids": "LSI",
+            "Absent Amino Acids": "CDEFHNOQRTUVWY",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 7,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_N_15650",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06288",
+                    "Similarity": 0.9444444444444444,
+                    "Sequence": "LLGMIPLAISAISALSKL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15649",
+                    "Similarity": 0.8888888888888888,
+                    "Sequence": "LLGMIPVAISAISALSKL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11656",
+                    "Similarity": 0.8333333333333334,
+                    "Sequence": "LLGMIPVAIKAISALSKL"
+                }
+            ],
+            "Hemolytic Activity": "Horse erythrocytes:7% Hemolysis=64 µg/ml",
+            "Target Organism": "Escherichia coli NCTC 10418(no activity data),Staphylococcus aureus NCTC 10788(MIC=32µg/ml),Candida albicans NCYC 1467(MIC=64µg/ml)"
+        }
+    }
+}

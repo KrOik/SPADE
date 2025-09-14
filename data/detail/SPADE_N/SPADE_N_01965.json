@@ -1,0 +1,79 @@
+{
+    "SPADE_N_01965": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01965",
+            "Peptide Name": "Ranatuerin-3 (Frogs, amphibians, animals)",
+            "Source": "Lithobates catesbeiana (American bullfrog) (Rana catesbeiana)",
+            "Family": "Belongs to the frog skin active peptide family (Brevinin subfamily)",
+            "Gene": "Not found",
+            "Sequence": "GFLDIINKLGKTFAGHMLDKIKCTIGTCPPSP",
+            "Sequence Length": 32,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P82780"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+"
+            ],
+            "Target Organism": "[Ref.9784389] Gram-positive bacterium:Staphylococcus aureus (MIC=60 µM).",
+            "Hemolytic Activity": "[Ref.9784389] Have no detectable hemolytic activity at aconcentration of 20µg/ml against human red blood cell.",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C154H251N39O42S3",
+            "Mass": 3417.07,
+            "PI": 8.82,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.16,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Antibacterial activity against Gram-positive bacterium S.aureus. Has no detectable hemolytic activity.",
+            "Literature": [
+                {
+                    "Title": "Ranatuerins antimicrobial peptides isolated from the skin of the American bullfrog, Rana catesbeiana.",
+                    "Pubmed ID": "9784389",
+                    "Reference": "Biochem Biophys Res Commun. 1998 Sep 29;250(3)589-592.",
+                    "Author": "Goraya J, Knoop FC, Conlon JM.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=9784389"
+                },
+                {
+                    "Title": "Ranatuerins: antimicrobial peptides isolated from the skin of the American bullfrog, Rana catesbeiana.",
+                    "Pubmed ID": "R1998J1130",
+                    "Author": "Conlon J.M.,Knoop F.C.,Goraya J."
+                }
+            ],
+            "Frequent Amino Acids": "GIK",
+            "Absent Amino Acids": "EOQRUVWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 14,
+            "Polar Residues": 13,
+            "Positive Residues": 5,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_13643",
+                    "Similarity": 0.9375,
+                    "Sequence": "GFLDIIKNLGKTFAGHMLDKIKCTIGTCPPSP"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_13650",
+                    "Similarity": 0.9375,
+                    "Sequence": "MFFMSSPRRDADEVKEVKRGFLDIIKNLGKTFAGHMLDKIKCTIGTCPPSP"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_13651",
+                    "Similarity": 0.9375,
+                    "Sequence": "MFTMKKSLLLLFFLGTISLSLCEPQRDADEVKEVKRGFLDIIKNLGKTFAGHMLDKIKCTIGTCPPSP"
+                }
+            ]
+        }
+    }
+}

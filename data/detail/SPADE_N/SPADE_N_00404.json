@@ -1,0 +1,81 @@
+{
+    "SPADE_N_00404": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00404",
+            "Peptide Name": "Defensin J1-2 (Plant defensin)",
+            "Source": "Capsicum annuum (Bell pepper)",
+            "Family": "Belongs to the DEFL family",
+            "Gene": "Not found",
+            "Sequence": "RTCESQSHRFKGLCFSKSNCGSVCHTEGFNGGHCRGFRRRCFCTRHC",
+            "Sequence Length": 47,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/O65740"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antifungal"
+            ],
+            "Target Organism": "Fungi:Fusarium oxysporum, Botrytis cinerea.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C220H341N81O63S8",
+            "Mass": 5385.09,
+            "PI": 9.37,
+            "Net Charge": 11,
+            "Hydrophobicity": -0.77,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Tissue specificity": "Expressed in flowers and in young fruits.",
+            "PTM": "Contains four disulfide bonds 3-47; 14-34; 20-41; 24-43.",
+            "Literature": [
+                {
+                    "Title": "Fruit-specific expression of a defensin-type gene family in bell pepper. Upregulation during ripening and upon wounding.",
+                    "Pubmed ID": "8883377",
+                    "Reference": "Plant Physiol. 1996 Oct;112(2)615-622.",
+                    "Author": "Meyer B, Houln© G, Pozueta-Romero J, Schantz ML, Schantz R.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=8883377"
+                },
+                {
+                    "Title": "Alteration of the expression of a plant defensin gene by exon shuffling in bell pepper (Capsicum annuum L.).",
+                    "Pubmed ID": "9790581",
+                    "Reference": "Mol Gen Genet. 1998 Sep;259(5)504-510.",
+                    "Author": "Houln© G, Meyer B, Schantz R.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=9790581"
+                }
+            ],
+            "Frequent Amino Acids": "CRG",
+            "Absent Amino Acids": "ADIMOPUWY",
+            "Basic Residues": 13,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 33,
+            "Positive Residues": 13,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07907",
+                    "Similarity": 1.0,
+                    "Sequence": "MAGFSKVIATIFLMMMLVFATGMVAEARTCESQSHRFKGLCFSKSNCGSVCHTEGFNGGHCRGFRRRCFCTRHC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04719",
+                    "Similarity": 0.9285714285714286,
+                    "Sequence": "CRGFRRRCFCTTHC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14122",
+                    "Similarity": 0.8823529411764706,
+                    "Sequence": "GGRCRGFRRRCFCTTHC"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,259 @@
+/* 搜索框融合设计样式 - SPADE纯净版 */
+:root {
+    --primary-purple: #2b1055;        /* 主要紫色 */
+    --secondary-purple: #6a37b8;      /* 辅助紫色 */
+    --light-purple: #7597de;          /* 浅紫色 */
+    --accent-teal: #20c997;           /* 蓝绿色 */
+    --accent-purple: #6f42c1;         /* 紫色标记 */
+    
+    /* 纯净版设计变量 */
+    --nav-border-radius: 20px;        /* 导航栏圆角半径 */
+    --search-border-radius: 25px;     /* 搜索框圆角半径 */
+    --transition-smooth: all 0.25s ease-out; /* 快速自然的过渡 */
+}
+
+/* 主页搜索容器 - 纯净融合设计 */
+.search-container.shimmer-effect {
+    position: relative;
+    isolation: isolate;
+    /* 半透明背景，与页面融合 */
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(15px) saturate(120%);
+    /* 细腻的边框 */
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    box-shadow: 0 4px 20px rgba(43, 16, 85, 0.08), 
+                inset 0 1px 0 rgba(255, 255, 255, 0.15);
+    /* 统一的圆角设计 */
+    border-radius: 150px;
+    scale: 1;
+    /* 柔和过渡 */
+    transition: var(--transition-smooth);
+    padding: 20px;
+}
+
+/* 悬停状态 - 简洁的反馈 */
+.search-container.shimmer-effect:hover {
+    scale: 1.01;
+    border-color: rgba(255, 255, 255, 0.4);
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(20px) saturate(140%);
+    box-shadow: 0 6px 24px rgba(43, 16, 85, 0.12), 
+                0 2px 8px rgba(117, 151, 222, 0.08),
+                inset 0 1px 0 rgba(255, 255, 255, 0.25);
+}
+
+/* 搜索输入框 - 纯净设计 */
+.search-container.shimmer-effect .search-input {
+    background: transparent;
+    backdrop-filter: blur(8px);
+    border: 2px solid rgba(255, 255, 255, 0.25);
+    border-radius: var(--search-border-radius);
+    color: #FFFFFF;
+    font-weight: 500;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
+    position: relative;
+    z-index: 10;
+    transition: var(--transition-smooth);
+}
+
+.search-container.shimmer-effect .search-input::placeholder {
+    color: rgba(255, 255, 255, 0.65);
+}
+
+/* 聚焦状态 - 简化的反馈 */
+.search-container.shimmer-effect .search-input:focus {
+    outline: none;
+    border-color: rgba(255, 255, 255, 0.4);
+    background: rgba(255, 255, 255, 0.03);
+    box-shadow: 0 0 0 1px rgba(106, 55, 184, 0.15),
+                inset 0 0 2px rgba(255, 255, 255, 0.15),
+                inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    color: #FFFFFF;
+}
+
+/* 搜索按钮 - 纯净设计 */
+.search-container.shimmer-effect .search-button {
+    background: rgba(255, 255, 255, 0.12);
+    border-radius: 50%;
+    padding: 8px;
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    transition: var(--transition-smooth);
+    position: relative;
+    z-index: 10;
+}
+
+.search-container.shimmer-effect .search-button:hover {
+    transform: scale(1.05);
+    background: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 2px 8px rgba(106, 55, 184, 0.15),
+                0 1px 4px rgba(255, 255, 255, 0.08);
+}
+
+.search-container.shimmer-effect .search-icon {
+    color: #FFFFFF;
+    font-size: 1.1em;
+}
+
+/* 类别选择器 - 纯净设计 */
+.search-container.shimmer-effect .search-category {
+    background: rgba(255, 255, 255, 0.08);
+    color: #FFFFFF;
+    border: 2px solid rgba(255, 255, 255, 0.25);
+    border-radius: var(--search-border-radius);
+    backdrop-filter: blur(8px);
+    position: relative;
+    z-index: 10;
+    transition: var(--transition-smooth);
+}
+
+.search-container.shimmer-effect .search-category:focus {
+    outline: none;
+    border-color: rgba(255, 255, 255, 0.4);
+    background: rgba(255, 255, 255, 0.12);
+    box-shadow: 0 0 0 1px rgba(106, 55, 184, 0.15);
+    color: #FFFFFF;
+}
+
+.search-container.shimmer-effect .search-category:hover {
+    border-color: rgba(255, 255, 255, 0.4);
+    background: rgba(255, 255, 255, 0.12);
+    color: #FFFFFF;
+}
+
+/* 下拉菜单样式同步 */
+.search-container.shimmer-effect .search-category option {
+    background-color: rgba(43, 16, 85, 0.95);
+    color: #FFFFFF;
+    border-radius: 4px;
+    padding: 8px 12px;
+}
+
+/* 搜索页面过滤器 - 纯净设计 */
+.filter.shimmer-effect {
+    position: relative;
+    isolation: isolate;
+    background: rgba(43, 16, 85, 0.04);
+    backdrop-filter: blur(20px) saturate(120%);
+    border: 1px solid rgba(43, 16, 85, 0.12);
+    box-shadow: 0 4px 20px rgba(43, 16, 85, 0.06), 
+                0 1px 4px rgba(117, 151, 222, 0.03),
+                inset 0 1px 0 rgba(255, 255, 255, 0.15);
+    border-radius: var(--nav-border-radius);
+    scale: 1;
+    transition: var(--transition-smooth);
+    padding: 30px;
+}
+
+/* 悬停状态 - 简洁反馈 */
+.filter.shimmer-effect:hover {
+    scale: 1.005;
+    background: rgba(43, 16, 85, 0.08);
+    backdrop-filter: blur(25px) saturate(140%);
+    border-color: rgba(43, 16, 85, 0.15);
+    box-shadow: 0 6px 24px rgba(43, 16, 85, 0.08), 
+                0 2px 8px rgba(117, 151, 222, 0.06),
+                inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+/* 搜索按钮 - 过滤器版本 */
+.filter.shimmer-effect .search-btn {
+    background: rgba(43, 16, 85, 0.08);
+    border: 1px solid rgba(43, 16, 85, 0.15);
+    color: var(--primary-purple);
+    border-radius: 8px;
+    padding: 8px 16px;
+    backdrop-filter: blur(12px);
+    transition: var(--transition-smooth);
+    position: relative;
+    z-index: 10;
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(43, 16, 85, 0.03),
+                inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+.filter.shimmer-effect .search-btn:hover {
+    transform: scale(1.02);
+    background: rgba(43, 16, 85, 0.12);
+    border-color: rgba(43, 16, 85, 0.2);
+    box-shadow: 0 3px 10px rgba(43, 16, 85, 0.06),
+                0 1px 4px rgba(32, 201, 151, 0.05),
+                inset 0 1px 0 rgba(255, 255, 255, 0.15);
+    color: var(--primary-purple);
+}
+
+/* 输入框 - 过滤器版本 */
+.filter.shimmer-effect input {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(43, 16, 85, 0.12);
+    color: var(--primary-purple);
+    font-weight: 500;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05);
+    position: relative;
+    z-index: 10;
+    border-radius: 8px;
+    transition: var(--transition-smooth);
+}
+
+.filter.shimmer-effect input::placeholder {
+    color: rgba(43, 16, 85, 0.5);
+}
+
+.filter.shimmer-effect input:focus {
+    outline: none;
+    border-color: rgba(43, 16, 85, 0.2);
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 0 0 1px rgba(106, 55, 184, 0.1),
+                inset 0 0 2px rgba(43, 16, 85, 0.05),
+                inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    color: var(--primary-purple);
+}
+
+.filter.shimmer-effect label {
+    color: var(--primary-purple);
+    font-weight: 600;
+    text-shadow: 0 1px 2px rgba(255, 255, 255, 0.3);
+    position: relative;
+    z-index: 10;
+}
+
+/* 响应式设计 - 纯净版 */
+@media (max-width: 768px) {
+    .search-container.shimmer-effect {
+        padding: 15px;
+        border-radius: 120px;
+    }
+    
+    .search-container.shimmer-effect:hover {
+        scale: 1;
+    }
+    
+    .filter.shimmer-effect {
+        padding: 20px;
+    }
+    
+    .filter.shimmer-effect:hover {
+        scale: 1;
+    }
+}
+
+@media (max-width: 480px) {
+    .search-container.shimmer-effect {
+        padding: 10px;
+        border-radius: 100px;
+    }
+    
+    .search-container.shimmer-effect:hover {
+        scale: 1;
+    }
+    
+    .filter.shimmer-effect {
+        padding: 15px;
+    }
+    
+    .filter.shimmer-effect:hover {
+        scale: 1;
+    }
+} 

@@ -1,0 +1,74 @@
+{
+    "SPADE_UN_12166": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_12166",
+            "Peptide Name": "MEP-N",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "GFLSILKKVLPKVJAHJK",
+            "Sequence Length": 18,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic form",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "[Ref.22526241] Gram-positive bacteria:Micrococcus luteus (MIC = 1 μM), Bacillus subtilis (MIC = 0.5 μM), Staphylococcus aureus (MIC = 2.5 μM);Gram-negative bacteria:E.coli (MIC = 0.9 μM), Pseudomonas aeruginosa (MIC = 17.3 μM);Fungi:Candida albicans (MIC = 15 μM).",
+            "Hemolytic Activity": "[Ref.22526241] LC50 = 50 μM. Note:LC50 is the concentration of a peptide able to lyse 50% of human erthrocytes in the assay.",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "No other descriptive information about the structure found in the literature",
+            "Formula": "C₉₈H₁₇₀N₂₄O₂₀",
+            "Mass": 2004.58,
+            "PI": 10.48,
+            "Net Charge": 5,
+            "Hydrophobicity": 0,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Antibacterial activity against Gram-positive and Gram-negative bacteria and Antifungal activity against Candida albicans.",
+            "Literature": [
+                {
+                    "Title": "Effect of hydrocarbon stapling on the properties of α-helical antimicrobial peptides isolated from the venom of hymenoptera",
+                    "Pubmed ID": "22526241",
+                    "Reference": "Amino Acids. 2012 Nov;43(5)2047-58. doi 10.1007/s00726-012-1283-1. Epub 2012 Apr 27.",
+                    "Author": "Hubert Chapuis, Jiřina Slaninová, Lucie Bednárová, Lenka Monincová, Miloš Buděšínský, Václav Čeřovský",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=22526241"
+                }
+            ],
+            "Frequent Amino Acids": "KLJ",
+            "Absent Amino Acids": "CDEMNOQRTUWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 9,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_09674",
+                    "Similarity": 1.0,
+                    "Sequence": "GFLSILKKVLPKAHK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09758",
+                    "Similarity": 1.0,
+                    "Sequence": "GFLSILKKVLPKVMAHK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_12166",
+                    "Similarity": 1.0,
+                    "Sequence": "GFLSILKKVLPKVAHK"
+                }
+            ]
+        }
+    }
+}

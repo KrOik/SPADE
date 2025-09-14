@@ -1,0 +1,84 @@
+{
+    "SPADE_N_03335": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03335",
+            "Peptide Name": "Neutrophil antibiotic peptide NP-4 (Microbicidal peptide NP-4; lagomorphs, mammals, animals)",
+            "Source": "Oryctolagus cuniculus (Rabbit)",
+            "Family": "Belongs to the alpha-defensin family",
+            "Gene": "Not found",
+            "Sequence": "VSCTCRRFSCGFGERASGSCTVNGVRHTLCCRR",
+            "Sequence Length": 33,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P07467"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Unknown"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C143H238N54O44S6",
+            "Mass": 3610.15,
+            "PI": 9.3,
+            "Net Charge": 6,
+            "Hydrophobicity": -0.16,
+            "Half Life": "Mammalian:100 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Microbicidal activity. PTM",
+            "Literature": [
+                {
+                    "Title": "Cationic defensins arise from charge-neutralized propeptides amechanism for avoiding leukocyte autocytotoxicity?",
+                    "Pubmed ID": "1613398",
+                    "Reference": "J Leukoc Biol. 1992 Jun;51(6)634-639.",
+                    "Author": "Michaelson D, Couto M, Rayner J.R, Ganz T.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=1613398"
+                },
+                {
+                    "Title": "Primary structures of six antimicrobial peptides of rabbit peritoneal neutrophils.",
+                    "Pubmed ID": "3988726",
+                    "Reference": "J Biol Chem. 1985 Apr 25;260(8)4579-4584.",
+                    "Author": "Selsted ME, Brown DM, DeLange RJ, Harwig SS, Lehrer RI.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=3988726"
+                },
+                {
+                    "Title": "Cationic defensins arise from charge-neutralized propeptides: a mechanism for avoiding leukocyte autocytotoxicity?",
+                    "Pubmed ID": "",
+                    "Author": "Ganz T.,Rayner J.R.,Couto M.,Michaelson D."
+                }
+            ],
+            "Frequent Amino Acids": "CRG",
+            "Absent Amino Acids": "DIKMOPQUWY",
+            "Basic Residues": 7,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 25,
+            "Positive Residues": 7,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_04204",
+                    "Similarity": 1.0,
+                    "Sequence": "VSCTCRRFSCGFGERASGSCTVNGGVRHTLCCRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08053",
+                    "Similarity": 1.0,
+                    "Sequence": "MRTLALLAAILLVTLQAQAELHSGMADDGVDQQQPRAQDLDVAVYIKQDETSPLEVLGAKAGVSCTCRRFSCGFGERASGSCTVNGVRHTLCCRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03334",
+                    "Similarity": 0.8484848484848485,
+                    "Sequence": "VFCTCRGFLCGSGERASGSCTINGVRHTLCCRR"
+                }
+            ]
+        }
+    }
+}

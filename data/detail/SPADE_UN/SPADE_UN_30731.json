@@ -1,0 +1,71 @@
+{
+    "SPADE_UN_30731": {
+        "Sequence Information": {
+            "Peptide Name": "Piscidin-1 (1-21), Em-Pis-1S",
+            "Sequence": "FIFHIIKGLFHAGKMIHGLVT",
+            "Sequence Length": 21,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "K0A7P3",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/K0A7P3",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                },
+                {
+                    "uniprotId": "Q6JWQ9",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/Q6JWQ9",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Two isoforms of piscidin from Malabar grouper, Epinephelus malabaricus: Expression and functional characterization.",
+                    "Pubmed ID": "27554395",
+                    "Reference": "Fish Shellfish Immunol. 2016;57:222-235",
+                    "Author": "Li ZP, Chen DW, Pan YQ, Deng L",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/27554395"
+                }
+            ],
+            "Mass": 2379.91,
+            "PI": 10.0,
+            "Net Charge": 5,
+            "Hydrophobicity": 1.08,
+            "Frequent Amino Acids": "IFG",
+            "Absent Amino Acids": "CDENOPQRSUWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 9,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_30731",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03511",
+                    "Similarity": 1.0,
+                    "Sequence": "FIFHIIKGLFHAGKMIHGLVTRRRH"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06465",
+                    "Similarity": 1.0,
+                    "Sequence": "FIFHIIKGLFHAGKMIHGLVTRRRHGVEELQDLDQRAFEREKAFA"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10359",
+                    "Similarity": 1.0,
+                    "Sequence": "GFIFHIIKGLFHAGK"
+                }
+            ],
+            "Hemolytic Activity": "Fish erythrocytes:27% Hemolysis=20 µM,Rabbit erythrocytes:70% Hemolysis=20 µM",
+            "Target Organism": "Escherichia coli TOP 10(MIC=5µM),Escherichia coli TOP 10(MBC=5µM),Staphylococcus aureus(MIC=1.25µM),Staphylococcus aureus(MBC=1.25µM),Vibrio parahaemolyticus(MIC=5µM),Vibrio parahaemolyticus(MBC=5µM)"
+        }
+    }
+}

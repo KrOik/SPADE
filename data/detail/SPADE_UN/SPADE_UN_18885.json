@@ -1,0 +1,70 @@
+{
+    "SPADE_UN_18885": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_18885",
+            "Peptide Name": "SE-33-A2P (hybrid peptide, synthetic AMPs, UCll1)",
+            "Source": "hybrid peptide hybrid peptide, designed",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "SETRPVLNRLFRLFDKIRQVIRQVIRKFEKGIKEKSKRFFEGRGSLLTCGDVEENPGP",
+            "Sequence Length": 58,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 6819.85,
+            "PI": 10.27,
+            "Hydrophobicity": -0.72,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Gasanov V, Vorotelyak E, Vasiliev A. 2024",
+                    "Reference": "Antibiotics (Basel). 2024 Feb 16;13(2):190. doi: 10.3390/antibiotics13020190.PubMed",
+                    "Title": "Expression of the Antimicrobial Peptide SE-33-A2P, a Modified Analog of Cathelicidin, and an Analysis of Its Properties."
+                }
+            ],
+            "Frequent Amino Acids": "REK",
+            "Absent Amino Acids": "AHMOUWY",
+            "Basic Residues": 14,
+            "Acidic Residues": 8,
+            "Hydrophobic Residues": 21,
+            "Polar Residues": 28,
+            "Positive Residues": 14,
+            "Negative Residues": 8,
+            "Net Charge": 6,
+            "Comments": "Sequence analysis: APD analysis reveals that this sequence is most similar (56.9%) toSE-33The A2P peptide (EGRGSLLTCGDVEENPGP), a self-cleaving peptide, is attached to the end of SE-33 peptide for multiple-copy expression. This expression is toxic to E. coli.Activity: active against E. coli (MIC 35-45 ug/ml), S. aureus (MIC 35 ug/ml), and L. casei (MIC 30-35 ug/ml).",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_18884",
+                    "Similarity": 1.0,
+                    "Sequence": "SETRPVLNRLFDKIRQVIRKFEKGIKEKSKRFF"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_18940",
+                    "Similarity": 0.9166666666666666,
+                    "Sequence": "RLFDKIRQVIRK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_01706",
+                    "Similarity": 0.8461538461538461,
+                    "Sequence": "RLFDKIRQVIRKF"
+                }
+            ]
+        }
+    }
+}

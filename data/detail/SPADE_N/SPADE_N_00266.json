@@ -1,0 +1,74 @@
+{
+    "SPADE_N_00266": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00266",
+            "Peptide Name": "Endochitinase 1 (Plant defensin)",
+            "Source": "Taxus baccata (English yew)",
+            "Family": "Belongs to the glycosyl hydrolase 24 family (Chitinase class I subfamily)",
+            "Gene": "Not found",
+            "Sequence": "AIGFDGLNDPDIVAR",
+            "Sequence Length": 15,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P85337"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antifungal"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C69H109N19O23",
+            "Mass": 1572.72,
+            "PI": 4.05,
+            "Net Charge": -2,
+            "Hydrophobicity": 0.17,
+            "Half Life": "Mammalian:4.4 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Defense against chitin containing fungal pathogens.",
+            "Catalytic activity": "Random hydrolysis of N-acetyl-beta-D-glucosaminide (1->4)-beta-linkages in chitin and chitodextrins.",
+            "Literature": [
+                {
+                    "Title": "Analysis of the soluble cell wall proteome of gymnosperms.",
+                    "Pubmed ID": "19157640",
+                    "Reference": "J Plant Physiol. 2009 May 15;166(8)831-843.",
+                    "Author": "Uzal EN, Gómez-Ros LV, Hernández JA, Pedreño MA, Cuello J, Ros Barceló A.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=19157640"
+                }
+            ],
+            "Frequent Amino Acids": "DAG",
+            "Absent Amino Acids": "CEHKMOQSTUWY",
+            "Basic Residues": 1,
+            "Acidic Residues": 3,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 5,
+            "Positive Residues": 1,
+            "Negative Residues": 3,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00263",
+                    "Similarity": 0.9333333333333333,
+                    "Sequence": "SIGFDGLNDPDIVAR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_13937",
+                    "Similarity": 0.6666666666666666,
+                    "Sequence": "PDIVIYQYMDDLYVGSDLEI"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_17432",
+                    "Similarity": 0.6666666666666666,
+                    "Sequence": "KRIVARIKAFLR"
+                }
+            ]
+        }
+    }
+}

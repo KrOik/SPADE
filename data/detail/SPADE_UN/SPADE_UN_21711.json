@@ -1,0 +1,62 @@
+{
+    "SPADE_UN_21711": {
+        "Sequence Information": {
+            "Peptide Name": "RW16",
+            "Sequence": "XRRWRRWWRRWWRRWRR",
+            "Sequence Length": 17,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "6RQS",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "The enhanced membrane interaction and perturbation of a cell penetrating peptide in the presence of anionic lipids: toward an understanding of its selectivity for cancer cells.",
+                    "Pubmed ID": "23462641",
+                    "Reference": "Biochim Biophys Acta. 2013;1828:1457-1470",
+                    "Author": "Jobin ML, Bonnafous P, Temsamani H, Dole F, Grélard A, Dufourc EJ, Alves ID",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/23462641"
+                },
+                {
+                    "Title": "Non-metabolic membrane tubulation and permeability induced by bioactive peptides.",
+                    "Pubmed ID": "17299584",
+                    "Reference": "PLoS One. 2007;2:e201",
+                    "Author": "Lamazière A, Burlina F, Wolf C, Chassaing G, Trugnan G, Ayala-Sanmartin J",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/17299584"
+                },
+                {
+                    "Title": "Cell-penetrating peptides with intracellular actin-remodeling activity in malignant fibroblasts.",
+                    "Pubmed ID": "20037163",
+                    "Reference": "J Biol Chem. 2010;285:7712-7721",
+                    "Author": "Delaroche D, Cantrelle FX, Subra F, Van Heijenoort C, Guittet E, Jiao CY, Blanchoin L, Chassaing G, Lavielle S, Auclair C, Sagan S",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/20037163"
+                }
+            ],
+            "SPADE ID": "SPADE_UN_21711",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06391",
+                    "Similarity": 1.0,
+                    "Sequence": "WWRRWWRRWRRWWRRWWR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08804",
+                    "Similarity": 1.0,
+                    "Sequence": "RRRWWWRRWWRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09113",
+                    "Similarity": 1.0,
+                    "Sequence": "RRWRRWRRWRR"
+                }
+            ],
+            "Hemolytic Activity": "Chinese hamster ovary cells CHO:0% Killing=10 µM,Mouse fibroblasts NIH 3T3:35% Cytotoxicity=20 µM",
+            "Target Organism": "Escherichia coli 363(MIC=10µM),Staphylococcus aureus(MIC=5µM),Klebsiella pneumoniae(MIC=>100µM),Escherichia coli 363(LC=10µM)"
+        }
+    }
+}

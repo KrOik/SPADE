@@ -1,0 +1,80 @@
+{
+    "SPADE_UN_19485": {
+        "Sequence Information": {
+            "Peptide Name": "D-Ctl, D-Cateslytin, D-Chromogranin-A (344-358)",
+            "Sequence": "RSMRLSFRARGYGFR",
+            "Sequence Length": 15,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anticancer",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P05059",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P05059",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                },
+                {
+                    "uniprotId": "L8HWJ5",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/L8HWJ5",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "D-Cateslytin, a new antimicrobial peptide with therapeutic potential",
+                    "Pubmed ID": "29123174 ",
+                    "Reference": "Sci Rep. 2017;7:15199",
+                    "Author": "Zaet A, Dartevelle P, Daouad F, Ehlinger C, Quilès F, Francius G, Boehler C, Bergthold C, Frisch B, Prévost G, Lavalle P, Schneider F, Haïkel Y, Metz-Boutigue MH, Marban C",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/29123174 "
+                },
+                {
+                    "Title": "D-Cateslytin: a new antifungal agent for the treatment of oral Candida albicans associated infections.",
+                    "Pubmed ID": "29915284",
+                    "Reference": "Sci Rep. 2018;8:9235",
+                    "Author": "Dartevelle P, Ehlinger C, Zaet A, Boehler C, Rabineau M, Westermann B, Strub JM, Cianferani S, Haïkel Y, Metz-Boutigue MH, Marban C",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/29915284"
+                }
+            ],
+            "Mass": 1860.15,
+            "PI": 12.0,
+            "Net Charge": 5,
+            "Hydrophobicity": -0.87,
+            "Frequent Amino Acids": "RFG",
+            "Absent Amino Acids": "CDEHIKNOPQTUVW",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 10,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_19485",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_19485",
+                    "Similarity": 1.0,
+                    "Sequence": "RSMRLSFRARGYGFR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02437",
+                    "Similarity": 0.8,
+                    "Sequence": "SSMKLSFRARAYGFRGPGPQL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09833",
+                    "Similarity": 0.8,
+                    "Sequence": "SSMKLSFRARAYGFRGPGLQL"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:-=NA,Human gingival fibroblasts:-=NA",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=8µg/ml),Escherichia coli K-12(MIC=8.4µg/ml),Fusobacterium nucleatum ATCC 49256(MIC=22µg/ml),Prevotella intermedia ATCC 49046(MIC=10µg/ml),Parvimonas micra ATCC 33270(MIC=23µg/ml),Staphylococcus aureus ATCC 25923(MIC=24µg/ml),Staphylococcus aureus MR(MIC=18µg/ml),Human colon adenocarcinoma Caco-2(no activity data),Candida albicans ATCC 10231(MIC=5.5µg/ml)"
+        }
+    }
+}

@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>SPADE Search Test</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f5f5f5;
+    }
+    .test-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    .test-section {
+      margin-bottom: 30px;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+    }
+    .test-section h3 {
+      color: #2b1055;
+      margin-bottom: 15px;
+    }
+    .test-case {
+      margin-bottom: 15px;
+      padding: 10px;
+      background: #f8f9fa;
+      border-radius: 5px;
+    }
+    .test-case h4 {
+      margin-bottom: 10px;
+      color: #495057;
+    }
+    .test-input {
+      margin-bottom: 10px;
+    }
+    .test-input label {
+      display: inline-block;
+      width: 150px;
+      font-weight: bold;
+    }
+    .test-input input, .test-input select {
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      width: 200px;
+    }
+    .test-button {
+      background: #2b1055;
+      color: white;
+      padding: 8px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-right: 10px;
+    }
+    .test-button:hover {
+      background: #1a0a3a;
+    }
+    .test-result {
+      margin-top: 10px;
+      padding: 10px;
+      background: #e9ecef;
+      border-radius: 5px;
+      font-family: monospace;
+      white-space: pre-wrap;
+    }
+    .success {
+      background: #d4edda;
+      color: #155724;
+      border: 1px solid #c3e6cb;
+    }
+    .error {
+      background: #f8d7da;
+      color: #721c24;
+      border: 1px solid #f5c6cb;
+    }
+  </style>
+</head>
+<body>
+  <div class="test-container">
+    <h1>SPADE 检索功能测试</h1>
+    <p>本页面用于测试SPADE平台的多维度检索功能。</p>
+
+    <!-- 基础检索测试 -->
+    <div class="test-section">
+      <h3>基础检索测试</h3>
+      
+      <div class="test-case">
+        <h4>ID检索测试</h4>
+        <div class="test-input">
+          <label>ID:</label>
+          <input type="text" id="testId" placeholder="输入ID，如：AMP001">
+        </div>
+        <button class="test-button" onclick="testIdSearch()">测试ID检索</button>
+        <div id="testIdResult" class="test-result"></div>
+      </div>
+
+      <div class="test-case">
+        <h4>名称检索测试</h4>
+        <div class="test-input">
+          <label>名称:</label>
+          <input type="text" id="testName" placeholder="输入名称，如：Melittin">
+        </div>
+        <button class="test-button" onclick="testNameSearch()">测试名称检索</button>
+        <div id="testNameResult" class="test-result"></div>
+      </div>
+
+      <div class="test-case">
+        <h4>序列检索测试</h4>
+        <div class="test-input">
+          <label>序列:</label>
+          <input type="text" id="testSequence" placeholder="输入序列片段，如：GIGAVLK">
+        </div>
+        <button class="test-button" onclick="testSequenceSearch()">测试序列检索</button>
+        <div id="testSequenceResult" class="test-result"></div>
+      </div>
+
+      <div class="test-case">
+        <h4>长度检索测试</h4>
+        <div class="test-input">
+          <label>长度范围:</label>
+          <input type="text" id="testLength" placeholder="输入长度范围，如：20-30">
+        </div>
+        <button class="test-button" onclick="testLengthSearch()">测试长度检索</button>
+        <div id="testLengthResult" class="test-result"></div>
+      </div>
+    </div>
+
+    <!-- 活性类型检索测试 -->
+    <div class="test-section">
+      <h3>活性类型检索测试</h3>
+      
+      <div class="test-case">
+        <h4>活性类型选择</h4>
+        <div class="test-input">
+          <label>活性类型:</label>
+          <select id="testActivityType">
+            <option value="">选择活性类型</option>
+            <option value="gram-positive">革兰氏阳性菌</option>
+            <option value="gram-negative">革兰氏阴性菌</option>
+            <option value="fungal">真菌</option>
+            <option value="viral">病毒</option>
+            <option value="broad-spectrum">广谱抗菌</option>
+            <option value="antifungal">抗真菌</option>
+            <option value="antiviral">抗病毒</option>
+          </select>
+        </div>
+        <button class="test-button" onclick="testActivityTypeSearch()">测试活性类型检索</button>
+        <div id="testActivityTypeResult" class="test-result"></div>
+      </div>
+    </div>
+
+    <!-- 目标生物检索测试 -->
+    <div class="test-section">
+      <h3>目标生物检索测试</h3>
+      
+      <div class="test-case">
+        <h4>目标生物选择</h4>
+        <div class="test-input">
+          <label>目标生物:</label>
+          <select id="testTargetOrganism">
+            <option value="">选择目标生物</option>
+            <option value="staphylococcus-aureus">金黄色葡萄球菌</option>
+            <option value="escherichia-coli">大肠杆菌</option>
+            <option value="pseudomonas-aeruginosa">铜绿假单胞菌</option>
+            <option value="candida-albicans">白色念珠菌</option>
+            <option value="hiv">HIV病毒</option>
+          </select>
+        </div>
+        <button class="test-button" onclick="testTargetOrganismSearch()">测试目标生物检索</button>
+        <div id="testTargetOrganismResult" class="test-result"></div>
+      </div>
+    </div>
+
+    <!-- 结构特征检索测试 -->
+    <div class="test-section">
+      <h3>结构特征检索测试</h3>
+      
+      <div class="test-case">
+        <h4>电荷特性</h4>
+        <div class="test-input">
+          <label>电荷:</label>
+          <select id="testCharge">
+            <option value="">选择电荷</option>
+            <option value="positive">正电荷</option>
+            <option value="negative">负电荷</option>
+            <option value="neutral">中性</option>
+          </select>
+        </div>
+        <button class="test-button" onclick="testChargeSearch()">测试电荷检索</button>
+        <div id="testChargeResult" class="test-result"></div>
+      </div>
+
+      <div class="test-case">
+        <h4>疏水性</h4>
+        <div class="test-input">
+          <label>疏水性:</label>
+          <select id="testHydrophobicity">
+            <option value="">选择疏水性</option>
+            <option value="hydrophilic">亲水性</option>
+            <option value="hydrophobic">疏水性</option>
+            <option value="amphipathic">两亲性</option>
+          </select>
+        </div>
+        <button class="test-button" onclick="testHydrophobicitySearch()">测试疏水性检索</button>
+        <div id="testHydrophobicityResult" class="test-result"></div>
+      </div>
+
+      <div class="test-case">
+        <h4>二级结构</h4>
+        <div class="test-input">
+          <label>二级结构:</label>
+          <select id="testStructure">
+            <option value="">选择二级结构</option>
+            <option value="alpha-helix">α-螺旋</option>
+            <option value="beta-sheet">β-折叠</option>
+            <option value="random-coil">无规卷曲</option>
+            <option value="mixed">混合结构</option>
+          </select>
+        </div>
+        <button class="test-button" onclick="testStructureSearch()">测试二级结构检索</button>
+        <div id="testStructureResult" class="test-result"></div>
+      </div>
+    </div>
+
+    <!-- 组合检索测试 -->
+    <div class="test-section">
+      <h3>组合检索测试</h3>
+      
+      <div class="test-case">
+        <h4>多条件组合检索</h4>
+        <div class="test-input">
+          <label>活性类型:</label>
+          <select id="comboActivityType">
+            <option value="">选择活性类型</option>
+            <option value="gram-positive">革兰氏阳性菌</option>
+            <option value="gram-negative">革兰氏阴性菌</option>
+            <option value="broad-spectrum">广谱抗菌</option>
+          </select>
+        </div>
+        <div class="test-input">
+          <label>电荷:</label>
+          <select id="comboCharge">
+            <option value="">选择电荷</option>
+            <option value="positive">正电荷</option>
+            <option value="negative">负电荷</option>
+          </select>
+        </div>
+        <div class="test-input">
+          <label>长度范围:</label>
+          <input type="text" id="comboLength" placeholder="如：20-30">
+        </div>
+        <button class="test-button" onclick="testComboSearch()">测试组合检索</button>
+        <div id="comboSearchResult" class="test-result"></div>
+      </div>
+    </div>
+
+    <!-- 性能测试 -->
+    <div class="test-section">
+      <h3>性能测试</h3>
+      
+      <div class="test-case">
+        <h4>检索响应时间测试</h4>
+        <button class="test-button" onclick="testPerformance()">开始性能测试</button>
+        <div id="performanceResult" class="test-result"></div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // 模拟数据
+    const testData = [
+      {
+        "id": "AMP001",
+        "name": "Melittin",
+        "sequence": "GIGAVLKVLTTGLPALISWIKRKRQQ",
+        "length": 26,
+        "activity_type": "gram-positive,gram-negative,broad-spectrum",
+        "target_organisms": ["Staphylococcus aureus", "Escherichia coli", "Pseudomonas aeruginosa"],
+        "charge": "positive",
+        "hydrophobicity": "amphipathic",
+        "secondary_structure": "alpha-helix"
+      },
+      {
+        "id": "AMP002",
+        "name": "Defensin HNP-1",
+        "sequence": "ACYCRIPACIAGERRYGTCIYQGRLWAFCC",
+        "length": 30,
+        "activity_type": "gram-positive,gram-negative",
+        "target_organisms": ["Staphylococcus aureus", "Escherichia coli"],
+        "charge": "positive",
+        "hydrophobicity": "hydrophilic",
+        "secondary_structure": "beta-sheet"
+      },
+      {
+        "id": "AMP003",
+        "name": "LL-37",
+        "sequence": "LLGDFFRKSKEKIGKEFKRIVQRIKDFLRNLVPRTES",
+        "length": 37,
+        "activity_type": "broad-spectrum,antifungal",
+        "target_organisms": ["Staphylococcus aureus", "Escherichia coli", "Candida albicans"],
+        "charge": "positive",
+        "hydrophobicity": "amphipathic",
+        "secondary_structure": "alpha-helix"
+      }
+    ];
+
+    // 基础检索测试函数
+    function testIdSearch() {
+      const id = document.getElementById('testId').value.trim();
+      const result = testData.filter(item => item.id.toLowerCase().includes(id.toLowerCase()));
+      displayResult('testIdResult', result, 'ID检索测试');
+    }
+
+    function testNameSearch() {
+      const name = document.getElementById('testName').value.trim();
+      const result = testData.filter(item => item.name.toLowerCase().includes(name.toLowerCase()));
+      displayResult('testNameResult', result, '名称检索测试');
+    }
+
+    function testSequenceSearch() {
+      const sequence = document.getElementById('testSequence').value.trim();
+      const result = testData.filter(item => item.sequence.toLowerCase().includes(sequence.toLowerCase()));
+      displayResult('testSequenceResult', result, '序列检索测试');
+    }
+
+    function testLengthSearch() {
+      const length = document.getElementById('testLength').value.trim();
+      const rangeMatch = length.match(/^(\d+)-(\d+)$/);
+      if (rangeMatch) {
+        const minLength = parseInt(rangeMatch[1]);
+        const maxLength = parseInt(rangeMatch[2]);
+        const result = testData.filter(item => item.length >= minLength && item.length <= maxLength);
+        displayResult('testLengthResult', result, '长度检索测试');
+      } else {
+        document.getElementById('testLengthResult').innerHTML = '错误：请输入正确的长度范围格式（如：20-30）';
+        document.getElementById('testLengthResult').className = 'test-result error';
+      }
+    }
+
+    // 活性类型检索测试
+    function testActivityTypeSearch() {
+      const activityType = document.getElementById('testActivityType').value;
+      if (!activityType) {
+        document.getElementById('testActivityTypeResult').innerHTML = '请选择活性类型';
+        return;
+      }
+      const result = testData.filter(item => 
+        item.activity_type && item.activity_type.toLowerCase().includes(activityType.toLowerCase())
+      );
+      displayResult('testActivityTypeResult', result, '活性类型检索测试');
+    }
+
+    // 目标生物检索测试
+    function testTargetOrganismSearch() {
+      const targetOrganism = document.getElementById('testTargetOrganism').value;
+      if (!targetOrganism) {
+        document.getElementById('testTargetOrganismResult').innerHTML = '请选择目标生物';
+        return;
+      }
+      const result = testData.filter(item => 
+        item.target_organisms && item.target_organisms.some(org => 
+          org.toLowerCase().includes(targetOrganism.toLowerCase())
+        )
+      );
+      displayResult('testTargetOrganismResult', result, '目标生物检索测试');
+    }
+
+    // 结构特征检索测试
+    function testChargeSearch() {
+      const charge = document.getElementById('testCharge').value;
+      if (!charge) {
+        document.getElementById('testChargeResult').innerHTML = '请选择电荷';
+        return;
+      }
+      const result = testData.filter(item => 
+        item.charge && item.charge.toLowerCase().includes(charge.toLowerCase())
+      );
+      displayResult('testChargeResult', result, '电荷检索测试');
+    }
+
+    function testHydrophobicitySearch() {
+      const hydrophobicity = document.getElementById('testHydrophobicity').value;
+      if (!hydrophobicity) {
+        document.getElementById('testHydrophobicityResult').innerHTML = '请选择疏水性';
+        return;
+      }
+      const result = testData.filter(item => 
+        item.hydrophobicity && item.hydrophobicity.toLowerCase().includes(hydrophobicity.toLowerCase())
+      );
+      displayResult('testHydrophobicityResult', result, '疏水性检索测试');
+    }
+
+    function testStructureSearch() {
+      const structure = document.getElementById('testStructure').value;
+      if (!structure) {
+        document.getElementById('testStructureResult').innerHTML = '请选择二级结构';
+        return;
+      }
+      const result = testData.filter(item => 
+        item.secondary_structure && item.secondary_structure.toLowerCase().includes(structure.toLowerCase())
+      );
+      displayResult('testStructureResult', result, '二级结构检索测试');
+    }
+
+    // 组合检索测试
+    function testComboSearch() {
+      const activityType = document.getElementById('comboActivityType').value;
+      const charge = document.getElementById('comboCharge').value;
+      const length = document.getElementById('comboLength').value.trim();
+
+      let result = [...testData];
+
+      if (activityType) {
+        result = result.filter(item => 
+          item.activity_type && item.activity_type.toLowerCase().includes(activityType.toLowerCase())
+        );
+      }
+
+      if (charge) {
+        result = result.filter(item => 
+          item.charge && item.charge.toLowerCase().includes(charge.toLowerCase())
+        );
+      }
+
+      if (length) {
+        const rangeMatch = length.match(/^(\d+)-(\d+)$/);
+        if (rangeMatch) {
+          const minLength = parseInt(rangeMatch[1]);
+          const maxLength = parseInt(rangeMatch[2]);
+          result = result.filter(item => item.length >= minLength && item.length <= maxLength);
+        }
+      }
+
+      displayResult('comboSearchResult', result, '组合检索测试');
+    }
+
+    // 性能测试
+    function testPerformance() {
+      const startTime = performance.now();
+      
+      // 执行多次检索操作
+      for (let i = 0; i < 1000; i++) {
+        testData.filter(item => item.charge === 'positive');
+      }
+      
+      const endTime = performance.now();
+      const duration = endTime - startTime;
+      
+      document.getElementById('performanceResult').innerHTML = 
+        `性能测试结果：\n执行1000次检索操作耗时：${duration.toFixed(2)}ms\n平均每次检索耗时：${(duration/1000).toFixed(3)}ms`;
+      document.getElementById('performanceResult').className = 'test-result success';
+    }
+
+    // 显示结果
+    function displayResult(elementId, result, testName) {
+      const element = document.getElementById(elementId);
+      if (result.length === 0) {
+        element.innerHTML = `${testName}：未找到匹配结果`;
+        element.className = 'test-result error';
+      } else {
+        element.innerHTML = `${testName}：找到 ${result.length} 个匹配结果\n${JSON.stringify(result, null, 2)}`;
+        element.className = 'test-result success';
+      }
+    }
+  </script>
+</body>
+</html> 

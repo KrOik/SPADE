@@ -1,0 +1,49 @@
+{
+    "SPADE_N_15197": {
+        "Sequence Information": {
+            "Peptide Name": "Streptocidin D",
+            "Sequence": "VOLFPLWNQF",
+            "Sequence Length": 10,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "1. Streptomyces sp. TÜ 6071",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Facile solid-phase synthesis of cyclic decapeptide antibiotic streptocidins A–D",
+                    "Pubmed ID": "",
+                    "Reference": "Tetrahedron. 2004;45:217–220",
+                    "Author": "Qin C, Zhong X, Ng NL, Bu X, Chan WS, Guo Z",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/"
+                }
+            ],
+            "SPADE ID": "SPADE_N_15197",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07863",
+                    "Similarity": 1.0,
+                    "Sequence": "GFKDLLKGAAKQLVKTVLF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08858",
+                    "Similarity": 1.0,
+                    "Sequence": "VLPFVLFP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09539",
+                    "Similarity": 1.0,
+                    "Sequence": "VLLFPVLFP"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:100% Hemolysis=2.5 µg/ml",
+            "Target Organism": "Bacillus subtilis(MIC=3.5µg/ml),Escherichia coli K-12(MIC=>60µg/ml),Pseudomonas aeruginosa(MIC=>60µg/ml),Pichia pastoris GS115(MIC=15µg/ml),Candida albicans(MIC=13µg/ml)"
+        }
+    }
+}

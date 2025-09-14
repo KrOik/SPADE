@@ -1,0 +1,86 @@
+{
+    "SPADE_N_02322": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02322",
+            "Peptide Name": "Beta-defensin 131 (Defensin, beta 131; primates, mammals, animals)",
+            "Source": "Pan troglodytes (Chimpanzee)",
+            "Family": "Belongs to the beta-defensin family",
+            "Gene": "DEFB131",
+            "Sequence": "FISNDECPSEYYYHCRLKCNADEHAIRYCADFSICCKLKIIEIHGQKKW",
+            "Sequence Length": 49,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q30KJ8"
+            ],
+            "Protein Existence": "Homology",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C261H392N70O74S6",
+            "Mass": 5886.72,
+            "PI": 6.97,
+            "Net Charge": 3,
+            "Hydrophobicity": -0.47,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Function": "Potentially has antibacterial activity.",
+            "PTM": "Contains three disulfide bonds 7-35; 15-29; 19-36.",
+            "Literature": [
+                {
+                    "Title": "Cross-species analysis of the mammalian beta-defensin gene family presence of syntenic gene clusters and preferential expression in the male reproductive tract.",
+                    "Pubmed ID": "16033865",
+                    "Reference": "Physiol Genomics. 2005 Sep 21;23(1)5-17.",
+                    "Author": "Patil A.A, Cai Y, Sang Y, Blecha F, Zhang G.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16033865"
+                },
+                {
+                    "Title": "Evolution and sequence variation of human beta-defensin genes.",
+                    "Pubmed ID": "PubMed ID is not available",
+                    "Reference": "Submitted (NOV-2006) to the EMBL/GenBank/DDBJ databases",
+                    "Author": "Hollox EJ, Armour JAL.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=PubMed ID is not available"
+                },
+                {
+                    "Title": "Cross-species analysis of the mammalian beta-defensin gene family: presence of syntenic gene clusters and preferential expression in the male reproductive tract.",
+                    "Pubmed ID": "R2005J0403",
+                    "Author": "Zhang G.,Blecha F.,Sang Y.,Cai Y.,Patil A.A."
+                }
+            ],
+            "Frequent Amino Acids": "CIK",
+            "Absent Amino Acids": "MOTUV",
+            "Basic Residues": 10,
+            "Acidic Residues": 7,
+            "Hydrophobic Residues": 19,
+            "Polar Residues": 29,
+            "Positive Residues": 10,
+            "Negative Residues": 7,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03700",
+                    "Similarity": 1.0,
+                    "Sequence": "DECPSEYYHCRLKCNADEHAIRYCADFSICCKL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04015",
+                    "Similarity": 1.0,
+                    "Sequence": "DECPSEYYHCRLKCNADEHAIRYCADFSICCKLKI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03174",
+                    "Similarity": 0.9791666666666666,
+                    "Sequence": "FISNDECPSEYYHCRLKCNADEHAIRYCADFSICCKLKIIEIDGQKKW"
+                }
+            ]
+        }
+    }
+}

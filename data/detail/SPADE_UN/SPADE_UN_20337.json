@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_20337": {
+        "Sequence Information": {
+            "Peptide Name": "Furin Propeptide (38-54)",
+            "Sequence": "YYHFWHRGVTKRSLSPH",
+            "Sequence Length": 17,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P09958",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P09958",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Cell-Selective Pore Forming Antimicrobial Peptides of the Prodomain of Human Furin: A Conserved Aromatic/Cationic Sequence Mapping, Membrane Disruption, and Atomic-Resolution Structure and Dynamics.",
+                    "Pubmed ID": "30555984",
+                    "Reference": "ACS Omega. 2018;3:14650-14664",
+                    "Author": "Ng WJ, Harioudh MK, Dewangan RP, Sinha S, Ghosh JK, Bhattacharjya S",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/30555984"
+                }
+            ],
+            "Mass": 2171.42,
+            "PI": 10.28,
+            "Net Charge": 6,
+            "Hydrophobicity": -1.15,
+            "Frequent Amino Acids": "HRS",
+            "Absent Amino Acids": "ACDEIMNOQU",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 3,
+            "Polar Residues": 14,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_20337",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_12657",
+                    "Similarity": 1.0,
+                    "Sequence": "RKHGFLNLQGIFGDYYHFWHRGV"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_12658",
+                    "Similarity": 1.0,
+                    "Sequence": "YYHFWHRGVTKRSLSPHRPRHSRLQR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_12659",
+                    "Similarity": 1.0,
+                    "Sequence": "YYHFWHRGVTKRSLSPHRPRHSR"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Escherichia coli(MIC=30µM),Pseudomonas aeruginosa ATCC 27853(MIC=>100µM),Salmonella enterica subsp. enterica serovar Typhimurium ATCC 14028(MIC=>100µM),Klebsiella pneumoniae ATCC 13883(MIC=>100µM),Bacillus subtilis(MIC=>100µM),Staphylococcus aureus ATCC 25923(MIC=>100µM),Streptococcus pyogenes ATCC 19615(MIC=>100µM),Enterococcus faecalis ATCC 29212(MIC=>100µM)"
+        }
+    }
+}

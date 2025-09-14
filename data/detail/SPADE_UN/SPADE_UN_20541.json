@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_20541": {
+        "Sequence Information": {
+            "Peptide Name": "Bactenecin-5 (1-25), Bac5 (1-25)",
+            "Sequence": "RFRPPIRRPPIRPPFYPPFRPPIRP",
+            "Sequence Length": 25,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Cytoplasmic Protein\n2. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P19660",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P19660",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Search for Shorter Portions of the Proline-Rich Antimicrobial Peptide Fragment Bac5(1-25) That Retain Antimicrobial Activity by Blocking Protein Synthesis.",
+                    "Pubmed ID": "30615305",
+                    "Reference": "ChemMedChem. 2019;14:343-348",
+                    "Author": "Mardirossian M, Sola R, Degasperi M, Scocchi M",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/30615305"
+                },
+                {
+                    "Title": "Fragments of the Nonlytic Proline-Rich Antimicrobial Peptide Bac5 Kill Escherichia coli Cells by Inhibiting Protein Synthesis.",
+                    "Pubmed ID": "29844040",
+                    "Reference": "Antimicrob Agents Chemother. 2018;62:",
+                    "Author": "Mardirossian M, Barriere Q, Timchenko T, Muller C, Pacor S, Mergaert P, Scocchi M, Wilson DN",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/29844040"
+                }
+            ],
+            "Mass": 3123.75,
+            "PI": 12.0,
+            "Net Charge": 7,
+            "Hydrophobicity": -1.14,
+            "Frequent Amino Acids": "PRF",
+            "Absent Amino Acids": "ACDEGHKLMNOQSTUVW",
+            "Basic Residues": 7,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 19,
+            "Positive Residues": 7,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_20541",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02459",
+                    "Similarity": 1.0,
+                    "Sequence": "RFRPPIRRPPIRPPFYPPFRPPIRPPIFPPIRPPFRPPLRFP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02462",
+                    "Similarity": 1.0,
+                    "Sequence": "RFRPPIRRPPIRPPFYPPFRPPIRPPIFPPIRPPFRPPLGPFP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09657",
+                    "Similarity": 1.0,
+                    "Sequence": "RFRPPIRRPPIRPPFYPPFRPP"
+                }
+            ],
+            "Hemolytic Activity": "Human microvascular endothelial cells HMEC-1:30% Killing=64 µM,Mouse fibroblasts NIH 3T3:0% Killing=<32 µM",
+            "Target Organism": "Escherichia coli BW25113(MIC=1µM),Escherichia coli BW25113(MBC=1µM),Escherichia coli BW25113 del-sbmA(MIC=16µM),Escherichia coli BW25113 del-sbmA(MBC=>64µM),Escherichia coli ATCC 25922(MIC=1µM),Escherichia coli ATCC 25922(MBC=1µM),Acinetobacter baumannii ATCC 19606(MIC=1µM),Acinetobacter baumannii ATCC 19606(MBC=1µM),Salmonella enterica subsp. enterica serovar Typhimurium ATCC 14028(MIC=8µM),Salmonella enterica subsp. enterica serovar Typhimurium ATCC 14028(MBC=16µM),Klebsiella pneumoniae ATCC 700603(MIC=32µM),Klebsiella pneumoniae ATCC 700603(MBC=64µM),Pseudomonas aeruginosa ATCC 27853(MIC=>64µM),Pseudomonas aeruginosa ATCC 27853(MBC=>64µM),Staphylococcus aureus ATCC 25923(MIC=>64µM),Staphylococcus aureus ATCC 25923(MBC=>64µM),Escherichia coli(MIC=4-16µM),Escherichia coli deltatolC(MIC=1-4µM)"
+        }
+    }
+}

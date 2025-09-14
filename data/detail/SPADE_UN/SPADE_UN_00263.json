@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_00263": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_00263",
+            "Peptide Name": "D16F-N23 (single amino acid substitution)",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "GILDTLKQFAKGVGKFLVKGAAQ",
+            "Sequence Length": 23,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-positive bacterium:Bacillus subtilis (MIC=25 µg/ml);Gram-negative bacteria:Klebsiella pneumoniae (MIC=100 µg/ml), Shigella dysentariae (MIC=50 µg/ml), Pseudomonas aeruginosa (MIC=200 µg/ml), Eshchericia coli (MIC=25 µg/ml).",
+            "Hemolytic Activity": "[Ref.12199716] 0.06% hemolytic activity at 10 µg/mL, 0.32% hemolytic activity at 100 µg/mL against human red blood cells.",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C111H185N29O29",
+            "Mass": 2389.83,
+            "PI": 10.0,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.3,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "Single substitution of aspartic acid 16 by phenylalanine (D16F) in the Delta24-37 GGN4, which is a peptide analogue with 14 residues truncated from the C-terminus of GGN4.",
+            "Literature": [
+                {
+                    "Title": "Effects of a tryptophanyl substitution on the structure and antimicrobial activity of C-terminally truncated gaegurin 4.",
+                    "Pubmed ID": "12199716",
+                    "Reference": "Eur J Biochem. 2002 Sep;269(17)4367-4374.",
+                    "Author": "Won HS, Park SH, Kim HE, Hyun B, Kim M, Lee BJ, Lee BJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=12199716"
+                }
+            ],
+            "Frequent Amino Acids": "GKA",
+            "Absent Amino Acids": "CEHMNOPRSUWY",
+            "Basic Residues": 4,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 12,
+            "Positive Residues": 4,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02024",
+                    "Similarity": 0.9565217391304348,
+                    "Sequence": "GILDTLKQFAKGVGKDLVKGAAQGVLSTVSCKLAKTC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05810",
+                    "Similarity": 0.9565217391304348,
+                    "Sequence": "MFTMKKSLLFLFFLGTISLSLCEEERSADEDDGGEMTEEEVKRGILDTLKQFAKGVGKDLVKGAAQGVLSTVSCKLAKTC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09146",
+                    "Similarity": 0.9565217391304348,
+                    "Sequence": "GILDTLKQFAKGVGKDLVKGAAQGVLSTVS"
+                }
+            ]
+        }
+    }
+}

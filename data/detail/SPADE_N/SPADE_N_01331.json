@@ -1,0 +1,97 @@
+{
+    "SPADE_N_01331": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 7939500 B2",
+                "Patent Link": "http://www.lens.org/lens/patent/US_7939500_B2",
+                "Patent Type": "Granted Patent",
+                "Publication Date": "2011-5-10",
+                "Family Info": "US4342751A,US6294183B1,US7335400B2,US20050147579A1,CN1031387,EP1174439,GB2249311,JP5247378,WO2004055044",
+                "Patent Title": "Antifungal Paints And Coatings",
+                "Abstract": "Antifungal and antibacterial peptides, polypeptides and proteins as antifungal additives for paint and other coatings are disclosed, along with antifungal compositions, and coated surfaces with antifungal properties. Methods of using the coatings for treating and/or inhibiting growth of mold, mildew and other fungi and bacteria on objects such as building materials that are susceptible to such infestation are also disclosed."
+            },
+            {
+                "Patent No": "US 7932230 B2",
+                "Patent Link": "http://www.lens.org/lens/patent/US_7932230_B2",
+                "Patent Type": "Granted Patent",
+                "Publication Date": "2011-4-26",
+                "Family Info": "US20050147579,CN1031387,EP1174439,JP5247378,WO2004055044",
+                "Patent Title": "Antifungal paints and coatings",
+                "Abstract": "Antifungal and antibacterial peptides, polypeptides and proteins as antifungal additives for paint and other coatings are disclosed, along with antifungal compositions, and coated surfaces with antifungal properties. Methods of using the coatings for treating and/or inhibiting growth of mold, mildew and other fungi and bacteria on objects such as building materials that are susceptible to such infestation are also disclosed."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01331",
+            "Peptide Name": "Nigrocin-1 (Frogs, amphibians, animals)",
+            "Source": "Pelophylax nigromaculatus (Black-spotted frog) (Rana nigromaculata) (frog skin active peptide)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "GLLDSIKGMAISAGKGALQNLLKVASCKLDKTC",
+            "Sequence Length": 33,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P0C008"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "[Ref.11682065]Gram-positive bacterium:Micrococcus luteus(MIC=2.5μg/ml);Gram-negative bacteria:Shigella dysenteriae(MIC=10μg/ml), Klebsiella pneumoniae(MIC=10μg/ml), Pseudomonas aeruginosa(MIC=75μg/ml), Salmonella typhimurium(MIC=22.5μg/ml), Proteus mirabilis(MIC>200μg/ml), Serratia marcescens(MIC>200μg/ml);Yeast:Candida albicans(MIC=100μg/ml).",
+            "Hemolytic Activity": "[Ref:11682065]1.1% hemolytic activity at 100μg/ml against human red blood cells",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C144H256N40O44S3",
+            "Mass": 3348.01,
+            "PI": 9.24,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.36,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Shows antibacterial activity against both Gram-positive and Gram-negative bacteria and against the fungus C. albicans. Has weak hemolytic activity.",
+            "Tissue specificity": "Expressed by the skin dorsal glands.",
+            "PTM": "Contains one disulfide bond 27-33. (By similarity)",
+            "Literature": [
+                {
+                    "Title": "Structural study of novel antimicrobial peptides, nigrocins, isolated from Rana nigromaculata.",
+                    "Pubmed ID": "11682065",
+                    "Reference": "FEBS Lett. 2001 Oct 19;507(1)95-100.",
+                    "Author": "Park S, Park SH, Ahn HC, Kim S, Kim SS, Lee BJ, Lee BJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=11682065"
+                }
+            ],
+            "Frequent Amino Acids": "LKA",
+            "Absent Amino Acids": "EFHOPRUWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 14,
+            "Polar Residues": 18,
+            "Positive Residues": 5,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01776",
+                    "Similarity": 0.7272727272727273,
+                    "Sequence": "GLLDSLKGFAATAGKGVLQSLLSTASCKLAKTC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03454",
+                    "Similarity": 0.696969696969697,
+                    "Sequence": "GLMDSLKGLAATAGKTVLQGLLKTASCKLEKTC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01400",
+                    "Similarity": 0.6842105263157895,
+                    "Sequence": "KGAAKGLLEVASCKLSKSC"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "SPADE_N_00883": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00883",
+            "Peptide Name": "Alpha-2-purothionin (Plant defensin)",
+            "Source": "Triticum aestivum (Wheat)",
+            "Family": "Belongs to the thionin family",
+            "Gene": "THI1.2",
+            "Sequence": "KSCCRTTLGRNCYNLCRSRGAQKLCSTVCRCKLTSGLSCPKGFPK",
+            "Sequence Length": 45,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P32032"
+            ],
+            "Protein Existence": "Transcript level",
+            "Biological Activity": [
+                "Cytotoxic"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C202H348N68O59S8",
+            "Mass": 4929.86,
+            "PI": 9.75,
+            "Net Charge": 10,
+            "Hydrophobicity": -0.39,
+            "Half Life": "Mammalian:1.3 hourYeast:3 minE.coli:2 min",
+            "Function": "Thionins are small plant proteins which are toxic to animal cells. They seem to exert their toxic effect at the level of the cell membrane.",
+            "PTM": "Problely contains four disulfide bonds 3-39; 5-31; 12-29; 16-25.",
+            "Literature": [
+                {
+                    "Title": "cDNA cloning and nucleotide sequences of alpha 1 and alpha 2 thionins from hexaploid wheat endosperm.",
+                    "Pubmed ID": "7824649",
+                    "Reference": "Plant Physiol. 1994 Nov;106(3)1221-1222.",
+                    "Author": "Castagnaro A, Mara±a C, Carbonero P, Garc­a-Olmedo F.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=7824649"
+                }
+            ],
+            "Frequent Amino Acids": "CKL",
+            "Absent Amino Acids": "DEHIMOUW",
+            "Basic Residues": 10,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 33,
+            "Positive Residues": 10,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00884",
+                    "Similarity": 0.8666666666666667,
+                    "Sequence": "KSCCRSTLGRNCYNLCRARGAQKLCAGVCRCKISSGLSCPKGFPK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00885",
+                    "Similarity": 0.8666666666666667,
+                    "Sequence": "KSCCKSTLGRNCYNLCRARGAQKLCANVCRCKLTSGLSCPKDFPK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00909",
+                    "Similarity": 0.8222222222222222,
+                    "Sequence": "KSCCRSTLGRNCYNLCRVRGAQKLCAGVCRCKLTSSGKCPTGFPK"
+                }
+            ]
+        }
+    }
+}

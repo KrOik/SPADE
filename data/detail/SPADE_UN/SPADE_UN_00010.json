@@ -1,0 +1,80 @@
+{
+    "SPADE_UN_00010": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_00010",
+            "Peptide Name": "Lactacin-F subunit LafX (Bacteriocin)",
+            "Source": "Lactobacillus johnsonii (strain CNCM I-12250 / La1 / NCC 533) (Gram-positive bacteria)",
+            "Family": "Belongs to the class IIb bacteriocin",
+            "Gene": "lafX",
+            "Sequence": "NRWGDTVLSAASGAGTGIKACKSFGPWGMAICGVGGAAIGGYFGYTHN",
+            "Sequence Length": 48,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q48509"
+            ],
+            "Protein Existence": "Homology",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "Enterococcus faecalis and other Lactobacilli.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C210H313N59O61S3",
+            "Mass": 4736.29,
+            "PI": 8.82,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.2,
+            "Half Life": "Mammalian:1.4 hourYeast:3 minE.coli:>10 hour",
+            "Comments": "Heat stable bacteriocin. peptides for activity lafA and lafX. Associated with a 180 kDa bacteriocin complex.",
+            "Literature": [
+                {
+                    "Title": "Molecular analysis of the lactacin F operon.",
+                    "Pubmed ID": "8285694",
+                    "Reference": "Appl Environ Microbiol. 1993 Nov;59(11)3906-3915.",
+                    "Author": "Fremaux C, Ahn C, Klaenhammer TR.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=8285694"
+                },
+                {
+                    "Title": "The genome sequence of the probiotic intestinal bacterium Lactobacillus johnsonii NCC 533.",
+                    "Pubmed ID": "14983040",
+                    "Reference": "Proc Natl Acad Sci U S A. 2004 Feb 24;101(8)2512-2517.",
+                    "Author": "Pridmore RD, Berger B, Desiere F, Vilanova D, Barretto C, Pittet AC, Zwahlen MC, Rouvet M, Altermann E, Barrangou R, Mollet B, Mercenier A, Klaenhammer T, Arigoni F, Schell MA.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=14983040"
+                }
+            ],
+            "Frequent Amino Acids": "GAI",
+            "Absent Amino Acids": "EOQU",
+            "Basic Residues": 4,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 21,
+            "Polar Residues": 25,
+            "Positive Residues": 4,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06086",
+                    "Similarity": 1.0,
+                    "Sequence": "MKLNDKELSKIVGGNRWGDTVLSAASGAGTGIKACKSFGPWGMAICGVGGAAIGGYFGYTHN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03434",
+                    "Similarity": 0.5833333333333334,
+                    "Sequence": "NKWGNAVIGAATGATRGVSWCRGFGPWGMTACALGGAAIGGYLGYKSN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06041",
+                    "Similarity": 0.5833333333333334,
+                    "Sequence": "MALKTLEKHELRNVMGGNKWGNAVIGAATGATRGVSWCRGFGPWGMTACALGGAAIGGYLGYKSN"
+                }
+            ]
+        }
+    }
+}

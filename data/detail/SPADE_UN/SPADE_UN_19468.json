@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_19468": {
+        "Sequence Information": {
+            "Peptide Name": "D-LL-37, D-Human cathelicidin",
+            "Sequence": "LLGDFFRKSKEKIGKEFKRIVQRIKDFLRNLVPRTES",
+            "Sequence Length": 37,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P49913",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P49913",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Anti-tuberculosis activity of ?-helical antimicrobial peptides: de novo designed L- and D-enantiomers versus L- and D-LL-37.",
+                    "Pubmed ID": "20858205",
+                    "Reference": "Protein Pept Lett. 2011;18:241-252",
+                    "Author": "Jiang Z, Higgins MP, Whitehurst J, Kisich KO, Voskuil MI, Hodges RS",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/20858205"
+                }
+            ],
+            "Mass": 4493.26,
+            "PI": 10.61,
+            "Net Charge": 6,
+            "Hydrophobicity": -0.72,
+            "Frequent Amino Acids": "KRF",
+            "Absent Amino Acids": "ACHMOUWY",
+            "Basic Residues": 11,
+            "Acidic Residues": 5,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 24,
+            "Positive Residues": 11,
+            "Negative Residues": 5,
+            "SPADE ID": "SPADE_UN_19468",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03107",
+                    "Similarity": 1.0,
+                    "Sequence": "ALLGDFFRKSKEKIGKEFKRIVQRIKDFLRNLVPRTES"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03128",
+                    "Similarity": 1.0,
+                    "Sequence": "LLGDFFRKSKEKIGKEFKRIVQR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03129",
+                    "Similarity": 1.0,
+                    "Sequence": "FALLGDFFRKSKEKIGKEFKRIVQRIKDFLRNLVPRTES"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=125 µg/ml",
+            "Target Organism": "Mycobacterium tuberculosis H37Rv(MIC=200µg/ml),Mycobacterium tuberculosis Vertulo(no activity data)"
+        }
+    }
+}

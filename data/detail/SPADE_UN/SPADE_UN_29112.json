@@ -1,0 +1,76 @@
+{
+    "SPADE_UN_29112": {
+        "Sequence Information": {
+            "Peptide Name": "Cecropin B(1-12) + GS + Thanatin(10-21)",
+            "Sequence": "RWKIFKKIEKMGGSYCNRRTGKCQRM",
+            "Sequence Length": 26,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P55788",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P55788",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                },
+                {
+                    "uniprotId": "P04142",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P04142",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                },
+                {
+                    "uniprotId": "A7UDN2",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/A7UDN2",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Biological activities of cecropin B-thanatin hybrid peptides.",
+                    "Pubmed ID": "16316454",
+                    "Reference": "J Pept Res. 2005;66:382-386",
+                    "Author": "Hongbiao W, Baolong N, Mengkui X, Lihua H, Weifeng S, Zhiqi M",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/16316454"
+                }
+            ],
+            "Mass": 3205.85,
+            "PI": 10.64,
+            "Net Charge": 8,
+            "Hydrophobicity": -1.24,
+            "Frequent Amino Acids": "KRG",
+            "Absent Amino Acids": "ADHLOPUV",
+            "Basic Residues": 9,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 19,
+            "Positive Residues": 9,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_UN_29112",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_19025",
+                    "Similarity": 1.0,
+                    "Sequence": "RWKIFKKIEKMGGSKKPGPRSYPVPIIYCNRRTGKCQRM"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_19026",
+                    "Similarity": 1.0,
+                    "Sequence": "RWKIFKKIEKMGGSYPVPIIYCNRRTGKCQRM"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_19027",
+                    "Similarity": 1.0,
+                    "Sequence": "RWKIFKKIEKMGGSRSKKPGPRSYPVPIIYCNRRTGKCQRM"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Bacillus subtilis(MIC=10µM),Klebsiella pneumoniae(MIC=80µM),Escherichia coli JM109(MIC=20-40µM),Saccharomyces cerevisiae(MIC=20-40µM),Candida albicans(MIC=50µM)"
+        }
+    }
+}

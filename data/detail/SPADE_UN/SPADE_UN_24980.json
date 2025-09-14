@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_24980": {
+        "Sequence Information": {
+            "Peptide Name": "Complement C3 (1360-1368)",
+            "Sequence": "KFDLKVTIK",
+            "Sequence Length": 9,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P01024 ",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P01024 ",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Probing human proteins for short encrypted antimicrobial peptides reveals Hs10, a peptide with selective activity for gram-negative bacteria.",
+                    "Pubmed ID": "36280021",
+                    "Reference": "Biochim Biophys Acta. 2022;:",
+                    "Author": "Santos MA, Silva FL, Lira BOV, Cardozo Fh JL, Vasconcelos AG, Araujo AR, Murad AM, Garay AV, Freitas SM, Leite JRSA, Bloch Jr C, Ramada MHS, Oliveira AL, Brand GD",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/36280021"
+                }
+            ],
+            "Mass": 1091.34,
+            "PI": 9.7,
+            "Net Charge": 2,
+            "Hydrophobicity": -0.07,
+            "Frequent Amino Acids": "KDF",
+            "Absent Amino Acids": "ACEGHMNOPQRSUWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 4,
+            "Polar Residues": 5,
+            "Positive Residues": 3,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_UN_24980",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_24980",
+                    "Similarity": 1.0,
+                    "Sequence": "KFDLKVTIK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_02322",
+                    "Similarity": 1.0,
+                    "Sequence": "TIKRYIWIK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05141",
+                    "Similarity": 0.75,
+                    "Sequence": "MLIKKEKKAYLFTIYGLHSYPSVIGVDSYSDSVAMERFYKIWRKHYPKHYKTHKEFTVKKFDI"
+                }
+            ],
+            "Hemolytic Activity": "Human fibroblasts:10% Cell death=128 µM",
+            "Target Organism": "Staphylococcus aureus ATCC 25923(no activity data),Escherichia coli ATCC 25922(MIC=32±0µM),Escherichia coli ATCC 25922(MBC=32±0µM),Klebsiella pneumoniae ATCC 13883(MIC=64±0µM),Klebsiella pneumoniae ATCC 13883(MBC=64±0µM),Pseudomonas aeruginosa ATCC 27853(MIC=43±18µM),Pseudomonas aeruginosa ATCC 27853(MBC=53±18µM),Staphylococcus aureus(no activity data),Enterococcus faecalis ATCC 29212(no activity data),Escherichia coli O157:H7(MIC=32µM),Klebsiella pneumoniae(MIC=128µM),Acinetobacter baumannii(MIC=128µM)"
+        }
+    }
+}

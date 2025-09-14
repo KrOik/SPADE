@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_27654": {
+        "Sequence Information": {
+            "Peptide Name": "Granulysin (23-51)",
+            "Sequence": "QRSVSNAATRVCRTGRSRWRDVCRNFMRR",
+            "Sequence Length": 29,
+            "Biological Activity": [
+                "Anti-Gram-",
+                "Anticancer"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P22749",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P22749",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Bactericidal and tumoricidal activities of synthetic peptides derived from granulysin.",
+                    "Pubmed ID": "10903754",
+                    "Reference": "J Immunol. 2000;165:1486-1490",
+                    "Author": "Wang Z, Choice E, Kaspar A, Hanson DA, Okada S, Lyu SC, Krensky AM, Clayberger C",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/10903754"
+                }
+            ],
+            "Mass": 3526.01,
+            "PI": 12.0,
+            "Net Charge": 8,
+            "Hydrophobicity": -1.16,
+            "Frequent Amino Acids": "RSV",
+            "Absent Amino Acids": "EHIKLOPUY",
+            "Basic Residues": 9,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 20,
+            "Positive Residues": 9,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_UN_27654",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03115",
+                    "Similarity": 1.0,
+                    "Sequence": "GRDYRTCLTIVQKLKKMVDKPTQRSVSNAATRVCRTGRSRWRDVCRNFMRRYQSRVTQGLVAGETAQQICEDLRLCIPSTGPL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04141",
+                    "Similarity": 1.0,
+                    "Sequence": "QRSVSNAATRVCRTGRSRWRDVCRNFMRRYQSRVIQGLV"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04142",
+                    "Similarity": 1.0,
+                    "Sequence": "QRSVSNAATRVCRT"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Salmonella typhimurium(LC=10µM),Jurkat cancer cells(LC90=20µM)"
+        }
+    }
+}

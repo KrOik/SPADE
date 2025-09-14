@@ -1,0 +1,71 @@
+{
+    "SPADE_UN_14426": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_14426",
+            "Peptide Name": "Eval418-FH2",
+            "Source": "Synthetic construct(derived from Eval418)",
+            "Family": "Herpesviridae",
+            "Gene": "Not found",
+            "Sequence": "LWGHIWNFVHGLI",
+            "Sequence Length": 13,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antiviral"
+            ],
+            "Target Organism": "[Ref.29290802]HSV-1:inhibition of viral inactivation in Vero cells(IC50=1.50 μg/ml);inhibition of viral attachment in Vero cells(IC50=1.43 μg/ml);inhibition of viral entry in Vero cells(IC50=8.63 μg/ml).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "[Ref.29290802]Vero cell:CC50=27.60 μg/mL.",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C80H110N20O15",
+            "Mass": 1591.85,
+            "PI": 6.92,
+            "Net Charge": 2,
+            "Hydrophobicity": 0.85,
+            "Half Life": "Mammalian:5.5 hourYeast:3 minE.coli:2 min",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Histidine-rich Modification of a Scorpion-derived Peptide Improves Bioavailability and Inhibitory Activity against HSV-1.",
+                    "Pubmed ID": "29290802",
+                    "Reference": "Theranostics. 2018 Jan 1;8(1)199-211.",
+                    "Author": "Zeng Z, Zhang R, Hong W, Cheng Y, Wang H, Lang Y, Ji Z, Wu Y, Li W, Xie Y, Cao Z.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=29290802"
+                }
+            ],
+            "Frequent Amino Acids": "GHI",
+            "Absent Amino Acids": "ACDEKMOPQRSTUY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 4,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_14427",
+                    "Similarity": 0.9230769230769231,
+                    "Sequence": "LWHHIWNFVHGLI"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_16285",
+                    "Similarity": 0.8,
+                    "Sequence": "RVFKKFHPIYHRVWRLWGHL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_14425",
+                    "Similarity": 0.7692307692307693,
+                    "Sequence": "LWGEIWNTVKGLI"
+                }
+            ]
+        }
+    }
+}

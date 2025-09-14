@@ -1,0 +1,71 @@
+{
+    "SPADE_N_14046": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_14046",
+            "Peptide Name": "Coleoptericin B (ZA-col B; natural AMPs; insects, arthropods, invertebrates, animals; UCLL1; BBMm)",
+            "Source": "Zophobas atratus",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "SLQGGAPNFPQPSQQNGGWKVSPDLGRDDKGNTRGQIEIQNKGKDHDFNAGWGKVIRGPNKAKPTWHVGGTYRW",
+            "Sequence Length": 74,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-inflammatory"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 8139.86,
+            "PI": 9.99,
+            "Hydrophobicity": -1.27,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Wang X, Li S, Du M, Liu N, Shan Q, Zou Y, Wang J, Zhu Y. 2024",
+                    "Reference": "J Antimicrob Chemother. 2024 Jan 4:dkad397. doi: 10.1093/jac/dkad397.PubMed",
+                    "Title": "A novel glycine-rich peptide from Zophobas atratus, coleoptericin B, targets bacterial membrane and protects against Klebsiella pneumoniae-induced mastitis in mice."
+                }
+            ],
+            "Frequent Amino Acids": "GKN",
+            "Absent Amino Acids": "CMOU",
+            "Basic Residues": 13,
+            "Acidic Residues": 6,
+            "Hydrophobic Residues": 24,
+            "Polar Residues": 38,
+            "Positive Residues": 13,
+            "Negative Residues": 6,
+            "Net Charge": 7,
+            "Comments": "Sequence analysis: APD analysis reveals that this sequence is similar (97.3%) toColeoptericinG: 18%. GRAVY: -1.27; mol Wt: 8139.955; mol formula: C359H555N107O106; mol ex coeff: 23690.Activity: active against E. coli ATCC 25922 (MIC 32 uM), K. pneumoniae CAU202084 (MIC 32 uM),  S. aureus ATCC 25923 (MIC 64 uM),  and S. haemolyticus CAU202078 (MIC 32 uM).SAR: Compared to the WT (AP00413), there are two aa changes: Q20K and R74W. These changes would make the peptide more active.Resistance development:no:bacteria:E. coli: Resistance development:no:bacteria:S. aureus ATCC 25923;  Resistance development:no:bacteria:K. pneumoniae;  Resistance development:no:bacteria:S. haemolyticus:: MIC to the four bacteria did not increase after 50 cycles (cf: gentamicin MIC > 128 ug/ml, MIC changed over 32-128 fold).MOA:bacteria: act on membranes. permeabilization.Toxicity: not toxic to RBC (not hemo.lytic) or vero cells at 128 uM.Recombinant production:bacteria:Escherichia coli: expressed as a GST fusion, purified by GSTrap 4B, PreScission Protease cleavage, further purified by Superdex 30.Animal model:mouse: challenge with K. pneumoniae CAU202084 for 27 h caused mastitis and treatment with the peptide or  gentamicin effectively reduced\nneutrophil infiltration and alleviated the thickening of acinar walls. CFU reduced ~1 log. In addition, both TNF-alpha and IL-1beta reduced in the peptide treated group relative to the infected group (Anti-inflammatory).",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02397",
+                    "Similarity": 0.972972972972973,
+                    "Sequence": "SLQGGAPNFPQPSQQNGGWQVSPDLGRDDKGNTRGQIEIQNKGKDHDFNAGWGKVIRGPNKAKPTWHVGGTYRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02403",
+                    "Similarity": 0.6619718309859155,
+                    "Sequence": "SLQPGAPNVNNKDQPWQVSPHISRDDSGNTNTDINLQRHGENHDFDAGWSKVVRGPNKAKPTWHVGGTYRW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02400",
+                    "Similarity": 0.6338028169014085,
+                    "Sequence": "SLQPGAPNVNNKDQPWQVSPHISRDDSGNTRTDINVQRHGENNDFEAGWSKVVRGPNKAKPTWHIGGTHRW"
+                }
+            ]
+        }
+    }
+}

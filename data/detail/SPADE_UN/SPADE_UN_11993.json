@@ -1,0 +1,78 @@
+{
+    "SPADE_UN_11993": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_11993",
+            "Peptide Name": "KL10A0 (De novo synthesis)",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "LLKLLLKLLLKLL",
+            "Sequence Length": 13,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic form",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.26385363] Gram-positive bacteria :Staphylococcus aureus ATCC 29213(MIC>128 μM), Staphylococcus epidermidis ATCC 12228(MIC>128 μM), Streptococcus faecalis ATCC 29212(MIC>128 μM), Bacillus subtilis CMCC 63501(MIC>128 μM);Gram-negative bacteria :Escherichia coli ATCC25922(MIC>128 μM), Escherichia coli K88(MIC>128 μM), Escherichia coli CVCC 1515(MIC>128 μM), Escherichia coli UB1005(MIC>128 μM), Bacterium pyocyaneum ATCC 27853(MIC>128 μM), Salmonella typhimurium ATCC 14028(MIC>128 μM), Salmonella pullorum C79–13(MIC>128 μM)",
+            "Hemolytic Activity": "[Ref.26385363] MHC5=2 μM against human red blood cells",
+            "Cytotoxicity": "[Ref.26385363] The cell viability of HEK293 cells induced by KL10A0 is 93.9%, 93.3%, 81.9%, 77.2%, 75.6%, 67.8%, 51.9% and 19.4% at peptide concentrations of 1, 2, 4, 8, 16, 32, 64 and 128 μM. The cell viability of HEK293 cells induced by control Melitti",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C78H148N16O14",
+            "Mass": 1534.11,
+            "PI": 10.3,
+            "Net Charge": 3,
+            "Hydrophobicity": 2.02,
+            "Half Life": "Mammalian:5.5 hourYeast:3 minE.coli:2 min",
+            "Function": "Uncertain antibacterial activity against Gram-positive bacteria and Gram-negative bacteria.",
+            "Literature": [
+                {
+                    "Title": "Rational design of mirror-like peptides with alanine regulation.",
+                    "Pubmed ID": "26385363",
+                    "Reference": "Amino Acids. 2016 Feb;48(2)403-17. doi 10.1007/s00726-015-2094-y.",
+                    "Author": "Li W, Tan T, Xu W, Xu L, Dong N, Ma D, Shan A",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=26385363"
+                },
+                {
+                    "Title": "Rational design of mirror-like peptides with alanine regulation",
+                    "Pubmed ID": "",
+                    "Author": "Li W, Tan T, Xu W, Xu L, Dong n, Ma D, Shan A"
+                }
+            ],
+            "Frequent Amino Acids": "LK",
+            "Absent Amino Acids": "ACDEFGHIMNOPQRSTUVWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 3,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06021",
+                    "Similarity": 1.0,
+                    "Sequence": "KLLLKLLKLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07259",
+                    "Similarity": 1.0,
+                    "Sequence": "RKKRRQRRRGGGKLLKLLLKLLLKLLK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08367",
+                    "Similarity": 1.0,
+                    "Sequence": "KLLK"
+                }
+            ]
+        }
+    }
+}

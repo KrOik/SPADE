@@ -1,0 +1,72 @@
+{
+    "SPADE_N_01536": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01536",
+            "Peptide Name": "Dermaseptin-DA4 (DRS-DA4; Frogs, amphibians, animals)",
+            "Source": "Pachymedusa dacnicolor (Mexican frog)",
+            "Family": "Belongs to the frog skin active peptide family (Dermaseptin subfamily)",
+            "Gene": "Not found",
+            "Sequence": "GMWSKIKNAGKAAKAAAKAAGKAALGAVSEAM",
+            "Sequence Length": 32,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.FEBS J. 2009 Nov;276(22):6773-6786.]Gram-negative bacteria:Escherichia coli ML35p(MIC=5 µM), Escherichia coli 363 ATCC 11775(MIC=5 µM), Peudomonas aeruginosa ATCC 27853(MIC=40 µM).",
+            "Hemolytic Activity": "[Ref. FEBS J. 2009 Nov;276(22):6773-6786.]Show no hemolytic activity against rat blood cells.",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C133H228N40O38S2",
+            "Mass": 3059.61,
+            "PI": 10.3,
+            "Net Charge": 5,
+            "Hydrophobicity": 0.11,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "It shows selective activity against gram-negative bacteria and not toxic to fresh rat erythrocytes. DRS-DA4 is a potent chemoattractant for human leukocytes and is devoid of hemolytic activity.",
+            "Literature": [
+                {
+                    "Title": "Dermaseptin DA4, although closely related to dermaseptin B2, presents chemotactic and Gram-negative selective bactericidal activities.",
+                    "Pubmed ID": "PubMed ID is not available",
+                    "Reference": "FEBS J. 2009 Nov;276(22)6773-6786.",
+                    "Author": "Auvynet C, Joanne P, Bourdais J, Nicolas P, Lacombe C, Rosenstein Y.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=PubMed ID is not available"
+                }
+            ],
+            "Frequent Amino Acids": "AKG",
+            "Absent Amino Acids": "CDFHOPQRTUY",
+            "Basic Residues": 6,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 18,
+            "Polar Residues": 22,
+            "Positive Residues": 6,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_15903",
+                    "Similarity": 1.0,
+                    "Sequence": "KAAK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06866",
+                    "Similarity": 0.9375,
+                    "Sequence": "GMWSKIKNAGKAAAKAAAKAAGKAALDAVSEAI"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_11990",
+                    "Similarity": 0.9230769230769231,
+                    "Sequence": "AAKAAAKAAAKAA"
+                }
+            ]
+        }
+    }
+}

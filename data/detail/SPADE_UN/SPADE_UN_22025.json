@@ -1,0 +1,64 @@
+{
+    "SPADE_UN_22025": {
+        "Sequence Information": {
+            "Peptide Name": "Lfcin (15–39)[T3E,Q7K]",
+            "Sequence": "EAEKCFKWQRNMRKVRGPPVSCIKR",
+            "Sequence Length": 25,
+            "Biological Activity": [
+                "Antifungal"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P02788",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P02788",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Fungicidal Activity of Human Lactoferrin-Derived Peptides Based on the Antimicrobial ?? Region",
+                    "Pubmed ID": "21075607",
+                    "Reference": "Int J Antimicrob Agents. 2011;37:51-57",
+                    "Author": "Kondori N, Baltzer L, Dolphin GT, Mattsby-Baltzer I",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/21075607"
+                }
+            ],
+            "Mass": 3047.63,
+            "PI": 10.45,
+            "Net Charge": 6,
+            "Hydrophobicity": -1.14,
+            "Frequent Amino Acids": "KRC",
+            "Absent Amino Acids": "DHLOTUY",
+            "Basic Residues": 8,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 17,
+            "Positive Residues": 8,
+            "Negative Residues": 2,
+            "SPADE ID": "SPADE_UN_22025",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_13771",
+                    "Similarity": 1.0,
+                    "Sequence": "RKVRGPP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07198",
+                    "Similarity": 0.9545454545454546,
+                    "Sequence": "KCFQWQRNMRKVRGPPVSCIKR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07199",
+                    "Similarity": 0.9545454545454546,
+                    "Sequence": "KCFQWQRNMRKVRGPPVSCIKR"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Candida albicans ATCC 64549(MFC=>200µg/ml),Candida albicans ATCC 64549(MFC=50µg/ml)"
+        }
+    }
+}

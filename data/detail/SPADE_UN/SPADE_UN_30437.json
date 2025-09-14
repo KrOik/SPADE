@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_30437": {
+        "Sequence Information": {
+            "Peptide Name": "Melittin (12-26)[P3K][A4K][K12A][R13A][ 27G]",
+            "Sequence": "GLKKLISWIKRAAQQG",
+            "Sequence Length": 16,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P01501",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P01501",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Biological activities of C-terminal 15-residue synthetic fragment of melittin: design of an analog with improved antibacterial activity.",
+                    "Pubmed ID": "10217411",
+                    "Reference": "FEBS Lett. 1999;448:62-66",
+                    "Author": "Subbalakshmi C, Nagaraj R, Sitaram N",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/10217411"
+                }
+            ],
+            "Mass": 1797.15,
+            "PI": 11.26,
+            "Net Charge": 4,
+            "Hydrophobicity": -0.34,
+            "Frequent Amino Acids": "KAG",
+            "Absent Amino Acids": "CDEFHMNOPTUVY",
+            "Basic Residues": 4,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 10,
+            "Positive Residues": 4,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_30437",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01750",
+                    "Similarity": 1.0,
+                    "Sequence": "FLGSLIGAAIPAIKQLLGLKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11065",
+                    "Similarity": 1.0,
+                    "Sequence": "GKLWGLKGKLWGLKGKLWGLK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_13158",
+                    "Similarity": 1.0,
+                    "Sequence": "KKLGWGLKK"
+                }
+            ],
+            "Hemolytic Activity": "Rat erythrocytes:100% Hemolysis=100 µg/ml",
+            "Target Organism": "Escherichia coli W160-37(MIC=10-15µg/ml),Staphylococcus aureus 8530(MIC=5-10µg/ml),Bacillus subtilis(MIC=2-4µg/ml),Pseudomonas putida NCIM 2102(MIC=50-60µg/ml)"
+        }
+    }
+}

@@ -1,0 +1,81 @@
+{
+    "SPADE_UN_29223": {
+        "Sequence Information": {
+            "Peptide Name": "Puroindoline-A (34-46), PuroA",
+            "Sequence": "FPVTWKWWKWWKG",
+            "Sequence Length": 13,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anticancer",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P33432",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P33432",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Mechanism of action of puroindoline derived tryptophan-rich antimicrobial peptides.",
+                    "Pubmed ID": "23562406",
+                    "Reference": "Biochim Biophys Acta. 2013;1828:1802-1813",
+                    "Author": "Haney EF, Petersen AP, Lau CK, Jing W, Storey DG, Vogel HJ",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/23562406"
+                },
+                {
+                    "Title": "Improving the Activity of Trp-Rich Antimicrobial Peptides by Arg/Lys Substitutions and Changing the Length of Cationic Residues.",
+                    "Pubmed ID": "29671805",
+                    "Reference": "Biomolecules. 2018;8:E19",
+                    "Author": "Arias M, Piga KB, Hyndman ME, Vogel HJ",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/29671805"
+                },
+                {
+                    "Title": "Selective anticancer activity of synthetic peptides derived from the host defence peptide tritrpticin.",
+                    "Pubmed ID": "32126228",
+                    "Reference": "Biochim Biophys Acta. 2020;1862:183228",
+                    "Author": "Arias M, Haney EF, Hilchie AL, Corcoran JA, Hyndman ME, Hancock REW, Vogel HJ",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/32126228"
+                }
+            ],
+            "Mass": 1835.16,
+            "PI": 10.3,
+            "Net Charge": 3,
+            "Hydrophobicity": -0.92,
+            "Frequent Amino Acids": "WKF",
+            "Absent Amino Acids": "ACDEHILMNOQRSUY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 2,
+            "Polar Residues": 11,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_29223",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_09587",
+                    "Similarity": 1.0,
+                    "Sequence": "FPVLFPV"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09589",
+                    "Similarity": 1.0,
+                    "Sequence": "FPVFPV"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09592",
+                    "Similarity": 1.0,
+                    "Sequence": "FPVFPV"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=>500 µM,Human PBMC:IC50=34.3 µM",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=5.3µM),Staphylococcus aureus ATCC 25923(MIC=20µM),Escherichia coli ATCC 25922(MIC=8µM),Jurkat T-cell leukemia(IC50=12.0µM)"
+        }
+    }
+}

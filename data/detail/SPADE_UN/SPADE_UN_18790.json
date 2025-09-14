@@ -1,0 +1,70 @@
+{
+    "SPADE_UN_18790": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_18790",
+            "Peptide Name": "GLRC-3 (Synthetic AMPs, variant of GLR-19, Arg-rich; Leu-rich; 1S=S, UCSS1a)",
+            "Source": "De novo designed, man-made sequences",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "GLRRLCGRLGRRLCRLLLR",
+            "Sequence Length": 19,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antiviral",
+                "Anti-HIV"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 2280.86,
+            "PI": 12.0,
+            "Hydrophobicity": -0.06,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Wang G, Watson KM, Mishra B, Lushnikova T, Buckheit RW Jr. 2011",
+                    "Reference": "J AIDS Clinic Res S2:003. doi:10.4172/2155-6113.S2-003.Wang HIV screen project",
+                    "Title": "De Novo Design of Antiviral and Antibacterial Peptides with \nVarying Loop Structures"
+                }
+            ],
+            "Frequent Amino Acids": "LRG",
+            "Absent Amino Acids": "ADEFHIKMNOPQSTUVWY",
+            "Basic Residues": 7,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 9,
+            "Positive Residues": 7,
+            "Negative Residues": 0,
+            "Net Charge": 7,
+            "Comments": "Sequence analysis: APD analysis reveals that this sequence is poorly similar (84.21%) toGLR-19. R: 37%; L: 37%.Chemical modification:  one disulfide bond C6-C14.Activity: inhibited HSV-2MS in Vero cells (EC50 6.37 ug/ml); HSV-2MS in Vero cells (EC50 15 ug/ml). E. coli (MIC 7.5 uM); B.subtilis (MIC >120 uM).Toxicity: TC50 18.5 ug/ml in CEM-SS cells.",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_13165",
+                    "Similarity": 1.0,
+                    "Sequence": "RRLGLWLGLRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_09389",
+                    "Similarity": 1.0,
+                    "Sequence": "SLSVEAKAKIVADFGRDANDTGSSEVQVALLTAQINHLQGHFSEHKKDHHSRRGLLRMVSTRRKLLDYLKRKDVASYVSLIERLGLRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_20922",
+                    "Similarity": 1.0,
+                    "Sequence": "RRLGLWLGLRR"
+                }
+            ]
+        }
+    }
+}

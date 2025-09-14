@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_14992": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_14992",
+            "Peptide Name": "Pcr-R416A",
+            "Source": "Synthetic construct(derived from HTLV-1 envelope glycoprotein (gp21))",
+            "Family": "Retroviridae",
+            "Gene": "Not found",
+            "Sequence": "CFLNITNSHVSILQEAPPLENRV",
+            "Sequence Length": 23,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P14075"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antiviral"
+            ],
+            "Target Organism": "[Ref.19114713]:Human T cell leukemia virus type 1(HTLV-1):inhibition of mambrane fusion in 293T cells(IC50=1.55 ± 0.08 μM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "membrane",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Acetylation",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C114H184N32O35S",
+            "Mass": 2594.94,
+            "PI": 5.4,
+            "Net Charge": 0,
+            "Hydrophobicity": 0.07,
+            "Half Life": "Mammalian:1.2 hourYeast:>20 hourE.coli:>10 hour",
+            "Mechanism of action": "The peptide is an effective inhibitor of HTLV-1 envelope-catalyzed membrane fusion and thus inhibits virus entry.",
+            "Literature": [
+                {
+                    "Title": "Basic residues are critical to the activity of peptide inhibitors of human T cell leukemia virus type 1 entry.",
+                    "Pubmed ID": "19114713",
+                    "Reference": "J Biol Chem. 2009 Mar 6;284(10)6575-84.",
+                    "Author": "Lamb D, Mirsaliotis A, Kelly SM, Brighty DW.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=19114713"
+                }
+            ],
+            "Frequent Amino Acids": "LNE",
+            "Absent Amino Acids": "DGKMOUWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 13,
+            "Positive Residues": 2,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_14989",
+                    "Similarity": 0.9565217391304348,
+                    "Sequence": "CCFLNITNSHVSILQERPPLENRVLTGWGL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_14991",
+                    "Similarity": 0.9565217391304348,
+                    "Sequence": "CFLNITNSHVSILQERPPLENRV"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_14993",
+                    "Similarity": 0.9565217391304348,
+                    "Sequence": "CFLNITNSHVSILQEAPPLENAV"
+                }
+            ]
+        }
+    }
+}

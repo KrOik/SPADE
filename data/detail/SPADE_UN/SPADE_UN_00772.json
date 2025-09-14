@@ -1,0 +1,81 @@
+{
+    "SPADE_UN_00772": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 8003348 B2",
+                "Patent Link": "http://www.lens.org/lens/patent/US_8003348_B2",
+                "Patent Type": "Granted Patent",
+                "Publication Date": "2011-8-23",
+                "Family Info": "US20100184949",
+                "Patent Title": "Method for the mass expression of an antimicrobial peptide by co-expression of a basic antimicrobial peptide and an acidic peptide using a tr",
+                "Abstract": "The present invention relates to a gene construct which is capable of achieving efficient production of an antimicrobial peptide in a microorganism, and a method for efficient mass production and separation of an antimicrobial peptide using the same. The gene construct of the present invention has a translationally coupled configuration of two independent and separate cistrons which encode an acidic peptide and a basic antimicrobial peptide, each having an opposite charge, under the control of a single promoter. The translationally coupled acidic peptide and basic antimicrobial peptide undergo charge-charge interaction simultaneously with expression thereof to neutralize the potential cytotoxicity of the antimicrobial peptide, resulting in prevention of antimicrobial peptide-mediated killing of host microorganisms. In addition, a conjugate of the acidic peptide and the antimicrobial peptide can be separated without chemical or enzymatic treatment. Therefore, it is possible to achieve easy mass pro"
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_00772",
+            "Peptide Name": "Buforin",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "RAGLQFPVGRLLRRLLRRLLR",
+            "Sequence Length": 21,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C115H207N43O23",
+            "Mass": 2560.15,
+            "PI": 12.0,
+            "Net Charge": 7,
+            "Hydrophobicity": -0.1,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Mechanism of action and specificity of antimicrobial peptides designed based on buforin IIb.",
+                    "Pubmed ID": "22306477",
+                    "Reference": "Peptides. 2012 Apr;34(2)283-289.",
+                    "Author": "Jang SA, Kim H, Lee JY, Shin JR, Kim da J, Cho JH, Kim SC.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=22306477"
+                }
+            ],
+            "Frequent Amino Acids": "LRG",
+            "Absent Amino Acids": "CDEHIKMNOSTUWY",
+            "Basic Residues": 7,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 10,
+            "Positive Residues": 7,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_07993",
+                    "Similarity": 1.0,
+                    "Sequence": "GRAGLQFPVGRLLRRLLRRLLR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_16899",
+                    "Similarity": 1.0,
+                    "Sequence": "RAGLQFPVGRLLRRLLR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_13370",
+                    "Similarity": 1.0,
+                    "Sequence": "AGLQFP"
+                }
+            ]
+        }
+    }
+}

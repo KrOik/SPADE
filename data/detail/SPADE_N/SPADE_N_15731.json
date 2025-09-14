@@ -1,0 +1,67 @@
+{
+    "SPADE_N_15731": {
+        "Sequence Information": {
+            "Peptide Name": "VP3 protein, EpVP3S",
+            "Sequence": "INPKSVQSLL",
+            "Sequence Length": 10,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "1. Eumenes pomiformis",
+            "Gene": "1. VP3",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "D1MEI9",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/D1MEI9",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Venom peptides from solitary hunting wasps induce feeding disorder in lepidopteran larvae.",
+                    "Pubmed ID": "21184791",
+                    "Reference": "Peptides. 2011;32:568-572",
+                    "Author": "Baek JH, Ji Y, Shin JS, Lee S, Lee SH",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/21184791"
+                }
+            ],
+            "Mass": 1098.29,
+            "PI": 8.75,
+            "Net Charge": 1,
+            "Hydrophobicity": 0.22,
+            "Frequent Amino Acids": "LSI",
+            "Absent Amino Acids": "ACDEFGHMORTUWY",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 4,
+            "Polar Residues": 6,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_N_15731",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02687",
+                    "Similarity": 1.0,
+                    "Sequence": "VFIDILDKVENAIHNAAQVGIGFAKPFEKLINPK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03568",
+                    "Similarity": 1.0,
+                    "Sequence": "GFKQFVHSMGKFGKAFVGEIINPK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07983",
+                    "Similarity": 1.0,
+                    "Sequence": "MKYFVVLVVLALILAISVGPSDAVFIDILDKVENAIHNAAQVGIGFAKPFEKLINPK"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:-=NA",
+            "Target Organism": "Escherichia coli ATCC 11775(MIC=>200µM),Staphylococcus aureus ATCC 12600(MIC=>200µM),Candida albicans ATCC 10231(MIC=>200µM),Botrytis cinerea(MIC=>200µM),Lymantria dispar FB cells(no activity data),Spodoptera frugiperda ovarian Sf9 cells(no activity data)"
+        }
+    }
+}

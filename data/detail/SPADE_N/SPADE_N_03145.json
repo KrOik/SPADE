@@ -1,0 +1,93 @@
+{
+    "SPADE_N_03145": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 2006/0069022 A1",
+                "Patent Link": "http://www.lens.org/lens/patent/US_2006_0069022_A1",
+                "Patent Type": "Patent Application",
+                "Publication Date": "2006-3-30",
+                "Family Info": "US7271239",
+                "Patent Title": "D-isomers of antimicrobial peptide",
+                "Abstract": "This invention provides D-isomers of MUC7-12-mer peptide of human saliva MUC7. The isomers have antimicrobial activity comparable to that of the L-isomers and are resistant to proteolysis. These peptides can be used as antifungal and antimicrobial agents."
+            },
+            {
+                "Patent No": "US 6790833 B2",
+                "Patent Link": "http://www.lens.org/lens/patent/US_6790833_B2",
+                "Patent Type": "Granted Patent",
+                "Publication Date": "2004-9-14",
+                "Family Info": "None",
+                "Patent Title": "Antifungal And Antibacterial Agents",
+                "Abstract": "The present invention discloses peptides obtained from the MUCD1 domain of the saliva mucin glycoprotein MUC7. The peptides are between 8 and 23 amino acids in length and have a net positive charge. The peptides are obtained from the Cterminus of the MUC"
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03145",
+            "Peptide Name": "Human MUC7 20-Mer (Human, mammals, animals)",
+            "Source": "Homo sapiens (Human)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "LAHQKPFIRKSYKCLHKRCR",
+            "Sequence Length": 20,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "Gram-positive bacteria:Streptococcus mutans (EC50=1.39 µM), Streptococcus gordonii (EC50=2.43 µM);Gram-negative bacteria:Escherichia coli (EC50=1.61 µM), Pseudomonas aeruginosa (EC50=4.41 µM), Porphyromonas gingivalis (EC50<1 µM).Fungi:Candida albicans (DIS) (EC50=5.85 µM), C. albicans (azole resistant) (EC50=2.40 µM), Candida glabrata (EC50=5.02 µM), C. glabrata (fluconazole resistant) (EC50=12.3 µM), Candida krusei (EC50=5.16 µM), Cryptococcus neoformans (EC50=4.05 µM), Cryptococcus neoformans (amphotericin B resistant) (EC50=4.29 µM), Saccharomyces cerevisiae (EC50=5.23 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C112H186N38O24S2",
+            "Mass": 2513.05,
+            "PI": 10.57,
+            "Net Charge": 9,
+            "Hydrophobicity": -1.05,
+            "Half Life": "Mammalian:5.5 hourYeast:3 minE.coli:2 min",
+            "Function": "MUC7 20-mer showes potent activity against a variety of fungi, including C. albicans, C. glabrata, C. krusei, C. neoformans, and S. cerevisae. In addition, it is also active against several drug-resistant strains, including azole-resistant C. albicans, fluconazole-resistant C. glabrata, and amphotericin B-resistant C. neoformans.",
+            "Literature": [
+                {
+                    "Title": "MUC7 20-Mer Investigation of Antimicrobial Activity, Secondary Structure, and Possible Mechanism of Antifungal Action.",
+                    "Pubmed ID": "12543672",
+                    "Reference": "Antimicrob Agents Chemother 2003 Feb;47(2)643-652.",
+                    "Author": "Bobek LA, Situ H.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=12543672"
+                }
+            ],
+            "Frequent Amino Acids": "KRC",
+            "Absent Amino Acids": "DEGMNOTUVW",
+            "Basic Residues": 9,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 15,
+            "Positive Residues": 9,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_05757",
+                    "Similarity": 1.0,
+                    "Sequence": "EGRERDHELRHRRHHHQSPKSHFELPHYPGLLAHQKPFIRKSYKCLHKRCR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05759",
+                    "Similarity": 1.0,
+                    "Sequence": "SPKSHFELPHYPGLLAHQKPFIRKSYKCLHKRCR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05764",
+                    "Similarity": 1.0,
+                    "Sequence": "LAHQKPFI"
+                }
+            ]
+        }
+    }
+}

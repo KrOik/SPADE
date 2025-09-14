@@ -1,0 +1,87 @@
+{
+    "SPADE_N_01788": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01788",
+            "Peptide Name": "Brevinin-2DYe (Brevinin-2CDYa; Frogs, amphibians, animals)",
+            "Source": "Rana dybowskii (Dybovsky's frog) (Korean brown frog)",
+            "Family": "Belongs to the frog skin active peptide family (Brevinin subfamily)",
+            "Gene": "Not found",
+            "Sequence": "GLFSVVTGVLKAVGKNVAKNVGGSLLEQLKCKISGGC",
+            "Sequence Length": 37,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P0C5X5"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-positive bacterium:Staphylococcus aureus (MIC=15 µM);Gram-negative bacterium:Escherichia coli (MIC=30 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Cyclization (Cys31 and Cys37)",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C162H281N45O47S2",
+            "Mass": 3675.37,
+            "PI": 9.6,
+            "Net Charge": 4,
+            "Hydrophobicity": 0.56,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Active against the Gram-positive bacteria",
+            "Literature": [
+                {
+                    "Title": "Cytolytic peptides belonging to the brevinin-1 and brevinin-2 families isolated from the skin of the Japanese brown frog, Rana dybowskii.",
+                    "Pubmed ID": "17688900",
+                    "Reference": "Toxicon. 2007 Nov;50(6)746-756.",
+                    "Author": "Conlon JM, Kolodziejek J, Nowotny N, Leprince J, Vaudry H, Coquet L, Jouenne T, Iwamuro S.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=17688900"
+                },
+                {
+                    "Title": "Purification and characterization of antimicrobial peptides from the skin secretion of Rana dybowskii.",
+                    "Pubmed ID": "17698251",
+                    "Reference": "Peptides. 2007 Aug;28(8)1532-1539.",
+                    "Author": "Kim SS, Shim MS, Chung J, Lim DY, Lee BJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=17698251"
+                },
+                {
+                    "Title": "Characterization of antimicrobial peptides isolated from the skin of the Chinese frog, Rana dybowskii.",
+                    "Pubmed ID": "R2009J0280",
+                    "Author": "Zhang D.-B.,Feng K.,Song S.-S.,Li Q.,Jin L.-L."
+                }
+            ],
+            "Frequent Amino Acids": "GVK",
+            "Absent Amino Acids": "DHMOPRUWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 15,
+            "Polar Residues": 22,
+            "Positive Residues": 5,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01166",
+                    "Similarity": 1.0,
+                    "Sequence": "GLFSVVTGVLKAVGKNVAKNVGGSLLEQLKCKKISGGC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01790",
+                    "Similarity": 1.0,
+                    "Sequence": "GLFSVVTGVLKAVGKNVAGSLLEQLKCKISGGC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01947",
+                    "Similarity": 0.9090909090909091,
+                    "Sequence": "MFTSKKSMLLLFFLGTISLSLCQEERDADEDEVIEEEVKRGLFSVVKGVLKGVGKNVAGSLLDQLKCKISGGC"
+                }
+            ]
+        }
+    }
+}

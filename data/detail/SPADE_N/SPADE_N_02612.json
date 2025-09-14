@@ -1,0 +1,74 @@
+{
+    "SPADE_N_02612": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02612",
+            "Peptide Name": "Bombolitin V (insects, arthropods, invertebrates, animals)",
+            "Source": "Megabombus pennsylvanicus (Bumblebee)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "INVLGILGLLGKALSHL",
+            "Sequence Length": 17,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P07496"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti Mammalian Cells"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "[Ref.2578459] Hemolysis:ED50=0.7±0.05 µg/ml. Histamine release:ED50=2.0±0.3 µg/ml against guinea pig erythrocytes.",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C81H143N21O20",
+            "Mass": 1731.13,
+            "PI": 8.76,
+            "Net Charge": 2,
+            "Hydrophobicity": 1.48,
+            "Half Life": "Mammalian:20 hourYeast:30 minE.coli:>10 hour",
+            "Function": "Mast cell degranulating peptide. Has hemolytic activity.",
+            "Literature": [
+                {
+                    "Title": "Bombolitins, a new class of mast cell degranulating peptides from the venom of the bumblebee Megabombus pennsylvanicus.",
+                    "Pubmed ID": "2578459",
+                    "Reference": "J Biol Chem. 1985 Feb 10;260(3)1437-144.",
+                    "Author": "Argiolas A, Pisano JJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=2578459"
+                }
+            ],
+            "Frequent Amino Acids": "LGI",
+            "Absent Amino Acids": "CDEFMOPQRTUWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 6,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_12502",
+                    "Similarity": 0.9090909090909091,
+                    "Sequence": "ILGTILGLLKAL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01073",
+                    "Similarity": 0.8333333333333334,
+                    "Sequence": "GILDIAKKLVGGIRNVLGI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01074",
+                    "Similarity": 0.8333333333333334,
+                    "Sequence": "GILDVAKTLVGKLRNVLGI"
+                }
+            ]
+        }
+    }
+}

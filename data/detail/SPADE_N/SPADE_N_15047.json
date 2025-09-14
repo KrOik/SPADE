@@ -1,0 +1,55 @@
+{
+    "SPADE_N_15047": {
+        "Sequence Information": {
+            "Peptide Name": "Duramycin C",
+            "Sequence": "CANSCXYGPLTWSCXGNTK",
+            "Sequence Length": 19,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Membrane Protein",
+            "Source": "1. Streptomyces griseoluteus",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P36503",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P36503",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Duramycins B and C, two new lanthionine containing antibiotics as inhibitors of phospholipase A2. Structural revision of duramycin and cinnamycin",
+                    "Pubmed ID": "2125590",
+                    "Reference": "J Antibiot (Tokyo). 1990;43:1403-1412",
+                    "Author": "Fredenhagen A, Fendrich G, Märki F, Märki W, Gruner J, Raschdorf F, Peter HH",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/2125590"
+                }
+            ],
+            "SPADE ID": "SPADE_N_15047",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00049",
+                    "Similarity": 1.0,
+                    "Sequence": "CANSCSYGPLTWSCDGNTK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00047",
+                    "Similarity": 0.8235294117647058,
+                    "Sequence": "CVQSCSFGPLTWSCDGNTK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15048",
+                    "Similarity": 0.7058823529411765,
+                    "Sequence": "CRQSCFGPLTFVCGNTK"
+                }
+            ],
+            "Hemolytic Activity": "Human leukocytes:IC50=0.8±0.1 µM",
+            "Target Organism": "Staphylococcus aureus(no activity data),Streptococcus mitis(no activity data),Escherichia coli(no activity data),Klebsiella pneumoniae(no activity data),Proteus vulgaris ATCC 9484(no activity data),Candida albicans(no activity data)"
+        }
+    }
+}

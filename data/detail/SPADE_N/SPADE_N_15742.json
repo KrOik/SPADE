@@ -1,0 +1,65 @@
+{
+    "SPADE_N_15742": {
+        "Sequence Information": {
+            "Peptide Name": "Temporin-10a",
+            "Sequence": "FLPLLASLFSRLL",
+            "Sequence Length": 13,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "1. Rana ornativentris",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "A3KD26",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/A3KD26",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Antimicrobial peptides from the skin of the Japanese mountain brown frog, Rana ornativentris.",
+                    "Pubmed ID": "11892844",
+                    "Reference": "J Pept Res. 2001;58:349-356",
+                    "Author": "Kim JB, Iwamuro S, Knoop FC, Conlon JM",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/11892844"
+                }
+            ],
+            "Mass": 1489.84,
+            "PI": 9.75,
+            "Net Charge": 1,
+            "Hydrophobicity": 1.73,
+            "Frequent Amino Acids": "LFS",
+            "Absent Amino Acids": "CDEGHIKMNOQTUVWY",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 4,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_N_15742",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_00105",
+                    "Similarity": 1.0,
+                    "Sequence": "FLPLLASLFSRLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_11352",
+                    "Similarity": 1.0,
+                    "Sequence": "FLPLASLFSRLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_26182",
+                    "Similarity": 1.0,
+                    "Sequence": "VNGKGRPRRGFKTRRTQKSSLFLP"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=70µM),Staphylococcus aureus NCTC 8325(MIC=2µM)"
+        }
+    }
+}

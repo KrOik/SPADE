@@ -1,0 +1,71 @@
+{
+    "SPADE_UN_14144": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_14144",
+            "Peptide Name": "GLR-19",
+            "Source": "Synthetic construct",
+            "Family": "Retroviridae",
+            "Gene": "Not found",
+            "Sequence": "GLRRLLGRLLRRLGRLLLR",
+            "Sequence Length": 19,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antiviral"
+            ],
+            "Target Organism": "[Ref.20086159]HIV-1 IIIB:inhibition the cytopathic effects of HIV-1 infection in CEM-SS cells(EC50=4.4 μM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "[Ref.20086159]CEM-SS cells:50% Cell death at 25.7 µM.",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C102H194N40O20",
+            "Mass": 2300.89,
+            "PI": 12.0,
+            "Net Charge": 7,
+            "Hydrophobicity": 0.08,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Identification of novel human immunodeficiency virus type 1-inhibitory peptides based on the antimicrobial peptide database.",
+                    "Pubmed ID": "20086159",
+                    "Reference": "Antimicrob Agents Chemother. 2010 Mar;54(3)1343-6.",
+                    "Author": "Wang G, Watson KM, Peterkofsky A, Buckheit RW Jr.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=20086159"
+                }
+            ],
+            "Frequent Amino Acids": "LRG",
+            "Absent Amino Acids": "ACDEFHIKMNOPQSTUVWY",
+            "Basic Residues": 7,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 7,
+            "Positive Residues": 7,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_12348",
+                    "Similarity": 1.0,
+                    "Sequence": "RYLKECYEQASRIGYRGLRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_12890",
+                    "Similarity": 1.0,
+                    "Sequence": "RRLRLLLRLRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_20605",
+                    "Similarity": 1.0,
+                    "Sequence": "RRLRLLLRLRR"
+                }
+            ]
+        }
+    }
+}

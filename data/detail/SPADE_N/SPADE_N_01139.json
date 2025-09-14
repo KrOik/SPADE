@@ -1,0 +1,72 @@
+{
+    "SPADE_N_01139": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01139",
+            "Peptide Name": "Palustrin-3AR (Frogs, amphibians, animals)",
+            "Source": "Rana areolata (North American crawfish frog)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "GIFPKIIGKGIVNGIKSLAKGVGMKVFKAGLNNIGNTGCNNRDEC",
+            "Sequence Length": 45,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Antiviral"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "[Ref:12429503] HC50=200 µM against human erythrocytes",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Cyclization (Cys39 and Cys45)",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C203H342N60O58S3",
+            "Mass": 4647.45,
+            "PI": 9.79,
+            "Net Charge": 5,
+            "Hydrophobicity": 0.02,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "This peptide could inhibit HIV infection at a concentration that is also toxic to T cells (J Virol 2005; 79 11598-11606).",
+            "Literature": [
+                {
+                    "Title": "Antimicrobial peptides and protease inhibitors in the skin secretions of the crawfish frog, Rana areolata.",
+                    "Pubmed ID": "12429503",
+                    "Reference": "Biochim Biophys Acta. 2002 Nov 19;1601(1)55-63.",
+                    "Author": "Ali MF, Lips KR, Knoop FC, Fritzsch B, Miller C, Conlon JM.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=12429503"
+                }
+            ],
+            "Frequent Amino Acids": "GIK",
+            "Absent Amino Acids": "HOQUWY",
+            "Basic Residues": 7,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 17,
+            "Polar Residues": 22,
+            "Positive Residues": 7,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01148",
+                    "Similarity": 0.9545454545454546,
+                    "Sequence": "GIFPKIIGKGIKTGIVNGIKSLVKGVGMKVFKAGLNNIGNTGCNEDEC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01149",
+                    "Similarity": 0.9318181818181818,
+                    "Sequence": "GIFPKIIGKGIKTGIVNGIKSLVKGVGMKVFKAGLSNIGNTGCNEDEC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01363",
+                    "Similarity": 0.5238095238095238,
+                    "Sequence": "GIFSKFAGKGIKNLLVKGVKNIGKEVGMDVIRTGIDIAGCKIKGEC"
+                }
+            ]
+        }
+    }
+}

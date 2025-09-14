@@ -1,0 +1,84 @@
+{
+    "SPADE_UN_00386": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 5994308 A",
+                "Patent Link": "http://www.lens.org/lens/patent/US_5994308_A",
+                "Patent Type": "Granted Patent",
+                "Publication Date": "1999-11-30",
+                "Family Info": "CA2248320A1,EP0889903A1,EP0889903A4,US6262243,WO1997031942A1",
+                "Patent Title": "Broad spectrum antimicrobial peptides containing a tryptophan triplet and methods of use.",
+                "Abstract": "Peptides exhibiting antibacterial and/or antifungal activity are provided which comprise a tryptophan triplet and are between 10-34 amino acid residues in length. Pharmaceutical and non-pharmaceutical compositions containing the peptides, as well as methods of using the peptides as antimicrobials are also disclosed."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_00386",
+            "Peptide Name": "Peptide 3 (Trp- and Arg-rich; derivative of Tritrpticin)",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "RFPWWWPFLR",
+            "Sequence Length": 10,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "Gram-negative bacteria:Pseudomonas, Klebsiella, Proteus species;Gram-positive bacteria:Streptococcus, Staphylococcus species.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C79H99N19O11",
+            "Mass": 1490.75,
+            "PI": 12.0,
+            "Net Charge": 2,
+            "Hydrophobicity": -0.55,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Function": "Has antibacterial activiy against Gram-negative and Gram-positive bacteria.",
+            "Literature": [
+                {
+                    "Title": "Antimicrobial activity of a 13 amino acid tryptophan-rich peptide derived from a putative porcine precursor protein of a novel family of antibacterial peptides.",
+                    "Pubmed ID": "8706838",
+                    "Reference": "FEBS Lett. 1996 Jul 15;390(1)95-98.",
+                    "Author": "Lawyer C, Pai S, Watabe M, Borgia P, Mashimo T, Eagleton L, Watabe K.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=8706838"
+                }
+            ],
+            "Frequent Amino Acids": "WFP",
+            "Absent Amino Acids": "ACDEGHIKMNOQSTUVY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 2,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02575",
+                    "Similarity": 1.0,
+                    "Sequence": "VRRFPWWWPFLRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06501",
+                    "Similarity": 1.0,
+                    "Sequence": "VRRFPPFLRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06502",
+                    "Similarity": 1.0,
+                    "Sequence": "VRRFPWWPFLRR"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "SPADE_UN_28183": {
+        "Sequence Information": {
+            "Peptide Name": "Alpha/Beta Peptide 2",
+            "Sequence": "XLXLXLXKXLXKXLX",
+            "Sequence Length": 15,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Interplay among folding, sequence, and lipophilicity in the antibacterial and hemolytic activities of alpha/beta-peptides.",
+                    "Pubmed ID": "17212422",
+                    "Reference": "J Am Chem Soc. 2007;129:417-428",
+                    "Author": "Schmitt MA, Weisblum B, Gellman SH",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/17212422"
+                }
+            ],
+            "SPADE ID": "SPADE_UN_28183",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_05794",
+                    "Similarity": 1.0,
+                    "Sequence": "VEDVVVSDECRGKQLGKLLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06261",
+                    "Similarity": 1.0,
+                    "Sequence": "KLLLKLKLKLLK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06262",
+                    "Similarity": 1.0,
+                    "Sequence": "KLLRLLKKLLRLLLK"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:100% Hemolysis=10 µg/ml",
+            "Target Organism": "Escherichia coli JM109(MIC=>=200µg/ml),Bacillus subtilis BR151(MIC=6.3µg/ml),Staphylococcus aureus 1206(MIC=50µg/ml),Enterococcus faecium A634(MIC=25µg/ml)"
+        }
+    }
+}

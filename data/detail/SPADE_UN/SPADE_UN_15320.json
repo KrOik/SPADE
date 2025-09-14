@@ -1,0 +1,72 @@
+{
+    "SPADE_UN_15320": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_15320",
+            "Peptide Name": "Ltc-2a (4-26)",
+            "Source": "Synthetic",
+            "Family": "",
+            "Gene": "Not found",
+            "Sequence": "GKLIKKFGRKAISYAVKKARGKH",
+            "Sequence Length": 23,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Notavailable"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Target Organism": "Tumor cells:K562 (EC50>36 µM)",
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis>36 µM",
+            "Cytotoxicity": "Not available",
+            "Binding Target": "Not available",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C119H206N38O26",
+            "Mass": 2585.15,
+            "PI": 11.33,
+            "Net Charge": 10,
+            "Hydrophobicity": -0.77,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Literature": [
+                {
+                    "Title": "N-terminal amphipathic helix as a trigger of hemolytic activity in antimicrobial peptides a case study in latarcins",
+                    "Pubmed ID": "19563807",
+                    "Reference": "FEBS Lett. 2009 Jul 21;583(14)2425-8.",
+                    "Author": "Polyansky AA, Vassilevski AA, Volynsky PE, Vorontsova OV, Samsonova OV, Egorova NS, Krylov NA, Feofanov AV, Arseniev AS, Grishin EV, Efremov RG.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=19563807"
+                }
+            ],
+            "Frequent Amino Acids": "KAG",
+            "Absent Amino Acids": "CDEMNOPQTUW",
+            "Basic Residues": 10,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 16,
+            "Positive Residues": 10,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02801",
+                    "Similarity": 1.0,
+                    "Sequence": "GLFGKLIKKFGRKAISYAVKKARGKH"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02802",
+                    "Similarity": 0.9565217391304348,
+                    "Sequence": "GLFGKLIKKFGRKAISYAVKKARGKN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06338",
+                    "Similarity": 0.9565217391304348,
+                    "Sequence": "GLFGKLIKKFARKAISYAVKKARGKH"
+                }
+            ]
+        }
+    }
+}

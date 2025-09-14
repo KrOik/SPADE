@@ -1,0 +1,72 @@
+{
+    "SPADE_N_05594": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_05594",
+            "Peptide Name": "Pneumococin N(Bacteriocin)",
+            "Source": "Streptococcus pneumoniae?TIGR4",
+            "Family": "Belongs to the class IIb bacteriocin",
+            "Gene": "blpN",
+            "Sequence": "NSGGAAVVAALGCAAGGVKYGRLLGPWGAAIG",
+            "Sequence Length": 32,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+"
+            ],
+            "Target Organism": "Gram-positive",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C128H206N38O36S",
+            "Mass": 2885.3,
+            "PI": 9.31,
+            "Net Charge": 2,
+            "Hydrophobicity": 0.79,
+            "Half Life": "Mammalian:1.4 hourYeast:3 minE.coli:>10 hour",
+            "Comments": "Comparison of the TIGR4 BlpM and -N amino acid sequences demonstrated that only ?ve amino acid differences were suf?cient to target the heterologous strain.",
+            "Literature": [
+                {
+                    "Title": "The blp bacteriocins of Streptococcus pneumoniae mediate intraspecies competition both in vitro and in vivo.",
+                    "Pubmed ID": "17074857",
+                    "Reference": "Infect Immun. 2007 Jan;75(1)443-51.",
+                    "Author": "Dawid S, Roche AM, Weiser JN.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=17074857"
+                }
+            ],
+            "Frequent Amino Acids": "GAL",
+            "Absent Amino Acids": "DEFHMOQTU",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 18,
+            "Polar Residues": 17,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_08013",
+                    "Similarity": 0.6666666666666666,
+                    "Sequence": "MNFYKYLVVLVVLVLCLSATQTEARGFRKHFNKLVKKVKHTISETAHVAKDTAVIAGSGAAVVAATG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02875",
+                    "Similarity": 0.6363636363636364,
+                    "Sequence": "RGFRKHFNKLVKKVKHTISETAHVAKDTAVIAGSGAAVVAAT"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_13662",
+                    "Similarity": 0.6363636363636364,
+                    "Sequence": "RGFRKHFNNLPICVEGLAGDIGSILLGVESDIGALAGAIANLALIAGECAAQGEAGAAVVAAT"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "SPADE_UN_29224": {
+        "Sequence Information": {
+            "Peptide Name": "Puroindoline-B (35-46), PuroB1",
+            "Sequence": "FPVTWPTKWWKG",
+            "Sequence Length": 12,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer\n2. DNA / RNA",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "Q10464",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/Q10464",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Mechanism of action of puroindoline derived tryptophan-rich antimicrobial peptides.",
+                    "Pubmed ID": "23562406",
+                    "Reference": "Biochim Biophys Acta. 2013;1828:1802-1813",
+                    "Author": "Haney EF, Petersen AP, Lau CK, Jing W, Storey DG, Vogel HJ",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/23562406"
+                },
+                {
+                    "Title": "Puroindolines, Pin alleles, hordoindolines and grain softness proteins are sources of bactericidal and fungicidal peptides.",
+                    "Pubmed ID": "",
+                    "Reference": "J Cereal Sci. 2011;53:112-117",
+                    "Author": "Phillips RL, Palombo EA, Panozzo JF, Bhave M",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/"
+                }
+            ],
+            "Mass": 1532.78,
+            "PI": 10.0,
+            "Net Charge": 2,
+            "Hydrophobicity": -0.71,
+            "Frequent Amino Acids": "WKP",
+            "Absent Amino Acids": "ACDEHILMNOQRSUY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 2,
+            "Polar Residues": 10,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_29224",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_09589",
+                    "Similarity": 1.0,
+                    "Sequence": "FPVFPV"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09592",
+                    "Similarity": 1.0,
+                    "Sequence": "FPVFPV"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09901",
+                    "Similarity": 1.0,
+                    "Sequence": "VLFPVVLFPV"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=>300 µM,Sheep erythrocytes:50% Hemolysis=>500 µg/ml",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=>125µM),Staphylococcus aureus ATCC 25923(MIC=>125µM),Escherichia coli ATCC 25922(MIC=>250µg/ml),Staphylococcus aureus ATCC 25923(MIC=>250µg/ml),Colletotrichum graminicola(MIC=>250µg/ml),Drechslera brizae(MIC=>250µg/ml),Fusarium oxysporum(MIC=>250µg/ml),Rhizoctonia solani(MIC=64±0µg/ml),Rhizoctonia cerealis(MIC=64±0µg/ml)"
+        }
+    }
+}

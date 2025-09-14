@@ -1,0 +1,59 @@
+{
+    "SPADE_UN_26416": {
+        "Sequence Information": {
+            "Peptide Name": "Pr-1",
+            "Sequence": "PRRRRSSSRP",
+            "Sequence Length": 10,
+            "Biological Activity": [
+                "Antiparasitic",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Leishmanicidal activity of synthetic antimicrobial peptides in an infection model with human dendritic cells.",
+                    "Pubmed ID": "21262294",
+                    "Reference": "Peptides. 2011;32:683-690",
+                    "Author": "Pérez-Cordero JJ, Lozano JM, Cortés J, Delgado G",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/21262294"
+                }
+            ],
+            "Mass": 1254.41,
+            "PI": 12.0,
+            "Net Charge": 5,
+            "Hydrophobicity": -2.81,
+            "Frequent Amino Acids": "RSP",
+            "Absent Amino Acids": "ACDEFGHIKLMNOQTUVWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 0,
+            "Polar Residues": 10,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_26416",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00066",
+                    "Similarity": 1.0,
+                    "Sequence": "ATYYGNGLYCNKEKCWVDWNQAKGEIGKIIVNGWVNHGPWAPRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02893",
+                    "Similarity": 1.0,
+                    "Sequence": "LRGLLCYCRKGHCKRGERVRGTCGIRFLYCCPRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02906",
+                    "Similarity": 1.0,
+                    "Sequence": "SRDLICYCRKGGCNRGEQVYGTCSGRLLYCCPRR"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=>100 µg/ml,Human dendritic cells:50% Cell death=77.08±0.83 µg/ml",
+            "Target Organism": "Leishmania panamensis (promastigote)(EC50=>100µg/ml),Leishmania major (promastigote)(EC50=>100µg/ml),Leishmania panamensis(EC50=>=10µg/ml)"
+        }
+    }
+}

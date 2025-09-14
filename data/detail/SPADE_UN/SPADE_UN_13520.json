@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_13520": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_13520",
+            "Peptide Name": "MBD-4 (11-40) (P9 [H21R,K23R,K28R], P9R)",
+            "Source": "Synthetic construct",
+            "Family": "Belongs to the beta-defensin family.",
+            "Gene": "Defb5",
+            "Sequence": "NGAICWGPCPTAFRQIGNCGRFRVRCCRIR",
+            "Sequence Length": 30,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P82019"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antiviral(SARS-CoV-2)"
+            ],
+            "Target Organism": "[Ref.32843628]Virus:SARS-CoV-2:Inhibition of infection in Vero E6 cells(IC50=0.9 µg/ml);SARS-CoV:Inhibition of infection in Vero E6 cells(IC50=4.2 µg/ml);MERS-CoV:Inhibition of infection in Vero E6 cells(IC50=22 µg/ml);Human rhinovirus (HRV):inhibition of infection in RD cells(IC50=5.7 µg/ml);Human parainﬂuenza virus 3:Inhibition of infection in LLC-MK2 cells(IC50>25 µg/ml);Human Influenza A Virus H1N1:Inhibition of infection In MDCK cells(IC50=0.6 µg/ml);Human Influenza A Virus H7N9:Inhibition of infection In MDCK cells(IC50=0.9 µg/ml).",
+            "Hemolytic Activity": "[Ref.32843628]P9R did not cause the hemolysis of Chicken red blood cells.",
+            "Cytotoxicity": "[Ref.32843628]the CC50 of P9R was >300 μg/ml for MDCK, VeroE6 and A549 cells.",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C144H232N52O35S5",
+            "Mass": 3412.03,
+            "PI": 10.46,
+            "Net Charge": 6,
+            "Hydrophobicity": -0.15,
+            "Half Life": "Mammalian:1.4 hourYeast:3 minE.coli:>10 hour",
+            "Mechanism of action": "Mechanistic studies show that positively charged P9R broadly inhibits viral replication by binding to different viruses and then inhibits virus–host endosomal acidification to prevent the endosomal release of pH-dependent viruses.",
+            "Literature": [
+                {
+                    "Title": "A broad-spectrum virus- and host-targeting peptide against respiratory viruses including influenza virus and SARS-CoV-2.",
+                    "Pubmed ID": "32843628",
+                    "Reference": "Nat Commun. 2020 Aug 25;11(1)4252.",
+                    "Author": "Zhao H, To KKW, Sze KH, Yung TT, Bian M, Lam H, Yeung ML, Li C, Chu H, Yuen KY.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=32843628"
+                }
+            ],
+            "Frequent Amino Acids": "RCG",
+            "Absent Amino Acids": "DEHKLMOSUY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 18,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02930",
+                    "Similarity": 0.9,
+                    "Sequence": "QIINNPITCMTNGAICWGPCPTAFRQIGNCGHFKVRCCKIR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04019",
+                    "Similarity": 0.9,
+                    "Sequence": "INNPITCMTNGAICWGPCPTAFRQIGNCGHFKVRCCKIR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04184",
+                    "Similarity": 0.9,
+                    "Sequence": "MRIHYLLFTFLLVLLSPLAAFTQIINNPITCMTNGAICWGPCPTAFRQIGNCGHFKVRCCKIR"
+                }
+            ]
+        }
+    }
+}

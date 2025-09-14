@@ -1,0 +1,71 @@
+{
+    "SPADE_UN_18951": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_18951",
+            "Peptide Name": "PL-29 (Synthetic AMPs, Lys-rich, Phe-rich, XXE, XXA, XXD15, UCLL1c)",
+            "Source": "amino acid substitution,  peptide hybrid analog, designed",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "FKKLKKLFSKLFSFK",
+            "Sequence Length": 15,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Synergistic AMPs"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 1889.37,
+            "PI": 10.7,
+            "Hydrophobicity": -0.16,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Feng Q, Huang Y, Chen M, Li G, Chen Y. 2015",
+                    "Reference": "Eur J Clin Microbiol Infect Dis. 2015 Jan;34(1):197-204. doi: 10.1007/s10096-014-2219-3.PubMed",
+                    "Title": "Functional synergy of alpha-helical antimicrobial peptides and traditional antibiotics against Gram-negative and Gram-positive bacteria in vitro and in vivo."
+                }
+            ],
+            "Frequent Amino Acids": "KFL",
+            "Absent Amino Acids": "ACDEGHIMNOPQRTUVWY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 8,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "Net Charge": 6,
+            "Comments": "Sequence analysis: APD analysis reveals that this sequence is similar (80%) toPL-18K: 40%, F: 27%, L: 20%, S: 13%.Chemical modification:  N-terminal acetylation (XXE) and C-terminal amidation (XXA).Activity: active against Gram- E. coli ATCC 25922 (MIC 2 uM), P. aeruginosa ATCC 27853 (MIC 2 uM), K. pneumoniae ATCC 700603 (MIC 2 uM), Gram+ S. aureus ATCC 25923 (MIC 1 uM), S. epidermidis ATCC 12228 (MIC 1 uM), S. pneumoniae ATCC 49619 (MIC 2 uM).Synergy:antibiotics:  synergy with  imipenem.",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_10371",
+                    "Similarity": 1.0,
+                    "Sequence": "KWFKKL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_12250",
+                    "Similarity": 1.0,
+                    "Sequence": "ILKRWWLFKKL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_12272",
+                    "Similarity": 1.0,
+                    "Sequence": "KRKWFWLFKKL"
+                }
+            ]
+        }
+    }
+}

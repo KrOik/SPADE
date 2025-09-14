@@ -1,0 +1,74 @@
+{
+    "SPADE_N_00940": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00940",
+            "Peptide Name": "Alpha-benincasin (Plants)",
+            "Source": "Benincasa hispida",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "RDWERREFERRQNELRREQEQRREELL",
+            "Sequence Length": 27,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P83960"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antifungal"
+            ],
+            "Target Organism": "Fungi:Coprinus comatus, Pseudocercospora piricola.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C155H253N59O50",
+            "Mass": 3743.03,
+            "PI": 6.46,
+            "Net Charge": 0,
+            "Hydrophobicity": -2.69,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Function": "Has weak antifungal activity toward C. comatus and P. piricola but not toward M. arachidicola. Inhibits cell-free translation in rabbit reticulocyte lysate system.",
+            "Miscellaneous": "IC50 of 20 pM in rabbit reticulocyte.",
+            "Literature": [
+                {
+                    "Title": "Purification and characterization of alpha- and beta-benincasins, arginine/glutamate-rich peptides with translation-inhibiting activity from wax gourd seeds.",
+                    "Pubmed ID": "12576080",
+                    "Reference": "Peptides. 2003 Jan;24(1)11-16.",
+                    "Author": "Ng TB, Parkash A, Tso WW.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=12576080"
+                }
+            ],
+            "Frequent Amino Acids": "REL",
+            "Absent Amino Acids": "ACGHIKMOPSTUVY",
+            "Basic Residues": 9,
+            "Acidic Residues": 9,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 13,
+            "Positive Residues": 9,
+            "Negative Residues": 9,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07020",
+                    "Similarity": 0.625,
+                    "Sequence": "LRRERQSRLRRERQSR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_17396",
+                    "Similarity": 0.6,
+                    "Sequence": "ERRRKKRRRE"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_17397",
+                    "Similarity": 0.6,
+                    "Sequence": "ERRRKKRRRE"
+                }
+            ]
+        }
+    }
+}

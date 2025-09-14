@@ -1,0 +1,67 @@
+{
+    "SPADE_UN_22648": {
+        "Sequence Information": {
+            "Peptide Name": "K-Brevinin-1PLb (1-3)-W-(15-24)",
+            "Sequence": "KFLPWKIFCAITKKC",
+            "Sequence Length": 15,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "A7WNV3",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/A7WNV3",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Modification and Targeted Design of N-Terminal Truncates Derived from Brevinin with Improved Therapeutic Efficacy",
+                    "Pubmed ID": "32781587",
+                    "Reference": "Biology (Basel). 2020;9:209",
+                    "Author": "He H, Chen Y, Ye Z, Chen X, Ma C, Zhou M, Xi X, Burrows JF, Chen T, Wang L",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/32781587"
+                }
+            ],
+            "Mass": 1826.32,
+            "PI": 9.7,
+            "Net Charge": 4,
+            "Hydrophobicity": 0.43,
+            "Frequent Amino Acids": "KCF",
+            "Absent Amino Acids": "DEGHMNOQRSUVY",
+            "Basic Residues": 4,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 7,
+            "Positive Residues": 4,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_22648",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01711",
+                    "Similarity": 1.0,
+                    "Sequence": "FLPVIAGVAAKFLPKIFCAITKKC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_13782",
+                    "Similarity": 1.0,
+                    "Sequence": "FKFLARTGKFL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_21433",
+                    "Similarity": 1.0,
+                    "Sequence": "FLPAIAGLAAKFLPKIFCAITKKC"
+                }
+            ],
+            "Hemolytic Activity": "Horse erythrocytes:10% Hemolysis=99.81 µM",
+            "Target Organism": "Staphylococcus aureus NCTC 10788(MIC=8µM),Staphylococcus aureus NCTC 10788(MBC=32µM),Escherichia coli NCTC 10418(MIC=16µM),Escherichia coli NCTC 10418(MBC=32µM),Staphylococcus aureus NCTC 12493(MIC=8µM),Staphylococcus aureus NCTC 12493(MBC=64µM),Enterococcus faecalis NCTC 12697(MIC=256µM),Enterococcus faecalis NCTC 12697(MBC=512µM),Pseudomonas aeruginosa ATCC 27853(MIC=128µM),Pseudomonas aeruginosa ATCC 27853(MBC=256µM),Klebsiella pneumoniae ATCC 43816(MIC=64µM),Klebsiella pneumoniae ATCC 43816(MBC=128µM),Candida albicans NCYC 1467(MIC=16µM),Candida albicans NCYC 1467(MBC=64µM)"
+        }
+    }
+}

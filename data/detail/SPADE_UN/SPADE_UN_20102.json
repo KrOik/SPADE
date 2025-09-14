@@ -1,0 +1,54 @@
+{
+    "SPADE_UN_20102": {
+        "Sequence Information": {
+            "Peptide Name": "GF-17BIPHE2kr1",
+            "Sequence": "GXKRLVQKLRDXLRNLV",
+            "Sequence Length": 17,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P49913",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P49913",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Arginine-lysine positional swap of the LL-37 peptides reveals evolutional advantages of the native sequence and leads to bacterial probes.",
+                    "Pubmed ID": "28450045",
+                    "Reference": "Biochim Biophys Acta. 2017;1859:1350-1361",
+                    "Author": "Wang X, Junior JCB, Mishra B, Lushnikova T, Epand RM, Wang G",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/28450045"
+                }
+            ],
+            "SPADE ID": "SPADE_UN_20102",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00227",
+                    "Similarity": 1.0,
+                    "Sequence": "QGIGVGDNDGKRGKR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_11610",
+                    "Similarity": 1.0,
+                    "Sequence": "KIKKGFKKIFKRLPPIGVGVSIPLAGKR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_20102",
+                    "Similarity": 1.0,
+                    "Sequence": "GKRLVQKLRDLRNLV"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=140 µM,Human keratinocytes HaCat:50% Cell death=35 µM,Human embryonic kidney HEK293 cells:50% Cell death=16 µM",
+            "Target Organism": "Klebsiella pneumoniae ATCC 13883(MIC=6.25µM),Escherichia coli ATCC 25922(MIC=6.25µM),Pseudomonas aeruginosa PAO1(MIC=6.25µM),Staphylococcus aureus USA 300(MIC=3.1µM)"
+        }
+    }
+}

@@ -1,0 +1,77 @@
+{
+    "SPADE_N_02268": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02268",
+            "Peptide Name": "Demidefensin-3 (primates, mammals, animals)",
+            "Source": "Macaca mulatta (Rhesus macaque)",
+            "Family": "Belongs to the alpha-defensin family",
+            "Gene": "Not found",
+            "Sequence": "RCICVLGIC",
+            "Sequence Length": 9,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q9GLR2"
+            ],
+            "Protein Existence": "Homology",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Antifungal"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C40H74N12O10S3",
+            "Mass": 979.28,
+            "PI": 7.97,
+            "Net Charge": 1,
+            "Hydrophobicity": 2.18,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Function": "Has antimicrobial activities against bacteria and fungi (By similarity).",
+            "Subunit structure": "Forms a cyclic homodimer; disulfide-linked (By similarity).",
+            "PTM": "This is a cyclic peptide (By similarity).",
+            "Caution": "The mature 9-residue peptide is expected to be found in 18-residue cyclopeptides produced by combinatorial peptide splicing either with itself or with other demidefensins. However among cyclopeptides screened for antimicrobial activity, no peptides that would have been produced from this sequence were detected.",
+            "Literature": [
+                {
+                    "Title": "Circular minidefensins and posttranslational generation of molecular diversity.",
+                    "Pubmed ID": "11527997",
+                    "Reference": "J Leukoc Biol. 2001 Sep;70(3)461-464.",
+                    "Author": "Leonova L, Kokryakov VN, Aleshina G, Hong T, Nguyen T, Zhao C, Waring AJ, Lehrer RI.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=11527997"
+                }
+            ],
+            "Frequent Amino Acids": "CIG",
+            "Absent Amino Acids": "ADEFHKMNOPQSTUWY",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 4,
+            "Polar Residues": 5,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06211",
+                    "Similarity": 1.0,
+                    "Sequence": "MSFLNFAFSPVFFSIMACYFIVWRNKRNEFVCNRLLSIIIISFLICFIYPWLNYKIEVKYYIFEQFYLFCFLSSLVAVVINLIVYFILYRRCI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08146",
+                    "Similarity": 1.0,
+                    "Sequence": "RCICVLGICRLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_06287",
+                    "Similarity": 1.0,
+                    "Sequence": "GFCWNVCVYRNGVRVCHRRCI"
+                }
+            ]
+        }
+    }
+}

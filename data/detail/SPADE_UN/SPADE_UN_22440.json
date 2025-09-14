@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_22440": {
+        "Sequence Information": {
+            "Peptide Name": "Fowlicidin 3 (1-15)(20-27)",
+            "Sequence": "KRFWPLVPVAINTVALYKAIRRK",
+            "Sequence Length": 23,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "Q2IAL6",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/Q2IAL6",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "The Central Hinge Link Truncation of the Antimicrobial Peptide Fowlicidin-3 Enhances Its Cell Selectivity without Antibacterial Activity Loss.",
+                    "Pubmed ID": "26902768",
+                    "Reference": "Antimicrob Agents Chemother. 2016;60:2798-2806",
+                    "Author": "Qu P, Gao W, Chen H, Li D, Yang N, Zhu J, Feng X, Liu C, Li Z",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/26902768"
+                }
+            ],
+            "Mass": 2740.34,
+            "PI": 11.74,
+            "Net Charge": 6,
+            "Hydrophobicity": 0.11,
+            "Frequent Amino Acids": "AKR",
+            "Absent Amino Acids": "CDEGHMOQSU",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 12,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_22440",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03192",
+                    "Similarity": 1.0,
+                    "Sequence": "RVKRFWPLVPVAINTVAAGINLYKAIRRK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14835",
+                    "Similarity": 1.0,
+                    "Sequence": "KRFWPLVPVAINTVAAGINLYKAIRRK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15725",
+                    "Similarity": 1.0,
+                    "Sequence": "KRFWPLVPVAINTVAAGINLYKAIRRK"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:<5% Hemolysis=256 µM,Human keratinocytes HaCat:<40% Killing=256 µM",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=2µM),Escherichia coli UB1005(MIC=4µM),Pseudomonas aeruginosa ATCC 27853(MIC=4µM),Salmonella enterica subsp. enterica serovar Typhimurium ATCC 14028(MIC=4µM),Salmonella typhimurium ATCC 7731(MIC=2µM),Staphylococcus aureus ATCC 29213(MIC=4µM),Staphylococcus epidermidis ATCC 12228(MIC=4µM),Bacillus subtilis CMCC 63501(MIC=4µM),Escherichia coli ATCC 25922(MIC=8µM),Escherichia coli ATCC 25922(MIC=4µM),Pseudomonas aeruginosa ATCC 27853(MIC=2µM)"
+        }
+    }
+}

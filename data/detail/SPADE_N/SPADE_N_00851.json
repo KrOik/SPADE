@@ -1,0 +1,73 @@
+{
+    "SPADE_N_00851": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00851",
+            "Peptide Name": "Tricyclon-A (Cyclotides; Plant defensin)",
+            "Source": "Viola arvensis (European field pansy) (Field violet)",
+            "Family": "Belongs to the cyclotide family",
+            "Gene": "Not found",
+            "Sequence": "GGTIFDCGESCFLGTCYTKGCSCGEWKLCYGTN",
+            "Sequence Length": 33,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P0C589"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Unknown"
+            ],
+            "Target Organism": "Cytolysis",
+            "Hemolytic Activity": "[Ref:15893660] It has 2% hemolytic activity at 500 μM against human red blood cells",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "No specific N-terminal",
+            "C-terminal Modification": "No specific C-terminal",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C149H219N37O49S6",
+            "Mass": 3504.94,
+            "PI": 4.68,
+            "Net Charge": -1,
+            "Hydrophobicity": 0.01,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Probably participates in a plant defense mechanism. Has a weak hemolytic activity.",
+            "PTM": "Contains three disulfide bonds 7-21; 11-23; 16-29. Proteolytically processed in two steps to yield first two linear precursors, and then two cyclic peptides after removal of the N-terminal repeats (NTR) and short tails.",
+            "Literature": [
+                {
+                    "Title": "Processing of a 22 kDa precursor protein to produce the circular protein tricyclon A.",
+                    "Pubmed ID": "15893660",
+                    "Reference": "Structure. 2005 May;13(5)691-701.",
+                    "Author": "Mulvenna JP, Sando L, Craik DJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=15893660"
+                }
+            ],
+            "Frequent Amino Acids": "GCT",
+            "Absent Amino Acids": "AHMOPQRUV",
+            "Basic Residues": 2,
+            "Acidic Residues": 3,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 17,
+            "Positive Residues": 2,
+            "Negative Residues": 3,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00852",
+                    "Similarity": 0.9696969696969697,
+                    "Sequence": "GGTIFDCGESCFLGTCYTKGCSCGEWKLCYGEN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00777",
+                    "Similarity": 0.9090909090909091,
+                    "Sequence": "GGTIFDCGESCFLGTCYTAGCSCGNWGLCYGTN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00778",
+                    "Similarity": 0.8787878787878788,
+                    "Sequence": "GGTIFDCGETCFLGTCYTAGCSCGNWGLCYGTN"
+                }
+            ]
+        }
+    }
+}

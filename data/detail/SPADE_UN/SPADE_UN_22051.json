@@ -1,0 +1,61 @@
+{
+    "SPADE_UN_22051": {
+        "Sequence Information": {
+            "Peptide Name": "Brevinin-2GHk (1-25)[L14K]",
+            "Sequence": "GFSSLFKAGAKYLKKQVGKAGAQQL",
+            "Sequence Length": 25,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Brevinin-2GHk From Sylvirana guentheri and the Design of Truncated Analogs Exhibiting the Enhancement of Antimicrobial Activity",
+                    "Pubmed ID": "32075067",
+                    "Reference": "Antibiotics (Basel). 2020;9:",
+                    "Author": "Chen G, Miao Y, Ma C, Zhou M, Shi Z, Chen X, Burrows JF, Xi X, Chen T, Wang L",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/32075067"
+                }
+            ],
+            "Mass": 2626.06,
+            "PI": 10.3,
+            "Net Charge": 5,
+            "Hydrophobicity": -0.24,
+            "Frequent Amino Acids": "KAG",
+            "Absent Amino Acids": "CDEHIMNOPRTUW",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 15,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_22051",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06230",
+                    "Similarity": 0.96,
+                    "Sequence": "GFSSLFKAGAKYLLKQVGKAGAQQLACKAANNC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_13661",
+                    "Similarity": 0.96,
+                    "Sequence": "GFSSLFKAGAKYLLKQVGKAGAQQL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_22048",
+                    "Similarity": 0.96,
+                    "Sequence": "GFSSLFKAGAKYLLKQVGKAGAQQL"
+                }
+            ],
+            "Hemolytic Activity": "Human microvascular endothelial cells HMEC-1:12% Killing=100 µM,Horse erythrocytes:<5% Hemolysis=128 µM",
+            "Target Organism": "Staphylococcus aureus NCTC 10788(MIC=16µM),Staphylococcus aureus NCTC 10788(MBC=32µM),Enterococcus faecalis NCTC 12697(MIC=16µM),Enterococcus faecalis NCTC 12697(MBC=64µM),Staphylococcus aureus NCTC 12493(MIC=64µM),Staphylococcus aureus NCTC 12493(MBC=128µM),Escherichia coli NCTC 10418(MIC=8µM),Escherichia coli NCTC 10418(MBC=32µM),Pseudomonas aeruginosa ATCC 27853(MIC=16µM),Pseudomonas aeruginosa ATCC 27853(MBC=64µM),Candida albicans NCYC 1467(MIC=64µM),Candida albicans NCYC 1467(MBC=128µM),Klebsiella pneumoniae ATCC 43816(MIC=128µM),Klebsiella pneumoniae ATCC 43816(MBC=256µM)"
+        }
+    }
+}

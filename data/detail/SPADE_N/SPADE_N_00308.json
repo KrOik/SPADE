@@ -1,0 +1,83 @@
+{
+    "SPADE_N_00308": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 5773694 A",
+                "Patent Link": "http://www.lens.org/lens/patent/US_5773694_A",
+                "Patent Type": "Granted Patent",
+                "Publication Date": "1998-6-30",
+                "Family Info": "CA2166309A1,EP0712413A1,WO1995004754A1",
+                "Patent Title": "Antimicrobial proteins from Allium.",
+                "Abstract": "Antimicrobial proteins capable of isolation from seeds of Allium show a wide range of antifungal activity and some activity against Gram-positive bacteria. DNA encoding the proteins may be isolated and incorporated into vectors. Plants transformed with this DNA may be produced. The proteins find commercial application as antifungal or antibacterial agents; transformed plants will show increased disease resistance."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00308",
+            "Peptide Name": "Non-specific lipid-transfer protein A (NS-LTP A; PLTP; Plants)",
+            "Source": "Ricinus communis (Castor bean)",
+            "Family": "Belongs to the plant LTP family",
+            "Gene": "Not found",
+            "Sequence": "VDCGQVNSSLASCIPFLTGGVASPSASCCAGVQNLKTLAPTSADRRAACECIKAAAARFPTIKQDAASSLPKKCGVDINIPISKTTNCQAIN",
+            "Sequence Length": 92,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P10973"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Unknown"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Lipid-binding",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C393H658N116O128S8",
+            "Mass": 9312.65,
+            "PI": 8.72,
+            "Net Charge": 4,
+            "Hydrophobicity": 0.16,
+            "Half Life": "Mammalian:100 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Plant non-specific lipid-transfer proteins transfer phospholipids as well as galactolipids across membranes. May play a role in wax or cutin deposition in the cell walls of expanding epidermal cells and certain secretory tissues.",
+            "PTM": "Contains three disulfide bonds (By similarity).",
+            "Literature": [
+                {
+                    "Title": "The amino-acid sequence of the nonspecific lipid transfer protein from germinated castor bean endosperms.",
+                    "Pubmed ID": "PubMed ID is not available",
+                    "Reference": "Biochim. Biophys. Acta 1986;870248-255.",
+                    "Author": "Takishima K, Watanabe S, Yamada M, Mamiya G.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=PubMed ID is not available"
+                }
+            ],
+            "Frequent Amino Acids": "ASC",
+            "Absent Amino Acids": "HMOUWY",
+            "Basic Residues": 9,
+            "Acidic Residues": 5,
+            "Hydrophobic Residues": 40,
+            "Polar Residues": 62,
+            "Positive Residues": 9,
+            "Negative Residues": 5,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00309",
+                    "Similarity": 0.6847826086956522,
+                    "Sequence": "VNCGQVNKALSSCVPFLTGFDTTPSLTCCAGVMELKRLAPTVKDKRIACECVKTAAARYPNIREDAASSLPYKCGVVINVPISKTTNCHEIN"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_07869",
+                    "Similarity": 0.6847826086956522,
+                    "Sequence": "VNCGQVNKALSSCVPFLTGFDTTPSLTCCAGVMLLKRLAPTVKDKRIACECVKTAAARYPNIREDAASSLPYKCGVVINVPISKTTNCHEIN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08278",
+                    "Similarity": 0.5384615384615384,
+                    "Sequence": "AVSCGTVTGDLAPCIPYLTGGAGPTDSCCAGVKKLLAAAPTTADRQAACNCLKTAAGNINNLNPGNAAALPGKCNVNIPYKISTTTNCNTIKF"
+                }
+            ]
+        }
+    }
+}

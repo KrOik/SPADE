@@ -1,0 +1,83 @@
+{
+    "SPADE_N_02228": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02228",
+            "Peptide Name": "Penaeidin-4d (Pen-4d; shrimps, Arthropods, animals)",
+            "Source": "Litopenaeus setiferus (Atlantic white shrimp) (Penaeus setiferus)",
+            "Family": "Belongs to the penaeidin family",
+            "Gene": "Not found",
+            "Sequence": "HSSGYTRPLRKPSRPIFIRPIGCDVCYGIPSSTARLCCFRYGDCCHL",
+            "Sequence Length": 47,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q962A7"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Antifungal"
+            ],
+            "Target Organism": "Fungi:Fusarium oxysporum (MIC=0.84-1.26 µM), Botrytis cinerea (MIC=4.38-6.57 µM), Penicillium crustosum (MIC=1.26-1.9 µM).Gram-positive bacteria:Aerococcus viridans (MIC=1.9-2.92 µM), Bacillus megaterium (MIC>50 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Chitin-binding",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Calculation of PEN4 three-dimensional structure reveales that the PEN4 structure consisted of an unconstrained and a constrained part, which roughly match with the PRD (residues 1-17) and the CRD (residues 18-47), respectively. The global fold of the CRD mainly consisted of a helix (residues 31-41), two turns of type IV (Cys23-Cys26 and Gly42-Cys45 residues), and one loop spanning 27-30 residues (Ref.2).",
+            "Formula": "C231H362N70O62S6",
+            "Mass": 5304.17,
+            "PI": 9.15,
+            "Net Charge": 7,
+            "Hydrophobicity": -0.15,
+            "Half Life": "Mammalian:3.5 hourYeast:10 minE.coli:>10 hour",
+            "Function": "Posesses antibacterial and antifungal activity. Presents chitin-binding activity (By similarity).",
+            "PTM": "Contains three disulfide bonds 23-37; 26-44; 38-45.",
+            "Literature": [
+                {
+                    "Title": "Diversity of the penaeidin antimicrobial peptides in two shrimp species.",
+                    "Pubmed ID": "12242595",
+                    "Reference": "Immunogenetics. 2002 Sep;54(6)442-445.",
+                    "Author": "Cuthbertson BJ, Shepard EF, Chapman RW, Gross PS.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=12242595"
+                },
+                {
+                    "Title": "Solution structure of synthetic penaeidin-4 with structural and functional comparisons with penaeidin-3.",
+                    "Pubmed ID": "15699044",
+                    "Reference": "J Biol Chem. 2005 Apr 22;280(16)16009-18.",
+                    "Author": "Cuthbertson BJ, Yang Y, Bachère E, Büllesbach EE, Gross PS, Aumelas A.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=15699044"
+                }
+            ],
+            "Frequent Amino Acids": "CRP",
+            "Absent Amino Acids": "EMNOQUW",
+            "Basic Residues": 9,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 19,
+            "Polar Residues": 27,
+            "Positive Residues": 9,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_08798",
+                    "Similarity": 1.0,
+                    "Sequence": "HSSGYTRPLRKPSRPIFIRPI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10236",
+                    "Similarity": 1.0,
+                    "Sequence": "HSSGYTRPLRKPSRPIFIRPIG"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_23203",
+                    "Similarity": 1.0,
+                    "Sequence": "HSSGYTRPLRKPSRPIFIRPI"
+                }
+            ]
+        }
+    }
+}

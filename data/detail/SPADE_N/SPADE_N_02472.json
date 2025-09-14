@@ -1,0 +1,82 @@
+{
+    "SPADE_N_02472": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02472",
+            "Peptide Name": "Bovine Beta-defensin 5 (bBD-5; BNBD-5; BNDB-5; mammals, animals)",
+            "Source": "Bos taurus (Bovine)",
+            "Family": "Belongs to the beta-defensin family",
+            "Gene": "DEFB5",
+            "Sequence": "QVVRNPQSCRWNMGVCIPISCPGNMRQIGTCFGPRVPCCRRW",
+            "Sequence Length": 42,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P46163",
+                "http://www.uniprot.org/uniprot/O97533"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-negative bacterium:Escherichia coli ML35 (MIC=10-300 µg/ml).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C203H326N68O52S8",
+            "Mass": 4807.7,
+            "PI": 9.69,
+            "Net Charge": 6,
+            "Hydrophobicity": -0.23,
+            "Half Life": "Mammalian:0.8 hourYeast:10 minE.coli:>10 hour",
+            "Function": "Has bactericidal activity. Active against E. coli ML35 but not against S. aureus 502A.",
+            "Tissue specificity": "Neutrophilic granules. Alveolar macrophages.",
+            "PTM": "Contains three disulfide bonds 9-38; 16-31; 21-39. (By similarity)",
+            "Literature": [
+                {
+                    "Title": "Purification, primary structures, and antibacterial activities of beta-defensins, a new family of antimicrobial peptides from bovine neutrophils.",
+                    "Pubmed ID": "8454635",
+                    "Reference": "J Biol Chem. 1993 Mar 25;268(9)6641-6648.",
+                    "Author": "Selsted ME, Tang YQ, Morris WL, McGuire PA, Novotny MJ, Smith W, Henschen AH, Cullor JS.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=8454635"
+                },
+                {
+                    "Title": "Expression of beta-defensin genes in bovine alveolar macrophages.",
+                    "Pubmed ID": "",
+                    "Author": "Diamond G.,Bhat M.,Rhodes J.,Ryan L.K."
+                }
+            ],
+            "Frequent Amino Acids": "CRP",
+            "Absent Amino Acids": "ADEHKLOUY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 17,
+            "Polar Residues": 25,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_04212",
+                    "Similarity": 1.0,
+                    "Sequence": "QVVRNPQSCRWNMGVCIPISCPGNMRQIGTCFGPRVPCCR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08044",
+                    "Similarity": 1.0,
+                    "Sequence": "MRLHHLLLVLLFLVLSAGSGFTQVVRNPQSCRWNMGVCIPISCPGNMRQIGTCFGPRVPCCRRW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07531",
+                    "Similarity": 1.0,
+                    "Sequence": "NPQSCRWNMGVCIPISCPGNMRQIGTCFGPRVPCCR"
+                }
+            ]
+        }
+    }
+}

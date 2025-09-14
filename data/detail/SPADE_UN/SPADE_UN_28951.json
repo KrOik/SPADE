@@ -1,0 +1,71 @@
+{
+    "SPADE_UN_28951": {
+        "Sequence Information": {
+            "Peptide Name": "SMAP-29 [Y17G]",
+            "Sequence": "RGLRRLGRKIAHGVKKGGPTVLRIIRIAG",
+            "Sequence Length": 29,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P49928",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P49928",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                },
+                {
+                    "uniprotId": "P49929",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P49929",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Analogues of peptide SMAP-29 with comparable antimicrobial potency and reduced cytotoxicity.",
+                    "Pubmed ID": "21377841",
+                    "Reference": "Int J Antimicrob Agents. 2011;37:432-437",
+                    "Author": "Dawson RM, Liu CQ",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/21377841"
+                }
+            ],
+            "Mass": 3149.83,
+            "PI": 12.0,
+            "Net Charge": 10,
+            "Hydrophobicity": -0.18,
+            "Frequent Amino Acids": "GRI",
+            "Absent Amino Acids": "CDEFMNOQSUWY",
+            "Basic Residues": 10,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 18,
+            "Positive Residues": 10,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_28951",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03106",
+                    "Similarity": 1.0,
+                    "Sequence": "RIAGYGLRGLAVIIRICIRGLNLIFEIIR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05669",
+                    "Similarity": 1.0,
+                    "Sequence": "KRIGLIRLIGKILRGLRRLG"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_25386",
+                    "Similarity": 1.0,
+                    "Sequence": "RGLRRLG"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=>>100 µM,Human embryonic kidney HEK293 cells:50% Cell death=9.87 µM",
+            "Target Organism": "Escherichia coli K91BK(MIC=100±0µM),Escherichia coli K91BK(IC50=59.5±4.5µM),Burkholderia thailandensis(MIC=>100µM),Burkholderia thailandensis(IC50=>100µM),Bacillus subtilis var. niger ATCC 9372(MIC=7.87±0.79µM),Bacillus subtilis var. niger ATCC 9372(IC50=1.10±0µM),Bacillus anthracis Sterne 34F2(MIC=70.2±14.1µM),Bacillus anthracis Sterne 34F2(IC50=40.8±15.5µM)"
+        }
+    }
+}

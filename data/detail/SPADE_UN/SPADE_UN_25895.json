@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_25895": {
+        "Sequence Information": {
+            "Peptide Name": "Phe-Temporin-SHf [S5R]",
+            "Sequence": "FFFFLRRIF",
+            "Sequence Length": 9,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "D4YWD1",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/D4YWD1",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Design and evaluation of tadpole-like conformational antimicrobial peptides.",
+                    "Pubmed ID": "37980400",
+                    "Reference": "Commun Biol. 2023;6:1177",
+                    "Author": "Tang Z, Jiang W, Li S, Huang X, Yang Y, Chen X, Qiu J, Xiao C, Xie Y, Zhang X, Li J, Verma CS, He Y, Yang A",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/37980400"
+                }
+            ],
+            "Mass": 1292.57,
+            "PI": 12.0,
+            "Net Charge": 2,
+            "Hydrophobicity": 1.48,
+            "Frequent Amino Acids": "FRI",
+            "Absent Amino Acids": "ACDEGHKMNOPQSTUVWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 2,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_25895",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_10491",
+                    "Similarity": 1.0,
+                    "Sequence": "WIQPKTKVIPFFFFF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10492",
+                    "Similarity": 1.0,
+                    "Sequence": "TKVIPYVRYLFFFFF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11270",
+                    "Similarity": 1.0,
+                    "Sequence": "GRRPRPRPRPFFFF"
+                }
+            ],
+            "Hemolytic Activity": "Sheep erythrocytes:10% Hemolysis=7.9 µM,Human embryonic kidney HEK293T cells:IC50=4.6 µM",
+            "Target Organism": "Staphylococcus aureus ATCC 43300(MIC=1.57µM),Staphylococcus aureus USA 300(MIC=3.13µM),Staphylococcus aureus(MIC=1.57µM),Escherichia coli ATCC 25922(MIC=12.5µM),Escherichia coli(MIC=50µM),Acinetobacter baumannii(MIC=25µM),Klebsiella pneumoniae ATCC 700603(MIC=>100µM),Klebsiella pneumoniae(MIC=>100µM)"
+        }
+    }
+}

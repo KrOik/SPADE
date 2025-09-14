@@ -1,0 +1,74 @@
+{
+    "SPADE_N_02754": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02754",
+            "Peptide Name": "R. prolixus defensin C (RprDefC; insect defensin; Insects, animals)",
+            "Source": "Rhodnius prolixus",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "ATCDLFSFRSKWVTPNHAGCAAHCIFLGNRGGRCVGTVCHCRK",
+            "Sequence Length": 43,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Insecticidal"
+            ],
+            "Target Organism": "Gram-negative bacterium:Escherichia coli;Gram-positive bacterium:Micrococcus luteus.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C200H312N66O53S6",
+            "Mass": 4681.42,
+            "PI": 9.22,
+            "Net Charge": 8,
+            "Hydrophobicity": 0.03,
+            "Half Life": "Mammalian:4.4 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Isolation and characterization of a novel insect defensin from Rhodnius prolixus, a vector of Chagas disease.",
+                    "Pubmed ID": "12650692",
+                    "Reference": "Insect Biochem Mol Biol. 2003 Apr;33(4)439-447.",
+                    "Author": "Lopez L, Morales G, Ursic R, Wolff M, Lowenberger C.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=12650692"
+                }
+            ],
+            "Frequent Amino Acids": "CGA",
+            "Absent Amino Acids": "EMOQUY",
+            "Basic Residues": 9,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 15,
+            "Polar Residues": 29,
+            "Positive Residues": 9,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07572",
+                    "Similarity": 0.9696969696969697,
+                    "Sequence": "SKWFTPNHAGCAAHCIFLGNRGGRCVGTVCHCR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03380",
+                    "Similarity": 0.9069767441860465,
+                    "Sequence": "MKCILSLFTLFLVATLVYSYPAEWNSQHQLDDAQWEPAGELTEEHLSRMKRATCDLLSLTSKWFTPNHAGCAAHCIFLGNRGGRCVGTVCHCRK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08213",
+                    "Similarity": 0.9069767441860465,
+                    "Sequence": "ATCDLLSLTSKWFTPNHAGCAAHCIFLGNRGGRCVGTVCHCRK"
+                }
+            ]
+        }
+    }
+}

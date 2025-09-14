@@ -1,0 +1,73 @@
+{
+    "SPADE_N_02723": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02723",
+            "Peptide Name": "Defensin-D (AaeDefD; Insects, animals)",
+            "Source": "Aedes aegypti (Yellowfever mosquito)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "ATCDLLSGFGVGDSACAAHCIARGNRGGYCNSKKVCVCPI",
+            "Sequence Length": 40,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-negative bacterium:Escherichia coli D31;Gram-positive bacterium:Micrococcus luteus.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C166H270N52O52S6",
+            "Mass": 4018.63,
+            "PI": 8.35,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.34,
+            "Half Life": "Mammalian:4.4 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Immunity proteins from mosquito cell lines include three defensin A isoforms from Aedes aegypti and a defensin D from Aedes albopictus.",
+                    "Pubmed ID": "10469248",
+                    "Reference": "Insect Mol Biol. 1999 Aug;8(3)311-318.",
+                    "Author": "Gao Y, Hernandez VP, Fallon AM.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=10469248"
+                }
+            ],
+            "Frequent Amino Acids": "CGA",
+            "Absent Amino Acids": "EMOQUW",
+            "Basic Residues": 5,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 15,
+            "Polar Residues": 26,
+            "Positive Residues": 5,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02738",
+                    "Similarity": 1.0,
+                    "Sequence": "VPTVICFLAMCLVAITGAYPQEPVLADEAQSVANSLFDELPEESYQAAVENLRLKRATCDLLSGFGVGDSACAAHCIARGNRGGYCNSKKVCVCPI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07573",
+                    "Similarity": 1.0,
+                    "Sequence": "GFGVGDSACAAHCIARGNRGGYCNSKKVCVC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02726",
+                    "Similarity": 0.95,
+                    "Sequence": "ATCDLLSGFGVGDSACAAHCIARGNRGGYCNSKKVCVCRN"
+                }
+            ]
+        }
+    }
+}

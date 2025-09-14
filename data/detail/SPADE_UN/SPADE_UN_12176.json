@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_12176": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_12176",
+            "Peptide Name": "DRIM",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "QQRKRKIWSILAPLGTTLVKLVAGIG",
+            "Sequence Length": 26,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic form",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.28921993] Gram-positive bacteria:Staphylococcus aureus (MIC = 32 μg/mL), Enterococcus faecalis (MIC = 32 μg/mL);Gram-negative bacteria:Escherichia coli (MIC = 32 μg/mL), Pseudomonas aeruginosa (MIC = 64 μg/mL)",
+            "Hemolytic Activity": "[Ref.28921993] 60.5%, 98.0%, 95.1%, 99.0%, 97.9%, 96.3%, 98.8% and 98.2% hemolysis against human red blood cells at 5, 7.5, 10, 15, 20, 25, 30 and 40 μg/ml.",
+            "Cytotoxicity": "[Ref.28921993] The toxicity of DRIM toward HEK293 and HeLa cells is much less than nonaarginine (R9) by use of flow cytometry and the peptide doesn't show any cytotoxicity at 2 μM.",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "D",
+            "Structure Description": "Our CD data show that all four linear peptides were generally disordered in aqueous solution, as expected, but prominent effects were seen regarding the impact of the staple.",
+            "Formula": "C₁₃₁H₂₂₈N₃₈O₃₂",
+            "Mass": 2847.45,
+            "PI": 12.0,
+            "Net Charge": 5,
+            "Hydrophobicity": 0.27,
+            "Half Life": "Mammalian:0.8 hourYeast:10 minE.coli:10 hour",
+            "Function": "Antibacterial activity against Gram-positive and Gram-negative bacteria.",
+            "Literature": [
+                {
+                    "Title": "Lactam-Stapled Cell-Penetrating Peptides Cell Uptake and Membrane Binding Properties.",
+                    "Pubmed ID": "28921993",
+                    "Reference": "J Med Chem. 2017 Oct 12;60(19)8071-8082. doi 10.1021/acs.jmedchem.7b00813. Epub 2017 Sep 26.",
+                    "Author": "Marco J Klein, Samuel Schmidt, Parvesh Wadhwani, Jochen Bürck, Johannes Reichert, Sergii Afonin, Marina Berditsch, Tim Schober, Roland Brock, Manfred Kansy, Anne S Ulrich",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=28921993"
+                }
+            ],
+            "Frequent Amino Acids": "LGI",
+            "Absent Amino Acids": "CDEFHMNOUY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 14,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_11825",
+                    "Similarity": 0.8888888888888888,
+                    "Sequence": "LVKLVAGIKKFLKWK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_19383",
+                    "Similarity": 0.8888888888888888,
+                    "Sequence": "LVKLVAGIKKFLKWK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_16110",
+                    "Similarity": 0.6666666666666666,
+                    "Sequence": "KRKILILIKRKRK"
+                }
+            ]
+        }
+    }
+}

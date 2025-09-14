@@ -1,0 +1,71 @@
+{
+    "SPADE_UN_13625": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_13625",
+            "Peptide Name": "E1P51-2",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "RGVISLTPLLVCVAALLL",
+            "Sequence Length": 18,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antiviral"
+            ],
+            "Target Organism": "[Ref.26905802]Virus:HIV-1 NL4-3:inhibition of virus infection in TZM-bl cells(IC50>125 μM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "gp41",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C86H155N21O21S",
+            "Mass": 1851.34,
+            "PI": 8.25,
+            "Net Charge": 1,
+            "Hydrophobicity": 2.11,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Function": "Antiviral activity against Influenza virus.",
+            "Literature": [
+                {
+                    "Title": "Definition of an 18-mer Synthetic Peptide Derived from the GB virus C E1 Protein as a New HIV-1 Entry Inhibitor.",
+                    "Pubmed ID": "26905802",
+                    "Reference": "Biochim Biophys Acta. 2016 Jun;1860(6)1139-48.",
+                    "Author": "Gómara MJ, Sánchez-Merino V, Paús A, Merino-Mansilla A, Gatell JM, Yuste E, Haro I.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=26905802"
+                }
+            ],
+            "Frequent Amino Acids": "LVA",
+            "Absent Amino Acids": "DEFHKMNOQUWY",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 9,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_13612",
+                    "Similarity": 1.0,
+                    "Sequence": "ILEYLWKVPFDFWRGVIS"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_13613",
+                    "Similarity": 1.0,
+                    "Sequence": "LEYLWKVPFDFWRGVISL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_13614",
+                    "Similarity": 1.0,
+                    "Sequence": "EYLWKVPFDFWRGVISLT"
+                }
+            ]
+        }
+    }
+}

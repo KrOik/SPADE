@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_29652": {
+        "Sequence Information": {
+            "Peptide Name": "Ankyrin repeat domain-containing protein (303-314)",
+            "Sequence": "KKCRNKKMEVSR",
+            "Sequence Length": 12,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "A6NC57",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/A6NC57",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Stepwise identification of potent antimicrobial peptides from human genome.",
+                    "Pubmed ID": "23597653",
+                    "Reference": "BioSystems. 2013;113:1-8",
+                    "Author": "Yan L, Yan Y, Liu H, Lv Q",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/23597653"
+                }
+            ],
+            "Mass": 1506.84,
+            "PI": 10.46,
+            "Net Charge": 5,
+            "Hydrophobicity": -1.98,
+            "Frequent Amino Acids": "KRC",
+            "Absent Amino Acids": "ADFGHILOPQTUWY",
+            "Basic Residues": 6,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 3,
+            "Polar Residues": 9,
+            "Positive Residues": 6,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_UN_29652",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_08494",
+                    "Similarity": 1.0,
+                    "Sequence": "TWARNCYNVCRLPGTISREICAKKCR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08911",
+                    "Similarity": 1.0,
+                    "Sequence": "SMLSVLKNLGKVGLGFVACKINKKC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10515",
+                    "Similarity": 1.0,
+                    "Sequence": "ELDRICGYGTARRKKCR"
+                }
+            ],
+            "Hemolytic Activity": "Human myoblasts:7% Inhibition=10 µg/ml,Human myoblasts:9% Inhibition=50 µg/ml",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=<=40µg/ml),Pseudomonas aeruginosa ATCC 27853(MIC=<=60µg/ml),Klebsiella pneumoniae ATCC 13883(MIC=<=30µg/ml),Staphylococcus aureus ATCC 25923(MIC=<=25µg/ml),Listeria monocytogenes ATCC 35152(MIC=<=40µg/ml)"
+        }
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "SPADE_N_15604": {
+        "Sequence Information": {
+            "Peptide Name": "Panurgine K, PNG-K",
+            "Sequence": "LDVKKIICVACKIKPNPACKKICPK",
+            "Sequence Length": 25,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "1. Panurgus calcaratus",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "C0HL85",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/C0HL85",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Panurgines, novel antimicrobial peptides from the venom of communal bee Panurgus calcaratus (Hymenoptera: Andrenidae).",
+                    "Pubmed ID": "23483218",
+                    "Reference": "Amino Acids. 2013;45:143-157",
+                    "Author": "Cujová S, Slaninová J, Monincová L, Fucík V, Bednárová L, Stokrová J, Hovorka O, Voburka Z, Straka J, Cerovský V",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/23483218"
+                }
+            ],
+            "Mass": 2754.53,
+            "PI": 9.56,
+            "Net Charge": 6,
+            "Hydrophobicity": 0.19,
+            "Frequent Amino Acids": "KCI",
+            "Absent Amino Acids": "EFGHMOQRSTUWY",
+            "Basic Residues": 7,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 12,
+            "Positive Residues": 7,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_N_15604",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_15605",
+                    "Similarity": 0.96,
+                    "Sequence": "LDVKKIICVACKIRPNPACKKICPK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09239",
+                    "Similarity": 0.9047619047619048,
+                    "Sequence": "LDVKKIIVAKIKPNPAKKIPK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_27601",
+                    "Similarity": 0.9047619047619048,
+                    "Sequence": "LDVKKIIVAKIKPNPAKKIPK"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=>200 µM",
+            "Target Organism": "Micrococcus luteus CCM 144(MIC=1.6µM),Bacillus subtilis 168(MIC=3.3µM),Staphylococcus aureus(MIC=>100µM),Escherichia coli B(MIC=63.3µM),Pseudomonas aeruginosa(MIC=>100µM),Candida albicans F7-39/IDE99(MIC=24.2µM)"
+        }
+    }
+}

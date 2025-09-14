@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_27438": {
+        "Sequence Information": {
+            "Peptide Name": "MEP-9 / melectin analogue",
+            "Sequence": "GFLSILKKVLP",
+            "Sequence Length": 11,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P86170",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P86170",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Melectin: a novel antimicrobial peptide from the venom of the cleptoparasitic bee Melecta albifrons",
+                    "Pubmed ID": "18942691",
+                    "Reference": "Chembiochem. 2008;9:2815-2821",
+                    "Author": "Cerovský V, Hovorka O, Cvacka J, Voburka Z, Bednárová L, Borovicková L, Slaninová J, Fucík V",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/18942691"
+                }
+            ],
+            "Mass": 1214.54,
+            "PI": 10.0,
+            "Net Charge": 2,
+            "Hydrophobicity": 1.12,
+            "Frequent Amino Acids": "LKF",
+            "Absent Amino Acids": "ACDEHMNOQRTUWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 5,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_27438",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02603",
+                    "Similarity": 1.0,
+                    "Sequence": "GFLSILKKVLPKVMAHMK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09674",
+                    "Similarity": 1.0,
+                    "Sequence": "GFLSILKKVLPKAHK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09758",
+                    "Similarity": 1.0,
+                    "Sequence": "GFLSILKKVLPKVMAHK"
+                }
+            ],
+            "Hemolytic Activity": "Rat erythrocytes:50% Hemolysis=>100 µM",
+            "Target Organism": "Bacillus subtilis 168(MIC=13.0µM),Staphylococcus aureus(MIC=>100µM),Escherichia coli B(MIC=78.0µM),Pseudomonas aeruginosa(MIC=>100µM)"
+        }
+    }
+}

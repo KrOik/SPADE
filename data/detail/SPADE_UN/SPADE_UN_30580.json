@@ -1,0 +1,82 @@
+{
+    "SPADE_UN_30580": {
+        "Sequence Information": {
+            "Peptide Name": "Lfcin B (20-25)",
+            "Sequence": "RRWQWR",
+            "Sequence Length": 6,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anticancer",
+                "Anti-Mammalian Cell",
+                "Antibiofilm"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P24627",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P24627",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Serum stabilities of short tryptophan- and arginine-rich antimicrobial peptide analogs.",
+                    "Pubmed ID": "20844765",
+                    "Reference": "PLoS One. 2010;5:e12684",
+                    "Author": "Nguyen LT, Chau JK, Perry NA, de Boer L, Zaat SA, Vogel HJ",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/20844765"
+                },
+                {
+                    "Title": "A novel hybrid peptide composed of LfcinB6 and KR-12-a4 with enhanced antimicrobial, anti-inflammatory and anti-biofilm activities.",
+                    "Pubmed ID": "35288606",
+                    "Reference": "Sci Rep. 2022;12:4365",
+                    "Author": "Ajish C, Yang S, Kumar SD, Kim EY, Min HJ, Lee CW, Shin S, Shin SY",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/35288606"
+                },
+                {
+                    "Title": "Antibiofilm activity of lactoferrin-derived synthetic peptides against Pseudomonas aeruginosa PAO1",
+                    "Pubmed ID": "32871093",
+                    "Reference": "Biochem Cell Biol. 2021;99:138-148",
+                    "Author": "Ramamourthy G, Vogel HJ",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/32871093"
+                }
+            ],
+            "Mass": 987.12,
+            "PI": 12.0,
+            "Net Charge": 3,
+            "Hydrophobicity": -3.13,
+            "Frequent Amino Acids": "RWQ",
+            "Absent Amino Acids": "ACDEFGHIKLMNOPSTUVY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 0,
+            "Polar Residues": 6,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_30580",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02451",
+                    "Similarity": 1.0,
+                    "Sequence": "FKCRRWQWRMKKLGAPSITCVRRAF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02472",
+                    "Similarity": 1.0,
+                    "Sequence": "QVVRNPQSCRWNMGVCIPISCPGNMRQIGTCFGPRVPCCRRW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02473",
+                    "Similarity": 1.0,
+                    "Sequence": "QGVRNHVTCRIYGGFCVPIRCPGRTRQIGTCFGRPVKCCRRW"
+                }
+            ],
+            "Hemolytic Activity": "Sheep erythrocytes:10% Hemolysis=>128 µM",
+            "Target Organism": "Bacillus subtilis ATCC 6633(LC=1.9µM),Staphylococcus aureus 42D(LC=15µM),Escherichia coli ML-35(LC=15µM),Staphylococcus aureus KCTC 1621(MIC=>64µM),Staphylococcus epidermidis KCTC 1917(MIC=>64µM),Bacillus subtilis KCTC 3068(MIC=>64µM),Staphylococcus aureus CCARM 3089(MIC=>64µM),Staphylococcus aureus CCARM 3090(MIC=>64µM),Staphylococcus aureus CCARM 3095(MIC=>64µM),Enterococcus faecium ATCC 51559(MIC=>64µM),Escherichia coli KCTC 1682(MIC=>64µM),Pseudomonas aeruginosa KCTC 1637(MIC=>64µM),Salmonella typhimurium KCTC 1926(MIC=>64µM),Pseudomonas aeruginosa CCARM 2095(MIC=>64µM),Pseudomonas aeruginosa CCARM 2109(MIC=>64µM),Murine macrophage cells RAW 264.7(0-10% Killing=32µM),Pseudomonas aeruginosa PAO1(MIC50=>128µM),Pseudomonas aeruginosa PAO1(MIC90=>128µM),Pseudomonas aeruginosa PAO1(MBC=>128µM),Escherichia coli ATCC 25922(MIC90=8µM),Escherichia coli ATCC 25922(MBC=32µM)"
+        }
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "SPADE_UN_15843": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_15843",
+            "Peptide Name": 21,
+            "Source": "Synthetic",
+            "Family": "",
+            "Gene": "Not found",
+            "Sequence": "GLPQIISKVVKT",
+            "Sequence Length": 12,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Notavailable"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Target Organism": "Tumor cells:A549 (EC50>100 μM)",
+            "Hemolytic Activity": "Not available",
+            "Cytotoxicity": "Not available",
+            "Binding Target": "Not available",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C59H107N15O16",
+            "Mass": 1282.57,
+            "PI": 10.0,
+            "Net Charge": 2,
+            "Hydrophobicity": 0.53,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Literature": [
+                {
+                    "Title": "De novo design of anticancer peptides by ensemble artificial neural networks",
+                    "Pubmed ID": "30953170",
+                    "Reference": "J Mol Model. 2019 Apr 5;25(5)112.",
+                    "Author": "Grisoni F, Neuhaus CS, Hishinuma M, Gabernet G, Hiss JA, Kotera M, Schneider G.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=30953170"
+                }
+            ],
+            "Frequent Amino Acids": "IKV",
+            "Absent Amino Acids": "ACDEFHMNORUWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 7,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_25086",
+                    "Similarity": 1.0,
+                    "Sequence": "VVKTGCQRRRMLPR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_25314",
+                    "Similarity": 1.0,
+                    "Sequence": "VVKTVVSRAYTRAGLAQRLGWHDLRHSTRT"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08613",
+                    "Similarity": 0.8,
+                    "Sequence": "IKHQGLPQE"
+                }
+            ]
+        }
+    }
+}

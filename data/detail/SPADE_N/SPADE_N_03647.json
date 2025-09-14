@@ -1,0 +1,74 @@
+{
+    "SPADE_N_03647": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03647",
+            "Peptide Name": "Myotoxin-3 (Crotamine-3)",
+            "Source": "Crotalus durissus terrificus (South American rattlesnake)",
+            "Family": "Belongs to the crotamine-myotoxin family",
+            "Gene": "Not found",
+            "Sequence": "YKRCHIKGGHCFPKGKICIPPSSDFGKMDCPWRRKCCKKGSG",
+            "Sequence Length": 42,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P24333"
+            ],
+            "Protein Existence": "Transcript level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Toxin"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C338H526N90O79S8",
+            "Mass": 4741.66,
+            "PI": 9.7,
+            "Net Charge": 11,
+            "Hydrophobicity": -0.85,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Cationic peptide that possess multiple functions. It acts as a cell-penetrating peptide (CPP), and as a potent voltage- gated potassium channel (Kv) inhibitor. It exhibits antimicrobial activities, hind limb paralysis, and severe muscle necrosis by a non-enzymatic mechanism (By similarity).",
+            "Tissue specificity": "Expressed by the venom gland.",
+            "Literature": [
+                {
+                    "Title": "Cloning and nucleotide sequences of crotamine genes.",
+                    "Pubmed ID": "2389256",
+                    "Reference": "Toxicon. 1990;28(5)575-585.",
+                    "Author": "Smith LA, Schmidt JJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=2389256"
+                }
+            ],
+            "Frequent Amino Acids": "KCG",
+            "Absent Amino Acids": "AELNOQTUV",
+            "Basic Residues": 13,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 23,
+            "Positive Residues": 13,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03643",
+                    "Similarity": 0.9761904761904762,
+                    "Sequence": "YKRCHIKGGHCFPKEKICIPPSSDFGKMDCPWRRKCCKKGSG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03645",
+                    "Similarity": 0.9285714285714286,
+                    "Sequence": "YKRCHIKGGHCFPKEKICIPPSSDFGKMDCPWRRKSLKKGSG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03649",
+                    "Similarity": 0.9024390243902439,
+                    "Sequence": "YKRCHIKGGHCFPKEKLICIPPSSDIGKMDCPWKRKCCKKRS"
+                }
+            ]
+        }
+    }
+}

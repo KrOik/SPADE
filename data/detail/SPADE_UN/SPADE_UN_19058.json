@@ -1,0 +1,69 @@
+{
+    "SPADE_UN_19058": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_19058",
+            "Peptide Name": "IR20 (AI Predicted AMPs, UCLL1c, XXA)",
+            "Source": "AI predicted, AMP-GPT predicted",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "IRFYWRRVQVWRGIWRRLVR",
+            "Sequence Length": 20,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "amidation",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 2802.34,
+            "PI": 12.0,
+            "Hydrophobicity": -0.56,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Wang J, Feng J, Kang Y, Pan P, Ge J, Wang Y, Wang M, Wu Z, Zhang X, Yu J, Zhang X, Wang T, Wen L, Yan G, Deng Y, Shi H, Hsieh CY, Jiang Z, Hou T. 2025",
+                    "Reference": "Sci Adv. 2025 Mar 7;11(10):eads8932. doi: 10.1126/sciadv.ads8932.PubMed",
+                    "Title": "Discovery of antimicrobial peptides with notable antibacterial potency by an LLM-based foundation model."
+                }
+            ],
+            "Frequent Amino Acids": "RVW",
+            "Absent Amino Acids": "ACDEHKMNOPSTU",
+            "Basic Residues": 7,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 12,
+            "Positive Residues": 7,
+            "Negative Residues": 0,
+            "Net Charge": 7,
+            "Target Organism": "Active against E. faecalis ATCC 29212 (MIC 32 ug/ml), S. aureus ATCC 29213 (MIC 32 ug/ml), K. pneumoniae ATCC 700603 (MIC 32 ug/ml), A. baumannii ATCC 19606 (16 ug/ml), P. aeruginosa ATCC 27853 (MIC 64 ug/ml), E. coli ATCC 25922 (MIC 32 ug/ml).",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_03797",
+                    "Similarity": 0.875,
+                    "Sequence": "RIQVIWRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_04188",
+                    "Similarity": 0.8571428571428571,
+                    "Sequence": "FWRRWRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_05938",
+                    "Similarity": 0.8571428571428571,
+                    "Sequence": "IVWIWRR"
+                }
+            ]
+        }
+    }
+}

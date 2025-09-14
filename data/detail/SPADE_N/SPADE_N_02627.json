@@ -1,0 +1,80 @@
+{
+    "SPADE_N_02627": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02627",
+            "Peptide Name": "Mastoparan-T (Insects, animals)",
+            "Source": "Vespa tropica (Greater banded hornet) (Sphex tropica)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "INLKAIAAFAKKLL",
+            "Sequence Length": 14,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P0C1Q7"
+            ],
+            "Protein Existence": "Transcript level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C73H128N18O16",
+            "Mass": 1513.91,
+            "PI": 10.3,
+            "Net Charge": 3,
+            "Hydrophobicity": 1.09,
+            "Half Life": "Mammalian:20 hourYeast:30 minE.coli:>10 hour",
+            "Function": "Chemotactic peptide for polymorphonucleated leukocytes (PMNL), but causing no hemolysis to rat erythrocytes and no mast cell degranulation activity at physiological concentrations.",
+            "Tissue specificity": "Expressed by the venom gland.",
+            "PTM": "C-terminal amidation (Leucine amide",
+            "Literature": [
+                {
+                    "Title": "Inflammatory role of two venom components of yellow jackets (Vespula vulgaris) a mast cell degranulating peptide mastoparan and phospholipase A1.",
+                    "Pubmed ID": "12759486",
+                    "Reference": "Int Arch Allergy Immunol. 2003 May;131(1)25-32.",
+                    "Author": "King T.P, Jim S.Y, Wittkowski K.M.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=12759486"
+                },
+                {
+                    "Title": "Inflammatory role of two venom components of yellow jackets (Vespula vulgaris): a mast cell degranulating peptide mastoparan and phospholipase A1.",
+                    "Pubmed ID": "R2003J0691",
+                    "Author": "Wittkowski K.M.,Jim S.Y.,King T.P."
+                }
+            ],
+            "Frequent Amino Acids": "AKL",
+            "Absent Amino Acids": "CDEGHMOPQRSTUVWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 8,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06656",
+                    "Similarity": 1.0,
+                    "Sequence": "FAKKLLAKALKL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_22513",
+                    "Similarity": 1.0,
+                    "Sequence": "FAKKLLAKALKL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_11995",
+                    "Similarity": 1.0,
+                    "Sequence": "AKKLLKLLKKLLKLAG"
+                }
+            ]
+        }
+    }
+}

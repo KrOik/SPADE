@@ -1,0 +1,73 @@
+{
+    "SPADE_N_00737": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00737",
+            "Peptide Name": "Varv peptide H (Varv H; Plant defensin)",
+            "Source": "Viola arvensis (European field pansy) (Field violet)",
+            "Family": "Belongs to the cyclotide family",
+            "Gene": "Not found",
+            "Sequence": "GLPVCGETCFGGTCNTPGCSCETWPVCSRN",
+            "Sequence Length": 30,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P58453"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Anticancer"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "[Ref.20580652] HD50=7.52µM against human type O red blood cells.",
+            "Cytotoxicity": "[Ref.20580652] Cytotoxicity:U251(IC50=44.70μg/mL), MDA-MB-231(IC50>10μg/mL), A549(IC50>10μg/mL), DU145(IC50>10μg/mL), BEL-7402(IC50>10μg/mL).",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "No specific N-terminal",
+            "C-terminal Modification": "No specific C-terminal",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C125H192N36O43S6",
+            "Mass": 3079.47,
+            "PI": 4.53,
+            "Net Charge": -1,
+            "Hydrophobicity": -0.02,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Probably participates in a plant defense mechanism.",
+            "PTM": "Contains three disulfide bonds 5-19; 9-21; 14-27.",
+            "Literature": [
+                {
+                    "Title": "Seven novel macrocyclic polypeptides from Viola arvensis.",
+                    "Pubmed ID": "10075760",
+                    "Reference": "J Nat Prod. 1999 Feb;62(2)283-286.",
+                    "Author": "Göransson U, Luijendijk T, Johansson S, Bohlin L, Claeson P.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=10075760"
+                }
+            ],
+            "Frequent Amino Acids": "CGT",
+            "Absent Amino Acids": "ADHIKMOQUY",
+            "Basic Residues": 1,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 17,
+            "Positive Residues": 1,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06760",
+                    "Similarity": 1.0,
+                    "Sequence": "GLPVCGETCFGGTCNTPGCSCTWPVCSRN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07729",
+                    "Similarity": 1.0,
+                    "Sequence": "TCFGGTCNTPGCSCETWPVCSRNGLPVCGE"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_27175",
+                    "Similarity": 1.0,
+                    "Sequence": "GLPVCGETCFGGTCNTPGCSCTWPVCSRN"
+                }
+            ]
+        }
+    }
+}

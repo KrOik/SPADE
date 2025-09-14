@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_27609": {
+        "Sequence Information": {
+            "Peptide Name": "Lasioglossin LL-III(1-8)",
+            "Sequence": "VNWKKILG",
+            "Sequence Length": 8,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "C0HK44",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/C0HK44",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Lasioglossins: three novel antimicrobial peptides from the venom of the eusocial bee Lasioglossum laticeps (Hymenoptera: Halictidae).",
+                    "Pubmed ID": "19591185",
+                    "Reference": "Chembiochem. 2009;10:2089-2099",
+                    "Author": "Cerovský V, Budesínský M, Hovorka O, Cvacka J, Voburka Z, Slaninová J, Borovicková L, Fucík V, Bednárová L, Votruba I, Straka J",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/19591185"
+                }
+            ],
+            "Mass": 957.17,
+            "PI": 10.0,
+            "Net Charge": 2,
+            "Hydrophobicity": -0.01,
+            "Frequent Amino Acids": "KGI",
+            "Absent Amino Acids": "ACDEFHMOPQRSTUY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 3,
+            "Polar Residues": 5,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_27609",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02590",
+                    "Similarity": 1.0,
+                    "Sequence": "VNWKKILGKIIKVAK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02591",
+                    "Similarity": 1.0,
+                    "Sequence": "VNWKKILGKIIKVVK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09683",
+                    "Similarity": 1.0,
+                    "Sequence": "VNWKKILGKIKVK"
+                }
+            ],
+            "Hemolytic Activity": "Rat erythrocytes:50% Hemolysis=>200 µM",
+            "Target Organism": "Bacillus subtilis 168(MIC=>200µM),Staphylococcus aureus(MIC=>100µM),Escherichia coli B(MIC=>100µM),Pseudomonas aeruginosa(MIC=>100µM)"
+        }
+    }
+}

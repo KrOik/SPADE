@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_21854": {
+        "Sequence Information": {
+            "Peptide Name": "OsDef2 (16-25)",
+            "Sequence": "KGIRGYKGGY",
+            "Sequence Length": 10,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Binding Target": "",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P0DV61",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P0DV61",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Antimicrobial Function of Short Amidated Peptide Fragments From the Tick-Derived OsDef2 Defensin.",
+                    "Pubmed ID": "31713951",
+                    "Reference": "J Pept Sci. 2019;25:e3223",
+                    "Author": "Ismail NO, Odendaal C, Serem JC, Strömstedt AA, Bester MJ, Sayed Y, Neitz AWH, Gaspar ARM",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/31713951"
+                }
+            ],
+            "Mass": 1098.25,
+            "PI": 10.0,
+            "Net Charge": 3,
+            "Hydrophobicity": -1.2,
+            "Frequent Amino Acids": "GKY",
+            "Absent Amino Acids": "ACDEFHLMNOPQSTUVW",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 1,
+            "Polar Residues": 9,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_21854",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_08456",
+                    "Similarity": 1.0,
+                    "Sequence": "RLLRRLLRRLLRLQKKGI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08458",
+                    "Similarity": 1.0,
+                    "Sequence": "APKAMHSAKKFGKAFVGEIMLQKKGI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09724",
+                    "Similarity": 1.0,
+                    "Sequence": "ALWKNMLKGI"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Bacillus subtilis ATCC 13933(LC=>120µg/ml),Escherichia coli ATCC 700928(LC=>120µg/ml)"
+        }
+    }
+}

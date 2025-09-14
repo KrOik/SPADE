@@ -1,0 +1,80 @@
+{
+    "SPADE_UN_30351": {
+        "Sequence Information": {
+            "Peptide Name": "Pa-MAP2, Antifreeze peptide analogue 2",
+            "Sequence": "LKAAAAAAKLAAKAAKAALKAAAAAAKL",
+            "Sequence Length": 28,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antiviral",
+                "Anticancer",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "Q03659",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/Q03659",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                },
+                {
+                    "uniprotId": "P04002",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P04002",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Structural and functional evaluation of the palindromic alanine-rich antimicrobial peptide Pa-MAP2.",
+                    "Pubmed ID": "27063608",
+                    "Reference": "Biochim Biophys Acta. 2016;:",
+                    "Author": "Migliolo L, Felício MR, Cardoso MH, Silva ON, Xavier ME, Nolasco DO, de Oliveira AS, Roca-Subira I, Teixeira LD, Freitas SM, Otero-González AJ, Gonçalves S, Santos NC, Franco OL",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/27063608"
+                },
+                {
+                    "Title": "Linear Antimicrobial Peptides With Activity Against Herpes Simplex Virus 1 and Aichi Virus",
+                    "Pubmed ID": "27161201",
+                    "Reference": "Biopolymers. 2017;108:",
+                    "Author": "Vilas Boas LCP, de Lima LMP, Migliolo L, Mendes GD, de Jesus MG, Franco OL, Silva PA",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/27161201"
+                }
+            ],
+            "Mass": 2519.08,
+            "PI": 10.7,
+            "Net Charge": 6,
+            "Hydrophobicity": 0.86,
+            "Frequent Amino Acids": "AKL",
+            "Absent Amino Acids": "CDEFGHIMNOPQRSTUVWY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 22,
+            "Polar Residues": 6,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_30351",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_30351",
+                    "Similarity": 1.0,
+                    "Sequence": "LKAAAAAAKLAAKAAKAALKAAAAAAKL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01952",
+                    "Similarity": 1.0,
+                    "Sequence": "AAKLLLNPKFRCKAAFC"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_15903",
+                    "Similarity": 1.0,
+                    "Sequence": "KAAK"
+                }
+            ],
+            "Hemolytic Activity": "Vero cells:20% Cell death=25 µM,Vero cells:50% Cell death=256 µg/ml",
+            "Target Organism": "Escherichia coli ATCC 8739(MIC=3.2µM),Acinetobacter baumannii Ab41(MIC=3.2µM),Acinetobacter baumannii AbR-215(MIC=3.2µM),Staphylococcus aureus(MIC=>80.6µM),Murine macrophage cells RAW 264.7(no activity data),HSV-1(no activity data),Aichi virus(40-50% Inhibition=64µg/ml)"
+        }
+    }
+}

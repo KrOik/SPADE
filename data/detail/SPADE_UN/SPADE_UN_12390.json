@@ -1,0 +1,56 @@
+{
+    "SPADE_UN_12390": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 2019/0279741 A1",
+                "Patent Link": "http://www.lens.org/lens/patent/US_2019_0279741_A1",
+                "Patent Type": "Patent Application",
+                "Publication Date": "2020-9-12",
+                "Family Info": "WO2019178056A1",
+                "Patent Title": "Computational Platform For In Silico Combinatorial Sequence Space Exploration And Artificial Evolution Of Peptides",
+                "Abstract": "Disclosed herein are methods of designing peptides having at least one property of interest, such as α-helical propensity, higher net charge, hydrophobicity, and/or hydrophobic moment. Also disclosed herein are novel artificially evolved peptides (e.g., antimicrobial peptides), which may be designed according to the methods described herein, and methods of use thereof."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_12390",
+            "Sequence": "YGYGGYGGGRYGGGYGSGRG",
+            "Sequence Length": 20,
+            "Peptide Name": "Sequence 103 from Patent US 20190279741",
+            "Source": "Synthetic construct",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Frequent Amino Acids": "GYR",
+            "Absent Amino Acids": "ACDEFHIKLMNOPQTUVW",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 8,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "Mass": 1917.95,
+            "PI": 9.4,
+            "Net Charge": 2,
+            "Hydrophobicity": -1.06,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00950",
+                    "Similarity": 1.0,
+                    "Sequence": "RESPSSRMECYEQAERYGYGGYGGGRYGGGYGSGRGQPVGQGVERSHDDNRNQPR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11527",
+                    "Similarity": 1.0,
+                    "Sequence": "IWQWIVGGLGFLAGDAWSHSDQISSGIKKRKKKGYGY"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_12388",
+                    "Similarity": 1.0,
+                    "Sequence": "SSRMECYEQAERYGYGGYGG"
+                }
+            ]
+        }
+    }
+}

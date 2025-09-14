@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_21669": {
+        "Sequence Information": {
+            "Peptide Name": "Magainin-2 (4-23)",
+            "Sequence": "KFLHSAKKFGKAFVGEIMNS",
+            "Sequence Length": 20,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Binding Target": "",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P11006",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P11006",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Development of Amphipathic Antimicrobial Peptide Foldamers Based on Magainin 2 Sequence",
+                    "Pubmed ID": "31667994",
+                    "Reference": "ChemMedChem. 2019;14:1911-1916",
+                    "Author": "Goto C, Hirano M, Hayashi K, Kikuchi Y, Hara-Kudo Y, Misawa T, Demizu Y",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/31667994"
+                }
+            ],
+            "Mass": 2239.64,
+            "PI": 10.0,
+            "Net Charge": 4,
+            "Hydrophobicity": -0.09,
+            "Frequent Amino Acids": "KFA",
+            "Absent Amino Acids": "CDOPQRTUWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 11,
+            "Positive Residues": 5,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_UN_21669",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02001",
+                    "Similarity": 1.0,
+                    "Sequence": "GIGKFLHSAKKFGKAFVGEIMNS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06263",
+                    "Similarity": 1.0,
+                    "Sequence": "AIGKFLHSAKKFGKAFVGEIMNS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08326",
+                    "Similarity": 1.0,
+                    "Sequence": "KWDSFIKKLTSKFLHSAKKF"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Staphylococcus aureus NBRC 13276(MIC=>400µM),Escherichia coli DH5alpha(MIC=>200µM),Pseudomonas aeruginosa NBRC 13275(MIC=>200µM)"
+        }
+    }
+}

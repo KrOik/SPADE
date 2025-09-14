@@ -1,0 +1,81 @@
+{
+    "SPADE_N_02420": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02420",
+            "Peptide Name": "Mytilin-B (molluscas, animals)",
+            "Source": "Mytilus edulis (Blue mussel)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "SCASRCKGHCRARRCGYYVSVLYRGRCYCKCLRC",
+            "Sequence Length": 34,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P81613"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Antiviral"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C163H267N59O42S8",
+            "Mass": 3981.75,
+            "PI": 9.58,
+            "Net Charge": 10,
+            "Hydrophobicity": -0.34,
+            "Half Life": "Mammalian:1.9 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Has antibacterial and antiviral activity.",
+            "Literature": [
+                {
+                    "Title": "Innate immunity. Isolation of several cysteine-rich antimicrobial peptides from the blood of a mollusc, Mytilus edulis.",
+                    "Pubmed ID": "8702979",
+                    "Reference": "J Biol Chem. 1996 Sep 6;271(36)21808-21813.",
+                    "Author": "Charlet M, Chernysh S, Philippe H, Hetru C, Hoffmann JA, Bulet P.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=8702979"
+                },
+                {
+                    "Title": "NMR structure of mussel mytilin, and antiviral-antibacterial activities of derived synthetic peptides.",
+                    "Pubmed ID": "17628674",
+                    "Reference": "Dev Comp Immunol. 2008;32(3)227-238.",
+                    "Author": "Roch P, Yang Y, Toubiana M, Aumelas A.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=17628674"
+                }
+            ],
+            "Frequent Amino Acids": "CRY",
+            "Absent Amino Acids": "DEFIMNOPQTUW",
+            "Basic Residues": 10,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 29,
+            "Positive Residues": 10,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_08095",
+                    "Similarity": 0.7741935483870968,
+                    "Sequence": "SCASRCKSRCRARRCRYYVSVRYGGFCYCRC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_13801",
+                    "Similarity": 0.6470588235294118,
+                    "Sequence": "VVTCGSLCKAHCTFRKCGYFMSVLYHGRCYCRCLLC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02418",
+                    "Similarity": 0.6176470588235294,
+                    "Sequence": "GCASRCKAKCAGRRCKGWASASFRGRCYCKCFRC"
+                }
+            ]
+        }
+    }
+}

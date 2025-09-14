@@ -1,0 +1,59 @@
+{
+    "SPADE_UN_21988": {
+        "Sequence Information": {
+            "Peptide Name": "BP100-K",
+            "Sequence": "KKLFKKILKYLK",
+            "Sequence Length": 12,
+            "Biological Activity": [
+                "Anticancer",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Synthesis and biological evaluation of novel peptides based on antimicrobial peptides as potential agents with anti-tumor and multidrug resistance-reversing activities",
+                    "Pubmed ID": "28524273",
+                    "Reference": "Chem Biol Drug Des. 2017;90:972-980",
+                    "Author": "Zhang B, Shi W, Li J, Liao C, Yang L, Huang W, Qian H",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/28524273"
+                }
+            ],
+            "Mass": 1550.03,
+            "PI": 10.4,
+            "Net Charge": 6,
+            "Hydrophobicity": -0.5,
+            "Frequent Amino Acids": "KLF",
+            "Absent Amino Acids": "ACDEGHMNOPQRSTUVW",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 7,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_21988",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02049",
+                    "Similarity": 1.0,
+                    "Sequence": "FIGGIISLIKKLF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02050",
+                    "Similarity": 1.0,
+                    "Sequence": "FIGGIISFIKKLF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06419",
+                    "Similarity": 1.0,
+                    "Sequence": "KKLFKKILKY"
+                }
+            ],
+            "Hemolytic Activity": "Human gastric epithelial cells GES-1:IC50=52.3±4.5 µM,Rabbit erythrocytes:<10% Hemolysis=240 µM",
+            "Target Organism": "Human breast adenocarcinoma MCF-7(IC50=15.7±1.5µM),Human breast adenocarcinoma MCF-7/ADM(IC50=18.2±1.3µM),Human myelogenous leukemia K562(IC50=17.9±1.4µM),Human myelogenous leukemia K562/ADM(IC50=19.1±2.1µM)"
+        }
+    }
+}

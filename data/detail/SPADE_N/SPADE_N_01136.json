@@ -1,0 +1,77 @@
+{
+    "SPADE_N_01136": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01136",
+            "Peptide Name": "Palustrin-2AJ1 (PL2AJ1; Frogs, amphibians, animals)",
+            "Source": "Amolops jingdongensis (Chinese torrent frog)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "GFMDTAKNVAKNVAVTLIDKLRCKVTGGC",
+            "Sequence Length": 29,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/G3ETQ3"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.21816202]Gram-positive bacteria:Staphylococcus aureus ATCC25923 (MIC=20 µM), Enterococcus faecalis ATCC29212 (MIC=20 µM);Gram-negative bacteria:Escherichia coli ATCC25922 (MIC=13 µM), Bacillus pyocyaneus CMCCB1010 (MIC=20 µM), Pseudomonas aeruginosa ATCC27853 (MIC=33 µM), Bacillus dysenteriae (MIC=50 µM).",
+            "Hemolytic Activity": "[Ref:21816202] IC50=135 μM against human and rabbit erythrocytes",
+            "Cytotoxicity": "[Ref.21816202] Cytotoxicity:the K562 (IC50=58μM) and HT29 mammalian cell lines(IC50=57μM).",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Cyclization (Cys23 and Cys29)",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C131H226N38O39S3",
+            "Mass": 3053.62,
+            "PI": 9.31,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.23,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Displays broad-spectrum antibacterial activity against a range of Gram-positive and Gram-negative bacteria. Has hemolytic activity, low cytotoxicity and low antioxidant activity.",
+            "Tissue specificity": "Expressed by the skin glands.",
+            "PTM": "One disulfide bond (C23-C29) and Cleavage on pair of basic residues.",
+            "Literature": [
+                {
+                    "Title": "Two novel families of antimicrobial peptides from skin secretions of the Chinese torrent frog, Amolops jingdongensis.",
+                    "Pubmed ID": "21816202",
+                    "Reference": "Biochimie. 2012 Feb;94(2)328-334.",
+                    "Author": "Chen Z, Yang X, Liu Z, Zeng L, Lee W, Zhang Y.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=21816202"
+                }
+            ],
+            "Frequent Amino Acids": "KVA",
+            "Absent Amino Acids": "EHOPQSUWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 19,
+            "Positive Residues": 5,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01137",
+                    "Similarity": 0.9655172413793104,
+                    "Sequence": "GFMDTAKQVAKNVAVTLIDKLRCKVTGGC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15913",
+                    "Similarity": 0.9655172413793104,
+                    "Sequence": "GFMDTAKNVAKNVAKNVAVTLLDKLRCKVTGGC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01151",
+                    "Similarity": 0.896551724137931,
+                    "Sequence": "GFMDTAKNVAKNVAVTLLDKLKCKITGGC"
+                }
+            ]
+        }
+    }
+}

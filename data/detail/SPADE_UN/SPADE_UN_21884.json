@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_21884": {
+        "Sequence Information": {
+            "Peptide Name": "Bactenecin-1 [L2R, C3F, V10W, C11L]",
+            "Sequence": "RRFRIVVIRWLR",
+            "Sequence Length": 12,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P22226",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P22226",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Characterization of the Bioactivity and Mechanism of Bactenecin Derivatives Against Food-Pathogens.",
+                    "Pubmed ID": "31749789",
+                    "Reference": "Front Microbiol. 2019;10:2593",
+                    "Author": "Sun C, Gu L, Hussain MA, Chen L, Lin L, Wang H, Pang S, Jiang C, Jiang Z, Hou J",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/31749789"
+                }
+            ],
+            "Mass": 1670.06,
+            "PI": 12.0,
+            "Net Charge": 5,
+            "Hydrophobicity": 0.05,
+            "Frequent Amino Acids": "RIV",
+            "Absent Amino Acids": "ACDEGHKMNOPQSTUY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 6,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_21884",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07339",
+                    "Similarity": 1.0,
+                    "Sequence": "LLRARWRRRRSRRFR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09824",
+                    "Similarity": 1.0,
+                    "Sequence": "LVQRGRFGRFLRKIRRFR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_13189",
+                    "Similarity": 1.0,
+                    "Sequence": "AARIILRRRFR"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:5% Hemolysis=128 µM,Human umbilical vein cells EA.hy926:29% Killing=128 µM",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=2µM),Escherichia coli UB1005(MIC=16µM),Salmonella enterica subsp. enterica serovar Typhimurium C77-31(MIC=64µM),Salmonella enterica subsp. enterica serovar Typhimurium ATCC 14028(MIC=32µM),Salmonella enterica subsp. enterica serovar Pullorum C79-13(MIC=32µM),Salmonella enterica subsp. enterica CMCC 47020(MIC=64µM),Salmonella enterica subsp. enterica serovar Typhi CMCC 50071(MIC=8µM),Cronobacter sakazakii ATCC 29544(MIC=32µM),Listeria monocytogenes CMCC 54004(MIC=16µM),Bacillus cereus CMCC 6303(MIC=32µM),Staphylococcus aureus CMCC 26074(MIC=256µM),Staphylococcus aureus ATCC 25923(MIC=256µM),Escherichia coli ATCC 25922(MIC=16µM),Escherichia coli ATCC 25922(MIC=8µM),Escherichia coli ATCC 25922(MIC=4µM),Escherichia coli ATCC 25922(MIC=32µM),Escherichia coli ATCC 25922(MIC=>256µM),Escherichia coli ATCC 25922(MIC=128µM)"
+        }
+    }
+}

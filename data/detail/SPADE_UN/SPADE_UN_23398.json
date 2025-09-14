@@ -1,0 +1,54 @@
+{
+    "SPADE_UN_23398": {
+        "Sequence Information": {
+            "Peptide Name": "Magainin-2 (1-17)[G3K,H7K,F5octAla,F12penAla,G13V,V17K]",
+            "Sequence": "GIKKXLKSAKKXVKAFK",
+            "Sequence Length": 17,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P11006",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P11006",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Development of Antimicrobial Stapled Peptides Based on Magainin 2 Sequence.",
+                    "Pubmed ID": "33466998",
+                    "Reference": "Molecules. 2021;26:444",
+                    "Author": "Hirano M, Saito C, Yokoo H, Goto C, Kawano R, Misawa T, Demizu Y",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/33466998"
+                }
+            ],
+            "SPADE ID": "SPADE_UN_23398",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_13164",
+                    "Similarity": 1.0,
+                    "Sequence": "KKIGIWIGIKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14468",
+                    "Similarity": 1.0,
+                    "Sequence": "RWRRFWGKAKRGIKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14563",
+                    "Similarity": 1.0,
+                    "Sequence": "KKVKKAIKEGIKKGIKKL"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=6.25 µM",
+            "Target Organism": "Staphylococcus aureus(MIC=25µM),Escherichia coli DH5alpha(MIC=3.125µM),Pseudomonas aeruginosa(MIC=3.125µM),Pseudomonas aeruginosa(MIC=1.56µM)"
+        }
+    }
+}

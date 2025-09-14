@@ -1,0 +1,95 @@
+{
+    "SPADE_N_01043": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01043",
+            "Peptide Name": "Maximin-3 (Toads, amphibians, animals)",
+            "Source": "Bombina maxima (Giant fire-bellied toad) (Chinese red belly toad)",
+            "Family": "Belongs to the bombinin family",
+            "Gene": "Not found",
+            "Sequence": "GIGGKILSGLKTALKGAAKELASTYLH",
+            "Sequence Length": 27,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P83082",
+                "http://www.uniprot.org/uniprot/Q58T40",
+                "http://www.uniprot.org/uniprot/Q58T43",
+                "http://www.uniprot.org/uniprot/Q58T46",
+                "http://www.uniprot.org/uniprot/Q58T48",
+                "http://www.uniprot.org/uniprot/Q58T64",
+                "http://www.uniprot.org/uniprot/Q58T65",
+                "http://www.uniprot.org/uniprot/Q58T68",
+                "http://www.uniprot.org/uniprot/Q58T69"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Antiviral",
+                "Anticancer"
+            ],
+            "Target Organism": "[Ref.11835991] Gram-negative bacteria:Escherichia coli ATCC 25922 (MIC=0.9 µg/ml), Klebsiella pneumoniae (MIC=3.1 µg/ml);Gram-positive bacteria:Staphylococcus aureus ATCC 2592 (MIC=3.1 µg/ml), Bacillus pyocyaneus CMCCB 10104 (MIC=1.5 µg/ml), Bacillus megatherium (MIC=0.9 µg/ml), Bacillus dysenteriae (MIC=0.9 µg/ml);Yeast:Candida albicans ATCC 2002 (MIC=15 µg/ml);Virus:HIV-1 (IC50=11.4 µg/ml, EC50=1.5 µg/ml);Cancer cell lines:C8166 (IC50=11.4 µg/ml), Molt-4 (IC50=25.2 µg/ml), BIU-87 (IC50=28 µg/ml), T24 (IC50=18 µg/ml).",
+            "Hemolytic Activity": "[Ref:11835991]Little hemolytic activity at 50 μg/ml against red blood cells",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Cell membrane",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Maximins are linear cationic peptides and easy to form membrane pore and they may induce a detergent-type disruption of sperm membrane like in the case of magainins.",
+            "Formula": "C122H209N33O35",
+            "Mass": 2698.16,
+            "PI": 9.83,
+            "Net Charge": 4,
+            "Hydrophobicity": 0.24,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Antimicrobial activity against Gram-positive, Gram-negative bacteria and fungi. Has little hemolytic activity. Possess a significant cytotoxicity against tumor cell lines. Possess a significant anti-HIV activity. High spermicidal activity. No amidation at the C-terminus.",
+            "Toxic Dose": "LD50 is 4.3 mg/kg by intraperitoneal injection into mice.",
+            "Tissue specificity": "Expressed by the skin glands.",
+            "Literature": [
+                {
+                    "Title": "Variety of antimicrobial peptides in the Bombina maxima toad and evidence of their rapid diversification.",
+                    "Pubmed ID": "15770703",
+                    "Reference": "Eur J Immunol. 2005 Apr;35(4)1220-9.",
+                    "Author": "Lee WH, Li Y, Lai R, Li S, Zhang Y, Wang W.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=15770703"
+                },
+                {
+                    "Title": "Antimicrobial peptides from skin secretions of Chinese red belly toad Bombina maxima.",
+                    "Pubmed ID": "11835991",
+                    "Reference": "Peptides. 2002 Mar;23(3)427-435.",
+                    "Author": "Lai R, Zheng YT, Shen JH, Liu GJ, Liu H, Lee WH, Tang SZ, Zhang Y.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=11835991"
+                }
+            ],
+            "Frequent Amino Acids": "GLA",
+            "Absent Amino Acids": "CDFMNOPQRUVW",
+            "Basic Residues": 5,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 14,
+            "Positive Residues": 5,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_15668",
+                    "Similarity": 0.9629629629629629,
+                    "Sequence": "GIGGKILGGLKTALKGAAKELASTYLH"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_18563",
+                    "Similarity": 0.9629629629629629,
+                    "Sequence": "GIGGKILGGLKTALKGAAKELASTYLH"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15671",
+                    "Similarity": 0.8888888888888888,
+                    "Sequence": "GIGGKILGGLRTALKGAAKELAATYLH"
+                }
+            ]
+        }
+    }
+}

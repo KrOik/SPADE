@@ -1,0 +1,72 @@
+{
+    "SPADE_UN_15318": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_15318",
+            "Peptide Name": "Polybia-MPI [L14L-S]",
+            "Source": "Synthetic",
+            "Family": "",
+            "Gene": "Not found",
+            "Sequence": "IDWKKLLDAAKQIX",
+            "Sequence Length": 14,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Notavailable"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Target Organism": "Tumor cells:PC-3 (IC50=20.3±1.0µM); HepG2 (IC50=21.2±0.8µM); EJ (IC50=21.6±1.2µM)",
+            "Hemolytic Activity": "Not available",
+            "Cytotoxicity": "NIH 3T3:50% Cell death>60 µM",
+            "Binding Target": "Not available",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C72H118N18O18",
+            "Mass": 186593,
+            "PI": 9.44,
+            "Net Charge": 1,
+            "Hydrophobicity": -0.207,
+            "Half Life": "Mammalian:20 hourYeast:30 minE.coli:>10 hour",
+            "Literature": [
+                {
+                    "Title": "A novel analog of antimicrobial peptide Polybia-MPI, with thioamide bond substitution, exhibits increased therapeutic efficacy against cancer and diminished toxicity in mice.",
+                    "Pubmed ID": "20600424",
+                    "Reference": "Peptides. 2010 Oct;31(10)1832-8.",
+                    "Author": "Zhang W, Li J, Liu LW, Wang KR, Song JJ, Yan JX, Li ZY, Zhang BZ, Wang R",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=20600424"
+                }
+            ],
+            "Frequent Amino Acids": "KAD",
+            "Absent Amino Acids": "CEFGHMNOPRSTUVY",
+            "Basic Residues": 3,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 6,
+            "Positive Residues": 3,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02624",
+                    "Similarity": 1.0,
+                    "Sequence": "IDWKKLLDAAKQIL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_30765",
+                    "Similarity": 1.0,
+                    "Sequence": "IDWKKLLDAAKQIL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_11617",
+                    "Similarity": 0.9230769230769231,
+                    "Sequence": "IDWKKLLNAAKQIL"
+                }
+            ]
+        }
+    }
+}

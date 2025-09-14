@@ -1,0 +1,79 @@
+{
+    "SPADE_UN_11502": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_11502",
+            "Peptide Name": "Temporin-PEb (Temporin-PE peptide derivative)",
+            "Source": "Synthetic construct",
+            "Family": "Derived from the peptide Temporin-PE",
+            "Gene": "Not found",
+            "Sequence": "FLPIVAKLLSGLLGRKKRRQRRR",
+            "Sequence Length": 23,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anitifungal"
+            ],
+            "Target Organism": "[Ref.29191658]Gram-positive bacteria:Staphylococcus aureus (MIC=1.0 μM), Methicillin-resistant Staphylococcus aureus (MIC=2.0 μM), Enterococcus faecalis (MIC=2.0 μM);Gram-negative bacteria:Escherichia coli (MIC=2.0 μM);Fungus:Candida albicans (MIC=1.0 μM).Cancer cell lines:NCI-H157 (IC50=3.464 μM), U251MG (IC50=3.087 μM), PC-3 (IC50=3.051 μM), MDA-MB-435s (IC50=3.483 μM), HMEC-1 (IC50=9.976 μM).",
+            "Hemolytic Activity": "[Ref.29191658]HC50=44.64 μM against horse red blood cells",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C124H225N45O26",
+            "Mass": 2762.4,
+            "PI": 12.0,
+            "Net Charge": 9,
+            "Hydrophobicity": -0.57,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Function": "Antimicrobial activity against Gram-positive bacteria, Gram-negative bacteria and fungi. Has hemolytic activity.",
+            "Literature": [
+                {
+                    "Title": "Identification and target-modifications of temporin-PE A novel antimicrobial peptide in the defensive skin secretions of the edible frog, Pelophylax kl. esculentus.",
+                    "Pubmed ID": "29191658",
+                    "Reference": "Biochem Biophys Res Commun. 2018 Jan 22;495(4)2539-2546.",
+                    "Author": "Sang M, Wu Q, Xi X, Ma C, Wang L, Zhou M, Burrows JF, Chen T.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=29191658"
+                },
+                {
+                    "Title": "Identification and target-modifications of temporin-PE: A novel antimicrobial peptide in the defensive skin secretions of the edible frog, Pelophylax kl",
+                    "Pubmed ID": "",
+                    "Author": "Sang M, Wu Q, Xi X, Ma C, Wang L, Zhou M, Burrows JF, Chen T"
+                }
+            ],
+            "Frequent Amino Acids": "RLK",
+            "Absent Amino Acids": "CDEHMNOTUWY",
+            "Basic Residues": 9,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 13,
+            "Positive Residues": 9,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_05704",
+                    "Similarity": 1.0,
+                    "Sequence": "FLPIVAKLLSGLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_13466",
+                    "Similarity": 1.0,
+                    "Sequence": "RKKRRQRRRLNLKALLAVAKKIL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07259",
+                    "Similarity": 1.0,
+                    "Sequence": "RKKRRQRRRGGGKLLKLLLKLLLKLLK"
+                }
+            ]
+        }
+    }
+}

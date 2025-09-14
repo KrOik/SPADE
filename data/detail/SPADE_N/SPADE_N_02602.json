@@ -1,0 +1,122 @@
+{
+    "SPADE_N_02602": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 5714467 A",
+                "Patent Link": "http://www.lens.org/lens/patent/US_5714467_A",
+                "Patent Type": "Granted Patent",
+                "Publication Date": "1998-2-3",
+                "Family Info": "Unknown",
+                "Patent Title": "Antibacterial and antimalarial hybrid peptides.",
+                "Abstract": "The invention relates to antibacterial and antimalarial peptides which are hybrids peptides which a of naturally occurring peptides such as cecropins, attacins, magainins, sarcotoxin, sapecin, bactenecins, alamethidicins, defensins and PGLa, and toxins such as streptolysins, melittin, barbatolysin, paradaxins and delta hemolysin. The hybrid peptides of the present invention are easily synthesized and have reduced toxicity. Also included in the invention are pharmaceutical compositions containing such hybrid peptides, and methods of treating patients infected with an organism against which these peptides are active."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02602",
+            "Peptide Name": "Melittin (Allergen Api m 3; Allergen Api m III; Insects, animals)",
+            "Source": "Apis mellifera (Honeybee)",
+            "Family": "Belongs to the melittin family",
+            "Gene": "MELT",
+            "Sequence": "GIGAVLKVLTTGLPALISWIKRKRQQ",
+            "Sequence Length": 26,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P01501",
+                "http://www.uniprot.org/uniprot/P01503"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "[Ref.29783753] Gram-positive bacteria:Staphylococcus aureus ATCC 29213 (MIC=2 μM), Listeria monocytogenes CMCC 54004 (MIC=1 μM);Gram-negative bacteria:Escherichia coli ATCC 25922 (MIC=1 μM), Escherichia coli UB 1005 (MIC=2 μM), Salmonella pullorum C7913 (MIC=8 μM), Salmonella enterica subsp enterica CMCC 50071 (MIC=2 μM)",
+            "Hemolytic Activity": "[Ref.29859288] MHC=1 μM against human red blood cell.[Ref.2978375] 46.80% hemolysis at 2μM against human red blood cell[Ref.20472009] Wild-type melittin:AVG ± S.D.(%)=0.077±0.002 (35) against human red blood cell.",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Cell membrane (forms a transmembrane alpha-helix in the cell membrane.)",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C131H228N38O32",
+            "Mass": 2847.45,
+            "PI": 12.0,
+            "Net Charge": 5,
+            "Hydrophobicity": 0.27,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Main toxin of bee venom with strong hemolytic activity. Forms a pore in the cell membrane by inserting into lipid bilayers in an alpha-helical conformation and has multiple effects, probably, as a result of its interaction with negatively charged phospholipids. It inhibits well known transport pumps such as the Na+-K+-ATPase and the H+-K+-ATPase. It increases the permeability of cell membranes to ions, particularly Na+ and indirectly Ca2+, because of the Na+-Ca2+-exchange. It acts synergistically with phospholipase A2.",
+            "Literature": [
+                {
+                    "Title": "Expression in Escherichia coli of novel recombinant hybrid antimicrobial peptide AL32-P113 with enhanced antimicrobial activity in vitro.",
+                    "Pubmed ID": "29859288",
+                    "Reference": "Gene. 2018 May 30. pii S0378-1119(18)30617-6.",
+                    "Author": "Wanmakok M, Orrapin S, Intorasoot A, Intorasoot S.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=29859288"
+                },
+                {
+                    "Title": "Broad-Spectrum Antimicrobial Activity and Low Cytotoxicity against Human Cells of a Peptide Derived from Bovine AlphaS1-Casein.",
+                    "Pubmed ID": "29783753",
+                    "Reference": "Molecules. 2018 May 19;23(5). pii E1220.",
+                    "Author": "Hou J, Liu Z, Cao S, Wang H, Jiang C, Hussain MA, Pang S.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=29783753"
+                },
+                {
+                    "Title": "Nucleotide sequence of cloned cDNA coding for honeybee prepromelittin.",
+                    "Pubmed ID": "6309516",
+                    "Reference": "Eur J Biochem. 1983 Sep 1;135(1)123-126.",
+                    "Author": "Vlasak R, Unger-Ullmann C, Kreil G, Frischauf AM.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=6309516"
+                },
+                {
+                    "Title": "Identification of a novel melittin isoform from Africanized Apis mellifera venom.",
+                    "Pubmed ID": "20472009",
+                    "Reference": "Peptides. 2010 Aug;31(8)1473-1479.",
+                    "Author": "Sciani JM, Marques-Porto R, Louren?o Junior A, Orsi Rde O, Ferreira Junior RS, Barraviera B, Pimenta DC.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=20472009"
+                },
+                {
+                    "Title": "Africanized honey bee (Apis mellifera) venom profiling Seasonal variation of",
+                    "Pubmed ID": "20403370",
+                    "Reference": "Toxicon. 2010 Sep 1;56(3)355-362.",
+                    "Author": "Ferreira Junior RS, Sciani JM, Marques-Porto R, Junior AL, Orsi Rde O, Barraviera B, Pimenta DC.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=20403370"
+                },
+                {
+                    "Title": "",
+                    "Pubmed ID": "5300771",
+                    "Reference": "Res Dev Tech Rep. 1967 Dec 51-13.",
+                    "Author": "Fennell JF, Shipman WH, Cole LJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=5300771"
+                }
+            ],
+            "Frequent Amino Acids": "LGI",
+            "Absent Amino Acids": "CDEFHMNOUY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 14,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_05970",
+                    "Similarity": 1.0,
+                    "Sequence": "GIGAVLKVL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06727",
+                    "Similarity": 1.0,
+                    "Sequence": "KIAKVALAKLGIGAVLKVLTTGL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07944",
+                    "Similarity": 1.0,
+                    "Sequence": "MKFLVNVALVFMVVYISYIYAAPEPEPAPEPEAEADAEADPEAGIGAVLKVLTTGLPALISWIKRKRQQG"
+                }
+            ]
+        }
+    }
+}

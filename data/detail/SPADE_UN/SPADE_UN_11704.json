@@ -1,0 +1,78 @@
+{
+    "SPADE_UN_11704": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_11704",
+            "Peptide Name": "Cbf-14",
+            "Source": "Synthetic construct",
+            "Family": "Belongs to cathelicidin",
+            "Gene": "Not found",
+            "Sequence": "RLLRKFFRKLKKSV",
+            "Sequence Length": 14,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.28522372]Gram-positive bacteria:Staphylococcus aureus ATCC 25923 (MIC=64 μg/ml), Staphylococcus aureus (MIC=32 μg/ml);Gram-negative bacteria:Escherichia coli ATCC 25922 (MIC=32 μg/ml), Escherichia coli (MIC=32 μg/ml), Pseudomonas aeruginosa ATCC 27853 (MIC=16 μg/ml), Pseudomonas aeruginosa (MIC=32 μg/ml);Yeasts:Candida albicans ATCC 10231 (MIC=64 μg/ml), Candida albicans (MIC=64 μg/ml)",
+            "Hemolytic Activity": "[Ref.28522372]2% hemolysis at 800 μg/ml against mice red blood cells",
+            "Cytotoxicity": "The percentages of possible occurring conformations involved helix, beta, turn and random are also quantified in various solutions",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "The percentages of possible occurring conformations involved helix, beta, turn and random are also quantified in various solutions",
+            "Formula": "C86H151N27O16",
+            "Mass": 1819.29,
+            "PI": 12.0,
+            "Net Charge": 7,
+            "Hydrophobicity": -0.62,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Function": "Antibacterial activity against the Gram-negative bacteria and Gram-positive bacteria.",
+            "Literature": [
+                {
+                    "Title": "Effective antimicrobial activity of a peptide mutant Cbf-14-2 against penicillin-resistant bacteria based on its unnatural amino acids",
+                    "Pubmed ID": "28522372",
+                    "Reference": "Eur J Pharm Sci. 2017 Jul 15;105169-177.",
+                    "Author": "Kang W, Liu H, Ma L, Wang M, Wei S, Sun P, Jiang M, Guo M, Zhou C, Dou J.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=28522372"
+                },
+                {
+                    "Title": "Effective antimicrobial activity of Cbf-14, derived from a cathelin-like domain, against penicillin-resistant bacteria",
+                    "Pubmed ID": "",
+                    "Author": "Ma L, Wang Y, Wang M, Tian Y, Kang W, Liu H, Wang H, Dou J, Zhou C"
+                }
+            ],
+            "Frequent Amino Acids": "KLR",
+            "Absent Amino Acids": "ACDEGHIMNOPQTUWY",
+            "Basic Residues": 7,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 9,
+            "Positive Residues": 7,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01084",
+                    "Similarity": 1.0,
+                    "Sequence": "TRSSRAGLQFPVGRVHRLLRK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01647",
+                    "Similarity": 1.0,
+                    "Sequence": "RAGLKFPVGRVHRLLR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03121",
+                    "Similarity": 1.0,
+                    "Sequence": "KAGLAFPVGRVHRLLRK"
+                }
+            ]
+        }
+    }
+}

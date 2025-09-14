@@ -1,0 +1,76 @@
+{
+    "SPADE_N_02667": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02667",
+            "Peptide Name": "Cecropin (Insects, animals)",
+            "Source": "Glossina morsitans morsitans (Savannah tsetse fly)",
+            "Family": "Belongs to the cecropin family",
+            "Gene": "Not found",
+            "Sequence": "GWLKKIGKKIERVGQNTRDATVKGLEVAQQAANVAATVR",
+            "Sequence Length": 39,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P83403"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C183H315N59O54",
+            "Mass": 4205.82,
+            "PI": 10.55,
+            "Net Charge": 5,
+            "Hydrophobicity": -0.44,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Cecropins have lytic and antibacterial activity against several Gram-negative bacteria.",
+            "Tissue specificity": "Hemolymph.",
+            "Induction": "By bacterial and parasitic infection.",
+            "PTM": "C-terminal amidation.",
+            "Literature": [
+                {
+                    "Title": "Immunopeptides in the defense reactions of Glossina morsitans to bacterial and Trypanosoma brucei brucei infections.",
+                    "Pubmed ID": "11886771",
+                    "Reference": "Insect Biochem. Mol. Biol. 2002; 32369-375.",
+                    "Author": "Boulanger N, Brun R, Ehret-Sabatier L, Kunz C, Bulet P.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=11886771"
+                }
+            ],
+            "Frequent Amino Acids": "AKV",
+            "Absent Amino Acids": "CFHMOPSUY",
+            "Basic Residues": 8,
+            "Acidic Residues": 3,
+            "Hydrophobic Residues": 16,
+            "Polar Residues": 27,
+            "Positive Residues": 8,
+            "Negative Residues": 3,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_23370",
+                    "Similarity": 0.9166666666666666,
+                    "Sequence": "LKKIGKKIWRVG"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_23368",
+                    "Similarity": 0.875,
+                    "Sequence": "LKKIGKKIWRVGWNTR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02672",
+                    "Similarity": 0.8717948717948718,
+                    "Sequence": "GWLKKIGKKIERVGQHTRDATIQGLGVAQQAANVAATAR"
+                }
+            ]
+        }
+    }
+}

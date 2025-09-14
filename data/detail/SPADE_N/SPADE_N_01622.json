@@ -1,0 +1,75 @@
+{
+    "SPADE_N_01622": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01622",
+            "Peptide Name": "Temporin-CDYb (Brevinin-1CDYb; Frogs, amphibians, animals)",
+            "Source": "Rana dybowskii (Dybovsky's frog) (Korean brown frog)",
+            "Family": "Belongs to the frog skin active peptide family (Brevinin subfamily)",
+            "Gene": "Not found",
+            "Sequence": "ILPILAPLIGGLL",
+            "Sequence Length": 13,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/B3VZU4"
+            ],
+            "Protein Existence": "Transcript level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Swiss_Prot Entry B3VZU4]Gram-positive bacterium:Staphylococcus aureus (MIC>100 µM);Gram-negative bacterium:Escherichia coli (MIC>100 µM).",
+            "Hemolytic Activity": "[Ref:19539775]HC50=180 μM against human red blood cells",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C65H115N13O14",
+            "Mass": 1302.69,
+            "PI": 5.53,
+            "Net Charge": 0,
+            "Hydrophobicity": 2.33,
+            "Half Life": "Mammalian:20 hourYeast:30 minE.coli:>10 hour",
+            "Function": "Has low activity against the Gram-positive bacteria",
+            "Literature": [
+                {
+                    "Title": "Characterization of antimicrobial peptides isolated from the skin of the Chinese frog, Rana dybowskii.",
+                    "Pubmed ID": "19539775",
+                    "Reference": "Comp Biochem Physiol B Biochem Mol Biol. 2009 Oct;154(2)174-178.",
+                    "Author": "Jin LL, Li Q, Song SS, Feng K, Zhang DB, Wang QY, Chen YH.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=19539775"
+                }
+            ],
+            "Frequent Amino Acids": "LIG",
+            "Absent Amino Acids": "CDEFHKMNOQRSTUVWY",
+            "Basic Residues": 0,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 1,
+            "Positive Residues": 0,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01585",
+                    "Similarity": 0.9166666666666666,
+                    "Sequence": "ILPILSLIGGLLGK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06297",
+                    "Similarity": 0.9166666666666666,
+                    "Sequence": "ILPILSLIGGLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07559",
+                    "Similarity": 0.9166666666666666,
+                    "Sequence": "MFTLKKSLLLLFFLGTINLSLCEEERNADEERRDDPEERAVEVEKRILPILSLIGGLLGK"
+                }
+            ]
+        }
+    }
+}

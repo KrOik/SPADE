@@ -1,0 +1,74 @@
+{
+    "SPADE_N_01002": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01002",
+            "Peptide Name": "Kunitz-type serine protease inhibitor 1 (Xb-KTI; Plants)",
+            "Source": "Xanthosoma sagittifolium (Elephant's ear) (Arum sagittifolium)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "PVVDTTGNNPLQQQEEYYV",
+            "Sequence Length": 19,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P86930"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.21520894]Gram-negative bacterium:Salmonella typhimurium ATCC 14028 (MIC=10 µM).",
+            "Hemolytic Activity": "[Ref.21520894] No hemolytic activity was observed for Xb-KTI. The peptide induced a hemolysis of 12% at the highest concentration of 250 μg/mL. Values(OD540) were normalized against 100% lysed erythrocytes (0.1% Triton X-100) and PDB (untreated control)",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C96H144N24O35",
+            "Mass": 2194.31,
+            "PI": 4.05,
+            "Net Charge": -3,
+            "Hydrophobicity": -1.01,
+            "Half Life": "Mammalian:>20 hourYeast:>20 hourE.coli:?",
+            "Function": "Serine protease inhibitor. Displays antimicrobial activity against the Gram-negative bacterium S. typhimurium ATCC 14028. Displays a weak hemolytic activity.",
+            "Literature": [
+                {
+                    "Title": "A Kunitz proteinase inhibitor from corms of Xanthosoma blandum with bactericidal activity.",
+                    "Pubmed ID": "21520894",
+                    "Reference": "J Nat Prod. 2011 May 27;74(5)969-975.",
+                    "Author": "Lima TB, Silva ON, Migliolo L, Souza-Filho CR, Gonçalves EG, Vasconcelos IM, Oliveira JT, Amaral AC, Franco OL.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=21520894"
+                }
+            ],
+            "Frequent Amino Acids": "QVE",
+            "Absent Amino Acids": "ACFHIKMORSUW",
+            "Basic Residues": 0,
+            "Acidic Residues": 3,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 12,
+            "Positive Residues": 0,
+            "Negative Residues": 3,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_12953",
+                    "Similarity": 0.5,
+                    "Sequence": "VKPVVKPVVKPVVKPVVKPVVKPV"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_12954",
+                    "Similarity": 0.5,
+                    "Sequence": "VKPVVKPVVKPVVKPVVKPVVKPVVKPV"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_12965",
+                    "Similarity": 0.5,
+                    "Sequence": "VRPVVRPVVRPVVRPVVRPVVRPV"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "SPADE_N_00384": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00384",
+            "Peptide Name": "Defensin-like protein 1 (Cp-thionin I; Cp-thionin-1; Gamma-thionin I; Plant defensin)",
+            "Source": "Vigna unguiculata (Cowpea)",
+            "Family": "Belongs to the DEFL family",
+            "Gene": "Not found",
+            "Sequence": "RVCESQSHGFKGACTGDHNCALVCRNEGFSGGNCRGFRRRCFCTLKC",
+            "Sequence Length": 47,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P83399"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Unknown"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C210H333N75O63S8",
+            "Mass": 5172.88,
+            "PI": 8.97,
+            "Net Charge": 7,
+            "Hydrophobicity": -0.46,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Function": "Inhibits trypsin but not chymotrypsin.",
+            "Subunit structure": "Monomer and homodimer.",
+            "PTM": "Contains four disulfide bonds 3-47; 14-34; 20-41; 24-43 (By similarity).",
+            "Literature": [
+                {
+                    "Title": "Inhibition of trypsin by cowpea thionin characterization, molecular modeling, and docking.",
+                    "Pubmed ID": "12112698",
+                    "Reference": "Proteins. 2002 Aug 1;48(2)311-319.",
+                    "Author": "Melo FR, Rigden DJ, Franco OL, Mello LV, Ary MB, Grossi de S¡ MF, Bloch C Jr.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=12112698"
+                },
+                {
+                    "Title": "Inhibition of trypsin by cowpea thionin: characterization, molecular modeling, and docking.",
+                    "Pubmed ID": "",
+                    "Author": "Ary M.B.,Mello L.V.,Franco O.L.,Rigden D.J.,Melo F.R."
+                }
+            ],
+            "Frequent Amino Acids": "CGR",
+            "Absent Amino Acids": "IMOPUWY",
+            "Basic Residues": 10,
+            "Acidic Residues": 3,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 31,
+            "Positive Residues": 10,
+            "Negative Residues": 3,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_05698",
+                    "Similarity": 0.9411764705882353,
+                    "Sequence": "FSGGNCRGFRRRCFCTK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_27894",
+                    "Similarity": 0.9411764705882353,
+                    "Sequence": "FSGGNCRGFRRRCFCTK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_23935",
+                    "Similarity": 0.8823529411764706,
+                    "Sequence": "FSGGDCRGFRRRCFCTR"
+                }
+            ]
+        }
+    }
+}

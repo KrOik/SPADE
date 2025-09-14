@@ -1,0 +1,74 @@
+{
+    "SPADE_N_03233": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03233",
+            "Peptide Name": "Bactridin-1 (Bact1; Bactridine 1; Arthropods, animals)",
+            "Source": "Tityus discrepans (Venezuelan scorpion)",
+            "Family": "Belongs to the long (4 C-C) scorpion toxin superfamily Sodiu",
+            "Gene": "Not found",
+            "Sequence": "KDGYIIEHRGCKYSCFFGTNSWCNTECTLKKGSSGYCAWPACWCYGLPDNVKIFDSNNLKC",
+            "Sequence Length": 61,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P0CF39"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-positive bacteria:Bacillus subtillis ICTA-07 (MIC=22 µM), Microccocus luteus ATCC 4698 (MIC=43 µM), Enterococcus faecalis WHO14 (MIC=34 µM);Gram-negative bacteria:Pseudomonas aeruginosa ATCC 27853 (MIC=77 µM), Yersinia enterocolitica ATCC 9610 (MIC=49 µM), Acinetobacter calcoaceticus ATCC 2305-5 (MIC=43 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation(Cyclization with a disulfide bond(Cys11 and Cys61))",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C306H448N80O89S8",
+            "Mass": 6927.83,
+            "PI": 8.17,
+            "Net Charge": 3,
+            "Hydrophobicity": -0.4,
+            "Half Life": "Mammalian:1.3 hourYeast:3 minE.coli:2 min",
+            "Function": "Shows antibacterial activity. Modifies membrane sodium permeability on Y.enterocolitica. Is toxic to cockroaches and crabs, but is not to mice. Does not induce haemolysis in human erythrocytes.",
+            "Tissue specificity": "Expressed by the venom gland.",
+            "PTM": "Contains four disulfide bonds (By similarity) and C- terminal amidation.",
+            "Literature": [
+                {
+                    "Title": "Antibacterial activity of six novel peptides from Tityus discrepans scorpion venom. A fluorescent probe study of microbial membrane Na+ permeability changes.",
+                    "Pubmed ID": "19540868",
+                    "Reference": "Toxicon. 2009 Nov;54(6)802-817.",
+                    "Author": "Díaz P, D'Suze G, Salazar V, Sevcik C, Shannon JD, Sherman NE, Fox JW.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=19540868"
+                },
+                {
+                    "Title": "Identification and phylogenetic analysis of Tityus pachyurus and Tityus obscurus novel putative Na+-channel scorpion toxins.",
+                    "Pubmed ID": "22355312",
+                    "Reference": "PLoS One. 2012;7(2)e30478.",
+                    "Author": "Guerrero-Vargas JA, Mourão CB, Quintero-Hernández V, Possani LD, Schwartz EF.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=22355312"
+                }
+            ],
+            "Frequent Amino Acids": "CGK",
+            "Absent Amino Acids": "MOQU",
+            "Basic Residues": 8,
+            "Acidic Residues": 5,
+            "Hydrophobic Residues": 21,
+            "Polar Residues": 36,
+            "Positive Residues": 8,
+            "Negative Residues": 5,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_14471",
+                    "Similarity": 0.5901639344262295,
+                    "Sequence": "KEGYLMDHEGCKLSCFIRPSGYCGRECGIKKGSSGYCAWPACYCYGLPNWVKVWDRATNKC"
+                }
+            ]
+        }
+    }
+}

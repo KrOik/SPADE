@@ -1,0 +1,69 @@
+{
+    "SPADE_UN_25406": {
+        "Sequence Information": {
+            "Peptide Name": "pepD3",
+            "Sequence": "WKKLKKLLKKL",
+            "Sequence Length": 11,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell",
+                "Antibiofilm"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "A Systematic Study of the Stability, Safety, and Efficacy of the de novo Designed Antimicrobial Peptide PepD2 and Its Modified Derivatives Against Acinetobacter baumannii",
+                    "Pubmed ID": "34220763",
+                    "Reference": "Front Microbiol. 2021;12:678330",
+                    "Author": "Chen SP, Chen EH, Yang SY, Kuo PS, Jan HM, Yang TC, Hsieh MY, Lee KT, Lin CH, Chen RP",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/34220763"
+                },
+                {
+                    "Title": "De Novo Design of Antimicrobial Peptides With a Special Charge Pattern and Their Application in Combating Plant Pathogens.",
+                    "Pubmed ID": "34659322",
+                    "Reference": "Front Plant Sci. 2021;12:753217",
+                    "Author": "Chen EHL, Weng CW, Li YM, Wu MC, Yang CC, Lee KT, Chen RPY, Cheng CP",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/34659322"
+                }
+            ],
+            "Mass": 1425.89,
+            "PI": 10.7,
+            "Net Charge": 6,
+            "Hydrophobicity": -0.83,
+            "Frequent Amino Acids": "KLW",
+            "Absent Amino Acids": "ACDEFGHIMNOPQRSTUVY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 4,
+            "Polar Residues": 7,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_25406",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_04911",
+                    "Similarity": 1.0,
+                    "Sequence": "RRMKWKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06492",
+                    "Similarity": 1.0,
+                    "Sequence": "ILPWKWPWWPWKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06891",
+                    "Similarity": 1.0,
+                    "Sequence": "RHIKIWFQNRRMKWKK"
+                }
+            ],
+            "Hemolytic Activity": "Rat erythrocytes:3.15% Hemolysis=256 µg/ml,Human embryonic kidney HEK293 cells:IC50=68.1 µg/ml",
+            "Target Organism": "Acinetobacter baumannii ATCC 17978(MIC=8µg/ml),Acinetobacter baumannii ATCC 17978(MBC=8µg/ml),Staphylococcus aureus BCRC 10777(MIC=16µg/ml),Staphylococcus aureus BCRC 10777(MBC=32µg/ml),Staphylococcus epidermidis ATCC 14990(MIC=16µg/ml),Staphylococcus epidermidis ATCC 14990(MBC=32µg/ml),Escherichia coli DH5alpha(MIC=8µg/ml),Escherichia coli DH5alpha(MBC=16µg/ml),Xanthomonas euvesicatoria(MIC=4µg/ml),Xanthomonas euvesicatoria(MBC=4µg/ml),Xanthomonas campestris pv. campestris(MIC=2µg/ml),Xanthomonas campestris pv. campestris(MBC=2µg/ml),Xanthomonas oryzae pv. oryzae(MIC=4µg/ml),Xanthomonas oryzae pv. oryzae(MBC=4µg/ml),Agrobacterium tumefaciens C58C1(MIC=2µg/ml),Agrobacterium tumefaciens C58C1(MBC=2µg/ml),Pectobacterium carotovorum subsp. carotovorum(MIC=8µg/ml),Pectobacterium carotovorum subsp. carotovorum(MBC=16µg/ml),Pseudomonas syringae pv. tomato DC3000(MIC=8µg/ml),Pseudomonas syringae pv. tomato DC3000(MBC=16µg/ml),Pseudomonas syringae pv. syringae(MIC=8µg/ml),Pseudomonas syringae pv. syringae(MBC=16µg/ml),Pectobacterium carotovorum subsp. carotovorum(MIC=8µg/ml),Pectobacterium carotovorum subsp. carotovorum(MBC=16µg/ml),Dickeya dadantii(MIC=32µg/ml),Ralstonia solanacearum(no activity data),Botrytis cinerea(no activity data),Colletotrichum gloeosporioides(no activity data)"
+        }
+    }
+}

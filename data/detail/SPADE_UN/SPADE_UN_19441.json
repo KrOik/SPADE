@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_19441": {
+        "Sequence Information": {
+            "Peptide Name": "Endolysin (115-145)[P6K,I12K], LysAB2 P1",
+            "Sequence": "EKALEKLIAIQKAIKGMLNGWFTGVGFRRKR",
+            "Sequence Length": 31,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "F1BCP4",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/F1BCP4",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Highly potent antimicrobial modified peptides derived from the Acinetobacter baumannii phage endolysin LysAB2.",
+                    "Pubmed ID": "28904355",
+                    "Reference": "Sci Rep. 2017;7:11477",
+                    "Author": "Peng SY, You RI, Lai MJ, Lin NT, Chen LK, Chang KC",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/28904355"
+                }
+            ],
+            "Mass": 3560.27,
+            "PI": 11.12,
+            "Net Charge": 6,
+            "Hydrophobicity": -0.26,
+            "Frequent Amino Acids": "KGA",
+            "Absent Amino Acids": "CDHOPSUY",
+            "Basic Residues": 8,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 18,
+            "Positive Residues": 8,
+            "Negative Residues": 2,
+            "SPADE ID": "SPADE_UN_19441",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_15525",
+                    "Similarity": 1.0,
+                    "Sequence": "NPEKALEKLIAIQKAIKGMLNGWFTGVGFRRKR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_19441",
+                    "Similarity": 1.0,
+                    "Sequence": "EKALEKLIAIQKAIKGMLNGWFTGVGFRRKR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11870",
+                    "Similarity": 0.9354838709677419,
+                    "Sequence": "NPEKALEPLIAIQIAIKGMLNGWFTGVGFRRKR"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:61% Hemolysis=64 µM,Human erythrocytes:80% Hemolysis=128 µM",
+            "Target Organism": "Acinetobacter baumannii ATCC 17978(MIC=8µM),Acinetobacter baumannii ATCC 19606(MIC=8µM),Acinetobacter baumannii M3237(MIC=8µM),Acinetobacter baumannii ATCC 17978(MBC=8µM),Acinetobacter baumannii ATCC 19606(MBC=8µM),Acinetobacter baumannii M3237(MBC=8µM),Escherichia coli ATCC 25922(MIC=16µM),Escherichia coli ATCC 25922(MBC=16µM),Staphylococcus aureus ATCC 25923(MIC=>128µM),Staphylococcus aureus ATCC 25923(MBC=>128µM)"
+        }
+    }
+}

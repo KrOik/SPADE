@@ -1,0 +1,75 @@
+{
+    "SPADE_N_02755": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02755",
+            "Peptide Name": "P15 (deer beta-defensin; ruminant, animals)",
+            "Source": "Cervus elaphus (New Zealand deer)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "IRNSLTCRFNFGICLPKRCPGRMRQIGTCF",
+            "Sequence Length": 30,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "Gram-negative bacterium:Escherichia coli O111 (MIC=0.3 µg/mL);Gram-positive bacterium:Staphylococcus aureus NCTC 4163 (MIC=1 µg/mL).Fungi:Candida albicans 3135A (MIC=3 µg/mL).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C150H247N49O37S5",
+            "Mass": 3489.2,
+            "PI": 10.71,
+            "Net Charge": 6,
+            "Hydrophobicity": -0.07,
+            "Half Life": "Mammalian:20 hourYeast:30 minE.coli:>10 hour",
+            "Function": "It shows strong activity against Gram-negative bacteria, but lesser activity against Gram-positive bacteria and yeast.",
+            "Caution": "the sequence displayed is N-terminal sequence of P15.",
+            "Literature": [
+                {
+                    "Title": "Isolation and characterisation of antimicrobial peptides from deer neutrophils.",
+                    "Pubmed ID": "16011891",
+                    "Reference": "Int J Antimicrob Agents. 2005 Aug;26(2)165-169.",
+                    "Author": "Treffers C, Chen L, Anderson RC, Yu PL.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16011891"
+                }
+            ],
+            "Frequent Amino Acids": "RCF",
+            "Absent Amino Acids": "ADEHOUVWY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 16,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_10589",
+                    "Similarity": 0.8461538461538461,
+                    "Sequence": "RCPGRTRQIGTIFGPRIKCRSW"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_16927",
+                    "Similarity": 0.8461538461538461,
+                    "Sequence": "RCPGRTRQIGTIFPGRIKCRSW"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_29672",
+                    "Similarity": 0.8461538461538461,
+                    "Sequence": "RCPGRTRQIGTIFGPRIKCRSW"
+                }
+            ]
+        }
+    }
+}

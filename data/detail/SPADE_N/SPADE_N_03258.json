@@ -1,0 +1,84 @@
+{
+    "SPADE_N_03258": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 2005/0260715 A1",
+                "Patent Link": "http://www.lens.org/lens/patent/US_2005_0260715_A1",
+                "Patent Type": "Patent Application",
+                "Publication Date": "2005-11-24",
+                "Family Info": "US6946261",
+                "Patent Title": "Efficient methods for producing antimicrobial cationic peptides in host cells.",
+                "Abstract": "Endogenously produced cationic antimicrobial peptides are ubiquitous components of host defenses in mammals, birds, amphibia, insects, and plants. Cationic peptides are also effective when administered as therapeutic agents. A practical drawback in cationic peptide therapy, however, is the cost of producing the agents. The methods described herein provide a means to efficiently produce cationic peptides from recombinant host cells. These recombinantly-produced cationic peptides can be rapidly purified from host cell proteins using anion exchange chromatography."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03258",
+            "Peptide Name": "4 kDa defensin (Antibacterial 4 kDa peptide; Arthropods, animals)",
+            "Source": "Leiurus quinquestriatus hebraeus (Yellow scorpion)",
+            "Family": "Belongs to the invertebrate defensin family (Type 2 subfamily)",
+            "Gene": "Not found",
+            "Sequence": "GFGCPLNQGACHRHCRSIRRRGGYCAGFFKQTCTCYRN",
+            "Sequence Length": 38,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P41965"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C181H279N65O48S6",
+            "Mass": 4325.95,
+            "PI": 9.69,
+            "Net Charge": 9,
+            "Hydrophobicity": -0.65,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Antibacterial protein against Gram-positive bacteria; may act via membrane-permeabilization of these cells.",
+            "PTM": "Contains three disulfide bonds 4-25; 11-33; 15-35 (By similarity).",
+            "Literature": [
+                {
+                    "Title": "Purification and characterization of a scorpion defensin, a 4kDa antibacterial peptide presenting structural similarities with insect defensins and scorpion toxins.",
+                    "Pubmed ID": "8333834",
+                    "Reference": "Biochem Biophys Res Commun. 1993 Jul 15;194(1)17-22.",
+                    "Author": "Cociancich S, Goyffon M, Bontems F, Bulet P, Bouet F, Menez A, Hoffmann J.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=8333834"
+                }
+            ],
+            "Frequent Amino Acids": "CGR",
+            "Absent Amino Acids": "DEMOUVW",
+            "Basic Residues": 9,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 26,
+            "Positive Residues": 9,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03257",
+                    "Similarity": 1.0,
+                    "Sequence": "GFGCPLNQGACHRHCRSIRRRGGYCAGFFKQTCCYRN"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_29477",
+                    "Similarity": 1.0,
+                    "Sequence": "EKRRGGRLCYCRRRFCVCVGREKRRGLRRLGRKIAHGVKKYGPTVLRIIRIAGEKRGFGCPLNQGACHRHCRSIRRRGGYCAGFFKQTCTCYRNEKRVDKPDYRPRPWPRPNSR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03278",
+                    "Similarity": 0.9459459459459459,
+                    "Sequence": "GFGCPFNQGACHRHCRSIRRRGGYCAGLFKQTCTCYR"
+                }
+            ]
+        }
+    }
+}

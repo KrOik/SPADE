@@ -1,0 +1,5 @@
+database,support_fasta,support_csv_tsv,support_json,api_available,bulk_download,license,mirror_or_doi,notes
+APD3,1,0,0,0,0,,,APD3新增“Sequence downloads”页面支持序列批量下载，默认肽序列常用FASTA格式，无CSV/TSV/JSON格式提及；无API接口描述
+DRAMP,0,0,0,0,1,,,仅展示统计数据（如数据集分布、MICTop8），无任何数据下载入口、许可协议及镜像/DOI信息
+DBAASP,1,1,1,0,1,,,仅呈现数据库组成（如23944条肽、六界来源分类）及长度分布，无数据下载功能、许可说明及镜像/DOI信息
+dbAMP,1,1,1,0,0,,,侧重功能标签（如溶血、抗HIV）、物种分类及理化性质对比，无数据下载入口、许可协议及镜像/DOI信息

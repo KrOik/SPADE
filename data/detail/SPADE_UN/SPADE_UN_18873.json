@@ -1,0 +1,70 @@
+{
+    "SPADE_UN_18873": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_18873",
+            "Peptide Name": "CGS20 (Synthetic AMPs, Arg-rich, XXA, UCLL1c)",
+            "Source": "Designed",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "RRRLARRLIFFIRRAW",
+            "Sequence Length": 16,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-MRSA"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 2186.66,
+            "PI": 12.0,
+            "Hydrophobicity": -0.41,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Li C, Zhou Z, Wang W, Zhao Y, Yin X, Meng Y, Zhao P, Wang M, Liu X, Wang X, Wang S, Ren B, Zhang L, Xia X. 2024",
+                    "Reference": "J Med Chem. 2024 Jan 25;67(2):1044-1060. doi: 10.1021/acs.jmedchem.3c01360.PubMed",
+                    "Title": "Development of Antibacterial Peptides with Membrane Disruption and Folate Pathway Inhibitory Activities against Methicillin-Resistant Staphylococcus aureus."
+                }
+            ],
+            "Frequent Amino Acids": "RAF",
+            "Absent Amino Acids": "CDEGHKMNOPQSTUVY",
+            "Basic Residues": 7,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 9,
+            "Positive Residues": 7,
+            "Negative Residues": 0,
+            "Net Charge": 7,
+            "Comments": "Sequence analysis: APD analysis reveals that this sequence is similar (81.25%) toCGS13R: 44%, I=L=A=F: 13%.Activity: Active against S. aureus 10 MRSA strains (MIC 3-6 uM).Toxicity: murine RBC: HC50 >320 uM (poorly hemo.lytic). HC10 >320 uM. Not toxic to HEK293 cells (IC50 > 320 uM).Structure: it became helical in 50% TFE.Peptide stability: evaluated in MRSA supernatant or blood plasma: a quarter to half left after 12 h incubation and the peptide is essentially degraded after 24 h.Resistance development:no:bacteria:S. aureus: after 7 passages, it did not develop resistance to MRSA while methicillin did.Animal model:mouse: the peptide reduced bacteria by 5-6 log when the skin abscesses were treated at 40 mg/kg. A similar effect was achieved when treated with 5 mg/kg vancomycin.",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07057",
+                    "Similarity": 1.0,
+                    "Sequence": "GPWERCTAQCGGGIQARRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10171",
+                    "Similarity": 1.0,
+                    "Sequence": "GFGRGFGRRRRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10782",
+                    "Similarity": 1.0,
+                    "Sequence": "KRRRRR"
+                }
+            ]
+        }
+    }
+}

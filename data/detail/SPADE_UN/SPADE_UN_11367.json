@@ -1,0 +1,75 @@
+{
+    "SPADE_UN_11367": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_11367",
+            "Peptide Name": "Halocin C8 (Bacteriocin)",
+            "Source": "Halobacterium sp. (strain AS7092)",
+            "Family": "Not found",
+            "Gene": "proC8",
+            "Sequence": "DIDITGCSACKYAAGQVCTIGCSAAGGFICGLLGITIPVAGLSCLGFVEIVCTVADEYSGCGDAVAKEACNRAGLC",
+            "Sequence Length": 76,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P83716"
+            ],
+            "Protein Existence": "",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Cell wall",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "HalC8 contains 10 cysteines that could form disulphide bridges, leading to a little decrease in molecular weight.",
+            "Formula": "C316H511N83O103S10",
+            "Mass": 7441.58,
+            "PI": 4.14,
+            "Net Charge": -4,
+            "Hydrophobicity": 0.89,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:>10 hour",
+            "Comments": "quite stable, can be desalted, boiled, frozen, subjected to organic solvents, and stored in culture supernatant at 4",
+            "Literature": [
+                {
+                    "Title": "Purification and biological characterization of halocin C8, a novel peptide antibiotic from Halobacterium strain AS7092.",
+                    "Pubmed ID": "12811620",
+                    "Reference": "Extremophiles. 2003 Oct;7(5)401-7.",
+                    "Author": "Li Y, Xiang H, Liu J, Zhou M, Tan H.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=12811620"
+                },
+                {
+                    "Title": "A single gene directs both production and immunity of halocin C8 in a haloarchaeal strain AS7092.",
+                    "Pubmed ID": "15978083",
+                    "Reference": "Mol Microbiol. 2005 Jul;57(2)537-49.",
+                    "Author": "Sun C, Li Y, Mei S, Lu Q, Zhou L, Xiang H.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=15978083"
+                }
+            ],
+            "Frequent Amino Acids": "GAC",
+            "Absent Amino Acids": "HMOUW",
+            "Basic Residues": 3,
+            "Acidic Residues": 7,
+            "Hydrophobic Residues": 34,
+            "Polar Residues": 42,
+            "Positive Residues": 3,
+            "Negative Residues": 7,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_00020",
+                    "Similarity": 1.0,
+                    "Sequence": "DIDITGCSACKYAAG"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_11586",
+                    "Similarity": 0.7647058823529411,
+                    "Sequence": "DIDITGCSACKYAAGQVCTIGCSAAGGFICGLLGITIPVAGLSSLGFFVITCTTSADYYSIPDSNAAK"
+                }
+            ]
+        }
+    }
+}

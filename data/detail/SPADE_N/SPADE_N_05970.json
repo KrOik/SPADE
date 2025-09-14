@@ -1,0 +1,55 @@
+{
+    "SPADE_N_05970": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 2020/0048303 A1",
+                "Patent Link": "http://www.lens.org/lens/patent/US_2020_0048303_A1",
+                "Patent Type": "Patent Application",
+                "Publication Date": "2020-2-13",
+                "Family Info": "WO2018165655A1",
+                "Patent Title": "Antimicrobial Peptides And Methods Of Making And Using Same",
+                "Abstract": "The present invention provides a new methodology combining MD simulations and database-guided high-throughput screening to rationally design pore forming membrane-active peptides. The present inventive methodology is able to allow tuning of a range of structural and functional properties such as pore size and selectively targeting membranes with specific lipid compositions. The present inventive methods will ultimately allow de novo design of membrane-active peptides for a wide range of biomedical applications, including for example, antimicrobial agents."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_05970",
+            "Sequence": "GIGAVLKVL",
+            "Sequence Length": 9,
+            "Peptide Name": "Sequence 23 from Patent WO",
+            "Source": "Apis mellifera",
+            "Biological Activity": [
+                "Antimicrobial"
+            ],
+            "Frequent Amino Acids": "GLV",
+            "Absent Amino Acids": "CDEFHMNOPQRSTUWY",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 4,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "Mass": 869.1,
+            "PI": 8.75,
+            "Net Charge": 1,
+            "Hydrophobicity": 1.96,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02602",
+                    "Similarity": 1.0,
+                    "Sequence": "GIGAVLKVLTTGLPALISWIKRKRQQ"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04203",
+                    "Similarity": 1.0,
+                    "Sequence": "GIGAVLKVLTTGLPALISWISRKKRQQ"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06727",
+                    "Similarity": 1.0,
+                    "Sequence": "KIAKVALAKLGIGAVLKVLTTGL"
+                }
+            ]
+        }
+    }
+}

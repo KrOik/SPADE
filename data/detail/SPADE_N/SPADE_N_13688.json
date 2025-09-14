@@ -1,0 +1,73 @@
+{
+    "SPADE_N_13688": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_13688",
+            "Peptide Name": "Verine (WW307; W379; R3W4V, synthetic AMPs20, Trp-rich, Arg-rich, XXA, UCLL1c)",
+            "Source": "engineered: database filtering + structure-based refinement",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "RRRWWWWV",
+            "Sequence Length": 8,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-MRSA",
+                "Synergistic AMPs",
+                "Antibiofilm"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 1330.54,
+            "PI": 12.0,
+            "Hydrophobicity": -1.61,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Lakshmaiah Narayana J, Mishra B, Lushnikova T, Wu Q, Chhonker YS, Zhang Y, Zarena D, Salnikov ES, Dang X, Wang F, Murphy C, Foster KW, Gorantla S, Bechinger B, Murry DJ, Wang G.",
+                    "Reference": "Proc Natl Acad Sci U S A. 2020;117(32):19446-19454. doi:10.1073/pnas.2005540117.PubMed",
+                    "Title": "Two distinct amphipathic peptide antibiotics with systemic efficacy"
+                }
+            ],
+            "Frequent Amino Acids": "WRV",
+            "Absent Amino Acids": "ACDEFGHIKLMNOPQSTUY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 4,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "Net Charge": 3,
+            "Comments": "Discovery: This peptide was obtained from a combination use of database and structure refinement.Structure: Different from horine, which has a classic horizontal amphipathic helical structure, verine is proposed to possess a vertical amphipathic structure.You can rotate, zoom, and view the 3D structure of the parent moleculeherein the PDB.Activity: While horine is mainly active against Gram+ pathogens, verine is active against both Gram+ and Gram- pathogens,  E. faecium V286-17 (MIC 2 uM) anti-VRE, S. aureus USA300 LAC MRSA and 30 clinical strains (MIC 2-8 uM), K. pneumoniae E406-17 and 22 clinical strains (MIC 4-32 uM), A. baumannii B28-16 (MIC 8 uM), P. aeruginosa E411-17 (4-8 uM), and E. coli E423-17 (MIC 2 uM).MOA:bacteria: it permeabilized S. aureus membranes (also D=L).Resistance development:no:bacteria:S. aureus USA300: S. aureus USA300 LAC did not develop resistance to verine during a multiple passage experiment.Half-life in vitro:plasma:human:  half life is 15 min.In vitro toxicity: very low hemo.lytic hRBC (HC50 >200 uM), other cytotoxicity: human hepatic progenitor liver cell (HepaRG (LC50 >80 uM), human kidney HEK293 (LC50 >80 uM), human lung fibroblasts (MRC9) (LC50>25 uM), and mouse splenocytes (LC50 >12.5 uM).Animal model:mouse: neutropenic, systemic: verine protects animals from death caused by either MRSA or klebsiella. It reduces K. pneumoniae burden in kidney, liver, spleen, and lung when injected either intraperitoneally (i.p./i.p.) or intravenously (i.p./i.v.).Peptide formulation: nanofiber formulated peptide displayed antibiofilm activity in wound model:mouse (Su et al., 2020;Su et al., 2021;Su et al., 2023;John et al., 2023).Synergy:antibody:  Microneedle Patches Co-delivering Monoclonal Antibodies and W379 Effectively Eradicated Wound Biofilms (Su et al., 2024).Patent: published.Updated 6/2022; 8/2023; 12/2023; 2/2024; 11/2024",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02907",
+                    "Similarity": 1.0,
+                    "Sequence": "SRDLICLCRNRRCNRGELFYGTCAGPFLRCCRRRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02908",
+                    "Similarity": 1.0,
+                    "Sequence": "SRDLICLCRKRRCNRGELFYGTCAGPFLRCCRRRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02991",
+                    "Similarity": 1.0,
+                    "Sequence": "FLRRSVSGFQECHSKGGYCYRYYCPRPHRRLGSCYPYAANCCRRRR"
+                }
+            ]
+        }
+    }
+}

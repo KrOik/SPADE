@@ -1,0 +1,76 @@
+{
+    "SPADE_UN_15147": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_15147",
+            "Peptide Name": "MU92 (Hepta 1 dp)",
+            "Source": "Synthetic construct",
+            "Family": "Herpesviridae",
+            "Gene": "Not found",
+            "Sequence": "RWWRWWRRWWRWWR",
+            "Sequence Length": 14,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antiviral"
+            ],
+            "Target Organism": "[Ref.17681018]HSV-1:inhibition of virus infection in NP-2/CD4/CCR5 cells(IC50=3.3 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information or data found in the reference(s) presented in this entry",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C124H154N40O15",
+            "Mass": 2444.81,
+            "PI": 12.0,
+            "Net Charge": 6,
+            "Hydrophobicity": -2.44,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Mechanism of action": "The anti-HSV1 activity of apoEdp involves inhibition of virus particle attachment to cells, with this likely being related to the derivation of this peptide from the apoE HSPG/LDLR binding region.",
+            "Literature": [
+                {
+                    "Title": "Apolipoprotein E-derived antimicrobial peptide analogues with altered membrane affinity and increased potency and breadth of activity.",
+                    "Pubmed ID": "17681018",
+                    "Reference": "FEBS J. 2007 Sep;274(17)4511-25.",
+                    "Author": "Kelly BA, Neil SJ, McKnight A, Santos JM, Sinnis P, Jack ER, Middleton DA, Dobson CB.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=17681018"
+                },
+                {
+                    "Title": "Apolipoprotein E-derived antimicrobial peptide analogues with altered membrane affinity and increased potency and breadth of activity",
+                    "Pubmed ID": "",
+                    "Author": "neil SJ, Kelly BA, Dobson CB, Middleton DA, Jack ER, Sinnis P, Santos JM, McKnight A"
+                }
+            ],
+            "Frequent Amino Acids": "WR",
+            "Absent Amino Acids": "ACDEFGHIKLMNOPQSTUVY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 6,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_10113",
+                    "Similarity": 1.0,
+                    "Sequence": "RRWWRWWR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10525",
+                    "Similarity": 1.0,
+                    "Sequence": "NGVQPKYRWWRWWRRWWWW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10526",
+                    "Similarity": 1.0,
+                    "Sequence": "RWWRWWRRWW"
+                }
+            ]
+        }
+    }
+}

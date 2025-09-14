@@ -1,0 +1,71 @@
+{
+    "SPADE_N_13761": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_13761",
+            "Peptide Name": "VicBac (Pro-rich, PrAMPs, Arg-rich, natural AMPs; cathelicidin, mammals, animals, XXA, UCLL1c)",
+            "Source": "the alpaca,Vicugna pacos",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "RRIRRPRLPRPRVPRPRIPPRIPRPVLPPPRVPFPRFPR",
+            "Sequence Length": 39,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-inflammatory"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 4818.87,
+            "PI": 12.0,
+            "Hydrophobicity": -1.22,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Panteleev PV, Safronova, VN, Kruglikov, RN, Bolosov, IA, Bogdanov, IV,  Ovchinnikova TV 2022",
+                    "Reference": "Membranes 2022, 12, 515.",
+                    "Title": "A Novel Proline-Rich Cathelicidin from the Alpaca Vicugna pacos with Potency to Combat Antibiotic-Resistant Bacteria: Mechanism of Action and the Functional Role of the C-Terminal Region"
+                }
+            ],
+            "Frequent Amino Acids": "PRI",
+            "Absent Amino Acids": "ACDEGHKMNOQSTUWY",
+            "Basic Residues": 14,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 25,
+            "Polar Residues": 17,
+            "Positive Residues": 14,
+            "Negative Residues": 0,
+            "Net Charge": 14,
+            "Comments": "APD analysis reveals this sequence is most similar (61.36%) topig cathelicidin PrAMP PR-39P: 38%; R: 36%, I=V=8%; L=F=5%, no other amino acids. Mol formula: C222H375N81O40 Mol Wt:4818.955; Mol Ex Coeff: 0; GRAVY: -1.22.Activity: Active against E. coli ATCC 25922 or BW25113 or delta(sbmA) or delta(mdtM) or delta(ompF) or ML-35p or MDR Ci 1057 or CI 214 (MIC 0.5-8 uM), E. cloacae XDR CI 4172 (MIC 4 uM), A. baumannii XDR CI 2675 (MIC 8 uM), K. pneumoniae ATCC 700603 (MIC 2 uM), P. aeruginosa ATCC 27853 or PAO1 (MIC 4-8 uM), P. mirabilis XDR CI (MIC 8 uM), S. aureus ATCC 6538P (MIC 0.25 uM), S-aureus ATCC 29213 or MDR CI 119 (MIC >32 uM), B. subtilis B-886 (MIC 16 uM), B. licheniformis VKM B511 (MIC 1 uM), and acid-fast M. phlei Ac-1291 (MIC 0.5 uM).Structure-activity relationship (SAR): Similar to Bac7 and Tur1A, the C-terminus appeared to be less important for antibacterial activity against various E. coli strains. VicBac(1-22) showed similar activity to the WT. Peptide 1-16 is also rather active (MIC 4-8 uM) but lost salt resistance (MIC 32-64 uM in 0.9% NaCl). Hence peptide 1-18 may be the minimal region with good activity.MOA:bacteria: under the physiological conditions, with the exception of the full-length VicBac, all the shortened peptides lost their activity against Delta(sbmA) and delta(ompF) strains, indicating the same internalization route via SbmA and OmpF but not MdtM. The peptide inhibits ribosome as other Pr-AMPs. VicBac showed a moderate effect on bacterial membranes, but NOT the shortened peptides.Resistance development:yes:bacteria: it is notable that the full length (WT) did not develop resistance in a 2-week multiple passage experimnet. Surprisingly, the MIC of VicBac(1-22) increased by 256 fold after only 10 passages. This study underscores the importance of teh C-terminal hydrophobic domain in preventing the resistance development (because it allows the peptide to act on different targets ranging from membranes to ribosomes!Cytotoxicity: both VicBac and the fragment 1-22 are not hemo.lytic till 128 uM.Immune modulation: VicBac treatment inhibit the production of proinflammatory factors (e.g., TNFalpha, IL-8/CXCL8, RANTES/CCL5, and eotaxin-1/CCL11) from monocytes.",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_09805",
+                    "Similarity": 1.0,
+                    "Sequence": "RRIRPRP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10950",
+                    "Similarity": 1.0,
+                    "Sequence": "RRIRPRPR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_24447",
+                    "Similarity": 1.0,
+                    "Sequence": "RRIRRPRLPRPRVPRPRIPPRI"
+                }
+            ]
+        }
+    }
+}

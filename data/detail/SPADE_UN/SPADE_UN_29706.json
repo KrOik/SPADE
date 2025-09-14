@@ -1,0 +1,79 @@
+{
+    "SPADE_UN_29706": {
+        "Sequence Information": {
+            "Peptide Name": "Cathelicidin-1 (8-26), CATH-1 (8-26), Fowlicidin-1 (8-26)",
+            "Sequence": "LVIRTVIAGYNLYRAIKKK",
+            "Sequence Length": 19,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anticancer",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "Q6QLQ5",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/Q6QLQ5",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                },
+                {
+                    "uniprotId": "C4PFJ7",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/C4PFJ7",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Structure-activity relationships of fowlicidin-1, a cathelicidin antimicrobial peptide in chicken",
+                    "Pubmed ID": "16817888",
+                    "Reference": "FASEB J. 2006;273:2581-2593",
+                    "Author": "Xiao Y, Dai H, Bommineni YR, Soulages JL, Gong YX, Prakash O, Zhang G",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/16817888"
+                },
+                {
+                    "Title": "The design of a cell-selective fowlicidin-1-derived peptide with both antimicrobial and anti-inflammatory activities.",
+                    "Pubmed ID": "31473417",
+                    "Reference": "Eur J Med Chem. 2019;182:111623",
+                    "Author": "Rajasekaran G, Kumar SD, Yang S, Shin SY",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/31473417"
+                }
+            ],
+            "Mass": 2219.71,
+            "PI": 10.57,
+            "Net Charge": 5,
+            "Hydrophobicity": 0.27,
+            "Frequent Amino Acids": "IKA",
+            "Absent Amino Acids": "CDEFHMOPQSUW",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 10,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_29706",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03190",
+                    "Similarity": 1.0,
+                    "Sequence": "RVKRVWPLVIRTVIAGYNLYRAIKKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08558",
+                    "Similarity": 1.0,
+                    "Sequence": "RVKRVWPLVIRTVIA"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08559",
+                    "Similarity": 1.0,
+                    "Sequence": "RVKRVWPLVIRTVIAGYNLYRAI"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=>360 µM,Madin-Darby canine kidney cells:50% Cell death=159 µM,Sheep erythrocytes:10% Hemolysis=240 µM",
+            "Target Organism": "Staphylococcus aureus ATCC 25923(MIC=2.8µM),Listeria monocytogenes ATCC 19115(MIC=5.6µM),Salmonella enterica subsp. enterica serovar Typhimurium ATCC 14028(MIC=2.8µM),Escherichia coli ATCC 25922(MIC=5.6µM),Escherichia coli KCTC 1682(MIC=8µM),Pseudomonas aeruginosa KCTC 1637(MIC=16µM),Salmonella typhimurium KCTC 1926(MIC=16µM),Bacillus subtilis KCTC 3068(MIC=2µM),Staphylococcus epidermidis KCTC 1917(MIC=4µM),Staphylococcus aureus KCTC 1621(MIC=2µM),Murine macrophage cells RAW 264.7(no activity data)"
+        }
+    }
+}

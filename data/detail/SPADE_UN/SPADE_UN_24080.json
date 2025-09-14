@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_24080": {
+        "Sequence Information": {
+            "Peptide Name": "P-19, Fowlicidin-2 (6-20)[F2,5,12W] scrambled [C3ins]",
+            "Sequence": "KRCIGWRWRRWPRLRK",
+            "Sequence Length": 16,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "The effect of structural modification of antimicrobial peptides on their antimicrobial activity, hemolytic activity, and plasma stability.",
+                    "Pubmed ID": "33554385",
+                    "Reference": "J Pept Sci. 2021;27:e3306",
+                    "Author": "Wang T, Zou C, Wen N, Liu X, Meng Z, Feng S, Zheng Z, Meng Q, Wang C",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/33554385"
+                }
+            ],
+            "Mass": 2253.73,
+            "PI": 12.0,
+            "Net Charge": 8,
+            "Hydrophobicity": -1.79,
+            "Frequent Amino Acids": "RWK",
+            "Absent Amino Acids": "ADEFHMNOQSTUVY",
+            "Basic Residues": 8,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 3,
+            "Polar Residues": 13,
+            "Positive Residues": 8,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_24080",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_21303",
+                    "Similarity": 1.0,
+                    "Sequence": "AIVEQLRKRC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10914",
+                    "Similarity": 1.0,
+                    "Sequence": "WRWR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_17158",
+                    "Similarity": 1.0,
+                    "Sequence": "WRWRW"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:<10% Hemolysis=400 µg/ml,Human hepatocyte cells HL-7702 (L02):10% Killing=28 µM,Mouse fibroblasts NIH 3T3:5% Killing=28 µM",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=8µg/ml),Bacillus subtilis ATCC 6633(MIC=4µg/ml),Staphylococcus aureus ATCC 25923(MIC=4µg/ml),Bacillus subtilis ATCC 6633(MIC=25µg/ml)"
+        }
+    }
+}

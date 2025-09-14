@@ -1,0 +1,71 @@
+{
+    "SPADE_UN_18787": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_18787",
+            "Peptide Name": "VV14 (synthetic AMPs, Lys-rich, Val-rich; XXA, UCLL1c; BBMm)",
+            "Source": "de novo designed, man-made sequences",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "VKWVKKVVKWVKKV",
+            "Sequence Length": 14,
+            "UniProt Entry": "",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 1754.25,
+            "PI": 10.7,
+            "Hydrophobicity": 0.0,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Pandit G, Chowdhury N, Abdul Mohid S, Bidkar AP, Bhunia A, Chatterjee S.2021",
+                    "Reference": "ChemMedChem. 2021 Jan 19;16(2):355-367. doi: 10.1002/cmdc.202000550.PubMed",
+                    "Title": "Effect of Secondary Structure and Side Chain Length of Hydrophobic Amino Acid Residues on the Antimicrobial Activity and Toxicity of 14-Residue-Long de novo AMPs."
+                }
+            ],
+            "Frequent Amino Acids": "KVW",
+            "Absent Amino Acids": "ACDEFGHILMNOPQRSTUY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 12,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "Net Charge": 6,
+            "Comments": "Sequence analysis: APD analysis reveals that this sequence is most similar (57.14%) toLL14. Synthetic peptide is C-terminally amidated. K: 43%; V: 43%. GRAVY: 2.53; M Wt: 1754.259; M formula: C88H150N22O15, mol ex coeff: 11100.Activity: active against E. coli DH5alpha (MIC 5 uM), P. aeruginosa (MIC 15 uM), S. typhi TY2S (MIC 5 uM), S. aureus (MIC 15 uM), K. pneumoniae (MIC 5 uM), C. albicans (MIC 2.5 uM), C. neoformans (MIC 2.5 uM), and C. grubii (MIC 2.5 uM). Non-standard assay: Very low MIC values resulted from 4 h incubation of bacteria in 10 mM PBS followed by overlaying with media for overnight incubation.Toxicity: human RBC: poorly hemo.lytic (~10% from 5 to 100 uM), HC50 >> 100 uM. HEK293 (IC50 >200 uM), L132 cells (IC50 200 uM).Structure: helical in SDS or 50% TFE. 3D structure in SDS by NMR.You can rotate, zoom, and view the 3D structureherein the PDB.MOA:bacteria: act on membranes.",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_16058",
+                    "Similarity": 1.0,
+                    "Sequence": "YRLRVKWKW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09918",
+                    "Similarity": 1.0,
+                    "Sequence": "VKKVYPLKVKLYP"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_28770",
+                    "Similarity": 1.0,
+                    "Sequence": "VKKVYPLKVKLYP"
+                }
+            ]
+        }
+    }
+}

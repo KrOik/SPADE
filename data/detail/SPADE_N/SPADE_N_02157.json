@@ -1,0 +1,75 @@
+{
+    "SPADE_N_02157": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02157",
+            "Peptide Name": "S. litura moricin (Sl moricin; Insects, animals)",
+            "Source": "Spodoptera litura (Lepidopteran insect)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "GKIPVKAIKKAGAAIGKGLRAINIASTAHDVYSFFKPKHKKK",
+            "Sequence Length": 42,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q7YZB4"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-negative bacteria:Pseudomonas aeruginosa (LD50=67.4 µg/ml), Escherichia coli JM109 (LD50=5.2 µg/ml);Gram-positive bacteria:Staphylococcus aureus (LD50=2.7 µg/ml), Methicillin-resistant S. aureus (LD50=9.8 µg/ml), Micrococcus luteus (LD50=28.4 µg/ml), Bacillus thuringiensis HD-1 (LD50=0.5 µg/ml), Enterococcus faecium IFO3128 (LD50=6.2 µg/ml).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "The solution structure of Sl moricin is determined by two-dimensional (2D) 1H-nuclear magnetic resonance (NMR) spectroscopy and hybrid distance geometry-simulated annealing calculation. The tertiary structure reveales a long alpha-helix containing eight turns along nearly the full length of the peptide like that of moricin, confirming that Sl moricin is a new moricin-like antibacterial peptide.",
+            "Formula": "C208H348N60O50",
+            "Mass": 4489.36,
+            "PI": 10.64,
+            "Net Charge": 12,
+            "Hydrophobicity": -0.3,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Sl moricin showes a broad antibacterial spectrum against Gram-positive and Gram-negative bacteria.",
+            "Literature": [
+                {
+                    "Title": "Isolation, gene expression and solution structure of a novel moricin analogue, antibacterial peptide from a lepidopteran insect, Spodoptera litura.",
+                    "Pubmed ID": "16115804",
+                    "Reference": "Biochim Biophys Acta. 2005 Aug 31;1752(1)83-92.",
+                    "Author": "Oizumi Y, Hemmi H, Minami M, Asaoka A, Yamakawa M.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16115804"
+                }
+            ],
+            "Frequent Amino Acids": "KAI",
+            "Absent Amino Acids": "CEMOQUW",
+            "Basic Residues": 13,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 20,
+            "Polar Residues": 27,
+            "Positive Residues": 13,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_04673",
+                    "Similarity": 1.0,
+                    "Sequence": "MKLTKVFVILIVVVALLVPSEAAPGKIPVKAIKKAGAAIGKGLRAINIASTAHDVYSFFKPKHKKKH"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04682",
+                    "Similarity": 0.9761904761904762,
+                    "Sequence": "MKLTKVFVIVIVVVALLVPSEAAPGKIPVKAIKKAGTAIGKGLRAINIASTAHDVYSFFKPKHKKKH"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07542",
+                    "Similarity": 0.9761904761904762,
+                    "Sequence": "GKIPVKAIKKAGTAIGKGLRAINIASTAHDVYSFFKPKHKKKH"
+                }
+            ]
+        }
+    }
+}

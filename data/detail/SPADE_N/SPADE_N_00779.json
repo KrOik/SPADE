@@ -1,0 +1,85 @@
+{
+    "SPADE_N_00779": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00779",
+            "Peptide Name": "Cycloviolacin-Y4 (Plants)",
+            "Source": "Viola yedoensis (Chinese herb)",
+            "Family": "Belongs to the cyclotide family",
+            "Gene": "Not found",
+            "Sequence": "GVPCGESCVFIPCITGVIGCSCSSNVCYLN",
+            "Sequence Length": 30,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antiviral"
+            ],
+            "Target Organism": "[Ref.18618891]Effects:H. contortus( IC50=2.01μM, IC99=6.73μM) and T. colubriformis(IC50=2.27μM, IC99=5.26μM).[Ref.18008336]Virus:HIV:inhibition the cytopathic effects of HIV-1 infection in cultured human T-lymphoblast (CEM-SS) cells(EC50=120 nM).",
+            "Hemolytic Activity": "[Ref:18081258] HD50=9.3 μM against human type A red blood cells.",
+            "Cytotoxicity": "[Ref.18008336]CEM-SS cells:IC50=1720 nM.",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Cyclization (N termini to C termini)",
+            "C-terminal Modification": "Cyclization (N termini to C termini)",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C127H202N32O41S6",
+            "Mass": 3025.54,
+            "PI": 4.05,
+            "Net Charge": -1,
+            "Hydrophobicity": 1.05,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Has anti-HIV activity. Cycloviolacins Y4 is more hemolytic than cycloviolacin Y1. PTM",
+            "Literature": [
+                {
+                    "Title": "Anti-HIV cyclotides from the Chinese medicinal herb Viola yedoensis.",
+                    "Pubmed ID": "18081258",
+                    "Reference": "J Nat Prod. 2008 Jan;71(1)47-52.",
+                    "Author": "Wang CK, Colgrave ML, Gustafson KR, Ireland DC, Goransson U, Craik DJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=18081258"
+                },
+                {
+                    "Title": "Cyclotides as natural anti-HIV agents",
+                    "Pubmed ID": "18008336",
+                    "Reference": "Biopolymers. 2008;90(1)51-60.",
+                    "Author": "David C Ireland, Conan K L Wang, Jennifer A Wilson, Kirk R Gustafson, David J Craik",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=18008336"
+                },
+                {
+                    "Title": "The anthelmintic activity of the cyclotides natural variants with enhanced activity",
+                    "Pubmed ID": "18618891",
+                    "Reference": "Chembiochem. 2008 Aug 11;9(12)1939-45. doi 10.1002/cbic.200800174.",
+                    "Author": "Michelle L Colgrave, Andrew C Kotze, David C Ireland, Conan K Wang, David J Craik",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=18618891"
+                }
+            ],
+            "Frequent Amino Acids": "CGS",
+            "Absent Amino Acids": "ADHKMOQRUW",
+            "Basic Residues": 0,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 18,
+            "Positive Residues": 0,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07834",
+                    "Similarity": 0.8518518518518519,
+                    "Sequence": "CGESCVFIPCISSVIGCSCSSKVCYRNGIP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00726",
+                    "Similarity": 0.8333333333333334,
+                    "Sequence": "GIPCGESCVFIPCISSVIGCSCSSKVCYRN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00743",
+                    "Similarity": 0.8333333333333334,
+                    "Sequence": "GIPCGESCVFIPCITGAIGCSCKSKVCYRN"
+                }
+            ]
+        }
+    }
+}

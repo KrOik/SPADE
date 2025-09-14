@@ -1,0 +1,74 @@
+{
+    "SPADE_N_00142": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00142",
+            "Peptide Name": "Leucocyclicin Q (Bacteriocin)",
+            "Source": "Leuconostoc mesenteroides TK41401 (Gram-positive bacteria)",
+            "Family": "Belongs to the class IIc bacteriocin",
+            "Gene": "lcyQ",
+            "Sequence": "LVNQLGISKSLANTILGAIAVGNLASWVLALVPGPGWATKAALATAETIVKHEGKAAAIAW",
+            "Sequence Length": 61,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/G5ELQ0"
+            ],
+            "Protein Existence": "Predicted",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+"
+            ],
+            "Target Organism": "Gram-positive bacteria:Lactococcus lactis ssp. lactis JCM 7638 (MIC=0.038 µM), L. lactis ssp. lactis ATCC 19435 (MIC=0.038 µM), L. sp. QU 12 (MIC=1.203 µM), Lactobacillus sakei ssp. sakei JCM 1157 (MIC=0.038 µM), Weissella cibaria JCM 12495 (MIC=2.405 µM), W. paramesenteroides JCM 9890 (MIC=0.075 µM), Pediococcus pentosaceus JCM 5885 (MIC=2.405 µM), P. dextrinicus JCM 5887 (MIC=0.038 µM), Enterococcus faecium JCM 5804 (MIC=0.038 µM), E. faecalis JCM 5803 (MIC=0.15 µM), Streptococcus salivarius JCM 5707 (MIC=2.405 µM), S. bovis JCM 5802 (MIC=0.601 µM), S. mutans JCM 5705 (MIC=19.25 µM), Bacillus coagulans JCM 2257 (MIC=0.075 µM), B. subtilis ssp. subtilis JCM 1465 (MIC=0.601 µM), B. cereus JCM 2152 (MIC=2.405 µM), Kocuria rhizophila NBRC 12708 (MIC=9.623 µM), Listeria innocua ATCC 33090 (MIC=0.601 µM), Leuconostoc mesenteroides ssp. mes. JCM 6124 (MIC=0.3 µM), Escherichia coli JM109 (MIC=38.49 µM), E. coli NBRC 3301 (MIC=38.49 µM)",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Cyclization (N termini to C termini)",
+            "C-terminal Modification": "Cyclization (C termini to N termini)",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C282H460N74O77",
+            "Mass": 6119.12,
+            "PI": 9.53,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.75,
+            "Half Life": "Mammalian:5.5 hourYeast:3 minE.coli:2 min",
+            "Function": "This precursor showed high similarity to the precursor of lactocyclicin Q, a cyclic bacteriocin produced by Lactococcus sp. strain QU 12. This is the first report of a cyclic bacteriocin produced by a strain of the genus Leuconostoc.",
+            "Literature": [
+                {
+                    "Title": "Identification and characterization of leucocyclicin Q, a novel cyclic bacteriocin produced by Leuconostoc mesenteroides TK41401.",
+                    "Pubmed ID": "21948835",
+                    "Reference": "Appl Environ Microbiol. 2011 Nov;77(22)8164-8170.",
+                    "Author": "Masuda Y, Ono H, Kitagawa H, Ito H, Mu F, Sawa N, Zendo T, Sonomoto K.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=21948835"
+                }
+            ],
+            "Frequent Amino Acids": "ALG",
+            "Absent Amino Acids": "CDFMORUY",
+            "Basic Residues": 5,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 37,
+            "Polar Residues": 35,
+            "Positive Residues": 5,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06099",
+                    "Similarity": 0.9836065573770492,
+                    "Sequence": "MFLVNQLGISKSLANTILGAIAVGNLASWLLALVPGPGWATKAALATAETIVKHEGKAAAIAW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09798",
+                    "Similarity": 0.9836065573770492,
+                    "Sequence": "LVNQLGISKSLANTILGAIAVGNLASWLLALVPGPGWATKAALATAETIVKHEGKAAAIAW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06095",
+                    "Similarity": 0.7377049180327869,
+                    "Sequence": "MKLIDHLGAPRWAVDTILGAIAVGNLASWVLALVPGPGWAVKAGLATAAAIVKHQGKAAAAAW"
+                }
+            ]
+        }
+    }
+}

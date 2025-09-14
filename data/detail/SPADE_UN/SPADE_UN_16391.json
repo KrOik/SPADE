@@ -1,0 +1,72 @@
+{
+    "SPADE_UN_16391": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_16391",
+            "Peptide Name": "sC18 [E15F,E15F,K16F]",
+            "Source": "Synthetic",
+            "Family": "",
+            "Gene": "Not found",
+            "Sequence": "GLRKRLRKFFNKIKFF",
+            "Sequence Length": 16,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P25230"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Target Organism": "Tumor cells:HeLa  (>80% Killing=40 µM); MCF-7 (80% Killing=40 µM)",
+            "Hemolytic Activity": "Human erythrocytes:<10% Hemolysis\t=40 µM",
+            "Cytotoxicity": "HEK293:40% Killing=40 µM",
+            "Binding Target": "Not available",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C102H164N30O18",
+            "Mass": 2098.58,
+            "PI": 12.0,
+            "Net Charge": 7,
+            "Hydrophobicity": -0.61,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Literature": [
+                {
+                    "Title": "Multistep optimization of a cell-penetrating peptide towards its antimicrobial activity",
+                    "Pubmed ID": "33313751",
+                    "Reference": "Biochem J. 2021 Jan 15;478(1)63-78.",
+                    "Author": "Drexelius M, Reinhardt A, Grabeck J, Cronenberg T, Nitsche F, Huesgen PF, Maier B, Neundorf I.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=33313751"
+                }
+            ],
+            "Frequent Amino Acids": "FKR",
+            "Absent Amino Acids": "ACDEHMOPQSTUVWY",
+            "Basic Residues": 7,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 8,
+            "Positive Residues": 7,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_13844",
+                    "Similarity": 1.0,
+                    "Sequence": "RRAIFASIRGYLGLRKR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15593",
+                    "Similarity": 1.0,
+                    "Sequence": "MLNYLYDRDINRYRAIIKALGLRK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_16393",
+                    "Similarity": 1.0,
+                    "Sequence": "GLRKRLRKFFNKIKF"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "SPADE_UN_23014": {
+        "Sequence Information": {
+            "Peptide Name": "PMAP-36 (16-21), KV",
+            "Sequence": "KIGKVL",
+            "Sequence Length": 6,
+            "Biological Activity": [
+                "Antifungal"
+            ],
+            "Binding Target": "",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P49931",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P49931",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "A Novel Dual-Targeted α-Helical Peptide With Potent Antifungal Activity Against Fluconazole-Resistant Candida albicans Clinical Isolates.",
+                    "Pubmed ID": "33101226",
+                    "Reference": "Front Microbiol. 2020;11:548620",
+                    "Author": "Yang Y, Wang C, Gao N, Lyu Y, Zhang L, Zhang S, Wang J, Shan A",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/33101226"
+                }
+            ],
+            "Mass": 656.86,
+            "PI": 10.0,
+            "Net Charge": 2,
+            "Hydrophobicity": 0.72,
+            "Frequent Amino Acids": "KGI",
+            "Absent Amino Acids": "ACDEFHMNOPQRSTUWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 3,
+            "Polar Residues": 3,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_23014",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02563",
+                    "Similarity": 1.0,
+                    "Sequence": "GRFRRLRKKTRKRLKKIGKVLKWIPPIVGSIPLGCG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02564",
+                    "Similarity": 1.0,
+                    "Sequence": "GRFRRLRKKTRKRLKKIGKV"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02565",
+                    "Similarity": 1.0,
+                    "Sequence": "GRFRRLRKKTRKRLKKIGKVLKWIPPIVGSIPLG"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Candida albicans CGMCC 2.2086(MIC=>64µM),Candida tropicalis CGMCC 2.1975(MIC=>64µM),Candida parapsilosis CGMCC 2.3989(MIC=>64µM),Candida albicans(MIC=>64µM),Candida albicans(MIC=>64µM)"
+        }
+    }
+}

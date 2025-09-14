@@ -1,0 +1,86 @@
+{
+    "SPADE_N_00894": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00894",
+            "Peptide Name": "Viscotoxin-A2 (VtA2; Plant defensin)",
+            "Source": "Viscum album (European mistletoe)",
+            "Family": "Belongs to the thionin family",
+            "Gene": "THI2.3",
+            "Sequence": "KSCCPNTTGRNIYNTCRFGGGSREVCASLSGCKIISASTCPSYPDK",
+            "Sequence Length": 46,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P32880",
+                "http://www.uniprot.org/uniprot/P01536"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Cytotoxic"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C199H323N61O67S6",
+            "Mass": 4834.45,
+            "PI": 8.9,
+            "Net Charge": 4,
+            "Hydrophobicity": -0.38,
+            "Half Life": "Mammalian:1.3 hourYeast:3 minE.coli:2 min",
+            "Function": "Thionins are small plant proteins which are toxic to animal cells. They seem to exert their toxic effect at the level of the cell membrane.",
+            "PTM": "Contains three disulfide bonds 3-40; 4-32; 16-26.",
+            "Literature": [
+                {
+                    "Title": "The disulphide bonds of viscotoxin A2 from the European mistletoe (Viscum album L. Loranthaceae).",
+                    "Pubmed ID": "4607177",
+                    "Reference": "Acta Pharm Suec. 1974 Sep;11(4)381-386.",
+                    "Author": "Olson T, Samuelsson G.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=4607177"
+                },
+                {
+                    "Title": "Comparative membrane interaction study of viscotoxins A3, A2 and B from mistletoe (Viscum album) and connections with their structures.",
+                    "Pubmed ID": "12733989",
+                    "Reference": "Biochem J. 2003 Aug 15;374(Pt 1)71-78.",
+                    "Author": "Coulon A, Mosbah A, Lopez A, Sautereau AM, Schaller G, Urech K, Roug© P, Darbon H.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=12733989"
+                },
+                {
+                    "Title": "The amino acid sequence of viscotoxin A2 from the European mistletoe (Viscum album L., Loranthaceae).",
+                    "Pubmed ID": "",
+                    "Author": "Samuelsson G.,Olson T."
+                }
+            ],
+            "Frequent Amino Acids": "SCG",
+            "Absent Amino Acids": "HMOQUW",
+            "Basic Residues": 6,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 31,
+            "Positive Residues": 6,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07779",
+                    "Similarity": 0.9555555555555556,
+                    "Sequence": "KSCCPNTTGRNIYNTCRFGGGSRQVCASLSGCKIISASTCPSDYPK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00896",
+                    "Similarity": 0.9333333333333333,
+                    "Sequence": "KSCCPNTTGRNIYNTCRLGGGSRERCASLSGCKIISASTCPSDYPK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07778",
+                    "Similarity": 0.9333333333333333,
+                    "Sequence": "KSCCPNTTGRNIYNTCRFGGGSREVCARISGCKIISASTCPSDYPK"
+                }
+            ]
+        }
+    }
+}

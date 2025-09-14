@@ -1,0 +1,75 @@
+{
+    "SPADE_N_02784": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02784",
+            "Peptide Name": "Theta defensin subunit D (BTD-d; BTD-7 subunit 2; primates, mammals, animals)",
+            "Source": "Papio anubis (Olive baboon)",
+            "Family": "Belongs to the alpha-defensin family (Theta subfamily)",
+            "Gene": "BTDD",
+            "Sequence": "RCFCRRGVC",
+            "Sequence Length": 9,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/B6ULW7",
+                "http://www.uniprot.org/uniprot/P86034"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Antifungal"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C43H74N18O10S3",
+            "Mass": 1099.36,
+            "PI": 9.31,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.07,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Comments": "Forms a cyclic peptide with subunit A (BTD-7). An additional intersubunit disulfide bond is formed.",
+            "Literature": [
+                {
+                    "Title": "Isolation, synthesis, and antimicrobial activities of naturally occurring theta-defensin isoforms from baboon leukocytes.",
+                    "Pubmed ID": "18852242",
+                    "Reference": "Infect Immun. 2008 Dec;76(12)5883-5891.",
+                    "Author": "Garcia AE, Osapay G, Tran PA, Yuan J, Selsted ME.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=18852242"
+                }
+            ],
+            "Frequent Amino Acids": "CRF",
+            "Absent Amino Acids": "ADEHIKLMNOPQSTUWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 2,
+            "Polar Residues": 7,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02788",
+                    "Similarity": 1.0,
+                    "Sequence": "RCVCTRGFCRCFCRRGVC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_13153",
+                    "Similarity": 1.0,
+                    "Sequence": "FFFCSRCF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_13489",
+                    "Similarity": 1.0,
+                    "Sequence": "GFCRCFCRRGVCRCVCTR"
+                }
+            ]
+        }
+    }
+}

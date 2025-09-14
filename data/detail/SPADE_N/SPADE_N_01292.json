@@ -1,0 +1,74 @@
+{
+    "SPADE_N_01292": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01292",
+            "Peptide Name": "Odorranain-J-OA2 (Frogs, amphibians, animals)",
+            "Source": "Odorrana grahami (Yunnanfu frog)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "GLFTLIKGAYKNDAPTVACN",
+            "Sequence Length": 20,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "[Ref.22029824]Gram-negative bacteria:Escherichia coli ATCC 25922 (MIC=40.2 µg/ml), Bacillus pyocyaneus CMCCB 10104 (MIC=40.2 µg/ml);Gram-positive bacterium:Staphylococcus aureus ATCC 25923 (MIC=20.1 µg/ml);Yeast:Candida albicans ATCC 2002 (MIC=20.1 µg/ml).",
+            "Hemolytic Activity": "[Ref:22029824]Not found",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C94H150N24O28S",
+            "Mass": 2096.41,
+            "PI": 8.18,
+            "Net Charge": 1,
+            "Hydrophobicity": 0.18,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Weakly active against bacteria and fungi.",
+            "Literature": [
+                {
+                    "Title": "Extremely abundant antimicrobial peptides existed in the skins of nine kinds of Chinese odorous frogs.",
+                    "Pubmed ID": "22029824",
+                    "Reference": "J Proteome Res. 2012 Jan 1;11(1)306-319.",
+                    "Author": "Yang X, Lee WH, Zhang Y.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=22029824"
+                }
+            ],
+            "Frequent Amino Acids": "AGK",
+            "Absent Amino Acids": "EHMOQRSUW",
+            "Basic Residues": 2,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 12,
+            "Positive Residues": 2,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01291",
+                    "Similarity": 0.95,
+                    "Sequence": "GLFTLIKGAYKLDAPTVACN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01270",
+                    "Similarity": 0.8,
+                    "Sequence": "GLFTLIKCAYQLIAPTVACN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01293",
+                    "Similarity": 0.7368421052631579,
+                    "Sequence": "GLFTFIKCAYKLRAPAVAC"
+                }
+            ]
+        }
+    }
+}

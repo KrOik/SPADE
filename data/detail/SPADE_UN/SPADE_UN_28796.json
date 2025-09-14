@@ -1,0 +1,48 @@
+{
+    "SPADE_UN_28796": {
+        "Sequence Information": {
+            "Peptide Name": "VS1",
+            "Sequence": "KAXWKXVKXVK",
+            "Sequence Length": 11,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Rationale-based, de novo design of dehydrophenylalanine-containing antibiotic peptides and systematic modification in sequence for enhanced potency.",
+                    "Pubmed ID": "21321136",
+                    "Reference": "Antimicrob Agents Chemother. 2011;55:2178-2188",
+                    "Author": "Pathak S, Chauhan VS",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/21321136"
+                }
+            ],
+            "SPADE ID": "SPADE_UN_28796",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_09939",
+                    "Similarity": 1.0,
+                    "Sequence": "KAWKVKVK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09940",
+                    "Similarity": 1.0,
+                    "Sequence": "AKAWKVKVK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_13245",
+                    "Similarity": 1.0,
+                    "Sequence": "KAKAKKAKAWK"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:5% Hemolysis=125 µM",
+            "Target Organism": "Escherichia coli ML-35p(MIC=25µM),Staphylococcus aureus ATCC 700699(MIC=>50µM)"
+        }
+    }
+}

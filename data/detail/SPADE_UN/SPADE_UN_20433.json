@@ -1,0 +1,72 @@
+{
+    "SPADE_UN_20433": {
+        "Sequence Information": {
+            "Peptide Name": "Cathelicidin-5, myeloid antimicrobial peptide BMAP-28 [G1K][S5K]",
+            "Sequence": "KGLRKLGRKILRAWKKYGPIIVPIIRI",
+            "Sequence Length": 27,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P54229",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P54229",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "A bovine myeloid antimicrobial peptide (BMAP-28) and its analogs kill pan-drug-resistant Acinetobacter baumannii by interacting with outer membrane protein A (OmpA).",
+                    "Pubmed ID": "30334982",
+                    "Reference": "Medicine (Baltimore). 2018;97:e12832",
+                    "Author": "Guo Y, Xun M, Han J",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/30334982"
+                },
+                {
+                    "Title": "Susceptibility difference between methicillin-susceptible and methicillin-resistant Staphylococcus aureus to a bovine myeloid antimicrobial peptide (BMAP-28).",
+                    "Pubmed ID": "23905845",
+                    "Reference": "Anim Sci J. 2014;85:174-179",
+                    "Author": "Takagi S, Nishimura J, Bai L, Miyagi H, Kuroda K, Hayashi S, Yoneyama H, Ando T, Isogai H, Isogai E",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/23905845"
+                }
+            ],
+            "Mass": 3187.01,
+            "PI": 12.0,
+            "Net Charge": 9,
+            "Hydrophobicity": 0.01,
+            "Frequent Amino Acids": "IKR",
+            "Absent Amino Acids": "CDEFHMNOQSTU",
+            "Basic Residues": 9,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 16,
+            "Positive Residues": 9,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_20433",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_20433",
+                    "Similarity": 1.0,
+                    "Sequence": "KGLRKLGRKILRAWKKYGPIIVPIIRI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08895",
+                    "Similarity": 1.0,
+                    "Sequence": "ILRAWKKYGPIIVPIIRI"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_27100",
+                    "Similarity": 1.0,
+                    "Sequence": "ILRAWKKYGPIIVPIIRI"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Acinetobacter baumannii ATCC 19606(MIC=5-10µg/ml),Acinetobacter baumannii(MIC=5-20µg/ml),Staphylococcus aureus(MIC50=2.8µg/ml),Staphylococcus aureus MR(MIC50=>5µg/ml)"
+        }
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "SPADE_UN_11384": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_11384",
+            "Peptide Name": "Melimine (a hybrid peptide of melittin and protamine, synthetic)",
+            "Source": "Synthetic",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "TLISWIKNKRKQRPRVSRRRRRRGGRRRR",
+            "Sequence Length": 29,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C158H288N74O34",
+            "Mass": 3786.47,
+            "PI": 12.0,
+            "Net Charge": 16,
+            "Hydrophobicity": -2.27,
+            "Half Life": "Mammalian:7.2 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "This peptide, consisting of the C-terminal regions of melittin and protamine, has been covalently immobilized 2008 via the N-terminus. Melimine coated contact lens reduced bacterial colonization (S. aureus and P. aeruginosa) by~70%.",
+            "Literature": [
+                {
+                    "Title": "A novel cationic-peptide coating for the prevention of microbial colonization on contact lenses.",
+                    "Pubmed ID": "19016975",
+                    "Reference": "J Appl Microbiol. 2008 Dec;105(6)1817-25.",
+                    "Author": "Willcox MD, Hume EB, Aliwarga Y, Kumar N, Cole N.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=19016975"
+                }
+            ],
+            "Frequent Amino Acids": "RKG",
+            "Absent Amino Acids": "ACDEFHMOUY",
+            "Basic Residues": 16,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 22,
+            "Positive Residues": 16,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07864",
+                    "Similarity": 1.0,
+                    "Sequence": "GIGAILKVLATGLPTLISWIKNKRKQ"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11055",
+                    "Similarity": 1.0,
+                    "Sequence": "KNKRKRRRRRRGGRRRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_30236",
+                    "Similarity": 1.0,
+                    "Sequence": "KNKRKRRRRRRGGRRRR"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_21001": {
+        "Sequence Information": {
+            "Peptide Name": "CAP18 [Y37D]",
+            "Sequence": "GLRKRLRKFRNKIKEKLKKIGQKIQGLLPKLAPRTDD",
+            "Sequence Length": 37,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "G1T9L4",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/G1T9L4",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Dissection of the antimicrobial and hemolytic activity of Cap18: Generation of Cap18 derivatives with enhanced specificity.",
+                    "Pubmed ID": "29852015",
+                    "Reference": "PLoS One. 2018;13:e0197742",
+                    "Author": "Ebbensgaard A, Mordhorst H, Overgaard MT, Aarestrup FM, Hansen EB",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/29852015"
+                }
+            ],
+            "Mass": 4385.3,
+            "PI": 11.53,
+            "Net Charge": 11,
+            "Hydrophobicity": -1.16,
+            "Frequent Amino Acids": "KLR",
+            "Absent Amino Acids": "CHMOSUVWY",
+            "Basic Residues": 14,
+            "Acidic Residues": 3,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 26,
+            "Positive Residues": 14,
+            "Negative Residues": 3,
+            "SPADE ID": "SPADE_UN_21001",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03505",
+                    "Similarity": 1.0,
+                    "Sequence": "GLRKRLRKFRNKIKEKLKKI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_12833",
+                    "Similarity": 1.0,
+                    "Sequence": "GGGGLRKRLRKFRNKIKEKLKKIGQKIQGLLPKLA"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_08128",
+                    "Similarity": 1.0,
+                    "Sequence": "GLRKRLRKFRNKIKEKLKKIG"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Lactococcus lactis subsp. lactis IL1403(MIC=8µg/ml),Salmonella enterica subsp. enterica serovar Typhimurium LT2(MIC=>=32µg/ml),Yersinia ruckeri 392/2003(MIC=2µg/ml),Aeromonas salmonicida ATCC 33658(MIC=2µg/ml)"
+        }
+    }
+}

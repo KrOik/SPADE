@@ -1,0 +1,98 @@
+{
+    "SPADE_N_02844": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 8334366 B1",
+                "Patent Link": "http://www.lens.org/lens/patent/US_8334366_B1",
+                "Patent Type": "Granted Patent",
+                "Publication Date": "2012-12-18",
+                "Family Info": "Unknown",
+                "Patent Title": "Mutant lycotoxin-1 peptide sequences for insecticidal and cell membrane altering properties.",
+                "Abstract": "Lycotoxin-1 peptide mutant peptides which exhibit increased insecticidal activity are produced by substitution of both a proline for the lysine at amino acid position 24 and a tryptophan for the leucine at amino acid position 25 of the wild-type amino acid sequence for lycotoxin-1. Further substitution of amino acids 8, 9 or 10 of the lycotoxin-1 wild-type amino acid sequence, specifically substituting a histidine for the phenylalanine at amino acid position 8, a glutamine for the glycine at amino acid position 10, or a serine for the leucine at amino acid position 9, provides an even greater increase in insecticidal activity. In addition to changes in the lycotoxin-1 amino acid sequence, the addition of an enterokinase K recognition site, DDDK, to the N-terminus of the lycotoxin-1 peptide increases insecticidal activity further still. Isolated nucleic acid sequences encoding the mutant lycotoxin-1 peptides, expression vectors containing these sequences, microorganisms or other host cells transfor"
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02844",
+            "Peptide Name": "M-lycotoxin-Hc1a (M-LCTX-Hc1a; Lycotoxin I; spiders, Arthropods, animals)",
+            "Source": "Hogna carolinensis (Carolina wolf spider) (Lycosa carolinensis)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "IWLTALKFLGKHAAKHLAKQQLSKL",
+            "Sequence Length": 25,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P61507"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "Gram-positive bacteria:Bacillus thuringiensis subsp. Israelensis (MIC<5.0 µM);Gram-negative bacteria:Escherichia coli D31 (MIC=10-20 µM), Escherichia coli DH5 (MIC=80-150 µM).Fungi:Candida glabrata ATCC 2001 (MIC=100-150 µM), Candida albicans clinical isolate (MIC=100-200 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Cell membrane",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C135H223N37O30",
+            "Mass": 2844.44,
+            "PI": 10.6,
+            "Net Charge": 7,
+            "Hydrophobicity": 0.06,
+            "Half Life": "Mammalian:20 hourYeast:30 minE.coli:>10 hour",
+            "Function": "Forms pore that permeabilize the cell membrane. Promotes efflux of calcium from synaptosomes, causes hemolysis, and dissipates voltage gradients across muscle membrane. Potently inhibits the growth of bacteria, yeast and Leishmania. Is lethal to lepidopteran larvae. May Function",
+            "Literature": [
+                {
+                    "Title": "Lycotoxins, antimicrobial peptides from venom of the wolf spider Lycosa carolinensis.",
+                    "Pubmed ID": "9442044",
+                    "Reference": "J Biol Chem. 1998 Jan 23;273(4)2059-2066.",
+                    "Author": "Yan L, Adams ME.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=9442044"
+                },
+                {
+                    "Title": "Membrane structure and interactions of a short Lycotoxin I analogue.",
+                    "Pubmed ID": "18098329",
+                    "Reference": "J Pept Sci. 2008 Apr;14(4)528-534.",
+                    "Author": "Adão R, Seixas R, Gomes P, Pessoa JC, Bastos M.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=18098329"
+                },
+                {
+                    "Title": "Lycotoxin-1 insecticidal peptide optimized by amino acid scanning mutagenesis and expressed as a coproduct in an ethanologenic Saccharomyces cerevisiae strain.",
+                    "Pubmed ID": "R2008J0823",
+                    "Author": "Sterner D.E.,Panavas T.,Hector R.E.,Dowd P.F.,Hughes S.R."
+                }
+            ],
+            "Frequent Amino Acids": "LKA",
+            "Absent Amino Acids": "CDEMNOPRUVY",
+            "Basic Residues": 7,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 15,
+            "Positive Residues": 7,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_12415",
+                    "Similarity": 1.0,
+                    "Sequence": "IWLTALKFLGKHAAKHLAKQQL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_12416",
+                    "Similarity": 0.9444444444444444,
+                    "Sequence": "IWLTALKFLGKHAAKHLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_10920",
+                    "Similarity": 0.92,
+                    "Sequence": "IWLTALKFLGKHAAKHLAKQQLSPW"
+                }
+            ]
+        }
+    }
+}

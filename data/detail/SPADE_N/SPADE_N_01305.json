@@ -1,0 +1,74 @@
+{
+    "SPADE_N_01305": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01305",
+            "Peptide Name": "Nigrocin-2ISc (Frogs, amphibians, animals)",
+            "Source": "Odorrana ishikawae (Ishikawa's frog)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "GILSTVFKAGKGIVCGLSGLC",
+            "Sequence Length": 21,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Homology",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "Gram-negative bacterium:Escherichia coli (MIC=50 µM);Gram-positive bacterium:Staphylococcus aureus (MIC=3 µM).Yeast:Candida albicans (MIC=100 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Cyclization (Cys15 and Cys21)",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C90H155N23O25S2",
+            "Mass": 2023.46,
+            "PI": 8.9,
+            "Net Charge": 2,
+            "Hydrophobicity": 1.25,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Characterization of novel antimicrobial peptides from the skin of the endangered frog Odorrana ishikawae by shotgun cDNA cloning.",
+                    "Pubmed ID": "21867685",
+                    "Reference": "Biochem Biophys Res Commun. 2011 Sep 9;412(4)673-677.",
+                    "Author": "Iwakoshi-Ukena E, Soga M, Okada G, Fujii T, Sumida M, Ukena K.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=21867685"
+                }
+            ],
+            "Frequent Amino Acids": "GLC",
+            "Absent Amino Acids": "DEHMNOPQRUWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 10,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01304",
+                    "Similarity": 0.9047619047619048,
+                    "Sequence": "GILGTVFKAGKGIVCGLTGLC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01303",
+                    "Similarity": 0.9047619047619048,
+                    "Sequence": "GIFSTVFKAGKGIVCGLTGLC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01324",
+                    "Similarity": 0.7619047619047619,
+                    "Sequence": "GILSGVLGMGKKIVCGLSGLC"
+                }
+            ]
+        }
+    }
+}

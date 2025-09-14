@@ -1,0 +1,71 @@
+{
+    "SPADE_UN_18834": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_18834",
+            "Peptide Name": "BsR1 (synthetic AMPs, Arg-rich)",
+            "Source": "Amino acid substitution of a machine learning predicted segment, AI predicted",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "GVCRYHRQKWRTRGREWLRRC",
+            "Sequence Length": 21,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram-",
+                "Antifungal",
+                "Antifungal"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 2803.24,
+            "PI": 11.62,
+            "Hydrophobicity": -1.77,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Song P, Zhao L, Zhu L, Sha G, Dong W. 2023",
+                    "Reference": "Microbiol Spectr. 2023 Dec 12;11(6):e0257823. doi: 10.1128/spectrum.02578-23.PubMed",
+                    "Title": "BsR1, a broad-spectrum antibacterial peptide with potential for plant protection."
+                }
+            ],
+            "Frequent Amino Acids": "RCG",
+            "Absent Amino Acids": "ADFIMNOPSU",
+            "Basic Residues": 9,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 15,
+            "Positive Residues": 9,
+            "Negative Residues": 1,
+            "Net Charge": 8,
+            "Comments": "Sequence analysis: APD analysis reveals that this sequence is similar (45.83%) toRTD-2R: 33%; W=C=G: 10%; GRAVY: -1.77; M Wt: 2803.283; Mol formula: C120H194N48O27S2; mol ex coeff: 12715.Activity:  Gram- X. campestris pv. Holcicola (MIC 4.25 uM), X. oryzae pv. oryzicola (MIC 17 uM), X. oryzae pv. oryzae (MIC 17 uM), and X. oryzae pv. oryzae (MIC 8.5 uM). They can cause a serious blight of rice.Antimicrobial robustness:  The peptide retains antibacterial activity after 2 hours of UV treatment and exposure to high temperatures up to 100°C. NaCl-insensitive:X. campestris (250 mM), NaCl-insensitive:X. oryzae (250 mM), KCl-insensitive:X. campestris (250 mM), KCl-insensitive:X. oryzae (250 mM), MgCl2-insensitive: X. campestris (62.5 mM), MgCl2-insensitive:X. oryzae (62.5 mM), CaCl2-sensitive: X. campestris (31.25 mM), CaCl2-sensitive:X. oryzae (31.25 mM).Toxicity: sheep RBC: 4xMIC peptide (3.26% hemolysis).Plant protection:rice: after 21 days treatment, the peptide partly inhibited the expansion of rice bacterial blight.",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_17804",
+                    "Similarity": 0.8888888888888888,
+                    "Sequence": "CAYHRLRRC"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_15429",
+                    "Similarity": 0.8,
+                    "Sequence": "RTRCRFLRRC"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_05601",
+                    "Similarity": 0.7777777777777778,
+                    "Sequence": "QRGRWLRRG"
+                }
+            ]
+        }
+    }
+}

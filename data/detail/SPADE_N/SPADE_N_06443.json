@@ -1,0 +1,72 @@
+{
+    "SPADE_N_06443": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_06443",
+            "Peptide Name": "Brevinin-1ITa",
+            "Source": "skin secretions of the Italian stream frog Rana italica (Ranidae)",
+            "Family": "",
+            "Gene": "Not found",
+            "Sequence": "IVPFLLGMVPKLVCLITKKC",
+            "Sequence Length": 20,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/C0HL47"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Target Organism": "Tumor cells:A549 (LC50=18 μM); HT-29 (LC50=18 μM); MDA-MB-231 (LC50=8 μM)",
+            "Hemolytic Activity": "mouse erythrocytes:LC50=7 μM",
+            "Cytotoxicity": "Not available",
+            "Binding Target": "Not available",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C105H183N23O22S3",
+            "Mass": 2215.91,
+            "PI": 9.39,
+            "Net Charge": 3,
+            "Hydrophobicity": 1.52,
+            "Half Life": "Mammalian:20 hourYeast:30 minE.coli:>10 hour",
+            "Literature": [
+                {
+                    "Title": "Cytotoxic peptides with insulin-releasing activities from skin secretions of the Italian stream frog Rana italica (Ranidae)",
+                    "Pubmed ID": "28699258",
+                    "Reference": "J Pept Sci. 2017 Oct;23(10)769-776.",
+                    "Author": "Conlon JM, Musale V, Attoub S, Mangoni ML, Leprince J, Coquet L, Jouenne T, Abdel-Wahab YHA, Flatt PR, Rinaldi AC.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=28699258"
+                }
+            ],
+            "Frequent Amino Acids": "LKV",
+            "Absent Amino Acids": "ADEHNOQRSUWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 9,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_11806",
+                    "Similarity": 0.8571428571428571,
+                    "Sequence": "TRRKFWKKVLNGALKIAPFLLG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01844",
+                    "Similarity": 0.8,
+                    "Sequence": "FLPMLAGLAASMVPKLVCLITKKC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01792",
+                    "Similarity": 0.7647058823529411,
+                    "Sequence": "ILPLLLGKVVCAITKKC"
+                }
+            ]
+        }
+    }
+}

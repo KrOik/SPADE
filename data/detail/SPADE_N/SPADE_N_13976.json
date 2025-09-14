@@ -1,0 +1,70 @@
+{
+    "SPADE_N_13976": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_13976",
+            "Peptide Name": "SK-24 (synthetic AMPs, fragment of LL-37, XXA, UCLL1c)",
+            "Source": "structure-based Sequence truncation, human cathelicidin analog, animal-derived, natural derivative",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "SKEKIGKEFKRIVQRIKDFLRNLV",
+            "Sequence Length": 24,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 2945.51,
+            "PI": 10.55,
+            "Hydrophobicity": -0.69,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Zhang Y, Lakshmaiah Narayana J, Wu Q, Dang X, Wang G. 2021",
+                    "Reference": "Pharmaceuticals (Basel). 2021 Nov 30;14(12):1245. doi: 10.3390/ph14121245.PubMed",
+                    "Title": "Structure and Activity of a Selective Antibiofilm Peptide SK-24 Derived from the NMR Structure of Human Cathelicidin LL-37."
+                }
+            ],
+            "Frequent Amino Acids": "KIR",
+            "Absent Amino Acids": "ACHMOPTUWY",
+            "Basic Residues": 8,
+            "Acidic Residues": 3,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 13,
+            "Positive Residues": 8,
+            "Negative Residues": 3,
+            "Net Charge": 5,
+            "Comments": "Discovery: S9 splits the hydrophobic surface of LL-37. SK-24 corresponds to the central helix starting S9.Sequence analysis: APD analysis reveals this sequence is most similar (88.89%) toHuman KS-27K: 21%; R: 13%; I: 13%. GRAVY: -0.69;Activity: Active against E. faecium V284-17 (MIC 2 uM), S. aureus USA300 (MIC 4 uM), K-pneumoniae E406-17 (MIC>32 uM). A. baumannii B28-16 (MIC 4-8 uM), P-aeruginosa E411-17 (MIC > 32 uM), and E. coli E423-17 (MIC 16 uM). It also disperse preformed biofilms.Structure: Like LL-37, SK-24 is helical even in PBS, more helical than that after binding to SDS.MOA:bacteria: it permeabilized bacterial membranes.Toxicity: it was least hemo.lytic (HC50 > 200 uM) compared to LL-37 and its fragments, including 17BIPHE2 at 200 uM.",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02277",
+                    "Similarity": 1.0,
+                    "Sequence": "GDFFRKSKEKIGKEFKRIVQRIKDFLRN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03100",
+                    "Similarity": 1.0,
+                    "Sequence": "KSKEKIGKEFKRIVQRIKDFLRNLVPR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03107",
+                    "Similarity": 1.0,
+                    "Sequence": "ALLGDFFRKSKEKIGKEFKRIVQRIKDFLRNLVPRTES"
+                }
+            ]
+        }
+    }
+}

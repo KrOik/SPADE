@@ -1,0 +1,55 @@
+{
+    "SPADE_UN_29668": {
+        "Sequence Information": {
+            "Peptide Name": "alpha-MSH (6-13)[F7D-Nal,G10F,P12F]",
+            "Sequence": "HXRWFKFV",
+            "Sequence Length": 8,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P61280",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P61280",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Novel ?-MSH peptide analogues with broad spectrum antimicrobial activity.",
+                    "Pubmed ID": "23626703",
+                    "Reference": "PLoS One. 2013;8:e61614",
+                    "Author": "Grieco P, Carotenuto A, Auriemma L, Limatola A, Di Maro S, Merlino F, Mangoni ML, Luca V, Di Grazia A, Gatti S, Campiglia P, Gomez-Monterrey I, Novellino E, Catania A",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/23626703"
+                }
+            ],
+            "SPADE ID": "SPADE_UN_29668",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02400",
+                    "Similarity": 1.0,
+                    "Sequence": "SLQPGAPNVNNKDQPWQVSPHISRDDSGNTRTDINVQRHGENNDFEAGWSKVVRGPNKAKPTWHIGGTHRW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02401",
+                    "Similarity": 1.0,
+                    "Sequence": "SLQPGAPNINNKDQPWQVSPHISRDDNGNTRTNINVQRHGENNDFEAGWSKVVRGPNKAKPTWHIGGTHRW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02402",
+                    "Similarity": 1.0,
+                    "Sequence": "SLQPGAPNVNNKDQPWQVSPHISRDDSGNTRTNINVQRHGENNDFEAGWSKVVRGPNKAKPTWHIGGTHRW"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:4% Hemolysis=1.5 µM,Human erythrocytes:6% Hemolysis=3 µM,Human erythrocytes:9% Hemolysis=6.25 µM,Human erythrocytes:14% Hemolysis=12.5 µM,Human erythrocytes:24% Hemolysis=25 µM,Human erythrocytes:33% Hemolysis=50 µM,Human erythrocytes:49% Hemolysis=100 µM",
+            "Target Organism": "Acinetobacter baumannii ATCC 19606(MIC=25µM),Escherichia coli D21(MIC=50µM),Pseudomonas aeruginosa ATCC 27853(MIC=25µM),Pseudomonas syringae pv. tabaci 1918NCPPB(MIC=100µM),Bacillus megaterium Bm11(MIC=3.125µM),Staphylococcus aureus ATCC 25923(MIC=50µM),Staphylococcus epidermidis ATCC 12228(MIC=12.5µM),Candida albicans ATCC 76615(MIC=>100µM),Candida albicans ATCC 24433(MIC=>100µM),Candida albicans(MIC=51->100µM),Candida glabrata(MIC=>100µM),Candida krusei(MIC=>100µM)"
+        }
+    }
+}

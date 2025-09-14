@@ -1,0 +1,81 @@
+{
+    "SPADE_N_00771": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00771",
+            "Peptide Name": "Cycloviolacin-O24 (Plant defensin)",
+            "Source": "Viola odorata (Sweet violet)",
+            "Family": "Belongs to the cyclotide family. Bracelet subfamily.",
+            "Gene": "Not found",
+            "Sequence": "GLPTCGETCFGGTCNTPGCTCDPWPVCTHN",
+            "Sequence Length": 30,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P84637"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antiviral",
+                "Insecticidal"
+            ],
+            "Target Organism": "[Ref.18008336]Virus:HIV:inhibition the cytopathic effects of HIV-1 infection in cultured human T-lymphoblast (CEM-SS) cells(EC50=308 nM).",
+            "Hemolytic Activity": "[Ref:16872274] It has 75% hemolytic activity at 25.0 μM against human type A red blood cells.",
+            "Cytotoxicity": "[Ref.18008336]CEM-SS cells:IC50=6170 nM.",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Cyclization (N termini to C termini)",
+            "C-terminal Modification": "Cyclization (N termini to C termini)",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C126H187N35O43S6",
+            "Mass": 3072.43,
+            "PI": 4.35,
+            "Net Charge": -1,
+            "Hydrophobicity": -0.16,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Probably participates in a plant defense mechanism. Has hemolytic activity.",
+            "PTM": "This is a cyclic peptide which may contain three disulfide bonds 5-19; 9-21; 14-27.",
+            "Literature": [
+                {
+                    "Title": "A novel suite of cyclotides from Viola odorata sequence variation and the implications for structure, function and stability.",
+                    "Pubmed ID": "16872274",
+                    "Reference": "Biochem J. 2006 Nov 15;400(1)1-12.",
+                    "Author": "Ireland DC, Colgrave ML, Craik DJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16872274"
+                },
+                {
+                    "Title": "Cyclotides as natural anti-HIV agents.",
+                    "Pubmed ID": "18008336",
+                    "Reference": "Biopolymers. 2008;90(1)51-60.",
+                    "Author": "Ireland DC, Wang CK, Wilson JA, Gustafson KR, Craik DJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=18008336"
+                }
+            ],
+            "Frequent Amino Acids": "CTG",
+            "Absent Amino Acids": "AIKMOQRSUY",
+            "Basic Residues": 1,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 16,
+            "Positive Residues": 1,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00709",
+                    "Similarity": 0.9333333333333333,
+                    "Sequence": "GLPVCGETCFGGTCNTPGCTCDPWPVCTRN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00770",
+                    "Similarity": 0.9333333333333333,
+                    "Sequence": "GLPTCGETCFGGTCNTPGCTCDSSWPICTHN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08288",
+                    "Similarity": 0.9310344827586207,
+                    "Sequence": "GLPTCGETCFGGTCNTPGCTCDPWPICTD"
+                }
+            ]
+        }
+    }
+}

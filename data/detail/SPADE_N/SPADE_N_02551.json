@@ -1,0 +1,74 @@
+{
+    "SPADE_N_02551": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02551",
+            "Peptide Name": "PtALF5 (Portunus trituberculatus anti-lipopolysaccharide factor isoform 5; crabs, Arthropods, ani",
+            "Source": "Portunus trituberculatus (Swimming Crab)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "YVDREINLFDHYCIISRSPHISRWELKWQATVTCPGWTPVKGKVRGYSNPLSAEREATRDFVQRIVQRGLVTRDEASEWL",
+            "Sequence Length": 80,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-negative bacteria:Vibrio alginolyticus (MIC=3.89-7.78 µM), Edwardsiella tarda (MIC=7.78-15.54 µM), Pseudomonas aeruginosa (MIC=15.54-31.08 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Lipopolysaccharide (LPS)-binding",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C421H651N123O120S2",
+            "Mass": 9419.56,
+            "PI": 8.76,
+            "Net Charge": 4,
+            "Hydrophobicity": -0.58,
+            "Half Life": "Mammalian:2.8 hourYeast:10 minE.coli:2 min",
+            "Comments": "Contains a signal peptide and an LPS-binding Domain (CIISRSPHISRWELKWQATVTC) and two conserved cysteine residues which can form a disulfide bridge. PtALF5 transcript in hemocytes showes a clear time-dependent response expression pattern with obvious decrease at 6 h and significant increase at 24 h. The recombinant PtALF5 has antimicrobial activity against Gram-negative bacteria Vibrio alginolyticus and Pseudomonas aeruginosa.",
+            "Literature": [
+                {
+                    "Title": "Multiple isoforms of immune-related genes from hemocytes and eyestalk cDNA libraries of swimming crab Portunus trituberculatus.",
+                    "Pubmed ID": "21362485",
+                    "Reference": "Fish Shellfish Immunol. 2011 Jul;31(1)29-42.",
+                    "Author": "Liu Y, Cui Z, Song C, Wang S, Li Q.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=21362485"
+                },
+                {
+                    "Title": "Molecular cloning, expression pattern and antimicrobial activity of a new isoform of anti-lipopolysaccharide factor from the swimming crab Portunus trituberculatus.",
+                    "Pubmed ID": "22516300",
+                    "Reference": "Fish Shellfish Immunol. 2012 Jul;33(1)85-91.",
+                    "Author": "Liu Y, Cui Z, Li X, Song C, Li Q, Wang S.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=22516300"
+                }
+            ],
+            "Frequent Amino Acids": "RVE",
+            "Absent Amino Acids": "MOU",
+            "Basic Residues": 14,
+            "Acidic Residues": 10,
+            "Hydrophobic Residues": 34,
+            "Polar Residues": 46,
+            "Positive Residues": 14,
+            "Negative Residues": 10,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_15831",
+                    "Similarity": 1.0,
+                    "Sequence": "ASFDISSFISTTADTVIKRLYVDREINLFDHYCIISRSPHISRWELKWQATVTCPGWTPVKGKVRGYSNPLSAEREATRDFVQRIVQRGLVTRDEASEWL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15869",
+                    "Similarity": 0.7875,
+                    "Sequence": "GSFDFSSLLSSVANTAIKRLFVEREIDLFDHYCVLSRSPHIYSWELKFEATVTCPGWTPEKGRVRGYSSPTSAEREATKDFVQKIVRRGLVTREEASEWL"
+                }
+            ]
+        }
+    }
+}

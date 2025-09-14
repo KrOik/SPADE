@@ -1,0 +1,76 @@
+{
+    "SPADE_UN_28944": {
+        "Sequence Information": {
+            "Peptide Name": "Smapspin, SMAP-29 + EKR + Spinigerin",
+            "Sequence": "RGLRRLGRKIAHGVKKYGPTVLRIIRIAGEKRHVDKKVADKVLLLKQLRIMRLLTRL",
+            "Sequence Length": 57,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P82357",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P82357",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                },
+                {
+                    "uniprotId": "P49928",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P49928",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                },
+                {
+                    "uniprotId": "P49929",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P49929",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Potent antimicrobial peptides with selectivity for Bacillus anthracis over human erythrocytes.",
+                    "Pubmed ID": "21741801",
+                    "Reference": "Int J Antimicrob Agents. 2011;38:237-242",
+                    "Author": "Dawson RM, Fox MA, Atkins HS, Liu CQ",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/21741801"
+                }
+            ],
+            "Mass": 6652.15,
+            "PI": 12.0,
+            "Net Charge": 17,
+            "Hydrophobicity": -0.25,
+            "Frequent Amino Acids": "LRK",
+            "Absent Amino Acids": "CFNOSUW",
+            "Basic Residues": 20,
+            "Acidic Residues": 3,
+            "Hydrophobic Residues": 24,
+            "Polar Residues": 33,
+            "Positive Residues": 20,
+            "Negative Residues": 3,
+            "SPADE ID": "SPADE_UN_28944",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02519",
+                    "Similarity": 1.0,
+                    "Sequence": "RGLRRLGRKIAHGVKKYGPTVLRIIRIAG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04279",
+                    "Similarity": 1.0,
+                    "Sequence": "RGLRRLGRKIAHGVKKYGPTVLRIIRIA"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_12835",
+                    "Similarity": 1.0,
+                    "Sequence": "GGGRGLRRLGRKIAHGVKKYGPTVLRIIRIAG"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:84% Hemolysis=100 µM",
+            "Target Organism": "Escherichia coli K91BK(MIC=29.7±5.6µM),Escherichia coli K91BK(IC50=17.7±3.8µM),Bacillus subtilis var. niger ATCC 9372(MIC=1.18±0.09µM),Bacillus subtilis var. niger ATCC 9372(IC50=0.73±0.05µM),Bacillus anthracis Sterne 34F2(MIC=6.90±0.54µM),Bacillus anthracis Sterne 34F2(IC50=3.93±0.48µM),Burkholderia thailandensis ATCC 700388(no activity data)"
+        }
+    }
+}

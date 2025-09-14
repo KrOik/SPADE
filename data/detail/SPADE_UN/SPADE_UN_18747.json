@@ -1,0 +1,69 @@
+{
+    "SPADE_UN_18747": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_18747",
+            "Peptide Name": "CO7A1-AIG15 (AI predicted AMPs, modern encrypted peptides, cryptides; Gly-rich; UCLL1)",
+            "Source": "AI predicted, machine learning",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "AIGPKGDRGFPGPLG",
+            "Sequence Length": 15,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 1438.63,
+            "PI": 8.79,
+            "Hydrophobicity": -0.39,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Maasch JRMA, Torres MDT, Melo MCR, de la Fuente-Nunez C. 2023",
+                    "Reference": "Cell Host Microbe. 2023 Aug 9;31(8):1260-1274.e6. doi: 10.1016/j.chom.2023.07.001.Pub-Med.",
+                    "Title": "Molecular de-extinction of ancient antimicrobial peptides enabled by machine learning."
+                }
+            ],
+            "Frequent Amino Acids": "GPA",
+            "Absent Amino Acids": "CEHMNOQSTUVWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 3,
+            "Positive Residues": 2,
+            "Negative Residues": 1,
+            "Net Charge": 1,
+            "Comments": "Sequence analysis: APD analysis reveals this sequence is most similar (46.67%) tobacterial YD1Activity: active against P. aeruginosa PA14 (MIC 32 uM), but not A.baumannii ATCC 19606, E.coli AIC221 or AIC222, and S.aureus.Toxicity: HC50 >128 uM hemo.lytic; HEK293T (LC50 >128 uM).",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_13460",
+                    "Similarity": 0.8571428571428571,
+                    "Sequence": "GLPGPLGPAGPK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_07606",
+                    "Similarity": 0.7,
+                    "Sequence": "FKGDSGGPLLCNNVAHGIVSY"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09660",
+                    "Similarity": 0.7,
+                    "Sequence": "GSKGAPCAKKPCCGPLGHYKVDCSTIPDYPCCSKYGFCGSGPQYCG"
+                }
+            ]
+        }
+    }
+}

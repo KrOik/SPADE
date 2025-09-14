@@ -1,0 +1,67 @@
+{
+    "SPADE_UN_24834": {
+        "Sequence Information": {
+            "Peptide Name": "Palustrin-2ISb (16-22)",
+            "Sequence": "VNVLDKIR",
+            "Sequence Length": 8,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "G5ELM2",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/G5ELM2",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Targeted Modification and Structure-Activity Study of GL-29, an Analogue of the Antimicrobial Peptide Palustrin-2ISb.",
+                    "Pubmed ID": "36009917",
+                    "Reference": "Antibiotics (Basel). 2022;11:1048",
+                    "Author": "Liu S, Lin Y, Liu J, Chen X, Ma C, Xi X, Zhou M, Chen T, Burrows JF, Wang L",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/36009917"
+                }
+            ],
+            "Mass": 956.14,
+            "PI": 8.72,
+            "Net Charge": 1,
+            "Hydrophobicity": 0.16,
+            "Frequent Amino Acids": "VDI",
+            "Absent Amino Acids": "ACEFGHMOPQSTUWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 4,
+            "Polar Residues": 4,
+            "Positive Residues": 2,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_UN_24834",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01152",
+                    "Similarity": 1.0,
+                    "Sequence": "GLWNSIKIAGKKLFVNVLDKIRCKVAGGCKTSPDVE"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04668",
+                    "Similarity": 1.0,
+                    "Sequence": "GTRCQVAGWGSQRSGGRLSRFPRFVNV"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_00277",
+                    "Similarity": 1.0,
+                    "Sequence": "GLWNSIKIAGKKLFVNVLDKIRCKVAGGCKTSPDVEYHK"
+                }
+            ],
+            "Hemolytic Activity": "Horse erythrocytes:10% Hemolysis=504.21 µM",
+            "Target Organism": "Staphylococcus aureus ATCC 6538(MIC=>512µM),Enterococcus faecalis NCTC 12697(MIC=>512µM),Staphylococcus aureus ATCC 12493(MIC=>512µM),Escherichia coli ATCC 8739(MIC=>512µM),Klebsiella pneumoniae ATCC 43816(MIC=>512µM),Pseudomonas aeruginosa ATCC 9027(MIC=>512µM),Candida albicans ATCC 10231(MIC=>512µM),Staphylococcus aureus(MIC=>512µM),Staphylococcus aureus B038 V1S1A(MIC=>512µM),Escherichia coli ATCC BAA-2340(MIC=>512µM),Klebsiella pneumoniae ATCC BAA-1705(MIC=>512µM)"
+        }
+    }
+}

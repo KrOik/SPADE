@@ -1,0 +1,69 @@
+{
+    "SPADE_N_14435": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_14435",
+            "Peptide Name": "FK-13 Q22A analog (Synthetic AMPs, UCLL1c)",
+            "Source": "amino acid substitution, human cathelicidin analog, animal-derived, natural derivative",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "FKRIVARIKDFLR",
+            "Sequence Length": 13,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram+"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 1662.03,
+            "PI": 11.72,
+            "Hydrophobicity": -0.03,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Engelberg Y, Landau M. 2020",
+                    "Reference": "Nat Commun. 2020 Aug 4;11(1):3894. doi: 10.1038/s41467-020-17736-x.PubMed",
+                    "Title": "The Human LL-37(17-29) antimicrobial peptide reveals a functional supramolecular structure."
+                }
+            ],
+            "Frequent Amino Acids": "RFI",
+            "Absent Amino Acids": "CEGHMNOPQSTUWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 7,
+            "Positive Residues": 5,
+            "Negative Residues": 1,
+            "Net Charge": 4,
+            "Comments": "Sequence analysis: APD analysis reveals that this sequence is similar (92.31%) toFK-13R: 31%.Activity: active against M. luteus (MIC 33 uM) relative to the WT with an MIC of 22 uM and S. hominis (MIC 50 uM). Warning: other bacteria not tested.",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_04256",
+                    "Similarity": 1.0,
+                    "Sequence": "LLGDFFRKSKEKIGKEFKRIV"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04257",
+                    "Similarity": 1.0,
+                    "Sequence": "LLGDFFRKSKEKIGKEFKRI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04258",
+                    "Similarity": 1.0,
+                    "Sequence": "EFKRIV"
+                }
+            ]
+        }
+    }
+}

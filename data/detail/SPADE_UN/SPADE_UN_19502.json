@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_19502": {
+        "Sequence Information": {
+            "Peptide Name": "",
+            "Sequence": "LKKLLKKLLK",
+            "Sequence Length": 10,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Disruption of drug-resistant biofilms using de novo designed short ?-helical antimicrobial peptides with idealized facial amphiphilicity.",
+                    "Pubmed ID": "28457962",
+                    "Reference": "Acta Biomater. 2017;57:103-114",
+                    "Author": "Khara JS, Obuobi S, Wang Y, Hamilton MS, Robertson BD, Newton SM, Yang YY, Langford PR, Ee PLR",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/28457962"
+                }
+            ],
+            "Mass": 1224.66,
+            "PI": 10.6,
+            "Net Charge": 5,
+            "Hydrophobicity": -0.05,
+            "Frequent Amino Acids": "KL",
+            "Absent Amino Acids": "ACDEFGHIMNOPQRSTUVWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 5,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_19502",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06023",
+                    "Similarity": 1.0,
+                    "Sequence": "KLLKKLLKLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06282",
+                    "Similarity": 1.0,
+                    "Sequence": "LKLLKKLLKKLLKLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06540",
+                    "Similarity": 1.0,
+                    "Sequence": "CLLKKLLKKLLKK"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=>2000 µM",
+            "Target Organism": "Escherichia coli K-12(MIC=31.3µM),Klebsiella pneumoniae(MIC=>500µM),Pseudomonas aeruginosa PAO1(MIC=62.5µM),Staphylococcus aureus NCTC 8325-4(MIC=>500µM)"
+        }
+    }
+}

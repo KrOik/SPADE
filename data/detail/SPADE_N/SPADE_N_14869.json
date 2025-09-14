@@ -1,0 +1,61 @@
+{
+    "SPADE_N_14869": {
+        "Sequence Information": {
+            "Peptide Name": "Cruzioseptin-17, CZS-17",
+            "Sequence": "GFLDVVKGVGKAALGAVTHLINQGEQ",
+            "Sequence Length": 26,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "1. Cruziohyla calcarifer",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Novel antimicrobial cruzioseptin peptides extracted from the splendid leaf frog, Cruziohyla calcarifer.",
+                    "Pubmed ID": "33942149",
+                    "Reference": "Amino Acids. 2021;53:853-868",
+                    "Author": "Cuesta SA, Reinoso C, Morales F, Pilaquinga F, Morán-Marcillo G, Proaño-Bolaños C, Blasco-Zuniga A, Rivera M, Meneses L",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/33942149"
+                }
+            ],
+            "Mass": 2621.98,
+            "PI": 6.75,
+            "Net Charge": 1,
+            "Hydrophobicity": 0.37,
+            "Frequent Amino Acids": "GVA",
+            "Absent Amino Acids": "CMOPRSUWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 14,
+            "Positive Residues": 3,
+            "Negative Residues": 2,
+            "SPADE ID": "SPADE_N_14869",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_13708",
+                    "Similarity": 1.0,
+                    "Sequence": "GFLDVVKGVGKAALGAVTHLINQ"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14868",
+                    "Similarity": 0.9615384615384616,
+                    "Sequence": "GFLDVLKGVGKAALGAVTHLINQGEQ"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_13707",
+                    "Similarity": 0.9565217391304348,
+                    "Sequence": "GFLDVLKGVGKAALGAVTHLINQ"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:4.3% Hemolysis=111.0 µM,Human erythrocytes:11.6% Hemolysis=222.0 µM",
+            "Target Organism": "Escherichia coli(MIC=55.5µM),Escherichia coli(MBC=222.0µM),Staphylococcus aureus(MIC=111.0µM),Staphylococcus aureus(MBC=222.0µM),Candida albicans(MIC=222.0µM),Candida albicans(MBC=222.0µM)"
+        }
+    }
+}

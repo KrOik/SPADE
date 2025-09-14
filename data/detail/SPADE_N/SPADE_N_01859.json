@@ -1,0 +1,75 @@
+{
+    "SPADE_N_01859": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01859",
+            "Peptide Name": "Brevinin-2RTa (Frogs, amphibians, animals)",
+            "Source": "Amolops ricketti (Chinese sucker frog)",
+            "Family": "Belongs to the frog skin active peptide family (Brevinin subfamily)",
+            "Gene": "Not found",
+            "Sequence": "GLMSTLKDFGKTAAKEIAQSLLSTASCKLAKTC",
+            "Sequence Length": 33,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "[Ref.22100518]Gram-positive bacteria:Staphylococcus aureus ATCC2592 (MIC=12.5 µg/ml), Bacillus licheniformis X39 (MIC=50.0 µg/ml), Staphylococcus carnosus KHS (MIC=6.3 µg/ml), Rhodococcus rhodochrous X15 (MIC=1.6 µg/ml);Gram-negative bacteria:Serratia rubidaea X01 (MIC=100.0 µg/ml), Psychrobacter faecalis X29 (MIC=6.3 µg/ml).",
+            "Hemolytic Activity": "[Ref.22100518]LD50>400 μg/ml against rabbit red blood cells",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C147H255N39O47S3",
+            "Mass": 3417.03,
+            "PI": 9.24,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.16,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Brevinin-2RTb has antibacterial activity and hemolytic activity against rabbit red blood cells in vitro.",
+            "PTM": "Contains one disulfide bond 27-33.",
+            "Literature": [
+                {
+                    "Title": "Identification and characterization of antimicrobial peptides from skin of Amolops ricketti (Anura Ranidae).",
+                    "Pubmed ID": "22100518",
+                    "Reference": "Peptides. 2012 Jan;33(1)27-34.",
+                    "Author": "Wang H, Ran R, Yu H, Yu Z, Hu Y, Zheng H, Wang D, Yang F, Liu R, Liu J.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=22100518"
+                }
+            ],
+            "Frequent Amino Acids": "AKL",
+            "Absent Amino Acids": "HNOPRUVWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 21,
+            "Positive Residues": 5,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01665",
+                    "Similarity": 1.0,
+                    "Sequence": "MFTTKKSLLVLFFLGTISLSFCEEERNADEDDGEMTEEEKRGLMSTLKDFGKTAAKEIAQSLLSTASCKLAKTC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01663",
+                    "Similarity": 0.8484848484848485,
+                    "Sequence": "MFTSKKSLLVLFFLGTISLSFCEEERNADEDDGEMTEEVKRGILDTLKEFGKTAAKGIAQSLLSTASCKLAKTC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01860",
+                    "Similarity": 0.8484848484848485,
+                    "Sequence": "GILDTLKEFGKTAAKGIAQSLLSTASCKLAKTC"
+                }
+            ]
+        }
+    }
+}

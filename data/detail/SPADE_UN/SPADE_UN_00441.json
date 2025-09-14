@@ -1,0 +1,75 @@
+{
+    "SPADE_UN_00441": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_00441",
+            "Peptide Name": "PAF26 (Trp-rich; combinatorial library)",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "RKKWFW",
+            "Sequence Length": 6,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Noentryfound"
+            ],
+            "Protein Existence": "Synthetic",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "[Ref.11976121] Gram-negative bacterium:Escherichia coli DH5α (MIC=160 µM, IC50>80 µM);Fungi:Penicillium digitatum PHI-26 (MIC=20 µM, IC50=11 ± 1 µM), Penicillium italicum PHI-1 (MIC=40 µM,  IC50=22 ± 3 µM), Botrytis cinerea CECT2100 (MIC=60 µM, IC50=38 ± 24 µM), Fusarium oxysporum CECT2866 (MIC=80 µM, IC50=45 ± 4 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "In general, positively charged residues (arginine or lysine) and residues with aromatic rings (tryptophan or phenylalanine) rendered antifungal activity.",
+            "Formula": "C49H67N13O7",
+            "Mass": 950.14,
+            "PI": 11.17,
+            "Net Charge": 3,
+            "Hydrophobicity": -1.88,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Function": "Antibacterial against Gram-negative bacterium. The antifungal mixture is also antibacterial, with a predominance of basic and aromatic residues.",
+            "Literature": [
+                {
+                    "Title": "Identification of novel hexapeptides bioactive against phytopathogenic fungi through screening of a synthetic peptide combinatorial library.",
+                    "Pubmed ID": "11976121",
+                    "Reference": "Appl Environ Microbiol. 2002 May;68(5)2453-60.",
+                    "Author": "López-García B, Pérez-Payá E, Marcos JF.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=11976121"
+                }
+            ],
+            "Frequent Amino Acids": "KWF",
+            "Absent Amino Acids": "ACDEGHILMNOPQSTUVY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 3,
+            "Polar Residues": 3,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00009",
+                    "Similarity": 1.0,
+                    "Sequence": "SGIPCTIGAAVAASIAVCPTTKCSKRCGKRKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02301",
+                    "Similarity": 1.0,
+                    "Sequence": "GIINTLQKYYCRVRGGRCAVLTCLPKEEQIGKCSTRGRKCCRRKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02487",
+                    "Similarity": 1.0,
+                    "Sequence": "NPVSCVRNKGICVPIRCPGSMKQIGTCVGRAVKCCRKK"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_25393": {
+        "Sequence Information": {
+            "Peptide Name": "",
+            "Sequence": "TLH",
+            "Sequence Length": 3,
+            "Biological Activity": [
+                "Antiviral",
+                "Anticancer",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Virus entry\n2. Sgp",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Design of Three Residues Peptides against SARS-CoV-2 Infection.",
+                    "Pubmed ID": "36298659",
+                    "Reference": "Viruses. 2022;14:2103",
+                    "Author": "Zannella C, Chianese A, Greco G, Santella B, Squillaci G, Monti A, Doti N, Sanna G, Manzin A, Morana A, De Filippis A, D'Angelo G, Palmieri F, Franci G, Galdiero M",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/36298659"
+                }
+            ],
+            "Mass": 369.42,
+            "PI": 6.4,
+            "Net Charge": 1,
+            "Hydrophobicity": -0.03,
+            "Frequent Amino Acids": "HLT",
+            "Absent Amino Acids": "ACDEFGIKMNOPQRSUVWY",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 1,
+            "Polar Residues": 2,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_25393",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00573",
+                    "Similarity": 1.0,
+                    "Sequence": "NKKMVGEAKKCDQTWTCEGEDKCREKCLTLHNGVGVCDLYTAPLVPKQCFCHYDC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02138",
+                    "Similarity": 1.0,
+                    "Sequence": "HHVELCKKNDAELKEALTCITSKLPAALGCNDKSCVFEKLCKEGDLDEALKKHFTEAEVQTLHTTATDCDHSHGHEHSHGHEHGHGHH"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03033",
+                    "Similarity": 1.0,
+                    "Sequence": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLR"
+                }
+            ],
+            "Hemolytic Activity": "Baby Hamster Kidney cells BHK-21:50% Cell death=>200 µM,Vero cells:50% Cell death=>200 µM,Human erythrocytes:0% Hemolysis=200 µM",
+            "Target Organism": "SARS-CoV-2(60-70% Inhibition=200µM),SARS-CoV-2(80-90% Inhibition=200µM),SARS-CoV-2(0-10% Inhibition=200µM),HCoV-OC43(no activity data),HCoV-229E(no activity data),HIV-1 IIIB(EC50=>200µM),DENV-2(EC50=>200µM),West Nile virus WNV(EC50=>200µM),Yellow fever virus (YFV)(EC50=>200µM),Enterovirus EV-A71(EC50=>200µM),HSV-1(EC50=>200µM),Human T cell leukemia MT-4(IC50=>200µM)"
+        }
+    }
+}

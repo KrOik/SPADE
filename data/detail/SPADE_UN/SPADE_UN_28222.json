@@ -1,0 +1,61 @@
+{
+    "SPADE_UN_28222": {
+        "Sequence Information": {
+            "Peptide Name": "",
+            "Sequence": "VKLNVYPLKVKLYP",
+            "Sequence Length": 14,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Effects of single D-amino acid substitutions on disruption of beta-sheet structure and hydrophobicity in cyclic 14-residue antimicrobial peptide analogs related to gramicidin S.",
+                    "Pubmed ID": "15009528",
+                    "Reference": "J Pept Res. 2004;63:69-84",
+                    "Author": "Lee DL, Powers JP, Pflegerl K, Vasil ML, Hancock RE, Hodges RS",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/15009528"
+                }
+            ],
+            "Mass": 1674.08,
+            "PI": 9.83,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.21,
+            "Frequent Amino Acids": "KLV",
+            "Absent Amino Acids": "ACDEFGHIMOQRSTUW",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 8,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_28222",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_09917",
+                    "Similarity": 1.0,
+                    "Sequence": "VKLVYPLKVKLYP"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_09038",
+                    "Similarity": 1.0,
+                    "Sequence": "MRKQQKIHVKIGDNVKIITGFDKNKIGKVSKIDRNTGKIIVKGINFKFKHIKPNAENEVGEIKQFEAPIHHSNVKLN"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_23135",
+                    "Similarity": 1.0,
+                    "Sequence": "YPVKLYPVKL"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:100% Hemolysis=2 µg/ml",
+            "Target Organism": "Candida albicans(MIC=>64µg/ml),Escherichia coli UB1005(MIC=>64µg/ml),Escherichia coli DC2(MIC=32µg/ml),Salmonella typhimurium C610(MIC=>64µg/ml),Staphylococcus aureus ATCC 25923(MIC=32µg/ml),Staphylococcus aureus SAP 0017(MIC=16µg/ml),Staphylococcus epidermidis C621(MIC=16µg/ml),Bacillus subtilis(MIC=>64µg/ml)"
+        }
+    }
+}

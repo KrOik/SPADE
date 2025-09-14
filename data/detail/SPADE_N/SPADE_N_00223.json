@@ -1,0 +1,72 @@
+{
+    "SPADE_N_00223": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00223",
+            "Peptide Name": "Coconut antifungal peptide (Plants)",
+            "Source": "Cocos nucifera",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "EQCREEEDDR",
+            "Sequence Length": 10,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antifungal",
+                "Antiviral"
+            ],
+            "Target Organism": "Fungi:Fusarium oxysporum, Mycosphaerella arachidicola (IC50=1.2 µM), Physalospora piricola.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C48H77N17O24S",
+            "Mass": 1308.29,
+            "PI": 4.08,
+            "Net Charge": -4,
+            "Hydrophobicity": -3.1,
+            "Half Life": "Mammalian:1 hourYeast:30 minE.coli:>10 hour",
+            "Function": "Also has HIV-1 reverse transcriptase activity (IC50=52.5 µM)",
+            "Literature": [
+                {
+                    "Title": "An antifungal peptide from the coconut.",
+                    "Pubmed ID": "16308082",
+                    "Reference": "Peptides. 2005 Dec;26(12)2392-2396.",
+                    "Author": "Wang HX, Ng TB.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16308082"
+                }
+            ],
+            "Frequent Amino Acids": "EDR",
+            "Absent Amino Acids": "AFGHIKLMNOPSTUVWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 6,
+            "Hydrophobic Residues": 0,
+            "Polar Residues": 4,
+            "Positive Residues": 2,
+            "Negative Residues": 6,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01388",
+                    "Similarity": 1.0,
+                    "Sequence": "GVFTLIKGATQLIGKTLGKELGKTGLELMACKITEQC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11284",
+                    "Similarity": 1.0,
+                    "Sequence": "TVVRRRGRSPRRRTPSPRRRRSQSPRRRRSQSREQC"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_30541",
+                    "Similarity": 1.0,
+                    "Sequence": "TVVRRRGRSPRRRTPSPRRRRSQSPRRRRSQSREQC"
+                }
+            ]
+        }
+    }
+}

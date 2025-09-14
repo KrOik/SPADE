@@ -1,0 +1,77 @@
+{
+    "SPADE_N_06494": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_06494",
+            "Peptide Name": "Tritrp-Agb",
+            "Source": "porcine cathelicidin peptide",
+            "Family": "",
+            "Gene": "Not found",
+            "Sequence": "VXXFPWWWPFLXX",
+            "Sequence Length": 13,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Notavailable"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Target Organism": "Tumor cells:Jurkat (IC50=9.6 µM)",
+            "Hemolytic Activity": "RBC:IC50=34.6 µM",
+            "Cytotoxicity": "PBMC:IC50=9.3 µM",
+            "Binding Target": "Not available",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C72H76N12O6",
+            "Mass": 185968,
+            "PI": 6.11,
+            "Net Charge": 0,
+            "Hydrophobicity": 0.592,
+            "Half Life": "Mammalian:100 hourYeast:>20 hourE.coli:>10 hour",
+            "Literature": [
+                {
+                    "Title": "Selective anticancer activity of synthetic peptides derived from the host defence peptide tritrpticin",
+                    "Pubmed ID": "32126228",
+                    "Reference": "Biochim Biophys Acta Biomembr. 2020 Aug 1;1862(8)183228.",
+                    "Author": "Arias M, Haney EF, Hilchie AL, Corcoran JA, Hyndman ME, Hancock REW, Vogel HJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=32126228"
+                },
+                {
+                    "Title": "Investigating the cationic side chains of the antimicrobial peptide tritrpticin: hydrogen bonding properties govern its membrane-disruptive activities",
+                    "Pubmed ID": "",
+                    "Author": "nguyen LT, de Boer L, Zaat SA, Vogel HJ"
+                }
+            ],
+            "Frequent Amino Acids": "XWF",
+            "Absent Amino Acids": "ACDEGHIKMNOQRSTUY",
+            "Basic Residues": 0,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 1,
+            "Positive Residues": 0,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03402",
+                    "Similarity": 1.0,
+                    "Sequence": "MAKFVSIITLLFAALVLFAAFDAPTMVKAQKLCERSSGTWSGVCGNNNACKNQRINLEGARHGSCNYVFP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04567",
+                    "Similarity": 1.0,
+                    "Sequence": "KARHGSCNYVFP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04587",
+                    "Similarity": 1.0,
+                    "Sequence": "EKARHGSNYVFP"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,75 @@
+{
+    "SPADE_UN_11760": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_11760",
+            "Peptide Name": "[G1K, L5Y, K8R]cGm (Derived from Gm)",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "KCRRYCYRQRCVTYCRGR",
+            "Sequence Length": 18,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic form",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Antitumor"
+            ],
+            "Target Organism": "[Ref.28741926]Gram-positive bacteria :Staphylococcuss aureus ATCC 25923 (MIC=8 μM);Gram-negative bacteria :Escherichia coli ATCC 25922 (MIC=0.5-1 μM), Klebsiella pneumoniae ATCC 700603 (MIC=4-8 μM), Acinetobacter baumannii ATCC 19606 (MIC=1-2 μM), Pseudomonas aeruginosa ATCC 27853 (MIC<0.25-0.5 μM);Fungi :Candida albicans ATCC 90028 (MIC=4 μM), Cryptococcus neoformans ATCC 208821 (MIC=0.5 μM)",
+            "Hemolytic Activity": "[Ref.28741926] 20.6-32% hemolysis at 64 μM against human red blood cells",
+            "Cytotoxicity": "[Ref.28741926] CC50 = 26.5 ± 2.4 μM against CRL-1739, CC50 = 2.0 ± 0.1 μM against MM96L, CC50 = 14.7 ± 1.5 μM against HFF-1, CC50 = 20.9 ± 1.4 μM against HeLa, CC50 = 15.2 ± 1.9 μM against MCF-7, CC50 = 1.3 ± 0.1 μM against K-562, CC50 = 15.7 ±1.1μM against HL-60;CC50=10.4 ± 1.0μM against PBMCs.",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "No specific N-terminal",
+            "C-terminal Modification": "No specific C-terminal",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C97H160N38O24S4",
+            "Mass": 2370.81,
+            "PI": 10.1,
+            "Net Charge": 7,
+            "Hydrophobicity": -1.4,
+            "Half Life": "Mammalian:1.3 hourYeast:3 minE.coli:2 min",
+            "Function": "Antibacterial activity against Gram-positive bacteria and Gram-negative bacteria, Antifungal activity agaist Candida albicans, Cryptococcus neoformans",
+            "Literature": [
+                {
+                    "Title": "Redesigned Spider Peptide with Improved Antimicrobial and Anticancer Properties",
+                    "Pubmed ID": "28741926",
+                    "Reference": "ACS Chem Biol. 2017 Sep 15;12(9)2324-2334. doi 10.1021/acschembio.7b00459.?",
+                    "Author": "Sonia Troeira Henriques, Nicole Lawrence, Stephanie Chaousis, Anjaneya S. Ravipati, Olivier Cheneval,Aurelie H. Benfield, Alysha G. Elliott, Angela Maria Kavanagh, Matthew A. Cooper, Lai Yue Chan,Yen-Hua Huang, and David J. Craik",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=28741926"
+                }
+            ],
+            "Frequent Amino Acids": "RCY",
+            "Absent Amino Acids": "ADEFHILMNOPSUW",
+            "Basic Residues": 7,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 4,
+            "Polar Residues": 17,
+            "Positive Residues": 7,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_00870",
+                    "Similarity": 1.0,
+                    "Sequence": "WCFVCRGCRKCRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_11756",
+                    "Similarity": 0.9444444444444444,
+                    "Sequence": "KCRRLCYRQRCVTYCRGR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03758",
+                    "Similarity": 0.9411764705882353,
+                    "Sequence": "CRRYCYKQRCVTYCRGR"
+                }
+            ]
+        }
+    }
+}

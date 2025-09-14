@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_22213": {
+        "Sequence Information": {
+            "Peptide Name": "C6",
+            "Sequence": "WKWKWKNGKWKWKW",
+            "Sequence Length": 14,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Conversion of Broad-Spectrum Antimicrobial Peptides into Species-Specific Antimicrobials Capable of Precisely Targeting Pathogenic Bacteria.",
+                    "Pubmed ID": "31969663",
+                    "Reference": "Sci Rep. 2020;10:944",
+                    "Author": "Xu L, Shao C, Li G, Shan A, Chou S, Wang J, Ma Q, Dong N",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/31969663"
+                }
+            ],
+            "Mass": 2075.46,
+            "PI": 10.7,
+            "Net Charge": 6,
+            "Hydrophobicity": -2.34,
+            "Frequent Amino Acids": "KWG",
+            "Absent Amino Acids": "ACDEFHILMOPQRSTUVY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 0,
+            "Polar Residues": 14,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_22213",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_09944",
+                    "Similarity": 1.0,
+                    "Sequence": "KWWKWKWK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10916",
+                    "Similarity": 1.0,
+                    "Sequence": "WKWK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11372",
+                    "Similarity": 1.0,
+                    "Sequence": "KWKWWKWK"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:<5% Hemolysis=128 µM",
+            "Target Organism": "Enterococcus faecalis ATCC 29212(MIC=16µM),Staphylococcus aureus ATCC 29213(MIC=4µM),Staphylococcus epidermidis ATCC 12228(MIC=32µM),Salmonella enterica subsp. enterica serovar Typhimurium C77-31(MIC=8µM),Salmonella enterica subsp. enterica serovar Pullorum C79-13(MIC=4µM),Escherichia coli ATCC 25922(MIC=2µM)"
+        }
+    }
+}

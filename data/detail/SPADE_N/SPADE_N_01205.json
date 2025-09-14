@@ -1,0 +1,74 @@
+{
+    "SPADE_N_01205": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01205",
+            "Peptide Name": "Phylloseptin-11 (PS-11; Frogs, amphibians, animals)",
+            "Source": "Phyllomedusa hypochondrialis (Orange-legged leaf frog)",
+            "Family": "Not found",
+            "Gene": "psn-11",
+            "Sequence": "FLSLLPSLVSGAVSLVKIL",
+            "Sequence Length": 19,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q0VZ40"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C94H162N20O24",
+            "Mass": 1956.41,
+            "PI": 8.75,
+            "Net Charge": 1,
+            "Hydrophobicity": 1.86,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Function": "Has antimicrobial activity.",
+            "Tissue specificity": "Expressed by the skin glands.",
+            "PTM": "C-terminal amidation.",
+            "Literature": [
+                {
+                    "Title": "Elements of the granular gland peptidome and transcriptome persist in air-dried skin of the South American orange-legged leaf frog, Phyllomedusa hypocondrialis.",
+                    "Pubmed ID": "16713656",
+                    "Reference": "Peptides. 2006 Sep;27(9)2129-2136.",
+                    "Author": "Chen T, Zhou M, Gagliardo R, Walker B, Shaw C.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16713656"
+                }
+            ],
+            "Frequent Amino Acids": "LSV",
+            "Absent Amino Acids": "CDEHMNOQRTUWY",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 9,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01204",
+                    "Similarity": 0.9473684210526315,
+                    "Sequence": "FLSLLPSLVSGAVSLVKKL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01207",
+                    "Similarity": 0.8421052631578947,
+                    "Sequence": "FLSLLPSIVSGAVSLAKKLG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07708",
+                    "Similarity": 0.8421052631578947,
+                    "Sequence": "FLSLLPSIVSGAVSLAKKL"
+                }
+            ]
+        }
+    }
+}

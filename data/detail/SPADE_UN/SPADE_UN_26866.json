@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_26866": {
+        "Sequence Information": {
+            "Peptide Name": "Protegrin 1 [L5A,V16R]",
+            "Sequence": "RGGRACYCRRRFCVCRGR",
+            "Sequence Length": 18,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P32194",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P32194",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Design of Protegrin-1 Analogs with Improved Antibacterial Selectivity.",
+                    "Pubmed ID": "37631261",
+                    "Reference": "Pharmaceutics. 2023;15:2047",
+                    "Author": "Bolosov IA, Panteleev PV, Sychev SV, Khokhlova VA, Safronova VN, Toropygin IY, Kombarova TI, Korobova OV, Pereskokova ES, Borzilov AI, Ovchinnikova TV, Balandin SV",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/37631261"
+                }
+            ],
+            "Mass": 2175.6,
+            "PI": 11.26,
+            "Net Charge": 7,
+            "Hydrophobicity": -0.84,
+            "Frequent Amino Acids": "RCG",
+            "Absent Amino Acids": "DEHIKLMNOPQSTUW",
+            "Basic Residues": 7,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 11,
+            "Positive Residues": 7,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_26866",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07318",
+                    "Similarity": 1.0,
+                    "Sequence": "VSRRRRRRGGRRRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11055",
+                    "Similarity": 1.0,
+                    "Sequence": "KNKRKRRRRRRGGRRRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_11384",
+                    "Similarity": 1.0,
+                    "Sequence": "TLISWIKNKRKQRPRVSRRRRRRGGRRRR"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:1.0±0.01% Hemolysis=64 µM,Human erythrocytes:2% Hemolysis=>64 µM,Human keratinocytes HaCat:5.9% Cytotoxicity=128 µM",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=2µM),Escherichia coli ML-35p(MIC=1µM),Escherichia coli BW25113(MIC=2µM),Pseudomonas aeruginosa PAO1(MIC=8µM),Pseudomonas aeruginosa ATCC 27853(MIC=8µM),Pseudomonas aeruginosa ATCC 27853(MIC=4µM),Acinetobacter baumannii(MIC=0.5µM),Klebsiella pneumoniae ATCC 700603(MIC=32µM),Staphylococcus aureus 209P(MIC=32µM),Staphylococcus aureus ATCC 29213(MIC=32µM),Micrococcus luteus B-1314(MIC=4µM)"
+        }
+    }
+}

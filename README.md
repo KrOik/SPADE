@@ -1,41 +1,206 @@
-# Team XJTLU-Software 2025 Software Tool
+SPADE抗菌肽研究平台：智能设计与发现系统
+引言
+抗菌肽(Antimicrobial Peptides, AMPs)是一类存在于多种生物体中的天然分子，它们在抵御微生物感染中扮演着重要角色，发挥着先天免疫反应的作用。抗菌肽功能分类广泛，包括抗菌、抗生物膜、抗病毒、抗真菌、抗癌、抗糖尿病、创伤愈合、抗氧化等。随着抗生素耐药性的日益严重，抗菌肽已成为医药、食品防腐和农业领域的重要研究方向。
 
-If your team competes in the [**Software & AI** village](https://villages.igem.org) or wants to
-apply for the [**Best Software Tool** prize](https://competition.igem.org/judging/special-prizes), you **MUST** host all the
-source code of your team's software tool in this repository, `main` branch. By the **Wiki Freeze**, a
-[release](https://docs.gitlab.com/ee/user/project/releases/) will be automatically created as the judging artifact of
-this software tool. You will be able to keep working on your software after the Grand Jamboree.
+传统的抗菌肽筛选方法存在效率低、覆盖面窄的问题。基于这一背景，西交利物浦大学(Xi’an Jiaotong-Liverpool University,简称XJTLU)的研究团队开发了SPADE(Sequence-based Antimicrobial Peptide Database Ensemble, or System for Antimicrobial Peptide Management and Database)平台，通过整合SPADE数据库(包含46,000+抗菌肽序列)与机器学习预测模型，构建智能化检索与分析平台，为抗菌肽研究提供高效工具。
 
-> If your team does not have any software tool, you can totally ignore this repository. If left unchanged, this
-repository will be automatically deleted by the end of the season.
+本报告将以DBTL的循环方式详细分析SPADE平台的设计理念、实现方法、测试结果及优化方向，旨在为抗菌肽研究领域提供更全面、更深入的技术参考。
 
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might
-be unfamiliar with (for example your team wiki). A list of Features or a Background subsection can also be added here.
-If there are alternatives to your project, this is a good place to list differentiating factors.
+Design阶段：智能抗菌肽研究平台设计
+设计依据
+基于抗菌肽序列特征分析，研究团队发现传统筛选方法存在效率低、覆盖面窄的问题。传统的BLAST检索方法虽然功能强大，但在实际应用中存在检索速度慢、准确性有待提高的缺点。此外，随着抗菌肽研究的深入，仅依靠单一数据库难以满足全面研究的需求。
 
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew.
-However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing
-specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a
-specific context like a particular programming language version or operating system or has dependencies that have to be
-installed manually, also add a Requirements subsection.
+通过整合SPADE数据库(包含46,000+抗菌肽序列)与机器学习预测模型，研究团队构建智能化检索与分析平台。平台架构采用模块化设计，支持序列特征提取、活性预测、结构分析等多维度功能。
 
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of
-usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably
-include in the README.
+这种设计思路基于以下几个关键点：
 
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
+抗菌肽序列的多样性与相似性：抗菌肽具有丰富的序列多样性，通过分析这些序列的相似性，可以发现潜在的抗菌肽候选分子。
+抗菌肽活性的可预测性：抗菌肽的活性与其理化性质和序列特征密切相关，通过机器学习模型可以预测这些性质。
+多维度检索的必要性：抗菌肽研究需要从活性类型、目标生物、结构特征等多个维度进行检索，以满足不同研究需求。
+数据实时更新的重要性：抗菌肽研究进展迅速，数据库需要支持API接口实现数据实时更新，以保持研究的时效性。
+预期功能
+SPADE平台设计了以下核心功能，以满足抗菌肽研究的多样化需求：
 
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started.
-Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps
-explicit. These instructions could also be useful to your future self.
 
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce
-the likelihood that the changes inadvertently break something. Having instructions for running tests is especially
-helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
+智能检索
+多维度信息检索展示(活性类型、目标生物、结构特征)。SPADE平台支持从多种角度检索抗菌肽，满足不同研究需求。
+全面详细提供抗菌肽信息和原始文献出处，根据已知模型进行预测评分辅助科研选取抗菌肽。
+根据模型预测（放图-副队图）提供相似抗菌肽信息，便捷跳转详情查看。
 
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
+- 实时检索响应，毫秒级反馈
+- 模糊匹配和精确检索相结合
+- 响应式设计，支持移动端访问
+- 用户友好的界面设计，操作直观
+
+
+预测建模
+整合理化性质预测与活性评估模型。SPADE平台整合汇总了多种预测模型，对抗菌肽的理化性质和活性进行全面评估。
+
+具体实现方式包括：
+
+理化性质预测：预测抗菌肽的疏水性、亲水性、等电点等理化性质。
+活性评估：评估抗菌肽的抗菌活性，包括最小抑菌浓度、最小杀菌浓度等。
+毒性预测：预测抗菌肽的细胞毒性，评估其安全性。
+
+Build阶段：平台开发与集成
+数据库构建
+SPADE平台采用了分布式架构，整合了SPADE_N(天然抗菌肽)和SPADE_UN(人工修饰)两大数据类目。通过API接口实现数据定时更新，支持JSON格式数据交换。建立索引系统，实现毫秒级检索响应。
+
+数据库构建的具体实现方式包括：
+
+数据收集与整理：从公共数据库如APD(Antimicrobial Peptide Database)、DBAASP(Database of Antimicrobial Activity and Structure of Peptides)，PubMed文献库收集相关文献整理抗菌肽数据，包括天然抗菌肽和人工修饰抗菌肽。
+数据清洗与标准化：对收集的数据进行清洗和标准化处理，确保数据质量。
+数据存储与管理：采用分布式存储架构，提高数据访问效率。
+数据索引：建立多维度索引系统，支持快速检索。
+天然抗菌肽数据库(SPADE_N)主要收集存在于生物体内的天然抗菌肽，如昆虫、两栖动物、哺乳动物等来源的抗菌肽。人工修饰抗菌肽数据库(SPADE_UN)则收集经过人工修饰的抗菌肽，如通过化学修饰、突变等手段获得的抗菌肽。
+
+
+Test阶段：功能验证与性能评估
+测试方法
+为验证SPADE平台的性能，研究团队采用了以下测试方法：
+
+效率对比
+与传统BLAST检索方法对比，测试检索速度和准确性。通过对比两种方法在相同任务下的表现，评估SPADE平台的效率提升。（放检索速度gif图）
+
+具体测试方法包括：
+
+设计测试用例：选择具有代表性的抗菌肽序列作为测试用例。
+BLAST检索：使用传统BLAST方法进行检索，记录检索时间。
+SPADE检索：使用SPADE平台进行检索，记录检索时间。
+对比分析：对比两种方法的检索时间，评估SPADE平台的效率提升。
+
+
+具体测试方法包括：
+独立测试集：准备独立的测试集，用于评估检索性能与速度。
+检索分析：使用两种不同的方法进行检索。
+结果分析：分析检索结果与真实值的符合度，评估检索的准确性。
+
+用户测试
+邀请10个研究用户进行实际使用测试。通过实际用户的使用反馈，评估平台的实用性和易用性。
+
+具体测试方法包括：
+
+用户选择：选择具有代表性的10个实验室，参与测试。
+使用记录：记录用户在使用过程中的操作和反馈。
+问题收集：收集用户遇到的问题和建议。
+总结分析：总结用户反馈，分析平台的优势和不足。
+关键数据
+根据用户反馈，赞扬SPADE平台在多个方面表现出色：
+
+检索效率
+相比传统方法提升85%，平均检索时间从1.2秒降至50毫秒。这一显著提升大大提高了抗菌肽研究的效率。
+这使得研究人员可以在短时间内完成大量检索任务，大大提高工作效率。
+注：传统BLAST方法平均检索时间约为30秒-----注意修正！
+
+
+用户满意度
+在用户测试中，90%的用户表示SPADE平台显著提升了他们的研究效率。用户普遍认为平台界面友好，功能强大，检索速度快，预测准确，大大提高了研究效率。
+这一高满意度表明SPADE平台在实际应用中表现良好。（附上饼状图）
+注1：此处评级调查分为-优秀-良好-缺陷-，在调查中，仅有1位用户选择了良好并反馈相关信息
+注2：此处“用户普遍认为”源自问卷调查中“请你在如下选项中选取部分最符合你使用体验的描述”选取频率最高几项
+
+
+与预期偏差
+尽管SPADE平台表现出色，但在某些方面与预期存在偏差：
+
+移动端用户体验需要进一步优化
+移动端用户体验需要进一步优化。这可能是因为SPADE平台最初主要针对PC端设计，对移动端的适配不足。
+
+随着移动设备的普及，越来越多的用户希望在移动设备上使用SPADE平台。但目前平台在移动端的用户体验有待提升，包括界面优化、响应速度提升等方面。
+
+Learn阶段：结果分析与优化方向
+问题分析
+通过对测试数据的分析，研究团队发现当前数据库存在以下关键局限性：
+
+极端环境条件数据覆盖不足：
+数据库收录的抗菌肽活性数据在极端环境条件（如极端pH值、温度、离子强度）下存在显著缺口。抗菌肽的活性高度依赖于环境条件，而现有数据来源对此类极端条件的样本覆盖范围有限且代表性不足。这直接导致数据库无法为用户提供全面、可靠的极端条件下抗菌肽活性信息。亟需系统性补充极端环境条件下的高质量实验数据，以完善数据库的覆盖范围和应用价值。
+
+特殊修饰序列及结构信息严重缺失：
+数据库对经过特殊化学修饰（如糖基化、脂肪酰化等）的抗菌肽序列收录不足，且普遍缺乏与之对应的详细结构信息展示。这些修饰能显著改变抗菌肽的活性和稳定性，是理解其功能的关键。然而，现有核心数据源在特殊修饰类型的多样性、注释完整性，尤其是修饰位点的结构可视化数据方面存在明显短板。这极大限制了数据库在支持修饰肽研究方面的效用。当务之急是扩充包含丰富、已验证的特殊修饰肽数据集，并整合其精确的化学结构信息和生物活性数据。
+
+下轮优化方向
+基于问题分析，研究团队提出了以下优化方向：
+
+数据扩充
+补充极端pH、温度条件下的抗菌肽数据。通过增加训练数据中极端条件样本的比例，可以提高模型在这些条件下的预测能力。（配培养皿图）
+
+具体措施包括：
+
+数据收集：收集极端pH值、温度条件下的抗菌肽活性数据。
+数据整合：将这些数据整合到训练数据集中。
+数据平衡：确保训练数据集中不同条件下的样本分布平衡。
+算法优化
+改进模型对特殊修饰序列的识别能力。通过改进模型结构，提高其对序列变异性的泛化能力。
+
+具体措施包括：
+用户体验
+优化移动端界面，提升响应速度。通过改进用户界面设计和优化代码，提高平台在移动端的用户体验。
+
+具体措施包括：
+
+界面设计：针对移动设备重新设计用户界面，使其更符合移动设备的使用习惯。
+代码优化：优化代码，提高平台在移动设备上的响应速度。
+功能简化：针对移动设备简化部分功能，使其更易于使用。
+功能扩展
+集成耐药性预测模块，支持更全面的安全性评估。通过增加耐药性预测功能，使平台能够更全面地评估抗菌肽的安全性。
+
+具体措施包括：
+
+模块开发：开发耐药性预测模块，预测抗菌肽对宿主细胞的潜在毒性。
+功能整合：将耐药性预测模块整合到平台中。
+界面更新：更新用户界面，增加耐药性预测功能的入口。
+平台价值
+学术价值
+SPADE平台成功构建了抗菌肽研究的智能化服务体系，为实验室研究提供了高效工具。平台在推动抗菌肽研究转化方面展现出巨大潜力，为生物信息学在合成生物学领域的应用提供了成功范例。
+
+具体学术价值包括：
+
+提高研究效率：通过智能化检索和预测，大大提高了抗菌肽研究的效率。
+促进研究合作：平台为研究人员提供了交流和合作的平台，促进了抗菌肽研究领域的合作。
+推动学科发展：平台的成功应用推动了生物信息学在合成生物学领域的应用，促进了学科发展。
+应用前景
+通过持续迭代优化，平台将成为抗菌肽研究领域的重要基础设施。
+
+具体应用前景包括：
+
+医药研发：平台可以用于筛选和设计新型抗菌肽，为医药研发提供支持。
+食品防腐：平台可以用于筛选和设计用于食品防腐的抗菌肽，延长食品保质期。
+农业应用：平台可以用于筛选和设计用于农业的抗菌肽，提高作物抗病性。
+环境保护：平台可以用于筛选和设计用于环境保护的抗菌肽，处理环境污染中的微生物。
+结论
+SPADE平台作为抗菌肽研究的智能化平台，通过整合大规模抗菌肽数据库和先进的机器学习模型，为抗菌肽研究提供了强大的工具。平台在检索效率、预测准确性等方面表现出色，得到了用户的高度评价。
+
+尽管平台表现出色，但在极端条件下的预测、特殊修饰序列的识别和移动端用户体验等方面仍有改进空间。通过持续优化和迭代，平台将成为抗菌肽研究领域的重要基础设施，为抗菌肽的研究和应用提供强有力的支持。
+
+随着抗生素耐药性问题的日益严重，抗菌肽作为一种新型抗菌剂的研究价值日益凸显。SPADE平台的开发和应用，将为抗菌肽研究提供新的思路和方法，推动抗菌肽研究的发展，为解决抗生素耐药性问题提供新的可能。
+
+参考文献
+[1] Antimicrobial Peptide Database - DBAASP. https://dbaasp.org/home.
+
+[2] TG-CDDPM: text-guided antimicrobial peptides generation based on conditional denoising diffusion probabilistic model. Briefings in Bioinformatics, 2024.
+
+[3] Review on antimicrobial peptides databases and the computational tools. Database, Oxford Academic, 2024.
+
+[4] AmPEP: Sequence-based prediction of antimicrobial peptides using distribution patterns of amino acid properties and random forest. https://repository.um.edu.mo/handle/10692/932.
+
+[5] Antimicrobial Peptide Database. https://aps.unmc.edu/.
+
+[6] A review on antimicrobial peptides databases and the computational tools. https://academic.oup.com/database/article-abstract/doi/10.1093/database/baac011/6550847.
+
+[7] The antimicrobial peptide database is 20 years old: recent developments and future directions. https://onlinelibrary.wiley.com/doi/abs/10.1002/pro.4778.
+
+[8] Improving the Annotation of the Venom Gland Transcriptome of Pamphobeteus verdolaga, Prospecting Novel Bioactive Peptides. https://www.mdpi.com/2072-6651/14/6/408.
+
+[9] A Foundation Model Identifies Broad-Spectrum Antimicrobial Peptides against Drug-Resistant Bacterial Infection. Nature Communications, 2024.
+
+[10] 西交利物浦大学学生团队连续十年参赛. https://www.163.com/dy/article/JGQBE2JE0534B975.html.
+
+[11] 西浦学子获国际遗传工程机器大赛金牌. https://news.sina.com.cn/c/2017-11-28/doc-ifypapmz5823563.shtml.
+
+[12] 学子 西浦学子首次斩获国际遗传工程机器大赛金奖. https://www.sohu.com/a/208610779_270298.
+
+[13] 2025科普专栏丨SYPHU-China 抗微生物肽:来自自然的"微生物克星". https://new.qq.com/rain/a/20250724A028CC00.
+
+[14] 抗菌肽的来源、作用机制及临床应用研究进展. https://www.hanspub.org/journal/PaperInformation.aspx?paperID=37249&btwaf=20049259.
+
+[15] 中国iGEMer首度集结苏州!西交利物浦大学举办第十一届CCiC大会. https://finance.sina.com.cn/jjxw/2024-07-13/doc-inccwzps7419471.shtml.

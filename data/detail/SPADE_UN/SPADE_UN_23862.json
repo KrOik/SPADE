@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_23862": {
+        "Sequence Information": {
+            "Peptide Name": "Prothrombin (606-617)[K10A]",
+            "Sequence": "VFRLKKWIQAVI",
+            "Sequence Length": 12,
+            "Biological Activity": [
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P00734",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P00734",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Thrombin-Derived Peptides Potentiate the Activity of Gram-Positive-Specific Antibiotics against Gram-Negative Bacteria.",
+                    "Pubmed ID": "33808488",
+                    "Reference": "Molecules. 2021;26:1954",
+                    "Author": "Wesseling CMJ, Wood TM, Bertheussen K, Lok S, Martin NI",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/33808488"
+                }
+            ],
+            "Mass": 1500.87,
+            "PI": 11.17,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.76,
+            "Frequent Amino Acids": "IKV",
+            "Absent Amino Acids": "CDEGHMNOPSTUY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 5,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_23862",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_04468",
+                    "Similarity": 0.9166666666666666,
+                    "Sequence": "VFRLKKWIQKVIDQFGE"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07812",
+                    "Similarity": 0.9166666666666666,
+                    "Sequence": "NLPIVERPVCKDSTRIRITDNMFCAGYKPDEGKRGDACEGDSGGPFVMKSPFNNRWYQMGIVSWGEGCDRDGKYGFYTHVFRLKKWIQKVIDQFGE"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11105",
+                    "Similarity": 0.9166666666666666,
+                    "Sequence": "PGKYGFYTHVFRLKKWIQKVI"
+                }
+            ],
+            "Hemolytic Activity": "Sheep erythrocytes:20.7% Hemolysis=200 µg/ml",
+            "Target Organism": "Escherichia coli BW25113(MIC=12.5µg/ml)"
+        }
+    }
+}

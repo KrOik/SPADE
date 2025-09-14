@@ -1,0 +1,595 @@
+/**
+ * SPADE 反爬虫保护组件
+ * 纯前端实现，多层检测机制
+ */
+
+class AntiCrawlerProtection {
+    constructor(options = {}) {
+        this.options = {
+                    // 检测阈值配置
+        maxRequestsPerMinute: options.maxRequestsPerMinute || 30,
+        minHumanDelay: options.minHumanDelay || 500, // 最小人类操作间隔
+        maxAutomationScore: options.maxAutomationScore || 70, // 自动化分数阈值
+            
+            // 回调函数
+            onSuspiciousActivity: options.onSuspiciousActivity || this.defaultSuspiciousHandler,
+            onBlocked: options.onBlocked || this.defaultBlockHandler,
+            
+            // 功能开关
+            enableBehaviorCheck: options.enableBehaviorCheck !== false,
+            enableEnvironmentCheck: options.enableEnvironmentCheck !== false,
+            enableRateLimit: options.enableRateLimit !== false,
+            enableContentProtection: options.enableContentProtection !== false,
+            
+            // 调试模式
+            debug: options.debug || false
+        };
+        
+        // 检测状态
+        this.state = {
+            requestCount: 0,
+            lastRequestTime: Date.now(),
+            mouseEvents: [],
+            keyboardEvents: [],
+            scrollEvents: [],
+            lastMouseMove: Date.now(),
+            automationScore: 0,
+            isBlocked: false,
+            startTime: Date.now(),
+            suspiciousActivities: []
+        };
+        
+        // 初始化检测
+        this.init();
+    }
+    
+    init() {
+        this.log('反爬虫保护组件初始化...');
+        
+        if (this.options.enableBehaviorCheck) {
+            this.initBehaviorDetection();
+        }
+        
+        if (this.options.enableEnvironmentCheck) {
+            this.performEnvironmentCheck();
+        }
+        
+        if (this.options.enableRateLimit) {
+            this.initRateLimit();
+        }
+        
+        if (this.options.enableContentProtection) {
+            this.initContentProtection();
+        }
+        
+        // 启动监控循环
+        this.startMonitoring();
+        
+        this.log('反爬虫保护组件初始化完成');
+    }
+    
+    // 行为检测
+    initBehaviorDetection() {
+        this.log('初始化行为检测...');
+        
+        // 鼠标移动检测
+        document.addEventListener('mousemove', (e) => {
+            this.state.lastMouseMove = Date.now();
+            this.state.mouseEvents.push({
+                x: e.clientX,
+                y: e.clientY,
+                timestamp: Date.now()
+            });
+            
+            // 保持最近50个事件
+            if (this.state.mouseEvents.length > 50) {
+                this.state.mouseEvents = this.state.mouseEvents.slice(-50);
+            }
+        });
+        
+        // 键盘事件检测
+        document.addEventListener('keydown', (e) => {
+            this.state.keyboardEvents.push({
+                key: e.key,
+                code: e.code,
+                timestamp: Date.now()
+            });
+            
+            if (this.state.keyboardEvents.length > 20) {
+                this.state.keyboardEvents = this.state.keyboardEvents.slice(-20);
+            }
+        });
+        
+        // 滚动事件检测
+        let scrollTimeout;
+        document.addEventListener('scroll', () => {
+            clearTimeout(scrollTimeout);
+            scrollTimeout = setTimeout(() => {
+                this.state.scrollEvents.push({
+                    scrollY: window.scrollY,
+                    timestamp: Date.now()
+                });
+                
+                if (this.state.scrollEvents.length > 20) {
+                    this.state.scrollEvents = this.state.scrollEvents.slice(-20);
+                }
+            }, 100);
+        });
+        
+        // 点击事件检测
+        document.addEventListener('click', (e) => {
+            const now = Date.now();
+            const timeSinceLastRequest = now - this.state.lastRequestTime;
+            
+            // 检测过快的连续点击
+            if (timeSinceLastRequest < this.options.minHumanDelay) {
+                this.addSuspiciousActivity('快速连续点击', {
+                    interval: timeSinceLastRequest,
+                    element: e.target.tagName
+                });
+            }
+        });
+    }
+    
+    // 环境检测
+    performEnvironmentCheck() {
+        this.log('执行环境检测...');
+        let envScore = 0;
+        
+        // 检测自动化工具
+        const automationIndicators = [
+            'webdriver' in window,
+            'callPhantom' in window,
+            'phantom' in window,
+            '_phantom' in window,
+            'Buffer' in window,
+            'emit' in window,
+            'spawn' in window,
+            navigator.webdriver,
+            window.chrome && window.chrome.runtime && window.chrome.runtime.onConnect,
+            window.navigator.plugins.length === 0,
+            window.navigator.languages === '',
+            /HeadlessChrome/.test(window.navigator.userAgent),
+            /PhantomJS/.test(window.navigator.userAgent),
+            /Selenium/.test(window.navigator.userAgent)
+        ];
+        
+        automationIndicators.forEach((indicator, index) => {
+            if (indicator) {
+                envScore += 10;
+                this.addSuspiciousActivity('自动化工具检测', { indicator: index });
+            }
+        });
+        
+        // 检测异常属性
+        try {
+            // 检测iframe
+            if (window.top !== window.self) {
+                envScore += 15;
+                this.addSuspiciousActivity('iframe环境');
+            }
+            
+            // 检测控制台
+            const start = Date.now();
+            debugger;
+            const debuggerTime = Date.now() - start;
+            if (debuggerTime > 100) {
+                envScore += 20;
+                this.addSuspiciousActivity('开发者工具检测');
+            }
+            
+            // 检测屏幕尺寸异常
+            if (screen.width < 100 || screen.height < 100) {
+                envScore += 25;
+                this.addSuspiciousActivity('异常屏幕尺寸');
+            }
+            
+        } catch (e) {
+            // 某些环境可能会阻止这些检测
+            envScore += 5;
+        }
+        
+        this.state.automationScore += envScore;
+        this.log(`环境检测完成，自动化分数: ${envScore}`);
+    }
+    
+    // 频率限制
+    initRateLimit() {
+        this.log('初始化频率限制...');
+        
+        // 拦截fetch请求
+        const originalFetch = window.fetch;
+        const self = this; // 保存this引用
+        window.fetch = (...args) => {
+            if (!self.checkRateLimit()) {
+                return Promise.reject(new Error('请求频率过高，请稍后再试'));
+            }
+            return originalFetch.apply(window, args); // 修正this指向
+        };
+        
+        // 拦截XMLHttpRequest
+        const originalOpen = XMLHttpRequest.prototype.open;
+        XMLHttpRequest.prototype.open = function(...args) {
+            if (!window.antiCrawler || !window.antiCrawler.checkRateLimit()) {
+                throw new Error('请求频率过高，请稍后再试');
+            }
+            return originalOpen.apply(this, args);
+        };
+    }
+    
+    // 内容保护
+    initContentProtection() {
+        this.log('初始化内容保护...');
+        
+        // 禁用右键菜单
+        document.addEventListener('contextmenu', (e) => {
+            if (this.state.automationScore > 30) {
+                e.preventDefault();
+                this.addSuspiciousActivity('高分数用户右键');
+            }
+        });
+        
+        // 禁用选择文本（可选）
+        document.addEventListener('selectstart', (e) => {
+            if (this.state.automationScore > 50) {
+                e.preventDefault();
+            }
+        });
+        
+        // 禁用拖拽
+        document.addEventListener('dragstart', (e) => {
+            if (this.state.automationScore > 30) {
+                e.preventDefault();
+            }
+        });
+        
+        // 检测复制行为
+        document.addEventListener('copy', (e) => {
+            this.addSuspiciousActivity('复制行为');
+            
+            if (this.state.automationScore > 40) {
+                e.clipboardData.setData('text/plain', '内容已被保护');
+                e.preventDefault();
+            }
+        });
+        
+        // 混淆敏感文本
+        this.obfuscateSensitiveContent();
+    }
+    
+    // 频率检查
+    checkRateLimit() {
+        const now = Date.now();
+        
+        // 初始化请求历史记录
+        if (!this.state.requestHistory) {
+            this.state.requestHistory = [];
+        }
+        
+        // 添加当前请求时间
+        this.state.requestHistory.push(now);
+        
+        // 清理一分钟前的请求记录
+        const oneMinuteAgo = now - 60000;
+        this.state.requestHistory = this.state.requestHistory.filter(time => time > oneMinuteAgo);
+        
+        // 检查每分钟请求数
+        const recentRequests = this.state.requestHistory.length;
+        
+        if (recentRequests > this.options.maxRequestsPerMinute) {
+            this.addSuspiciousActivity('请求频率过高', { count: recentRequests });
+            return false;
+        }
+        
+        this.state.lastRequestTime = now;
+        return true;
+    }
+    
+    // 监控循环
+    startMonitoring() {
+        setInterval(() => {
+            this.performPeriodicChecks();
+        }, 5000); // 每5秒检查一次
+    }
+    
+    // 周期性检查
+    performPeriodicChecks() {
+        const now = Date.now();
+        
+        // 分析鼠标移动模式
+        this.analyzeMousePattern();
+        
+        // 检查自动化分数
+        if (this.state.automationScore > this.options.maxAutomationScore) {
+            this.triggerBlock();
+        }
+        
+        this.log(`监控检查 - 自动化分数: ${this.state.automationScore}, 可疑活动: ${this.state.suspiciousActivities.length}`);
+    }
+    
+    // 分析鼠标移动模式
+    analyzeMousePattern() {
+        if (this.state.mouseEvents.length < 10) return;
+        
+        const events = this.state.mouseEvents.slice(-10);
+        let straightLineCount = 0;
+        let perfectCircleCount = 0;
+        
+        // 检测直线移动（机器人特征）
+        for (let i = 2; i < events.length; i++) {
+            const p1 = events[i-2];
+            const p2 = events[i-1];
+            const p3 = events[i];
+            
+            // 计算是否在直线上
+            const slope1 = (p2.y - p1.y) / (p2.x - p1.x);
+            const slope2 = (p3.y - p2.y) / (p3.x - p2.x);
+            
+            if (Math.abs(slope1 - slope2) < 0.1) {
+                straightLineCount++;
+            }
+        }
+        
+        if (straightLineCount > 5) {
+            this.addSuspiciousActivity('鼠标移动过于规律', { straightLines: straightLineCount });
+        }
+    }
+    
+    // 混淆敏感内容
+    obfuscateSensitiveContent() {
+        // 为表格数据添加CSS保护
+        const style = document.createElement('style');
+        style.textContent = `
+            .protected-content {
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+                -webkit-touch-callout: none;
+                -webkit-tap-highlight-color: transparent;
+            }
+            
+            .protected-content::before {
+                content: attr(data-original);
+                position: absolute;
+                left: -9999px;
+            }
+            
+            @media print {
+                .protected-content {
+                    display: none !important;
+                }
+            }
+        `;
+        document.head.appendChild(style);
+        
+        // 为敏感元素添加保护
+        const sensitiveSelectors = ['table td', '.view-btn', '[data-translate="Sequence"]'];
+        sensitiveSelectors.forEach(selector => {
+            document.querySelectorAll(selector).forEach(el => {
+                el.classList.add('protected-content');
+            });
+        });
+    }
+    
+    // 添加可疑活动
+    addSuspiciousActivity(type, details = {}) {
+        const activity = {
+            type,
+            details,
+            timestamp: Date.now(),
+            userAgent: navigator.userAgent,
+            url: window.location.href
+        };
+        
+        this.state.suspiciousActivities.push(activity);
+        this.state.automationScore += this.getSuspiciousScore(type);
+        
+        this.log(`可疑活动: ${type}`, details);
+        
+        // 触发回调
+        this.options.onSuspiciousActivity(activity);
+        
+        // 保持最近100个活动
+        if (this.state.suspiciousActivities.length > 100) {
+            this.state.suspiciousActivities = this.state.suspiciousActivities.slice(-100);
+        }
+    }
+    
+    // 获取可疑活动分数
+    getSuspiciousScore(type) {
+        const scores = {
+            '快速连续点击': 10,
+            '自动化工具检测': 15,
+            'iframe环境': 8,
+            '开发者工具检测': 20,
+            '异常屏幕尺寸': 25,
+            '请求频率过高': 20,
+            '鼠标移动过于规律': 15,
+            '复制行为': 5,
+            '高分数用户右键': 8
+        };
+        
+        return scores[type] || 5;
+    }
+    
+    // 触发阻止
+    triggerBlock() {
+        if (this.state.isBlocked) return;
+        
+        this.state.isBlocked = true;
+        this.log('触发反爬虫阻止机制');
+        
+        // 显示验证码或阻止界面
+        this.showChallengeModal();
+        
+        // 触发回调
+        this.options.onBlocked(this.state);
+    }
+    
+    // 显示验证界面
+    showChallengeModal() {
+        const modal = document.createElement('div');
+        modal.id = 'anti-crawler-modal';
+        modal.style.cssText = `
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(43, 16, 85, 0.95);
+            z-index: 10001;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Poppins', sans-serif;
+            backdrop-filter: blur(10px);
+        `;
+        
+        const content = document.createElement('div');
+        content.style.cssText = `
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            text-align: center;
+            max-width: 500px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        `;
+        
+        content.innerHTML = `
+            <div style="margin-bottom: 30px;">
+                <i class="fas fa-shield-alt" style="font-size: 60px; color: #e74c3c; margin-bottom: 20px;"></i>
+                <h2 style="color: #2b1055; margin-bottom: 15px;">Security Verification</h2>
+                <p style="color: #666; line-height: 1.6;">
+                    Suspicious activity detected. To protect data security, please complete the following verification:
+                </p>
+            </div>
+            
+            <div style="margin-bottom: 30px;">
+                <label style="display: block; margin-bottom: 10px; color: #2b1055;">
+                    Please enter "SPADE" in the box below to continue:
+                </label>
+                <input type="text" id="verification-input" 
+                       style="width: 100%; padding: 15px; border: 2px solid #ddd; border-radius: 10px; font-size: 16px;"
+                       placeholder="Enter verification code">
+            </div>
+            
+            <div>
+                <button id="verify-btn" 
+                        style="background: #2b1055; color: white; padding: 15px 30px; border: none; border-radius: 10px; cursor: pointer; font-size: 16px; margin-right: 10px;">
+                    Verify
+                </button>
+                <button id="refresh-btn" 
+                        style="background: #6c757d; color: white; padding: 15px 30px; border: none; border-radius: 10px; cursor: pointer; font-size: 16px;">
+                    Refresh Page
+                </button>
+            </div>
+        `;
+        
+        modal.appendChild(content);
+        document.body.appendChild(modal);
+        
+        // 事件处理
+        const verifyBtn = content.querySelector('#verify-btn');
+        const refreshBtn = content.querySelector('#refresh-btn');
+        const input = content.querySelector('#verification-input');
+        
+        verifyBtn.addEventListener('click', () => {
+            if (input.value.toUpperCase() === 'SPADE') {
+                this.state.isBlocked = false;
+                this.state.automationScore = Math.max(0, this.state.automationScore - 30);
+                modal.remove();
+            } else {
+                input.style.borderColor = '#e74c3c';
+                input.value = '';
+                input.placeholder = 'Verification failed, please try again';
+            }
+        });
+        
+        refreshBtn.addEventListener('click', () => {
+            window.location.reload();
+        });
+        
+        input.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') {
+                verifyBtn.click();
+            }
+        });
+        
+        input.focus();
+    }
+    
+    // 默认可疑活动处理器
+    defaultSuspiciousHandler(activity) {
+        console.warn('检测到可疑活动:', activity);
+    }
+    
+    // 默认阻止处理器
+    defaultBlockHandler(state) {
+        console.error('反爬虫保护已激活:', state);
+    }
+    
+    // 日志函数
+    log(message, data = null) {
+        if (this.options.debug) {
+            console.log(`[AntiCrawler] ${message}`, data);
+        }
+    }
+    
+    // 获取统计信息
+    getStats() {
+        return {
+            automationScore: this.state.automationScore,
+            suspiciousActivities: this.state.suspiciousActivities.length,
+            requestCount: this.state.requestCount,
+            isBlocked: this.state.isBlocked,
+            runTime: Date.now() - this.state.startTime,
+            mouseEvents: this.state.mouseEvents.length,
+            keyboardEvents: this.state.keyboardEvents.length
+        };
+    }
+    
+    // 重置保护状态
+    reset() {
+        this.state = {
+            requestCount: 0,
+            lastRequestTime: Date.now(),
+            mouseEvents: [],
+            keyboardEvents: [],
+            scrollEvents: [],
+            lastMouseMove: Date.now(),
+            automationScore: 0,
+            isBlocked: false,
+            startTime: Date.now(),
+            suspiciousActivities: []
+        };
+        
+        this.log('反爬虫保护状态已重置');
+    }
+}
+
+// 导出组件
+window.AntiCrawlerProtection = AntiCrawlerProtection;
+
+// 自动初始化（可选）
+document.addEventListener('DOMContentLoaded', () => {
+    // 在SPADE项目中自动启用反爬虫保护
+    if (typeof window.antiCrawler === 'undefined') {
+        window.antiCrawler = new AntiCrawlerProtection({
+            debug: false, // 生产环境关闭调试
+            maxRequestsPerMinute: 25,
+            maxAutomationScore: 60,
+            enableContentProtection: true,
+            onSuspiciousActivity: (activity) => {
+                // 可以发送到服务器记录
+                console.warn('可疑活动:', activity.type);
+            },
+            onBlocked: (state) => {
+                // 可以发送阻止事件到服务器
+                console.error('用户被阻止:', state.automationScore);
+            }
+        });
+        
+        console.log('SPADE 反爬虫保护已启用');
+    }
+}); 

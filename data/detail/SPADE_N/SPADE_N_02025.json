@@ -1,0 +1,78 @@
+{
+    "SPADE_N_02025": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02025",
+            "Peptide Name": "Gaegurin-5 (Gaegurin 5; GGN5; Brevinin-1EMa; Frogs, amphibians, animals)",
+            "Source": "Glandirana rugosa (Japanese wrinkled frog) (Rana rugosa)",
+            "Family": "Belongs to the frog skin active peptide family (Brevinin subfamily)",
+            "Gene": "GGN5",
+            "Sequence": "FLGALFKVASKVLPSVFCAITKKC",
+            "Sequence Length": 24,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P80399",
+                "http://www.uniprot.org/uniprot/Q91329"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Antiprotozoal"
+            ],
+            "Target Organism": "[Ref.7999137]Gram-positive bacteria:Micrococcus luteus (MIC=2.5 µg/ml), Staphylococcus epidermidis (MIC=10 µg/ml), Bacillus subtilis (MIC=10 µg/ml);Gram-negative bacteria:Klebsiella pneumoniae (MIC=50 µg/ml), Shigella dysentariae (MIC=50 µg/ml), Pseudomonas putida (MIC=50 µg/ml), Pseudomonas aeruginosa (MIC=100 µg/ml), Eshchericia coli (MIC=50 µg/ml);Fungi:Saccharomyces cerevisiae (MIC=50 µg/ml), Candida albicans (MIC=50 µg/ml), Salmonella typhimurium (MIC=200 µg/ml), Proteus mirabilis (MIC>200 µg/ml).",
+            "Hemolytic Activity": "[Ref.7999137] It has 0.19% hemolytic activity at 0.1 μg/ml, 0.31% hemolytic activity at 1 μg/ml, 0.78% hemolytic activity at 10 μg/ml, 1.01% hemolytic activity at 100 μg/ml against human red blood cells",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Cyclization (Cys18 and Cys24)",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C122H200N28O28S2",
+            "Mass": 2571.19,
+            "PI": 9.7,
+            "Net Charge": 4,
+            "Hydrophobicity": 1.14,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Function": "Has low hemolytic activity. Has a broad spectrum of activity against both Gram-positive and Gram-negative bacteria, fungi and protozoa. PTM",
+            "Literature": [
+                {
+                    "Title": "Antimicrobial peptides from the skin of a Korean frog, Rana rugosa.",
+                    "Pubmed ID": "7999137",
+                    "Reference": "Biochem Biophys Res Commun. 1994 Nov 30;205(1)948-954.",
+                    "Author": "Park JM, Jung JE, Lee BJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=7999137"
+                }
+            ],
+            "Frequent Amino Acids": "KAF",
+            "Absent Amino Acids": "DEHMNOQRUWY",
+            "Basic Residues": 4,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 14,
+            "Polar Residues": 15,
+            "Positive Residues": 4,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_05804",
+                    "Similarity": 1.0,
+                    "Sequence": "MFTLKKSLLLLFFLGTISLSLCEEERDEEEKRDVEVEKRFLGALFKVASKVLPSVFCAITKKC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08502",
+                    "Similarity": 1.0,
+                    "Sequence": "FLGALFKVA"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08503",
+                    "Similarity": 1.0,
+                    "Sequence": "FLGALFKVASK"
+                }
+            ]
+        }
+    }
+}

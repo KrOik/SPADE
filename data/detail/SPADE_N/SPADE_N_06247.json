@@ -1,0 +1,73 @@
+{
+    "SPADE_N_06247": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_06247",
+            "Peptide Name": "Hepcidin TH2-3",
+            "Source": "Oreochromis mossambicus",
+            "Family": "Picornaviridae",
+            "Gene": "Not found",
+            "Sequence": "QSHLSLCRWCCNCCRSNKGC",
+            "Sequence Length": 20,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/I3KHK3"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antiviral"
+            ],
+            "Target Organism": "[Ref.30012343]Foot-and-Mouth Disease virus(FMDV):Inhibition of viral replication in BHK-21 cells(IC50=25.1±1.5 µg/ml, IC90=78.5±7.6 µg/ml).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "[Ref.30012343]Baby Hamster Kidney cells BHK-21:CC50=120.2±2.5 µg/ml.",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Cyclization(Cys7 and Cys20)",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C89H145N33O27S6",
+            "Mass": 2301.7,
+            "PI": 8.7,
+            "Net Charge": 4,
+            "Hydrophobicity": -0.39,
+            "Half Life": "Mammalian:0.8 hourYeast:10 minE.coli:>10 hour",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Grouper (Epinephelus coioides) antimicrobial peptide epinecidin-1 exhibits antiviral activity against foot-and-mouth disease virus in vitro.",
+                    "Pubmed ID": "30012343",
+                    "Reference": "Peptides. 2018 Aug;10691-95.",
+                    "Author": "Huang HN, Pan CY, Chen JY.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=30012343"
+                }
+            ],
+            "Frequent Amino Acids": "CSL",
+            "Absent Amino Acids": "ADEFIMOPTUVY",
+            "Basic Residues": 4,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 3,
+            "Polar Residues": 16,
+            "Positive Residues": 4,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_04514",
+                    "Similarity": 0.9473684210526315,
+                    "Sequence": "MHFRFKRQSHLSLCRWCCNCCHNKGCGFCCKF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14747",
+                    "Similarity": 0.9473684210526315,
+                    "Sequence": "QSHLSLCRWCCNCCHNKGCGFCCKF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_16000",
+                    "Similarity": 0.9473684210526315,
+                    "Sequence": "QSHLSLCRYCCNCCRNKGCGYCCKF"
+                }
+            ]
+        }
+    }
+}

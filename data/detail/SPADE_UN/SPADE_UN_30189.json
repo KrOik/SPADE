@@ -1,0 +1,81 @@
+{
+    "SPADE_UN_30189": {
+        "Sequence Information": {
+            "Peptide Name": "Buforin-2 (6-21)",
+            "Sequence": "AGLQFPVGRVHRLLRK",
+            "Sequence Length": 16,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer\n2. DNA / RNA",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P55897",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P55897",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Structure-activity analysis of buforin II, a histone H2A-derived antimicrobial peptide: the proline hinge is responsible for the cell-penetrating ability of buforin II.",
+                    "Pubmed ID": "10890923",
+                    "Reference": "Proc Natl Acad Sci U S A. 2000;97:8245-8250",
+                    "Author": "Park CB, Yi KS, Matsuzaki K, Kim MS, Kim SC",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/10890923"
+                },
+                {
+                    "Title": "Scolopendin 2, a cationic antimicrobial peptide from centipede, and its membrane-active mechanism.",
+                    "Pubmed ID": "25462167",
+                    "Reference": "Biochim Biophys Acta. 2015;1848:634-642",
+                    "Author": "Lee H, Hwang JS, Lee J, Kim JI, Lee DG",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/25462167"
+                },
+                {
+                    "Title": "Antimicrobial activity and protease stability of peptides containing fluorinated amino acids",
+                    "Pubmed ID": "18041836",
+                    "Reference": "J Am Chem Soc. 2007;129:15615-15622",
+                    "Author": "Meng H, Kumar K",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/18041836"
+                }
+            ],
+            "Mass": 1847.22,
+            "PI": 12.0,
+            "Net Charge": 5,
+            "Hydrophobicity": -0.13,
+            "Frequent Amino Acids": "LRG",
+            "Absent Amino Acids": "CDEIMNOSTUWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 9,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_30189",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01083",
+                    "Similarity": 1.0,
+                    "Sequence": "AGRGKQGGKVRAKAKTRSSRAGLQFPVGRVHRLLRKGNY"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01084",
+                    "Similarity": 1.0,
+                    "Sequence": "TRSSRAGLQFPVGRVHRLLRK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02042",
+                    "Similarity": 1.0,
+                    "Sequence": "SGRGKTGGKARAKAKTRSSRAGLQFPVGRVHRLLRKGNYAHRVGAGAPVYL"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:0% Hemolysis=100 µM,Human erythrocytes:50% Hemolysis=400 µg/ml",
+            "Target Organism": "Bacillus subtilis(MIC=4µg/ml),Staphylococcus aureus(MIC=8µg/ml),Streptococcus mutans(MIC=4µg/ml),Streptococcus pneumoniae(MIC=4µg/ml),Escherichia coli(MIC=4µg/ml),Salmonella typhimurium(MIC=2µg/ml),Serratia marcescens(MIC=2µg/ml),Pseudomonas putida(MIC=4µg/ml),Candida albicans(MIC=8µg/ml),Cryptococcus neoformans(MIC=8µg/ml),Saccharomyces cerevisiae(MIC=8µg/ml),Enterococcus faecium ATCC 19434(MIC=25.0µM),Staphylococcus aureus ATCC 25923(MIC=25.0µM),Staphylococcus aureus 1(MIC=12.5µM),Staphylococcus aureus(MIC=25µM),Escherichia coli O157:H7 ATCC 43895(MIC=6.3µM),Salmonella typhimurium ATCC 19430(MIC=6.3µM),Pseudomonas aeruginosa ATCC 27853(MIC=12.5µM),Pseudomonas aeruginosa 1(MIC=6.3µM),Pseudomonas aeruginosa(MIC=12.5µM),Candida albicans ATCC 90028(MIC=12.5µM),Candida parapsilosis ATCC 22019(MIC=25.0µM),Trichosporon beigelii KCTC 7707(MIC=12.5µM),Trichophyton rubrum KCTC 6345(MIC=12.5µM),Escherichia coli ATCC 23716(MIC=>256µg/ml),Bacillus subtilis SMY(MIC=>256µg/ml)"
+        }
+    }
+}

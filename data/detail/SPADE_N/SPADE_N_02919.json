@@ -1,0 +1,78 @@
+{
+    "SPADE_N_02919": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02919",
+            "Peptide Name": "Cryptdin related sequence peptide (CRS4C-1d; Rodents, mammals, animals)",
+            "Source": "Mus musculus (Mouse)",
+            "Family": "Not found",
+            "Gene": "Defa-rs4",
+            "Sequence": "LQDAAVGWGRRCPQCPRCPSCPSCPRCPRCPRCKCNPK",
+            "Sequence Length": 38,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q70LV9",
+                "http://www.uniprot.org/uniprot/Q70LV5",
+                "http://www.uniprot.org/uniprot/Q70LV3"
+            ],
+            "Protein Existence": "Predicted",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-negative bacterium:Salmonella typhimurium ATCC 14028;Gram-positive bacteria:Enterococcus faecalis, Listeria monocytogenes type 1 clinical isolate, Streptococcus pyogenes clinical isolate.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Lipopolysaccharide (LPS)-binding",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C171H282N62O46S9",
+            "Mass": 4231.04,
+            "PI": 9.24,
+            "Net Charge": 7,
+            "Hydrophobicity": -0.81,
+            "Half Life": "Mammalian:5.5 hourYeast:3 minE.coli:2 min",
+            "Function": "Antimicrobial peptide that defense response to Gram-negative bacterium and Gram-positive bacterium.",
+            "Mechanism of action": "CRS peptides were able to bind LPS and to reduce its immunostimulatory activity, leading to a substantial reduction in cellular activation.",
+            "Literature": [
+                {
+                    "Title": "Increased diversity of intestinal antimicrobial peptides by covalent dimer formation.",
+                    "Pubmed ID": "15235601",
+                    "Reference": "Nat Immunol. 2004 Aug;5(8)836-843.",
+                    "Author": "Hornef MW, Pütsep K, Karlsson J, Refai E, Andersson M.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=15235601"
+                }
+            ],
+            "Frequent Amino Acids": "CPR",
+            "Absent Amino Acids": "EFHIMOTUY",
+            "Basic Residues": 8,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 25,
+            "Positive Residues": 8,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02918",
+                    "Similarity": 0.9736842105263158,
+                    "Sequence": "LQDAALGWGRRCPQCPRCPSCPSCPRCPRCPRCKCNPK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04210",
+                    "Similarity": 0.9736842105263158,
+                    "Sequence": "MKKLVLLFALVLLAFQVQADSIQNTDEETKTEEQPGEKDQAVSVSFGDPQGSALQDAALGWGRRCPQCPRCPSCPSCPRCPRCPRCKCNPK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02914",
+                    "Similarity": 0.9696969696969697,
+                    "Sequence": "LGWGRRCPQCPRCPSCPSCPRCPRCPRCKCNPK"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "SPADE_N_02545": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02545",
+            "Peptide Name": "Tachystatin-B1 (crabs, Arthropods, animals)",
+            "Source": "Tachypleus tridentatus (Japanese horseshoe crab)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "YVSCLFRGARCRVYSGRSCCFGYYCRRDFPGSIFGTCSRRNF",
+            "Sequence Length": 42,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P0C1Z8"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Antifungal"
+            ],
+            "Target Organism": "Gram-positive bacterium:Staphylococcus aureus (IC50=7.4 µg/ml).Fungi:Candida albicans (IC50=3.0 µg/ml), Pichia pastoris (IC50=0.1 µg/ml).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Chitin-binding",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C214H319N67O56S6",
+            "Mass": 4918.63,
+            "PI": 9.61,
+            "Net Charge": 7,
+            "Hydrophobicity": -0.21,
+            "Half Life": "Mammalian:2.8 hourYeast:10 minE.coli:2 min",
+            "Function": "Exhibits stronger antimicrobial activity against the Gram-positive bacterium S. aureus and fungi C. albicans and P. pastoris than Gram-negative bacterium E. coli. Binds to chitin (4.3 µM are required to obtain 50% of binding). Does not cause hemolysis on sheep erythrocytes. Has no blocking activity on the P-type calcium channel.",
+            "Tissue specificity": "Granular hemocytes, small secretory granules.",
+            "Domain": "The presence of a 'disulfide through disulfide knot' structurally defines this protein as a knottin.",
+            "Literature": [
+                {
+                    "Title": "Horseshoe crab hemocyte-derived antimicrobial polypeptides, tachystatins, with sequence similarity to spider neurotoxins.",
+                    "Pubmed ID": "10473569",
+                    "Reference": "J Biol Chem. 1999 Sep 10;274(37)26172-26178.",
+                    "Author": "Osaki T, Omotezako M, Nagayama R, Hirata M, Iwanaga S, Kasahara J, Hattori J, Ito I, Sugiyama H, Kawabata S.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=10473569"
+                },
+                {
+                    "Title": "The solution structure of horseshoe crab antimicrobial peptide tachystatin B with an inhibitory cystine-knot motif.",
+                    "Pubmed ID": "17394123",
+                    "Reference": "J Pept Sci. 2007 Apr;13(4)269-279.",
+                    "Author": "Fujitani N, Kouno T, Nakahara T, Takaya K, Osaki T, Kawabata S, Mizuguchi M, Aizawa T, Demura M, Nishimura S, Kawano K.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=17394123"
+                }
+            ],
+            "Frequent Amino Acids": "RCF",
+            "Absent Amino Acids": "EHKMOQUW",
+            "Basic Residues": 8,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 15,
+            "Polar Residues": 28,
+            "Positive Residues": 8,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_08110",
+                    "Similarity": 0.9523809523809523,
+                    "Sequence": "YVSCLFRGARCEVYSGRSCCFGYYCRRDFPGSYFGTCSRRNF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02546",
+                    "Similarity": 0.9523809523809523,
+                    "Sequence": "YITCLFRGARCRVYSGRSCCFGYYCRRDFPGSIFGTCSRRNF"
+                }
+            ]
+        }
+    }
+}

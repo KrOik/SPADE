@@ -1,0 +1,89 @@
+{
+    "SPADE_UN_11368": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_11368",
+            "Peptide Name": "Plantaricin A(Bacteriocin)",
+            "Source": "Lactobacillus plantarum (strain ATCC BAA-793 / NCIMB 8826 / WCFS1)",
+            "Family": "Belongs to the class IIb bacteriocin",
+            "Gene": "plnA",
+            "Sequence": "AYSLQMGATAIKQVKKLFKKWGW",
+            "Sequence Length": 23,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P80214"
+            ],
+            "Protein Existence": "",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+"
+            ],
+            "Target Organism": "Gram-positive",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Active plantaricin A is composed of an alpha chain and a beta chain. The sequence of alpha chain and beta chain, however, are essential identical with the only difference being one additional Ala at the N-terminus of chain b. The 3D structure of chain a in DPC micelles has been determined by NMR spectroscopy (J Biol Chem. 2005 Jun 17;280(24):22945-50). The helical region (residues 12-21) are good for membrane targeting as well as the ph",
+            "Formula": "C128H200N32O29S",
+            "Mass": 2683.22,
+            "PI": 10.3,
+            "Net Charge": 5,
+            "Hydrophobicity": -0.24,
+            "Half Life": "Mammalian:4.4 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "Active plantaricin A is composed of an alpha chain and a beta chain.",
+            "Literature": [
+                {
+                    "Title": "Purification and characterization of plantaricin A, a Lactobacillus plantarum bacteriocin whose activity depends on the action of two peptides.",
+                    "Pubmed ID": "8245827",
+                    "Reference": "J Gen Microbiol. 1993 Sep;139(9)1973-8.",
+                    "Author": "Nissen-Meyer J, Larsen AG, Sletten K, Daeschel M, Nes IF.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=8245827"
+                },
+                {
+                    "Title": "The gene encoding plantaricin A, a bacteriocin from Lactobacillus plantarum C11, is located on the same transcription unit as an agr-like regulatory system.",
+                    "Pubmed ID": "",
+                    "Author": "Nes F.I.,Nissen-Meyer J.,Havarstein L.S.,Diep B.D."
+                },
+                {
+                    "Title": "Characterization of the locus responsible for the bacteriocin production in Lactobacillus plantarum C11.",
+                    "Pubmed ID": "",
+                    "Author": "Nes I.F.,Havarstein L.S.,Diep D.B."
+                },
+                {
+                    "Title": "Complete genome sequence of Lactobacillus plantarum WCFS1.",
+                    "Pubmed ID": "",
+                    "Author": "Kuipers O.P.,Molenaar D.,van Kranenburg R.,Boekhorst J.,Kleerebezem M."
+                }
+            ],
+            "Frequent Amino Acids": "KAG",
+            "Absent Amino Acids": "CDEHNOPRU",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 14,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06136",
+                    "Similarity": 1.0,
+                    "Sequence": "MKIQIKGMKQLSNKEMQKIVGGKSSAYSLQMGATAIKQVKKLFKKWGW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15617",
+                    "Similarity": 1.0,
+                    "Sequence": "KSSAYSLQMGATAIKQVKKLFKKWGW"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_00011",
+                    "Similarity": 1.0,
+                    "Sequence": "KSSAYSLQMGATAIKQVKKLFKKWGW"
+                }
+            ]
+        }
+    }
+}

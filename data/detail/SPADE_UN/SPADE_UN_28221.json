@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_28221": {
+        "Sequence Information": {
+            "Peptide Name": "Proline rich protein (1-19), Cg-Prp (1-19)",
+            "Sequence": "ILENLLARSTNEDREGSIF",
+            "Sequence Length": 19,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "C4NYD0",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/C4NYD0",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Oyster hemocytes express a proline-rich peptide displaying synergistic antimicrobial activity with a defensin.",
+                    "Pubmed ID": "18962895",
+                    "Reference": "Mol Immunol. 2009;46:516-522",
+                    "Author": "Gueguen Y, Bernard R, Julie F, Paulina S, Delphine DG, Franck V, Philippe B, Evelyne B",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/18962895"
+                }
+            ],
+            "Mass": 2177.37,
+            "PI": 4.41,
+            "Net Charge": -2,
+            "Hydrophobicity": -0.41,
+            "Frequent Amino Acids": "ELI",
+            "Absent Amino Acids": "CHKMOPQUVWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 4,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 12,
+            "Positive Residues": 2,
+            "Negative Residues": 4,
+            "SPADE ID": "SPADE_UN_28221",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03523",
+                    "Similarity": 1.0,
+                    "Sequence": "ILENLLARSTNEDREGSIFDTGPIRRPKPRPRPRPEG"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_28221",
+                    "Similarity": 1.0,
+                    "Sequence": "ILENLLARSTNEDREGSIF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08618",
+                    "Similarity": 0.7142857142857143,
+                    "Sequence": "VLNENLLA"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Micrococcus luteus CIP 5345(MIC=>200µM),Escherichia coli SBS 363(MIC=>200µM),Fusarium oxysporum(MIC=>200µM),Botrytis cinerea(MIC=>200µM)"
+        }
+    }
+}

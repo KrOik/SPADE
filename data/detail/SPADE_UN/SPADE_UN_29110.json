@@ -1,0 +1,69 @@
+{
+    "SPADE_UN_29110": {
+        "Sequence Information": {
+            "Peptide Name": "Protegrin 1 / Neutrophil peptide 1 (5-16)[C4T][C9T]",
+            "Sequence": "LCYTRRRFTVCV",
+            "Sequence Length": 12,
+            "Biological Activity": [
+                "Anti-Gram-"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P32194",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P32194",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                },
+                {
+                    "uniprotId": "I3LU31",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/I3LU31",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Protegrin structure and activity against Neisseria gonorrhoeae",
+                    "Pubmed ID": "9009324",
+                    "Reference": "Infect Immun. 1997;65:636-639",
+                    "Author": "Qu XD, Harwig SS, Shafer WM, Lehrer RI",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/9009324"
+                }
+            ],
+            "Mass": 1516.83,
+            "PI": 9.69,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.32,
+            "Frequent Amino Acids": "RCT",
+            "Absent Amino Acids": "ADEGHIKMNOPQSUW",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 6,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_29110",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_12214",
+                    "Similarity": 1.0,
+                    "Sequence": "RGGRLCYRRRFVCVGR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14603",
+                    "Similarity": 1.0,
+                    "Sequence": "RGGRLCYTRRRFTVCVGR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_19822",
+                    "Similarity": 1.0,
+                    "Sequence": "RGGRLCYRRRFVCVGR"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Neisseria gonorrhoeae F62(MIC=0.48±0.03µM),Neisseria gonorrhoeae FA19(MIC=2.99±0.19µM)"
+        }
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "SPADE_UN_21709": {
+        "Sequence Information": {
+            "Peptide Name": "TOAC-Tritrpticin",
+            "Sequence": "XVRRFPWWWPFLRR",
+            "Sequence Length": 14,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P51524",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P51524",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "A Comparison of Activity, Toxicity, and Conformation of Tritrpticin and Two TOAC-labeled Analogues. Effects on the Mechanism of Action.",
+                    "Pubmed ID": "31672543",
+                    "Reference": "Biochim Biophys Acta. 2019;:183110",
+                    "Author": "Bozelli Jr JC, Salay LC, Arcisio-Miranda M, Procopio J, Riciluca KCT, Junior PIS, Nakaie CR, Schreier S",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/31672543"
+                }
+            ],
+            "SPADE ID": "SPADE_UN_21709",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06501",
+                    "Similarity": 1.0,
+                    "Sequence": "VRRFPPFLRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06502",
+                    "Similarity": 1.0,
+                    "Sequence": "VRRFPWWPFLRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06507",
+                    "Similarity": 1.0,
+                    "Sequence": "VRRFPWWPFLRR"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:7% Hemolysis=190 µM",
+            "Target Organism": "Micrococcus luteus(MIC=<0.38±0.01µM),Escherichia coli D31(MIC=4±2µM)"
+        }
+    }
+}

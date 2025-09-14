@@ -1,0 +1,73 @@
+{
+    "SPADE_N_02616": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02616",
+            "Peptide Name": "Mastoparan PDD-B",
+            "Source": "Polistes dorsalis dorsolis",
+            "Family": "Belongs to the mastoparan family",
+            "Gene": "Not found",
+            "Sequence": "INWLKLGKKILGAL",
+            "Sequence Length": 14,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.18375018]Gram-positive bacterium:Bacillus subtilis (MIC=70 µM);Gram-negative bacterium:Escherichia coli (MIC=15.5 µM).",
+            "Hemolytic Activity": "[Ref.18375018]IC50=45 μM against rat red blood cells",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C76H131N19O16",
+            "Mass": 1566.97,
+            "PI": 10.3,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.65,
+            "Half Life": "Mammalian:20 hourYeast:30 minE.coli:>10 hour",
+            "Function": "Has antibacterial activity. PDD-B has hemolytic activity.",
+            "Literature": [
+                {
+                    "Title": "New potent antimicrobial peptides from the venom of Polistinae wasps and their analogs.",
+                    "Pubmed ID": "18375018",
+                    "Reference": "Peptides. 2008 Jun;29(6)992-1003.",
+                    "Author": "Cerovský V, Slaninová J, Fucík V, Hulacová H, Borovicková L, Jezek R, Bednárová L.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=18375018"
+                }
+            ],
+            "Frequent Amino Acids": "LKG",
+            "Absent Amino Acids": "CDEFHMOPQRSTUVY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 5,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_13494",
+                    "Similarity": 1.0,
+                    "Sequence": "ALQFIQNTASGALYYNTKTHKYQYQQTSGAMGAAINVFNQQGINW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08507",
+                    "Similarity": 1.0,
+                    "Sequence": "LGALFKVASKVLP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09435",
+                    "Similarity": 1.0,
+                    "Sequence": "LGALAGKVAGTVATYANRYV"
+                }
+            ]
+        }
+    }
+}

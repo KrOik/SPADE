@@ -1,0 +1,82 @@
+{
+    "SPADE_UN_00662": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 2007/0254006 A1",
+                "Patent Link": "http://www.lens.org/lens/patent/US_2007_0254006_A1",
+                "Patent Type": "Patent Application",
+                "Publication Date": "2007-11-1",
+                "Family Info": "CA2655168A1,EP1991245A2,WO2007095393A2,WO2007095393A3,WO2007095393A9",
+                "Patent Title": "Medical Devices and Coatings with Non-Leaching Antimicrobial Peptides.",
+                "Abstract": "Antimicrobial peptides enable an alternate approach to developing antimicrobial coatings due to their targeting of the membranes of the bacteria. High specific activity is achieved by orienting the peptides so that the antimicrobial ends of the peptides maximally contact the bacteria. In one embodiment, one end of the peptide is covalently attached directly to the substrate. In another embodiment, the peptides are immobilized on the substrate using a coupling agent or tether. Non-covalent methods include coating the peptide onto the substrate or physiochemically immobilizing the peptides on the substrate using highly specific interactions, such as the biotin/avidin or streptavidin system. The compositions are substantially non-leaching, antifouling, and non-hemolytic. The immobilized peptides retain sufficient flexibility and mobility to interact with and de endocytosed by the bacteria, viruses, and/or fungi upon exposure. Immobilizing the peptides to the substrate reduces concerns regarding toxic"
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_00662",
+            "Peptide Name": "D51 (Rational design peptide)",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "FLFRVASKVFPALIGKFKKK",
+            "Sequence Length": 20,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+"
+            ],
+            "Target Organism": "Gram-positive bacteria:Staphylococcus aureus (MIC=16 µg/ml), Bacillus anthracis (MIC=16 µg/ml).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C116H186N28O22",
+            "Mass": 2324.89,
+            "PI": 11.39,
+            "Net Charge": 6,
+            "Hydrophobicity": 0.42,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Function": "Has strong bacteriostatic activity against several species of bacteria, including Staphylococcus aureus and Bacillus anthracis.",
+            "Literature": [
+                {
+                    "Title": "A linguistic model for the rational design of antimicrobial peptides.",
+                    "Pubmed ID": "17051220",
+                    "Reference": "Nature. 2006 Oct 19;443(7113)867-869.",
+                    "Author": "Loose C, Jensen K, Rigoutsos I, Stephanopoulos G.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=17051220"
+                }
+            ],
+            "Frequent Amino Acids": "KFA",
+            "Absent Amino Acids": "CDEHMNOQTUWY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 11,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_14666",
+                    "Similarity": 1.0,
+                    "Sequence": "KKKKLLLPFLFLF"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_14683",
+                    "Similarity": 1.0,
+                    "Sequence": "KKKKLLLAFLFLF"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_14685",
+                    "Similarity": 1.0,
+                    "Sequence": "KKKKLLLPFYFLF"
+                }
+            ]
+        }
+    }
+}

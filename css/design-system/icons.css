@@ -1,0 +1,272 @@
+/* SPADE 设计系统 - 图标组件 */
+
+/* ==================== 图标基础样式 ==================== */
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  fill: currentColor;
+  stroke: currentColor;
+  line-height: 1;
+  flex-shrink: 0;
+  vertical-align: middle;
+}
+
+/* 图标尺寸 */
+.icon--xs {
+  width: 12px;
+  height: 12px;
+}
+
+.icon--sm {
+  width: 16px;
+  height: 16px;
+}
+
+.icon--md {
+  width: 20px;
+  height: 20px;
+}
+
+.icon--lg {
+  width: 24px;
+  height: 24px;
+}
+
+.icon--xl {
+  width: 32px;
+  height: 32px;
+}
+
+.icon--2xl {
+  width: 48px;
+  height: 48px;
+}
+
+.icon--3xl {
+  width: 64px;
+  height: 64px;
+}
+
+/* 图标颜色变体 */
+.icon--primary {
+  color: var(--primary-color);
+}
+
+.icon--secondary {
+  color: var(--secondary-color);
+}
+
+.icon--success {
+  color: var(--success);
+}
+
+.icon--warning {
+  color: var(--warning);
+}
+
+.icon--error {
+  color: var(--error);
+}
+
+.icon--info {
+  color: var(--info);
+}
+
+.icon--muted {
+  color: var(--text-tertiary);
+}
+
+/* ==================== 图标包装器 ==================== */
+.icon-wrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-md);
+  background-color: var(--gray-100);
+  padding: var(--spacing-2);
+}
+
+.icon-wrapper--primary {
+  background-color: var(--primary-100);
+  color: var(--primary-color);
+}
+
+.icon-wrapper--success {
+  background-color: var(--success-light);
+  color: var(--success-dark);
+}
+
+.icon-wrapper--warning {
+  background-color: var(--warning-light);
+  color: var(--warning-dark);
+}
+
+.icon-wrapper--error {
+  background-color: var(--error-light);
+  color: var(--error-dark);
+}
+
+.icon-wrapper--info {
+  background-color: var(--info-light);
+  color: var(--info-dark);
+}
+
+/* 包装器尺寸 */
+.icon-wrapper--sm {
+  padding: var(--spacing-1);
+}
+
+.icon-wrapper--lg {
+  padding: var(--spacing-3);
+}
+
+/* 圆形包装器 */
+.icon-wrapper--rounded {
+  border-radius: var(--radius-full);
+}
+
+/* ==================== 图标按钮 ==================== */
+.icon-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: transparent;
+  padding: var(--spacing-2);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  color: var(--text-secondary);
+  transition: var(--transition-colors) var(--duration-200) var(--ease-out),
+              var(--transition-transform) var(--duration-200) var(--ease-out);
+}
+
+.icon-btn:hover {
+  background-color: var(--gray-100);
+  color: var(--text-primary);
+  transform: scale(1.05);
+}
+
+.icon-btn:focus {
+  outline: none;
+  box-shadow: var(--shadow-focus);
+}
+
+.icon-btn:active {
+  transform: scale(0.95);
+}
+
+.icon-btn--primary:hover {
+  background-color: var(--primary-100);
+  color: var(--primary-color);
+}
+
+/* ==================== 带文本的图标 ==================== */
+.icon-text {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-2);
+}
+
+.icon-text--reverse {
+  flex-direction: row-reverse;
+}
+
+.icon-text--vertical {
+  flex-direction: column;
+  text-align: center;
+  gap: var(--spacing-1);
+}
+
+/* ==================== 特殊效果图标 ==================== */
+.icon--spin {
+  animation: icon-spin var(--duration-1000) var(--ease-linear) infinite;
+}
+
+.icon--pulse {
+  animation: icon-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.icon--bounce {
+  animation: icon-bounce 1s infinite;
+}
+
+/* 动画定义 */
+@keyframes icon-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes icon-pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: .5;
+  }
+}
+
+@keyframes icon-bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: none;
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+/* ==================== SPADE 特定图标样式 ==================== */
+.icon--amp {
+  color: var(--amp-blue);
+}
+
+.icon--peptide {
+  color: var(--peptide-green);
+}
+
+.icon--research {
+  color: var(--research-orange);
+}
+
+.icon--analysis {
+  color: var(--analysis-purple);
+}
+
+/* ==================== 响应式图标 ==================== */
+@media (max-width: 768px) {
+  .icon-text {
+    gap: var(--spacing-1);
+  }
+  
+  .icon-wrapper {
+    padding: var(--spacing-1_5);
+  }
+  
+  .icon-btn {
+    padding: var(--spacing-1_5);
+  }
+}
+
+/* ==================== 无障碍访问 ==================== */
+.icon[aria-hidden="true"] {
+  pointer-events: none;
+}
+
+.icon:not([aria-hidden]) {
+  /* 如果图标有语义意义，确保它可以被屏幕阅读器访问 */
+}
+
+/* 减少动画偏好设置 */
+@media (prefers-reduced-motion: reduce) {
+  .icon--spin,
+  .icon--pulse,
+  .icon--bounce {
+    animation: none;
+  }
+} 

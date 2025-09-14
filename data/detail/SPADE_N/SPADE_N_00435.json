@@ -1,0 +1,75 @@
+{
+    "SPADE_N_00435": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00435",
+            "Peptide Name": "Putative defensin-like protein 30 (Plant defensin)",
+            "Source": "Arabidopsis thaliana (Mouse-ear cress)",
+            "Family": "Belongs to the DEFL family",
+            "Gene": "Not found",
+            "Sequence": "KSMAKAQGGWYLVEGLCSKFPDCNKHCKEQGFLGGQCLKLGVNMLCFCIHT",
+            "Sequence Length": 51,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q2V3S0"
+            ],
+            "Protein Existence": "Homology",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antifungal"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C247H387N67O67S8",
+            "Mass": 5623.64,
+            "PI": 8.63,
+            "Net Charge": 5,
+            "Hydrophobicity": -0.0,
+            "Half Life": "Mammalian:1.3 hourYeast:3 minE.coli:2 min",
+            "Caution": "Could be the product of a pseudogene. Lacks the signal peptide, which is a conserved features of the family.",
+            "Literature": [
+                {
+                    "Title": "Genome organization of more than 300 defensin-like genes in Arabidopsis.",
+                    "Pubmed ID": "15955924",
+                    "Reference": "Plant Physiol. 2005 Jun;138(2)600-610.",
+                    "Author": "Silverstein KA, Graham MA, Paape TD, VandenBosch KA.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=15955924"
+                },
+                {
+                    "Title": "Structural analysis of Arabidopsis thaliana chromosome 3. II. Sequence features of the 4,251,695 bp regions covered by 90 P1, TAC and BAC clones.",
+                    "Pubmed ID": "10907853",
+                    "Reference": "DNA Res. 2000 Jun 30;7(3)217-221.",
+                    "Author": "Kaneko T, Katoh T, Sato S, Nakamura A, Asamizu E, Tabata S.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=10907853"
+                }
+            ],
+            "Frequent Amino Acids": "GCK",
+            "Absent Amino Acids": "ORU",
+            "Basic Residues": 8,
+            "Acidic Residues": 3,
+            "Hydrophobic Residues": 19,
+            "Polar Residues": 27,
+            "Positive Residues": 8,
+            "Negative Residues": 3,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00434",
+                    "Similarity": 0.7254901960784313,
+                    "Sequence": "KSMVEVNAAHKWYIVEGLCSKFPDCNKHCKEQKFPGGTCLKLGVNMMCTCIYS"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_14796",
+                    "Similarity": 0.5714285714285714,
+                    "Sequence": "KAKAKAKAKAKAKAKAKAKAK"
+                }
+            ]
+        }
+    }
+}

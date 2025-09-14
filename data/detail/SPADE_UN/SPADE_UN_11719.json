@@ -1,0 +1,81 @@
+{
+    "SPADE_UN_11719": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_11719",
+            "Peptide Name": "StigA6",
+            "Source": "Synthetic construct",
+            "Family": "Derived from scorpion venom peptide",
+            "Gene": "Not found",
+            "Sequence": "FFSLIPKLVKGLISAFK",
+            "Sequence Length": 17,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Antiparasitic",
+                "Antiproliferative"
+            ],
+            "Target Organism": "[Ref.29670004] Gram-positive bacteria:Staphylococcus aureus ATCC 29213 (MIC=2.34 μM), Staphylococcus epidermidis ATCC 122225 (MIC=9.38 μM), Enterococcus faecalis ATCC 4028 (MIC=1.17 μM);Gram-negative bacteria:Escherichia coli ATCC 25922 (MIC=4.69 μM), Enterobacter cloacae ATCC 13047 (MIC=18.75 μM), Pseudomonas aeruginosa ATCC 27853 (MIC=9.38 μM);yeasts:Candida albicans ATCC 90028 (MIC=9.38 μM), Candida krusei ATCC 6258 (MIC=37.5 μM), Candida glabrata ATCC 90030 (MIC=18.75 μM);StigA6 inhibit 100% of the epimastigote forms of Trypanosoma cruzi growth at 2.5 µM;HeLa cell line:IC50=14.01 µM",
+            "Hemolytic Activity": "[Ref.29670004] Hemolysis 0% at 1.17 μM, hemolysis 2% at 2.34 μM, hemolysis 15% at 4.69 μM, hemolysis 27% at 9.38 μM, hemolysis 30% at 18.75 μM, hemolysis 30% at 37.50 μM, hemolysis 27% at 75.00 μM against human red blood cells",
+            "Cytotoxicity": "[Ref.29670004] The cell viability of HeLa cell lines is 19%, 15%, 11%, 29%, 9%, 13% and 8% at peptide concentrations of 2, 4, 8, 10, 15, 20 and 40 μM.The cell viability of 3T3 cell lines is 81%, 73%, 69%, 61%, 51%, 20% and 15% at peptide concentrati",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "The peptide adopts helical conformation with some random structure at the N- and C-terminals. In sodium phosphate buffer (PBS) and water they have a predominantly random structure, but in 20 mM sodium dodecyl sulfate (SDS) and 2,2,2-trifluoroethanol (TFE) they have a typical alpha-helix structure.",
+            "Formula": "C96H154N20O20",
+            "Mass": 1908.37,
+            "PI": 10.3,
+            "Net Charge": 3,
+            "Hydrophobicity": 1.15,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Function": "Antibacterial activity against the Gram-positive and Gram-negative bacteria. Antifungal activity against yeasts.Antiparasitic Activity against epimastigote forms of Trypanosoma cruzi. Antiproliferative Activity against HeLa cells.",
+            "Literature": [
+                {
+                    "Title": "Analogs of the Scorpion Venom Peptide Stigmurin Structural Assessment, Toxicity, and Increased Antimicrobial Activity.",
+                    "Pubmed ID": "29670004",
+                    "Reference": "Toxins (Basel). 2018 Apr 18;10(4). pii E161.",
+                    "Author": "Parente AMS, Daniele-Silva A, Furtado AA, Melo MA, Lacerda AF, Queiroz M, Moreno C, Santos E, Rocha HAO, Barbosa EG, Carvalho E, Silva-Júnior AA, Silva MS, Fernandes-Pedrosa MF.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=29670004"
+                },
+                {
+                    "Title": "Analogs of the Scorpion Venom Peptide Stigmurin: Structural Assessment, Toxicity, and Increased Antimicrobial Activity",
+                    "Pubmed ID": "",
+                    "Author": "Parente AMS, Daniele-Silva A, Furtado AA, Melo MA, Lacerda AF, Queiroz M, Moreno C, Santos EC, Rocha"
+                }
+            ],
+            "Frequent Amino Acids": "FKL",
+            "Absent Amino Acids": "CDEHMNOQRTUWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 7,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_11720",
+                    "Similarity": 0.9411764705882353,
+                    "Sequence": "FFKLIPKLVKGLISAFK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05855",
+                    "Similarity": 0.8823529411764706,
+                    "Sequence": "FFSLIPSLVGGLISAFK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_24442",
+                    "Similarity": 0.8823529411764706,
+                    "Sequence": "FFSLIPKLVGKLISAFK"
+                }
+            ]
+        }
+    }
+}

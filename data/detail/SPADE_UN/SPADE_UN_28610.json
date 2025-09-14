@@ -1,0 +1,59 @@
+{
+    "SPADE_UN_28610": {
+        "Sequence Information": {
+            "Peptide Name": "Thymopentin, TP-5",
+            "Sequence": "RKDVY",
+            "Sequence Length": 5,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Synthetic modifications of the immunomodulating peptide thymopentin to confer anti-mycobacterial activity.",
+                    "Pubmed ID": "24411680",
+                    "Reference": "Biomaterials. 2014;35:3102-3109",
+                    "Author": "Wang Y, Ke XY, Khara JS, Bahety P, Liu S, Seow SV, Yang YY, Ee PL",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/24411680"
+                }
+            ],
+            "Mass": 679.76,
+            "PI": 8.59,
+            "Net Charge": 1,
+            "Hydrophobicity": -1.8,
+            "Frequent Amino Acids": "DKR",
+            "Absent Amino Acids": "ACEFGHILMNOPQSTUW",
+            "Basic Residues": 2,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 1,
+            "Polar Residues": 4,
+            "Positive Residues": 2,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_UN_28610",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01116",
+                    "Similarity": 1.0,
+                    "Sequence": "IPWKLPATFRPVERPFSKPFCRKD"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09816",
+                    "Similarity": 1.0,
+                    "Sequence": "RKDVYRRRRRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09817",
+                    "Similarity": 1.0,
+                    "Sequence": "RRRRRRRKDVY"
+                }
+            ],
+            "Hemolytic Activity": "Rat erythrocytes:50% Hemolysis=>2000 µg/ml",
+            "Target Organism": "Mycobacterium smegmatis ATCC 14468(MIC=>1000µg/ml)"
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "SPADE_N_00058": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00058",
+            "Peptide Name": "Ubericin-A (Bacteriocin)",
+            "Source": "Streptococcus uberis (Gram-positive bacteria)",
+            "Family": "Belongs to the class IIa bacteriocin",
+            "Gene": "ubaA",
+            "Sequence": "KTVNYGNGLYCNQKKCWVNWSETATTIVNNSIMNGLTGGNAGWHSGGRA",
+            "Sequence Length": 49,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/A9Q0M7"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+"
+            ],
+            "Target Organism": "Gram-positive bacteria:Listeria spp., Enterococcus hirae, Enterococcus faecalis ATCC 19433, Streptococcus bovis 83, Streptococcus uberis 42 and Lactococcus lactis.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C227H347N69O71S3",
+            "Mass": 5274.8,
+            "PI": 9.24,
+            "Net Charge": 4,
+            "Hydrophobicity": -0.56,
+            "Half Life": "Mammalian:1.3 hourYeast:3 minE.coli:2 min",
+            "Literature": [
+                {
+                    "Title": "Ubericin A, a class IIa bacteriocin produced by Streptococcus uberis.",
+                    "Pubmed ID": "17933926",
+                    "Reference": "Appl Environ Microbiol. 2007 Dec;73(23)7763-7766.",
+                    "Author": "Heng NC, Burtenshaw GA, Jack RW, Tagg JR.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=17933926"
+                }
+            ],
+            "Frequent Amino Acids": "GNT",
+            "Absent Amino Acids": "DFOPU",
+            "Basic Residues": 5,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 16,
+            "Polar Residues": 32,
+            "Positive Residues": 5,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06158",
+                    "Similarity": 1.0,
+                    "Sequence": "MNTIEKFENIKLFSLKKIIGGKTVNYGNGLYCNQKKCWVNWSETATTIVNNSIMNGLTGGNAGWHSGGRA"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00065",
+                    "Similarity": 0.627906976744186,
+                    "Sequence": "KNYGNGVHCTKKGCSVDWGYAWTNIANNSVMNGLTGGNAGWHN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00055",
+                    "Similarity": 0.6111111111111112,
+                    "Sequence": "KNYGNGVHCTKKGCSVDWGYAATNIANNSVMNGLTG"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "SPADE_N_01541": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01541",
+            "Peptide Name": "Dermaseptin-like peptide (SmDLP; Frogs, amphibians, animals)",
+            "Source": "Schistosoma mansoni (Blood fluke)",
+            "Family": "Belongs to the frog skin active peptide family (Dermaseptin subfamily)",
+            "Gene": "Not found",
+            "Sequence": "DLWNSIKDMAAAAGRAALNAVTGMVNQ",
+            "Sequence Length": 27,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P83914"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+"
+            ],
+            "Target Organism": "[Swiss_Prot Entry P83914]Gram-positive bacterium:Micrococcus luteus;Yeast:Candida albicans.",
+            "Hemolytic Activity": "[Ref:6539015]Show hemolytic activity on human and duck erythrocytes",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C118H194N36O38S2",
+            "Mass": 2789.15,
+            "PI": 5.96,
+            "Net Charge": 0,
+            "Hydrophobicity": 0.16,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:>10 hour",
+            "Comments": "Has hemolytic activity on human and duck erythrocytes.",
+            "Literature": [
+                {
+                    "Title": "Schistosoma mansoni dermaseptin-like peptide structural and functional characterization.",
+                    "Pubmed ID": "6539015",
+                    "Reference": "J Parasitol. 2005 Dec;91(6)1340-1351.",
+                    "Author": "Quinn GA, Heymans R, Rondaj F, Shaw C, de Jong-Brink M.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=6539015"
+                }
+            ],
+            "Frequent Amino Acids": "AND",
+            "Absent Amino Acids": "CEFHOPUY",
+            "Basic Residues": 2,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 15,
+            "Polar Residues": 17,
+            "Positive Residues": 2,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_13681",
+                    "Similarity": 0.8148148148148148,
+                    "Sequence": "SLWSSIKDMAAAAGRAALNAVNGIVNP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_13682",
+                    "Similarity": 0.7777777777777778,
+                    "Sequence": "SLWSSIKDMAAAAGRAALNAVNGILNP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_13683",
+                    "Similarity": 0.7777777777777778,
+                    "Sequence": "SLRSSIKDMAAAAGRAALNAVNGIVNP"
+                }
+            ]
+        }
+    }
+}

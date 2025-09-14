@@ -1,0 +1,77 @@
+{
+    "SPADE_N_03390": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03390",
+            "Peptide Name": "Non-specific lipid-transfer protein",
+            "Source": "Oryza sativa subsp. indica (Rice)",
+            "Family": "Belongs to the plant LTP family",
+            "Gene": "Not found",
+            "Sequence": "ITCGQVNSAVGPCLTYARGGGAGPSAACCNGVRSLKSAARTTADRRTACNCLKNAARGIKGLNAGNAASIPSKCGVSVPYTISASIDCSRVR",
+            "Sequence Length": 92,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/A2ZDR8"
+            ],
+            "Protein Existence": "Transcript level",
+            "Biological Activity": [
+                "Antimicrobial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Lipid-binding",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C376H639N127O122S8",
+            "Mass": 9147.39,
+            "PI": 9.75,
+            "Net Charge": 10,
+            "Hydrophobicity": 0.01,
+            "Half Life": "Mammalian:20 hourYeast:30 minE.coli:>10 hour",
+            "Function": "Plant non-specific lipid-transfer proteins transfer phospholipids as well as galactolipids across membranes. May play a role in wax or cutin deposition in the cell walls of expanding epidermal cells and certain secretory tissues (By similarity).",
+            "Literature": [
+                {
+                    "Title": "The Genomes of Oryza sativa A History of Duplications.",
+                    "Pubmed ID": "15685292",
+                    "Reference": "PLoS Biol. 2005 Feb;3(2)e38.",
+                    "Author": "Yu J, Wang J, Lin W, Li S, Li H, Zhou J, Ni P, Dong W, et al.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=15685292"
+                },
+                {
+                    "Title": "The genomes of Oryza sativa: a history of duplications.",
+                    "Pubmed ID": "R2005J1406",
+                    "Author": "Li H.,Li S.,Lin W.,Wang J.,Yu J."
+                }
+            ],
+            "Frequent Amino Acids": "AGS",
+            "Absent Amino Acids": "EFHMOUW",
+            "Basic Residues": 12,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 36,
+            "Polar Residues": 66,
+            "Positive Residues": 12,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01013",
+                    "Similarity": 0.945054945054945,
+                    "Sequence": "AITCGQVNSAVGPCLTYARGGAGPSAACCSGVRSLKAAASSTADRRTACNCLKNAARGIKGLNAGNAASIPSKCGVSVPYTISASIDCSRVS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00314",
+                    "Similarity": 0.8152173913043478,
+                    "Sequence": "ATTSEAAVTCGQVSSAIGPCLSYARGQGSGPSAGCCSGVRSLNSAARTTADRRAACNCLKNAARGIRGLNVGKAASIPSKCGVSIPYTISTSTDCSRVS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08280",
+                    "Similarity": 0.8152173913043478,
+                    "Sequence": "AVTCGQVSSAIGPCLSYARGQGSGPSAGCCSGVRSLNSAARTTADRRAACNCLKNAARGIRGLNVGKAASIPSKCGVSIPYTISTSTDCSRVS"
+                }
+            ]
+        }
+    }
+}

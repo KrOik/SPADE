@@ -1,0 +1,68 @@
+{
+    "SPADE_UN_19156": {
+        "Sequence Information": {
+            "Peptide Name": "Piscidin-3 (1-23), ecPis-3 (1-23)",
+            "Sequence": "IFGLLLHGAIHVGKLIHGLVRRH",
+            "Sequence Length": 23,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antiparasitic",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "A0A0E3M331",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/A0A0E3M331",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Three new piscidins from orange-spotted grouper (Epinephelus coioides): Phylogeny, expression and functional characterization.",
+                    "Pubmed ID": "28433718",
+                    "Reference": "Fish Shellfish Immunol. 2017;66:240-253",
+                    "Author": "Zhuang ZR, Yang XD, Huang XZ, Gu HX, Wei HY, He YJ, Deng L",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/28433718"
+                }
+            ],
+            "Mass": 2557.1,
+            "PI": 12.0,
+            "Net Charge": 7,
+            "Hydrophobicity": 0.79,
+            "Frequent Amino Acids": "LGH",
+            "Absent Amino Acids": "CDEMNOPQSTUWY",
+            "Basic Residues": 7,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 11,
+            "Positive Residues": 7,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_19156",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_11624",
+                    "Similarity": 1.0,
+                    "Sequence": "IFGLLLHGAIHVGKLIHGLVRRHGEEQLDDLEQLDKRALDYNPGRPGFD"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_13697",
+                    "Similarity": 0.7142857142857143,
+                    "Sequence": "GWLIRGAIHAGKAIHGLIHRRRH"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02045",
+                    "Similarity": 0.6956521739130435,
+                    "Sequence": "FFGWLIKGAIHAGKAIHGLIHRRRH"
+                }
+            ],
+            "Hemolytic Activity": "Rabbit erythrocytes:0.22±0.06% Hemolysis=1.25 µM,Rabbit erythrocytes:8.05±0.33% Hemolysis=2.5 µM,Rabbit erythrocytes:30.48±1.86% Hemolysis=5 µM,Rabbit erythrocytes:38.99±0.97% Hemolysis=10 µM,Rabbit erythrocytes:50.84±1.38% Hemolysis=20 µM",
+            "Target Organism": "Escherichia coli TOP 10(MBC=10µM),Staphylococcus aureus(MBC=20µM),Vibrio parahaemolyticus(MBC=5.0µM),Pichia pastoris(MBC=2.5µM),Cryptocaryon irritans(90-100% Killing=5µM)"
+        }
+    }
+}

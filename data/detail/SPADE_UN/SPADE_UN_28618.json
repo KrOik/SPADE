@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_28618": {
+        "Sequence Information": {
+            "Peptide Name": "Fowlicidin-2(1-31)",
+            "Sequence": "LVQRGRFGRFLRKIRRFRPKVTITIQGSARF",
+            "Sequence Length": 31,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "2GDL",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "Q2IAL7",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/Q2IAL7",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "The central kink region of fowlicidin-2, an alpha-helical host defense peptide, is critically involved in bacterial killing and endotoxin neutralization.",
+                    "Pubmed ID": "20375584",
+                    "Reference": "J Innate Immun. 2009;1:268-280",
+                    "Author": "Xiao Y, Herrera AI, Bommineni YR, Soulages JL, Prakash O, Zhang G",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/20375584"
+                }
+            ],
+            "Mass": 3761.48,
+            "PI": 12.0,
+            "Net Charge": 10,
+            "Hydrophobicity": -0.43,
+            "Frequent Amino Acids": "RFG",
+            "Absent Amino Acids": "CDEHMNOUWY",
+            "Basic Residues": 10,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 19,
+            "Positive Residues": 10,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_28618",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03191",
+                    "Similarity": 1.0,
+                    "Sequence": "LVQRGRFGRFLRKIRRFRPKVTITIQGSARFG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09822",
+                    "Similarity": 1.0,
+                    "Sequence": "LVQRGRFGRFLRKI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09823",
+                    "Similarity": 1.0,
+                    "Sequence": "LVQRGRFGRFLRKIR"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:100% Hemolysis=200 µM,Human erythrocytes:90% Hemolysis=100 µM,Human erythrocytes:45% Hemolysis=10 µM",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=2µM),Salmonella enterica subsp. enterica serovar Enteritidis ATCC 13076(MIC=1µM),Klebsiella pneumoniae ATCC 13883(MIC=2µM),Listeria monocytogenes ATCC 19115(MIC=2µM),Staphylococcus aureus ATCC 25923(MIC=0.5µM),Staphylococcus aureus ATCC 25923(MIC=2µM),Staphylococcus aureus ATCC BAA-39(MIC=1-2µM),Staphylococcus aureus ATCC 43300(MIC=1µM),Staphylococcus aureus ATCC 43300(MIC=1-2µM)"
+        }
+    }
+}

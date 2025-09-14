@@ -1,0 +1,64 @@
+{
+    "SPADE_UN_30436": {
+        "Sequence Information": {
+            "Peptide Name": "MsDef1 (34-38)",
+            "Sequence": "RDDFR",
+            "Sequence Length": 5,
+            "Biological Activity": [
+                "Antifungal"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "Q4G3V1",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/Q4G3V1",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Structure-activity determinants in antifungal plant defensins MsDef1 and MtDef4 with different modes of action against Fusarium graminearum.",
+                    "Pubmed ID": "21533249",
+                    "Reference": "PLoS One. 2011;6:e18550",
+                    "Author": "Sagaram US, Pandurangi R, Kaur J, Smith TJ, Shah DM",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/21533249"
+                }
+            ],
+            "Mass": 707.74,
+            "PI": 5.96,
+            "Net Charge": 0,
+            "Hydrophobicity": -2.64,
+            "Frequent Amino Acids": "DRF",
+            "Absent Amino Acids": "ACEGHIKLMNOPQSTUVWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 1,
+            "Polar Residues": 4,
+            "Positive Residues": 2,
+            "Negative Residues": 2,
+            "SPADE ID": "SPADE_UN_30436",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00240",
+                    "Similarity": 1.0,
+                    "Sequence": "NTCENLAGSYKGVCFGGCDRHCRTQEGAISGRCRDDFRCWCTKNC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00249",
+                    "Similarity": 1.0,
+                    "Sequence": "KTCENLSDSFKGPCIPDGNCNKHCKEKEHLLSGRCRDDFRCWCTRNC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00389",
+                    "Similarity": 1.0,
+                    "Sequence": "KTCENLSGTFKGPCIPDGNCNKHCRNNEHLLSGRCRDDFRCWCTNRC"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Fusarium graminearum PH-1(IC50=>96µM),Fusarium graminearum PH-1(MIC=>96µM)"
+        }
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "SPADE_UN_11680": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_11680",
+            "Peptide Name": "Ctry2459-H3 (Ctry2459 peptide derivative, His-rich)",
+            "Source": "Synthetic construct(from a scorpion venom peptide library)",
+            "Family": "Derived from the peptide Ctry2459",
+            "Gene": "Not found",
+            "Sequence": "FLHFLHHLF",
+            "Sequence Length": 9,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antiviral"
+            ],
+            "Target Organism": "[Ref.23415044] Virus:Hepatitis C virus ( EC50 = 0.85 μg/ml ).Cytotoxic:Huh7.5.1 cells (CC50>500 μg/ml)",
+            "Hemolytic Activity": "[Ref.23415044] HC50 = 416.4 μg/ml against human red blood cells.",
+            "Cytotoxicity": "[Ref.23415044] CC50>500 μg/ml against Huh7.5.1 cells",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C63H83N15O10",
+            "Mass": 1210.43,
+            "PI": 7.02,
+            "Net Charge": 3,
+            "Hydrophobicity": 1.13,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Function": "Inhibits hepatitis C virus(HCV) infection via inactivating infectious viral particle.  However, it cannot suppress established infection because of the poor cellular uptake and restriction of endosomes.",
+            "Literature": [
+                {
+                    "Title": "Design of histidine-rich peptides with enhanced bioavailability and inhibitory activity against hepatitis C virus.",
+                    "Pubmed ID": "23415044",
+                    "Reference": "Biomaterials. 2013 Apr;34(13)3511-22.",
+                    "Author": "Hong W, Zhang R, Di Z, He Y, Zhao Z, Hu J, Wu Y, Li W, Cao Z.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=23415044"
+                }
+            ],
+            "Frequent Amino Acids": "FHL",
+            "Absent Amino Acids": "ACDEGIKMNOPQRSTUVWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 3,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_15941",
+                    "Similarity": 1.0,
+                    "Sequence": "HHLFGKVGREIERSAHKVGHKLEHVRHEVSKTAKKVDKVVGHIKTAKKVVAAAGAIAGVVAAA"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_11681",
+                    "Similarity": 0.8888888888888888,
+                    "Sequence": "FLGFLHHLF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_12333",
+                    "Similarity": 0.8571428571428571,
+                    "Sequence": "LHLLHHL"
+                }
+            ]
+        }
+    }
+}

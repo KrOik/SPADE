@@ -1,0 +1,77 @@
+{
+    "SPADE_N_03408": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03408",
+            "Peptide Name": "Defensin",
+            "Source": "Medicago truncatula (Barrel medic) (Medicago tribuloides)",
+            "Family": "Not found",
+            "Gene": "Def1",
+            "Sequence": "MEKKSLAGLCFLFLVLFVAQEIVVTEAKTCENLADKYRGPCFSGCDTHCTTKENAVSGRCRDDFRCWCTKRC",
+            "Sequence Length": 72,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q5YLG8"
+            ],
+            "Protein Existence": "Predicted",
+            "Biological Activity": [
+                "Antimicrobial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C351H557N99O104S10",
+            "Mass": 8148.43,
+            "PI": 8.1,
+            "Net Charge": 3,
+            "Hydrophobicity": -0.1,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Defensin gene family in Medicago truncatula structure, expression and induction by signal molecules.",
+                    "Pubmed ID": "16021402",
+                    "Reference": "Plant Mol Biol. 2005 Jun;58(3)385-399.",
+                    "Author": "Hanks JN, Snyder AK, Graham MA, Shah RK, Blaylock LA, Harrison MJ, Shah DM.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16021402"
+                },
+                {
+                    "Title": "Defensin gene family in Medicago truncatula: structure, expression and induction by signal molecules.",
+                    "Pubmed ID": "R2005J0428",
+                    "Author": "Blaylock L.A.,Shah R.K.,Graham M.A.,Snyder A.K.,Hanks J.N."
+                }
+            ],
+            "Frequent Amino Acids": "CKL",
+            "Absent Amino Acids": "OU",
+            "Basic Residues": 12,
+            "Acidic Residues": 9,
+            "Hydrophobic Residues": 26,
+            "Polar Residues": 44,
+            "Positive Residues": 12,
+            "Negative Residues": 9,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_08267",
+                    "Similarity": 1.0,
+                    "Sequence": "KTCENLADKYRGPCFSGCDTHCTTKENAVSGRCRDDFRCWCTKRC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03407",
+                    "Similarity": 0.9861111111111112,
+                    "Sequence": "MEKKSLAGLCFLFLVLFVAQEIVVTEAKTCENLADKYRGPCFSGCDTHCTTKEHAVSGRCRDDFRCWCTKRC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07925",
+                    "Similarity": 0.9861111111111112,
+                    "Sequence": "MEKKSLAGLCFLFLVLFVAQEIVVTEARTCENLADKYRGPCFSGCDTHCTTKENAVSGRCRDDFRCWCTKRC"
+                }
+            ]
+        }
+    }
+}

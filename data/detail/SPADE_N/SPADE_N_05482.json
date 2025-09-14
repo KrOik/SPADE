@@ -1,0 +1,80 @@
+{
+    "SPADE_N_05482": {
+        "Clinical Information": [
+            {
+                "Medical use": "Gastrointestinal tract infections; Campylobacter infection (Chicken model; In-vivo)",
+                "Company": "Unknown",
+                "Stage of Development": "Preclinical",
+                "Comments": "No more comments",
+                "Clinical Trials": []
+            }
+        ],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_05482",
+            "Peptide Name": "Bacteriocin OR-7 (Preclinical)",
+            "Source": "Lactobacillus salivarius NRRL B-30514 (Gram-positive bacteria)",
+            "Family": "Belongs to the class IIa bacteriocin",
+            "Gene": "Not found",
+            "Sequence": "KTYYGTNGVHCTKNSLWGKVRLKNMKYDQNTTYMGRLQDILLGWATGAFGKTFH",
+            "Sequence Length": 54,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "Campylobacter jejuni NCTC 11168.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C280H428N78O77S3",
+            "Mass": 6215.06,
+            "PI": 9.84,
+            "Net Charge": 8,
+            "Hydrophobicity": -0.65,
+            "Half Life": "Mammalian:1.3 hourYeast:3 minE.coli:2 min",
+            "Function": "OR-7 had activity to a gram-negative bacterium.",
+            "Biophysicochemical properties": "Temperature dependence (Remains active after exposure to 90 degrees C for 15 min), pH dependence (Stable from pH 3.0 to 9.1).",
+            "Literature": [
+                {
+                    "Title": "Isolation of a Lactobacillus salivarius Strain and Purification of Its Bacteriocin, Which Is Inhibitory to Campylobacter jejuni in the Chicken Gastrointestinal System",
+                    "Pubmed ID": "16940109",
+                    "Reference": "Antimicrob. Agents Chemother. 2006 50 (9)3111-3116.",
+                    "Author": "Stern NJ, Svetoch EA, Eruslanov BV, Perelygin VV, Mitsevich EV, Mitsevich IP, Pokhilenko VD, Levchuk VP, Svetoch OE, Seal BS.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16940109"
+                }
+            ],
+            "Frequent Amino Acids": "GTK",
+            "Absent Amino Acids": "EOPU",
+            "Basic Residues": 10,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 20,
+            "Polar Residues": 33,
+            "Positive Residues": 10,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_14867",
+                    "Similarity": 0.9811320754716981,
+                    "Sequence": "KTYYGTNGVHCTKNSLWGKVRLKNMKYDQNTTYMGRLQDILLGWATGAFGKTH"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00170",
+                    "Similarity": 0.7547169811320755,
+                    "Sequence": "KTYYGTNGVHCTKKSLWGKVRLKNVIPGTLCRKQSLPIKQDLKILLGWATGAFGKTFH"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06039",
+                    "Similarity": 0.7547169811320755,
+                    "Sequence": "MISMISSHQKTLTDKELALISGGKTYYGTNGVHCTKKSLWGKVRLKNVIPGTLCRKQSLPIKQDLKILLGWATGAFGKTFH"
+                }
+            ]
+        }
+    }
+}

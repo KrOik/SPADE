@@ -1,0 +1,71 @@
+{
+    "SPADE_UN_14249": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_14249",
+            "Peptide Name": "P21S8ZF",
+            "Source": "Synthetic construct",
+            "Family": "Coronaviridae",
+            "Gene": "Not found",
+            "Sequence": "LDLTYEZLSLQXVVKXLNESF",
+            "Sequence Length": 21,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antiviral"
+            ],
+            "Target Organism": "[Ref.29442512]MERS-CoV:inhibition of cell-cell fusion in Huh-7 cells(EC50=3.89 ± 0.8 μM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information or data found in the reference(s) presented in this entry",
+            "Binding Target": "membrane",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Acetylation",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C97H149N21O28",
+            "Mass": 2462.83,
+            "PI": 4.14,
+            "Net Charge": -2,
+            "Hydrophobicity": 0.248,
+            "Half Life": "Mammalian:5.5 hourYeast:3 minE.coli:2 min",
+            "Mechanism of action": "The peptide inhibits MERS-CoV infection and its spike (S) protein-mediated cell–cell fusion.",
+            "Literature": [
+                {
+                    "Title": "Discovery of Hydrocarbon-Stapled Short α-Helical Peptides as Promising Middle East Respiratory Syndrome Coronavirus (MERS-CoV) Fusion Inhibitors.",
+                    "Pubmed ID": "29442512",
+                    "Reference": "J Med Chem. 2018 Mar 8;61(5)2018-2026.",
+                    "Author": "Wang C, Xia S, Zhang P, Zhang T, Wang W, Tian Y, Meng G, Jiang S, Liu K.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=29442512"
+                }
+            ],
+            "Frequent Amino Acids": "LES",
+            "Absent Amino Acids": "ACGHIMOPRUW",
+            "Basic Residues": 1,
+            "Acidic Residues": 3,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 9,
+            "Positive Residues": 1,
+            "Negative Residues": 3,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_14248",
+                    "Similarity": 1.0,
+                    "Sequence": "LDLTYEMLSLQVVKLNESF"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_22239",
+                    "Similarity": 1.0,
+                    "Sequence": "LDLTYELSLQVVKLNESF"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_13541",
+                    "Similarity": 0.9444444444444444,
+                    "Sequence": "SLTQINTTLLDLTYEMLSLQQVVKALNESYIDLKELGSGSGC"
+                }
+            ]
+        }
+    }
+}

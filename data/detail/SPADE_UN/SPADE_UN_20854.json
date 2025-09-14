@@ -1,0 +1,64 @@
+{
+    "SPADE_UN_20854": {
+        "Sequence Information": {
+            "Peptide Name": "Mycobacterium phage L5 peptide (78-98), AR21",
+            "Sequence": "ARRRELRARRKRPPERHPGRR",
+            "Sequence Length": 21,
+            "Biological Activity": [
+                "Anti-Gram+"
+            ],
+            "Binding Target": "",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "Q05251",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/Q05251",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "A small mycobacteriophage-derived peptide and its improved isomer restrict mycobacterial infection via dual mycobactericidal-immunoregulatory activities.",
+                    "Pubmed ID": "30894414",
+                    "Reference": "J Biol Chem. 2019;:",
+                    "Author": "Yang Y, Liu Z, He X, Yang J, Wu J, Yang H, Li M, Qian Q, Lai R, Xu W, Wei L",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/30894414"
+                }
+            ],
+            "Mass": 2707.12,
+            "PI": 12.0,
+            "Net Charge": 10,
+            "Hydrophobicity": -2.71,
+            "Frequent Amino Acids": "RPA",
+            "Absent Amino Acids": "CDFIMNOQSTUVWY",
+            "Basic Residues": 12,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 3,
+            "Polar Residues": 18,
+            "Positive Residues": 12,
+            "Negative Residues": 2,
+            "SPADE ID": "SPADE_UN_20854",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_11233",
+                    "Similarity": 1.0,
+                    "Sequence": "RGARRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15094",
+                    "Similarity": 1.0,
+                    "Sequence": "SECISDTDCNVLYPMYINRRLRCIQGICHTTTARRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_01009",
+                    "Similarity": 1.0,
+                    "Sequence": "RRRAAFAAWAAFAARRR"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Mycobacterium tuberculosis H37Rv(MIC=>200µg/ml)"
+        }
+    }
+}

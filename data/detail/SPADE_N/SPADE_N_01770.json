@@ -1,0 +1,73 @@
+{
+    "SPADE_N_01770": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01770",
+            "Peptide Name": "Brevinin-2ISc (Frogs, amphibians, animals)",
+            "Source": "Odorrana ishikawae (Endangered frog)",
+            "Family": "Belongs to the frog skin active peptide family (Brevinin subfamily)",
+            "Gene": "Not found",
+            "Sequence": "SVLGTVKDLLIGAGKSAAQSVLTTLSCKLSNSC",
+            "Sequence Length": 33,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-negative bacterium:Escherichia coli (MIC=50 µM);Gram-positive bacterium:Staphylococcus aureus (MIC=25 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C139H246N38O47S2",
+            "Mass": 3265.8,
+            "PI": 8.84,
+            "Net Charge": 2,
+            "Hydrophobicity": 0.61,
+            "Half Life": "Mammalian:1.9 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Has antibacterial activity.",
+            "Literature": [
+                {
+                    "Title": "Identification and characterization of antimicrobial peptides from the skin of the endangered frog Odorrana ishikawae.",
+                    "Pubmed ID": "21193000",
+                    "Reference": "Peptides. 2011 Apr;32(4)670-676.",
+                    "Author": "Iwakoshi-Ukena E, Ukena K, Okimoto A, Soga M, Okada G, Sano N, Fujii T, Sugawara Y, Sumida M.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=21193000"
+                }
+            ],
+            "Frequent Amino Acids": "LSA",
+            "Absent Amino Acids": "EFHMOPRUWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 22,
+            "Positive Residues": 3,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01813",
+                    "Similarity": 0.9696969696969697,
+                    "Sequence": "SVLGTVKDLLIGAGKSAAQSVLTALSCKLSNSC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07614",
+                    "Similarity": 0.9696969696969697,
+                    "Sequence": "MFTMKKSLLLLFFLGTISLSLCEEERDADEDEGEMTEEEVKRSVLGTVKDLLIGAGKSAAQSVLTALSCKLSNSC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01824",
+                    "Similarity": 0.9393939393939394,
+                    "Sequence": "SVLGTVKDLLIGAGKSAAQSVLTANSCKLSNSC"
+                }
+            ]
+        }
+    }
+}

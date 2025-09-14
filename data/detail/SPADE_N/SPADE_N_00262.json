@@ -1,0 +1,74 @@
+{
+    "SPADE_N_00262": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00262",
+            "Peptide Name": "Basic endochitinase CH1 (Plant defensin)",
+            "Source": "Castanea sativa (Sweet chestnut)",
+            "Family": "Belongs to the glycosyl hydrolase 19 family (Chitinase class I subfamily)",
+            "Gene": "Not found",
+            "Sequence": "ACGGGGGDVGSLISASLFDQMLKYRNDPRCCXXGF",
+            "Sequence Length": 35,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P29137"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antifungal"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C143H220N42O44S4",
+            "Mass": 3618.51,
+            "PI": 6.06,
+            "Net Charge": 0,
+            "Hydrophobicity": 0.006,
+            "Half Life": "Mammalian:4.4 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Defense against chitin containing fungal pathogens.",
+            "Catalytic activity": "Random hydrolysis of N-acetyl-beta-D-glucosaminide (1->4)-beta-linkages in chitin and chitodextrins.",
+            "Literature": [
+                {
+                    "Title": "Basic Endochitinases Are Major Proteins in Castanea sativa Cotyledons.",
+                    "Pubmed ID": "16653058",
+                    "Reference": "Plant Physiol. 1992 Oct;100(2)778-783.",
+                    "Author": "Collada C, Casado R, Fraile A, Aragoncillo C.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16653058"
+                }
+            ],
+            "Frequent Amino Acids": "GCD",
+            "Absent Amino Acids": "EHOTUW",
+            "Basic Residues": 3,
+            "Acidic Residues": 3,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 15,
+            "Positive Residues": 3,
+            "Negative Residues": 3,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_01709",
+                    "Similarity": 1.0,
+                    "Sequence": "GGGG"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_08791",
+                    "Similarity": 1.0,
+                    "Sequence": "GGGG"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_08792",
+                    "Similarity": 1.0,
+                    "Sequence": "GGGGG"
+                }
+            ]
+        }
+    }
+}

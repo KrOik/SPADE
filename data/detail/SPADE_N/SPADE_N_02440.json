@@ -1,0 +1,84 @@
+{
+    "SPADE_N_02440": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02440",
+            "Peptide Name": "BMAP-34 (BMAP 34, bovine cathelicidin, cattle, ruminant, mammals, animals)",
+            "Source": "Bos taurus (Bovine)",
+            "Family": "Belongs to the cathelicidin family.",
+            "Gene": "CATHL7",
+            "Sequence": "GLFRRLRDSIRRGQQKILEKARRIGERIKDIFRG",
+            "Sequence Length": 34,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P56425"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "[Ref.9795251] Gram-positive bacteria:Staphylococcus aureus ATCC 25923 (MIC=3 μM), Staphylococcus aureus Cowan 1 (MIC=3 μM), Staphylococcus aureus (MRSA, clinical isolate) (MIC=6 μM), Staphylococcus epidermidis ATCC 12228 (MIC=1.5 μM), Bacillus megaterium Bm 11 (MIC=3 μM);Gram-negative bacteria:Escherichia coli ATCC 25922 (MIC=1.5 μM), Escherichia coli ML-35 (MIC=1.5 μM), Escherichia coli D21 (MIC=1.5 μM), Escherichia coli D22 (MIC=1.5 μM), Salmonella typhimurium ATCC 14028 (MIC=3 μM), Salmonella enteritidis (clinical isolate) (MIC=3 μM), Serratia marcescens ATCC 8100 (MIC=1.5 μM), Pseudomonas aeruginosa ATCC 27853 (MIC≥48 μM);Fungus:Candida albicans (clinical isolate) (MIC>96 μM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C180H314N66O46",
+            "Mass": 4138.83,
+            "PI": 11.91,
+            "Net Charge": 8,
+            "Hydrophobicity": -1.01,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Antibacterial activity against the Gram-negative bacteria and Gram-positive bacteria.",
+            "Tissue specificity": "Expressed in bone marrow myeloid cells, spleen and testis.",
+            "Literature": [
+                {
+                    "Title": "Structural organization of the bovine cathelicidin gene family and identification of a novel member.",
+                    "Pubmed ID": "9409740",
+                    "Reference": "FEBS Lett. 1997 Nov 17;417(3)311-5.",
+                    "Author": "Scocchi M, Wang S, Zanetti M.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=9409740"
+                },
+                {
+                    "Title": "Biological characterization of a novel mammalian antimicrobial peptide.",
+                    "Pubmed ID": "9795251",
+                    "Reference": "Biochim Biophys Acta. 1998 Oct 23;1425(2)361-368.",
+                    "Author": "Gennaro R, Scocchi M, Merluzzi L, Zanetti M.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=9795251"
+                }
+            ],
+            "Frequent Amino Acids": "RIG",
+            "Absent Amino Acids": "CHMNOPTUVWY",
+            "Basic Residues": 12,
+            "Acidic Residues": 4,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 16,
+            "Positive Residues": 12,
+            "Negative Residues": 4,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02466",
+                    "Similarity": 1.0,
+                    "Sequence": "AGLFRRLRDSIRRGQQKILEKARRIGERIKDIFR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04276",
+                    "Similarity": 1.0,
+                    "Sequence": "GLFRRLRDSIRRGQQKILEKARRIGERIKDIFR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15325",
+                    "Similarity": 0.8235294117647058,
+                    "Sequence": "GLFGRLRDSLRRGGQKILEKVERIGDRIKDIFRG"
+                }
+            ]
+        }
+    }
+}

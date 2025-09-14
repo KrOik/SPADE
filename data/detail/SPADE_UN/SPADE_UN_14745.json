@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_14745": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_14745",
+            "Peptide Name": "gB122Y5A",
+            "Source": "Synthetic construct(derived from HSV-1 B glycoprotein (gB))",
+            "Family": "Herpesviridae",
+            "Gene": "Not found",
+            "Sequence": "GHRRAFTFGGGYVYF",
+            "Sequence Length": 15,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P06437"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antiviral"
+            ],
+            "Target Organism": "[Ref.19104014]Herpes simplex virus type 1(HSV-1):comprehensive antiviral activity(EC50=119.2 ± 26.6 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C83H111N23O19",
+            "Mass": 1734.91,
+            "PI": 9.99,
+            "Net Charge": 3,
+            "Hydrophobicity": -0.18,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Multiple peptides homologous to herpes simplex virus type 1 glycoprotein B inhibit viral infection.",
+                    "Pubmed ID": "19104014",
+                    "Reference": "Antimicrob Agents Chemother. 2009 Mar;53(3)987-96.",
+                    "Author": "Akkarawongsa R, Pocaro NE, Case G, Kolb AW, Brandt CR.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=19104014"
+                }
+            ],
+            "Frequent Amino Acids": "GFR",
+            "Absent Amino Acids": "CDEIKLMNOPQSUW",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 8,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_14752",
+                    "Similarity": 1.0,
+                    "Sequence": "TFGGGYVYF"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_18588",
+                    "Similarity": 1.0,
+                    "Sequence": "GGGY"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_14742",
+                    "Similarity": 0.9333333333333333,
+                    "Sequence": "GHRRYFTFGGGYVYF"
+                }
+            ]
+        }
+    }
+}

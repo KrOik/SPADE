@@ -1,0 +1,72 @@
+{
+    "SPADE_UN_00538": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_00538",
+            "Peptide Name": "N3 (derivative of CP-P)",
+            "Source": "Synthetic construct",
+            "Family": "Derived from the peptide CP-P",
+            "Gene": "Not found",
+            "Sequence": "KWNSFIKKLTSKFLHSAKKF",
+            "Sequence Length": 20,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-negative bacterium:Pseudomonas aeruginosa (MIC=12.5 μg/ml)",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C118H184N30O26",
+            "Mass": 2438.91,
+            "PI": 10.7,
+            "Net Charge": 7,
+            "Hydrophobicity": -0.59,
+            "Half Life": "Mammalian:1.3 hourYeast:3 minE.coli:2 min",
+            "Function": "Antibacterial activity against Gram-negative bacteria.",
+            "Literature": [
+                {
+                    "Title": "The Design and Construction of K11 A Novel α-Helical Antimicrobial Peptide.",
+                    "Pubmed ID": "22518150",
+                    "Reference": "Int J Microbiol. 2012;2012764834.",
+                    "Author": "Jin-Jiang H, Jin-Chun L, Min L, Qing-Shan H, Guo-Dong L.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=22518150"
+                }
+            ],
+            "Frequent Amino Acids": "KFS",
+            "Absent Amino Acids": "CDEGMOPQRUVY",
+            "Basic Residues": 7,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 13,
+            "Positive Residues": 7,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_21664",
+                    "Similarity": 1.0,
+                    "Sequence": "KFLHSAKKF"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_21667",
+                    "Similarity": 1.0,
+                    "Sequence": "KFLHSAKKFGKAFV"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_21669",
+                    "Similarity": 1.0,
+                    "Sequence": "KFLHSAKKFGKAFVGEIMNS"
+                }
+            ]
+        }
+    }
+}

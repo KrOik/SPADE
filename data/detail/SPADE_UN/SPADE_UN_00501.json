@@ -1,0 +1,72 @@
+{
+    "SPADE_UN_00501": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_00501",
+            "Peptide Name": "Cyclic cationic V5 peptide",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "CAKAKAKAGSGAKAKAKAC",
+            "Sequence Length": 19,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.15328096]Gram-negative bacteria:Escherichia coli ATTC 25922 (MIC=173 nM), Pseudomonas aeruginosa ATTC 27853 (MIC=5 nM), Klebsiella pneumoniae ATTC 13883 (MIC>692 nM), Salmonella enterica serovar Typhimurium ATTC 14028 (MIC=5 nM), Shigella sonnei ATTC 25931 (MIC=692 nM).",
+            "Hemolytic Activity": "[Ref.15328096]EC50=1055000 nM against human erythrocytes",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C73H135N25O21S2",
+            "Mass": 1763.14,
+            "PI": 10.05,
+            "Net Charge": 6,
+            "Hydrophobicity": -0.29,
+            "Half Life": "Mammalian:1.2 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Has antibacterial activiy. Has hemolytic activity for human erythrocytes, and also Cytotoxic activity for THP-1 cells (EC50=0.14 mM).",
+            "Literature": [
+                {
+                    "Title": "De Novo Design of Potent Antimicrobial Peptides.",
+                    "Pubmed ID": "15328096",
+                    "Reference": "Antimicrob Agents Chemother. 2004 Sep;48(9)3349-3357.",
+                    "Author": "Frecer V, Ho B, Ding JL.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=15328096"
+                }
+            ],
+            "Frequent Amino Acids": "AKC",
+            "Absent Amino Acids": "DEFHILMNOPQRTUVWY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 17,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01161",
+                    "Similarity": 1.0,
+                    "Sequence": "MFTLKKPLLLLFFLGTINLSLCQDETNAEEERRDEEVAKMEEIKRGLLSGILGAGKHIVCGLTGCAKA"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01262",
+                    "Similarity": 1.0,
+                    "Sequence": "GLLSGILGAGKHIVCGLTGCAKA"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01283",
+                    "Similarity": 1.0,
+                    "Sequence": "GLFGKSSVWGRKYYVDLAGCAKA"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "SPADE_UN_11776": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_11776",
+            "Peptide Name": "L10, 11-DPS3 (Derived from dermaseptin-PS3 (DPS3))",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "ALWKDILKNLLKAALNEINQIVQ",
+            "Sequence Length": 23,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic form",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "[Ref.30087268]Gram-positive bacteria :Staphylococcuss aureus (NCTC 10788)(MIC=8 μM);Gram-negative bacteria :Escherichia coli (NCTC 10418)(MIC=16 μM);Fungi :Candida albicans (NCYC 1467)(MIC=16 μM)",
+            "Hemolytic Activity": "[Ref.30087268] 20% hemolysis at 0 μM , 70% hemolysis at 1 μM , 95% hemolysis at 2 μM against horse red blood cells",
+            "Cytotoxicity": "[Ref.30087268] IC50 = 0.12 μM for H157.IC50 = 1.85 μM for PC3.IC50 = 8.76 μM for HMEC-1",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "These three peptides existed in random coils in aqueous solution, they all adopted",
+            "Formula": "C122H206N32O33",
+            "Mass": 2649.14,
+            "PI": 8.54,
+            "Net Charge": 1,
+            "Hydrophobicity": 0.22,
+            "Half Life": "Mammalian:4.4 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Antibacterial activity against Gram-positive bacteria and Gram-negative bacteria, Antifungal activity agaist Candida albicans",
+            "Literature": [
+                {
+                    "Title": "Yining Tan ,Xiaoling Chen , Chengbang Ma , Xinping Xi ,Lei Wang , Mei Zhou ,James F. Burrows ,Hang Fai Kwok 2 ID and Tianbao Chen",
+                    "Pubmed ID": "30087268",
+                    "Reference": "Toxins (Basel). 2018 Aug 7;10(8). pii E320. doi 10.3390/toxins10080320.",
+                    "Author": "Yining Tan ,Xiaoling Chen , Chengbang Ma , Xinping Xi ,Lei Wang , Mei Zhou ,James F. Burrows ,Hang Fai Kwok 2 ID and Tianbao Chen",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=30087268"
+                },
+                {
+                    "Title": "Biological Activities of Cationicity-Enhanced and Hydrophobicity-Optimized Analogues of an Antimicrobial Peptide, Dermaseptin-PS3, from the Skin Secretion of Phyllomedusa sauvagii",
+                    "Pubmed ID": "",
+                    "Author": "Tan Y, Chen X, Ma C, Xi X, Wang L, Zhou M, Burrows JF, Kwok HF, Chen T"
+                }
+            ],
+            "Frequent Amino Acids": "LAI",
+            "Absent Amino Acids": "CFGHMOPRSTUY",
+            "Basic Residues": 3,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 12,
+            "Positive Residues": 3,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01516",
+                    "Similarity": 0.9130434782608695,
+                    "Sequence": "ALWKDILKNAGKAALNEINQIVQ"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_24929",
+                    "Similarity": 0.8695652173913043,
+                    "Sequence": "ALWKSILKNAGKAALNEINQIVQ"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_13944",
+                    "Similarity": 0.8636363636363636,
+                    "Sequence": "ALWKSILKNAGKAALNEINQIV"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,84 @@
+{
+    "SPADE_N_03089": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 7629438 B2",
+                "Patent Link": "http://www.lens.org/lens/patent/US_7629438_B2",
+                "Patent Type": "Granted Patent",
+                "Publication Date": "2009-12-8",
+                "Family Info": "CN1269837C,CN1398897A,EP1541584A1,EP1541584A4,EP1541584B1,US20080070279,WO2004020461A1",
+                "Patent Title": "Group of synthetic antimicrobial peptides.",
+                "Abstract": "A group of new synthetic antimicrobial peptides are disclosed, which demonstrate stronger bactericidal activity than native antimicrobial peptides. The present synthetic antimicrobial peptides can be produced by solid-phase chemical synthesis or gene expression and be used to prepare the medicines for treating the diseases induced by bacteria, viruses and fungi, as well as the anticancer drugs."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03089",
+            "Peptide Name": "Cecropin-A (Insects, animals)",
+            "Source": "Bombyx mori (Silk moth)",
+            "Family": "Belongs to the cecropin family",
+            "Gene": "CECA",
+            "Sequence": "RWKLFKKIEKVGRNVRDGLIKAGPAIAVIGQAKSL",
+            "Sequence Length": 35,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q27239"
+            ],
+            "Protein Existence": "Transcript level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C177H303N53O43",
+            "Mass": 3861.63,
+            "PI": 11.17,
+            "Net Charge": 7,
+            "Hydrophobicity": -0.11,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Function": "Cecropins have lytic and antibacterial activity against several Gram-positive and Gram-negative bacteria.",
+            "Tissue specificity": "Highest expression in fat body and hemocytes. Is also expressed in Malpighian tubules and to a much lesser extent in midgut. Not present in silk gland.",
+            "Literature": [
+                {
+                    "Title": "Cloning of cDNAs for cecropins A and B, and expression of the genes in the silkworm, Bombyx mori.",
+                    "Pubmed ID": "7765280",
+                    "Reference": "Biosci Biotechnol Biochem. 1994 Aug;58(8)1476-1478.",
+                    "Author": "Yamano Y, Matsumoto M, Inoue K, Kawabata T, Morishima I.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=7765280"
+                }
+            ],
+            "Frequent Amino Acids": "KAG",
+            "Absent Amino Acids": "CHMOTUY",
+            "Basic Residues": 9,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 17,
+            "Polar Residues": 19,
+            "Positive Residues": 9,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_04197",
+                    "Similarity": 1.0,
+                    "Sequence": "MNFVRILSFVFALVLALGAVSAAPEPRWKLFKKIEKVGRNVRDGLIKAGPAIAVIGQAKSLGK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06520",
+                    "Similarity": 1.0,
+                    "Sequence": "RWKLFKKIEKVGRNVRDGLIKAGPAIAVIGQAKSLGK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_12985",
+                    "Similarity": 0.9166666666666666,
+                    "Sequence": "RWKIFKKIEKVG"
+                }
+            ]
+        }
+    }
+}

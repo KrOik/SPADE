@@ -1,0 +1,61 @@
+{
+    "SPADE_UN_20282": {
+        "Sequence Information": {
+            "Peptide Name": "",
+            "Sequence": "PRRR",
+            "Sequence Length": 4,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Short arginine-rich lipopeptides: From self-assembly to antimicrobial activity.",
+                    "Pubmed ID": "30409520",
+                    "Reference": "Biochim Biophys Acta. 2018;1860:2242-2251",
+                    "Author": "Sikorska E, Stachurski O, Neubauer D, Maluch I, Wyrzykowski D, Bauer M, Brzozowski K, Kamysz W",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/30409520"
+                }
+            ],
+            "Mass": 583.69,
+            "PI": 12.0,
+            "Net Charge": 3,
+            "Hydrophobicity": -3.77,
+            "Frequent Amino Acids": "RP",
+            "Absent Amino Acids": "ACDEFGHIKLMNOQSTUVWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 0,
+            "Polar Residues": 4,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_20282",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00066",
+                    "Similarity": 1.0,
+                    "Sequence": "ATYYGNGLYCNKEKCWVDWNQAKGEIGKIIVNGWVNHGPWAPRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02893",
+                    "Similarity": 1.0,
+                    "Sequence": "LRGLLCYCRKGHCKRGERVRGTCGIRFLYCCPRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02906",
+                    "Similarity": 1.0,
+                    "Sequence": "SRDLICYCRKGGCNRGEQVYGTCSGRLLYCCPRR"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:80% Hemolysis=100 µg/ml",
+            "Target Organism": "Staphylococcus aureus ATCC 25923(MIC=32µg/ml),Staphylococcus epidermidis ATCC 14990(MIC=<=1µg/ml),Escherichia coli ATCC 25922(MIC=32µg/ml),Pseudomonas aeruginosa ATCC 9027(MIC=64µg/ml),Candida albicans ATCC 10231(MIC=8µg/ml)"
+        }
+    }
+}

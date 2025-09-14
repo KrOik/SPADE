@@ -1,0 +1,77 @@
+{
+    "SPADE_UN_29104": {
+        "Sequence Information": {
+            "Peptide Name": "Protegrin 1 / Neutrophil peptide 1 [C6A][C8A][C13A][C15A]",
+            "Sequence": "RGGRLAYARRRFAVAVGR",
+            "Sequence Length": 18,
+            "Biological Activity": [
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P32194",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P32194",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                },
+                {
+                    "uniprotId": "I3LU31",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/I3LU31",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Protegrin structure and activity against Neisseria gonorrhoeae",
+                    "Pubmed ID": "9009324",
+                    "Reference": "Infect Immun. 1997;65:636-639",
+                    "Author": "Qu XD, Harwig SS, Shafer WM, Lehrer RI",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/9009324"
+                },
+                {
+                    "Title": "Evaluation of the inactivation of infectious Herpes simplex virus by host-defense peptides.",
+                    "Pubmed ID": "10795591",
+                    "Reference": "Eur J Clin Microbiol Infect Dis. 2000;19:187-194",
+                    "Author": "Yasin B, Pang M, Turner JS, Cho Y, Dinh NN, Waring AJ, Lehrer RI, Wagar EA",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/10795591"
+                }
+            ],
+            "Mass": 2032.36,
+            "PI": 12.0,
+            "Net Charge": 6,
+            "Hydrophobicity": -0.41,
+            "Frequent Amino Acids": "RAG",
+            "Absent Amino Acids": "CDEHIKMNOPQSTUW",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 10,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_29104",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07318",
+                    "Similarity": 1.0,
+                    "Sequence": "VSRRRRRRGGRRRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11055",
+                    "Similarity": 1.0,
+                    "Sequence": "KNKRKRRRRRRGGRRRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_11384",
+                    "Similarity": 1.0,
+                    "Sequence": "TLISWIKNKRKQRPRVSRRRRRRGGRRRR"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:1% Hemolysis=80 µg/ml",
+            "Target Organism": "Neisseria gonorrhoeae F62(MIC=10.0±1.60µM),Neisseria gonorrhoeae FA19(MIC=223.7±18.7µM)"
+        }
+    }
+}

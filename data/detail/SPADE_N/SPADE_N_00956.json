@@ -1,0 +1,84 @@
+{
+    "SPADE_N_00956": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00956",
+            "Peptide Name": "Cyclopsychotride-A (CPT; Plant defensin)",
+            "Source": "Psychotria longipes",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "SIPCGESCVFIPCTVTALLGCSCKSKVCYKN",
+            "Sequence Length": 31,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P56872"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "Gram-negative bacteria:Escherichia coli (MIC=1.55 µM), Pseudomonas aeruginosa (MIC=13.5 µM), Proteus vulgaris (MIC=13.2 µM), Klebsiella oxytoca (MIC=5.80 µM).Gram-positive bacteria:Staphylococcus aureus (MIC=39.0 µM), Micrococcus luteus (MIC=48.0 µM).Fungi:Candida albicans (MIC>500 µM), Candida kefyr (MIC=14.0 µM), Candida tropicalis (MIC=56.5 µM).NOTE:Medium with 10 mM phosphate buffer.",
+            "Hemolytic Activity": "[Ref.10430870] HD50 = 405 μM against blood type A human erythrocytes.",
+            "Cytotoxicity": "[Ref.10430870] It caused 50% cell growth inhibition of mouse fibroblasts at 1850 μM.",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Cyclization (N termini to C termini)",
+            "C-terminal Modification": "Cyclization (C termini to N termini)",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C139H229N35O42S6",
+            "Mass": 3254.9,
+            "PI": 8.28,
+            "Net Charge": 2,
+            "Hydrophobicity": 0.65,
+            "Half Life": "Mammalian:1.9 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Probably participates in a plant defense mechanism. Has antibiotic activity. Inhibits the cytopathic effects and replication of the human immunodeficiency virus. Active against both Gram-positive and Gram-negative bacteria.",
+            "PTM": "This is a cyclic peptide which may contain three disulfide bonds 4-21; 8-23; 13-28.",
+            "Literature": [
+                {
+                    "Title": "An unusual structural motif of antimicrobial peptides containing end-to-end macrocycle and cystine-knot disulfides.",
+                    "Pubmed ID": "10430870",
+                    "Reference": "Proc Natl Acad Sci U S A. 1999 Aug 3;96(16)8913-8918.",
+                    "Author": "Tam JP, Lu YA, Yang JL, Chiu KW.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=10430870"
+                },
+                {
+                    "Title": "Cyclopsychotride A, a biologically active, 31-residue cyclic peptide isolated from Psychotria longipes.",
+                    "Pubmed ID": "7714530",
+                    "Reference": "J Nat Prod. 1994 Dec;57(12)1619-1625.",
+                    "Author": "Witherup KM, Bogusky MJ, Anderson PS, Ramjit H, Ransom RW, Wood T, Sardana M.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=7714530"
+                }
+            ],
+            "Frequent Amino Acids": "CSK",
+            "Absent Amino Acids": "DHMOQRUW",
+            "Basic Residues": 3,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 21,
+            "Positive Residues": 3,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_08097",
+                    "Similarity": 1.0,
+                    "Sequence": "SCVFIPCTVTALLGCSCKSKVCYKNSIPCGE"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00796",
+                    "Similarity": 0.9354838709677419,
+                    "Sequence": "GIPCGESCVFIPCTVTALLGCSCKDKVCYKN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00847",
+                    "Similarity": 0.9285714285714286,
+                    "Sequence": "CGESCVYIPCTVTALLGCSCKDKVCYKN"
+                }
+            ]
+        }
+    }
+}

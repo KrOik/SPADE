@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_30650": {
+        "Sequence Information": {
+            "Peptide Name": "",
+            "Sequence": "RWR",
+            "Sequence Length": 3,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Non hemolytic short peptidomimetics as a new class of potent and broad-spectrum antimicrobial agents.",
+                    "Pubmed ID": "23816372",
+                    "Reference": "Bioorg Med Chem Lett. 2013;23:4633-4636",
+                    "Author": "Murugan RN, Jacob B, Kim EH, Ahn M, Sohn H, Seo JH, Cheong C, Hyun JK, Lee KS, Shin SY, Bang JK",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/23816372"
+                }
+            ],
+            "Mass": 516.6,
+            "PI": 12.0,
+            "Net Charge": 2,
+            "Hydrophobicity": -3.3,
+            "Frequent Amino Acids": "RW",
+            "Absent Amino Acids": "ACDEFGHIKLMNOPQSTUVY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 0,
+            "Polar Residues": 3,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_30650",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02132",
+                    "Similarity": 1.0,
+                    "Sequence": "QLKVDLWGTRSGIQPEQHSSGKSDVRRWRSRY"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02195",
+                    "Similarity": 1.0,
+                    "Sequence": "YKQCHKKGGHCFPKEKICLPPSSDFGKMDCRWRWKCCKKGSG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02450",
+                    "Similarity": 1.0,
+                    "Sequence": "NPLSCRLNRGICVPIRCPGNLRQIGTCFTPSVKCCRWR"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:10% Hemolysis=>256 µg/ml",
+            "Target Organism": "Escherichia coli KCTC 1682(MIC=>64µg/ml),Pseudomonas aeruginosa KCTC 1637(MIC=>64µg/ml),Staphylococcus epidermidis KCTC 1917(MIC=>64µg/ml),Staphylococcus aureus KCTC 1621(MIC=>64µg/ml)"
+        }
+    }
+}

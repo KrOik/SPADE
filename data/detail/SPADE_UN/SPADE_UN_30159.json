@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_30159": {
+        "Sequence Information": {
+            "Peptide Name": "Thanatin 4, Thanatin [A15insert]",
+            "Sequence": "GSKKPVPIIYCNRRATGKCQRM",
+            "Sequence Length": 22,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P55788",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P55788",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Role of amino acid residues within the disulfide loop of thanatin, a potent antibiotic peptide.",
+                    "Pubmed ID": "12297012",
+                    "Reference": "J Biochem Mol Biol. 2002;35:291-296",
+                    "Author": "Lee MK, Cha L, Lee SH, Hahm KS",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/12297012"
+                }
+            ],
+            "Mass": 2507.01,
+            "PI": 10.47,
+            "Net Charge": 6,
+            "Hydrophobicity": -0.78,
+            "Frequent Amino Acids": "KRC",
+            "Absent Amino Acids": "DEFHLOUW",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 15,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_30159",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02651",
+                    "Similarity": 1.0,
+                    "Sequence": "GSKKPVPIIYCNRRTGKCQRM"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08316",
+                    "Similarity": 1.0,
+                    "Sequence": "GSKKPVPIIYCNRRGKCQRM"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14504",
+                    "Similarity": 1.0,
+                    "Sequence": "GSKKPVPIIYCNRATGKCQRM"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:0% Hemolysis=200 µg/ml",
+            "Target Organism": "Escherichia coli HB101(MIC=5.2µM),Salmonella typhimurium(MIC=2.6µM),Pseudomonas aeruginosa(MIC=5.2µM),Bacillus subtilis(MIC=20.8µM),Staphylococcus aureus(no activity data)"
+        }
+    }
+}

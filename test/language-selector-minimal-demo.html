@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Selector 极简版 - 干净简洁设计</title>
+    <link rel="stylesheet" href="css/language-selector-minimal.css">
+    <style>
+        /* 演示页面样式 - 极简设计风格 */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #2b1055 0%, #7597de 100%);
+            min-height: 100vh;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+
+        .demo-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 60px 24px;
+        }
+
+        .demo-header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .demo-title {
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin-bottom: 16px;
+            color: #ffffff;
+        }
+
+        .demo-subtitle {
+            font-size: 1.1rem;
+            color: rgba(255, 255, 255, 0.8);
+            font-weight: 400;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        .demo-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 24px;
+            margin-bottom: 60px;
+        }
+
+        .demo-card {
+            background: rgba(43, 16, 85, 0.2);
+            border-radius: 12px;
+            padding: 24px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .demo-card h3 {
+            font-size: 1.3rem;
+            margin-bottom: 12px;
+            color: #50e2c2;
+            font-weight: 600;
+        }
+
+        .demo-card p {
+            color: rgba(255, 255, 255, 0.9);
+            margin-bottom: 16px;
+            font-size: 0.95rem;
+        }
+
+        .feature-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .feature-list li {
+            padding: 4px 0;
+            padding-left: 20px;
+            position: relative;
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 0.9rem;
+        }
+
+        .feature-list li::before {
+            content: '•';
+            position: absolute;
+            left: 0;
+            color: #50e2c2;
+        }
+
+        .demo-controls {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 16px;
+        }
+
+        .demo-button {
+            padding: 8px 16px;
+            border: none;
+            border-radius: 6px;
+            background: rgba(80, 226, 194, 0.2);
+            color: #50e2c2;
+            font-size: 13px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            border: 1px solid rgba(80, 226, 194, 0.3);
+        }
+
+        .demo-button:hover {
+            background: rgba(80, 226, 194, 0.3);
+            color: #ffffff;
+        }
+
+        .demo-section {
+            margin-bottom: 40px;
+        }
+
+        .demo-section h2 {
+            color: #50e2c2;
+            font-size: 1.8rem;
+            margin-bottom: 24px;
+            text-align: center;
+            font-weight: 600;
+        }
+
+        .highlight-box {
+            background: rgba(43, 16, 85, 0.3);
+            border-radius: 12px;
+            padding: 24px;
+            text-align: center;
+            margin: 32px 0;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .highlight-box h3 {
+            font-size: 1.3rem;
+            margin-bottom: 12px;
+            color: #50e2c2;
+            font-weight: 600;
+        }
+
+        .highlight-box p {
+            font-size: 1rem;
+            color: rgba(255, 255, 255, 0.9);
+        }
+
+        .comparison-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 16px;
+            margin-top: 24px;
+        }
+
+        .comparison-item {
+            background: rgba(43, 16, 85, 0.15);
+            border-radius: 8px;
+            padding: 16px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .comparison-item h4 {
+            font-size: 1rem;
+            margin-bottom: 8px;
+            color: #50e2c2;
+            font-weight: 600;
+        }
+
+        .comparison-item .old-version {
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 0.85rem;
+            margin-bottom: 4px;
+        }
+
+        .comparison-item .new-version {
+            color: #50e2c2;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+
+        @media (max-width: 768px) {
+            .demo-title {
+                font-size: 2rem;
+            }
+            
+            .demo-content {
+                grid-template-columns: 1fr;
+                gap: 16px;
+            }
+            
+            .demo-card {
+                padding: 20px;
+            }
+
+            .comparison-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="demo-container">
+        <!-- 页面标题 -->
+        <header class="demo-header">
+            <h1 class="demo-title" data-translate="minimal_demo_title">Language Selector 极简版</h1>
+            <p class="demo-subtitle" data-translate="minimal_demo_subtitle">移除所有炫光特效，专注核心功能，干净简洁的设计风格</p>
+        </header>
+
+        <!-- 核心特性亮点 -->
+        <div class="highlight-box">
+            <h3 data-translate="minimal_key_features">极简设计理念</h3>
+            <p data-translate="minimal_key_features_desc">无炫光 • 无特效 • 纯功能 • 极简洁</p>
+        </div>
+
+        <!-- 功能特性展示 -->
+        <section class="demo-section">
+            <h2 data-translate="minimal_features_title">极简设计特性</h2>
+            <div class="demo-content">
+                <div class="demo-card">
+                    <h3>🎯 <span data-translate="clean_interface">干净界面</span></h3>
+                    <p data-translate="clean_interface_desc">移除所有不必要的视觉元素，专注于核心功能展示</p>
+                    <ul class="feature-list">
+                        <li data-translate="no_effects">无炫光特效</li>
+                        <li data-translate="no_animations">无复杂动画</li>
+                        <li data-translate="simple_colors">简洁配色</li>
+                        <li data-translate="clean_layout">清爽布局</li>
+                    </ul>
+                </div>
+
+                <div class="demo-card">
+                    <h3>⚡ <span data-translate="core_function">核心功能</span></h3>
+                    <p data-translate="core_function_desc">专注于语言切换的核心功能，提供直观的用户体验</p>
+                    <ul class="feature-list">
+                        <li data-translate="simple_click">简单点击展开</li>
+                        <li data-translate="clear_options">清晰选项显示</li>
+                        <li data-translate="instant_switch">即时语言切换</li>
+                        <li data-translate="smooth_experience">流畅用户体验</li>
+                    </ul>
+                </div>
+
+                <div class="demo-card">
+                    <h3>🎨 <span data-translate="minimal_style">极简风格</span></h3>
+                    <p data-translate="minimal_style_desc">采用极简设计风格，保持界面干净整洁</p>
+                    <ul class="feature-list">
+                        <li data-translate="subtle_borders">微妙边框</li>
+                        <li data-translate="soft_shadows">柔和阴影</li>
+                        <li data-translate="clean_typography">清洁字体</li>
+                        <li data-translate="minimal_spacing">合理间距</li>
+                    </ul>
+                </div>
+
+                <div class="demo-card">
+                    <h3>♿ <span data-translate="accessibility">无障碍访问</span></h3>
+                    <p data-translate="accessibility_desc">完整的无障碍访问支持，确保所有用户都能正常使用</p>
+                    <ul class="feature-list">
+                        <li data-translate="keyboard_nav">键盘导航</li>
+                        <li data-translate="screen_reader">屏幕阅读器</li>
+                        <li data-translate="focus_management">焦点管理</li>
+                        <li data-translate="aria_labels">ARIA标签</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- 设计对比 -->
+        <section class="demo-section">
+            <h2 data-translate="design_comparison_title">设计对比</h2>
+            <div class="comparison-grid">
+                <div class="comparison-item">
+                    <h4 data-translate="visual_effects">视觉效果</h4>
+                    <div class="old-version" data-translate="old_rainbow_glow">炫光版：彩虹弧光</div>
+                    <div class="new-version" data-translate="new_clean_simple">极简版：干净简洁</div>
+                </div>
+                <div class="comparison-item">
+                    <h4 data-translate="animation_style">动画风格</h4>
+                    <div class="old-version" data-translate="old_complex_animations">炫光版：复杂动画</div>
+                    <div class="new-version" data-translate="new_subtle_transitions">极简版：微妙过渡</div>
+                </div>
+                <div class="comparison-item">
+                    <h4 data-translate="design_focus">设计重点</h4>
+                    <div class="old-version" data-translate="old_visual_impact">炫光版：视觉冲击</div>
+                    <div class="new-version" data-translate="new_function_focus">极简版：功能专注</div>
+                </div>
+                <div class="comparison-item">
+                    <h4 data-translate="user_experience">用户体验</h4>
+                    <div class="old-version" data-translate="old_eye_catching">炫光版：吸引眼球</div>
+                    <div class="new-version" data-translate="new_intuitive_use">极简版：直观易用</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 使用说明 -->
+        <section class="demo-section">
+            <h2 data-translate="usage_guide_title">使用说明</h2>
+            <div class="demo-content">
+                <div class="demo-card">
+                    <h3 data-translate="quick_integration">🚀 快速集成</h3>
+                    <p data-translate="integration_desc">替换CSS和JS文件即可升级到极简版</p>
+                    <div style="background: rgba(0,0,0,0.2); padding: 12px; border-radius: 6px; font-family: monospace; font-size: 13px; margin-top: 12px;">
+&lt;link rel="stylesheet" href="css/language-selector-minimal.css"&gt;<br>
+&lt;script src="js/language-selector-minimal.js"&gt;&lt;/script&gt;
+                    </div>
+                </div>
+
+                <div class="demo-card">
+                    <h3 data-translate="configuration_options">⚙️ 配置选项</h3>
+                    <p data-translate="config_desc">支持基础配置选项，保持简洁</p>
+                    <div style="background: rgba(0,0,0,0.2); padding: 12px; border-radius: 6px; font-family: monospace; font-size: 13px; margin-top: 12px;">
+{<br>
+&nbsp;&nbsp;mode: 'dropdown',<br>
+&nbsp;&nbsp;showFlags: true,<br>
+&nbsp;&nbsp;showNativeNames: true<br>
+}
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 控制面板 -->
+        <section class="demo-section">
+            <h2 data-translate="demo_controls_title">演示控制</h2>
+            <div class="demo-content">
+                <div class="demo-card">
+                    <h3 data-translate="mode_switching">模式切换</h3>
+                    <p data-translate="mode_switching_desc">体验不同的交互模式</p>
+                    <div class="demo-controls">
+                        <button class="demo-button" onclick="switchToDropdown()" data-translate="btn_dropdown_mode">下拉菜单模式</button>
+                        <button class="demo-button" onclick="switchToToggle()" data-translate="btn_toggle_mode">切换按钮模式</button>
+                    </div>
+                </div>
+
+                <div class="demo-card">
+                    <h3 data-translate="display_options">显示选项</h3>
+                    <p data-translate="display_options_desc">控制显示内容</p>
+                    <div class="demo-controls">
+                        <button class="demo-button" onclick="toggleFlags()" data-translate="btn_toggle_flags">切换国旗显示</button>
+                        <button class="demo-button" onclick="toggleNativeNames()" data-translate="btn_toggle_native">切换原生名称</button>
+                    </div>
+                </div>
+
+                <div class="demo-card">
+                    <h3 data-translate="language_test">语言测试</h3>
+                    <p data-translate="language_test_desc">直接切换到指定语言</p>
+                    <div class="demo-controls">
+                        <button class="demo-button" onclick="switchLanguage('en')" data-translate="btn_english">English</button>
+                        <button class="demo-button" onclick="switchLanguage('zh-Hans')" data-translate="btn_chinese">中文</button>
+                        <button class="demo-button" onclick="switchLanguage('es')" data-translate="btn_spanish">Español</button>
+                        <button class="demo-button" onclick="switchLanguage('de')" data-translate="btn_german">Deutsch</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- 引入极简版组件脚本 -->
+    <script src="js/language-selector-minimal.js"></script>
+    
+    <!-- 演示控制脚本 -->
+    <script>
+        // 演示控制函数
+        function switchToDropdown() {
+            window.SPADE_LANGUAGE_SELECTOR_MINIMAL.destroy();
+            window.SPADE_LANGUAGE_SELECTOR_MINIMAL.init({
+                mode: 'dropdown',
+                autoClose: true,
+                closeOnOutsideClick: true,
+                showNativeNames: true,
+                showFlags: true
+            });
+        }
+
+        function switchToToggle() {
+            window.SPADE_LANGUAGE_SELECTOR_MINIMAL.destroy();
+            window.SPADE_LANGUAGE_SELECTOR_MINIMAL.init({
+                mode: 'toggle',
+                supportedLanguages: ['en', 'zh-Hans'],
+                showFlags: false
+            });
+        }
+
+        let flagsEnabled = true;
+        function toggleFlags() {
+            flagsEnabled = !flagsEnabled;
+            window.SPADE_LANGUAGE_SELECTOR_MINIMAL.destroy();
+            window.SPADE_LANGUAGE_SELECTOR_MINIMAL.init({
+                mode: 'dropdown',
+                showFlags: flagsEnabled,
+                showNativeNames: true
+            });
+            
+            const btn = event.target;
+            btn.textContent = flagsEnabled ? '隐藏国旗' : '显示国旗';
+        }
+
+        let nativeNamesEnabled = true;
+        function toggleNativeNames() {
+            nativeNamesEnabled = !nativeNamesEnabled;
+            window.SPADE_LANGUAGE_SELECTOR_MINIMAL.destroy();
+            window.SPADE_LANGUAGE_SELECTOR_MINIMAL.init({
+                mode: 'dropdown',
+                showFlags: true,
+                showNativeNames: nativeNamesEnabled
+            });
+            
+            const btn = event.target;
+            btn.textContent = nativeNamesEnabled ? '隐藏原生名称' : '显示原生名称';
+        }
+
+        function switchLanguage(langCode) {
+            window.SPADE_LANGUAGE_SELECTOR_MINIMAL.switchLanguage(langCode);
+        }
+
+        // 监听语言切换事件
+        document.addEventListener('languageSelector:languageChanged', (e) => {
+            console.log('语言已切换:', e.detail);
+            
+            // 显示简洁的切换提示
+            const notification = document.createElement('div');
+            notification.style.cssText = `
+                position: fixed;
+                top: 20px;
+                right: 20px;
+                background: rgba(43, 16, 85, 0.9);
+                color: white;
+                padding: 12px 20px;
+                border-radius: 8px;
+                font-weight: 500;
+                z-index: 10003;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+                border: 1px solid rgba(255, 255, 255, 0.1);
+                font-size: 14px;
+                transform: translateX(100%);
+                transition: transform 0.2s ease;
+            `;
+            notification.textContent = `语言已切换: ${e.detail.to}`;
+            
+            document.body.appendChild(notification);
+            
+            // 显示动画
+            setTimeout(() => {
+                notification.style.transform = 'translateX(0)';
+            }, 50);
+            
+            // 自动隐藏
+            setTimeout(() => {
+                notification.style.transform = 'translateX(100%)';
+                setTimeout(() => {
+                    if (document.body.contains(notification)) {
+                        document.body.removeChild(notification);
+                    }
+                }, 200);
+            }, 2000);
+        });
+
+        // 页面加载完成后的初始化
+        document.addEventListener('DOMContentLoaded', () => {
+            console.log('Language Selector Minimal 极简版演示页面已加载');
+        });
+    </script>
+</body>
+</html>

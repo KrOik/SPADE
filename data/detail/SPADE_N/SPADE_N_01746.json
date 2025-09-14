@@ -1,0 +1,82 @@
+{
+    "SPADE_N_01746": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01746",
+            "Peptide Name": "Brevinin-2PTe (Frogs, amphibians, animals)",
+            "Source": "Rana picturata (Malaysian fire frog) (Hylarana picturata)",
+            "Family": "Belongs to the frog skin active peptide family (Brevinin subfamily)",
+            "Gene": "Not found",
+            "Sequence": "GFLDSFKNAMIGVAKSVGKTALSTLACKIDKSC",
+            "Sequence Length": 33,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P0C8T7"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-positive bacterium:Staphylococcus aureus ATCC 25923 (MIC=36 µM);Gram-negative bacterium:Escherichia coli ATCC 25726 (MIC=18 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Cyclization (Cys27 and Cys33)",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C149H251N39O45S3",
+            "Mass": 3405.02,
+            "PI": 9.24,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.38,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Has antibacterial activity.",
+            "Tissue specificity": "Expressed by the skin glands.",
+            "PTM": "Contains one disulfide bond 27-33.",
+            "Literature": [
+                {
+                    "Title": "Characterization of antimicrobial peptides from the skin secretions of the Malaysian frogs, Odorrana hosii and Hylarana picturata (AnuraRanidae).",
+                    "Pubmed ID": "18621071",
+                    "Reference": "Toxicon. 2008 Sep 1;52(3)465-473.",
+                    "Author": "Conlon JM, Kolodziejek J, Nowotny N, Leprince J, Vaudry H, Coquet L, Jouenne T, King JD.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=18621071"
+                },
+                {
+                    "Title": "Characterization of antimicrobial peptides from the skin secretions of the Malaysian frogs, Odorrana hosii and Hylarana picturata (Anura:Ranidae).",
+                    "Pubmed ID": "R2008J0279",
+                    "Author": "Vaudry H.,Leprince J.,Nowotny N.,Kolodziejek J.,Conlon J.M."
+                }
+            ],
+            "Frequent Amino Acids": "KAS",
+            "Absent Amino Acids": "EHOPQRUWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 14,
+            "Polar Residues": 20,
+            "Positive Residues": 5,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01745",
+                    "Similarity": 0.9090909090909091,
+                    "Sequence": "GFLDSFKNAMIGVAKSAGKTALNTLACKIDKTC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01744",
+                    "Similarity": 0.7878787878787878,
+                    "Sequence": "GLLDSFKNAMIGIAKSAGKTALNKIACKIDKTC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01743",
+                    "Similarity": 0.696969696969697,
+                    "Sequence": "GFKGAFKNVMFGIAKSAGKSALNALACKIDKSC"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "SPADE_UN_24702": {
+        "Sequence Information": {
+            "Peptide Name": "Polybia-MPII [K5,8Dap], PMPII",
+            "Sequence": "INWLXLGXMVIDAL",
+            "Sequence Length": 14,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P84915",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P84915",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "The effects of incorporation of the counterparts and mimics of l-lysine on the antimicrobial activity, hemolytic activity, cytotoxicity and tryptic stability of antimicrobial peptide polybia-MPII.",
+                    "Pubmed ID": "34825276",
+                    "Reference": "Amino Acids. 2022;54:123–135",
+                    "Author": "Liang X, Liu K, Zhao P, Zhou J, Zhang F, He Y, Zhang H, Fareed MS, Lu Y, Xu Y, Zhang Z, Yan W, Wang K ",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/34825276"
+                }
+            ],
+            "SPADE ID": "SPADE_UN_24702",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_05651",
+                    "Similarity": 1.0,
+                    "Sequence": "INWLKLGKMVIDAL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_24700",
+                    "Similarity": 1.0,
+                    "Sequence": "INWLHLGHMVIDAL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_24701",
+                    "Similarity": 1.0,
+                    "Sequence": "INWLRLGRMVIDAL"
+                }
+            ],
+            "Hemolytic Activity": "Mouse erythrocytes:0% Hemolysis=256 µM,Mouse fibroblasts NIH 3T3:50% Cell death=128 µM",
+            "Target Organism": "Staphylococcus aureus ATCC 29213(MIC=16µM),Staphylococcus aureus ATCC 29213(MBC=16µM),Staphylococcus epidermidis ATCC 12228(MIC=16µM),Staphylococcus epidermidis ATCC 12228(MBC=32µM),Escherichia coli ATCC 25922(MIC=32µM),Escherichia coli ATCC 25922(MBC=32µM),Escherichia coli ATCC 43827(MIC=16µM),Escherichia coli ATCC 43827(MBC=32µM),Pseudomonas aeruginosa ATCC 27853(MIC=64µM),Pseudomonas aeruginosa ATCC 27853(MBC=64µM),Klebsiella pneumoniae ATCC 700603(MIC=128µM),Klebsiella pneumoniae ATCC 700603(MBC=128µM),Cronobacter sakazakii ATCC 29544(MIC=128µM),Cronobacter sakazakii ATCC 29544(MBC=128µM),Candida glabrata ATCC 2001(MIC=16µM),Candida glabrata ATCC 2001(MFC=32µM),Candida albicans ATCC 14053(MIC=16µM),Candida albicans ATCC 14053(MFC=32µM),Candida tropicalis ATCC 750(MIC=8µM),Candida tropicalis ATCC 750(MFC=16µM),Candida krusei ATCC 6258(MIC=16µM),Candida krusei ATCC 6258(MFC=16µM),Candida parapsilosis ATCC 22019(MIC=64µM),Candida parapsilosis ATCC 22019(MFC=64µM)"
+        }
+    }
+}

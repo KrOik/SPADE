@@ -1,0 +1,72 @@
+{
+    "SPADE_N_05702": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_05702",
+            "Peptide Name": "Microcin 7 (Bacteriocin; Escherichia coli, Bacteria)",
+            "Source": "Escherichia coli",
+            "Family": "Bacteriocin",
+            "Gene": "Not found",
+            "Sequence": "MRTGNAD",
+            "Sequence Length": 7,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Natural",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.2861788] Gram-negative bacteria:Escherichia coli , Klebsiella pneumoniae, Salmonella typhi, Salmonella typhimurium, Salmonella sp., Shigella flexneri, Shigella sp., Proteus mirabilis",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C28H49N11O12S",
+            "Mass": 763.82,
+            "PI": 5.84,
+            "Net Charge": 0,
+            "Hydrophobicity": -1.27,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Antibacterial activity against Gram-negative bacteria.",
+            "Literature": [
+                {
+                    "Title": "Structure and mode of action of microcin 7, an antibacterial peptide produced by Escherichia coli.",
+                    "Pubmed ID": "2861788",
+                    "Reference": "Antimicrob Agents Chemother. 1985 May;27(5)791-7.",
+                    "Author": "Garcia-Bustos JF, Pezzi N, Mendez E.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=2861788"
+                }
+            ],
+            "Frequent Amino Acids": "ADG",
+            "Absent Amino Acids": "CEFHIKLOPQSUVWY",
+            "Basic Residues": 1,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 2,
+            "Polar Residues": 4,
+            "Positive Residues": 1,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_14395",
+                    "Similarity": 1.0,
+                    "Sequence": "MRTGN"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_15242",
+                    "Similarity": 1.0,
+                    "Sequence": "NADIIKSLIRKTIINASKNTASLSILQHLYVLRS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00159",
+                    "Similarity": 0.8571428571428571,
+                    "Sequence": "MRTGNAN"
+                }
+            ]
+        }
+    }
+}

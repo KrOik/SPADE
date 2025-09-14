@@ -1,0 +1,54 @@
+{
+    "SPADE_UN_20801": {
+        "Sequence Information": {
+            "Peptide Name": "LL-37 (16-32)[E1G; F2,12BIP; I5,9l; V6A; L13l]",
+            "Sequence": "GXKRLAQRLKDXLRNLV",
+            "Sequence Length": 17,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P49913",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P49913",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Amino Acid Composition Determines Peptide Activity Spectrum and Hot-Spot-Based Design of Merecidin.",
+                    "Pubmed ID": "30800727",
+                    "Reference": "Adv Biosyst. 2018;2:",
+                    "Author": "Wang X, Mishra B, Lushnikova T, Narayana JL, Wang G",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/30800727"
+                }
+            ],
+            "SPADE ID": "SPADE_UN_20801",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00227",
+                    "Similarity": 1.0,
+                    "Sequence": "QGIGVGDNDGKRGKR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_20801",
+                    "Similarity": 1.0,
+                    "Sequence": "GKRLAQRLKDLRNLV"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_25881",
+                    "Similarity": 1.0,
+                    "Sequence": "LRNLVPRTES"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=80 µM",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=3.1-6.2µM),Pseudomonas aeruginosa PAO1(MIC=6.2µM),Staphylococcus aureus USA 300(MIC=3.1µM),Klebsiella pneumoniae ATCC 13883(MIC=12.5µM)"
+        }
+    }
+}

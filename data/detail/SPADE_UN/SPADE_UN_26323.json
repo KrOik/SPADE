@@ -1,0 +1,67 @@
+{
+    "SPADE_UN_26323": {
+        "Sequence Information": {
+            "Peptide Name": "Opistoporin-1 (1-16), Opis16a",
+            "Sequence": "GKVWDWIKSTAKKLWN",
+            "Sequence Length": 16,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P83313",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P83313",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "QSAR Reveals Decreased Lipophilicity of Polar Residues Determines the Selectivity of Antimicrobial Peptide Activity.",
+                    "Pubmed ID": "38911757",
+                    "Reference": "ACS Omega. 2024;9:26030-26049",
+                    "Author": "van der Walt M, Möller DS, van Wyk RJ, Ferguson PM, Hind CK, Clifford M, Do Carmo Silva P, Sutton JM, Mason AJ, Bester MJ, Gaspar ARM",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/38911757"
+                }
+            ],
+            "Mass": 1960.28,
+            "PI": 10.0,
+            "Net Charge": 3,
+            "Hydrophobicity": -0.81,
+            "Frequent Amino Acids": "KWA",
+            "Absent Amino Acids": "CEFHMOPQRUY",
+            "Basic Residues": 4,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 4,
+            "Polar Residues": 12,
+            "Positive Residues": 4,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_UN_26323",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03273",
+                    "Similarity": 1.0,
+                    "Sequence": "GKVWDWIKSTAKKLWNSEPVKELKNTALNAAKNLVAEKIGATPS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03274",
+                    "Similarity": 1.0,
+                    "Sequence": "GKVWDWIKSTAKKLWNSEPVKELKNTALNAAKNFVAEKIGATPS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05803",
+                    "Similarity": 1.0,
+                    "Sequence": "GKVWDWIKSTAKKLWNSEPVKELKNTALAKNFVAEKIGATPS"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:10% Hemolysis=155 µg/ml,Human erythrocytes:50% Hemolysis=>256 µg/ml,Human keratinocytes HaCat:25% Cytotoxicity=256 µg/ml",
+            "Target Organism": "Escherichia coli NCTC 12923(MIC=4µg/ml),Escherichia coli LEC001(MIC=4µg/ml),Pseudomonas aeruginosa PAO1(MIC=128µg/ml),Pseudomonas aeruginosa NCTC 13437(MIC=32µg/ml),Acinetobacter baumannii ATCC 17978(MIC=2µg/ml),Acinetobacter baumannii AYE(MIC=2µg/ml),Klebsiella pneumoniae M6(MIC=8µg/ml),Klebsiella pneumoniae NCTC 13368(MIC=16µg/ml),Staphylococcus aureus ATCC 9144(MIC=2µg/ml),Staphylococcus aureus NCTC 13616(MIC=4µg/ml),Staphylococcus aureus USA 300(MIC=8µg/ml),Candida auris TDG 1912(MIC50=>128µg/ml),Candida albicans NCPF 3281(MIC50=64µg/ml),Candida albicans NCPF 3281(MIC90=128µg/ml),Candida glabrata NCPF 8018(MIC50=128µg/ml),Candida glabrata NCPF 8018(MIC90=128µg/ml),Candida krusei NCPF 3876(MIC50=32µg/ml),Candida krusei NCPF 3876(MIC90=32µg/ml),Candida tropicalis NCPF 8760(MIC50=8µg/ml),Candida tropicalis NCPF 8760(MIC90=8µg/ml),Candida parapsilosis NCPF 3209(MIC50=64µg/ml),Candida parapsilosis NCPF 3209(MIC90=128µg/ml)"
+        }
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "SPADE_UN_29206": {
+        "Sequence Information": {
+            "Peptide Name": "Brevinin-2 related peptide B2RP [D4K][K16A]",
+            "Sequence": "GIWKTIKSMGKVFAGAILQNL",
+            "Sequence Length": 21,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P0DQK8",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P0DQK8",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Antimicrobial properties of brevinin-2-related peptide and its analogs: Efficacy against multidrug-resistant Acinetobacter baumannii",
+                    "Pubmed ID": "19793185",
+                    "Reference": "Chem Biol Drug Des. 2009;74:488-493",
+                    "Author": "Conlon JM, Ahmed E, Condamine E",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/19793185"
+                }
+            ],
+            "Mass": 2275.75,
+            "PI": 10.3,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.54,
+            "Frequent Amino Acids": "GIK",
+            "Absent Amino Acids": "CDEHOPRUY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 11,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_29206",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_11310",
+                    "Similarity": 1.0,
+                    "Sequence": "MGKKIGKWIITGAAGWAGWEIGEGIWK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_29206",
+                    "Similarity": 1.0,
+                    "Sequence": "GIWKTIKSMGKVFAGAILQNL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01994",
+                    "Similarity": 0.9523809523809523,
+                    "Sequence": "GIWKTIKSMGKVFAGKILQNL"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=40 µM",
+            "Target Organism": "Escherichia coli ATCC 25726(MIC=12.5µM),Staphylococcus aureus ATCC 25923(MIC=6.25µM),Acinetobacter baumannii(MIC=12.5µM),Candida albicans ATCC 90028(MIC=12.5µM)"
+        }
+    }
+}

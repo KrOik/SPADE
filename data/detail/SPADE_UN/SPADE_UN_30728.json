@@ -1,0 +1,53 @@
+{
+    "SPADE_UN_30728": {
+        "Sequence Information": {
+            "Peptide Name": "Magainin-2 [K4,10,11,14Orn]",
+            "Sequence": "GIGXFLHSAXXFGXAFVGEIMNS",
+            "Sequence Length": 23,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P11006",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P11006",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "A Rapid and Quantitative Flow Cytometry Method for the Analysis of Membrane Disruptive Antimicrobial Activity.",
+                    "Pubmed ID": "26986223",
+                    "Reference": "PLoS One. 2016;11:e0151694",
+                    "Author": "O'Brien-Simpson NM, Pantarat N, Attard TJ, Walsh KA, Reynolds EC",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/26986223"
+                }
+            ],
+            "SPADE ID": "SPADE_UN_30728",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02001",
+                    "Similarity": 1.0,
+                    "Sequence": "GIGKFLHSAKKFGKAFVGEIMNS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09742",
+                    "Similarity": 1.0,
+                    "Sequence": "KKKKGIGKFLHSAKKFGKAFVGEIMNS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10832",
+                    "Similarity": 1.0,
+                    "Sequence": "GIGKFLHSAKKFGKAFVGEIMNSGGC"
+                }
+            ],
+            "Hemolytic Activity": "Sheep erythrocytes:50% Hemolysis=721.1±65.3 µM",
+            "Target Organism": "Streptococcus mutans Ingbritt(MIC=>200µM),Streptococcus mutans Ingbritt(MBC=>200µM),Fusobacterium nucleatum ATCC 25586(MIC=13.1±0.5µM),Fusobacterium nucleatum ATCC 25586(MBC=14.9±0.2µM)"
+        }
+    }
+}

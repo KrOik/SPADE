@@ -1,0 +1,71 @@
+{
+    "SPADE_N_05674": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_05674",
+            "Peptide Name": "Cremycin-5 (nematode; invertebrates, animals)",
+            "Source": "Caenorhabditis remanei",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "VKSGHYKGPCYHDENCNGVCRDEGYKSGHCSRWGGACWCDT",
+            "Sequence Length": 41,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antifungal"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C190H272N60O60S6",
+            "Mass": 4566.96,
+            "PI": 6.95,
+            "Net Charge": 3,
+            "Hydrophobicity": -1.04,
+            "Half Life": "Mammalian:100 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Nematode-derived drosomycin-type antifungal peptides provide evidence for plant-to-ecdysozoan horizontal transfer of a disease resistance gene",
+                    "Pubmed ID": "24434635",
+                    "Reference": "Nat Commun. 2014;53154.",
+                    "Author": "Zhu S, Gao B.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=24434635"
+                }
+            ],
+            "Frequent Amino Acids": "GCD",
+            "Absent Amino Acids": "FILMOQU",
+            "Basic Residues": 8,
+            "Acidic Residues": 5,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 26,
+            "Positive Residues": 8,
+            "Negative Residues": 5,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_13985",
+                    "Similarity": 0.5609756097560976,
+                    "Sequence": "DVLSGKYKGPCYFGIIPCFVRGCKPKLFDAHRKLCIKLCKQEGFKSGHCSNFFKFQCWCTR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02498",
+                    "Similarity": 0.525,
+                    "Sequence": "MMQIKFLFTFLALLMMVILGAKEADADCLSGRYRGPCAVWDNETCRRVCREEGRGRVSGHCSARLQCWCEGC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02685",
+                    "Similarity": 0.525,
+                    "Sequence": "DCLSGRYKGPCAVWDNETCRRVCKEEGRSSGHCSPSLKCWCEGC"
+                }
+            ]
+        }
+    }
+}

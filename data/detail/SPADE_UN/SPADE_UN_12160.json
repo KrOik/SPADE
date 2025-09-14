@@ -1,0 +1,78 @@
+{
+    "SPADE_UN_12160": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_12160",
+            "Peptide Name": "PQ (De Novo Synthesis)",
+            "Source": "synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "IHKFWRCRRRFCRWFKHI",
+            "Sequence Length": 18,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic form",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.30538681] Gram-positive bacteria:Staphylococcus aureus ATCC 29213(MIC=8μM), Staphylococcus aureus ATCC 43300(MIC=8μM), Staphylococcus epidermidis ATCC 12228(MIC=8μM), Streptococci faecalis ATCC 29212(MIC=16μM), Bacillus subtilis CMCC 63501(MIC=16μM);Gram-negative bacteria:Escherichia coli ATCC 25922(MIC=16μM), Escherichia coli UB 1005(MIC=8μM), bacteria pyocyaneum ATCC 27853(MIC=8μM), Salmonella typhimurium ATCC 7731(MIC=8μM), Salmonella Pulloru C79-13(MIC=8μM)",
+            "Hemolytic Activity": "[Ref.30538681] MHC>128μM against human blood cells.The minimum hemolytic concentration (MHC) is defined as the peptide concentration resulting in 5% hemolysis.",
+            "Cytotoxicity": "[Ref.30538681] The cell viability of intestinal epithelial cells (IPEC-J2) induced by PQ is 68.2%, 68.6%, 66.8%,63.6%, 69.1%, 62.2%, 55.8% and 28.1% at peptide concentrations of 1, 2, 4, 8, 16, 32, 64 and 128 μM.",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "In PBS, the α-helix content of PQ is 26.91% and the β-strand content of that is 11.16%. In SDS, the α-helix content of PQ is 32.02% and the β-strand of that is 6.15%. In TFE, the α-helix content of PQ is 36.82% and the β-strand of that is 4.28%.",
+            "Formula": "C121H179N41O19S2",
+            "Mass": 2576.11,
+            "PI": 11.84,
+            "Net Charge": 9,
+            "Hydrophobicity": -0.89,
+            "Half Life": "Mammalian:20 hourYeast:30 minE.coli:>10 hour",
+            "Function": "Antibacterial activity against Gram-positive bacteria and Gram-nagetive bacteria.",
+            "Literature": [
+                {
+                    "Title": "Short Symmetric-End Antimicrobial Peptides Centered on β-Turn Amino Acids Unit Improve Selectivity and Stability",
+                    "Pubmed ID": "30538681",
+                    "Reference": "Front Microbiol. 2018; 9 2832. Published online 2018 Nov 27. doi 10.3389/fmicb.2018.02832",
+                    "Author": "Na Dong, Shuli Chou, Jiawei Li, Chenyu Xue, Xinran Li, Baojing Cheng, Anshan Shan, and Li Xu",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=30538681"
+                },
+                {
+                    "Title": "Short Symmetric-End Antimicrobial Peptides Centered on ?-Turn Amino Acids Unit Improve Selectivity and Stability",
+                    "Pubmed ID": "",
+                    "Author": "Dong n, Chou S, Li J, Xue C, Li X, Cheng B, Shan A, Xu L"
+                }
+            ],
+            "Frequent Amino Acids": "RFC",
+            "Absent Amino Acids": "ADEGLMNOPQSTUVY",
+            "Basic Residues": 9,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 11,
+            "Positive Residues": 9,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_12163",
+                    "Similarity": 1.0,
+                    "Sequence": "IHKFWRRWFKHI"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_11842",
+                    "Similarity": 1.0,
+                    "Sequence": "WRCRRRFCRW"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_12161",
+                    "Similarity": 0.8571428571428571,
+                    "Sequence": "IHKFWRPGRWFKHI"
+                }
+            ]
+        }
+    }
+}

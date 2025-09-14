@@ -1,0 +1,76 @@
+{
+    "SPADE_N_02547": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02547",
+            "Peptide Name": "Tachystatin-C (crabs, Arthropods, animals)",
+            "Source": "Tachypleus tridentatus (Japanese horseshoe crab)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "DYDWSLRGPPKCATYGQKCRTWSPPNCCWNLRCKAFRCRPR",
+            "Sequence Length": 41,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P0C200"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Antifungal",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-negative bacterium:Escherichia coli (IC50=1.2 µg/ml);Gram-positive bacterium:Staphylococcus aureus (IC50=0.8 µg/ml).Fungi:Candida albicans (IC50=0.9 µg/ml), Pichia pastoris (IC50=0.3 µg/ml).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Chitin-binding",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C214H324N68O55S6",
+            "Mass": 4921.67,
+            "PI": 9.55,
+            "Net Charge": 7,
+            "Hydrophobicity": -1.08,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:>10 hour",
+            "Comments": "Causes hemolysis on sheep erythrocytes, probably by forming ion-permeable pores.",
+            "Literature": [
+                {
+                    "Title": "Horseshoe crab hemocyte-derived antimicrobial polypeptides, tachystatins, with sequence similarity to spider neurotoxins.",
+                    "Pubmed ID": "10473569",
+                    "Reference": "J Biol Chem. 1999 Sep 10;274(37)26172-26178.",
+                    "Author": "Osaki T, Omotezako M, Nagayama R, Hirata M, Iwanaga S, Kasahara J, Hattori J, Ito I, Sugiyama H, Kawabata S.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=10473569"
+                }
+            ],
+            "Frequent Amino Acids": "CRP",
+            "Absent Amino Acids": "EHIMOUV",
+            "Basic Residues": 9,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 15,
+            "Polar Residues": 26,
+            "Positive Residues": 9,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07715",
+                    "Similarity": 0.975609756097561,
+                    "Sequence": "DYDWSLRGPPKCATYGQKCRTWSPRNCCWNLRCKAFRCRPR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02514",
+                    "Similarity": 0.6666666666666666,
+                    "Sequence": "RRLRPRRPRLPRPRPRPRPRPRSLPLPRPKPRPIPRPLPLPRPRPKPIPRPLPLPRPRPRRIPRPLPLPRPRPRPIPRPLPLPQPQPSPIPRPL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05828",
+                    "Similarity": 0.6666666666666666,
+                    "Sequence": "RRLRPRRPRLPRPRPRPRPRPR"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "SPADE_UN_22909": {
+        "Sequence Information": {
+            "Peptide Name": "",
+            "Sequence": "CLRPSIISRA",
+            "Sequence Length": 10,
+            "Biological Activity": [
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Discovery and characterization of New Delhi metallo-beta-lactamase-1 inhibitor peptides that potentiate meropenem-dependent killing of carbapenemase-producing Enterobacteriaceae.",
+                    "Pubmed ID": "32591801",
+                    "Reference": "J Antimicrob Chemother. 2020;:",
+                    "Author": "Kazi MI, Perry BW, Card DC, Schargel RD, Ali HB, Obuekwe VC, Sapkota M, Kang KN, Pellegrino MW, Greenberg DE, Castoe TA, Boll JM",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/32591801"
+                }
+            ],
+            "Mass": 1115.35,
+            "PI": 10.35,
+            "Net Charge": 2,
+            "Hydrophobicity": 0.49,
+            "Frequent Amino Acids": "IRS",
+            "Absent Amino Acids": "DEFGHKMNOQTUVWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 5,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_22909",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03082",
+                    "Similarity": 1.0,
+                    "Sequence": "MKIAFIVAISLAFLAVTSCIEFEKSTESHDIQKRGVTITVKPPFPGCVFYECIANCRSRGYKNGGYCTINGCQCLR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03707",
+                    "Similarity": 1.0,
+                    "Sequence": "RTCFYGLGKCRRICRANEKKKERCGERTFCCLR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03708",
+                    "Similarity": 1.0,
+                    "Sequence": "RICGYGTARCRKKCRSQEYRIGRCPNTYACCLR"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:7% Hemolysis=50 µM,Murine intestinal epithelial cells MODE-K:0% Killing=256 µM",
+            "Target Organism": "Escherichia coli W3110(MBC=32µM),Klebsiella pneumoniae NIH1(MBC=>=128µM),Enterobacter cloacae ATCC 13047(MBC=>=128µM)"
+        }
+    }
+}

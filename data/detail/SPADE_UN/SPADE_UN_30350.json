@@ -1,0 +1,54 @@
+{
+    "SPADE_UN_30350": {
+        "Sequence Information": {
+            "Peptide Name": "Piscidin 1 [G8NLYS]",
+            "Sequence": "FFHHIFRXIVHVGKTIHRLVTG",
+            "Sequence Length": 22,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "Q8UUG0",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/Q8UUG0",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Structural flexibility and the positive charges are the key factors in bacterial cell selectivity and membrane penetration of peptoid-substituted analog of Piscidin 1.",
+                    "Pubmed ID": "20603100",
+                    "Reference": "Biochim Biophys Acta. 2010;1798:1913-1925",
+                    "Author": "Kim JK, Lee SA, Shin S, Lee JY, Jeong KW, Nan YH, Park YS, Shin SY, Kim Y",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/20603100"
+                }
+            ],
+            "SPADE ID": "SPADE_UN_30350",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02055",
+                    "Similarity": 1.0,
+                    "Sequence": "FFHHIFRGIVHVGKTIHRLVTGG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02059",
+                    "Similarity": 1.0,
+                    "Sequence": "FFHHIFRGIVHVGKTIHRLVTG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09578",
+                    "Similarity": 1.0,
+                    "Sequence": "FFHHIFRAIVHVGKTIHRLVTG"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:0% Hemolysis=200 µM",
+            "Target Organism": "Escherichia coli KCTC 1682(MIC=2.0µM),Pseudomonas aeruginosa KCTC 1637(MIC=4.0µM),Salmonella typhimurium KCTC 1926(MIC=4.0µM),Bacillus subtilis KCTC 3068(MIC=1.0µM),Staphylococcus epidermidis KCTC 1917(MIC=2.0µM),Staphylococcus aureus KCTC 1621(MIC=4.0µM)"
+        }
+    }
+}

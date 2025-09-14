@@ -1,0 +1,81 @@
+{
+    "SPADE_N_02524": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02524",
+            "Peptide Name": "Hepcidin (dogs, mammals, animals)",
+            "Source": "Canis familiaris (Dog) (Canis lupus familiaris)",
+            "Family": "Belongs to the glycosyl hydrolase 22 family",
+            "Gene": "HAMP",
+            "Sequence": "DTHFPICIFCCGCCKTPKCGLCCKT",
+            "Sequence Length": 25,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q5U9D2",
+                "http://www.uniprot.org/uniprot/Q5EES0"
+            ],
+            "Protein Existence": "Homology",
+            "Biological Activity": [
+                "Antimicrobial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C114H182N30O31S8",
+            "Mass": 2725.37,
+            "PI": 8.21,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.56,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:>10 hour",
+            "Function": "Seems to act as a signaling molecule involved in the maintenance of iron homeostasis. Seems to be required in conjunction with HFE to regulate both intestinal iron absorption and iron storage in macrophages. May also have antimicrobial activity.",
+            "PTM": "Contains four disulfide bonds 7-23; 10-13; 11-19; 14-22.",
+            "Literature": [
+                {
+                    "Title": "Identification of dog hepcidin.",
+                    "Pubmed ID": "PubMed ID is not available",
+                    "Reference": "Submitted (OCT-2004) to the EMBL/GenBank/DDBJ databases",
+                    "Author": "Shi J, Wei Y, Boothe D.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=PubMed ID is not available"
+                },
+                {
+                    "Title": "Identification of dog hepcidin in China.",
+                    "Pubmed ID": "PubMed ID is not available",
+                    "Reference": "Submitted (JAN-2005) to the EMBL/GenBank/DDBJ databases",
+                    "Author": "Li XD, Zhao TZ, Sun M, Tian KG, Chen XZ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=PubMed ID is not available"
+                }
+            ],
+            "Frequent Amino Acids": "CKT",
+            "Absent Amino Acids": "AEMNOQRSUVWY",
+            "Basic Residues": 4,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 15,
+            "Positive Residues": 4,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07587",
+                    "Similarity": 1.0,
+                    "Sequence": "PHQTGQLTDLRAQDTAGAEAGLQPTLQLRRLRRRDTHFPICIFCCGCCKTPKCGLCCKT"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07543",
+                    "Similarity": 0.96,
+                    "Sequence": "PHQTGQLTDLRAQDTAGAEAGLQPTLQLRRLRRRDTHFPICIFCCGCCKTPKCGLCCIT"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07549",
+                    "Similarity": 0.96,
+                    "Sequence": "PHQTGQLTDLRAQDTAGAEAGLQPTLQLRRLRRRDTHFPICIFCCGCCKTPKCGFCCKT"
+                }
+            ]
+        }
+    }
+}

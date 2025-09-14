@@ -1,0 +1,67 @@
+{
+    "SPADE_UN_19093": {
+        "Sequence Information": {
+            "Peptide Name": "MreB(1–9)",
+            "Sequence": "MLKKFRGMF",
+            "Sequence Length": 9,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "D8EE54",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/D8EE54",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Highly potent antimicrobial peptides from N-terminal membrane-binding region of E. coli MreB",
+                    "Pubmed ID": "28230084 ",
+                    "Reference": "Sci Rep. 2017;7:42994",
+                    "Author": "Saikia K, Sravani YD, Ramakrishnan V, Chaudhary N",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/28230084 "
+                }
+            ],
+            "Mass": 1157.49,
+            "PI": 11.17,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.06,
+            "Frequent Amino Acids": "FKM",
+            "Absent Amino Acids": "ACDEHINOPQSTUVWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 4,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_19093",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01528",
+                    "Similarity": 1.0,
+                    "Sequence": "GMFTNMLKGIGKLAGQAALGAVKTLA"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07391",
+                    "Similarity": 1.0,
+                    "Sequence": "GMFTNMLKGIGKLAGKAALGAVKTLA"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11554",
+                    "Similarity": 1.0,
+                    "Sequence": "WMLKKFRGMF"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:0% Hemolysis=50-100 µM",
+            "Target Organism": "Escherichia coli MG1655(LC=20µM),Pseudomonas aeruginosa NCTC 6750(LC=10µM),Salmonella enterica SL 4213(LC=10µM),Staphylococcus aureus NCTC 8530(LC=50µM),Staphylococcus aureus ATCC 33592(LC=20µM),Candida albicans ATCC 18804(LC=15µM),Pseudomonas aeruginosa NCTC 6750(90-100% Killing=10µM),Escherichia coli MG1655(50-60% Killing=20µM),Escherichia coli MG1655(60-70% Killing=20µM),Pseudomonas aeruginosa NCTC 6750(70-80% Killing=10µM),Staphylococcus aureus NCTC 8530(90-100% Killing=50µM),Candida albicans ATCC 18804(30-40% Killing=15µM),Salmonella enterica SL 4213(70-80% Killing=10µM),Salmonella enterica SL 4213(50-60% Killing=10µM),Staphylococcus aureus ATCC 33592(90-100% Killing=20µM),Staphylococcus aureus ATCC 33592(90-100% Killing=20µM),Salmonella enterica SL 4213(90-100% Killing=10µM)"
+        }
+    }
+}

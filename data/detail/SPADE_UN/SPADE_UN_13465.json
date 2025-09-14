@@ -1,0 +1,82 @@
+{
+    "SPADE_UN_13465": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_13465",
+            "Peptide Name": "c Mastoparan-C(cMP-C)",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "N/A",
+            "Sequence": "CLNLKALLAVAKKILC",
+            "Sequence Length": 16,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P01516"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anticancer",
+                "Antifungal"
+            ],
+            "Target Organism": "[Ref.29904274]Gram-positive bacteria:Staphylococcus aureus NCTC 10788(MIC=32 µM); Staphylococcus aureus NCTC 10788(MBC=64 µM); Staphylococcus aureus ATCC 12493(MRSA,MIC=128 µM); Staphylococcus aureus ATCC 12493(MRSA,MBC=128 µM); Enterococcus faecalis NCTC 12697(MIC=128 µM); Enterococcus faecalis NCTC 12697(MBC=128 µM);Gram-negative bacteria:Escherichia coli NCTC 10418(MIC=32 µM); Escherichia coli NCTC 10418(MBC=128 µM); Pseudomonas aeruginosa ATCC 27853(MIC=32 µM); Pseudomonas aeruginosa ATCC 27853(MBC>512 µM);Fungi:Candida albicans NCTC 1467(MIC=32 µM); Candida albicans NCTC 1467(MBC=128 µM);Cancer:Human squamous lung carcinoma NCI-H157(IC50=7.02 µM);Human breast adenocarcinoma MDA-MB-435S(IC50=13.87 µM);Human prostate adenocarcinoma PC-3(IC50=13.87 µM);Human glioblastoma U251-MG(IC50=8.56 µM); Human breast adenocarcinoma MCF-7(IC50=13.66 µM).",
+            "Hemolytic Activity": "[Ref.29904274]50% hemolysis against horse erythrocytes at 9.19 µM.",
+            "Cytotoxicity": "[Ref.29904274]Cytotoxicity:Human microvascular endothelial cells HMEC-1(IC50=39.53 µM).",
+            "Binding Target": "liposomes",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "76% α-helix was determined from the circular dichroism spectra recorded in 50% TFE/10mM NH4AC solution,28% of the secondary structure  retained an α-helical domain in an aqueous environment.",
+            "Formula": "C78H144N20O18S2",
+            "Mass": 1714.23,
+            "PI": 9.39,
+            "Net Charge": 3,
+            "Hydrophobicity": 1.43,
+            "Half Life": "Mammalian:1.2 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Antibacterial activity against Gram-positive bacteria and Gram-negative bacteria.",
+            "Literature": [
+                {
+                    "Title": "Evaluation of the bioactivity of a mastoparan peptide from wasp venom and of its analogues designed through targeted engineering.",
+                    "Pubmed ID": "29904274",
+                    "Reference": "Int J Biol Sci. 2018 Apr 25;14(6)599-607.",
+                    "Author": "Chen X, Zhang L, Wu Y, Wang L, Ma C, Xi X, Bininda-Emonds ORP, Shaw C, Chen T, Zhou M.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=29904274"
+                },
+                {
+                    "Title": "Evaluation of the bioactivity of a mastoparan peptide from wasp venom and of its analogues designed through targeted engineering",
+                    "Pubmed ID": "",
+                    "Author": "Chen X, Zhang L, Wu Y, Wang L, Ma C, Xi X, Bininda-Emonds ORP, Shaw C, Chen T, Zhou M"
+                }
+            ],
+            "Frequent Amino Acids": "LAK",
+            "Absent Amino Acids": "DEFGHMOPQRSTUWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 10,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06005",
+                    "Similarity": 1.0,
+                    "Sequence": "LNLKALLAVAKKIL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_13485",
+                    "Similarity": 1.0,
+                    "Sequence": "LNLKALLAVAKKI"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_13486",
+                    "Similarity": 1.0,
+                    "Sequence": "LNLKALLAVAKK"
+                }
+            ]
+        }
+    }
+}

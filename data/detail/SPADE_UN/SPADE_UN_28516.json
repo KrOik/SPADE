@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_28516": {
+        "Sequence Information": {
+            "Peptide Name": "Cathelicidin-4 / Indolicidin [W4,6,9,11L]",
+            "Sequence": "ILPLKLPWLPLRR",
+            "Sequence Length": 13,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P33046",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P33046",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Antibacterial and hemolytic activities of single tryptophan analogs of indolicidin.",
+                    "Pubmed ID": "10924341",
+                    "Reference": "Biochem Biophys Res Commun. 2000;274:714-716",
+                    "Author": "Subbalakshmi C, Bikshapathy E, Sitaram N, Nagaraj R",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/10924341"
+                }
+            ],
+            "Mass": 1615.06,
+            "PI": 12.0,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.38,
+            "Frequent Amino Acids": "LPR",
+            "Absent Amino Acids": "ACDEFGHMNOQSTUVY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 7,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_28516",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_28004",
+                    "Similarity": 0.9230769230769231,
+                    "Sequence": "ILPLKLPLLPLRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_28008",
+                    "Similarity": 0.8461538461538461,
+                    "Sequence": "ILPLKLPWWPWRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_28013",
+                    "Similarity": 0.8461538461538461,
+                    "Sequence": "ILPWKWPWLPLRR"
+                }
+            ],
+            "Hemolytic Activity": "Rat erythrocytes:0% Hemolysis=100 µg/ml",
+            "Target Organism": "Escherichia coli W160-37(MIC=20µg/ml),Staphylococcus aureus(MIC=10µg/ml)"
+        }
+    }
+}

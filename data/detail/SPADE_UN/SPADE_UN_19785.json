@@ -1,0 +1,67 @@
+{
+    "SPADE_UN_19785": {
+        "Sequence Information": {
+            "Peptide Name": "Peptide 1013",
+            "Sequence": "VRLRIRVA",
+            "Sequence Length": 8,
+            "Biological Activity": [
+                "Anti-Gram-",
+                "Antifungal",
+                "Antibiofilm"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Inhibition of bacterial biofilm formation and swarming motility by a small synthetic cationic peptide.",
+                    "Pubmed ID": "22354291",
+                    "Reference": "Antimicrob Agents Chemother. 2012;56:2696-2704",
+                    "Author": "de la Fuente-Núnez C, Korolik V, Bains M, Nguyen U, Breidenstein EB, Horsman S, Lewenza S, Burrows LL, Hancock RE",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/22354291"
+                },
+                {
+                    "Title": "Antifungal peptides: a potential new class of antifungals for treating vulvovaginal candidiasis caused by fluconazole-resistant Candida albicans.",
+                    "Pubmed ID": "28105725",
+                    "Reference": "J Pept Sci. 2017;23:215-221",
+                    "Author": "Ng SM, Yap YY, Cheong JW, Ng FM, Lau QY, Barkham T, Teo JW, Hill J, Chia CS",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/28105725"
+                }
+            ],
+            "Mass": 982.23,
+            "PI": 12.0,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.62,
+            "Frequent Amino Acids": "RVA",
+            "Absent Amino Acids": "CDEFGHKMNOPQSTUWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 3,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_19785",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_00460",
+                    "Similarity": 1.0,
+                    "Sequence": "VRLRIRVAVIRA"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_00464",
+                    "Similarity": 1.0,
+                    "Sequence": "VRLRIRVAVRRA"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_00465",
+                    "Similarity": 1.0,
+                    "Sequence": "VRLRIRVAVIRK"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Pseudomonas aeruginosa PAO1(MIC=10µg/ml),Candida albicans ATCC 64550 (MIC=25µM)"
+        }
+    }
+}

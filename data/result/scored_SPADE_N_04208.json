@@ -1,0 +1,101 @@
+{
+  "DRAMP ID": "SPADE_N_04208",
+  "total": 6.07,
+  "category": "Average",
+  "scores": {
+    "efficacy": 5.85,
+    "selectivity": 6.0,
+    "stability": 8.0,
+    "synthesis": 1.0,
+    "novelty": 10.0
+  },
+  "weighted_scores": {
+    "efficacy": 2.05,
+    "selectivity": 1.5,
+    "stability": 1.6,
+    "synthesis": 0.12,
+    "novelty": 0.8
+  },
+  "weights": {
+    "efficacy": 0.35,
+    "selectivity": 0.25,
+    "stability": 0.2,
+    "synthesis": 0.12,
+    "novelty": 0.08
+  },
+  "features": {
+    "hydrophobic_count": 27,
+    "hydrophobic_ratio": 0.34615384615384615,
+    "hydrophilic_count": 16,
+    "hydrophilic_ratio": 0.20512820512820512,
+    "positive_count": 14,
+    "positive_ratio": 0.1794871794871795,
+    "negative_count": 5,
+    "negative_ratio": 0.0641025641025641,
+    "aromatic_count": 5,
+    "aromatic_ratio": 0.0641025641025641,
+    "cysteine_count": 9,
+    "cysteine_ratio": 0.11538461538461539,
+    "proline_count": 1,
+    "proline_ratio": 0.01282051282051282,
+    "glycine_count": 6,
+    "glycine_ratio": 0.07692307692307693,
+    "net_charge": 9,
+    "hydrophobicity": 0.34615384615384615,
+    "amphipathicity": 0.07100591715976332,
+    "aromaticity": 0.0641025641025641,
+    "cys_bonds_potential": 4,
+    "flexibility": 7
+  },
+  "details": {
+    "efficacy": {
+      "mic_data": [],
+      "predicted_score": 6.5,
+      "charge_score": 3.0,
+      "hydrophobicity_score": 10.0,
+      "length_factor": 0.9,
+      "final_score": 5.8500000000000005
+    },
+    "selectivity": {
+      "hemolysis_data": null,
+      "predicted_selectivity": 6.0,
+      "hydrophobicity_penalty": 0,
+      "charge_bonus": -1.0,
+      "diversity_bonus": 0.0,
+      "final_score": 6.0
+    },
+    "stability": {
+      "disulfide_bonds": 4,
+      "disulfide_bonus": 3.0,
+      "proline_bonus": 0,
+      "glycine_penalty": 0,
+      "final_score": 8.0
+    },
+    "synthesis": {
+      "length": 78,
+      "length_score": 2.0,
+      "rare_amino_acids": 9,
+      "rare_penalty": 4.5,
+      "unique_amino_acids": 17,
+      "repetition_bonus": 0.30000000000000004,
+      "disulfide_penalty": 2.5,
+      "final_score": 1.0
+    },
+    "novelty": {
+      "max_similarity": 0,
+      "avg_similarity": 0,
+      "novelty_from_similarity": 10.0,
+      "unique_activities": [
+        "antibacterial",
+        "antifungal"
+      ],
+      "multifunctional_bonus": 1.0,
+      "composition_entropy": 3.900537324229056,
+      "composition_bonus": 1.805804316772711,
+      "final_score": 10.0
+    }
+  },
+  "target_organisms": {},
+  "scoring_version": "2.0",
+  "timestamp": "2025-07-09T13:59:48.336076"
+}

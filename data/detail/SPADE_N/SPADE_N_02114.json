@@ -1,0 +1,77 @@
+{
+    "SPADE_N_02114": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02114",
+            "Peptide Name": "Napin-like polypeptide (Contains: Napin-like polypeptide small chain and large chain)",
+            "Source": "Brassica oleracea var. alboglabra (Chinese kale) (Brassicaalboglabra)",
+            "Family": "Belongs to the 2S seed storage albumins family",
+            "Gene": "Not found",
+            "Sequence": "PAQPFRIKKRQGPFERP",
+            "Sequence Length": 17,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P84782"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-negative bacterium:Pseudomonas fluorescens (IC50=89±6.1 µM);Gram-positive bacteria:Bacillus subtilis (IC50=278±12.9 µM), B. cereus (IC50=145±83 µM), Bacillus megaterium (IC50=156±8.4 µM), Megabacterium phlei (IC50=104±27 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C94H150N30O22",
+            "Mass": 2052.38,
+            "PI": 11.72,
+            "Net Charge": 4,
+            "Hydrophobicity": -1.57,
+            "Half Life": "Mammalian:>20 hourYeast:>20 hourE.coli:?",
+            "Function": "Inhibits cell-free protein synthesis. Inhibits trypsin and chymotrypsin. Does not inhibit ribonuclease of protease activity. Has antibacterial activity except Gram-positive bacterium S. aureus or the Gram-negative bacteria E. coli, E. aerogenes, P. aeruginosa and P. vulgaris. Inhibits the proliferation of leukemia cells in vitro.",
+            "Subunit structure": "The mature protein consists of a small and a large chain linked by disulfide bonds (sequence shown is small chain).",
+            "Biophysicochemical properties": "This activity is preserved between pH 5 and pH 11, and between 10 and 40 degrees C. It falls to a low level at pH 3 and pH 13 and at 70 degrees C.",
+            "Literature": [
+                {
+                    "Title": "A napin-like polypeptide with translation-inhibitory, trypsin-inhibitory, antiproliferative and antibacterial activities from kale seeds.",
+                    "Pubmed ID": "15485558",
+                    "Reference": "J Pept Res. 2004 Nov;64(5)202-208.",
+                    "Author": "A napin-like polypeptide with translation-inhibitory, trypsin-inhibitory, antiproliferative and antibacterial activities from kale seeds.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=15485558"
+                }
+            ],
+            "Frequent Amino Acids": "PRF",
+            "Absent Amino Acids": "CDHLMNOSTUVWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 8,
+            "Positive Residues": 5,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03028",
+                    "Similarity": 0.7058823529411765,
+                    "Sequence": "PAQPFRFPKHPQGPQTRPPI"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_09461",
+                    "Similarity": 0.5555555555555556,
+                    "Sequence": "MPLIEVDLLNPTAASEAKAHKMKRLVPTPNSYFLEIKCPKCGATTTTFSHAHRQILCQKCGQPLGQPTGGKLKLTQQCKFRIKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_02443",
+                    "Similarity": 0.5555555555555556,
+                    "Sequence": "FGYRIKKRN"
+                }
+            ]
+        }
+    }
+}

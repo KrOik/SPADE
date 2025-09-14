@@ -1,0 +1,61 @@
+{
+    "SPADE_UN_20475": {
+        "Sequence Information": {
+            "Peptide Name": "Act-Gramicidin A",
+            "Sequence": "VGALAVVVWLWLWLW",
+            "Sequence Length": 15,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antiparasitic",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "1. Bacillus brevis",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Bioactivity of topologically confined gramicidin A dimers.",
+                    "Pubmed ID": "27865644",
+                    "Reference": "Bioorg Med Chem. 2017;25:261-268",
+                    "Author": "Jadhav KB, Stein C, Makarewicz O, Pradel G, Lichtenecker RJ, Sack H, Heinemann SH, Arndt HD",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/27865644"
+                }
+            ],
+            "Mass": 1811.22,
+            "PI": 5.49,
+            "Net Charge": 0,
+            "Hydrophobicity": 2.11,
+            "Frequent Amino Acids": "LVW",
+            "Absent Amino Acids": "CDEFHIKMNOPQRSTUY",
+            "Basic Residues": 0,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 5,
+            "Positive Residues": 0,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_20475",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03504",
+                    "Similarity": 1.0,
+                    "Sequence": "GKLNLFLSRLEILKLFVGAL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11866",
+                    "Similarity": 1.0,
+                    "Sequence": "GLFDIVKKVVGAL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14889",
+                    "Similarity": 1.0,
+                    "Sequence": "VGALAVVVWLWLWLWG"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=40 µM",
+            "Target Organism": "Plasmodium falciparum 3D7(IC50=0.00015 ± 0.00001µM),Plasmodium falciparum Dd2(IC50=0.000029 ± 0.00001µM),Escherichia coli ATCC 25922(MIC=>64µg/ml),Klebsiella pneumoniae ATCC 13883(MIC=>64µg/ml),Proteus mirabilis ATCC 7002(MIC=>64µg/ml),Pseudomonas aeruginosa ATCC 27853(MIC=>64µg/ml),Streptococcus pneumoniae(MIC=0.05µg/ml),Enterococcus faecalis ATCC 29212(MIC=1µg/ml),Enterococcus faecium(MIC=2µg/ml),Staphylococcus epidermidis PP62A(MIC=1µg/ml),Staphylococcus aureus ATCC 43300(MIC=>64µg/ml)"
+        }
+    }
+}

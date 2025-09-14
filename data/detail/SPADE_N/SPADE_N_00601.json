@@ -1,0 +1,75 @@
+{
+    "SPADE_N_00601": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00601",
+            "Peptide Name": "Defensin-like protein 215 (Plant defensin)",
+            "Source": "Arabidopsis thaliana (Mouse-ear cress)",
+            "Family": "Belongs to the DEFL family",
+            "Gene": "Not found",
+            "Sequence": "ILINESSDEQRIYSFSPTTSPFDPRSLNQELKIGRIGYCFDCARACMRRGKYIRTCSFERKLCRCSISGIK",
+            "Sequence Length": 71,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q4VP07"
+            ],
+            "Protein Existence": "Homology",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antifungal"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C354H572N106O105S7",
+            "Mass": 8217.43,
+            "PI": 9.27,
+            "Net Charge": 6,
+            "Hydrophobicity": -0.44,
+            "Half Life": "Mammalian:20 hourYeast:30 minE.coli:>10 hour",
+            "Function": "Defense response to fungus.",
+            "PTM": "Contains three disulfide bonds (By similarity).",
+            "Caution": "Lacks 1 of the 4 disulfide bonds, which are conserved features of the family.",
+            "Literature": [
+                {
+                    "Title": "Genome organization of more than 300 defensin-like genes in Arabidopsis.",
+                    "Pubmed ID": "15955924",
+                    "Reference": "Plant Physiol. 2005 Jun;138(2)600-610.",
+                    "Author": "Silverstein KA, Graham MA, Paape TD, VandenBosch KA.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=15955924"
+                }
+            ],
+            "Frequent Amino Acids": "RSI",
+            "Absent Amino Acids": "HOUVW",
+            "Basic Residues": 13,
+            "Acidic Residues": 7,
+            "Hydrophobic Residues": 25,
+            "Polar Residues": 40,
+            "Positive Residues": 13,
+            "Negative Residues": 7,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00602",
+                    "Similarity": 0.9859154929577465,
+                    "Sequence": "ILINESSDEQRIYSFSPTTSPFDPRSLNQELKIGRIGYCFDCARACMRRGKYIRTCSFERKLCRCSISDIK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00600",
+                    "Similarity": 0.971830985915493,
+                    "Sequence": "ILINESSDEERTYSFSPTTSPFDPRSLNQELKIGRIGYCFDCARACMRRGKYIRTCSFERKLCRCSISGIK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00599",
+                    "Similarity": 0.9295774647887324,
+                    "Sequence": "TLINGSSDEERTYSFSPTTSPFDPRSLNQELKIGRIGYCFDCARACMRRGKYIRTCSFERKLCRCSISDIK"
+                }
+            ]
+        }
+    }
+}

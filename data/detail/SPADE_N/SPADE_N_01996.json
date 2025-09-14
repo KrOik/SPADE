@@ -1,0 +1,74 @@
+{
+    "SPADE_N_01996": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01996",
+            "Peptide Name": "Prolevitide (Frogs, amphibians, animals)",
+            "Source": "Xenopus laevis (African clawed frog)",
+            "Family": "Belongs to the gastrin/cholecystokinin family",
+            "Gene": "Not found",
+            "Sequence": "KPSSDADEDNDEVERYVRGWASKIGQTLGKIAKVGLQGLMQPKREAMLRSAEAQGMIGTLTSKRIKQG",
+            "Sequence Length": 68,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P13684"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Unknown"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C317H533N97O102S3",
+            "Mass": 7431.41,
+            "PI": 9.52,
+            "Net Charge": 3,
+            "Hydrophobicity": -0.75,
+            "Half Life": "Mammalian:1.3 hourYeast:3 minE.coli:2 min",
+            "Function": "Amphibian defensive peptide.",
+            "Tissue specificity": "Expressed by the skin glands.",
+            "PTM": "C-terminal amidation.",
+            "Literature": [
+                {
+                    "Title": "Levitide, a neurohormone-like peptide from the skin of Xenopus laevis. Peptide and peptide precursor cDNA sequences.",
+                    "Pubmed ID": "2830279",
+                    "Reference": "J Biol Chem. 1988 Mar 5;263(7)3279-3283.",
+                    "Author": "Poulter L, Terry AS, Williams DH, Giovannini MG, Moore CH, Gibson BW.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=2830279"
+                }
+            ],
+            "Frequent Amino Acids": "GKA",
+            "Absent Amino Acids": "CFHOU",
+            "Basic Residues": 12,
+            "Acidic Residues": 9,
+            "Hydrophobic Residues": 25,
+            "Polar Residues": 36,
+            "Positive Residues": 12,
+            "Negative Residues": 9,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_08079",
+                    "Similarity": 1.0,
+                    "Sequence": "MYKGIFLCVLFAVICANSLAKPSSDADEDNDEVERYVRGWASKIGQTLGKIAKVGLQGLMQPKREAMLRSAEAQGMIGTLTSKRIKQG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07880",
+                    "Similarity": 1.0,
+                    "Sequence": "GWASKIGQTLGKIAKVGLQGLMQPK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01998",
+                    "Similarity": 0.88,
+                    "Sequence": "GWASKIGQTLGKIAKVGLKELIQPK"
+                }
+            ]
+        }
+    }
+}

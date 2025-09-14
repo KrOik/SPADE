@@ -1,0 +1,67 @@
+{
+    "SPADE_UN_23078": {
+        "Sequence Information": {
+            "Peptide Name": "Pumilarin (46-70), Syn-Safencin-P1",
+            "Sequence": "AGKETIRQYLKNEIKKKGRKAVIAW",
+            "Sequence Length": 25,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Insecticidal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "6O8J",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P0DTW2",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P0DTW2",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Synthetic Antimicrobial Peptide Tuning Permits Membrane Disruption and Interpeptide Synergy.",
+                    "Pubmed ID": "32566907",
+                    "Reference": "ACS Pharmacol Transl Sci. 2020;3:418-424",
+                    "Author": "Fields FR, Manzo G, Hind CK, Janardhanan J, Foik IP, Carmo Silva PD, Balsara RD, Clifford M, Vu HM, Ross JN, Kalwajtys VR, Gonzalez AJ, Bui TT, Ploplis VA, Castellino FJ, Siryaporn A, Chang MW, Sutton JM, Mason AJ, Lee S",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/32566907"
+                }
+            ],
+            "Mass": 2929.46,
+            "PI": 10.38,
+            "Net Charge": 6,
+            "Hydrophobicity": -0.93,
+            "Frequent Amino Acids": "KAI",
+            "Absent Amino Acids": "CDFHMOPSU",
+            "Basic Residues": 8,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 17,
+            "Positive Residues": 8,
+            "Negative Residues": 2,
+            "SPADE ID": "SPADE_UN_23078",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_12074",
+                    "Similarity": 1.0,
+                    "Sequence": "LSLIAAAGKETIRQYLKNEIKKKGRKAVIAW"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_19654",
+                    "Similarity": 1.0,
+                    "Sequence": "LSLIAAAGKETIRQYLKNEIKKKGRKAVIAW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14198",
+                    "Similarity": 0.96,
+                    "Sequence": "AGKKTIRQYLKNEIKKKGRKAVIAW"
+                }
+            ],
+            "Hemolytic Activity": "Human keratinocytes HaCat:30% Cytotoxicity=64 µg/ml,Human keratinocytes HaCat:15% Cytotoxicity=32 µg/ml,Sheep erythrocytes:<5% Hemolysis=128 µg/ml",
+            "Target Organism": "Klebsiella pneumoniae NCTC 13368(MIC=>128µg/ml),Klebsiella pneumoniae M6(MIC=>128µg/ml),Acinetobacter baumannii AYE(MIC=32µg/ml),Acinetobacter baumannii ATCC 17987(MIC=64µg/ml),Pseudomonas aeruginosa PAO1(MIC=>128µg/ml),Pseudomonas aeruginosa NCTC 13437(MIC=>128µg/ml),Escherichia coli NCTC 12923(MIC=64µg/ml),Xanthomonas axonopodis pv. phaseoli(MIC=4µg/ml),Pseudomonas syringae pv. tomato(MIC=16µg/ml),Enterococcus faecalis NCTC 12201(MIC=>128µg/ml),Enterococcus faecalis NCTC 775(MIC=>128µg/ml),Staphylococcus aureus 15(MIC=>128µg/ml),Staphylococcus aureus NCTC 9144(MIC=128µg/ml),Enterococcus faecalis NCTC 12204(MIC=128µg/ml),Galleria mellonella(10-20% Killing=150µg/g)"
+        }
+    }
+}

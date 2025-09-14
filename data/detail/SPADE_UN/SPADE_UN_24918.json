@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_24918": {
+        "Sequence Information": {
+            "Peptide Name": "",
+            "Sequence": "AKKVVKKIYKRFQK",
+            "Sequence Length": 14,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Machine learning designs non-hemolytic antimicrobial peptides.",
+                    "Pubmed ID": "34349895",
+                    "Reference": "Chem Sci. 2021;12:9221-9232",
+                    "Author": "Capecchi A, Cai X, Personne H, Köhler T, van Delden C, Reymond J-L",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/34349895"
+                }
+            ],
+            "Mass": 1764.21,
+            "PI": 10.75,
+            "Net Charge": 7,
+            "Hydrophobicity": -1.09,
+            "Frequent Amino Acids": "KVA",
+            "Absent Amino Acids": "CDEGHLMNOPSTUW",
+            "Basic Residues": 7,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 9,
+            "Positive Residues": 7,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_24918",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_26951",
+                    "Similarity": 1.0,
+                    "Sequence": "FQKVVAGVANALAHKYH"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02620",
+                    "Similarity": 0.8,
+                    "Sequence": "INWKALLDAAKKVL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02621",
+                    "Similarity": 0.8,
+                    "Sequence": "LKLKSIVSWAKKVL"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:20% Hemolysis=>2000 µg/ml",
+            "Target Organism": "Pseudomonas aeruginosa(MIC=>64µg/ml),Acinetobacter baumannii(MIC=64µg/ml),Staphylococcus aureus(MIC=>64µg/ml),Escherichia coli(MIC=64µg/ml)"
+        }
+    }
+}

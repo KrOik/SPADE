@@ -1,0 +1,74 @@
+{
+    "SPADE_N_02298": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02298",
+            "Peptide Name": "Neutrophil defensin 4 (Defensin, alpha 4; primates, mammals, animals)",
+            "Source": "Pan troglodytes (chimpanzee)",
+            "Family": "Belongs to the alpha-defensin family",
+            "Gene": "DEFA4",
+            "Sequence": "VCSCRLVFCRRTELRVGNCLIGGVSFTYCCTRVD",
+            "Sequence Length": 34,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q5G862"
+            ],
+            "Protein Existence": "Homology",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Antifungal"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C161H266N50O46S6",
+            "Mass": 3830.53,
+            "PI": 8.7,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.54,
+            "Half Life": "Mammalian:100 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "Has antimicrobial activity against Gram-negative bacteria, and to a lesser extent also against Gram-positive bacteria and fungi. Inhibits corticotropin (ACTH)-stimulated corticosterone production.",
+            "Literature": [
+                {
+                    "Title": "Rapid evolution and diversification of mammalian alpha-defensins as revealed by comparative analysis of rodent and primate genes.",
+                    "Pubmed ID": "15494476",
+                    "Reference": "Physiol Genomics. 2004 Dec 15;20(1)1-11.",
+                    "Author": "Patil A, Hughes AL, Zhang G.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=15494476"
+                }
+            ],
+            "Frequent Amino Acids": "CRV",
+            "Absent Amino Acids": "AHKMOPQUW",
+            "Basic Residues": 5,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 23,
+            "Positive Residues": 5,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03151",
+                    "Similarity": 1.0,
+                    "Sequence": "VCSCRLVFCRRTELRVGNCLIGGVSFTYCCTRV"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04785",
+                    "Similarity": 1.0,
+                    "Sequence": "MRIIALLAAILLVALQVRAGPLQARGDEAPGQEQRGPEDQDISISFAWDKSSALQVSGSTRGMVCSCRLVFCRRTELRVGNCLIGGVSFTYCCTRVD"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_12450",
+                    "Similarity": 1.0,
+                    "Sequence": "VCSCRLVFCRR"
+                }
+            ]
+        }
+    }
+}

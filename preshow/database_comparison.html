@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antimicrobial Peptide Database Comparison</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #444;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Antimicrobial Peptide Database Comparison</h1>
+        <p>Data fetched on: 2025-09-12</p>
+        <p>Databases: DBAASP, APD3, DRAMP, dbAMP</p>
+
+        <h2>1. Overall Comparison</h2>
+        
+        <h3>Overview Table</h3>
+        <div id="table-overview"></div>
+
+        <h3>Data Size Comparison</h3>
+        <img src="viz/output/fig-data_size.png" alt="Data Size Comparison">
+
+        <h3>Field Completeness Comparison</h3>
+        <img src="viz/output/fig-completeness.png" alt="Field Completeness Comparison">
+
+        <h3>AI Friendliness Score</h3>
+        <img src="viz/output/fig-ai_score.png" alt="AI Friendliness Score">
+        
+        <img src="viz/output/legend.png" alt="Legend">
+
+        <h2>2. Field Coverage Matrix</h2>
+        <div id="table-fields-coverage"></div>
+
+    </div>
+    <script>
+        function loadTable(filePath, elementId) {
+            fetch(filePath)
+                .then(response => response.text())
+                .then(data => {
+                    const rows = data.trim().split('\n');
+                    const headers = rows[0].split(',');
+                    let table = '<table><thead><tr>';
+                    headers.forEach(header => {
+                        table += `<th>${header}</th>`;
+                    });
+                    table += '</tr></thead><tbody>';
+                    for (let i = 1; i < rows.length; i++) {
+                        const cells = rows[i].split(',');
+                        table += '<tr>';
+                        cells.forEach(cell => {
+                            table += `<td>${cell}</td>`;
+                        });
+                        table += '</tr>';
+                    }
+                    table += '</tbody></table>';
+                    document.getElementById(elementId).innerHTML = table;
+                });
+        }
+
+        loadTable('viz/output/table-overview.csv', 'table-overview');
+        loadTable('viz/output/table-fields_coverage.csv', 'table-fields-coverage');
+    </script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+{
+    "SPADE_UN_25721": {
+        "Sequence Information": {
+            "Peptide Name": "Cryptide AD11",
+            "Sequence": "RLQLNYKGKMWCPGW",
+            "Sequence Length": 15,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anticancer",
+                "Antifungal",
+                "Anti-Mammalian Cell",
+                "Antibiofilm"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "Q283P7",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/Q283P7",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Novel cationic cryptides in Penaeus vannamei demonstrate antimicrobial and anti-cancer activities.",
+                    "Pubmed ID": "37673929",
+                    "Reference": "Sci Rep. 2023;13:14673",
+                    "Author": "Abd El-Aal AAA, Jayakumar FA, Lahiri C, Tan KO, Reginald K",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/37673929"
+                }
+            ],
+            "Mass": 1880.24,
+            "PI": 9.79,
+            "Net Charge": 3,
+            "Hydrophobicity": -0.85,
+            "Frequent Amino Acids": "GKL",
+            "Absent Amino Acids": "ADEFHIOSTUV",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 4,
+            "Polar Residues": 11,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_25721",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_25721",
+                    "Similarity": 1.0,
+                    "Sequence": "RLQLNYKGKMWCPGW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10311",
+                    "Similarity": 1.0,
+                    "Sequence": "GWLQLALHLLQLGLHLLQLALQLRRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10312",
+                    "Similarity": 1.0,
+                    "Sequence": "GWQLLALHLQLLGLHLLQLALLQRRR"
+                }
+            ],
+            "Hemolytic Activity": "Human embryonic kidney HEK293 cells:<10% Cell death=25 µM,Human erythrocytes:<10% Hemolysis=50 µM,Human erythrocytes:20% Hemolysis=100 µM",
+            "Target Organism": "Bacillus subtilis ATCC 11774(MIC=0.78µM),Bacillus subtilis ATCC 11774(MBC=0.78µM),Staphylococcus aureus ATCC BAA-41(MIC=6.25µM),Staphylococcus aureus ATCC BAA-41(MBC=12.5µM),Salmonella enterica subsp. enterica serovar Typhimurium ATCC 14028(MIC=1.56µM),Pseudomonas aeruginosa ATCC 10145(MIC=25µM),Pseudomonas aeruginosa ATCC 10145(MBC=>50µM),Vibrio parahaemolyticus ATCC 17802(no activity data),Candida albicans TIMM 1768(MIC=25µM),Candida albicans TIMM 1768(MFC=25µM),Human colon adenocarcinoma Caco-2(IC50=26.8±0.4µM),Human colon adenocarcinoma HCT 116(no activity data),Human lung carcinoma A549(IC50=11.1±0.7µM),Human cervical carcinoma HeLa(IC50=16.8±0.6µM),Human neuroblastoma SH-SY5Y(no activity data),Human rhabdomyosarcoma(IC50=19.2±0.9µM)"
+        }
+    }
+}

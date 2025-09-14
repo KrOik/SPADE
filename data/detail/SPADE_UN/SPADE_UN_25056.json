@@ -1,0 +1,72 @@
+{
+    "SPADE_UN_25056": {
+        "Sequence Information": {
+            "Peptide Name": "Peptide BmKn2 (1-11)",
+            "Sequence": "FIGAIARLLSK",
+            "Sequence Length": 11,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Binding Target": "",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "Q6JQN2",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/Q6JQN2",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Antimicrobial Peptide Modifications against Clinically Isolated Antibiotic-Resistant Salmonella.",
+                    "Pubmed ID": "34361810",
+                    "Reference": "Molecules. 2021;26:4654",
+                    "Author": "Mangmee S, Reamtong O, Kalambaheti T, Roytrakul S, Sonthayanon P",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/34361810"
+                },
+                {
+                    "Title": "Assessment of in vitro activities of novel modified antimicrobial peptides against clarithromycin resistant Mycobacterium abscessus.",
+                    "Pubmed ID": "34780520",
+                    "Reference": "PLoS One. 2021;16:e0260003",
+                    "Author": "Sudadech P, Roytrakul S, Kaewprasert O, Sirichoat A, Chetchotisakd P, Kanthawong S, Faksri K",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/34780520"
+                }
+            ],
+            "Mass": 1188.46,
+            "PI": 11.0,
+            "Net Charge": 2,
+            "Hydrophobicity": 1.22,
+            "Frequent Amino Acids": "AIL",
+            "Absent Amino Acids": "CDEHMNOPQTUVWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 4,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_25056",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03284",
+                    "Similarity": 1.0,
+                    "Sequence": "FIGAIARLLSKIF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14357",
+                    "Similarity": 1.0,
+                    "Sequence": "FIGAIARLLSKI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14358",
+                    "Similarity": 1.0,
+                    "Sequence": "FIGAIARLLS"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Salmonella sp.(MIC=>256µM),Mycobacterium abscessus ATCC 19977(MIC=>400µg/ml)"
+        }
+    }
+}

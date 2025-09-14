@@ -1,0 +1,75 @@
+{
+    "SPADE_N_03023": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03023",
+            "Peptide Name": "Protein S100-A8 (Calgranulin-A; MRP-8; Rodents, mammals, animals)",
+            "Source": "Rattus norvegicus (Rat)",
+            "Family": "Belongs to the S-100 family",
+            "Gene": "S100a8",
+            "Sequence": "ATELEKALSNVIEVYHNYSGIKGNHHALYRDDFRKMVTTECPQFVQNKNTESLFKELDVNSDNAINFEEFLVLVIRVGVAAHKDSHKE",
+            "Sequence Length": 88,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P50115"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Antifungal"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Metal-binding",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C448H696N124O139S2",
+            "Mass": 10107.2,
+            "PI": 5.69,
+            "Net Charge": 1,
+            "Hydrophobicity": -0.49,
+            "Half Life": "Mammalian:4.4 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "S100A8 is a calcium- and zinc-binding protein which plays a prominent role in the regulation of inflammatory processes and immune response. It has antimicrobial activity towards bacteria and fungi and exerts its antimicrobial activity probably via chelation of Zn2+ which is essential for microbial growth. Can induce cell death via autophagy and apoptosis and this occurs through the cross-talk of mitochondria and lysosomes via reactive oxygen species (ROS) and the process involves BNIP3. Can regulate neutrophil number and apoptosis by an anti-apoptotic effect.",
+            "Miscellaneous": "Binds two calcium ions per molecule with an affinity similar to that of the S100 proteins (By similarity).",
+            "Literature": [
+                {
+                    "Title": "Dynamic mobility of immunological cells expressing S100A8 and S100A9 in vivo a variety of functional roles of the two proteins as regulators in acute inflammatory reaction.",
+                    "Pubmed ID": "21487906",
+                    "Reference": "Inflammation. 2012 Apr;35(2)409-419.",
+                    "Author": "Koike A, Arai S, Yamada S, Nagae A, Saita N, Itoh H, Uemoto S, Totani M, Ikemoto M.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=21487906"
+                }
+            ],
+            "Frequent Amino Acids": "EVN",
+            "Absent Amino Acids": "OUW",
+            "Basic Residues": 15,
+            "Acidic Residues": 14,
+            "Hydrophobic Residues": 36,
+            "Polar Residues": 53,
+            "Positive Residues": 15,
+            "Negative Residues": 14,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02889",
+                    "Similarity": 0.7954545454545454,
+                    "Sequence": "PSELEKALSNLIDVYHNYSNIQGNHHALYKNDFKKMVTTECPQFVQNINIENLFRELDINSDNAINFEEFLAMVIKVGVASHKDSHKE"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03180",
+                    "Similarity": 0.625,
+                    "Sequence": "MLTELEKALNSIIDVYHKYSLIKGNFHAVYRDDLKKLLETECPQYIRKKGADVWFKELDINTDGAVNFQEFLILVIKMGVAAHKKSHEESHKE"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02443",
+                    "Similarity": 0.5681818181818182,
+                    "Sequence": "MLTDLECAINSLIDVYHKYSLKKGNYHAVYRDDLKQLLETECPKFMKKKDADTWFKELDINQDGGINFEEFLVLVIKVGLEAHEEIHKE"
+                }
+            ]
+        }
+    }
+}

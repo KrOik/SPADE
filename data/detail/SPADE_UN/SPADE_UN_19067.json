@@ -1,0 +1,68 @@
+{
+    "SPADE_UN_19067": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_19067",
+            "Peptide Name": "AV20 (AI Predicted AMPs, UCLL1c, XXA)",
+            "Source": "AI predicted, AMP-GPT predicted",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "AVWRWLWKGSLAKGIIKFLK",
+            "Sequence Length": 20,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Active against E. faecalis ATCC 29212 (MIC 16 ug/ml), S. aureus ATCC 29213 (MIC 8 ug/ml), K. pneumoniae ATCC 700603 (MIC 16 ug/ml), A. baumannii ATCC 19606 (8 ug/ml), P. aeruginosa ATCC 27853 (MIC 32 ug/ml), E. coli ATCC 25922 (MIC 8 ug/ml).",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 2400.95,
+            "PI": 11.33,
+            "Hydrophobicity": 0.33,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Wang J, Feng J, Kang Y, Pan P, Ge J, Wang Y, Wang M, Wu Z, Zhang X, Yu J, Zhang X, Wang T, Wen L, Yan G, Deng Y, Shi H, Hsieh CY, Jiang Z, Hou T. 2025",
+                    "Reference": "Sci Adv. 2025 Mar 7;11(10):eads8932. doi: 10.1126/sciadv.ads8932.PubMed",
+                    "Title": "Discovery of antimicrobial peptides with notable antibacterial potency by an LLM-based foundation model."
+                }
+            ],
+            "Frequent Amino Acids": "KLW",
+            "Absent Amino Acids": "CDEHMNOPQTUY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 9,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "Net Charge": 5,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_11304",
+                    "Similarity": 0.8571428571428571,
+                    "Sequence": "GIGKFLKKAKKGIGAVLKVLTTGL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_07095",
+                    "Similarity": 0.8333333333333334,
+                    "Sequence": "MIKFLKFVYGMIILISLFFAVRDVSAAPPVYCIEDEDCYDLCTSPLVEICTNYQCICLKRF"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_27085",
+                    "Similarity": 0.8,
+                    "Sequence": "KKFLKLIKGIKR"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,82 @@
+{
+    "SPADE_N_02316": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02316",
+            "Peptide Name": "Beta-defensin 118 (Defensin, beta 118; primates, mammals, animals)",
+            "Source": "Pan troglodytes (Chimpanzee)",
+            "Family": "Belongs to the beta-defensin family",
+            "Gene": "DEFB118",
+            "Sequence": "AYSGEKKCWNRSGHCRKQCKDGEAVKDTCKNLRACCVPSNEDH",
+            "Sequence Length": 43,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q30KK9",
+                "http://www.uniprot.org/uniprot/A4H219"
+            ],
+            "Protein Existence": "Transcript level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C197H317N67O65S6",
+            "Mass": 4856.42,
+            "PI": 8.63,
+            "Net Charge": 5,
+            "Hydrophobicity": -1.25,
+            "Half Life": "Mammalian:4.4 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Potentially has antibacterial activity.",
+            "PTM": "Contains three disulfide bonds 8-35; 15-29; 19-36.",
+            "Literature": [
+                {
+                    "Title": "Cross-species analysis of the mammalian beta-defensin gene family presence of syntenic gene clusters and preferential expression in the male reproductive tract.",
+                    "Pubmed ID": "16033865",
+                    "Reference": "Physiol Genomics. 2005 Sep 21;23(1)5-17.",
+                    "Author": "Patil A.A, Cai Y, Sang Y, Blecha F, Zhang G.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16033865"
+                },
+                {
+                    "Title": "Evolution and sequence variation of human beta-defensin genes.",
+                    "Pubmed ID": "PubMed ID is not available",
+                    "Reference": "Submitted (NOV-2006) to the EMBL/GenBank/DDBJ databases",
+                    "Author": "Hollox EJ, Armour JAL.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=PubMed ID is not available"
+                }
+            ],
+            "Frequent Amino Acids": "CKA",
+            "Absent Amino Acids": "FIMOU",
+            "Basic Residues": 11,
+            "Acidic Residues": 6,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 31,
+            "Positive Residues": 11,
+            "Negative Residues": 6,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03168",
+                    "Similarity": 0.9767441860465116,
+                    "Sequence": "AYSGEKKCWNRSGHCRKQCKDGEAVKDTCKNLRACCIPSNEDH"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_13545",
+                    "Similarity": 0.975609756097561,
+                    "Sequence": "SGEKKCWNRSGHCRKQCKDGEAVKDTCKNLRACCIPSNEDHRRVPATSPTPLSDSTPGIIDDILTVRFTTDYFEVSSKKDMVEESEAGRGTETSLPNVHHSS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03718",
+                    "Similarity": 0.9696969696969697,
+                    "Sequence": "KKCWNRSGHCRKQCKDGEAVKDTCKNLRACCIP"
+                }
+            ]
+        }
+    }
+}

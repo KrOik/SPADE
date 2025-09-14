@@ -1,0 +1,84 @@
+{
+    "SPADE_UN_00243": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_00243",
+            "Peptide Name": "Agelaia-mastoparan (Agelaia-MP; Insects, animals)",
+            "Source": "Agelaia pallipes pallipes (Neotropical social wasp)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "INWLKLGKAIIDAL",
+            "Sequence Length": 14,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P69436"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.15225564]Gram-negative bacteria:Escherichia coli (MIC=382 µg/ml), Pseudomonas aeruginosa (MIC=257 µg/ml);Gram-positive bacteria:Bacillus subtilis (MIC=237 µg/ml), Staphylococcus aureus (MIC=191 µg/ml).",
+            "Hemolytic Activity": "[Ref.15225564]70% hemolytic activity at 156 ng/ml against rat erythrocytes",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C75H126N18O18",
+            "Mass": 1567.91,
+            "PI": 8.59,
+            "Net Charge": 1,
+            "Hydrophobicity": 0.89,
+            "Half Life": "Mammalian:20 hourYeast:30 minE.coli:>10 hour",
+            "Function": "Hemolytic mast cell degranulator, presenting no antimicrobial action and no chemotaxis for polymorphonucleated leukocytes (PMNL).",
+            "Tissue specificity": "Expressed by the venom gland.",
+            "PTM": "C-terminal amidation (Leucine amide",
+            "Literature": [
+                {
+                    "Title": "Structural and biological characterization of two novel peptides from the venom of the neotropical social wasp Agelaia pallipes pallipes.",
+                    "Pubmed ID": "15225564",
+                    "Reference": "Toxicon. 2004 Jul;44(1)67-74.",
+                    "Author": "Mendes MA, de Souza BM, Marques MR, Palma MS.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=15225564"
+                },
+                {
+                    "Title": "Structural characterization of novel chemotactic and mastoparan peptides from the venom of the social wasp Agelaiapallipes pallipes by high-performance liquid chromatography/electrospray ionization tandem mass spectrometry.",
+                    "Pubmed ID": "15052574",
+                    "Reference": "Rapid Commun Mass Spectrom. 2004;18(6)636-642.",
+                    "Author": "Mendes MA, Monson de Souza B, Delazari dos Santos L, Palma MS.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=15052574"
+                }
+            ],
+            "Frequent Amino Acids": "ILA",
+            "Absent Amino Acids": "CEFHMOPQRSTUVY",
+            "Basic Residues": 2,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 5,
+            "Positive Residues": 2,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_00243",
+                    "Similarity": 1.0,
+                    "Sequence": "INWLKLGKAIIDAL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05651",
+                    "Similarity": 0.8571428571428571,
+                    "Sequence": "INWLKLGKMVIDAL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_00801",
+                    "Similarity": 0.8571428571428571,
+                    "Sequence": "INWLKLGKKIISAL"
+                }
+            ]
+        }
+    }
+}

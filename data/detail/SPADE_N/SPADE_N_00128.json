@@ -1,0 +1,71 @@
+{
+    "SPADE_N_00128": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00128",
+            "Peptide Name": "BrcB (NKR-5-3A; chain b of Brochocin C; Bacteriocin)",
+            "Source": "Brochothrix campestris ATCC 43754 (Gram-positive bacteria)",
+            "Family": "Belongs to the class IIb bacteriocin",
+            "Gene": "Not found",
+            "Sequence": "KINWGNVGGSCVGGAVIGGALGGLGGAGGGCITGAIGSIWDQW",
+            "Sequence Length": 43,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C173H268N50O52S2",
+            "Mass": 3944.41,
+            "PI": 5.82,
+            "Net Charge": 0,
+            "Hydrophobicity": 0.6,
+            "Half Life": "Mammalian:1.3 hourYeast:3 minE.coli:2 min",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Genetic characterization and heterologous expression of brochocin-C, an antibotulinal, two-peptide bacteriocin produced by Brochothrix campestris ATCC 43754.",
+                    "Pubmed ID": "9835559",
+                    "Reference": "Appl Environ Microbiol. 1998 Dec;64(12)4757-4766.",
+                    "Author": "McCormick JK, Poon A, Sailer M, Gao Y, Roy KL, McMullen LM, Vederas JC, Stiles ME, Van Belkum MJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=9835559"
+                }
+            ],
+            "Frequent Amino Acids": "GIA",
+            "Absent Amino Acids": "EFHMOPRUY",
+            "Basic Residues": 1,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 17,
+            "Polar Residues": 16,
+            "Positive Residues": 1,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_05549",
+                    "Similarity": 0.9534883720930233,
+                    "Sequence": "KINWGSVGGSCVGGAVIGGALGGLGGAGGGCLTGAIGSIWDQW"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_01645",
+                    "Similarity": 0.5517241379310345,
+                    "Sequence": "CGGGGGGCGGGGCGGGGGGGGGCGGGGGGCC"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_01649",
+                    "Similarity": 0.5483870967741935,
+                    "Sequence": "GGGGGGGCGGGGGGCGGGGCGGGGGGGGGCGGGGGGCCGG"
+                }
+            ]
+        }
+    }
+}

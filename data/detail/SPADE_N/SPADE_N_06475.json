@@ -1,0 +1,77 @@
+{
+    "SPADE_N_06475": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_06475",
+            "Peptide Name": "CLP",
+            "Source": "marine natural metabolite",
+            "Family": "",
+            "Gene": "Not found",
+            "Sequence": "LP",
+            "Sequence Length": 2,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Notavailable"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Target Organism": "Tumor cells:MDA-MB-468 (IC50=67.4 μM); MDA-MB-231 (IC50=73.4 μM)",
+            "Hemolytic Activity": "Human red blood cells (RBC):LC50>401 μM",
+            "Cytotoxicity": "MCF-12A:IC50>100 μM",
+            "Binding Target": "Not available",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Lactam",
+            "C-terminal Modification": "Lactam",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C11H20N2O3",
+            "Mass": 228.29,
+            "PI": 5.53,
+            "Net Charge": 0,
+            "Hydrophobicity": 1.1,
+            "Half Life": "Mammalian:5.5 hourYeast:3 minE.coli:2 min",
+            "Literature": [
+                {
+                    "Title": "Marine natural compound cyclo(L-leucyl-L-prolyl) peptide inhibits migration of triple negative breast cancer cells by disrupting interaction of CD151 and EGFR signaling",
+                    "Pubmed ID": "31669320",
+                    "Reference": "Chem Biol Interact. 2020 Jan 5;315108872.",
+                    "Author": "Kgk D, Kumari S, G S, Malla RR.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=31669320"
+                },
+                {
+                    "Title": "Cyclic dipeptides exhibit synergistic, broad spectrum antimicrobial effects and have anti-mutagenic properties",
+                    "Pubmed ID": "",
+                    "Author": "Rhee KH"
+                }
+            ],
+            "Frequent Amino Acids": "LP",
+            "Absent Amino Acids": "ACDEFGHIKMNOQRSTUVWY",
+            "Basic Residues": 0,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 2,
+            "Polar Residues": 0,
+            "Positive Residues": 0,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00062",
+                    "Similarity": 1.0,
+                    "Sequence": "ATRSYGNGVYCNNSKCWNVGEAKENIAGIVISGKASGL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00124",
+                    "Similarity": 1.0,
+                    "Sequence": "GPGKWLPWLQPAYDFVTGLAKGIGKEGNKNKWKNV"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00132",
+                    "Similarity": 1.0,
+                    "Sequence": "YSGKDLKDMGGYALAGAGSGALGAPAGVGALPGAFVGAHVGAIAG"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_00005": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_00005",
+            "Peptide Name": "Lantibiotic duramycin B (Bacteriocin)",
+            "Source": "Streptoverticillium strain R2075 (Gram-positive bacteria)",
+            "Family": "Belongs to the type B lantibiotic family (Class I bacteriocin)",
+            "Gene": "Not found",
+            "Sequence": "CRQSCSFGPLTFVCDGNTK",
+            "Sequence Length": 19,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P36502"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Phosphatidylethanolamine",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C86H135N25O28S3",
+            "Mass": 2063.34,
+            "PI": 7.96,
+            "Net Charge": 1,
+            "Hydrophobicity": -0.17,
+            "Half Life": "Mammalian:1.2 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "Methyllanthionine rings between residues 1 and18 as well as between residues 5 and 11; a lanthionine occurs between Cys14 and residue 4. In addition, addition of Lys19 to dehydralanine at position 6 forms a lysinoalanine bridge. The Asp residue at position 15 is hydroxylated. Duramycins and cinnamycin specifically binds to phosphatidylethanolamine, thereby indirectly inhibiting the activity of phospholipase A2.",
+            "Literature": [
+                {
+                    "Title": "Duramycins B and C, two new lanthionine containing antibiotics as inhibitors of phospholipase A2. Structural revision of duramycin and cinnamycin.",
+                    "Pubmed ID": "2125590",
+                    "Reference": "J Antibiot (Tokyo). 1990 Nov;43(11)1403-1412.",
+                    "Author": "Fredenhagen A, Fendrich G, Märki F, Märki W, Gruner J, Raschdorf F, Peter HH.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=2125590"
+                }
+            ],
+            "Frequent Amino Acids": "CFG",
+            "Absent Amino Acids": "AEHIMOUWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 12,
+            "Positive Residues": 2,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_15048",
+                    "Similarity": 1.0,
+                    "Sequence": "CRQSCFGPLTFVCGNTK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00050",
+                    "Similarity": 0.9473684210526315,
+                    "Sequence": "CRQSCSFGPFTFVCDGNTK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06055",
+                    "Similarity": 0.9473684210526315,
+                    "Sequence": "MTASILQQSVVDADFRAALLENPAAFGASAAALPTPVEAQDQASLDFWTKDIAATEAFACRQSCSFGPFTFVCDGNTK"
+                }
+            ]
+        }
+    }
+}

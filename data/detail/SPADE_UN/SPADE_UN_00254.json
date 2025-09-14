@@ -1,0 +1,75 @@
+{
+    "SPADE_UN_00254": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_00254",
+            "Peptide Name": "L-amino-acid oxidase (LAAO, LAO, TM-LAO; reptilia, animals)",
+            "Source": "Trimeresurus mucrosquamatus (Taiwan habu) (Protobothrops mucrosquamatus)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "ADNKNPLEECFRETNYEEFLEIAR",
+            "Sequence Length": 24,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P0C2D6"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-negative bacterium:E. coli;S. aureus, B. dysenteriae.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C127H192N34O44S",
+            "Mass": 2931.15,
+            "PI": 4.31,
+            "Net Charge": -4,
+            "Hydrophobicity": -1.15,
+            "Half Life": "Mammalian:4.4 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Catalyzes an oxidative deamination of predominantly hydrophobic and aromatic L-amino acids, thus producing hydrogen peroxide that may contribute to the diverse toxic effects of this enzyme. Exhibits diverse biological activities, such as hemorrhage, hemolysis, edema, apoptosis, and antiparasitic activities By similarity. This protein has antibacterial activity abd cytotoxic activity, as well as an ability to induce platelet aggregation. Effects of snake L-amino oxidases on platelets are controversial, since they either induce aggregation or inhibit agonist-induced aggregation. These different effects are probably due to different experimental conditions.",
+            "Tissue specificity": "Expressed by the venom gland. PTM",
+            "Literature": [
+                {
+                    "Title": "Purification, characterization and biological activity of an L-amino acid oxidase from Trimeresurus mucrosquamatus venom.",
+                    "Pubmed ID": "12621545",
+                    "Reference": "Sheng Wu Hua Xue Yu Sheng Wu Wu Li Xue Bao (Shanghai). 2003 Mar;35(3)219-224.",
+                    "Author": "Wei JF, Wei Q, Lu QM, Tai H, Jin Y, Wang WY, Xiong YL.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=12621545"
+                }
+            ],
+            "Frequent Amino Acids": "ENA",
+            "Absent Amino Acids": "GHMOQSUVW",
+            "Basic Residues": 3,
+            "Acidic Residues": 7,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 11,
+            "Positive Residues": 3,
+            "Negative Residues": 7,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02163",
+                    "Similarity": 0.9166666666666666,
+                    "Sequence": "ADDKNPLEECFRETDYEEFLEIARNGLKATSNPKRVV"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03223",
+                    "Similarity": 0.875,
+                    "Sequence": "ADDRNPLEECFRETDYEEFLEIARNGLKKT"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_00236",
+                    "Similarity": 0.8695652173913043,
+                    "Sequence": "ADDKNPLEEFRETNYEVFLEIAKNGLKATSNPKRVVIVGAGMAGLSAAY"
+                }
+            ]
+        }
+    }
+}

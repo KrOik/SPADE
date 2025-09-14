@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_28122": {
+        "Sequence Information": {
+            "Peptide Name": "Mastoparan B [K4A]",
+            "Sequence": "LKLASIVSWAKKVL",
+            "Sequence Length": 14,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P21654",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P21654",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Relationship between the tertiary structures of mastoparan B and its analogs and their lytic activities studied by NMR spectroscopy.",
+                    "Pubmed ID": "10667861",
+                    "Reference": "J Pept Res. 2000;55:51-62",
+                    "Author": "Yu K, Kang S, Park N, Shin J, Kim Y",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/10667861"
+                }
+            ],
+            "Mass": 1555.94,
+            "PI": 10.3,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.98,
+            "Frequent Amino Acids": "KLA",
+            "Absent Amino Acids": "CDEFGHMNOPQRTUY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 6,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_28122",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_09625",
+                    "Similarity": 1.0,
+                    "Sequence": "LLLKLKL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_12574",
+                    "Similarity": 1.0,
+                    "Sequence": "LKLLKKLKLKCKCLKLKL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_13911",
+                    "Similarity": 1.0,
+                    "Sequence": "FLKLGRKSRYGMLKL"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:60% Hemolysis=50 µM,Human erythrocytes:93% Hemolysis=100 µM",
+            "Target Organism": "Staphylococcus epidermidis ATCC 12228(MIC=12.5µM),Bacillus subtilis PCI 219(MIC=25µM),Enterococcus faecium EFMY-28(MIC=6.25µM),Escherichia coli NIHJ JC-2(MIC=>50µM)"
+        }
+    }
+}

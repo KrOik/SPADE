@@ -1,0 +1,72 @@
+{
+    "SPADE_N_01007": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01007",
+            "Peptide Name": "Non-specific lipid-transfer protein (Plants)",
+            "Source": "Zea mays subsp. parviglumis (Balsas teosinte)",
+            "Family": "Belongs to the plant LTP family",
+            "Gene": "plt1",
+            "Sequence": "AISCGQVASAIAPCISYARGQGSAPSAGCCSGVRSLNNAARTTADRRAACNCLKNAAAGVSGLNAGNAASIPSKCGVSIPYTISTSTDCSRVN",
+            "Sequence Length": 93,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q2XX14"
+            ],
+            "Protein Existence": "Homology",
+            "Biological Activity": [
+                "Antimicrobial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Lipid-binding",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C369H618N122O128S8",
+            "Mass": 9068.11,
+            "PI": 9.12,
+            "Net Charge": 6,
+            "Hydrophobicity": 0.12,
+            "Half Life": "Mammalian:4.4 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Plant non-specific lipid-transfer proteins transfer phospholipids as well as galactolipids across membranes. May play a role in wax or cutin deposition in the cell walls of expanding epidermal cells and certain secretory tissues (By similarity).",
+            "Literature": [
+                {
+                    "Title": "Genetic diversity and the evolutionary history of plant immunity genes in two species of Zea.",
+                    "Pubmed ID": "16120802",
+                    "Reference": "Mol Biol Evol. 2005 Dec;22(12)2480-2490.",
+                    "Author": "Moeller DA, Tiffin P.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16120802"
+                }
+            ],
+            "Frequent Amino Acids": "ASG",
+            "Absent Amino Acids": "EFHMOUW",
+            "Basic Residues": 8,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 38,
+            "Polar Residues": 69,
+            "Positive Residues": 8,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_00023",
+                    "Similarity": 0.989247311827957,
+                    "Sequence": "AISCGQVASAIAPCISYARGQGSGPSAGCCSGVRSLNNAARTTADRRAACNCLKNAAAGVSGLNAGNAASIPSKCGVSIPYTISTSTDCSRVN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01008",
+                    "Similarity": 0.978494623655914,
+                    "Sequence": "AISCGQVASAIAPCISYARGQGSGPSAGCCSGVKSLNNAARTTADRRAACNCLKNAAAGVSGLNAGNAASIPSKCGVSIPYTISTSTDCSRVN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00313",
+                    "Similarity": 0.9032258064516129,
+                    "Sequence": "TTSEAAISCGQVSSAIALCLSYARGQGFAPSAGCCSGVRSLNSAARTTADRRAACNCLKNAARGISGLNAGNAASIPSKCGVSVPYTISTSTDCSRVS"
+                }
+            ]
+        }
+    }
+}

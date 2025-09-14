@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_28200": {
+        "Sequence Information": {
+            "Peptide Name": "Trialysin (16-43)",
+            "Sequence": "VGKVLKQLKKVSAVAKVAMKKGAALLK",
+            "Sequence Length": 27,
+            "Biological Activity": [
+                "Anti-Gram-",
+                "Antiparasitic"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "Q8T0Z4",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/Q8T0Z4",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Lytic activity and structural differences of amphipathic peptides derived from trialysin.",
+                    "Pubmed ID": "16460023",
+                    "Reference": "Biochemistry. 2006;45:1765-1774",
+                    "Author": "Martins RM, Sforça ML, Amino R, Juliano MA, Oyama S Jr, Juliano L, Pertinhez TA, Spisni A, Schenkman S",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/16460023"
+                }
+            ],
+            "Mass": 2807.57,
+            "PI": 10.85,
+            "Net Charge": 8,
+            "Hydrophobicity": 0.4,
+            "Frequent Amino Acids": "KAV",
+            "Absent Amino Acids": "CDEFHINOPRTUWY",
+            "Basic Residues": 8,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 15,
+            "Polar Residues": 12,
+            "Positive Residues": 8,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_28200",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_28201",
+                    "Similarity": 1.0,
+                    "Sequence": "KFGKIVGKVLKQLKKVSAVAKVAMKKG"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_28202",
+                    "Similarity": 1.0,
+                    "Sequence": "GKVLDKFGKIVGKVLKQLKKVSAVAKV"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_28203",
+                    "Similarity": 1.0,
+                    "Sequence": "FKIKPGKVLDKFGKIVGKVLKQLKKVSAVAKV"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=>2500 µg/ml",
+            "Target Organism": "Trypanosoma cruzi Y(LC50=53.6µg/ml),Escherichia coli DH5alpha(LC50=>141µg/ml)"
+        }
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_20312": {
+        "Sequence Information": {
+            "Peptide Name": "Arminin-1a (40-70)-AMD",
+            "Sequence": "KPWRFRRAIRRVRWRKVAPYIPFVVKTVGKK",
+            "Sequence Length": 31,
+            "Biological Activity": [
+                "Anticancer",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "D2XUU4",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/D2XUU4",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Arminin 1a-C, a novel antimicrobial peptide from ancient metazoan Hydra, shows potent antileukemia activity against drug-sensitive and drug-resistant leukemia cells.",
+                    "Pubmed ID": "30464401",
+                    "Reference": "Drug Des Devel Ther. 2018;12:3691-3703",
+                    "Author": "Liang X, Wang R, Dou W, Zhao L, Zhou L, Zhu J, Wang K , Yan J",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/30464401"
+                }
+            ],
+            "Mass": 3895.74,
+            "PI": 12.0,
+            "Net Charge": 12,
+            "Hydrophobicity": -0.67,
+            "Frequent Amino Acids": "RKV",
+            "Absent Amino Acids": "CDEHLMNOQSU",
+            "Basic Residues": 12,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 20,
+            "Positive Residues": 12,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_20312",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_04515",
+                    "Similarity": 1.0,
+                    "Sequence": "MKTVLAFLFLTFIAFTYAESYEDVKEEIKNEVEKEIFEDLEEESDALDSSVREFNDAKPWRFRRAIRRVRWRKVAPYIPFVVKTVGKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_20312",
+                    "Similarity": 1.0,
+                    "Sequence": "KPWRFRRAIRRVRWRKVAPYIPFVVKTVGKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_28103",
+                    "Similarity": 1.0,
+                    "Sequence": "KPWRFRRAIRRVRWRKVAPYIPFVVKTVGKK"
+                }
+            ],
+            "Hemolytic Activity": "Human umbilical vein endothelial cells HUVEC:IC50=61.02 µM,Human embryonic kidney HEK293 cells:IC50=50.58 µM,Human PBMC:IC50=275.4 µM,Human erythrocytes:15% Hemolysis=300 µg/ml",
+            "Target Organism": "Human myelogenous leukemia K562/ADM(IC50=14.10µM),Human myelogenous leukemia K562(IC50=17.20µM),Human promyelocytic leukemia HL-60(IC50=11.48µM),Human acute monocytic leukemia THP-1(IC50=17.13µM),Jurkat cancer cells(IC50=32.19µM)"
+        }
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "SPADE_UN_13554": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_13554",
+            "Peptide Name": "IBP02V3",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "EISGINASVVNIQKEIDRLNEVAKNLNESLIDLQEL",
+            "Sequence Length": 36,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antiviral(SARS-CoV-2)"
+            ],
+            "Target Organism": "[Ref.34344868]Virus:SARS-CoV-2:inhibition of SARS-CoV-2 S protein-mediated cell-cell fusion(IC50=0.4±0.02 nM);inhibition of SARS-CoV-2 pseudovirus infection in 293T/ACE2 cells(IC50=14.1 nM);inhibition of SARS-CoV-2 pseudovirus infection in Huh-7 cells(IC50=17.5 nM);SARS-CoV-2 D614G:inhibition of S protein-mediated cell-cell fusion(IC50=0.2±0.02 nM);inhibition of pseudovirus infection in 293T/ACE2 cells(IC50=40.2 nM);inhibition of pseudovirus infection in Huh-7 cells(IC50=14.4 nM);SARS-CoV:inhibition of pseudovirus infection in Huh-7 cells(IC50=48±5.8 nM);MERS-CoV:inhibition of pseudovirus infection in Huh-7 cells(IC50=38.5±6.2 nM);HCoV-NL63:inhibition of pseudovirus infection in Huh-7 cells(IC50=75.8±9.9 nM);HCoV-229E:inhibition of pseudovirus infection in Huh-7 cells(IC50=545.7±0.9 nM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "[Ref.34344868]No significant cytotoxicity in both 293T/ACE2 and Huh-7 cells at a concentration of 10 μM.",
+            "Binding Target": "liposomes",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "PEG8-K(Chol)",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C173H294N48O61",
+            "Mass": 4022.47,
+            "PI": 4.25,
+            "Net Charge": -4,
+            "Hydrophobicity": -0.18,
+            "Half Life": "Mammalian:1 hourYeast:30 minE.coli:>10 hour",
+            "Comments": "The peptide is a fusion inhibitor against SARS-CoV-2.",
+            "Literature": [
+                {
+                    "Title": "SARS-CoV-2-derived fusion inhibitor lipopeptides exhibit highly potent and broad-spectrum activity against divergent human coronaviruses.",
+                    "Pubmed ID": "34344868",
+                    "Reference": "Signal Transduct Target Ther. 2021 Aug 3;6(1)294.",
+                    "Author": "Zhu Y, Yu D, Hu Y, Wu T, Chong H, He Y.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=34344868"
+                }
+            ],
+            "Frequent Amino Acids": "EIL",
+            "Absent Amino Acids": "CFHMOPTUWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 7,
+            "Hydrophobic Residues": 15,
+            "Polar Residues": 18,
+            "Positive Residues": 3,
+            "Negative Residues": 7,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_13521",
+                    "Similarity": 1.0,
+                    "Sequence": "ISGINASVVNIQKEIDRLNEVAKNLNESLIDLQEL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_13522",
+                    "Similarity": 1.0,
+                    "Sequence": "ISGINASVVNIQKEIDRLNEVAKNLNESLIDLQELK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_13852",
+                    "Similarity": 1.0,
+                    "Sequence": "GINASVVNIQKEIDRLNEVAKNLNESLIDL"
+                }
+            ]
+        }
+    }
+}

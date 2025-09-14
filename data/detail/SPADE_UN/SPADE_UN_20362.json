@@ -1,0 +1,64 @@
+{
+    "SPADE_UN_20362": {
+        "Sequence Information": {
+            "Peptide Name": "\"Bactofencin A\"",
+            "Sequence": "KRKKHRCRVYNNGMPTGMYRWC",
+            "Sequence Length": 22,
+            "Biological Activity": [
+                "Anti-Gram+"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "V6DMD2",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/V6DMD2",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Structure-activity relationships of the bacteriocin bactofencin A and its interaction with bacterial membrane.",
+                    "Pubmed ID": "30540905",
+                    "Reference": "ACS Infect Dis. 2018;:",
+                    "Author": "Bédard F, Fliss I, Biron É",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/30540905"
+                }
+            ],
+            "Mass": 2785.31,
+            "PI": 10.56,
+            "Net Charge": 8,
+            "Hydrophobicity": -1.52,
+            "Frequent Amino Acids": "RKC",
+            "Absent Amino Acids": "ADEFILOQSU",
+            "Basic Residues": 8,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 17,
+            "Positive Residues": 8,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_20362",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06218",
+                    "Similarity": 1.0,
+                    "Sequence": "MFFNFMKKVDVKKNFGYKEVSRKDLAKVNGGKRKKHRCRVYNNGMPTGMYRWC"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_20362",
+                    "Similarity": 1.0,
+                    "Sequence": "KRKKHRCRVYNNGMPTGMYRWC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_12684",
+                    "Similarity": 0.9090909090909091,
+                    "Sequence": "KRKKHRCRVYNNGLPTGLYRWC"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Staphylococcus aureus ATCC 6538(MIC=4.3µM),Listeria monocytogenes ATCC 19111(MIC=8µM)"
+        }
+    }
+}

@@ -1,0 +1,81 @@
+{
+    "SPADE_N_02652": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 2005/0260715 A1",
+                "Patent Link": "http://www.lens.org/lens/patent/US_2005_0260715_A1",
+                "Patent Type": "Patent Application",
+                "Publication Date": "2005-11-24",
+                "Family Info": "US6946261",
+                "Patent Title": "Efficient methods for producing antimicrobial cationic peptides in host cells.",
+                "Abstract": "Endogenously produced cationic antimicrobial peptides are ubiquitous components of host defenses in mammals, birds, amphibia, insects, and plants. Cationic peptides are also effective when administered as therapeutic agents. A practical drawback in cationic peptide therapy, however, is the cost of producing the agents. The methods described herein provide a means to efficiently produce cationic peptides from recombinant host cells. These recombinantly-produced cationic peptides can be rapidly purified from host cell proteins using anion exchange chromatography."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02652",
+            "Peptide Name": "Phormia defensin A (insect defensin A, Ptdefensin A; Insects, animals)",
+            "Source": "Phormia terranovae (Black blowfly)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "ATCDLLSGTGINHSACAAHCLLRGNRGGYCNGKGVCVCRN",
+            "Sequence Length": 40,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C163H270N58O52S6",
+            "Mass": 4066.63,
+            "PI": 8.69,
+            "Net Charge": 5,
+            "Hydrophobicity": 0.05,
+            "Half Life": "Mammalian:4.4 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Insect immunity isolation from immune blood of the dipteran Phormia terranovae of two insect antibacterial peptides with sequence homology to Rabbit lung macrophage bactericidal peptides.",
+                    "Pubmed ID": "2911573",
+                    "Reference": "Proc Natl Acad Sci U S A. 1989 Jan;86(1)262-266.",
+                    "Author": "Lambert J, Keppi E, Dimarcq JL, Wicker C, Reichhart JM, Dunbar B, Lepage P, Van Dorsselaer A, Hoffmann J, Fothergill J, et al.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=2911573"
+                }
+            ],
+            "Frequent Amino Acids": "GCA",
+            "Absent Amino Acids": "EFMOPQUW",
+            "Basic Residues": 6,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 27,
+            "Positive Residues": 6,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07939",
+                    "Similarity": 1.0,
+                    "Sequence": "MKFFMVFVVTFCLAVCFVSQSLAIPADAANDAHFVDGVQALKEIEPELHGRYKRATCDLLSGTGINHSACAAHCLLRGNRGGYCNGKGVCVCRN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07590",
+                    "Similarity": 1.0,
+                    "Sequence": "GTGINHSACAAHCLLRGNRGGYCNGKGVCVCR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07424",
+                    "Similarity": 1.0,
+                    "Sequence": "ACAAHCLLRGNRGGYCNGKG"
+                }
+            ]
+        }
+    }
+}

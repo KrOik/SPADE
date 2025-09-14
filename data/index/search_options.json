@@ -1,0 +1,3144 @@
+{
+  "activity_types": {
+    "label": "活性类型",
+    "options": [
+      {
+        "value": "Anitibacterial",
+        "label": "Anitibacterial"
+      },
+      {
+        "value": "Anitifungal",
+        "label": "Anitifungal"
+      },
+      {
+        "value": "Anti Mammalian Cells",
+        "label": "Anti Mammalian Cells"
+      },
+      {
+        "value": "Anti Mammalian cells",
+        "label": "Anti Mammalian cells"
+      },
+      {
+        "value": "Anti-Gram+",
+        "label": "Anti-Gram+"
+      },
+      {
+        "value": "Anti-Gram-",
+        "label": "Anti-Gram-"
+      },
+      {
+        "value": "Anti-HIV",
+        "label": "Anti-HIV"
+      },
+      {
+        "value": "Anti-HSV",
+        "label": "Anti-HSV"
+      },
+      {
+        "value": "Anti-MRSA",
+        "label": "Anti-MRSA"
+      },
+      {
+        "value": "Anti-Mammalian Cell",
+        "label": "Anti-Mammalian Cell"
+      },
+      {
+        "value": "Anti-Mollicute",
+        "label": "Anti-Mollicute"
+      },
+      {
+        "value": "Anti-Nematode",
+        "label": "Anti-Nematode"
+      },
+      {
+        "value": "Anti-Protista",
+        "label": "Anti-Protista"
+      },
+      {
+        "value": "Anti-cryptococcal",
+        "label": "Anti-cryptococcal"
+      },
+      {
+        "value": "Anti-infective",
+        "label": "Anti-infective"
+      },
+      {
+        "value": "Anti-inflammatory",
+        "label": "Anti-inflammatory"
+      },
+      {
+        "value": "Antiallodynic",
+        "label": "Antiallodynic"
+      },
+      {
+        "value": "Antibacterial",
+        "label": "Antibacterial"
+      },
+      {
+        "value": "Antibiofilm",
+        "label": "Antibiofilm"
+      },
+      {
+        "value": "Antibiotic",
+        "label": "Antibiotic"
+      },
+      {
+        "value": "Anticancer",
+        "label": "Anticancer"
+      },
+      {
+        "value": "Antifugal(membrane)",
+        "label": "Antifugal(membrane)"
+      },
+      {
+        "value": "Antifungal",
+        "label": "Antifungal"
+      },
+      {
+        "value": "Antiinflammatory",
+        "label": "Antiinflammatory"
+      },
+      {
+        "value": "Antilisterial",
+        "label": "Antilisterial"
+      },
+      {
+        "value": "Antimalarial",
+        "label": "Antimalarial"
+      },
+      {
+        "value": "Antimicrobial",
+        "label": "Antimicrobial"
+      },
+      {
+        "value": "Antinociceptive",
+        "label": "Antinociceptive"
+      },
+      {
+        "value": "Antioxidant",
+        "label": "Antioxidant"
+      },
+      {
+        "value": "Antiparasitic",
+        "label": "Antiparasitic"
+      },
+      {
+        "value": "Antiplasmodial",
+        "label": "Antiplasmodial"
+      },
+      {
+        "value": "Antiproliferative",
+        "label": "Antiproliferative"
+      },
+      {
+        "value": "Antiprotozoal",
+        "label": "Antiprotozoal"
+      },
+      {
+        "value": "Antitumor",
+        "label": "Antitumor"
+      },
+      {
+        "value": "Antiviral",
+        "label": "Antiviral"
+      },
+      {
+        "value": "Antiviral(SARS-CoV-2)",
+        "label": "Antiviral(SARS-CoV-2)"
+      },
+      {
+        "value": "Archaea",
+        "label": "Archaea"
+      },
+      {
+        "value": "Archaeolytic",
+        "label": "Archaeolytic"
+      },
+      {
+        "value": "Broad spectrum",
+        "label": "Broad spectrum"
+      },
+      {
+        "value": "Channel inhibitors",
+        "label": "Channel inhibitors"
+      },
+      {
+        "value": "Chemokine induction and enhanced leukocyte recruitment",
+        "label": "Chemokine induction and enhanced leukocyte recruitment"
+      },
+      {
+        "value": "Chemotactic",
+        "label": "Chemotactic"
+      },
+      {
+        "value": "Cytolysis",
+        "label": "Cytolysis"
+      },
+      {
+        "value": "Cytolytic",
+        "label": "Cytolytic"
+      },
+      {
+        "value": "Cytotoxic",
+        "label": "Cytotoxic"
+      },
+      {
+        "value": "Cytotoxicity",
+        "label": "Cytotoxicity"
+      },
+      {
+        "value": "Defense response",
+        "label": "Defense response"
+      },
+      {
+        "value": "Enzyme inhibitor",
+        "label": "Enzyme inhibitor"
+      },
+      {
+        "value": "Hemolytic",
+        "label": "Hemolytic"
+      },
+      {
+        "value": "Immunomodulatory",
+        "label": "Immunomodulatory"
+      },
+      {
+        "value": "Insecticidal",
+        "label": "Insecticidal"
+      },
+      {
+        "value": "Mammalian cells",
+        "label": "Mammalian cells"
+      },
+      {
+        "value": "Mollicute",
+        "label": "Mollicute"
+      },
+      {
+        "value": "Nematode",
+        "label": "Nematode"
+      },
+      {
+        "value": "Neuropeptide",
+        "label": "Neuropeptide"
+      },
+      {
+        "value": "Non-Antimicrobial",
+        "label": "Non-Antimicrobial"
+      },
+      {
+        "value": "Non-antimicrobial",
+        "label": "Non-antimicrobial"
+      },
+      {
+        "value": "Protein kinase inhibitor activity",
+        "label": "Protein kinase inhibitor activity"
+      },
+      {
+        "value": "Proteolytic",
+        "label": "Proteolytic"
+      },
+      {
+        "value": "Protista",
+        "label": "Protista"
+      },
+      {
+        "value": "Synergistic AMPs",
+        "label": "Synergistic AMPs"
+      },
+      {
+        "value": "Toxin",
+        "label": "Toxin"
+      },
+      {
+        "value": "Unknown",
+        "label": "Unknown"
+      },
+      {
+        "value": "Wound healing",
+        "label": "Wound healing"
+      },
+      {
+        "value": "anti-TB",
+        "label": "anti-TB"
+      },
+      {
+        "value": "anti-diabetes",
+        "label": "anti-diabetes"
+      },
+      {
+        "value": "anti-sepsis",
+        "label": "anti-sepsis"
+      },
+      {
+        "value": "bacteria-agglutinating AMPs",
+        "label": "bacteria-agglutinating AMPs"
+      },
+      {
+        "value": "hemolytic against mammalian cells",
+        "label": "hemolytic against mammalian cells"
+      },
+      {
+        "value": "immunomodulatory",
+        "label": "immunomodulatory"
+      },
+      {
+        "value": "low hemolytic and toxic effects",
+        "label": "low hemolytic and toxic effects"
+      },
+      {
+        "value": "mitochondrion)",
+        "label": "mitochondrion)"
+      }
+    ]
+  },
+  "target_organisms": {
+    "label": "目标生物",
+    "options": [
+      {
+        "value": "##Gram- (MIC=0.3 µM).",
+        "label": "##Gram- (MIC=0.3 µM)."
+      },
+      {
+        "value": "##primary multidrug-resistant renal adenocarcinoma cell line ACHN (IC50=3.2 µM).",
+        "label": "##primary multidrug-resistant renal adenocarcinoma cell line ACHN (IC50=3.2 µM)."
+      },
+      {
+        "value": "#Gram-positive bacteria:Enterococcus faecalis (MIC=2.4 µM)",
+        "label": "#Gram-positive bacteria:Enterococcus faecalis (MIC=2.4 µM)"
+      },
+      {
+        "value": "(MIC=16-256 μg/ml).\nFungi:\nCandida albicans (6) (MIC=4-16 μg/ml).",
+        "label": "(MIC=16-256 μg/ml).\nFungi:\nCandida albicans (6) (MIC=4-16 μg/ml)."
+      },
+      {
+        "value": "+ Ca2+ = Medium supplemented with high concentration of CaCl2 (1 mM).",
+        "label": "+ Ca2+ = Medium supplemented with high concentration of CaCl2 (1 mM)."
+      },
+      {
+        "value": "+ Ca2+ = Medium supplemented with high concentration of CaCl2 (1 mM)]",
+        "label": "+ Ca2+ = Medium supplemented with high concentration of CaCl2 (1 mM)]"
+      },
+      {
+        "value": "+ Ca2+):Alternaria helianthi (IC50=5-10",
+        "label": "+ Ca2+):Alternaria helianthi (IC50=5-10"
+      },
+      {
+        "value": "+ Ca2+):Clavibacter michiganensis (IC50=50",
+        "label": "+ Ca2+):Clavibacter michiganensis (IC50=50"
+      },
+      {
+        "value": "++",
+        "label": "++"
+      },
+      {
+        "value": "++ indistinct inhibit zone with diameter ≥12 mm",
+        "label": "++ indistinct inhibit zone with diameter ≥12 mm"
+      },
+      {
+        "value": "+++ clear inhibit zone with diameter 12-16 mm",
+        "label": "+++ clear inhibit zone with diameter 12-16 mm"
+      },
+      {
+        "value": "++++ clear inhibit zone with diameter 16-20 mm",
+        "label": "++++ clear inhibit zone with diameter 16-20 mm"
+      },
+      {
+        "value": "-- (IC50 for MDMX-p53=0.12 µM)",
+        "label": "-- (IC50 for MDMX-p53=0.12 µM)"
+      },
+      {
+        "value": "-- (IC50 for MDMX-p53=1.6 µM)",
+        "label": "-- (IC50 for MDMX-p53=1.6 µM)"
+      },
+      {
+        "value": "-- (IC50 for MDMX-p53=30 µM)",
+        "label": "-- (IC50 for MDMX-p53=30 µM)"
+      },
+      {
+        "value": "-- (IC50 for MDMX-p53>100 µM)",
+        "label": "-- (IC50 for MDMX-p53>100 µM)"
+      },
+      {
+        "value": ".",
+        "label": "."
+      },
+      {
+        "value": ".Fungi:Candida albicans 820 (MIC=1.6 µM)",
+        "label": ".Fungi:Candida albicans 820 (MIC=1.6 µM)"
+      },
+      {
+        "value": "0 inhibition at 20 μM).",
+        "label": "0 inhibition at 20 μM)."
+      },
+      {
+        "value": "0% inhibition at 20 μM).",
+        "label": "0% inhibition at 20 μM)."
+      },
+      {
+        "value": "0.05-0.10 µM)",
+        "label": "0.05-0.10 µM)"
+      },
+      {
+        "value": "0.1 mol/L sodium chloride.",
+        "label": "0.1 mol/L sodium chloride."
+      },
+      {
+        "value": "0.17 μM)",
+        "label": "0.17 μM)"
+      },
+      {
+        "value": "0.19-0.39 µM)",
+        "label": "0.19-0.39 µM)"
+      },
+      {
+        "value": "0.39-0.78 µM)",
+        "label": "0.39-0.78 µM)"
+      },
+      {
+        "value": "0.5 µg/ml).[NOTE:SMF- = Synthetic growth Medium with low ionic strength",
+        "label": "0.5 µg/ml).[NOTE:SMF- = Synthetic growth Medium with low ionic strength"
+      },
+      {
+        "value": "0.78-1.56 µM)",
+        "label": "0.78-1.56 µM)"
+      },
+      {
+        "value": "0.88 μM)",
+        "label": "0.88 μM)"
+      },
+      {
+        "value": "0.94 μM)",
+        "label": "0.94 μM)"
+      },
+      {
+        "value": "0.98 μM)",
+        "label": "0.98 μM)"
+      },
+      {
+        "value": "006µg/ml)",
+        "label": "006µg/ml)"
+      },
+      {
+        "value": "013µg/ml)",
+        "label": "013µg/ml)"
+      },
+      {
+        "value": "022 (MIC=22 µM)",
+        "label": "022 (MIC=22 µM)"
+      },
+      {
+        "value": "022µg/ml)",
+        "label": "022µg/ml)"
+      },
+      {
+        "value": "028 (MIC 50 ug/ml).",
+        "label": "028 (MIC 50 ug/ml)."
+      },
+      {
+        "value": "031 (MIC=22 µM)",
+        "label": "031 (MIC=22 µM)"
+      },
+      {
+        "value": "072µg/ml)",
+        "label": "072µg/ml)"
+      },
+      {
+        "value": "0µM)",
+        "label": "0µM)"
+      },
+      {
+        "value": "1 A/C",
+        "label": "1 A/C"
+      },
+      {
+        "value": "1 G",
+        "label": "1 G"
+      },
+      {
+        "value": "1% inhibition at 10μM",
+        "label": "1% inhibition at 10μM"
+      },
+      {
+        "value": "1.11 μM)",
+        "label": "1.11 μM)"
+      },
+      {
+        "value": "1.24 μM)",
+        "label": "1.24 μM)"
+      },
+      {
+        "value": "1.4% inhibition at 10μM",
+        "label": "1.4% inhibition at 10μM"
+      },
+      {
+        "value": "1.5 µg/ml)",
+        "label": "1.5 µg/ml)"
+      },
+      {
+        "value": "1.56-3.13 µM)",
+        "label": "1.56-3.13 µM)"
+      },
+      {
+        "value": "1.6% inhibition at 10μM",
+        "label": "1.6% inhibition at 10μM"
+      },
+      {
+        "value": "1.76 μM)",
+        "label": "1.76 μM)"
+      },
+      {
+        "value": "1.81 μM)",
+        "label": "1.81 μM)"
+      },
+      {
+        "value": "1.83 μM)",
+        "label": "1.83 μM)"
+      }
+    ]
+  },
+  "families": {
+    "label": "家族",
+    "options": [
+      {
+        "value": "Adenoviridae",
+        "label": "Adenoviridae"
+      },
+      {
+        "value": "Arenaviridae",
+        "label": "Arenaviridae"
+      },
+      {
+        "value": "Arteriviridae",
+        "label": "Arteriviridae"
+      },
+      {
+        "value": "Bacteriocin",
+        "label": "Bacteriocin"
+      },
+      {
+        "value": "Belongs to ShKT domain family",
+        "label": "Belongs to ShKT domain family"
+      },
+      {
+        "value": "Belongs to cathelicidin",
+        "label": "Belongs to cathelicidin"
+      },
+      {
+        "value": "Belongs to the",
+        "label": "Belongs to the"
+      },
+      {
+        "value": "Belongs to the 2S seed storage albumins family",
+        "label": "Belongs to the 2S seed storage albumins family"
+      },
+      {
+        "value": "Belongs to the ACBP family",
+        "label": "Belongs to the ACBP family"
+      },
+      {
+        "value": "Belongs to the AMP family",
+        "label": "Belongs to the AMP family"
+      },
+      {
+        "value": "Belongs to the Belongs to the long chain scorpion toxin famiy",
+        "label": "Belongs to the Belongs to the long chain scorpion toxin famiy"
+      },
+      {
+        "value": "Belongs to the BetVI family",
+        "label": "Belongs to the BetVI family"
+      },
+      {
+        "value": "Belongs to the Bracelet subfamily, Rubiaceae family",
+        "label": "Belongs to the Bracelet subfamily, Rubiaceae family"
+      },
+      {
+        "value": "Belongs to the CPF family.",
+        "label": "Belongs to the CPF family."
+      },
+      {
+        "value": "Belongs to the CRISP family",
+        "label": "Belongs to the CRISP family"
+      },
+      {
+        "value": "Belongs to the CRISPR-associated endoribonuclease Cas2 prote",
+        "label": "Belongs to the CRISPR-associated endoribonuclease Cas2 prote"
+      },
+      {
+        "value": "Belongs to the Cathepsin G 77-83 truncted peptide.",
+        "label": "Belongs to the Cathepsin G 77-83 truncted peptide."
+      },
+      {
+        "value": "Belongs to the Cathepsin G N-terminal 1-5 truncted peptide.",
+        "label": "Belongs to the Cathepsin G N-terminal 1-5 truncted peptide."
+      },
+      {
+        "value": "Belongs to the Cecropins family.",
+        "label": "Belongs to the Cecropins family."
+      },
+      {
+        "value": "Belongs to the Ceratotoxin family",
+        "label": "Belongs to the Ceratotoxin family"
+      },
+      {
+        "value": "Belongs to the Class IIa sec-dependent bacteriocin",
+        "label": "Belongs to the Class IIa sec-dependent bacteriocin"
+      },
+      {
+        "value": "Belongs to the DEFL family",
+        "label": "Belongs to the DEFL family"
+      },
+      {
+        "value": "Belongs to the DEFL family (RTI/MTI-2 subfamily)",
+        "label": "Belongs to the DEFL family (RTI/MTI-2 subfamily)"
+      },
+      {
+        "value": "Belongs to the E(R) family",
+        "label": "Belongs to the E(R) family"
+      },
+      {
+        "value": "Belongs to the HMGN family",
+        "label": "Belongs to the HMGN family"
+      },
+      {
+        "value": "Belongs to the HMGN family.",
+        "label": "Belongs to the HMGN family."
+      },
+      {
+        "value": "Belongs to the Hp1404 family",
+        "label": "Belongs to the Hp1404 family"
+      },
+      {
+        "value": "Belongs to the Hyposins family",
+        "label": "Belongs to the Hyposins family"
+      },
+      {
+        "value": "Belongs to the LEAP2 family",
+        "label": "Belongs to the LEAP2 family"
+      },
+      {
+        "value": "Belongs to the Lactotransferrin",
+        "label": "Belongs to the Lactotransferrin"
+      },
+      {
+        "value": "Belongs to the Lamiaceae family, subfamily Nepetoideae.",
+        "label": "Belongs to the Lamiaceae family, subfamily Nepetoideae."
+      },
+      {
+        "value": "Belongs to the MCD family",
+        "label": "Belongs to the MCD family"
+      },
+      {
+        "value": "Belongs to the MCD family (Crabrolin subfamily)",
+        "label": "Belongs to the MCD family (Crabrolin subfamily)"
+      },
+      {
+        "value": "Belongs to the MCD family (Mastoparan subfamily)",
+        "label": "Belongs to the MCD family (Mastoparan subfamily)"
+      },
+      {
+        "value": "Belongs to the MCD family (Protonectin subfamily)",
+        "label": "Belongs to the MCD family (Protonectin subfamily)"
+      },
+      {
+        "value": "Belongs to the MCD family Bombolitin subfamily",
+        "label": "Belongs to the MCD family Bombolitin subfamily"
+      },
+      {
+        "value": "Belongs to the MGR2 family",
+        "label": "Belongs to the MGR2 family"
+      },
+      {
+        "value": "Belongs to the NPY family",
+        "label": "Belongs to the NPY family"
+      },
+      {
+        "value": "Belongs to the POMC family",
+        "label": "Belongs to the POMC family"
+      },
+      {
+        "value": "Belongs to the Phyllomedusinae subfamily",
+        "label": "Belongs to the Phyllomedusinae subfamily"
+      },
+      {
+        "value": "Belongs to the Pipidae family.",
+        "label": "Belongs to the Pipidae family."
+      },
+      {
+        "value": "Belongs to the Polymyxins family",
+        "label": "Belongs to the Polymyxins family"
+      },
+      {
+        "value": "Belongs to the S-100 family",
+        "label": "Belongs to the S-100 family"
+      },
+      {
+        "value": "Belongs to the S-101 family",
+        "label": "Belongs to the S-101 family"
+      },
+      {
+        "value": "Belongs to the Scorpion family",
+        "label": "Belongs to the Scorpion family"
+      },
+      {
+        "value": "Belongs to the Sodium channel inhibitor family (Alpha subfamily)",
+        "label": "Belongs to the Sodium channel inhibitor family (Alpha subfamily)"
+      },
+      {
+        "value": "Belongs to the TFPI-1 C-terminal peptide",
+        "label": "Belongs to the TFPI-1 C-terminal peptide"
+      },
+      {
+        "value": "Belongs to the Temporin family",
+        "label": "Belongs to the Temporin family"
+      },
+      {
+        "value": "Belongs to the YARP family",
+        "label": "Belongs to the YARP family"
+      },
+      {
+        "value": "Belongs to the alpha-casein family",
+        "label": "Belongs to the alpha-casein family"
+      },
+      {
+        "value": "Belongs to the alpha-defensin family",
+        "label": "Belongs to the alpha-defensin family"
+      },
+      {
+        "value": "Belongs to the alpha-defensin family (Theta subfamily)",
+        "label": "Belongs to the alpha-defensin family (Theta subfamily)"
+      },
+      {
+        "value": "Belongs to the alpha-defensin family.",
+        "label": "Belongs to the alpha-defensin family."
+      },
+      {
+        "value": "Belongs to the antibacterial vermipeptides family (AVPF)",
+        "label": "Belongs to the antibacterial vermipeptides family (AVPF)"
+      },
+      {
+        "value": "Belongs to the antimicrobial peptide scorpion family",
+        "label": "Belongs to the antimicrobial peptide scorpion family"
+      },
+      {
+        "value": "Belongs to the apidaecin family",
+        "label": "Belongs to the apidaecin family"
+      },
+      {
+        "value": "Belongs to the apolipoprotein A2 family",
+        "label": "Belongs to the apolipoprotein A2 family"
+      },
+      {
+        "value": "Belongs to the ascaphin family",
+        "label": "Belongs to the ascaphin family"
+      },
+      {
+        "value": "Belongs to the attacin/sarcotoxin-2 family",
+        "label": "Belongs to the attacin/sarcotoxin-2 family"
+      },
+      {
+        "value": "Belongs to the beta-defensin family",
+        "label": "Belongs to the beta-defensin family"
+      },
+      {
+        "value": "Belongs to the beta-defensin family (LAP/TAP subfamily)",
+        "label": "Belongs to the beta-defensin family (LAP/TAP subfamily)"
+      },
+      {
+        "value": "Belongs to the beta-defensin family.",
+        "label": "Belongs to the beta-defensin family."
+      },
+      {
+        "value": "Belongs to the beta-defensin family. LAP/TAP subfamily.",
+        "label": "Belongs to the beta-defensin family. LAP/TAP subfamily."
+      },
+      {
+        "value": "Belongs to the beta/delta-agatoxin family",
+        "label": "Belongs to the beta/delta-agatoxin family"
+      },
+      {
+        "value": "Belongs to the betacoronaviruses spike protein family.",
+        "label": "Belongs to the betacoronaviruses spike protein family."
+      },
+      {
+        "value": "Belongs to the big defensin family",
+        "label": "Belongs to the big defensin family"
+      },
+      {
+        "value": "Belongs to the bombesin/neuromedin-B/ranatensin family",
+        "label": "Belongs to the bombesin/neuromedin-B/ranatensin family"
+      },
+      {
+        "value": "Belongs to the bombinin family",
+        "label": "Belongs to the bombinin family"
+      },
+      {
+        "value": "Belongs to the bradykinin family",
+        "label": "Belongs to the bradykinin family"
+      },
+      {
+        "value": "Belongs to the bradykinin-related peptide family",
+        "label": "Belongs to the bradykinin-related peptide family"
+      },
+      {
+        "value": "Belongs to the brassicaceae elicitor peptide family",
+        "label": "Belongs to the brassicaceae elicitor peptide family"
+      },
+      {
+        "value": "Belongs to the caerin subfamily",
+        "label": "Belongs to the caerin subfamily"
+      },
+      {
+        "value": "Belongs to the cathelicidin family",
+        "label": "Belongs to the cathelicidin family"
+      },
+      {
+        "value": "Belongs to the cathelicidin family.",
+        "label": "Belongs to the cathelicidin family."
+      },
+      {
+        "value": "Belongs to the cecropin family",
+        "label": "Belongs to the cecropin family"
+      },
+      {
+        "value": "Belongs to the cecropin family.",
+        "label": "Belongs to the cecropin family."
+      },
+      {
+        "value": "Belongs to the chromogranin/secretogranin protein family",
+        "label": "Belongs to the chromogranin/secretogranin protein family"
+      },
+      {
+        "value": "Belongs to the class 1 lasso peptide",
+        "label": "Belongs to the class 1 lasso peptide"
+      },
+      {
+        "value": "Belongs to the class I bacteriocin",
+        "label": "Belongs to the class I bacteriocin"
+      },
+      {
+        "value": "Belongs to the class I microcin",
+        "label": "Belongs to the class I microcin"
+      },
+      {
+        "value": "Belongs to the class II bacteriocin",
+        "label": "Belongs to the class II bacteriocin"
+      },
+      {
+        "value": "Belongs to the class IIa bacteriocin",
+        "label": "Belongs to the class IIa bacteriocin"
+      },
+      {
+        "value": "Belongs to the class IIa bacteriocin.",
+        "label": "Belongs to the class IIa bacteriocin."
+      },
+      {
+        "value": "Belongs to the class IIa microcin",
+        "label": "Belongs to the class IIa microcin"
+      },
+      {
+        "value": "Belongs to the class IIb bacteriocin",
+        "label": "Belongs to the class IIb bacteriocin"
+      },
+      {
+        "value": "Belongs to the class IIb microcin",
+        "label": "Belongs to the class IIb microcin"
+      },
+      {
+        "value": "Belongs to the class IIc bacteriocin",
+        "label": "Belongs to the class IIc bacteriocin"
+      },
+      {
+        "value": "Belongs to the class IId bacteriocin",
+        "label": "Belongs to the class IId bacteriocin"
+      },
+      {
+        "value": "Belongs to the coleoptericin family",
+        "label": "Belongs to the coleoptericin family"
+      },
+      {
+        "value": "Belongs to the crotamine-myotoxin family",
+        "label": "Belongs to the crotamine-myotoxin family"
+      },
+      {
+        "value": "Belongs to the cupiennin family",
+        "label": "Belongs to the cupiennin family"
+      },
+      {
+        "value": "Belongs to the cyanovirin-N family",
+        "label": "Belongs to the cyanovirin-N family"
+      },
+      {
+        "value": "Belongs to the cyclotide family",
+        "label": "Belongs to the cyclotide family"
+      },
+      {
+        "value": "Belongs to the cyclotide family (Bracelet subfamily)",
+        "label": "Belongs to the cyclotide family (Bracelet subfamily)"
+      },
+      {
+        "value": "Belongs to the cyclotide family. Bracelet subfamily.",
+        "label": "Belongs to the cyclotide family. Bracelet subfamily."
+      },
+      {
+        "value": "Belongs to the cystatin family (Phytocystatin subfamily\n)",
+        "label": "Belongs to the cystatin family (Phytocystatin subfamily\n)"
+      },
+      {
+        "value": "Belongs to the cytoinsectotoxin family",
+        "label": "Belongs to the cytoinsectotoxin family"
+      },
+      {
+        "value": "Belongs to the defensin family",
+        "label": "Belongs to the defensin family"
+      },
+      {
+        "value": "Belongs to the defensin family.",
+        "label": "Belongs to the defensin family."
+      },
+      {
+        "value": "Belongs to the diapausin family",
+        "label": "Belongs to the diapausin family"
+      },
+      {
+        "value": "Belongs to the diapausin family of peptides",
+        "label": "Belongs to the diapausin family of peptides"
+      },
+      {
+        "value": "Belongs to the drosocin family",
+        "label": "Belongs to the drosocin family"
+      },
+      {
+        "value": "Belongs to the eukaryotic ribosomal protein eS30 family.",
+        "label": "Belongs to the eukaryotic ribosomal protein eS30 family."
+      },
+      {
+        "value": "Belongs to the flavin monoamine oxidase family",
+        "label": "Belongs to the flavin monoamine oxidase family"
+      },
+      {
+        "value": "Belongs to the flavin monoamine oxidase family (FIG1 subfamily)",
+        "label": "Belongs to the flavin monoamine oxidase family (FIG1 subfamily)"
+      },
+      {
+        "value": "Belongs to the formicidae venom precursor-01 superfamily.",
+        "label": "Belongs to the formicidae venom precursor-01 superfamily."
+      },
+      {
+        "value": "Belongs to the frog skin active peptide (FSAP) family (Caerin subfamily)",
+        "label": "Belongs to the frog skin active peptide (FSAP) family (Caerin subfamily)"
+      },
+      {
+        "value": "Belongs to the frog skin active peptide (FSAP) family. Brevinin subfamily",
+        "label": "Belongs to the frog skin active peptide (FSAP) family. Brevinin subfamily"
+      },
+      {
+        "value": "Belongs to the frog skin active peptide (FSAP) family. Brevinin subfamily.",
+        "label": "Belongs to the frog skin active peptide (FSAP) family. Brevinin subfamily."
+      },
+      {
+        "value": "Belongs to the frog skin active peptide (FSAP) family. Dermaseptin subfami",
+        "label": "Belongs to the frog skin active peptide (FSAP) family. Dermaseptin subfami"
+      },
+      {
+        "value": "Belongs to the frog skin active peptide (FSAP) family. Pleurain subfamily.",
+        "label": "Belongs to the frog skin active peptide (FSAP) family. Pleurain subfamily."
+      },
+      {
+        "value": "Belongs to the frog skin active peptide (FSAP) family. Uperin subfamily.",
+        "label": "Belongs to the frog skin active peptide (FSAP) family. Uperin subfamily."
+      },
+      {
+        "value": "Belongs to the frog skin active peptide family",
+        "label": "Belongs to the frog skin active peptide family"
+      },
+      {
+        "value": "Belongs to the frog skin active peptide family (Brevinin subfamily)",
+        "label": "Belongs to the frog skin active peptide family (Brevinin subfamily)"
+      },
+      {
+        "value": "Belongs to the frog skin active peptide family (Caerin subfamily)",
+        "label": "Belongs to the frog skin active peptide family (Caerin subfamily)"
+      },
+      {
+        "value": "Belongs to the frog skin active peptide family (Dermaseptin subfamily)",
+        "label": "Belongs to the frog skin active peptide family (Dermaseptin subfamily)"
+      },
+      {
+        "value": "Belongs to the frog skin active peptide family (Peroniin subfamily)",
+        "label": "Belongs to the frog skin active peptide family (Peroniin subfamily)"
+      },
+      {
+        "value": "Belongs to the frog skin active peptide family (Tryptophillin subfamily)",
+        "label": "Belongs to the frog skin active peptide family (Tryptophillin subfamily)"
+      },
+      {
+        "value": "Belongs to the frog skin active peptide family Dermas",
+        "label": "Belongs to the frog skin active peptide family Dermas"
+      },
+      {
+        "value": "Belongs to the gastrin/cholecystokinin family",
+        "label": "Belongs to the gastrin/cholecystokinin family"
+      },
+      {
+        "value": "Belongs to the gastrin/cholecystokinin family (Magainin subfamily)",
+        "label": "Belongs to the gastrin/cholecystokinin family (Magainin subfamily)"
+      },
+      {
+        "value": "Belongs to the gastrin/cholecystokinin family. Magainin subfamily",
+        "label": "Belongs to the gastrin/cholecystokinin family. Magainin subfamily"
+      },
+      {
+        "value": "Belongs to the gastrin/cholecystokinin family. Magainin subfamily.",
+        "label": "Belongs to the gastrin/cholecystokinin family. Magainin subfamily."
+      },
+      {
+        "value": "Belongs to the globin family.",
+        "label": "Belongs to the globin family."
+      },
+      {
+        "value": "Belongs to the glycosyl hydrolase 17 family",
+        "label": "Belongs to the glycosyl hydrolase 17 family"
+      },
+      {
+        "value": "Belongs to the glycosyl hydrolase 18 family Chitinase (class",
+        "label": "Belongs to the glycosyl hydrolase 18 family Chitinase (class"
+      },
+      {
+        "value": "Belongs to the glycosyl hydrolase 19 family (Chitinase class I subfamily)",
+        "label": "Belongs to the glycosyl hydrolase 19 family (Chitinase class I subfamily)"
+      },
+      {
+        "value": "Belongs to the glycosyl hydrolase 20 family (Chitinase class I subfamily)",
+        "label": "Belongs to the glycosyl hydrolase 20 family (Chitinase class I subfamily)"
+      },
+      {
+        "value": "Belongs to the glycosyl hydrolase 21 family (Chitinase class I subfamily)",
+        "label": "Belongs to the glycosyl hydrolase 21 family (Chitinase class I subfamily)"
+      },
+      {
+        "value": "Belongs to the glycosyl hydrolase 22 family",
+        "label": "Belongs to the glycosyl hydrolase 22 family"
+      },
+      {
+        "value": "Belongs to the glycosyl hydrolase 22 family (Chitinase class I subfamily)",
+        "label": "Belongs to the glycosyl hydrolase 22 family (Chitinase class I subfamily)"
+      },
+      {
+        "value": "Belongs to the glycosyl hydrolase 23 family (Chitinase class I subfamily)",
+        "label": "Belongs to the glycosyl hydrolase 23 family (Chitinase class I subfamily)"
+      },
+      {
+        "value": "Belongs to the glycosyl hydrolase 24 family (Chitinase class I subfamily)",
+        "label": "Belongs to the glycosyl hydrolase 24 family (Chitinase class I subfamily)"
+      },
+      {
+        "value": "Belongs to the glycosyl hydrolase 25 family (Chitinase class I subfamily)",
+        "label": "Belongs to the glycosyl hydrolase 25 family (Chitinase class I subfamily)"
+      },
+      {
+        "value": "Belongs to the glycosyl hydrolase 26 family (Chitinase class I subfamily)",
+        "label": "Belongs to the glycosyl hydrolase 26 family (Chitinase class I subfamily)"
+      },
+      {
+        "value": "Belongs to the glycosyl hydrolase 27 family (Chitinase class I subfamily)",
+        "label": "Belongs to the glycosyl hydrolase 27 family (Chitinase class I subfamily)"
+      },
+      {
+        "value": "Belongs to the glycosyl hydrolase 28 family (Chitinase class I subfamily)",
+        "label": "Belongs to the glycosyl hydrolase 28 family (Chitinase class I subfamily)"
+      },
+      {
+        "value": "Belongs to the glycosyl hydrolase 29 family (Chitinase class I subfamily)",
+        "label": "Belongs to the glycosyl hydrolase 29 family (Chitinase class I subfamily)"
+      },
+      {
+        "value": "Belongs to the glycosyl hydrolase 30 family (Chitinase class I subfamily)",
+        "label": "Belongs to the glycosyl hydrolase 30 family (Chitinase class I subfamily)"
+      },
+      {
+        "value": "Belongs to the glycosyl hydrolase 31 family (Chitinase class I subfamily)",
+        "label": "Belongs to the glycosyl hydrolase 31 family (Chitinase class I subfamily)"
+      },
+      {
+        "value": "Belongs to the glycosyl hydrolase 32 family (Chitinase class I subfamily)",
+        "label": "Belongs to the glycosyl hydrolase 32 family (Chitinase class I subfamily)"
+      },
+      {
+        "value": "Belongs to the glycosyl hydrolase 33 family (Chitinase class I subfamily)",
+        "label": "Belongs to the glycosyl hydrolase 33 family (Chitinase class I subfamily)"
+      },
+      {
+        "value": "Belongs to the glycosyl hydrolase 34 family (Chitinase class I subfamily)",
+        "label": "Belongs to the glycosyl hydrolase 34 family (Chitinase class I subfamily)"
+      },
+      {
+        "value": "Belongs to the glycosyl hydrolase 35 family (Chitinase class I subfamily)",
+        "label": "Belongs to the glycosyl hydrolase 35 family (Chitinase class I subfamily)"
+      },
+      {
+        "value": "Belongs to the grammistin family (Group 1 subfamily)",
+        "label": "Belongs to the grammistin family (Group 1 subfamily)"
+      },
+      {
+        "value": "Belongs to the grammistin family (Group 2 subfamily)",
+        "label": "Belongs to the grammistin family (Group 2 subfamily)"
+      },
+      {
+        "value": "Belongs to the grammistin family (Group 3 subfamily)",
+        "label": "Belongs to the grammistin family (Group 3 subfamily)"
+      },
+      {
+        "value": "Belongs to the granulin family",
+        "label": "Belongs to the granulin family"
+      },
+      {
+        "value": "Belongs to the hepcidin family",
+        "label": "Belongs to the hepcidin family"
+      },
+      {
+        "value": "Belongs to the hevein-like family",
+        "label": "Belongs to the hevein-like family"
+      },
+      {
+        "value": "Belongs to the histatin family",
+        "label": "Belongs to the histatin family"
+      },
+      {
+        "value": "Belongs to the histone H1/H5 family",
+        "label": "Belongs to the histone H1/H5 family"
+      },
+      {
+        "value": "Belongs to the histone H2A family",
+        "label": "Belongs to the histone H2A family"
+      },
+      {
+        "value": "Belongs to the histone H2A family.",
+        "label": "Belongs to the histone H2A family."
+      },
+      {
+        "value": "Belongs to the histone H2B family",
+        "label": "Belongs to the histone H2B family"
+      },
+      {
+        "value": "Belongs to the histone H2B family.",
+        "label": "Belongs to the histone H2B family."
+      },
+      {
+        "value": "Belongs to the huwentoxin-1 family",
+        "label": "Belongs to the huwentoxin-1 family"
+      },
+      {
+        "value": "Belongs to the huwentoxin-2 family",
+        "label": "Belongs to the huwentoxin-2 family"
+      },
+      {
+        "value": "Belongs to the intercrine alpha (chemokine CxC) family",
+        "label": "Belongs to the intercrine alpha (chemokine CxC) family"
+      },
+      {
+        "value": "Belongs to the intercrine beta (chemokine CC) family",
+        "label": "Belongs to the intercrine beta (chemokine CC) family"
+      },
+      {
+        "value": "Belongs to the invertebrate defensin family",
+        "label": "Belongs to the invertebrate defensin family"
+      },
+      {
+        "value": "Belongs to the invertebrate defensin family (Type 1 subfamil",
+        "label": "Belongs to the invertebrate defensin family (Type 1 subfamil"
+      },
+      {
+        "value": "Belongs to the invertebrate defensin family (Type 1 subfamily)",
+        "label": "Belongs to the invertebrate defensin family (Type 1 subfamily)"
+      },
+      {
+        "value": "Belongs to the invertebrate defensin family (Type 2 subfamily)",
+        "label": "Belongs to the invertebrate defensin family (Type 2 subfamily)"
+      },
+      {
+        "value": "Belongs to the invertebrate defensin family. Type 2 subfamily.",
+        "label": "Belongs to the invertebrate defensin family. Type 2 subfamily."
+      },
+      {
+        "value": "Belongs to the lantibiotic family (Class I bacteriocin)",
+        "label": "Belongs to the lantibiotic family (Class I bacteriocin)"
+      },
+      {
+        "value": "Belongs to the lantibiotic family (class I bacteriocins)",
+        "label": "Belongs to the lantibiotic family (class I bacteriocins)"
+      },
+      {
+        "value": "Belongs to the lantibiotic family.",
+        "label": "Belongs to the lantibiotic family."
+      },
+      {
+        "value": "Belongs to the lantibiotics family (Class I bacteriocin)",
+        "label": "Belongs to the lantibiotics family (Class I bacteriocin)"
+      },
+      {
+        "value": "Belongs to the latarcin family",
+        "label": "Belongs to the latarcin family"
+      },
+      {
+        "value": "Belongs to the lebocin family",
+        "label": "Belongs to the lebocin family"
+      },
+      {
+        "value": "Belongs to the linaridin family",
+        "label": "Belongs to the linaridin family"
+      },
+      {
+        "value": "Belongs to the lipopeptides family",
+        "label": "Belongs to the lipopeptides family"
+      },
+      {
+        "value": "Belongs to the long (4 C-C) scorpion toxin superfamily Sodiu",
+        "label": "Belongs to the long (4 C-C) scorpion toxin superfamily Sodiu"
+      },
+      {
+        "value": "Belongs to the long chain scorpion toxin family (Class 1 subfamily)",
+        "label": "Belongs to the long chain scorpion toxin family (Class 1 subfamily)"
+      },
+      {
+        "value": "Belongs to the long chain scorpion toxin family (Class 3 subfamily)",
+        "label": "Belongs to the long chain scorpion toxin family (Class 3 subfamily)"
+      },
+      {
+        "value": "Belongs to the long chain scorpion toxin family. Class 2 subfamily.",
+        "label": "Belongs to the long chain scorpion toxin family. Class 2 subfamily."
+      },
+      {
+        "value": "Belongs to the macin family",
+        "label": "Belongs to the macin family"
+      },
+      {
+        "value": "Belongs to the magainin family",
+        "label": "Belongs to the magainin family"
+      },
+      {
+        "value": "Belongs to the magi-1 family",
+        "label": "Belongs to the magi-1 family"
+      },
+      {
+        "value": "Belongs to the major royal jelly protein family",
+        "label": "Belongs to the major royal jelly protein family"
+      },
+      {
+        "value": "Belongs to the mastoparan family",
+        "label": "Belongs to the mastoparan family"
+      },
+      {
+        "value": "Belongs to the melittin family",
+        "label": "Belongs to the melittin family"
+      },
+      {
+        "value": "Belongs to the moricin family",
+        "label": "Belongs to the moricin family"
+      },
+      {
+        "value": "Belongs to the non-disulfide-bridged peptide (NDBP) superfamily. Short an",
+        "label": "Belongs to the non-disulfide-bridged peptide (NDBP) superfamily. Short an"
+      },
+      {
+        "value": "Belongs to the non-disulfide-bridged peptide (NDBP) superfamily. Short ant",
+        "label": "Belongs to the non-disulfide-bridged peptide (NDBP) superfamily. Short ant"
+      },
+      {
+        "value": "Belongs to the non-disulfide-bridged peptide (NDBP) superfamily. Short antimicrobial peptide (group 4) family.",
+        "label": "Belongs to the non-disulfide-bridged peptide (NDBP) superfamily. Short antimicrobial peptide (group 4) family."
+      },
+      {
+        "value": "Belongs to the omega-atracotoxin type 1 family",
+        "label": "Belongs to the omega-atracotoxin type 1 family"
+      },
+      {
+        "value": "Belongs to the opioid neuropeptide precursor family",
+        "label": "Belongs to the opioid neuropeptide precursor family"
+      },
+      {
+        "value": "Belongs to the oxyopinin-2 family",
+        "label": "Belongs to the oxyopinin-2 family"
+      },
+      {
+        "value": "Belongs to the pancreatic ribonuclease family",
+        "label": "Belongs to the pancreatic ribonuclease family"
+      },
+      {
+        "value": "Belongs to the parathyroid hormone family",
+        "label": "Belongs to the parathyroid hormone family"
+      },
+      {
+        "value": "Belongs to the pardaxin family",
+        "label": "Belongs to the pardaxin family"
+      },
+      {
+        "value": "Belongs to the penaeidin family",
+        "label": "Belongs to the penaeidin family"
+      },
+      {
+        "value": "Belongs to the peptidase M2 family.",
+        "label": "Belongs to the peptidase M2 family."
+      },
+      {
+        "value": "Belongs to the peptidase M3 family.",
+        "label": "Belongs to the peptidase M3 family."
+      },
+      {
+        "value": "Belongs to the peptidase M4 family.",
+        "label": "Belongs to the peptidase M4 family."
+      },
+      {
+        "value": "Belongs to the peptidase M5 family.",
+        "label": "Belongs to the peptidase M5 family."
+      },
+      {
+        "value": "Belongs to the peptidase M6 family.",
+        "label": "Belongs to the peptidase M6 family."
+      },
+      {
+        "value": "Belongs to the peptidase S1 family",
+        "label": "Belongs to the peptidase S1 family"
+      },
+      {
+        "value": "Belongs to the phenol-soluble modulin alpha peptides family.",
+        "label": "Belongs to the phenol-soluble modulin alpha peptides family."
+      },
+      {
+        "value": "Belongs to the phospholipase A2 family (Group II subfamily D49 sub-subfami",
+        "label": "Belongs to the phospholipase A2 family (Group II subfamily D49 sub-subfami"
+      },
+      {
+        "value": "Belongs to the phospholipase A2 family (Group II subfamily)",
+        "label": "Belongs to the phospholipase A2 family (Group II subfamily)"
+      },
+      {
+        "value": "Belongs to the pilosulin family",
+        "label": "Belongs to the pilosulin family"
+      },
+      {
+        "value": "Belongs to the plant LTP family",
+        "label": "Belongs to the plant LTP family"
+      },
+      {
+        "value": "Belongs to the pleurocidin family",
+        "label": "Belongs to the pleurocidin family"
+      },
+      {
+        "value": "Belongs to the ponericin-W family",
+        "label": "Belongs to the ponericin-W family"
+      },
+      {
+        "value": "Belongs to the protease inhibitor I20",
+        "label": "Belongs to the protease inhibitor I20"
+      },
+      {
+        "value": "Belongs to the protease inhibitor I3",
+        "label": "Belongs to the protease inhibitor I3"
+      },
+      {
+        "value": "Belongs to the ribosome-inactivating protein family (Type 1 RIP subfamily)",
+        "label": "Belongs to the ribosome-inactivating protein family (Type 1 RIP subfamily)"
+      },
+      {
+        "value": "Belongs to the scorpion BPP family",
+        "label": "Belongs to the scorpion BPP family"
+      },
+      {
+        "value": "Belongs to the scorpion NDBP 10 family",
+        "label": "Belongs to the scorpion NDBP 10 family"
+      },
+      {
+        "value": "Belongs to the scorpion NDBP 11 family",
+        "label": "Belongs to the scorpion NDBP 11 family"
+      },
+      {
+        "value": "Belongs to the scorpion NDBP 12 family",
+        "label": "Belongs to the scorpion NDBP 12 family"
+      },
+      {
+        "value": "Belongs to the scorpion NDBP 4 family",
+        "label": "Belongs to the scorpion NDBP 4 family"
+      },
+      {
+        "value": "Belongs to the scorpion NDBP 5 family",
+        "label": "Belongs to the scorpion NDBP 5 family"
+      },
+      {
+        "value": "Belongs to the scorpion NDBP 6 family",
+        "label": "Belongs to the scorpion NDBP 6 family"
+      },
+      {
+        "value": "Belongs to the scorpion NDBP 7 family",
+        "label": "Belongs to the scorpion NDBP 7 family"
+      },
+      {
+        "value": "Belongs to the scorpion NDBP 8 family",
+        "label": "Belongs to the scorpion NDBP 8 family"
+      },
+      {
+        "value": "Belongs to the scorpion NDBP 9 family",
+        "label": "Belongs to the scorpion NDBP 9 family"
+      },
+      {
+        "value": "Belongs to the short cationic antimicrobial peptide family",
+        "label": "Belongs to the short cationic antimicrobial peptide family"
+      },
+      {
+        "value": "Belongs to the snake three-finger toxin family",
+        "label": "Belongs to the snake three-finger toxin family"
+      },
+      {
+        "value": "Belongs to the snake waprin family",
+        "label": "Belongs to the snake waprin family"
+      },
+      {
+        "value": "Belongs to the spider toxin CSTX superfamily",
+        "label": "Belongs to the spider toxin CSTX superfamily"
+      },
+      {
+        "value": "Belongs to the spider toxin SFI family",
+        "label": "Belongs to the spider toxin SFI family"
+      },
+      {
+        "value": "Belongs to the spider toxin Tx2 family",
+        "label": "Belongs to the spider toxin Tx2 family"
+      },
+      {
+        "value": "Belongs to the staphylococcal hemolytic protein family",
+        "label": "Belongs to the staphylococcal hemolytic protein family"
+      },
+      {
+        "value": "Belongs to the tachykinin family.",
+        "label": "Belongs to the tachykinin family."
+      },
+      {
+        "value": "Belongs to the tachyplesin family",
+        "label": "Belongs to the tachyplesin family"
+      },
+      {
+        "value": "Belongs to the tachyplesin/polyphemusin family",
+        "label": "Belongs to the tachyplesin/polyphemusin family"
+      },
+      {
+        "value": "Belongs to the tachyplesin/polyphemusin family.",
+        "label": "Belongs to the tachyplesin/polyphemusin family."
+      },
+      {
+        "value": "Belongs to the tetradecapeptide family",
+        "label": "Belongs to the tetradecapeptide family"
+      },
+      {
+        "value": "Belongs to the thaumatin family",
+        "label": "Belongs to the thaumatin family"
+      },
+      {
+        "value": "Belongs to the thiocillin family",
+        "label": "Belongs to the thiocillin family"
+      },
+      {
+        "value": "Belongs to the thionin family",
+        "label": "Belongs to the thionin family"
+      },
+      {
+        "value": "Belongs to the tomato defensin family",
+        "label": "Belongs to the tomato defensin family"
+      },
+      {
+        "value": "Belongs to the transferrin family",
+        "label": "Belongs to the transferrin family"
+      },
+      {
+        "value": "Belongs to the type A lantibiotic family (Class I bacteriocin)",
+        "label": "Belongs to the type A lantibiotic family (Class I bacteriocin)"
+      },
+      {
+        "value": "Belongs to the type B lantibiotic family (Class I bacteriocin)",
+        "label": "Belongs to the type B lantibiotic family (Class I bacteriocin)"
+      },
+      {
+        "value": "Belongs to the venom Kunitz-type family",
+        "label": "Belongs to the venom Kunitz-type family"
+      },
+      {
+        "value": "Belongs to the vicilin-like family",
+        "label": "Belongs to the vicilin-like family"
+      },
+      {
+        "value": "Belongs to the MGR2 family.",
+        "label": "Belongs to the MGR2 family."
+      },
+      {
+        "value": "Belongs to the adrenomedullin family",
+        "label": "Belongs to the adrenomedullin family"
+      },
+      {
+        "value": "Belongs to the bombinin family.",
+        "label": "Belongs to the bombinin family."
+      },
+      {
+        "value": "Belongs to the cathelicidin family",
+        "label": "Belongs to the cathelicidin family"
+      },
+      {
+        "value": "Belongs to the cathelicidin family.",
+        "label": "Belongs to the cathelicidin family."
+      },
+      {
+        "value": "Belongs to the cecropin family.",
+        "label": "Belongs to the cecropin family."
+      },
+      {
+        "value": "Belongs to the frog skin active peptide (FSAP) family. Brevinin subfamily",
+        "label": "Belongs to the frog skin active peptide (FSAP) family. Brevinin subfamily"
+      },
+      {
+        "value": "Belongs to the frog skin active peptide (FSAP) family. Brevinin subfamily.",
+        "label": "Belongs to the frog skin active peptide (FSAP) family. Brevinin subfamily."
+      },
+      {
+        "value": "Belongs to the frog skin active peptide (FSAP) family. Temporin subfamily.",
+        "label": "Belongs to the frog skin active peptide (FSAP) family. Temporin subfamily."
+      },
+      {
+        "value": "Belongs to the glycosyl hydrolase 13 family.",
+        "label": "Belongs to the glycosyl hydrolase 13 family."
+      },
+      {
+        "value": "Belongs to the non-disulfide-bridged peptide (NDBP) superfamily. Short antimicrobial peptide (group 4) family.",
+        "label": "Belongs to the non-disulfide-bridged peptide (NDBP) superfamily. Short antimicrobial peptide (group 4) family."
+      },
+      {
+        "value": "Belongs to truncated Cecropin A.",
+        "label": "Belongs to truncated Cecropin A."
+      },
+      {
+        "value": "Belongs to truncated Hb-1",
+        "label": "Belongs to truncated Hb-1"
+      },
+      {
+        "value": "Belongs to truncated LL-37.",
+        "label": "Belongs to truncated LL-37."
+      },
+      {
+        "value": "Belongs to truncated magainin 2.",
+        "label": "Belongs to truncated magainin 2."
+      },
+      {
+        "value": "Cecropins",
+        "label": "Cecropins"
+      },
+      {
+        "value": "Coronaviridae",
+        "label": "Coronaviridae"
+      },
+      {
+        "value": "Coronaviridae, Herpesviridae, Paramyxoviridae",
+        "label": "Coronaviridae, Herpesviridae, Paramyxoviridae"
+      },
+      {
+        "value": "Coronaviridae, Herpesviridae, Paramyxoviridae, Orthomyxoviridae",
+        "label": "Coronaviridae, Herpesviridae, Paramyxoviridae, Orthomyxoviridae"
+      },
+      {
+        "value": "Coronaviridae, Orthomyxoviridae",
+        "label": "Coronaviridae, Orthomyxoviridae"
+      },
+      {
+        "value": "Coronaviridae, Orthomyxoviridae, Filoviridae",
+        "label": "Coronaviridae, Orthomyxoviridae, Filoviridae"
+      },
+      {
+        "value": "Coronaviridae, Orthomyxoviridae, Paramyxoviridae",
+        "label": "Coronaviridae, Orthomyxoviridae, Paramyxoviridae"
+      },
+      {
+        "value": "Derived from Aurein 1.2",
+        "label": "Derived from Aurein 1.2"
+      },
+      {
+        "value": "Derived from BMAP-27 and OP-145",
+        "label": "Derived from BMAP-27 and OP-145"
+      },
+      {
+        "value": "Derived from CTX-1",
+        "label": "Derived from CTX-1"
+      },
+      {
+        "value": "Derived from Cathelicidins",
+        "label": "Derived from Cathelicidins"
+      },
+      {
+        "value": "Derived from Histone H5",
+        "label": "Derived from Histone H5"
+      },
+      {
+        "value": "Derived from Hp1404",
+        "label": "Derived from Hp1404"
+      },
+      {
+        "value": "Derived from Ixosin-B",
+        "label": "Derived from Ixosin-B"
+      },
+      {
+        "value": "Derived from LL-37",
+        "label": "Derived from LL-37"
+      },
+      {
+        "value": "Derived from LL-37 and Hst-5",
+        "label": "Derived from LL-37 and Hst-5"
+      },
+      {
+        "value": "Derived from NDBP subfamily 3",
+        "label": "Derived from NDBP subfamily 3"
+      },
+      {
+        "value": "Derived from NDBP subfamily 4",
+        "label": "Derived from NDBP subfamily 4"
+      },
+      {
+        "value": "Derived from PMAP-36",
+        "label": "Derived from PMAP-36"
+      },
+      {
+        "value": "Derived from Palustrin-OG1",
+        "label": "Derived from Palustrin-OG1"
+      },
+      {
+        "value": "Derived from Polybia-MP1",
+        "label": "Derived from Polybia-MP1"
+      },
+      {
+        "value": "Derived from TB",
+        "label": "Derived from TB"
+      },
+      {
+        "value": "Derived from TO17",
+        "label": "Derived from TO17"
+      },
+      {
+        "value": "Derived from TP4",
+        "label": "Derived from TP4"
+      },
+      {
+        "value": "Derived from Temporin L",
+        "label": "Derived from Temporin L"
+      },
+      {
+        "value": "Derived from VT18",
+        "label": "Derived from VT18"
+      },
+      {
+        "value": "Derived from VpDef",
+        "label": "Derived from VpDef"
+      },
+      {
+        "value": "Derived from bovine alpha S1-casein",
+        "label": "Derived from bovine alpha S1-casein"
+      },
+      {
+        "value": "Derived from cathelicidin family",
+        "label": "Derived from cathelicidin family"
+      },
+      {
+        "value": "Derived from chensinin",
+        "label": "Derived from chensinin"
+      },
+      {
+        "value": "Derived from dHC",
+        "label": "Derived from dHC"
+      },
+      {
+        "value": "Derived from defensin-like peptides",
+        "label": "Derived from defensin-like peptides"
+      },
+      {
+        "value": "Derived from scorpion venom peptide",
+        "label": "Derived from scorpion venom peptide"
+      },
+      {
+        "value": "Derived from the HIV glycoprotein, gp41",
+        "label": "Derived from the HIV glycoprotein, gp41"
+      },
+      {
+        "value": "Derived from the cecropin1",
+        "label": "Derived from the cecropin1"
+      },
+      {
+        "value": "Derived from the framework peptide A12L/A20L",
+        "label": "Derived from the framework peptide A12L/A20L"
+      },
+      {
+        "value": "Derived from the framework peptide V13KL",
+        "label": "Derived from the framework peptide V13KL"
+      },
+      {
+        "value": "Derived from the framework peptide V681",
+        "label": "Derived from the framework peptide V681"
+      },
+      {
+        "value": "Derived from the peptide BmKn2",
+        "label": "Derived from the peptide BmKn2"
+      },
+      {
+        "value": "Derived from the peptide Brevinin-1E",
+        "label": "Derived from the peptide Brevinin-1E"
+      },
+      {
+        "value": "Derived from the peptide CP-P",
+        "label": "Derived from the peptide CP-P"
+      },
+      {
+        "value": "Derived from the peptide CP26, CP29, CEME and CEMA",
+        "label": "Derived from the peptide CP26, CP29, CEME and CEMA"
+      },
+      {
+        "value": "Derived from the peptide Cm-p1",
+        "label": "Derived from the peptide Cm-p1"
+      },
+      {
+        "value": "Derived from the peptide Ctry2459",
+        "label": "Derived from the peptide Ctry2459"
+      },
+      {
+        "value": "Derived from the peptide Ctry2460",
+        "label": "Derived from the peptide Ctry2460"
+      },
+      {
+        "value": "Derived from the peptide Ctx-Ha",
+        "label": "Derived from the peptide Ctx-Ha"
+      },
+      {
+        "value": "Derived from the peptide HLP 2",
+        "label": "Derived from the peptide HLP 2"
+      },
+      {
+        "value": "Derived from the peptide Ixosin-B",
+        "label": "Derived from the peptide Ixosin-B"
+      },
+      {
+        "value": "Derived from the peptide Lasioglossin LL-I",
+        "label": "Derived from the peptide Lasioglossin LL-I"
+      },
+      {
+        "value": "Derived from the peptide Lasioglossin LL-II",
+        "label": "Derived from the peptide Lasioglossin LL-II"
+      },
+      {
+        "value": "Derived from the peptide Lasioglossin LL-III",
+        "label": "Derived from the peptide Lasioglossin LL-III"
+      },
+      {
+        "value": "Derived from the peptide Lasioglossin LL-Ⅲ",
+        "label": "Derived from the peptide Lasioglossin LL-Ⅲ"
+      },
+      {
+        "value": "Derived from the peptide Mastoparan",
+        "label": "Derived from the peptide Mastoparan"
+      },
+      {
+        "value": "Derived from the peptide Pal-anoplin",
+        "label": "Derived from the peptide Pal-anoplin"
+      },
+      {
+        "value": "Derived from the peptide Pep-1",
+        "label": "Derived from the peptide Pep-1"
+      },
+      {
+        "value": "Derived from the peptide Pilosulin-1, Belongs to the pilosulin family.",
+        "label": "Derived from the peptide Pilosulin-1, Belongs to the pilosulin family."
+      },
+      {
+        "value": "Derived from the peptide SMAP-29",
+        "label": "Derived from the peptide SMAP-29"
+      },
+      {
+        "value": "Derived from the peptide Tachyplesin-1",
+        "label": "Derived from the peptide Tachyplesin-1"
+      },
+      {
+        "value": "Derived from the peptide Temporin-PE",
+        "label": "Derived from the peptide Temporin-PE"
+      },
+      {
+        "value": "Derived from the peptide Tritrpticin",
+        "label": "Derived from the peptide Tritrpticin"
+      },
+      {
+        "value": "Derived from the peptide ccTP",
+        "label": "Derived from the peptide ccTP"
+      },
+      {
+        "value": "Derived from the peptide lasioglossin III",
+        "label": "Derived from the peptide lasioglossin III"
+      },
+      {
+        "value": "Derived from the peptide melectin",
+        "label": "Derived from the peptide melectin"
+      },
+      {
+        "value": "Derived from three-finger toxin",
+        "label": "Derived from three-finger toxin"
+      },
+      {
+        "value": "FV7 and CE(Cecropin A (1",
+        "label": "FV7 and CE(Cecropin A (1"
+      },
+      {
+        "value": "FV7 and LL(LL-37,(17-29)) hybrid peptide",
+        "label": "FV7 and LL(LL-37,(17-29)) hybrid peptide"
+      },
+      {
+        "value": "FV7 and MA(Magainin 2 (9-21))  hybrid peptide",
+        "label": "FV7 and MA(Magainin 2 (9-21))  hybrid peptide"
+      },
+      {
+        "value": "Filoviridae",
+        "label": "Filoviridae"
+      },
+      {
+        "value": "Flaviviridae",
+        "label": "Flaviviridae"
+      },
+      {
+        "value": "Flaviviridae, Retroviridae",
+        "label": "Flaviviridae, Retroviridae"
+      },
+      {
+        "value": "Flaviviridae,Herpesviridae,Coronaviridae",
+        "label": "Flaviviridae,Herpesviridae,Coronaviridae"
+      },
+      {
+        "value": "Hepadnaviridae",
+        "label": "Hepadnaviridae"
+      },
+      {
+        "value": "Herpesviridae",
+        "label": "Herpesviridae"
+      },
+      {
+        "value": "Herpesviridae, Hepadnaviridae, Retroviridae, Phenuiviridae",
+        "label": "Herpesviridae, Hepadnaviridae, Retroviridae, Phenuiviridae"
+      },
+      {
+        "value": "Herpesviridae, Picornaviridae",
+        "label": "Herpesviridae, Picornaviridae"
+      },
+      {
+        "value": "Herpesviridae, Picornaviridae, Adenoviridae, Rhabdoviridae",
+        "label": "Herpesviridae, Picornaviridae, Adenoviridae, Rhabdoviridae"
+      },
+      {
+        "value": "Herpesviridae, Retroviridae",
+        "label": "Herpesviridae, Retroviridae"
+      },
+      {
+        "value": "Herpesviridae, Retroviridae, Rhabdoviridae",
+        "label": "Herpesviridae, Retroviridae, Rhabdoviridae"
+      },
+      {
+        "value": "Herpesviridae,Paramyxoviridae,Orthomyxoviridae",
+        "label": "Herpesviridae,Paramyxoviridae,Orthomyxoviridae"
+      },
+      {
+        "value": "Iridoviridae",
+        "label": "Iridoviridae"
+      },
+      {
+        "value": "Iridoviridae, Herpesviridae",
+        "label": "Iridoviridae, Herpesviridae"
+      },
+      {
+        "value": "Long chain scorpion toxin family (Class 2 subfamily)",
+        "label": "Long chain scorpion toxin family (Class 2 subfamily)"
+      },
+      {
+        "value": "Melittin",
+        "label": "Melittin"
+      },
+      {
+        "value": "N/A",
+        "label": "N/A"
+      },
+      {
+        "value": "Orthomyxoviridae",
+        "label": "Orthomyxoviridae"
+      },
+      {
+        "value": "Papillomaviridae",
+        "label": "Papillomaviridae"
+      },
+      {
+        "value": "Paramyxoviridae",
+        "label": "Paramyxoviridae"
+      },
+      {
+        "value": "Paramyxoviridae, Herpesviridae",
+        "label": "Paramyxoviridae, Herpesviridae"
+      },
+      {
+        "value": "Paramyxoviridae, Retroviridae",
+        "label": "Paramyxoviridae, Retroviridae"
+      },
+      {
+        "value": "Picornaviridae",
+        "label": "Picornaviridae"
+      },
+      {
+        "value": "Piscidin",
+        "label": "Piscidin"
+      },
+      {
+        "value": "Retroviridae",
+        "label": "Retroviridae"
+      },
+      {
+        "value": "Retroviridae,Herpesviridae, Flaviviridae",
+        "label": "Retroviridae,Herpesviridae, Flaviviridae"
+      },
+      {
+        "value": "Retroviridae,Herpesviridae, Flaviviridae, Hepadnaviridae",
+        "label": "Retroviridae,Herpesviridae, Flaviviridae, Hepadnaviridae"
+      },
+      {
+        "value": "Spider wap-1 family\n (Contains 1 WAP domain)",
+        "label": "Spider wap-1 family\n (Contains 1 WAP domain)"
+      },
+      {
+        "value": "Uncertain",
+        "label": "Uncertain"
+      },
+      {
+        "value": "Unknown",
+        "label": "Unknown"
+      },
+      {
+        "value": "belongs to the inhibitor cystine-knot family",
+        "label": "belongs to the inhibitor cystine-knot family"
+      },
+      {
+        "value": "bovine LfcinB",
+        "label": "bovine LfcinB"
+      },
+      {
+        "value": "cecropin",
+        "label": "cecropin"
+      }
+    ]
+  },
+  "sources": {
+    "label": "来源",
+    "options": [
+      {
+        "value": "'Nostoc azollae' 0708",
+        "label": "'Nostoc azollae' 0708"
+      },
+      {
+        "value": "(China, Asia) Xizang plateau frog, Nanorana parkeri",
+        "label": "(China, Asia) Xizang plateau frog, Nanorana parkeri"
+      },
+      {
+        "value": "1. Acanthamoeba culbertsoni",
+        "label": "1. Acanthamoeba culbertsoni"
+      },
+      {
+        "value": "1. Achatina fulica",
+        "label": "1. Achatina fulica"
+      },
+      {
+        "value": "1. Achromobacter sp.",
+        "label": "1. Achromobacter sp."
+      },
+      {
+        "value": "1. Acinetobacter gyllenbergii",
+        "label": "1. Acinetobacter gyllenbergii"
+      },
+      {
+        "value": "1. Acremonium persicinium MF-347833",
+        "label": "1. Acremonium persicinium MF-347833"
+      },
+      {
+        "value": "1. Acremonium persicinum",
+        "label": "1. Acremonium persicinum"
+      },
+      {
+        "value": "1. Acremonium persicinum SC0105",
+        "label": "1. Acremonium persicinum SC0105"
+      },
+      {
+        "value": "1. Acremonium sp.",
+        "label": "1. Acremonium sp."
+      },
+      {
+        "value": "1. Acremonium sp.\n2. Sarocladium strictum\n3. Streptomyces clavuligerus",
+        "label": "1. Acremonium sp.\n2. Sarocladium strictum\n3. Streptomyces clavuligerus"
+      },
+      {
+        "value": "1. Acremonium tubakii, DSM 12774",
+        "label": "1. Acremonium tubakii, DSM 12774"
+      },
+      {
+        "value": "1. Acropora millepora",
+        "label": "1. Acropora millepora"
+      },
+      {
+        "value": "1. Actinomadura sp.",
+        "label": "1. Actinomadura sp."
+      },
+      {
+        "value": "1. Actinoplanes friuliensis",
+        "label": "1. Actinoplanes friuliensis"
+      },
+      {
+        "value": "1. Adzuckia angularia \n2. Medicago sativa",
+        "label": "1. Adzuckia angularia \n2. Medicago sativa"
+      },
+      {
+        "value": "1. Aedes aegypti",
+        "label": "1. Aedes aegypti"
+      },
+      {
+        "value": "1. Agalychnis callidryas",
+        "label": "1. Agalychnis callidryas"
+      },
+      {
+        "value": "1. Agalychnis spurrelli",
+        "label": "1. Agalychnis spurrelli"
+      },
+      {
+        "value": "1. Agelaia pallipes",
+        "label": "1. Agelaia pallipes"
+      },
+      {
+        "value": "1. Alepes djedaba",
+        "label": "1. Alepes djedaba"
+      },
+      {
+        "value": "1. Alligator mississippiensis",
+        "label": "1. Alligator mississippiensis"
+      },
+      {
+        "value": "1. Allium cepa",
+        "label": "1. Allium cepa"
+      },
+      {
+        "value": "1. Alstonia scholaris",
+        "label": "1. Alstonia scholaris"
+      },
+      {
+        "value": "1. Amolops afghanus",
+        "label": "1. Amolops afghanus"
+      },
+      {
+        "value": "1. Amolops daiyunensis",
+        "label": "1. Amolops daiyunensis"
+      },
+      {
+        "value": "1. Amolops daiyunensis\n2. Amolops wuyiensis",
+        "label": "1. Amolops daiyunensis\n2. Amolops wuyiensis"
+      },
+      {
+        "value": "1. Amolops granulosus",
+        "label": "1. Amolops granulosus"
+      },
+      {
+        "value": "1. Amolops hainanensis",
+        "label": "1. Amolops hainanensis"
+      },
+      {
+        "value": "1. Amolops jingdongensis",
+        "label": "1. Amolops jingdongensis"
+      }
+    ]
+  },
+  "binding_targets": {
+    "label": "结合目标",
+    "options": [
+      {
+        "value": "1. Cytoplasmic Protein",
+        "label": "1. Cytoplasmic Protein"
+      },
+      {
+        "value": "1. Cytoplasmic Protein\n2. DNA / RNA",
+        "label": "1. Cytoplasmic Protein\n2. DNA / RNA"
+      },
+      {
+        "value": "1. Cytoplasmic Protein\n2. Immunomodulation",
+        "label": "1. Cytoplasmic Protein\n2. Immunomodulation"
+      },
+      {
+        "value": "1. Cytoplasmic Protein\n2. Lipid Bilayer",
+        "label": "1. Cytoplasmic Protein\n2. Lipid Bilayer"
+      },
+      {
+        "value": "1. Cytoplasmic Protein\n2. Lipid Bilayer\n3. DNA / RNA",
+        "label": "1. Cytoplasmic Protein\n2. Lipid Bilayer\n3. DNA / RNA"
+      },
+      {
+        "value": "1. Cytoplasmic Protein\n2. Lipid Bilayer\n3. Mitochondrial membrane",
+        "label": "1. Cytoplasmic Protein\n2. Lipid Bilayer\n3. Mitochondrial membrane"
+      },
+      {
+        "value": "1. Cytoplasmic Protein\n2. Mitochondrial membrane\n3. Immunomodulation",
+        "label": "1. Cytoplasmic Protein\n2. Mitochondrial membrane\n3. Immunomodulation"
+      },
+      {
+        "value": "1. Cytoplasmic Protein\n2. Quorum Sensing",
+        "label": "1. Cytoplasmic Protein\n2. Quorum Sensing"
+      },
+      {
+        "value": "1. Cytoplasmic Protein\n2. Virus entry\n3. gpE",
+        "label": "1. Cytoplasmic Protein\n2. Virus entry\n3. gpE"
+      },
+      {
+        "value": "1. Cytoplasmic Protein\n2. Virus replication\n3. Immunomodulation",
+        "label": "1. Cytoplasmic Protein\n2. Virus replication\n3. Immunomodulation"
+      },
+      {
+        "value": "1. DNA / RNA",
+        "label": "1. DNA / RNA"
+      },
+      {
+        "value": "1. Immunomodulation",
+        "label": "1. Immunomodulation"
+      },
+      {
+        "value": "1. Lipid Bilayer",
+        "label": "1. Lipid Bilayer"
+      },
+      {
+        "value": "1. Lipid Bilayer\n2. DNA / RNA",
+        "label": "1. Lipid Bilayer\n2. DNA / RNA"
+      },
+      {
+        "value": "1. Lipid Bilayer\n2. DNA / RNA\n3. Immunomodulation",
+        "label": "1. Lipid Bilayer\n2. DNA / RNA\n3. Immunomodulation"
+      },
+      {
+        "value": "1. Lipid Bilayer\n2. DNA / RNA\n3. Mitochondrial membrane",
+        "label": "1. Lipid Bilayer\n2. DNA / RNA\n3. Mitochondrial membrane"
+      },
+      {
+        "value": "1. Lipid Bilayer\n2. Immunomodulation",
+        "label": "1. Lipid Bilayer\n2. Immunomodulation"
+      },
+      {
+        "value": "1. Lipid Bilayer\n2. Lipid II",
+        "label": "1. Lipid Bilayer\n2. Lipid II"
+      },
+      {
+        "value": "1. Lipid Bilayer\n2. Mitochondrial membrane",
+        "label": "1. Lipid Bilayer\n2. Mitochondrial membrane"
+      },
+      {
+        "value": "1. Lipid Bilayer\n2. Quorum Sensing",
+        "label": "1. Lipid Bilayer\n2. Quorum Sensing"
+      },
+      {
+        "value": "1. Lipid Bilayer\n2. Sgp",
+        "label": "1. Lipid Bilayer\n2. Sgp"
+      },
+      {
+        "value": "1. Lipid Bilayer\n2. Virus Reverse Transcriptase",
+        "label": "1. Lipid Bilayer\n2. Virus Reverse Transcriptase"
+      },
+      {
+        "value": "1. Lipid Bilayer\n2. Virus entry",
+        "label": "1. Lipid Bilayer\n2. Virus entry"
+      },
+      {
+        "value": "1. Lipid Bilayer\n2. Virus replication",
+        "label": "1. Lipid Bilayer\n2. Virus replication"
+      },
+      {
+        "value": "1. Lipid Bilayer\n2. Virus replication\n3. Sgp",
+        "label": "1. Lipid Bilayer\n2. Virus replication\n3. Sgp"
+      },
+      {
+        "value": "1. Lipid Bilayer\n2. Virus replication\n3. Virus entry",
+        "label": "1. Lipid Bilayer\n2. Virus replication\n3. Virus entry"
+      },
+      {
+        "value": "1. Lipid II",
+        "label": "1. Lipid II"
+      },
+      {
+        "value": "1. Lysosomal membrane",
+        "label": "1. Lysosomal membrane"
+      },
+      {
+        "value": "1. Lysosomal membrane\n2. Mitochondrial membrane",
+        "label": "1. Lysosomal membrane\n2. Mitochondrial membrane"
+      },
+      {
+        "value": "1. Membrane Protein",
+        "label": "1. Membrane Protein"
+      },
+      {
+        "value": "1. Membrane Protein\n2. Cytoplasmic Protein",
+        "label": "1. Membrane Protein\n2. Cytoplasmic Protein"
+      },
+      {
+        "value": "1. Membrane Protein\n2. Cytoplasmic Protein\n3. Lipid Bilayer",
+        "label": "1. Membrane Protein\n2. Cytoplasmic Protein\n3. Lipid Bilayer"
+      },
+      {
+        "value": "1. Membrane Protein\n2. Cytoplasmic Protein\n3. Lipid Bilayer\n4. DNA / RNA",
+        "label": "1. Membrane Protein\n2. Cytoplasmic Protein\n3. Lipid Bilayer\n4. DNA / RNA"
+      },
+      {
+        "value": "1. Membrane Protein\n2. DNA / RNA",
+        "label": "1. Membrane Protein\n2. DNA / RNA"
+      },
+      {
+        "value": "1. Membrane Protein\n2. Lipid Bilayer",
+        "label": "1. Membrane Protein\n2. Lipid Bilayer"
+      },
+      {
+        "value": "1. Membrane Protein\n2. Lipid Bilayer\n3. DNA / RNA",
+        "label": "1. Membrane Protein\n2. Lipid Bilayer\n3. DNA / RNA"
+      },
+      {
+        "value": "1. Membrane Protein\n2. Lipid Bilayer\n3. Virus entry\n4. gp120",
+        "label": "1. Membrane Protein\n2. Lipid Bilayer\n3. Virus entry\n4. gp120"
+      },
+      {
+        "value": "1. Membrane Protein\n2. Quorum Sensing",
+        "label": "1. Membrane Protein\n2. Quorum Sensing"
+      },
+      {
+        "value": "1. Membrane Protein\n2. Quorum Sensing\n3. Immunomodulation",
+        "label": "1. Membrane Protein\n2. Quorum Sensing\n3. Immunomodulation"
+      },
+      {
+        "value": "1. Membrane Protein\n2. Virus replication\n3. Virus entry\n4. gp120",
+        "label": "1. Membrane Protein\n2. Virus replication\n3. Virus entry\n4. gp120"
+      },
+      {
+        "value": "1. Mitochondrial membrane",
+        "label": "1. Mitochondrial membrane"
+      },
+      {
+        "value": "1. Quorum Sensing",
+        "label": "1. Quorum Sensing"
+      },
+      {
+        "value": "1. Quorum Sensing\n2. Immunomodulation",
+        "label": "1. Quorum Sensing\n2. Immunomodulation"
+      },
+      {
+        "value": "1. Quorum Sensing\n2. Mitochondrial membrane\n3. Immunomodulation",
+        "label": "1. Quorum Sensing\n2. Mitochondrial membrane\n3. Immunomodulation"
+      },
+      {
+        "value": "1. Virus Integrase",
+        "label": "1. Virus Integrase"
+      },
+      {
+        "value": "1. Virus Protease",
+        "label": "1. Virus Protease"
+      },
+      {
+        "value": "1. Virus Protease\n2. Virus replication",
+        "label": "1. Virus Protease\n2. Virus replication"
+      },
+      {
+        "value": "1. Virus Reverse Transcriptase",
+        "label": "1. Virus Reverse Transcriptase"
+      },
+      {
+        "value": "1. Virus entry",
+        "label": "1. Virus entry"
+      },
+      {
+        "value": "1. Virus entry\n2. Sgp",
+        "label": "1. Virus entry\n2. Sgp"
+      },
+      {
+        "value": "1. Virus entry\n2. gB",
+        "label": "1. Virus entry\n2. gB"
+      },
+      {
+        "value": "1. Virus entry\n2. gp120",
+        "label": "1. Virus entry\n2. gp120"
+      },
+      {
+        "value": "1. Virus replication",
+        "label": "1. Virus replication"
+      },
+      {
+        "value": "1. Virus replication\n2. Virus entry",
+        "label": "1. Virus replication\n2. Virus entry"
+      },
+      {
+        "value": "1. Virus replication\n2. Virus entry\n3. Sgp",
+        "label": "1. Virus replication\n2. Virus entry\n3. Sgp"
+      },
+      {
+        "value": "1. Virus replication\n2. Virus entry\n3. gpHA",
+        "label": "1. Virus replication\n2. Virus entry\n3. gpHA"
+      },
+      {
+        "value": "1. gp41\n2. Virus entry",
+        "label": "1. gp41\n2. Virus entry"
+      },
+      {
+        "value": "1. gp41\n2. Virus replication",
+        "label": "1. gp41\n2. Virus replication"
+      },
+      {
+        "value": "1. gp41\n2. Virus replication\n3. Virus entry",
+        "label": "1. gp41\n2. Virus replication\n3. Virus entry"
+      },
+      {
+        "value": "1. gpHA",
+        "label": "1. gpHA"
+      },
+      {
+        "value": "ACE2",
+        "label": "ACE2"
+      },
+      {
+        "value": "APJ receptor",
+        "label": "APJ receptor"
+      },
+      {
+        "value": "Angiogenic factor FGF2",
+        "label": "Angiogenic factor FGF2"
+      },
+      {
+        "value": "Anionic lipid vesicles",
+        "label": "Anionic lipid vesicles"
+      },
+      {
+        "value": "Bacterial DNA",
+        "label": "Bacterial DNA"
+      },
+      {
+        "value": "Bacterial cell",
+        "label": "Bacterial cell"
+      },
+      {
+        "value": "Bacterial cytoplasmic membranes",
+        "label": "Bacterial cytoplasmic membranes"
+      },
+      {
+        "value": "Bacterial membrane",
+        "label": "Bacterial membrane"
+      },
+      {
+        "value": "Bacterial ribosome",
+        "label": "Bacterial ribosome"
+      },
+      {
+        "value": "Bcl-2",
+        "label": "Bcl-2"
+      },
+      {
+        "value": "Bcl-2/Bcl-xL",
+        "label": "Bcl-2/Bcl-xL"
+      },
+      {
+        "value": "Bcl-xL",
+        "label": "Bcl-xL"
+      },
+      {
+        "value": "Bfl-1",
+        "label": "Bfl-1"
+      },
+      {
+        "value": "Binding to HCV",
+        "label": "Binding to HCV"
+      },
+      {
+        "value": "Binds calcium with a low-affinity.",
+        "label": "Binds calcium with a low-affinity."
+      },
+      {
+        "value": "Binds specifically to the fungal plasma membrane.",
+        "label": "Binds specifically to the fungal plasma membrane."
+      },
+      {
+        "value": "Binds to CXCR3",
+        "label": "Binds to CXCR3"
+      },
+      {
+        "value": "Binds to healthy erythrocytes (this binding is receptor independent).",
+        "label": "Binds to healthy erythrocytes (this binding is receptor independent)."
+      },
+      {
+        "value": "Binds to the micelle surface",
+        "label": "Binds to the micelle surface"
+      },
+      {
+        "value": "CD13-/αvβ3+ tumor cells",
+        "label": "CD13-/αvβ3+ tumor cells"
+      },
+      {
+        "value": "CD36",
+        "label": "CD36"
+      },
+      {
+        "value": "CD9",
+        "label": "CD9"
+      },
+      {
+        "value": "CXCR",
+        "label": "CXCR"
+      },
+      {
+        "value": "CXCR3",
+        "label": "CXCR3"
+      },
+      {
+        "value": "Cell membrance",
+        "label": "Cell membrance"
+      },
+      {
+        "value": "Cell membrane",
+        "label": "Cell membrane"
+      },
+      {
+        "value": "Cell membrane (Forms a helical membrane channel in the prey)",
+        "label": "Cell membrane (Forms a helical membrane channel in the prey)"
+      },
+      {
+        "value": "Cell membrane (Note: Assumes an amphipathic alpha-helical conformation in a lipid environmen",
+        "label": "Cell membrane (Note: Assumes an amphipathic alpha-helical conformation in a lipid environmen"
+      },
+      {
+        "value": "Cell membrane (Probable)",
+        "label": "Cell membrane (Probable)"
+      },
+      {
+        "value": "Cell membrane (disrupted the bacterial cell membranes through a",
+        "label": "Cell membrane (disrupted the bacterial cell membranes through a"
+      },
+      {
+        "value": "Cell membrane (forms a transmembrane alpha-helix in the cell membrane.)",
+        "label": "Cell membrane (forms a transmembrane alpha-helix in the cell membrane.)"
+      },
+      {
+        "value": "Cell membranes",
+        "label": "Cell membranes"
+      },
+      {
+        "value": "Cell wall",
+        "label": "Cell wall"
+      },
+      {
+        "value": "Chitin-binding",
+        "label": "Chitin-binding"
+      },
+      {
+        "value": "Chymotrypsin hydrolysis",
+        "label": "Chymotrypsin hydrolysis"
+      },
+      {
+        "value": "DNA",
+        "label": "DNA"
+      },
+      {
+        "value": "DNA or mRNA",
+        "label": "DNA or mRNA"
+      },
+      {
+        "value": "DNA polymerase",
+        "label": "DNA polymerase"
+      },
+      {
+        "value": "Does not bind directly to calcium. It binds to calmodulin in the presence of Ca2+.",
+        "label": "Does not bind directly to calcium. It binds to calmodulin in the presence of Ca2+."
+      },
+      {
+        "value": "E glycoprotein",
+        "label": "E glycoprotein"
+      },
+      {
+        "value": "E protein",
+        "label": "E protein"
+      },
+      {
+        "value": "E proteins",
+        "label": "E proteins"
+      },
+      {
+        "value": "E6 protein",
+        "label": "E6 protein"
+      },
+      {
+        "value": "EGFR",
+        "label": "EGFR"
+      },
+      {
+        "value": "Elongation Factor Tu  (EF-Tu)",
+        "label": "Elongation Factor Tu  (EF-Tu)"
+      },
+      {
+        "value": "Envelope protein",
+        "label": "Envelope protein"
+      },
+      {
+        "value": "Envolope",
+        "label": "Envolope"
+      },
+      {
+        "value": "Eukaryotic ion channels",
+        "label": "Eukaryotic ion channels"
+      },
+      {
+        "value": "F protein",
+        "label": "F protein"
+      },
+      {
+        "value": "FAD and Flavoprotein",
+        "label": "FAD and Flavoprotein"
+      },
+      {
+        "value": "FAD, Flavoprotein",
+        "label": "FAD, Flavoprotein"
+      },
+      {
+        "value": "Fungal cell membrane",
+        "label": "Fungal cell membrane"
+      },
+      {
+        "value": "Fungal membrane",
+        "label": "Fungal membrane"
+      },
+      {
+        "value": "Fungal plasma membrane",
+        "label": "Fungal plasma membrane"
+      },
+      {
+        "value": "GST",
+        "label": "GST"
+      },
+      {
+        "value": "Galactose and Glucose",
+        "label": "Galactose and Glucose"
+      },
+      {
+        "value": "Galectin 1",
+        "label": "Galectin 1"
+      },
+      {
+        "value": "Genomic DNA",
+        "label": "Genomic DNA"
+      },
+      {
+        "value": "Glycyrrhizin (GL)",
+        "label": "Glycyrrhizin (GL)"
+      },
+      {
+        "value": "Gram-negative bacterial outer membrane protein LptD",
+        "label": "Gram-negative bacterial outer membrane protein LptD"
+      },
+      {
+        "value": "HA",
+        "label": "HA"
+      },
+      {
+        "value": "HA receptor binding domain (RBD)",
+        "label": "HA receptor binding domain (RBD)"
+      },
+      {
+        "value": "HIV Integrase",
+        "label": "HIV Integrase"
+      },
+      {
+        "value": "HIV-1 protease",
+        "label": "HIV-1 protease"
+      },
+      {
+        "value": "HIV-Tat",
+        "label": "HIV-Tat"
+      },
+      {
+        "value": "HR1 domain",
+        "label": "HR1 domain"
+      },
+      {
+        "value": "Heparin-binding",
+        "label": "Heparin-binding"
+      },
+      {
+        "value": "IL6/IL6Rα/gp130 complex",
+        "label": "IL6/IL6Rα/gp130 complex"
+      },
+      {
+        "value": "IgE",
+        "label": "IgE"
+      },
+      {
+        "value": "Integrase",
+        "label": "Integrase"
+      },
+      {
+        "value": "Integrase,Reverse Transcriptase",
+        "label": "Integrase,Reverse Transcriptase"
+      },
+      {
+        "value": "Integrins αvβ3, αvβ5",
+        "label": "Integrins αvβ3, αvβ5"
+      },
+      {
+        "value": "Intracellular targets",
+        "label": "Intracellular targets"
+      },
+      {
+        "value": "It interacts with cell-cycle-realted protein cyclin F as the target.",
+        "label": "It interacts with cell-cycle-realted protein cyclin F as the target."
+      },
+      {
+        "value": "It targets the aspartyl-tRNA synthetase",
+        "label": "It targets the aspartyl-tRNA synthetase"
+      },
+      {
+        "value": "Lipid II",
+        "label": "Lipid II"
+      },
+      {
+        "value": "Lipid-binding",
+        "label": "Lipid-binding"
+      },
+      {
+        "value": "Lipipolysaccharides (LPS)-binding",
+        "label": "Lipipolysaccharides (LPS)-binding"
+      },
+      {
+        "value": "Lipopolysaccharide (LPS) and genomic DNA",
+        "label": "Lipopolysaccharide (LPS) and genomic DNA"
+      },
+      {
+        "value": "Lipopolysaccharide (LPS)-binding",
+        "label": "Lipopolysaccharide (LPS)-binding"
+      },
+      {
+        "value": "Lipopolysaccharide (LPS)-binding and entering bacterial cells and interact with their DNA",
+        "label": "Lipopolysaccharide (LPS)-binding and entering bacterial cells and interact with their DNA"
+      },
+      {
+        "value": "Lipopolysaccharides (LPS)",
+        "label": "Lipopolysaccharides (LPS)"
+      },
+      {
+        "value": "Lipopolysaccharides (LPS)-binding",
+        "label": "Lipopolysaccharides (LPS)-binding"
+      },
+      {
+        "value": "MDM2",
+        "label": "MDM2"
+      },
+      {
+        "value": "MDM2, MDMX",
+        "label": "MDM2, MDMX"
+      },
+      {
+        "value": "Main protease",
+        "label": "Main protease"
+      },
+      {
+        "value": "May bind IgG",
+        "label": "May bind IgG"
+      },
+      {
+        "value": "May target bradykinin receptors (BDKRB)",
+        "label": "May target bradykinin receptors (BDKRB)"
+      },
+      {
+        "value": "Mcl-1",
+        "label": "Mcl-1"
+      },
+      {
+        "value": "Mcl-1/Bcl-xL",
+        "label": "Mcl-1/Bcl-xL"
+      },
+      {
+        "value": "Mdm2",
+        "label": "Mdm2"
+      },
+      {
+        "value": "Membrane",
+        "label": "Membrane"
+      },
+      {
+        "value": "Metal-binding",
+        "label": "Metal-binding"
+      },
+      {
+        "value": "Metal-binding (Zinc)",
+        "label": "Metal-binding (Zinc)"
+      },
+      {
+        "value": "Metal-binding: copper II and iron II",
+        "label": "Metal-binding: copper II and iron II"
+      },
+      {
+        "value": "Mitochondria (possibily)",
+        "label": "Mitochondria (possibily)"
+      },
+      {
+        "value": "Mpro",
+        "label": "Mpro"
+      },
+      {
+        "value": "Multiple membrane phospholipids",
+        "label": "Multiple membrane phospholipids"
+      },
+      {
+        "value": "NS2B-NS3 protease",
+        "label": "NS2B-NS3 protease"
+      },
+      {
+        "value": "NS2B-NS3 viral serine protease",
+        "label": "NS2B-NS3 viral serine protease"
+      },
+      {
+        "value": "NS3 protease",
+        "label": "NS3 protease"
+      },
+      {
+        "value": "NTPase/helicase",
+        "label": "NTPase/helicase"
+      },
+      {
+        "value": "Not available",
+        "label": "Not available"
+      },
+      {
+        "value": "Outer membrane protein I (OprI)",
+        "label": "Outer membrane protein I (OprI)"
+      },
+      {
+        "value": "Outer membrane proteins (OMPs) like OprF, the major outer membrane porin of P.aeruginosa",
+        "label": "Outer membrane proteins (OMPs) like OprF, the major outer membrane porin of P.aeruginosa"
+      },
+      {
+        "value": "PA subunit",
+        "label": "PA subunit"
+      },
+      {
+        "value": "PRRSV polymerase",
+        "label": "PRRSV polymerase"
+      },
+      {
+        "value": "PTPRJ",
+        "label": "PTPRJ"
+      },
+      {
+        "value": "Phosphatidylethanolamine",
+        "label": "Phosphatidylethanolamine"
+      },
+      {
+        "value": "Phospholipid",
+        "label": "Phospholipid"
+      },
+      {
+        "value": "Phospholipids",
+        "label": "Phospholipids"
+      },
+      {
+        "value": "Protein kinase CK2",
+        "label": "Protein kinase CK2"
+      },
+      {
+        "value": "RNA-dependent RNA polymerase",
+        "label": "RNA-dependent RNA polymerase"
+      },
+      {
+        "value": "Rab8a GTPase",
+        "label": "Rab8a GTPase"
+      },
+      {
+        "value": "Reverse Transcriptase",
+        "label": "Reverse Transcriptase"
+      },
+      {
+        "value": "STAT3",
+        "label": "STAT3"
+      },
+      {
+        "value": "Sarcoplasmic reticulum calcium-ATPase (Ref.3)",
+        "label": "Sarcoplasmic reticulum calcium-ATPase (Ref.3)"
+      },
+      {
+        "value": "Spike protein",
+        "label": "Spike protein"
+      },
+      {
+        "value": "Surface of a bacterial target",
+        "label": "Surface of a bacterial target"
+      },
+      {
+        "value": "Syncytium formation",
+        "label": "Syncytium formation"
+      },
+      {
+        "value": "TGFβ",
+        "label": "TGFβ"
+      },
+      {
+        "value": "The sugar phosphate head group of the peptidoglycan precursorLipid II",
+        "label": "The sugar phosphate head group of the peptidoglycan precursorLipid II"
+      },
+      {
+        "value": "Transforming Growth Factor beta",
+        "label": "Transforming Growth Factor beta"
+      },
+      {
+        "value": "Tropomyosin",
+        "label": "Tropomyosin"
+      },
+      {
+        "value": "Tubulin",
+        "label": "Tubulin"
+      },
+      {
+        "value": "VEGF FGF2",
+        "label": "VEGF FGF2"
+      },
+      {
+        "value": "VEGFR2",
+        "label": "VEGFR2"
+      },
+      {
+        "value": "Vif proteins",
+        "label": "Vif proteins"
+      },
+      {
+        "value": "[Ref.22100518]Not found",
+        "label": "[Ref.22100518]Not found"
+      },
+      {
+        "value": "[Ref:17698251]59.39% hemolytic activity at 100 μg/ml against huamn red blood cells",
+        "label": "[Ref:17698251]59.39% hemolytic activity at 100 μg/ml against huamn red blood cells"
+      },
+      {
+        "value": "bacterial outer membrane target protein, OprI-binding",
+        "label": "bacterial outer membrane target protein, OprI-binding"
+      },
+      {
+        "value": "cSrc ERK",
+        "label": "cSrc ERK"
+      },
+      {
+        "value": "cadherin constituent at the tumor cell surface",
+        "label": "cadherin constituent at the tumor cell surface"
+      },
+      {
+        "value": "calcium calmodulin",
+        "label": "calcium calmodulin"
+      },
+      {
+        "value": "capsid protein gD",
+        "label": "capsid protein gD"
+      },
+      {
+        "value": "cell membrabce",
+        "label": "cell membrabce"
+      },
+      {
+        "value": "cell membrane",
+        "label": "cell membrane"
+      },
+      {
+        "value": "chitin, mannan, galactocerebrosides, and sphingomyelin (Mycopathologia. 1998-1999;144:87-91)",
+        "label": "chitin, mannan, galactocerebrosides, and sphingomyelin (Mycopathologia. 1998-1999;144:87-91)"
+      },
+      {
+        "value": "envelope",
+        "label": "envelope"
+      },
+      {
+        "value": "envelope glycoprotein(gp41)",
+        "label": "envelope glycoprotein(gp41)"
+      },
+      {
+        "value": "envelope protein",
+        "label": "envelope protein"
+      },
+      {
+        "value": "envelope(phosphatidylserine)",
+        "label": "envelope(phosphatidylserine)"
+      },
+      {
+        "value": "fungal plasma membrane",
+        "label": "fungal plasma membrane"
+      },
+      {
+        "value": "gp120",
+        "label": "gp120"
+      },
+      {
+        "value": "gp120,CD4",
+        "label": "gp120,CD4"
+      },
+      {
+        "value": "gp41",
+        "label": "gp41"
+      },
+      {
+        "value": "gp41w-FKA binds at the interfacial region of a phospholipid bilayer.",
+        "label": "gp41w-FKA binds at the interfacial region of a phospholipid bilayer."
+      },
+      {
+        "value": "groove of the BH3 domain on target proteins",
+        "label": "groove of the BH3 domain on target proteins"
+      },
+      {
+        "value": "healthy erythrocytes (this binding is receptor independent).",
+        "label": "healthy erythrocytes (this binding is receptor independent)."
+      },
+      {
+        "value": "hemagglutinin (HA)",
+        "label": "hemagglutinin (HA)"
+      },
+      {
+        "value": "integrase",
+        "label": "integrase"
+      },
+      {
+        "value": "integrin αvβ3",
+        "label": "integrin αvβ3"
+      },
+      {
+        "value": "integrin αvβ4",
+        "label": "integrin αvβ4"
+      },
+      {
+        "value": "liposomes",
+        "label": "liposomes"
+      },
+      {
+        "value": "low-pH endosome",
+        "label": "low-pH endosome"
+      },
+      {
+        "value": "mambrane",
+        "label": "mambrane"
+      },
+      {
+        "value": "membrane",
+        "label": "membrane"
+      },
+      {
+        "value": "membrane protein",
+        "label": "membrane protein"
+      },
+      {
+        "value": "not found",
+        "label": "not found"
+      },
+      {
+        "value": "p53 protein",
+        "label": "p53 protein"
+      },
+      {
+        "value": "pUL84(nonconventional nuclear localization signal of the essential viral replication factor)",
+        "label": "pUL84(nonconventional nuclear localization signal of the essential viral replication factor)"
+      },
+      {
+        "value": "phosphatidylethanolamine",
+        "label": "phosphatidylethanolamine"
+      },
+      {
+        "value": "pigment epithelium-derived factor; somatostatin",
+        "label": "pigment epithelium-derived factor; somatostatin"
+      },
+      {
+        "value": "programmed cell death protein 1",
+        "label": "programmed cell death protein 1"
+      },
+      {
+        "value": "ribonucleotide reductase",
+        "label": "ribonucleotide reductase"
+      },
+      {
+        "value": "sialylgalactose",
+        "label": "sialylgalactose"
+      },
+      {
+        "value": "site 3 of the insect voltage- gated sodium channel (Nav)",
+        "label": "site 3 of the insect voltage- gated sodium channel (Nav)"
+      },
+      {
+        "value": "site 4 of the insect voltage- gated sodium channel (Nav)",
+        "label": "site 4 of the insect voltage- gated sodium channel (Nav)"
+      },
+      {
+        "value": "sodium channels",
+        "label": "sodium channels"
+      },
+      {
+        "value": "spike glycoprotein",
+        "label": "spike glycoprotein"
+      },
+      {
+        "value": "surface phosphatidylserine",
+        "label": "surface phosphatidylserine"
+      },
+      {
+        "value": "viral membrane",
+        "label": "viral membrane"
+      },
+      {
+        "value": "virion envelope",
+        "label": "virion envelope"
+      },
+      {
+        "value": "α5β1 integrin, metalloproteinases",
+        "label": "α5β1 integrin, metalloproteinases"
+      },
+      {
+        "value": "αvβ3",
+        "label": "αvβ3"
+      },
+      {
+        "value": "αvβ3, α5β1",
+        "label": "αvβ3, α5β1"
+      },
+      {
+        "value": "αvβ3, αvβ1",
+        "label": "αvβ3, αvβ1"
+      },
+      {
+        "value": "αvβ6, αvβ8",
+        "label": "αvβ6, αvβ8"
+      },
+      {
+        "value": "β-catenin",
+        "label": "β-catenin"
+      },
+      {
+        "value": "β3 integrin",
+        "label": "β3 integrin"
+      }
+    ]
+  },
+  "linear_cyclic": {
+    "label": "结构类型",
+    "options": [
+      {
+        "value": "Cyclic",
+        "label": "Cyclic"
+      },
+      {
+        "value": "Cyclic (possibly)",
+        "label": "Cyclic (possibly)"
+      },
+      {
+        "value": "Cyclic (very possibly)",
+        "label": "Cyclic (very possibly)"
+      },
+      {
+        "value": "Cyclic(CSαβ scaffold (an α-helix linked to a β-she",
+        "label": "Cyclic(CSαβ scaffold (an α-helix linked to a β-she"
+      },
+      {
+        "value": "Linear",
+        "label": "Linear"
+      },
+      {
+        "value": "Linera",
+        "label": "Linera"
+      },
+      {
+        "value": "Not available",
+        "label": "Not available"
+      },
+      {
+        "value": "Not found",
+        "label": "Not found"
+      },
+      {
+        "value": "Tetrameric",
+        "label": "Tetrameric"
+      },
+      {
+        "value": "stapled peptide",
+        "label": "stapled peptide"
+      }
+    ]
+  },
+  "charge_ranges": {
+    "label": "电荷",
+    "options": [
+      {
+        "value": "Negative",
+        "label": "Negative"
+      },
+      {
+        "value": "Neutral",
+        "label": "Neutral"
+      },
+      {
+        "value": "Positive",
+        "label": "Positive"
+      }
+    ]
+  },
+  "hydrophobicity_ranges": {
+    "label": "疏水性",
+    "options": [
+      {
+        "value": "Hydrophilic",
+        "label": "Hydrophilic"
+      },
+      {
+        "value": "Hydrophobic",
+        "label": "Hydrophobic"
+      },
+      {
+        "value": "Neutral",
+        "label": "Neutral"
+      },
+      {
+        "value": "Very Hydrophilic",
+        "label": "Very Hydrophilic"
+      }
+    ]
+  },
+  "mass_ranges": {
+    "label": "分子量",
+    "options": [
+      {
+        "value": "Large (3-5kDa)",
+        "label": "Large (3-5kDa)"
+      },
+      {
+        "value": "Medium (1-3kDa)",
+        "label": "Medium (1-3kDa)"
+      },
+      {
+        "value": "Small (<1kDa)",
+        "label": "Small (<1kDa)"
+      },
+      {
+        "value": "Very Large (>5kDa)",
+        "label": "Very Large (>5kDa)"
+      }
+    ]
+  },
+  "length_ranges": {
+    "label": "长度",
+    "options": [
+      {
+        "value": "Long (>50)",
+        "label": "Long (>50)"
+      },
+      {
+        "value": "Medium (20-50)",
+        "label": "Medium (20-50)"
+      },
+      {
+        "value": "Short (10-20)",
+        "label": "Short (10-20)"
+      },
+      {
+        "value": "Very Short (<10)",
+        "label": "Very Short (<10)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_22367": {
+        "Sequence Information": {
+            "Peptide Name": "ROS modulator 1 (60-79)",
+            "Sequence": "MMQSGGTFGTFMAIGMGIRC",
+            "Sequence Length": 20,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Binding Target": "",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P60603",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P60603",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Romo1-Derived Antimicrobial Peptide Is a New Antimicrobial Agent Against Multidrug-Resistant Bacteria in a Murine Model of Sepsis.",
+                    "Pubmed ID": "32291307",
+                    "Reference": "MBio. 2020;11:e03258-19",
+                    "Author": "Lee HR, You DG, Kim HK, Sohn JW, Kim MJ, Park JK, Lee GY, Yoo YD",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/32291307"
+                }
+            ],
+            "Mass": 2096.54,
+            "PI": 8.0,
+            "Net Charge": 1,
+            "Hydrophobicity": 0.71,
+            "Frequent Amino Acids": "GMF",
+            "Absent Amino Acids": "DEHKLNOPUVWY",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 10,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_22367",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01892",
+                    "Similarity": 1.0,
+                    "Sequence": "MPVAVGPYGQSQPSCFDRVKMGFMMGFAVGMAAGALFGTFSCLRFGMRGRELMGGVGKTMMQSGGTFGTFMAIGMGIRC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01995",
+                    "Similarity": 1.0,
+                    "Sequence": "MPVAVGPYGQSQPNCFDRVKMGFMMGFAVGMAAGALFGTFSCLRFGMRGRELMGGVGKTMMQSGGTFGTFMAIGMGIRC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02082",
+                    "Similarity": 1.0,
+                    "Sequence": "MPVSVGSYGQQAQPSCFDRVKMGFMMGFAVGMAAGAMFGTFSCLRIGMRGRELMGGVGKTMMQSGGTFGTFMAIGMGIRC"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Pseudomonas aeruginosa ATCC 27853(MBC=>300µg/ml),Staphylococcus aureus ATCC 29213(MBC=>300µg/ml)"
+        }
+    }
+}

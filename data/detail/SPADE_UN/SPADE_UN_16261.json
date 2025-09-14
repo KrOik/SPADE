@@ -1,0 +1,72 @@
+{
+    "SPADE_UN_16261": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_16261",
+            "Peptide Name": "AAS",
+            "Source": "Synthetic",
+            "Family": "",
+            "Gene": "Not found",
+            "Sequence": "AEEASKKAEEASKKAEEASKKAEEASKKAEEASKKXK",
+            "Sequence Length": 37,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Notavailable"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Target Organism": "Tumor cells:Huh-7 (CC50=2.38±0.9 µM )",
+            "Hemolytic Activity": "Not available",
+            "Cytotoxicity": "Not available",
+            "Binding Target": "Not available",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Acetylation",
+            "C-terminal Modification": "CH3(CH2)14CONH2, Hexadecanamide",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C161H277N47O61",
+            "Mass": 459954,
+            "PI": 9.13,
+            "Net Charge": 1,
+            "Hydrophobicity": -1.727,
+            "Half Life": "Mammalian:4.4 hourYeast:>20 hourE.coli:>10 hour",
+            "Literature": [
+                {
+                    "Title": "De Novo Design of α-Helical Lipopeptides Targeting Viral Fusion Proteins A Promising Strategy for Relatively Broad-Spectrum Antiviral Drug Discovery",
+                    "Pubmed ID": "30192544",
+                    "Reference": "J Med Chem. 2018 Oct 11;61(19)8734-8745.",
+                    "Author": "Wang C, Zhao L, Xia S, Zhang T, Cao R, Liang G, Li Y, Meng G, Wang W, Shi W, Zhong W, Jiang S, Liu K.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=30192544"
+                }
+            ],
+            "Frequent Amino Acids": "KAE",
+            "Absent Amino Acids": "CDFGHILMNOPQRTUVWY",
+            "Basic Residues": 11,
+            "Acidic Residues": 10,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 26,
+            "Positive Residues": 11,
+            "Negative Residues": 10,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_14413",
+                    "Similarity": 1.0,
+                    "Sequence": "AEEASKKAEEASKKAEEASKKAEEASKKAEEASKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06992",
+                    "Similarity": 1.0,
+                    "Sequence": "SKKKKTKV"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_13082",
+                    "Similarity": 0.8,
+                    "Sequence": "ASKKLVRWWLRWWKK"
+                }
+            ]
+        }
+    }
+}

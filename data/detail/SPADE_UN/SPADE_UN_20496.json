@@ -1,0 +1,67 @@
+{
+    "SPADE_UN_20496": {
+        "Sequence Information": {
+            "Peptide Name": "",
+            "Sequence": "WRW",
+            "Sequence Length": 3,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "The pharmacophore of short cationic antibacterial peptides.",
+                    "Pubmed ID": "12699374",
+                    "Reference": "J Med Chem. 2003;46:1567-1570",
+                    "Author": "Strøm MB, Haug BE, Skar ML, Stensen W, Stiberg T, Svendsen JS",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/12699374"
+                },
+                {
+                    "Title": "Synthesis and in Silico Modelling of the Potential Dual Mechanistic Activity of Small Cationic Peptides Potentiating the Antibiotic Novobiocin against Susceptible and Multi-Drug Resistant Escherichia coli.",
+                    "Pubmed ID": "33266278",
+                    "Reference": "Int J Mol Sci. 2020;21:9134",
+                    "Author": "Passarini I, Resende PE, Soares S, Tahmasi T, Stapleton P, Malkinson J, Zloh M, Rossiter S",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/33266278"
+                }
+            ],
+            "Mass": 546.62,
+            "PI": 9.75,
+            "Net Charge": 1,
+            "Hydrophobicity": -2.1,
+            "Frequent Amino Acids": "WR",
+            "Absent Amino Acids": "ACDEFGHIKLMNOPQSTUVY",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 0,
+            "Polar Residues": 3,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_20496",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02195",
+                    "Similarity": 1.0,
+                    "Sequence": "YKQCHKKGGHCFPKEKICLPPSSDFGKMDCRWRWKCCKKGSG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03541",
+                    "Similarity": 1.0,
+                    "Sequence": "FPVTWRWWKWWKG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03548",
+                    "Similarity": 1.0,
+                    "Sequence": "FSVTWRWWKWWKG"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:-=NA",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=>200µg/ml),Staphylococcus aureus ATCC 25923(MIC=100µg/ml),Escherichia coli NCTC 10418(MIC=>128µg/ml),Staphylococcus aureus NCTC 12981(MIC=>128µg/ml)"
+        }
+    }
+}

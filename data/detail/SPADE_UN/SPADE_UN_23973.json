@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_23973": {
+        "Sequence Information": {
+            "Peptide Name": "KR-8 [V4W]",
+            "Sequence": "KRIWQRIK",
+            "Sequence Length": 8,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P49913",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P49913",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Short and Robust Anti-Infective Lipopeptides Engineered Based on the Minimal Antimicrobial Peptide KR12 of Human LL-37.",
+                    "Pubmed ID": "33890759",
+                    "Reference": "ACS Infect Dis. 2021;7:1795-1808",
+                    "Author": "Narayana JL, Golla R, Mishra B, Wang X, Lushnikova T, Zhang Y, Verma A, Kumar V, Xie J, Wang G",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/33890759"
+                }
+            ],
+            "Mass": 1127.39,
+            "PI": 12.0,
+            "Net Charge": 4,
+            "Hydrophobicity": -1.52,
+            "Frequent Amino Acids": "IKR",
+            "Absent Amino Acids": "ACDEFGHLMNOPSTUVY",
+            "Basic Residues": 4,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 2,
+            "Polar Residues": 6,
+            "Positive Residues": 4,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_23973",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03195",
+                    "Similarity": 1.0,
+                    "Sequence": "GRKSDCFRKNGFCAFLKCPYLTLISGKCSRFHLCCKRIW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04257",
+                    "Similarity": 1.0,
+                    "Sequence": "LLGDFFRKSKEKIGKEFKRI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07450",
+                    "Similarity": 1.0,
+                    "Sequence": "GRKSDCFRKSGFCAFLKCPSLTLISGKCSRFYLCCKRIW"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=<25 µM",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=12.5µM),Klebsiella pneumoniae ATCC 13883(MIC=>50µM),Pseudomonas aeruginosa PAO1(MIC=6.2µM),Staphylococcus aureus USA 300 LAC(MIC=<1.5µM)"
+        }
+    }
+}

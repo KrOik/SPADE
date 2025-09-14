@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_29954": {
+        "Sequence Information": {
+            "Peptide Name": "Caltrin / Calcium transport inhibitor / YY-2 / Seminalplasmin / SPLN  [14-26]",
+            "Sequence": "SLSRYAKLANRLA",
+            "Sequence Length": 13,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P06833",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P06833",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Identification of the region that plays an important role in determining antibacterial activity of bovine seminalplasmin.",
+                    "Pubmed ID": "9009216",
+                    "Reference": "FEBS Lett. 1997;400:289-292",
+                    "Author": "Sitaram N, Subbalakshmi C, Krishnakumari V, Nagaraj R",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/9009216"
+                }
+            ],
+            "Mass": 1462.7,
+            "PI": 11.0,
+            "Net Charge": 3,
+            "Hydrophobicity": -0.19,
+            "Frequent Amino Acids": "ALR",
+            "Absent Amino Acids": "CDEFGHIMOPQTUVW",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 7,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_29954",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02441",
+                    "Similarity": 1.0,
+                    "Sequence": "SDEKASPDKHHRFSLSRYAKLANRLANPKLLETFLSKWIGDRGNRSV"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02446",
+                    "Similarity": 1.0,
+                    "Sequence": "SDEKASPDKHHRFSLSRYAKLANRLANPKLLETFLSKWIGDRGNRSVK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07986",
+                    "Similarity": 1.0,
+                    "Sequence": "MMAGRRSWPAMATVLLALLVCLGELVDSKPQPSDEKASPDKHHRFSLSRYAKLANRLANPKLLETFLSKWIGDRGNRSVK"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Escherichia coli W160-37(MIC=60-70µg/ml),Pseudomonas putida NCIM 2102(no activity data),Staphylococcus aureus PEP 4/3(no activity data),Bacillus subtilis(no activity data)"
+        }
+    }
+}

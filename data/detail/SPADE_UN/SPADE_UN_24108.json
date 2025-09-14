@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_24108": {
+        "Sequence Information": {
+            "Peptide Name": "CATH-1 (6-26)",
+            "Sequence": "WPLVIRTVIAGYNLYRAIKKK",
+            "Sequence Length": 21,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "Q6QLQ5",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/Q6QLQ5",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Avian antimicrobial peptides: in vitro and in ovo characterization and protection from early chick mortality caused by yolk sac infection.",
+                    "Pubmed ID": "33483611",
+                    "Reference": "Sci Rep. 2021;11:2132",
+                    "Author": "Nguyen TTT, Allan B, Wheler C, Köster W, Gerdts V, Dar A",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/33483611"
+                }
+            ],
+            "Mass": 2503.04,
+            "PI": 10.57,
+            "Net Charge": 5,
+            "Hydrophobicity": 0.13,
+            "Frequent Amino Acids": "IKA",
+            "Absent Amino Acids": "CDEFHMOQSU",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 12,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_24108",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03190",
+                    "Similarity": 1.0,
+                    "Sequence": "RVKRVWPLVIRTVIAGYNLYRAIKKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08558",
+                    "Similarity": 1.0,
+                    "Sequence": "RVKRVWPLVIRTVIA"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08559",
+                    "Similarity": 1.0,
+                    "Sequence": "RVKRVWPLVIRTVIAGYNLYRAI"
+                }
+            ],
+            "Hemolytic Activity": "Chicken macrophages HD-11:60% Killing=30 µg/ml",
+            "Target Organism": "Escherichia coli(MIC=1.5µM),Salmonella enterica subsp. enterica serovar Enteritidis LS101(MIC=1.5µM),Salmonella typhimurium SL1344(MIC=1.5µM),Campylobacter jejuni ATCC Cj1(MIC=0.75µM),Clostridium perfringens JP26(MIC=1.5µM)"
+        }
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "SPADE_UN_29196": {
+        "Sequence Information": {
+            "Peptide Name": "Arasin 1 (20-37)-Acm",
+            "Sequence": "FRPRPXNXYAPPXPXDRW",
+            "Sequence Length": 18,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "A6XMY0",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/A6XMY0",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Structure-activity relationships of the antimicrobial peptide arasin 1 - and mode of action studies of the N-terminal, proline-rich region.",
+                    "Pubmed ID": "23326415",
+                    "Reference": "PLoS One. 2013;8:e53326",
+                    "Author": "Paulsen VS, Blencke HM, Benincasa M, Haug T, Eksteen JJ, Styrvold OB, Scocchi M, Stensvag K",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/23326415"
+                }
+            ],
+            "SPADE ID": "SPADE_UN_29196",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_10222",
+                    "Similarity": 1.0,
+                    "Sequence": "SRWPSPGRPRPFPGRPKPIFRPRPNYAPPPDRW"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_02728",
+                    "Similarity": 1.0,
+                    "Sequence": "KITHTFRPR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_29187",
+                    "Similarity": 1.0,
+                    "Sequence": "SRWPSPGRPRPFPGRPKPIFRPRPNYAPPPDRW"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=>100µM),Escherichia coli HB101(MIC=>100µM),Pseudomonas aeruginosa ATCC 27853(MIC=>100µM),Corynebacterium glutamicum ATCC 13032(MIC=>100µM),Staphylococcus aureus ATCC 9144(MIC=>100µM),Saccharomyces cerevisiae(IC50=>100µM),Candida albicans ATCC 10231(IC50=>100µM),Botrytis cinerea 101(IC50=>100µM)"
+        }
+    }
+}

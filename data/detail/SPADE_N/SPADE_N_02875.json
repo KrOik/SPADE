@@ -1,0 +1,83 @@
+{
+    "SPADE_N_02875": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02875",
+            "Peptide Name": "Stomoxyn (Insects, animals)",
+            "Source": "Stomoxys calcitrans (Stable fly)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "RGFRKHFNKLVKKVKHTISETAHVAKDTAVIAGSGAAVVAAT",
+            "Sequence Length": 42,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q8T9R8"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.12372834]Gram-negative bacteria:Escherichia coli K12 RM148 (MIC=0.19-0.39 µM), E. coli D22 (MIC=0.19-0.39 µM), E. coli D31(MIC=0.19-0.39 µM), E. coli SBS363 (MIC<0.19 µM), E. coli 1106 (MIC=0.19-0.39 µM), Enterobacter cloacae b12 (MIC=3.12-6.25 µM), Erwinia carotovora (MIC=0.78-1.56 µM), Klebsiella pneumoniae (MIC=0.78-1.56 µM), Pseudomonas aeruginosa (MIC=0.39-0.78 µM), Salmonella typhimurium (MIC=0.39-0.78 µM), Xanthomonas campestris ( MIC=0.39-0.78 µM);Gram-positive bacteria:Aerococcus viridans (MIC=0.78-1.56 µM), Bacillus megaterium (MIC=0.78-1.56 µM), Bacillus subtilis (MIC=6.25-12.5 µM), Enterococcus faecalis (MIC=0.78-1.56 µM), Micrococcus luteus (MIC=0.78-1.56 µM), Streptococcus pyogenes (MIC=1.56-3.12 µM);Fungi:Aspergillus fumigatus (MIC=50-100 µM), Fusarium culmorum (MIC=0.39-0.78 µM), Fusarium oxysporum (MIC=0.78-1.56 µM), Nectria haematococca (MIC=0.39-0.78 µM), N. crassa (MIC=3.12-6.25 µM), Trichoderma viride (MIC=1.56-3.12 µM), Trichophyton mentagrophytes (MIC=3.12-6.25 µM), Candida albicans (MIC=25-50 µM), C. glabrata (MIC=25-50 µM), C. neoformans (MIC=0.78-1.56 µM).",
+            "Hemolytic Activity": "[Ref.12372834]2% hemolytic activity at 10 μM, 9% hemolytic activity at 100 μM against bovine red blood cells",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Stomoxyn adoptS a flexible random coil structure in water while both assume a stable helical structure in the presence of TFE. In 50% TFE, the structure of stomoxyn is typical of cecropins, including an amphipathic helix at the N-terminus and a hydrophobic C-terminus with helical features that probably fold in a helical conformation at higher TFE concentration. (Ref.2)",
+            "Formula": "C197H329N61O54",
+            "Mass": 4416.1,
+            "PI": 10.66,
+            "Net Charge": 9,
+            "Hydrophobicity": -0.0,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Function": "Has antimicrobial activity against most Gram-positive and Gram-negative bacteria, filamentous fungi and yeasts tested. Has trypanolytic effect on T.b.rhodesiense and hemolytic activity against bovine red blood cells. May play an important role in protecting the stored blood in the anterior midgut from microorganisms prior to digestion. Adopts an amphipathic alpha-helical structure only in the presence of an organic solvent that mimics a phospholipid membrane.",
+            "Tissue specificity": "Constitutively expressed in the adult anterior midgut; proventriculus, thoracic and reservoir regions.",
+            "Literature": [
+                {
+                    "Title": "Epithelial innate immunity. A novel antimicrobial peptide with antiparasitic activity in the blood-sucking insect Stomoxys calcitrans.",
+                    "Pubmed ID": "12372834",
+                    "Reference": "J. Biol. Chem. 2002; 277 49921-49926.",
+                    "Author": "Nathalie Boulanger, Rebecca J. L. Munks, Joanne V. Hamilton, Françoise Vovelle, Reto Brun, Mike J. Lehane, and Philippe Bulet.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=12372834"
+                },
+                {
+                    "Title": "Solution structures of stomoxyn and spinigerin, two insect antimicrobial peptides with an alpha-helical conformation.",
+                    "Pubmed ID": "16170803",
+                    "Reference": "Biopolymers. 2006 Feb 5;81(2)92-103.",
+                    "Author": "Landon C, Meudal H, Boulanger N, Bulet P, Vovelle F.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16170803"
+                }
+            ],
+            "Frequent Amino Acids": "AKV",
+            "Absent Amino Acids": "CMOPQUWY",
+            "Basic Residues": 11,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 19,
+            "Polar Residues": 32,
+            "Positive Residues": 11,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_08013",
+                    "Similarity": 1.0,
+                    "Sequence": "MNFYKYLVVLVVLVLCLSATQTEARGFRKHFNKLVKKVKHTISETAHVAKDTAVIAGSGAAVVAATG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_12450",
+                    "Similarity": 0.7560975609756098,
+                    "Sequence": "GFRKRFNKLVKKVKHTIKETANVSKDVAIVAGSGVAVGAAM"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15944",
+                    "Similarity": 0.7560975609756098,
+                    "Sequence": "GFRKRFNKLVKKVKHTIKETANVSKDVAIVAGSGVAVGAAMG"
+                }
+            ]
+        }
+    }
+}

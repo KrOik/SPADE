@@ -1,0 +1,72 @@
+{
+    "SPADE_N_02202": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02202",
+            "Peptide Name": "NA-CATH",
+            "Source": "Naja atra",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "KRFKKFFKKLKNSVKKRAKKFFKKPKVIGVTFPF",
+            "Sequence Length": 34,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.28089718] Gram-negative bacteria:Acinetobacter baumannii ATCC 9955 (MIC=10μg/ml), Acinetobacter baumannii ATCC BAA-1794 (MIC=10μg/ml), Escherichia coli ATCC 51659 (MIC=21μg/ml), K. pneumoniae ATCC 33495 (MIC=5.2μg/ml), K. pneumoniae ATCC BAA-1705 (MIC=5.2μg/ml), Pseudomonas aeruginosa ATCC 9027 (MIC=10μg/ml), Pseudomonas aeruginosa ATCC BAA-2110 (MIC=10μg/ml)",
+            "Hemolytic Activity": "[Ref.28089718] 0% hemolysis at 300μg/ml against sheep red blood cells.",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "NA-CATH has previously been shown to be random coil in water or buffer and",
+            "Formula": "C206H334N54O38",
+            "Mass": 4175.19,
+            "PI": 12.0,
+            "Net Charge": 15,
+            "Hydrophobicity": -0.76,
+            "Half Life": "Mammalian:1.3 hourYeast:3 minE.coli:2 min",
+            "Function": "Antibacterial activity against the Gram-negative bacteria and Gram-positive bacteria. Has hemolytic activity.",
+            "Literature": [
+                {
+                    "Title": "Cathelicidin antimicrobial peptide from Alligator mississippiensis has antibacterial activity against multi-drug resistant Acinetobacter baumanii and Klebsiella pneumoniae",
+                    "Pubmed ID": "28089718",
+                    "Reference": "Dev Comp Immunol. 2017 May;70135-144.",
+                    "Author": "Barksdale SM, Hrifko EJ, van Hoek ML.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=28089718"
+                }
+            ],
+            "Frequent Amino Acids": "KFV",
+            "Absent Amino Acids": "CDEHMOQUWY",
+            "Basic Residues": 15,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 15,
+            "Polar Residues": 22,
+            "Positive Residues": 15,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_11671",
+                    "Similarity": 1.0,
+                    "Sequence": "KRFKKFFKKLKNSVKKRAKKFFKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_19208",
+                    "Similarity": 1.0,
+                    "Sequence": "KRFKKFFKKLKNSVKKRAKKFFKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_28366",
+                    "Similarity": 1.0,
+                    "Sequence": "KRFKKFFKKLK"
+                }
+            ]
+        }
+    }
+}

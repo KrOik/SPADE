@@ -1,0 +1,77 @@
+{
+    "SPADE_UN_12101": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_12101",
+            "Peptide Name": "SP1 (De Novo Synthesis)",
+            "Source": "synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "AIKIRKLFKKLLR",
+            "Sequence Length": 13,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic form",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.31163671] Gram-negative bacteria:Escherichia coli ATCC 25922 (MIC=12.5–25 µg/mL)",
+            "Hemolytic Activity": "[Ref.31163671] 10% hemolysis at >100  μg/mL against human blood cells.",
+            "Cytotoxicity": "[Ref.31163671] The cell viability of Hepa 1-6 induced by SP1 is 87.8%, 88.5%, 83.1%, 95.3%, 97.3% and 68.9% at peptide concentrations of 3.125, 6.25, 12.5, 25, 50 and 100 μg/mL.",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C78H143N23O14",
+            "Mass": 1627.12,
+            "PI": 12.0,
+            "Net Charge": 6,
+            "Hydrophobicity": 0.03,
+            "Half Life": "Mammalian:4.4 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Antibacterial activity against Gram-negative bacteria.",
+            "Literature": [
+                {
+                    "Title": "De Novo Design and In Vitro Testing of Antimicrobial Peptides against Gram-Negative Bacteria.",
+                    "Pubmed ID": "31163671",
+                    "Reference": "Pharmaceuticals (Basel). 2019 Jun 3;12(2). pii E82. doi 10.3390/ph12020082.",
+                    "Author": "Boris Vishnepolsky, George Zaalishvili, Margarita Karapetian, Tornike Nasrashvili, Nato Kuljanishvili, Andrei Gabrielian, Alex Rosenthal, Darrell E. Hurt, Michael Tartakovsky, Maya Grigolava and Malak Pirtskhalava",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=31163671"
+                },
+                {
+                    "Title": "De novo Design and In Vitro Testing of Antimicrobial Peptides against Gram-negative Bacteria",
+                    "Pubmed ID": "",
+                    "Author": "Vishnepolsky B, Zaalishvili G, Karapetian M, nasrashvili T, Kuljanishvili n, Gabrielian A, Rosenthal"
+                }
+            ],
+            "Frequent Amino Acids": "KLI",
+            "Absent Amino Acids": "CDEGHMNOPQSTUVWY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 7,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_12109",
+                    "Similarity": 1.0,
+                    "Sequence": "AIKIRKLFKKLLR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_23635",
+                    "Similarity": 1.0,
+                    "Sequence": "KLFK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_23636",
+                    "Similarity": 1.0,
+                    "Sequence": "KLFK"
+                }
+            ]
+        }
+    }
+}

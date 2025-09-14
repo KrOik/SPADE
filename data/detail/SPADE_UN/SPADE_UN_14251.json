@@ -1,0 +1,71 @@
+{
+    "SPADE_UN_14251": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_14251",
+            "Peptide Name": "HR2P-M2",
+            "Source": "Synthetic construct",
+            "Family": "Coronaviridae",
+            "Gene": "Not found",
+            "Sequence": "SLTQINTTLLDLEYEMKKLEEVVKKLEESYIDLKEL",
+            "Sequence Length": 36,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antiviral"
+            ],
+            "Target Organism": "[Ref.29442512]MERS-CoV:inhibition of cell-cell fusion in Huh-7 cells(EC50=0.75 ± 0.09 μM);WT MERS-CoV pseudovirus:inhibition of pseudovirus infection in calu-3 cells(EC50=1.07±0.21 μM);Q1020H-MERS-CoV pseudovirus:inhibition of pseudovirus infection in calu-3 cells(EC50=1.25± 0.18 μM);Q1020R-MERS-CoV pseudovirus:inhibition of pseudovirus infection in calu-3 cells(EC50=0.64± 0.16 μM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "[Ref.29442512]Calu-3 cell:CC50>100 μM",
+            "Binding Target": "membrane",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Acetylation",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C193H321N43O64S",
+            "Mass": 4299.93,
+            "PI": 4.48,
+            "Net Charge": -4,
+            "Hydrophobicity": -0.41,
+            "Half Life": "Mammalian:1.9 hourYeast:>20 hourE.coli:>10 hour",
+            "Mechanism of action": "The peptide inhibits MERS-CoV infection and its spike (S) protein-mediated cell–cell fusion.",
+            "Literature": [
+                {
+                    "Title": "Discovery of Hydrocarbon-Stapled Short α-Helical Peptides as Promising Middle East Respiratory Syndrome Coronavirus (MERS-CoV) Fusion Inhibitors.",
+                    "Pubmed ID": "29442512",
+                    "Reference": "J Med Chem. 2018 Mar 8;61(5)2018-2026.",
+                    "Author": "Wang C, Xia S, Zhang P, Zhang T, Wang W, Tian Y, Meng G, Jiang S, Liu K.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=29442512"
+                }
+            ],
+            "Frequent Amino Acids": "LEK",
+            "Absent Amino Acids": "ACFGHOPRUW",
+            "Basic Residues": 5,
+            "Acidic Residues": 9,
+            "Hydrophobic Residues": 15,
+            "Polar Residues": 16,
+            "Positive Residues": 5,
+            "Negative Residues": 9,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_15195",
+                    "Similarity": 0.9444444444444444,
+                    "Sequence": "CGGGGGSLTEINTELLDLEYEMKKLEEVVKKLEESYIDLKEL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_13510",
+                    "Similarity": 0.9259259259259259,
+                    "Sequence": "LDLEYEMKKLEEAIKKLEESYIDLKELGTYEYYVKW"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_13513",
+                    "Similarity": 0.9259259259259259,
+                    "Sequence": "LDLEYEMKKLEEAIKKLEESYIDLKELGTYEYYVKWGSGC"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "SPADE_N_05488": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_05488",
+            "Peptide Name": "Beta-KTx-like peptide LaIT2",
+            "Source": "Liocheles australasiae (Wood scorpion)",
+            "Family": "Belongs to the long chain scorpion toxin family. Class 2 subfamily.",
+            "Gene": "Not found",
+            "Sequence": "AKKPFVQRVKNAASKAYNKLKGLAMQSQYGCPIISNMCEDHCRRKKMEGQCDLLDCVCS",
+            "Sequence Length": 59,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/C7G3K3"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C280H465N85O83S9",
+            "Mass": 6638.79,
+            "PI": 9.2,
+            "Net Charge": 7,
+            "Hydrophobicity": -0.52,
+            "Half Life": "Mammalian:4.4 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Amphipathic peptide that causes significant antimicrobial activity in the growth inhibition assay against E.coli. Causes paralysis or death to crickets within 48 hours after injection at a dose of 1.3 ug/insect (26 ug/g of body weight).",
+            "Literature": [
+                {
+                    "Title": "Purification and cDNA cloning of LaIT2, a novel insecticidal toxinfrom venom of the scorpion Liocheles australasiae.",
+                    "Pubmed ID": "19966481",
+                    "Reference": "Biosci. Biotechnol. Biochem. 732769-2772(2009)",
+                    "Author": "Matsushita N., Miyashita M., Ichiki Y., Ogura T., Sakuradani E.,Nakagawa Y., Shimizu S., Miyagawa H.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=19966481"
+                },
+                {
+                    "Title": "Chemical synthesis of a two-domain scorpion toxin LaIT2 and its single-domain analogs to elucidate structural factors important for insecticidal and antimicrobial activities",
+                    "Pubmed ID": "",
+                    "Author": "Juichi H, Ando R, Ishido T, Miyashita M, nakagawa Y, Miyagawa H"
+                }
+            ],
+            "Frequent Amino Acids": "KCA",
+            "Absent Amino Acids": "OTUW",
+            "Basic Residues": 12,
+            "Acidic Residues": 5,
+            "Hydrophobic Residues": 22,
+            "Polar Residues": 39,
+            "Positive Residues": 12,
+            "Negative Residues": 5,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_12618",
+                    "Similarity": 1.0,
+                    "Sequence": "AKKPFVQRVKNAASKAYNKLKGLAMQSQYG"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_20280",
+                    "Similarity": 1.0,
+                    "Sequence": "AKKPFVQRVKNAASKAYNKLKGLAMQSQYG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_12619",
+                    "Similarity": 1.0,
+                    "Sequence": "QSQYGCPIISNMCEDHCRRKKMEGQCDLLDCVCS"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,69 @@
+{
+    "SPADE_UN_28685": {
+        "Sequence Information": {
+            "Peptide Name": "Apelin-11",
+            "Sequence": "PRLSHKGPMPF",
+            "Sequence Length": 11,
+            "Biological Activity": [
+                "Antiviral"
+            ],
+            "Binding Target": "",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "Q9TUI9",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/Q9TUI9",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                },
+                {
+                    "uniprotId": "K7GLR4",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/K7GLR4",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Apelin peptides block the entry of human immunodeficiency virus (HIV).",
+                    "Pubmed ID": "10802050",
+                    "Reference": "FEBS Lett. 2000;473:15-18",
+                    "Author": "Zou MX, Liu HY, Haraguchi Y, Soda Y, Tatemoto K, Hoshino H",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/10802050"
+                }
+            ],
+            "Mass": 1266.51,
+            "PI": 11.01,
+            "Net Charge": 3,
+            "Hydrophobicity": -0.83,
+            "Frequent Amino Acids": "PFG",
+            "Absent Amino Acids": "ACDEINOQTUVWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 3,
+            "Polar Residues": 8,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_28685",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02367",
+                    "Similarity": 1.0,
+                    "Sequence": "GRPNPVNNKPTPHPRL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06237",
+                    "Similarity": 1.0,
+                    "Sequence": "QRPRLSHKGPMPF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06238",
+                    "Similarity": 1.0,
+                    "Sequence": "LVQPRGPRSGPGPWQGGRRKFRRQRPRLSHKGPMPF"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "HIV(no activity data)"
+        }
+    }
+}

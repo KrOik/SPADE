@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_00160": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_00160",
+            "Peptide Name": "Hepcidin (fish, chordates, animals)",
+            "Source": "Oncorhynchus mykiss (Rainbow trout) (Salmo gairdneri)",
+            "Family": "Belongs to the hepcidin family",
+            "Gene": "hamp",
+            "Sequence": "XSHLSLCRWCCNCCHNKGXGFCCKF",
+            "Sequence Length": 25,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q9DFD6"
+            ],
+            "Protein Existence": "Homology",
+            "Biological Activity": [
+                "Antimicrobial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C110H161N35O26S7",
+            "Mass": 2872.82,
+            "PI": 8.6,
+            "Net Charge": 5,
+            "Hydrophobicity": 0.068,
+            "Half Life": "Mammalian:?Yeast:?E.coli:?",
+            "Function": "Seems to act as a signaling molecule involved in the maintenance of iron homeostasis. Seems to be required in conjunction with HFE to regulate both intestinal iron absorption and iron storage in macrophages. May also have antimicrobial activity.",
+            "PTM": "Contains four disulfide bonds 7-23; 10-13; 11-19; 14-22.",
+            "Literature": [
+                {
+                    "Title": "Immune-relevant (including acute phase) genes identified in the livers of rainbow trout, Oncorhynchus mykiss, by means of suppression subtractive hybridization.",
+                    "Pubmed ID": "11164886",
+                    "Reference": "Dev Comp Immunol. 2001 Apr;25(3)205-217.",
+                    "Author": "Bayne CJ, Gerwick L, Fujiki K, Nakao M, Yano T.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=11164886"
+                }
+            ],
+            "Frequent Amino Acids": "CFG",
+            "Absent Amino Acids": "ADEIMOPQTUVY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 16,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_04093",
+                    "Similarity": 1.0,
+                    "Sequence": "LQVLTEEVGSIDSPVGEHQQPGGESMRLPEHFRFKRSHLSLCRWCCNCCHNKGGFCCKF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04514",
+                    "Similarity": 1.0,
+                    "Sequence": "MHFRFKRQSHLSLCRWCCNCCHNKGCGFCCKF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14747",
+                    "Similarity": 1.0,
+                    "Sequence": "QSHLSLCRWCCNCCHNKGCGFCCKF"
+                }
+            ]
+        }
+    }
+}

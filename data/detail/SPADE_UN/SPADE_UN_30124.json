@@ -1,0 +1,54 @@
+{
+    "SPADE_UN_30124": {
+        "Sequence Information": {
+            "Peptide Name": "Anoplin [L2,10Hle; K4Dab, T8Dab]",
+            "Sequence": "GXLXRIKXLX",
+            "Sequence Length": 10,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P0C005",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P0C005",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Rational design of alpha-helical antimicrobial peptides: do's and don'ts.",
+                    "Pubmed ID": "25530580",
+                    "Reference": "Chembiochem. 2015;16:242-253",
+                    "Author": "Uggerhøj LE, Poulsen TJ, Munk JK, Fredborg M, Sondergaard TE, Frimodt-Moller N, Hansen PR, Wimmer R",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/25530580"
+                }
+            ],
+            "SPADE ID": "SPADE_UN_30124",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01312",
+                    "Similarity": 1.0,
+                    "Sequence": "GLLSGILGAGKHIVCGLSGLR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02764",
+                    "Similarity": 1.0,
+                    "Sequence": "SWLSKTYKKLENSAKKRISEGVAIAILGGLR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03044",
+                    "Similarity": 1.0,
+                    "Sequence": "MKSSMLLLVCVTFLVIVSSPQNGVLADKLIGSCVWGAVDYTSNCNAECVRRGLR"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=250 µM",
+            "Target Organism": "Staphylococcus aureus ATCC 33591(MIC=6.3µM),Enterococcus faecium ATCC 700221(MIC=6.3µM),Escherichia coli ATCC 25922(MIC=3.1µM),Pseudomonas aeruginosa ATCC 27853(MIC=3.1µM)"
+        }
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "SPADE_UN_00709": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_00709",
+            "Peptide Name": "CM5",
+            "Source": "Synthetic construct",
+            "Family": "Derived from the peptide CP26, CP29, CEME and CEMA",
+            "Gene": "Not found",
+            "Sequence": "KLFKKIGIGAVLKVLTTGLPALKLTK",
+            "Sequence Length": 26,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-negative bacteria:Escherichia coli (MIC=5 μg/ml), Salmonella typhimurium (MIC=29 μg/ml), Pseudomonas aeruginosa K799 (MIC=32 μg/ml), Pseudomonas aeruginosa Z61 (MIC=19 μg/ml), Pseudomonas aeruginosa H744 (MIC=4 μg/ml), Pseudomonas aeruginosa H547 (MIC=32 μg/ml).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Lipopolysaccharide (LPS)-binding",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C132H236N32O30",
+            "Mass": 2751.48,
+            "PI": 10.7,
+            "Net Charge": 6,
+            "Hydrophobicity": 0.7,
+            "Half Life": "Mammalian:1.3 hourYeast:3 minE.coli:2 min",
+            "Function": "Antibacterial activity against Gram-negative bacteria.",
+            "Literature": [
+                {
+                    "Title": "Biological properties of structurally related alpha-helical cationic antimicrobial peptides.",
+                    "Pubmed ID": "10085049",
+                    "Reference": "Infect Immun. 1999 Apr;67(4)2005-2009.",
+                    "Author": "Scott MG, Yan H, Hancock RE.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=10085049"
+                }
+            ],
+            "Frequent Amino Acids": "KLG",
+            "Absent Amino Acids": "CDEHMNOQRSUWY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 14,
+            "Polar Residues": 13,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_05754",
+                    "Similarity": 1.0,
+                    "Sequence": "KWKLFKKI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08470",
+                    "Similarity": 1.0,
+                    "Sequence": "KWKLFKIGAVLKVL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08471",
+                    "Similarity": 1.0,
+                    "Sequence": "WKLFKKIGAVLKVL"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_29463": {
+        "Sequence Information": {
+            "Peptide Name": "Pleurocidin (7-21)",
+            "Sequence": "KKAAHVGKHVGKAAL",
+            "Sequence Length": 15,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P81941",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P81941",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Antimicrobial activity of pleurocidin is retained in Plc-2, a C-terminal 12-amino acid fragment.",
+                    "Pubmed ID": "23603258",
+                    "Reference": "Peptides. 2013;45:78-84",
+                    "Author": "Souza AL, Díaz-Dellavalle P, Cabrera A, Larranaga P, Dalla-Rizza M, De-Simone SG",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/23603258"
+                }
+            ],
+            "Mass": 1514.82,
+            "PI": 10.48,
+            "Net Charge": 6,
+            "Hydrophobicity": -0.23,
+            "Frequent Amino Acids": "AKG",
+            "Absent Amino Acids": "CDEFIMNOPQRSTUWY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 8,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_29463",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02066",
+                    "Similarity": 1.0,
+                    "Sequence": "GWGSFFKKAAHVGKHVGKAALTHYL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04060",
+                    "Similarity": 1.0,
+                    "Sequence": "MKFTATFLMIAIFVLMVEPGECGWGSFFKKAAHVGKHVGKAALTHYLGDKQELNKRAVDEDPNVIVFE"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04083",
+                    "Similarity": 1.0,
+                    "Sequence": "MKFTATFLMIAIFVLMVEPGECGWGSFFKKAAHVGKHVGKAALTHYLGDKQELNKRAVDE"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Pseudomonas aeruginosa ATCC 27853(MIC=29.5µM),Escherichia coli ATCC 35218(MIC=16.1µM),Staphylococcus aureus ATCC 25325(MIC=20.2µM)"
+        }
+    }
+}

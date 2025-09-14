@@ -1,0 +1,76 @@
+{
+    "SPADE_N_01748": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01748",
+            "Peptide Name": "Brevinin-1BYb (Frogs, amphibians, animals)",
+            "Source": "Rana boylii (Foothill yellow-legged frog)",
+            "Family": "Belongs to the frog skin active peptide family (Brevinin subfamily)",
+            "Gene": "Not found",
+            "Sequence": "FLPILASLAAKLGPKLFCLVTKKC",
+            "Sequence Length": 24,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P84112"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "[Ref.14531844]Gram-positive bacterium:Staphylococcus aureus(MIC=4 µM);Gram-negative bacterium:Escherichia coli(MIC=16 µM);Yeast:Candida albicans(MIC=16 µM).",
+            "Hemolytic Activity": "[Ref.14531844]HC50=4 µM against human erythrocytes",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C123H208N28O27S2",
+            "Mass": 2575.27,
+            "PI": 9.7,
+            "Net Charge": 4,
+            "Hydrophobicity": 1.12,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Function": "Has hemolytic activity.",
+            "Literature": [
+                {
+                    "Title": "Isolation of peptides of the brevinin-1 family with potent candidacidal activity from the skin secretions of the frog Rana boylii.",
+                    "Pubmed ID": "14531844",
+                    "Reference": "J Pept Res. 2003 Nov;62(5)207-213.",
+                    "Author": "Conlon JM, Sonnevend A, Patel M, Davidson C, Nielsen PF, PÃ¡l T, Rollins-Smith LA.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=14531844"
+                }
+            ],
+            "Frequent Amino Acids": "LKA",
+            "Absent Amino Acids": "DEHMNOQRUWY",
+            "Basic Residues": 4,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 15,
+            "Polar Residues": 12,
+            "Positive Residues": 4,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01747",
+                    "Similarity": 0.9583333333333334,
+                    "Sequence": "FLPILASLAAKFGPKLFCLVTKKC"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_16062",
+                    "Similarity": 0.9545454545454546,
+                    "Sequence": "FLPILASLAAKFGPKLFLVTKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01749",
+                    "Similarity": 0.875,
+                    "Sequence": "FLPILASLAATLGPKLLCLITKKC"
+                }
+            ]
+        }
+    }
+}

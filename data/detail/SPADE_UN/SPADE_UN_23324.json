@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_23324": {
+        "Sequence Information": {
+            "Peptide Name": "MEP-8",
+            "Sequence": "VLPKVMAHMK",
+            "Sequence Length": 10,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P86170",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P86170",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "PepVAE3: variational autoencoder framework for antimicrobial peptide generation and activity prediction",
+                    "Pubmed ID": "",
+                    "Reference": "bioRxiv. 2021;doi: https://doi.org/10.1101/2021.04.07.438720:",
+                    "Author": "Dean SN, Alvarez JAE, Zabetakis D, Walper SA, Malanoski AP",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/"
+                }
+            ],
+            "Mass": 1153.5,
+            "PI": 10.0,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.52,
+            "Frequent Amino Acids": "KMV",
+            "Absent Amino Acids": "CDEFGINOQRSTUWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 4,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_23324",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02603",
+                    "Similarity": 1.0,
+                    "Sequence": "GFLSILKKVLPKVMAHMK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06871",
+                    "Similarity": 1.0,
+                    "Sequence": "FVLP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08507",
+                    "Similarity": 1.0,
+                    "Sequence": "LGALFKVASKVLP"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Escherichia coli K-12(MIC=64µM),Staphylococcus aureus ATCC 12600(MIC=>128µM),Pseudomonas aeruginosa ATCC 27853(MIC=32µM)"
+        }
+    }
+}

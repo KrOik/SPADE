@@ -1,0 +1,67 @@
+{
+    "SPADE_UN_23086": {
+        "Sequence Information": {
+            "Peptide Name": "MDAP-2 [Q35R]",
+            "Sequence": "SRDSRPVQPRVQPPPPPPKQKPSIYDTPIRRPGGRKTMYA",
+            "Sequence Length": 40,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anticancer",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "A0A088N522",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/A0A088N522",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Design and Characterization of a Novel Hybrid Antimicrobial Peptide OM19R Based on Oncocin and MDAP-2.",
+                    "Pubmed ID": "",
+                    "Reference": "Int J Pept Res Ther. 2019;26:1839-1846",
+                    "Author": "Liu L, Liu J, Cui Q, Jia B-Y, Pei Z-H, Odah KA, Wang Y-M, Dong W-L, Kong L, Ma HX",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/"
+                }
+            ],
+            "Mass": 4553.22,
+            "PI": 11.4,
+            "Net Charge": 7,
+            "Hydrophobicity": -1.5,
+            "Frequent Amino Acids": "PRK",
+            "Absent Amino Acids": "CEFHLNOUW",
+            "Basic Residues": 9,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 34,
+            "Positive Residues": 9,
+            "Negative Residues": 2,
+            "SPADE ID": "SPADE_UN_23086",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_07975",
+                    "Similarity": 1.0,
+                    "Sequence": "PPPP"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_07976",
+                    "Similarity": 1.0,
+                    "Sequence": "PPPPP"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_07978",
+                    "Similarity": 1.0,
+                    "Sequence": "PPPP"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:0% Hemolysis=512 µM",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=128µM),Escherichia coli ATCC 25922 del-sbmA(MIC=256µM),Salmonella typhimurium CMCC 50115(MIC=64µM),Shigella flexneri ATCC 12022(MIC=128µM),Shigella flexneri CMCC 51572(MIC=128µM),Shigella dysenteriae CMCC 51252(MIC=128µM),Klebsiella pneumoniae ATCC 10031(MIC=512µM),Klebsiella pneumoniae CMCC 46117(MIC=512µM),Staphylococcus aureus ATCC 25923(MIC=>512µM),Enterococcus faecalis ATCC 29212(MIC=>512µM),Bacillus subtilis ATCC 63501(MIC=>512µM),Murine macrophage cells RAW 264.7(0-10% Killing=512µM)"
+        }
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "SPADE_UN_19334": {
+        "Sequence Information": {
+            "Peptide Name": "Dendropsophin 1 [N4K,D5S,G12K,G15A,R16A]",
+            "Sequence": "NLLKSALKTVNKLLAAS",
+            "Sequence Length": 17,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antiparasitic",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Dendropsophin 1, a novel antimicrobial peptide from the skin secretion of the endemic Colombian frog Dendropsophus columbianus.",
+                    "Pubmed ID": "28659061",
+                    "Reference": "Nat Prod Res. 2017;:1-7",
+                    "Author": "Triana-Vidal LE, Castro MS, Pires Júnior OR, Vargas JAG, Zúñiga-Baos JA, Correia Batista IF, Grellier P, Charneau S, Álvares ACM, de Freitas SM, Fontes W",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/28659061"
+                }
+            ],
+            "Mass": 1784.15,
+            "PI": 10.3,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.45,
+            "Frequent Amino Acids": "LAK",
+            "Absent Amino Acids": "CDEFGHIMOPQRUWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 8,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_19334",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_19334",
+                    "Similarity": 1.0,
+                    "Sequence": "NLLKSALKTVNKLLAAS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01571",
+                    "Similarity": 0.8571428571428571,
+                    "Sequence": "LLPIVGNLLKSLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01576",
+                    "Similarity": 0.8571428571428571,
+                    "Sequence": "LLPNLLKSLL"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=>256 µM,Rat myoblast L6 cells:IC50=174±10 µM",
+            "Target Organism": "Escherichia coli ATCC 25322(MIC=32µM),Pseudomonas aeruginosa ATCC 27853(MIC=64µM),Klebsiella pneumoniae ATCC 700603(MIC=64µM),Staphylococcus aureus ATCC 25923(MIC=128µM),Staphylococcus epidermidis ATCC 12228(MIC=64µM),Plasmodium falciparum(no activity data),Trypanosoma cruzi(no activity data),Trypanosoma brucei brucei(no activity data),Candida albicans ATCC 90028(no activity data),Candida parapsilosis ATCC 22019(no activity data)"
+        }
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_25286": {
+        "Sequence Information": {
+            "Peptide Name": "1018-Lys 4",
+            "Sequence": "VKLIVAVKIWKK",
+            "Sequence Length": 12,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Mammalian Cell",
+                "Antibiofilm"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Influence of Non-natural Cationic Amino Acids on the Biological Activity Profile of Innate Defense Regulator Peptides.",
+                    "Pubmed ID": "31664827",
+                    "Reference": "J Med Chem. 2019;62:10294-10304",
+                    "Author": "Haney EF, Barbosa SC, Baquir B, Hancock REW",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/31664827"
+                }
+            ],
+            "Mass": 1424.86,
+            "PI": 10.48,
+            "Net Charge": 4,
+            "Hydrophobicity": 0.89,
+            "Frequent Amino Acids": "KVI",
+            "Absent Amino Acids": "CDEFGHMNOPQRSTUY",
+            "Basic Residues": 4,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 5,
+            "Positive Residues": 4,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_25286",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_02946",
+                    "Similarity": 1.0,
+                    "Sequence": "RHRRKVKLI"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_10427",
+                    "Similarity": 1.0,
+                    "Sequence": "YTSVITIELSNIKENKCNGTDAKVKLI"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_21940",
+                    "Similarity": 1.0,
+                    "Sequence": "AILRKATRRLVKLIV"
+                }
+            ],
+            "Hemolytic Activity": "Human PBMC:7% Cytotoxicity=40 µM",
+            "Target Organism": "Staphylococcus aureus(MIC=4µM),Staphylococcus aureus(MIC=>64µM)"
+        }
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "SPADE_UN_23131": {
+        "Sequence Information": {
+            "Peptide Name": "EK1-GSGSGC",
+            "Sequence": "SLDQINVTFLDLEYEMKKLEEAIKKLEESYIDLKELGSGSGX",
+            "Sequence Length": 42,
+            "Biological Activity": [
+                "Antiviral",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Virus entry",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "Q8BB25",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/Q8BB25",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Inhibition of Coronavirus Entry In Vitro and Ex Vivo by a Lipid-Conjugated Peptide Derived from the SARS-CoV-2 Spike Glycoprotein HRC Domain.",
+                    "Pubmed ID": "33082259",
+                    "Reference": "MBio. 2020;11:e01935-20",
+                    "Author": "Outlaw VK, Bovier FT, Mears MC, Cajimat MN, Zhu Y, Lin MJ, Addetia A, Lieberman NAP, Peddu V, Xie X, Shi PY, Greninger AL, Gellman SH, Bente DA, Moscona A, Porotto M",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/33082259"
+                }
+            ],
+            "SPADE ID": "SPADE_UN_23131",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_13502",
+                    "Similarity": 1.0,
+                    "Sequence": "SLDQINVTFLDLEYEMKKLEEAIKKLEESYIDLKEL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_13503",
+                    "Similarity": 1.0,
+                    "Sequence": "SLDQINVTFLDLEYEMKKLEEAIKKLEESYIDLKELGSG"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_13542",
+                    "Similarity": 1.0,
+                    "Sequence": "SLDQINVTFLDLEYEMKKLEEAIKKLEESYIDLKELGSGSGC"
+                }
+            ],
+            "Hemolytic Activity": "Human embryonic kidney HEK293T cells:<5% Cytotoxicity=10 µM,Vero E6 cells:18% Cytotoxicity=10 µM",
+            "Target Organism": "SARS-CoV-2(IC50 F=0.293±0.06µM),SARS-CoV-2(IC90 F=>0.9µM),SARS-CoV-2 D614G(IC50 F=0.261±0.136µM),SARS-CoV-2 D614G(IC90 F=0.892±0.1µM),SARS-CoV-2 S943P(IC50 F=0.286±0.104µM),SARS-CoV-2 S943P(IC90 F=>1µM),SARS-CoV-2 S247R(IC50 F=0.194±0.107µM),SARS-CoV-2 S247R(IC90 F=0.893±0.077µM),MERS-CoV(IC50 F=>1µM),MERS-CoV(IC90 F=>1µM),SARS-CoV(IC50 F=0.036±0.005µM),SARS-CoV(IC90 F=>1µM),SARS-CoV-2(IC50 I=0.041µM),MERS-CoV(IC50 I=0.002µM)"
+        }
+    }
+}

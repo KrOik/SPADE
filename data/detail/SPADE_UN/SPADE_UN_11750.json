@@ -1,0 +1,80 @@
+{
+    "SPADE_UN_11750": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_11750",
+            "Peptide Name": "cGm (Derived from Gm)",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "GCRRLCYKQRCVTYCRGR",
+            "Sequence Length": 18,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic form",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Antitumor"
+            ],
+            "Target Organism": "[Ref.28741926]Gram-positive bacteria :Staphylococcuss aureus ATCC 25923 (MIC=32 μM);Gram-negative bacteria :Escherichia coli ATCC 25922 (MIC=4 μM), Escherichia coli CGSC 5167 (MIC=0.06 μM), Klebsiella pneumoniae ATCC 700603 (MIC=4-8 μM), Acinetobacter baumannii ATCC 19606 (MIC=1-2 μM), Pseudomonas aeruginosa ATCC 27853 (MIC=1-4 μM), Helicobacter pylori ATCC 43504 (MIC= μM);Fungi :Candida albicans ATCC 90028 (MIC=4-8 μM), Cryptococcus neoformans ATCC 208821 (MIC=0.5-1 μM)",
+            "Hemolytic Activity": "[Ref.28741926] 5% hemolysis at 0.03 μM , 0% hemolysis at 1.1 μM , 10% hemolysis at 17 μM , 50% hemolysis at 100μM against human red blood cells",
+            "Cytotoxicity": "[Ref.28741926] CC50 = 39.8 ± 1.0 μM against CRL-1739, CC50 = 2.9 ± 0.1 μM against MM96L, CC50 = 71.7 ± 9.2 μM against HFF-1, CC50 > 64 μM against HeLa, CC50 = 15.3 ± 1.4 μM against MCF-7, CC50 = 2.7 ± 0.1 μM against K-562, CC50 = 12.7 ± 1.1 μM PBMCs.",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "No specific N-terminal",
+            "C-terminal Modification": "No specific C-terminal",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C90H153N35O23S4",
+            "Mass": 2221.66,
+            "PI": 9.93,
+            "Net Charge": 6,
+            "Hydrophobicity": -0.89,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Antibacterial activity against Gram-positive bacteria and Gram-negative bacteria, Antifungal activity agaist Candida albicans, Cryptococcus neoformans",
+            "Literature": [
+                {
+                    "Title": "Redesigned Spider Peptide with Improved Antimicrobial and Anticancer Properties",
+                    "Pubmed ID": "28741926",
+                    "Reference": "ACS Chem Biol. 2017 Sep 15;12(9)2324-2334. doi 10.1021/acschembio.7b00459.?",
+                    "Author": "Sonia Troeira Henriques, Nicole Lawrence, Stephanie Chaousis, Anjaneya S. Ravipati, Olivier Cheneval,Aurelie H. Benfield, Alysha G. Elliott, Angela Maria Kavanagh, Matthew A. Cooper, Lai Yue Chan,Yen-Hua Huang, and David J. Craik",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=28741926"
+                },
+                {
+                    "Title": "Cyclization of the antimicrobial peptide gomesin with native chemical ligation: influences on stability and bioactivity",
+                    "Pubmed ID": "",
+                    "Author": "Chan LY, Zhang VM, Huang YH, Waters nC, Bansal PS, Craik DJ, Daly nL"
+                }
+            ],
+            "Frequent Amino Acids": "RCG",
+            "Absent Amino Acids": "ADEFHIMNOPSUW",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 4,
+            "Polar Residues": 15,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02789",
+                    "Similarity": 1.0,
+                    "Sequence": "CRRLCYKQRCVTYCRGR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03752",
+                    "Similarity": 1.0,
+                    "Sequence": "CRRLCYKQRCVTYCRGR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03753",
+                    "Similarity": 1.0,
+                    "Sequence": "CRRLCYKQRCVTYCRG"
+                }
+            ]
+        }
+    }
+}

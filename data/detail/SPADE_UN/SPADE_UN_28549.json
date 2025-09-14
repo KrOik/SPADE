@@ -1,0 +1,68 @@
+{
+    "SPADE_UN_28549": {
+        "Sequence Information": {
+            "Peptide Name": "XPF-St8",
+            "Sequence": "GFMSKVANFAKKFAKGGVNAIMNQK",
+            "Sequence Length": 25,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antiparasitic",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P84384",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P84384",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Origin and functional diversification of an amphibian defense peptide arsenal.",
+                    "Pubmed ID": "23935531",
+                    "Reference": "PLoS Genet. 2013;9:e1003662",
+                    "Author": "Roelants K, Fry BG, Ye L, Stijlemans B, Brys L, Kok P, Clynen E, Schoofs L, Cornelis P, Bossuyt F",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/23935531"
+                }
+            ],
+            "Mass": 2687.19,
+            "PI": 10.6,
+            "Net Charge": 5,
+            "Hydrophobicity": -0.13,
+            "Frequent Amino Acids": "KAF",
+            "Absent Amino Acids": "CDEHLOPRTUWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 13,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_28549",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_21998",
+                    "Similarity": 1.0,
+                    "Sequence": "KKFAK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_01225",
+                    "Similarity": 0.875,
+                    "Sequence": "KFAKKFAK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_22190",
+                    "Similarity": 0.7,
+                    "Sequence": "FAKKFAKKFK"
+                }
+            ],
+            "Hemolytic Activity": "Mouse erythrocytes:50% Hemolysis=64 µM,Mouse splenocytes:IC50=16 µM",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=1µM),Pseudomonas aeruginosa ATCC 15692(MIC=4µM),Staphylococcus aureus ATCC 25923(MIC=128µM),Micrococcus luteus(MIC=0.5µM),Saccharomyces cerevisiae(MIC=8µM),Trypanosoma brucei(90-100% Killing=1-8µM)"
+        }
+    }
+}

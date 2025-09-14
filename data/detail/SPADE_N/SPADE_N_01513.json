@@ -1,0 +1,85 @@
+{
+    "SPADE_N_01513": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 2008/0170991 A1",
+                "Patent Link": "http://www.lens.org/lens/patent/US_2008_0170991_A1",
+                "Patent Type": "Patent Application",
+                "Publication Date": "2008-7-17",
+                "Family Info": "CA2661634A1,CN101511382A,EP2061488A2,EP2061488A4,US7846895,US20110207657,WO2008030988A2,WO2008030988A3",
+                "Patent Title": "Selectively targeted antimicrobial peptides and the use thereof.",
+                "Abstract": "The present invention relates to targeting peptides capable of specifically binding to microbial organisms (e.g., P. aeruginosa or S. mutans), antimicrobial peptides having antimicrobial activities, and specifically/selectively targeted antimicrobial peptides (STAMPs). In addition, the present invention provides methods of selectively killing or inhibiting microbial organisms by using the peptides or compositions provided by the present invention."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01513",
+            "Peptide Name": "Dermaseptin-5 (DS V; Dermaseptin-S5, DS5; Frogs, amphibians, animals)",
+            "Source": "Phyllomedusa sauvagei (Sauvage's leaf frog)",
+            "Family": "Belongs to the frog skin active peptide family (Dermaseptin subfamily)",
+            "Gene": "Not found",
+            "Sequence": "GLWSKIKTAGKSVAKAAAKAAVKAVTNAV",
+            "Sequence Length": 29,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P80281"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Antifungal"
+            ],
+            "Target Organism": "[Swiss_Prot Entry P80281]Possesses a potent antimicrobial activity against bacteria, fungi and protozoa",
+            "Hemolytic Activity": "[Ref:8306981]Show strong hemolytic activity against rabbit healthy erythrocytes",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C128H223N37O35",
+            "Mass": 2840.37,
+            "PI": 10.7,
+            "Net Charge": 6,
+            "Hydrophobicity": 0.33,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Mechanism of action": "Probably acts by disturbing membrane functions with its amphipathic structure. Binds to healthy erythrocytes (this binding is receptor independent), and has strong hemolytic activity. Does not bind to P.falciparum infected erythrocytes, but accumulates within the parasite.",
+            "Medical use": "Derivatives of this peptide may be used as therapeutic agents to treat bacterial infections and malaria, and to prevent infection by herpes simplex virus type 1 and HIV-1.",
+            "Literature": [
+                {
+                    "Title": "Isolation and structure of novel defensive peptides from frog skin.",
+                    "Pubmed ID": "8306981",
+                    "Reference": "Eur J Biochem. 1994 Jan 15;219(1-2)145-154.",
+                    "Author": "Mor A, Nicolas P.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=8306981"
+                }
+            ],
+            "Frequent Amino Acids": "AKV",
+            "Absent Amino Acids": "CDEFHMOPQRUY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 16,
+            "Polar Residues": 24,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01521",
+                    "Similarity": 0.8275862068965517,
+                    "Sequence": "GLWSKIKTAGKEAAKAAAKAAGKAALNAVSEAI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06020",
+                    "Similarity": 0.8,
+                    "Sequence": "KAAAKAAKAA"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01171",
+                    "Similarity": 0.7931034482758621,
+                    "Sequence": "GLWSKIKAAGKEAAKAAAKAAGKAALNAVSEAV"
+                }
+            ]
+        }
+    }
+}

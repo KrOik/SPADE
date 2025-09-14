@@ -1,0 +1,74 @@
+{
+    "SPADE_N_01299": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01299",
+            "Peptide Name": "Nigrocin-OR2 (Frogs, amphibians, animals)",
+            "Source": "Odorrana rotodora (Chinese odorous frogs)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "GILSGILGVGKMLVCGLSGLC",
+            "Sequence Length": 21,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Homology",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "Gram-negative bacteria:Escherichia coli ATCC 25922 (MIC=3 µM), Bacillus pyocyaneus CMCCB 10104 (MIC=5 µM);Gram-positive bacterium:Staphylococcus aureus ATCC 25923 (MIC=3 µM).Yeast:Candida albicans ATCC 2002 (MIC=3 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Cyclization (Cys15 and Cys21)",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C87H156N22O24S3",
+            "Mass": 1990.5,
+            "PI": 8.06,
+            "Net Charge": 1,
+            "Hydrophobicity": 1.69,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Extremely Abundant Antimicrobial Peptides Existed in the Skins of Nine Kinds of Chinese Odorous Frogs.",
+                    "Pubmed ID": "22029824",
+                    "Reference": "J Proteome Res. 2012 Jan 1;11(1)306-319.",
+                    "Author": "Yang X, Lee WH, Zhang Y.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=22029824"
+                }
+            ],
+            "Frequent Amino Acids": "GLC",
+            "Absent Amino Acids": "ADEFHNOPQRTUWY",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 7,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01298",
+                    "Similarity": 0.9523809523809523,
+                    "Sequence": "GILSGILGVGKKLVCGLSGLC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01300",
+                    "Similarity": 0.9523809523809523,
+                    "Sequence": "GILSGLLGVGKMLVCGLSGLC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07619",
+                    "Similarity": 0.9523809523809523,
+                    "Sequence": "MFTMKKSLLLLFFLGIINLSLCQEERNAEEERRDEEVAKAEEIKRGILSGILGVGKKLVCGLSGLC"
+                }
+            ]
+        }
+    }
+}

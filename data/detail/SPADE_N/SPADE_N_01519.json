@@ -1,0 +1,76 @@
+{
+    "SPADE_N_01519": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01519",
+            "Peptide Name": "Dermaseptin-7 (DStar 07; Frogs, amphibians, animals)",
+            "Source": "Phyllomedusa tarsius (Brownbelly leaf frog)",
+            "Family": "Belongs to the frog skin active peptide family (Dermaseptin subfamily)",
+            "Gene": "Not found",
+            "Sequence": "ALWKDVLKKIGTVALHAGKAALGAVADTISQ",
+            "Sequence Length": 31,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P84927"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+"
+            ],
+            "Target Organism": "[Swiss_Prot Entry P84927]Gram-positive bacteria:Staphylococcus aureus, Enterococcus faecalis;Gram-neagtive bacterium:Pseudomonas aeruginosa.",
+            "Hemolytic Activity": "[Ref:PubMed ID is not available]Show hemolytic activity at 286 µM",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C143H241N39O40",
+            "Mass": 3146.68,
+            "PI": 9.53,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.51,
+            "Half Life": "Mammalian:4.4 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Antimicrobial peptide, active against the Gram-positive bacterium S. aureus, and the Gram-negative bacteria E. coli and P. aeruginosa. Has hemolytic activity.",
+            "Tissue specificity": "Expressed by the skin glands.",
+            "PTM": "C-terminal amidation.",
+            "Literature": [
+                {
+                    "Title": "Dermaseptins and phylloseptins from Phyllomedusa tarsius (Amphibia).",
+                    "Pubmed ID": "PubMed ID is not available",
+                    "Reference": "Submitted (AUG-2006) to UniProtKB.",
+                    "Author": "Prates M.V, Jardim D.P, Silva L.P, Gordo M, Leite J.R.S.A, Figueredo R.C.R, Amaral A.C, Felipe M.S.S, Bloch C. Jr.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=PubMed ID is not available"
+                }
+            ],
+            "Frequent Amino Acids": "AKL",
+            "Absent Amino Acids": "CEFMNOPRUY",
+            "Basic Residues": 5,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 17,
+            "Polar Residues": 19,
+            "Positive Residues": 5,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07463",
+                    "Similarity": 1.0,
+                    "Sequence": "DVLKKIGTVALHAGKAALGAVADTISQ"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01500",
+                    "Similarity": 0.967741935483871,
+                    "Sequence": "AMWKDVLKKIGTVALHAGKAALGAVADTISQ"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_01356",
+                    "Similarity": 0.9583333333333334,
+                    "Sequence": "MWKDVLKKIGTVALHAGKAALGAV"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,76 @@
+{
+    "SPADE_UN_27205": {
+        "Sequence Information": {
+            "Peptide Name": "Defensin MGD1 (25-33) peptide B",
+            "Sequence": "CGGWHRLRC",
+            "Sequence Length": 9,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antiviral",
+                "Antiparasitic",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P80571",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P80571",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Key role of the loop connecting the two beta strands of mussel defensin in its antimicrobial activity",
+                    "Pubmed ID": "12823551",
+                    "Reference": "Eur J Biochem. 2003;270:2805-2813",
+                    "Author": "Romestand B, Molina F, Richard V, Roch P, Granier C",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/12823551"
+                },
+                {
+                    "Title": "Antiprotozoan and Antiviral Activities of Non-cytotoxic Truncated and Variant Analogues of Mussel Defensin",
+                    "Pubmed ID": "15480442",
+                    "Reference": "Evid Based Complement Alternat Med. 2004;1:167-174",
+                    "Author": "Roch P, Beschin A, Bernard E",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/15480442"
+                }
+            ],
+            "Mass": 1087.28,
+            "PI": 9.02,
+            "Net Charge": 3,
+            "Hydrophobicity": -0.57,
+            "Frequent Amino Acids": "CGR",
+            "Absent Amino Acids": "ADEFIKMNOPQSTUVY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 3,
+            "Polar Residues": 6,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_27205",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02419",
+                    "Similarity": 1.0,
+                    "Sequence": "GFGCPNDYPCHRHCKSIPGRYGGYCGGHRLRCTC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02421",
+                    "Similarity": 1.0,
+                    "Sequence": "GFGCPNDYPCHRHCKSIPGRGGYCGGHRLRCTCYR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02426",
+                    "Similarity": 1.0,
+                    "Sequence": "GFGCPNNYQCHRHCKSIPGRCGGYCGGWHRLRCTCYRC"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Micrococcus luteus ATCC 4698(MIC=28µM),Staphylococcus aureus ATCC 25293(MIC=49µM),Staphylococcus epidermidis ATCC 12228(MIC=43µM),Bacillus megaterium ATCC 17749(MIC=51µM),Vibrio alginolyticus ATCC 17749(MIC=>75µM),Vibrio metschnikovii NCTC 8483(MIC=>75µM),Escherichia coli 363 ATCC 11775(MIC=>75µM),Salmonella enterica subsp. enterica serovar Newport(MIC=>75µM),Fusarium oxysporum(MIC=30µM),Candida sp.(MIC=59µM),Trypanosoma brucei Antat1.1(0-10% Killing=50µM),Leishmania major(no activity data),HIV-1(no activity data),Human lymphomyeloid K563 cells(no activity data),Human cervical carcinoma HeLa MAGIC-5(no activity data),Trypanosoma brucei Antat1.1(no activity data)"
+        }
+    }
+}

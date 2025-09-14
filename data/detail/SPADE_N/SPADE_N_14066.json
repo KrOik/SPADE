@@ -1,0 +1,69 @@
+{
+    "SPADE_N_14066": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_14066",
+            "Peptide Name": "Lan-CE02 (natural AMPs; nisin-like, lantibiotic, type 1, class 1 bacteriocin, Gram-positive bacteria, prokaryotes; UCSS1b)",
+            "Source": "Clostridium sp. E02:human microbiota:Gut",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "VTSVSLCTPGCITGVIMTCTIKTATCGCHVAGK",
+            "Sequence Length": 33,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram+"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 3256.92,
+            "PI": 8.42,
+            "Hydrophobicity": 0.95,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Zhang ZJ, Wu C, Moreira R, Dorantes D, Pappas T, Sundararajan A, Lin H, Pamer EG, van der Donk WA.2024",
+                    "Reference": "ACS Chem Biol. 2024 Jan 31. doi: 10.1021/acschembio.3c00577.PubMed",
+                    "Title": "Activity of Gut-Derived Nisin-like Lantibiotics against Human Gut Pathogens and Commensals."
+                }
+            ],
+            "Frequent Amino Acids": "TCG",
+            "Absent Amino Acids": "DEFNOQRUWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 23,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "Net Charge": 3,
+            "Comments": "Discovery: applied RODEO to the public RefSeq database to identify novel nisin-like class I lantibiotics encoded in gut microbial genomes.Sequence analysis: APD analysis reveals that this sequence is similar (76.47%) toNisin PActivity: Active against E. faecium ATCC700221 (MIC above 10 uM), Methicillin-resistant S. aureus USA300 MRSA (MIC above 10 uM), Methicillin-resistant S. epidermidis SK135 (MIC above 10 uM), L. monocytogenes 10403S (MIC above 10 uM), and C. difficile VPI10463 (MIC ~10 uM), A. hadrus MSK.14.23 (MIC 0.1 uM), B. obeum MSK.18.40 (MIC 0.1-1.0 uM), B. luti MSK.20.18 (MIC 0.1-1.0 uM), E. ramosum MSK.23.96 (MIC above 10 uM), D. formicogenerans MSK.17.61 (MIC 0.1 uM), C. comes MSK.11.23 (MIC 0.01-0.1 uM), C. eutactus MSK.18.32 (MIC 0.1-1.0 uM), and F. fissicatena MSK.9.3 (MIC 0.1-1.0 uM).Recombinant production:bacteria:Escherichia coli: expressed in E. coli followed by isolation and purification. Est.2/2024; 4/2024",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_15412",
+                    "Similarity": 0.9,
+                    "Sequence": "VSVLCTPGCITGVIMCTIKTATCGCHVAGK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_13663",
+                    "Similarity": 0.7741935483870968,
+                    "Sequence": "VTSKSLCTPGCKTGILMTCAIKTATCGCHFG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14037",
+                    "Similarity": 0.7333333333333333,
+                    "Sequence": "ITSKSLCTPGCKTGILMTCPLKTATCGCHF"
+                }
+            ]
+        }
+    }
+}

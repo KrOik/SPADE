@@ -1,0 +1,84 @@
+{
+    "SPADE_UN_00528": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_00528",
+            "Peptide Name": "Cupiennin-1D (spiders, Arthropods, animals)",
+            "Source": "Synthetic construct",
+            "Family": "Belongs to the cupiennin family",
+            "Gene": "Not found",
+            "Sequence": "GFGSLFKFLAKKVAKTVAKQAAKQGAKYVANKHMQ",
+            "Sequence Length": 35,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P83622"
+            ],
+            "Protein Existence": "Synthetic",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.11792701]Gram-negative bacteria:Escherichia coli ATCC 25922 (MIC=0.31-0.63 µM), Pseudomonas aeruginosa ATCC 27853 (MIC=0.31-0.63 µM);Gram-positive bacteria:Staphylococcus aureus ATCC 29213 (MIC=0.31-0.63 µM), Enterococcus faecalis ATCC 29212 (MIC=1.25-2.50 µM).",
+            "Hemolytic Activity": "[Swiss_Prot Entry P83622]has hemolytic activity",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C175H285N49O43S",
+            "Mass": 3795.5,
+            "PI": 10.54,
+            "Net Charge": 9,
+            "Hydrophobicity": -0.27,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Has antimicrobial activity. Has insecticidal and hemolytic activities. Probably acts by disturbing membrane Function",
+            "Tissue specificity": "Expressed by the venom gland.",
+            "Toxic Dose": "LD50 is 6.4 pmol/mg on Drosophila.",
+            "Literature": [
+                {
+                    "Title": "Cupiennin 1, a new family of highly basic antimicrobial peptides in the venom of the spider Cupiennius salei (Ctenidae).",
+                    "Pubmed ID": "11792701",
+                    "Reference": "J Biol Chem. 2002 Mar 29;277(13)11208-11216.",
+                    "Author": "Kuhn-Nentwig L, Muller J, Schaller J, Walz A, Dathe M, Nentwig W.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=11792701"
+                },
+                {
+                    "Title": "Characterisation of antibacterial activity of peptides isolated from the venom of the spider Cupiennius salei (Araneae Ctenidae).",
+                    "Pubmed ID": "10669026",
+                    "Reference": "Toxicon. 2000 Mar;38(3)373-380.",
+                    "Author": "Haeberli S, Kuhn-Nentwig L, Schaller J, Nentwig W.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=10669026"
+                }
+            ],
+            "Frequent Amino Acids": "KAF",
+            "Absent Amino Acids": "CDEIOPRUW",
+            "Basic Residues": 9,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 17,
+            "Polar Residues": 26,
+            "Positive Residues": 9,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02799",
+                    "Similarity": 0.9714285714285714,
+                    "Sequence": "GFGSLFKFLAKKVAKTVAKQAAKQGAKYVANKHME"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02797",
+                    "Similarity": 0.9142857142857143,
+                    "Sequence": "GFGSLFKFLAKKVAKTVAKQAAKQGAKYIANKQME"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02796",
+                    "Similarity": 0.8857142857142857,
+                    "Sequence": "GFGALFKFLAKKVAKTVAKQAAKQGAKYVVNKQME"
+                }
+            ]
+        }
+    }
+}

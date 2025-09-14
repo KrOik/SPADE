@@ -1,0 +1,77 @@
+{
+    "SPADE_N_01789": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01789",
+            "Peptide Name": "Brevinin-1CDYa (Frogs, amphibians, animals)",
+            "Source": "Rana dybowskii (Dybovsky's frog) (Korean brown frog)",
+            "Family": "Belongs to the frog skin active peptide family (Brevinin subfamily)",
+            "Gene": "Not found",
+            "Sequence": "LLSLALAALPKLFCLIFKKC",
+            "Sequence Length": 20,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/B3VZU0"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Swiss_Prot Entry B3VZU0]Gram-positive bacterium:Staphylococcus aureus (MIC=12.5 µM);Gram-negative bacterium:Escherichia coli (MIC=25 µM)",
+            "Hemolytic Activity": "[Ref.19539775]HC50=125 μM against human red blood cells",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Cyclization (Cys14 and Cys20)",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C107H181N23O22S2",
+            "Mass": 2205.85,
+            "PI": 9.39,
+            "Net Charge": 3,
+            "Hydrophobicity": 1.65,
+            "Half Life": "Mammalian:5.5 hourYeast:3 minE.coli:2 min",
+            "Function": "Has low activity against the Gram-positive bacteria",
+            "Tissue specificity": "Expressed by the skin glands.",
+            "PTM": "contains one disulfide bond 14-20.",
+            "Literature": [
+                {
+                    "Title": "Characterization of antimicrobial peptides isolated from the skin of the Chinese frog, Rana dybowskii.",
+                    "Pubmed ID": "19539775",
+                    "Reference": "Comp Biochem Physiol B Biochem Mol Biol. 2009 Oct;154(2)174-178.",
+                    "Author": "Jin LL, Li Q, Song SS, Feng K, Zhang DB, Wang QY, Chen YH.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=19539775"
+                }
+            ],
+            "Frequent Amino Acids": "LAK",
+            "Absent Amino Acids": "DEGHMNOQRTUVWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 14,
+            "Polar Residues": 9,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01784",
+                    "Similarity": 0.95,
+                    "Sequence": "FLSLALAALPKLFCLIFKKC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01782",
+                    "Similarity": 0.8,
+                    "Sequence": "FLSLALAALPKFLCLVFKKC"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_18805",
+                    "Similarity": 0.75,
+                    "Sequence": "GLLSLLSALGKLL"
+                }
+            ]
+        }
+    }
+}

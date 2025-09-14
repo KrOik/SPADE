@@ -1,0 +1,95 @@
+/* 简洁纯色背景系统 */
+
+/* 统一使用纯色紫色背景 */
+.search-section,
+.info-cards-section,
+.research-map-section,
+.stats-section,
+.parallax-section,
+.team-section {
+    background: #2b1055;
+    position: relative;
+}
+
+/* 移除所有过渡效果，使用纯色背景 */
+
+/* 简化边框效果 */
+.search-section,
+.info-cards-section,
+.research-map-section,
+.stats-section,
+.team-section {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* 响应式优化 */
+@media (max-width: 768px) {
+    /* 移动端保持相同的纯色背景 */
+    .search-section,
+    .info-cards-section,
+    .research-map-section,
+    .stats-section,
+    .parallax-section,
+    .team-section {
+        background: #2b1055;
+    }
+}
+
+/* 增强内容区域的对比度 */
+.section-title {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    position: relative;
+    z-index: 20;
+}
+
+.section-subtitle {
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 20;
+}
+
+/* 卡片和内容元素的增强 */
+.info-card,
+.stats-card,
+.team-member-card {
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 
+        0 8px 32px rgba(0, 0, 0, 0.2),
+        inset 0 1px 0 rgba(255, 255, 255, 0.2);
+    position: relative;
+    z-index: 10;
+}
+
+/* 地图区域特殊处理 */
+.map-container {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    padding: 20px;
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* 统计卡片的特殊效果 */
+.stats-card {
+    background: rgba(255, 255, 255, 0.15);
+    transition: all 0.3s ease;
+}
+
+.stats-card:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-5px);
+    box-shadow: 
+        0 15px 40px rgba(0, 0, 0, 0.3),
+        inset 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+/* 降级方案 */
+@media (prefers-reduced-motion: reduce) {
+    .stats-card:hover {
+        transform: none;
+    }
+}
+
+/* 纯色背景系统完成 */ 

@@ -1,0 +1,90 @@
+{
+    "SPADE_N_00584": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00584",
+            "Peptide Name": "Defensin-like protein 195 (Trypsin inhibitor ATTI-1; diDi 4T-1; Plant defensin)",
+            "Source": "Arabidopsis thaliana (Mouse-ear cress)",
+            "Family": "Belongs to the DEFL family",
+            "Gene": "ATTI1",
+            "Sequence": "QGNECLKEYGGDVGFGFCAPRIFPTICYTRCRENKGAKGGRCRWGQGSNVKCLCDFCDDTPQ",
+            "Sequence Length": 62,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q42328",
+                "http://www.uniprot.org/uniprot/O22865",
+                "http://www.uniprot.org/uniprot/Q6ZZP6"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antifungal"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "The protein contains one alpha-helix and two strands of antiparallel beta-sheet, with a type IV beta-turn connecting the two strands. The alpha-helix and the inhibitory loop are connected to the beta-sheet through three disulfide bridges; a fourth disulfide bridge connects the N- and C-termini. (Ref.3)",
+            "Formula": "C291H446N88O89S8",
+            "Mass": 6857.71,
+            "PI": 8.19,
+            "Net Charge": 2,
+            "Hydrophobicity": -0.63,
+            "Half Life": "Mammalian:0.8 hourYeast:10 minE.coli:>10 hour",
+            "Function": "Defense response to fungus.",
+            "PTM": "Contains four disulfide bonds.",
+            "Literature": [
+                {
+                    "Title": "Two large Arabidopsis thaliana gene families are homologous to the Brassica gene superfamily that encodes pollen coat proteins and the male component of the self-incompatibility response.",
+                    "Pubmed ID": "11437247",
+                    "Reference": "Plant Mol Biol. 2001 May;46(1)17-34.",
+                    "Author": "Vanoosthuyse V, Miege C, Dumas C, Cock JM.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=11437247"
+                },
+                {
+                    "Title": "Genome organization of more than 300 defensin-like genes in Arabidopsis.",
+                    "Pubmed ID": "15955924",
+                    "Reference": "Plant Physiol. 2005 Jun;138(2)600-610.",
+                    "Author": "Silverstein KA, Graham MA, Paape TD, VandenBosch KA.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=15955924"
+                },
+                {
+                    "Title": "NMR solution structure of ATTp, an Arabidopsis thaliana trypsin inhibitor.",
+                    "Pubmed ID": "12369816",
+                    "Reference": "Biochemistry. 2002 Oct 15;41(41)12284-96.",
+                    "Author": "Zhao Q, Chae YK, Markley JL.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=12369816"
+                }
+            ],
+            "Frequent Amino Acids": "GCR",
+            "Absent Amino Acids": "HMOU",
+            "Basic Residues": 9,
+            "Acidic Residues": 7,
+            "Hydrophobic Residues": 18,
+            "Polar Residues": 33,
+            "Positive Residues": 9,
+            "Negative Residues": 7,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00356",
+                    "Similarity": 0.8360655737704918,
+                    "Sequence": "DSECLKEYGGDVGFPFCAPRIFPTICYTRCRENKGAKGGRCIWGEGTNVKCLCDYCNDSPFDQ"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03618",
+                    "Similarity": 0.7166666666666667,
+                    "Sequence": "DSECLKEYGGDVGFGFCAPRIYPSFCVQRCRADKGALSGKCIWGQGSNVKCLCNFCRHEP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00582",
+                    "Similarity": 0.7166666666666667,
+                    "Sequence": "QGSKCLKEYGGNVGFSYCAPRIFPSFCYRNCRKNKGAKGGRCRSGGAGAGSMICLCDYCSDKP"
+                }
+            ]
+        }
+    }
+}

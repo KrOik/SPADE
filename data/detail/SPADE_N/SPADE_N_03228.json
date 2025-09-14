@@ -1,0 +1,79 @@
+{
+    "SPADE_N_03228": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03228",
+            "Peptide Name": "TsAP-2 (T. serrulatus antimicrobial peptide 2; scorpions, arachnids, invertebrates, animals)",
+            "Source": "Tityus serrulatus (Brazilian yellow scorpion)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "FLGMIPGLIGGLISAFK",
+            "Sequence Length": 17,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Antifungal",
+                "Anticancer"
+            ],
+            "Target Organism": "Gram-positive bacterium:Staphylococcus aureus (MIC=5 µM).Yeast:Candida albicans (MIC=10 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C84H136N18O19S",
+            "Mass": 1734.15,
+            "PI": 8.75,
+            "Net Charge": 1,
+            "Hydrophobicity": 1.55,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Function": "TsAP-2 was of high potency against the Gram-positive bacterium, Staphylococcus aureus and the yeast Candida albicans.",
+            "Literature": [
+                {
+                    "Title": "Two peptides, TsAP-1 and TsAP-2, from the venom of the Brazilian yellow scorpion, Tityus serrulatus evaluation of their antimicrobial and anticancer activities.",
+                    "Pubmed ID": "23770440",
+                    "Reference": "Biochimie. 2013 Jun 14. pii S0300-9084(13)00164-8.",
+                    "Author": "Guo X, Ma C, Du Q, Wei R, Wang L, Zhou M, Chen T, Shaw C.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=23770440"
+                },
+                {
+                    "Title": "The Brazilian scorpion Tityus costatus Karsch: genes, peptides and function.",
+                    "Pubmed ID": "R2005J1363",
+                    "Author": "Candido D.M.,Lucas S.,Garcia-Gomez B.I.,Batista C.V.F.,Diego-Garcia E."
+                }
+            ],
+            "Frequent Amino Acids": "GIL",
+            "Absent Amino Acids": "CDEHNOQRTUVWY",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 3,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_05660",
+                    "Similarity": 0.9411764705882353,
+                    "Sequence": "FIGMIPGLIGGLISAFK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05658",
+                    "Similarity": 0.8823529411764706,
+                    "Sequence": "FIGMIPGLIGGLISAIK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15293",
+                    "Similarity": 0.8823529411764706,
+                    "Sequence": "IFGMIPGLIGGLISAFK"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,82 @@
+{
+    "SPADE_N_03423": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 2023/0416797 A1",
+                "Patent Link": "http://www.lens.org/lens/patent/US_2023_0416797_A1",
+                "Patent Type": "Patent Application",
+                "Publication Date": "2023-12-28",
+                "Family Info": "JP2023548477A,EP4243844A1,CN116685204A,WO2022104321A1",
+                "Patent Title": "MODULATING ANTIMICROBIAL PEPTIDE HALF-LIFE",
+                "Abstract": "Methods of modulating the half-life of an antimicrobial peptide are described. The method may include administering an antimicrobial peptide to an environment where the antimicrobial peptide remains active until a specified endpoint, and on or after the specified endpoint, digesting the antimicrobial peptide with a protease to thereby inactivate the antimicrobial peptide and modulate its half-life. Compositions and kits for modulating the half-life of an antimicrobial peptide are also described."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03423",
+            "Peptide Name": "Durancin Q prepeptide (Prepeptide of durancin Q)",
+            "Source": "Enterococcus durans",
+            "Family": "Not found",
+            "Gene": "duqQ",
+            "Sequence": "MQTIKELNTMELQEIIGGENDHRMPYELNRPNNLSKGGAKCAAGILGAGLGAVGGGPGGFISAGISAVLGCM",
+            "Sequence Length": 72,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/B5BP43"
+            ],
+            "Protein Existence": "Predicted",
+            "Biological Activity": [
+                "Antimicrobial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C310H510N90O98S6",
+            "Mass": 7258.3,
+            "PI": 5.62,
+            "Net Charge": 0,
+            "Hydrophobicity": 0.07,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Functional analysis and comparison of genes in the durM and the duqQ loci in durancin TW-49M and durancin Q biosynthesis and regulation.",
+                    "Pubmed ID": "PubMed ID is not available",
+                    "Reference": "Submitted (NOV-2006) to the EMBL/GenBank/DDBJ databases",
+                    "Author": "Hu C, Zendo T, Nakayama J, Sonomoto K.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=PubMed ID is not available"
+                }
+            ],
+            "Frequent Amino Acids": "GAL",
+            "Absent Amino Acids": "OUW",
+            "Basic Residues": 6,
+            "Acidic Residues": 6,
+            "Hydrophobic Residues": 31,
+            "Polar Residues": 30,
+            "Positive Residues": 6,
+            "Negative Residues": 6,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03385",
+                    "Similarity": 1.0,
+                    "Sequence": "ENDHRMPYELNRPNNLSKGGAKCAAGILGAGLGAVGGGPGGFISAGISAVLGCM"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06064",
+                    "Similarity": 0.9861111111111112,
+                    "Sequence": "MQTIKELNTMELQKIIGGENDHRMPYELNRPNNLSKGGAKCAAGILGAGLGAVGGGPGGFISAGISAVLGCM"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05607",
+                    "Similarity": 0.8928571428571429,
+                    "Sequence": "ENDHRMPYELNRPNNLSKGGAKCGAAIA"
+                }
+            ]
+        }
+    }
+}

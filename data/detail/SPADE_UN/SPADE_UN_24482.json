@@ -1,0 +1,48 @@
+{
+    "SPADE_UN_24482": {
+        "Sequence Information": {
+            "Peptide Name": "P32",
+            "Sequence": "LXWLXXL",
+            "Sequence Length": 7,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Delineating the Mechanism of Action of a Protease Resistant and Salt Tolerant Synthetic Antimicrobial Peptide against Pseudomonas aeruginosa.",
+                    "Pubmed ID": "35571791",
+                    "Reference": "ACS Omega. 2022;7:15951-15968",
+                    "Author": "Pandit G, Sarkar T, S R V, Debnath S, Satpati P, Chatterjee S",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/35571791"
+                }
+            ],
+            "SPADE ID": "SPADE_UN_24482",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03671",
+                    "Similarity": 1.0,
+                    "Sequence": "MMTKCQKRASIQGLWLLSMVLLASSSLVCASMAVDGQTKEDINATSVTSMNMTRSSSASYNMTGGGGELNRGPCVVRSGFYWCQNIGYPTMSECLKNCES"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03672",
+                    "Similarity": 1.0,
+                    "Sequence": "MARCLKSCSVHGLWLLSMILLASCVVHAHIINGRQSNTGSLTMTTTGEASMIIGDEKDAICYIKAALYCCKRTIQCYQDIAQCLRNCRKNV"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07545",
+                    "Similarity": 1.0,
+                    "Sequence": "SLWLLLLGLVLPSASAQALSYREAVLRAVDRINDGSSEANLYRLLELDPPPKDVEDRGARKPASFRVKETVCPRTSQQPLEQCDFKENGLV"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:8% Hemolysis=100 µM,Human normal embryonic lung cells L132:LC50=>300 µM",
+            "Target Organism": "Pseudomonas aeruginosa MTCC 2488(MIC=20µM),Pseudomonas aeruginosa MTCC 2488(MIC=100µM),Klebsiella pneumoniae MTCC 443(MIC=60µM),Staphylococcus aureus MTCC 96(MIC=40µM)"
+        }
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_23950": {
+        "Sequence Information": {
+            "Peptide Name": "Jelleine-1 [F2W;K3R;I4,6L]",
+            "Sequence": "PWRLSLHL",
+            "Sequence Length": 8,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "O18330",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/O18330",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "An optimized analog of antimicrobial peptide Jelleine-1 shows enhanced antimicrobial activity against multidrug resistant P. aeruginosa and negligible toxicity in vitro and in vivo.",
+                    "Pubmed ID": "33878564",
+                    "Reference": "Eur J Med Chem. 2021;219:113433",
+                    "Author": "Zhou J, Zhang L, He Y, Liu K, Zhang F, Zhang H, Lu Y, Yang C, Wang Z, Fareed MS, Liang X, Yan W, Wang K ",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/33878564"
+                }
+            ],
+            "Mass": 1021.22,
+            "PI": 10.18,
+            "Net Charge": 2,
+            "Hydrophobicity": 0.05,
+            "Frequent Amino Acids": "LHP",
+            "Absent Amino Acids": "ACDEFGIKMNOQTUVY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 3,
+            "Polar Residues": 5,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_23950",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01919",
+                    "Similarity": 1.0,
+                    "Sequence": "KPPWRL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09544",
+                    "Similarity": 1.0,
+                    "Sequence": "ILPWKWPWWPWR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14692",
+                    "Similarity": 1.0,
+                    "Sequence": "GYFPGRPPFPRPFPRPPSRPFPRPPFPGPFPRPYPWR"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=16µM),Pseudomonas aeruginosa ATCC 27853(MIC=32µM),Cronobacter sakazakii ATCC 29544(MIC=16µM),Staphylococcus aureus ATCC 29213(MIC=32µM),Bacillus subtilis ATCC 23857(MIC=16µM),Staphylococcus epidermidis ATCC 12228(MIC=8µM)"
+        }
+    }
+}

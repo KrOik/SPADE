@@ -1,0 +1,73 @@
+{
+    "SPADE_N_02855": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02855",
+            "Peptide Name": "Anas platyrhynchos avian beta-defensin 2 (Apl_AvBD2; Ducks, birds, animals)",
+            "Source": "Anas platyrhynchos (Domestic duck)",
+            "Family": "Belongs to the beta-defensin family",
+            "Gene": "BD2",
+            "Sequence": "MRILYLLFSVLFLVLQVSPGLSLPQRDMFLCRIGSCHFGRCPIHLVRVGSCFGFRSCCKSPWDV",
+            "Sequence Length": 64,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q4VSK2"
+            ],
+            "Protein Existence": "Predicted",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "Micrococcus luteusNCIM 2871 (MBC=3.7 µM), Escherichia coli NCIM 2685, Riemerella anatipestifer (MBC=2.2 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C333H522N90O79S8",
+            "Mass": 7306.78,
+            "PI": 9.21,
+            "Net Charge": 7,
+            "Hydrophobicity": 0.7,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "The widespread tissue distribution and the potent bactericidal and chemotactic activity make Apl_AvBD2 an important molecule in the innate immune response in ducks. It may play a vital role in the immune response of these birds against bacterial and viral pathogens.",
+            "Literature": [
+                {
+                    "Title": "Discovery of Anas platyrhynchos avian beta-defensin 2 (Apl_AvBD2) with antibacterial and chemotactic functions",
+                    "Pubmed ID": "19362739",
+                    "Reference": "Mol Immunol. 2009 Jun;46(10)2029-2038.",
+                    "Author": "Soman SS, Arathy DS, Sreekumar E.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=19362739"
+                }
+            ],
+            "Frequent Amino Acids": "LSC",
+            "Absent Amino Acids": "AENOTU",
+            "Basic Residues": 9,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 33,
+            "Polar Residues": 31,
+            "Positive Residues": 9,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_08191",
+                    "Similarity": 1.0,
+                    "Sequence": "LPQRDMFLCRIGSCHFGRCPIHLVRVGSCFGFRSCCKSPWDV"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08034",
+                    "Similarity": 0.78125,
+                    "Sequence": "MRILYLLFSLLFLALQVSPGLSSPKRDMLFCKRGTCHFGRCPSHLIKVGSCFGFRSCCKWPWDA"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08182",
+                    "Similarity": 0.75,
+                    "Sequence": "MRILYLLFSLLFLALQASPGLSSPRRDMLFCKGGSCHFGGCPSHLIKVGSCFGFRSCCKWPWNA"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,92 @@
+{
+    "SPADE_N_02273": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02273",
+            "Peptide Name": "Rhesus theta-defensin 3 (RTD-3; primates, mammals, animals)",
+            "Source": "Macaca mulatta (Rhesus macaque)",
+            "Family": "Belongs to the alpha-defensin family (Theta subfamily)",
+            "Gene": "Not found",
+            "Sequence": "RCICTRGFCRCICTRGFC",
+            "Sequence Length": 18,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P82270",
+                "http://www.uniprot.org/uniprot/Q9TU01"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antiviral"
+            ],
+            "Target Organism": "Gram-positive bacteria:Staphylococcus aureus 502a, Listeria monocytogenes;Gram-negative bacteria:Salmonella typhimurium, Escherichia coli ML35.Fungi:Candida albicans 16820, Cryptococcus neoformans 271A (the activity of RTD-2 against Escherichia coli ML35 was 2-3-fold less than those of RTD-1 and RTD-3).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C84H140N30O21S6",
+            "Mass": 2098.59,
+            "PI": 9.01,
+            "Net Charge": 4,
+            "Hydrophobicity": 0.52,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Function": "RTD-1 and RTD-3 have similar antimicrobial activities against the Gram-positive bacteria, the Gram-negative bacteria and the fungi C. albicans 16820 and C. neoformans 271A. ",
+            "PTM": "Forms a cyclic peptide with subunit A (RTD-3) or with subunit B (RTD-1). An additional intersubunit disulfide bond is formed. Subunit structure RTD-1 is a cyclic heterodimer composed of subunits A and B; disulfide-linked. RTD-3 is a cyclic homodimer composed of two subunits A; disulfide-linked. RTD-1 is 10-fold more present in cells than RTD-3.",
+            "Literature": [
+                {
+                    "Title": "A cyclic antimicrobial peptide produced in primate leukocytes by the ligation of two truncated alpha-defensins.",
+                    "Pubmed ID": "10521339",
+                    "Reference": "Science. 1999 Oct 15;286(5439)498-502.",
+                    "Author": "Tang YQ, Yuan J, Osapay G, Osapay K, Tran D, Miller CJ, Ouellette AJ, Selsted ME.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=10521339"
+                },
+                {
+                    "Title": "Circular minidefensins and posttranslational generation of molecular diversity.",
+                    "Pubmed ID": "1152799",
+                    "Reference": "J Leukoc Biol. 2001 Sep;70(3)461-464.",
+                    "Author": "Leonova L, Kokryakov VN, Aleshina G, Hong T, Nguyen T, Zhao C, Waring AJ, Lehrer RI.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=1152799"
+                },
+                {
+                    "Title": "Homodimeric theta-defensins from rhesus macaque leukocytes isolation, synthesis, antimicrobial activities, and bacterial binding properties of the cyclic peptides.",
+                    "Pubmed ID": "11675394",
+                    "Reference": "J Biol Chem. 2002 Feb 1;277(5)3079-3084.",
+                    "Author": "Tran D, Tran PA, Tang YQ, Yuan J, Cole T, Selsted ME.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=11675394"
+                }
+            ],
+            "Frequent Amino Acids": "CRF",
+            "Absent Amino Acids": "ADEHKLMNOPQSUVWY",
+            "Basic Residues": 4,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 4,
+            "Polar Residues": 12,
+            "Positive Residues": 4,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02270",
+                    "Similarity": 1.0,
+                    "Sequence": "RCICTRGFC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06236",
+                    "Similarity": 1.0,
+                    "Sequence": "GFCRCICTRGFCRCICTR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_09526",
+                    "Similarity": 0.8888888888888888,
+                    "Sequence": "RCICTRGIC"
+                }
+            ]
+        }
+    }
+}

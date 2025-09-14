@@ -1,0 +1,88 @@
+{
+    "SPADE_UN_00490": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 6172185 B1",
+                "Patent Link": "http://www.lens.org/lens/patent/US_6172185_B1",
+                "Patent Type": "Granted Patent",
+                "Publication Date": "2001-1-9",
+                "Family Info": "WO1999060016A2,WO1999060016A3",
+                "Patent Title": "Antimicrobial cationic peptide derivatives of bactenecin.",
+                "Abstract": "A novel class of cationic peptides having antimicrobial activity is provided. Exemplary peptides of the invention include RLARIVVIRVAR (SEQ ID NO:2) and RLSRIVVIRVCR (SEQ ID NO:3). Also provided are methods for inhibiting the growth of bacteria utilizing the peptides of the invention."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_00490",
+            "Peptide Name": "Bac2I-NH2 (cyclic derivative of bactenecin)",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "RICRIVVIRCIR",
+            "Sequence Length": 12,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-negative bacteria:Escherichia coli K-12 (MIC=4 µg/ml), Pseudomonas aeruginosa K799 (MIC=16 µg/ml), Salmonella typhimurium 14028s (MIC=8 µg/ml);Gram-positive bacteria:Staphylococcus aureus ATCC 25923 (MIC=32 µg/ml), Staphylococcus epidermidis C621 (MIC=8 µg/ml), Enterococcus faecalis ATCC 29212 (MIC>32 µg/ml).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C64H122N24O13S2",
+            "Mass": 1499.94,
+            "PI": 11.53,
+            "Net Charge": 4,
+            "Hydrophobicity": 1.12,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Function": "Has antibacterial activiy against Gram-negative and Gram-positive bacteria.",
+            "Literature": [
+                {
+                    "Title": "Improved derivatives of bactenecin, a cyclic dodecameric antimicrobial cationic peptide.",
+                    "Pubmed ID": "10223951",
+                    "Reference": "Antimicrob Agents Chemother. 1999 May;43(5)1274-1276.",
+                    "Author": "Wu M, Hancock RE.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=10223951"
+                },
+                {
+                    "Title": "Improved derivatives of bactenecin, a cyclic dodecameric antimicrobial cationic peptide",
+                    "Pubmed ID": "",
+                    "Author": "Wu M, Hancock RE"
+                }
+            ],
+            "Frequent Amino Acids": "IRC",
+            "Absent Amino Acids": "ADEFGHKLMNOPQSTUWY",
+            "Basic Residues": 4,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 8,
+            "Positive Residues": 4,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_01832",
+                    "Similarity": 1.0,
+                    "Sequence": "RIVVIR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_01839",
+                    "Similarity": 1.0,
+                    "Sequence": "RIVVI"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_01840",
+                    "Similarity": 1.0,
+                    "Sequence": "IVVIR"
+                }
+            ]
+        }
+    }
+}

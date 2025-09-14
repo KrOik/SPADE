@@ -1,0 +1,66 @@
+{
+    "SPADE_N_15068": {
+        "Sequence Information": {
+            "Peptide Name": "Specialicin",
+            "Sequence": "CLGVGSCVDFAGCGYAVVCFW",
+            "Sequence Length": 21,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antiviral"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "1. Streptomyces specialis JCM 16611",
+            "Gene": "",
+            "PDB ID": "6AK0",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "A0A493R6M6",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/A0A493R6M6",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Isolation and structure determination of a new lasso peptide specialicin based on genome mining.",
+                    "Pubmed ID": "30448257",
+                    "Reference": "Bioorg Med Chem. 2018;26:6050-6055",
+                    "Author": "Kaweewan I, Hemmi H, Komaki H, Harada S, Kodani S",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/30448257"
+                }
+            ],
+            "Mass": 2156.52,
+            "PI": 4.05,
+            "Net Charge": -1,
+            "Hydrophobicity": 1.51,
+            "Frequent Amino Acids": "CGV",
+            "Absent Amino Acids": "EHIKMNOPQRTU",
+            "Basic Residues": 0,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 8,
+            "Positive Residues": 0,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_N_15068",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_11375",
+                    "Similarity": 0.9523809523809523,
+                    "Sequence": "CLGVGSCNDFAGCGYAVVCFW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05603",
+                    "Similarity": 0.9047619047619048,
+                    "Sequence": "CLGVGSCNDFAGCGYAIVCFW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15069",
+                    "Similarity": 0.9047619047619048,
+                    "Sequence": "CLGIGSCNDFAGCGYAVVCFW"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Bacillus subtilis NBRC 13719(MIC=>32µg/ml),Micrococcus luteus NBRC 3333(MIC=8µg/ml),Escherichia coli NBRC 102203(MIC=>32µg/ml),Staphylococcus aureus NBRC 100910(MIC=>32µg/ml),Pseudomonas aeruginosa NBRC 12689(MIC=>32µg/ml),HIV-1 NL4-3(IC50=15±4.5µg/ml)"
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "SPADE_N_00856": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00856",
+            "Peptide Name": "Cyclotide vibi-C (Plant defensin)",
+            "Source": "Viola biflora (Yellow wood violet)",
+            "Family": "Belongs to the cyclotide family",
+            "Gene": "Not found",
+            "Sequence": "GLPVCGETCAFGSCYTPGCSCSWPVCTRN",
+            "Sequence Length": 29,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P85241"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Cytotoxic"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "No specific N-terminal",
+            "C-terminal Modification": "No specific C-terminal",
+            "Stereochemistry": "L",
+            "Structure Description": "The cyclotides are head-to-tail macrocyclic and they have three disulfides arranged in a cystine knot, in which two disulfide bonds and their connecting backbone segments form an embedded ring that is penetrated by the third disulfide bond. Cyclotides exhibit a broad range of biological effects, including insecticidal, haemolytic, and cytotoxic effects.",
+            "Formula": "C125H188N34O40S6",
+            "Mass": 2999.42,
+            "PI": 5.96,
+            "Net Charge": 0,
+            "Hydrophobicity": 0.25,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Probably participates in a plant defense mechanism and shows potent cytotoxic activity.",
+            "PTM": "Contains three disulfide bonds 5-19; 9-21; 14-26. This is a cyclic peptide (cross-link between G1-N29).",
+            "Literature": [
+                {
+                    "Title": "The alpine violet, Viola biflora, is a rich source of cyclotides with potent cytotoxicity.",
+                    "Pubmed ID": "18191970",
+                    "Reference": "Phytochemistry. 2008 Feb;69(4)939-952.",
+                    "Author": "Herrmann A, Burman R, Mylne JS, Karlsson G, Gullbo J, Craik DJ, Clark RJ, Göransson U.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=18191970"
+                }
+            ],
+            "Frequent Amino Acids": "CGP",
+            "Absent Amino Acids": "DHIKMOQU",
+            "Basic Residues": 1,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 18,
+            "Positive Residues": 1,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00768",
+                    "Similarity": 0.896551724137931,
+                    "Sequence": "GLPVCGETCVTGSCYTPGCTCSWPVCTRN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07725",
+                    "Similarity": 0.8636363636363636,
+                    "Sequence": "TCVGGSCNTPGCSCSWPVCTRNGLPICGE"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00710",
+                    "Similarity": 0.8620689655172413,
+                    "Sequence": "GLPVCGETCAGGTCNTPGCSCSWPICTRN"
+                }
+            ]
+        }
+    }
+}

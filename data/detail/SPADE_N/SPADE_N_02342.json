@@ -1,0 +1,101 @@
+{
+    "SPADE_N_02342": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 7384911 B2",
+                "Patent Link": "http://www.lens.org/lens/patent/US_7384911_B2",
+                "Patent Type": "Granted Patent",
+                "Publication Date": "2008-6-10",
+                "Family Info": "CA2492053A1,DE60330454D1,EP1517916A2,EP1517916B1,US20050245437,WO2004003006A2,WO2004003006A3",
+                "Patent Title": "Peptides having antimicrobial properties and compositions containing them, notably for the preservation of foodstuffs.",
+                "Abstract": "An isolated peptide including an amino acid sequence of formula (II): Xaa-Ca1-Xab-Ca2-Xac-Ca3-Xad-Ca4-Xae-Ca5-Ca6-Xaf (II). wherein Xaa is Ser-Phe-Gly-Leu, Xab is Arg-Leu-Arg-Arg-Gly-Phe, Xac is Ala-Xac2-Gly-Arg, Xad is Arg-Phe-Pro-Ser-Ile-Pro-Ile-Gly-Arg, Xae is Ser-Arg-Phe-Val-Gln, and Xaf is Arg-Arg-Val-Trp, Xac2 is histidine or arginine, Ca1, Ca2, Ca3, Ca4, Ca5 and Ca6 are sulfur containing amino acids, wherein each of Ca1-Ca5, Ca2-Ca4 and Ca3-Ca6 are linked together by a sulfur bridge, and wherein the amino acid sequence has antimicrobial activity."
+            },
+            {
+                "Patent No": "US 6399370 B1",
+                "Patent Link": "http://www.lens.org/lens/patent/US_6399370_B1",
+                "Patent Type": "Granted Patent",
+                "Publication Date": "2002-6-4",
+                "Family Info": "US4954487,US5240846,US5550109,US5625128,WO9428938",
+                "Patent Title": "Compositions And Methods For Use Of Defensin",
+                "Abstract": "The invention relates to mammalian beta defensin and methods of use thereof for treatment of microbial infection."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02342",
+            "Peptide Name": "Beta-defensin 1 (BD-1; Defensin, beta 1; primates, mammals,animals)",
+            "Source": "Pongo pygmaeus (Bornean orangutan)",
+            "Family": "Belongs to the beta-defensin family",
+            "Gene": "Not found",
+            "Sequence": "DHYNCVSSGGQCLYSACPIFTKIQGTCYRGKAKCCK",
+            "Sequence Length": 36,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P61263",
+                "http://www.uniprot.org/uniprot/A4H1Z4"
+            ],
+            "Protein Existence": "Homology",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C167H262N48O50S6",
+            "Mass": 3934.55,
+            "PI": 8.87,
+            "Net Charge": 5,
+            "Hydrophobicity": -0.27,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:>10 hour",
+            "Function": "Has bactericidal activity (By similarity).",
+            "PTM": "Contains three disulfide bonds 5-34; 12-27; 17-35.",
+            "Literature": [
+                {
+                    "Title": "Beta-defensin 1 gene variability among non-human primates.",
+                    "Pubmed ID": "11862391",
+                    "Reference": "Immunogenetics. 2002 Feb;53(10-11)907-913.",
+                    "Author": "Del Pero M, Boniotto M, Zuccon D, Cervella P, Spanò A, Amoroso A, Crovella S.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=11862391"
+                },
+                {
+                    "Title": "Evolution and sequence variation of human beta-defensin genes.",
+                    "Pubmed ID": "PubMed ID is not available",
+                    "Reference": "Submitted (NOV-2006) to the EMBL/GenBank/DDBJ databases.",
+                    "Author": "Hollox E.J, Armour J.A.L.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=PubMed ID is not available"
+                }
+            ],
+            "Frequent Amino Acids": "CGK",
+            "Absent Amino Acids": "EMOUW",
+            "Basic Residues": 6,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 26,
+            "Positive Residues": 6,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03946",
+                    "Similarity": 1.0,
+                    "Sequence": "GNFLTGLGHRSDHYNCVSSGGQCLYSACPIFTKIQGTCYRGKAKCCK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04180",
+                    "Similarity": 1.0,
+                    "Sequence": "MRTSYLLLFTLCLLLSEMASGGNFLTGLGHRSDHYNCVSSGGQCLYSACPIFTKIQGTCYRGKAKCCK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08307",
+                    "Similarity": 1.0,
+                    "Sequence": "TPGSPEFDHYNCVSSGGQCLYSACPIFTKIQGTCYRGKAKCCK"
+                }
+            ]
+        }
+    }
+}

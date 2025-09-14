@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_30259": {
+        "Sequence Information": {
+            "Peptide Name": "AA1",
+            "Sequence": "AKLWLKA",
+            "Sequence Length": 7,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "High specific selectivity and Membrane-Active Mechanism of the synthetic centrosymmetric ?-helical peptides with Gly-Gly pairs.",
+                    "Pubmed ID": "26530005",
+                    "Reference": "Sci Rep. 2015;5:15963",
+                    "Author": "Wang J, Chou S, Xu L, Zhu X, Dong N, Shan A, Chen Z",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/26530005"
+                }
+            ],
+            "Mass": 829.04,
+            "PI": 10.0,
+            "Net Charge": 2,
+            "Hydrophobicity": 0.36,
+            "Frequent Amino Acids": "AKL",
+            "Absent Amino Acids": "CDEFGHIMNOPQRSTUVY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 4,
+            "Polar Residues": 3,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_30259",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_10335",
+                    "Similarity": 1.0,
+                    "Sequence": "GVVDILKGAAKDIAGHLASKVMAKL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11068",
+                    "Similarity": 1.0,
+                    "Sequence": "AKLWLKAAKLWLKA"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11069",
+                    "Similarity": 1.0,
+                    "Sequence": "AKLWLKAAKLWLKAAKLWLKA"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:5% Hemolysis=>128 µM",
+            "Target Organism": "Escherichia coli ATCC 25922(MBC=>128µM),Escherichia coli UB1005(MBC=>128µM),Salmonella enterica subsp. enterica serovar Typhimurium ATCC 14028(MBC=>128µM),Staphylococcus aureus ATCC 29213(MBC=>128µM),Staphylococcus aureus ATCC 43300(MBC=>128µM),Staphylococcus epidermidis ATCC 12228(MBC=>128µM)"
+        }
+    }
+}

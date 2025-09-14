@@ -1,0 +1,82 @@
+{
+    "SPADE_UN_11722": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "KR 20190033837 A",
+                "Patent Link": "http://www.lens.org/lens/patent/KR_20190033837_A",
+                "Patent Type": "Patent Application",
+                "Publication Date": "2019-4-1",
+                "Family Info": "US11117931B2,US20200216497A1,KR101998106B1,WO2019059709A3,WO2019059709A2",
+                "Patent Title": "Novel antimicrobial peptide derived from Hp1404 peptide and uses thereof",
+                "Abstract": "The present invention relates to an antimicrobial peptide in which i) first and fourteenth amino acids are deleted, ii) fourth and eighth amino acids are substituted with lysine (K), iii) seventh amino acid is substituted with leucine (L), iv) ninth amino acid is glycine (G) or is substituted with lysine (K), and v) twelfth amino acid is serine (S) or is substituted with lysine (K) in an Hp1404 peptide consisting of the amino acid sequence of SEQ ID NO: 1, and to uses thereof. The antimicrobial peptide of the present invention shows excellent antimicrobial activity against gram positive bacteria, gram negative bacteria, and antibiotic resistant bacteria, and has low cytotoxicity against cells derived from mice and human beings, thereby being useful as an active ingredient of antimicrobial antibiotics, cosmetic compositions, food additives, feed additives, and biopesticides."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_11722",
+            "Peptide Name": "Hp1404-T1d",
+            "Source": "Synthetic construct",
+            "Family": "Derived from Hp1404",
+            "Gene": "Not found",
+            "Sequence": "ILKKLLKKVKSI",
+            "Sequence Length": 12,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.29379033] Gram-negative bacteria:Pseudomonas aeruginosa ATCC 27853 (MIC=1.56 μM), Pseudomonas aeruginosa 138 (MIC=12.5 μM), Pseudomonas aeruginosa 431 (MIC=3.13 μM), Pseudomonas aeruginosa 434 (MIC=3.13 μM), Pseudomonas aeruginosa 557 (MIC=3.13 μM), Pseudomonas aeruginosa 559 (MIC=12.5 μM), Pseudomonas aeruginosa 778 (MIC=3.13 μM), Pseudomonas aeruginosa 1034 (MIC=3.13 μM), Pseudomonas aeruginosa 1162 (MIC=1.56 μM), Pseudomonas aeruginosa 3290 (MIC=6.25 μM), Pseudomonas aeruginosa 3399 (MIC=1.56 μM), Pseudomonas aeruginosa 3543 (MIC=25 μM), Pseudomonas aeruginosa 3592 (MIC=3.13 μM), Pseudomonas aeruginosa 3904 (MIC=6.25 μM), Pseudomonas aeruginosa 4007 (MIC=6.25 μM), Pseudomonas aeruginosa 4319 (MIC=3.13 μM), Pseudomonas aeruginosa 4891 (MIC=3.13 μM), Pseudomonas aeruginosa 5018 (MIC=1.56 μM), Pseudomonas aeruginosa 671973 (MIC=1.56 μM)",
+            "Hemolytic Activity": "[Ref.29379033] Hp1404-T1d does not induce substantial hemolysis, even at the high tested concentration (200 μM) against mouse red blood cells",
+            "Cytotoxicity": "[Ref.29379033] The cell survial  against HaCaT cells is 58%, 48%, 52% and 34% at peptide concentrations of 25, 50, 100 and 200 μM",
+            "Binding Target": "Lipopolysaccharide (LPS)-binding",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "The peptide adopts an alpha-helical conformation in the membrane-mimicking environments and adopts a random coil conformation in the presence of all liposome types .",
+            "Formula": "C68H131N17O14",
+            "Mass": 1410.87,
+            "PI": 10.6,
+            "Net Charge": 5,
+            "Hydrophobicity": 0.36,
+            "Half Life": "Mammalian:20 hourYeast:30 minE.coli:>10 hour",
+            "Function": "Antibacterial activity against Gram-negative bacteria.",
+            "Literature": [
+                {
+                    "Title": "Mechanisms driving the antibacterial and antibiofilm properties of Hp1404 and its analogue peptides against multidrug-resistant Pseudomonas aeruginosa.",
+                    "Pubmed ID": "29379033",
+                    "Reference": "Sci Rep. 2018 Jan 29;8(1)1763.",
+                    "Author": "Kim MK, Kang HK, Ko SJ, Hong MJ, Bang JK, Seo CH, Park Y.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=29379033"
+                }
+            ],
+            "Frequent Amino Acids": "KLI",
+            "Absent Amino Acids": "ACDEFGHMNOPQRTUWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 7,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_11722",
+                    "Similarity": 1.0,
+                    "Sequence": "ILKKLLKKVKSI"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_18378",
+                    "Similarity": 1.0,
+                    "Sequence": "SMFTAILKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_23250",
+                    "Similarity": 1.0,
+                    "Sequence": "FLKILKKLL"
+                }
+            ]
+        }
+    }
+}

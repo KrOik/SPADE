@@ -1,0 +1,75 @@
+{
+    "SPADE_N_00740": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00740",
+            "Peptide Name": "Cliotide T1 (cT1; Plant defensin)",
+            "Source": "Clitoria ternatea (Butterfly pea)",
+            "Family": "Belongs to the cyclotide family",
+            "Gene": "Not found",
+            "Sequence": "GIPCGESCVFIPCITAAIGCSCKSKVCYRN",
+            "Sequence Length": 30,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anticancer"
+            ],
+            "Target Organism": "[Ref.21596752]Gram-positive bacteria:Staphylococcus aureus ATCC12600, Enterococcus faecalis ATCC 47077 (less active);Gram-negative bacteria:Escherichia coli ATCC 700926 (MIC=1.1 µM), Pseudomonas aeruginosa ATCC 39018 (MIC=2.7 µM), Klebsiella pneumonia ATCC 13883 (MIC=4.7 µM).",
+            "Hemolytic Activity": "[Ref.21596752] HD50 = 7.1 μM against human red blood cells",
+            "Cytotoxicity": "[Ref.21596752] IC50=0.6 µM against HeLa cells.",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C132H216N36O39S6",
+            "Mass": 3123.73,
+            "PI": 8.33,
+            "Net Charge": 2,
+            "Hydrophobicity": 0.66,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Cliotide T1 shows stronger antimicrobial activity against the Gram-negative bacteria than the Gram-positive bacteria. It also has hemolytic activity against human type A erythrocytes (HD50=7.1 µM) and cytotoxicity against HeLa Cells (IC50=0.6 µM).",
+            "Comments": "HD50 refers to the peptide concentration that causes 50% lysis of red blood cells; IC50 refers to the peptide concentration that causes 50% death of HeLa cells].",
+            "Literature": [
+                {
+                    "Title": "Discovery and characterization of novel cyclotides originated from chimeric precursors consisting of albumin-1 chain a and cyclotide domains in the Fabaceae family.",
+                    "Pubmed ID": "21596752",
+                    "Reference": "J Biol Chem. 2011 Jul 8;286(27)24275-24287.",
+                    "Author": "Nguyen GK, Zhang S, Nguyen NT, Nguyen PQ, Chiu MS, Hardjojo A, Tam JP.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=21596752"
+                }
+            ],
+            "Frequent Amino Acids": "CIG",
+            "Absent Amino Acids": "DHLMOQUW",
+            "Basic Residues": 3,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 19,
+            "Positive Residues": 3,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00743",
+                    "Similarity": 0.9666666666666667,
+                    "Sequence": "GIPCGESCVFIPCITGAIGCSCKSKVCYRN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00350",
+                    "Similarity": 0.9333333333333333,
+                    "Sequence": "GIPCGESCVWIPCITSAIGCSCKSKVCYRN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00760",
+                    "Similarity": 0.9333333333333333,
+                    "Sequence": "GIPCGESCVWIPCISAAIGCSCKSKVCYRN"
+                }
+            ]
+        }
+    }
+}

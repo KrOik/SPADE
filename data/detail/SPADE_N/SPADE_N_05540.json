@@ -1,0 +1,72 @@
+{
+    "SPADE_N_05540": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_05540",
+            "Peptide Name": "Enterocin O16 (Bacteriocin)",
+            "Source": "Enterococcus faecalis",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "LGSCVANKIKDEFFAMISISAIVKAAQKKAWKELAVTVLRFAKANGLKTNAIIVAGQLALWAVQCGLS",
+            "Sequence Length": 68,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+"
+            ],
+            "Target Organism": "Gram-positive(certain)",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C330H545N87O87S3",
+            "Mass": 7219.58,
+            "PI": 9.84,
+            "Net Charge": 6,
+            "Hydrophobicity": 0.62,
+            "Half Life": "Mammalian:5.5 hourYeast:3 minE.coli:2 min",
+            "Comments": "the enterocin O16 antimicrobial peptide is translated as a large precursor pre-proprotein. The precursor is secreted via the general secretory pathway, and a 30-residues proprotein is released from the cells",
+            "Literature": [
+                {
+                    "Title": "The fsr Quorum-Sensing System and Cognate Gelatinase Orchestrate the Expression and Processing of Proprotein EF_1097 into the Mature Antimicrobial Peptide Enterocin O16.",
+                    "Pubmed ID": "25733609",
+                    "Reference": "J Bacteriol. 2015 Jul;197(13)2112-21.",
+                    "Author": "Dundar H, Brede DA, La Rosa SL, El-Gendy AO, Diep DB, Nes IF.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=25733609"
+                }
+            ],
+            "Frequent Amino Acids": "AKL",
+            "Absent Amino Acids": "HOPUY",
+            "Basic Residues": 9,
+            "Acidic Residues": 3,
+            "Hydrophobic Residues": 38,
+            "Polar Residues": 42,
+            "Positive Residues": 9,
+            "Negative Residues": 3,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_14324",
+                    "Similarity": 1.0,
+                    "Sequence": "TNAIIVAGQLALWAVQCGLS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14325",
+                    "Similarity": 1.0,
+                    "Sequence": "AIIVAGQLALWAVQCG"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_17083",
+                    "Similarity": 0.5263157894736842,
+                    "Sequence": "KAAKKAWKAWKKAAKAWKKAA"
+                }
+            ]
+        }
+    }
+}

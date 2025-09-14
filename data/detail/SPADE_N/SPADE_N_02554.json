@@ -1,0 +1,75 @@
+{
+    "SPADE_N_02554": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02554",
+            "Peptide Name": "Arasin-1 (Pro-rich, Arg-rich; crabs, Arthropods, animals)",
+            "Source": "Hyas araneus (Great spider crab)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "SRWPSPGRPRPFPGRPKPIFRPRPCNCYAPPCPCDRW",
+            "Sequence Length": 37,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/A6XMY0"
+            ],
+            "Protein Existence": "Predicted",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-positive bacteria:Corynebacterium glutamicum (MIC=0.8 µM), Listonella anguillarum (MIC=6.3 µM);Gram-negative bacterium:Escherichia coli (MIC=12.5 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C196H292N62O44S4",
+            "Mass": 4349.06,
+            "PI": 10.75,
+            "Net Charge": 7,
+            "Hydrophobicity": -1.22,
+            "Half Life": "Mammalian:1.9 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Arasin 1, a proline-arginine-rich antimicrobial peptide isolated from the spider crab, Hyas araneus.",
+                    "Pubmed ID": "17658600",
+                    "Reference": "Dev Comp Immunol. 2008;32(3)275-285.",
+                    "Author": "Stensvag K, Haug T, Sperstad S.V, Rekdal O, Indrevoll B, Styrvold O.B.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=17658600"
+                }
+            ],
+            "Frequent Amino Acids": "PRC",
+            "Absent Amino Acids": "EHLMOQTUV",
+            "Basic Residues": 8,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 19,
+            "Polar Residues": 17,
+            "Positive Residues": 8,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_10223",
+                    "Similarity": 1.0,
+                    "Sequence": "SRWPSPGRPRPFPGRPKPIFRPR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10224",
+                    "Similarity": 1.0,
+                    "Sequence": "SRWPSPGRPRPFPGRPKPIF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10225",
+                    "Similarity": 1.0,
+                    "Sequence": "SRWPSPGRPRPFPG"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,75 @@
+{
+    "SPADE_N_05988": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_05988",
+            "Peptide Name": "Brevinin-1GHd",
+            "Source": "Sylvirana guentheri (Gunther's frog) (Rana guentheri)",
+            "Family": "Belongs to the frog skin active peptide (FSAP) family. Brevinin subfamily",
+            "Gene": "N/A",
+            "Sequence": "FLGALFKVASKLVPAAICSISKKC",
+            "Sequence Length": 24,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/A0A6M4CA40"
+            ],
+            "Protein Existence": "Transcript level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.32347293] Gram-positive bacteria:S. aureus (MIC = 2 μM/MBC= 4 µM), MRSA(MIC = 4 μM/MBC = 4µM);Gram-negative:E. coli(MIC = 8 μM/MBC = 8 µM), P. aeruginosa(MIC = 32 μM/MBC = 32µM);Fungi:C. albicans(MIC = 4 μM/MBC = 8µM）",
+            "Hemolytic Activity": "[Ref.32347293] Brevinin-1GHd displayed 13% hemolysis on horse red blood cells at its highest MIC/MBC value of the tested bacteria P. aeruginosa (32 µM). However, when the concentration increased above 64 μM, the hemolytic activity of Brevinin-1GHd also gradually increased. At the concentration of 64, 128, 256 and 512 μM, it displayed about 36%, 64%, 83% and 108% hemolysis.",
+            "Cytotoxicity": "[Ref.32347293]Brevinin-1GHd showed significant cytotoxicity toward human HMEC-1 and HaCaT cells at concentrations of 0.00001 and 0.0001 M, respectively. Brevinin-1GHd induced one cell viability of 56% on HMEC-1 and the other cell viability of 75% on HaCat.",
+            "Binding Target": "Cell membrane",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "The results of CD spectroscopy revealed that Brevinin-1GHd adopt a random coil structure in an aqueous environment, while forming an alpha-helix structure in a membrane-mimetic environment.",
+            "Formula": "C116H196N28O28S2",
+            "Mass": 2495.1,
+            "PI": 9.7,
+            "Net Charge": 4,
+            "Hydrophobicity": 1.11,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Comments": "Brevinin-1GHd with its excellent antimicrobial and anticancer activities is a promising candidate for a novel antibiotic agent, and study of its structure activity relationships also provided a rational template for further research and peptide analog design. In the reference, the example of Brevinin-1GHd is used to challenge the importance of \"Rana-Box\", which appears in many AMPs originating from frogs and contains an intermolecular disulfide bridge at the C-terminus of the peptide and seven to nine amino acid residues.",
+            "Literature": [
+                {
+                    "Title": "Brevinin-1GHd a novel Hylarana guentheri skin secretion-derived Brevinin-1 type peptide with antimicrobial and anticancer therapeutic potential",
+                    "Pubmed ID": "32347293",
+                    "Reference": "Biosci Rep. 2020 May 29;40(5)BSR20200019. doi 10.1042/BSR20200019.",
+                    "Author": "Jiang Y, Wu Y, Wang T, Chen X, Zhou M, Ma C, Xi X, Zhang Y, Chen T, Shaw C, Wang L.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=32347293"
+                }
+            ],
+            "Frequent Amino Acids": "AKL",
+            "Absent Amino Acids": "DEHMNOQRTUWY",
+            "Basic Residues": 4,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 14,
+            "Polar Residues": 15,
+            "Positive Residues": 4,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_08502",
+                    "Similarity": 1.0,
+                    "Sequence": "FLGALFKVA"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08503",
+                    "Similarity": 1.0,
+                    "Sequence": "FLGALFKVASK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_28795",
+                    "Similarity": 1.0,
+                    "Sequence": "FLGALFKVA"
+                }
+            ]
+        }
+    }
+}

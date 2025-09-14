@@ -1,0 +1,74 @@
+{
+    "SPADE_UN_27996": {
+        "Sequence Information": {
+            "Peptide Name": "Pleurocidin (1-22)",
+            "Sequence": "GWGSFFKKAAHVGKHVGKAALT",
+            "Sequence Length": 22,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P81941",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P81941",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Influence of the hydrophobic amino acids in the N- and C-terminal regions of pleurocidin on antifungal activity.",
+                    "Pubmed ID": "20798581",
+                    "Reference": "J Microbiol Biotechnol. 2010;20:1192-1195",
+                    "Author": "Lee J, Lee DG",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/20798581"
+                },
+                {
+                    "Title": "Influence of the N- And C-terminal Regions of Antimicrobial Peptide Pleurocidin on Antibacterial Activity",
+                    "Pubmed ID": "23075787",
+                    "Reference": "J Microbiol Biotechnol. 2012;22:1367-1374",
+                    "Author": "Cho J, Choi H, Lee DG",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/23075787"
+                }
+            ],
+            "Mass": 2297.66,
+            "PI": 10.48,
+            "Net Charge": 6,
+            "Hydrophobicity": -0.05,
+            "Frequent Amino Acids": "AGK",
+            "Absent Amino Acids": "CDEIMNOPQRUY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 13,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_27996",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02066",
+                    "Similarity": 1.0,
+                    "Sequence": "GWGSFFKKAAHVGKHVGKAALTHYL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04060",
+                    "Similarity": 1.0,
+                    "Sequence": "MKFTATFLMIAIFVLMVEPGECGWGSFFKKAAHVGKHVGKAALTHYLGDKQELNKRAVDEDPNVIVFE"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04083",
+                    "Similarity": 1.0,
+                    "Sequence": "MKFTATFLMIAIFVLMVEPGECGWGSFFKKAAHVGKHVGKAALTHYLGDKQELNKRAVDE"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:0% Hemolysis=3.13-100 µM",
+            "Target Organism": "Aspergillus flavus KCTC 1375(MIC=10µM),Candida albicans ATCC 90028(MIC=10µM),Malassezia furfur KCTC 7744(MIC=10µM),Staphylococcus aureus ATCC 25923(MIC=10µM),Staphylococcus aureus(MIC=5-10µM),Enterococcus faecium ATCC 19434(MIC=10µM),Enterococcus faecium(MIC=5-10µM),Escherichia coli O157:H7 ATCC 43895(MIC=5-10µM),Escherichia coli(MIC=5-10µM),Pseudomonas aeruginosa ATCC 27853(MIC=5-10µM),Pseudomonas aeruginosa(MIC=5-20µM)"
+        }
+    }
+}

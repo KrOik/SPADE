@@ -1,0 +1,73 @@
+{
+    "SPADE_N_05688": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_05688",
+            "Peptide Name": "Tepmporin-1Ee (frog, amphibians, animals)",
+            "Source": "skin secretion, the European edible frog, Pelophylax kl. esculentus, Europe.",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "FLPVIAGVLSKLF",
+            "Sequence Length": 13,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.27255993]Gram-positive bacteria:S. aureus (MIC= 10 μM);Gram-negative bacteria:E. coli (MIC= 40 μM)",
+            "Hemolytic Activity": "[Ref.27255993]Non-hemolytic activity at 10 μM",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C71H114N14O15",
+            "Mass": 1403.75,
+            "PI": 8.75,
+            "Net Charge": 1,
+            "Hydrophobicity": 1.92,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Function": "It showed no hemolytic activity at 10 μM.",
+            "Literature": [
+                {
+                    "Title": "Identification and bioactivity evaluation of two novel temporins from the skin secretion of the European edible frog, Pelophylax kl. esculentus.",
+                    "Pubmed ID": "27255993",
+                    "Reference": "Biochem Biophys Res Commun. 2016 Aug 5;476(4)566-73.",
+                    "Author": "Chen X, Wang H, Yang M, Wang L, Zhou M, Chen T, Shaw C.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=27255993"
+                }
+            ],
+            "Frequent Amino Acids": "LFV",
+            "Absent Amino Acids": "CDEHMNOQRTUWY",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 5,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_15317",
+                    "Similarity": 1.0,
+                    "Sequence": "NLSFLPV"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_00215",
+                    "Similarity": 1.0,
+                    "Sequence": "MSMLVVVTENVPPRLRGRLAIWLLEVRAGVYVGDVSAKIREMIWEQIAGLAEEGNVVMAWATNTETGFEFQTFGLNRRTPVDLDGLRLVSFLPV"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01630",
+                    "Similarity": 0.9230769230769231,
+                    "Sequence": "FLPVIAGLLSKLF"
+                }
+            ]
+        }
+    }
+}

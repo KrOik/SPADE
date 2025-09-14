@@ -1,0 +1,60 @@
+{
+    "SPADE_N_16001": {
+        "Sequence Information": {
+            "Peptide Name": "Latartoxin-1a, LtTx-1a",
+            "Sequence": "ECIPTKHDCTNDRKNCCPGHECKCYNTQIGGSKKEQCGCKKSLLAKAKNFGGKVITIFKA",
+            "Sequence Length": 60,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "1. Lachesana tarabaevi",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "B3EWF2",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/B3EWF2",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Cysteine-rich toxins from Lachesana tarabaevi spider venom with amphiphilic C-terminal segments.",
+                    "Pubmed ID": "23088912",
+                    "Reference": "Biochim Biophys Acta. 2013;1828:724-731",
+                    "Author": "Kuzmenkov AI, Fedorova IM, Vassilevski AA, Grishin EV",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/23088912"
+                }
+            ],
+            "Mass": 6577.64,
+            "PI": 9.13,
+            "Net Charge": 9,
+            "Hydrophobicity": -0.71,
+            "Frequent Amino Acids": "KCG",
+            "Absent Amino Acids": "MOUW",
+            "Basic Residues": 14,
+            "Acidic Residues": 5,
+            "Hydrophobic Residues": 20,
+            "Polar Residues": 40,
+            "Positive Residues": 14,
+            "Negative Residues": 5,
+            "SPADE ID": "SPADE_N_16001",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03609",
+                    "Similarity": 1.0,
+                    "Sequence": "KKSLLAKAKNFGGKVITIFKA"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_30761",
+                    "Similarity": 1.0,
+                    "Sequence": "KKSLLAKAKNFGGKVITIFKA"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Arthrobacter globiformis VKM Ac-1112(MIC=>20.0µM),Bacillus subtilis VKM B-501(MIC=>20.0µM),Escherichia coli DH5alpha(MIC=>20.0µM),Pseudomonas aeruginosa PAO1(MIC=>20.0µM)"
+        }
+    }
+}

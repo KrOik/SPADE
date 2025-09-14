@@ -1,0 +1,72 @@
+{
+    "SPADE_UN_15382": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_15382",
+            "Peptide Name": "LL-III/37",
+            "Source": "Synthetic",
+            "Family": "",
+            "Gene": "Not found",
+            "Sequence": "VNWKKVLAKIIKVVK",
+            "Sequence Length": 15,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Notavailable"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Target Organism": "Tumor cells:SW480 (IC50=13 µM); CCRF-CEM (IC50=4±1 µM); SW480 (IC50=5±1 µM)",
+            "Hemolytic Activity": "Rat erythrocytes:IC50>200 μM",
+            "Cytotoxicity": "HUVEC:IC50=18±2 μM",
+            "Binding Target": "Not available",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C86H152N22O17",
+            "Mass": 1766.26,
+            "PI": 10.6,
+            "Net Charge": 5,
+            "Hydrophobicity": 0.5,
+            "Half Life": "Mammalian:100 hourYeast:>20 hourE.coli:>10 hour",
+            "Literature": [
+                {
+                    "Title": "Toxicity study of antimicrobial peptides from wild bee venom and their analogs toward mammalian normal and cancer cells",
+                    "Pubmed ID": "22100226",
+                    "Reference": "Peptides. 2012 Jan;33(1)18-26.",
+                    "Author": "Slaninová J, Mlsová V, Kroupová H, Alán L, Tůmová T, Monincová L, Borovičková L, Fučík V, Ceřovský V.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=22100226"
+                }
+            ],
+            "Frequent Amino Acids": "KVI",
+            "Absent Amino Acids": "CDEFGHMOPQRSTUY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 11,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_11492",
+                    "Similarity": 1.0,
+                    "Sequence": "KIIKVVK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_11479",
+                    "Similarity": 0.9333333333333333,
+                    "Sequence": "VNWKKVLAKIIKVAK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_11487",
+                    "Similarity": 0.9333333333333333,
+                    "Sequence": "VNWKKILAKIIKVVK"
+                }
+            ]
+        }
+    }
+}

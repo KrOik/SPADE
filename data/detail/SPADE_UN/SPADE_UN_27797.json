@@ -1,0 +1,74 @@
+{
+    "SPADE_UN_27797": {
+        "Sequence Information": {
+            "Peptide Name": "LL-37 (8-37), KS-30",
+            "Sequence": "KSKEKIGKEFKRIVQRIKDFLRNLVPRTES",
+            "Sequence Length": 30,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P49913",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P49913",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Postsecretory processing generates multiple cathelicidins for enhanced topical antimicrobial defense.",
+                    "Pubmed ID": "14978112",
+                    "Reference": "J Immunol. 2004;172:3070-3077",
+                    "Author": "Murakami M, López-García B, Braff M, Dorschner RA, Gallo RL",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/14978112"
+                },
+                {
+                    "Title": "The human antimicrobial peptide LL-37 and its fragments possess both antimicrobial and antibiofilm activities against multidrug-resistant Acinetobacter baumannii.",
+                    "Pubmed ID": "24071034",
+                    "Reference": "Peptides. 2013;49:131-137",
+                    "Author": "Feng X, Sambanthamoorthy K, Palys T, Paranavitana C",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/24071034"
+                }
+            ],
+            "Mass": 3644.28,
+            "PI": 10.62,
+            "Net Charge": 6,
+            "Hydrophobicity": -1.05,
+            "Frequent Amino Acids": "KRE",
+            "Absent Amino Acids": "ACHMOUWY",
+            "Basic Residues": 10,
+            "Acidic Residues": 4,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 21,
+            "Positive Residues": 10,
+            "Negative Residues": 4,
+            "SPADE ID": "SPADE_UN_27797",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02277",
+                    "Similarity": 1.0,
+                    "Sequence": "GDFFRKSKEKIGKEFKRIVQRIKDFLRN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03100",
+                    "Similarity": 1.0,
+                    "Sequence": "KSKEKIGKEFKRIVQRIKDFLRNLVPR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03107",
+                    "Similarity": 1.0,
+                    "Sequence": "ALLGDFFRKSKEKIGKEFKRIVQRIKDFLRNLVPRTES"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:23% Hemolysis=88 µM",
+            "Target Organism": "Staphylococcus aureus mprF(MIC=8µM),Staphylococcus aureus ATCC 25923(MIC=16µM),Escherichia coli O29(MIC=8µM),Streptococcus pyogenes NZ131(MIC=4µM),Candida albicans ATCC 14053(MIC=2µM),Acinetobacter baumannii ATCC 19606(MIC=16µg/ml),Acinetobacter baumannii(MIC=8-16µg/ml)"
+        }
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_24187": {
+        "Sequence Information": {
+            "Peptide Name": "Piscidin 4 / TP4 (2I-G8)Del",
+            "Sequence": "FLFSAGKAIHRLIRRRRR",
+            "Sequence Length": 18,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "L0CKG3",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/L0CKG3",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Rational design and synthesis of Oreoch-2 analogues as efficient broad-spectrum antimicrobial peptides",
+                    "Pubmed ID": "34971943",
+                    "Reference": "Bioorg Chem. 2021;119:105583",
+                    "Author": "Zhang N, Gu X, Song D, Zhang P, Chen W, Ji S, Qi T, Ma S",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/34971943"
+                }
+            ],
+            "Mass": 2253.7,
+            "PI": 12.0,
+            "Net Charge": 8,
+            "Hydrophobicity": -0.53,
+            "Frequent Amino Acids": "RAF",
+            "Absent Amino Acids": "CDEMNOPQTUVWY",
+            "Basic Residues": 8,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 10,
+            "Positive Residues": 8,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_24187",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_24175",
+                    "Similarity": 1.0,
+                    "Sequence": "KAIHRLIRRRRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11852",
+                    "Similarity": 1.0,
+                    "Sequence": "RRRRRFRRVIRRIRLPKYLTINTE"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_19416",
+                    "Similarity": 1.0,
+                    "Sequence": "RRRRRFRRVIRRIRLPKYLTINTE"
+                }
+            ],
+            "Hemolytic Activity": "Mouse erythrocytes:2.02% Hemolysis=64 µg/ml",
+            "Target Organism": "Staphylococcus aureus ATCC 25923(MIC=1.8µM),Staphylococcus aureus ATCC 25923(MIC=3.5µM),Staphylococcus aureus ATCC 25923(MIC=3.5µM),Staphylococcus aureus ATCC 25923(MIC=3.5µM),Staphylococcus aureus ATCC 25923(MBC=1.8µM),Bacillus subtilis ATCC 9372(MIC=3.5µM),Bacillus pumilus ATCC 63202(MIC=1.8µM),Streptococcus pyogenes(MIC=14.2µM),Escherichia coli ATCC 25922(MIC=113.6µM),Pseudomonas aeruginosa ATCC 27853(MIC=56.8µM),Staphylococcus aureus ATCC 43300(MIC=28.4µM),Staphylococcus aureus ATCC 43300(MBC=56.8µM),Staphylococcus aureus ATCC 31007(MIC=56.8µM),Streptococcus pyogenes(MIC=28.4µM),Staphylococcus epidermidis(MIC=1.8µM),Staphylococcus aureus(MIC=3.5µM),Enterococcus faecium ATCC 51559(MIC=28.4µM),Enterococcus faecalis ATCC 51299(MIC=113.6µM)"
+        }
+    }
+}

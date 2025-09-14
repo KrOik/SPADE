@@ -1,0 +1,48 @@
+{
+    "SPADE_UN_22044": {
+        "Sequence Information": {
+            "Peptide Name": "D2D [k7r]",
+            "Sequence": "KKXFKXRX",
+            "Sequence Length": 8,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Structure-Activity Study of an All-d Antimicrobial Octapeptide D2D.",
+                    "Pubmed ID": "31847173",
+                    "Reference": "Molecules. 2019;24:",
+                    "Author": "Lone A, Thomsen TT, Nielsen JE, Thulstrup PW, Klitgaard RN, Lobner-Olesen A, Lund R, Jenssen H, Hansen PR",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/31847173"
+                }
+            ],
+            "SPADE ID": "SPADE_UN_22044",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_08326",
+                    "Similarity": 1.0,
+                    "Sequence": "KWDSFIKKLTSKFLHSAKKF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08327",
+                    "Similarity": 1.0,
+                    "Sequence": "KWKSFIKKKTSKFLHSAKKF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08328",
+                    "Similarity": 1.0,
+                    "Sequence": "KWKSFIKKRTSKFLHSAKKF"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:51% Hemolysis=150 µM",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=8µg/ml),Staphylococcus aureus ATCC 29213(MIC=2µg/ml),Pseudomonas aeruginosa ATCC 27853(MIC=16µg/ml),Acinetobacter baumannii ATCC 19606(MIC=8µg/ml)"
+        }
+    }
+}

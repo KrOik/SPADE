@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_11415": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_11415",
+            "Peptide Name": "D-LAK120-AP13",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "KKLALALAKKWLPLAKKLALALAKK",
+            "Sequence Length": 25,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram-",
+                "Antiplasmodial"
+            ],
+            "Target Organism": "[Ref.22869378]Gram-negative bacteria:Escherichia coli NCTC 9001 (MIC=1.08±0.62 μM), Escherichia coli Top 10 (MIC=0.29±0.09 μM), Pseudomonas aeruginosa (MIC=1.22±0.19 μM);Plasmodium:Plasmodium falciparum 3D7 (EC50=0.88±0.06 μM), Plasmodium falciparum C10 (EC50=2.36±0.10 μM), A549 (EC50=3.11±0.57 μM), RAW264.7 (EC50=3.42±0.16 μM)",
+            "Hemolytic Activity": "[Ref.22869378]HC50=58.61±10.41 μM against Not found (The literature does not mention)",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C133H238N34O26",
+            "Mass": 2729.52,
+            "PI": 10.85,
+            "Net Charge": 8,
+            "Hydrophobicity": 0.37,
+            "Half Life": "Mammalian:1.3 hourYeast:3 minE.coli:2 min",
+            "Function": "Antibacterial activity against Gram-negative bacteria. Antiplasmodial activity. Peptides comprising all D-amino acids. Has hemolytic activity.",
+            "Literature": [
+                {
+                    "Title": "Conformational flexibility determines selectivity and antibacterial, antiplasmodial, and anticancer potency of cationic",
+                    "Pubmed ID": "22869378",
+                    "Reference": "J Biol Chem. 2012 Oct 5;287(41)34120-33.",
+                    "Author": "Vermeer LS, Lan Y, Abbate V, Ruh E, Bui TT, Wilkinson LJ, Kanno T, Jumagulova E, Kozlowska J, Patel J, McIntyre CA, Yam WC, Siu G, Atkinson RA, Lam JK, Bansal SS, Drake AF, Mitchell GH, Mason AJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=22869378"
+                }
+            ],
+            "Frequent Amino Acids": "KLA",
+            "Absent Amino Acids": "CDEFGHIMNOQRSTUVY",
+            "Basic Residues": 8,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 17,
+            "Polar Residues": 15,
+            "Positive Residues": 8,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_11031",
+                    "Similarity": 1.0,
+                    "Sequence": "LAL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_26138",
+                    "Similarity": 1.0,
+                    "Sequence": "LAL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_30207",
+                    "Similarity": 1.0,
+                    "Sequence": "LAL"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "SPADE_N_15424": {
+        "Sequence Information": {
+            "Peptide Name": "Thioalbamide",
+            "Sequence": "XIGXXVTIAVXC",
+            "Sequence Length": 12,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anticancer",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "1. Amycolatopsis alba DSM 44262",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "A Genomics-Based Approach Identifies a Thioviridamide-Like Compound with Selective Anticancer Activity",
+                    "Pubmed ID": "28968491",
+                    "Reference": "ACS Chem Biol. 2017;12:2815-2822",
+                    "Author": "Frattaruolo L, Lacret R, Cappello AR, Truman AW",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/28968491"
+                }
+            ],
+            "SPADE ID": "SPADE_N_15424",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_02216",
+                    "Similarity": 1.0,
+                    "Sequence": "KRSRIRIGV"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_02556",
+                    "Similarity": 1.0,
+                    "Sequence": "FSWKVRIGV"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_07896",
+                    "Similarity": 1.0,
+                    "Sequence": "LLLLKLLLKKNPKLKKLIGV"
+                }
+            ],
+            "Hemolytic Activity": "Normal breast cells MCF-10a:IC50=0.302 µM",
+            "Target Organism": "Staphylococcus aureus ATCC 25923(MIC=24µM),Staphylococcus aureus ATCC 25923(MBC=>48µM),Escherichia coli ATCC 25922(MIC=>48µM),Klebsiella pneumoniae ATCC 13883(MIC=>48µM),Pseudomonas aeruginosa ATCC 27853(MIC=>48µM),Candida albicans ATCC 10231(MIC=>48µM),Human lung carcinoma A549(IC50=0.048µM),Human breast adenocarcinoma MCF-7(IC50=0.059µM),Human breast adenocarcinoma MDA-MB-231(IC50=0.072µM),Human cervical carcinoma HeLa(IC50=0.050µM),Human Pancreatic adenocarcinoma PA-TU-8988T(IC50=0.065µM)"
+        }
+    }
+}

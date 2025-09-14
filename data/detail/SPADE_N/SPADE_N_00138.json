@@ -1,0 +1,75 @@
+{
+    "SPADE_N_00138": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00138",
+            "Peptide Name": "Divergicin A (Bacteriocin)",
+            "Source": "Carnobacterium divergens (Gram-positive bacteria)",
+            "Family": "Belongs to the class IIc bacteriocin",
+            "Gene": "Not found",
+            "Sequence": "AAPKITQKQKNCVNGQLGGMLAGALGGPGGVVLGGIGGAIAGGCFN",
+            "Sequence Length": 46,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q3SAX6"
+            ],
+            "Protein Existence": "Predicted",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C182H305N55O54S3",
+            "Mass": 4223.9,
+            "PI": 9.39,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.43,
+            "Half Life": "Mammalian:4.4 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "A signal peptide secretion-dependent bacteriocin from Carnobacterium divergens.",
+                    "Pubmed ID": "7768812",
+                    "Reference": "J Bacteriol. 1995 Jun;177(11)3143-3149.",
+                    "Author": "Worobo RW, Van Belkum MJ, Sailer M, Roy KL, Vederas JC, Stiles ME.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=7768812"
+                },
+                {
+                    "Title": "Characterization of the theta-type plasmid pCD3.4 from Carnobacterium divergens, and modulation of its host range by RepA mutation.",
+                    "Pubmed ID": "16385127",
+                    "Reference": "Microbiology. 2006 Jan;152(Pt 1)171-178.",
+                    "Author": "van Belkum MJ, Stiles ME.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16385127"
+                }
+            ],
+            "Frequent Amino Acids": "GAL",
+            "Absent Amino Acids": "DEHORSUWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 20,
+            "Polar Residues": 21,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06063",
+                    "Similarity": 1.0,
+                    "Sequence": "MKKQILKGLVIVVCLSGATFFSTPQQASAAAPKITQKQKNCVNGQLGGMLAGALGGPGGVVLGGIGGAIAGGCFN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14787",
+                    "Similarity": 0.52,
+                    "Sequence": "GLVNGLLSSVLGGGQGGGGLLGGIL"
+                }
+            ]
+        }
+    }
+}

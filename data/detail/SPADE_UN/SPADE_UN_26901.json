@@ -1,0 +1,59 @@
+{
+    "SPADE_UN_26901": {
+        "Sequence Information": {
+            "Peptide Name": "RW6",
+            "Sequence": "RWRWRWRWRWRW",
+            "Sequence Length": 12,
+            "Biological Activity": [
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Proline-Modified RWn Peptides: Enhanced Antifungal Efficacy and Synergy with Conventional Antibiotics for Combating Resistant Fungal Infections",
+                    "Pubmed ID": "39583727",
+                    "Reference": "ACS Omega. 2024;9:46627-46633",
+                    "Author": "Phambu N, Sunda-Meya A",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/39583727"
+                }
+            ],
+            "Mass": 2072.39,
+            "PI": 12.0,
+            "Net Charge": 6,
+            "Hydrophobicity": -2.7,
+            "Frequent Amino Acids": "RW",
+            "Absent Amino Acids": "ACDEFGHIKLMNOPQSTUVY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 0,
+            "Polar Residues": 12,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_26901",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07227",
+                    "Similarity": 1.0,
+                    "Sequence": "WRWRWRWRW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08428",
+                    "Similarity": 1.0,
+                    "Sequence": "RWRWRWFGGGFIKHFIHRF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08429",
+                    "Similarity": 1.0,
+                    "Sequence": "RWRWRWFSGGFIKHFIHRF"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:<5% Hemolysis=0.25 µg/ml",
+            "Target Organism": "Candida albicans ATCC 90028(MIC=8µg/ml),Cryptococcus neoformans ATCC 208821(MIC=<=0.25µg/ml)"
+        }
+    }
+}

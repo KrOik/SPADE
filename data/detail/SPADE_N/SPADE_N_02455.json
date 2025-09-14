@@ -1,0 +1,80 @@
+{
+    "SPADE_N_02455": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02455",
+            "Peptide Name": "CP-11 (cathelicidin; mammals, animals)",
+            "Source": "Bos taurus (Bovine)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "ICLKKWPWWPWRRCKX",
+            "Sequence Length": 16,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-negative bacteria:Escherichia coli (MIC=16 µg/ml), Pseudomonas aeruginosa (MIC=64 µg/ml), Salmonella typhimurium(MIC=64 µg/ml), S. typhimurium defensin sensitive (MIC=4 µg/ml);Gram-positive bacteria:Staphylococcus aureus (MIC=16 µg/ml), Staphylococcus aureus (MRSA) (MIC=16 µg/ml), S. epidermidis(MIC=8 µg/ml), Enterococcus faecalis (MIC=64 µg/ml).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C102H146N28O15S2",
+            "Mass": 2197.93,
+            "PI": 10.33,
+            "Net Charge": 5,
+            "Hydrophobicity": -0.888,
+            "Half Life": "Mammalian:20 hourYeast:30 minE.coli:>10 hour",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Structure of the bovine antimicrobial peptide indolicidin bound to dodecylphosphocholine and sodium dodecyl sulfate micelles.",
+                    "Pubmed ID": "11123901",
+                    "Reference": "Biochemistry. 2000 Dec 26;39(51)15765-15774.",
+                    "Author": "Rozek A, Friedrich CL, Hancock RE.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=11123901"
+                },
+                {
+                    "Title": "Structure-based design of an indolicidin peptide analogue with increased protease stability.",
+                    "Pubmed ID": "14640680",
+                    "Reference": "Biochemistry. 2003 Dec 9;42(48)14130-14138.",
+                    "Author": "Rozek, A.; Powers, JP.; Friedrich, CL.; Hancock, RE.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=14640680"
+                }
+            ],
+            "Frequent Amino Acids": "WKC",
+            "Absent Amino Acids": "ADEFGHMNOQSTUVY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 7,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06800",
+                    "Similarity": 1.0,
+                    "Sequence": "AFCGETCLLGKCYTPGCSCHTGICLK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06801",
+                    "Similarity": 1.0,
+                    "Sequence": "AFCGETCLLGTCYTPGCRCTAGICLK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06804",
+                    "Similarity": 1.0,
+                    "Sequence": "AFCGETCVLGTCYTPGCSCNFGICLK"
+                }
+            ]
+        }
+    }
+}

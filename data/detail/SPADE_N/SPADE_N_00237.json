@@ -1,0 +1,73 @@
+{
+    "SPADE_N_00237": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00237",
+            "Peptide Name": "Antifungal protein J (AFP-J; Plants)",
+            "Source": "Solanum tuberosum (Potato)",
+            "Family": "Belongs to the protease inhibitor I3",
+            "Gene": "Not found",
+            "Sequence": "LPSDATLVLDQTGKELDARL",
+            "Sequence Length": 20,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P84794"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antifungal"
+            ],
+            "Target Organism": "[Ref.16076139]Fungi:Candida albicans TIMM 1768(MIC=6.25μg/mL)), Saccharomyces cerevisiae KCTC 7296(MIC=6.25μg/mL)), Trichosporon beigelii KCTC 7707(MIC=6.25μg/mL))",
+            "Hemolytic Activity": "[Ref:16076139]Non-hemolytic activity against human erythrocytes",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C93H159N25O33",
+            "Mass": 2155.41,
+            "PI": 4.23,
+            "Net Charge": -2,
+            "Hydrophobicity": -0.17,
+            "Half Life": "Mammalian:5.5 hourYeast:3 minE.coli:2 min",
+            "Function": "Inhibitor of serine proteases chymotrypsin, pepsin and trypsin. Has strong antifungal activity. Non-hemolytic activity against human erythrocytes.",
+            "Literature": [
+                {
+                    "Title": "Kunitz-type serine protease inhibitor from potato (Solanum tuberosum L. cv. Jopung).",
+                    "Pubmed ID": "16076139",
+                    "Reference": "J Agric Food Chem. 2005 Aug 10;53(16)6491-6496.",
+                    "Author": "Park Y, Choi BH, Kwak JS, Kang CW, Lim HT, Cheong HS, Hahm KS.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16076139"
+                }
+            ],
+            "Frequent Amino Acids": "LDA",
+            "Absent Amino Acids": "CFHIMNOUWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 4,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 9,
+            "Positive Residues": 2,
+            "Negative Residues": 4,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_18674",
+                    "Similarity": 0.5555555555555556,
+                    "Sequence": "KQKTLKKVWKLSEKVLIFASAFAKKAGAAEATLVL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_14642",
+                    "Similarity": 0.5,
+                    "Sequence": "KKKKVVLATLVLV"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_14660",
+                    "Similarity": 0.5,
+                    "Sequence": "KKKKVVAATLVLF"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_29627": {
+        "Sequence Information": {
+            "Peptide Name": "Jellein-1 GGY -AMD",
+            "Sequence": "PFKIDIHLGGY",
+            "Sequence Length": 11,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "O18330",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/O18330",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "New perspectives for natural antimicrobial peptides: application as antinflammatory drugs in a murine model.",
+                    "Pubmed ID": "23157568",
+                    "Reference": "BMC Immunol. 2012;13:61",
+                    "Author": "Capuano F, Blaiotta G, Avitabile C, Romanelli A, Fulgione A, Iannaccone M, Montella RC, Nocerino N, De Chiara F, Capparelli R",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/23157568"
+                }
+            ],
+            "Mass": 1259.45,
+            "PI": 7.16,
+            "Net Charge": 1,
+            "Hydrophobicity": 0.12,
+            "Frequent Amino Acids": "GID",
+            "Absent Amino Acids": "ACEMNOQRSTUVW",
+            "Basic Residues": 2,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 4,
+            "Polar Residues": 7,
+            "Positive Residues": 2,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_UN_29627",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06349",
+                    "Similarity": 1.0,
+                    "Sequence": "KKCKFFCKVKKKIKSIGFQIPIVSIPFK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_06778",
+                    "Similarity": 1.0,
+                    "Sequence": "DKTLKFVYIMILFLSIFYILIVCDSNAFGMTLRPCLTDKDCPRMPPHNIKCRKGHCVPIGKPFK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_07234",
+                    "Similarity": 1.0,
+                    "Sequence": "MTLRPCLTDKDCPRMPPHNIKCRKGHCVPIGKPFK"
+                }
+            ],
+            "Hemolytic Activity": "Mouse erythrocytes:50% Hemolysis=64.75 µg/ml",
+            "Target Organism": "Staphylococcus epidermidis(MIC=30µg/ml)"
+        }
+    }
+}

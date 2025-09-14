@@ -1,0 +1,67 @@
+{
+    "SPADE_N_15910": {
+        "Sequence Information": {
+            "Peptide Name": "Brevinin-1LF1",
+            "Sequence": "FLPMLAGLAANFLPKIICKITKKC",
+            "Sequence Length": 24,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "1. Amolops lifanensis",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "E1B2T6",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/E1B2T6",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Identification of multiple peptides with antioxidant and antimicrobial activities from skin and its secretions of Hylarana taipehensis, Amolops lifanensis, and Amolops granulosus.",
+                    "Pubmed ID": "25066917",
+                    "Reference": "Biochimie. 2014;105:192-201",
+                    "Author": "Guo C, Hu Y, Li J, Liu Y, Li S, Yan K, Wang X, Liu J, Wang H",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/25066917"
+                }
+            ],
+            "Mass": 2634.36,
+            "PI": 9.7,
+            "Net Charge": 4,
+            "Hydrophobicity": 0.97,
+            "Frequent Amino Acids": "KLA",
+            "Absent Amino Acids": "DEHOQRSUVWY",
+            "Basic Residues": 4,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 15,
+            "Polar Residues": 9,
+            "Positive Residues": 4,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_N_15910",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01693",
+                    "Similarity": 0.9583333333333334,
+                    "Sequence": "FLPMLAGLAANFLPKIVCKITKKC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01231",
+                    "Similarity": 0.9166666666666666,
+                    "Sequence": "FLPMLAGLAANFLPKLFCKITKKC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01705",
+                    "Similarity": 0.9166666666666666,
+                    "Sequence": "FLPLLAGLAANFLPKIFCKITKKC"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:25% Hemolysis=6.3 µM,Human erythrocytes:72% Hemolysis=12.5 µM,Human erythrocytes:80% Hemolysis=25 µM,Human erythrocytes:100% Hemolysis=50 µM",
+            "Target Organism": "Staphylococcus aureus ATCC 25923(MIC=6.3µM),Enterococcus faecium 091299(MIC=50µM),Enterococcus faecalis 981(MIC=6.3µM),Nocardia asteroides 201118(MIC=3.1µM),Pseudomonas aeruginosa CGMCC 1.50(no activity data),Klebsiella pneumoniae 08040724(MIC=100µM),Enterobacter cloacae CGMCC 1.57(MIC=100µM),Escherichia coli ATCC 25922(MIC=100µM),Psychrobacter faecalis X29(MIC=12.5µM),Candida glabrata 090902(MIC=6.3µM),Candida albicans ATCC 10231(no activity data)"
+        }
+    }
+}

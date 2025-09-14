@@ -1,0 +1,66 @@
+{
+    "SPADE_N_15688": {
+        "Sequence Information": {
+            "Peptide Name": "Chionodracine",
+            "Sequence": "FFGHLYRGITSVVKHVHGLLSG",
+            "Sequence Length": 22,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "1. Chionodraco hamatus",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "K4Q515",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/K4Q515",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "A piscidin-like antimicrobial peptide from the icefish Chionodraco hamatus (Perciformes: Channichthyidae): molecular characterization, localization and bactericidal activity.",
+                    "Pubmed ID": "22982327",
+                    "Reference": "Fish Shellfish Immunol. 2012;33:1183-1191",
+                    "Author": "Buonocore F, Randelli E, Casani D, Picchietti S, Belardinelli MC, de Pascale D, De Santi C, Scapigliati G",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/22982327"
+                }
+            ],
+            "Mass": 2424.8,
+            "PI": 9.99,
+            "Net Charge": 5,
+            "Hydrophobicity": 0.5,
+            "Frequent Amino Acids": "GHL",
+            "Absent Amino Acids": "ACDEMNOPQUW",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 13,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_N_15688",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01282",
+                    "Similarity": 1.0,
+                    "Sequence": "GLLSGTSVRGSI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07459",
+                    "Similarity": 1.0,
+                    "Sequence": "GLLSGTSVRGST"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01308",
+                    "Similarity": 1.0,
+                    "Sequence": "GLLSGILGAGKNIVCGLSGLC"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:1% Hemolysis=50 µM",
+            "Target Organism": "Psychrobacter sp. TAD 1(MIC=10µM),Psychrobacter sp. TA144(MIC=15µM),Escherichia coli BL21(MIC=20µM),Bacillus cereus(MIC=10µM),Pseudomonas aeruginosa(no activity data),Psychrobacter sp. TAD 1(MBC=10µM),Psychrobacter sp. TA144(MBC=15µM),Escherichia coli BL21(MBC=30µM),Bacillus cereus(MBC=10µM)"
+        }
+    }
+}

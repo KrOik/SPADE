@@ -1,0 +1,65 @@
+{
+    "SPADE_N_14773": {
+        "Sequence Information": {
+            "Peptide Name": "Hymenochirin-6B",
+            "Sequence": "IKVPAIVKDTQKKVAKGVISTVADALSKS",
+            "Sequence Length": 29,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Binding Target": "",
+            "Source": "1. Hymenochirus boettgeri",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "W8PA68",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/W8PA68",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Low structural variation in the host-defense peptide repertoire of the dwarf clawed frog Hymenochirus boettgeri (Pipidae).",
+                    "Pubmed ID": "24466037",
+                    "Reference": "PLoS One. 2014;9:e86339",
+                    "Author": "Matthijs S, Ye L, Stijlemans B, Cornelis P, Bossuyt F, Roelants K",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/24466037"
+                }
+            ],
+            "Mass": 2995.56,
+            "PI": 10.0,
+            "Net Charge": 4,
+            "Hydrophobicity": 0.2,
+            "Frequent Amino Acids": "KVA",
+            "Absent Amino Acids": "CEFHMNORUWY",
+            "Basic Residues": 6,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 16,
+            "Positive Residues": 6,
+            "Negative Residues": 2,
+            "SPADE ID": "SPADE_N_14773",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_14775",
+                    "Similarity": 0.8620689655172413,
+                    "Sequence": "IKIPPIVKDTLKKVAKGVLSTVADALSKS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03601",
+                    "Similarity": 0.75,
+                    "Sequence": "IKIPPIVKDTLKKVAKGVLSTIAGALST"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03600",
+                    "Similarity": 0.75,
+                    "Sequence": "IKIPAFVKDTLKKVAKGVISAVAGALTQ"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Escherichia coli MG1655(MIC=>512µM),Staphylococcus aureus NCTC 8325(MIC=>512µM),Pseudomonas aeruginosa PAO1(MIC=>512µM),Pseudomonas aeruginosa PA7(MIC=>512µM)"
+        }
+    }
+}

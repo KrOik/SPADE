@@ -1,0 +1,73 @@
+{
+    "SPADE_N_01327": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01327",
+            "Peptide Name": "Nigrocin-2LVb (Frogs, amphibians, animals)",
+            "Source": "Odorrana livida (Chinese Odorrana frogs)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "GILSGILGMGKKLVCGLSGLC",
+            "Sequence Length": 21,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-positive bacterium:Staphylococcus aureus (MIC=50 µM);Gram-negative bacterium:Escherichia coli (MIC=15 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Cyclization (Cys15 and Cys21)",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C88H159N23O24S3",
+            "Mass": 2019.54,
+            "PI": 8.9,
+            "Net Charge": 2,
+            "Hydrophobicity": 1.3,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Has antibacterial activity against the Gram-positive bacterium S. aureus and the Gram-negative bacterium E. coli.",
+            "Literature": [
+                {
+                    "Title": "Nigrocin-2 peptides from Chinese Odorrana frogs--integration of UPLC/MS/MS with molecular cloning in amphibian skin peptidome analysis.",
+                    "Pubmed ID": "20158520",
+                    "Reference": "FEBS J. 2010 Mar;277(6)1519-1531.",
+                    "Author": "Wang L, Evaristo G, Zhou M, Pinkse M, Wang M, Xu Y, Jiang X, Chen T, Rao P, Verhaert P, Shaw C.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=20158520"
+                }
+            ],
+            "Frequent Amino Acids": "GLC",
+            "Absent Amino Acids": "ADEFHNOPQRTUWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 7,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01298",
+                    "Similarity": 0.9523809523809523,
+                    "Sequence": "GILSGILGVGKKLVCGLSGLC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07619",
+                    "Similarity": 0.9523809523809523,
+                    "Sequence": "MFTMKKSLLLLFFLGIINLSLCQEERNAEEERRDEEVAKAEEIKRGILSGILGVGKKLVCGLSGLC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01299",
+                    "Similarity": 0.9047619047619048,
+                    "Sequence": "GILSGILGVGKMLVCGLSGLC"
+                }
+            ]
+        }
+    }
+}

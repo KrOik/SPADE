@@ -1,0 +1,70 @@
+{
+    "SPADE_UN_19054": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_19054",
+            "Peptide Name": "KW13 (AI Predicted AMPs, Lys-rich, UCLL1c, XXA)",
+            "Source": "AI predicted, AMP-GPT predicted",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "KWKKWVRAIKKLV",
+            "Sequence Length": 13,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "amidation",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 1683.14,
+            "PI": 11.39,
+            "Hydrophobicity": -0.56,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Wang J, Feng J, Kang Y, Pan P, Ge J, Wang Y, Wang M, Wu Z, Zhang X, Yu J, Zhang X, Wang T, Wen L, Yan G, Deng Y, Shi H, Hsieh CY, Jiang Z, Hou T. 2025",
+                    "Reference": "Sci Adv. 2025 Mar 7;11(10):eads8932. doi: 10.1126/sciadv.ads8932.PubMed",
+                    "Title": "Discovery of antimicrobial peptides with notable antibacterial potency by an LLM-based foundation model."
+                }
+            ],
+            "Frequent Amino Acids": "KVW",
+            "Absent Amino Acids": "CDEFGHMNOPQSTUY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 9,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "Net Charge": 6,
+            "Comments": "Activity:  Active against E. faecalis ATCC 29212 (MIC 16 ug/ml), S. aureus ATCC 29213 (MIC 8 ug/ml), K. pneumoniae ATCC 700603 and 3 resistant strains (MIC 8-32 ug/ml), A. baumannii ATCC 19606 or MDR 316039 (4-8 ug/ml), P. aeruginosa ATCC 27853 or MDR 304238 (MIC 4-8 ug/ml), E. coli ATCC 25922 or MDR 103231 (MIC 4-8 ug/ml).Resistance development:no:bacteria:E. coli ATCC 25922: after 30 multiple passages.In vitro toxicity: not hemo.lytic at 100 ug/ml (HC50>100 ug/ml).half-life in vitro:plasma:human: > 4 h.Animal model:mouse: XDR K. pneumoniae 325016 infected pneumonia mouse model, neutropenic mice, intratracheal i.t./i.p. (2,12h), 99% bacterial reduction (~2 log) in lung treated at 10 mg/kg at 2 and 12 h postinfection.",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03607",
+                    "Similarity": 1.0,
+                    "Sequence": "AKRLKKLAKKIWKWK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04911",
+                    "Similarity": 1.0,
+                    "Sequence": "RRMKWKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05380",
+                    "Similarity": 1.0,
+                    "Sequence": "MMTKDERIRFYKSKEWQTTRKRVLERDNYECQQCKRDGKLTTYDKSKRKSLDVDHILSLEHHPEFAHDLNNLETLCIKCHNKKEKRFIKKENKWKDEKW"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_11489": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_11489",
+            "Peptide Name": "LL-III/4 (Lasioglossin LL-III peptide derivative)",
+            "Source": "Synthetic construct",
+            "Family": "Derived from the peptide Lasioglossin LL-III",
+            "Gene": "Not found",
+            "Sequence": "VNWKKILPKIIKVVK",
+            "Sequence Length": 15,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.19591185]Gram-positive bacteria:Bacillus subtilis (MIC=0.8 μM), Staphylococcus aureus (MIC=32.5 μM);Gram-negative bacteria:Escherichia coli (MIC=1.2 μM), Pseudomonas aeruginosa (MIC=100 μM).",
+            "Hemolytic Activity": "[Ref.19591185]LC50>200 μM against rat red blood cells",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C89H156N22O17",
+            "Mass": 1806.33,
+            "PI": 10.6,
+            "Net Charge": 5,
+            "Hydrophobicity": 0.29,
+            "Half Life": "Mammalian:100 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Antibacterial activity against Gram-positive and Gram-negative bacteria. Weak hemolytic activity.",
+            "Literature": [
+                {
+                    "Title": "Lasioglossins Three Novel Antimicrobial Peptides from the Venom of the Eusocial Bee Lasioglossum laticeps (Hymenoptera Halictidae.",
+                    "Pubmed ID": "19591185",
+                    "Reference": "Chembiochem. 2009 Aug 17;10(12)2089-2113.",
+                    "Author": "Cerovský V, Budesínský M, Hovorka O, Cvacka J, Voburka Z, Slaninová J, Borovicková L, Fucík V, Bednárová L, Votruba I, Straka J.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=19591185"
+                }
+            ],
+            "Frequent Amino Acids": "KIV",
+            "Absent Amino Acids": "ACDEFGHMOQRSTUY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 9,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_11492",
+                    "Similarity": 1.0,
+                    "Sequence": "KIIKVVK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02591",
+                    "Similarity": 0.9333333333333333,
+                    "Sequence": "VNWKKILGKIIKVVK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_11485",
+                    "Similarity": 0.9333333333333333,
+                    "Sequence": "VNWKKILPKIIKVAK"
+                }
+            ]
+        }
+    }
+}

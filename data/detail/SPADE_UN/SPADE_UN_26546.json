@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_26546": {
+        "Sequence Information": {
+            "Peptide Name": "GG-NK-lysin A (47-123)",
+            "Sequence": "GGGMCSLCKYVMKHVKERISADSTPDEIKNKLMNLCEKAWLLKGQCQKFVKTHLHTLIDELMTNDGVNTICAKALVCKF",
+            "Sequence Length": 79,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "A0A0K1H367",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/A0A0K1H367",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Characterization of NK-lysin A, a potent antimicrobial peptide from the zebrafish Danio rerio",
+                    "Pubmed ID": "39303911",
+                    "Reference": "Dev Comp Immunol. 2024;162:105266",
+                    "Author": "Ortjohann M, Leippe M",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/39303911"
+                }
+            ],
+            "Mass": 8872.5,
+            "PI": 8.8,
+            "Net Charge": 7,
+            "Hydrophobicity": -0.12,
+            "Frequent Amino Acids": "KLC",
+            "Absent Amino Acids": "OU",
+            "Basic Residues": 15,
+            "Acidic Residues": 8,
+            "Hydrophobic Residues": 34,
+            "Polar Residues": 45,
+            "Positive Residues": 15,
+            "Negative Residues": 8,
+            "SPADE ID": "SPADE_UN_26546",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00253",
+                    "Similarity": 1.0,
+                    "Sequence": "YKRGGGGWGGGGGWKGGGGGGGGWKGGGGGGKGGGG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14461",
+                    "Similarity": 1.0,
+                    "Sequence": "GMCSLCKYVMKHVKERISADSTPDEIKNKLMNLCEKAWLLKGQCQKFVKTHLHTLIDELMTNDGVNTICAKALVCKF"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_01645",
+                    "Similarity": 0.8,
+                    "Sequence": "CGGGGGGCGGGGCGGGGGGGGGCGGGGGGCC"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Bacillus subtilis ATCC 6051(MIC=1.25µM),Bacillus megaterium ATCC 14581(MIC=0.039µM),Staphylococcus aureus ATCC 12600(MIC=>10µM),Escherichia coli D31(MIC=1.25µM),Pseudomonas aeruginosa ATCC 10145(MIC=10µM),Klebsiella pneumoniae ATCC 13883(MIC=1.25µM),Vibrio anguillarum(MIC=0.625µM)"
+        }
+    }
+}

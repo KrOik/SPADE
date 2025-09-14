@@ -1,0 +1,53 @@
+{
+    "SPADE_UN_24060": {
+        "Sequence Information": {
+            "Peptide Name": "Peptide 73-L-PEG2000-CYS, 73Lc-(PEG) 2k",
+            "Sequence": "RLWDIVRRWVGWLGPLGVRGX",
+            "Sequence Length": 21,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P82389",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P82389",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Enzymatically releasable polyethylene glycol - host defense peptide conjugates with improved activity and biocompatibility",
+                    "Pubmed ID": "34597746",
+                    "Reference": "J Control Release. 2021;339:220-231",
+                    "Author": "Drayton M, Alford MA, Pletzer D, Haney EF, Machado Y, Luo H, Overall CM, Kizhakkedathu JN, Hancock REW, Straus SK",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/34597746"
+                }
+            ],
+            "SPADE ID": "SPADE_UN_24060",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_12669",
+                    "Similarity": 1.0,
+                    "Sequence": "RLWDIVRRWVGWL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14887",
+                    "Similarity": 1.0,
+                    "Sequence": "GPLGVRGKRLWDIVRRWVGWL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_20345",
+                    "Similarity": 1.0,
+                    "Sequence": "RLWDIVRRWVGWL"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Staphylococcus aureus ATCC 25923(MIC=>125µg/ml),Staphylococcus aureus USA 300 LAC(MIC=>125µg/ml),Pseudomonas aeruginosa PAO1(MIC=63µg/ml)"
+        }
+    }
+}

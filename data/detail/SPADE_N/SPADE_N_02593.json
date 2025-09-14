@@ -1,0 +1,92 @@
+{
+    "SPADE_N_02593": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 2005/0260715 A1",
+                "Patent Link": "http://www.lens.org/lens/patent/US_2005_0260715_A1",
+                "Patent Type": "Patent Application",
+                "Publication Date": "2005-11-24",
+                "Family Info": "US6946261",
+                "Patent Title": "Efficient methods for producing antimicrobial cationic peptides in host cells.",
+                "Abstract": "Endogenously produced cationic antimicrobial peptides are ubiquitous components of host defenses in mammals, birds, amphibia, insects, and plants. Cationic peptides are also effective when administered as therapeutic agents. A practical drawback in cationic peptide therapy, however, is the cost of producing the agents. The methods described herein provide a means to efficiently produce cationic peptides from recombinant host cells. These recombinantly-produced cationic peptides can be rapidly purified from host cell proteins using anion exchange chromatography."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02593",
+            "Peptide Name": "Abaecin (Pro-rich; insects, arthropods, invertebrates, animals)",
+            "Source": "Apis mellifera (Honeybee)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "YVPLPNVPQPGRRPFPTFPGQGPFNPKIKWPQGY",
+            "Sequence Length": 34,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P15450?"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.2298215] Gram-negative bacteria:Agrobacterium tumefaciens Gembloux A (MIC=25-50 µg/ml), Erwinia salicis NCPPB 2530 (MIC=25-50 µg/ml), Escherichia coli NCTC 9001 (MIC=25-50 µg/ml), Escherichia coli K514 (MIC=10-25 µg/ml), Pseudomonas syringae pv.tomato NCPPB 1105 (MIC=25-50 µg/ml), Xanthomonas campestris pv. vesicatoria LMG 905 (MIC=5-10 µg/ml);Gram-positive bacteria:Bacillus megateriurn QMB 1551 (MIC=10-25 µg/ml), Micrococcus lysodeikticus LMG 4050 (MIC=10-25 µg/ml).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "The prolines are in repeated motifs.",
+            "Formula": "C187H270N48O43",
+            "Mass": 3878.44,
+            "PI": 10.45,
+            "Net Charge": 4,
+            "Hydrophobicity": -0.91,
+            "Half Life": "Mammalian:2.8 hourYeast:10 minE.coli:2 min",
+            "Function": "This peptide has bactericidal activity.",
+            "Literature": [
+                {
+                    "Title": "Isolation and characterization of abaecin, a major antibacterial response peptide in the honeybee (Apis mellifera).",
+                    "Pubmed ID": "2298215",
+                    "Reference": "Eur J Biochem. 1990 Jan 26;187(2)381-386.",
+                    "Author": "Casteels P, Ampe C, Riviere L, Van Damme J, Elicone C, Fleming M, Jacobs F, Tempst P.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=2298215"
+                },
+                {
+                    "Title": "Acute Transcriptional  Response of the Honeybee Peptide-Antibiotics Gene  Repertoire and Required Post-translational  Conversion of the Precursor Structures.",
+                    "Pubmed ID": "7961803",
+                    "Reference": "J Biol Chem. 1994 Nov 18;269(46)28569-28575.",
+                    "Author": "Casteels-Josson K, Zhang W, Capaci T, Casteels P, Tempst P.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=7961803"
+                }
+            ],
+            "Frequent Amino Acids": "PGF",
+            "Absent Amino Acids": "ACDEHMOSU",
+            "Basic Residues": 4,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 20,
+            "Polar Residues": 14,
+            "Positive Residues": 4,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_05811",
+                    "Similarity": 1.0,
+                    "Sequence": "MKVVIFIFALLATICAAFAYVPLPNVPQPGRRPFPTFPGQGPFNPKIKWPQGY"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02604",
+                    "Similarity": 0.6363636363636364,
+                    "Sequence": "FVPYNPPRPGQSKPFPSFPGHGPFNPKIQWPYPLPNPGH"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02534",
+                    "Similarity": 0.625,
+                    "Sequence": "VPYPRPFPRPPIGPRPLPFPGGGRPFQS"
+                }
+            ]
+        }
+    }
+}

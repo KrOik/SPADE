@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_20499": {
+        "Sequence Information": {
+            "Peptide Name": "",
+            "Sequence": "WWR",
+            "Sequence Length": 3,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "The pharmacophore of short cationic antibacterial peptides.",
+                    "Pubmed ID": "12699374",
+                    "Reference": "J Med Chem. 2003;46:1567-1570",
+                    "Author": "Strøm MB, Haug BE, Skar ML, Stensen W, Stiberg T, Svendsen JS",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/12699374"
+                }
+            ],
+            "Mass": 546.62,
+            "PI": 9.75,
+            "Net Charge": 1,
+            "Hydrophobicity": -2.1,
+            "Frequent Amino Acids": "WR",
+            "Absent Amino Acids": "ACDEFGHIKLMNOPQSTUVY",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 0,
+            "Polar Residues": 3,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_20499",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00992",
+                    "Similarity": 1.0,
+                    "Sequence": "QNICPRVNRIVTPCVAYGLGRAPIAPCCRALNDLRFVNTRNLRRAACRCLVGVVNRNPGLRRNPRFQNIPRDCRNTFVRPFWWRPRIQCGRINLTDKLIYL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02088",
+                    "Similarity": 1.0,
+                    "Sequence": "WWRELLKKLAFTAAGHLGSVLAAKQSGW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02338",
+                    "Similarity": 1.0,
+                    "Sequence": "GTQRCWNLYGKCRHRCSKKERVYVYCVNNKMCCVKPKYQPKERWWRF"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:-=NA",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=>200µg/ml),Staphylococcus aureus ATCC 25923(MIC=>200µg/ml),Staphylococcus aureus ATCC 33591(MIC=200µg/ml),Staphylococcus epidermidis ATCC 27626(MIC=100µg/ml)"
+        }
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_26370": {
+        "Sequence Information": {
+            "Peptide Name": "Tenascin (23-33), GaGa2",
+            "Sequence": "KLPVGSLCSVD",
+            "Sequence Length": 11,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P10039",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P10039",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Mining the UniProtKB/Swiss-Prot database for antimicrobial peptides",
+                    "Pubmed ID": "",
+                    "Reference": "bioRxiv. 2024;doi: https://doi.org/10.1101/2024.05.24.595811:",
+                    "Author": "Li C, Sutherland D, Salehi A, Richter A, Lin D, Aninta SI, Ebrahimikondori H, Yanai A, Coombe L, Warren RL, Kotkoff M, Hoang LMN, Helbing CC, Birol I",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/"
+                }
+            ],
+            "Mass": 1117.32,
+            "PI": 6.08,
+            "Net Charge": 0,
+            "Hydrophobicity": 0.68,
+            "Frequent Amino Acids": "LSV",
+            "Absent Amino Acids": "AEFHIMNOQRTUWY",
+            "Basic Residues": 1,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 6,
+            "Positive Residues": 1,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_UN_26370",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01964",
+                    "Similarity": 1.0,
+                    "Sequence": "GLFLDTLKGAAKDVAGKLEGLKCKITGCKLP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02337",
+                    "Similarity": 1.0,
+                    "Sequence": "KRYILRCMGNSGICRASCKRNEQPYLYCKNYQSCCLQSYMRISISGKEENTDWSYEKQWPKLP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05087",
+                    "Similarity": 1.0,
+                    "Sequence": "MIKLSLPNVWKLWKKLSDKQEYDIAVKSNVIGAYLINHEEEAQKEYTEAYKAHKPTLLKKLP"
+                }
+            ],
+            "Hemolytic Activity": "Pig erythrocytes:50% Hemolysis=>128 µg/ml",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=128µg/ml),Staphylococcus aureus ATCC 29213(MIC=>128µg/ml)"
+        }
+    }
+}

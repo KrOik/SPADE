@@ -1,0 +1,65 @@
+{
+    "SPADE_N_14884": {
+        "Sequence Information": {
+            "Peptide Name": "Barbel steed LEAP-2",
+            "Sequence": "MTPLWRIMGTKPHGAYCQNNYECSTGICRRGHCSYSQPINS",
+            "Sequence Length": 41,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "1. Hemibarbus labeo",
+            "Gene": "1. LEAP-2",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "A0A5H2PIX6",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/A0A5H2PIX6",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Host defense peptide LEAP-2 contributes to monocyte/macrophage polarization in barbel steed (Hemibarbus labeo).",
+                    "Pubmed ID": "30641185",
+                    "Reference": "Fish Shellfish Immunol. 2019;87:184-192",
+                    "Author": "Chen J, Lv YP, Dai QM, Hu ZH, Liu ZM, Li JH",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/30641185"
+                }
+            ],
+            "Mass": 4662.28,
+            "PI": 8.88,
+            "Net Charge": 5,
+            "Hydrophobicity": -0.69,
+            "Frequent Amino Acids": "CGS",
+            "Absent Amino Acids": "DFOUV",
+            "Basic Residues": 6,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 30,
+            "Positive Residues": 6,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_N_14884",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07817",
+                    "Similarity": 0.9512195121951219,
+                    "Sequence": "MTPLWRIMGTKPHGAYCQNHYECSTGICRKGHCSYSQPINS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02080",
+                    "Similarity": 0.9444444444444444,
+                    "Sequence": "LLAWCLVFLVIVQQVTSSPVPQSDTPLTSVQEVQRSLKRTARMTPLWRIMGTKPHGAYCQNHYECSTGICRKGHCSYS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07637",
+                    "Similarity": 0.9444444444444444,
+                    "Sequence": "LVLMVLAQQVAPSPVREIEAALGSLQGVQRSLRRMARMTPLWRIMGTKPHGAYCQNNYECSTGICRKGHCSFS"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Vibrio vulnificus ATCC 279562(MIC=50µg/ml),Vibrio alginolyticus ATCC 17749(MIC=100µg/ml),Vibrio parahaemolyticus ATCC 33847(no activity data),Vibrio anguillarum ATCC 19264(MIC=12.5µg/ml),Staphylococcus aureus ATCC 6538(MIC=100µg/ml),Aeromonas hydrophila ATCC 7966(MIC=12.5µg/ml),Streptococcus iniae ATCC 29178(no activity data)"
+        }
+    }
+}

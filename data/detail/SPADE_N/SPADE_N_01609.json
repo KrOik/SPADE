@@ -1,0 +1,74 @@
+{
+    "SPADE_N_01609": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01609",
+            "Peptide Name": "Temporin-1Va (Temporin 1Va; Frogs, amphibians, animals)",
+            "Source": "Rana virgatipes (Ranidae) (Aquarana)",
+            "Family": "Belongs to the frog skin active peptide family (Brevinin subfamily)",
+            "Gene": "Not found",
+            "Sequence": "FLSSIGKILGNLL",
+            "Sequence Length": 13,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "[Ref.15996769]Gram-positive bacteria:Staphylococcus aureus NCTC8325 (MIC=10 µM), S. aureus (MRSA) T7/20 (MIC=20 µM), S. epidermidis RP62A (MIC=20 µM), Enterococcus faecalis ATCC 29212 (MIC=40 µM), Streptococcus group B HNTCC 80130 (MIC=20 µM);Gram-negative bacteria:Escherichia coli ATCC25922 (MIC=40 µM), Klebsiella pneumoniae KK3 9904 (MIC=80 µM), Pseudomonas aeruginosa ATCC 27853 (MIC=160 µM), Enterobacter cloacae HNTCC 53001 (MIC=40 µM);Yeast:Candida albicans ATCC 90028 (MIC=160 µM).",
+            "Hemolytic Activity": "[Ref:15996769]LD50=120 μM against washed human erythrocytes",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C65H111N15O17",
+            "Mass": 1374.67,
+            "PI": 8.75,
+            "Net Charge": 1,
+            "Hydrophobicity": 1.32,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Function": "It also has weak hemolytic activty.",
+            "Literature": [
+                {
+                    "Title": "Purification and characterization of antimicrobial peptides from the skin secretions of the carpenter frog Rana virgatipes (Ranidae, Aquarana).",
+                    "Pubmed ID": "15996769",
+                    "Reference": "Regul Pept. 2005 Nov;131(1-3)38-45.",
+                    "Author": "Conlon JM, Abraham B, Sonnevend A, Jouenne T, Cosette P, Leprince J, Vaudry H, Bevier CR.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=15996769"
+                }
+            ],
+            "Frequent Amino Acids": "LGI",
+            "Absent Amino Acids": "ACDEHMOPQRTUVWY",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 4,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_06989",
+                    "Similarity": 1.0,
+                    "Sequence": "MTQILLFVHVLISFLSLLLIVTNSVEIPETPCESDAECPYYSPSLYARCIDGFCTLFLS"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_25863",
+                    "Similarity": 0.8571428571428571,
+                    "Sequence": "KILGKLLKWASKIW"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_12581",
+                    "Similarity": 0.8333333333333334,
+                    "Sequence": "ILGNILKLLKSL"
+                }
+            ]
+        }
+    }
+}

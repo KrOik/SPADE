@@ -1,0 +1,72 @@
+{
+    "SPADE_UN_15460": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_15460",
+            "Peptide Name": "MCo-SST-02",
+            "Source": "Synthetic",
+            "Family": "",
+            "Gene": "Not found",
+            "Sequence": "CPKILKKCRRDSDCPGACICRGNGYCRFWKTW",
+            "Sequence Length": 32,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P82409"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Target Organism": "Tumor cells:HT-29 (IC50=58.89±0.09 μM); MCF-7 (IC50=70.61±0.11 μM); PC-3 (IC50=83.55±0.20 μM)",
+            "Hemolytic Activity": "Human red blood cells:no hemolytic activity(as show in Fig.4)",
+            "Cytotoxicity": "HUVEC:IC50>100 μM",
+            "Binding Target": "pigment epithelium-derived factor; somatostatin",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "Mix",
+            "Structure Description": "Not found",
+            "Formula": "C151H243N49O39S6",
+            "Mass": 3765.47,
+            "PI": 9.34,
+            "Net Charge": 6,
+            "Hydrophobicity": -0.65,
+            "Half Life": "Mammalian:1.2 hourYeast:>20 hourE.coli:>10 hour",
+            "Literature": [
+                {
+                    "Title": "Dual-targeting anti-angiogenic cyclic peptides as potential drug leads for cancer therapy",
+                    "Pubmed ID": "27734947",
+                    "Reference": "Sci Rep. 2016 Oct 11;635019.",
+                    "Author": "Peel E, Cheng Y, Djordjevic JT, Fox S, Sorrell TC, Belov K.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=27734947"
+                }
+            ],
+            "Frequent Amino Acids": "CKR",
+            "Absent Amino Acids": "EHMOQUV",
+            "Basic Residues": 8,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 19,
+            "Positive Residues": 8,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_15462",
+                    "Similarity": 0.8846153846153846,
+                    "Sequence": "CPKILKKCRRDSDCPGACICRYWKVCGSGSDGGV"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_15463",
+                    "Similarity": 0.8846153846153846,
+                    "Sequence": "CPKILKKCRRDSDCPGACICRYWKVCGYHLNQPFG"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_15458",
+                    "Similarity": 0.84375,
+                    "Sequence": "CPKILKKCRRDSDCPGACICRGNGYCGRRKRRRG"
+                }
+            ]
+        }
+    }
+}

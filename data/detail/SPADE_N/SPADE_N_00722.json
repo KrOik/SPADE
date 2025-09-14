@@ -1,0 +1,70 @@
+{
+    "SPADE_N_00722": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00722",
+            "Peptide Name": "Mram 8 (Plants)",
+            "Source": "Viola philippica",
+            "Family": "Belongs to the cyclotide family",
+            "Gene": "Not found",
+            "Sequence": "GIPCGESCVFIPCLTSAIDCSCKSKVCYRN",
+            "Sequence Length": 30,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anticancer"
+            ],
+            "Target Organism": "Cancer cell lines:BGC-823 (IC50=1.75±0.05 µM), MM96L (IC50=4.91±0.04 µM), HeLa (IC50=15.5±0.06 µM).Non-cancer cell line:HFF-1 (IC50=3.19±0.01 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C134H218N36O42S6",
+            "Mass": 3197.77,
+            "PI": 7.77,
+            "Net Charge": 1,
+            "Hydrophobicity": 0.44,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "The novel cyclotides show cytotoxic activity against several cancer cell lines.",
+            "Literature": [
+                {
+                    "Title": "Isolation and characterization of cytotoxic cyclotides from Viola philippica.",
+                    "Pubmed ID": "21723349",
+                    "Reference": "Peptides. 2011 Aug;32(8)1719-1723.",
+                    "Author": "He W, Chan LY, Zeng G, Daly NL, Craik DJ, Tan N.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=21723349"
+                }
+            ],
+            "Frequent Amino Acids": "CSI",
+            "Absent Amino Acids": "HMOQUW",
+            "Basic Residues": 3,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 19,
+            "Positive Residues": 3,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07838",
+                    "Similarity": 1.0,
+                    "Sequence": "CGESCVFIPCLTSAIDCSCKSKVCYRNGIP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06321",
+                    "Similarity": 0.9666666666666667,
+                    "Sequence": "GIPCGESCVFIPCLTSAIGCSCKSKVCYRN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00751",
+                    "Similarity": 0.9333333333333333,
+                    "Sequence": "GIPCGESCVWIPCLTSAIGCSCKSKVCYRN"
+                }
+            ]
+        }
+    }
+}

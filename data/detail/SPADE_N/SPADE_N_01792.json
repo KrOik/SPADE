@@ -1,0 +1,73 @@
+{
+    "SPADE_N_01792": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01792",
+            "Peptide Name": "Brevinin-1Da (Frogs, amphibians, animals)",
+            "Source": "Rana dalmatina (European frog)",
+            "Family": "Belongs to the frog skin active peptide family (Brevinin subfamily)",
+            "Gene": "Not found",
+            "Sequence": "ILPLLLGKVVCAITKKC",
+            "Sequence Length": 17,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-positive bacterium:Staphylococcus aureus (MIC=7 µM);Gram-negative bacterium:Escherichia coli (MIC=30 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Cyclization (Cys11 and Cys17)",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C84H154N20O19S2",
+            "Mass": 1812.37,
+            "PI": 9.39,
+            "Net Charge": 3,
+            "Hydrophobicity": 1.47,
+            "Half Life": "Mammalian:20 hourYeast:30 minE.coli:>10 hour",
+            "Comments": "Sequence alignment suggests that the peptide is derived from brevinin-1 by multiple residue deletions (D for 'dalmatina' and 'a' to denote the first isoform identified).",
+            "Literature": [
+                {
+                    "Title": "An atypical member of the brevinin-1 family of antimicrobial peptides isolated from the skin of the European frog Rana dalmatina.",
+                    "Pubmed ID": "15050930",
+                    "Reference": "Comp Biochem Physiol C Toxicol Pharmacol. 2004 Feb;137(2)191-196.",
+                    "Author": "Conlon JM, Seidel B, Nielsen PF.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=15050930"
+                }
+            ],
+            "Frequent Amino Acids": "LKC",
+            "Absent Amino Acids": "DEFHMNOQRSUWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 9,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_11926",
+                    "Similarity": 0.875,
+                    "Sequence": "VLPLVGNLLNDLLGK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_07954",
+                    "Similarity": 0.8,
+                    "Sequence": "PLLPLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15230",
+                    "Similarity": 0.8,
+                    "Sequence": "LLLLL"
+                }
+            ]
+        }
+    }
+}

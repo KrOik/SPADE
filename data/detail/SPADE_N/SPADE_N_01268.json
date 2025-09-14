@@ -1,0 +1,76 @@
+{
+    "SPADE_N_01268": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01268",
+            "Peptide Name": "Odorranain-H1 (OdH1; Frogs, amphibians, animals)",
+            "Source": "Odorrana grahami (Yunnanfu frog) (Rana grahami)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "GIFGKILGVGKKVLCGLSGVC",
+            "Sequence Length": 21,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/A6MBN4"
+            ],
+            "Protein Existence": "Transcript level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "[Ref.17272268] Gram-negative bacterium:Escherichia coli (MIC=23.60 μg/ml);Gram-positive bacteria:Staphylococcus aureus (MIC=5.90 μg/ml), Bacillus subtilis (MIC=5.90 μg/ml).Yeast:Candida albicans (MIC=11.80 μg/ml).",
+            "Hemolytic Activity": "[Ref.17272268] RCH=21.6 ± 7.3% against rabbit red blood cells. RCH, red cell hemolysis.",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Cyclization (Cys15 and Cys21)",
+            "Stereochemistry": "L",
+            "Structure Description": "Odorranain-H1 adopts 50.3 β-sheet structure in water solution.",
+            "Formula": "C93H162N24O23S2",
+            "Mass": 2048.56,
+            "PI": 9.39,
+            "Net Charge": 3,
+            "Hydrophobicity": 1.23,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Odorranain-H1 exhibites antimicrobial activities against Gram-positive and Gram-negative bacteria and fungi. Also has hemolytic activity against rabbit red cell.",
+            "Literature": [
+                {
+                    "Title": "Anti-infection peptidomics of amphibian skin.",
+                    "Pubmed ID": "17272268",
+                    "Reference": "Mol Cell Proteomics. 2007 May;6(5)882-894.",
+                    "Author": "Li J, Xu X, Xu C, Zhou W, Zhang K, Yu H, Zhang Y, Zheng Y, Rees HH, Lai R, Yang D, Wu J.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=17272268"
+                }
+            ],
+            "Frequent Amino Acids": "GKL",
+            "Absent Amino Acids": "ADEHMNOPQRTUWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 9,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01326",
+                    "Similarity": 0.9523809523809523,
+                    "Sequence": "GIFGKILGVGKKVLCGLSGMC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07782",
+                    "Similarity": 0.9523809523809523,
+                    "Sequence": "GIFGKILGVGKKVLCGLSGWC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01325",
+                    "Similarity": 0.9047619047619048,
+                    "Sequence": "GIFGKILGAGKKVLCGLSGLC"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_20656": {
+        "Sequence Information": {
+            "Peptide Name": "Melittin (1-17)+(21-26)",
+            "Sequence": "GIGAVLKVLTTGLPALIKRKRQQ",
+            "Sequence Length": 23,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P01501",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P01501",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Action mechanism of melittin-derived antimicrobial peptides, MDP1 and MDP2, de novo designed against multidrug resistant bacteria.",
+                    "Pubmed ID": "29905903",
+                    "Reference": "Amino Acids. 2018;50:1231-1243",
+                    "Author": "Akbari R, Hakemi Vala M, Hashemi A, Aghazadeh H, Sabatier JM, Pooshang Bagheri K",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/29905903"
+                }
+            ],
+            "Mass": 2461.0,
+            "PI": 12.0,
+            "Net Charge": 5,
+            "Hydrophobicity": 0.19,
+            "Frequent Amino Acids": "LGK",
+            "Absent Amino Acids": "CDEFHMNOSUWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 13,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_20656",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02602",
+                    "Similarity": 1.0,
+                    "Sequence": "GIGAVLKVLTTGLPALISWIKRKRQQ"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05970",
+                    "Similarity": 1.0,
+                    "Sequence": "GIGAVLKVL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06727",
+                    "Similarity": 1.0,
+                    "Sequence": "KIAKVALAKLGIGAVLKVLTTGL"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:25% Hemolysis=100 µg/ml",
+            "Target Organism": "Staphylococcus aureus ATCC 25923(MIC=0.125µg/ml),Staphylococcus aureus ATCC 25923(MBC=0.125µg/ml),Staphylococcus aureus(MIC=0.125µg/ml),Staphylococcus aureus(MBC=0.25µg/ml),Staphylococcus aureus(MIC=8µg/ml),Staphylococcus aureus(MBC=8-16µg/ml),Escherichia coli ATCC 25922(MIC=2.5µg/ml),Escherichia coli ATCC 25922(MBC=2.5µg/ml),Escherichia coli(MIC=0.625-1.25µg/ml),Escherichia coli(MBC=0.625-1.25µg/ml),Pseudomonas aeruginosa ATCC 27853(MIC=5µg/ml),Pseudomonas aeruginosa ATCC 27853(MBC=10µg/ml),Pseudomonas aeruginosa(MIC=2.5-5µg/ml),Pseudomonas aeruginosa(MBC=2.5-5µg/ml)"
+        }
+    }
+}

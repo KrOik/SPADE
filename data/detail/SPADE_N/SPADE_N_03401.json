@@ -1,0 +1,82 @@
+{
+    "SPADE_N_03401": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 7785828 B1",
+                "Patent Link": "http://www.lens.org/lens/patent/US_7785828_B1",
+                "Patent Type": "Granted Patent",
+                "Publication Date": "2010-8-31",
+                "Family Info": "WO2004072239A2,WO2004072239A3",
+                "Patent Title": "Production of antimicrobial proteins in fusion proteins.",
+                "Abstract": "The invention relates to a method of producing cysteine containing polypeptides in fusion proteins by recombinantly expressing in a host cell sequences encoding an antifungal polypeptide, a maltose binding protein, and a histidine tag. The method is carried out in the presence of a reducing agent to prevent misfolding of the fusion proteins."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03401",
+            "Peptide Name": "Gamma-thionin 1",
+            "Source": "Eutrema japonica (Wasabi plant) (Eutrema wasabi)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "MAKFASIIALLFAALVLFSAFEAPSMVEAQKLCEKSSGTWSGVCGNNNACKNQCINLEGARHGSCNYIFPYHRCICYFPC",
+            "Sequence Length": 80,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q9FS38"
+            ],
+            "Protein Existence": "Predicted",
+            "Biological Activity": [
+                "Antimicrobial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C389H593N103O108S10",
+            "Mass": 8761.14,
+            "PI": 8.15,
+            "Net Charge": 4,
+            "Hydrophobicity": 0.32,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Production of antimicrobial defensin in Nicotiana benthamiana with a potato virus X vector.",
+                    "Pubmed ID": "11204773",
+                    "Reference": "Mol Plant Microbe Interact. 2001 Feb;14(2)111-115.",
+                    "Author": "Saitoh H, Kiba A, Nishihara M, Yamamura S, Suzuki K, Terauchi R.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=11204773"
+                }
+            ],
+            "Frequent Amino Acids": "ACS",
+            "Absent Amino Acids": "DOU",
+            "Basic Residues": 8,
+            "Acidic Residues": 4,
+            "Hydrophobic Residues": 39,
+            "Polar Residues": 48,
+            "Positive Residues": 8,
+            "Negative Residues": 4,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_08264",
+                    "Similarity": 1.0,
+                    "Sequence": "QKLCEKSSGTWSGVCGNNNACKNQCINLEGARHGSCNYIFPYHRCICYFPC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00371",
+                    "Similarity": 0.9803921568627451,
+                    "Sequence": "QKLCERSSGTWSGVCGNNNACKNQCINLEGARHGSCNYIFPYHRCICYFPC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08835",
+                    "Similarity": 0.98,
+                    "Sequence": "KLCERSSGTWSGVCGNNNACKNQCINLEGARHGSCNYIFPYHRCICYFPC"
+                }
+            ]
+        }
+    }
+}

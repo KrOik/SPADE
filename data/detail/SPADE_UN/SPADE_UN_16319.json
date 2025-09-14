@@ -1,0 +1,72 @@
+{
+    "SPADE_UN_16319": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_16319",
+            "Peptide Name": "ChBac3.4 (H-)",
+            "Source": "Synthetic",
+            "Family": "",
+            "Gene": "Not found",
+            "Sequence": "RFRLPFRRPPIRIPPPFYPPFRRFL",
+            "Sequence Length": 25,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P85170"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Target Organism": "Tumor cells:U-937 (IC50=11.5 ± 0.5 μM); K562 (IC50=25.0 ± 3.5 μM)",
+            "Hemolytic Activity": "Human erythrocytes:<5% Hemolysis=64 µM",
+            "Cytotoxicity": "Human PBMC:IC50=34.7 ± 7.3 µM",
+            "Binding Target": "Not available",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C160H240N46O27",
+            "Mass": 3239.91,
+            "PI": 12.0,
+            "Net Charge": 7,
+            "Hydrophobicity": -0.6,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Literature": [
+                {
+                    "Title": "Caprine Bactenecins as Promising Tools for Developing New Antimicrobial and Antitumor Drugs",
+                    "Pubmed ID": "33194795",
+                    "Reference": "Front Cell Infect Microbiol. 2020 Oct 19;10552905.",
+                    "Author": "Kopeikin PM, Zharkova MS, Kolobov AA, Smirnova MP, Sukhareva MS, Umnyakova ES, Kokryakov VN, Orlov DS, Milman BL, Balandin SV, Panteleev PV, Ovchinnikova TV, Komlev AS, Tossi A, Shamova OV.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=33194795"
+                }
+            ],
+            "Frequent Amino Acids": "PRF",
+            "Absent Amino Acids": "ACDEGHKMNOQSTUVW",
+            "Basic Residues": 7,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 18,
+            "Polar Residues": 8,
+            "Positive Residues": 7,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03222",
+                    "Similarity": 1.0,
+                    "Sequence": "RFRLPFRRPPIRIHPPPFYPPFRRFL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15327",
+                    "Similarity": 1.0,
+                    "Sequence": "RFRLPFRRPPIRIHPPPFYPPFRRFLGRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_16318",
+                    "Similarity": 1.0,
+                    "Sequence": "RFRLPFRRPWPIRIHPPPFYPWPFRRFL"
+                }
+            ]
+        }
+    }
+}

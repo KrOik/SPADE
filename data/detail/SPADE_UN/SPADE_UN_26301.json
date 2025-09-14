@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_26301": {
+        "Sequence Information": {
+            "Peptide Name": "Dermaseptin S4 [M4K,N20K,N27K] ",
+            "Sequence": "ALWKTLLKKVLKAAAKAALKAVLVGAKA",
+            "Sequence Length": 28,
+            "Biological Activity": [
+                "Antiviral",
+                "Anticancer",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P80280",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P80280",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Evaluation of the antiviral activity of new dermaseptin analogs against Zika virus",
+                    "Pubmed ID": "38939125",
+                    "Reference": "Biochem Biophys Rep. 2024;39:101747",
+                    "Author": "Haddad H, Tangy F, Ouahchi I, Sahtout W, Ouni B, Zaïri A",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/38939125"
+                }
+            ],
+            "Mass": 2875.63,
+            "PI": 10.78,
+            "Net Charge": 7,
+            "Hydrophobicity": 0.8,
+            "Frequent Amino Acids": "AKL",
+            "Absent Amino Acids": "CDEFHIMNOPQRSUY",
+            "Basic Residues": 7,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 18,
+            "Polar Residues": 10,
+            "Positive Residues": 7,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_26301",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06987",
+                    "Similarity": 1.0,
+                    "Sequence": "PKKKRKVALWKTLLKKVLKA"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06988",
+                    "Similarity": 1.0,
+                    "Sequence": "VKRKKKPALWKTLLKKVLKA"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06989",
+                    "Similarity": 1.0,
+                    "Sequence": "RQARRNRRRALWKTLLKKVLKA"
+                }
+            ],
+            "Hemolytic Activity": "Human microglial cells HMC3:50% Cytotoxicity=33.60 µg/ml",
+            "Target Organism": "Zika virus (ZIKV) PF13(IC50 I=0.82µg/ml),Human cervical carcinoma HeLa(50-60% Cytotoxicity=59.18µg/ml)"
+        }
+    }
+}

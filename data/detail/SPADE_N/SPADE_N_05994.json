@@ -1,0 +1,72 @@
+{
+    "SPADE_N_05994": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_05994",
+            "Peptide Name": "B-GH23-1",
+            "Source": "Hylarana guentheri",
+            "Family": "Not found",
+            "Gene": "N/A",
+            "Sequence": "GLVTDTLKGAAKTVAAELLRKAH",
+            "Sequence Length": 23,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic form",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.31549575] Gram-positive bacteria:Staphylococcus aureus (MIC = 32-64 μM), Streptococcus mutans(MIC > 100 μM);Gram-negative bacteria:Escherichia coli (MIC > 100 μM), Pseudomonas aeruginosa(MIC > 100 μM);Yeast:Canidia albican (MIC > 100 μM)",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Cell membrane",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C104H183N31O31",
+            "Mass": 2363.75,
+            "PI": 9.7,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.14,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "B-GH23-1 had slight antibacterial activity on S.aureus",
+            "Literature": [
+                {
+                    "Title": "Brevinin-GR23 from frog Hylarana guentheri with antimicrobial and antibiofilm activities against Staphylococcus aureus",
+                    "Pubmed ID": "31549575",
+                    "Reference": "Biosci Biotechnol Biochem. 2020 Jan;84(1)143-153. doi 10.1080/09168451.2019.1670045. Epub 2019 Sep 24.",
+                    "Author": "Hengren Zhong, Zhipeng Xie, Shuxia Zhang, Hanqi Wei, Yanting Song, Yingxia Zhang, Manchuriga Wang",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=31549575"
+                }
+            ],
+            "Frequent Amino Acids": "ALK",
+            "Absent Amino Acids": "CFIMNOPQSUWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 15,
+            "Positive Residues": 5,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07394",
+                    "Similarity": 0.8695652173913043,
+                    "Sequence": "GVITDTLKGVAKTVAAELLRKAHCKLTNSC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01708",
+                    "Similarity": 0.8695652173913043,
+                    "Sequence": "GVIIDTLKGAAKTVAAELLRKAHCKLTNSC"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_24871",
+                    "Similarity": 0.8695652173913043,
+                    "Sequence": "GVIIDTLKGAAKTVAAELLRKAH"
+                }
+            ]
+        }
+    }
+}

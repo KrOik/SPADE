@@ -1,0 +1,71 @@
+{
+    "SPADE_N_02578": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02578",
+            "Peptide Name": "pBD-2 (porcine beta-defensin 2; pigs, mammals, animals)",
+            "Source": "Sus scrofa (Pig)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "DHYICAKKGGTCNFSPCPLFNRIEGTCYSGKAKCCIR",
+            "Sequence Length": 37,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "Salmonella typhimurium, Listeria monocytogenes and Erysipelothrix rhusiopathiae.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C175H275N51O50S6",
+            "Mass": 4085.76,
+            "PI": 8.89,
+            "Net Charge": 5,
+            "Hydrophobicity": -0.29,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:>10 hour",
+            "Comments": "Thought to be orthologue of hBD-1. The native pBD-2 has NOT been purified yet, so it's unclear to what extent the synthetic peptide corresponds to the in vivo form. Also of note is that the synthetic peptide does not have S-S bonds. pBD-2 (4-8 microM) killed these pathogens within 3h. Antimicrobial activity of pBD-2 was decreased at higher ionic strengths with no residual activity at 150mM NaCl.",
+            "Literature": [
+                {
+                    "Title": "Porcine beta-defensin 2 displays broad antimicrobial activity against pathogenic intestinal bacteria.",
+                    "Pubmed ID": "17658606",
+                    "Reference": "Mol Immunol. 2008 Jan;45(2)386-394.",
+                    "Author": "Veldhuizen EJ, Rijnders M, Claassen EA, van Dijk A, Haagsman HP.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=17658606"
+                }
+            ],
+            "Frequent Amino Acids": "CGK",
+            "Absent Amino Acids": "MOQUVW",
+            "Basic Residues": 7,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 23,
+            "Positive Residues": 7,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07516",
+                    "Similarity": 1.0,
+                    "Sequence": "DHYICAKKGGTCNFSPCPLFNRIEGTCYSGKAKCCI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14589",
+                    "Similarity": 0.972972972972973,
+                    "Sequence": "DHYRCAKKGGTCNFSPCPLFNRIEGTCYSGKAKCCIR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14590",
+                    "Similarity": 0.972972972972973,
+                    "Sequence": "DHYICAKKGGTCNFRPCPLFNRIEGTCYSGKAKCCIR"
+                }
+            ]
+        }
+    }
+}

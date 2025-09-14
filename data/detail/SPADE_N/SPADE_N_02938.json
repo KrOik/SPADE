@@ -1,0 +1,88 @@
+{
+    "SPADE_N_02938": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02938",
+            "Peptide Name": "Beta-defensin 12 (BD-12, mBD-12; Defensin, beta 12; Rodents, mammals, animals)",
+            "Source": "Mus musculus (Mouse)",
+            "Family": "Belongs to the beta-defensin family",
+            "Gene": "Defb12",
+            "Sequence": "GLEYSQSFPGGEIAVCETCRLGRGKCRRTCIESEKIAGWCKLNFFCCRERI",
+            "Sequence Length": 51,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q8K4N3"
+            ],
+            "Protein Existence": "Transcript level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C248H397N75O72S7",
+            "Mass": 5805.72,
+            "PI": 8.58,
+            "Net Charge": 3,
+            "Hydrophobicity": -0.27,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "PTM": "Contains three disulfide bonds 19-46; 26-40; 30-47.",
+            "Tissue specificity": "Only expressed in epididymis (caput, corpus and cauda).",
+            "Literature": [
+                {
+                    "Title": "Identification of multiple novel epididymis-specific beta-defensin isoforms in humans and mice.",
+                    "Pubmed ID": "12193721",
+                    "Reference": "J Immunol. 2002 Sep 1;169(5)2516-2523.",
+                    "Author": "Yamaguchi Y, Nagase T, Makita R, Fukuhara S, Tomita T, Tominaga T, Kurihara H, Ouchi Y.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=12193721"
+                },
+                {
+                    "Title": "The transcriptional landscape of the mammalian genome.",
+                    "Pubmed ID": "16141072",
+                    "Reference": "Science. 2005 Sep 2;309(5740)1559-1563.",
+                    "Author": "Carninci P, Kasukawa T, Katayama S, et al.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16141072"
+                },
+                {
+                    "Title": "Identification on mouse chromosome 8 of new beta-defensin genes with regionally specific expression in the male reproductive organ.",
+                    "Pubmed ID": "14718547",
+                    "Reference": "J Biol Chem. 2004 Mar 26;279(13)12421-12426.",
+                    "Author": "Zaballos A, Villares R, Albar JP, Martínez-A C, Márquez G.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=14718547"
+                }
+            ],
+            "Frequent Amino Acids": "CEG",
+            "Absent Amino Acids": "DHMOU",
+            "Basic Residues": 9,
+            "Acidic Residues": 6,
+            "Hydrophobic Residues": 16,
+            "Polar Residues": 27,
+            "Positive Residues": 9,
+            "Negative Residues": 6,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_08151",
+                    "Similarity": 1.0,
+                    "Sequence": "MKNLPSNMALSREVFYFGFALFFIVVELPSGSWAGLEYSQSFPGGEIAVCETCRLGRGKCRRTCIESEKIAGWCKLNFFCCRERI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03737",
+                    "Similarity": 1.0,
+                    "Sequence": "ETCRLGRGKCRRTCIESEKIAGWCKLNFFCCRE"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02951",
+                    "Similarity": 0.95,
+                    "Sequence": "EIAVCETCRLGRGKCRRACIESEKIVGWCKLNFFCCRERI"
+                }
+            ]
+        }
+    }
+}

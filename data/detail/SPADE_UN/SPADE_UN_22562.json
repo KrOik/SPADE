@@ -1,0 +1,53 @@
+{
+    "SPADE_UN_22562": {
+        "Sequence Information": {
+            "Peptide Name": "Histatin 5 (4-15) [H4, 5, 12Bip]",
+            "Sequence": "AKRXXGYKRKFX",
+            "Sequence Length": 12,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P15516",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P15516",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Antimicrobial Peptides Display Strong Synergy with Vancomycin Against Vancomycin-Resistant E. faecium, S. aureus, and Wild-Type E. coli",
+                    "Pubmed ID": "32605123",
+                    "Reference": "Int J Mol Sci. 2020;21:4578",
+                    "Author": "Wu C-L, Hsueh J-Y, Yip B-S, Chih Y-H, Peng K-L, Cheng J-W",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/32605123"
+                }
+            ],
+            "SPADE ID": "SPADE_UN_22562",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03135",
+                    "Similarity": 1.0,
+                    "Sequence": "DSHAKRHHGYKRKFHEKHHSHRGYRSNYLYDN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03137",
+                    "Similarity": 1.0,
+                    "Sequence": "DSHAKRHHGYKRKFHEKHHSHRGY"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03138",
+                    "Similarity": 1.0,
+                    "Sequence": "DSHAKRHHGYKRKFHEKHHSHRGYR"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Enterococcus faecium BCRC 15B0132(MIC=4µg/ml),Staphylococcus aureus VISA1(MIC=16µg/ml),Staphylococcus aureus VISA3(MIC=8µg/ml),Staphylococcus aureus VRSA1(MIC=16µg/ml),Staphylococcus aureus VRSA2(MIC=8-16µg/ml),Escherichia coli ATCC 25922(MIC=32µg/ml)"
+        }
+    }
+}

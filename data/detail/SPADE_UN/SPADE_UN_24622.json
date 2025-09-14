@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_24622": {
+        "Sequence Information": {
+            "Peptide Name": "HSV gH(468–486)",
+            "Sequence": "ALHALGYQLAFVLDSPSAY",
+            "Sequence Length": 19,
+            "Biological Activity": [
+                "Antiviral",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Virus entry",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P06477",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P06477",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Analysis of synthetic peptides from heptad-repeat domains of herpes simplex virus type 1 glycoproteins H and B",
+                    "Pubmed ID": "16603508",
+                    "Reference": "J Gen Virol. 2006;87:1085-1097",
+                    "Author": "Galdiero S, Vitiello M, D'Isanto M, Falanga A, Collins C, Raieta K, Pedone C, Browne H, Galdiero M",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/16603508"
+                }
+            ],
+            "Mass": 2036.29,
+            "PI": 5.08,
+            "Net Charge": 0,
+            "Hydrophobicity": 0.68,
+            "Frequent Amino Acids": "ALS",
+            "Absent Amino Acids": "CEIKMNORTUW",
+            "Basic Residues": 1,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 9,
+            "Positive Residues": 1,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_UN_24622",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_24620",
+                    "Similarity": 1.0,
+                    "Sequence": "TARLQLEARLQHLVAEILEREQSLALHALGYQLAFV"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08840",
+                    "Similarity": 0.5,
+                    "Sequence": "AKKLHALHALLALHLAHLLAKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_01356",
+                    "Similarity": 0.5,
+                    "Sequence": "MWKDVLKKIGTVALHAGKAALGAV"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "HSV-1(20-30% Inhibition=500µM)"
+        }
+    }
+}

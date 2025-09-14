@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_20622": {
+        "Sequence Information": {
+            "Peptide Name": "FK19",
+            "Sequence": "FIKIFHHIFKGNPKFSIIK",
+            "Sequence Length": 19,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Design of antimicrobial peptides from a cuttlefish database.",
+                    "Pubmed ID": "30121851",
+                    "Reference": "Amino Acids. 2018;50:1573-1582",
+                    "Author": "Houyvet B, Zanuttini B, Corre E, Le Corguillé G, Henry J, Zatylny-Gaudin C",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/30121851"
+                }
+            ],
+            "Mass": 2314.81,
+            "PI": 10.48,
+            "Net Charge": 6,
+            "Hydrophobicity": 0.28,
+            "Frequent Amino Acids": "IFK",
+            "Absent Amino Acids": "ACDELMOQRTUVWY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 10,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_20622",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_20622",
+                    "Similarity": 1.0,
+                    "Sequence": "FIKIFHHIFKGNPKFSIIK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_26215",
+                    "Similarity": 0.8,
+                    "Sequence": "GFIKKFIKKFIKKF"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_16278",
+                    "Similarity": 0.8,
+                    "Sequence": "KIFKKFKTIIKKVWRIFGRF"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:43% Hemolysis=50 µM,Human erythrocytes:>60% Hemolysis=>100 µM",
+            "Target Organism": "Listeria monocytogenes CIP 110871(no activity data),Enterococcus faecalis CIP 76.117(no activity data),Staphylococcus aureus CIP 53.156(no activity data),Bacillus megaterium CIP 51.17(no activity data),Escherichia coli CIP 54.8T(MIC=>=150µM),Salmonella typhimurium CIP 103446(no activity data),Vibrio alginolyticus CIP 109819(no activity data),Aeromonas salmonicida CIP 103209T(no activity data)"
+        }
+    }
+}

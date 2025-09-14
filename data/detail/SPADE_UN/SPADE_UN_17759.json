@@ -1,0 +1,56 @@
+{
+    "SPADE_UN_17759": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "CN110862458A",
+                "Patent Link": "http://www.lens.org/lens/patent/CN110862458A",
+                "Patent Type": "Patent Application",
+                "Publication Date": "2020-3-6",
+                "Family Info": "Notavailable",
+                "Patent Title": "Combined peptide with acid-activated anti-tumor activity and clinical application of combined peptide",
+                "Abstract": "The invention discloses a combined peptide with acid-activated antitumor activity, which belongs to the technical field of biological medicine, wherein a plurality of anion shielding peptides LE are designed and synthesized by taking a pH sensitive peptide LH as a template, and the LE is coupled with LK through disulfide bonds to synthesize the combined peptide, wherein the combined peptide has lower activity under normal physiological conditions, and can effectively kill tumor cells by activating the activity under tumor acidic conditions."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_17759",
+            "Sequence": "CLKKLLKLLKKLLKLCLEHLLEHLEHLLEH",
+            "Sequence Length": 30,
+            "Peptide Name": "ALK-2",
+            "Source": "Synthetic",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Frequent Amino Acids": "LKE",
+            "Absent Amino Acids": "ADFGIMNOPQRSTUVWY",
+            "Basic Residues": 10,
+            "Acidic Residues": 4,
+            "Hydrophobic Residues": 14,
+            "Polar Residues": 12,
+            "Positive Residues": 10,
+            "Negative Residues": 4,
+            "Mass": 3642.55,
+            "PI": 8.76,
+            "Net Charge": 6,
+            "Hydrophobicity": 0.27,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_17758",
+                    "Similarity": 1.0,
+                    "Sequence": "CLHELLEHLHELLEHCLKKLLKLLKKLLKL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_23244",
+                    "Similarity": 1.0,
+                    "Sequence": "FLKCLKKLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_12623",
+                    "Similarity": 1.0,
+                    "Sequence": "LKKLLKLLKLLKL"
+                }
+            ]
+        }
+    }
+}

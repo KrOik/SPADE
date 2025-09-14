@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_25880": {
+        "Sequence Information": {
+            "Peptide Name": "LL-37 KE-10",
+            "Sequence": "KEKIGKEFKR",
+            "Sequence Length": 10,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Binding Target": "",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P49913",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P49913",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Enhanced Antimicrobial Screening Sensitivity Enabled the Identification of an Ultrashort Peptide KR-8 for Engineering of LL-37mini to Combat Drug-Resistant Pathogens.",
+                    "Pubmed ID": "37812567",
+                    "Reference": "ACS Infect Dis. 2023;9:2215-2225",
+                    "Author": "Mechesso AF, Su Y, Xie J, Wang G",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/37812567"
+                }
+            ],
+            "Mass": 1262.5,
+            "PI": 10.0,
+            "Net Charge": 3,
+            "Hydrophobicity": -2.02,
+            "Frequent Amino Acids": "KEF",
+            "Absent Amino Acids": "ACDHLMNOPQSTUVWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 2,
+            "Polar Residues": 8,
+            "Positive Residues": 5,
+            "Negative Residues": 2,
+            "SPADE ID": "SPADE_UN_25880",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02277",
+                    "Similarity": 1.0,
+                    "Sequence": "GDFFRKSKEKIGKEFKRIVQRIKDFLRN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03100",
+                    "Similarity": 1.0,
+                    "Sequence": "KSKEKIGKEFKRIVQRIKDFLRNLVPR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03107",
+                    "Similarity": 1.0,
+                    "Sequence": "ALLGDFFRKSKEKIGKEFKRIVQRIKDFLRNLVPRTES"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Escherichia coli E423-17(MIC=>64µM),Staphylococcus aureus USA 300 LAC(MIC=>64µM),Staphylococcus aureus USA 300 LAC(MIC=>64µM),Staphylococcus aureus USA 300 LAC(MIC=>64µM),Escherichia coli E423-17(MIC=>64µM),Escherichia coli E423-17(MIC=>64µM)"
+        }
+    }
+}

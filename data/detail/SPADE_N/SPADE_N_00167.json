@@ -1,0 +1,83 @@
+{
+    "SPADE_N_00167": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00167",
+            "Peptide Name": "Thiocillin (Bacteriocin)",
+            "Source": "Bacillus cereus); also Bacillus badius",
+            "Family": "Belongs to the thiocillin family",
+            "Gene": "Not found",
+            "Sequence": "SCTTCVCTCSCCTT",
+            "Sequence Length": 14,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P0C8P7",
+                "http://www.uniprot.org/uniprot/P0C8P6",
+                "http://www.uniprot.org/uniprot/Q812G9"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C49H86N14O22S6",
+            "Mass": 1415.68,
+            "PI": 5.23,
+            "Net Charge": 0,
+            "Hydrophobicity": 1.01,
+            "Half Life": "Mammalian:1.9 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Has bacteriocidal activity against Gram-positive bacteria, but not against Gram-negative bacteria. Inhibits bacterial protein biosynthesis by acting on the elongation factor Tu (EF-Tu).",
+            "PTM": "Maturation of thiazole and oxazole containing antibiot",
+            "Literature": [
+                {
+                    "Title": "Structural studies on thiocillins I, II and III (studies on antibiotics from the genus Bacillus XXIX).",
+                    "Pubmed ID": "819410",
+                    "Reference": "J Antibiot (Tokyo). 1976 Apr;29(4)366-374.",
+                    "Author": "Shoji J, Kato T, Yoshimura Y, Tori K.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=819410"
+                },
+                {
+                    "Title": "Isolation of three new antibiotics, thiocillins I, II and III, related to micrococcin P. Studies on antibiotics from the genus Bacillus. VIII.",
+                    "Pubmed ID": "7328054",
+                    "Reference": "J Antibiot (Tokyo). 1981 Sep;34(9)1126-1136.",
+                    "Author": "Shoji J, Hinoo H, Wakisaka Y, Koizumi K, Mayama M.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=7328054"
+                }
+            ],
+            "Frequent Amino Acids": "CTS",
+            "Absent Amino Acids": "ADEFGHIKLMNOPQRUWY",
+            "Basic Residues": 0,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 1,
+            "Polar Residues": 14,
+            "Positive Residues": 0,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06153",
+                    "Similarity": 1.0,
+                    "Sequence": "MSEIKKALNTLEIEDFDAIEMVDVDAMPENEALEIMGASCTTCVCTCSCCTT"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14665",
+                    "Similarity": 1.0,
+                    "Sequence": "CTTNTFSLSDYWGNKGGWCTVSKECMAWC"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_17003",
+                    "Similarity": 1.0,
+                    "Sequence": "CTTHWGFTLC"
+                }
+            ]
+        }
+    }
+}

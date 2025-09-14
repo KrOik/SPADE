@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_11687": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_11687",
+            "Peptide Name": "Myxinidin (D4)",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "GIHAILKYGKPS",
+            "Sequence Length": 12,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.24957834] Gram-negative bacteria:Escherichia coli (MIC >50 microM), Pseudomonas aeruginosa (MIC >50 microM), S. Salmonella typhimurium (MIC >50 microM), Klebsiella pneumoniae (MIC =30 microM) ;Gram-positive bacteria:Staphylococcus aureus (MIC =5 microM)",
+            "Hemolytic Activity": "[Ref.24957834] Some peptides at 50 μM led to about 10% hemolysis against human red blood cells, but in general, negligible hemolytic activity is observed even at 100 μM and 200 μM peptide.",
+            "Cytotoxicity": "[Ref.24957834] The toxicity of the peptide against Vero cells is 0.7%, 0.7%, 10%, 29.9%  and 34.9% at peptide concentrations of 1, 20, 50, 100 and 200 μM.",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C60H98N16O15",
+            "Mass": 1283.52,
+            "PI": 9.7,
+            "Net Charge": 3,
+            "Hydrophobicity": -0.08,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Antibacterial activity against the Gram-nagative and Gram-positive bacteria.",
+            "Literature": [
+                {
+                    "Title": "Structural insights into and activity analysis of the antimicrobial peptide myxinidin.",
+                    "Pubmed ID": "24957834",
+                    "Reference": "Antimicrob Agents Chemother. 2014 Sep;58(9)5280-90.",
+                    "Author": "Cantisani M, Finamore E, Mignogna E, Falanga A, Nicoletti GF, Pedone C, Morelli G, Leone M, Galdiero M, Galdiero S.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=24957834"
+                }
+            ],
+            "Frequent Amino Acids": "GIK",
+            "Absent Amino Acids": "CDEFMNOQRTUVW",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 6,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_16376",
+                    "Similarity": 1.0,
+                    "Sequence": "GWFKKTFHKVSHAVKSGIHA"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_17159",
+                    "Similarity": 1.0,
+                    "Sequence": "GFKKTFHKVSHAVKSGIHA"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_11279",
+                    "Similarity": 1.0,
+                    "Sequence": "GKPSKPRPAPIKPRPPHPRL"
+                }
+            ]
+        }
+    }
+}

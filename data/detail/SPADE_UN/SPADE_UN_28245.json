@@ -1,0 +1,78 @@
+{
+    "SPADE_UN_28245": {
+        "Sequence Information": {
+            "Peptide Name": "Pleurocidin [G13A][G17A]",
+            "Sequence": "GWGSFFKKAAHVAKHVAKAALTHYL",
+            "Sequence Length": 25,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P81941",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P81941",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                },
+                {
+                    "uniprotId": "Q90ZY0",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/Q90ZY0",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Interaction of pleurocidin and its analogs with phospholipid membrane and their antibacterial activity.",
+                    "Pubmed ID": "11168895",
+                    "Reference": "J Pept Res. 2001;57:119-126",
+                    "Author": "Yoshida K, Mukai Y, Niidome T, Takashi C, Tokunaga Y, Hatakeyama T, Aoyagi H",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/11168895"
+                },
+                {
+                    "Title": "Effects of two glycine residues in positions 13 and 17 of pleurocidin on structure and bacterial cell selectivity.",
+                    "Pubmed ID": "14965277",
+                    "Reference": "Protein Pept Lett. 2004;11:35-40",
+                    "Author": "Lim SS, Song YM, Jang MH, Kim Y, Hahm KS, Shin SY",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/14965277"
+                }
+            ],
+            "Mass": 2739.18,
+            "PI": 10.18,
+            "Net Charge": 7,
+            "Hydrophobicity": 0.11,
+            "Frequent Amino Acids": "AKH",
+            "Absent Amino Acids": "CDEIMNOPQRU",
+            "Basic Residues": 7,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 13,
+            "Positive Residues": 7,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_28245",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_28344",
+                    "Similarity": 0.96,
+                    "Sequence": "GWGSFFKKAAHVAKHVGKAALTHYL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_28345",
+                    "Similarity": 0.96,
+                    "Sequence": "GWGSFFKKAAHVGKHVAKAALTHYL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10423",
+                    "Similarity": 0.9230769230769231,
+                    "Sequence": "GWGSFFKKAAHVG"
+                }
+            ],
+            "Hemolytic Activity": "Rabbit erythrocytes:50% Hemolysis=100 µM,Human erythrocytes:37% Hemolysis=100 µM",
+            "Target Organism": "Staphylococcus aureus IFO 12732(MIC=4µg/ml),Bacillus subtilis IFO 3143(MIC=1µg/ml),Escherichia coli IFO 12734(MIC=2µg/ml),Pseudomonas aeruginosa IFO 12582(MIC=4µg/ml),Escherichia coli KCTC 1682(MIC=1µM),Pseudomonas aeruginosa KCTC 1637(MIC=1µM),Salmonella typhimurium KCTC 1926(MIC=1µM),Bacillus subtilis KCTC 3068(MIC=4µM),Staphylococcus epidermidis KCTC 1917(MIC=0.5µM),Staphylococcus aureus KCTC 1621(MIC=0.5µM)"
+        }
+    }
+}

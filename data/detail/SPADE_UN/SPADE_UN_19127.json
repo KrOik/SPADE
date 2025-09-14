@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_19127": {
+        "Sequence Information": {
+            "Peptide Name": "KIA7(17)",
+            "Sequence": "KIAGKIAKKAGKIAKIA",
+            "Sequence Length": 17,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Influence of the Length and Charge on the Activity of ?-Helical Amphipathic Antimicrobial Peptides.",
+                    "Pubmed ID": "28282123",
+                    "Reference": "Biochemistry. 2017;56:1680-1695",
+                    "Author": "Gagnon MC, Strandberg E, Grau-Campistany A, Wadhwani P, Reichert J, Bürck J, Rabanal F, Auger M, Paquin JF, Ulrich AS",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/28282123"
+                }
+            ],
+            "Mass": 1709.17,
+            "PI": 10.7,
+            "Net Charge": 6,
+            "Hydrophobicity": 0.16,
+            "Frequent Amino Acids": "KAI",
+            "Absent Amino Acids": "CDEFHLMNOPQRSTUVWY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 8,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_19127",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_11585",
+                    "Similarity": 1.0,
+                    "Sequence": "KIAGKIAKKAGKIAK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_19126",
+                    "Similarity": 1.0,
+                    "Sequence": "KIAGKIAKKAGKIAK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_19127",
+                    "Similarity": 1.0,
+                    "Sequence": "KIAGKIAKKAGKIAKIA"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:5% Hemolysis=8-512 µg/ml",
+            "Target Organism": "Escherichia coli DSM 1103(MIC=>256µg/ml),Pseudomonas aeruginosa DSM 1117(MIC=>256µg/ml),Staphylococcus aureus DSM 1104(MIC=>256µg/ml),Enterococcus faecalis DSM 2570(MIC=>1024µg/ml)"
+        }
+    }
+}

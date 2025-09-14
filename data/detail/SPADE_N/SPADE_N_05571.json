@@ -1,0 +1,72 @@
+{
+    "SPADE_N_05571": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_05571",
+            "Peptide Name": "Taromycin A (Bacteriocin)",
+            "Source": "marine actinomycete Saccharomonospora sp. CNQ-490",
+            "Family": "Belongs to the lipopeptides family",
+            "Gene": "Not found",
+            "Sequence": "WNDTGKDADGAEY",
+            "Sequence Length": 13,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+"
+            ],
+            "Target Organism": "Gram-positive",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Taromycin A differs from Daptomycin only in serveal places: 1) residue T11 is an D-Ala; 2) W is chlorinated at position 6; 3)  Kny is also chlorinated at position 4; and 4) it carried an octa-2,4-dienoyl lipid side chain. Warning: the sequence is a close mimic of the natural counterpart.  For example, kynurenine-13 (Kyn) is represented by Y here.",
+            "Formula": "C61H84N16O25",
+            "Mass": 1441.41,
+            "PI": 4.05,
+            "Net Charge": -3,
+            "Hydrophobicity": -1.65,
+            "Half Life": "Mammalian:2.8 hourYeast:3 minE.coli:2 min",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Direct cloning and refactoring of a silent lipopeptide biosynthetic gene cluster yields the antibiotic taromycin A.",
+                    "Pubmed ID": "24449899",
+                    "Reference": "Proc Natl Acad Sci U S A. 2014 Feb 4;111(5)1957-62.",
+                    "Author": "Yamanaka K, Reynolds KA, Kersten RD, Ryan KS, Gonzalez DJ, Nizet V, Dorrestein PC, Moore BS.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=24449899"
+                }
+            ],
+            "Frequent Amino Acids": "DAG",
+            "Absent Amino Acids": "CFHILMOPQRSUV",
+            "Basic Residues": 1,
+            "Acidic Residues": 4,
+            "Hydrophobic Residues": 4,
+            "Polar Residues": 6,
+            "Positive Residues": 1,
+            "Negative Residues": 4,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_15185",
+                    "Similarity": 1.0,
+                    "Sequence": "NDTGDADGA"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15186",
+                    "Similarity": 1.0,
+                    "Sequence": "NDTGDADGA"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05600",
+                    "Similarity": 0.9230769230769231,
+                    "Sequence": "WNDTGKDADGSEY"
+                }
+            ]
+        }
+    }
+}

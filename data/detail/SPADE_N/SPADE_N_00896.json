@@ -1,0 +1,84 @@
+{
+    "SPADE_N_00896": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00896",
+            "Peptide Name": "Viscotoxin-B (VtB; Plant defensin)",
+            "Source": "Viscum album (European mistletoe)",
+            "Family": "Belongs to the thionin family",
+            "Gene": "THI2.2",
+            "Sequence": "KSCCPNTTGRNIYNTCRLGGGSRERCASLSGCKIISASTCPSDYPK",
+            "Sequence Length": 46,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P08943",
+                "http://www.uniprot.org/uniprot/P01536",
+                "http://www.uniprot.org/uniprot/P84186"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antifungal",
+                "Cytotoxic"
+            ],
+            "Target Organism": "Fungi:Fusarium solani, Sclerotinia sclerotiorum, Phytophtora infestans.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C197H328N64O67S6",
+            "Mass": 4857.49,
+            "PI": 9.13,
+            "Net Charge": 5,
+            "Hydrophobicity": -0.55,
+            "Half Life": "Mammalian:1.3 hourYeast:3 minE.coli:2 min",
+            "Function": "Thionins are small plant proteins which are toxic to animal cells. They seem to exert their toxic effect at the level of the cell membrane. Their precise Function",
+            "PTM": "Contains three disulfide bonds 3-40; 4-32; 16-26.",
+            "Literature": [
+                {
+                    "Title": "Isolation and characterization of cDNAs encoding viscotoxins of mistletoe (Viscum album).",
+                    "Pubmed ID": "1710983",
+                    "Reference": "Eur J Biochem. 1991 Jun 15;198(3)549-553.",
+                    "Author": "Schrader G, Apel K.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=1710983"
+                },
+                {
+                    "Title": "Comparative membrane interaction study of viscotoxins A3, A2 and B from mistletoe (Viscum album) and connections with their structures.",
+                    "Pubmed ID": "12733989",
+                    "Reference": "Biochem J. 2003 Aug 15;374(Pt 1)71-78.",
+                    "Author": "Coulon A, Mosbah A, Lopez A, Sautereau AM, Schaller G, Urech K, Roug© P, Darbon H.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=12733989"
+                }
+            ],
+            "Frequent Amino Acids": "SCG",
+            "Absent Amino Acids": "FHMOQUVW",
+            "Basic Residues": 7,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 31,
+            "Positive Residues": 7,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00897",
+                    "Similarity": 0.9347826086956522,
+                    "Sequence": "KSCCPNTTGRNIYNTCRFAGGSRERCAKLSGCKIISASTCPSDYPK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07779",
+                    "Similarity": 0.9347826086956522,
+                    "Sequence": "KSCCPNTTGRNIYNTCRFGGGSRQVCASLSGCKIISASTCPSDYPK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00894",
+                    "Similarity": 0.9333333333333333,
+                    "Sequence": "KSCCPNTTGRNIYNTCRFGGGSREVCASLSGCKIISASTCPSYPDK"
+                }
+            ]
+        }
+    }
+}

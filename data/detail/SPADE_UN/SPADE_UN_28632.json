@@ -1,0 +1,67 @@
+{
+    "SPADE_UN_28632": {
+        "Sequence Information": {
+            "Peptide Name": "Anti-lipopolysaccharide factor isoform 3 (35-51), ALFpm3 (35-51)",
+            "Sequence": "KPYLKRFQVYYKGRMWC",
+            "Sequence Length": 17,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "A5A3I5",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/A5A3I5",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Recombinant expression and anti-microbial activity of anti-lipopolysaccharide factor (ALF) from the black tiger shrimp Penaeus monodon.",
+                    "Pubmed ID": "15978281",
+                    "Reference": "Dev Comp Immunol. 2005;29:841-851",
+                    "Author": "Somboonwiwat K, Marcos M, Tassanakajon A, Klinbunga S, Aumelas A, Romestand B, Gueguen Y, Boze H, Moulin G, Bachère E",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/15978281"
+                }
+            ],
+            "Mass": 2266.73,
+            "PI": 10.02,
+            "Net Charge": 5,
+            "Hydrophobicity": -0.93,
+            "Frequent Amino Acids": "KYR",
+            "Absent Amino Acids": "ADEHINOSTU",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 12,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_28632",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07115",
+                    "Similarity": 1.0,
+                    "Sequence": "ECKFTVKPYLKRFQVYYKGRMWCP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08315",
+                    "Similarity": 1.0,
+                    "Sequence": "QGWEAVAAAVASKIVGLWRNEKTELLGHECKFTVKPYLKRFQVYYKGRMWCPGWTAIRGEASTRSQSGVAGKTAKDFVRKAFQKGLISQQEANQWLSS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10218",
+                    "Similarity": 1.0,
+                    "Sequence": "GCKFTVKPYLKRFQVYYKGRMWCG"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:22% Hemolysis=250 µM,Human erythrocytes:20% Hemolysis=125 µM,Human erythrocytes:9% Hemolysis=62.5 µM,Human erythrocytes:8% Hemolysis=31.3 µM,Human erythrocytes:7% Hemolysis=15.6 µM,Human erythrocytes:6% Hemolysis=7.8 µM,Human erythrocytes:4% Hemolysis=3.9 µM,Human erythrocytes:0% Hemolysis=1.95 µM",
+            "Target Organism": "Aerococcus viridans(MIC=6.25µM),Bacillus megaterium(MIC=3.12µM),Micrococcus luteus(MIC=6.25µM),Staphylococcus aureus(MIC=50µM),Enterobacter cloacae(MIC=25µM),Pectobacterium carotovorum(MIC=50µM),Escherichia coli 363(MIC=25µM),Klebsiella pneumoniae(MIC=25µM),Salmonella typhimurium(MIC=25µM),Vibrio alginolyticus(MIC=25µM),Vibrio anguillarum(MIC=100µM),Vibrio harveyi(MIC=50µM),Vibrio penaeicida(MIC=100µM),Fusarium oxysporum(MIC=12.5µM),Botrytis cinerea(MIC=12.5µM),Penicillium crustosum(MIC=25µM)"
+        }
+    }
+}

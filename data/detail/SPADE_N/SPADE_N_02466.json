@@ -1,0 +1,82 @@
+{
+    "SPADE_N_02466": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02466",
+            "Peptide Name": "Cathelicidin-7 (Antibacterial peptide BMAP-34; mammals, animals)",
+            "Source": "Bos taurus (Bovine)",
+            "Family": "Belongs to the cathelicidin family",
+            "Gene": "CATHL7",
+            "Sequence": "AGLFRRLRDSIRRGQQKILEKARRIGERIKDIFR",
+            "Sequence Length": 34,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P56425",
+                "http://www.uniprot.org/uniprot/A6QPU1",
+                "http://www.uniprot.org/uniprot/B9TUC8"
+            ],
+            "Protein Existence": "Transcript level",
+            "Biological Activity": [
+                "Antimicrobial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C181H316N66O46",
+            "Mass": 4152.86,
+            "PI": 11.91,
+            "Net Charge": 8,
+            "Hydrophobicity": -0.94,
+            "Half Life": "Mammalian:4.4 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Exerts a potent antimicrobial activity.",
+            "Tissue specificity": "Expressed in bone marrow myeloid cells, spleen and testis.",
+            "Literature": [
+                {
+                    "Title": "Structural organization of the bovine cathelicidin gene family and identification of a novel member.",
+                    "Pubmed ID": "9409740",
+                    "Reference": "FEBS Lett. 1997 Nov 17;417(3)311-315.",
+                    "Author": "Scocchi M, Wang S, Zanetti M.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=9409740"
+                },
+                {
+                    "Title": "Sequence analysis and polymorphism discovery in 4 members of the bovine cathelicidin gene family.",
+                    "Pubmed ID": "19136450",
+                    "Reference": "J Hered. 2009 Mar-Apr;100(2)241-245.",
+                    "Author": "Gillenwaters EN, Seabury CM, Elliott JS, Womack JE.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=19136450"
+                }
+            ],
+            "Frequent Amino Acids": "RIG",
+            "Absent Amino Acids": "CHMNOPTUVWY",
+            "Basic Residues": 12,
+            "Acidic Residues": 4,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 17,
+            "Positive Residues": 12,
+            "Negative Residues": 4,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02440",
+                    "Similarity": 1.0,
+                    "Sequence": "GLFRRLRDSIRRGQQKILEKARRIGERIKDIFRG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04276",
+                    "Similarity": 1.0,
+                    "Sequence": "GLFRRLRDSIRRGQQKILEKARRIGERIKDIFR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15325",
+                    "Similarity": 0.8181818181818182,
+                    "Sequence": "GLFGRLRDSLRRGGQKILEKVERIGDRIKDIFRG"
+                }
+            ]
+        }
+    }
+}

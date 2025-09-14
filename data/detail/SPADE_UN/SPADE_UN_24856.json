@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_24856": {
+        "Sequence Information": {
+            "Peptide Name": "Temporin-PE [S10K]",
+            "Sequence": "FLPIVAKLLKGLL",
+            "Sequence Length": 13,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Improving the Antimicrobial Performance of Amphiphilic Cationic Antimicrobial Peptides Using Glutamic Acid Full-Scan and Positive Charge Compensation Strategies.",
+                    "Pubmed ID": "36148510",
+                    "Reference": "J Med Chem. 2022;:",
+                    "Author": "Ouyang X, Li B, Yang Y, Ba Z, Zhang J, Zhang T, Chang L, Zhang F, Zhang Y, Gou S, Liu H, Ni J",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/36148510"
+                }
+            ],
+            "Mass": 1424.85,
+            "PI": 10.0,
+            "Net Charge": 2,
+            "Hydrophobicity": 1.73,
+            "Frequent Amino Acids": "LKA",
+            "Absent Amino Acids": "CDEHMNOQRSTUWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 4,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_24856",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01986",
+                    "Similarity": 1.0,
+                    "Sequence": "GLLDTIKGVAKTVAASMLDKLKCKISGC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08367",
+                    "Similarity": 1.0,
+                    "Sequence": "KLLK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10984",
+                    "Similarity": 1.0,
+                    "Sequence": "GLLRIKLL"
+                }
+            ],
+            "Hemolytic Activity": "Mouse erythrocytes:10% Hemolysis=27.66 µM",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=>128µM),Klebsiella pneumoniae ATCC 700603(MIC=>128µM),Pseudomonas aeruginosa ATCC 27853(MIC=>128µM),Staphylococcus aureus ATCC 25923(MIC=8µM),Bacillus subtilis ATCC 23857(MIC=4µM)"
+        }
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "SPADE_N_05869": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_05869",
+            "Peptide Name": "FPA-Bombinin-BO (toads, amphibians, animals)",
+            "Source": "Asian bombinid toad species, Bombina orientalis",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "GIGGALLSAKAALGLAKGLAEHFAN",
+            "Sequence Length": 25,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "[Ref.25056849] Gram-positive bacteria :Staphylococcus aureus(MIC=7 μM, MBC=14 μM);Gram-negative bacteria :Escherichia coli(MIC=14 μM, MBC=14 μM);Fungi :Candida albicans(MIC=7 μM, MBC=14 μM)",
+            "Hemolytic Activity": "[Ref.25056849] 100% hemolysis at 125 mg/L against horse red blood cells",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C106H176N30O30",
+            "Mass": 2350.71,
+            "PI": 8.6,
+            "Net Charge": 2,
+            "Hydrophobicity": 0.72,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Antibacterial activity against Gram-positive bacteria and Gram-negative bacteria. Antifungal activity against Candida albicans",
+            "Literature": [
+                {
+                    "Title": "Feleucin-BO1 A Novel Antimicrobial Non-Apeptide Amide from the Skin Secretion of the Toad, Bombina orientalis, and Design of a Potent Broad-Spectrum Synthetic Analogue, Feleucin-K3",
+                    "Pubmed ID": "25056849",
+                    "Reference": "Chem Biol Drug Des. 2015 Mar;85(3)259-67. doi 10.1111/cbdd.12396.",
+                    "Author": "Xiaojuan Hou, Qiang Du, Renjie Li, Mei Zhou, Hui Wang, Lei Wang, Can Guo, Tianbao Chen and Chris Shaw",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=25056849"
+                }
+            ],
+            "Frequent Amino Acids": "AGL",
+            "Absent Amino Acids": "CDMOPQRTUVWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 14,
+            "Polar Residues": 12,
+            "Positive Residues": 3,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_09836",
+                    "Similarity": 1.0,
+                    "Sequence": "GIGGALLSAGKAALKGLAKGLAEHFAN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01046",
+                    "Similarity": 0.96,
+                    "Sequence": "GIGGALLSAGKSALKGLAKGLAEHFAN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01052",
+                    "Similarity": 0.9565217391304348,
+                    "Sequence": "GIGGALLSAGKAALKGLAKGFAEHF"
+                }
+            ]
+        }
+    }
+}

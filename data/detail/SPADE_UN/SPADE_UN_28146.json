@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_28146": {
+        "Sequence Information": {
+            "Peptide Name": "V681 [V13K,T15K,T19K,S26K]",
+            "Sequence": "KWKSFLKTFKSAKKKVLHKALKAISK",
+            "Sequence Length": 26,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Effects of net charge and the number of positively charged residues on the biological activity of amphipathic alpha-helical cationic antimicrobial peptides.",
+                    "Pubmed ID": "18098173",
+                    "Reference": "Biopolymers. 2008;90:369-383",
+                    "Author": "Jiang Z, Vasil AI, Hale JD, Hancock RE, Vasil ML, Hodges RS",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/18098173"
+                }
+            ],
+            "Mass": 3044.77,
+            "PI": 10.95,
+            "Net Charge": 11,
+            "Hydrophobicity": -0.58,
+            "Frequent Amino Acids": "KAL",
+            "Absent Amino Acids": "CDEGMNOPQRUY",
+            "Basic Residues": 11,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 16,
+            "Positive Residues": 11,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_28146",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_27003",
+                    "Similarity": 1.0,
+                    "Sequence": "KWKWKPGKWKWK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_28145",
+                    "Similarity": 0.9615384615384616,
+                    "Sequence": "KWKSFLKTFKSAKKKVLHKALKAISS"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_28144",
+                    "Similarity": 0.9230769230769231,
+                    "Sequence": "KWKSFLKTFKSAKKKVLHTALKAISS"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:0% Hemolysis=<7.8 µg/ml",
+            "Target Organism": "Pseudomonas aeruginosa PAO1(MIC=15.6µg/ml),Pseudomonas aeruginosa PAK(MIC=15.6µg/ml),Pseudomonas aeruginosa CP204(MIC=7.8µg/ml),Pseudomonas aeruginosa PA14(MIC=15.6µg/ml),Pseudomonas aeruginosa WR5(MIC=31.3µg/ml),Pseudomonas aeruginosa M2(MIC=31.3µg/ml),Escherichia coli UB1005(MIC=8µg/ml),Escherichia coli DH5alpha(MIC=2µg/ml),Salmonella typhimurium C587(MIC=4µg/ml),Staphylococcus aureus C622(MIC=>64µg/ml),Staphylococcus epidermidis C621(MIC=8µg/ml),Bacillus subtilis ATCC 6633(MIC=16µg/ml)"
+        }
+    }
+}

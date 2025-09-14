@@ -1,0 +1,98 @@
+{
+  "DRAMP ID": "SPADE_N_07907",
+  "total": 6.06,
+  "category": "Average",
+  "scores": {
+    "efficacy": 5.85,
+    "selectivity": 6.0,
+    "stability": 7.96,
+    "synthesis": 1.0,
+    "novelty": 10.0
+  },
+  "weighted_scores": {
+    "efficacy": 2.05,
+    "selectivity": 1.5,
+    "stability": 1.59,
+    "synthesis": 0.12,
+    "novelty": 0.8
+  },
+  "weights": {
+    "efficacy": 0.35,
+    "selectivity": 0.25,
+    "stability": 0.2,
+    "synthesis": 0.12,
+    "novelty": 0.08
+  },
+  "features": {
+    "hydrophobic_count": 27,
+    "hydrophobic_ratio": 0.36486486486486486,
+    "hydrophilic_count": 14,
+    "hydrophilic_ratio": 0.1891891891891892,
+    "positive_count": 14,
+    "positive_ratio": 0.1891891891891892,
+    "negative_count": 3,
+    "negative_ratio": 0.04054054054054054,
+    "aromatic_count": 8,
+    "aromatic_ratio": 0.10810810810810811,
+    "cysteine_count": 8,
+    "cysteine_ratio": 0.10810810810810811,
+    "proline_count": 0,
+    "proline_ratio": 0.0,
+    "glycine_count": 8,
+    "glycine_ratio": 0.10810810810810811,
+    "net_charge": 11,
+    "hydrophobicity": 0.36486486486486486,
+    "amphipathicity": 0.06902848794740687,
+    "aromaticity": 0.10810810810810811,
+    "cys_bonds_potential": 4,
+    "flexibility": 8
+  },
+  "details": {
+    "efficacy": {
+      "mic_data": [],
+      "predicted_score": 6.5,
+      "charge_score": 3.0,
+      "hydrophobicity_score": 10.0,
+      "length_factor": 0.9,
+      "final_score": 5.8500000000000005
+    },
+    "selectivity": {
+      "hemolysis_data": null,
+      "predicted_selectivity": 6.0,
+      "hydrophobicity_penalty": 0,
+      "charge_bonus": -1.0,
+      "diversity_bonus": 0.0,
+      "final_score": 6.0
+    },
+    "stability": {
+      "disulfide_bonds": 4,
+      "disulfide_bonus": 3.0,
+      "proline_bonus": 0,
+      "glycine_penalty": 0.04054054054054054,
+      "final_score": 7.95945945945946
+    },
+    "synthesis": {
+      "length": 74,
+      "length_score": 2.0,
+      "rare_amino_acids": 8,
+      "rare_penalty": 4.0,
+      "unique_amino_acids": 16,
+      "repetition_bonus": 0.4,
+      "disulfide_penalty": 2.0,
+      "final_score": 1.0
+    },
+    "novelty": {
+      "max_similarity": 0,
+      "avg_similarity": 0,
+      "novelty_from_similarity": 10.0,
+      "unique_activities": [],
+      "multifunctional_bonus": 0.0,
+      "composition_entropy": 3.827631157675828,
+      "composition_bonus": 1.7720514618869574,
+      "final_score": 10.0
+    }
+  },
+  "target_organisms": {},
+  "scoring_version": "2.0",
+  "timestamp": "2025-07-09T13:59:50.361677"
+}

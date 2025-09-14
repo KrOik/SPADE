@@ -1,0 +1,74 @@
+{
+    "SPADE_N_02339": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02339",
+            "Peptide Name": "Beta-defensin 126 (Defensin, beta 126; primates, mammals, animals)",
+            "Source": "Pongo pygmaeus (Bornean orangutan)",
+            "Family": "Belongs to the beta-defensin family",
+            "Gene": "DEFB126",
+            "Sequence": "SWYVKKCLNDVGICKKKCKPEELHVKNGWAMCGKQRDCCVPAD",
+            "Sequence Length": 43,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/A4H244"
+            ],
+            "Protein Existence": "Homology",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C212H341N61O59S7",
+            "Mass": 4912.8,
+            "PI": 8.84,
+            "Net Charge": 5,
+            "Hydrophobicity": -0.6,
+            "Half Life": "Mammalian:1.9 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Potentially has antibacterial activity.",
+            "PTM": "Problely contains three disulfide bonds 7-38; 14-32; 18-39.",
+            "Literature": [
+                {
+                    "Title": "Evolution and sequence variation of human beta-defensin genes.",
+                    "Pubmed ID": "PubMed ID is not available",
+                    "Reference": "Submitted (NOV-2006) to the EMBL/GenBank/DDBJ databases",
+                    "Author": "Hollox E.J, Armour J.A.L.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=PubMed ID is not available"
+                }
+            ],
+            "Frequent Amino Acids": "KCV",
+            "Absent Amino Acids": "FOTU",
+            "Basic Residues": 10,
+            "Acidic Residues": 5,
+            "Hydrophobic Residues": 15,
+            "Polar Residues": 27,
+            "Positive Residues": 10,
+            "Negative Residues": 5,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03702",
+                    "Similarity": 0.972972972972973,
+                    "Sequence": "KKCLNDVGICKKKCKPEEMHVKNGWAMCGKQRDCCVP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02329",
+                    "Similarity": 0.9534883720930233,
+                    "Sequence": "NWYVKKCLNDVGICKKKCKPEEMHVKNGWAMCGKQRDCCVPAD"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02351",
+                    "Similarity": 0.9534883720930233,
+                    "Sequence": "NWYVKKCLNDVGICKKKCKPEELHVKNGRAMCGKQRDCCVPAD"
+                }
+            ]
+        }
+    }
+}

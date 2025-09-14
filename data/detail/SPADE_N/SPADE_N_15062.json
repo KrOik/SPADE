@@ -1,0 +1,65 @@
+{
+    "SPADE_N_15062": {
+        "Sequence Information": {
+            "Peptide Name": "Lagmysin",
+            "Sequence": "LAGQGSPDLLGGHSLL",
+            "Sequence Length": 16,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Binding Target": "",
+            "Source": "1. Streptomyces chromofuscus\n2. Streptomyces sp. S-118",
+            "Gene": "1. IPT68_01280",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "A0A2U9PDL2",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/A0A2U9PDL2",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "A new genome-mining tool redefines the lasso peptide biosynthetic landscape.",
+                    "Pubmed ID": "28244986",
+                    "Reference": "Nat Chem Biol. 2017;13:470-478",
+                    "Author": "Tietz JI, Schwalen CJ, Patel PS, Maxson T, Blair PM, Tai HC, Zakai UI, Mitchell DA",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/28244986"
+                }
+            ],
+            "Mass": 1534.71,
+            "PI": 5.08,
+            "Net Charge": 0,
+            "Hydrophobicity": 0.36,
+            "Frequent Amino Acids": "LGS",
+            "Absent Amino Acids": "CEFIKMNORTUVWY",
+            "Basic Residues": 1,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 10,
+            "Positive Residues": 1,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_N_15062",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_08078",
+                    "Similarity": 0.8571428571428571,
+                    "Sequence": "MVNMKCVALIVIVMMAFMMVDPSMGVGECVRGRCPSGMCCSQFGYCGKGPKYCGRASTTVDHQADVAATKTAKNPTDAKLAGAGSP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15765",
+                    "Similarity": 0.8,
+                    "Sequence": "KLSPSLGPVSKGKLLAGQR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07658",
+                    "Similarity": 0.8,
+                    "Sequence": "SLGSFLKGVGTTLASVGKVVSDQFGKLLQAGQG"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Escherichia coli MC4100(MIC=>100µM),Pseudomonas aeruginosa PAO1(MIC=>100µM),Klebsiella pneumoniae ATCC 27736(MIC=>100µM),Acinetobacter baumannii ATCC 19606(MIC=>100µM),Neisseria meningitidis 8013(MIC=>100µM),Enterococcus faecium U503(MIC=>100µM),Staphylococcus aureus USA 300(MIC=>100µM),Bacillus subtilis 168(MIC=>100µM),Bacillus anthracis Sterne(MIC=>100µM),Listeria monocytogenes serotype 4b(MIC=>100µM),Mycobacterium smegmatis NRRL B-14616(MIC=>100µM)"
+        }
+    }
+}

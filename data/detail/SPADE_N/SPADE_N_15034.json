@@ -1,0 +1,60 @@
+{
+    "SPADE_N_15034": {
+        "Sequence Information": {
+            "Peptide Name": "Cyclo(L-Pro-D-Glu)",
+            "Sequence": "PE",
+            "Sequence Length": 2,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Binding Target": "1. Quorum Sensing",
+            "Source": "1. Colpoma sp. CR1465A",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Diketopiperazines from Costa Rican endolichenic fungus Colpoma sp. CR1465A.",
+                    "Pubmed ID": "27080179",
+                    "Reference": "Bioorg Med Chem Lett. 2016;26:2438-2441",
+                    "Author": "Lee S, Tamayo-Castillo G, Pang C, Clardy J, Cao S, Kim KH",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/27080179"
+                }
+            ],
+            "Mass": 244.24,
+            "PI": 4.6,
+            "Net Charge": -1,
+            "Hydrophobicity": -2.55,
+            "Frequent Amino Acids": "EP",
+            "Absent Amino Acids": "ACDFGHIKLMNOQRSTUVWY",
+            "Basic Residues": 0,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 0,
+            "Polar Residues": 2,
+            "Positive Residues": 0,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_N_15034",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00076",
+                    "Similarity": 1.0,
+                    "Sequence": "VNYGNGVSCSKTKCSVNWGQAFQERYTAGINSFVSGVASGAGSIGRRP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00158",
+                    "Similarity": 1.0,
+                    "Sequence": "GGAGHVPEYFVGIGTPISFYG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00161",
+                    "Similarity": 1.0,
+                    "Sequence": "ASGRDIAMAIGTLSGQFVAGGIGAAAGGVAGGAIYDYASTHKPNPAMSPSGLGGTIKQKPEGIPSEAWNYAAGRLCNWSPNNLSDVCL"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=>200µg/ml),Bacillus subtilis ATCC 6633(MIC=>200µg/ml),Staphylococcus aureus BAA-2313(MIC=>200µg/ml),Saccharomyces cerevisiae ATCC 9763(MFC=>200µg/ml),Candida albicans ATCC 10231(MFC=>200µg/ml)"
+        }
+    }
+}

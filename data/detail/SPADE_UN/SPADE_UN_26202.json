@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_26202": {
+        "Sequence Information": {
+            "Peptide Name": "CATH-2 (1-15)[F12M,P14L]",
+            "Sequence": "RFGRFLRKIRRMRLK",
+            "Sequence Length": 15,
+            "Biological Activity": [
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "Q2IAL7",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/Q2IAL7",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "CATH-2-derived antimicrobial peptide inhibits multidrug-resistant Escherichia coli infection in chickens",
+                    "Pubmed ID": "38812753",
+                    "Reference": "Front Cell Infect Microbiol. 2024;14:1390934",
+                    "Author": "Hao S, Shi W, Chen L, Kong T, Wang B, Chen S, Guo X",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/38812753"
+                }
+            ],
+            "Mass": 2033.54,
+            "PI": 12.0,
+            "Net Charge": 8,
+            "Hydrophobicity": -1.04,
+            "Frequent Amino Acids": "RFK",
+            "Absent Amino Acids": "ACDEHNOPQSTUVWY",
+            "Basic Residues": 8,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 9,
+            "Positive Residues": 8,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_26202",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_09822",
+                    "Similarity": 1.0,
+                    "Sequence": "LVQRGRFGRFLRKI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09823",
+                    "Similarity": 1.0,
+                    "Sequence": "LVQRGRFGRFLRKIR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_11579",
+                    "Similarity": 1.0,
+                    "Sequence": "RFGRFLRKIRR"
+                }
+            ],
+            "Hemolytic Activity": "Chicken erythrocytes:12% Hemolysis=64 µg/ml",
+            "Target Organism": "Escherichia coli ATCC 8739(MIC=8µg/ml),Escherichia coli ATCC 8739(MIC=0.5µg/ml),Escherichia coli ATCC 8739(MIC=4µg/ml),Escherichia coli ATCC 8739(MBC=8µg/ml),Escherichia coli(MIC=2-8µg/ml),Escherichia coli(MBC=2-8µg/ml)"
+        }
+    }
+}

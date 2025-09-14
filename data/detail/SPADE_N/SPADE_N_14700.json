@@ -1,0 +1,52 @@
+{
+    "SPADE_N_14700": {
+        "Sequence Information": {
+            "Peptide Name": "Lantibiotic Nukacin ISK-1",
+            "Sequence": "KKKSGVIPTVSHDCHMNSFQFVFXCCS",
+            "Sequence Length": 27,
+            "Biological Activity": [
+                "Anti-Gram+"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "1. Staphylococcus warneri  ISK-1\n2. Staphylococcus simulans",
+            "Gene": "1. nukA\n2. nukA",
+            "PDB ID": "5Z5Q",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "Q9KWM4",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/Q9KWM4",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Nukacin ISK-1, a bacteriostatic lantibiotic.",
+                    "Pubmed ID": "19506061",
+                    "Reference": "Antimicrob Agents Chemother. 2009;53:3595-3598",
+                    "Author": "Asaduzzaman SM, Nagao J, Iida H, Zendo T, Nakayama J, Sonomoto K",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/19506061"
+                }
+            ],
+            "SPADE ID": "SPADE_N_14700",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00037",
+                    "Similarity": 1.0,
+                    "Sequence": "KKKSGVIPTVSHDCHMNSFQFVFTCCS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04924",
+                    "Similarity": 1.0,
+                    "Sequence": "KKKKKEEEGEGKKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06118",
+                    "Similarity": 1.0,
+                    "Sequence": "MENSKVMKDIEVANLLEEVQEDELNEVLGAKKKSGVIPTVSHDCHMNSFQFVFTCCS"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Bacillus subtilis JCM 1465(MIC=0.26µM),Micrococcus luteus IFO 12708(MIC=2.08µM),Listeria innocua ATCC 33090(MIC=16.64µM),Lactococcus lactis ATCC 19435(MIC=0.52µM),Enterococcus faecalis TUA1344L(MIC=4.16µM),Latilactobacillus sakei subsp. sakei JCM 1157(MIC=0.26µM),Staphylococcus carnosus TM300(MIC=0.26µM)"
+        }
+    }
+}

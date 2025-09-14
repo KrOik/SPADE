@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_13405": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_13405",
+            "Peptide Name": "Unstapled heptapeptide 1",
+            "Source": "Synthetic construct",
+            "Family": "N/A",
+            "Gene": "N/A",
+            "Sequence": "RWWWRWW",
+            "Sequence Length": 7,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic form",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+"
+            ],
+            "Target Organism": "Gram-positive bacteria:Staphylococcus aureus ATCC25923 (MIC = 83 ± 18 μg/mL). Methicillin-resistant Staphylococcus aureus (MRSA) (MIC > 100 μg/mL)",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "CD spectroscopy was used to characterize the secondary structure of five unstapled heptapeptides and their stapled counterparts in phosphate buffer, indicating a significant increase in peptide helical content upon the stapling, with helicity change from h = 14.1% - 33.7% (for unstapled peptides) to h = 58.9%-75.1% (for stapled peptides).",
+            "Formula": "C67H76N18O8",
+            "Mass": 1261.44,
+            "PI": 12.0,
+            "Net Charge": 2,
+            "Hydrophobicity": -1.93,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Function": "Antibacterial activity against Gram-positive bacteria.",
+            "Comments": "It is a heptapeptide designed rationally.",
+            "Literature": [
+                {
+                    "Title": "De Novo Hydrocarbon-Stapling Design of Single-Turn α-Helical Antimicrobial Peptides",
+                    "Pubmed ID": "PubMed ID is not available",
+                    "Reference": "Int J Pept Res Ther. 2019 Nov 14; 26(4)1711–1719. doi 10.1007/s10989-019-09964-7.",
+                    "Author": "Zhixia Chen, Xiuli Yu, Aiying Zhang, Fangfang Wang, Yankun Xing",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=PubMed ID is not available"
+                }
+            ],
+            "Frequent Amino Acids": "WR",
+            "Absent Amino Acids": "ACDEFGHIKLMNOPQSTUVY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 2,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_08804",
+                    "Similarity": 1.0,
+                    "Sequence": "RRRWWWRRWWRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09932",
+                    "Similarity": 1.0,
+                    "Sequence": "RRRWWW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11425",
+                    "Similarity": 1.0,
+                    "Sequence": "RWWRRWWRWWRRWWRR"
+                }
+            ]
+        }
+    }
+}

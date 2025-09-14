@@ -1,0 +1,55 @@
+{
+    "SPADE_UN_13674": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 2022/0125873 A1",
+                "Patent Link": "http://www.lens.org/lens/patent/US_2022_0125873_A1",
+                "Patent Type": "Patent Application",
+                "Publication Date": "2022-4-28",
+                "Family Info": "WO2020/118427A1##CA3123101A1##BR112021011276A2##EP3897128A1##JP2022523896A##US2022/0125873A1##EP3897128A4",
+                "Patent Title": "Antimicrobial Peptides",
+                "Abstract": "Antimicrobial peptides (AMPs), small compounds that often exhibitbroad spectrum antimicrobial activity, are garnering interest as potential therapeutics against antibiotic-resistant bacterial pathogens. Development of new AMPs is arduous due to the practical limitations of classical protein-based discovery approaches. A high throughput bioinformatics approach is described which is able to confirm identification of known AMPs from the North American bullfrog ( Rana ( Lithobates ) catesbeiana ) genome, and a bioinformatics approach is used to develop new AMPs. The described AMPs exhibit antimicrobial activity against Mycobacterium smegmatis via microtitre broth dilution assays, indicating broader efficacy."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_13674",
+            "Sequence": "GLWETIKTTGKKIALNLLDKIKCKIAGGCPP",
+            "Sequence Length": 31,
+            "Peptide Name": "Sequence 46 from Patent US 2022/0125873",
+            "Source": "Synthetic construct",
+            "Biological Activity": [
+                "Antimicrobial"
+            ],
+            "Frequent Amino Acids": "KGI",
+            "Absent Amino Acids": "FHMOQRSUVY",
+            "Basic Residues": 6,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 14,
+            "Positive Residues": 6,
+            "Negative Residues": 2,
+            "Mass": 3311.01,
+            "PI": 9.51,
+            "Net Charge": 4,
+            "Hydrophobicity": 0.0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_13673",
+                    "Similarity": 0.967741935483871,
+                    "Sequence": "GLWETIKTTGKSIALNLLDKIKCKIAGGCPP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01150",
+                    "Similarity": 0.7419354838709677,
+                    "Sequence": "GLWDSIKNFGKTIALNVMDKIKCKIGGGCPP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15918",
+                    "Similarity": 0.7419354838709677,
+                    "Sequence": "GLWNTIKEAGKKFALNLLDKIRCGIAGGCKG"
+                }
+            ]
+        }
+    }
+}

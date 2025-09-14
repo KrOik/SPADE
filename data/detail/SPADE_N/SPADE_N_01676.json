@@ -1,0 +1,73 @@
+{
+    "SPADE_N_01676": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01676",
+            "Peptide Name": "Brevinin-2LTa (Frogs, amphibians, animals)",
+            "Source": "Hylarana latouchii (Broad-folded frog)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "GAFGDLLKGVAKEAGMKLLNMAQCKLSGKC",
+            "Sequence Length": 30,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-positive bacteria:Staphylococcus aureus ATCC2592 (MIC=2 µM), Bacillus licheniformis X39 (MIC=8 µM), Staphylococcus carnosus KHS (MIC=2 µM), Rhodococcus rhodochrous X15 (MIC=0.5 µM);Gram-negative bacteria:Escherichia coli ATCC25922 (MIC=32.5 µM), Serratia rubidaea X01 (MIC=130 µM), Pseudomonas aeruginosa 1.50 (MIC=65 µM), Psychrobacter faecalis X29 (MIC=0.5 µM).",
+            "Hemolytic Activity": "[Ref.22426384] LD50=520 μM against human erythrocytes",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Cyclization (Cys24 and Cys30)",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C133H229N37O38S4",
+            "Mass": 3082.73,
+            "PI": 9.24,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.19,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Molecular cloning and characterization of antimicrobial peptides from skin of the broad-folded frog, Hylarana latouchii.",
+                    "Pubmed ID": "22426384",
+                    "Reference": "Biochimie. 2012 Jun;94(6)1317-1326.",
+                    "Author": "Wang H, Yu Z, Hu Y, Yu H, Ran R, Xia J, Wang D, Yang S, Yang X, Liu J.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=22426384"
+                }
+            ],
+            "Frequent Amino Acids": "GKL",
+            "Absent Amino Acids": "HIOPRTUWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 15,
+            "Positive Residues": 5,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_15817",
+                    "Similarity": 0.9333333333333333,
+                    "Sequence": "GAFGDLLKGVAKEAGLKLLNMAQCKLSGNC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15816",
+                    "Similarity": 0.7666666666666667,
+                    "Sequence": "GAFGNLLKGVAKKAGLKILSIAQCKLSGTC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01681",
+                    "Similarity": 0.7333333333333333,
+                    "Sequence": "MFTMKKSLLLLFFLGMISLSLCQDERGADEDDGGEMTEEEKRGAFGNFLKGVAKKAGLKILSIAQCKLSGTC"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "SPADE_UN_26905": {
+        "Sequence Information": {
+            "Peptide Name": "Thanatin [C11Lys-Bu,T15S,M21F]",
+            "Sequence": "GSKKPVPIIYXNRRSGKCQRF",
+            "Sequence Length": 21,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Binding Target": "1. Membrane Protein\n2. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P55788",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P55788",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Thanatin and vinyl sulfide analogues as narrow spectrum antimicrobial peptides that synergise with polymyxin B",
+                    "Pubmed ID": "39564120",
+                    "Reference": "Front Pharmacol. 2024;15:1487338",
+                    "Author": "Shepperson OA, Harris PWR, Brimble MA, Cameron AJ",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/39564120"
+                }
+            ],
+            "SPADE ID": "SPADE_UN_26905",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_26903",
+                    "Similarity": 1.0,
+                    "Sequence": "GSKKPVPIIYCNRRSGKCQRF"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_26906",
+                    "Similarity": 1.0,
+                    "Sequence": "GSKKPVPIIYCNRRSGKQRF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14501",
+                    "Similarity": 0.95,
+                    "Sequence": "GSKKPVPIIYCNRRTGKCQRF"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Staphylococcus aureus ATCC 29213(MIC=>64µM),Escherichia coli ATCC 25922(MIC=4µM),Pseudomonas aeruginosa SVB-B9(MIC=>64µM),Candida albicans SC5314(MIC=>64µM)"
+        }
+    }
+}

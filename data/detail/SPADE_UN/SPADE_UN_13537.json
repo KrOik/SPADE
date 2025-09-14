@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_13537": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_13537",
+            "Peptide Name": "ACE2 (352-359)(SAP4)",
+            "Source": "Synthetic construct",
+            "Family": "Belongs to the peptidase M5 family.",
+            "Gene": "ACE2",
+            "Sequence": "GKGDFRIL",
+            "Sequence Length": 8,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q9BYF1"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antiviral(SARS-CoV-2)"
+            ],
+            "Target Organism": "[Ref.33356169]Virus:SARS-CoV-2:Inhibition of infection in 293T/ACE2 cells(IC50>7.5 mM)",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C41H68N12O11",
+            "Mass": 905.05,
+            "PI": 8.75,
+            "Net Charge": 1,
+            "Hydrophobicity": -0.2,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Mechanism of action": "Inhibiting SARS-CoV-2 infection by disrupting the Spike-ACE2 interaction interface with peptide-based inhibitors.",
+            "Literature": [
+                {
+                    "Title": "Rationally Designed ACE2-Derived Peptides Inhibit SARS-CoV-2.",
+                    "Pubmed ID": "33356169",
+                    "Reference": "Bioconjug Chem. 2021 Jan 20;32(1)215-223.",
+                    "Author": "Larue RC, Xing E, Kenney AD, Zhang Y, Tuazon JA, Li J, Yount JS, Li PK, Sharma A.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=33356169"
+                }
+            ],
+            "Frequent Amino Acids": "GDF",
+            "Absent Amino Acids": "ACEHMNOPQSTUVWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 3,
+            "Polar Residues": 2,
+            "Positive Residues": 2,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_04306",
+                    "Similarity": 1.0,
+                    "Sequence": "SSLLEKGLDGAKKAVGGLGKLGKDAVEDLESVGKG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07424",
+                    "Similarity": 1.0,
+                    "Sequence": "ACAAHCLLRGNRGGYCNGKG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07494",
+                    "Similarity": 1.0,
+                    "Sequence": "MRLVVCLVFLASFALVCQGQVYKGGYTRPVPRPPFVRPLPGGPIGPYNGCPVSCRGISFSQARSCCSRLGRCCHVGKG"
+                }
+            ]
+        }
+    }
+}

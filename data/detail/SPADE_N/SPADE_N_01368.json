@@ -1,0 +1,77 @@
+{
+    "SPADE_N_01368": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01368",
+            "Peptide Name": "Esculentin-1A (Frogs, amphibians, animals)",
+            "Source": "Rana esculenta (European Edible frog)",
+            "Family": "Belongs to the frog skin active peptide family (Brevinin subfamily)",
+            "Gene": "Not found",
+            "Sequence": "GIFSKLAGKKIKNLLISGLKNVGKEVGMDVVRTGIDIAGCKIKGEC",
+            "Sequence Length": 46,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P40843"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Swiss_Prot Entry P40843]Shows antibacterial activity against representative Gram-negative and Gram-positive bacterial species",
+            "Hemolytic Activity": "[Ref:8163497]Not found",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C212H371N59O60S3",
+            "Mass": 4802.77,
+            "PI": 9.63,
+            "Net Charge": 5,
+            "Hydrophobicity": 0.22,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Shows antibacterial activity against representative Gram-negative and Gram-positive bacterial species.",
+            "Tissue specificity": "Expressed by the skin glands.",
+            "PTM": "contains one disulfide bond 40-46.",
+            "Literature": [
+                {
+                    "Title": "Antimicrobial peptides from skin secretions of Rana esculenta. Molecular cloning of cDNAs encoding esculentin and brevinins and isolation of new active peptides.",
+                    "Pubmed ID": "8163497",
+                    "Reference": "J Biol Chem. 1994 Apr 22;269(16)11956-11961.",
+                    "Author": "Simmaco M, Mignogna G, Barra D, Bossa F.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=8163497"
+                }
+            ],
+            "Frequent Amino Acids": "GKI",
+            "Absent Amino Acids": "HOPQUWY",
+            "Basic Residues": 9,
+            "Acidic Residues": 4,
+            "Hydrophobic Residues": 18,
+            "Polar Residues": 22,
+            "Positive Residues": 9,
+            "Negative Residues": 4,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01370",
+                    "Similarity": 0.9782608695652174,
+                    "Sequence": "GIFSKLAGKKLKNLLISGLKNVGKEVGMDVVRTGIDIAGCKIKGEC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07928",
+                    "Similarity": 0.9782608695652174,
+                    "Sequence": "MFTLKKPLLLIVLLGMISLSLCEQERNADEEEGSEIKRGIFSKLAGKKLKNLLISGLKNVGKEVGMDVVRTGIDIAGCKIKGEC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15693",
+                    "Similarity": 0.9782608695652174,
+                    "Sequence": "GIFSKLAGKKIKNLLISGLKNIGKEVGMDVVRTGIDIAGCKIKGEC"
+                }
+            ]
+        }
+    }
+}

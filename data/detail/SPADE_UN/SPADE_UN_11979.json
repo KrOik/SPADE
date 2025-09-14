@@ -1,0 +1,83 @@
+{
+    "SPADE_UN_11979": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_11979",
+            "Peptide Name": "pEM-2 (Derived from the venom of the snake Bothrops asper)",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "KKWRWWLKALAKK",
+            "Sequence Length": 13,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic form",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.27591703] Gram-positive bacteria :Staphylococcus aureus isolates(MIC=5.3 ± 2.3 mg/L, MBC=6.7 ± 2.3 mg/L), Enterococcus faecalis isolates(MIC=6.7 ± 2.3 mg/L, MBC=8.0 ± 0.0 mg/L);Gram-negative bacteria :Pseudomonas aeruginosa isolates(MIC=4.0 ± 3.5 mg/L, MBC=4.0 ± 3.5 mg/L), Acinetobacter baumannii isolates(MIC=4.0 ± 0.0 mg/L, MBC=5.3 ± 2.3 mg/L)",
+            "Hemolytic Activity": "[Ref.27591703] 0% hemolysis at 2 μg/ml , 5% hemolysis at 4 μg/ml , 15% hemolysis at 8 μg/ml , 55% hemolysis at 16 μg/ml , 87% hemolysis at 32 μg/ml , 92% hemolysis at 64 μg/ml against human red blood cells; 0% hemolysis at 16 μg/ml , 2.5% hemolysis at 32 μg/ml , 10% hemolysis at 64 μg/ml against sheep red blood cells",
+            "Cytotoxicity": "[Ref.27591703] The cell viability of HEK293 cells induced by PV is 99.1%, 99.1%, 98.3%, 94.8%, 93.9%, 87.5% and 84.1% at peptide concentrations of 1, 2, 4, 8, 16, 32, 64 μg/mL within 24h.",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C87H136N24O14",
+            "Mass": 1742.16,
+            "PI": 11.39,
+            "Net Charge": 6,
+            "Hydrophobicity": -1.19,
+            "Half Life": "Mammalian:1.3 hourYeast:3 minE.coli:2 min",
+            "Function": "Antibacterial activity against Gram-positive bacteria and Gram-negative bacteria",
+            "Literature": [
+                {
+                    "Title": "Design and characterization of short hybrid antimicrobial peptides from pEM-2, mastoparan-VT1, and mastoparan-B.",
+                    "Pubmed ID": "27591703",
+                    "Reference": "Chem Biol Drug Des. 2017 Mar;89(3)327-338. doi 10.1111/cbdd.12864.",
+                    "Author": "Memariani H, Shahbazzadeh D, Ranjbar R, Behdani M, Memariani M, Pooshang Bagheri K",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=27591703"
+                },
+                {
+                    "Title": "Rational Evolution of Antimicrobial Peptides Containing Unnatural Amino Acids to Combat Burn Wound Infections",
+                    "Pubmed ID": "",
+                    "Author": "Xiong M, Chen M, Zhang J"
+                },
+                {
+                    "Title": "Bactericidal and antiendotoxic properties of short cationic peptides derived from a snake venom Lys49 phospholipase A2",
+                    "Pubmed ID": "",
+                    "Author": "Santamaria C, Larios S, Quiros S, Pizarro-Cerda J, Gorvel JP, Lomonte B, Moreno E"
+                }
+            ],
+            "Frequent Amino Acids": "KWA",
+            "Absent Amino Acids": "CDEFGHIMNOPQSTUVY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 8,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_00601",
+                    "Similarity": 1.0,
+                    "Sequence": "WLKKW"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_05408",
+                    "Similarity": 1.0,
+                    "Sequence": "RLKRRKKWR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_11980",
+                    "Similarity": 1.0,
+                    "Sequence": "KKWRWWLKALAKKLL"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_28062": {
+        "Sequence Information": {
+            "Peptide Name": "Indolicidin [W4F,W6F,W8F,W9F,W11F] retro",
+            "Sequence": "RRFPFFPFKFPLI",
+            "Sequence Length": 13,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Structure-function relationships in the tryptophan-rich, antimicrobial peptide indolicidin.",
+                    "Pubmed ID": "11695650",
+                    "Reference": "J Pept Sci. 2001;7:552-564",
+                    "Author": "Staubitz P, Peschel A, Nieuwenhuizen WF, Otto M, Götz F, Jung G, Jack RW",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/11695650"
+                }
+            ],
+            "Mass": 1712.09,
+            "PI": 12.0,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.35,
+            "Frequent Amino Acids": "FPR",
+            "Absent Amino Acids": "ACDEGHMNOQSTUVWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 6,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_28062",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_28062",
+                    "Similarity": 1.0,
+                    "Sequence": "RRFPFFPFKFPLI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15432",
+                    "Similarity": 1.0,
+                    "Sequence": "PFFP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06413",
+                    "Similarity": 0.8571428571428571,
+                    "Sequence": "FRRFFKWFRRFFKFF"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:100% Hemolysis=250 µM",
+            "Target Organism": "Micrococcus luteus ATCC 9341(MIC=0.4µM)"
+        }
+    }
+}

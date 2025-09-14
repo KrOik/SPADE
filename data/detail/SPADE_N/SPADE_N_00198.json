@@ -1,0 +1,84 @@
+{
+    "SPADE_N_00198": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 2023/0416797 A1",
+                "Patent Link": "http://www.lens.org/lens/patent/US_2023_0416797_A1",
+                "Patent Type": "Patent Application",
+                "Publication Date": "2023-12-28",
+                "Family Info": "JP2023548477A,EP4243844A1,CN116685204A,WO2022104321A1",
+                "Patent Title": "MODULATING ANTIMICROBIAL PEPTIDE HALF-LIFE",
+                "Abstract": "Methods of modulating the half-life of an antimicrobial peptide are described. The method may include administering an antimicrobial peptide to an environment where the antimicrobial peptide remains active until a specified endpoint, and on or after the specified endpoint, digesting the antimicrobial peptide with a protease to thereby inactivate the antimicrobial peptide and modulate its half-life. Compositions and kits for modulating the half-life of an antimicrobial peptide are also described."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00198",
+            "Peptide Name": "Curvaticin FS47 (Bacteriocin)",
+            "Source": "Lactobacillus curvatus FS47 (Gram-positive bacteria)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "YTAKQCLQAIGSCGIAGTGAGAAGGPAGAFVGAXVVXI",
+            "Sequence Length": 38,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P80323"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+"
+            ],
+            "Target Organism": "Gram-positive bacteria:Listeria monocytogenes, Pediococcus, Enterococcus, Lactobacilli and Bacilli.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C140H223N39O41S2",
+            "Mass": 3431.36,
+            "PI": 8.05,
+            "Net Charge": 1,
+            "Hydrophobicity": 0.903,
+            "Half Life": "Mammalian:2.8 hourYeast:10 minE.coli:2 min",
+            "Function": "Has bacteriocin activity.",
+            "Literature": [
+                {
+                    "Title": "Purification and partial amino acid sequence of curvaticin FS47, a heat-stable bacteriocin produced by Lactobacillus curvatus FS47.",
+                    "Pubmed ID": "8031103",
+                    "Reference": "Appl Environ Microbiol. 1994 Jun;60(6)2191-2195.",
+                    "Author": "Garver KI, Muriana PM.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=8031103"
+                }
+            ],
+            "Frequent Amino Acids": "AGI",
+            "Absent Amino Acids": "DEHMNORUW",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 19,
+            "Polar Residues": 21,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06152",
+                    "Similarity": 0.5555555555555556,
+                    "Sequence": "MNTITICKFDVLDAELLSTVEGGYSGKDCLKDMGGYALAGAGSGALWGAPAGGVGALPGAFVGAHVGAIAGGFACMGGMIGNKFN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07766",
+                    "Similarity": 0.5555555555555556,
+                    "Sequence": "YSGKDCLKDMGGYALAGAGSGALWGAPAGGVGALPGAFVGAHVGAIAGGFACMGGMIGNKFN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00132",
+                    "Similarity": 0.5428571428571428,
+                    "Sequence": "YSGKDLKDMGGYALAGAGSGALGAPAGVGALPGAFVGAHVGAIAG"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "SPADE_N_00281": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00281",
+            "Peptide Name": "Insecticidal protein LA-b (Latex abundant protein b; Plant defensin)",
+            "Source": "Morus alba (White mulberry)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "SEQQXGRDVGGAL",
+            "Sequence Length": 13,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P86800"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Insecticidal"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C48H79N17O19",
+            "Mass": 1327.6,
+            "PI": 4.37,
+            "Net Charge": -1,
+            "Hydrophobicity": -0.823,
+            "Half Life": "Mammalian:1.9 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Has insecticidal activity when consumed by D.melanogaster larvae. Has low chitinase and chitosanase activity.",
+            "Catalytic activity": "Random hydrolysis of N-acetyl-beta-D-glucosaminide (1->4)-beta-linkages in chitin and chitodextrins. Endohydrolysis of beta-(1->4)-linkages between D-glucosamine residues in a partly acetylated chitosan.",
+            "PTM": "Glycosylated; contains galactose.",
+            "Literature": [
+                {
+                    "Title": "Two chitinase-like proteins abundantly accumulated in latex of mulberry show insecticidal activity.",
+                    "Pubmed ID": "20109180",
+                    "Reference": "BMC Biochem. 2010 Jan 28;116.",
+                    "Author": "Kitajima S, Kamei K, Taketani S, Yamaguchi M, Kawai F, Komatsu A, Inukai Y.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=20109180"
+                }
+            ],
+            "Frequent Amino Acids": "GQA",
+            "Absent Amino Acids": "CFHIKMNOPTUWY",
+            "Basic Residues": 1,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 3,
+            "Polar Residues": 6,
+            "Positive Residues": 1,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00280",
+                    "Similarity": 0.8333333333333334,
+                    "Sequence": "SEPQGRDAGGAL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_08849",
+                    "Similarity": 0.8,
+                    "Sequence": "NRQAQGERAHGEQQG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05537",
+                    "Similarity": 0.8,
+                    "Sequence": "VAGALGVQTAAATTIVNVILNAGTLVTVLGIIASIASGGAGTLMTIGWATFKATVQKLAKQSMARAIAY"
+                }
+            ]
+        }
+    }
+}

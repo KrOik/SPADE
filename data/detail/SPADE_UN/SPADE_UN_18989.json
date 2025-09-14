@@ -1,0 +1,71 @@
+{
+    "SPADE_UN_18989": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_18989",
+            "Peptide Name": "DeNo1016 (Synthetic AMPs, UCLL1)",
+            "Source": "AI-aided de novo designed",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "FLPIIAGLAAKFLPKIFCKITKKC",
+            "Sequence Length": 24,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Hemolytic"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 2664.41,
+            "PI": 9.9,
+            "Hydrophobicity": 1.02,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Li C, Sutherland D, Richter A, Coombe L, Yanai A, Warren RL, Kotkoff M, Hof F, Hoang LMN, Helbing CC, Birol I.2024",
+                    "Reference": "Protein Sci. 2024 Aug;33(8):e5088. doi: 10.1002/pro.5088.PubMed",
+                    "Title": "De novo synthetic antimicrobial peptide design with a recurrent neural network"
+                }
+            ],
+            "Frequent Amino Acids": "KIA",
+            "Absent Amino Acids": "DEHMNOQRSUVWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 15,
+            "Polar Residues": 11,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "Net Charge": 5,
+            "Comments": "Sequence analysis: APD analysis reveals that this sequence is similar (87.5%) tofrog \tBrevinin-1PLbK: 21%, L=F=A: 13%, I: 17%.Activity: Active against E. coli ATCC 25922 (MIC 4 ug/ml) and S. aureus ATCC 29213 (MIC 2-4 ug/ml).In vitro toxicity: porcine RBC: HC50 4-8 ug/ml. Highly hemolytic.",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_22646",
+                    "Similarity": 0.9285714285714286,
+                    "Sequence": "KFLPKIFCAITKKC"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_22648",
+                    "Similarity": 0.9285714285714286,
+                    "Sequence": "KFLPWKIFCAITKKC"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_22645",
+                    "Similarity": 0.9230769230769231,
+                    "Sequence": "FLPKIFCAITKKC"
+                }
+            ]
+        }
+    }
+}

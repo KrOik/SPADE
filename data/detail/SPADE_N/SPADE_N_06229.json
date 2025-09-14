@@ -1,0 +1,73 @@
+{
+    "SPADE_N_06229": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_06229",
+            "Peptide Name": "Esculentin-2P (Frogs, amphibians, animals)",
+            "Source": "Rana pipiens (northern leopard frog)",
+            "Family": "Iridoviridae, Herpesviridae",
+            "Gene": "Not found",
+            "Sequence": "GFLSIFRGVAKFASKGLGKDLARLGVNLVACKISKQC",
+            "Sequence Length": 37,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P82846"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antiviral"
+            ],
+            "Target Organism": "[Ref.11601906]Frog Virus 3:inhibition of FV3 infection in fathead minnow(FHM) cells(90% inhibition at 500 µM);Channel Catfish virus(CCV):inhibition of CCV infection in catfish ovary(CCO) cells( 90% inhibition at 50 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Cyclization of a C-terminal Cys residue (forming a disulfide bond)",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C176H296N50O45S2",
+            "Mass": 3896.67,
+            "PI": 10.21,
+            "Net Charge": 6,
+            "Hydrophobicity": 0.48,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Inactivation of frog virus 3 and channel catfish virus by esculentin-2P and ranatuerin-2P, two antimicrobial peptides isolated from frog skin.",
+                    "Pubmed ID": "11601906",
+                    "Reference": "Virology. 2001 Sep 30;288(2)351-7.",
+                    "Author": "Chinchar VG, Wang J, Murti G, Carey C, Rollins-Smith L.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=11601906"
+                }
+            ],
+            "Frequent Amino Acids": "GKL",
+            "Absent Amino Acids": "EHMOPTUWY",
+            "Basic Residues": 7,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 17,
+            "Polar Residues": 21,
+            "Positive Residues": 7,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01394",
+                    "Similarity": 0.972972972972973,
+                    "Sequence": "GFSSIFRGVAKFASKGLGKDLARLGVNLVACKISKQC"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_16067",
+                    "Similarity": 0.9354838709677419,
+                    "Sequence": "RGVAKFASKGLGKDLAKLGVDLVACKISKQC"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_16894",
+                    "Similarity": 0.9259259259259259,
+                    "Sequence": "KFASKGLGKDLAKLGVDLVACKISKQC"
+                }
+            ]
+        }
+    }
+}

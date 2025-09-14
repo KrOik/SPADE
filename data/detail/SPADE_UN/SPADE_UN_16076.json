@@ -1,0 +1,72 @@
+{
+    "SPADE_UN_16076": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_16076",
+            "Peptide Name": "D-PAP-C",
+            "Source": "Synthetic",
+            "Family": "",
+            "Gene": "Not found",
+            "Sequence": "KLAKLAKKLAKLAKC",
+            "Sequence Length": 15,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Notavailable"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Target Organism": "Tumor cells:HepG2 (LD50=192 µg/ml)",
+            "Hemolytic Activity": "Not available",
+            "Cytotoxicity": "Not available",
+            "Binding Target": "Not available",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "Mix",
+            "Structure Description": "Not found",
+            "Formula": "C3H-21NO-12S",
+            "Mass": 1627.13,
+            "PI": 10.32,
+            "Net Charge": 6,
+            "Hydrophobicity": 0.1,
+            "Half Life": "Mammalian:/Yeast:/E.coli:/",
+            "Literature": [
+                {
+                    "Title": "Addition of L-cysteine to the N- or C-terminus of the all-D-enantiomer [D(KLAKLAK)2] increases antimicrobial activities against multidrug-resistant Pseudomonas aeruginosa, Acinetobacter baumannii and Escherichia coli",
+                    "Pubmed ID": "33335804",
+                    "Reference": "PeerJ. 2020 Nov 30;8e10176.",
+                    "Author": "Ohno MK, Kirikae T, Yoshihara E, Kirikae F, Ishida I.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=33335804"
+                }
+            ],
+            "Frequent Amino Acids": "KAL",
+            "Absent Amino Acids": "DEFGHIMNOPQRSTUVWY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 11,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07286",
+                    "Similarity": 1.0,
+                    "Sequence": "CRQIKIWFQNRRMKWKKKLAKLAKKLAKLAK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10549",
+                    "Similarity": 1.0,
+                    "Sequence": "DAHKLAKLAKKLAKLAK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10550",
+                    "Similarity": 1.0,
+                    "Sequence": "GGHKLAKLAKKLAKLAK"
+                }
+            ]
+        }
+    }
+}

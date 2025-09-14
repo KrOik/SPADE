@@ -1,0 +1,66 @@
+{
+    "SPADE_N_15773": {
+        "Sequence Information": {
+            "Peptide Name": "Peptide Ctry2459",
+            "Sequence": "FLGFLKNLF",
+            "Sequence Length": 9,
+            "Biological Activity": [
+                "Antiviral",
+                "Anticancer",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer\n2. Virus replication",
+            "Source": "1. Chaerilus tryznai",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P0DMF3",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P0DMF3",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Design of histidine-rich peptides with enhanced bioavailability and inhibitory activity against hepatitis C virus.",
+                    "Pubmed ID": "23415044",
+                    "Reference": "Biomaterials. 2013;34:3511-3522",
+                    "Author": "Hong W, Zhang R, Di Z, He Y, Zhao Z, Hu J, Wu Y, Li W, Cao Z",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/23415044"
+                }
+            ],
+            "Mass": 1098.34,
+            "PI": 8.75,
+            "Net Charge": 1,
+            "Hydrophobicity": 1.33,
+            "Frequent Amino Acids": "FLG",
+            "Absent Amino Acids": "ACDEHIMOPQRSTUVWY",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 3,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_N_15773",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_05670",
+                    "Similarity": 1.0,
+                    "Sequence": "KRMGIFHLFWAGLRKLGNLIKNKIQQGIENFLG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05697",
+                    "Similarity": 1.0,
+                    "Sequence": "GLFDIIKKIAESFKFSEAIKKIIDFLG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06260",
+                    "Similarity": 1.0,
+                    "Sequence": "LGGIVSAVKKIVDFLG"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=137.9 µg/ml",
+            "Target Organism": "Hepatitis C virus (HCV)(IC50 REP=1.84µg/ml),Human hepatocellular carcinoma Huh-7.5.1 cells(50% Cell death=79.8µg/ml)"
+        }
+    }
+}

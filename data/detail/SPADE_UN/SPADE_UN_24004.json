@@ -1,0 +1,61 @@
+{
+    "SPADE_UN_24004": {
+        "Sequence Information": {
+            "Peptide Name": "Beta defensin Am23SK",
+            "Sequence": "SCRFSGGYCIWNWERCRSGHFLVALCPFRKRCCK",
+            "Sequence Length": 34,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell",
+                "Antibiofilm"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Identification of a crocodylian β-defensin variant from Alligator mississippiensis with antimicrobial and antibiofilm activity.",
+                    "Pubmed ID": "33865931",
+                    "Reference": "Peptides. 2021;141:170549",
+                    "Author": "Santana FL, Arenas I, Haney EF, Estrada K, Hancock REW, Corzo G",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/33865931"
+                }
+            ],
+            "Mass": 4070.8,
+            "PI": 9.42,
+            "Net Charge": 7,
+            "Hydrophobicity": -0.21,
+            "Frequent Amino Acids": "CRF",
+            "Absent Amino Acids": "DMOQTU",
+            "Basic Residues": 8,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 14,
+            "Polar Residues": 20,
+            "Positive Residues": 8,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_UN_24004",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_01648",
+                    "Similarity": 0.5555555555555556,
+                    "Sequence": "CRKRKRRCRKRKCKRKRKRKRKCRKRKRKCC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08986",
+                    "Similarity": 0.5,
+                    "Sequence": "SGGYCGGWKRKRCTSYRSG"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_27214",
+                    "Similarity": 0.5,
+                    "Sequence": "SGGYCGGWKRKRCTSYRSG"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Staphylococcus aureus SAP 0017(MIC=16µg/ml),Salmonella enterica subsp. enterica serovar Typhimurium ATCC 14028(MIC=16µg/ml),Acinetobacter baumannii AB5075(MIC=2µg/ml),Enterobacter cloacae 218R1(MIC=8µg/ml)"
+        }
+    }
+}

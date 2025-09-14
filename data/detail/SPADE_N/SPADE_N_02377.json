@@ -1,0 +1,87 @@
+{
+    "SPADE_N_02377": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 10723764 B2",
+                "Patent Link": "http://www.lens.org/lens/patent/US_10723764_B2",
+                "Patent Type": "Granted Patent",
+                "Publication Date": "2020-7-28",
+                "Family Info": "US20150259382A1",
+                "Patent Title": "Anti-microbial Peptides And Methods Of Use Thereof",
+                "Abstract": "Anti-microbial peptides and methods of use are provided."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02377",
+            "Peptide Name": "Ponericin-L2 (ants, insects, animals)",
+            "Source": "Pachycondyla goeldii (Ponerine ant)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "LLKELWTKIKGAGKAVLGKIKGLL",
+            "Sequence Length": 24,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P82422"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antiviral"
+            ],
+            "Target Organism": "[Ref.11279030]Gram-positive bacteria:Bacillus cereus CIP 6624a(Inhibition zone = 6.5mm), B. megaterium ATCC 9885b(Inhibition zone = 14mm), B. stearothermophilus CIP 675(Inhibition zone = 21mm), B. subtilis ATCC 6623(Inhibition zone = 13.5mm), Enterococcus faecalis CIP 636(Inhibition zone = 4mm), Lactococcus lactis ssp. cremoris I116(Inhibition zone = 15.5mm), Streptococcus pyogenes CIP 561(Inhibition zone = 12.5mm), S. sanguinis CIP 55128(Inhibition zone = 6mm), Listeria ivanovii LMA 94d(Inhibition zone = 9.5mm), Listeria monocytogenes ATCC 15313(Inhibition zone = 9.5mm), Micrococcus luteus CIP 5345(Inhibition zone = 10.5mm), Staphylococcus aureus CIP 677(Inhibition zone = 4.5mm), Staphylococcus aureus LMA(Inhibition zone = 11mm), S. epidermidis CIP 53134(Inhibition zone = 11.5mm);Gram-negative bacteria:Escherichia coli(Inhibition zone = 4mm), Enterobacter cloacae CIP 6085(Inhibition zone = 5mm), Klebsiella pneumoniae CIP 8291(Inhibition zone = 3.5mm), Proteus mirabilis LMA TP(Inhibition zone = 9mm), Salmonella enterica CIP 813(Inhibition zone = 1.5mm), Serratia marcescens LMA TP(Inhibition zone = 9mm), Flavobacterium meningosepticum CIP 6057(Inhibition zone = 7mm), Pseudomonas aeruginosa CIP A22(Inhibition zone = 14mm).",
+            "Hemolytic Activity": "[Ref.11279030]Not found",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C123H217N31O28",
+            "Mass": 2578.23,
+            "PI": 10.3,
+            "Net Charge": 5,
+            "Hydrophobicity": 0.4,
+            "Half Life": "Mammalian:5.5 hourYeast:3 minE.coli:2 min",
+            "Function": "Broad spectrum of activity against both Gram-positive and Gram-negative bacteria.",
+            "Tissue specificity": "Expressed by the venom gland.",
+            "Literature": [
+                {
+                    "Title": "Ponericins, new antibacterial and insecticidal peptides from the venom of the ant Pachycondyla goeldii.",
+                    "Pubmed ID": "11279030",
+                    "Reference": "J. Biol. Chem. 2001; 276 17823-17829.",
+                    "Author": "Orivel J, Redeker V, Le Caer JP, Krier F, Revol-Junelles AM, Longeon A, Chaffotte A, Dejean A, Rossier J.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=11279030"
+                }
+            ],
+            "Frequent Amino Acids": "KLG",
+            "Absent Amino Acids": "CDFHMNOPQRSUY",
+            "Basic Residues": 6,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 10,
+            "Positive Residues": 6,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02376",
+                    "Similarity": 0.9583333333333334,
+                    "Sequence": "LLKELWTKMKGAGKAVLGKIKGLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_22887",
+                    "Similarity": 0.9166666666666666,
+                    "Sequence": "LLKQLWTKMKGAGKAVLGKIKGLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_22888",
+                    "Similarity": 0.9166666666666666,
+                    "Sequence": "LLKKLWTKMKGAGKAVLGKIKGLL"
+                }
+            ]
+        }
+    }
+}

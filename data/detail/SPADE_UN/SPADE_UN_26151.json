@@ -1,0 +1,62 @@
+{
+    "SPADE_UN_26151": {
+        "Sequence Information": {
+            "Peptide Name": "Cathelicidin AM (1-14), AS-14",
+            "Sequence": "GLFKKLRRKIKKGF",
+            "Sequence Length": 14,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anticancer",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Cathelicidin AS-12W Derived from the Alligator sinensis and Its Antimicrobial Activity Against Drug-Resistant Gram-Negative Bacteria In Vitro and In Vivo",
+                    "Pubmed ID": " 38587584",
+                    "Reference": "Probiotics Antimicrob Proteins. 2024;DOI: 10.1007/s12602-024-10250-2:",
+                    "Author": "Zhang M, Wang J, Li C, Wu S, Liu W, Zhou C, Ma L",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/ 38587584"
+                }
+            ],
+            "Mass": 1719.17,
+            "PI": 12.0,
+            "Net Charge": 7,
+            "Hydrophobicity": -0.83,
+            "Frequent Amino Acids": "KFG",
+            "Absent Amino Acids": "ACDEHMNOPQSTUVWY",
+            "Basic Residues": 7,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 9,
+            "Positive Residues": 7,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_26151",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06444",
+                    "Similarity": 1.0,
+                    "Sequence": "RRGLFKKLRRKIKKGFKKIFKRLPPVGVGVSIPLAGRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_12261",
+                    "Similarity": 1.0,
+                    "Sequence": "FFPIVKKLLSGLF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_12271",
+                    "Similarity": 1.0,
+                    "Sequence": "LFPIVKKLLNGLF"
+                }
+            ],
+            "Hemolytic Activity": "Sheep erythrocytes:<5% Hemolysis=128 µg/ml,Human bronchial epithelial cells BEAS-2B:30% Cytotoxicity=128 µg/ml,Human hepatocyte cells HL-7702 (L02):40% Cytotoxicity=128 µg/ml,Murine alveolar macrophages MH-S:IC50=175 µg/ml",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=16µg/ml),Escherichia coli(MIC=16-32µg/ml),Pseudomonas aeruginosa ATCC 27853(MIC=8µg/ml),Pseudomonas aeruginosa(MIC=32-64µg/ml),Klebsiella pneumoniae ATCC 13883(MIC=128µg/ml),Klebsiella pneumoniae(MIC=64µg/ml),Acinetobacter baumannii(MIC=64µg/ml),Staphylococcus aureus ATCC 29213(MIC=16µg/ml),Staphylococcus aureus(MIC=16µg/ml),Staphylococcus epidermidis(MIC=>128µg/ml),Candida albicans ATCC 10231(MIC=>128µg/ml),Candida albicans(MIC=8µg/ml),Human melanoma A375(30-40% Cytotoxicity=128µg/ml)"
+        }
+    }
+}

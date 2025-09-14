@@ -1,0 +1,73 @@
+{
+    "SPADE_N_05847": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_05847",
+            "Peptide Name": "PLS",
+            "Source": "Not found",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "RWQWRWQWR",
+            "Sequence Length": 9,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.29551999] Gram-negative bacteria:E. faecalis-sensitive strain (MIC=25.6 μM),Staphylococcus aureus-sensitive strain (MIC=34.9 μM),,Staphylococcus aureus-resistant strain (MIC=25.0 μM);Gram-positive bacteria:Klebsiella pneumoniaae-sensitive strain (MIC=30.7 μM),Klebsiella pneumoniaae-resistant strain (MIC=26.2 μM),Pseudomonas aeruginosa-sensitive strain (MIC=99.7 μM),Pseudomonas aeruginosa-resistant strain (MIC=107.2 μM)",
+            "Hemolytic Activity": "[Ref.29551999] 24.8% hemolysis at 100μM,50% hemolysis at >100μM against human red cells",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C72H94N24O12",
+            "Mass": 1487.67,
+            "PI": 12.0,
+            "Net Charge": 3,
+            "Hydrophobicity": -2.68,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Function": "Antibacterial activity against the Gram-negative and Gram-positive bacteria",
+            "Literature": [
+                {
+                    "Title": "Design, Synthesis and Evaluation of Branched RRWQWR-Based Peptides as Antibacterial Agents against Clinically Relevant Gram-Positive and Gram-Negative Pathogens",
+                    "Pubmed ID": "29551999",
+                    "Reference": "Front Microbiol. 2018 Mar 2;9329.",
+                    "Author": "Vega SC, Mart",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=29551999"
+                }
+            ],
+            "Frequent Amino Acids": "WRQ",
+            "Absent Amino Acids": "ACDEFGHIKLMNOPSTUVY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 4,
+            "Polar Residues": 5,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06450",
+                    "Similarity": 1.0,
+                    "Sequence": "FKARRWQWRMKKLGAFKARRWQWRMKKLGAK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06451",
+                    "Similarity": 1.0,
+                    "Sequence": "FKARRWQWRMKKLGAFKARRWQWRMKKLGAKC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06452",
+                    "Similarity": 1.0,
+                    "Sequence": "RRWQWRRRWQWRK"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "SPADE_UN_22824": {
+        "Sequence Information": {
+            "Peptide Name": "Cathelicidin-BF-15-a1",
+            "Sequence": "VKRFKKFFRKFKKFV",
+            "Sequence Length": 15,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "B6D434",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/B6D434",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "The antimicrobial peptide ZY4 combats multidrug-resistant Pseudomonas aeruginosa and Acinetobacter baumannii infection.",
+                    "Pubmed ID": "31843919",
+                    "Reference": "Proc Natl Acad Sci U S A. 2019;116:26516-2622",
+                    "Author": "Mwangi J, Yin YL, Wang G, Yang M, Li Y, Zhang Z, Lai R",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/31843919"
+                },
+                {
+                    "Title": "Lysine Stapling Screening Provides Stable and Low Toxic Cationic Antimicrobial Peptides Combating Multidrug-Resistant Bacteria In Vitro and In Vivo",
+                    "Pubmed ID": "34968054",
+                    "Reference": "J Med Chem. 2022;65:579-591",
+                    "Author": "Hu Y, et al.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/34968054"
+                }
+            ],
+            "Mass": 2033.55,
+            "PI": 12.0,
+            "Net Charge": 8,
+            "Hydrophobicity": -0.67,
+            "Frequent Amino Acids": "KFR",
+            "Absent Amino Acids": "ACDEGHILMNOPQSTUWY",
+            "Basic Residues": 8,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 8,
+            "Positive Residues": 8,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_22824",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_24419",
+                    "Similarity": 1.0,
+                    "Sequence": "VKRFKKFFRKFKKFV"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_22042",
+                    "Similarity": 1.0,
+                    "Sequence": "KRFKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_05700",
+                    "Similarity": 1.0,
+                    "Sequence": "KFFKFKK"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=>320 µg/ml,Human erythrocytes:31.7±4.2% Hemolysis=320 µg/ml,Human erythrocytes:10% Hemolysis=>128 µg/ml,Human embryonic kidney HEK293T cells:LC50=128 µg/ml",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=4.6µM),Bacillus subtilis(MIC=9.2µM),Staphylococcus aureus ATCC 2592(MIC=9.2µM),Candida albicans SC5314(MIC=4.6µM),Listeria monocytogenes(MIC=16µg/ml),Staphylococcus aureus BNCC 186335(MIC=4µg/ml),Staphylococcus aureus(MIC=8µg/ml),Pseudomonas aeruginosa BNCC 125486(MIC=8µg/ml),Escherichia coli BNCC 133264(MIC=2µg/ml),Escherichia coli(MIC=16µg/ml)"
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "SPADE_N_01750": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01750",
+            "Peptide Name": "Brevinin-1Ja (Frogs, amphibians, animals)",
+            "Source": "Rana japonica (Japanese brown frog)",
+            "Family": "Belongs to the frog skin active peptide family (Brevinin subfamily)",
+            "Gene": "Not found",
+            "Sequence": "FLGSLIGAAIPAIKQLLGLKK",
+            "Sequence Length": 21,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-positive bacterium:Staphylococcus aureus (MIC=15 µM);Gram-negative bacterium:Escherichia coli (MIC=119 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C103H179N25O24",
+            "Mass": 2151.68,
+            "PI": 10.3,
+            "Net Charge": 3,
+            "Hydrophobicity": 1.04,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Comments": "It can produced cell death of mammalian COS7 cells (LD50=28 µM).",
+            "Literature": [
+                {
+                    "Title": "Molecular cloning of a cDNA encoding atypical antimicrobial and cytotoxic brevinin-1Ja from the skin of the Japanese brown frog, Rana japonica.",
+                    "Pubmed ID": "18558801",
+                    "Reference": "Zoolog Sci 2008; 25 487-491.",
+                    "Author": "Koyama T, Iwamuro S.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=18558801"
+                }
+            ],
+            "Frequent Amino Acids": "LAG",
+            "Absent Amino Acids": "CDEHMNORTUVWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 8,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_27865",
+                    "Similarity": 1.0,
+                    "Sequence": "GLKKIFKAGLGSLKKGIAAHVAS"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_12651",
+                    "Similarity": 0.8,
+                    "Sequence": "ILGTILKLLGSL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_01138",
+                    "Similarity": 0.8,
+                    "Sequence": "KGLKKGLKLLKKLLKL"
+                }
+            ]
+        }
+    }
+}

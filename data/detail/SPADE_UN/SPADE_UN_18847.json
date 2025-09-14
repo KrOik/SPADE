@@ -1,0 +1,70 @@
+{
+    "SPADE_UN_18847": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_18847",
+            "Peptide Name": "PvAMP177 (predicted AMPs, Arg-rich; XXA)",
+            "Source": "predicted from Venom Gland Transcriptome,Pamphobeteus verdolaga",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "QCRKLCFRNRCLTYCRGR",
+            "Sequence Length": 18,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 2276.74,
+            "PI": 10.16,
+            "Hydrophobicity": -0.86,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Salinas-Restrepo C, Naranjo-Duran AM, Quintana J, Bueno J, Guzman F, Hoyos Palacio LM, Segura C.2023",
+                    "Reference": "Antibiotics (Basel). 2023 Dec 20;13(1):6. doi: 10.3390/antibiotics13010006.PubMed",
+                    "Title": "Short Antimicrobial Peptide Derived from the Venom Gland Transcriptome of Pamphobeteus verdolaga Increases Gentamicin Susceptibility of Multidrug-Resistant Klebsiella pneumoniae"
+                }
+            ],
+            "Frequent Amino Acids": "RCL",
+            "Absent Amino Acids": "ADEHIMOPSUVW",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 4,
+            "Polar Residues": 14,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "Net Charge": 6,
+            "Comments": "Sequence analysis: APD analysis reveals that this sequence is similar (94.44%) toPvAMP172R: 28%; C: 22%.Activity: active against  E. coli (MIC 25 uM), and P. aeruginosa ATCC 9027 (MIC 50 uM).",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_18848",
+                    "Similarity": 1.0,
+                    "Sequence": "QCRKLCFRNRCLTYCRGRG"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_18846",
+                    "Similarity": 1.0,
+                    "Sequence": "CRKLCFRNRCLTYCRGR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_29115",
+                    "Similarity": 0.8571428571428571,
+                    "Sequence": "LTYCRRRFCVTV"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "SPADE_UN_18799": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_18799",
+            "Peptide Name": "DFT531 (Synthetic AMPs, DFTamP1 variant, Leu-rich; XXA, UCLL1c)",
+            "Source": "Sequence shuffling, designed, man-made sequences",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "GLLSLLSLGLKLL",
+            "Sequence Length": 13,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-MRSA",
+                "Hemolytic"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 1339.71,
+            "PI": 8.75,
+            "Hydrophobicity": 1.85,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Mishra B, Lakshmaiah Narayana J, Lushnikova T, Wang X, Wang G. 2019",
+                    "Reference": "Proc Natl Acad Sci U S A. 2019 Jul 2;116(27):13517-13522. doi: 10.1073/pnas.1821410116.PubMed",
+                    "Title": "Low cationicity is important for systemic in vivo efficacy of database-derived peptides against drug-resistant Gram-positive pathogens"
+                }
+            ],
+            "Frequent Amino Acids": "LGS",
+            "Absent Amino Acids": "ACDEFHIMNOPQRTUVWY",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 3,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "Net Charge": 1,
+            "Comments": "Sequence analysis: APD analysis reveals that this sequence is poorly similar (85.71%) toDFTamP1. L: 62%.Chemical modification:  C-terminal amidation.Activity: Active against S. aureus USA300 (MIC 0.8 uM), P-aeruginosa PAO1 (MIC > 25 uM), E-coli ATCC 25922 (MIC> 25 uM), and K-pneumonia ATCC13883 (MIC > 25 uM).Toxicity:  human RBC HC50 7 uM, highly hemolytic.",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01235",
+                    "Similarity": 1.0,
+                    "Sequence": "FLPIVGKLLSGLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01568",
+                    "Similarity": 1.0,
+                    "Sequence": "FFPIVGKLLSGLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01569",
+                    "Similarity": 1.0,
+                    "Sequence": "FFPIVGKLLFGLL"
+                }
+            ]
+        }
+    }
+}

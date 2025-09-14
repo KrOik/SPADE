@@ -1,0 +1,76 @@
+{
+    "SPADE_UN_28495": {
+        "Sequence Information": {
+            "Peptide Name": "Gallinacin-6 [6 cys del], AvBD6 [6 Cys del]",
+            "Sequence": "SPIHARYQRGVIPGPRWPYYRVGSGSGLKSVRNRWA",
+            "Sequence Length": 36,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "Q6QLR3",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/Q6QLR3",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                },
+                {
+                    "uniprotId": "B2M1Y4",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/B2M1Y4",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                },
+                {
+                    "uniprotId": "B0FYP4",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/B0FYP4",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Expression in Pichia Pastoris and biological activity of Avian ?-defensin 6 and its mutant peptide without cysteines.",
+                    "Pubmed ID": "22512645",
+                    "Reference": "Protein Pept Lett. 2012;19:1064-1070",
+                    "Author": "Cao Y, Ma Q, Shan A, Dong N",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/22512645"
+                }
+            ],
+            "Mass": 4125.66,
+            "PI": 11.72,
+            "Net Charge": 8,
+            "Hydrophobicity": -0.82,
+            "Frequent Amino Acids": "RGP",
+            "Absent Amino Acids": "CDEFMOTU",
+            "Basic Residues": 8,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 28,
+            "Positive Residues": 8,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_28495",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03200",
+                    "Similarity": 1.0,
+                    "Sequence": "SPIHACRYQRGVCIPGPCRWPYYRVGSCGSGLKSCCVRNRWA"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_28495",
+                    "Similarity": 1.0,
+                    "Sequence": "SPIHARYQRGVIPGPRWPYYRVGSGSGLKSVRNRWA"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_17344",
+                    "Similarity": 0.5714285714285714,
+                    "Sequence": "GSGSGSGSGRRRRRRRRGC"
+                }
+            ],
+            "Hemolytic Activity": "Chicken erythrocytes:5% Hemolysis=>42.5 µg/ml",
+            "Target Organism": "Salmonella enterica subsp. enterica serovar Typhimurium C77-31(MIC=10.6µg/ml),Salmonella enterica subsp. enterica serovar Pullorum C79-13(MIC=10.6µg/ml),Staphylococcus aureus ATCC 25923(MIC=2.7µg/ml),Staphylococcus epidermidis ATCC 12228(MIC=10.6µg/ml)"
+        }
+    }
+}

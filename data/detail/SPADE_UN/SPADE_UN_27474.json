@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_27474": {
+        "Sequence Information": {
+            "Peptide Name": "Antimicrobial peptide (AARR)3",
+            "Sequence": "AARRAARRAARR",
+            "Sequence Length": 12,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Synthetic cationic amphiphilic ?-helical peptides as antimicrobial agents.",
+                    "Pubmed ID": "21168911",
+                    "Reference": "Biomaterials. 2011;32:2204-2212",
+                    "Author": "Wiradharma N, Khoe U, Hauser CA, Seow SV, Zhang S, Yang YY",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/21168911"
+                }
+            ],
+            "Mass": 1381.6,
+            "PI": 12.0,
+            "Net Charge": 6,
+            "Hydrophobicity": -1.35,
+            "Frequent Amino Acids": "AR",
+            "Absent Amino Acids": "CDEFGHIKLMNOPQSTUVWY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 6,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_27474",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_10933",
+                    "Similarity": 1.0,
+                    "Sequence": "ARR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11155",
+                    "Similarity": 1.0,
+                    "Sequence": "ARRWFKFL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_13107",
+                    "Similarity": 1.0,
+                    "Sequence": "ARRLGMNPWKTPPAKPKGSK"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=>500 µg/ml",
+            "Target Organism": "Bacillus subtilis ATCC 23857(MIC=>500µg/ml),Candida albicans ATCC 10231(MIC=>500µg/ml)"
+        }
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "SPADE_UN_30320": {
+        "Sequence Information": {
+            "Peptide Name": "GMG_03",
+            "Sequence": "EHMDRILAQLL",
+            "Sequence Length": 11,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Antimicrobial peptides design by evolutionary multiobjective optimization.",
+                    "Pubmed ID": "24039565",
+                    "Reference": "PLoS Comput Biol. 2013;9:e1003212",
+                    "Author": "Maccari G, Di Luca M, Nifosí R, Cardarelli F, Signore G, Boccardi C, Bifone A",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/24039565"
+                }
+            ],
+            "Mass": 1338.58,
+            "PI": 5.32,
+            "Net Charge": 0,
+            "Hydrophobicity": 0.13,
+            "Frequent Amino Acids": "LAD",
+            "Absent Amino Acids": "CFGKNOPSTUVWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 5,
+            "Positive Residues": 2,
+            "Negative Residues": 2,
+            "SPADE ID": "SPADE_UN_30320",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_04340",
+                    "Similarity": 1.0,
+                    "Sequence": "MALEHM"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_30320",
+                    "Similarity": 1.0,
+                    "Sequence": "EHMDRILAQLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_14223",
+                    "Similarity": 1.0,
+                    "Sequence": "LAQLLFIHFRIGRRRRRRRR"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Staphylococcus aureus ATCC 33591(MBC=>50µM),Pseudomonas aeruginosa ATCC 27853(MBC=>50µM)"
+        }
+    }
+}

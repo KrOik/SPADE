@@ -1,0 +1,74 @@
+{
+    "SPADE_N_01798": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01798",
+            "Peptide Name": "Brevinin-2-RN2 (Frogs, amphibians, animals)",
+            "Source": "Rana nigrovittata",
+            "Family": "Belongs to the frog skin active peptide family (Brevinin subfamily)",
+            "Gene": "Not found",
+            "Sequence": "GAFGNFLKGVAKKAGLKILSIAQCKLFGTC",
+            "Sequence Length": 30,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "Gram-positive bacteria:Staphylococcus aureus ATCC2592 (MIC=6.25 µg/ml), Staphylococcus aureus ATCC43300 (MIC=6.25 µg/ml), Bacillus subtilis (MIC=12.5 µg/ml);Gram-negative bacteria:Escherichia coli ML-35P (MIC=50 µg/ml), Pseudomonas aeruginosa PA01 (MIC=12.5 µg/ml), Pseudomonas aeruginosa ATCC27853 (MIC=12.5 µg/ml). Yeast:Candida albicans ATCC2002 (MIC=3.1 µg/m).",
+            "Hemolytic Activity": "[Ref.21171145] It has 21% hemolysis at 100 µg/ml against rabbit red blood cell",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Cyclization (Cys24 and Cys30)",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C142H235N37O35S2",
+            "Mass": 3084.74,
+            "PI": 9.9,
+            "Net Charge": 5,
+            "Hydrophobicity": 0.63,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "Brevinin-2-RN1 and -RN2 could induce 17 and 21% Rabbit red blood cell hemolysis, respectively.",
+            "Literature": [
+                {
+                    "Title": "Two novel antimicrobial peptides from skin secretions of the frog, Rana nigrovittata.",
+                    "Pubmed ID": "21171145",
+                    "Reference": "J Pept Sci. 2011 Jan;17(1)68-72.",
+                    "Author": "Liu X, Liu R, Wei L, Yang H, Zhang K, Liu J, Lai R.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=21171145"
+                }
+            ],
+            "Frequent Amino Acids": "GKA",
+            "Absent Amino Acids": "DEHMOPRUWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 14,
+            "Polar Residues": 16,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01681",
+                    "Similarity": 0.9666666666666667,
+                    "Sequence": "MFTMKKSLLLLFFLGMISLSLCQDERGADEDDGGEMTEEEKRGAFGNFLKGVAKKAGLKILSIAQCKLSGTC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01797",
+                    "Similarity": 0.9666666666666667,
+                    "Sequence": "GAFGNFLKGVAKKAGLKILSIAQCKLSGTC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15816",
+                    "Similarity": 0.9333333333333333,
+                    "Sequence": "GAFGNLLKGVAKKAGLKILSIAQCKLSGTC"
+                }
+            ]
+        }
+    }
+}

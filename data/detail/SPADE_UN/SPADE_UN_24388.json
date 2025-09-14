@@ -1,0 +1,67 @@
+{
+    "SPADE_UN_24388": {
+        "Sequence Information": {
+            "Peptide Name": "Temporin-A [P3Q]",
+            "Sequence": "FLQLIGRVLSGIL",
+            "Sequence Length": 13,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P56917",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P56917",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "A different molecular mechanism underlying antimicrobial and hemolytic actions of temporins A and L.",
+                    "Pubmed ID": "18370376",
+                    "Reference": "J Med Chem. 2008;51:2354-2362",
+                    "Author": "Carotenuto A, Malfi S, Saviello MR, Campiglia P, Gomez-Monterrey I, Mangoni ML",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/18370376"
+                }
+            ],
+            "Mass": 1428.76,
+            "PI": 9.75,
+            "Net Charge": 1,
+            "Hydrophobicity": 1.66,
+            "Frequent Amino Acids": "LGI",
+            "Absent Amino Acids": "ACDEHKMNOPTUWY",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 5,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_24388",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01717",
+                    "Similarity": 1.0,
+                    "Sequence": "GILDTLKNLAISAAKGAAQGLVNKASCKLSGQC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01718",
+                    "Similarity": 1.0,
+                    "Sequence": "GILDTLKNLAKTAGKGALQGLVKMASCKLSGQC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01721",
+                    "Similarity": 1.0,
+                    "Sequence": "GILDSLKNLAKNAGQILLNKASCKLSGQC"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:9% Hemolysis=3 µM,Human erythrocytes:18% Hemolysis=6 µM,Human erythrocytes:70% Hemolysis=12 µM,Human erythrocytes:92% Hemolysis=24 µM",
+            "Target Organism": "Escherichia coli D21(MIC=>24µM),Enterococcus faecalis ATCC 29212(MIC=6µM),Pseudomonas aeruginosa ATCC 15692(MIC=>24µM),Yersinia pseudotuberculosis YPIII(MIC=6µM),Bacillus megaterium Bm11(MIC=0.75µM),Staphylococcus aureus Cowan 1(MIC=1.5µM),Staphylococcus aureus ATCC 25923(MIC=1.5µM),Staphylococcus capitis 1(MIC=1.5µM),Staphylococcus epidermidis ATCC 12228(MIC=1.5µM),Streptococcus pyogenes ATCC 21547(MIC=6µM),Candida albicans ATCC 10231(MIC=6µM),Saccharomyces cerevisiae(MIC=6µM),Schizosaccharomyces pombe(MIC=3µM),Pseudomonas syringae pv. tabaci(MIC=>24µM)"
+        }
+    }
+}

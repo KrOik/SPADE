@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_20319": {
+        "Sequence Information": {
+            "Peptide Name": "TAP",
+            "Sequence": "VDDDDK",
+            "Sequence Length": 6,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Small, anionic, and charge-neutralizing propeptide fragments of zymogens are antimicrobial.",
+                    "Pubmed ID": "9210699",
+                    "Reference": "Antimicrob Agents Chemother. 1997;41:1615-1617",
+                    "Author": "Brogden KA, Ackermann M, Huttner KM",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/9210699"
+                }
+            ],
+            "Mass": 705.67,
+            "PI": 4.05,
+            "Net Charge": -3,
+            "Hydrophobicity": -2.28,
+            "Frequent Amino Acids": "DKV",
+            "Absent Amino Acids": "ACEFGHILMNOPQRSTUWY",
+            "Basic Residues": 1,
+            "Acidic Residues": 4,
+            "Hydrophobic Residues": 1,
+            "Polar Residues": 5,
+            "Positive Residues": 1,
+            "Negative Residues": 4,
+            "SPADE ID": "SPADE_UN_20319",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_14580",
+                    "Similarity": 1.0,
+                    "Sequence": "ADLEVVAATYVDDD"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_20319",
+                    "Similarity": 1.0,
+                    "Sequence": "VDDDDK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08657",
+                    "Similarity": 1.0,
+                    "Sequence": "DDDDK"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Mannheimia haemolytica 82-25(MIC=160±10µM),Escherichia coli ATCC 12795(MIC=900±160µM),Klebsiella pneumoniae ATCC 10031(MIC=850±80µM),Pseudomonas aeruginosa ATCC 27312(MIC=1500µM),Serratia marcescens ATCC 14756(MIC=3000µM),Staphylococcus aureus ATCC 29213(MIC=1080±110µM),Enterococcus faecalis ATCC 29212(MIC=2670±170µM),Candida krusei ATCC 6258(MIC=>2770µM)"
+        }
+    }
+}

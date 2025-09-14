@@ -1,0 +1,71 @@
+{
+    "SPADE_UN_21010": {
+        "Sequence Information": {
+            "Peptide Name": "Magainin-2 [H7K,S8K,G13A,G18K,E19I,S23Del], MSI-136",
+            "Sequence": "GIGKFLKKAKKFAKAFVKIINN",
+            "Sequence Length": 22,
+            "Biological Activity": [
+                "Anticancer"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P11006",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P11006",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "De novo design of anticancer peptides by ensemble artificial neural networks.",
+                    "Pubmed ID": "30953170",
+                    "Reference": "J Mol Model. 2019;25:112",
+                    "Author": "Grisoni F, Neuhaus CS, Hishinuma M, Gabernet G, Hiss JA, Kotera M, Schneider G",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/30953170"
+                },
+                {
+                    "Title": "Anticancer efficacy of Magainin2 and analogue peptides.",
+                    "Pubmed ID": "8319212",
+                    "Reference": "Cancer Res. 1993;53:3052-3057",
+                    "Author": "Baker MA, Maloy WL, Zasloff M, Jacob LS",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/8319212"
+                }
+            ],
+            "Mass": 2464.05,
+            "PI": 10.78,
+            "Net Charge": 7,
+            "Hydrophobicity": 0.01,
+            "Frequent Amino Acids": "KAF",
+            "Absent Amino Acids": "CDEHMOPQRSTUWY",
+            "Basic Residues": 7,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 11,
+            "Positive Residues": 7,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_21010",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06554",
+                    "Similarity": 1.0,
+                    "Sequence": "GIGKFLKKAKKFAKAFVKIINN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10794",
+                    "Similarity": 1.0,
+                    "Sequence": "GIGKFLKKAKKF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10970",
+                    "Similarity": 1.0,
+                    "Sequence": "KWKLFKKIGIGKFL"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Human lung carcinoma A549(EC50=10µM),Ehrlich's ascites carcinoma(50% Cell death=55µg/ml)"
+        }
+    }
+}

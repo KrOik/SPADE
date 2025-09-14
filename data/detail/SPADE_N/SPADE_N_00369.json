@@ -1,0 +1,84 @@
+{
+    "SPADE_N_00369": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 7785828 B1",
+                "Patent Link": "http://www.lens.org/lens/patent/US_7785828_B1",
+                "Patent Type": "Granted Patent",
+                "Publication Date": "2010-8-31",
+                "Family Info": "WO2004072239A2,WO2004072239A3",
+                "Patent Title": "Production of antimicrobial proteins in fusion proteins.",
+                "Abstract": "The invention relates to a method of producing cysteine containing polypeptides in fusion proteins by recombinantly expressing in a host cell sequences encoding an antifungal polypeptide, a maltose binding protein, and a histidine tag. The method is carried out in the presence of a reducing agent to prevent misfolding of the fusion proteins."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00369",
+            "Peptide Name": "Raphanus sativus Antifungal Protein 2 (Rs-AFP2; Plant defensin)",
+            "Source": "Raphanus sativus (Radish)",
+            "Family": "Belongs to the DEFL family",
+            "Gene": "AFP2",
+            "Sequence": "QKLCQRPSGTWSGVCGNNNACKNQCIRLEKARHGSCNYVFPAHKCICYFPC",
+            "Sequence Length": 51,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P30230",
+                "http://www.uniprot.org/uniprot/Q003I2"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antifungal"
+            ],
+            "Target Organism": "Fungi:Alternaria brassicola (IC50=2 µg/ml), Ascochyta pisi (IC50=4 µg/ml), Botrytis cinerea (IC50=2 µg/ml), Cercospora beticola (IC50=2 µg/ml), Colletotrichum lindemuthianum (IC50=3 µg/ml), Fusarium culmorum (IC50=2 µg/ml), Fusarium oxysporum f.sp.lycopersici (IC50=2 µg/ml), Fusarium oxysporum f.sp.pisi (IC50=2 µg/ml), Mycosphaerella fijiensis var.fijiensis (IC50=1.5 µg/ml), Nectria haematococca (IC50=2 µg/ml), Phoma betae (IC50=1 µg/ml), Phytophthora infestans (IC50=25 µg/ml), Pyrenophora tritici-repentis (IC50=1.5 µg/ml), Pyricularia oryzae (IC50=0.4 µg/ml), Rhizoctonia solani (IC50>100 µg/ml), Sclerotinia sclerotiorum (IC50>100 µg/ml), Septoria nodorum (IC50=15 µg/ml), Trichoderma hamatum (IC50=2 µg/ml), Verticillium dahliae (IC50=1.5 µg/ml), Venturia inaequalis (IC50=25 µg/ml). [NOTE:Synthetic low ionic strength growth medium]",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C244H379N77O68S8",
+            "Mass": 5735.61,
+            "PI": 9.08,
+            "Net Charge": 8,
+            "Hydrophobicity": -0.47,
+            "Half Life": "Mammalian:0.8 hourYeast:10 minE.coli:>10 hour",
+            "PTM": "Contains four disulfide bonds 4-51;15-36;21-45;25-47, and Pyrrolidone carboxylic acid at position 1.",
+            "Literature": [
+                {
+                    "Title": "Small cysteine-rich antifungal proteins from radish their role in host defense.",
+                    "Pubmed ID": "7780308",
+                    "Reference": "Plant Cell. 1995 May;7(5)573-588.",
+                    "Author": "Terras FR, Eggermont K, Kovaleva V, Raikhel NV, Osborn RW, Kester A, Rees SB, Torrekens S, Van Leuven F, Vanderleyden J, et al.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=7780308"
+                }
+            ],
+            "Frequent Amino Acids": "CNG",
+            "Absent Amino Acids": "DMOU",
+            "Basic Residues": 9,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 17,
+            "Polar Residues": 36,
+            "Positive Residues": 9,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_04533",
+                    "Similarity": 1.0,
+                    "Sequence": "QKLCQRSGTWSGVCGNNNACKNQCIRLEKARHGSCNYVFPAHKCICYFPC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04534",
+                    "Similarity": 1.0,
+                    "Sequence": "QKLCQRPSGTWSGVCGNNNACKNQCIRLEKARHGSCNYVPAHKCICYFPC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04578",
+                    "Similarity": 1.0,
+                    "Sequence": "QKLCQRPSGTWSGVC"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_26674": {
+        "Sequence Information": {
+            "Peptide Name": "Cathelicidin Gj-CATH2 (22-30)",
+            "Sequence": "IKKGIKKLL",
+            "Sequence Length": 9,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Development of α-Helical Antimicrobial Peptides with Imperfect Amphipathicity for Superior Activity and Selectivity",
+                    "Pubmed ID": "39484706",
+                    "Reference": "J Med Chem. 2024;doi: 10.1021/acs.jmedchem.4c01855:",
+                    "Author": "Wu Z, Cai Y, Han Y, Su Y, Zhang T, Wang X, Yan A, Wang L, Wu S, Wang G, Zhang Z",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/39484706"
+                }
+            ],
+            "Mass": 1040.39,
+            "PI": 10.48,
+            "Net Charge": 4,
+            "Hydrophobicity": 0.07,
+            "Frequent Amino Acids": "KIL",
+            "Absent Amino Acids": "ACDEFHMNOPQRSTUVWY",
+            "Basic Residues": 4,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 4,
+            "Polar Residues": 5,
+            "Positive Residues": 4,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_26674",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_12813",
+                    "Similarity": 1.0,
+                    "Sequence": "KKKFIYIVLALIKGAIIKKG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_13972",
+                    "Similarity": 1.0,
+                    "Sequence": "RRGIKKFIKKVKKVKKAIKEGIKKGIKKLLSGGGSNIAHGPGGRRHIA"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14551",
+                    "Similarity": 1.0,
+                    "Sequence": "RRGIKKFIKKVKKVKKAIKEGIKKGIKKLL"
+                }
+            ],
+            "Hemolytic Activity": "Mouse erythrocytes:<5% Hemolysis=100 µg/ml",
+            "Target Organism": "Acinetobacter baumannii ATCC 19606(MIC=>200µg/ml),Staphylococcus aureus ATCC 6538(MIC=>200µg/ml)"
+        }
+    }
+}

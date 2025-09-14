@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_12132": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_12132",
+            "Peptide Name": "dBac3W (Derived from CAMPs)",
+            "Source": "synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "RICRIWWIRWCR",
+            "Sequence Length": 12,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic form",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.31056261] Gram-positive bacteria:Staphylococcus aureus (MIC=16μM), Staphylococcus epidermidis (MIC=16μM), Bacillus subtilis (MIC=32μM), Enterococcus faecalis (MIC=16-32μM);Gram-negative bacteria:Escherichia coli (MIC=4-8μM), Salmonella typhimurium (MIC=4-8μM), Pseudomonas aeruginosa (MIC=4-8μM), Acinetobacter baumannii (MIC=32μM)",
+            "Hemolytic Activity": "[Ref.31056261] 1.0% hemolysis at 100 μM against human red blood cells",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "D",
+            "Structure Description": "Not found",
+            "Formula": "C81H123N27O13S2",
+            "Mass": 1747.15,
+            "PI": 11.53,
+            "Net Charge": 4,
+            "Hydrophobicity": -0.18,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Function": "Antibacterial activity against Gram-positive bacteria and Gram-nagetive bacteria.",
+            "Literature": [
+                {
+                    "Title": "A significantly enhanced antibacterial spectrum of D-enantiomeric lipopeptide bactenecin.",
+                    "Pubmed ID": "31056261",
+                    "Reference": "Biochem Biophys Res Commun. 2019 Jun 25;514(2)497-502. doi 10.1016/j.bbrc.2019.04.153. Epub 2019 May 2",
+                    "Author": "Sim JY, Kim S, Lee J, Lim H, Kim HH, Park ZY, Kim JI",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=31056261"
+                }
+            ],
+            "Frequent Amino Acids": "RIW",
+            "Absent Amino Acids": "ADEFGHKLMNOPQSTUVY",
+            "Basic Residues": 4,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 6,
+            "Positive Residues": 4,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_03867",
+                    "Similarity": 1.0,
+                    "Sequence": "RIWVIWIR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10666",
+                    "Similarity": 1.0,
+                    "Sequence": "RWCRYAYVRVRGVLVRYRRCW"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_17013",
+                    "Similarity": 1.0,
+                    "Sequence": "RWCRRYRVRVRGVLVYAYVCW"
+                }
+            ]
+        }
+    }
+}

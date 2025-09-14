@@ -1,0 +1,82 @@
+{
+    "SPADE_N_05751": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_05751",
+            "Peptide Name": "SAAP fraction 6 (Surfactant-associated anionic peptides; Asp-rich; sheep, ruminant, mammals, animals)",
+            "Source": "Ovis aries",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "GADDDDD",
+            "Sequence Length": 7,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.8552650] Gram-negative bacterium:Pasteurella haemolytica (MBC50=0.02 mM in Zn-saline, MBC50=10.10 mM in Test buffer; Peptide/surfactant mixture MBC50=0.04 mM in Zn-saline, MBC50=5.18 mM in Test buffer; Peptide/serum mixture MBC50=0.04 mM in Zn-saline, MBC50=5.59 mM in Test buffer; Peptide/surfactant/serum mixture MBC50=0.04 mM in Zn-saline, MBC50=4.75 mM in Test buffer).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C25H35N7O18",
+            "Mass": 721.58,
+            "PI": 4.05,
+            "Net Charge": -5,
+            "Hydrophobicity": -2.3,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Antibacterial activity against negative bacteria. No amidation at the C-terminus",
+            "Literature": [
+                {
+                    "Title": "Isolation of an ovine pulmonary surfactant-associated anionic peptide bactericidal for Pasteurella haemolytica.",
+                    "Pubmed ID": "8552650",
+                    "Reference": "Proc Natl Acad Sci U S A. 1996 Jan 9;93(1)412-6.",
+                    "Author": "Brogden KA, de Lucca AJ, Bland J, Elliott S.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=8552650"
+                },
+                {
+                    "Title": "Small, anionic, and charge-neutralizing propeptide fragments of zymogens are antimicrobial",
+                    "Pubmed ID": "",
+                    "Author": "Brogden KA, Ackermann M, Huttner KM"
+                },
+                {
+                    "Title": "Isolation of an ovine pulmonary surfactant-associated anionic peptide bactericidal for Pasteurella haemolytica",
+                    "Pubmed ID": "",
+                    "Author": "Brogden KA, De Lucca AJ, Bland J, Elliott S"
+                }
+            ],
+            "Frequent Amino Acids": "DAG",
+            "Absent Amino Acids": "CEFHIKLMNOPQRSTUVWY",
+            "Basic Residues": 0,
+            "Acidic Residues": 5,
+            "Hydrophobic Residues": 1,
+            "Polar Residues": 1,
+            "Positive Residues": 0,
+            "Negative Residues": 5,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_20358",
+                    "Similarity": 1.0,
+                    "Sequence": "GADDDDD"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08659",
+                    "Similarity": 1.0,
+                    "Sequence": "ADDDDDD"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_20356",
+                    "Similarity": 1.0,
+                    "Sequence": "ADDDDDD"
+                }
+            ]
+        }
+    }
+}

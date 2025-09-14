@@ -1,0 +1,72 @@
+{
+    "SPADE_UN_15781": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_15781",
+            "Peptide Name": "K(RW)3",
+            "Source": "Synthetic",
+            "Family": "",
+            "Gene": "Not found",
+            "Sequence": "KRWRWRW",
+            "Sequence Length": 7,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Notavailable"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Target Organism": "Tumor cells:HT-29 (IC50=4.3 µM)",
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=114 µM",
+            "Cytotoxicity": "Human fibroblasts:IC50=32.5 µM",
+            "Binding Target": "Not available",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "C8",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C57H80N20O8",
+            "Mass": 1173.37,
+            "PI": 12.0,
+            "Net Charge": 4,
+            "Hydrophobicity": -2.87,
+            "Half Life": "Mammalian:1.3 hourYeast:3 minE.coli:2 min",
+            "Literature": [
+                {
+                    "Title": "Tuning the activity of a short arg-trp antimicrobial Peptide by lipidation of a C- or N-terminal lysine side-chain",
+                    "Pubmed ID": "24900420",
+                    "Reference": "ACS Comb Sci. 2013 Nov 11;15(11)585-92.",
+                    "Author": "Albada HB, Prochnow P, Bobersky S, Langklotz S, Bandow JE, Metzler-Nolte N.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=24900420"
+                }
+            ],
+            "Frequent Amino Acids": "RWK",
+            "Absent Amino Acids": "ACDEFGHILMNOPQSTUVY",
+            "Basic Residues": 4,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 3,
+            "Polar Residues": 4,
+            "Positive Residues": 4,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06280",
+                    "Similarity": 1.0,
+                    "Sequence": "MWKEFHNVLSSGQLLADKRWARWYNRW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_13941",
+                    "Similarity": 1.0,
+                    "Sequence": "GHYCNFSVTPKFKRW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14033",
+                    "Similarity": 1.0,
+                    "Sequence": "KRWRIRWRWIRK"
+                }
+            ]
+        }
+    }
+}

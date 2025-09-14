@@ -1,0 +1,74 @@
+{
+    "SPADE_N_02794": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02794",
+            "Peptide Name": "M-oxotoxin-Ot2c (Oxyopinin-2c, Oxki2c; spiders, Arthropods, animals)",
+            "Source": "Oxyopes takobius (Lynx spider) (Oxyopes foliiformis)",
+            "Family": "Belongs to the oxyopinin-2 family",
+            "Gene": "Not found",
+            "Sequence": "GKLSGISKVLRAIAKFFKGVGKARKQFKEASDLDKNQ",
+            "Sequence Length": 37,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P83250"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Insecticidal"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "[Ref.11976325]10% hemolytic activity at 50 µM against sheep red blood cells",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Cell membrane",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C183H308N54O50",
+            "Mass": 4064.73,
+            "PI": 10.46,
+            "Net Charge": 7,
+            "Hydrophobicity": -0.56,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Disrupts biological membranes, particularly those rich in phosphocholine. Has antimicrobial activity against Gram- negative bacterium E. coli and the Gram-positive bacteria B. subtilis and S. aureus, and hemolytic activity against sheep red blood cells. Has insecticidal activity against S. frugiperda ovarian cells by opening non-selective ion channels. Enhances the insecticidal activity of spider venom neurotoxic peptides.",
+            "Literature": [
+                {
+                    "Title": "Oxyopinins, large amphipathic peptides isolated from the venom of the wolf spider Oxyopes kitabensis with cytolytic properties and positive insecticidal cooperativity with spider neurotoxins.",
+                    "Pubmed ID": "11976325",
+                    "Reference": "J Biol Chem. 2002 Jun 28;277(26)23627-23637.",
+                    "Author": "Corzo G, Villegas E, Gómez-Lagunas F, Possani LD, Belokoneva OS, Nakajima T.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=11976325"
+                }
+            ],
+            "Frequent Amino Acids": "KAG",
+            "Absent Amino Acids": "CHMOPTUWY",
+            "Basic Residues": 10,
+            "Acidic Residues": 3,
+            "Hydrophobic Residues": 14,
+            "Polar Residues": 22,
+            "Positive Residues": 10,
+            "Negative Residues": 3,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02793",
+                    "Similarity": 0.8108108108108109,
+                    "Sequence": "GKFSGFAKILKSIAKFFKGVGKVRKQFKEASDLDKNQ"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02795",
+                    "Similarity": 0.7837837837837838,
+                    "Sequence": "GKFSVFSKILRSIAKVFKGVGKVRKQFKTASDLDKNQ"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07689",
+                    "Similarity": 0.7837837837837838,
+                    "Sequence": "GKFSGFAKILKSIAKFFKGVGKVRKGFKEASDLDKNQ"
+                }
+            ]
+        }
+    }
+}

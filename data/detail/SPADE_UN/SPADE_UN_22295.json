@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_22295": {
+        "Sequence Information": {
+            "Peptide Name": "DENV-2 gp (376-388)",
+            "Sequence": "MVDRGWGNGCGLF",
+            "Sequence Length": 13,
+            "Biological Activity": [
+                "Antiviral",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Virus entry",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P14340",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P14340",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Peptides P4 and P7 derived from E protein inhibit entry of dengue virus serotype 2 via interacting with ?3 integrin.",
+                    "Pubmed ID": "29709564",
+                    "Reference": "Antiviral Res. 2018;155:20-27",
+                    "Author": "Cui X, Wu Y, Fan D, Gao N, Ming Y, Wang P, An J",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/29709564"
+                }
+            ],
+            "Mass": 1411.61,
+            "PI": 5.59,
+            "Net Charge": 0,
+            "Hydrophobicity": 0.09,
+            "Frequent Amino Acids": "GCD",
+            "Absent Amino Acids": "AEHIKOPQSTUY",
+            "Basic Residues": 1,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 8,
+            "Positive Residues": 1,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_UN_22295",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_11058",
+                    "Similarity": 1.0,
+                    "Sequence": "VDRGWGNGCGLFGKGG"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_30244",
+                    "Similarity": 1.0,
+                    "Sequence": "VDRGWGNGCGLFGKGG"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_13865",
+                    "Similarity": 1.0,
+                    "Sequence": "DRGWGNGCGLFG"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "DENV-2(40-50% Inhibition=40µM),DENV-1(40-50% Inhibition=40µM)"
+        }
+    }
+}

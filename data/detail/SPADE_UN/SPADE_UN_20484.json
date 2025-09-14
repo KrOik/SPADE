@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_20484": {
+        "Sequence Information": {
+            "Peptide Name": "Myticin C (29-40)",
+            "Sequence": "PGKICYCLHCSR",
+            "Sequence Length": 12,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "A7DWW5",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/A7DWW5",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Structural and Antimicrobial Features of Peptides Related to Myticin C, a Special Defense Molecule from the Mediterranean Mussel Mytilus galloprovincialis.",
+                    "Pubmed ID": "26444944",
+                    "Reference": "J Agric Food Chem. 2015;63:9251-9259",
+                    "Author": "Domeneghetti S, Franzoi M, Damiano N, Norante R, El Halfawy NM, Mammi S, Marin O, Bellanda M, Venier P",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/26444944"
+                }
+            ],
+            "Mass": 1379.67,
+            "PI": 8.79,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.01,
+            "Frequent Amino Acids": "CGH",
+            "Absent Amino Acids": "ADEFMNOQTUVW",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 7,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_20484",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02425",
+                    "Similarity": 1.0,
+                    "Sequence": "QEAQSVACTSYYCSKFCGSAGCSLYGCYLLHPGKICYCLHCSR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_12783",
+                    "Similarity": 1.0,
+                    "Sequence": "QSVACTSYYCSKFCGSAGCSLYGCYLLHPGKICYCLHCSR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_12786",
+                    "Similarity": 1.0,
+                    "Sequence": "CSLYGCYLLHPGKICYCLHCSR"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=>64µM),Escherichia coli ATCC 25922(MBC=>64µM),Pseudomonas aeruginosa ATCC 27853(MIC=>64µM),Pseudomonas aeruginosa ATCC 27853(MBC=>64µM),Staphylococcus aureus ATCC 29213(MIC=>64µM),Staphylococcus aureus ATCC 29213(MBC=>64µM),Enterococcus faecalis ATCC 29212(MIC=64µM),Enterococcus faecalis ATCC 29212(MBC=>64µM),Aspergillus brasiliensis ATCC 16404(MIC=>64µM),Aspergillus brasiliensis ATCC 16404(MFC=>64µM),Candida albicans ATCC 10231(MIC=64µM),Candida albicans ATCC 10231(MFC=>64µM)"
+        }
+    }
+}

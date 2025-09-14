@@ -1,0 +1,72 @@
+{
+    "SPADE_N_06766": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_06766",
+            "Peptide Name": "CP-EPS8-NLS",
+            "Source": "Derived from the NLS of EPS8",
+            "Family": "",
+            "Gene": "Not found",
+            "Sequence": "GRKKRRQRRRPQSKRKKNKKGKRK",
+            "Sequence Length": 24,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Notavailable"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Target Organism": "Tumor cells:KG-1a (~45%Cellular viability=105 µM)",
+            "Hemolytic Activity": "Not available",
+            "Cytotoxicity": "Not available",
+            "Binding Target": "Not available",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Acetylation",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C128H246N60O29",
+            "Mass": 3089.71,
+            "PI": 12.0,
+            "Net Charge": 17,
+            "Hydrophobicity": -3.53,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Literature": [
+                {
+                    "Title": "A synthetic cell-penetrating peptide derived from nuclear localization signal of EPS8 exerts anticancer activity against acute myeloid leukemia",
+                    "Pubmed ID": "29357910",
+                    "Reference": "J Exp Clin Cancer Res. 2018 Jan 22;37(1)12.",
+                    "Author": "Chen Y, Xie X, Wu A, Wang L, Hu Y, Zhang H, Li Y.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=29357910"
+                }
+            ],
+            "Frequent Amino Acids": "KRG",
+            "Absent Amino Acids": "ACDEFHILMOTUVWY",
+            "Basic Residues": 17,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 1,
+            "Polar Residues": 21,
+            "Positive Residues": 17,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_04906",
+                    "Similarity": 1.0,
+                    "Sequence": "YGRKKRRQRRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06292",
+                    "Similarity": 1.0,
+                    "Sequence": "KAQIRAMECNILGRKKRRQRRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06757",
+                    "Similarity": 1.0,
+                    "Sequence": "GRKKRRQRRRPQ"
+                }
+            ]
+        }
+    }
+}

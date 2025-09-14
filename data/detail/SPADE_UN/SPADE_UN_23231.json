@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_23231": {
+        "Sequence Information": {
+            "Peptide Name": "Cyclic Tachyplesin-1 [G18K]",
+            "Sequence": "KWCFRVCYRGICYRRCRK",
+            "Sequence Length": 18,
+            "Biological Activity": [
+                "Anticancer",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P69136",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P69136",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Cyclic Analogues of Horseshoe Crab Peptide Tachyplesin I with Anticancer and Cell Penetrating Properties.",
+                    "Pubmed ID": "31714739",
+                    "Reference": "ACS Chem Biol. 2019;14:2895-2908",
+                    "Author": "Vernen F, Craik DJ, Lawrence N, Troeira Henriques S",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/31714739"
+                }
+            ],
+            "Mass": 2396.93,
+            "PI": 10.1,
+            "Net Charge": 7,
+            "Hydrophobicity": -0.71,
+            "Frequent Amino Acids": "RCK",
+            "Absent Amino Acids": "ADEHLMNOPQSTU",
+            "Basic Residues": 7,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 11,
+            "Positive Residues": 7,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_23231",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02532",
+                    "Similarity": 1.0,
+                    "Sequence": "KWCFRVCYRGICYRRCR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_20749",
+                    "Similarity": 1.0,
+                    "Sequence": "KWCFRVCYRGICYRRCR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_23231",
+                    "Similarity": 1.0,
+                    "Sequence": "KWCFRVCYRGICYRRCRK"
+                }
+            ],
+            "Hemolytic Activity": "Human keratinocytes HaCat:50% Cell death=6.9±0.3 µM,Human erythrocytes:50% Hemolysis=>64 µM",
+            "Target Organism": "Human skin melanoma MM96L(50% Cell death=1.0±0.1µM),Human malignant melanoma HT-144(50% Cell death=3.2±0.1µM),Human metastatic melanoma WM164(50% Cell death=2.7±0.2µM),Human myelogenous leukemia K562(50% Cell death=1.7±0.1µM),Human cervical carcinoma HeLa(50% Cell death=6.7±1.1µM)"
+        }
+    }
+}

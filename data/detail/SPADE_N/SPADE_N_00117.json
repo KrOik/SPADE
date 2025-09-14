@@ -1,0 +1,88 @@
+{
+    "SPADE_N_00117": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00117",
+            "Peptide Name": "Amylovorin-L (Lactobin-A; Amylovorin-L471; Bacteriocin)",
+            "Source": "Lactobacillus amylovorus (Gram-positive bacteria)",
+            "Family": "Belongs to the class IIb bacteriocin",
+            "Gene": "amyL",
+            "Sequence": "NRWTNAYSAALGCAVPGVKYGKKLGGVWGAVIGGVGGAAVCGLAGYVRKG",
+            "Sequence Length": 50,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P80696"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "Lactobacillus helveticus ATCC 15009.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Cell membrane",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C220H348N64O58S2",
+            "Mass": 4881.64,
+            "PI": 9.93,
+            "Net Charge": 6,
+            "Hydrophobicity": 0.38,
+            "Half Life": "Mammalian:1.4 hourYeast:3 minE.coli:>10 hour",
+            "Function": "This heat stable bacteriocin inhibits the growth of closely related Lactobacillus species. It may act as a pore-forming protein, creating a channel in the cell membrane.",
+            "Subunit structure": "Active lactobin is composed of two different peptides, one which is lactobin A.",
+            "Literature": [
+                {
+                    "Title": "Characterization and production of amylovorin L471, a bacteriocin purified from Lactobacillus amylovorus DCE 471 by a novel three-step method.",
+                    "Pubmed ID": "10517609",
+                    "Reference": "Microbiology. 1999 Sep;145 (Pt 9)2559-2568.",
+                    "Author": "Callewaert R, Holo H, Devreese B, Van Beeumen J, Nes I, De Vuyst L.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=10517609"
+                },
+                {
+                    "Title": "The lactobin A and amylovorin L471 encoding genes are identical, and their distribution seems to be restricted to the species Lactobacillus amylovorus that is of interest for cereal fermentations.",
+                    "Pubmed ID": "14672834",
+                    "Reference": "Int J Food Microbiol. 2004 Jan 1;90(1)93-106.",
+                    "Author": "De Vuyst L, Avonts L, Neysens P, Hoste B, Vancanneyt M, Swings J, Callewaert R.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=14672834"
+                },
+                {
+                    "Title": "Isolation, purification, and amino acid sequence of lactobin A, one of the two bacteriocins produced by Lactobacillus amylovorus LMG P-13139.",
+                    "Pubmed ID": "8979334",
+                    "Reference": "Appl Environ Microbiol. 1997 Jan;63(1)13-20.",
+                    "Author": "Contreras BG, De Vuyst L, Devreese B, Busanyova K, Raymaeckers J, Bosman F, Sablon E, Vandamme EJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=8979334"
+                }
+            ],
+            "Frequent Amino Acids": "GAV",
+            "Absent Amino Acids": "DEFHMOQU",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 25,
+            "Polar Residues": 30,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06090",
+                    "Similarity": 1.0,
+                    "Sequence": "MKQLNSEQLQNIIGGNRWTNAYSAALGCAVPGVKYGKKLGGVWGAVIGGVGGAAVCGLAGYVRKG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05594",
+                    "Similarity": 0.625,
+                    "Sequence": "NSGGAAVVAALGCAAGGVKYGRLLGPWGAAIG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00112",
+                    "Similarity": 0.5555555555555556,
+                    "Sequence": "NRWYCNSAAGGVGGAAVCGLAGYVGEAKENIAGEVRKGWGMAGGFTHNKACKSFPGSGWASG"
+                }
+            ]
+        }
+    }
+}

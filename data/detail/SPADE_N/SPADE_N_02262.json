@@ -1,0 +1,74 @@
+{
+    "SPADE_N_02262": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02262",
+            "Peptide Name": "Beta-defensin 121 (Defensin, beta 121; primates, mammals, animals)",
+            "Source": "Macaca mulatta (Rhesus macaque)",
+            "Family": "Belongs to the beta-defensin family",
+            "Gene": "DEFB121",
+            "Sequence": "QVTPVTKCWGKSGRCRTTCKKSEVYYILCKTEAKCCVDPKYVPVRSKLTDTNTSLESTSAV",
+            "Sequence Length": 61,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q5J600"
+            ],
+            "Protein Existence": "Homology",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C292H483N81O92S6",
+            "Mass": 6792.84,
+            "PI": 9.17,
+            "Net Charge": 6,
+            "Hydrophobicity": -0.44,
+            "Half Life": "Mammalian:0.8 hourYeast:10 minE.coli:>10 hour",
+            "Function": "Has antibacterial activity (Potential).",
+            "PTM": "Contains three disulfide bonds (By similarity).",
+            "Literature": [
+                {
+                    "Title": "Differential expression of a primate beta defensin gene cluster specific to male reproductive tract.",
+                    "Pubmed ID": "PubMed ID is not available",
+                    "Reference": "Submitted (DEC-2003) to the EMBL/GenBank/DDBJ databases",
+                    "Author": "Yashwanth R, Hamil K.G, Yenugu S, French F.S, Hall S.H.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=PubMed ID is not available"
+                }
+            ],
+            "Frequent Amino Acids": "TKV",
+            "Absent Amino Acids": "FHMOU",
+            "Basic Residues": 11,
+            "Acidic Residues": 5,
+            "Hydrophobic Residues": 20,
+            "Polar Residues": 46,
+            "Positive Residues": 11,
+            "Negative Residues": 5,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_08164",
+                    "Similarity": 1.0,
+                    "Sequence": "MKLLLLLLTVTLLLAQVTPVTKCWGKSGRCRTTCKKSEVYYILCKTEAKCCVDPKYVPVRSKLTDTNTSLESTSAV"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03725",
+                    "Similarity": 0.9393939393939394,
+                    "Sequence": "MKCWGKSGRCRTTCKESEVYYILCKTEAKCCVD"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03170",
+                    "Similarity": 0.9344262295081968,
+                    "Sequence": "QVTPVMKCWGKSGRCRTTCKESEVYYILCKTEAKCCVDPKYVPVKPKLTDTNTSLESTSAV"
+                }
+            ]
+        }
+    }
+}

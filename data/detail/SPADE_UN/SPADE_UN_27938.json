@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_27938": {
+        "Sequence Information": {
+            "Peptide Name": "Pardaxin P-1 (1-18)",
+            "Sequence": "GFFALIPKIISSPLFKTL",
+            "Sequence Length": 18,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P81865",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P81865",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Specific antimicrobial and hemolytic activities of 18-residue peptides derived from the amino terminal region of the toxin pardaxin.",
+                    "Pubmed ID": "9010936",
+                    "Reference": "Prot Eng. 1996;9:1219-1224",
+                    "Author": "Thennarasu S, Nagaraj R",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/9010936"
+                }
+            ],
+            "Mass": 1992.45,
+            "PI": 10.0,
+            "Net Charge": 2,
+            "Hydrophobicity": 1.19,
+            "Frequent Amino Acids": "FIL",
+            "Absent Amino Acids": "CDEHMNOQRUVWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 8,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_27938",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03343",
+                    "Similarity": 1.0,
+                    "Sequence": "GFFALIPKIISSPLFKTLLSAVGSALSSSGEQE"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03346",
+                    "Similarity": 1.0,
+                    "Sequence": "GFFALIPKIISSPLFKTLLSAVGSALSSSGGQE"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03347",
+                    "Similarity": 1.0,
+                    "Sequence": "GFFALIPKIISSPLFKTLLSAVGSALSSSGDQE"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:-=NA",
+            "Target Organism": "Escherichia coli(MIC=34µg/ml),Staphylococcus aureus(no activity data)"
+        }
+    }
+}

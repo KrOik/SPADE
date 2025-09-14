@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_28020": {
+        "Sequence Information": {
+            "Peptide Name": "Indolicidin retro",
+            "Sequence": "RRWPWWPWKWPLI",
+            "Sequence Length": 13,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P33046",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P33046",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Structure-activity relationship of indolicidin, a Trp-rich antibacterial peptide.",
+                    "Pubmed ID": "20196123",
+                    "Reference": "J Pept Sci. 2010;16:171-177",
+                    "Author": "Ando S, Mitsuyasu K, Soeda Y, Hidaka M, Ito Y, Matsubara K, Shindo M, Uchida Y, Aoyagi H",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/20196123"
+                },
+                {
+                    "Title": "Structure-function relationships in the tryptophan-rich, antimicrobial peptide indolicidin.",
+                    "Pubmed ID": "11695650",
+                    "Reference": "J Pept Sci. 2001;7:552-564",
+                    "Author": "Staubitz P, Peschel A, Nieuwenhuizen WF, Otto M, Götz F, Jung G, Jung G",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/11695650"
+                }
+            ],
+            "Mass": 1907.27,
+            "PI": 12.0,
+            "Net Charge": 3,
+            "Hydrophobicity": -1.07,
+            "Frequent Amino Acids": "WPR",
+            "Absent Amino Acids": "ACDEFGHMNOQSTUVY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 2,
+            "Polar Residues": 11,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_28020",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_08934",
+                    "Similarity": 1.0,
+                    "Sequence": "WGRRRWGPGRRYRRW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_13022",
+                    "Similarity": 1.0,
+                    "Sequence": "LRRLKPLIRPWLRPLRRWWW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_13023",
+                    "Similarity": 1.0,
+                    "Sequence": "RRRWRKRRWWW"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:36% Hemolysis=50 µM",
+            "Target Organism": "Bacillus subtilis IFO 3513(MIC=1.56µg/ml),Staphylococcus aureus IFO 12732(MIC=1.56µg/ml),Escherichia coli IFO 12734(MIC=12.5µg/ml),Micrococcus luteus ATCC 9341(MIC=0.4µM)"
+        }
+    }
+}

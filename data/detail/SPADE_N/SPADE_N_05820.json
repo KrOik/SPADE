@@ -1,0 +1,84 @@
+{
+    "SPADE_N_05820": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 2019/0048052 A1",
+                "Patent Link": "http://www.lens.org/lens/patent/US_2019_0048052_A1",
+                "Patent Type": "Patent Application",
+                "Publication Date": "2019-2-14",
+                "Family Info": "US20180051061A1,US10144767B2",
+                "Patent Title": "Anti-microbial Peptides And Coatings",
+                "Abstract": "Antimicrobial peptides and methods of use are provided."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_05820",
+            "Peptide Name": "Temporin-SHf (frogs,amphibians,animals)",
+            "Source": "Pelophylax saharica(Sahara frog)",
+            "Family": "Belongs to the Temporin family",
+            "Gene": "Not found",
+            "Sequence": "FFFLSRIF",
+            "Sequence Length": 8,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Transcript level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "[Ref.20308076] Gram-negative bacteria:Escherichia coli ATCC 25922(MIC=25 μM); Escherichia coli ATCC 35218(MIC>200 μM); Escherichia coli D21(MIC=100 μM); Escherichia coli ML-35p(MIC=30 μM); Pseudomonas aeruginosa ATCC 27853(MIC>200 μM);Gram-positive bacteria:Staphylococcus aureus ATCC 25923(MIC=12.5 μM); E. faecalis ATCC 29212(MIC=50 μM); Bacillus megaterium(MIC=3 μM);Yeasts:Candida albicans ATCC 90028(MIC=50 μM); C. parapsilosis ATCC 22019(MIC=50 μM); S. cerevisiae(MIC=12.5 μM);Fungus(MIC>200 μM)",
+            "Hemolytic Activity": "[Ref.20308076] Temporin-SHf is not cytotoxic against human erythrocytes (LC50 = 200 μm), with a hemolytic activity detected only at peptide concentration far above the MIC values determined for the sensitive strains (3–50 μm)",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Once bound parallel to the microbial membrane surface, it folds into a non-amphipathic hydrophobic",
+            "Formula": "C57H77N11O10",
+            "Mass": 1076.29,
+            "PI": 9.75,
+            "Net Charge": 1,
+            "Hydrophobicity": 1.77,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Function": "Antibacterial activity against the Gram-negative bacteria (Escherichia coli ATCC 25922, Escherichia coli ATCC 35218, Escherichia coli D21, Escherichia coli ML-35p, Pseudomonas aeruginosa ATCC 27853) and Gram-positive bacteria (Staphylococcus aureus ATCC 25923, E. faecalis ATCC 29212, Bacillus megaterium. Antifungal activity)",
+            "Literature": [
+                {
+                    "Title": "Temporin-SHf, a new type of phe-rich and hydrophobic ultrashort antimicrobial peptide.",
+                    "Pubmed ID": "20308076",
+                    "Reference": "J Biol Chem. 2010 May 28;285(22)16880-92.",
+                    "Author": "Abbassi F, Lequin O, Piesse C, Goasdou",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=20308076"
+                }
+            ],
+            "Frequent Amino Acids": "FIL",
+            "Absent Amino Acids": "ACDEGHKMNOPQTUVWY",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 2,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01602",
+                    "Similarity": 1.0,
+                    "Sequence": "FFFLSRIFGK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06305",
+                    "Similarity": 1.0,
+                    "Sequence": "LPPPPLPFFF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07118",
+                    "Similarity": 1.0,
+                    "Sequence": "LPPPPLPFFF"
+                }
+            ]
+        }
+    }
+}

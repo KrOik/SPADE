@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_26915": {
+        "Sequence Information": {
+            "Peptide Name": "LP1 [N17D,D20I,Q22D,D25N,Q28K,N29K]/LP20",
+            "Sequence": "KKKKLKKILKKLFQFIDQLINDLQNIKKKK",
+            "Sequence Length": 30,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Computational Design of Pore-Forming Peptides with Potent Antimicrobial and Anticancer Activities",
+                    "Pubmed ID": "39116273",
+                    "Reference": "J Med Chem. 2024;67:14040-14061",
+                    "Author": "Deb R, Torres MDT, Boudný M, Koběrská M, Cappiello F, Popper M, Dvořáková Bendová K, et al.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/39116273"
+                }
+            ],
+            "Mass": 3711.62,
+            "PI": 10.48,
+            "Net Charge": 10,
+            "Hydrophobicity": -0.96,
+            "Frequent Amino Acids": "KLI",
+            "Absent Amino Acids": "ACEGHMOPRSTUVWY",
+            "Basic Residues": 12,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 19,
+            "Positive Residues": 12,
+            "Negative Residues": 2,
+            "SPADE ID": "SPADE_UN_26915",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00113",
+                    "Similarity": 1.0,
+                    "Sequence": "KKKKQSWYAAAGDAIVSFGEGFLNAW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08584",
+                    "Similarity": 1.0,
+                    "Sequence": "KKKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10176",
+                    "Similarity": 1.0,
+                    "Sequence": "KKKKGFGKGFGK"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=>50 µM",
+            "Target Organism": "Escherichia coli TOP 10(MIC=1.6µM),Staphylococcus carnosus CCM 4838T(MIC=1.6µM)"
+        }
+    }
+}

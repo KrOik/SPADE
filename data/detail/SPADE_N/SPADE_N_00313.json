@@ -1,0 +1,74 @@
+{
+    "SPADE_N_00313": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00313",
+            "Peptide Name": "Non-specific lipid-transfer protein 1 (LTP 1; Plants)",
+            "Source": "Sorghum bicolor (Sorghum) (Sorghum vulgare)",
+            "Family": "Belongs to the plant LTP family",
+            "Gene": "LTP1",
+            "Sequence": "TTSEAAISCGQVSSAIALCLSYARGQGFAPSAGCCSGVRSLNSAARTTADRRAACNCLKNAARGISGLNAGNAASIPSKCGVSVPYTISTSTDCSRVS",
+            "Sequence Length": 98,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q43193",
+                "http://www.uniprot.org/uniprot/Q43195"
+            ],
+            "Protein Existence": "Homology",
+            "Biological Activity": [
+                "Unknown"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Lipid-binding",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C396H662N128O138S8",
+            "Mass": 9680.79,
+            "PI": 9.12,
+            "Net Charge": 6,
+            "Hydrophobicity": 0.12,
+            "Half Life": "Mammalian:7.2 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Plant non-specific lipid-transfer proteins transfer phospholipids as well as galactolipids across membranes. May play a role in wax or cutin deposition in the cell walls of expanding epidermal cells and certain secretory tissues.",
+            "PTM": "Contains four disulfide bonds (By similarity).",
+            "Literature": [
+                {
+                    "Title": "A pair of genes coding for lipid-transfer proteins in Sorghum vulgare.",
+                    "Pubmed ID": "7958959",
+                    "Reference": "Gene. 1994 Oct 21;148(2)305-308.",
+                    "Author": "Pel¨se-Siebenbourg F, Caelles C, Kader JC, Delseny M, Puigdom¨nech P.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=7958959"
+                }
+            ],
+            "Frequent Amino Acids": "ASG",
+            "Absent Amino Acids": "HMOUW",
+            "Basic Residues": 9,
+            "Acidic Residues": 3,
+            "Hydrophobic Residues": 38,
+            "Polar Residues": 72,
+            "Positive Residues": 9,
+            "Negative Residues": 3,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_08279",
+                    "Similarity": 1.0,
+                    "Sequence": "AISCGQVSSAIALCLSYARGQGFAPSAGCCSGVRSLNSAARTTADRRAACNCLKNAARGISGLNAGNAASIPSKCGVSVPYTISTSTDCSRVS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01007",
+                    "Similarity": 0.9032258064516129,
+                    "Sequence": "AISCGQVASAIAPCISYARGQGSAPSAGCCSGVRSLNNAARTTADRRAACNCLKNAAAGVSGLNAGNAASIPSKCGVSIPYTISTSTDCSRVN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00341",
+                    "Similarity": 0.9,
+                    "Sequence": "AISCGQVSSAIGPCLSYARGQGSAPSAGCC"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "SPADE_UN_22347": {
+        "Sequence Information": {
+            "Peptide Name": "PACA38 [Q16Aib,G28Aib,M17A,R34K,K38k]",
+            "Sequence": "HSDGIFTDSYSRYRKXAAVKKYLAAVLXKRYKQKVKNK",
+            "Sequence Length": 38,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P18509",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P18509",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Pituitary adenylate cyclase-activating polypeptide is a potent broad-spectrum antimicrobial peptide: Structure-activity relationships.",
+                    "Pubmed ID": "29654809",
+                    "Reference": "Peptides. 2018;104:35-40",
+                    "Author": "Starr CG, Maderdrut JL, He J, Coy DH, Wimley WC",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/29654809"
+                }
+            ],
+            "SPADE ID": "SPADE_UN_22347",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_22351",
+                    "Similarity": 1.0,
+                    "Sequence": "HSGIFTDSYSRYRKAAVKKYLAAVLKRYKQKVKNK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_22352",
+                    "Similarity": 0.9714285714285714,
+                    "Sequence": "HSGIFTDSYSRYRKAAVKAYLAAVLKRYKQKVKNK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14834",
+                    "Similarity": 0.9615384615384616,
+                    "Sequence": "HSDGIFTDSYSRYRKQMAVKKYLAAVL"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Escherichia coli ATCC 25922(MSC=7.3µM),Pseudomonas aeruginosa PAO1(MSC=1.2µM),Staphylococcus aureus ATCC 25923(MSC=>30µM),Bacillus cereus(MSC=13.3µM)"
+        }
+    }
+}

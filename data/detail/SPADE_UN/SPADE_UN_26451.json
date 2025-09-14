@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_26451": {
+        "Sequence Information": {
+            "Peptide Name": "Myeloid antimicrobial peptide BMAP-27(1-18)-f, BMAP-18-f",
+            "Sequence": "GRFKRFRKKFKKLFKKLS",
+            "Sequence Length": 18,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P54228",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P54228",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Cell selectivity, mechanism of action and LPS-neutralizing activity of bovine myeloid antimicrobial peptide-18 (BMAP-18) and its analogs.",
+                    "Pubmed ID": "21497177",
+                    "Reference": "Peptides. 2011;32:1123–1130",
+                    "Author": "Lee EK, Kim YC, Nan YH, Shin SY",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/21497177"
+                }
+            ],
+            "Mass": 2342.92,
+            "PI": 12.0,
+            "Net Charge": 10,
+            "Hydrophobicity": -1.29,
+            "Frequent Amino Acids": "KFR",
+            "Absent Amino Acids": "ACDEHIMNOPQTUVWY",
+            "Basic Residues": 10,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 12,
+            "Positive Residues": 10,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_26451",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02465",
+                    "Similarity": 1.0,
+                    "Sequence": "GRFKRFRKKFKKLFKKLSPVIPLLHLG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05877",
+                    "Similarity": 1.0,
+                    "Sequence": "GRFKRFRKKFKKLFKKLSPVIPLLHL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_12837",
+                    "Similarity": 1.0,
+                    "Sequence": "GGGGRFKRFRKKFKKLFKKLSPVIPLLHLG"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:10% Hemolysis=<400 µM",
+            "Target Organism": "Escherichia coli KCTC 1682(MIC=4µM),Pseudomonas aeruginosa KCTC 1637(MIC=4µM),Salmonella typhimurium KCTC 1926(MIC=2µM),Bacillus subtilis KCTC 3068(MIC=2µM),Staphylococcus epidermidis KCTC 1917(MIC=4µM),Staphylococcus aureus KCTC 1621(MIC=4µM)"
+        }
+    }
+}

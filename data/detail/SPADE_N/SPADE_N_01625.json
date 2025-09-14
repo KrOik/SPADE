@@ -1,0 +1,74 @@
+{
+    "SPADE_N_01625": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01625",
+            "Peptide Name": "Temporin-RN1 (Frogs, amphibians, animals)",
+            "Source": "Rana nigrovittata",
+            "Family": "Belongs to the frog skin active peptide family (Brevinin subfamily)",
+            "Gene": "Not found",
+            "Sequence": "FLPLVLGALSGILPKIL",
+            "Sequence Length": 17,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "Gram-positive bacterium:Staphylococcus aureus (MIC=4.69 µg/ml);Gram-negative bacterium:Pseudomonas aeruginosa PAO1 (MIC=4.7 µg/ml).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C88H150N18O19",
+            "Mass": 1764.24,
+            "PI": 8.75,
+            "Net Charge": 1,
+            "Hydrophobicity": 1.88,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Peptidomics and genomics analysis of novel antimicrobial peptides from the frog, Rana nigrovittata.",
+                    "Pubmed ID": "19778602",
+                    "Reference": "Genomics. 2010 Jan;95(1)66-71.",
+                    "Author": "Ma Y, Liu C, Liu X, Wu J, Yang H, Wang Y, Li J, Yu H, Lai R.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=19778602"
+                }
+            ],
+            "Frequent Amino Acids": "LGI",
+            "Absent Amino Acids": "CDEHMNOQRTUWY",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 4,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_21570",
+                    "Similarity": 0.8333333333333334,
+                    "Sequence": "FLPKILRKIVRAL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_22839",
+                    "Similarity": 0.8333333333333334,
+                    "Sequence": "FLPKILKVAAK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_25843",
+                    "Similarity": 0.8333333333333334,
+                    "Sequence": "FLPKILRKIVTAL"
+                }
+            ]
+        }
+    }
+}

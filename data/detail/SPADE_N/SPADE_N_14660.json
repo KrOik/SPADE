@@ -1,0 +1,70 @@
+{
+    "SPADE_N_14660": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_14660",
+            "Peptide Name": "LL-37(5-24) (LL-37 fragment, synthetic AMPs, XXA, UCLL1c)",
+            "Source": "sequence truncation, human cathelicidin, animal-derived, natural derivatives",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "FFRKSKEKIGKEFKRIVQRI",
+            "Sequence Length": 20,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 2538.04,
+            "PI": 11.12,
+            "Hydrophobicity": -0.93,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Krishnamoorthy R, Adhikari P, Anaikutti P. 2023",
+                    "Reference": "RSC Adv. 2023 May 23;13(23):15594-15605. doi: 10.1039/d3ra02473c.PubMed",
+                    "Title": "Design, synthesis, and characterization of non-hemolytic antimicrobial peptides related to human cathelicidin LL-37"
+                }
+            ],
+            "Frequent Amino Acids": "KFI",
+            "Absent Amino Acids": "ACDHLMNOPTUWY",
+            "Basic Residues": 8,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 11,
+            "Positive Residues": 8,
+            "Negative Residues": 2,
+            "Net Charge": 6,
+            "Comments": "Sequence analysis: APD analysis reveals that this sequence is unique and shows only very low similarity (80%) toLL-25K: 25%, I=F=R: 15%.Activity: active against S. aureus (MIC 25-30 ug/ml), B. subtilis (MIC 30 ug/ml), E. coli (MIC 30-35 ug/ml), and P. aeruginosa (MIC 30 ug/ml).",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02277",
+                    "Similarity": 1.0,
+                    "Sequence": "GDFFRKSKEKIGKEFKRIVQRIKDFLRN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03107",
+                    "Similarity": 1.0,
+                    "Sequence": "ALLGDFFRKSKEKIGKEFKRIVQRIKDFLRNLVPRTES"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03128",
+                    "Similarity": 1.0,
+                    "Sequence": "LLGDFFRKSKEKIGKEFKRIVQR"
+                }
+            ]
+        }
+    }
+}

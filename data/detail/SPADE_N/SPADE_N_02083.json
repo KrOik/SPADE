@@ -1,0 +1,73 @@
+{
+    "SPADE_N_02083": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02083",
+            "Peptide Name": "Hepcidin-1 (zebrafish, chordates, animals)",
+            "Source": "Danio rerio (Zebrafish) (Brachydanio rerio)",
+            "Family": "Belongs to the hepcidin family",
+            "Gene": "hamp1",
+            "Sequence": "QSHLSLCRFCCKCCRNKGCGYCCKF",
+            "Sequence Length": 25,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P61516"
+            ],
+            "Protein Existence": "Homology",
+            "Biological Activity": [
+                "Antimicrobial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C118H188N38O31S8",
+            "Mass": 2891.51,
+            "PI": 8.94,
+            "Net Charge": 6,
+            "Hydrophobicity": -0.06,
+            "Half Life": "Mammalian:0.8 hourYeast:10 minE.coli:>10 hour",
+            "Function": "Seems to act as a signaling molecule involved in the maintenance of iron homeostasis. Seems to be required in conjunction with HFE to regulate both intestinal iron absorption and iron storage in macrophages. May also have antimicrobial activity.",
+            "PTM": "Contains four disulfide bonds 7-23; 10-13; 11-19; 14-22.",
+            "Literature": [
+                {
+                    "Title": "Organization and expression analysis of the zebrafish hepcidin gene, an antimicrobial peptide gene conserved among vertebrates.",
+                    "Pubmed ID": "15043943",
+                    "Reference": "Dev Comp Immunol. 2004 Jun;28(7-8)747-754.",
+                    "Author": "Shike H, Shimizu C, Lauth X, Burns JC.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=15043943"
+                }
+            ],
+            "Frequent Amino Acids": "CKF",
+            "Absent Amino Acids": "ADEIMOPTUVW",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 19,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07585",
+                    "Similarity": 1.0,
+                    "Sequence": "LCRFCCKCCRNKGCGYCCKF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_16000",
+                    "Similarity": 0.92,
+                    "Sequence": "QSHLSLCRYCCNCCRNKGCGYCCKF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06247",
+                    "Similarity": 0.8947368421052632,
+                    "Sequence": "QSHLSLCRWCCNCCRSNKGC"
+                }
+            ]
+        }
+    }
+}

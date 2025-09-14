@@ -1,0 +1,73 @@
+{
+    "SPADE_N_00889": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00889",
+            "Peptide Name": "Ligatoxin-A (Plant defensin)",
+            "Source": "Phoradendron liga (Argentine mistletoe)",
+            "Family": "Belongs to the thionin family",
+            "Gene": "Not found",
+            "Sequence": "KSCCPSTTARNIYNTCRLTGTSRPTCASLSGCKIISGSTCBSGWBH",
+            "Sequence Length": 46,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P01540"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Cytotoxic"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C188H306N60O61S6",
+            "Mass": 4840.56,
+            "PI": 9.18,
+            "Net Charge": 6,
+            "Hydrophobicity": -0.22,
+            "Half Life": "Mammalian:1.3 hourYeast:3 minE.coli:2 min",
+            "Function": "Thionins are small plant proteins which are toxic to animal cells. They seem to exert their toxic effect at the level of the cell membrane.",
+            "PTM": "Contains three disulfide bonds 3-40; 4-32; 16-26.",
+            "Literature": [
+                {
+                    "Title": "Isolation and properties of ligatoxin A, a toxic protein from the mistletoe Phoradendron liga.",
+                    "Pubmed ID": "7136736",
+                    "Reference": "Acta Pharm Suec. 1982;19(4)285-292.",
+                    "Author": "Thunberg E, Samuelsson G.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=7136736"
+                }
+            ],
+            "Frequent Amino Acids": "STC",
+            "Absent Amino Acids": "DEFMOQUV",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 32,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00890",
+                    "Similarity": 0.9090909090909091,
+                    "Sequence": "KSCCPSTTARNIYNTCRLTGASRSVCASLSGCKIISGSTCDSGWNH"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00886",
+                    "Similarity": 0.7954545454545454,
+                    "Sequence": "KSCCPTTTARNIYNTCRFGGGSRPVCAKLSGCKIISGTKCDSGWNH"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00893",
+                    "Similarity": 0.7727272727272727,
+                    "Sequence": "KSCCPNTTGRNIYNTCRLTGSSRETCAKLSGCKIISASTCPSNYPK"
+                }
+            ]
+        }
+    }
+}

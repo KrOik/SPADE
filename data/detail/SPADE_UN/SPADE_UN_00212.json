@@ -1,0 +1,87 @@
+{
+    "SPADE_UN_00212": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_00212",
+            "Peptide Name": "CRISPR-associated endonuclease Cas2 (Antiviral defensin)",
+            "Source": "Bacillus halodurans (strain ATCC BAA-125 / DSM 18197 / FERM 7344 / JCM9153 / C-125)",
+            "Family": "Belongs to the CRISPR-associated endoribonuclease Cas2 prote",
+            "Gene": "cas2",
+            "Sequence": "MLVLITYDVQTSSMGGTKRLRKVAKACQNYGQRVQNSVFECIVDSTQLTSLKLELTSLIDEEKDSLRIYRLGNNYKTKVEHIGAKPSIDLEDPLIF",
+            "Sequence Length": 96,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q9KFX8"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antiviral"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Metal-binding",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C479H788N130O149S4",
+            "Mass": 10880.42,
+            "PI": 7.75,
+            "Net Charge": 2,
+            "Hydrophobicity": -0.27,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "CRISPR (clustered regularly interspaced short palindromic repeat), is an adaptive immune system that provides protection against mobile genetic elements (viruses, transposable elements and conjugative plasmids). CRISPR clusters contain sequences complementary to antecedent mobile elements and target invading nucleic acids. CRISPR clusters are transcribed and processed into CRISPR RNA (crRNA). Functions as a ssRNA-specific endoribonuclease (By similarity).",
+            "Literature": [
+                {
+                    "Title": "Complete genome sequence of the alkaliphilic bacterium Bacillus halodurans and genomic sequence comparison with Bacillus subtilis.",
+                    "Pubmed ID": "11058132",
+                    "Reference": "Nucleic Acids Res. 2000 Nov 1;28(21)4317-4331.",
+                    "Author": "Takami H, Nakasone K, Takaki Y, Maeno G, Sasaki R, Masui N, Fuji F, Hirama C, Nakamura Y, Ogasawara N, Kuhara S, Horikoshi K.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=11058132"
+                },
+                {
+                    "Title": "Double-stranded endonuclease activity in Bacillus halodurans clustered regularly interspaced short palindromic repeats (CRISPR)-associated Cas2 protein.",
+                    "Pubmed ID": "22942283",
+                    "Reference": "J Biol Chem. 2012 Oct 19;287(43)35943-52.",
+                    "Author": "Nam KH, Ding F, Haitjema C, Huang Q, DeLisa MP, Ke A.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=22942283"
+                },
+                {
+                    "Title": "Crystal structure of BH0342 protein.",
+                    "Pubmed ID": "PubMed ID is not availbale",
+                    "Reference": "To be Published",
+                    "Author": "Ke A, Nam KH.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=PubMed ID is not availbale"
+                }
+            ],
+            "Frequent Amino Acids": "LKS",
+            "Absent Amino Acids": "OUW",
+            "Basic Residues": 14,
+            "Acidic Residues": 12,
+            "Hydrophobic Residues": 39,
+            "Polar Residues": 54,
+            "Positive Residues": 14,
+            "Negative Residues": 12,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_00207",
+                    "Similarity": 0.5684210526315789,
+                    "Sequence": "MILVTYDVNTVEPGGRRRLRQVAKACQDYGQRVQNSVFEVEVDPARWVALKARLEAIIDPALDSLRYYDLGANWQRRVDHVGAKPAVDLHGPLIL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_00213",
+                    "Similarity": 0.5625,
+                    "Sequence": "MLVLVTYDVNTETPAGRRRLRRIAKTCQNYGQRVQFSVFECNVDPAQWVKLRSKLLNEMDPKLDSLRFYFLGSNWQGRVEHEGAKEPRDLEGTLIL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_00231",
+                    "Similarity": 0.5104166666666666,
+                    "Sequence": "MYILITYDVSTETEAGKKRLRKVAQVCKDFGQRVQKSVFECSVNEAQFEQLKHRLLQCIDEKSDSLRIYRLREPAKKYIQEYGVNLTIDFDAPLVL"
+                }
+            ]
+        }
+    }
+}

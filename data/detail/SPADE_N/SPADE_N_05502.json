@@ -1,0 +1,65 @@
+{
+    "SPADE_N_05502": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_05502",
+            "Peptide Name": "Labyrinthopeptin A1(Bacteriocin)",
+            "Source": "Actinomadura namibiensis DSM 6313",
+            "Family": "Belongs to the lantibiotics family (Class I bacteriocin)",
+            "Gene": "labA1",
+            "Sequence": "SNASVWECCSTGSWVPFTCC",
+            "Sequence Length": 20,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/C0MP59"
+            ],
+            "Protein Existence": "",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antiviral",
+                "Anti-HIV",
+                "Anti-HSV"
+            ],
+            "Target Organism": "HSV(EC50:0.29",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "LabyA1 contains a special amino acid labionin at positions 1, 4, 8, 10, 13, and 19. Labs 1,4 and labs 10, 13 are connected via a carbon-carbon bond, while labs 4, 8 and labs 13, 19 form normal thioether bonds. In addition, a disulfide bond occurs between C9 and C20.",
+            "Formula": "C92H131N23O30S4",
+            "Mass": 2167.42,
+            "PI": 4.05,
+            "Net Charge": -1,
+            "Hydrophobicity": 0.38,
+            "Half Life": "Mammalian:1.9 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "LabyA1 also demonstrated additive to synergistic effects in its anti-HIV-1 and anti-HSV-2 activity with anti(retro)viral drugs in dual combinations such as tenofovir, acyclovir, saquinavir, raltegravir and enfuvirtide.",
+            "Literature": [
+                {
+                    "Title": "The Lantibiotic Peptide Labyrinthopeptin A1 Demonstrates Broad Anti-HIV and Anti-HSV Activity with Potential for Microbicidal Applications",
+                    "Pubmed ID": "23724015",
+                    "Reference": "PLoS One. 2013 May 28;8(5)e64010.",
+                    "Author": "F",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=23724015"
+                }
+            ],
+            "Frequent Amino Acids": "CST",
+            "Absent Amino Acids": "DHIKLMOQRUY",
+            "Basic Residues": 0,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 14,
+            "Positive Residues": 0,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_05503",
+                    "Similarity": 0.7222222222222222,
+                    "Sequence": "SDWSLWECCSTGSLFACC"
+                }
+            ]
+        }
+    }
+}

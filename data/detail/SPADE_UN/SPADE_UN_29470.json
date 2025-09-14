@@ -1,0 +1,74 @@
+{
+    "SPADE_UN_29470": {
+        "Sequence Information": {
+            "Peptide Name": "Anoplin [R5K,T8W]",
+            "Sequence": "GLLKKIKWLL",
+            "Sequence Length": 10,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "2MJS",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P0C005",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P0C005",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Synthetic analogs of anoplin show improved antimicrobial activities.",
+                    "Pubmed ID": "24019229",
+                    "Reference": "J Pept Sci. 2013;19:669-675",
+                    "Author": "Munk JK, Uggerhøj LE, Poulsen TJ, Frimodt-Møller N, Wimmer R, Nyberg NT, Hansen PR",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/24019229"
+                },
+                {
+                    "Title": "Rational design of alpha-helical antimicrobial peptides: do's and don'ts.",
+                    "Pubmed ID": "25530580",
+                    "Reference": "Chembiochem. 2015;16:242-253",
+                    "Author": "Uggerhøj LE, Poulsen TJ, Munk JK, Fredborg M, Sondergaard TE, Frimodt-Moller N, Hansen PR, Wimmer R",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/25530580"
+                }
+            ],
+            "Mass": 1211.58,
+            "PI": 10.3,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.67,
+            "Frequent Amino Acids": "LKG",
+            "Absent Amino Acids": "ACDEFHMNOPQRSTUVY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 5,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_29470",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01235",
+                    "Similarity": 1.0,
+                    "Sequence": "FLPIVGKLLSGLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01237",
+                    "Similarity": 1.0,
+                    "Sequence": "LLPIVGKLLSGLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01475",
+                    "Similarity": 1.0,
+                    "Sequence": "IIGPVLGMVGSALGGLLKKI"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=152.53 µM",
+            "Target Organism": "Staphylococcus aureus ATCC 33591(MIC=28.4µM),Enterococcus faecium ATCC 700221(MIC=22.1µM),Pseudomonas aeruginosa ATCC 27853(MIC=28.4µM),Candida albicans ATCC 200955(MIC=47.4µM),Escherichia coli ATCC 25922(MIC=12.5µM)"
+        }
+    }
+}

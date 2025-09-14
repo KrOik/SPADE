@@ -1,0 +1,53 @@
+{
+    "SPADE_UN_24475": {
+        "Sequence Information": {
+            "Peptide Name": "EBOV-GP (614-639)[T620K,Q625K]-C",
+            "Sequence": "DWTKNIKDKIDKIIHDFVDKTLPDQGX",
+            "Sequence Length": 27,
+            "Biological Activity": [
+                "Antiviral",
+                "Anticancer"
+            ],
+            "Binding Target": "1. Virus entry",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "Q05320",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/Q05320",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Cholesterol-conjugated stapled peptides inhibit Ebola and Marburg viruses in vitro and in vivo.",
+                    "Pubmed ID": "31473342",
+                    "Reference": "Antiviral Res. 2019;171:104592",
+                    "Author": "Pessi A, Bixler SL, Soloveva V, et al.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/31473342"
+                }
+            ],
+            "SPADE ID": "SPADE_UN_24475",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_24474",
+                    "Similarity": 1.0,
+                    "Sequence": "DWTKNIKDKIDKIIHDFVDK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_24476",
+                    "Similarity": 1.0,
+                    "Sequence": "DWTKNIKDKIDKIIHDFVDKTLPDQG"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_24477",
+                    "Similarity": 1.0,
+                    "Sequence": "IEPHDWTKNIKDKIDKIIHDFVDKTLPDQG"
+                }
+            ],
+            "Hemolytic Activity": "Human embryonic kidney HEK293T cells:50% Cytotoxicity=>=25 µM",
+            "Target Organism": "Ebola virus EBOV(IC50 I=3.89±0.61µM),Ebola virus EBOV(IC90 I=16.86µM),Marburg virus MARV(IC50 I=11.54±1.50µM),Marburg virus MARV(IC90 I=31.38µM),Sudan virus SUDV(IC50 I=1.67±0.22µM),Sudan virus SUDV(IC90 I=6.87µM),Chikungunya virus (CHIKV)(IC50 I=>100µM),Human cervical carcinoma HeLa(50-60% Cytotoxicity=>30µM),Human osteosarcoma U2OS(50-60% Cytotoxicity=>30µM),Ebola virus EBOV-GP PsV(IC50 E=2.45±1.09µM),Ebola virus EBOV-GP PsV(IC90=29.46µM),Marburg virus MARV-GP PsV(IC50 E=6.20±1.38µM),Marburg virus MARV-GP PsV(IC90=25.58µM)"
+        }
+    }
+}

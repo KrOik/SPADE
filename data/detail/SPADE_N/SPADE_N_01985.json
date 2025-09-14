@@ -1,0 +1,76 @@
+{
+    "SPADE_N_01985": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01985",
+            "Peptide Name": "Ranatuerin-2Lb (Ranatuerin 2Lb; Ranaturin-2PRd; Frogs, amphibians, animals)",
+            "Source": "Rana luteiventris (Spotted frog) (Rana pretiosa)",
+            "Family": "Belongs to the frog skin active peptide family (Brevinin subfamily)",
+            "Gene": "Not found",
+            "Sequence": "GILSSIKGVAKGVAKNVAAQLLDTLKCKITGC",
+            "Sequence Length": 32,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P82829"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "[Ref.10651828] Gram-positive bacterium:Staphylococcus aureus (MIC=4 µM);Gram-negative bacterium:Escherichia coli (MIC=4 µM);Yeast:Candida albicans (MIC=62 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C140H251N39O41S2",
+            "Mass": 3200.86,
+            "PI": 9.6,
+            "Net Charge": 4,
+            "Hydrophobicity": 0.59,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Antimicrobial activity  against Gram-positive bacteria, Gram-negative bacteria and fungi.",
+            "Literature": [
+                {
+                    "Title": "Peptides with antimicrobial activity from four different families isolated from the skins of the North American frogs Rana luteiventris, Rana berlandieri and Rana pipiens.",
+                    "Pubmed ID": "10651828",
+                    "Reference": "Eur J Biochem. 2000 Feb;267(3)894-900.",
+                    "Author": "Goraya J, Wang Y, Li Z, O'Flaherty M, Knoop FC, Platz JE, Conlon JM.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=10651828"
+                }
+            ],
+            "Frequent Amino Acids": "KAG",
+            "Absent Amino Acids": "EFHMOPRUWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 14,
+            "Polar Residues": 20,
+            "Positive Residues": 5,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07868",
+                    "Similarity": 0.96875,
+                    "Sequence": "GILSSFKGVAKGVAKNVAAQLLDTLKCKITGC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09483",
+                    "Similarity": 0.90625,
+                    "Sequence": "GILSSFKDVAKGVAKNVAAQLLDKLKCKITGC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01954",
+                    "Similarity": 0.84375,
+                    "Sequence": "GILSSFKGVAKGVAKNLAGKLLDELKCKITGC"
+                }
+            ]
+        }
+    }
+}

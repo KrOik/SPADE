@@ -1,0 +1,77 @@
+{
+    "SPADE_N_02358": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02358",
+            "Peptide Name": "Defensin-like turtle egg white protein TEWP (TEWP; Reptiles, animals)",
+            "Source": "Caretta caretta (Loggerhead sea turtle)",
+            "Family": "Belongs to the beta-defensin family",
+            "Gene": "Not found",
+            "Sequence": "QKKCPGRCTLKCGKHERPTLPYNCGKYICCVPVKVK",
+            "Sequence Length": 36,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P0CAP0"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antiviral"
+            ],
+            "Target Organism": "Gram-negative bacteria:Escherichia coli (IC50=3.3 µM), Salmonella typhimurium (IC50=2.8 µM);Gram-positive bacterium:Staphylococcus aureus (IC50=5. 1µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Three-dimensional structure of TEWP was determined by distance geometry and simulated annealing. The protein has no α-helix and consists of two antiparallel β-sheets. The secondary structure is consistent with the previously obtained circular dichroism spectra.",
+            "Formula": "C177H297N53O45S6",
+            "Mass": 4079.97,
+            "PI": 9.54,
+            "Net Charge": 9,
+            "Hydrophobicity": -0.61,
+            "Half Life": "Mammalian:0.8 hourYeast:10 minE.coli:>10 hour",
+            "Function": "The protein showes strong antibacterial activity against Escherichia coli and Salmonella typhimurium and also showes significant antiviral activity against an enveloped rhabdovirus, Chandipura virus, which is an emerging human pathogen.",
+            "Tissue specificity": "Detected in egg white (at protein level).",
+            "Literature": [
+                {
+                    "Title": "Small cationic protein from a marine turtle has beta-defensin-like fold and antibacterial and antiviral activity.",
+                    "Pubmed ID": "16700051",
+                    "Reference": "Proteins. 2006 Aug 1;64(2)524-531.",
+                    "Author": "Chattopadhyay S, Sinha NK, Banerjee S, Roy D, Chattopadhyay D, Roy S.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16700051"
+                }
+            ],
+            "Frequent Amino Acids": "KCP",
+            "Absent Amino Acids": "ADFMOSUW",
+            "Basic Residues": 10,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 25,
+            "Positive Residues": 10,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_09137",
+                    "Similarity": 1.0,
+                    "Sequence": "KKCPGRCTLKCGKHERPTLPYNCGKYICCVPVKVK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02355",
+                    "Similarity": 0.9722222222222222,
+                    "Sequence": "EKKCPGRCTLKCGKHERPTLPYNCGKYICCVPVKVK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_15301",
+                    "Similarity": 0.8571428571428571,
+                    "Sequence": "CVKVKVKVGSGVKVKVKVC"
+                }
+            ]
+        }
+    }
+}

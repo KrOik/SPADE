@@ -1,0 +1,62 @@
+{
+    "SPADE_UN_11330": {
+        "Clinical Information": [
+            {
+                "Medical use": "①Prevention of Ventilator-Associated Pneumonia; ②Prevention of oral complications caused by radiation therapy for head and neck cancer.",
+                "Company": "Intrabiotics Pharmaceuticals Inc.(Mountain View, CA)",
+                "Stage of Development": "Phase III(Failure)",
+                "Comments": "Based on the pig peptide protegrin, Iseganan possesses broad-spectrum activity in vitro against bacteria and fungi; however, in clinical trials it failed to prevent or reduce oral mucositis compared with a placebo",
+                "Clinical Trials": [
+                    "NCT00022373",
+                    "NCT00118781"
+                ]
+            }
+        ],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_11330",
+            "Peptide Name": "Iseganan(IB-367)",
+            "Sequence": "RGGLCYCRGRFCVCVGR",
+            "Source": "A synthetic analogue of Protegrin I (IBL-367, the pig protegrin derivative), extracted from porcine leukocytes.",
+            "Target Organism": "Gram-positive bacteria:\nStreptococcus salivarius (12) (MIC=0.2-5.0 μg/ml), S. sanguis (14) (MIC=4-64 μg/ml), S. mitis (15) (MIC=2-43 μg/ml), S. mutans (3) (MIC=0.7-1.3 μg/ml), Streptococcus spp. group D (6) (MIC=0.25-4 μg/ml), Streptococcus spp. (16) (MIC=1.3-16 μg/ml), Corynebacterium spp. (5) (MIC=0.13-0.25 μg/ml), Staphylococcus spp. (35) (MIC=0.13-4 μg/ml), Methicillin-resistant S. aureus (MRSA; ATCC 33591) (MIC=4 μg/ml);\nGram-negative bacteria:\nPseudomonas aeruginosa (ATCC 9027) (MIC=2 μg/ml), Moraxella spp. (12) (MIC=0.2-0.8 μg/ml), Neisseria sp. (1) (MIC=8 μg/ml), Haemophilus spp. (15) (MIC=1-8 μg/ml), Acinetobacter calcoaceticus (4) (MIC=0.06-2 μg/ml), Klebsiella pneumoniae (4) (MIC=1-5 μg/ml), Pseudomonas aeruginosa (18) (MIC=1-8 μg/ml), Escherichia coli (5) (MIC=0.25-1 μg/ml), Serratia marcescens (16), (MIC=16-256 μg/ml).\nFungi:\nCandida albicans (6) (MIC=4-16 μg/ml).",
+            "Reference": [
+                "A phase III, randomized, double-blind, placebo-controlled, study of iseganan for the reduction of stomatitis in patients receiving stomatotoxic chemotherapy. Leukoc. Res.(2004).(PMID:15120931)A multinational, randomized phase III trial of iseganan HCl oral solution for reducing the severity of oral mucositis in patients receiving radiotherapy for head-and-neck malignancy. Int. J. Radiat. Oncol. Biol. Phys.(2004)(PMID:22077420)",
+                "A phase III, randomized, double-blind, placebo-controlled, study of iseganan for the reduction of stomatitis in patients receiving stomatotoxic chemotherapy. Leukoc. Res.(2004).(PMID:15120931)",
+                "A multinational, randomized phase III trial of iseganan HCl oral solution for reducing the severity of oral mucositis in patients receiving radiotherapy for head-and-neck malignancy. Int. J. Radiat. Oncol. Biol. Phys.(2004)(PMID:22077420)"
+            ],
+            "Biological Activity": [
+                "Antibacterial",
+                "Antifungal"
+            ],
+            "Frequent Amino Acids": "CGR",
+            "Absent Amino Acids": "ADEHIKMNOPQSTUW",
+            "Basic Residues": 4,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 11,
+            "Positive Residues": 4,
+            "Negative Residues": 0,
+            "Mass": 1905.3,
+            "PI": 9.37,
+            "Net Charge": 4,
+            "Hydrophobicity": 0.24,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_12923",
+                    "Similarity": 1.0,
+                    "Sequence": "GRRGGRGGRGR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02574",
+                    "Similarity": 0.9411764705882353,
+                    "Sequence": "RGGRLCYCRPRFCVCVGR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04200",
+                    "Similarity": 0.9411764705882353,
+                    "Sequence": "RGGRLCYCRRRFCVCVGR"
+                }
+            ]
+        }
+    }
+}

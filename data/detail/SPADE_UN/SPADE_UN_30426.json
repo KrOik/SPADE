@@ -1,0 +1,59 @@
+{
+    "SPADE_UN_30426": {
+        "Sequence Information": {
+            "Peptide Name": "",
+            "Sequence": "CLLKKLLKK",
+            "Sequence Length": 9,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Anti-mycobacterial activities of synthetic cationic α-helical peptides and their synergism with rifampicin.",
+                    "Pubmed ID": "24314557",
+                    "Reference": "Biomaterials. 2014;35:2032-2038",
+                    "Author": "Khara JS, Wang Y, Ke XY, Liu S, Newton SM, Langford PR, Yang YY, Ee PL",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/24314557"
+                }
+            ],
+            "Mass": 1086.48,
+            "PI": 10.04,
+            "Net Charge": 4,
+            "Hydrophobicity": 0.23,
+            "Frequent Amino Acids": "KLC",
+            "Absent Amino Acids": "ADEFGHIMNOPQRSTUVWY",
+            "Basic Residues": 4,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 4,
+            "Positive Residues": 4,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_30426",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03536",
+                    "Similarity": 1.0,
+                    "Sequence": "ERILDLRKTKKSCKNGEVLGCVSGHGPPGCSENECGMGPRPKACFFDCHYGCWCTGKLYRRKRDRKCVPKHECLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06540",
+                    "Similarity": 1.0,
+                    "Sequence": "CLLKKLLKKLLKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11574",
+                    "Similarity": 1.0,
+                    "Sequence": "CLLKKLLKKC"
+                }
+            ],
+            "Hemolytic Activity": "Rat erythrocytes:50% Hemolysis=>1000 µg/ml",
+            "Target Organism": "Mycobacterium smegmatis ATCC 14468(MIC=62.5µg/ml),Mycobacterium bovis BCG(MIC=250µg/ml),Mycobacterium tuberculosis H37Rv(MIC=>500µg/ml),Mycobacterium tuberculosis CSU87(MIC=>500µg/ml)"
+        }
+    }
+}

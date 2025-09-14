@@ -1,0 +1,70 @@
+{
+    "SPADE_N_14094": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_14094",
+            "Peptide Name": "Bacitracin (natural AMPs, bacteria, prokaryotes, XXC, UCBB1a)",
+            "Source": "Bacillus licheniformisM1",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "HFDNLNKIQANI",
+            "Sequence Length": 12,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-MRSA"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 1426.58,
+            "PI": 6.74,
+            "Hydrophobicity": -0.6,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Wei X, Hu Y, Sun C, Wu S. 2024",
+                    "Reference": "J Agric Food Chem. 2024 Mar 1. doi: 10.1021/acs.jafc.4c00573.PubMed",
+                    "Title": "Characterization of a Novel Antimicrobial Peptide Bacipeptin against Foodborne Pathogens."
+                }
+            ],
+            "Frequent Amino Acids": "NIA",
+            "Absent Amino Acids": "CEGMOPRSTUVWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 7,
+            "Positive Residues": 2,
+            "Negative Residues": 1,
+            "Net Charge": 1,
+            "Comments": "Sequence analysis: APD analysis reveals that this sequence is most similar (44.44%) toTemporin-1CEhN: 25%, I: 17%; warning: A = 2-Aminoisobutyric acid.Activity: active against S. aureus QD-2 or ATCC25923 MRSA (MIC 11.25-22.51 uM), B. cereus MCCC M25811 or 63301 (MIC 22.51-45.01 uM), E. faecalis CCARM 5172 (MIC 22.51 uM),  L. monocytogenes CGMCC 1.9136 (MIC 45.01 uM), not active against Gram- bacteria E.coli, S.choleraesuis CGMCC1.9136, and P.aeruginosa ATCC15692.Antivirulence:bacteria:  Antivirulence activity observed.THe APD thanks Shimei Wu for assistance with this entry. Est.3/2024",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_15449",
+                    "Similarity": 0.8181818181818182,
+                    "Sequence": "HFDNLNKIQNI"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_06855",
+                    "Similarity": 0.8,
+                    "Sequence": "MTTILKFAYVMIICLFLLQVAAQEVLEKEIFPCQTDGECDHMCVTPGIPKCVANMCFCFDNL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_07310",
+                    "Similarity": 0.8,
+                    "Sequence": "QEVLEKEIFPCQTDGECDHMCVTPGIPKCVANMCFCFDNL"
+                }
+            ]
+        }
+    }
+}

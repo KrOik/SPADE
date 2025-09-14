@@ -1,0 +1,72 @@
+{
+    "SPADE_N_00046": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00046",
+            "Peptide Name": "Bacteriocin 97518",
+            "Source": "Planomonospora sp. (Gram-positive bacteria)",
+            "Family": "Belongs to the type A lantibiotic family (Class I bacteriocin)",
+            "Gene": "Not found",
+            "Sequence": "ITSVSWCTPGCTSEGGGSGCSHCC",
+            "Sequence Length": 24,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-negative bacteria:Escherichia coli, Moraxella catarrhalis.Yeast:Candida albicans.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C90H139N27O35S5",
+            "Mass": 2319.55,
+            "PI": 5.24,
+            "Net Charge": 0,
+            "Hydrophobicity": 0.16,
+            "Half Life": "Mammalian:20 hourYeast:30 minE.coli:>10 hour",
+            "Function": "It inhibits cell wall synthesis of Gram-positive bacteria, including Staphylococcus aureus (MRSA).",
+            "Literature": [
+                {
+                    "Title": "A novel lantibiotic acting on bacterial cell wall synthesis produced by the uncommon actinomycete Planomonospora sp.",
+                    "Pubmed ID": "17469849",
+                    "Reference": "Biochemistry. 2007 May 22;46(20)5884-5895.",
+                    "Author": "Castiglione F, Cavaletti L, Losi D, Lazzarini A, Carrano L, Feroggio M, Ciciliato I, Corti E, Candiani G, Marinelli F, Selva E.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=17469849"
+                }
+            ],
+            "Frequent Amino Acids": "CGS",
+            "Absent Amino Acids": "ADFKLMNOQRUY",
+            "Basic Residues": 1,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 4,
+            "Polar Residues": 15,
+            "Positive Residues": 1,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_05578",
+                    "Similarity": 1.0,
+                    "Sequence": "MGISSPALPQNTADLFQLDLEIGVEQSLASPAITSVSWCTPGCTSEGGGSGCSHCC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15049",
+                    "Similarity": 0.8571428571428571,
+                    "Sequence": "ISVWCPGCTSEGGGSGCSHCCPG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15123",
+                    "Similarity": 0.85,
+                    "Sequence": "VSLCTPGCTSGGGSNCSFCC"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,82 @@
+{
+    "SPADE_UN_27234": {
+        "Sequence Information": {
+            "Peptide Name": "P4, Longicin (53-73)",
+            "Sequence": "SIGRRGGYCAGIIKQTCTCYR",
+            "Sequence Length": 21,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antiparasitic",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "Q58A47",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/Q58A47",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Babesial vector tick defensin against Babesia sp. parasites.",
+                    "Pubmed ID": "17485458",
+                    "Reference": "Infect Immun. 2007;75:3633-3640",
+                    "Author": "Tsuji N, Battsetseg B, Boldbaatar D, Miyoshi T, Xuan X, Oliver JH Jr, Fujisaki K",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/17485458"
+                },
+                {
+                    "Title": "Structural characterization and cytolytic activity of a potent antimicrobial motif in longicin, a defensin-like peptide in the tick Haemaphysalis longicornis.",
+                    "Pubmed ID": "19940394",
+                    "Reference": "J Vet Med Sci. 2010;72:149-156",
+                    "Author": "Rahman M, Tsuji N, Boldbaatar D, Battur B, Liao M, Umemiya-Shirafuji R, You M, Tanaka T, Fujisaki K",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/19940394"
+                },
+                {
+                    "Title": "Structural and functional characterization of peptides derived from the carboxy-terminal region of a defensin from the tick Ornithodoros savignyi.",
+                    "Pubmed ID": "23553969",
+                    "Reference": "J Pept Sci. 2013;19:325-332",
+                    "Author": "Prinsloo L, Naidoo A, Serem J, Taute H, Sayed Y, Bester M, Neitz A, Gaspar A",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/23553969"
+                }
+            ],
+            "Mass": 2306.69,
+            "PI": 9.5,
+            "Net Charge": 4,
+            "Hydrophobicity": -0.21,
+            "Frequent Amino Acids": "GCI",
+            "Absent Amino Acids": "DEFHLMNOPUVW",
+            "Basic Residues": 4,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 14,
+            "Positive Residues": 4,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_27234",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02125",
+                    "Similarity": 1.0,
+                    "Sequence": "GFGCPLNQGACHNHCRSIGRRGGYCAGIIKQTCTCYRK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08188",
+                    "Similarity": 1.0,
+                    "Sequence": "QDDESDVPHVRVRRGFGCPLNQGACHNHCRSIGRRGGYCAGIIKQTCTCYRK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11946",
+                    "Similarity": 1.0,
+                    "Sequence": "GCPLNQGACHNHCRSIGRRGGYCAGIIKQTCTCYRK"
+                }
+            ],
+            "Hemolytic Activity": "Dog erythrocytes:4% Hemolysis=250 µM,Vero cells:40% Inhibition=16 µM",
+            "Target Organism": "Escherichia coli O157:H7 ATCC 35150(MIC=2µM),Pseudomonas aeruginosa(MIC=2µM),Staphylococcus aureus(MIC=2µM),Salmonella enterica serovar Typhimurium(MIC=10µM),Pichia pastoris GS115(MIC=20µM),Theileria equi(MIC=5µM),Bacillus subtilis ATCC 13933(MBC=7.5µg/ml),Staphylococcus aureus U3300(MBC=120µg/ml),Escherichia coli ATCC 700928(MBC=7.5µg/ml),Pseudomonas aeruginosa ATCC 10145(MBC=15µg/ml)"
+        }
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_29263": {
+        "Sequence Information": {
+            "Peptide Name": "Drosocin-1 [K2R,R4N,Y6V,S7N,P8N,R9K]",
+            "Sequence": "GRPNPVNNKPTSHPRPIRV",
+            "Sequence Length": 19,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P36193",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P36193",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Hydroxyproline substitutions stabilize non-glycosylated drosocin against serum proteases without challenging its antibacterial activity.",
+                    "Pubmed ID": "24164265",
+                    "Reference": "Protein Pept Lett. 2014;21:321-329",
+                    "Author": "Knappe D, Cassone M, Nollmann FI, Otvos L, Hoffmann R",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/24164265"
+                }
+            ],
+            "Mass": 2136.42,
+            "PI": 12.0,
+            "Net Charge": 5,
+            "Hydrophobicity": -1.48,
+            "Frequent Amino Acids": "PNR",
+            "Absent Amino Acids": "ACDEFLMOQUWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 3,
+            "Polar Residues": 16,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_29263",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_29263",
+                    "Similarity": 1.0,
+                    "Sequence": "GRPNPVNNKPTSHPRPIRV"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_29264",
+                    "Similarity": 1.0,
+                    "Sequence": "GRPNPVNNKPTSHPRPIRV"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10285",
+                    "Similarity": 0.9473684210526315,
+                    "Sequence": "GRPNPVNNKPTPHPRPIRV"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Escherichia coli BL21AI(MIC=>128µg/ml),Micrococcus luteus ATCC 10240(MIC=1µg/ml)"
+        }
+    }
+}

@@ -1,0 +1,88 @@
+{
+    "SPADE_UN_00614": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 10723764 B2",
+                "Patent Link": "http://www.lens.org/lens/patent/US_10723764_B2",
+                "Patent Type": "Granted Patent",
+                "Publication Date": "2020-7-28",
+                "Family Info": "US20150259382A1",
+                "Patent Title": "Anti-microbial Peptides And Methods Of Use Thereof",
+                "Abstract": "Anti-microbial peptides and methods of use are provided."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_00614",
+            "Peptide Name": "DFTamP1-p",
+            "Source": "Synthetic construct (Ab Initio Design)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "GLLPLLSLLGKLL",
+            "Sequence Length": 13,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-positive bacteria:S. aureus USA300 (MIC=1.56 µM), B. subtilis (MIC=3.12 µM).Gram-negative bacteria:E. coli K12 (MIC=25 µM), P. aeruginosa (MIC>100 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C66H120N14O15",
+            "Mass": 1349.74,
+            "PI": 8.75,
+            "Net Charge": 1,
+            "Hydrophobicity": 1.79,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Has antimicrobial activities.",
+            "Literature": [
+                {
+                    "Title": "Ab Initio Design of Potent Anti-MRSA Peptides Based on Database\nFiltering Technology.",
+                    "Pubmed ID": "22803960",
+                    "Reference": "J Am Chem Soc. 2012 Aug 1;134(30)12426-9.",
+                    "Author": "Mishra B, Wang G.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=22803960"
+                },
+                {
+                    "Title": "Ab initio design of potent anti-MRSA peptides based on database filtering technology",
+                    "Pubmed ID": "",
+                    "Author": "Mishra B, Wang G"
+                }
+            ],
+            "Frequent Amino Acids": "LGK",
+            "Absent Amino Acids": "ACDEFHIMNOQRTUVWY",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 2,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03571",
+                    "Similarity": 1.0,
+                    "Sequence": "GLLTNVLGFLKKAGKGVLSGLLPL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14095",
+                    "Similarity": 1.0,
+                    "Sequence": "VLDLVTKTLKNVPKTVKGLLPL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15450",
+                    "Similarity": 1.0,
+                    "Sequence": "VLDLVTKTLEDVTKTAKGLLPL"
+                }
+            ]
+        }
+    }
+}

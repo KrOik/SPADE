@@ -1,0 +1,95 @@
+{
+    "SPADE_N_03190": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03190",
+            "Peptide Name": "Cathelicidin-1 (CATH-1; Fowlicidin-1; Birds, animals)",
+            "Source": "Gallus gallus (Chicken)",
+            "Family": "Not found",
+            "Gene": "CATHL1",
+            "Sequence": "RVKRVWPLVIRTVIAGYNLYRAIKKK",
+            "Sequence Length": 26,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q6QLQ5",
+                "http://www.uniprot.org/uniprot/Q2IAM1"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Cytolytic"
+            ],
+            "Target Organism": "[Ref.16326712]Gram-negative bacteria:[No NaCl]Escherichia coli 25922 (MIC=1.59 µM), Escherichia coli O157:H7 700728 (MIC=0.80 µM), Salmonella typhimurium 14028 (MIC=0.80 µM), Salmonella typhimurium DT104 700408 (MIC=0.40 µM), Klebsiella pneumoniae 13883 (MIC=0.40 µM), Pseudomonas aeruginosa 27853 (MIC=3.18 µM);[100mM NaCl]Escherichia coli 25922 (MIC=1.59 µM), Escherichia coli O157:H7 700728 (MIC=0.80 µM), Salmonella typhimurium 14028 (MIC=1.59 µM), Salmonella typhimurium DT104 700408 (MIC=1.59 µM), Klebsiella pneumoniae 13883 (MIC=0.80 µM), Pseudomonas aeruginosa 27853 (MIC=3.18 µM);Gram-positive bacteria:Listeria monocytogenes 19115 (MIC=0.80 µM), Staphylococcus aureus 25923 (MIC=0.80 µM), Staphylococcus aureus (MRSA) BAA-39 (MIC=0.40 µM), Staphylococcus aureus (MRSA) 43300 (MIC=0.40 µM);[100mM NaCl]Listeria monocytogenes 19115 (MIC=1.59 µM), Staphylococcus aureus 25923 (MIC=0.80 µM), Staphylococcus aureus (MRSA) BAA-39 (MIC=0.80 µM), Staphylococcus aureus (MRSA) 43300 (MIC=0.40 µM)",
+            "Hemolytic Activity": "[Ref.16326712]80% hemolytic activity at 10 μM against human erythrocytes",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Lipopolysaccharide (LPS)-binding",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Fowlicidin-1 mainly adopts an alpha-helical conformation with a slight kink induced by glycine close to the center, in addition to a short flexible unstructured region near the N terminus. The short C-terminal helical segment after the kink, consisting of a stretch of eight amino acids (residues 16-23), may be required for the peptide to interact with LPS and lipid membranes and to permeabilize both prokaryotic and eukaryotic cells.",
+            "Formula": "C148H250N44O31",
+            "Mass": 3141.84,
+            "PI": 11.6,
+            "Net Charge": 8,
+            "Hydrophobicity": -0.07,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Function": "Has potent antimicrobial activity against Gram-positive and Gram-negative bacteria (in vitro). Has hemolytic activity (in vitro). May play a role in the innate immune response.",
+            "Animal model": "It increased mice survival by 50% from a lethal dose of S. aureus (MRSA). This truncated peptide also reduced TNF-alpha and NO production in macrophage by 77% and 96%, respectively.",
+            "Literature": [
+                {
+                    "Title": "Identification and functional characterization of three chicken cathelicidins with potent antimicrobial activity.",
+                    "Pubmed ID": "16326712",
+                    "Reference": "Biol Chem. 2006 Feb 3;281(5)2858-2867.",
+                    "Author": "Xiao Y, Cai Y, Bommineni YR, Fernando SC, Prakash O, Gilliland SE, Zhang G.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16326712"
+                },
+                {
+                    "Title": "Structure-activity relationships of fowlicidin-1, a cathelicidin antimicrobial peptide in chicken.",
+                    "Pubmed ID": "16817888",
+                    "Reference": "FEBS J. 2006 Jun;273(12)2581-2593.",
+                    "Author": "Xiao Y, Dai H, Bommineni YR, Soulages JL, Gong YX, Prakash O, Zhang G.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16817888"
+                },
+                {
+                    "Title": "Bioinformatic discovery and initial characterisation of nine novel antimicrobial peptide genes in the chicken.",
+                    "Pubmed ID": "R2004J0205",
+                    "Author": "James T.,Tierney J.,Gaines S.,Higgs R.,Lynn D.J."
+                },
+                {
+                    "Title": "Chicken cathelicidin-B1, an antimicrobial guardian at the mucosal M cell gateway.",
+                    "Pubmed ID": "R2007J0312",
+                    "Author": "Kitamura D.,Asano Y.,Benyon L.,Chen C.-I.H.,Goitsuka R."
+                }
+            ],
+            "Frequent Amino Acids": "KRV",
+            "Absent Amino Acids": "CDEFHMOQSU",
+            "Basic Residues": 8,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 15,
+            "Polar Residues": 18,
+            "Positive Residues": 8,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_08558",
+                    "Similarity": 1.0,
+                    "Sequence": "RVKRVWPLVIRTVIA"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08559",
+                    "Similarity": 1.0,
+                    "Sequence": "RVKRVWPLVIRTVIAGYNLYRAI"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_21423",
+                    "Similarity": 1.0,
+                    "Sequence": "RVKRVWPLVIRTVIAGYNL"
+                }
+            ]
+        }
+    }
+}

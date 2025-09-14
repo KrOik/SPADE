@@ -1,0 +1,21 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+文件结构应遵循以下路径
+所有.css文件应放在SPADE/css
+所有字体样式和图片应放在SPADE/source中，图片放在SPADE/source/img，字体放在SPADE/source/tff
+所有.js文件应放在SPADE/js
+所有.py文件应放在SPADE/program
+所有数据文件应放在SPADE/data中，脚本生成的评分结果放在SPADE/data/result,产生的索引放在SPADE/data/index,原始数据放在SPADE/data/load，拆分后的数据放在data/detail
+所有.html文件应放在SPADE/
+所有新增的测试文件应放在SPADE/test（在功能明确的情况下，无需新增测试文件）
+所有说明文件放在SPADE/readme（在没有说明需要总结文档时，无需生成）
+在程序中使用时，应使用相对路径
+如果新增文件，需要根据以上规则进行整理和存放
+
+
+
+
+

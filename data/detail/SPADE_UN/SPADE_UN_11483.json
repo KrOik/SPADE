@@ -1,0 +1,78 @@
+{
+    "SPADE_UN_11483": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_11483",
+            "Peptide Name": "LL-II/2 (Lasioglossin LL-II peptide derivative)",
+            "Source": "Synthetic construct",
+            "Family": "Derived from the peptide Lasioglossin LL-II",
+            "Gene": "Not found",
+            "Sequence": "VNWKKILAKIIKVAK",
+            "Sequence Length": 15,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.19591185]Gram-positive bacteria:Bacillus subtilis (MIC=0.7 μM), Staphylococcus aureus (MIC=4.3 μM);Gram-negative bacteria:Escherichia coli (MIC=0.7 μM), Pseudomonas aeruginosa (MIC=22.5 μM).",
+            "Hemolytic Activity": "[Ref.19591185]LC50=66.5 μM against rat red blood cells",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C85H150N22O17",
+            "Mass": 1752.24,
+            "PI": 10.6,
+            "Net Charge": 5,
+            "Hydrophobicity": 0.36,
+            "Half Life": "Mammalian:100 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Antibacterial activity against Gram-positive and Gram-negative bacteria.Has hemolytic activity.",
+            "Literature": [
+                {
+                    "Title": "Lasioglossins Three Novel Antimicrobial Peptides from the Venom of the Eusocial Bee Lasioglossum laticeps (Hymenoptera Halictidae.",
+                    "Pubmed ID": "19591185",
+                    "Reference": "Chembiochem. 2009 Aug 17;10(12)2089-2107.",
+                    "Author": "Cerovský V, Budesínský M, Hovorka O, Cvacka J, Voburka Z, Slaninová J, Borovicková L, Fucík V, Bednárová L, Votruba I, Straka J.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=19591185"
+                },
+                {
+                    "Title": "Lasioglossins: three novel antimicrobial peptides from the venom of the eusocial bee Lasioglossum laticeps (Hymenoptera: Halictidae)",
+                    "Pubmed ID": "",
+                    "Author": "Cerovsky V, Budesinsky M, Hovorka O, Cvacka J, Voburka Z, Slaninov�� J, Borovickov�� L, Fucik V, Bed"
+                }
+            ],
+            "Frequent Amino Acids": "KIA",
+            "Absent Amino Acids": "CDEFGHMOPQRSTUY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 10,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_08053",
+                    "Similarity": 1.0,
+                    "Sequence": "KVAKQEKKKKKT"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_08054",
+                    "Similarity": 1.0,
+                    "Sequence": "KVAKQEKKKKKTGRAKRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02590",
+                    "Similarity": 0.9333333333333333,
+                    "Sequence": "VNWKKILGKIIKVAK"
+                }
+            ]
+        }
+    }
+}

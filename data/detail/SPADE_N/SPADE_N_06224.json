@@ -1,0 +1,71 @@
+{
+    "SPADE_N_06224": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_06224",
+            "Peptide Name": "Caerin 1.1 mod 9(Caerin 1.1 [E23K,H24L,L25H])",
+            "Source": "Sythetic construct(derived from Caerin 1.1)",
+            "Family": "Retroviridae",
+            "Gene": "Not found",
+            "Sequence": "GLLSVLGSVAKHVLPHVVPVIAKLH",
+            "Sequence Length": 25,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antiviral"
+            ],
+            "Target Organism": "[Ref.26026377]Human immunodeficiency virus (HIV):inhibition of HIV Pseudovirus (PsV) infection in CD4+ T cells(IC50=2.5 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "[Ref.26026377]CD4+ T Lymphocytes:50% cell death at 17\tµM.",
+            "Binding Target": "virion envelope",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C122H207N33O28",
+            "Mass": 2584.15,
+            "PI": 10.0,
+            "Net Charge": 5,
+            "Hydrophobicity": 1.17,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Mechanism of action": "[Ref.26026377]Inhibit the infection of HIV by disrupting the HIV envelope and release viral core protein (p24).",
+            "Literature": [
+                {
+                    "Title": "VanCompernolle S, Smith PB, Bowie JH, Tyler MJ, Unutmaz D, Rollins-Smith LA.",
+                    "Pubmed ID": "26026377",
+                    "Reference": "Peptides. 2015 Sep;71296-303.",
+                    "Author": "Inhibition of HIV infection by caerin 1 antimicrobial peptides.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=26026377"
+                }
+            ],
+            "Frequent Amino Acids": "VLH",
+            "Absent Amino Acids": "CDEFMNOQRTUWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 16,
+            "Polar Residues": 15,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_22258",
+                    "Similarity": 1.0,
+                    "Sequence": "GLLSVLGSVAKHVLPHVVPVIAKLH"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01426",
+                    "Similarity": 0.88,
+                    "Sequence": "GLLSVLGSVAKHVLPHVVPVIAEHL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01453",
+                    "Similarity": 0.88,
+                    "Sequence": "GLLSVLGSVAKHVLPHVVPVIAEKL"
+                }
+            ]
+        }
+    }
+}

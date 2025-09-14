@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_25028": {
+        "Sequence Information": {
+            "Peptide Name": "Myticofensin B1-α",
+            "Sequence": "LRCHFWCRS",
+            "Sequence Length": 9,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "A0A6J8ELF6",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/A0A6J8ELF6",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Myticofensin, a novel antimicrobial peptide family identified from Mytilus coruscus",
+                    "Pubmed ID": "36349653",
+                    "Reference": "Fish Shellfish Immunol. 2022;:",
+                    "Author": "Liu L, He M, Yang Z, Wang H, Zhang X, He J, Isabella B, Qi P, Yan X, Liao Z",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/36349653"
+                }
+            ],
+            "Mass": 1207.43,
+            "PI": 9.02,
+            "Net Charge": 3,
+            "Hydrophobicity": -0.26,
+            "Frequent Amino Acids": "CRF",
+            "Absent Amino Acids": "ADEGIKMNOPQTUVY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 4,
+            "Polar Residues": 5,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_25028",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_08977",
+                    "Similarity": 1.0,
+                    "Sequence": "CGGWHRLRC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08979",
+                    "Similarity": 1.0,
+                    "Sequence": "CGGWKRLRC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08981",
+                    "Similarity": 1.0,
+                    "Sequence": "SGGYCGGWHRLRC"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Escherichia coli(MIC=31.3µM),Vibrio harveyi ATCC 33842(MIC=62.5µM),Vibrio alginolyticus ATCC 19659(MIC=31.3µM),Vibrio parahaemolyticus ATCC 17802(MIC=62.5µM),Vibrio fluvialis ATCC 33809(MIC=62.5µM),Pseudomonas aeruginosa ATCC 9027(MIC=<3.9µM),Bacillus megaterium ATCC 19161(MIC=<3.9µM),Staphylococcus aureus ATCC 25923(MIC=15.6µM),Micrococcus luteus ATCC 4698(MIC=<3.9µM),Bacillus subtilis ATCC 19659(MIC=125µM),Bacillus cereus ATCC 14579(MIC=7.8µM),Bacillus licheniformis ATCC 14580(MIC=62.5µM)"
+        }
+    }
+}

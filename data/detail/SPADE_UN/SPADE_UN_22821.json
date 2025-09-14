@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_22821": {
+        "Sequence Information": {
+            "Peptide Name": "Ocellatin-K1 (1-16)",
+            "Sequence": "GVVDILKGAAKDLAGH",
+            "Sequence Length": 16,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P86711",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P86711",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Novel Ocellatin Peptides Mitigate LPS-induced ROS Formation and NF-kB Activation in Microglia and Hippocampal Neurons.",
+                    "Pubmed ID": "32060388",
+                    "Reference": "Sci Rep. 2020;10:2696",
+                    "Author": "Sousa NA, Oliveira GAL, de Oliveira AP, Lopes ALF, Iles B, Nogueira KM, Araújo TSL, Souza LKM, de Araujo AR, Ramos-Jesus J, Plácido A, Amaral C, Campelo YDM, Barbosa EA, Portugal CC, Socodato R, Lobo A, Relvas JB, Bemquerer MP, Eaton P, Leite JRSA, Medeiros JVR",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/32060388"
+                }
+            ],
+            "Mass": 1563.8,
+            "PI": 6.75,
+            "Net Charge": 1,
+            "Hydrophobicity": 0.42,
+            "Frequent Amino Acids": "AGD",
+            "Absent Amino Acids": "CEFMNOPQRSTUWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 8,
+            "Positive Residues": 3,
+            "Negative Residues": 2,
+            "SPADE ID": "SPADE_UN_22821",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01096",
+                    "Similarity": 1.0,
+                    "Sequence": "GVVDILKGAAKDLAGHLASKVMNKI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03512",
+                    "Similarity": 1.0,
+                    "Sequence": "GVVDILKGAAKDLAGHLATKVMNKL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14788",
+                    "Similarity": 1.0,
+                    "Sequence": "GVVDILKGAAKDLAGHLATKVMDKL"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:0% Hemolysis=500 µg/ml",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=125µg/ml),Staphylococcus aureus ATCC 25923(MIC=31.25µg/ml)"
+        }
+    }
+}

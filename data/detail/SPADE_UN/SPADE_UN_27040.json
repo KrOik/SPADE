@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_27040": {
+        "Sequence Information": {
+            "Peptide Name": "AamAP1[P7R;H8K;I14W], A3a [I14W]",
+            "Sequence": "FLFSLIRKAIGGLWSAFK",
+            "Sequence Length": 18,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "G8YYA5",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/G8YYA5",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Improving the Activity and Selectivity of a Scorpion-Derived Peptide, A3a, against Acinetobacter baumannii through Rational Design",
+                    "Pubmed ID": "39959037",
+                    "Reference": "ACS Omega. 2025;10:4699-4710",
+                    "Author": "Möller DS, van der Walt M, Oosthuizen C, Serian M, Serem JC, Lorenz CD, Mason AJ, Bester MJ, Gaspar ARM",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/39959037"
+                }
+            ],
+            "Mass": 2054.48,
+            "PI": 11.17,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.93,
+            "Frequent Amino Acids": "FLA",
+            "Absent Amino Acids": "CDEHMNOPQTUVY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 8,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_27040",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_27040",
+                    "Similarity": 1.0,
+                    "Sequence": "FLFSLIRKAIGGLWSAFK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_12871",
+                    "Similarity": 0.9444444444444444,
+                    "Sequence": "FLFSLIRKAIGGLISAFK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_20579",
+                    "Similarity": 0.9444444444444444,
+                    "Sequence": "FLFSLIRKAIGGLISAFK"
+                }
+            ],
+            "Hemolytic Activity": "Human keratinocytes HaCat:IC50=114.5±18.15 µg/ml",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=32µg/ml),Acinetobacter baumannii ATCC 19606(MIC=8µg/ml),Klebsiella pneumoniae ATCC BAA-1705(MIC=128µg/ml),Enterobacter cloacae ATCC 700323(MIC=128µg/ml),Pseudomonas aeruginosa ATCC 27853(MIC=128µg/ml),Staphylococcus aureus ATCC 25923(MIC=4µg/ml)"
+        }
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "SPADE_N_15150": {
+        "Sequence Information": {
+            "Peptide Name": "Tilapia piscidin 1, TP1",
+            "Sequence": "FDWDSVLKGVEGFVRGYF",
+            "Sequence Length": 18,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "",
+            "Source": "1. Oreochromis niloticus",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "L0CML7",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/L0CML7",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Strategic modification of low-activity natural antimicrobial peptides confers antibacterial potential in vitro and in vivo.",
+                    "Pubmed ID": "36669399",
+                    "Reference": "Eur J Med Chem. 2023;249:115131",
+                    "Author": "Hazam PK, Cheng CC, Lin WC, Hsieh CY, Hsu PH, Chen YR, Li CC, Hsueh PR, Chen JY",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/36669399"
+                }
+            ],
+            "Mass": 2121.35,
+            "PI": 4.56,
+            "Net Charge": -1,
+            "Hydrophobicity": 0.09,
+            "Frequent Amino Acids": "FGV",
+            "Absent Amino Acids": "ACHIMNOPQTU",
+            "Basic Residues": 2,
+            "Acidic Residues": 3,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 11,
+            "Positive Residues": 2,
+            "Negative Residues": 3,
+            "SPADE ID": "SPADE_N_15150",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_15689",
+                    "Similarity": 1.0,
+                    "Sequence": "FDWDSVLKGVEGFVRGYF"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_25396",
+                    "Similarity": 0.7777777777777778,
+                    "Sequence": "FKWKSVLKGVKGFVDGYF"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_25397",
+                    "Similarity": 0.7777777777777778,
+                    "Sequence": "FKWKSVLKGVDGFVDGYF"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:15.2 ± 0.11% Hemolysis=100 µg/ml",
+            "Target Organism": "Staphylococcus aureus(MBC=>100µg/ml),Acinetobacter baumannii(MBC=>100µg/ml)"
+        }
+    }
+}

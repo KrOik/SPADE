@@ -1,0 +1,79 @@
+{
+    "SPADE_UN_11895": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_11895",
+            "Peptide Name": "HYL-5 (Derived from HYL)",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "GIMISLMKKLAAHIAK",
+            "Sequence Length": 16,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic form",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "[Ref.26998557] Gram-positive bacteria :Staphylococcus aureus 6271(MIC=43 μM), Staphylococcus epidermidis(MIC=8.8 μM);Gram-negative bacteria :Escherichia coli(MIC=12 μM), Pseudomonas aeruginosa 5482(MIC=47 μM);Fungi :Candida albicans(MIC=12 μM)",
+            "Hemolytic Activity": "[Ref.26998557] LC50=320 μM against human red blood cells",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C78H141N21O18S2",
+            "Mass": 1725.21,
+            "PI": 10.3,
+            "Net Charge": 4,
+            "Hydrophobicity": 0.89,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Antibacterial activity against Gram-positive bacteria and Gram-negative bacteria. Antifungal activity against Candida albicans",
+            "Literature": [
+                {
+                    "Title": "Antimicrobial Peptide from the Wild Bee Hylaeus signatus Venom and Its Analogues Structure-Activity Study and Synergistic Effect with Antibiotics.",
+                    "Pubmed ID": "26998557",
+                    "Reference": "J Nat Prod. 2016 Apr 22;79(4)1073-83. doi 10.1021/acs.jnatprod.5b01129.",
+                    "Author": "Nešuta O, Hexnerová R, Buděšínský M, Slaninová J, Bednárová L, Hadravová R, Straka J, Veverka V, Čeřovský V",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=26998557"
+                },
+                {
+                    "Title": "Antimicrobial Peptide from the Wild Bee Hylaeus signatus Venom and Its Analogues: Structure-Activity Study and Synergistic Effect with Antibiotics",
+                    "Pubmed ID": "",
+                    "Author": "nesuta O, Hexnerov�� R, Budesinsky M, Slaninov�� J, Bedn��rov�� L, Hadravov�� R, Straka J, Veverka V"
+                }
+            ],
+            "Frequent Amino Acids": "AIK",
+            "Absent Amino Acids": "CDEFNOPQRTUVWY",
+            "Basic Residues": 4,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 8,
+            "Positive Residues": 4,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_05870",
+                    "Similarity": 0.9375,
+                    "Sequence": "GIMSSLMKKLAAHIAK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06602",
+                    "Similarity": 0.9375,
+                    "Sequence": "GIMASLMKKLAAHIAK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06603",
+                    "Similarity": 0.875,
+                    "Sequence": "GIMSALMKKLAAHIAK"
+                }
+            ]
+        }
+    }
+}

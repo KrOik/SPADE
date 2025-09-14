@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_19402": {
+        "Sequence Information": {
+            "Peptide Name": "Sapecin (16-25)",
+            "Sequence": "AAHCLLRGNR",
+            "Sequence Length": 10,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P18313",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P18313",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Structure-activity relationships of the intramolecular disulfide bonds in coprisin, a defensin from the dung beetle.",
+                    "Pubmed ID": "24393527",
+                    "Reference": "BMB Rep. 2014;47:625-630",
+                    "Author": "Lee J, Lee D, Choi H, Kim HH, Kim H, Hwang JS, Lee DG, Kim JI",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/24393527"
+                }
+            ],
+            "Mass": 1110.29,
+            "PI": 10.35,
+            "Net Charge": 3,
+            "Hydrophobicity": -0.24,
+            "Frequent Amino Acids": "ALR",
+            "Absent Amino Acids": "DEFIKMOPQSTUVWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 5,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_19402",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01941",
+                    "Similarity": 1.0,
+                    "Sequence": "MFTLKKSMLLLFFLGTISLSLCQDEGADEDHGGEMTTEEKRGLMDIFKVAVNKLLAAGMNKPRCKAAHC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02652",
+                    "Similarity": 1.0,
+                    "Sequence": "ATCDLLSGTGINHSACAAHCLLRGNRGGYCNGKGVCVCRN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02653",
+                    "Similarity": 1.0,
+                    "Sequence": "ATCDLLSGTGINHSACAAHCLLRGNRGGYCNRKGVCVCRN"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Escherichia coli KCTC 1682(MIC=15µM),Salmonella typhimurium KCTC 1926(MIC=30µM),Pseudomonas aeruginosa KCTC 1637(MIC=30µM),Staphylococcus aureus KCTC 1621(MIC=30µM),Staphylococcus epidermidis KCTC 1917(MIC=15µM),Bacillus subtilis KCTC 3068(MIC=>30µM),Enterococcus faecium(MIC=>30µM),Enterococcus faecalis(MIC=>30µM),Enterococcus faecium VR(MIC=>30µM),Enterococcus faecalis VR(MIC=>30µM),Staphylococcus aureus MR(MIC=>30µM)"
+        }
+    }
+}

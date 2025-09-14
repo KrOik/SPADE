@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_22881": {
+        "Sequence Information": {
+            "Peptide Name": "Rapsyn protein (635-656)",
+            "Sequence": "ATLTAKDLTFLQDYKKTKKRVK",
+            "Sequence Length": 22,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "A0A2U9BY21",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/A0A2U9BY21",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Antibacterial Activity and Potential Application in Food Packaging of Peptides Derived from Turbot Viscera Hydrolysate.",
+                    "Pubmed ID": "32841003",
+                    "Reference": "J Agric Food Chem. 2020;68:9968-9977",
+                    "Author": "Bi J, Tian C, Jiang J, Zhang G-L, Hao H, Hou H-M",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/32841003"
+                }
+            ],
+            "Mass": 2597.06,
+            "PI": 10.12,
+            "Net Charge": 5,
+            "Hydrophobicity": -0.93,
+            "Frequent Amino Acids": "KTL",
+            "Absent Amino Acids": "CEGHIMNOPSUW",
+            "Basic Residues": 7,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 15,
+            "Positive Residues": 7,
+            "Negative Residues": 2,
+            "SPADE ID": "SPADE_UN_22881",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_22304",
+                    "Similarity": 0.625,
+                    "Sequence": "LAAALTAKATALTAKLTALAAALTAKAT"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_22303",
+                    "Similarity": 0.5,
+                    "Sequence": "LKAALTAAKTALTAALTALKAALTAAKT"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_18619",
+                    "Similarity": 0.5,
+                    "Sequence": "LTKKTKKQKRNLVGTT"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:10% Hemolysis=20 µM,Human erythrocytes:55% Hemolysis=160 µM,Human hepatocyte cells HL-7702 (L02):3% Killing=20 µM",
+            "Target Organism": "Escherichia coli CICC 10670(MIC=40µM),Salmonella enterica subsp. enterica serovar Typhimurium ATCC 14028(MIC=20µM),Hafnia alvei H4(MIC=20µM),Staphylococcus aureus ATCC 6538(MIC=20µM),Listeria monocytogenes ATCC 19115(MIC=20µM),Bacillus subtilis CMCC 63501(MIC=10µM)"
+        }
+    }
+}

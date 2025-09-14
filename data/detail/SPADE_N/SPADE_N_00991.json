@@ -1,0 +1,75 @@
+{
+    "SPADE_N_00991": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00991",
+            "Peptide Name": "Thaumatin-like protein (CdTLP; Plants)",
+            "Source": "Cassia didymobotrya (Popcorn cassia)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "ATITFTNKCTRTVWPGG",
+            "Sequence Length": 17,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P84334"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antifungal"
+            ],
+            "Target Organism": "Fungi:Candida albicans 586 (EC50=6.2 µM), Candida parapsilosis ATCC 22019 (EC50=2.2 µM), Candida krusei ATCC 14243 (EC50=2.5 µM), C. krusei 80 (EC50=5.4 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C82H129N23O24S",
+            "Mass": 1853.11,
+            "PI": 9.51,
+            "Net Charge": 2,
+            "Hydrophobicity": -0.17,
+            "Half Life": "Mammalian:4.4 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Has antifungal activity.",
+            "Induction": "By salicylic acid and by laminarin oligosaccharides.",
+            "PTM": "Contains one disulfide bond (By similarity).",
+            "Literature": [
+                {
+                    "Title": "Purification and characterization of an antifungal thaumatin-like protein from Cassia didymobotrya cell culture.",
+                    "Pubmed ID": "17056265",
+                    "Reference": "Plant Physiol Biochem. 2006 Oct;44(10)604-610.",
+                    "Author": "Vitali A, Pacini L, Bordi E, De Mori P, Pucillo L, Maras B, Botta B, Brancaccio A, Giardina B.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=17056265"
+                }
+            ],
+            "Frequent Amino Acids": "TGA",
+            "Absent Amino Acids": "DEHLMOQSUY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 11,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00231",
+                    "Similarity": 0.6666666666666666,
+                    "Sequence": "AKITFTNNHPRTIWP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00299",
+                    "Similarity": 0.6470588235294118,
+                    "Sequence": "ATITVVNRCSYTVWPGALPGGGVRLDPGQRWALNMPAGTAGAAV"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00230",
+                    "Similarity": 0.625,
+                    "Sequence": "ATFTIRNNPYTVWAAASPGGGRRLDMARIWGRTNNFD"
+                }
+            ]
+        }
+    }
+}

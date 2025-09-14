@@ -1,0 +1,90 @@
+{
+    "SPADE_N_02066": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 2003/0096949 A1",
+                "Patent Link": "http://www.lens.org/lens/patent/US_2003_0096949_A1",
+                "Patent Type": "Patent Application",
+                "Publication Date": "2003-5-22",
+                "Family Info": "CA2341340A1,CA2341340C,EP1107976A1,EP1107976A4,US6288212,US6818407,WO2000012528A1",
+                "Patent Title": "Anti-endotoxic antimicrobial cationic peptides and methods of use therfor.",
+                "Abstract": "A novel class of cationic peptides having antimicrobial activity is provided. Exemplary peptides of the invention include KWKSFIKKLTSAAKKVVTTAKPLALIS (SEQ ID NO:3) and KGWGSFFKKAAHVGKHVGKAALTHYL (SEQ ID NO:15). Also provided are methods for inhibiting the growth of bacteria utilizing the peptides of the invention. Such methods are useful for the treatment of respiratory infections, such as in cystic fibrosis patients. Such methods are further useful for accelerating wound healing."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02066",
+            "Peptide Name": "Pleurocidin (NRC-4; fish, chordates, animals)",
+            "Source": "Pseudopleuronectes americanus (Winter flounder 2-2.1)",
+            "Family": "Belongs to the pleurocidin family",
+            "Gene": "ple1 AND ple2",
+            "Sequence": "GWGSFFKKAAHVGKHVGKAALTHYL",
+            "Sequence Length": 25,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P81941",
+                "http://www.uniprot.org/uniprot/P81619",
+                "http://www.uniprot.org/uniprot/Q9PRJ9",
+                "http://www.uniprot.org/uniprot/Q90ZY0",
+                "http://www.uniprot.org/uniprot/Q90VW6"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "Gram-negative bacteria:Escherichia coli (MIC=2.2-3.3 µM), Leucothrix mucor (MIC>35.0 µM), Serratia marcescens (MIC>35.0 µM), Pseudomonas aeruginosa (MIC>35.0 µM), Aeromonas salmonicida (MIC=17.7-35.0 µM), Cytophaga aquatilis (MIC=2.2-4.4 µM), Pasteurella haemolytica (MIC=4.4-8.8 µM), Salmonella typhimurium I (MIC=8.8-17.7 µM), Salmonella typhimurium II (MIC=8.8-17.7 µM);Gram-positive bacteria:Bacillus subtilis (MIC=1.1-2.2 µM), Staphylococcus aureus (MIC=17.7-35.0 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "From NMR structural studies with the uniformly (15)N-labeled peptide, a structure of pleurocidin is determined to be in a random coil conformation in aqueous solution whereas it assumes an alpha-helical structure in TFE and in dodecylphosphocholine (DPC) micelles.(Ref.2)",
+            "Formula": "C129H192N36O29",
+            "Mass": 2711.13,
+            "PI": 10.18,
+            "Net Charge": 7,
+            "Hydrophobicity": -0.07,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "May play a role in innate host defense.",
+            "Literature": [
+                {
+                    "Title": "Isolation and characterization of pleurocidin, an antimicrobial peptide in the skin secretions of winter flounder.",
+                    "Pubmed ID": "9115266",
+                    "Reference": "J Biol Chem. 1997 May 2;272(18)12008-12013.",
+                    "Author": "Cole A.M, Weis P, Diamond G.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=9115266"
+                }
+            ],
+            "Frequent Amino Acids": "AGK",
+            "Absent Amino Acids": "CDEIMNOPQRU",
+            "Basic Residues": 7,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 16,
+            "Positive Residues": 7,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_04060",
+                    "Similarity": 1.0,
+                    "Sequence": "MKFTATFLMIAIFVLMVEPGECGWGSFFKKAAHVGKHVGKAALTHYLGDKQELNKRAVDEDPNVIVFE"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04083",
+                    "Similarity": 1.0,
+                    "Sequence": "MKFTATFLMIAIFVLMVEPGECGWGSFFKKAAHVGKHVGKAALTHYLGDKQELNKRAVDE"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04097",
+                    "Similarity": 1.0,
+                    "Sequence": "MKFTATFLMMAIFVLMVEPGECGWGSFFKKAAHVGKHVGKAALTHYLGDKQELNKRAVDEDPNVIVFE"
+                }
+            ]
+        }
+    }
+}

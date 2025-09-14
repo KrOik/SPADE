@@ -1,0 +1,78 @@
+{
+    "SPADE_N_00873": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00873",
+            "Peptide Name": "Antimicrobial peptide 1 (PMAP1; Plant defensin)",
+            "Source": "Pinus monticola (Western white pine) (Strobus monticola)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "SYFSAWAGPGCNNHNARYSKCGCSNIGHNVHGGYEFVYQGQTAAAYNTDNCKGVAQTRFSSSVNQACSNFGWKSVFIQC",
+            "Sequence Length": 79,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P83880"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Antifungal"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C371H536N110O115S6",
+            "Mass": 8569.28,
+            "PI": 8.6,
+            "Net Charge": 6,
+            "Hydrophobicity": -0.45,
+            "Half Life": "Mammalian:1.9 hourYeast:>20 hourE.coli:>10 hour",
+            "Tissue specificity": "Detected at higher levels in needles and twigs from canker-resistant seedlings than in needles from canker-susceptible plants. During summer, detected on cankered, healthy and marginal bark. During winter, detected at lower levels in cankered bark and bark from the canker margin than in healthy bark (at protein level).",
+            "Developmental stage": "In summer, present at higher levels in older needles and twigs than in tissues from the current year. In winter, detected at high levels in both older and current-year needles and twigs. Induction",
+            "PTM": "Problely contains three disulfide bonds 11-67; 21-79; 23-51.",
+            "Literature": [
+                {
+                    "Title": "Cloning and Characterization of a Putative Antifungal Peptide Gene (Pm-AMP1) in Pinus monticola.",
+                    "Pubmed ID": "18943919",
+                    "Reference": "Phytopathology. 2006 Feb;96(2)164-170.",
+                    "Author": "Ekramoddoullah AK, Liu JJ, Zamani A.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=18943919"
+                },
+                {
+                    "Title": "Analysis of bark proteins in blister rust-resistant and susceptible western white pine (Pinus monticola).",
+                    "Pubmed ID": "14759906",
+                    "Reference": "Tree Physiol. 1997 Oct;17(10)663-669.",
+                    "Author": "Davidson J, Ekramoddoullah AK.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=14759906"
+                }
+            ],
+            "Frequent Amino Acids": "GNS",
+            "Absent Amino Acids": "LMOU",
+            "Basic Residues": 8,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 28,
+            "Polar Residues": 58,
+            "Positive Residues": 8,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03439",
+                    "Similarity": 0.9240506329113924,
+                    "Sequence": "SYFTAWAGPGCNNHAARYSKCGCSNIGNNVHGGYEFMYQGQTAAAYNTDNCKGVAQTRFSSSVNQACSSFGWKSFFIQC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00874",
+                    "Similarity": 0.6578947368421053,
+                    "Sequence": "SAFTVWSGPGCNNRAERYSKCGCSAIHQKGGYDFSYTGQTAALYNQAGCSGVAHTRFGSSARACNPFGWKSIFIQC"
+                }
+            ]
+        }
+    }
+}

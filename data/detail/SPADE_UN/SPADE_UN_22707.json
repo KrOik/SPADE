@@ -1,0 +1,55 @@
+{
+    "SPADE_UN_22707": {
+        "Sequence Information": {
+            "Peptide Name": "Indolicidin [W4,6,8,9,11Phe(NO2)]",
+            "Sequence": "ILPXKXPXXPXRR",
+            "Sequence Length": 13,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P33046",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P33046",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Indolicidin analogs with broad-spectrum antimicrobial activity and low hemolytic activity",
+                    "Pubmed ID": "32593681",
+                    "Reference": "Peptides. 2020;132:170356",
+                    "Author": "Smirnova MP, Kolodkin NI, Kolobov AA, Afonin VG, Afonina IV, Stefanenko LI, Shpen VM, Shamova OV",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/32593681"
+                }
+            ],
+            "SPADE ID": "SPADE_UN_22707",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02700",
+                    "Similarity": 1.0,
+                    "Sequence": "VFIDILDKMENAIHKAAQAGIGLAKPIENMILPK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02701",
+                    "Similarity": 1.0,
+                    "Sequence": "VFIDILDKMENAIHKAAQAGIGIAKPIEKMILPK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06870",
+                    "Similarity": 1.0,
+                    "Sequence": "FILP"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=103.3 µM",
+            "Target Organism": "Escherichia coli ML-35p(MIC50=0.8µM),Listeria monocytogenes EGD(MIC50=1.3µM),Candida albicans 820(MIC50=6.2µM)"
+        }
+    }
+}

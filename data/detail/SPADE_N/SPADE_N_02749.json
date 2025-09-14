@@ -1,0 +1,74 @@
+{
+    "SPADE_N_02749": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02749",
+            "Peptide Name": "WAP four-disulfide core domain protein 12 (mammals, animals)",
+            "Source": "Callithrix jacchus (white-tufted-ear-marmoset)",
+            "Family": "Not found",
+            "Gene": "WFDC12",
+            "Sequence": "VKVNIEKPGVCPADNIRCIKSDPPQCHTDQDCQGIRKCCYLHCGFKCVIPVKELEEGGNKDEDVSRPCPEPGWEAKPPGVFSTRCPQK",
+            "Sequence Length": 88,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/A4K2U1"
+            ],
+            "Protein Existence": "Homology",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C418H665N121O128S10",
+            "Mass": 9754.14,
+            "PI": 6.84,
+            "Net Charge": 2,
+            "Hydrophobicity": -0.71,
+            "Half Life": "Mammalian:100 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Antibacterial protein. Putative acid-stable proteinase inhibitor (By similarity).",
+            "Domain": "Contains 4 WAP domain",
+            "Literature": [
+                {
+                    "Title": "Comparative sequence analyses reveal rapid and divergent evolutionary changes of the WFDC locus in the primate lineage.",
+                    "Pubmed ID": "17267810",
+                    "Reference": "Genome Res. 2007 Mar;17(3)276-286.",
+                    "Author": "Hurle B, Swanson W; NISC Comparative Sequencing Program, Green ED.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=17267810"
+                }
+            ],
+            "Frequent Amino Acids": "PCK",
+            "Absent Amino Acids": "MOU",
+            "Basic Residues": 15,
+            "Acidic Residues": 13,
+            "Hydrophobic Residues": 31,
+            "Polar Residues": 47,
+            "Positive Residues": 15,
+            "Negative Residues": 13,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02259",
+                    "Similarity": 0.9420289855072463,
+                    "Sequence": "VKGNIEKPEVCPADNVRCIKSDPPQCHTDQDCQGIRKCCYLHCGFKCVIPVKELEEGGNQDEDVSRPCP"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_00232",
+                    "Similarity": 0.9204545454545454,
+                    "Sequence": "VKGNTEKPGVCPADNVRCIKSDPPQCHTDQDCQGIRKCCYLHCGFKCVIPVKELEEGGSKDEDVSRPCPESGWEVKPPGFFSTRCPQK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02326",
+                    "Similarity": 0.8955223880597015,
+                    "Sequence": "VKEGIEKAGVCPADNVRCFKSDPPQCHTDQDCLGERKCCYLHCGFKCVIPVKELEEGGNKDEDVSRP"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "SPADE_N_13586": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_13586",
+            "Peptide Name": "Polymyxin B (natural AMPs; aerosporin; lactam, XXD; XXL; XXJ; UCSB1a; lipopeptides; nonribosomal peptide antibiotic; bacteria; BBL; BBMm, prokaryotes; Variants: Polymyxin B, a mixture)",
+            "Source": "Bacillus aerosporus Greer",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "KTKKKFLKKT",
+            "Sequence Length": 10,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram-",
+                "Antifungal",
+                "anti-sepsis",
+                "Antibiofilm"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 1249.59,
+            "PI": 10.7,
+            "Hydrophobicity": -1.82,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "AINSWORTH GC, BROWN AM, BROWNLEE G.1947",
+                    "Reference": "Nature. 1947 Aug 23;159(4060):263.PubMed, no abstract",
+                    "Title": "Aerosporin, an antibiotic produced by Bacillus aerosporus Greer."
+                }
+            ],
+            "Frequent Amino Acids": "KTF",
+            "Absent Amino Acids": "ACDEGHIMNOPQRSUVWY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 2,
+            "Polar Residues": 8,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "Net Charge": 6,
+            "Comments": "Chemical modification: Warning: the sequence is a close mimic of the natural peptide antibiotic. In the natural form, there are multiple Dab (2,4-diaminobutanoic acid), which are represented here as lysines. The molecule is cyclic due to the formation of an amide bond between the amino group of Dab in position 4 and the carboxyl group of the C-terminus. Polymyxin B is very similar (90%) to colistin with a change of F6 to L6.Activity: Polymyxin B is anti-film of P. mirabilis (Liu MC et al., 2012).  It also has antifungal activity in vivo (Zhai and Lin 2013).Antimicrobial robustness:  KCl-insensitive:E. coli: 100 mM salt MIC 0.125 ug/ml, no change.Resistance mechanism: Bacteria have responding genes, and when knocked out, can reduce peptide MIC. Knock out lysX gene of C. pseudotuberculosis reduced the MIC substantially to 10 ug/ml (cf. 640 ug/ml with this gene) (Gill et al., 2023).Animal model:mouse: In thigh infection, antibacterial effect was well correlated with fAUC/MIC (R2 = 0.89). 2 log CFU was not achieved for any strain even at the highest MTD. There was no difference (P > 0.05) in antibacterial activity between polymyxin B and colistin with equimolar doses.In vivo PK:mice: t1/2 to be added (Landersdorfer  et al., 2018).AMPs in use: Polymyxin B is administered parenterally in its active form. Overall polymyxin B has superior clinical pharmacological properties compared with colistin or its prodrug (Nation et al. 2014). Updated 4/2018; 3/2020; 9/2023.",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_04413",
+                    "Similarity": 1.0,
+                    "Sequence": "KKTKLTEEEKNRLNFL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04942",
+                    "Similarity": 1.0,
+                    "Sequence": "RKCLQAGMNLEARKTKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05312",
+                    "Similarity": 1.0,
+                    "Sequence": "MEQYGWTLTEVRKQPYVKLLEILNEENKEETEEKTK"
+                }
+            ]
+        }
+    }
+}

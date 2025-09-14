@@ -1,0 +1,67 @@
+{
+    "SPADE_UN_19937": {
+        "Sequence Information": {
+            "Peptide Name": "Cecropin-B [A22,G23,P24Del], Cecropin DH",
+            "Sequence": "KWKIFKKIEKVGRNIRNGIIKAVAVLGEAKAL",
+            "Sequence Length": 32,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anticancer",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P01509",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P01509",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "A novel cecropin B-derived peptide with antibacterial and potential anti-inflammatory properties.\t",
+                    "Pubmed ID": "30065898",
+                    "Reference": "PeerJ. 2018;6:e5369",
+                    "Author": "Wang J, Ma K, Ruan M, Wang Y, Li Y, Fu YV, Song Y, Sun H",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/30065898"
+                }
+            ],
+            "Mass": 3592.37,
+            "PI": 10.73,
+            "Net Charge": 7,
+            "Hydrophobicity": 0.01,
+            "Frequent Amino Acids": "KIA",
+            "Absent Amino Acids": "CDHMOPQSTUY",
+            "Basic Residues": 9,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 15,
+            "Polar Residues": 17,
+            "Positive Residues": 9,
+            "Negative Residues": 2,
+            "SPADE ID": "SPADE_UN_19937",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03068",
+                    "Similarity": 1.0,
+                    "Sequence": "KWKIFKKIEKVGRNIRNGIIKAGPAVAVLGEAKAL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_19937",
+                    "Similarity": 1.0,
+                    "Sequence": "KWKIFKKIEKVGRNIRNGIIKAVAVLGEAKAL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_12985",
+                    "Similarity": 0.9166666666666666,
+                    "Sequence": "RWKIFKKIEKVG"
+                }
+            ],
+            "Hemolytic Activity": "Mouse erythrocytes:2.9% Hemolysis=100 µM,Mouse erythrocytes:7.8% Hemolysis =200 µM",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=3.13µM),Escherichia coli ATCC 25922(MBC=6.25µM),Escherichia coli DH5alpha(MIC=1.56µM),Escherichia coli DH5alpha(MBC=3.13µM),Pseudomonas aeruginosa ATCC 27853(MIC=6.25µM),Pseudomonas aeruginosa ATCC 27853(MBC=12.5µM),Bacillus subtilis ATCC 6633(MIC=3.13µM),Bacillus subtilis ATCC 6633(MBC=3.13µM),Staphylococcus aureus ATCC 25923(MIC=>100µM),Staphylococcus aureus ATCC 25923(MBC=>100µM),Micrococcus luteus NCIMB 8166(MIC=1.56µM),Micrococcus luteus NCIMB 8166(MBC=1.56µM),Escherichia coli ATCC 25922(MIC=1.57µM),Murine macrophage cells RAW 264.7(no activity data),Murine macrophage cells RAW 264.7(IC50=46.34µM)"
+        }
+    }
+}

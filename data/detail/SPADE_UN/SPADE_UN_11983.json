@@ -1,0 +1,83 @@
+{
+    "SPADE_UN_11983": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_11983",
+            "Peptide Name": "PV3 (Derived from pEM-2 and MP-VT1)",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "KKWRKLLKKLKKLL",
+            "Sequence Length": 14,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic form",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.27591703] Gram-positive bacteria :Staphylococcus aureus isolates(MIC=2.0 ± 1.7 mg/L, MBC=2.3 ± 1.5 mg/L), Enterococcus faecalis isolates(MIC=1.2 ± 0.8 mg/L, MBC=1.3 ± 0.6 mg/L);Gram-negative bacteria :Pseudomonas aeruginosa isolates(MIC=1.0 ± 0.0 mg/L, MBC=1.3 ± 0.6 mg/L), Acinetobacter baumannii isolates(MIC=1.0 ± 0.0 mg/L, MBC=1.7 ± 0.6 mg/L)",
+            "Hemolytic Activity": "[Ref.27591703] 0% hemolysis at 64 μg/ml against human red blood cells; 10% hemolysis at 64 μg/ml against sheep red blood cells",
+            "Cytotoxicity": "[Ref.27591703] The cell viability of HEK293 cells induced by PV is 98.8%, 99.2%, 95.4%, 93.8%, 91.9%, 77.3% and 55.4% at peptide concentrations of 1, 2, 4, 8, 16, 32, 64 μg/mL within 24h.",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C89H163N25O15",
+            "Mass": 1823.4,
+            "PI": 11.47,
+            "Net Charge": 8,
+            "Hydrophobicity": -0.98,
+            "Half Life": "Mammalian:1.3 hourYeast:3 minE.coli:2 min",
+            "Function": "Antibacterial activity against Gram-positive bacteria and Gram-negative bacteria",
+            "Literature": [
+                {
+                    "Title": "Design and characterization of short hybrid antimicrobial peptides from pEM-2, mastoparan-VT1, and mastoparan-B.",
+                    "Pubmed ID": "27591703",
+                    "Reference": "Chem Biol Drug Des. 2017 Mar;89(3)327-338. doi 10.1111/cbdd.12864.",
+                    "Author": "Memariani H, Shahbazzadeh D, Ranjbar R, Behdani M, Memariani M, Pooshang Bagheri K",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=27591703"
+                },
+                {
+                    "Title": "Rational Evolution of Antimicrobial Peptides Containing Unnatural Amino Acids to Combat Burn Wound Infections",
+                    "Pubmed ID": "",
+                    "Author": "Xiong M, Chen M, Zhang J"
+                },
+                {
+                    "Title": "Mechanism of action and in vitro activity of short hybrid antimicrobial peptide PV3 against Pseudomonas aeruginosa",
+                    "Pubmed ID": "",
+                    "Author": "Memariani H, Shahbazzadeh D, Sabatier JM, Memariani M, Karbalaeimahdi A, Bagheri KP"
+                }
+            ],
+            "Frequent Amino Acids": "KLR",
+            "Absent Amino Acids": "ACDEFGHIMNOPQSTUVY",
+            "Basic Residues": 8,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 8,
+            "Positive Residues": 8,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02322",
+                    "Similarity": 1.0,
+                    "Sequence": "FISNDECPSEYYYHCRLKCNADEHAIRYCADFSICCKLKIIEIHGQKKW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03174",
+                    "Similarity": 1.0,
+                    "Sequence": "FISNDECPSEYYHCRLKCNADEHAIRYCADFSICCKLKIIEIDGQKKW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14495",
+                    "Similarity": 1.0,
+                    "Sequence": "IILLLLKKFWKKW"
+                }
+            ]
+        }
+    }
+}

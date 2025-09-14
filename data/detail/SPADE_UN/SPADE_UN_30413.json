@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_30413": {
+        "Sequence Information": {
+            "Peptide Name": "Chensinin-1 (5-12) [ G7,11W, L12H ]   ",
+            "Sequence": "RHWRRFWH",
+            "Sequence Length": 8,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "B5A9T1",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/B5A9T1",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Structure-activity analysis and biological studies of chensinin-1b analogues",
+                    "Pubmed ID": "27060618",
+                    "Reference": "Acta Biomater. 2016;37:59-68",
+                    "Author": "Dong W, Dong Z, Mao X, Sun Y, Li F, Shang D",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/27060618"
+                }
+            ],
+            "Mass": 1280.44,
+            "PI": 12.0,
+            "Net Charge": 5,
+            "Hydrophobicity": -2.36,
+            "Frequent Amino Acids": "RHW",
+            "Absent Amino Acids": "ACDEGIKLMNOPQSTUVY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 1,
+            "Polar Residues": 7,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_30413",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_10779",
+                    "Similarity": 1.0,
+                    "Sequence": "SKVWRHWRRFWHRAHRKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11204",
+                    "Similarity": 1.0,
+                    "Sequence": "RHWRRFWHR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11206",
+                    "Similarity": 1.0,
+                    "Sequence": "SKVWRHW"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:-=NA",
+            "Target Organism": "Staphylococcus aureus AS1.72(MIC=>100µM),Bacillus cereus AS1.126(MIC=>100µM),Lactococcus lactis AS1.1690(MIC=>100µM),Enterococcus faecalis CGMCC 1.595(MIC=>100µM),Enterococcus faecium CGMCC 1.2334(MIC=>100µM),Escherichia coli AS1.349(MIC=>100µM),Pseudomonas aeruginosa CGMCC 1.860(MIC=3.13µM)"
+        }
+    }
+}

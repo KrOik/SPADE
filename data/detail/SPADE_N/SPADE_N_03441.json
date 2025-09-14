@@ -1,0 +1,73 @@
+{
+    "SPADE_N_03441": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03441",
+            "Peptide Name": "Myeloid antimicrobial peptide",
+            "Source": "Ovis aries (Sheep)",
+            "Family": "Not found",
+            "Gene": "Map-34",
+            "Sequence": "SYREAVLRAVDQFNERSAEANLYRLLELDPPPEQDAEDRGARKPVSFKVKETVCPRTSQQPVEQCD",
+            "Sequence Length": 66,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P79360"
+            ],
+            "Protein Existence": "Predicted",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C325H519N97O108S2",
+            "Mass": 7577.31,
+            "PI": 4.9,
+            "Net Charge": -3,
+            "Hydrophobicity": -0.98,
+            "Half Life": "Mammalian:1.9 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Molecular analysis of the sheep cathelin family reveals a novel antimicrobial peptide.",
+                    "Pubmed ID": "8549789",
+                    "Reference": "FEBS Lett. 1995 Dec 27;377(3)519-522.",
+                    "Author": "Mahoney MM, Lee AY, Brezinski-Caliguri DJ, Huttner KM.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=8549789"
+                }
+            ],
+            "Frequent Amino Acids": "ERA",
+            "Absent Amino Acids": "HIMOUW",
+            "Basic Residues": 10,
+            "Acidic Residues": 13,
+            "Hydrophobic Residues": 27,
+            "Polar Residues": 39,
+            "Positive Residues": 10,
+            "Negative Residues": 13,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03440",
+                    "Similarity": 0.9696969696969697,
+                    "Sequence": "SYREAVLRAVDQFNERSAEANLYRLLELDPPPEQDAEDQGARKPVSFRVKETVCPRTSQQPVEQCD"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07526",
+                    "Similarity": 0.8615384615384616,
+                    "Sequence": "ALSYREAVLRAVDRINERSSEANLYRLLELDPPPKDVEDRGARKPTSFTVKETVCPRTSPQPPEQCD"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07545",
+                    "Similarity": 0.8461538461538461,
+                    "Sequence": "SLWLLLLGLVLPSASAQALSYREAVLRAVDRINDGSSEANLYRLLELDPPPKDVEDRGARKPASFRVKETVCPRTSQQPLEQCDFKENGLV"
+                }
+            ]
+        }
+    }
+}

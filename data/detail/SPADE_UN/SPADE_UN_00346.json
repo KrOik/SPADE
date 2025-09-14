@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_00346": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_00346",
+            "Peptide Name": "LFM R1 W8 (LFM W8 derivative with residues substitution)",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "RKCLRWQWEMRKVGG",
+            "Sequence Length": 15,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-negative bacterium:Escherichia coli (MIC=37 µM);Gram-positive bacterium:Staphylococcus aureus (MIC=374 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C85H137N29O19S2",
+            "Mass": 1933.31,
+            "PI": 10.92,
+            "Net Charge": 4,
+            "Hydrophobicity": -1.23,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Function": "Has antibacterial activity against the Gram-positive bacterium S. aureus and the Gram-negative bacteria E. coli.",
+            "Literature": [
+                {
+                    "Title": "Increased antibacterial activity of 15-residue murine lactoferricin derivatives.",
+                    "Pubmed ID": "11168896",
+                    "Reference": "J Pept Res. 2001 Feb;57(2)127-139.",
+                    "Author": "StrÃ¸m MB, Rekdal O, Stensen W, Svendsen JS.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=11168896"
+                }
+            ],
+            "Frequent Amino Acids": "RGK",
+            "Absent Amino Acids": "ADFHINOPSTUY",
+            "Basic Residues": 5,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 8,
+            "Positive Residues": 5,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_07567",
+                    "Similarity": 1.0,
+                    "Sequence": "LRWQ"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_07583",
+                    "Similarity": 1.0,
+                    "Sequence": "RWQW"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_00349",
+                    "Similarity": 0.9333333333333333,
+                    "Sequence": "RKCLRWQWAMRKVGG"
+                }
+            ]
+        }
+    }
+}

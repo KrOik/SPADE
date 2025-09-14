@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>测试修复后的可视化</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background: #f0f0f0;
+        }
+        .test-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .test-link {
+            display: block;
+            margin: 10px 0;
+            padding: 15px;
+            background: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            text-align: center;
+            transition: background 0.3s;
+        }
+        .test-link:hover {
+            background: #0056b3;
+        }
+        .status {
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+        .info {
+            background: #d1ecf1;
+            color: #0c5460;
+            border: 1px solid #bee5eb;
+        }
+    </style>
+</head>
+<body>
+    <div class="test-container">
+        <h1>SPADE 可视化修复测试</h1>
+        
+        <div class="status success">
+            ✅ 评分脚本已修复：DRAMP ID 字段现在正确设置为文件名（如 SPADE_N_00005）
+        </div>
+        
+        <div class="status info">
+            📊 已重新处理所有 46,877 个评分文件
+        </div>
+        
+        <h2>测试链接</h2>
+        <p>点击以下链接测试修复后的可视化功能：</p>
+        
+        <a href="amp_visualization.html?id=SPADE_N_00005" class="test-link">
+            测试 SPADE_N_00005 (总分: 8.64 - Excellent)
+        </a>
+        
+        <a href="amp_visualization.html?id=SPADE_N_00002" class="test-link">
+            测试 SPADE_N_00002 (总分: 7.97 - Good)
+        </a>
+        
+        <a href="amp_visualization.html?id=SPADE_N_00001" class="test-link">
+            测试 SPADE_N_00001
+        </a>
+        
+        <a href="amp_visualization.html?id=SPADE_UN_00001" class="test-link">
+            测试 SPADE_UN_00001
+        </a>
+        
+        <h2>修复说明</h2>
+        <div class="status info">
+            <h3>问题原因：</h3>
+            <p>之前的评分脚本在生成评分数据时，将 "DRAMP ID" 字段设置为 null，导致可视化页面无法识别肽的ID，从而一直卡在加载步骤。</p>
+            
+            <h3>修复方案：</h3>
+            <ul>
+                <li>修改 <code>enhanced_scoring.py</code> 中的 <code>score_peptide</code> 方法</li>
+                <li>添加文件ID参数，优先使用DRAMP ID，如果没有则使用文件名</li>
+                <li>更新文件处理逻辑，确保每个评分文件都有正确的ID</li>
+                <li>重新处理所有评分数据，生成正确的评分文件</li>
+            </ul>
+            
+            <h3>验证结果：</h3>
+            <p>现在所有评分文件的 "DRAMP ID" 字段都正确设置为对应的SPADE ID（如 "SPADE_N_00005"），可视化页面应该能够正常加载和显示评分信息。</p>
+        </div>
+    </div>
+</body>
+</html> 

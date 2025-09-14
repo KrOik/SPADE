@@ -1,0 +1,77 @@
+{
+    "SPADE_N_06496": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_06496",
+            "Peptide Name": "Tritrp-P5A-Lys",
+            "Source": "porcine cathelicidin peptide",
+            "Family": "",
+            "Gene": "Not found",
+            "Sequence": "VKKFAWWWPFLKK",
+            "Sequence Length": 13,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Notavailable"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Target Organism": "Tumor cells:Jurkat (IC50=27.6 µM)",
+            "Hemolytic Activity": "RBC:IC50 ≥ 65 µM",
+            "Cytotoxicity": "PBMC:IC50=27.6 µM",
+            "Binding Target": "Not available",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C94H130N20O14",
+            "Mass": 1764.16,
+            "PI": 10.48,
+            "Net Charge": 4,
+            "Hydrophobicity": -0.35,
+            "Half Life": "Mammalian:100 hourYeast:>20 hourE.coli:>10 hour",
+            "Literature": [
+                {
+                    "Title": "Selective anticancer activity of synthetic peptides derived from the host defence peptide tritrpticin",
+                    "Pubmed ID": "32126228",
+                    "Reference": "Biochim Biophys Acta Biomembr. 2020 Aug 1;1862(8)183228.",
+                    "Author": "Arias M, Haney EF, Hilchie AL, Corcoran JA, Hyndman ME, Hancock REW, Vogel HJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=32126228"
+                },
+                {
+                    "Title": "Improving the Activity of Trp-Rich Antimicrobial Peptides by Arg/Lys Substitutions and Changing the Length of Cationic Residues",
+                    "Pubmed ID": "",
+                    "Author": "Arias M, Piga KB, Hyndman ME, Vogel HJ"
+                }
+            ],
+            "Frequent Amino Acids": "KWF",
+            "Absent Amino Acids": "CDEGHIMNOQRSTUY",
+            "Basic Residues": 4,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 6,
+            "Positive Residues": 4,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_15564",
+                    "Similarity": 1.0,
+                    "Sequence": "MTKDIVETVGGLVKWILDTVKKFA"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_05479",
+                    "Similarity": 1.0,
+                    "Sequence": "TVVKKRVKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_05909",
+                    "Similarity": 1.0,
+                    "Sequence": "IFWRRIVIVKKF"
+                }
+            ]
+        }
+    }
+}

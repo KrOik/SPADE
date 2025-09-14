@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>语言选择器测试</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Translation Component -->
+    <link rel="stylesheet" href="css/translation-component.css">
+    <script src="js/translation-component.js"></script>
+    
+    <style>
+        body {
+            background: linear-gradient(135deg, #2b1055 0%, #1a0d3a 50%, #0a0a0a 100%);
+            color: white;
+            font-family: 'Inter', sans-serif;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        .test-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .test-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 2rem;
+            text-align: center;
+            background: linear-gradient(135deg, #ffffff 0%, #7597de 50%, #50e2c2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .test-section {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .test-section h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: #50e2c2;
+        }
+        
+        .test-text {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 1rem;
+        }
+        
+        .feature-list {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .feature-list li {
+            padding: 0.5rem 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .feature-list li:last-child {
+            border-bottom: none;
+        }
+        
+        .feature-list li::before {
+            content: '✓';
+            color: #50e2c2;
+            font-weight: bold;
+            margin-right: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- 语言选择器 -->
+    <div class="language-selector" id="languageSelector">
+        <div class="language-current">
+            <i class="fas fa-globe"></i>
+        </div>
+    </div>
+    
+    <div class="test-content">
+        <h1 class="test-title" data-translate="test_title">语言选择器测试页面</h1>
+        
+        <div class="test-section">
+            <h3 data-translate="features_title">新功能特性</h3>
+            <ul class="feature-list">
+                <li data-translate="feature_1">更流畅的拖拽体验，支持触摸设备</li>
+                <li data-translate="feature_2">智能边缘检测，靠近边缘时自动收缩</li>
+                <li data-translate="feature_3">美观的动画效果和视觉反馈</li>
+                <li data-translate="feature_4">位置记忆功能，刷新页面后保持位置</li>
+                <li data-translate="feature_5">响应式设计，适配不同屏幕尺寸</li>
+                <li data-translate="feature_6">无障碍支持，兼容屏幕阅读器</li>
+            </ul>
+        </div>
+        
+        <div class="test-section">
+            <h3 data-translate="usage_title">使用说明</h3>
+            <div class="test-text" data-translate="usage_text">
+                点击语言选择器可以打开语言菜单，选择不同的语言来测试翻译功能。
+                拖拽语言选择器可以将其移动到屏幕上的任意位置。
+                当选择器靠近屏幕边缘时，会自动收缩以节省空间。
+            </div>
+        </div>
+        
+        <div class="test-section">
+            <h3 data-translate="supported_languages">支持的语言</h3>
+            <div class="test-text" data-translate="languages_text">
+                目前支持英语、中文、西班牙语、德语和日语。
+                更多语言支持正在开发中。
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // 创建测试用的翻译数据
+        const testTranslations = {
+            'en': {
+                'test_title': 'Language Selector Test Page',
+                'features_title': 'New Features',
+                'feature_1': 'Smoother drag experience with touch device support',
+                'feature_2': 'Smart edge detection with automatic collapse',
+                'feature_3': 'Beautiful animations and visual feedback',
+                'feature_4': 'Position memory, maintains position after page refresh',
+                'feature_5': 'Responsive design for different screen sizes',
+                'feature_6': 'Accessibility support, compatible with screen readers',
+                'usage_title': 'Usage Instructions',
+                'usage_text': 'Click the language selector to open the language menu and select different languages to test the translation function. Drag the language selector to move it to any position on the screen. When the selector is near the screen edge, it will automatically collapse to save space.',
+                'supported_languages': 'Supported Languages',
+                'languages_text': 'Currently supports English, Chinese, Spanish, German and Japanese. More language support is under development.'
+            },
+            'zh-Hans': {
+                'test_title': '语言选择器测试页面',
+                'features_title': '新功能特性',
+                'feature_1': '更流畅的拖拽体验，支持触摸设备',
+                'feature_2': '智能边缘检测，靠近边缘时自动收缩',
+                'feature_3': '美观的动画效果和视觉反馈',
+                'feature_4': '位置记忆功能，刷新页面后保持位置',
+                'feature_5': '响应式设计，适配不同屏幕尺寸',
+                'feature_6': '无障碍支持，兼容屏幕阅读器',
+                'usage_title': '使用说明',
+                'usage_text': '点击语言选择器可以打开语言菜单，选择不同的语言来测试翻译功能。拖拽语言选择器可以将其移动到屏幕上的任意位置。当选择器靠近屏幕边缘时，会自动收缩以节省空间。',
+                'supported_languages': '支持的语言',
+                'languages_text': '目前支持英语、中文、西班牙语、德语和日语。更多语言支持正在开发中。'
+            },
+            'es': {
+                'test_title': 'Página de Prueba del Selector de Idioma',
+                'features_title': 'Nuevas Características',
+                'feature_1': 'Experiencia de arrastre más suave con soporte para dispositivos táctiles',
+                'feature_2': 'Detección inteligente de bordes con colapso automático',
+                'feature_3': 'Hermosas animaciones y retroalimentación visual',
+                'feature_4': 'Memoria de posición, mantiene la posición después de refrescar la página',
+                'feature_5': 'Diseño responsivo para diferentes tamaños de pantalla',
+                'feature_6': 'Soporte de accesibilidad, compatible con lectores de pantalla',
+                'usage_title': 'Instrucciones de Uso',
+                'usage_text': 'Haz clic en el selector de idioma para abrir el menú de idiomas y seleccionar diferentes idiomas para probar la función de traducción. Arrastra el selector de idioma para moverlo a cualquier posición en la pantalla. Cuando el selector está cerca del borde de la pantalla, se colapsará automáticamente para ahorrar espacio.',
+                'supported_languages': 'Idiomas Soportados',
+                'languages_text': 'Actualmente soporta inglés, chino, español, alemán y japonés. Más soporte de idiomas está en desarrollo.'
+            },
+            'de': {
+                'test_title': 'Sprachauswahl-Testseite',
+                'features_title': 'Neue Funktionen',
+                'feature_1': 'Flüssigere Drag-Erfahrung mit Touch-Geräte-Unterstützung',
+                'feature_2': 'Intelligente Randerkennung mit automatischem Zusammenklappen',
+                'feature_3': 'Schöne Animationen und visuelles Feedback',
+                'feature_4': 'Positionsgedächtnis, behält Position nach Seitenaktualisierung',
+                'feature_5': 'Responsives Design für verschiedene Bildschirmgrößen',
+                'feature_6': 'Barrierefreiheit-Unterstützung, kompatibel mit Bildschirmlesern',
+                'usage_title': 'Verwendungsanweisungen',
+                'usage_text': 'Klicken Sie auf die Sprachauswahl, um das Sprachmenü zu öffnen und verschiedene Sprachen auszuwählen, um die Übersetzungsfunktion zu testen. Ziehen Sie die Sprachauswahl, um sie an eine beliebige Position auf dem Bildschirm zu verschieben. Wenn der Selektor in der Nähe des Bildschirmrands ist, klappt er automatisch zusammen, um Platz zu sparen.',
+                'supported_languages': 'Unterstützte Sprachen',
+                'languages_text': 'Unterstützt derzeit Englisch, Chinesisch, Spanisch, Deutsch und Japanisch. Mehr Sprachunterstützung ist in der Entwicklung.'
+            },
+            'ja': {
+                'test_title': '言語選択器テストページ',
+                'features_title': '新機能',
+                'feature_1': 'タッチデバイス対応のより滑らかなドラッグ体験',
+                'feature_2': '自動折りたたみ機能付きスマートエッジ検出',
+                'feature_3': '美しいアニメーションと視覚的フィードバック',
+                'feature_4': '位置記憶機能、ページ更新後も位置を保持',
+                'feature_5': '異なる画面サイズに対応したレスポンシブデザイン',
+                'feature_6': 'アクセシビリティサポート、スクリーンリーダー対応',
+                'usage_title': '使用方法',
+                'usage_text': '言語選択器をクリックして言語メニューを開き、異なる言語を選択して翻訳機能をテストします。言語選択器をドラッグして、画面上の任意の位置に移動できます。セレクターが画面の端に近い場合、スペースを節約するために自動的に折りたたまれます。',
+                'supported_languages': '対応言語',
+                'languages_text': '現在、英語、中国語、スペイン語、ドイツ語、日本語をサポートしています。より多くの言語サポートが開発中です。'
+            }
+        };
+        
+        // 重写翻译加载函数以使用测试数据
+        window.SPADE_TRANSLATION_UTILS.loadTranslations = async function() {
+            this.translations = testTranslations;
+        };
+        
+        // 页面加载完成后初始化
+        document.addEventListener('DOMContentLoaded', () => {
+            window.SPADE_TRANSLATION_UTILS.initialize();
+        });
+    </script>
+</body>
+</html> 

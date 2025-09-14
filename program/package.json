@@ -1,0 +1,40 @@
+{
+  "name": "spade-serverless-functions",
+  "version": "1.0.0",
+  "description": "SPADE项目的无服务器抗菌肽数据处理功能",
+  "main": "functions/peptide-processor.js",
+  "scripts": {
+    "test": "node test/test-local.js",
+    "dev": "netlify dev",
+    "build": "echo 'Building for production'",
+    "deploy": "netlify deploy --prod"
+  },
+  "keywords": [
+    "peptide",
+    "antimicrobial",
+    "serverless",
+    "netlify",
+    "functions",
+    "spade"
+  ],
+  "author": "SPADE iGEM Team",
+  "license": "MIT",
+  "dependencies": {
+    "child_process": "^1.0.2"
+  },
+  "devDependencies": {
+    "netlify-cli": "^17.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "python": ">=3.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-team/spade"
+  },
+  "netlify": {
+    "functions": "functions",
+    "publish": "."
+  }
+} 

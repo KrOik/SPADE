@@ -1,0 +1,759 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPADE Platform Documentation</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.8/dist/chart.umd.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#165DFF',
+                        secondary: '#36CFC9',
+                        accent: '#722ED1',
+                        dark: '#1D2129',
+                        light: '#F2F3F5',
+                        'gray-medium': '#86909C',
+                        'spade-purple': '#250b53',   // 页脚背景色
+                        'spade-accent': '#9db4f0'    // 页脚标题色
+                    },
+                    fontFamily: {
+                        inter: ['Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .content-auto { content-visibility: auto; }
+            .text-balance { text-wrap: balance; }
+            .scrollbar-hide::-webkit-scrollbar { display: none; }
+            .scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+            .bg-gradient-spade { background: linear-gradient(135deg, #165DFF 0%, #722ED1 100%); }
+        }
+    </style>
+</head>
+
+<body class="font-inter bg-gray-50 text-dark antialiased">
+    <!-- 阅读进度条 -->
+    <div class="reading-progress-bar fixed top-0 left-0 h-1 bg-primary z-50 transition-all duration-200 ease-out" id="readingProgress"></div>
+
+    <!-- 头部导航栏 -->
+    <header class="bg-white shadow-sm sticky top-0 z-40 transition-all duration-300" id="mainHeader">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- 品牌链接 -->
+                <div>
+                    <a href="#" class="text-xl font-semibold text-primary">SPADE Docs</a>
+                </div>
+                
+                <!-- 桌面导航 -->
+                <nav class="hidden md:flex space-x-8">
+                    <a href="#introduction" class="text-gray-600 hover:text-primary px-3 py-2 text-sm font-medium transition-colors">Introduction</a>
+                    <a href="#features" class="text-gray-600 hover:text-primary px-3 py-2 text-sm font-medium transition-colors">Features</a>
+                    <a href="#operations" class="text-gray-600 hover:text-primary px-3 py-2 text-sm font-medium transition-colors">How to Use</a>
+                    <a href="home.html" class="text-gray-600 hover:text-primary px-3 py-2 text-sm font-medium transition-colors">Back to Home</a>
+                </nav>
+                
+                <!-- 移动端菜单按钮 -->
+                <div class="md:hidden">
+                    <button type="button" class="text-gray-500 hover:text-primary focus:outline-none" id="mobileMenuButton">
+                        <i class="fa fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 移动端导航（隐藏） -->
+        <div class="md:hidden hidden bg-white border-t" id="mobileMenu">
+            <div class="container mx-auto px-4 py-3 space-y-1">
+                <a href="#introduction" class="block px-3 py-2 text-base font-medium text-gray-600 hover:text-primary hover:bg-gray-50 rounded-md">Introduction</a>
+                <a href="#features" class="block px-3 py-2 text-base font-medium text-gray-600 hover:text-primary hover:bg-gray-50 rounded-md">Features</a>
+                <a href="#operations" class="block px-3 py-2 text-base font-medium text-gray-600 hover:text-primary hover:bg-gray-50 rounded-md">How to Use</a>
+                <a href="home.html" class="block px-3 py-2 text-base font-medium text-gray-600 hover:text-primary hover:bg-gray-50 rounded-md">Back to Home</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- 主内容区 -->
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div class="flex flex-col lg:flex-row gap-8">
+            <!-- 侧边栏导航 -->
+            <aside class="lg:w-1/4 xl:w-1/5">
+                <div class="sticky top-24 bg-white rounded-xl shadow-sm p-5 border border-gray-100">
+                    <h3 class="text-lg font-semibold text-dark mb-4 flex items-center">
+                        <i class="fa fa-list-ul text-primary mr-2"></i> On this page
+                    </h3>
+                    <nav class="space-y-1">
+                        <a href="#introduction" class="sidebar-link block px-3 py-2 rounded-md text-sm font-medium transition-all hover:bg-primary/5 hover:text-primary">Introduction</a>
+                        <a href="#features" class="sidebar-link block px-3 py-2 rounded-md text-sm font-medium transition-all hover:bg-primary/5 hover:text-primary">Key Features</a>
+                        <a href="#operations" class="sidebar-link block px-3 py-2 rounded-md text-sm font-medium transition-all hover:bg-primary/5 hover:text-primary">Operating Procedures</a>
+                        <a href="#resources" class="sidebar-link block px-3 py-2 rounded-md text-sm font-medium transition-all hover:bg-primary/5 hover:text-primary">Resources</a>
+                        <a href="#faq" class="sidebar-link block px-3 py-2 rounded-md text-sm font-medium transition-all hover:bg-primary/5 hover:text-primary">FAQ</a>
+                        <a href="#contact" class="sidebar-link block px-3 py-2 rounded-md text-sm font-medium transition-all hover:bg-primary/5 hover:text-primary">Contact</a>
+                    </nav>
+                    
+                    <div class="mt-8 pt-6 border-t border-gray-100">
+                        <h4 class="text-sm font-medium text-gray-500 mb-3">Resources</h4>
+                        <ul class="space-y-2">
+                            <li>
+                                <a href="#user-manual" class="flex items-center text-sm text-gray-600 hover:text-primary transition-colors">
+                                    <i class="fa fa-file-pdf-o mr-2"></i> User Manual
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#api-reference" class="flex items-center text-sm text-gray-600 hover:text-primary transition-colors">
+                                    <i class="fa fa-book mr-2"></i> API Reference
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#tutorials" class="flex items-center text-sm text-gray-600 hover:text-primary transition-colors">
+                                    <i class="fa fa-graduation-cap mr-2"></i> Tutorials
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </aside>
+            <!-- 主要内容 -->
+            <main class="lg:w-3/4 xl:w-4/5">
+                <div class="bg-white rounded-xl shadow-sm p-6 md:p-8 border border-gray-100">
+                    <!-- 页面标题 -->
+                    <div class="mb-10 pb-6 border-b border-gray-100">
+                        <h1 class="text-3xl md:text-4xl font-bold text-dark mb-3">SPADE Platform Documentation</h1>
+                        <p class="text-gray-500 max-w-3xl">Comprehensive guide to the Synthetic Biology and AI-driven Discovery Engine for Antimicrobial Peptides</p>
+                    </div>
+
+                    <!-- 领域卡片区域 -->
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 my-6">
+                        <div class="bg-white rounded-lg p-4 border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
+                            <div class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center mb-3">
+                                <i class="fa fa-cogs text-primary"></i>
+                            </div>
+                            <h3 class="font-medium mb-2">Synthetic Biology</h3>
+                            <p class="text-sm text-gray-600">Engineering biological systems with novel functions for useful purposes</p>
+                        </div>
+                        <div class="bg-white rounded-lg p-4 border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
+                            <div class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center mb-3">
+                                <i class="fa fa-random text-primary"></i>
+                            </div>
+                            <h3 class="font-medium mb-2">Artificial Intelligence</h3>
+                            <p class="text-sm text-gray-600">Machine learning models trained on biological sequence data</p>
+                        </div>
+                        <div class="bg-white rounded-lg p-4 border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
+                            <div class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center mb-3">
+                                <i class="fa fa-flask text-primary"></i>
+                            </div>
+                            <h3 class="font-medium mb-2">Antimicrobial Peptides</h3>
+                            <p class="text-sm text-gray-600">Novel therapeutic agents to combat antibiotic resistance</p>
+                        </div>
+                    </div>
+
+                    <!-- 特性部分 -->
+                    <section id="features" class="mb-12 scroll-mt-24">
+                        <div class="flex items-center mb-5">
+                            <div class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center mr-3">
+                                <i class="fa fa-cogs text-primary"></i>
+                            </div>
+                            <h2 class="text-2xl font-bold text-dark">Key Features</h2>
+                        </div>
+                        
+                        <p class="text-gray-700 mb-6">An explanation of the core functionalities of the SPADE platform:</p>
+                        
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                            <!-- 特性卡片1 -->
+                            <div class="bg-white rounded-xl p-6 border border-gray-100 shadow-sm hover:shadow-md transition-all duration-300 hover:translate-y-[-2px]">
+                                <div class="flex items-center mb-4">
+                                    <div class="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mr-4">
+                                        <i class="fa fa-random text-primary text-xl"></i>
+                                    </div>
+                                    <h3 class="text-lg font-semibold">AMP Sequence Generation</h3>
+                                </div>
+                                <p class="text-gray-600 text-sm">Generate new potential antimicrobial peptide sequences based on advanced AI models trained on extensive biological datasets.</p>
+                            </div>
+                            
+                            <!-- 特性卡片2 -->
+                            <div class="bg-white rounded-xl p-6 border border-gray-100 shadow-sm hover:shadow-md transition-all duration-300 hover:translate-y-[-2px]">
+                                <div class="flex items-center mb-4">
+                                    <div class="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mr-4">
+                                        <i class="fa fa-line-chart text-primary text-xl"></i>
+                                    </div>
+                                    <h3 class="text-lg font-semibold">Activity Prediction</h3>
+                                </div>
+                                <p class="text-gray-600 text-sm">Evaluate the antimicrobial activity of input sequences against specific pathogens with high predictive accuracy.</p>
+                            </div>
+                            
+                            <!-- 特性卡片3 -->
+                            <div class="bg-white rounded-xl p-6 border border-gray-100 shadow-sm hover:shadow-md transition-all duration-300 hover:translate-y-[-2px]">
+                                <div class="flex items-center mb-4">
+                                    <div class="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mr-4">
+                                        <i class="fa fa-warning text-primary text-xl"></i>
+                                    </div>
+                                    <h3 class="text-lg font-semibold">Toxicity Assessment</h3>
+                                </div>
+                                <p class="text-gray-600 text-sm">Predict the potential toxicity of peptide sequences to host cells, helping identify safe therapeutic candidates.</p>
+                            </div>
+                            
+                            <!-- 特性卡片4 -->
+                            <div class="bg-white rounded-xl p-6 border border-gray-100 shadow-sm hover:shadow-md transition-all duration-300 hover:translate-y-[-2px]">
+                                <div class="flex items-center mb-4">
+                                    <div class="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mr-4">
+                                        <i class="fa fa-flask text-primary text-xl"></i>
+                                    </div>
+                                    <h3 class="text-lg font-semibold">Physicochemical Analysis</h3>
+                                </div>
+                                <p class="text-gray-600 text-sm">Calculate key parameters such as molecular weight, isoelectric point, and hydrophobicity for peptide sequences.</p>
+                            </div>
+                            
+                            <!-- 特性卡片5 -->
+                            <div class="bg-white rounded-xl p-6 border border-gray-100 shadow-sm hover:shadow-md transition-all duration-300 hover:translate-y-[-2px] md:col-span-2">
+                                <div class="flex items-center mb-4">
+                                    <div class="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mr-4">
+                                        <i class="fa fa-database text-primary text-xl"></i>
+                                    </div>
+                                    <h3 class="text-lg font-semibold">Database Integration</h3>
+                                </div>
+                                <p class="text-gray-600 text-sm">Provide access to and comparison with existing AMP databases, allowing researchers to contextualize their findings within current scientific literature and known sequences.</p>
+                            </div>
+                        </div>
+                        
+                        <!-- 工作流图表 -->
+                        <div class="bg-gray-50 rounded-xl p-5 border border-gray-100 mt-8">
+                            <h4 class="font-medium mb-4 text-dark">Platform Workflow Overview</h4>
+                            <div class="h-64">
+                                <canvas id="workflowChart"></canvas>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- 操作步骤部分 -->
+                    <section id="operations" class="mb-12 scroll-mt-24">
+                        <div class="flex items-center mb-5">
+                            <div class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center mr-3">
+                                <i class="fa fa-list-ol text-primary"></i>
+                            </div>
+                            <h2 class="text-2xl font-bold text-dark">Operating Procedures</h2>
+                        </div>
+                        
+                        <p class="text-gray-700 mb-6">How to use the SPADE platform effectively:</p>
+                        
+                        <div class="relative">
+                            <!-- 步骤指示线 -->
+                            <div class="absolute left-4 top-0 bottom-0 w-0.5 bg-gray-200"></div>
+                            
+                            <!-- 步骤1 -->
+                            <div class="relative pl-12 pb-8">
+                                <div class="absolute left-0 top-1 w-8 h-8 rounded-full bg-primary flex items-center justify-center text-white font-medium">1</div>
+                                <h3 class="text-lg font-semibold mb-2">Registration &amp; Login</h3>
+                                <p class="text-gray-600">Access the platform and create an account or log in to your existing account. New users receive a 14-day trial of premium features.</p>
+                            </div>
+                            
+                            <!-- 步骤2 -->
+                            <div class="relative pl-12 pb-8">
+                                <div class="absolute left-0 top-1 w-8 h-8 rounded-full bg-primary flex items-center justify-center text-white font-medium">2</div>
+                                <h3 class="text-lg font-semibold mb-2">Function Selection</h3>
+                                <p class="text-gray-600">Choose your desired function from the main navigation or dashboard, such as "Sequence Generation" or "Activity Prediction."</p>
+                            </div>
+                            
+                            <!-- 步骤3 -->
+                            <div class="relative pl-12 pb-8">
+                                <div class="absolute left-0 top-1 w-8 h-8 rounded-full bg-primary flex items-center justify-center text-white font-medium">3</div>
+                                <h3 class="text-lg font-semibold mb-2">Parameter Input</h3>
+                                <p class="text-gray-600">Depending on the selected function, input necessary parameters like target bacterial species, sequence length constraints, and activity thresholds.</p>
+                                
+                                <div class="mt-3 bg-gray-50 rounded-lg p-4 border border-gray-100 text-sm">
+                                    <p class="text-gray-500"><i class="fa fa-info-circle text-primary mr-1"></i> <strong>Tip:</strong> For optimal results in sequence generation, specify both minimum activity thresholds and toxicity limits.</p>
+                                </div>
+                            </div>
+                            
+                            <!-- 步骤4 -->
+                            <div class="relative pl-12 pb-8">
+                                <div class="absolute left-0 top-1 w-8 h-8 rounded-full bg-primary flex items-center justify-center text-white font-medium">4</div>
+                                <h3 class="text-lg font-semibold mb-2">Execute Analysis</h3>
+                                <p class="text-gray-600">Submit the task and wait for the platform's AI model to process. Complex analyses may take several minutes to complete.</p>
+                                <div class="mt-3">
+                                    <div class="w-full bg-gray-200 rounded-full h-2.5">
+                                        <div class="bg-primary h-2.5 rounded-full progress-bar-animation" data-progress="0" id="progressBar"></div>
+                                    </div>
+                                    <div class="mt-2 text-sm text-gray-500 flex justify-between">
+                                        <span>Processing...</span>
+                                        <span id="progressPercentage">0%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- 步骤5 -->
+                            <div class="relative pl-12">
+                                <div class="absolute left-0 top-1 w-8 h-8 rounded-full bg-primary flex items-center justify-center text-white font-medium">5</div>
+                                <h3 class="text-lg font-semibold mb-2">View &amp; Download Results</h3>
+                                <p class="text-gray-600">Once the analysis is complete, view the detailed report on the results page and download relevant data in multiple formats (CSV, FASTA, PDF).</p>
+                                
+                                <div class="mt-4 flex space-x-3">
+                                    <button class="inline-flex items-center px-3 py-1.5 border border-gray-300 shadow-sm text-sm leading-4 font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 focus:ring-primary transition-colors">
+                                        <i class="fa fa-download mr-1.5"></i> Download CSV
+                                    </button>
+                                    <button class="inline-flex items-center px-3 py-1.5 border border-gray-300 shadow-sm text-sm leading-4 font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 focus:ring-primary transition-colors">
+                                        <i class="fa fa-file-pdf-o mr-1.5"></i> Generate Report
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-amber-50 border-l-4 border-amber-400 p-4 mt-6 rounded-r">
+                            <div class="flex">
+                                <div class="flex-shrink-0">
+                                    <i class="fa fa-exclamation-triangle text-amber-400"></i>
+                                </div>
+                                <div class="ml-3">
+                                    <p class="text-sm text-amber-700">
+                                        <em>Note: This is a general operational flow. Specific steps may vary by function. Please refer to the help documentation for each functional module for details.</em>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- 资源部分 -->
+                    <section id="resources" class="mb-12 scroll-mt-24">
+                        <div class="flex items-center mb-5">
+                            <div class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center mr-3">
+                                <i class="fa fa-book text-primary"></i>
+                            </div>
+                            <h2 class="text-2xl font-bold text-dark">Resources</h2>
+                        </div>
+                        
+                        <p class="text-gray-700 mb-6">Comprehensive materials to help you utilize the SPADE platform effectively:</p>
+                        
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                            <!-- 用户手册 -->
+                            <div class="bg-white rounded-xl p-6 border border-gray-100 shadow-sm hover:shadow-md transition-all duration-300 hover:translate-y-[-2px]" id="user-manual">
+                                <div class="flex items-center mb-4">
+                                    <div class="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mr-4">
+                                        <i class="fa fa-file-pdf-o text-primary text-xl"></i>
+                                    </div>
+                                    <h3 class="text-lg font-semibold">User Manual</h3>
+                                </div>
+                                <p class="text-gray-600 text-sm mb-4">A complete guide to all features and functions of the SPADE platform, including detailed instructions and best practices.</p>
+                                <a href="#" class="inline-flex items-center text-primary text-sm font-medium hover:text-primary/80">
+                                    Download <i class="fa fa-download ml-1"></i>
+                                </a>
+                            </div>
+                            
+                            <!-- API参考 -->
+                            <div class="bg-white rounded-xl p-6 border border-gray-100 shadow-sm hover:shadow-md transition-all duration-300 hover:translate-y-[-2px]" id="api-reference">
+                                <div class="flex items-center mb-4">
+                                    <div class="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mr-4">
+                                        <i class="fa fa-book text-primary text-xl"></i>
+                                    </div>
+                                    <h3 class="text-lg font-semibold">API Reference</h3>
+                                </div>
+                                <p class="text-gray-600 text-sm mb-4">Documentation for the SPADE API, including endpoints, request/response formats, authentication, and usage examples.</p>
+                                <a href="#" class="inline-flex items-center text-primary text-sm font-medium hover:text-primary/80">
+                                    View Online <i class="fa fa-external-link ml-1"></i>
+                                </a>
+                            </div>
+                            
+                            <!-- 教程 -->
+                            <div class="bg-white rounded-xl p-6 border border-gray-100 shadow-sm hover:shadow-md transition-all duration-300 hover:translate-y-[-2px]" id="tutorials">
+                                <div class="flex items-center mb-4">
+                                    <div class="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mr-4">
+                                        <i class="fa fa-graduation-cap text-primary text-xl"></i>
+                                    </div>
+                                    <h3 class="text-lg font-semibold">Tutorials</h3>
+                                </div>
+                                <p class="text-gray-600 text-sm mb-4">Step-by-step guides and video tutorials to help you get started with the SPADE platform and its various features.</p>
+                                <a href="#" class="inline-flex items-center text-primary text-sm font-medium hover:text-primary/80">
+                                    Browse Tutorials <i class="fa fa-arrow-right ml-1"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- FAQ部分 -->
+                    <section id="faq" class="mb-12 scroll-mt-24">
+                        <div class="flex items-center mb-5">
+                            <div class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center mr-3">
+                                <i class="fa fa-question-circle text-primary"></i>
+                            </div>
+                            <h2 class="text-2xl font-bold text-dark">Frequently Asked Questions</h2>
+                        </div>
+                        
+                        <p class="text-gray-700 mb-6">Answers to common questions about the SPADE platform:</p>
+                        
+                        <div class="space-y-4">
+                            <!-- FAQ项目1 -->
+                            <div class="border border-gray-200 rounded-lg overflow-hidden">
+                                <button class="faq-toggle w-full flex justify-between items-center p-4 text-left bg-white hover:bg-gray-50 transition-colors" data-target="faq1">
+                                    <span class="font-medium">What types of antimicrobial peptides does SPADE support?</span>
+                                    <i class="fa fa-chevron-down text-gray-400 transition-transform duration-200"></i>
+                                </button>
+                                <div class="faq-content hidden px-4 pb-4 bg-white" id="faq1">
+                                    <p class="text-gray-600">SPADE is primarily optimized for linear cationic antimicrobial peptides but is continuously expanding its scope. Our current models perform best with sequences between 10-50 amino acids in length. We are actively developing support for cyclic peptides and peptide conjugates.</p>
+                                </div>
+                            </div>
+                            
+                            <!-- FAQ项目2 -->
+                            <div class="border border-gray-200 rounded-lg overflow-hidden">
+                                <button class="faq-toggle w-full flex justify-between items-center p-4 text-left bg-white hover:bg-gray-50 transition-colors" data-target="faq2">
+                                    <span class="font-medium">How accurate are the prediction results?</span>
+                                    <i class="fa fa-chevron-down text-gray-400 transition-transform duration-200"></i>
+                                </button>
+                                <div class="faq-content hidden px-4 pb-4 bg-white" id="faq2">
+                                    <p class="text-gray-600">Our models are trained on extensive experimental data and exhibit high prediction accuracy. For activity prediction, our current models achieve approximately 85-90% accuracy on validation datasets. However, all predicted results are recommended for experimental validation, as in silico predictions cannot fully capture the complexity of biological systems.</p>
+                                </div>
+                            </div>
+                            
+                            <!-- FAQ项目3 -->
+                            <div class="border border-gray-200 rounded-lg overflow-hidden">
+                                <button class="faq-toggle w-full flex justify-between items-center p-4 text-left bg-white hover:bg-gray-50 transition-colors" data-target="faq3">
+                                    <span class="font-medium">Is programming knowledge required to use SPADE?</span>
+                                    <i class="fa fa-chevron-down text-gray-400 transition-transform duration-200"></i>
+                                </button>
+                                <div class="faq-content hidden px-4 pb-4 bg-white" id="faq3">
+                                    <p class="text-gray-600">No. SPADE offers a user-friendly graphical interface, operable without a programming background. For advanced users, we also provide an API that allows programmatic access to our services for integration into custom workflows.</p>
+                                </div>
+                            </div>
+                            
+                            <!-- FAQ项目4 -->
+                            <div class="border border-gray-200 rounded-lg overflow-hidden">
+                                <button class="faq-toggle w-full flex justify-between items-center p-4 text-left bg-white hover:bg-gray-50 transition-colors" data-target="faq4">
+                                    <span class="font-medium">How is my data protected on the platform?</span>
+                                    <i class="fa fa-chevron-down text-gray-400 transition-transform duration-200"></i>
+                                </button>
+                                <div class="faq-content hidden px-4 pb-4 bg-white" id="faq4">
+                                    <p class="text-gray-600">SPADE implements robust security measures to protect user data. All sequences and results are encrypted both in transit and at rest. Users retain full ownership of their data, and we do not share or use your data for model training without explicit permission. Our privacy policy complies with GDPR and other major data protection regulations.</p>
+                                </div>
+                            </div>
+                            
+                            <!-- FAQ项目5 -->
+                            <div class="border border-gray-200 rounded-lg overflow-hidden">
+                                <button class="faq-toggle w-full flex justify-between items-center p-4 text-left bg-white hover:bg-gray-50 transition-colors" data-target="faq5">
+                                    <span class="font-medium">Can SPADE be used for non-academic research?</span>
+                                    <i class="fa fa-chevron-down text-gray-400 transition-transform duration-200"></i>
+                                </button>
+                                <div class="faq-content hidden px-4 pb-4 bg-white" id="faq5">
+                                    <p class="text-gray-600">Yes, SPADE offers different licensing options for academic, non-profit, and commercial users. Commercial entities can contact our sales team to discuss enterprise licensing that includes additional support, API access, and customization options tailored to specific research needs.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- 联系部分 -->
+                    <section id="contact" class="mb-12 scroll-mt-24">
+                        <div class="flex items-center mb-5">
+                            <div class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center mr-3">
+                                <i class="fa fa-envelope text-primary"></i>
+                            </div>
+                            <h2 class="text-2xl font-bold text-dark">Contact Us</h2>
+                        </div>
+                        
+                        <p class="text-gray-700 mb-6">Have questions or need support? Reach out to our team:</p>
+                        
+                        <div class="bg-white rounded-xl p-6 border border-gray-100 shadow-sm">
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                <div>
+                                    <h3 class="text-lg font-semibold mb-4">General Inquiries</h3>
+                                    <p class="text-gray-600 mb-4">For general questions about the SPADE platform or licensing information.</p>
+                                    <ul class="space-y-2">
+                                        <li class="flex items-start">
+                                            <i class="fa fa-envelope-o text-primary mt-1 mr-3"></i>
+                                            <span>Email: <a href="mailto:info@spade-platform.com" class="text-primary hover:underline">info@spade-platform.com</a></span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <i class="fa fa-phone text-primary mt-1 mr-3"></i>
+                                            <span>Phone: +1 (555) 123-4567</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                
+                                <div>
+                                    <h3 class="text-lg font-semibold mb-4">Technical Support</h3>
+                                    <p class="text-gray-600 mb-4">For assistance with platform functionality, API integration, or troubleshooting.</p>
+                                    <ul class="space-y-2">
+                                        <li class="flex items-start">
+                                            <i class="fa fa-envelope-o text-primary mt-1 mr-3"></i>
+                                            <span>Email: <a href="mailto:support@spade-platform.com" class="text-primary hover:underline">support@spade-platform.com</a></span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <i class="fa fa-clock-o text-primary mt-1 mr-3"></i>
+                                            <span>Hours: Monday-Friday, 9AM-5PM EST</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <!-- 页脚 -->
+    <footer class="bg-spade-purple text-white pt-12 pb-6">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- About部分 -->
+                <div>
+                    <h4 class="text-spade-accent text-lg font-semibold mb-4" id="about-footer">About</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#about-spade" class="text-white hover:text-spade-accent transition-colors">About SPADE</a></li>
+                        <li><a href="#advertising-policy" class="text-white hover:text-spade-accent transition-colors">Advertising policy</a></li>
+                        <li><a href="#attribution-citations" class="text-white hover:text-spade-accent transition-colors">Attribution &amp; citations</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Terms & Privacy部分 -->
+                <div>
+                    <h4 class="text-spade-accent text-lg font-semibold mb-4" id="terms-privacy-footer">Terms &amp; privacy</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#terms-of-use" class="text-white hover:text-spade-accent transition-colors">Terms of use</a></li>
+                        <li><a href="#editorial-policy" class="text-white hover:text-spade-accent transition-colors">Editorial policy</a></li>
+                        <li><a href="#privacy-policy" class="text-white hover:text-spade-accent transition-colors">Privacy policy</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Support部分 -->
+                <div>
+                    <h4 class="text-spade-accent text-lg font-semibold mb-4" id="support-footer">Support</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#help-center" class="text-white hover:text-spade-accent transition-colors">Help center</a></li>
+                        <li><a href="#sitemap" class="text-white hover:text-spade-accent transition-colors">Sitemap</a></li>
+                        <li><a href="#contact" class="text-white hover:text-spade-accent transition-colors">Contact us</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 mt-8 pt-6 text-center text-gray-400 text-sm">
+                © 2025 SPADE Platform. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- 返回顶部按钮 -->
+    <button id="backToTop" class="fixed bottom-6 right-6 w-12 h-12 rounded-full bg-primary text-white shadow-lg flex items-center justify-center opacity-0 invisible transition-all duration-300 hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 z-50">
+        <i class="fa fa-chevron-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script>
+        // 初始化工作流图表
+        document.addEventListener('DOMContentLoaded', function() {
+            // 工作流图表
+            const ctx = document.getElementById('workflowChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: ['Data Input', 'AI Processing', 'Sequence Generation', 'Activity Prediction', 'Toxicity Analysis', 'Results'],
+                    datasets: [{
+                        label: 'Relative Processing Time',
+                        data: [10, 40, 30, 25, 20, 5],
+                        backgroundColor: [
+                            'rgba(22, 93, 255, 0.2)',
+                            'rgba(22, 93, 255, 0.5)',
+                            'rgba(22, 93, 255, 0.7)',
+                            'rgba(22, 93, 255, 0.5)',
+                            'rgba(22, 93, 255, 0.3)',
+                            'rgba(22, 93, 255, 0.2)'
+                        ],
+                        borderColor: [
+                            'rgba(22, 93, 255, 1)',
+                            'rgba(22, 93, 255, 1)',
+                            'rgba(22, 93, 255, 1)',
+                            'rgba(22, 93, 255, 1)',
+                            'rgba(22, 93, 255, 1)',
+                            'rgba(22, 93, 255, 1)'
+                        ],
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: {
+                            position: 'top',
+                        },
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    return `Processing time: ${context.raw}% of total workflow`;
+                                }
+                            }
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            max: 50,
+                            title: {
+                                display: true,
+                                text: 'Relative Time (%)'
+                            }
+                        }
+                    }
+                }
+            });
+
+            // 移动端菜单切换
+            const mobileMenuButton = document.getElementById('mobileMenuButton');
+            const mobileMenu = document.getElementById('mobileMenu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (mobileMenu.classList.contains('hidden')) {
+                        icon.classList.remove('fa-times');
+                        icon.classList.add('fa-bars');
+                    } else {
+                        icon.classList.remove('fa-bars');
+                        icon.classList.add('fa-times');
+                    }
+                });
+            }
+
+            // FAQ切换
+            const faqToggles = document.querySelectorAll('.faq-toggle');
+            
+            faqToggles.forEach(toggle => {
+                toggle.addEventListener('click', () => {
+                    const targetId = toggle.getAttribute('data-target');
+                    const targetContent = document.getElementById(targetId);
+                    const icon = toggle.querySelector('i');
+                    
+                    targetContent.classList.toggle('hidden');
+                    icon.classList.toggle('rotate-180');
+                });
+            });
+
+            // 阅读进度条
+            const progressBar = document.getElementById('readingProgress');
+            const backToTopButton = document.getElementById('backToTop');
+            const header = document.getElementById('mainHeader');
+            
+            function updateReadingProgress() {
+                if (!progressBar) return;
+                
+                const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+                const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+                
+                if (height <= 0) {
+                    progressBar.style.width = "0%";
+                    return;
+                }
+                
+                const scrolled = (winScroll / height) * 100;
+                progressBar.style.width = scrolled + "%";
+                
+                // 返回顶部按钮可见性
+                if (backToTopButton) {
+                    if (winScroll > 300) {
+                        backToTopButton.classList.remove('opacity-0', 'invisible');
+                        backToTopButton.classList.add('opacity-100', 'visible');
+                    } else {
+                        backToTopButton.classList.add('opacity-0', 'invisible');
+                        backToTopButton.classList.remove('opacity-100', 'visible');
+                    }
+                }
+                
+                // 滚动时导航栏阴影
+                if (header) {
+                    if (winScroll > 50) {
+                        header.classList.add('shadow');
+                    } else {
+                        header.classList.remove('shadow');
+                    }
+                }
+                
+                // 高亮当前侧边栏链接
+                const sections = document.querySelectorAll('section[id]');
+                const sidebarLinks = document.querySelectorAll('.sidebar-link');
+                
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop - 100;
+                    const sectionHeight = section.offsetHeight;
+                    const sectionId = section.getAttribute('id');
+                    
+                    if (winScroll >= sectionTop && winScroll < sectionTop + sectionHeight) {
+                        sidebarLinks.forEach(link => {
+                            link.classList.remove('bg-primary/5', 'text-primary', 'font-medium');
+                            if (link.getAttribute('href') === `#${sectionId}`) {
+                                link.classList.add('bg-primary/5', 'text-primary', 'font-medium');
+                            }
+                        });
+                    }
+                });
+            }
+            
+            window.addEventListener('scroll', updateReadingProgress);
+            updateReadingProgress(); // 初始调用
+            
+            // 返回顶部功能
+            if (backToTopButton) {
+                backToTopButton.addEventListener('click', () => {
+                    window.scrollTo({
+                        top: 0,
+                        behavior: 'smooth'
+                    });
+                });
+            }
+            
+            // 锚点链接平滑滚动
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const href = this.getAttribute('href');
+                    
+                    if (href && href !== '#' && href.startsWith('#')) {
+                        const targetElement = document.querySelector(href);
+                        
+                        if (targetElement) {
+                            e.preventDefault();
+                            
+                            // 若移动菜单打开则关闭
+                            if (mobileMenu && !mobileMenu.classList.contains('hidden')) {
+                                mobileMenu.classList.add('hidden');
+                                const icon = mobileMenuButton.querySelector('i');
+                                icon.classList.remove('fa-times');
+                                icon.classList.add('fa-bars');
+                            }
+                            
+                            targetElement.scrollIntoView({
+                                behavior: 'smooth'
+                            });
+                        }
+                    }
+                });
+            });
+            
+            // 动态进度条
+            const progressBarElement = document.getElementById('progressBar');
+            const progressPercentage = document.getElementById('progressPercentage');
+            
+            if (progressBarElement && progressPercentage) {
+                let progress = 0;
+                const interval = setInterval(() => {
+                    progress += 1;
+                    progressBarElement.style.width = `${progress}%`;
+                    progressBarElement.setAttribute('data-progress', progress);
+                    progressPercentage.textContent = `${progress}%`;
+                    
+                    if (progress >= 100) {
+                        clearInterval(interval);
+                        setTimeout(() => {
+                            progressPercentage.textContent = 'Complete';
+                        }, 500);
+                    }
+                }, 60);
+            }
+        });
+    </script>
+
+    </body></html>
+    

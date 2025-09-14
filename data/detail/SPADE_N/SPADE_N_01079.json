@@ -1,0 +1,72 @@
+{
+    "SPADE_N_01079": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01079",
+            "Peptide Name": "Ala7-uperin 3.6 (toads, amphibians, animals)",
+            "Source": "Uperoleia mjobergii (Australian toadlet)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "GVIDAAAKVVNVLKNLF",
+            "Sequence Length": 17,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+"
+            ],
+            "Target Organism": "Gram-positive bacteria:Bacillus cereus (MIC=100 µg/ml), Leuconostoc lactis (MIC=12 µg/ml), Streptococcus uberis (MIC=50 µg/ml).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C82H139N21O22",
+            "Mass": 1771.11,
+            "PI": 8.59,
+            "Net Charge": 1,
+            "Hydrophobicity": 1.08,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Shows antibacterial activity gaginst several Gram-positive bacteria.",
+            "Literature": [
+                {
+                    "Title": "The solution structure of uperin 3.6, an antibiotic peptide from the granular dorsal glands of the Australian toadlet, Uperoleia mjobergii.",
+                    "Pubmed ID": "10461748",
+                    "Reference": "J Pept Res. 1999 Aug;54(2)137-145.",
+                    "Author": "Chia BC, Carver JA, Mulhern TD, Bowie JH.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=10461748"
+                }
+            ],
+            "Frequent Amino Acids": "VAK",
+            "Absent Amino Acids": "CEHMOPQRSTUWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 11,
+            "Positive Residues": 2,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_19805",
+                    "Similarity": 1.0,
+                    "Sequence": "GVIDAAAKVVNVLKNLF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05837",
+                    "Similarity": 0.9411764705882353,
+                    "Sequence": "GVIDAAKKVVNVLKNLF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01077",
+                    "Similarity": 0.8823529411764706,
+                    "Sequence": "GVIDAAKKVVNVLKNLP"
+                }
+            ]
+        }
+    }
+}

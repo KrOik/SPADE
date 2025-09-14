@@ -1,0 +1,91 @@
+{
+    "SPADE_N_02677": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 2003/0096949 A1",
+                "Patent Link": "http://www.lens.org/lens/patent/US_2003_0096949_A1",
+                "Patent Type": "Patent Application",
+                "Publication Date": "2003-5-22",
+                "Family Info": "CA2341340A1,CA2341340C,EP1107976A1,EP1107976A4,US6288212,US6818407,WO2000012528A1",
+                "Patent Title": "Anti-endotoxic antimicrobial cationic peptides and methods of use therfor.",
+                "Abstract": "A novel class of cationic peptides having antimicrobial activity is provided. Exemplary peptides of the invention include KWKSFIKKLTSAAKKVVTTAKPLALIS (SEQ ID NO:3) and KGWGSFFKKAAHVGKHVGKAALTHYL (SEQ ID NO:15). Also provided are methods for inhibiting the growth of bacteria utilizing the peptides of the invention. Such methods are useful for the treatment of respiratory infections, such as in cystic fibrosis patients. Such methods are further useful for accelerating wound healing."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02677",
+            "Peptide Name": "Ceratotoxin-B (Insects, animals)",
+            "Source": "Ceratitis capitata (Mediterranean Fruit fly)",
+            "Family": "Not found",
+            "Gene": "CTXB",
+            "Sequence": "SIGSAFKKALPVAKKIGKAALPIAKAALP",
+            "Sequence Length": 29,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P36191"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Swiss_Prot Entry P36191]Female-specific peptides with potent activity against Gram-positive and Gram-negative bacteria",
+            "Hemolytic Activity": "[Swiss_Prot Entry P36191]has hemolytic activity",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C135H235N35O32",
+            "Mass": 2860.53,
+            "PI": 10.7,
+            "Net Charge": 6,
+            "Hydrophobicity": 0.54,
+            "Half Life": "Mammalian:1.9 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Female-specific peptides with potent activity against Gram-positive and Gram-negative bacteria. They have as well hemolytic activity.",
+            "Temperature dependence": "Thermostable. Still active at 100 degrees Celsius.",
+            "Literature": [
+                {
+                    "Title": "Purification and primary structure of ceratotoxin A and B, two antibacterial peptides from the female reproductive accessory glands of the medfly Ceratitis capitata (InsectaDiptera).",
+                    "Pubmed ID": "8353519",
+                    "Reference": "Insect Biochem Mol Biol. 1993 Jul;23(5)591-598.",
+                    "Author": "Marchini D, Giordano PC, Amons R, Bernini LF, Dallai R.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=8353519"
+                },
+                {
+                    "Title": "Purification and primary structure of ceratotoxin A and B, two antibacterial peptides from the female reproductive accessory glands of the medfly Ceratitis capitata (Insecta: Diptera).",
+                    "Pubmed ID": "",
+                    "Author": "Dallai R.,Bernini L.F.,Amons R.,Giordano P.C.,Marchini D."
+                }
+            ],
+            "Frequent Amino Acids": "AKI",
+            "Absent Amino Acids": "CDEHMNOQRTUWY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 19,
+            "Polar Residues": 17,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_01357",
+                    "Similarity": 1.0,
+                    "Sequence": "SIGSAFKKALPVAKKIGKAALPIAK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09667",
+                    "Similarity": 0.9411764705882353,
+                    "Sequence": "SIGSALKKALPVAKKIG"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_28309",
+                    "Similarity": 0.9411764705882353,
+                    "Sequence": "SIGSALKKALPVAKKIG"
+                }
+            ]
+        }
+    }
+}

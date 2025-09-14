@@ -1,0 +1,76 @@
+{
+    "SPADE_UN_14375": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_14375",
+            "Peptide Name": "Indolicidin [K5G;R12P;R13P]",
+            "Source": "Synthetic construct(derived from Indolicidin)",
+            "Family": "Retroviridae",
+            "Gene": "Not found",
+            "Sequence": "ILPWGWPWWPWPP",
+            "Sequence Length": 13,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antiviral"
+            ],
+            "Target Organism": "[Ref.15482931]HIV-1:Inhibition of 3′-processing catalyzed by integrase(IC50>333 µM);inhibition of strand transfer catalyzed by integrase(IC50>333 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information or data found in the reference(s) presented in this entry",
+            "Binding Target": "HIV Integrase",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidtion",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C94H112N18O14",
+            "Mass": 1718.01,
+            "PI": 5.53,
+            "Net Charge": 0,
+            "Hydrophobicity": -0.35,
+            "Half Life": "Mammalian:20 hourYeast:30 minE.coli:>10 hour",
+            "Mechanism of action": "The HIV-1 integrase plays a crucial role in the HIV-1 virus replication cycle. The peptide can inhibit the activity of integrase and thus inhibit virus replication.",
+            "Literature": [
+                {
+                    "Title": "Synthesis and HIV-1 integrase inhibitory activity of dimeric and tetrameric analogs of indolicidin.",
+                    "Pubmed ID": "15482931",
+                    "Reference": "Bioorg Med Chem Lett. 2004 Nov 15;14(22)5595-8.",
+                    "Author": "Krajewski K, Marchand C, Long YQ, Pommier Y, Roller PP.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=15482931"
+                },
+                {
+                    "Title": "Synthesis and HIV-1 integrase inhibitory activity of dimeric and tetrameric analogs of indolicidin",
+                    "Pubmed ID": "",
+                    "Author": "Krajewski K, Marchand C, Long YQ, Pommier Y, Roller PP"
+                }
+            ],
+            "Frequent Amino Acids": "PWG",
+            "Absent Amino Acids": "ACDEFHKMNOQRSTUVY",
+            "Basic Residues": 0,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 0,
+            "Positive Residues": 0,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_14372",
+                    "Similarity": 0.9230769230769231,
+                    "Sequence": "ILPWKWPWWPWPP"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_14374",
+                    "Similarity": 0.9166666666666666,
+                    "Sequence": "ILPWKWPWWPWP"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_14373",
+                    "Similarity": 0.9166666666666666,
+                    "Sequence": "LPWKWPWWPWPP"
+                }
+            ]
+        }
+    }
+}

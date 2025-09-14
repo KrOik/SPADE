@@ -1,0 +1,72 @@
+{
+    "SPADE_UN_13839": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_13839",
+            "Peptide Name": "HCV gp (552–566), E2-43",
+            "Source": "Synthetic construct",
+            "Family": "Flaviviridae",
+            "Gene": "Not found",
+            "Sequence": "FGCTWMNSTGFTKTC",
+            "Sequence Length": 15,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q99IB8"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antiviral"
+            ],
+            "Target Organism": "[Ref.28638089]HCV(Hepatitis C virus):inhibition of HCVcc infection in Huh7.5/CD81 cells (IC50=1~5nM)",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "[Ref.28638089]have no effect on the viability of Huh7.5-CD81 cells at concentrations of 10 nM",
+            "Binding Target": "Envelope protein",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C73H106N18O22S3",
+            "Mass": 1683.93,
+            "PI": 8.06,
+            "Net Charge": 1,
+            "Hydrophobicity": -0.01,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Mechanism of action": "Inhibits HCV entry at the post-attachment step and block cell-to-cell transmission, inhibit the late steps of HCV life cycle, such as HCV package and release.",
+            "Literature": [
+                {
+                    "Title": "A screen for inhibitory peptides of hepatitis C virus identifies a novel entry inhibitor targeting E1 and E2.",
+                    "Pubmed ID": "28638089",
+                    "Reference": "Author",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=28638089"
+                }
+            ],
+            "Frequent Amino Acids": "TCF",
+            "Absent Amino Acids": "ADEHILOPQRUVY",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 4,
+            "Polar Residues": 9,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_13840",
+                    "Similarity": 1.0,
+                    "Sequence": "QGSWFGCTWMNSTGF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02422",
+                    "Similarity": 0.8,
+                    "Sequence": "DCCRKPFRKHCWDCTAGTPYYGYSTRNIFGCTC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15749",
+                    "Similarity": 0.6,
+                    "Sequence": "PICTRNGLPVCGETCFGGTCNTPGCTCTW"
+                }
+            ]
+        }
+    }
+}

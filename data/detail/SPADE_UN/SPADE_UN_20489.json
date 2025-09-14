@@ -1,0 +1,67 @@
+{
+    "SPADE_UN_20489": {
+        "Sequence Information": {
+            "Peptide Name": "Hemoglobin subunit alpha (99-110)[S4,6K], HJH-1",
+            "Sequence": "KLLKHKLLVTLA",
+            "Sequence Length": 12,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P01966",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P01966",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "HJH-1, a Broad-Spectrum Antimicrobial Activity and Low Cytotoxicity Antimicrobial Peptide.",
+                    "Pubmed ID": "30110916",
+                    "Reference": "Molecules. 2018;23:",
+                    "Author": "Wang Q, Xu Y, Dong M, Hang B, Sun Y, Wang L, Wang Y, Hu J, Zhang W",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/30110916"
+                }
+            ],
+            "Mass": 1376.77,
+            "PI": 10.3,
+            "Net Charge": 4,
+            "Hydrophobicity": 0.78,
+            "Frequent Amino Acids": "LKA",
+            "Absent Amino Acids": "CDEFGIMNOPQRSUWY",
+            "Basic Residues": 4,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 5,
+            "Positive Residues": 4,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_20489",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06022",
+                    "Similarity": 1.0,
+                    "Sequence": "KLLLKLLKKLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06445",
+                    "Similarity": 1.0,
+                    "Sequence": "IKKILSKIKKLLK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08367",
+                    "Similarity": 1.0,
+                    "Sequence": "KLLK"
+                }
+            ],
+            "Hemolytic Activity": "Rabbit erythrocytes:<20% Hemolysis=400 µg/ml",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=12.5µg/ml),Escherichia coli(MIC=25µg/ml),Salmonella enterica subsp. enterica serovar Pullorum CVCC 3533(MIC=6.25µg/ml),Salmonella enterica subsp. enterica serovar Pullorum(MIC=6.25µg/ml),Staphylococcus aureus ATCC 29213(MIC=25µg/ml),Staphylococcus aureus(MIC=25µg/ml),Candida albicans ATCC 90029(MIC=50µg/ml)"
+        }
+    }
+}

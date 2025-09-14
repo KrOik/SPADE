@@ -1,0 +1,78 @@
+{
+    "SPADE_UN_11887": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_11887",
+            "Peptide Name": "KR-12-a4 (Derived from KR-12)",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "KRIVKLIKKWLR",
+            "Sequence Length": 12,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic form",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.24105706] Gram-positive bacteria :Bacillus subtilis (KCTC 3068)(MIC=8 μM), Staphylococcus epidermidis (KCTC 1917)(MIC=1 μM), Staphylococcus aureus (KCTC 1621)(MIC=2 μM);Gram-negative bacteria :Escherichia coli (KCTC 1682)(MIC=2 μM), Pseudomonas aeruginosa (KCTC 1637)(MIC=4 μM), Salmonella typhimurium (KCTC 1926)(MIC=1 μM)",
+            "Hemolytic Activity": "[Ref.24105706] HC50>800 μM against human red blood cells",
+            "Cytotoxicity": "[Ref.24105706] The cell viability of RAW264.7 macrophage cells is 101.9%, 99.9%, 96.6%, 95.6%, 95.3%, 80.9%, 17.8% and 0% at peptide concentrations of 0.78, 1.56, 3.12, 6.25, 12.5, 25, 50 and 100 μM.",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "The CD spectra for all the peptides in 10 mM sodium phosphate buffer (pH 7.2) displayed a negative band at approximately 200 nm, indicating that the structure is random. In presence of 0.1% LPS, all the peptides showed characteristic α-helical CD spectra with two dichroic minimal values at 208 and 222 nm and a positive band near 192 nm .",
+            "Formula": "C76H137N23O13",
+            "Mass": 1581.05,
+            "PI": 12.0,
+            "Net Charge": 6,
+            "Hydrophobicity": -0.39,
+            "Half Life": "Mammalian:1.3 hourYeast:3 minE.coli:2 min",
+            "Function": "Antibacterial activity against Gram-positive bacteria and Gram-negative bacteria",
+            "Literature": [
+                {
+                    "Title": "Short KR-12 analogs designed from human cathelicidin LL-37 possessing both antimicrobial and antiendotoxic activities without mammalian cell toxicity.",
+                    "Pubmed ID": "24105706",
+                    "Reference": "J Pept Sci. 2013 Nov;19(11)700-7. doi 10.1002/psc.2552.",
+                    "Author": "Jacob B, Park IS, Bang JK, Shin SY",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=24105706"
+                },
+                {
+                    "Title": "Short KR-12 analogs designed from human cathelicidin LL-37 possessing both antimicrobial and antiendotoxic activities without mammalian cell toxicity",
+                    "Pubmed ID": "",
+                    "Author": "Jacob B, Park IS, Bang JK, Shin SY"
+                }
+            ],
+            "Frequent Amino Acids": "KIL",
+            "Absent Amino Acids": "ACDEFGHMNOPQSTUY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 7,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_04256",
+                    "Similarity": 1.0,
+                    "Sequence": "LLGDFFRKSKEKIGKEFKRIV"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04258",
+                    "Similarity": 1.0,
+                    "Sequence": "EFKRIV"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05467",
+                    "Similarity": 1.0,
+                    "Sequence": "ILGKFCDEIKRIV"
+                }
+            ]
+        }
+    }
+}

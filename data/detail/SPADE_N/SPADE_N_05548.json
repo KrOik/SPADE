@@ -1,0 +1,74 @@
+{
+    "SPADE_N_05548": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_05548",
+            "Peptide Name": "Enterocin NKR-5-3C(Bacteriocin)",
+            "Source": "Enterococcus faecium NKR-5-3",
+            "Family": "Belongs to the class IIa bacteriocin",
+            "Gene": "enkC",
+            "Sequence": "ATYYGNGLYCNSKKCWVEWGITGGCLAQYAIGGWLGGAVPGKC",
+            "Sequence Length": 43,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/I7H7S7"
+            ],
+            "Protein Existence": "",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+"
+            ],
+            "Target Organism": "Gram-positive",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Ent53C is a novel class IIa bacteriocin that contains a YGNVL motif sequence and two disul?de bridges.",
+            "Formula": "C205H300N52O56S4",
+            "Mass": 4517.15,
+            "PI": 8.47,
+            "Net Charge": 2,
+            "Hydrophobicity": 0.11,
+            "Half Life": "Mammalian:4.4 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Gene cluster responsible for secretion of and immunity to multiple bacteriocins, the NKR-5-3 enterocins.",
+                    "Pubmed ID": "25149515",
+                    "Reference": "Appl Environ Microbiol. 2014 Nov;80(21)6647-55.",
+                    "Author": "Ishibashi N, Himeno K, Masuda Y, Perez RH, Iwatani S, Zendo T, Wilaipun P, Leelawatcharamas V, Nakayama J, Sonomoto K.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=25149515"
+                }
+            ],
+            "Frequent Amino Acids": "GAC",
+            "Absent Amino Acids": "DFHMORU",
+            "Basic Residues": 3,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 19,
+            "Polar Residues": 23,
+            "Positive Residues": 3,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00099",
+                    "Similarity": 0.6976744186046512,
+                    "Sequence": "TKYYGNGVYCNSKKCWVDWGQASGCIGQTVVGGWLGGAIPGKC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06061",
+                    "Similarity": 0.6976744186046512,
+                    "Sequence": "MKNLKEGSYTAVNTDELKSINGGTKYYGNGVYCNSKKCWVDWGQASGCIGQTVVGGWLGGAIPGKC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09861",
+                    "Similarity": 0.6976744186046512,
+                    "Sequence": "AMDPTKYYGNGVYCNSKKCWVDWGQASGCIGQTVVGGWLGGAIPGKC"
+                }
+            ]
+        }
+    }
+}

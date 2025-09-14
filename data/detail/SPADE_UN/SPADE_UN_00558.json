@@ -1,0 +1,81 @@
+{
+    "SPADE_UN_00558": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_00558",
+            "Peptide Name": "D6-NH2 (Derived from D0)",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "RKKRWWRRKK",
+            "Sequence Length": 10,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.22518150] Gram-negative bacteria:Escherichia coli (MIC=3±0.07 µM), Pseudomonas aeruginosa ATCC 27853 (MIC=3±0.012 µM);Gram-positive bacterium:Staphylococcus aureus ATCC 25923 (MIC=6±0.012 µM).",
+            "Hemolytic Activity": "[Ref.23860860] 6.5% hemolysis at 100 μM against human red blood cells",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C70H118N28O11",
+            "Mass": 1527.87,
+            "PI": 12.0,
+            "Net Charge": 8,
+            "Hydrophobicity": -3.54,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Function": "Antibacterial activity against Gram-positive and Gram-negative bacteria.",
+            "Chemical modification": "C-terminal amidation.",
+            "Literature": [
+                {
+                    "Title": "The Design and Construction of K11 A Novel α-Helical Antimicrobial Peptide.",
+                    "Pubmed ID": "22518150",
+                    "Reference": "Int J Microbiol. 2012;2012764834.",
+                    "Author": "Jin-Jiang H, Jin-Chun L, Min L, Qing-Shan H, Guo-Dong L.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=22518150"
+                },
+                {
+                    "Title": "Design of Short Membrane Selective Antimicrobial Peptides Containing Tryptophan and Arginine Residues for Improved Activity, Salt-Resistance, and Biocompatibility",
+                    "Pubmed ID": "23860860",
+                    "Reference": "Biotechnol Bioeng. 2014 Jan;111(1)37-49. doi 10.1002/bit.25003.",
+                    "Author": "Saravanan R, Li X, Lim K, Mohanram H, Peng L, Mishra B, Basu A, Lee JM, Bhattacharjya S, Leong SS.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=23860860"
+                }
+            ],
+            "Frequent Amino Acids": "KRW",
+            "Absent Amino Acids": "ACDEFGHILMNOPQSTUVY",
+            "Basic Residues": 8,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 2,
+            "Polar Residues": 8,
+            "Positive Residues": 8,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_10517",
+                    "Similarity": 1.0,
+                    "Sequence": "ELDRICGYGTARCRKKR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11562",
+                    "Similarity": 1.0,
+                    "Sequence": "RKKTRKR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_05960",
+                    "Similarity": 1.0,
+                    "Sequence": "KRRKLIKILKLIIKLIRKKR"
+                }
+            ]
+        }
+    }
+}

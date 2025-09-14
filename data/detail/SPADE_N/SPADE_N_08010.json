@@ -1,0 +1,57 @@
+{
+    "SPADE_N_08010": {
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_08010",
+            "Sequence Length": 59,
+            "Mass": 6150.42,
+            "PI": 10.53,
+            "Net Charge": 8,
+            "Source": "Aedes aegypti",
+            "Biological Activity": [
+                "Antimicrobial"
+            ],
+            "Sequence": "MNFTKLFLLIAVAVLLLTGQSEAGGLKKLGKKLEGAGKRVFNAAEKALPVVAGAKALRK",
+            "Function": "Antibacterial activity against Gram-negative bacteria E.coli D22 and D31, E.carotovora, K.pneumoniae, P.aeruginosa, S.typhimurium, E.cloacae B12 and X.campestris and Gram-positive bacteria A.viridans, M.luteus, B.megaterium and S.pyogenes. Possesses antifungal activity against F.oxysporum, F.culmorum and N.crassa, C.albicans, C.neoformans and S.cerevisiae. No activity against Gram-negative S.marcescens Db11, Gram-positive B.cereus, B.subtilis, B.thuringiensis, S.aureus and L.monocytogenes, the fungi A.fumigatus and B.bassiana and C.glabrata.",
+            "Literature": [
+                {
+                    "Title": "Antimicrobial activity spectrum, cDNA cloning and mRNA expression of a newly isolated member of the cecropin family from the mosquito vector Aedes aegypti.",
+                    "Pubmed ID": "",
+                    "Author": "Richman A.,Kamal S.,Vizioli J.,Charlet M.,Lowenberger C.A."
+                },
+                {
+                    "Title": "Genome sequence of Aedes aegypti, a major arbovirus vector.",
+                    "Pubmed ID": "R2007J0569",
+                    "Author": "Kodira C.D.,Haas B.J.,Lawson D.,Wortman J.R.,Nene V."
+                }
+            ],
+            "Peptide Name": "Cecropin-A (CECA_AEDAE)",
+            "Hemolytic Activity": [],
+            "Frequent Amino Acids": "LAK",
+            "Absent Amino Acids": "CDHOUWY",
+            "Basic Residues": 11,
+            "Acidic Residues": 3,
+            "Hydrophobic Residues": 32,
+            "Polar Residues": 32,
+            "Positive Residues": 11,
+            "Negative Residues": 3,
+            "Hydrophobicity": 0.41,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02727",
+                    "Similarity": 1.0,
+                    "Sequence": "GGLKKLGKKLEGAGKRVFNAAEKALPVVAGAKAL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09877",
+                    "Similarity": 1.0,
+                    "Sequence": "GGLKKLGKKLEGAGKRVFNAAEKALP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14697",
+                    "Similarity": 1.0,
+                    "Sequence": "GGLKKLGKKLEGAGKRVFNAAEKALPVVAGAKALRK"
+                }
+            ]
+        }
+    }
+}

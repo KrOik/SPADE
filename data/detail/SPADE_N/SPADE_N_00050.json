@@ -1,0 +1,89 @@
+{
+    "SPADE_N_00050": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00050",
+            "Peptide Name": "Bacteriocin cinnamycin (Lanthiopeptin Ro 09-0198)",
+            "Source": "Streptomyces cinnamoneus cinnamoneus DSM 40005 (Gram-positive bacteria)",
+            "Family": "Belongs to the type B lantibiotic family (Class I bacteriocin)",
+            "Gene": "cinA",
+            "Sequence": "CRQSCSFGPFTFVCDGNTK",
+            "Sequence Length": 19,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P29827"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Antiviral"
+            ],
+            "Target Organism": "Bacillus, herpes simplex virus.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "phosphatidylethanolamine",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "The peptide has a hydrophobic pocket surrounded by residues Phe-7 through Ala(S)-14 to bind to the head group of the ligand. Fitting of the head group to the hydrophobic pocket was so good that other than a glycerophosphoethanolamine head group would be unable to fit the pocket.",
+            "Formula": "C89H133N25O28S3",
+            "Mass": 2097.35,
+            "PI": 7.96,
+            "Net Charge": 1,
+            "Hydrophobicity": -0.22,
+            "Half Life": "Mammalian:1.2 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Can act as inhibitor of the enzyme phospholipase A2, and of the angiotensin-converting enzyme. Shows inhibitory activities against herpes simplex virus and immunopotentiating activities. Its antimicrobial activities are not very pronounced.",
+            "PTM": "Maturation of lantibiotics involves the enzymic conversion of Thr, and Ser into dehydrated AA and the formation of thioether bonds with cysteine or the formation of dialkylamine bonds with lysine. This is followed by membrane translocation and cleavage of the modified precursor.",
+            "Literature": [
+                {
+                    "Title": "Duramycins B and C, two new lanthionine containing antibiotics as inhibitors of phospholipase A2. Structural revision of duramycin and cinnamycin.",
+                    "Pubmed ID": "2125590",
+                    "Reference": "J Antibiot (Tokyo). 1990 Nov;43(11)1403-1412.",
+                    "Author": "Fredenhagen A, Fendrich G, Märki F, Märki W, Gruner J, Raschdorf F, Peter HH.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=2125590"
+                },
+                {
+                    "Title": "Lanthiopeptin, a new peptide antibiotic. Production, isolation and properties of lanthiopeptin.",
+                    "Pubmed ID": "2544544",
+                    "Reference": "J Antibiot (Tokyo). 1989 Jun;42(6)837-845.",
+                    "Author": "Naruse N, Tenmyo O, Tomita K, Konishi M, Miyaki T, Kawaguchi H, Fukase K, Wakamiya T, Shiba T.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=2544544"
+                },
+                {
+                    "Title": "Structure determination of an immunopotentiator peptide, cinnamycin, complexed with lysophosphatidylethanolamine by 1H-NMR1.",
+                    "Pubmed ID": "8882709",
+                    "Reference": "J Biochem. 1996 Feb;119(2)226-230.",
+                    "Author": "Hosoda K, Ohya M, Kohno T, Maeda T, Endo S, Wakamatsu K.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=8882709"
+                }
+            ],
+            "Frequent Amino Acids": "CFG",
+            "Absent Amino Acids": "AEHILMOUWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 12,
+            "Positive Residues": 2,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06055",
+                    "Similarity": 1.0,
+                    "Sequence": "MTASILQQSVVDADFRAALLENPAAFGASAAALPTPVEAQDQASLDFWTKDIAATEAFACRQSCSFGPFTFVCDGNTK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15397",
+                    "Similarity": 1.0,
+                    "Sequence": "CRQSCFGPFTFVCGNTK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_00005",
+                    "Similarity": 0.9473684210526315,
+                    "Sequence": "CRQSCSFGPLTFVCDGNTK"
+                }
+            ]
+        }
+    }
+}

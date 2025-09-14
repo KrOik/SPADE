@@ -1,0 +1,48 @@
+{
+    "SPADE_UN_27998": {
+        "Sequence Information": {
+            "Peptide Name": "Gramicidin S [4 ins L]",
+            "Sequence": "VXLLFPVXLFP",
+            "Sequence Length": 11,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Antimicrobially active cycloundecapeptides related to gramicidin S having a novel turn structure with cis D-Phe-Pro peptide bond.",
+                    "Pubmed ID": "20449481",
+                    "Reference": "Org Biomol Chem. 2010;8:1791-1797",
+                    "Author": "Tamaki M, Sasaki I, Kokuno M, Shindo M, Kimura M, Uchida Y",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/20449481"
+                }
+            ],
+            "SPADE ID": "SPADE_UN_27998",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06429",
+                    "Similarity": 1.0,
+                    "Sequence": "LVKRFKKFFRKLKKSVLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06430",
+                    "Similarity": 1.0,
+                    "Sequence": "LVRRFRRFFRRLRRSVLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06433",
+                    "Similarity": 1.0,
+                    "Sequence": "VKRFKKFFRKLKKSVLL"
+                }
+            ],
+            "Hemolytic Activity": "Sheep erythrocytes:100% Hemolysis=50 µM",
+            "Target Organism": "Bacillus subtilis NBRC 3513(MIC=3.13µg/ml),Bacillus megaterium ATCC 19213(MIC=3.13µg/ml),Staphylococcus aureus NBRC 12732(MIC=3.13µg/ml),Escherichia coli NBRC 12734(MIC=50µg/ml),Pseudomonas aeruginosa NBRC 3080(MIC=>100µg/ml)"
+        }
+    }
+}

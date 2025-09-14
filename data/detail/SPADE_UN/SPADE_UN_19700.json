@@ -1,0 +1,79 @@
+{
+    "SPADE_UN_19700": {
+        "Sequence Information": {
+            "Peptide Name": "Di PGLa-H [V5,15G], Kiadin-3",
+            "Sequence": "KIAKGALKALKIAKGALKAL",
+            "Sequence Length": 20,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anticancer",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "Q99134",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/Q99134",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                },
+                {
+                    "uniprotId": "Q91826",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/Q91826",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Antibacterial Activity Affected by the Conformational Flexibility in Glycine-Lysine Based ?-Helical Antimicrobial Peptides.",
+                    "Pubmed ID": "29553266",
+                    "Reference": "J Med Chem. 2018;61:2924-2936",
+                    "Author": "Roncević T, Vukicevic D, Ilic N, Krce L, Gajski G, Tonkić M, Goić-Barisić I, Zoranić L, Sonavane Y, Benincasa M, Jureti? D, Maravic A, Tossi A",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/29553266"
+                },
+                {
+                    "Title": "Relating Molecular Dynamics Simulations to Functional Activity for Gly-Rich Membranolytic Helical Kiadin Peptides.",
+                    "Pubmed ID": "37242675",
+                    "Reference": "Pharmaceutics. 2023;15:1433",
+                    "Author": "Roncević T, Maleš M, Sonavane Y, Guida F, Pacor S, Tossi A, Zoranić L",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/37242675"
+                }
+            ],
+            "Mass": 2006.56,
+            "PI": 10.7,
+            "Net Charge": 6,
+            "Hydrophobicity": 0.54,
+            "Frequent Amino Acids": "AKL",
+            "Absent Amino Acids": "CDEFHMNOPQRSTUVWY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 8,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_19700",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_19700",
+                    "Similarity": 1.0,
+                    "Sequence": "KIAKGALKALKIAKGALKAL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_24880",
+                    "Similarity": 1.0,
+                    "Sequence": "LKALCRILKKLCRI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11465",
+                    "Similarity": 0.95,
+                    "Sequence": "KIAKVALKALKIAKGALKAL"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=100±5 µM",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=4µM),Escherichia coli ATCC 25922(MIC=16µM),Escherichia coli(MIC=64µM),Escherichia coli(MBC=>64µM),Acinetobacter baumannii ATCC 19606(MIC=1-2µM),Acinetobacter baumannii ATCC 19606(MBC=2µM),Acinetobacter baumannii(MIC=>64µM),Acinetobacter baumannii(MBC=>64µM),Klebsiella pneumoniae ATCC 13883(MIC=2-4µM),Klebsiella pneumoniae ATCC 13883(MBC=4µM),Klebsiella pneumoniae(MIC=8µM),Klebsiella pneumoniae(MBC=16µM),Pseudomonas aeruginosa ATCC 27853(MIC=8-16µM),Pseudomonas aeruginosa ATCC 27853(MBC=16-32µM),Pseudomonas aeruginosa(MIC=8-16µM),Pseudomonas aeruginosa(MBC=16µM),Staphylococcus aureus ATCC 25923(MIC=16-32µM),Staphylococcus aureus ATCC 25923(MBC=32µM),Staphylococcus aureus(MIC=16µM),Staphylococcus aureus(MBC=16µM),Staphylococcus aureus ATCC 25923(MIC=16-32µM),Staphylococcus aureus ATCC 25923(MBC=32µM),Human chronic B cell leukemia MEC-1(IC50=>50µM)"
+        }
+    }
+}

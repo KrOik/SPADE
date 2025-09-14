@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_21888": {
+        "Sequence Information": {
+            "Peptide Name": "Lactoferricin-B (3-13)[C2W, M9R, K10W]",
+            "Sequence": "KWRRWQWRRWK",
+            "Sequence Length": 11,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P24627",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P24627",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Antibacterial Activity and Mechanism of Action of Bovine Lactoferricin Derivatives With Symmetrical Amino Acid Sequences.",
+                    "Pubmed ID": "30262770",
+                    "Reference": "Int J Mol Sci. 2018;19:",
+                    "Author": "Sun C, Li Y, Cao S, Wang H, Jiang C, Pang S, Hussain MA, Hou J",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/30262770"
+                }
+            ],
+            "Mass": 1772.07,
+            "PI": 12.0,
+            "Net Charge": 6,
+            "Hydrophobicity": -2.99,
+            "Frequent Amino Acids": "RWK",
+            "Absent Amino Acids": "ACDEFGHILMNOPSTUVY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 0,
+            "Polar Residues": 11,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_21888",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_11444",
+                    "Similarity": 1.0,
+                    "Sequence": "KWRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11546",
+                    "Similarity": 1.0,
+                    "Sequence": "CKYLLKWR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_12371",
+                    "Similarity": 1.0,
+                    "Sequence": "KWRRW"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:5% Hemolysis=>256 µM,Human embryonic kidney HEK293 cells:-=NA",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=4µM),Escherichia coli UB1005(MIC=8µM),Salmonella enterica subsp. enterica serovar Typhimurium C77-31(MIC=16µM),Salmonella enterica subsp. enterica serovar Typhimurium ATCC 14028(MIC=32µM),Salmonella enterica subsp. enterica serovar Pullorum C79-13(MIC=16µM),Salmonella enterica subsp. enterica serovar Typhi CMCC 50071(MIC=128µM),Staphylococcus aureus ATCC 29213(MIC=8µM),Staphylococcus aureus ATCC 25923(MIC=32µM),Staphylococcus epidermidis ATCC 12228(MIC=8µM),Escherichia coli ATCC 25922(MIC=8µM),Escherichia coli ATCC 25922(MIC=16µM),Escherichia coli ATCC 25922(MIC=>128µM)"
+        }
+    }
+}

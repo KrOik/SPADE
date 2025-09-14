@@ -1,0 +1,81 @@
+{
+    "SPADE_UN_20160": {
+        "Sequence Information": {
+            "Peptide Name": "BMAP-28(1-18)",
+            "Sequence": "GGLRSLGRKILRAWKKYG",
+            "Sequence Length": 18,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anticancer",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "2NDC",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P54229",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P54229",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Structural insight into the mechanism of action of antimicrobial peptide BMAP-28(1-18) and its analogue mutBMAP18.",
+                    "Pubmed ID": "30336202",
+                    "Reference": "J Struct Biol. 2018;:",
+                    "Author": "Agadi N, Vasudevan S, Kumar A",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/30336202"
+                },
+                {
+                    "Title": "Anticancer Activities of Antimicrobial BmKn2 Peptides Against Oral and Colon Cancer Cells",
+                    "Pubmed ID": "",
+                    "Reference": "Int J Pept Res Ther. 2014;20:501–509",
+                    "Author": "Arpornsuwan T, Sriwai W, Jaresitthikunchai J, Phaonakrop N, Sritanaudomchai H, Roytrakul S",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/"
+                },
+                {
+                    "Title": "Assessment of in vitro activities of novel modified antimicrobial peptides against clarithromycin resistant Mycobacterium abscessus.",
+                    "Pubmed ID": "34780520",
+                    "Reference": "PLoS One. 2021;16:e0260003",
+                    "Author": "Sudadech P, Roytrakul S, Kaewprasert O, Sirichoat A, Chetchotisakd P, Kanthawong S, Faksri K",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/34780520"
+                }
+            ],
+            "Mass": 2059.46,
+            "PI": 11.74,
+            "Net Charge": 6,
+            "Hydrophobicity": -0.67,
+            "Frequent Amino Acids": "GKL",
+            "Absent Amino Acids": "CDEFHMNOPQTUV",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 13,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_20160",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02464",
+                    "Similarity": 1.0,
+                    "Sequence": "GGLRSLGRKILRAWKKYGPIIVPIIRIG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02486",
+                    "Similarity": 1.0,
+                    "Sequence": "GGLRSLGRKILRAWKKYGPQATPATRQ"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04275",
+                    "Similarity": 1.0,
+                    "Sequence": "GGLRSLGRKILRAWKKYGPIIVPIIRI"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:0.5% Hemolysis=50 µM,Human erythrocytes:1.9% Hemolysis=100 µM,Human erythrocytes:4.1% Hemolysis=150 µM,Human erythrocytes:0% Hemolysis=24.28 µM",
+            "Target Organism": "Escherichia coli K-12(MIC=2µM),Escherichia coli K-12(MBC=4µM),Bacillus subtilis 168(MIC=8µM),Bacillus subtilis 168(MBC=8µM),Bacillus subtilis ATCC 6633(MIC50=8.74µM),Staphylococcus aureus ATCC 6538(MIC50=>48.56µM),Staphylococcus aureus DMST 20651(MIC50=>48.56µM),Staphylococcus epidermidis ATCC 12228(MIC50=24.28µM),Acinetobacter baumannii ATCC 19606(MIC50=7.28µM),Escherichia coli ATCC 25922(MIC50=16.99µM),Salmonella enterica subsp. enterica serovar Typhi DMST 562(MIC50=6.07µM),Human colon adenocarcinoma SW620(IC50=>48.56µM),Human squamous cell oral carcinoma HSC-4(IC50=>48.56µM),Mycobacterium abscessus ATCC 19977(MIC=>400µg/ml)"
+        }
+    }
+}

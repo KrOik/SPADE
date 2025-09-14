@@ -1,0 +1,48 @@
+{
+    "SPADE_N_15235": {
+        "Sequence Information": {
+            "Peptide Name": "Fusaristatin C",
+            "Sequence": "XXS",
+            "Sequence Length": 3,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anticancer",
+                "Antifungal"
+            ],
+            "Source": "1. Pithomyces sp.",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Fusaristatin C, a Cyclic Lipodepsipeptide from Pithomyces sp. RKDO 1698.",
+                    "Pubmed ID": "30525612",
+                    "Reference": "J Nat Prod. 2018;81:2768-2772",
+                    "Author": "MacIntyre LW, Marchbank DH, Correa H, Kerr RG",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/30525612"
+                }
+            ],
+            "SPADE ID": "SPADE_N_15235",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00001",
+                    "Similarity": 1.0,
+                    "Sequence": "GSGVIPTISHECHMNSFQFVFTCCS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00002",
+                    "Similarity": 1.0,
+                    "Sequence": "WKSESVCTPGCVTGLLQTCFLQTITCNCKISK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00003",
+                    "Similarity": 1.0,
+                    "Sequence": "ADRGWIKTLTKDCPNVISSICAGTIITACKNCA"
+                }
+            ],
+            "Hemolytic Activity": "Vero cells:IC50=180 µM",
+            "Target Organism": "Staphylococcus aureus ATCC 33591(no activity data),Staphylococcus warneri ATCC 17917(no activity data),Enterococcus faecium EF379(no activity data),Pseudomonas aeruginosa ATCC 14210(no activity data),Proteus vulgaris ATCC 12454(no activity data),Mycobacterium tuberculosis(no activity data),Candida albicans ATCC 14035(no activity data),Human breast adenocarcinoma MCF-7(IC50=106µM),Human breast adenocarcinoma MDA-MB-231(IC50=99µM),Human colon adenocarcinoma HCT 116(IC50=48µM)"
+        }
+    }
+}

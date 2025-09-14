@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_15619": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_15619",
+            "Peptide Name": "B18K",
+            "Source": "Synthetic",
+            "Family": "",
+            "Gene": "Not found",
+            "Sequence": "GFQKVKAQAATCNHTVMA",
+            "Sequence Length": 18,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Notavailable"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Target Organism": "Tumor cells:MCF-7 (IC50>131.0 µM ); MCF-7/G11-TR1 (IC50>131.0 µM ); MCF-7/G11-TR5 (IC50>131.0 µM ); MDA-MB-231 (IC50>131.0 µM ); MDA-MB-468 (IC50>131.0 µM ); SK-BR-3 (IC50>131.0 µM ); T-47D  (IC50>131.0 µM ); ZR-75-1 (IC50>131.0 µM )",
+            "Hemolytic Activity": "Not available",
+            "Cytotoxicity": "IC50 on PBMCs was = 92.0 ± 39.6 μM",
+            "Binding Target": "Not available",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C81H133N25O24S2",
+            "Mass": 1905.21,
+            "PI": 9.31,
+            "Net Charge": 3,
+            "Hydrophobicity": -0.03,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "may induce cell death through processes involving membrane surface blebs, loss of membrane integrity, PI internalization, LDH release and PS externalization, coupled with coordinated regulation of Src•Erk1/2 signaling and mitochondrial events.",
+            "Literature": [
+                {
+                    "Title": "Development of a Cationic Amphiphilic Helical Peptidomimetic (B18L) As A Novel Anti-Cancer Drug Lead",
+                    "Pubmed ID": "32872253",
+                    "Reference": ". Cancers (Basel). 2020 Aug 28;12(9)2448.",
+                    "Author": "Lyu Y, Kopcho S, Alvarez FA, Okeoma BC, Okeoma CM.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=32872253"
+                }
+            ],
+            "Frequent Amino Acids": "AKQ",
+            "Absent Amino Acids": "DEILOPRSUWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 15,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_15621",
+                    "Similarity": 0.8888888888888888,
+                    "Sequence": "GFQKVKAQALTCLHTVMA"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_00784",
+                    "Similarity": 0.5555555555555556,
+                    "Sequence": "INWKKIFQKVKNLV"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_22352",
+                    "Similarity": 0.5,
+                    "Sequence": "HSGIFTDSYSRYRKAAVKAYLAAVLKRYKQKVKNK"
+                }
+            ]
+        }
+    }
+}

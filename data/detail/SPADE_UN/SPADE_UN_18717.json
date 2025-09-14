@@ -1,0 +1,70 @@
+{
+    "SPADE_UN_18717": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_18717",
+            "Peptide Name": "cAMP1782 (cAMP_1782; Predicted AMPs, UCLL1)",
+            "Source": "AI predicted from human microbiota:gut",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "RRFKRNCAKAGIQQEIRKREHYEKPSVRRKKKSEAARKRKYK",
+            "Sequence Length": 42,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 5244.11,
+            "PI": 11.32,
+            "Hydrophobicity": -2.09,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Ma Y, Guo Z, Xia B, Zhang Y, Liu X, Yu Y, Tang N, Tong X, Wang M, Ye X, Feng J, Chen Y, Wang J. 2022",
+                    "Reference": "Nat Biotechnol. 2022 Mar 3. doi: 10.1038/s41587-022-01226-0.PubMed",
+                    "Title": "Identification of antimicrobial peptides from the human gut microbiome using deep learning."
+                }
+            ],
+            "Frequent Amino Acids": "KRA",
+            "Absent Amino Acids": "DLMOTUW",
+            "Basic Residues": 20,
+            "Acidic Residues": 4,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 33,
+            "Positive Residues": 20,
+            "Negative Residues": 4,
+            "Net Charge": 16,
+            "Comments": "APD analysis reveals this sequence is most similar (33.33%) toreptile \tAs-CATH4Mol formula: C226H391N83O58S1; Mol Wt: 5244.146; Mol Ex Coeff: 3042.5; GRAVY: -2.09.Activity: Inhibited the growth of S-aureus (relative OD drop by 0%), B. subtilis (55%), E. coli (3%), and P-aeruginosa (37%) at 60 uM. Sequence provided by Dr. Jun Wang.",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_18695",
+                    "Similarity": 0.9523809523809523,
+                    "Sequence": "DSALRRFKRSCAKAGIQQEIRKREHYEKPSVRRKKKSEAARKRKYN"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_01544",
+                    "Similarity": 0.8333333333333334,
+                    "Sequence": "RKRKRKRLMWWML"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_09446",
+                    "Similarity": 0.8,
+                    "Sequence": "SKTIVRKNESIDDALRRFKRAVSKTGTLQEVRKREFYEKPSVRRKKKSEAARKRK"
+                }
+            ]
+        }
+    }
+}

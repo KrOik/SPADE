@@ -1,0 +1,78 @@
+{
+    "SPADE_N_05833": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_05833",
+            "Peptide Name": "Cecropin A1 (insects, arthropods, invertebrates, animals)",
+            "Source": "Aedes albopictus (Asian tiger mosquito)",
+            "Family": "Not found",
+            "Gene": "CECA1",
+            "Sequence": "GGLKKLGKKLEGVGKRVFKASEKALPVAVGIKALGK",
+            "Sequence Length": 36,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P81417"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C169H300N48O42",
+            "Mass": 3676.49,
+            "PI": 10.54,
+            "Net Charge": 8,
+            "Hydrophobicity": -0.04,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Cecropins have lytic and antibacterial activity against several Gram-positive and Gram-negative bacteria.",
+            "Literature": [
+                {
+                    "Title": "Peptide sequence of an antibiotic cecropin from the vector mosquito, Aedes albopictus.",
+                    "Pubmed ID": "9712710",
+                    "Reference": "Biochem. Biophys. Res. Commun. 1998 Aug; 249(2)410-415.",
+                    "Author": "Sun D, Eccleston ER, Fallon AM.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=9712710"
+                },
+                {
+                    "Title": "Cloning and expression of three cecropin cDNAs from a mosquito cell line.",
+                    "Pubmed ID": "",
+                    "Author": "Fallon A.M.,Eccleston E.D.,Sun D."
+                }
+            ],
+            "Frequent Amino Acids": "KGL",
+            "Absent Amino Acids": "CDHMNOQTUWY",
+            "Basic Residues": 10,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 16,
+            "Polar Residues": 19,
+            "Positive Residues": 10,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02722",
+                    "Similarity": 1.0,
+                    "Sequence": "GGLKKLGKKLEGVGKRVFKASEKALPVAVGIKALG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08009",
+                    "Similarity": 1.0,
+                    "Sequence": "MNFTKLFAIVLLAALVLLGQTEAGGLKKLGKKLEGVGKRVFKASEKALPVAVGIKALGK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07992",
+                    "Similarity": 0.9722222222222222,
+                    "Sequence": "MNFNKLFAIVLLAALVLLGQTEAGGLKKFGKKLEGVGKRVFKASEKALPVAVGIKALGK"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "SPADE_N_00140": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00140",
+            "Peptide Name": "Carnocyclin A (CclA; Bacteriocin)",
+            "Source": "Carnobacterium maltaromaticum UAL307 (Gram-positive bacteria)",
+            "Family": "Belongs to the class IIc bacteriocin",
+            "Gene": "cclA",
+            "Sequence": "LVAYGIAQGTAEKVVSLINAGLTVGSIISILGGVTVGLSGVFTAVKAAIAKQGIKKAIQL",
+            "Sequence Length": 60,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/B2MVM5"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+"
+            ],
+            "Target Organism": "Gram-positive bacteria:Carnobacterium maltaromaticum UAL26, C. maltaromaticum LV17A, C. divergens LV13, Brochothrix campestris ATCC 43754, B. thermosphacta ATCC 11509, Enterococcus faecalis ATCC 7080, E. faecium ATCC 19434, E. faecium BFE900, Lactococcus lactis subsp. lactis ATCC 11454, Lactococcus lactis subsp. cremoris ATCC 11602, Lactococcus lactis subsp. lactis DPC3147, Lactobacillus sakeii 706, L. sakei UAL1218, Leuconostoc mesenteroides Y105, Pediococcus acidilactici PAC1.0, Listeria monocytogenes ATCC 15313, Listeria monocytogenes H7762, Listeria monocytogenes ATCC 43256, Listeria monocytogenes HPB 642, Listeria monocytogenes UAFM 1, Listeria monocytogenes UAFM 15, Staphylococcus aureus ATCC 25923, Staphylococcus aureus ATCC 6538, Staphylococcus aureus ATCC 29213.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Lipid II",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "No specific N-terminal",
+            "C-terminal Modification": "No specific C-terminal",
+            "Stereochemistry": "L",
+            "Structure Description": "The NMR study results reveal that CclA preferentially binds halide anions and has a structure that is surprisingly similar to that of AS-48 despite low sequence identity, different oligomeric state, and disparate function. CclA folds into a compact globular bundle, comprised of four helices surrounding a hydrophobic core.",
+            "Formula": "C269H463N69O76",
+            "Mass": 5879.97,
+            "PI": 10.0,
+            "Net Charge": 4,
+            "Hydrophobicity": 1.06,
+            "Half Life": "Mammalian:5.5 hourYeast:3 minE.coli:2 min",
+            "Function": "Carnocyclin A (CclA) is a potent antimicrobial peptide from Carnobacterium maltaromaticum UAL307 that displays a broad spectrum of activity against numerous Gram-positive organisms.",
+            "Biophysicochemical properties": "pH dependence (Stable from pH 2 to 12); Temperature dependence (Displays a high degree of stability when incubated at temperatures between -80 and 75 degrees Celsius for 60 minutes. Autoclaving the peptide at 121 degrees Celsius for 15 minutes had no effect but incubation at 100 degrees Celsius for 60 minutes caused a 32-fold reduction in activity).",
+            "Literature": [
+                {
+                    "Title": "Isolation and characterization of carnocyclin a, a novel circular bacteriocin produced by Carnobacterium maltaromaticum UAL307.",
+                    "Pubmed ID": "18552180",
+                    "Reference": "Appl Environ Microbiol. 2008 Aug;74(15)4756-4763.",
+                    "Author": "Martin-Visscher LA, van Belkum MJ, Garneau-Tsodikova S, Whittal RM, Zheng J, McMullen LM, Vederas JC.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=18552180"
+                },
+                {
+                    "Title": "The three-dimensional structure of carnocyclin A reveals that many circular bacteriocins share a common structural motif.",
+                    "Pubmed ID": "19692336",
+                    "Reference": "J Biol Chem. 2009 Oct 16;284(42)28674-81.",
+                    "Author": "Martin-Visscher LA, Gong X, Duszyk M, Vederas JC.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=19692336"
+                }
+            ],
+            "Frequent Amino Acids": "AGI",
+            "Absent Amino Acids": "CDHMOPRUW",
+            "Basic Residues": 5,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 33,
+            "Polar Residues": 35,
+            "Positive Residues": 5,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06053",
+                    "Similarity": 1.0,
+                    "Sequence": "MLYELVAYGIAQGTAEKVVSLINAGLTVGSIISILGGVTVGLSGVFTAVKAAIAKQGIKKAIQL"
+                }
+            ]
+        }
+    }
+}

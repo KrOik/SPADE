@@ -1,0 +1,68 @@
+{
+    "SPADE_N_15327": {
+        "Sequence Information": {
+            "Peptide Name": "CATH 2",
+            "Sequence": "RFRLPFRRPPIRIHPPPFYPPFRRFLGRR",
+            "Sequence Length": 29,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anticancer",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer\n2. DNA / RNA",
+            "Source": "1. Capra hircus ",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P85170",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P85170",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Functional Analyses of Three Targeted DNA Antimicrobial Peptides Derived from Goats.",
+                    "Pubmed ID": "37892141",
+                    "Reference": "Biomolecules. 2023;13:1453",
+                    "Author": "Wang A, Zhou M, Chen Q, Jin HZ, Xu G, Guo R, Wang J, Lai R",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/37892141"
+                }
+            ],
+            "Mass": 3746.47,
+            "PI": 12.0,
+            "Net Charge": 10,
+            "Hydrophobicity": -0.95,
+            "Frequent Amino Acids": "RPF",
+            "Absent Amino Acids": "ACDEKMNOQSTUVW",
+            "Basic Residues": 10,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 20,
+            "Positive Residues": 10,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_N_15327",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03222",
+                    "Similarity": 1.0,
+                    "Sequence": "RFRLPFRRPPIRIHPPPFYPPFRRFL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_16318",
+                    "Similarity": 1.0,
+                    "Sequence": "RFRLPFRRPWPIRIHPPPFYPWPFRRFL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_16319",
+                    "Similarity": 1.0,
+                    "Sequence": "RFRLPFRRPPIRIPPPFYPPFRRFL"
+                }
+            ],
+            "Hemolytic Activity": "Mouse erythrocytes:2.13%  Hemolysis=200 µg/ml",
+            "Target Organism": "Escherichia coli CMCC 44102(MIC=37.5µg/ml),Escherichia coli ATCC 25922(MIC=37.5µg/ml),Pseudomonas aeruginosa CMCC 10104(MIC=75µg/ml),Shigella flexneri ATCC 12022(MIC=75µg/ml),Acinetobacter baumannii ATCC 19606(MIC=37.5µg/ml),Staphylococcus aureus CMCC 26003(MIC=18.75µg/ml),Staphylococcus aureus ATCC 25923(MIC=>100µg/ml),Clostridium perfringens ATCC 13124(MIC=37.5µg/ml),Enterococcus faecalis ATCC 29212(MIC=>100µg/ml),Candida albicans CMCC 98001(MIC=>100µg/ml),Human hepatocellular carcinoma HepG2(30-40% Cytotoxicity=200µg/ml),Mouse breast cancer 4T1(20-30% Cytotoxicity=200µg/ml)"
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "SPADE_N_02413": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02413",
+            "Peptide Name": "Antimicrobial peptide NK-lysin (houses, mammals, animals)",
+            "Source": "Equus caballus (Horse)",
+            "Family": "Not found",
+            "Gene": "NKL",
+            "Sequence": "GIACWSCRKILQKLEDLVGEQPNEATINEAASRVCRNLGLLRGACKKIMRTCLRLISRDILAGKKPQEVCVDIKLCKH",
+            "Sequence Length": 78,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q8HZQ3"
+            ],
+            "Protein Existence": "Transcript level",
+            "Biological Activity": [
+                "Antimicrobial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C374H646N116O106S8",
+            "Mass": 8720.36,
+            "PI": 9.3,
+            "Net Charge": 8,
+            "Hydrophobicity": -0.11,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "May be an effector molecule of cytotoxic activity. Has antimicrobial activity.",
+            "PTM": "Contains three disulfide bonds 4-76; 7-70; 35-45.",
+            "Literature": [
+                {
+                    "Title": "cDNA sequence of equine NK-lysin.",
+                    "Pubmed ID": "PubMed ID is not available",
+                    "Reference": "Submitted (OCT-2002) to the EMBL/GenBank/DDBJ databases",
+                    "Author": "Davis E.G, Zhang G, Sang Y, Rush B.R, Ross C, Blecha F.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=PubMed ID is not available"
+                }
+            ],
+            "Frequent Amino Acids": "LKC",
+            "Absent Amino Acids": "FOUY",
+            "Basic Residues": 16,
+            "Acidic Residues": 8,
+            "Hydrophobic Residues": 31,
+            "Polar Residues": 44,
+            "Positive Residues": 16,
+            "Negative Residues": 8,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02580",
+                    "Similarity": 0.6923076923076923,
+                    "Sequence": "GLICESCRKIIQKLEDMVGPQPNEDTVTQAASRVCDKMKILRGVCKKIMRTFLRRISKDILTGKKPQAICVDIKICKE"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03948",
+                    "Similarity": 0.6923076923076923,
+                    "Sequence": "GLICESCRKIIQKLEDMVGPQPNEDTVTQAASRVCDKMKILRGVCKKIMRTFLRRISKDILTGKKPQAICVDIKICKEKTGLI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07586",
+                    "Similarity": 0.6883116883116883,
+                    "Sequence": "LICESCRKIIQKLEDMVGPQPNEDTVTQAASRVCDKMKILRGVCKKIMRTFLRRISKDILTGKKPQAICVDIKICKE"
+                }
+            ]
+        }
+    }
+}

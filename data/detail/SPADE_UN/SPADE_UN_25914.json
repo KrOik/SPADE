@@ -1,0 +1,61 @@
+{
+    "SPADE_UN_25914": {
+        "Sequence Information": {
+            "Peptide Name": "Brevinin-1LTe [L2,6,13,17l;A9,10l;K7,11,22,23r;Q19r]]",
+            "Sequence": "FLGTVLRVLLRVLPAALCRIFRRC",
+            "Sequence Length": 24,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell",
+                "Antibiofilm"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "A promising antibiotic candidate, brevinin-1 analogue 5R, against drug-resistant bacteria, with insights into its membrane-targeting mechanism",
+                    "Pubmed ID": "38074470",
+                    "Reference": "Comput Struct Biotechnol J. 2023;21:5719-5737",
+                    "Author": "Zou W, Sun R, Yao A, Zhou M, Chen X, Ma C, Wang T, Jiang Y, Chen T, Shaw C, Wang L",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/38074470"
+                }
+            ],
+            "Mass": 2786.5,
+            "PI": 11.83,
+            "Net Charge": 5,
+            "Hydrophobicity": 1.2,
+            "Frequent Amino Acids": "LRV",
+            "Absent Amino Acids": "DEHKMNOQSUWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 16,
+            "Polar Residues": 8,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_25914",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_25913",
+                    "Similarity": 0.9166666666666666,
+                    "Sequence": "FLGTVLKVLLKVLPAALCRIFRRC"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_25911",
+                    "Similarity": 0.875,
+                    "Sequence": "FLGTVLRVAARVLPAALCQIFRRC"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_25912",
+                    "Similarity": 0.875,
+                    "Sequence": "FLGTVLKVLLKVLPAALCQIFRRC"
+                }
+            ],
+            "Hemolytic Activity": "Horse erythrocytes:50% Hemolysis=>128 µM",
+            "Target Organism": "Staphylococcus aureus ATCC 6538(MIC=2µM),Staphylococcus aureus ATCC 6538(MBC=2µM),Staphylococcus aureus NCTC 12493(MIC=2µM),Staphylococcus aureus NCTC 12493(MBC=4µM),Enterococcus faecalis NCTC 12697(MIC=4µM),Enterococcus faecalis NCTC 12697(MBC=8µM),Escherichia coli ATCC 8739(MIC=2µM),Escherichia coli ATCC 8739(MIC=4µM),Escherichia coli ATCC 8739(MBC=2µM),Klebsiella pneumoniae ATCC 43816(MIC=8µM),Klebsiella pneumoniae ATCC 43816(MBC=8µM),Pseudomonas aeruginosa ATCC 9027(MIC=8µM),Pseudomonas aeruginosa ATCC 9027(MBC=8µM),Acinetobacter baumannii ATCC BAA-747(MIC=4µM),Acinetobacter baumannii ATCC BAA-747(MBC=4µM)"
+        }
+    }
+}

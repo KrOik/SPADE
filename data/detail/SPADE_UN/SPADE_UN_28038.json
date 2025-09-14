@@ -1,0 +1,67 @@
+{
+    "SPADE_UN_28038": {
+        "Sequence Information": {
+            "Peptide Name": "Indolicidin [W8A,W9A,W11A]",
+            "Sequence": "ILPWKWPAAPARR",
+            "Sequence Length": 13,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": " P33046",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/ P33046",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "The effects of tryptophan and hydrophobicity on the structure and bioactivity of novel indolicidin derivatives with promising pharmaceutical potential.",
+                    "Pubmed ID": "20237682",
+                    "Reference": "Org Biomol Chem. 2010;8:1679-1687",
+                    "Author": "Podorieszach AP, Huttunen-Hennelly HE",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/20237682"
+                }
+            ],
+            "Mass": 1561.87,
+            "PI": 12.0,
+            "Net Charge": 3,
+            "Hydrophobicity": -0.45,
+            "Frequent Amino Acids": "APR",
+            "Absent Amino Acids": "CDEFGHMNOQSTUVY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 8,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_28038",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_28037",
+                    "Similarity": 0.9230769230769231,
+                    "Sequence": "ILPWKWPWAPARR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_28039",
+                    "Similarity": 0.9230769230769231,
+                    "Sequence": "ILPWKAPAAPARR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09548",
+                    "Similarity": 0.875,
+                    "Sequence": "ILPWKWPW"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:17% Hemolysis=6700 µg/ml",
+            "Target Organism": "Escherichia coli(no activity data),Pseudomonas aeruginosa(no activity data),Salmonella typhimurium(no activity data),Candida albicans(no activity data),Staphylococcus aureus(no activity data)"
+        }
+    }
+}

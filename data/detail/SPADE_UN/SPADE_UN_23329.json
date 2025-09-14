@@ -1,0 +1,59 @@
+{
+    "SPADE_UN_23329": {
+        "Sequence Information": {
+            "Peptide Name": "",
+            "Sequence": "LRRLRLRLLRLLRRLLRLL",
+            "Sequence Length": 19,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "PepVAE3: variational autoencoder framework for antimicrobial peptide generation and activity prediction",
+                    "Pubmed ID": "",
+                    "Reference": "bioRxiv. 2021;doi: https://doi.org/10.1101/2021.04.07.438720:",
+                    "Author": "Dean SN, Alvarez JAE, Zabetakis D, Walper SA, Malanoski AP",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/"
+                }
+            ],
+            "Mass": 2512.23,
+            "PI": 12.0,
+            "Net Charge": 8,
+            "Hydrophobicity": 0.31,
+            "Frequent Amino Acids": "LR",
+            "Absent Amino Acids": "ACDEFGHIKMNOPQSTUVWY",
+            "Basic Residues": 8,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 8,
+            "Positive Residues": 8,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_23329",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_12332",
+                    "Similarity": 1.0,
+                    "Sequence": "LRLLRRL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_15440",
+                    "Similarity": 1.0,
+                    "Sequence": "RLLRLLRRLLRLLR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_17176",
+                    "Similarity": 1.0,
+                    "Sequence": "RLLRLLRRLLRLLRRLLRC"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Escherichia coli K-12(MIC=>128µM),Staphylococcus aureus ATCC 12600(MIC=128µM),Pseudomonas aeruginosa ATCC 27853(MIC=>128µM)"
+        }
+    }
+}

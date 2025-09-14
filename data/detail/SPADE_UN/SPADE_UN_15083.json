@@ -1,0 +1,71 @@
+{
+    "SPADE_UN_15083": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_15083",
+            "Peptide Name": "E6apc1",
+            "Source": "Synthetic construct(derived from E6-associated protein (E6AP))",
+            "Family": "Papillomaviridae",
+            "Gene": "Not found",
+            "Sequence": "YKFACPECPKRFMRSDHLTLHILLHENKK",
+            "Sequence Length": 29,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antiviral"
+            ],
+            "Target Organism": "[Ref.15182185]Human papillomavirus(HPV):inhibition of E6-E6ap interaction(IC50>1000 μM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "E6 protein",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Acetylation",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C160H252N46O40S3",
+            "Mass": 3556.19,
+            "PI": 9.24,
+            "Net Charge": 6,
+            "Hydrophobicity": -0.7,
+            "Half Life": "Mammalian:2.8 hourYeast:10 minE.coli:2 min",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Design and characterization of helical peptides that inhibit the E6 protein of papillomavirus.",
+                    "Pubmed ID": "15182185",
+                    "Reference": "Biochemistry. 2004 Jun 15;43(23)7421-31.",
+                    "Author": "Liu Y, Liu Z, Androphy E, Chen J, Baleja JD.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=15182185"
+                }
+            ],
+            "Frequent Amino Acids": "KLH",
+            "Absent Amino Acids": "GOQUVW",
+            "Basic Residues": 9,
+            "Acidic Residues": 3,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 16,
+            "Positive Residues": 9,
+            "Negative Residues": 3,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_15084",
+                    "Similarity": 0.7931034482758621,
+                    "Sequence": "YKFACPECPKRFMRSDHLSKHITLHELLGEERR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_01182",
+                    "Similarity": 0.75,
+                    "Sequence": "KKFAKKFAKKFAKKFAKKFAKKFA"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_01170",
+                    "Similarity": 0.6,
+                    "Sequence": "KFAKKFAKKFAKKFAKKFAK"
+                }
+            ]
+        }
+    }
+}

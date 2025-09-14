@@ -1,0 +1,71 @@
+{
+    "SPADE_UN_18785": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_18785",
+            "Peptide Name": "Chimera C5 (hybrid peptide of hBD2 and hBD3; synthetic AMPs, 3S=S, UCSS1a)",
+            "Source": "Hybrid peptide, designed, man-made sequences",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "GIINTLQKYYCRVRGAICHPVFCPRRYKQIGKCSTRGRKCCRRKK",
+            "Sequence Length": 45,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-MRSA"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 5346.43,
+            "PI": 10.52,
+            "Hydrophobicity": -0.76,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Jung S, Mysliwy J, Spudy B, Lorenzen I, Reiss K, Gelhaus C, Podschun R, Leippe M, Grötzinger J. 2011",
+                    "Reference": "Antimicrob Agents Chemother. 2011 Mar;55(3):954-60. doi: 10.1128/AAC.00872-10.PubMed",
+                    "Title": "Human beta-defensin 2 and beta-defensin 3 chimeric peptides reveal the structural basis of the pathogen specificity of their parent molecules."
+                }
+            ],
+            "Frequent Amino Acids": "RCK",
+            "Absent Amino Acids": "DEMOUW",
+            "Basic Residues": 15,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 14,
+            "Polar Residues": 33,
+            "Positive Residues": 15,
+            "Negative Residues": 0,
+            "Net Charge": 15,
+            "Comments": "Sequence analysis: APD analysis reveals that this sequence is most similar (82.61%) toChimera C3. It contains both the N-terminal and C-terminal fragments of hBD3 and a central fragment from hBD2 (more like hBD3).  R: 19%; C=K: 13%. GRAVY: -0.76; M Wt: 5346.496; M formula: C230H389N79O55S6, mol ex coeff: 4845.Activity: active against both E. coli (MBC 0.39 ug/ml) and S. aureus (MBC 0.39 ug/ml) better than either hBD2 (only Staph) or hBD3 (both). Also active against K. pneumoniae CF1\nESBL (MBC 0.39-1.56 ug/ml), (MBC 1.56 ug/ml), P. aeruginosa (MBC 1.56 ug/ml), E. faecalis ATCC 51299 (MBC 1.56 ug/ml) anti-VRE, E. faecium 4 strains (MBC 0.39-1.56 ug/ml), S. aureus MRSA (MBC 0.39-0.78 ug/ml), and C.albicans 5 strains (MBC >100 ug/ml); Anaerobic bacteria: B. fragilis ATCC 25285 (MBC 50 ug/ml), C. perfringens ATCC 13124 (MBC 6.25 ug/ml), P. anaerobius ATCC 27337 (MBC 25 ug/ml), P. acnes ATCC 6919 (MBC 3.125 ug/ml), and P. oralis ATCC 33321 (MBC > 100 ug/ml).Antimicrobial robustness: NaCl-sensitive:E. coli (150 mM); NaCl-insensitive:S. aureus (150 mM). N-terminal hBD3 is important for salt-resistant activity against Staph.Toxicity: no hemolysis at 20 uM (pH 7.4 and 150 mM NaCl).",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_15686",
+                    "Similarity": 1.0,
+                    "Sequence": "GKCSTRGRKCCRRKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_04316",
+                    "Similarity": 1.0,
+                    "Sequence": "RGRKCCRRKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_25528",
+                    "Similarity": 1.0,
+                    "Sequence": "RGRKCCRRKKKCCKKP"
+                }
+            ]
+        }
+    }
+}

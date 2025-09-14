@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_25770": {
+        "Sequence Information": {
+            "Peptide Name": "Hemoglobin subunit beta (54-68)[I55K;N57W;E58K;Q61W;A62K;G64A]",
+            "Sequence": "IKHWKKVWKHAKKVL",
+            "Sequence Length": 15,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer\n2. DNA / RNA",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P86919-1",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P86919-1",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Rational design and characterization of cell-selective antimicrobial peptides based on a bioactive peptide from Crocodylus siamensis hemoglobin.",
+                    "Pubmed ID": "37752188",
+                    "Reference": "Sci Rep. 2023;13:16096",
+                    "Author": "Sosiangdi S, Taemaitree L, Tankrathok A, Daduang S, Boonlue S, Klaynongsruang S, Jangpromma N",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/37752188"
+                }
+            ],
+            "Mass": 1929.4,
+            "PI": 10.7,
+            "Net Charge": 8,
+            "Hydrophobicity": -0.87,
+            "Frequent Amino Acids": "KHV",
+            "Absent Amino Acids": "CDEFGMNOPQRSTUY",
+            "Basic Residues": 8,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 10,
+            "Positive Residues": 8,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_25770",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_05279",
+                    "Similarity": 1.0,
+                    "Sequence": "AKVRRIKHW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08644",
+                    "Similarity": 1.0,
+                    "Sequence": "KKVLFKLKFK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_20031",
+                    "Similarity": 1.0,
+                    "Sequence": "KKVLFKLKFK"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=>2000 µg/ml,Human PBMC:50% Cell death=>200 µg/ml,Human keratinocytes HaCat:50% Cell death=>200 µg/ml,Vero cells:20% Cytotoxicity =100 µg/ml,Mouse fibroblasts 3T3-L1:7% Cytotoxicity=100 µg/ml",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC90=4µg/ml),Escherichia coli ATCC 25922(MBC=6µg/ml),Klebsiella pneumoniae ATCC 27736(MIC90=10µg/ml),Klebsiella pneumoniae ATCC 27736(MBC=25µg/ml),Pseudomonas aeruginosa ATCC 27853(MIC90=10µg/ml),Pseudomonas aeruginosa ATCC 27853(MBC=18µg/ml),Staphylococcus aureus ATCC 25923(MIC90=12µg/ml),Staphylococcus aureus ATCC 25923(MBC=25µg/ml),Bacillus subtilis ATCC 6633(MIC90=8µg/ml),Bacillus subtilis ATCC 6633(MBC=12µg/ml),Staphylococcus epidermidis ATCC 12228(MIC90=9µg/ml),Staphylococcus epidermidis ATCC 12228(MBC=12µg/ml)"
+        }
+    }
+}

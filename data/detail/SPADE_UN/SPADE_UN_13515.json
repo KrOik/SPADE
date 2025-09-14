@@ -1,0 +1,71 @@
+{
+    "SPADE_UN_13515": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_13515",
+            "Peptide Name": "EKL1P",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "NVTFLDLEYEMKKLEEAIKKLEESYIDLKELGTYEYGSGK",
+            "Sequence Length": 40,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antiviral(SARS-CoV-2)"
+            ],
+            "Target Organism": "[Ref.34367893]Virus:SARS-CoV-2:Inhibition of Pseudovirus(PsV) infection in Huh-7 cells(IC50=0.182±0.034 μmol/L),Inhibition of Pseudovirus(PsV) infection in 293T/ACE2 cells(IC50=0.812±0.182 μmol/L),Inhibition of Pseudovirus(PsV) infection in Caco-2 cells(IC50=0.231±0.022 μmol/L),inhibition of cell-cell fusion(IC50=0.064±0.004 μmol/L).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "liposomes",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Palm",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C214H335N47O70S",
+            "Mass": 4718.29,
+            "PI": 4.57,
+            "Net Charge": -4,
+            "Hydrophobicity": -0.72,
+            "Half Life": "Mammalian:1.4 hourYeast:3 minE.coli:>10 hour",
+            "Comments": "The peptide targets a highly conserved target site in HR1 domains in S protein of HCoVs.",
+            "Literature": [
+                {
+                    "Title": "A highly potent and stable pan-coronavirus fusion inhibitor as a candidate prophylactic and therapeutic for COVID-19 and other coronavirus diseases.",
+                    "Pubmed ID": "34367893",
+                    "Reference": "Acta Pharm Sin B. 2021 Aug 2.",
+                    "Author": "Zhou J, Xu W, Liu Z, Wang C, Xia S, Lan Q, Cai Y, Su S, Pu J, Xing L, Xie Y, Lu L, Jiang S, Wang Q.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=34367893"
+                }
+            ],
+            "Frequent Amino Acids": "EKL",
+            "Absent Amino Acids": "CHOPQRUW",
+            "Basic Residues": 6,
+            "Acidic Residues": 10,
+            "Hydrophobic Residues": 16,
+            "Polar Residues": 17,
+            "Positive Residues": 6,
+            "Negative Residues": 10,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_13502",
+                    "Similarity": 1.0,
+                    "Sequence": "SLDQINVTFLDLEYEMKKLEEAIKKLEESYIDLKEL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_13508",
+                    "Similarity": 1.0,
+                    "Sequence": "NVTFLDLEYEMKKLEEAIKKLEESYIDLKELGTYEY"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_13514",
+                    "Similarity": 1.0,
+                    "Sequence": "SLDQINVTFLDLEYEMKKLEEAIKKLEESYIDLKELGTYEYYVKWGSGK"
+                }
+            ]
+        }
+    }
+}

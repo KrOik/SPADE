@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_30581": {
+        "Sequence Information": {
+            "Peptide Name": "Lfcin B (20-25)",
+            "Sequence": "RRWQWR",
+            "Sequence Length": 6,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P24627",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P24627",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Serum stabilities of short tryptophan- and arginine-rich antimicrobial peptide analogs.",
+                    "Pubmed ID": "20844765",
+                    "Reference": "PLoS One. 2010;5:e12684",
+                    "Author": "Nguyen LT, Chau JK, Perry NA, de Boer L, Zaat SA, Vogel H",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/20844765"
+                }
+            ],
+            "Mass": 987.12,
+            "PI": 12.0,
+            "Net Charge": 3,
+            "Hydrophobicity": -3.13,
+            "Frequent Amino Acids": "RWQ",
+            "Absent Amino Acids": "ACDEFGHIKLMNOPSTUVY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 0,
+            "Polar Residues": 6,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_30581",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02451",
+                    "Similarity": 1.0,
+                    "Sequence": "FKCRRWQWRMKKLGAPSITCVRRAF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02472",
+                    "Similarity": 1.0,
+                    "Sequence": "QVVRNPQSCRWNMGVCIPISCPGNMRQIGTCFGPRVPCCRRW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02473",
+                    "Similarity": 1.0,
+                    "Sequence": "QGVRNHVTCRIYGGFCVPIRCPGRTRQIGTCFGRPVKCCRRW"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:-=NA",
+            "Target Organism": "Bacillus subtilis ATCC 6633(LC=60µM),Staphylococcus aureus 42D(LC=>120µM),Escherichia coli ML-35(LC=120µM)"
+        }
+    }
+}

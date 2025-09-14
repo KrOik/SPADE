@@ -1,0 +1,70 @@
+{
+    "SPADE_N_13945": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_13945",
+            "Peptide Name": "Octominin II (synthetic AMPs, UCLL1)",
+            "Source": "Sequence truncation",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "GWLIRGAIHAGKAIHGLI",
+            "Sequence Length": 18,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antifungal",
+                "Antifungal"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 1883.25,
+            "PI": 11.0,
+            "Hydrophobicity": 0.76,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Jayasinghe JNC, Whang I, De Zoysa M.2023",
+                    "Reference": "Int J Mol Sci. 2023 Sep 13;24(18):14053. doi: 10.3390/ijms241814053.Pub-Med.",
+                    "Title": "Antifungal Efficacy of Antimicrobial Peptide Octominin II against Candida albicans"
+                }
+            ],
+            "Frequent Amino Acids": "GIA",
+            "Absent Amino Acids": "CDEFMNOPQSTUVY",
+            "Basic Residues": 4,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 7,
+            "Positive Residues": 4,
+            "Negative Residues": 0,
+            "Net Charge": 4,
+            "Comments": "Peptide discovery: Octominin II was obtained by deleting the last 5 charged amino acids of Octominin (AP03250).Sequence analysis: APD analysis reveals this sequence is most similar (78.26%) toOctomininA: 17%; I=L=N=K: 13%. GRAVY: 0.065; Mol W: 2522.967; Mol formula: C114H196N29O32; Mol Ex coeff: 5550.Activity: active against C. albicans (MIC 80 ug/ml), C. glabrata (MIC 55 ug/ml), and C.auris (MIC 160 ug/ml).Toxicity: murine RBC, HC50 > 100 ug/ml, ~10% hemo.lytic at 100 ug/ml. Little toxicity to RAW 264.7 cells till 200 ug/ml. However, it showed some toxicity to zebrafish larvae 72 hpf (50% survival after 96 h, n=10)Antivirulence:fungi: it suppressed numreous virulence factors related to drug resistance, genes for  the filamentation and hyphal growth, and secreted aspartic proteases;Animal model:Zebrafish: Octominin II decreased the virulence (less nutrophil infiltration) of C. albicans in vivo, which prevents further invasion of Candida.",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02046",
+                    "Similarity": 1.0,
+                    "Sequence": "FFGWLIRGAIHAGKAIHGLIHRRRH"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_13697",
+                    "Similarity": 1.0,
+                    "Sequence": "GWLIRGAIHAGKAIHGLIHRRRH"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_25759",
+                    "Similarity": 1.0,
+                    "Sequence": "GWLIRGAIHAGKAIHGLI"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_21494": {
+        "Sequence Information": {
+            "Peptide Name": "CA-MA analogue P5 (1-14)",
+            "Sequence": "KWKKLLKKPLLKKL",
+            "Sequence Length": 14,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Mechanism of action of antimicrobial peptide P5 truncations against Pseudomonas aeruginosa and Staphylococcus aureus",
+                    "Pubmed ID": "31363941",
+                    "Reference": "AMB Express. 2019;9:122",
+                    "Author": "Kwon JY, Kim MK, Mereuta L, Seo C, Luchian T, Park Y",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/31363941"
+                }
+            ],
+            "Mass": 1764.33,
+            "PI": 10.78,
+            "Net Charge": 7,
+            "Hydrophobicity": -0.77,
+            "Frequent Amino Acids": "KLP",
+            "Absent Amino Acids": "ACDEFGHIMNOQRSTUVY",
+            "Basic Residues": 7,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 9,
+            "Positive Residues": 7,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_21494",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_04911",
+                    "Similarity": 1.0,
+                    "Sequence": "RRMKWKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06891",
+                    "Similarity": 1.0,
+                    "Sequence": "RHIKIWFQNRRMKWKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06947",
+                    "Similarity": 1.0,
+                    "Sequence": "QIKIWFQNRRMKWKK"
+                }
+            ],
+            "Hemolytic Activity": "Human keratinocytes HaCat:0% Killing=100 µM",
+            "Target Organism": "Pseudomonas aeruginosa ATCC 27853(MIC=6.25µM),Acinetobacter baumannii KCTC 2508(MIC=12.5µM),Staphylococcus aureus ATCC 25923(MIC=1.56µM),Bacillus subtilis KCTC 2217(MIC=3.13µM),Pseudomonas aeruginosa ATCC 27853(MIC=12.5µM),Pseudomonas aeruginosa ATCC 27853(MIC=25µM),Pseudomonas aeruginosa ATCC 27853(MIC=>25µM),Staphylococcus aureus ATCC 25923(MIC=0.78µM)"
+        }
+    }
+}

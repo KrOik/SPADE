@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_12036": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_12036",
+            "Peptide Name": "TL-1 (Derived from Temporin-1Tl (TL))",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "FVQWWSKWLGRIL",
+            "Sequence Length": 13,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic form",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.26311041] Gram-positive bacteria :Bacillus subtilis (KCTC 3068)(MIC=2 μM), Staphylococcus epidermidis (KCTC 1917)(MIC=4 μM), Staphylococcus aureus (KCTC 1621)(MIC=2 μM);Gram-negative bacteria :Escherichia coli (KCTC 1682)(MIC=4 μM), Pseudomonas aeruginosa (KCTC 1637)(MIC=32 μM), Salmonella typhimurium (KCTC 1926)(MIC=4 μM)",
+            "Hemolytic Activity": "[Ref.26311041] HC50=21.4 μM against human red blood cells",
+            "Cytotoxicity": "[Ref.26311041] The cell viability of RAW264.7 macrophages cells induced by TL-1 is 112.2%, 109.3% and 109.3% at peptide concentrations of 2.5, 5 and 10 μM.",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C87H123N21O16",
+            "Mass": 1719.04,
+            "PI": 11.0,
+            "Net Charge": 2,
+            "Hydrophobicity": 0.25,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Function": "Antibacterial activity against Gram-positive bacteria and Gram-negative bacteria",
+            "Literature": [
+                {
+                    "Title": "Enhancement of the anti-inflammatory activity of temporin-1Tl-derived antimicrobial peptides by tryptophan, arginine and lysine substitutions.",
+                    "Pubmed ID": "26311041",
+                    "Reference": "J Pept Sci. 2015 Oct;21(10)779-85. doi 10.1002/psc.2807.",
+                    "Author": "Rajasekaran G, Kamalakannan R, Shin SY",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=26311041"
+                }
+            ],
+            "Frequent Amino Acids": "WLF",
+            "Absent Amino Acids": "ACDEHMNOPTUY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 5,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02643",
+                    "Similarity": 1.0,
+                    "Sequence": "GRILSFIKGLAEHL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_05311",
+                    "Similarity": 1.0,
+                    "Sequence": "GRILSRRWK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_25514",
+                    "Similarity": 1.0,
+                    "Sequence": "GRILKFIKKAWRKIHLKFDK"
+                }
+            ]
+        }
+    }
+}

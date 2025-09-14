@@ -1,0 +1,75 @@
+{
+    "SPADE_N_00712": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00712",
+            "Peptide Name": "Piceain 2 (Plants)",
+            "Source": "Picea sitchensis",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "RPRCWIKIKFRCKSLKF",
+            "Sequence Length": 17,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "Gram-positive bacteria:Staphylococcus aureus ATCC 25923 (MIC=9.38 µg/ml), S. aureus ATCC 43300 (MIC=18.75 µg/ml);Gram-negative bacteria:Escherichia coli ATCC 25922 (MIC=37.5 µg/ml), Escherichia coli ML-35P (MIC=37.5 µg/ml), Escherichia coli 08040722 (CI) (MIC=75 µg/ml), Escherichia coli 08A866 (CI) (MIC=37.5 µg/ml), Pseudomonas aeruginosa PA01 (MIC=9.38 µg/ml), Pseudomonas aeruginosa ATCC 27853 (MIC=18.75 µg/ml), Pseudomonas aeruginosa 08031014 (CI) (MIC=37.5 µg/ml).Yeast:Candida albicans ATCC 20032 (MIC=18.75 µg/ml).",
+            "Hemolytic Activity": "[Ref.21644248] At the concentration of 0.0625 mg/ml, Piceain 1 induced human & rabbit red cell hemolysis of 0.6% & 2.2%; At the concentration of 0.125 mg/ml, Piceain 1 induced human & rabbit red cell hemolysis of 0.8% & 4.7%; At the concentration of 0.25 mg/ml, Piceain 1 induced human & rabbit red cell hemolysis of 5.2%&5.2%; At the concentration of 0.5 mg/ml, Piceain 1 induced human & rabbit red cell hemolysis of 5.3% & 12.4%; At the concentration of 1 mg/ml, Piceain 1 induced human & rabbit red cell hemolysis of 11.3% & 66.3%.",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C103H169N31O19S2",
+            "Mass": 2209.77,
+            "PI": 11.08,
+            "Net Charge": 7,
+            "Hydrophobicity": -0.53,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Function": "Active against both Gram-postive and Gram-negative bacteria, fungi. It showed weak hemolysis activity against human and rabbit red cells.",
+            "PTM": "Contains one disulfide bond.",
+            "Literature": [
+                {
+                    "Title": "Two antimicrobial and nematicidal peptides derived from sequences encoded Picea sitchensis.",
+                    "Pubmed ID": "21644248",
+                    "Reference": "J Pept Sci. 2011 Sep;17(9)627-631.",
+                    "Author": "Liu R, Mu L, Liu H, Wei L, Yan T, Chen M, Zhang K, Li J, You D, Lai R.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=21644248"
+                }
+            ],
+            "Frequent Amino Acids": "KRC",
+            "Absent Amino Acids": "ADEGHMNOQTUVY",
+            "Basic Residues": 7,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 10,
+            "Positive Residues": 7,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00711",
+                    "Similarity": 1.0,
+                    "Sequence": "KSLRPRCWIKIKFRCKSLKF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05828",
+                    "Similarity": 1.0,
+                    "Sequence": "RRLRPRRPRLPRPRPRPRPRPR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10947",
+                    "Similarity": 1.0,
+                    "Sequence": "RRIRPRPPRLPRPRPRC"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,77 @@
+{
+    "SPADE_N_00874": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00874",
+            "Peptide Name": "Antimicrobial peptide 1 (AMP1; MiAMP1; Plant defensin)",
+            "Source": "Macadamia integrifolia (Macadamia nut)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "SAFTVWSGPGCNNRAERYSKCGCSAIHQKGGYDFSYTGQTAALYNQAGCSGVAHTRFGSSARACNPFGWKSIFIQC",
+            "Sequence Length": 76,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P80915"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Antifungal"
+            ],
+            "Target Organism": "Alternaria helianthi (MIC=2-5 µg/ml), Botrytis cinerea (MIC=5-10 µg/ml), Ceratocystis parodoxa (MIC=20 µg/ml), Colletotrichum gloeosporioides (MIC=2-5 µg/ml), Fusurium oxysporum (MIC=2-5 µg/ml), Leptosphaeria maculans (MIC=5 µg/ml), Macrophomina phaseolina (MIC<25 µg/ml), Phytophthoru cryptogea (MIC=5-10 µg/ml), Pythium graminicola (MIC=5 µg/ml), Sclerotinia sclerotiorum spores (MIC=5 µg/ml), Sclerotinia sclerotiorum mycelia (MIC=50 µg/ml), Verticilium dahliae (MIC=2 µg/ml), Clavibacter michiganensis (MIC<10 µg/ml), Saccharomyces cerevisiae (MIC=2-5 µg/ml).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Cyclization of a C-terminal Cys residue (forming a disulfide bond)",
+            "Stereochemistry": "L",
+            "Structure Description": "MiAMP1 is made up of eight beta-strands which are arranged in two Greek key motifs. These Greek key motifs associate to form a Greek key beta-barrel. This structure is unique amongst plant antimicrobial proteins and forms a new class which we term the beta-barrelins. (Ref.2)",
+            "Formula": "C354H523N105O106S6",
+            "Mass": 8137.97,
+            "PI": 9.08,
+            "Net Charge": 7,
+            "Hydrophobicity": -0.32,
+            "Half Life": "Mammalian:1.9 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Antimicrobial peptide which inhibits the growth of a variety of fungi, oomycetes, Gram-positive bacterial phytopatogenes and S.cerevisiae in vitro. No activity against E.coli.",
+            "Miscellaneous": "Its antimicrobial activity is diminished by calcium an",
+            "Literature": [
+                {
+                    "Title": "Purification, characterisation and cDNA cloning of an antimicrobial peptide from Macadamia integrifolia.",
+                    "Pubmed ID": "9108242",
+                    "Reference": "Eur J Biochem. 1997 Mar 15;244(3)743-749.",
+                    "Author": "Marcus JP, Goulter KC, Green JL, Harrison SJ, Manners JM.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=9108242"
+                },
+                {
+                    "Title": "MiAMP1, a novel protein from Macadamia integrifolia adopts a Greek key beta-barrel fold unique amongst plant antimicrobial proteins.",
+                    "Pubmed ID": "10543955",
+                    "Reference": "J Mol Biol. 1999 Oct 29;293(3)629-638.",
+                    "Author": "McManus AM, Nielsen KJ, Marcus JP, Harrison SJ, Green JL, Manners JM, Craik DJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=10543955"
+                }
+            ],
+            "Frequent Amino Acids": "GAS",
+            "Absent Amino Acids": "MOU",
+            "Basic Residues": 9,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 28,
+            "Polar Residues": 51,
+            "Positive Residues": 9,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03439",
+                    "Similarity": 0.6842105263157895,
+                    "Sequence": "SYFTAWAGPGCNNHAARYSKCGCSNIGNNVHGGYEFMYQGQTAAAYNTDNCKGVAQTRFSSSVNQACSSFGWKSFFIQC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00873",
+                    "Similarity": 0.6578947368421053,
+                    "Sequence": "SYFSAWAGPGCNNHNARYSKCGCSNIGHNVHGGYEFVYQGQTAAAYNTDNCKGVAQTRFSSSVNQACSNFGWKSVFIQC"
+                }
+            ]
+        }
+    }
+}

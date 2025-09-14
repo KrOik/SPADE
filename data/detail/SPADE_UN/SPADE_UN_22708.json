@@ -1,0 +1,67 @@
+{
+    "SPADE_UN_22708": {
+        "Sequence Information": {
+            "Peptide Name": "Indolicidin cyclic",
+            "Sequence": "ILPWKWPWWPWRR",
+            "Sequence Length": 13,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P33046",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P33046",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Indolicidin analogs with broad-spectrum antimicrobial activity and low hemolytic activity",
+                    "Pubmed ID": "32593681",
+                    "Reference": "Peptides. 2020;132:170356",
+                    "Author": "Smirnova MP, Kolodkin NI, Kolobov AA, Afonin VG, Afonina IV, Stefanenko LI, Shpen VM, Shamova OV",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/32593681"
+                }
+            ],
+            "Mass": 1907.27,
+            "PI": 12.0,
+            "Net Charge": 3,
+            "Hydrophobicity": -1.07,
+            "Frequent Amino Acids": "WPR",
+            "Absent Amino Acids": "ACDEFGHMNOQSTUVY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 2,
+            "Polar Residues": 11,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_22708",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_09544",
+                    "Similarity": 1.0,
+                    "Sequence": "ILPWKWPWWPWR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09545",
+                    "Similarity": 1.0,
+                    "Sequence": "ILPWKWPWWPW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09546",
+                    "Similarity": 1.0,
+                    "Sequence": "ILPWKWPWWP"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=166.7±25.82 µg/ml",
+            "Target Organism": "Escherichia coli ML-35p(MIC50=4.2±0.41µg/ml),Listeria monocytogenes EGD(MIC50=2.2±0.21µg/ml),Candida albicans 820(MIC50=4.7±0.26µg/ml)"
+        }
+    }
+}

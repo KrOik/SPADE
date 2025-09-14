@@ -1,0 +1,75 @@
+{
+    "SPADE_UN_26909": {
+        "Sequence Information": {
+            "Peptide Name": "Segregated-6d ",
+            "Sequence": "LLLLLKKKKKKLLLL",
+            "Sequence Length": 15,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell",
+                "Antibiofilm"
+            ],
+            "Binding Target": "1. Lipid Bilayer\n2. Quorum Sensing",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Can we predict biological activity of antimicrobial peptides from their interactions with model phospholipid membranes?",
+                    "Pubmed ID": "15019200",
+                    "Reference": "Peptides. 2003;24:1693-1703",
+                    "Author": "Papo N, Shai Y",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/15019200"
+                },
+                {
+                    "Title": "The consequence of sequence alteration of an amphipathic alpha-helical antimicrobial peptide and its diastereomers.",
+                    "Pubmed ID": "12110678",
+                    "Reference": "J Biol Chem. 2002;277:33913-33921",
+                    "Author": "Papo N, Oren Z, Pag U, Sahl HG, Shai Y",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/12110678"
+                },
+                {
+                    "Title": "Antimicrobial Peptides against Multidrug-Resistant Pseudomonas aeruginosa Biofilm from Cystic Fibrosis Patients.",
+                    "Pubmed ID": "35759644",
+                    "Reference": "J Med Chem. 2022;:",
+                    "Author": "Ben Hur D, Kapach G, Wani NA, Kiper E, Ashkenazi M, Smollan G, Keller N, Efrati O, Shai Y",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/35759644"
+                }
+            ],
+            "Mass": 1805.47,
+            "PI": 10.7,
+            "Net Charge": 6,
+            "Hydrophobicity": 0.72,
+            "Frequent Amino Acids": "LK",
+            "Absent Amino Acids": "ACDEFGHIMNOPQRSTUVWY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 6,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_26909",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_08390",
+                    "Similarity": 1.0,
+                    "Sequence": "KLLLLLKLLLLK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09717",
+                    "Similarity": 1.0,
+                    "Sequence": "LLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11000",
+                    "Similarity": 1.0,
+                    "Sequence": "LLLGAATG"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:0% Hemolysis=100 µM",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=>56µM),Escherichia coli D21(MIC=7µM),Staphylococcus epidermidis LT1324(MIC=1µM),Pseudomonas aeruginosa ATCC 27853(MIC=8µM),Acinetobacter baumannii ATCC 19606(MIC=50µM),Micrococcus luteus(MIC=0.5µM),Staphylococcus simulans(MIC=1µM),Staphylococcus aureus II ATCC 6538P(MIC=>50µM),Pseudomonas aeruginosa(MIC90=1.56-12.5µM),Pseudomonas aeruginosa PAO1(MIC90=6.25µM)"
+        }
+    }
+}

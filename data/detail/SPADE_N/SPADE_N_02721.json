@@ -1,0 +1,74 @@
+{
+    "SPADE_N_02721": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02721",
+            "Peptide Name": "Cecropin-C (Insects, animals)",
+            "Source": "Aedes albopictus (Asian tiger mosquito)",
+            "Family": "Belongs to the cecropin family",
+            "Gene": "CECC1 AND CECC2",
+            "Sequence": "GGLKKLGKKLEGAGKRVFNAAEKALPVVAGAKALG",
+            "Sequence Length": 35,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q963A8",
+                "http://www.uniprot.org/uniprot/Q9Y0X9"
+            ],
+            "Protein Existence": "Homology",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C156H272N46O41",
+            "Mass": 3448.11,
+            "PI": 10.39,
+            "Net Charge": 6,
+            "Hydrophobicity": 0.01,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Cecropins have lytic and antibacterial activity against several Gram-positive and Gram-negative bacteria (By similarity).",
+            "Literature": [
+                {
+                    "Title": "Multiple antimicrobial peptides and peptides related to bradykinin and neuromedin N isolated from skin secretions of the pickerel frog, Rana palustris.",
+                    "Pubmed ID": "11087945",
+                    "Reference": "Biochim Biophys Acta. 2000 Nov 30;1543(1)95-105.",
+                    "Author": "sir YJ, Knoop FC, Dulka J, Conlon JM.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=11087945"
+                }
+            ],
+            "Frequent Amino Acids": "AGK",
+            "Absent Amino Acids": "CDHIMOQSTUWY",
+            "Basic Residues": 8,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 17,
+            "Polar Residues": 19,
+            "Positive Residues": 8,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02727",
+                    "Similarity": 1.0,
+                    "Sequence": "GGLKKLGKKLEGAGKRVFNAAEKALPVVAGAKAL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07988",
+                    "Similarity": 1.0,
+                    "Sequence": "MNFAKVFVLVAMAVLLLVGQSEAGGLKKLGKKLEGAGKRVFNAAEKALPVVAGAKALGK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08007",
+                    "Similarity": 1.0,
+                    "Sequence": "MNFTKIFVLIAMAALLLVGQSEAGGLKKLGKKLEGAGKRVFNAAEKALPVVAGAKALGK"
+                }
+            ]
+        }
+    }
+}

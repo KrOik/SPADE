@@ -1,0 +1,74 @@
+{
+    "SPADE_N_01324": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01324",
+            "Peptide Name": "Nigrocin-1-OW1 (Frogs, amphibians, animals)",
+            "Source": "Odorrana andersonii (Asian frog)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "GILSGVLGMGKKIVCGLSGLC",
+            "Sequence Length": 21,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "[Ref.22029824]Gram-negative bacteria:Escherichia coli ATCC 25922 (MIC=4.4 µg/ml), Bacillus pyocyaneus CMCCB 10104 (MIC=8.8 µg/ml);Gram-positive bacterium:Staphylococcus aureus ATCC 25923 (MIC=8.8 µg/ml);Yeast:Candida albicans ATCC 2002 (MIC=4.4 µg/ml).",
+            "Hemolytic Activity": "[Ref:22029824] Not found in the literature",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Cyclization (Cys15 and Cys21)",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C87H157N23O24S3",
+            "Mass": 2005.51,
+            "PI": 8.9,
+            "Net Charge": 2,
+            "Hydrophobicity": 1.32,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Shows antibacterial activity against both Gram-positive and Gram-negative bacteria and against the fungus C. albicans.",
+            "Literature": [
+                {
+                    "Title": "Extremely Abundant Antimicrobial Peptides Existed in the Skins of Nine Kinds of Chinese Odorous Frogs.",
+                    "Pubmed ID": "22029824",
+                    "Reference": "J Proteome Res. 2012 Jan 1;11(1)306-319.",
+                    "Author": "Yang X, Lee WH, Zhang Y.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=22029824"
+                }
+            ],
+            "Frequent Amino Acids": "GLC",
+            "Absent Amino Acids": "ADEFHNOPQRTUWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 8,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01322",
+                    "Similarity": 0.9523809523809523,
+                    "Sequence": "GILSGVLGMGKKIVCGLRGLC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01330",
+                    "Similarity": 0.9523809523809523,
+                    "Sequence": "GILSNVLGMGKKIVCGLSGLC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01327",
+                    "Similarity": 0.9047619047619048,
+                    "Sequence": "GILSGILGMGKKLVCGLSGLC"
+                }
+            ]
+        }
+    }
+}

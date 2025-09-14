@@ -1,0 +1,57 @@
+{
+    "SPADE_N_08013": {
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_08013",
+            "Sequence Length": 67,
+            "Mass": 7173.41,
+            "PI": 9.92,
+            "Net Charge": 9,
+            "Source": "Stomoxys calcitrans",
+            "Biological Activity": [
+                "Antimicrobial"
+            ],
+            "Sequence": "MNFYKYLVVLVVLVLCLSATQTEARGFRKHFNKLVKKVKHTISETAHVAKDTAVIAGSGAAVVAATG",
+            "Function": "Has antimicrobial activity against most Gram-positive and Gram-negative bacteria, filamentous fungi and yeasts tested. Has trypanolytic effect on T.b.rhodesiense and limited hemolytic activity against bovine red blood cells.",
+            "Literature": [
+                {
+                    "Title": "Epithelial innate immunity. A novel antimicrobial peptide with antiparasitic activity in the blood-sucking insect Stomoxys calcitrans.",
+                    "Pubmed ID": "R2002J0501",
+                    "Author": "Brun R.,Vovelle F.,Hamilton J.V.,Munks R.J.L.,Boulanger N."
+                },
+                {
+                    "Title": "Solution structures of stomoxyn and spinigerin, two insect antimicrobial peptides with an alpha-helical conformation.",
+                    "Pubmed ID": "R2006J1241",
+                    "Author": "Vovelle F.,Bulet P.,Boulanger N.,Meudal H.,Landon C."
+                }
+            ],
+            "Peptide Name": "Stomoxyn (STMX_STOCA)",
+            "Hemolytic Activity": [],
+            "Frequent Amino Acids": "VAK",
+            "Absent Amino Acids": "OPUW",
+            "Basic Residues": 12,
+            "Acidic Residues": 3,
+            "Hydrophobic Residues": 35,
+            "Polar Residues": 48,
+            "Positive Residues": 12,
+            "Negative Residues": 3,
+            "Hydrophobicity": 0.46,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02875",
+                    "Similarity": 1.0,
+                    "Sequence": "RGFRKHFNKLVKKVKHTISETAHVAKDTAVIAGSGAAVVAAT"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15944",
+                    "Similarity": 0.7619047619047619,
+                    "Sequence": "GFRKRFNKLVKKVKHTIKETANVSKDVAIVAGSGVAVGAAMG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_12450",
+                    "Similarity": 0.7560975609756098,
+                    "Sequence": "GFRKRFNKLVKKVKHTIKETANVSKDVAIVAGSGVAVGAAM"
+                }
+            ]
+        }
+    }
+}

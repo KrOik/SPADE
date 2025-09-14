@@ -1,0 +1,72 @@
+{
+    "SPADE_N_15791": {
+        "Sequence Information": {
+            "Peptide Name": "Vespid chemotactic peptide VT2, VCP-VT2",
+            "Sequence": "FLPIIGKLLSG",
+            "Sequence Length": 11,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "1. Vespa tropica\n2. Vespa magnifica\n3. Vespa mandarinia",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P17232",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P17232",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                },
+                {
+                    "uniprotId": "A0SPI1",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/A0SPI1",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Antimicrobial peptides from the venom gland of the social wasp Vespa tropica.",
+                    "Pubmed ID": "24012601",
+                    "Reference": "Toxicon. 2013;74:151-157",
+                    "Author": "Yang X, Wang Y, Lee WH, Zhang Y",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/24012601"
+                }
+            ],
+            "Mass": 1157.44,
+            "PI": 8.75,
+            "Net Charge": 1,
+            "Hydrophobicity": 1.46,
+            "Frequent Amino Acids": "LGI",
+            "Absent Amino Acids": "ACDEHMNOQRTUVWY",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 5,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_N_15791",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01632",
+                    "Similarity": 1.0,
+                    "Sequence": "FLPIIGKLLSGLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06872",
+                    "Similarity": 1.0,
+                    "Sequence": "FLP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06892",
+                    "Similarity": 1.0,
+                    "Sequence": "FFLP"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:-=NA",
+            "Target Organism": "Staphylococcus aureus ATCC 25923(MIC=2.5µg/ml),Enterococcus faecalis ATCC 29212(MIC=20µg/ml),Staphylococcus aureus 10(MIC=10µg/ml),Staphylococcus aureus 37(MIC=5µg/ml),Escherichia coli ATCC 25922(MIC=5µg/ml),Enterobacter cloacae ATCC 13047(MIC=2.5µg/ml),Klebsiella pneumoniae ATCC 700603(MIC=10µg/ml),Pseudomonas aeruginosa CMCCB 1010(MIC=20µg/ml),Pseudomonas aeruginosa ATCC 27853(MIC=40µg/ml),Shigella dysenteriae(MIC=5µg/ml),Escherichia coli 37(MIC=20µg/ml),Escherichia coli 117(MIC=5µg/ml),Pseudomonas aeruginosa(MIC=10µg/ml),Klebsiella pneumoniae(MIC=80µg/ml),Candida albicans ATCC 2002(MIC=10µg/ml),Candida albicans ATCC 90028(MIC=20µg/ml),Candida parapsilosis ATCC 22019(MIC=5µg/ml)"
+        }
+    }
+}

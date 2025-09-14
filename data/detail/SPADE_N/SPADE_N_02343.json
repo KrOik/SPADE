@@ -1,0 +1,73 @@
+{
+    "SPADE_N_02343": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02343",
+            "Peptide Name": "Antibacterial protein LL-37 (cathelicidin; primates, mammals, animals)",
+            "Source": "Nomascus gabriellae (Red-cheeked gibbon)",
+            "Family": "Belongs to the cathelicidin family",
+            "Gene": "CAMP",
+            "Sequence": "LPGNFFRKAREKIGKEFKRIVQRIKDFLQHLVPRTEA",
+            "Sequence Length": 37,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q1KLY2"
+            ],
+            "Protein Existence": "Homology",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Lipopolysaccharide (LPS)-binding",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C205H334N62O50",
+            "Mass": 4467.23,
+            "PI": 11.0,
+            "Net Charge": 7,
+            "Hydrophobicity": -0.71,
+            "Half Life": "Mammalian:5.5 hourYeast:3 minE.coli:2 min",
+            "Function": "Has antibacterial activity. (By similarity)",
+            "Literature": [
+                {
+                    "Title": "Evolution of the primate cathelicidin. Correlation between structural variations and antimicrobial activity.",
+                    "Pubmed ID": "16720578",
+                    "Reference": "J Biol Chem. 2006 Jul 21;281(29)19861-19871.",
+                    "Author": "Zelezetsky I, Pontillo A, Puzzi L, Antcheva N, Segat L, Pacor S, Crovella S, Tossi A.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16720578"
+                }
+            ],
+            "Frequent Amino Acids": "KRF",
+            "Absent Amino Acids": "CMOSUWY",
+            "Basic Residues": 11,
+            "Acidic Residues": 4,
+            "Hydrophobic Residues": 16,
+            "Polar Residues": 19,
+            "Positive Residues": 11,
+            "Negative Residues": 4,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_04263",
+                    "Similarity": 1.0,
+                    "Sequence": "EKIGKEFKRIVQRIKD"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04262",
+                    "Similarity": 1.0,
+                    "Sequence": "KIGKEFKRIVQRIK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04261",
+                    "Similarity": 1.0,
+                    "Sequence": "IGKEFKRIVQRI"
+                }
+            ]
+        }
+    }
+}

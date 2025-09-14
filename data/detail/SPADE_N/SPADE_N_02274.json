@@ -1,0 +1,72 @@
+{
+    "SPADE_N_02274": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02274",
+            "Peptide Name": "Rhesus theta-defensin 4 (RTD-4; primates, mammals, animals)",
+            "Source": "Macaca mulatta (Rhesus macaque)",
+            "Family": "Belongs to the alpha-defensin family (Theta subfamily)",
+            "Gene": "Not found",
+            "Sequence": "GICRCICTRGFCRCICVL",
+            "Sequence Length": 18,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Antifungal"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C82H143N27O20S6",
+            "Mass": 2019.57,
+            "PI": 8.72,
+            "Net Charge": 3,
+            "Hydrophobicity": 1.35,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "RTD-1 and RTD-5 are 3-fold more active than RTD-4.",
+            "Literature": [
+                {
+                    "Title": "Rhesus macaque {theta}-defensin isoforms expression, antimicrobial activities, and demonstration of a prominent role in neutrophil granule microbicidal activities.",
+                    "Pubmed ID": "21084627",
+                    "Reference": "J Leukoc Biol. 2011 Feb;89(2)283-290.",
+                    "Author": "Tongaonkar P, Tran P, Roberts K, Schaal J, Osapay G, Tran D, Ouellette AJ, Selsted ME.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=21084627"
+                }
+            ],
+            "Frequent Amino Acids": "CIR",
+            "Absent Amino Acids": "ADEHKMNOPQSUWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 11,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02270",
+                    "Similarity": 1.0,
+                    "Sequence": "RCICTRGFC"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_09594",
+                    "Similarity": 1.0,
+                    "Sequence": "RCICVLRVC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_13488",
+                    "Similarity": 0.8888888888888888,
+                    "Sequence": "GICRCVCTRGFCRCICLL"
+                }
+            ]
+        }
+    }
+}

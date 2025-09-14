@@ -1,0 +1,79 @@
+{
+    "SPADE_N_00344": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00344",
+            "Peptide Name": "EcAMP2.1 (truncated EcAMP2 without five C-terminal residues)",
+            "Source": "Echinochloa crus-galli (Barnyard grass) (Panicum crus-galli)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "DRCSQQCQHHRDPDRKQQCMRECRRH",
+            "Sequence Length": 26,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/B3EWR4"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antifungal"
+            ],
+            "Target Organism": "Fungi:Phytophthora infestans (IC50=24 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C127H210N56O41S5",
+            "Mass": 3337.7,
+            "PI": 8.98,
+            "Net Charge": 6,
+            "Hydrophobicity": -2.4,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:>10 hour",
+            "Function": "EcAMP2.1 inhibits spore germination of P. infestans with an IC50 of 24 µM but have no antibacterial activity.",
+            "PTM": "Contains two disulfide bonds (By similarity).",
+            "Literature": [
+                {
+                    "Title": "Defense peptides from barnyard grass (Echinochloa crusgalli L.) seeds.",
+                    "Pubmed ID": "22940285",
+                    "Reference": "Peptides. 2012 Nov;38(1)33-40.",
+                    "Author": "Rogozhin EA, Ryazantsev DY, Grishin EV, Egorov TA, Zavriev SK.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=22940285"
+                },
+                {
+                    "Title": "Defense peptides from barnyard grass (Echinochloa crusgalli L",
+                    "Pubmed ID": "",
+                    "Author": "Rogozhin EA, Ryazantsev DY, Grishin EV, Egorov TA, Zavriev SK"
+                }
+            ],
+            "Frequent Amino Acids": "RQC",
+            "Absent Amino Acids": "AFGILNOTUVWY",
+            "Basic Residues": 10,
+            "Acidic Residues": 4,
+            "Hydrophobic Residues": 2,
+            "Polar Residues": 20,
+            "Positive Residues": 10,
+            "Negative Residues": 4,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00343",
+                    "Similarity": 1.0,
+                    "Sequence": "DRCSQQCQHHRDPDRKQQCMRECRRHQGRSD"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_22175",
+                    "Similarity": 0.7,
+                    "Sequence": "QQCRRPLYCRRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_22176",
+                    "Similarity": 0.7,
+                    "Sequence": "QQCRRPLYCRRRWSHPQFEK"
+                }
+            ]
+        }
+    }
+}

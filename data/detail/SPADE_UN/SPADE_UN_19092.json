@@ -1,0 +1,67 @@
+{
+    "SPADE_UN_19092": {
+        "Sequence Information": {
+            "Peptide Name": "C20:1-Plantaricin 149a (10-19), C20:1-A2",
+            "Sequence": "IKQVKKLFKK",
+            "Sequence Length": 10,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P80214",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P80214",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Biological and structural effects of the conjugation of an antimicrobial decapeptide with saturated, unsaturated, methoxylated and branched fatty acids.",
+                    "Pubmed ID": "28025839",
+                    "Reference": "J Pept Sci. 2017;23:45-55",
+                    "Author": "Húmpola MV, Rey MC, Carballeira NM, Simonetta AC, Tonarelli GG",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/28025839"
+                }
+            ],
+            "Mass": 1259.63,
+            "PI": 10.6,
+            "Net Charge": 5,
+            "Hydrophobicity": -0.77,
+            "Frequent Amino Acids": "KFI",
+            "Absent Amino Acids": "ACDEGHMNOPRSTUWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 4,
+            "Polar Residues": 6,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_19092",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00181",
+                    "Similarity": 1.0,
+                    "Sequence": "YSLQMGATAIKQVKKLFKKWGW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00182",
+                    "Similarity": 1.0,
+                    "Sequence": "GATAIKQVKKLFKKWGW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00209",
+                    "Similarity": 1.0,
+                    "Sequence": "YSLQMGATAIKQVKKLFKKKGG"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:100% Hemolysis=6.25 µM",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=5.2µM),Escherichia coli ATCC 35218(MIC=20.7µM),Pseudomonas aeruginosa ATCC 27853(MIC=10.3µM),Salmonella sp. DBFIQ S6(MIC=10.3µM),Staphylococcus aureus ATCC 25929(MIC=10.3µM),Staphylococcus aureus BSF FBCB1313(MIC=5.2µM),Enterococcus faecalis ATCC 29212(MIC=10.3µM),Bacillus cereus DBFIQ B28(MIC=10.3µM),Listeria monocytogenes DBFIQ LM3(MIC=10.3µM),Candida albicans DBFIQ 1(MIC=>165.3µM),Candida albicans PEEC 2(MIC=82.7µM),Candida tropicalis DBFIQ 3(MIC=165.3µM)"
+        }
+    }
+}

@@ -1,0 +1,77 @@
+{
+    "SPADE_N_01398": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01398",
+            "Peptide Name": "Rugosin-B (Frogs, amphibians, animals)",
+            "Source": "Glandirana rugosa (Japanese wrinkled frog) (Rana rugosa)",
+            "Family": "Belongs to the frog skin active peptide family (Brevinin subfamily)",
+            "Gene": "Not found",
+            "Sequence": "SLFSLIKAGAKFLGKNLLKQGAQYAACKVSKEC",
+            "Sequence Length": 33,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P80955"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-positive bacteria:Staphylococcus aureus 209P (MIC=6.25 µg/ml), Bacillus subtilis ATCC6633 (MIC=6.25 µg/ml), Micrococcus luteus ATCC9341 (MIC=1.56 µg/ml), Streptococcus pyogenes COOK (MIC=12.5 µg/ml);Gram-negative bacteria:Escherichia coli NIHJ (MIC=12.5 µg/ml), Pseudomonas aeruginosa PAO-1 (MIC=100 µg/ml).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Cyclization (Cys27 and Cys33)",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C159H264N42O43S2",
+            "Mass": 3516.18,
+            "PI": 9.7,
+            "Net Charge": 5,
+            "Hydrophobicity": 0.15,
+            "Half Life": "Mammalian:1.9 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Shows antibacterial activity against both Gram-negative and Gram-positive bacteria.",
+            "Tissue specificity": "Expressed by the skin glands.",
+            "PTM": "Contains one disulfide bond 27-33.",
+            "Literature": [
+                {
+                    "Title": "Isolation and characterization of novel antimicrobial peptides, rugosins A, B and C, from the skin of the frog, Rana rugosa.",
+                    "Pubmed ID": "7612013",
+                    "Reference": "Biochem Biophys Res Commun. 1995 Jul 6;212(1)249-254.",
+                    "Author": "Suzuki S, Ohe Y, Kagegawa T, Tatemoto K.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=7612013"
+                }
+            ],
+            "Frequent Amino Acids": "KAL",
+            "Absent Amino Acids": "DHMOPRTUW",
+            "Basic Residues": 6,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 15,
+            "Polar Residues": 21,
+            "Positive Residues": 6,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02021",
+                    "Similarity": 0.9090909090909091,
+                    "Sequence": "SLFSLIKAGAKFLGKNLLKQGACYAACKASKQC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06531",
+                    "Similarity": 0.8484848484848485,
+                    "Sequence": "SLFSLIKAGAKFLGKNMLKQGPQYPACKVSKDSENVNWKS"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_13069",
+                    "Similarity": 0.696969696969697,
+                    "Sequence": "SIFSLFKMGAKALGKTLLKQAGKAGAEYAACKATNQC"
+                }
+            ]
+        }
+    }
+}

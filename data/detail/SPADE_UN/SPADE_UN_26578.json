@@ -1,0 +1,55 @@
+{
+    "SPADE_UN_26578": {
+        "Sequence Information": {
+            "Peptide Name": "Temporin-SHa [G10D-2-NAL]",
+            "Sequence": "FLSGIVGMLXKLF",
+            "Sequence Length": 13,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anticancer",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "B3KYH4",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/B3KYH4",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Synthesis of Second-Generation Analogs of Temporin-SHa Peptide Having Broad-Spectrum Antibacterial and Anticancer Effects",
+                    "Pubmed ID": "39200058",
+                    "Reference": "Antibiotics (Basel). 2024;13:758",
+                    "Author": "Khan AI, Nazir S, Haque MNU, Maharjan R, Khan FA, Olleik H, Courvoisier-Dezord E, Maresca M, Shaheen F",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/39200058"
+                }
+            ],
+            "SPADE ID": "SPADE_UN_26578",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01598",
+                    "Similarity": 1.0,
+                    "Sequence": "FLSGIVGMLGKLFGK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01603",
+                    "Similarity": 1.0,
+                    "Sequence": "FLSGIVGMLGKLF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06619",
+                    "Similarity": 1.0,
+                    "Sequence": "FLSGIVGMLAKLF"
+                }
+            ],
+            "Hemolytic Activity": "Human Lung Fibroblasts IMR-90:IC50=>100 µM,Human bronchial epithelial cells BEAS-2B:IC50=>100 µM",
+            "Target Organism": "Acinetobacter baumannii DSM 30007(MIC=>100µM),Enterobacter cloacae DSM 30054(MIC=>100µM),Escherichia coli ATCC 8739(MIC=>100µM),Helicobacter pylori ATCC 43504(MIC=100µM),Klebsiella pneumoniae DSM 26371(MIC=>100µM),Pseudomonas aeruginosa ATCC 9027(MIC=>100µM),Bacillus subtilis ATCC 6633(MIC=50µM),Enterococcus faecalis DSM 2570(MIC=>100µM),Enterococcus faecium DSM 20477(MIC=>100µM),Staphylococcus aureus ATCC 6538(MIC=50µM),Human breast adenocarcinoma MCF-7(IC50=>100µM),Human hepatocellular carcinoma HepG2(IC50=>100µM),Human ovarian adenocarcinoma A2780(IC50=>100µM),Human pancreatic carcinoma Mia PaCa-2(IC50=>100µM),Human prostate adenocarcinoma PC-3(IC50=>100µM),Human skin melanoma MNT-1(IC50=>100µM),Human lung carcinoma A549(IC50=>100µM)"
+        }
+    }
+}

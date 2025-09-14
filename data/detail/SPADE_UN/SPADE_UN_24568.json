@@ -1,0 +1,64 @@
+{
+    "SPADE_UN_24568": {
+        "Sequence Information": {
+            "Peptide Name": "Dengue virus peptide fragment VG16 [D2A; G6,8A; N7A, G10P]",
+            "Sequence": "VARGWAAACPLFGKGG",
+            "Sequence Length": 16,
+            "Biological Activity": [
+                "Antifungal"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "O39650",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/O39650",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Structural insights into the interaction of antifungal peptides and ergosterol containing fungal membrane.",
+                    "Pubmed ID": "35753394",
+                    "Reference": "Biochim Biophys Acta. 2022;:183996",
+                    "Author": "Mohid SA, Biswas K, Won T, Mallela LS, Gucchait A, Butzke L, Sarkar R, Barkham T, Reif B, Leipold E, Roy S, Misra AK, Lakshminarayanan R, Lee D, Bhunia A",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/35753394"
+                }
+            ],
+            "Mass": 1560.82,
+            "PI": 9.51,
+            "Net Charge": 2,
+            "Hydrophobicity": 0.5,
+            "Frequent Amino Acids": "AGC",
+            "Absent Amino Acids": "DEHIMNOQSTUY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 8,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_24568",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_01876",
+                    "Similarity": 1.0,
+                    "Sequence": "RVARIVVIRVAR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_01970",
+                    "Similarity": 1.0,
+                    "Sequence": "RLARIVVARVAR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_26547",
+                    "Similarity": 1.0,
+                    "Sequence": "WVKKVARKVVKIGRKVAR"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Candida albicans(MIC=>100µM),Cryptococcus neoformans var. grubii H99(MIC=>100µM)"
+        }
+    }
+}

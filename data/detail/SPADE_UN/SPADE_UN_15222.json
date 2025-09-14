@@ -1,0 +1,71 @@
+{
+    "SPADE_UN_15222": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_15222",
+            "Peptide Name": "H3",
+            "Source": "Synthetic construct",
+            "Family": "Flaviviridae",
+            "Gene": "Not found",
+            "Sequence": "WPFCLLLMAL",
+            "Sequence Length": 10,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antiviral"
+            ],
+            "Target Organism": "[Ref.26251517]Hepatitis C Virus(HCV):inhibition of viral infection in Huh7.5.1 cells(EC50=0.52 ± 0.07 μM); inhibition of post-infection in Huh7.5.1 cells(EC50=1.54 ± 0.73 μM).",
+            "Hemolytic Activity": "[Ref.26251517]<10% hemolysis even at 400 μM against human erythrocytes.",
+            "Cytotoxicity": "[Ref.26251517]Huh7.5.1 cells:CC50=47.22 ± 5.29 μM;Bel7402 cells:CC50~200 μM;HeLa cells:CC50~200 μM.",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C60H91N11O11S2",
+            "Mass": 1206.56,
+            "PI": 5.52,
+            "Net Charge": 0,
+            "Hydrophobicity": 2.17,
+            "Half Life": "Mammalian:2.8 hourYeast:3 minE.coli:2 min",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "A p7 Ion Channel-derived Peptide Inhibits Hepatitis C Virus Infection in Vitro.",
+                    "Pubmed ID": "26251517",
+                    "Reference": "J Biol Chem. 2015 Sep 18;290(38)23254-63.",
+                    "Author": "Hong W, Lang Y, Li T, Zeng Z, Song Y, Wu Y, Li W, Cao Z.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=26251517"
+                }
+            ],
+            "Frequent Amino Acids": "LAC",
+            "Absent Amino Acids": "DEGHIKNOQRSTUVY",
+            "Basic Residues": 0,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 2,
+            "Positive Residues": 0,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02264",
+                    "Similarity": 1.0,
+                    "Sequence": "GTQRCWNLYGKCRHRCSKKERVYVYCLNNKMCCVKPKYQPKEKWWPF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02318",
+                    "Similarity": 1.0,
+                    "Sequence": "GTQRCWNLYGKCRYRCSKKERVYVYCINNKMCCVKPKYQPKERWWPF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08165",
+                    "Similarity": 1.0,
+                    "Sequence": "MKLLLLTLTVLLLLSQLTPGGTQRCWNLYGKCRHRCSKKERVYVYCLNNKMCCVKPKYQPKEKWWPF"
+                }
+            ]
+        }
+    }
+}

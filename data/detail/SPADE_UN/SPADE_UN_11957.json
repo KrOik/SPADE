@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_11957": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_11957",
+            "Peptide Name": "IsCT-p (Derived from IsCT-P)",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "ILKKIWKPIKKLF",
+            "Sequence Length": 13,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic form",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.16040002] Gram-positive bacteria :Staphylococcus aureus(KCTC 1621)(MIC=1 μM), MRSA (CCARM 3001)(MIC=2 μM), MRSA (CCARM 3543)(MIC=1 μM), Bacillus subtilis(KCTC 3068)(MIC=2 μM), Staphylococcus epidermidis(KCTC 1917)(MIC=1 μM);Gram-negative bacteria :Escherichia coli(KCTC 1682)(MIC=2 μM), Pseudomonas aeruginosa(KCTC 1637)(MIC=2 μM), MDRPA (CCARM 2095)(MIC=2 μM), Salmonella typhimurium(KCTC 1926)(MIC=2 μM)",
+            "Hemolytic Activity": "[Ref.16040002] 0% hemolysis at 200 μM against human red blood cells",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "Mixed(D-Pro8)",
+            "Structure Description": "This result indicated that D-Pro in the central position of a short a-helical peptide provides more remarkable structural flexibility than L-Pro.",
+            "Formula": "C80H134N18O12",
+            "Mass": 1655.16,
+            "PI": 10.6,
+            "Net Charge": 5,
+            "Hydrophobicity": 0.15,
+            "Half Life": "Mammalian:20 hourYeast:30 minE.coli:>10 hour",
+            "Function": "Antibacterial activity against Gram-positive bacteria and Gram-negative bacteria",
+            "Literature": [
+                {
+                    "Title": "The role of the central L- or D-Pro residue on structure and mode of action of a cell-selective alpha-helical IsCT-derived antimicrobial peptide.",
+                    "Pubmed ID": "16040002",
+                    "Reference": "Biochem Biophys Res Commun. 2005 Sep 9;334(4)1329-35.",
+                    "Author": "Lim SS, Kim Y, Park Y, Kim JI, Park IS, Hahm KS, Shin SY",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16040002"
+                }
+            ],
+            "Frequent Amino Acids": "KIL",
+            "Absent Amino Acids": "ACDEGHMNOQRSTUVY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 5,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_05585",
+                    "Similarity": 1.0,
+                    "Sequence": "MGAVIKVGAKVIGWGAASGAGLYGLEKILKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10804",
+                    "Similarity": 1.0,
+                    "Sequence": "KFGKAFVKILKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_12471",
+                    "Similarity": 1.0,
+                    "Sequence": "LKKAKKFGKAFVKILKK"
+                }
+            ]
+        }
+    }
+}

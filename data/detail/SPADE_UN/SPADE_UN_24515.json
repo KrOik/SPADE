@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_24515": {
+        "Sequence Information": {
+            "Peptide Name": "M-poneritoxin-Nc3b [G20E]",
+            "Sequence": "AGTKEWLNKAKDFIKEKGLEMLSAAANAALN",
+            "Sequence Length": 31,
+            "Biological Activity": [
+                "Insecticidal",
+                "Anti-Mammalian Cell",
+                "Nematode"
+            ],
+            "Binding Target": "",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P0DV18",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P0DV18",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Multipurpose peptides: The venoms of Amazonian stinging ants contain anthelmintic ponericins with diverse predatory and defensive activities.",
+                    "Pubmed ID": "34302796",
+                    "Reference": "Biochem Pharmacol. 2021;192:114693",
+                    "Author": "Nixon SA, Robinson SD, Agwa AJ, Walker AA, Choudhary S, Touchard A, Undheim EAB, Robertson A, Vetter I, Schroeder CI, Kotze AC, Herzig V, King GF",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/34302796"
+                }
+            ],
+            "Mass": 3333.81,
+            "PI": 8.42,
+            "Net Charge": 1,
+            "Hydrophobicity": -0.33,
+            "Frequent Amino Acids": "AKL",
+            "Absent Amino Acids": "CHOPQRUVY",
+            "Basic Residues": 5,
+            "Acidic Residues": 4,
+            "Hydrophobic Residues": 14,
+            "Polar Residues": 17,
+            "Positive Residues": 5,
+            "Negative Residues": 4,
+            "SPADE ID": "SPADE_UN_24515",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_15084",
+                    "Similarity": 0.967741935483871,
+                    "Sequence": "AGTKEWLNKAKDFIKEKGLGMLSAAANAALN"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_24512",
+                    "Similarity": 0.9666666666666667,
+                    "Sequence": "GTKEWLNKAKDFIKEKGLGMLSAAANAALN"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_24514",
+                    "Similarity": 0.9354838709677419,
+                    "Sequence": "AGTKEWLNKAKDFIKEKGPGMLSAAANAALN"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=>150 µM,Human embryonic kidney HEK293 cells:50% Cytotoxicity=>250 µM",
+            "Target Organism": "Haemonchus contortus(IC50=>100µM),Lucilia cuprina(LD50=>50nmol/g)"
+        }
+    }
+}

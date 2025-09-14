@@ -1,0 +1,70 @@
+{
+    "SPADE_N_05595": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_05595",
+            "Peptide Name": "streptolysin S(Bacteriocin)",
+            "Source": "Streptococcus pyogenes MGAS 8232",
+            "Family": "Belongs to the class I bacteriocin",
+            "Gene": "sagA",
+            "Sequence": "CCCCCTTCCFSIATGSGNSQGGSGSYTPGK",
+            "Sequence Length": 30,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "",
+            "Biological Activity": [
+                "Unknown"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C111H175N33O43S7",
+            "Mass": 2884.23,
+            "PI": 7.73,
+            "Net Charge": 1,
+            "Hydrophobicity": 0.12,
+            "Half Life": "Mammalian:1.2 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "Streptolysin S (SLS) is a bacteriocin-like haemolytic and cytotoxic virulence factor that plays a key role in the virulence of Group A Streptococcus(GAS). The peptide contributes to the cytotoxicity, inflammatory activation and polymorphonuclear neutrophil (PMN) resistance of GAS, thereby playing a role in necrosis and systemic spread. It is also responsible for the associated characteristic beta-haemolytic activity.",
+            "Literature": [
+                {
+                    "Title": "Listeriolysin S, a novel peptide haemolysin associated with a subset of lineage I Listeria monocytogenes.",
+                    "Pubmed ID": "18787690",
+                    "Reference": "PLoS Pathog. 2008 Sep 12;4(9)e1000144.",
+                    "Author": "Cotter PD, Draper LA, Lawton EM, Daly KM, Groeger DS, Casey PG, Ross RP, Hill C.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=18787690"
+                }
+            ],
+            "Frequent Amino Acids": "CGS",
+            "Absent Amino Acids": "DEHLMORUVW",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 21,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02172",
+                    "Similarity": 0.6666666666666666,
+                    "Sequence": "SCTTCECCCSCS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07320",
+                    "Similarity": 0.6153846153846154,
+                    "Sequence": "GSGSGSGSGRQIKIWFQNRRMKWKKGC"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_12982",
+                    "Similarity": 0.6153846153846154,
+                    "Sequence": "GSGSRQSPSHGRHGSGSGR"
+                }
+            ]
+        }
+    }
+}

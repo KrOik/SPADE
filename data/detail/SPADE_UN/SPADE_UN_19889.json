@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_19889": {
+        "Sequence Information": {
+            "Peptide Name": "Beta-defensin 14 (6-17)[C6A], BD-14 (6-17)[C6A], mBD-14 (6-17)[C6A]",
+            "Sequence": "LRKFFARIRGGR",
+            "Sequence Length": 12,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "Q7TNV9",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/Q7TNV9",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Peptide fragments of a beta-defensin derivative with potent bactericidal activity.",
+                    "Pubmed ID": "20176896",
+                    "Reference": "Antimicrob Agents Chemother. 2010;54:1922-1929",
+                    "Author": "Reynolds NL, De Cecco M, Taylor K, Stanton C, Kilanowski F, Kalapothakis J, Seo E, Uhrin D, Campopiano D, Govan J, Macmillan D, Barran P, Dorin JR",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/20176896"
+                }
+            ],
+            "Mass": 1476.77,
+            "PI": 12.0,
+            "Net Charge": 5,
+            "Hydrophobicity": -0.58,
+            "Frequent Amino Acids": "RFG",
+            "Absent Amino Acids": "CDEHMNOPQSTUVWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 7,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_19889",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_08368",
+                    "Similarity": 1.0,
+                    "Sequence": "FLPKTLRKFFARIRGGRAAVLNALGKEEQIGRASNSGRKCARKKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08630",
+                    "Similarity": 1.0,
+                    "Sequence": "FLPKTLRKFF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08635",
+                    "Similarity": 1.0,
+                    "Sequence": "PKTLRKFFARIRGGRAAVLNALGKEEQIGRASNSGRKCARKKK"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Pseudomonas aeruginosa PAO1(MBC=1µM),Acinetobacter baumannii ATCC 19606(MBC=1µM),Burkholderia cenocepacia J2315(MBC=>33µM),Escherichia coli ATCC 25922(MBC=2µM),Enterococcus faecalis ATCC 700802(MBC=16.5µM),Staphylococcus aureus ATCC 25923(MBC=9.6µM),Staphylococcus aureus J2918(MBC=4.8µM)"
+        }
+    }
+}

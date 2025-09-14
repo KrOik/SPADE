@@ -1,0 +1,81 @@
+{
+    "SPADE_N_00747": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00747",
+            "Peptide Name": "Cycloviolin-D (Plant defensin)",
+            "Source": "Leonia cymosa (Sacha uba)",
+            "Family": "Belongs to the cyclotide family",
+            "Gene": "Not found",
+            "Sequence": "GFPCGESCVFIPCISAAIGCSCKNKVCYRN",
+            "Sequence Length": 30,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P84640"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antiviral"
+            ],
+            "Target Organism": "[Ref.18008336]Virus:HIV:inhibition the cytopathic effects of HIV-1 infection in cultured human T-lymphoblast (CEM-SS) cells(EC50=130 nM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "[Ref.18008336]CEM-SS cells:IC50=560 nM.",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Cyclization (N termini to C termini)",
+            "C-terminal Modification": "Cyclization (N termini to C termini)",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C135H213N37O39S6",
+            "Mass": 3170.75,
+            "PI": 8.33,
+            "Net Charge": 2,
+            "Hydrophobicity": 0.51,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Probably participates in a plant defense mechanism. Has anti-HIV activity.",
+            "PTM": "This is a cyclic peptide which may contain three disulfide bonds 4-20; 8-22; 13-27.",
+            "Literature": [
+                {
+                    "Title": "Cycloviolins A-D, anti-HIV macrocyclic peptides from Leonia cymosa.",
+                    "Pubmed ID": "10813905",
+                    "Reference": "J Org Chem. 2000 Jan 14;65(1)124-128.",
+                    "Author": "Hallock YF, Sowder RC 2nd, Pannell LK, Hughes CB, Johnson DG, Gulakowski R, Cardellina JH 2nd, Boyd MR.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=10813905"
+                },
+                {
+                    "Title": "Cyclotides as natural anti-HIV agents.",
+                    "Pubmed ID": "18008336",
+                    "Reference": "Biopolymers. 2008;90(1)51-60.",
+                    "Author": "Ireland DC, Wang CK, Wilson JA, Gustafson KR, Craik DJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=18008336"
+                }
+            ],
+            "Frequent Amino Acids": "CGI",
+            "Absent Amino Acids": "DHLMOQTUW",
+            "Basic Residues": 3,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 19,
+            "Positive Residues": 3,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07722",
+                    "Similarity": 1.0,
+                    "Sequence": "SCVFIPCISAAIGCSCKNKVCYRNGFPCGE"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07719",
+                    "Similarity": 1.0,
+                    "Sequence": "SCVFIPCISAAIGCSCKNKVCYRNGVIPCGE"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00744",
+                    "Similarity": 0.9333333333333333,
+                    "Sequence": "GVIPCGESCVFIPCISAAIGCSCKNKVCYRN"
+                }
+            ]
+        }
+    }
+}

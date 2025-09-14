@@ -1,0 +1,79 @@
+/* Minimalist style overrides for AMP Visualization page */
+
+/* 通用：减少阴影和复杂背景，保持动画与交互 */
+body.visualization-page {
+    /* 保留原有渐变背景与动画，无需覆盖 */
+}
+
+/* 1. 卡片简约化 -------------------------------------------------- */
+.viz-card {
+    background: rgba(255, 255, 255, 0.05) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    box-shadow: none !important;
+    backdrop-filter: none !important;
+    transition: background 0.3s ease !important;
+}
+
+.viz-card:hover {
+    /* 简单高亮，无缩放 */
+    background: rgba(255, 255, 255, 0.08) !important;
+    transform: none !important;
+}
+
+/* 2. 标题与文本阴影简化 ------------------------------------------ */
+.page-title,
+.total-score-display,
+.viz-card h3 {
+    text-shadow: none !important;
+}
+
+/* 3. 评分项与列表元素 ------------------------------------------- */
+.score-summary-item,
+.similar-peptide-item,
+.feature-item,
+.detail-item,
+.statistics-item {
+    background: rgba(0, 0, 0, 0.1) !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    box-shadow: none !important;
+    backdrop-filter: none !important;
+}
+
+.score-summary-item:hover,
+.similar-peptide-item:hover,
+.statistics-item:hover {
+    background: rgba(0, 0, 0, 0.15) !important;
+    transform: none !important;
+}
+
+/* 4. 按钮与交互元素 --------------------------------------------- */
+.back-button,
+.copy-button,
+.peptide-link-btn,
+.lit-button,
+.language-current,
+.language-option {
+    box-shadow: none !important;
+}
+
+/* 5. 表格与列表 -------------------------------------------------- */
+.activity-table th,
+.activity-table td {
+    backdrop-filter: none !important;
+}
+
+/* 6. 隐藏冗余内部装饰线 ----------------------------------------- */
+.viz-card::before {
+    display: none !important;
+}
+
+/* 7. 圆角统一为 10px 更简约 ------------------------------------- */
+.viz-card,
+.score-summary-item,
+.similar-peptide-item,
+.feature-item,
+.detail-item,
+.activity-table,
+.statistics-item {
+    border-radius: 10px !important;
+} 

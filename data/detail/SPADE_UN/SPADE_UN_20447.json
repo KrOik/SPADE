@@ -1,0 +1,61 @@
+{
+    "SPADE_UN_20447": {
+        "Sequence Information": {
+            "Peptide Name": "",
+            "Sequence": "RCFRRRGKLTC",
+            "Sequence Length": 11,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anticancer",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Host-defense peptides AC12, DK16 and RC11 with immunomodulatory activity isolated from Hypsiboas raniceps skin secretion.",
+                    "Pubmed ID": "30610885",
+                    "Reference": "Peptides. 2019;113:11-21",
+                    "Author": "Popov CSFC, Magalhães BS, Goodfellow BJ, Bocca AL, Pereira DM, Andrade PB, Valentão P, Pereira PJB, Rodrigues JE, de Holanda Veloso PH",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/30610885"
+                }
+            ],
+            "Mass": 1395.7,
+            "PI": 11.54,
+            "Net Charge": 5,
+            "Hydrophobicity": -1.04,
+            "Frequent Amino Acids": "RCF",
+            "Absent Amino Acids": "ADEHIMNOPQSUVWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 4,
+            "Polar Residues": 7,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_20447",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03414",
+                    "Similarity": 1.0,
+                    "Sequence": "MKFLQIFVLIATLWIAIVTANPVDDQKTAEIQENSNLIDETNNDEVIIQPRLSCQALGPIGCAANCKRLGFRGGWCTTGNTCRCFR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_13153",
+                    "Similarity": 1.0,
+                    "Sequence": "FFFCSRCF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14147",
+                    "Similarity": 1.0,
+                    "Sequence": "ACLRIRVCNRYYCYVFLRCF"
+                }
+            ],
+            "Hemolytic Activity": "Mouse erythrocytes:3.8% Hemolysis=256 µg/ml",
+            "Target Organism": "Escherichia coli ATCC 8739(MIC=32µg/ml),Staphylococcus aureus ATCC 25923(no activity data),Murine macrophage cells RAW 264.7(10-20% Killing=32-64µg/ml),Murine macrophage cells RAW 264.7(40-50% Killing=128µg/ml),Murine macrophage cells RAW 264.7(70-80% Killing=256µg/ml)"
+        }
+    }
+}

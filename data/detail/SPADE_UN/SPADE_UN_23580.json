@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_23580": {
+        "Sequence Information": {
+            "Peptide Name": "Legumin-like (456-467)",
+            "Sequence": "INGMPEEVVAA",
+            "Sequence Length": 11,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "A0A3Q7XNW1",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/A0A3Q7XNW1",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Generation of antimicrobial peptides Leg1 and Leg2 from chickpea storage protein, active against food spoilage bacteria and foodborne pathogens.",
+                    "Pubmed ID": "33465691",
+                    "Reference": "Food Chem. 2021;347:128917",
+                    "Author": "Heymich M-L, Friedlein U, Trollmann M, Schwaiger K, Böckmann RA, Pischetsrieder M",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/33465691"
+                }
+            ],
+            "Mass": 1129.28,
+            "PI": 4.05,
+            "Net Charge": -2,
+            "Hydrophobicity": 0.54,
+            "Frequent Amino Acids": "AEV",
+            "Absent Amino Acids": "CDFHKLOQRSTUWY",
+            "Basic Residues": 0,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 5,
+            "Positive Residues": 0,
+            "Negative Residues": 2,
+            "SPADE ID": "SPADE_UN_23580",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00131",
+                    "Similarity": 1.0,
+                    "Sequence": "GFWGGLGYIAGRVGAAYGHAQASANNHHSPING"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_13548",
+                    "Similarity": 1.0,
+                    "Sequence": "WLLING"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_13550",
+                    "Similarity": 1.0,
+                    "Sequence": "WLVING"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Escherichia coli NEB5alpha(MIC=1000µM),Bacillus subtilis ATCC 6051(MIC=1000µM)"
+        }
+    }
+}

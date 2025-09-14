@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_22496": {
+        "Sequence Information": {
+            "Peptide Name": "Influenza A virus HA (345-364)[E355K,T359Q,D363K], HA-FP-2",
+            "Sequence": "GLFGAIAGFIKGGWQGMVKG",
+            "Sequence Length": 20,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "R4HHV9",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/R4HHV9",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Antimicrobial Peptides Derived from Fusion Peptides of Influenza A Viruses, a Promising Approach to Designing Potent Antimicrobial Agents.",
+                    "Pubmed ID": "25581878",
+                    "Reference": "Chem Biol Drug Des. 2015;86:487-495",
+                    "Author": "Wang J, Zhong W, Lin D, Xia F, Wu W, Zhang H, Lv L, Liu S, He J",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/25581878"
+                }
+            ],
+            "Mass": 1994.36,
+            "PI": 10.0,
+            "Net Charge": 2,
+            "Hydrophobicity": 0.66,
+            "Frequent Amino Acids": "GAF",
+            "Absent Amino Acids": "CDEHNOPRSTUY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 11,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_22496",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_11058",
+                    "Similarity": 1.0,
+                    "Sequence": "VDRGWGNGCGLFGKGG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11059",
+                    "Similarity": 1.0,
+                    "Sequence": "VARGWGNGCGLFGKGG"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_30244",
+                    "Similarity": 1.0,
+                    "Sequence": "VDRGWGNGCGLFGKGG"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Staphylococcus aureus ATCC 12600(MIC=15.7µM),Streptococcus mutans ATCC 25175(MIC=7.8-15.7µM),Escherichia coli ATCC 25922(MIC=15.7µM),Pseudomonas aeruginosa ATCC 27853(MIC=>62.7µM)"
+        }
+    }
+}

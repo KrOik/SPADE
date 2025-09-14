@@ -1,0 +1,86 @@
+{
+    "SPADE_N_00780": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00780",
+            "Peptide Name": "Cycloviolacin-Y5 (Plants)",
+            "Source": "Viola yedoensis (Chinese herb)",
+            "Family": "Belongs to the cyclotide family",
+            "Gene": "Not found",
+            "Sequence": "GIPCAESCVWIPCTVTALVGCSCSDKVCYN",
+            "Sequence Length": 30,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antiviral"
+            ],
+            "Target Organism": "[Ref.18618891]Effects:H. contortus( IC50=2.28μM, IC99=22.24μM) and T. colubriformis(IC50=2.40μM, IC99=10.97μM).[Ref.18008336]Virus:HIV:inhibition the cytopathic effects of HIV-1 infection in cultured human T-lymphoblast (CEM-SS) cells(EC50=40 nM).",
+            "Hemolytic Activity": "[Ref:18081258] HD50=8.7 μM against human type A red blood cells.",
+            "Cytotoxicity": "[Ref.18008336]CEM-SS cells:IC50=1760 nM.",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Cyclization (N termini to C termini)",
+            "C-terminal Modification": "Cyclization (N termini to C termini)",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C132H209N33O42S6",
+            "Mass": 3122.66,
+            "PI": 4.37,
+            "Net Charge": -1,
+            "Hydrophobicity": 0.79,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Has anti-HIV activity. Cycloviolacin Y5 is the most hydrophobic of the cyclotides from V. yedoensis, and is more hemolytic than cycloviolacin Y1.",
+            "PTM": "Contains three disulfide bonds.",
+            "Literature": [
+                {
+                    "Title": "Anti-HIV cyclotides from the Chinese medicinal herb Viola yedoensis.",
+                    "Pubmed ID": "18081258",
+                    "Reference": "J Nat Prod. 2008 Jan;71(1)47-52.",
+                    "Author": "Wang CK, Colgrave ML, Gustafson KR, Ireland DC, Goransson U, Craik DJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=18081258"
+                },
+                {
+                    "Title": "Cyclotides as natural anti-HIV agents",
+                    "Pubmed ID": "18008336",
+                    "Reference": "Biopolymers. 2008;90(1)51-60.",
+                    "Author": "David C Ireland, Conan K L Wang, Jennifer A Wilson, Kirk R Gustafson, David J Craik",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=18008336"
+                },
+                {
+                    "Title": "The anthelmintic activity of the cyclotides natural variants with enhanced activity",
+                    "Pubmed ID": "18618891",
+                    "Reference": "Chembiochem. 2008 Aug 11;9(12)1939-45. doi 10.1002/cbic.200800174.",
+                    "Author": "Michelle L Colgrave, Andrew C Kotze, David C Ireland, Conan K Wang, David J Craik",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=18618891"
+                }
+            ],
+            "Frequent Amino Acids": "CVS",
+            "Absent Amino Acids": "FHMOQRU",
+            "Basic Residues": 1,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 20,
+            "Positive Residues": 1,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00853",
+                    "Similarity": 0.9333333333333333,
+                    "Sequence": "GIPCAESCVWIPCTVTALLGCSCSNKVCYN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06522",
+                    "Similarity": 0.9333333333333333,
+                    "Sequence": "GIPCAESCVYIPCTVTALLGCSCSDKVCYN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06525",
+                    "Similarity": 0.9333333333333333,
+                    "Sequence": "SIPCAESCVWIPCTVTALLGCSCSDKVCYN"
+                }
+            ]
+        }
+    }
+}

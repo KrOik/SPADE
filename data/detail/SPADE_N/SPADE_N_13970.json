@@ -1,0 +1,70 @@
+{
+    "SPADE_N_13970": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_13970",
+            "Peptide Name": "Peptide a (Synthetic AMPs, N-terminal fragment of PMAP-36, UCLL1c, XXE, XXA)",
+            "Source": "Sequence truncation",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "KRLKKIGKVLKWIPPIVGSI",
+            "Sequence Length": 20,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 2273.89,
+            "PI": 11.39,
+            "Hydrophobicity": 0.21,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Biondi B, de Pascale L, Mardirossian M, Di Stasi A, Favaro M, Scocchi M, Peggion C. 2023",
+                    "Reference": "Sci Rep. 2023 Sep 13;13(1):15132. doi: 10.1038/s41598-023-41945-1.PubMed.",
+                    "Title": "Structural and biological characterization of shortened derivatives of the cathelicidin PMAP-36"
+                }
+            ],
+            "Frequent Amino Acids": "KIG",
+            "Absent Amino Acids": "ACDEFHMNOQTUY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 9,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "Net Charge": 6,
+            "Comments": "Sequence analysis: APD analysis reveals this sequence is most similar (65%) topeptide gK: 25%; I: 20%; V=L=G=P: 10%.Activity: Active against E. coli ATCC 25922 (MIC 2 uM), S. aureus ATCC 25923 (MIC 64 uM), A. baumannii ATCC 19606 (MIC 1 uM), K. pneumoniae ATCC 700603 (MIC 1 uM), P. aeruginosa ATCC 27853 (MIC 4 uM), S. epidermidis ATCC 12228 (MIC 2 uM).Toxicity: not toxic (hemo-lytic) at 32 uM.Structure: much more helical in SDS or TFE than peptide g, the further shortened one (AP3761).SAR: here helicity is correlated with peptide activity of peptides a (longer) and g (shorter).",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02563",
+                    "Similarity": 1.0,
+                    "Sequence": "GRFRRLRKKTRKRLKKIGKVLKWIPPIVGSIPLGCG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02564",
+                    "Similarity": 1.0,
+                    "Sequence": "GRFRRLRKKTRKRLKKIGKV"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02565",
+                    "Similarity": 1.0,
+                    "Sequence": "GRFRRLRKKTRKRLKKIGKVLKWIPPIVGSIPLG"
+                }
+            ]
+        }
+    }
+}

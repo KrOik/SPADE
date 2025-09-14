@@ -1,0 +1,72 @@
+{
+    "SPADE_N_06521": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_06521",
+            "Peptide Name": "Hyen D",
+            "Source": "medicinal herb Hybanthus enneaspermus",
+            "Family": "",
+            "Gene": "Not found",
+            "Sequence": "GFPCGESCVYIPCFTAAIGCSCKSKVCYKN",
+            "Sequence Length": 30,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/C0HLN8"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Target Organism": "Tumor cells:K562 (CC50=0.52±0.03 µM ); MCF-7 (CC50=0.75±0.05 µM ); HeLa (CC50=0.88±0.05 µM )",
+            "Hemolytic Activity": "Human red blood cells (hRBCs):HC50=24.56±2.16 µM",
+            "Cytotoxicity": "HUVEC:CC50=0.62±0.01 µM, testing time is 24h",
+            "Binding Target": "Not available",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C138H212N34O40S6",
+            "Mass": 3179.75,
+            "PI": 8.32,
+            "Net Charge": 2,
+            "Hydrophobicity": 0.43,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Literature": [
+                {
+                    "Title": "Discovery and mechanistic studies of cytotoxic cyclotides from the medicinal herb Hybanthus enneaspermus",
+                    "Pubmed ID": "32414842",
+                    "Reference": "J Biol Chem. 2020 Aug 7;295(32)10911-10925.",
+                    "Author": "Du Q, Chan LY, Gilding EK, Henriques ST, Condon ND, Ravipati AS, Kaas Q, Huang YH, Craik DJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=32414842"
+                }
+            ],
+            "Frequent Amino Acids": "CGK",
+            "Absent Amino Acids": "DHLMOQRUW",
+            "Basic Residues": 3,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 20,
+            "Positive Residues": 3,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07741",
+                    "Similarity": 0.8888888888888888,
+                    "Sequence": "CGESCVYIPCLTSAIGCSCKSKVCYRNGIP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00860",
+                    "Similarity": 0.8666666666666667,
+                    "Sequence": "GTFPCGESCVFIPCLTSAIGCSCKSKVCYKN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00740",
+                    "Similarity": 0.8666666666666667,
+                    "Sequence": "GIPCGESCVFIPCITAAIGCSCKSKVCYRN"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_25165": {
+        "Sequence Information": {
+            "Peptide Name": "WCopW40",
+            "Sequence": "WVVWVWRRR",
+            "Sequence Length": 9,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Matching amino acids membrane preference profile to improve activity of antimicrobial peptides.",
+                    "Pubmed ID": "36347951",
+                    "Reference": "Commun Biol. 2022;5:1199",
+                    "Author": "Kim S, Lee J, Lee S, Kim H, Sim JY, Pak B, Kim K, Il Kim J",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/36347951"
+                }
+            ],
+            "Mass": 1342.6,
+            "PI": 12.0,
+            "Net Charge": 3,
+            "Hydrophobicity": -0.4,
+            "Frequent Amino Acids": "RVW",
+            "Absent Amino Acids": "ACDEFGHIKLMNOPQSTUY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 3,
+            "Polar Residues": 6,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_25165",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_01098",
+                    "Similarity": 1.0,
+                    "Sequence": "RLWWVVWWRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_02073",
+                    "Similarity": 1.0,
+                    "Sequence": "KWSLKHWVV"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_15638",
+                    "Similarity": 1.0,
+                    "Sequence": "KRWHWWRRHWVVW"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:0.45% Hemolysis=25 µM,Human erythrocytes:0.59% Hemolysis=50 µM,Human erythrocytes:2.14% Hemolysis=100 µM",
+            "Target Organism": "Pseudomonas aeruginosa CCARM 2180(MIC=5µM),Acinetobacter baumannii ATCC BAA-1605(MIC=0.63µM),Staphylococcus aureus KCCM 40510(MIC=0.63µM),Enterococcus faecalis ATCC 51575(MIC=0.63µM)"
+        }
+    }
+}

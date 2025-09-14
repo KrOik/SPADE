@@ -1,0 +1,75 @@
+{
+    "SPADE_UN_21568": {
+        "Sequence Information": {
+            "Peptide Name": "Pleurocidin-like prepropolypeptide (41-63), NRC-1",
+            "Sequence": "GKGRWLERIGKAGGIIIGGALDHL",
+            "Sequence Length": 24,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anticancer",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "6S2D",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "Q90VX5",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/Q90VX5",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Novel antimicrobial peptides derived from flatfish genes.",
+                    "Pubmed ID": "12878506",
+                    "Reference": "Antimicrob Agents Chemother. 2003;47:2464-2470",
+                    "Author": "Patrzykat A, Gallant JW, Seo JK, Pytyck J, Douglas SE",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/12878506"
+                },
+                {
+                    "Title": "The zebrafish embryo as a tool for screening and characterizing pleurocidin host-defense peptides as anti-cancer agents.",
+                    "Pubmed ID": "21729875",
+                    "Reference": "Dis Model Mech. 2011;4:622-633",
+                    "Author": "Morash MG, Douglas SE, Robotham A, Ridley CM, Gallant JW, Soanes KH",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/21729875"
+                }
+            ],
+            "Mass": 2487.9,
+            "PI": 9.99,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.1,
+            "Frequent Amino Acids": "GIL",
+            "Absent Amino Acids": "CFMNOPQSTUVY",
+            "Basic Residues": 5,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 15,
+            "Positive Residues": 5,
+            "Negative Residues": 2,
+            "SPADE ID": "SPADE_UN_21568",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_04082",
+                    "Similarity": 1.0,
+                    "Sequence": "MKFTATFLLLFIFVLMVDLGEGRRKKKGSKRKGSKGKGSKGKGRWLERIGKAGGIIIGGALDHLGQGQVQGPDYDYQEGEELNKR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04087",
+                    "Similarity": 1.0,
+                    "Sequence": "MKFTATFLLLFIFVLMVDLGEGRRKKKGSKRKGSKGKGSKGKGRWLERIGKAGGIIIGGALDHLGQGQVQGPDYDYQEGEELNKRAVDE"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_21568",
+                    "Similarity": 1.0,
+                    "Sequence": "GKGRWLERIGKAGGIIIGGALDHL"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=>256 µg/ml,Zebrafish embryos:100% Killing=25 µM,Zebrafish embryos:>10% Killing=5 µM",
+            "Target Organism": "Aeromonas salmonicida 99-1(MIC=64µg/ml),Aeromonas salmonicida 99-1(MBC=64µg/ml),Aeromonas salmonicida 99-1(MBC=640µg/ml),Aeromonas salmonicida 97-4(MIC=64µg/ml),Salmonella enterica serovar typhimurium MS7953s(MIC=16µg/ml),Salmonella enterica serovar typhimurium MS7953s(MBC=16µg/ml),Salmonella enterica serovar typhimurium MS7953s(MBC=160µg/ml),Salmonella enterica subsp. enterica serovar Typhimurium ATCC 14028s(MIC=>64µg/ml),Pseudomonas aeruginosa K799(MIC=>64µg/ml),Pseudomonas aeruginosa Z61(MIC=32µg/ml),Escherichia coli CGSC 4908(MIC=32µg/ml),Escherichia coli UB1005(MIC=32µg/ml),Escherichia coli DC2(MIC=32µg/ml),Staphylococcus epidermidis C621(MIC=>64µg/ml),Staphylococcus aureus C623(MIC=>64µg/ml),Candida albicans C627(MIC=64µg/ml),Candida albicans C627(MBC90=640µg/ml),Human promyelocytic leukemia HL-60(50% Cell death=128µg/ml)"
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "SPADE_N_01039": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01039",
+            "Peptide Name": "Maximin-S4 (chain of Maximins-S type B/C; toads, amphibians, animals)",
+            "Source": "Bombina maxima (Giant fire-bellied toad) (Chinese red belly toad)",
+            "Family": "Belongs to the bombinin family",
+            "Gene": "Not found",
+            "Sequence": "RSNKGFNFMVDMIQALSK",
+            "Sequence Length": 18,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q5GC92"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "[Ref.15649437]Mycoplasma humenis (MIC=46 µM), Ureaplasma urealyticum (MIC=46 µM).",
+            "Hemolytic Activity": "[Ref:15649437] Maximin S1 and S4 had no hemolytic activity.",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C91H148N26O26S2",
+            "Mass": 2086.44,
+            "PI": 9.99,
+            "Net Charge": 2,
+            "Hydrophobicity": -0.26,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Function": "Maximin-S3 has an activity against mycoplasma but has no activity against common Gram-positive and Gram-negative bacteria nor fungi. Has no hemolytic activity. Tissue specificity",
+            "Literature": [
+                {
+                    "Title": "Maximins S, a novel group of antimicrobial peptides from toad Bombina maxima.",
+                    "Pubmed ID": "15649437",
+                    "Reference": "Biochem Biophys Res Commun. 2005 Feb 18;327(3)945-951.",
+                    "Author": "Wang T, Zhang J, Shen JH, Jin Y, Lee WH, Zhang Y.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=15649437"
+                }
+            ],
+            "Frequent Amino Acids": "FKM",
+            "Absent Amino Acids": "CEHOPTUWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 10,
+            "Positive Residues": 3,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01040",
+                    "Similarity": 0.9444444444444444,
+                    "Sequence": "GSNKGFNFMVDMIQALSK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01037",
+                    "Similarity": 0.8888888888888888,
+                    "Sequence": "GSNKGFNFMVDMIQALSN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06247",
+                    "Similarity": 0.8333333333333334,
+                    "Sequence": "QSHLSLCRWCCNCCRSNKGC"
+                }
+            ]
+        }
+    }
+}

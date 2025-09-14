@@ -1,0 +1,61 @@
+{
+    "SPADE_UN_22091": {
+        "Sequence Information": {
+            "Peptide Name": "",
+            "Sequence": "PRR",
+            "Sequence Length": 3,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Ultrashort Cationic Lipopeptides-Effect of N-Terminal Amino Acid and Fatty Acid Type on Antimicrobial Activity and Hemolysis",
+                    "Pubmed ID": "31936341",
+                    "Reference": "Molecules. 2020;25:",
+                    "Author": "Neubauer D, Jaskiewicz M, Bauer M, Golacki K, Kamysz W",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/31936341"
+                }
+            ],
+            "Mass": 427.5,
+            "PI": 12.0,
+            "Net Charge": 2,
+            "Hydrophobicity": -3.53,
+            "Frequent Amino Acids": "RP",
+            "Absent Amino Acids": "ACDEFGHIKLMNOQSTUVWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 0,
+            "Polar Residues": 3,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_22091",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00066",
+                    "Similarity": 1.0,
+                    "Sequence": "ATYYGNGLYCNKEKCWVDWNQAKGEIGKIIVNGWVNHGPWAPRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00330",
+                    "Similarity": 1.0,
+                    "Sequence": "PAGPFRIPPRREFQ"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02207",
+                    "Similarity": 1.0,
+                    "Sequence": "KGGYTRPISRPPYGGGYGNVCTSCHVLTTSQARSCCSRFGRCCVPRRGYSG"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=53.41 µg/ml",
+            "Target Organism": "Staphylococcus aureus ATCC 25923(MIC=16µg/ml),Pseudomonas aeruginosa ATCC 9027(MIC=16µg/ml),Candida albicans ATCC 10231(MIC=8µg/ml),Enterococcus faecium ATCC 700221(MIC=8µg/ml),Staphylococcus aureus ATCC 33591(MIC=8µg/ml),Klebsiella pneumoniae ATCC 700603(MIC=256µg/ml),Acinetobacter baumannii ATCC BAA-1605(MIC=64µg/ml),Klebsiella aerogenes ATCC 13048(MIC=256µg/ml)"
+        }
+    }
+}

@@ -1,0 +1,98 @@
+{
+    "SPADE_N_03346": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03346",
+            "Peptide Name": "Pardaxin P-4 (Pardaxin P1a; Pardaxin Pa4)",
+            "Source": "Pardachirus marmoratus (Finless sole) (Achirus marmoratus)",
+            "Family": "Belongs to the pardaxin family",
+            "Gene": "Not found",
+            "Sequence": "GFFALIPKIISSPLFKTLLSAVGSALSSSGGQE",
+            "Sequence Length": 33,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P81861"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Cytotoxic"
+            ],
+            "Target Organism": "[Ref.23598079] Gram-positive bacteria :Micrococcus luteus(MIC=100 mg/L), Staphylococcus aureus(MIC=50 mg/L), Streptococcus pneumoniae(MIC=100 mg/L), Streptococcus agalactiae(MIC=100 mg/L), Staphylococcus sp.(MIC=6.25 mg/L);Gram-negative bacteria :Grouper Vibrio alginolyticus(MIC=50 mg/L), Vibrio harveyi(MIC=50 mg/L), Vibrio vulnificus(MIC=100 mg/L)",
+            "Hemolytic Activity": "[Ref.23598079] 7% hemolysis at 12.5 mg/L , 10% hemolysis at 25 mg/L , 27% hemolysis at 50 mg/L , 55% hemolysis at 100 mg/L , 95% hemolysis at 200 mg/L , 90% hemolysis at 400 mg/L against sheep red blood cells",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Cell membrane",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "The peptide adopts a bend-helix-bend-helix motif with an angle between the two structure helices of 122 +/- 9 degrees, making this structure substantially different from the one previously determined in organic solvents.",
+            "Formula": "C154H248N36O45",
+            "Mass": 3323.83,
+            "PI": 8.59,
+            "Net Charge": 1,
+            "Hydrophobicity": 0.75,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Exhibits unusual shark repellent and surfactant properties. Forms voltage-dependent, ion-permeable channels in membranes. At high concentration causes cell membrane lysis.",
+            "Domain": "Consists of a C-terminal hydrophilic region and a predominantly hydrophobic remainder.  Function",
+            "Literature": [
+                {
+                    "Title": "Membrane composition determines pardaxin's mechanism of lipid bilayer disruption.",
+                    "Pubmed ID": "12124282",
+                    "Reference": "Biophys J. 2002 Aug;83(2)1004-1013.",
+                    "Author": "Hallock KJ, Lee DK, Omnaas J, Mosberg HI, Ramamoorthy A.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=12124282"
+                },
+                {
+                    "Title": "NMR structure of pardaxin, a pore-forming antimicrobial peptide, in lipopolysaccharide micelles mechanism of outer membrane permeabilization.",
+                    "Pubmed ID": "19959835",
+                    "Reference": "J Biol Chem. 2010 Feb 5;285(6)3883-3895.",
+                    "Author": "Bhunia A, Domadia PN, Torres J, Hallock KJ, Ramamoorthy A, Bhattacharjya S.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=19959835"
+                },
+                {
+                    "Title": "Structure and orientation of pardaxin determined by NMR experiments in model membranes.",
+                    "Pubmed ID": "15292173",
+                    "Reference": "J Biol Chem. 2004 Oct 29;279(44)45815-23.",
+                    "Author": "Porcelli F, Buck B, Lee DK, Hallock KJ, Ramamoorthy A, Veglia G.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=15292173"
+                },
+                {
+                    "Title": "Truncated antimicrobial peptides from marine organisms retain anticancer activity and antibacterial activity against multidrug-resistant Staphylococcus aureus.",
+                    "Pubmed ID": "23598079",
+                    "Reference": "Peptides. 2013 Jun;44139-48.",
+                    "Author": "Lin MC, Hui CF, Chen JY, Wu JL",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=23598079"
+                }
+            ],
+            "Frequent Amino Acids": "SLG",
+            "Absent Amino Acids": "CDHMNORUWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 17,
+            "Polar Residues": 15,
+            "Positive Residues": 2,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_09254",
+                    "Similarity": 1.0,
+                    "Sequence": "GFFALIPKIISSPLFKTLLSAVGSALSSSGGQ"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09728",
+                    "Similarity": 1.0,
+                    "Sequence": "GFFALIPKIISSPLFKTLLSA"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09729",
+                    "Similarity": 1.0,
+                    "Sequence": "KGFFALIPKIISSPLFKTLLSA"
+                }
+            ]
+        }
+    }
+}

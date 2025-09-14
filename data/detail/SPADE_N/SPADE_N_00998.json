@@ -1,0 +1,73 @@
+{
+    "SPADE_N_00998": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00998",
+            "Peptide Name": "Antifungal peptide (Cm-p1; Plants)",
+            "Source": "Cenchritis muricatus (Beaded periwinkle)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "SRSELIVHQR",
+            "Sequence Length": 10,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/B3EWI7"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antifungal"
+            ],
+            "Target Organism": "Fungi:Botrytis cinerea (MIC=20 µM), Fusarium oxysporum (MIC=20 µM), Aspergillus niger (MIC=41 µM), Candida albicans 01U (MIC=13 µM), C. albicans 38U (MIC=7 µM), C. parapsilosis (MIC=105 µM), C. neoformans strain L26 (MIC=209 µM), C. neoformans strain L30 (MIC=209 µM), Trichophyton rubrum (MIC=3 µM).",
+            "Hemolytic Activity": "[Ref.22210491] At the highest evaluated dose (256 μg/mL), Cm-p1 showed no signs of toxicity against human red blood cells.",
+            "Cytotoxicity": "[Ref.22210491] At the highest evaluated dose (256 μg/mL), Cm-p1 showed no signs of toxicity against RAW 264.7 cells.",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free (very possibly)",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C51H89N19O16",
+            "Mass": 1224.37,
+            "PI": 9.34,
+            "Net Charge": 2,
+            "Hydrophobicity": -0.83,
+            "Half Life": "Mammalian:1.9 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "The synthetic peptide has antifungal activity. Has no antibacterial or cytotoxic activity.",
+            "Literature": [
+                {
+                    "Title": "Functional characterization of a synthetic hydrophilic antifungal peptide derived from the marine snail Cenchritis muricatus.",
+                    "Pubmed ID": "22210491",
+                    "Reference": "Biochimie. 2012 Apr;94(4)968-974.",
+                    "Author": "López-Abarrategui C, Alba A, Silva ON, Reyes-Acosta O, Vasconcelos IM, Oliveira JT, Migliolo L, Costa MP, Costa CR, Silva MR, Garay HE, Dias SC, Franco OL, Otero-González AJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=22210491"
+                }
+            ],
+            "Frequent Amino Acids": "RSE",
+            "Absent Amino Acids": "ACDFGKMNOPTUWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 3,
+            "Polar Residues": 7,
+            "Positive Residues": 3,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03050",
+                    "Similarity": 1.0,
+                    "Sequence": "LTVRAAQSFGRCNQKQCDADCVKKGYFGGLCTLTSCFCTGSRS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07054",
+                    "Similarity": 1.0,
+                    "Sequence": "GPWAPCSASCGGGSQSRS"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_11523",
+                    "Similarity": 1.0,
+                    "Sequence": "SRSELIVHQRRC"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "SPADE_N_03597": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03597",
+            "Peptide Name": "H-0, Hymenochirin-1B",
+            "Source": "Hymenochirus boettgeri (Congo dwarf clawed frog)",
+            "Family": "Unknown",
+            "Gene": "Not found",
+            "Sequence": "IKLSPETKDNLKKVLKGAIKGAIAVAKMV",
+            "Sequence Length": 29,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Experimental evidence at transcript level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Target Organism": "[Ref.30789695] Cancer cell lines:A549 (IC50 = 15.22 ± 0.21 μM), HCT116 (IC50 = 12.76 ± 0.43 μM), HepG2 (IC50 = 8.07 ± 0.21 μM)",
+            "Hemolytic Activity": "[Ref.30789695] It has 5%, 6.3%, 7.7%, 10%, 10.7%, 15.3%, 9%, 15% and 9.7% hemolysis against fresh rabbit blood cells at 0.010, 0.25, 0.5, 1.0, 2.0, 5.0, 10.0, 20.0, 25.0μM",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "No detailed structure description found.",
+            "Formula": "C139H251N37O37S",
+            "Mass": 3064.77,
+            "PI": 10.13,
+            "Net Charge": 5,
+            "Hydrophobicity": 0.17,
+            "Half Life": "Mammalian:20 hourYeast:30 minE.coli:>10 hour",
+            "Function": "Antimicrobial, Anticancer, Immunomodulatory and Antidiabetic activity.",
+            "Comments": "As a cationic, amphipathic, α-helical, 29-residue,host defense peptide,  Hymenochirin-1B is the predominant pharmacological active component of four hymenochirins, which showed a wide range of biological activities, such as antimicrobial, anticancer, immunomodulatory, and antidiabetic activities. Surprisingly, we don't find the entry introducing Hymenochirin-1B in UniProt (2021-3-29).",
+            "Literature": [
+                {
+                    "Title": "Improving Selectivity, Proteolytic Stability, and Antitumor Activity of Hymenochirin-1B A Novel Glycosylated Staple Strategy",
+                    "Pubmed ID": "30789695",
+                    "Reference": "ACS Chem Biol. 2019 Mar 15;14(3)516-525. doi 10.1021/acschembio.9b00046. Epub 2019 Mar 1.",
+                    "Author": "Yulei Li, Yihan Zhang, Minghao Wu, Qi Chang, Honggang Hu, Xia Zhao",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=30789695"
+                }
+            ],
+            "Frequent Amino Acids": "KAI",
+            "Absent Amino Acids": "CFHOQRUWY",
+            "Basic Residues": 7,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 15,
+            "Polar Residues": 17,
+            "Positive Residues": 7,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_23800",
+                    "Similarity": 1.0,
+                    "Sequence": "IKLSPTKDLKKVLKGAIKGAIAVAKMV"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_23801",
+                    "Similarity": 1.0,
+                    "Sequence": "IKLSPETKDNLKKVLKGIKGIAVAKMV"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_23802",
+                    "Similarity": 1.0,
+                    "Sequence": "IKLSPTKDLKKVLKGIKGIAVAKMV"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_21539": {
+        "Sequence Information": {
+            "Peptide Name": "",
+            "Sequence": "GIVKKIVKKIVKKI",
+            "Sequence Length": 14,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Hydrophobic Control of the Bioactivity and Cytotoxicity of de Novo-Designed Antimicrobial Peptides.",
+                    "Pubmed ID": "31448889",
+                    "Reference": "ACS Appl Mater Interfaces. 2019;11:34609-34620",
+                    "Author": "Gong H, Zhang J, Hu X, Li Z, Caiaffa KS, Liu H, Waigh TA, McBain A, Lu JR",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/31448889"
+                }
+            ],
+            "Mass": 1594.12,
+            "PI": 10.7,
+            "Net Charge": 6,
+            "Hydrophobicity": 0.49,
+            "Frequent Amino Acids": "KIV",
+            "Absent Amino Acids": "ACDEFHLMNOPQRSTUWY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 7,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_21539",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02929",
+                    "Similarity": 1.0,
+                    "Sequence": "KKINNPVSCLRKGGRCWNRCIGNTRQIGSCGVPFLKCCKRK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10955",
+                    "Similarity": 1.0,
+                    "Sequence": "KKIRPRPPRLPRPRPRPLPYPRP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_13164",
+                    "Similarity": 1.0,
+                    "Sequence": "KKIGIWIGIKK"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=1500 µM",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=22±8µM),Pseudomonas aeruginosa ATCC 9027(MIC=21±7.7µM),Staphylococcus aureus ATCC 6538(MIC=128±40µM),Bacillus subtilis ATCC 23857(MIC=1.7±0.5µM)"
+        }
+    }
+}

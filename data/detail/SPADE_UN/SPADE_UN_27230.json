@@ -1,0 +1,69 @@
+{
+    "SPADE_UN_27230": {
+        "Sequence Information": {
+            "Peptide Name": "Cecropin A (1-7) + Melittin (5-9)",
+            "Sequence": "WKKLFKKLKIL",
+            "Sequence Length": 11,
+            "Biological Activity": [
+                "Antiparasitic"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P01501",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P01501",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                },
+                {
+                    "uniprotId": "P01507",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P01507",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Identification of new leishmanicidal peptide lead structures by automated real-time monitoring of changes in intracellular ATP.",
+                    "Pubmed ID": "12864731",
+                    "Reference": "Biochem J. 2003;375:221-230",
+                    "Author": "Luque-Ortega JR, Saugar JM, Chiva C, Andreu D, Rivas L",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/12864731"
+                }
+            ],
+            "Mass": 1444.89,
+            "PI": 10.6,
+            "Net Charge": 5,
+            "Hydrophobicity": -0.15,
+            "Frequent Amino Acids": "KLF",
+            "Absent Amino Acids": "ACDEGHMNOPQRSTUVY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 6,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_27230",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_04911",
+                    "Similarity": 1.0,
+                    "Sequence": "RRMKWKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06492",
+                    "Similarity": 1.0,
+                    "Sequence": "ILPWKWPWWPWKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06891",
+                    "Similarity": 1.0,
+                    "Sequence": "RHIKIWFQNRRMKWKK"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Leishmania donovani 3-Luc(ED50=0.9µM),Leishmania donovani 3-Luc(ED50=0.9µM)"
+        }
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "SPADE_UN_27661": {
+        "Sequence Information": {
+            "Peptide Name": "HPF4 (58-70), C13",
+            "Sequence": "PLYKKIIKKLLES",
+            "Sequence Length": 13,
+            "Biological Activity": [
+                "Anti-Gram-"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P02776",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P02776",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Peptides related to the carboxyl terminus of human platelet factor IV with antibacterial activity.",
+                    "Pubmed ID": "1644916",
+                    "Reference": "J Clin Invest. 1992;90:447-455",
+                    "Author": "Darveau RP, Blake J, Seachord CL, Cosand WL, Cunningham MD, Cassiano-Clough L, Maloney G",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/1644916"
+                }
+            ],
+            "Mass": 1572.97,
+            "PI": 9.84,
+            "Net Charge": 3,
+            "Hydrophobicity": -0.18,
+            "Frequent Amino Acids": "KLI",
+            "Absent Amino Acids": "ACDFGHMNOQRTUVW",
+            "Basic Residues": 4,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 8,
+            "Positive Residues": 4,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_UN_27661",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03116",
+                    "Similarity": 1.0,
+                    "Sequence": "EAEEDGDLQCLCVKTTSQVRPRHITSLEVIKAGPHCPTAQLIATLKNGRKICLDLQAPLYKKIIKKLLES"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07188",
+                    "Similarity": 1.0,
+                    "Sequence": "NGRKISLDLRAPLYKKIIKKLLES"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_18913",
+                    "Similarity": 1.0,
+                    "Sequence": "DLQAPLYKKIIKKLL"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:1% Hemolysis=100 µg/ml",
+            "Target Organism": "Escherichia coli ATCC 25922(IC90=>200µg/ml)"
+        }
+    }
+}

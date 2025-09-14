@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_14266": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_14266",
+            "Peptide Name": "SC23EK",
+            "Source": "Synthetic construct",
+            "Family": "Retroviridae",
+            "Gene": "Not found",
+            "Sequence": "WEEWDKKIEEYTKKIEELIKKSE",
+            "Sequence Length": 23,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q5DP94"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antiviral"
+            ],
+            "Target Organism": "[Ref.31277353]HIV-1 NL4-3:inhibition of pseudovirus entry in TZM-bl cells(IC50=105.1±15.3 nM);HIV-1 HXB2:inhibition of cell-cell fusion in TZM-bl cells(IC50=94.2±12.3 nM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information or data found in the reference(s) presented in this entry",
+            "Binding Target": "membrane",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Acetylation",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C137H213N31O43",
+            "Mass": 2982.34,
+            "PI": 5.0,
+            "Net Charge": -2,
+            "Hydrophobicity": -1.68,
+            "Half Life": "Mammalian:2.8 hourYeast:3 minE.coli:2 min",
+            "Mechanism of action": "The peptide inhibits HIV fusion by binding to the hydrophobic grooves on the N-terminal heptad repeat (NHR) trimer and blocking six-helix-bundle (6-HB) formation.",
+            "Literature": [
+                {
+                    "Title": "Conserved Residue Asn-145 in the C-Terminal Heptad Repeat Region of HIV-1 gp41 is Critical for Viral Fusion and Regulates the Antiviral Activity of Fusion Inhibitors.",
+                    "Pubmed ID": "31277353",
+                    "Reference": "Viruses. 2019 Jul 3;11(7)609.",
+                    "Author": "Geng X, Liu Z, Yu D, Qin B, Zhu Y, Cui S, Chong H, He Y.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=31277353"
+                }
+            ],
+            "Frequent Amino Acids": "EKI",
+            "Absent Amino Acids": "ACFGHMNOPQRUV",
+            "Basic Residues": 6,
+            "Acidic Residues": 8,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 9,
+            "Positive Residues": 6,
+            "Negative Residues": 8,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_14255",
+                    "Similarity": 1.0,
+                    "Sequence": "WEEWDKKIEEYTKKIEELIKKSEEQQKKNEKELK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_14256",
+                    "Similarity": 1.0,
+                    "Sequence": "WEEWDKKIEEYTKKIEELIKKSEEQQKKNEKEL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_14257",
+                    "Similarity": 1.0,
+                    "Sequence": "WEEWDKKIEEYTKKIEELIKKSEEQQKKNEKE"
+                }
+            ]
+        }
+    }
+}

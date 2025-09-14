@@ -1,0 +1,70 @@
+{
+    "SPADE_N_14060": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_14060",
+            "Peptide Name": "NZ16K (peptide H1, Plectasin analog, NZ2114 derived, synthetic AMPs, UCSS1a; 3S=S)",
+            "Source": "Amino acid substitution, fungal defensin analog, fungi-derived, natural derivatives",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "GFGCNGPWNEDDLRCKNHCKSIKGYKGGYCAKGGFVCKCY",
+            "Sequence Length": 40,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-MRSA"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 4408.03,
+            "PI": 8.84,
+            "Hydrophobicity": -0.69,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Chen H, Mao R, Teng D, Wang X, Hao Y, Feng X, Wang J. 2017",
+                    "Reference": "AMB Express. 2017 Dec;7(1):46. doi: 10.1186/s13568-017-0345-x.PubMed",
+                    "Title": "Design and pharmacodynamics of recombinant NZ2114 histidine mutants with improved activity against methicillin-resistant Staphylococcus aureus."
+                }
+            ],
+            "Frequent Amino Acids": "GCK",
+            "Absent Amino Acids": "MOQTU",
+            "Basic Residues": 8,
+            "Acidic Residues": 3,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 23,
+            "Positive Residues": 8,
+            "Negative Residues": 3,
+            "Net Charge": 5,
+            "Comments": "Sequence analysis: APD analysis reveals that this sequence is similar (97.5%) toNZ2114G: 20%; C: 15%, K: 15%. H to K analog.Activity: active against Gram+ S. aureus ATCC 25923 or ATCC 6538 or MRSA ATCC 43300 (MIC 0.014-0.057 uM), S. suis CVCC3309 or CVCC3928 or CVCC606 (MIC 0.007-0.014 uM), S. pneumoniae CVCC1.8722 or CVCC2350 (MIC 0.227 uM), Gram- S-enteritidis CMCC50336 (MIC> 7.273 uM), S-typhimurium ATCC14028 (MIC> 7.273 uM), S-choleraesuis CVCC503 (MIC> 7.273 uM), S-pullorum CVCC1789 (MIC> 7.273 uM), and E-coli CVCC195 or CICC21530 (MIC> 7.273 uM).Peptide stability: stable to heat treatment for 1 h up to 100oC. resistant to proteases (Trypsin Pepsin Proteinase K).Antimicrobial robustness: pH-insensitive (pH 2-10) for 4 h. NaCl-insensitive (50-500 mM).Toxicity: up to ~5% hemo.lytic at 128 ug/ml.Recombinant production:yeast:Pichia pastoris: expressed and purified in a fermentor.",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_09505",
+                    "Similarity": 0.975,
+                    "Sequence": "GFGCNGPWNEDDLRCHNHCKSIKGYKGGYCAKGGFVCKCY"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14061",
+                    "Similarity": 0.975,
+                    "Sequence": "GFGCNGPWNEDDLRCRNHCKSIKGYKGGYCAKGGFVCKCY"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14063",
+                    "Similarity": 0.975,
+                    "Sequence": "GFGCNGPWNEDDLRCKNRCKSIKGYKGGYCAKGGFVCKCY"
+                }
+            ]
+        }
+    }
+}

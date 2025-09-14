@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_11350": {
+        "Clinical Information": [
+            {
+                "Medical use": "Gastrointestinal tract infections; Stomach and intestine infections (Rat model; In-vivo)",
+                "Company": "Unknown",
+                "Stage of Development": "Preclinical",
+                "Comments": "No more comments",
+                "Clinical Trials": []
+            }
+        ],
+        "Patent Information": [
+            {
+                "Patent No": "US 2023/0416797 A1",
+                "Patent Link": "http://www.lens.org/lens/patent/US_2023_0416797_A1",
+                "Patent Type": "Patent Application",
+                "Publication Date": "2023-12-28",
+                "Family Info": "JP2023548477A,EP4243844A1,CN116685204A,WO2022104321A1",
+                "Patent Title": "MODULATING ANTIMICROBIAL PEPTIDE HALF-LIFE",
+                "Abstract": "Methods of modulating the half-life of an antimicrobial peptide are described. The method may include administering an antimicrobial peptide to an environment where the antimicrobial peptide remains active until a specified endpoint, and on or after the specified endpoint, digesting the antimicrobial peptide with a protease to thereby inactivate the antimicrobial peptide and modulate its half-life. Compositions and kits for modulating the half-life of an antimicrobial peptide are also described."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_11350",
+            "Peptide Name": "Ruminococcin C (Bacteriocin)",
+            "Sequence": "MRNDVLTLTNPMEEKELEQILGGGNGVLKTISHECNMNTWQFLFTCC",
+            "Source": "Ruminococcus gnavus E1",
+            "Target Organism": "No MICs found on DRAMP database",
+            "Reference": [
+                "Ruminococcin C, a new anti-Clostridium perfringens bacteriocin produced in the gut by the commensal bacterium Ruminococcus gnavus E1. (PMID:21586310)"
+            ],
+            "Biological Activity": [
+                "Antibacterial"
+            ],
+            "Frequent Amino Acids": "LEN",
+            "Absent Amino Acids": "AOUY",
+            "Basic Residues": 4,
+            "Acidic Residues": 6,
+            "Hydrophobic Residues": 17,
+            "Polar Residues": 22,
+            "Positive Residues": 4,
+            "Negative Residues": 6,
+            "Mass": 5360.13,
+            "PI": 4.7,
+            "Net Charge": -2,
+            "Hydrophobicity": -0.22,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00026",
+                    "Similarity": 1.0,
+                    "Sequence": "GNGVLKTISHECNMNTWQFLFTCC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07446",
+                    "Similarity": 1.0,
+                    "Sequence": "GNGVLKTISHECNMNTWQFLF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15253",
+                    "Similarity": 1.0,
+                    "Sequence": "GNGVLKTISHECNMNWQFLFTCC"
+                }
+            ]
+        }
+    }
+}

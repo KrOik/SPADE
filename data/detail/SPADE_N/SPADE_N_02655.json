@@ -1,0 +1,81 @@
+{
+    "SPADE_N_02655": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02655",
+            "Peptide Name": "S.calcitrans defensin 1 (Smd1; defensins; Insects, animals)",
+            "Source": "Stomoxys calcitrans (Stable fly)",
+            "Family": "Belongs to the invertebrate defensin family (Type 1 subfamily)",
+            "Gene": "SMD1",
+            "Sequence": "AAKPMGITCDLLSLWKVGHAACAAHCLVLGDVGGYCTKEGLCVCKE",
+            "Sequence Length": 46,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/O16136"
+            ],
+            "Protein Existence": "Homology",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C205H333N55O59S7",
+            "Mass": 4736.63,
+            "PI": 6.91,
+            "Net Charge": 2,
+            "Hydrophobicity": 0.6,
+            "Half Life": "Mammalian:4.4 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Antibacterial peptide active mostly against Gram-negative bacteria. Its activity is enhanced by lipopolysaccharide (By similarity).",
+            "PTM": "Contains three disulfide bonds (By similarity).",
+            "Literature": [
+                {
+                    "Title": "Midgut-specific immune molecules are produced by the blood-sucking insect Stomoxys calcitrans.",
+                    "Pubmed ID": "9326639",
+                    "Reference": "Proc Natl Acad Sci U S A. 1997 Oct 14;94(21)11502-11507.",
+                    "Author": "Lehane MJ, Wu D, Lehane SM.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=9326639"
+                },
+                {
+                    "Title": "Regulation of midgut defensin production in the blood-sucking insect Stomoxys calcitrans.",
+                    "Pubmed ID": "11903625",
+                    "Reference": "Insect Mol Biol. 2001 Dec;10(6)561-571.",
+                    "Author": "Munks RJ, Hamilton JV, Lehane SM, Lehane MJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=11903625"
+                }
+            ],
+            "Frequent Amino Acids": "ACG",
+            "Absent Amino Acids": "FNOQRU",
+            "Basic Residues": 6,
+            "Acidic Residues": 4,
+            "Hydrophobic Residues": 21,
+            "Polar Residues": 26,
+            "Positive Residues": 6,
+            "Negative Residues": 4,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07943",
+                    "Similarity": 1.0,
+                    "Sequence": "MKFLNVVAIALLVVACLAVYSNAAPHEGVKEVAAAKPMGITCDLLSLWKVGHAACAAHCLVLGDVGGYCTKEGLCVCKE"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03413",
+                    "Similarity": 0.9782608695652174,
+                    "Sequence": "MKFLNVVAIALLVVACLSVYSNAAPHEGVKEVAAAKPMGITCDLLSLWKVGHAACAAHCLVLGNVGGYCTKEGLCVCKE"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03377",
+                    "Similarity": 0.625,
+                    "Sequence": "ATCDLLSGTGVGHSACAAHCLLRGNRGGYCNGKGVCVCRN"
+                }
+            ]
+        }
+    }
+}

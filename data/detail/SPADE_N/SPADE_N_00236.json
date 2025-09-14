@@ -1,0 +1,66 @@
+{
+    "SPADE_N_00236": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00236",
+            "Peptide Name": "Potamin-1 (PT-1; Plants)",
+            "Source": "Solanum tuberosum (Potato)",
+            "Family": "Belongs to the protease inhibitor I20",
+            "Gene": "Not found",
+            "Sequence": "DICTNCCAGTKGCNTTSANGAFICEGQSDPKKPKACPLNCDPHIAYA",
+            "Sequence Length": 47,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P84813"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antifungal",
+                "Antibacterial",
+                "Anti-Gram+"
+            ],
+            "Target Organism": "[Ref.15809084]Fungi:Candida albicans(MIC =100μM) and Rhizoctonia solani(MIC =100μM);Gram-positive bacterium:Clavibacter michiganensis(MIC =50μM)",
+            "Hemolytic Activity": "[Ref:15809084]Non-hemolytic activity against human erythrocytes",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C199H316N58O68S7",
+            "Mass": 4833.44,
+            "PI": 6.7,
+            "Net Charge": 1,
+            "Hydrophobicity": -0.33,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:>10 hour",
+            "Function": "Inhibitor of serine proteases chymotrypsin, papain and trypsin. Has strong antifungal activity against C. albicans and R.solani. Has antibacterial activity against the Gram-positive bacterium C.michiganense, but Non-antibacterial activity against the Gram-positive bacterium S. aureus. Lacks hemolytic activity against human erythrocytes.",
+            "PTM": "Contains four disulfide bonds (By similarity).",
+            "Literature": [
+                {
+                    "Title": "Antimicrobial activity studies on a trypsin-chymotrypsin protease inhibitor obtained from potato.",
+                    "Pubmed ID": "15809084",
+                    "Reference": "Biochem Biophys Res Commun. 2005 May 13;330(3)921-927.",
+                    "Author": "Kim JY, Park SC, Kim MH, Lim HT, Park Y, Hahm KS.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=15809084"
+                }
+            ],
+            "Frequent Amino Acids": "CAG",
+            "Absent Amino Acids": "MORUVW",
+            "Basic Residues": 5,
+            "Acidic Residues": 4,
+            "Hydrophobic Residues": 16,
+            "Polar Residues": 30,
+            "Positive Residues": 5,
+            "Negative Residues": 4,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_14008",
+                    "Similarity": 0.7142857142857143,
+                    "Sequence": "RLCTNCCAGRKGCNYYSADGTFICEGESDPNNPKA"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_25799": {
+        "Sequence Information": {
+            "Peptide Name": "PMAP-36 (12-31)[P25A,P26K]",
+            "Sequence": "KRLKKIGKVLKWIAKIVGSI",
+            "Sequence Length": 20,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P49931",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P49931",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Structural and biological characterization of shortened derivatives of the cathelicidin PMAP-36.",
+                    "Pubmed ID": "37704689",
+                    "Reference": "Sci Rep. 2023;13:15132",
+                    "Author": "Biondi B, de Pascale L, Mardirossian M, Di Stasi A, Favaro M, Scocchi M, Peggion C",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/37704689"
+                }
+            ],
+            "Mass": 2278.91,
+            "PI": 11.43,
+            "Net Charge": 7,
+            "Hydrophobicity": 0.27,
+            "Frequent Amino Acids": "KIG",
+            "Absent Amino Acids": "CDEFHMNOPQTUY",
+            "Basic Residues": 7,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 11,
+            "Positive Residues": 7,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_25799",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02564",
+                    "Similarity": 1.0,
+                    "Sequence": "GRFRRLRKKTRKRLKKIGKV"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10265",
+                    "Similarity": 1.0,
+                    "Sequence": "RFRRLRWWTRKRLKKI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11816",
+                    "Similarity": 1.0,
+                    "Sequence": "GRFRRLRKKTRKRLKKIGKVLKWI"
+                }
+            ],
+            "Hemolytic Activity": "Sheep erythrocytes:60% Hemolysis=32 µM,Human keratinocytes HaCat:100% Cell death=64 µM",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=>32µM),Staphylococcus aureus ATCC 25923(MIC=>32µM),Acinetobacter baumannii ATCC 19606(MIC=>32µM),Klebsiella pneumoniae ATCC 700603(MIC=>32µM),Pseudomonas aeruginosa ATCC 27853(MIC=>32µM),Staphylococcus epidermidis ATCC 12228(MIC=>32µM)"
+        }
+    }
+}

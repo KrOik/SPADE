@@ -1,0 +1,91 @@
+{
+    "SPADE_N_02464": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02464",
+            "Peptide Name": "Cathelicidin-5 (Antibacterial peptide BMAP-28; Myeloid antib",
+            "Source": "Bos taurus (Bovine)",
+            "Family": "Belongs to the cathelicidin family",
+            "Gene": "CATHL5",
+            "Sequence": "GGLRSLGRKILRAWKKYGPIIVPIIRIG",
+            "Sequence Length": 28,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P54229",
+                "http://www.uniprot.org/uniprot/A5PJ96",
+                "http://www.uniprot.org/uniprot/B9UKL6"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "Gram-negative bacteria:Escherichia coli ATCC 25922 (MIC=2 µM), E. coli ML35 (MIC=2 µM), E. coli D21 (MIC=0.5 µM), Salmonella typhimurium ATCC 14028 (MIC=1 µM), Pseudomonas aeruginosa ATCC 27853 (MIC=1 µM), Serratia marcescens ATCC 8100 (MIC=2 µM);Gram-positive bacteria:Staphylococcus aureus ATCC 25923 (MIC=2 µM), Staphylococcus aureus Cowan 1 (MIC=1 µM), Staphylococcus aureus (MRSA) (MIC=4 µM), Staphylococcus epidermidis ATCC 12228 (MIC=1 µM), Bacillus megaterium Bm11 (MIC=2 µM).Fungi:Candida albicans (MIC=8 µM), Cryptococcus neoformans (MIC=4 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C147H252N44O31",
+            "Mass": 3131.85,
+            "PI": 12.0,
+            "Net Charge": 7,
+            "Hydrophobicity": 0.23,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Exerts a potent antimicrobial activity against Gram-negative and Gram-positive bacteria, including methicillin-resistant Staphylococcus aureus, and fungi.",
+            "PTM": "Contains two disulfide bonds. (By similarity)",
+            "Literature": [
+                {
+                    "Title": "Biological characterization of two novel cathelicidin-derived peptides and identification of structural requirements for their antimicrobial and cell lytic activities.",
+                    "Pubmed ID": "8910461",
+                    "Reference": "J Biol Chem. 1996 Nov 8;271(45)28375-28381.",
+                    "Author": "Skerlavaj B, Gennaro R, Bagella L, Merluzzi L, Risso A, Zanetti M.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=8910461"
+                },
+                {
+                    "Title": "Purification and structural characterization of bovine cathelicidins, precursors of antimicrobial peptides.",
+                    "Pubmed ID": "8706679",
+                    "Reference": "Eur J Biochem. 1996 Jun 15;238(3)769-776.",
+                    "Author": "Storici P, Tossi A, Lenarcic B, Romeo D.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=8706679"
+                },
+                {
+                    "Title": "Sequence analysis and polymorphism discovery in 4 members of the bovine cathelicidin gene family.",
+                    "Pubmed ID": "R2009J1175",
+                    "Author": "Womack J.E.,Elliott J.S.,Seabury C.M.,Gillenwaters E.N."
+                }
+            ],
+            "Frequent Amino Acids": "IGR",
+            "Absent Amino Acids": "CDEFHMNOQTU",
+            "Basic Residues": 7,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 15,
+            "Polar Residues": 11,
+            "Positive Residues": 7,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02483",
+                    "Similarity": 1.0,
+                    "Sequence": "GGLRSLGRKILRAWKKYG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04275",
+                    "Similarity": 1.0,
+                    "Sequence": "GGLRSLGRKILRAWKKYGPIIVPIIRI"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_19303",
+                    "Similarity": 1.0,
+                    "Sequence": "GGLRSLGRKILRAWKKYG"
+                }
+            ]
+        }
+    }
+}

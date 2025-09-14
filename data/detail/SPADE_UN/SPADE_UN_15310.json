@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_15310": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_15310",
+            "Peptide Name": 23,
+            "Source": "Synthetic",
+            "Family": "",
+            "Gene": "Not found",
+            "Sequence": "YGGFMX",
+            "Sequence Length": 6,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Notavailable"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Target Organism": "Tumor cells:CaCo-2 (11.8% inhibition at 10μM, 47.0% inhibition at 1000μM); MCF-7 (2.2% inhibition at 1μM, 7.1% inhibition at 10μM, 6.9% inhibition at 100μM, 25.9% inhibition at 1000μM); HEp-2 (3.9% inhibition at 10μM, 45.0% inhibition at 1000μM); HBL (4.1% inhibition at 1μM, 70.7% inhibition at 10μM, 34.2% inhibition at 1000μM); HT-29 (9.2% inhibition at 1000μM); HeLa (9.3% inhibition at 1000μM)",
+            "Hemolytic Activity": "Not available",
+            "Cytotoxicity": "Not available",
+            "Binding Target": "Not available",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C27H33N5O6S",
+            "Mass": 75501,
+            "PI": 6.09,
+            "Net Charge": 0,
+            "Hydrophobicity": 0.433,
+            "Half Life": "Mammalian:2.8 hourYeast:10 minE.coli:2 min",
+            "Comments": "lead to apoptosis",
+            "Literature": [
+                {
+                    "Title": "Tumor-cell-targeted methionine-enkephalin analogues containing unnatural amino acids design, synthesis, and in vitro antitumor activity",
+                    "Pubmed ID": "16722632",
+                    "Reference": "J Med Chem. 2006 Jun 1;49(11)3136-42.",
+                    "Author": "Horvat S, Mlinarić-Majerski K, Glavas-Obrovac L, Jakas A, Veljković J, Marczi S, Kragol G, Roscić M, Matković M, Milostić-Srb A.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16722632"
+                }
+            ],
+            "Frequent Amino Acids": "GFM",
+            "Absent Amino Acids": "ACDEHIKLNOPQRSTUVW",
+            "Basic Residues": 0,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 3,
+            "Polar Residues": 1,
+            "Positive Residues": 0,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02447",
+                    "Similarity": 1.0,
+                    "Sequence": "FAEPLPSEEEGESYSKEVPEMEKRYGGFM"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07426",
+                    "Similarity": 1.0,
+                    "Sequence": "FAEPTSEEEGESYSKEVPEMEKRYGGFM"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07691",
+                    "Similarity": 1.0,
+                    "Sequence": "FAEPLPSEEEGESYSKEPPEMEKRYGGFM"
+                }
+            ]
+        }
+    }
+}

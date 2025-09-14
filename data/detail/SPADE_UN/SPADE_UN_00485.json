@@ -1,0 +1,84 @@
+{
+    "SPADE_UN_00485": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 5519115 A",
+                "Patent Link": "http://www.lens.org/lens/patent/US_5519115_A",
+                "Patent Type": "Granted Patent",
+                "Publication Date": "1996-5-21",
+                "Family Info": "CA2060455A1,CA2060455C,EP0497366A2,EP0497366A3,EP0919566A2,EP0919566A3",
+                "Patent Title": "Reverse antimicrobial peptides.",
+                "Abstract": "The present invention relates to several types of antimicrobial peptides including reverse antimicrobial peptides, antimicrobial oligopeptides and other antimicrobial compositions, such as cecropin P1. The present invention also relates to the use of these antimicrobial peptides to provide organisms, and, in particular, plants, with protection from microbial pathogens. Finally, the present invention relates to a screening method which may be useful for determining the phytotoxity of an antimicrobial peptide."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_00485",
+            "Peptide Name": "Immobilized peptide E23GIG magainin2",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "SNMIEGVFAKGFKKASHLFKGIG",
+            "Sequence Length": 23,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "Gram-negative bacteria:Escherichia coli ATCC 25922, Klebsiella pneumoniae ATCC 4352;Gram-positive bacteria:Staphylococcus aureus ATCC 6538 and ATCC 25923, Bacillus subtilis ATCC 6051.Yeast:Candida albicans ATCC 10231.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C114H180N30O29S",
+            "Mass": 2466.9,
+            "PI": 10.0,
+            "Net Charge": 4,
+            "Hydrophobicity": 0.08,
+            "Half Life": "Mammalian:1.9 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Has antibacterial activiy against Gram-negative and Gram-positive bacteria.",
+            "Literature": [
+                {
+                    "Title": "Antimicrobial activities of amphiphilic peptides covalently bonded to a water-insoluble resin.",
+                    "Pubmed ID": "7726486",
+                    "Reference": "Antimicrob Agents Chemother. 1995 Feb;39(2)301-307.",
+                    "Author": "Haynie SL, Crum GA, Doele BA.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=7726486"
+                }
+            ],
+            "Frequent Amino Acids": "GKF",
+            "Absent Amino Acids": "CDOPQRTUWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 11,
+            "Positive Residues": 5,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_00486",
+                    "Similarity": 1.0,
+                    "Sequence": "SNMIEGVFAKGFKKASH"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_07880",
+                    "Similarity": 1.0,
+                    "Sequence": "VFAKGFKKASHLFKGIG"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_07651",
+                    "Similarity": 0.9375,
+                    "Sequence": "MIEVFAKFKALFKGIG"
+                }
+            ]
+        }
+    }
+}

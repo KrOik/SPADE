@@ -1,0 +1,75 @@
+{
+    "SPADE_N_03134": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03134",
+            "Peptide Name": "Histatin-2 (His-rich; Human, mammals, animals)",
+            "Source": "Homo sapiens (Human)",
+            "Family": "Not found",
+            "Gene": "HTN3",
+            "Sequence": "RKFHEKHHSHREFPFYGDYGSNYLYDN",
+            "Sequence Length": 27,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P15516",
+                "http://www.uniprot.org/uniprot/Q16243",
+                "http://www.uniprot.org/uniprot/Q502Z1"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antifungal"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C158H211N45O44",
+            "Mass": 3444.64,
+            "PI": 7.1,
+            "Net Charge": 4,
+            "Hydrophobicity": -1.76,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Comments": "An autoproteolytic product from Histatin 1 but not phosphorylated (Lal et al. 1992 Arch Oral Bio 377-13).",
+            "Literature": [
+                {
+                    "Title": "Histatins 2 and 4 are autoproteolytic degradation products of human parotid saliva.",
+                    "Pubmed ID": "1528633",
+                    "Reference": "Oral Microbiol Immunol 1992; 7 127-128.",
+                    "Author": "Xu L, Lal K, Pollock JJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=1528633"
+                }
+            ],
+            "Frequent Amino Acids": "HYF",
+            "Absent Amino Acids": "ACIMOQTUVW",
+            "Basic Residues": 8,
+            "Acidic Residues": 4,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 16,
+            "Positive Residues": 8,
+            "Negative Residues": 4,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03133",
+                    "Similarity": 1.0,
+                    "Sequence": "DSHEKRHHGYRRKFHEKHHSHREFPFYGDYGSNYLYDN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07941",
+                    "Similarity": 1.0,
+                    "Sequence": "MKFFVFALVLALMISMISADSHEKRHHGYRRKFHEKHHSHREFPFYGDYGSNYLYDN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08543",
+                    "Similarity": 1.0,
+                    "Sequence": "KRHHGYKRKFHEKHHSHR"
+                }
+            ]
+        }
+    }
+}

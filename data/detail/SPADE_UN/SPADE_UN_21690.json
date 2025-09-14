@@ -1,0 +1,67 @@
+{
+    "SPADE_UN_21690": {
+        "Sequence Information": {
+            "Peptide Name": "Decoralin [L9F,I10F]",
+            "Sequence": "SLLSLIRKFFT",
+            "Sequence Length": 11,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P85870",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P85870",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Decoralin Analogs with Increased Resistance to Degradation and Lower Hemolytic Activity",
+                    "Pubmed ID": "",
+                    "Reference": "ChemistrySelect. 2017;2:18-23",
+                    "Author": "Torres MDT, Pedron CN, Araujo I, da Silva PI Jr, da Silva FD, Oliveira VX Jr",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/"
+                }
+            ],
+            "Mass": 1324.61,
+            "PI": 11.0,
+            "Net Charge": 2,
+            "Hydrophobicity": 0.98,
+            "Frequent Amino Acids": "LFS",
+            "Absent Amino Acids": "ACDEGHMNOPQUVWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 5,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_21690",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01574",
+                    "Similarity": 1.0,
+                    "Sequence": "VLPIIGNLLNSLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05491",
+                    "Similarity": 1.0,
+                    "Sequence": "IFGAIWKGISSLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05492",
+                    "Similarity": 1.0,
+                    "Sequence": "FLSTIWNGIKSLL"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:0% Hemolysis=62.5 µM",
+            "Target Organism": "Micrococcus luteus A270(MIC=0.39µM),Escherichia coli SBS 363(MIC=1.56µM),Candida albicans MDM8(MIC=1.56µM)"
+        }
+    }
+}

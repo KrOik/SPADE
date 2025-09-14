@@ -1,0 +1,70 @@
+{
+    "SPADE_N_13962": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_13962",
+            "Peptide Name": "MccY (microcin Y, natural AMPs; lactam;  class 2 lasso peptide; class 1 microcins, bacteriocins, Gram-negative bacteria, prokaryotes; XXJ; UCSB1a)",
+            "Source": "plasmid,Salmonella enterica",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "GGRGHIAEYFSGPITQVSFYG",
+            "Sequence Length": 21,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 2243.43,
+            "PI": 6.75,
+            "Hydrophobicity": -0.12,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Li Y, Han Y, Zeng Z, Li W, Feng S, Cao W.2021",
+                    "Reference": "J Agric Food Chem. 2021 Aug 11;69(31):8758-8767. doi: 10.1021/acs.jafc.1c02659.Pub-Med.",
+                    "Title": "Discovery and Bioactivity of the Novel Lasso Peptide Microcin Y."
+                }
+            ],
+            "Frequent Amino Acids": "GFI",
+            "Absent Amino Acids": "CDKLMNOUW",
+            "Basic Residues": 2,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 10,
+            "Positive Residues": 2,
+            "Negative Residues": 1,
+            "Net Charge": 1,
+            "Comments": "Sequence analysis: APD analysis reveals this sequence is most similar (63.64%) toMicrocin J25Chemical modification: G1 and E8 sidechain forms an amide bond, leading to a lasso structure locked by C-terminal aromatic F and Y.Activity: active against S. infantis (MIC 0.04 uM), S. sonnei (MIC 0.4 uM), S. flexneri (MIC 20 uM), B. subtilis (MIC 0.05 uM), P-aeruginosa (MIC >20 uM), C.perfringens (MIC 200 uM), S. aureus (MIC 0.2 uM), E.coli (MIC 200 uM), and K.pneumoniae (MIC 200 uM).Resistance mechanism: An A63G point mutation of the iron receptor protein fhuA and early termination at 182 or 643 gave rise to 1000-fold increases in MccY resistance.Recombinant production:bacteria:Escherichia coli:. \nAlso Recombinant production:bacteria:Bacillus subtilis: improved expression with peptide yield 1.481 uM MccY (Zhang et al., 2023).",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_12923",
+                    "Similarity": 0.8,
+                    "Sequence": "GRRGGRGGRGR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08453",
+                    "Similarity": 0.75,
+                    "Sequence": "RGRGRGRGRG"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_27612",
+                    "Similarity": 0.75,
+                    "Sequence": "RGRGRGRGRG"
+                }
+            ]
+        }
+    }
+}

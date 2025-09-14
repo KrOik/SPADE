@@ -1,0 +1,101 @@
+{
+    "SPADE_N_02487": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 2005/0260715 A1",
+                "Patent Link": "http://www.lens.org/lens/patent/US_2005_0260715_A1",
+                "Patent Type": "Patent Application",
+                "Publication Date": "2005-11-24",
+                "Family Info": "US6946261",
+                "Patent Title": "Efficient methods for producing antimicrobial cationic peptides in host cells.",
+                "Abstract": "Endogenously produced cationic antimicrobial peptides are ubiquitous components of host defenses in mammals, birds, amphibia, insects, and plants. Cationic peptides are also effective when administered as therapeutic agents. A practical drawback in cationic peptide therapy, however, is the cost of producing the agents. The methods described herein provide a means to efficiently produce cationic peptides from recombinant host cells. These recombinantly-produced cationic peptides can be rapidly purified from host cell proteins using anion exchange chromatography."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02487",
+            "Peptide Name": "Tracheal antimicrobial peptide (TAP; mammals, animals)",
+            "Source": "Bos taurus (Bovine)",
+            "Family": "Belongs to the beta-defensin family (LAP/TAP subfamily)",
+            "Gene": "Not found",
+            "Sequence": "NPVSCVRNKGICVPIRCPGSMKQIGTCVGRAVKCCRKK",
+            "Sequence Length": 38,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P25068",
+                "http://www.uniprot.org/uniprot/O97532"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "Gram-negative bacteria:Escherichia coli D31 (MIC=12-25 µg/ml), Klebsiella pneumoniae 13883 (MIC=12-25 µg/ml), Pseudomonas aeruginosa 27853 (MIC=25-50 µg/ml).Gram-positive bacteria:Staphylococcus aureus 25923 (MIC=25-50 µg/ml).Fungi:Candida ablicans (MIC=6-12 µg/ml).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C169H302N58O45S7",
+            "Mass": 4091.02,
+            "PI": 10.0,
+            "Net Charge": 9,
+            "Hydrophobicity": -0.09,
+            "Half Life": "Mammalian:1.4 hourYeast:3 minE.coli:>10 hour",
+            "Function": "Has antibacterial activity in vitro. In addition, the peptide is active against Candida albicans, indicating a broad spectrum of activity.",
+            "Tissue specificity": "Tracheal epithelium.",
+            "PTM": "Contains three disulfide bonds 5-34; 12-27; 17-35. (By similarity)",
+            "Literature": [
+                {
+                    "Title": "Tracheal antimicrobial peptide, a cysteine-rich peptide from mammalian tracheal mucosa peptide isolation and cloning of a cDNA.",
+                    "Pubmed ID": "2023943",
+                    "Reference": "Proc Natl Acad Sci U S A. 1991 May 1;88(9)3952-3956.",
+                    "Author": "Diamond G, Zasloff M, Eck H, Brasseur M, Maloy WL, Bevins CL.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=2023943"
+                },
+                {
+                    "Title": "Airway epithelial cells are the site of expression of a mammalian antimicrobial peptide gene.",
+                    "Pubmed ID": "8506305",
+                    "Reference": "Proc Natl Acad Sci U S A. 1993 May 15;90(10)4596-4600.",
+                    "Author": "Diamond G, Jones DE, Bevins CL.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=8506305"
+                },
+                {
+                    "Title": "Tracheal antimicrobial peptide, a cysteine-rich peptide from mammalian tracheal mucosa: peptide isolation and cloning of a cDNA.",
+                    "Pubmed ID": "",
+                    "Author": "Maloy W.L.,Brasseur M.,Eck H.,Zasloff M.,Diamond G."
+                }
+            ],
+            "Frequent Amino Acids": "CKV",
+            "Absent Amino Acids": "DEFHLOUWY",
+            "Basic Residues": 9,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 27,
+            "Positive Residues": 9,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02489",
+                    "Similarity": 1.0,
+                    "Sequence": "NPVSCVRNKGICVPIRCPGSMKQIGTCVGRAVKCCR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03974",
+                    "Similarity": 1.0,
+                    "Sequence": "GVGNPVSCVRNKGICVPIRCPGSMKQIGTCVGRAVKCCRKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04020",
+                    "Similarity": 1.0,
+                    "Sequence": "GNPVSCVRNKGICVPIRCPGSMKQIGTCVGRAVKCCRKK"
+                }
+            ]
+        }
+    }
+}

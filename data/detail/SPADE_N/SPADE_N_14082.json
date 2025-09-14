@@ -1,0 +1,70 @@
+{
+    "SPADE_N_14082": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_14082",
+            "Peptide Name": "Nisin(1-22) (fragment of nisin A, Synthetic AMPs, UCSS1b)",
+            "Source": "sequence truncation, lantibiotic, bacteria-derived, natural derivative",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "ITSISLCTPGCKTGALMGCNMK",
+            "Sequence Length": 22,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-MRSA"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 2229.73,
+            "PI": 8.68,
+            "Hydrophobicity": 0.54,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Guo L, Wambui J, Wang C, Muchaamba F, Fernandez-Cantos MV, Broos J, Tasara T, Kuipers OP, Stephan R.2023",
+                    "Reference": "Microbiol Spectr. 2023 Sep 27;11(5):e0531922. doi: 10.1128/spectrum.05319-22.PubMed",
+                    "Title": "Cesin, a short natural variant of nisin, displays potent antimicrobial activity against major pathogens despite lacking two C-terminal macrocycles."
+                }
+            ],
+            "Frequent Amino Acids": "CGT",
+            "Absent Amino Acids": "DEFHOQRUVWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 12,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "Net Charge": 2,
+            "Comments": "Sequence analysis: APD analysis reveals that this sequence is most similar (72.73%) toCesin AActivity:  Active against L. lactis MG1363 (MIC 1.28 ug/ml), L. monocytogenes LMG10470 or TT82E or  LK132 (MIC 10.25-41 ug/ml), B-cereus CH-85 (MIC >41 ug/ml), S. aureus LMG10147 or LMG15975 MRSA (MIC 20.5 ug/ml), E. faecium LMG11423 (MIC 41 ug/ml), E-faecium LMG16003 VRE (MIC>41 ug/ml), E-faecalis LMG16216 VRE (MIC >41 ug/ml).",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00030",
+                    "Similarity": 1.0,
+                    "Sequence": "ITSISLCTPGCKTGALMGCNMKTATCNCSIHVSK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00044",
+                    "Similarity": 1.0,
+                    "Sequence": "ITSISLCTPGCKTGALMGCNMKTATCNCSVHVSK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05484",
+                    "Similarity": 1.0,
+                    "Sequence": "ITSISLCTPGCKTGALMGCNMKTATCHCSIHVSK"
+                }
+            ]
+        }
+    }
+}

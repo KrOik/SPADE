@@ -1,0 +1,57 @@
+{
+    "SPADE_N_15459": {
+        "Sequence Information": {
+            "Peptide Name": "Asperversiamide A",
+            "Sequence": "SWSAVFV",
+            "Sequence Length": 7,
+            "Biological Activity": [
+                "Anti-Gram+"
+            ],
+            "Source": "1. Aspergillus versicolor",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Discovery, absolute assignments, and total synthesis of asperversiamides A-C and their potent activity against Mycobacterium marinum",
+                    "Pubmed ID": "30623956",
+                    "Reference": "Chem Commun (Camb). 2019;55:1104-1107",
+                    "Author": "Hou XM, Liang TM, Guo ZY, Wang CY, Shao CL",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/30623956"
+                }
+            ],
+            "Mass": 794.89,
+            "PI": 5.24,
+            "Net Charge": 0,
+            "Hydrophobicity": 1.5,
+            "Frequent Amino Acids": "SVA",
+            "Absent Amino Acids": "CDEGHIKLMNOPQRTUY",
+            "Basic Residues": 0,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 4,
+            "Polar Residues": 3,
+            "Positive Residues": 0,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_N_15459",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_26136",
+                    "Similarity": 1.0,
+                    "Sequence": "WSAVFV"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15458",
+                    "Similarity": 1.0,
+                    "Sequence": "AVFVAW"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_09369",
+                    "Similarity": 1.0,
+                    "Sequence": "MAKKALVNKAARKPKFTVRGYTRCSKCGRPRAVFRKFGLCRICLREMAHAGELPGVQKSSW"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Mycobacterium marinum(MIC=23.4µM),Mycobacterium tuberculosis H37Ra(MIC=>100µM)"
+        }
+    }
+}

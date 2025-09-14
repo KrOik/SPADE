@@ -1,0 +1,85 @@
+{
+    "SPADE_UN_13424": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_13424",
+            "Peptide Name": "[E6k,D9k]Hymenochirin-1B",
+            "Source": "Synthetic construct",
+            "Family": "N/A",
+            "Gene": "N/A",
+            "Sequence": "IKLSPKTKKNLKKVLKGAIKGAIAVAKMV",
+            "Sequence Length": 29,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Notfound"
+            ],
+            "Protein Existence": "Synthetic form",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.24172540] Gram-positive bacteria:S. aureus ATCC 29213 (MIC = 3.1 μM), S. aureus ATCC 25923 (MIC = 1.6 μM), S.epidermidis RP62A (MIC = 0.8 μM), S.epidermidis RP62A/1 (MIC = 0.8 μM), C.albicans ATCC 90028 (MIC = 100 μM);Gram-negative bacteria:E.coli (MIC = 3.1 μM), A. baumannii (MIC = 1.6 μM), S. maltophilia (MIC = 1.6 μM), K. pneumoniae (MIC = 3.1 μM), P. aeruginosa (MIC = 6.25 μM), P.mirabilis (MIC > 100 μM).",
+            "Hemolytic Activity": "[Ref.24172540] LC₅₀ = 302 ± 21 μM against freshly prepared human erythrocytes.",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "Mixed (D-Lys6 and D-Lys9)",
+            "Structure Description": "No structure indentification experiment and detailed structure description found",
+            "Formula": "C142H263N39O33S",
+            "Mass": 3076.91,
+            "PI": 10.9,
+            "Net Charge": 9,
+            "Hydrophobicity": 0.14,
+            "Half Life": "Mammalian:20 hourYeast:30 minE.coli:>10 hour",
+            "Function": "Antibacterial activity against Gram-positive and Gram-negative bacteria.",
+            "Literature": [
+                {
+                    "Title": "An analog of the host-defense peptide hymenochirin-1B with potent broad-spectrum activity against multidrug-resistant bacteria and immunomodulatory properties",
+                    "Pubmed ID": "24172540",
+                    "Reference": "Peptides. 2013 Dec;50153-9. doi 10.1016/j.peptides.2013.10.015. Epub 2013 Oct 27.",
+                    "Author": "Milena Mechkarska, Manju Prajeep, Gordana D Radosavljevic, Ivan P Jovanovic, Amna Al Baloushi, Agnes Sonnevend, Miodrag L Lukic, J Michael Conlon",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=24172540"
+                },
+                {
+                    "Title": "Host-defense peptides with therapeutic potential from skin secretions of frogs from the family pipidae",
+                    "Pubmed ID": "",
+                    "Author": "Conlon JM, Mechkarska M"
+                },
+                {
+                    "Title": "Anti-tumor activities of the host-defense peptide hymenochirin-1B",
+                    "Pubmed ID": "",
+                    "Author": "Attoub S, Arafat K, Mechkarska M, Conlon JM"
+                }
+            ],
+            "Frequent Amino Acids": "KAI",
+            "Absent Amino Acids": "CDEFHOQRUWY",
+            "Basic Residues": 9,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 15,
+            "Polar Residues": 19,
+            "Positive Residues": 9,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_13424",
+                    "Similarity": 1.0,
+                    "Sequence": "IKLSPKTKKNLKKVLKGAIKGAIAVAKMV"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_23804",
+                    "Similarity": 1.0,
+                    "Sequence": "IKLSPTKKLKKVLKGAIKGAIAVAKMV"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_23805",
+                    "Similarity": 1.0,
+                    "Sequence": "IKLSKTKKLKKVLKGAIKGAIAVAKMV"
+                }
+            ]
+        }
+    }
+}

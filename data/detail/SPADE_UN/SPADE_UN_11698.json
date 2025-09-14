@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_11698": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_11698",
+            "Peptide Name": "IN2(designed based on indolicidin and ranalexin)",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "RRPWRWPWWPWRR",
+            "Sequence Length": 13,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.26046345] Gram-negative bacteria:Escherichia coli ATCC 25922(MIC=31.25μg/ml), Pseudomonas aeruginosa ATCC 15442(MIC=31.25μg/ml), Acinetobacter baumanii ATCC 15308(MIC>250μg/ml), citrobacter spp(MIC>250μg/ml), Klebsiella pneumoniae(MIC>250μg/ml) ;Gram-positive bacteria:Streptococcus pneumoniae(30 clinical isolates)(MIC=31.25–62.5μg/ml), Staphylococcus aureus ATCC 25923(MIC=31.25μg/ml), Methicillin resistant Staphylococcus aureus (MRSA)(MIC=31.25μg/ml), Enterococcus cloacae(MIC>250μg/ml),",
+            "Hemolytic Activity": "[Ref.26046345] IN2 showed 15.39% hemolytic activity at concentration of 250μg/ml against human RBCs.",
+            "Cytotoxicity": "[Ref.26046345] The cell viability of NL-20 cell line is not affected (<10%) below 62.5 μg/ml. The cell viability of NL-20 is 40% and 19% at peptide concentrations of 125 and 250 μg/ml.The cell viability of WRL-68 cell line is not affected (<10%) bel",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C100H133N33O14",
+            "Mass": 2021.34,
+            "PI": 12.0,
+            "Net Charge": 5,
+            "Hydrophobicity": -2.45,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Function": "Exhibits antimicrobial activity against the Gram-positive and Gram-negative bacteria.",
+            "Literature": [
+                {
+                    "Title": "Antimicrobial Activity of Novel Synthetic Peptides Derived from Indolicidin and Ranalexin against Streptococcus pneumoniae.",
+                    "Pubmed ID": "26046345",
+                    "Reference": "PLoS One. 2015 Jun 5;10(6)e0128532.",
+                    "Author": "Jindal HM, Le CF, Mohd Yusof MY, Velayuthan RD, Lee VS, Zain SM, Isa DM, Sekaran SD.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=26046345"
+                }
+            ],
+            "Frequent Amino Acids": "RWP",
+            "Absent Amino Acids": "ACDEFGHIKLMNOQSTUVY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 5,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_10809",
+                    "Similarity": 1.0,
+                    "Sequence": "YPYYGTNLYQRRPAIAINNPYVPRTYYANPAVVRPHAQIPQRQYLPNSHPPTVVRRP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_13258",
+                    "Similarity": 1.0,
+                    "Sequence": "KWLRRPWRWWR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_02979",
+                    "Similarity": 1.0,
+                    "Sequence": "PRISRRRPW"
+                }
+            ]
+        }
+    }
+}

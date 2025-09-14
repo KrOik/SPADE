@@ -1,0 +1,74 @@
+{
+    "SPADE_UN_11850": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_11850",
+            "Peptide Name": "DLSA (Derived from SLZP)",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "LRRLLRWLRRLLRR",
+            "Sequence Length": 14,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic form",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "[Ref.25069749] Gram-positive bacteria :Staphylococcus aureus (ATCC 25923)(MIC=3.15 μg/ml), Bacillus cereus(MIC=3.15 μg/ml);Gram-negative bacteria :E. coli (ATCC 9637)(MIC=12.5 μg/ml), Pseudomonas aeruginosa (ATCC BAA-427)(MIC=12.5 μg/ml), Klebsiella pneumoniae (ATCC 27736)(MIC=6.25 μg/ml);Fungi :Sporothrix schenckii(MIC=6.25 μg/ml), Trichophyton mentagrophytes(MIC=12.5 μg/ml), Aspergillus fumigatus(MIC=6.25 μg/ml), Candida parapsilosis (ATCC 22019)(MIC=12.5 μg/ml)",
+            "Hemolytic Activity": "[Ref.25069749] 0% hemolysis at 80 μg/ml against human red blood cells",
+            "Cytotoxicity": "[Ref.25069749] The cell viability of murine fibroblast cells (3T3) is 84.8%, 83.4%, 76.9%, 72.1% and 62.8% at peptide concentrations of 1.5, 3, 4.5, 6 and 9 μM.",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "Mixed(4, 5, 8 is D)",
+            "Structure Description": "Not found",
+            "Formula": "C71H123N33O9",
+            "Mass": 1976.47,
+            "PI": 12.0,
+            "Net Charge": 7,
+            "Hydrophobicity": -0.69,
+            "Half Life": "Mammalian:5.5 hourYeast:3 minE.coli:2 min",
+            "Function": "Antibacterial activity against Gram-positive bacteria and Gram-negative bacteria. Antifungal activity against Sporothrix schenckii, Trichophyton mentagrophytes, Aspergillus fumigatus, Candida parapsilosis",
+            "Literature": [
+                {
+                    "Title": "Design and characterization of short antimicrobial peptides using leucine zipper templates with selectivity towards microorganisms",
+                    "Pubmed ID": "25069749",
+                    "Reference": "Amino Acids. 2014 Nov;46(11)2531-43. doi 10.1007/s00726-014-1802-3.",
+                    "Author": "Ahmad A, Azmi S, Srivastava S, Kumar A, Tripathi JK, Mishra NN, Shukla PK, Ghosh JK",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=25069749"
+                }
+            ],
+            "Frequent Amino Acids": "RLW",
+            "Absent Amino Acids": "ACDEFGHIKMNOPQSTUVY",
+            "Basic Residues": 7,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 7,
+            "Positive Residues": 7,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07062",
+                    "Similarity": 1.0,
+                    "Sequence": "LRRFSTMPFMFCNINNVCNF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11410",
+                    "Similarity": 1.0,
+                    "Sequence": "LRRG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11418",
+                    "Similarity": 1.0,
+                    "Sequence": "LRR"
+                }
+            ]
+        }
+    }
+}

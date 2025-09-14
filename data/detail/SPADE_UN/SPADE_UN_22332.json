@@ -1,0 +1,52 @@
+{
+    "SPADE_UN_22332": {
+        "Sequence Information": {
+            "Peptide Name": "RSV Fgp (488-522)[A3,R20- R-ALA-7-oct;E10,H27- S-ALA-4-pen]",
+            "Sequence": "FDXSISQVNXKINQSLAFIXKSDELLXNVNAGKST",
+            "Sequence Length": 35,
+            "Biological Activity": [
+                "Antiviral"
+            ],
+            "Binding Target": "1. Virus entry",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P03420",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P03420",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "A Short Double-Stapled Peptide Inhibits Respiratory Syncytial Virus Entry and Spreading.",
+                    "Pubmed ID": "28137809",
+                    "Reference": "Antimicrob Agents Chemother. 2017;61:e02241-16",
+                    "Author": "Gaillard V, Garcin D, Eléouët JF, Le Goffic R, Larcher T, Rameix-Welti MA, Boukadiri A, Héritier J, Segura JM, Baechler E, Arrell M, Mottet-Osman G, Nyanguile O",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/28137809"
+                }
+            ],
+            "SPADE ID": "SPADE_UN_22332",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_09960",
+                    "Similarity": 1.0,
+                    "Sequence": "FYDPLVFPSDEFDASISQVNEKINQSLAFIRKSDELL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_10034",
+                    "Similarity": 1.0,
+                    "Sequence": "GEPIINFYDPLVFPSDEFDASISQVNEKINQSLAFIRKSDELLHNVNAGKSTT"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_10058",
+                    "Similarity": 1.0,
+                    "Sequence": "FDASISQVNEKINQSLAFI"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Respiratory syncytial virus (RSV)(IC50 I=3.5µM)"
+        }
+    }
+}

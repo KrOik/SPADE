@@ -1,0 +1,61 @@
+{
+    "SPADE_N_15420": {
+        "Sequence Information": {
+            "Peptide Name": "CGS20",
+            "Sequence": "RRRLARRLIFFIRRAW",
+            "Sequence Length": 16,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Cytoplasmic Protein\n2. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Development of Antibacterial Peptides with Membrane Disruption and Folate Pathway Inhibitory Activities against Methicillin-Resistant Staphylococcus aureus.",
+                    "Pubmed ID": "38173250",
+                    "Reference": "J Med Chem. 2024;67:1044-1060",
+                    "Author": "Li C, Zhou Z, Wang W, Zhao Y,  Meng Y, Zhao P, Wang M, Liu X, Wang X, Wang S, Ren B, Zhang L, Xia X",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/38173250"
+                }
+            ],
+            "Mass": 2186.66,
+            "PI": 12.0,
+            "Net Charge": 7,
+            "Hydrophobicity": -0.41,
+            "Frequent Amino Acids": "RAF",
+            "Absent Amino Acids": "CDEGHKMNOPQSTUVY",
+            "Basic Residues": 7,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 8,
+            "Positive Residues": 7,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_N_15420",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07057",
+                    "Similarity": 1.0,
+                    "Sequence": "GPWERCTAQCGGGIQARRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10171",
+                    "Similarity": 1.0,
+                    "Sequence": "GFGRGFGRRRRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10782",
+                    "Similarity": 1.0,
+                    "Sequence": "KRRRRR"
+                }
+            ],
+            "Hemolytic Activity": "Mouse erythrocytes:10% Hemolysis=>320 µM,Mouse erythrocytes:50% Hemolysis=>320 µM,Human embryonic kidney HEK293T cells:50% Cell death=>320 µM",
+            "Target Organism": "Candida albicans ATCC 5314(MIC=6µM),Streptococcus mutans ATCC UA159(MIC=12µM),Staphylococcus aureus ATCC 25923(MIC=3µM),Staphylococcus aureus ATCC 29213(MIC=6µM),Staphylococcus aureus ATCC 6538(MIC=6µM),Staphylococcus aureus NCTC 8325-4(MIC=6µM),Porphyromonas gingivalis ATCC 33277(MIC=12µM),Escherichia coli ATCC 25922(MIC=>48µM),Pseudomonas aeruginosa PAO1(MIC=>48µM),Staphylococcus aureus(MIC=3-6µM)"
+        }
+    }
+}

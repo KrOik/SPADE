@@ -1,0 +1,72 @@
+{
+    "SPADE_UN_13444": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_13444",
+            "Peptide Name": "CPF-2-2 (Variant of CPF-C1)",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "N/A",
+            "Sequence": "KFWSLLKKALRLWAKVL",
+            "Sequence Length": 17,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic form",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+"
+            ],
+            "Target Organism": "[Ref.32590058] Gram-positive:S. aureus ATCC 25923 (MIC = 8 μg/mL, MIC = 128 μg/mL in 10% serum, MIC = 8 μg/mL in 150 mM, MBIC50 = 16 μg/mL, MBIC90 = 16 μg/mL, MBEC = 16 μg/mL), MRSA ATCC 33591 (MIC = 8 μg/mL), MRSA 054 isolated from clinics (MIC = 8 μg/mL), MRSA 023 isolated from clinics (MIC = 8 μg/mL), MRSA 113 isolated from clinics (MIC = 8 μg/mL), MRSA 048 isolated from clinics (MIC = 8 μg/mL), MRSA 002 isolated from clinics (MIC = 8 μg/mL), MRSA 074 isolated from clinics (MIC = 8 μg/mL), MRSA 051 isolated from clinics (MIC = 16 μg/mL), MRSA 052 isolated from clinics (MIC = 8 μg/mL), MRSA 075 isolated from clinics (MIC = 8 μg/mL), MRSA 071 isolated from clinics (MIC = 8 μg/mL), MRSA 936 isolated from clinics (MIC = 8 μg/mL), S. aureus 725 (MIC = 16 μg/mL), S. aureus 794 (MIC = 8 μg/mL)",
+            "Hemolytic Activity": "[Ref.32590058]It showed almost no hemolytic activity, even at concentrations up to 128 μg/ml",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Bacterial membrane",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "Mixed (D-Lys1, D-Trp3, D-Lys7, D-Leu10, D-Arg11, D-Trp13 and D-Lys15)",
+            "Structure Description": "Not found",
+            "Formula": "C105H170N26O19",
+            "Mass": 2100.64,
+            "PI": 11.33,
+            "Net Charge": 5,
+            "Hydrophobicity": 0.41,
+            "Half Life": "Mammalian:1.3 hourYeast:3 minE.coli:2 min",
+            "Comments": "CPF-2 has potential as a lead compound to treat infections caused by S. aureus and MRSA, including the associated biofilms.",
+            "Literature": [
+                {
+                    "Title": "CPF-C1 analog with effective antimicrobial and antibiofilm activities against Staphylococcus aureus including MRSA",
+                    "Pubmed ID": "32590058",
+                    "Reference": "Biochimie. 2020 Sep;1761-11. doi 10.1016/j.biochi.2020.06.003. Epub 2020 Jun 23.",
+                    "Author": "Xie J, Li Y, Guo X, Rao J, Yan T, Mou L, Wu X, Xie X, Yang W, Zhang B.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=32590058"
+                }
+            ],
+            "Frequent Amino Acids": "LKA",
+            "Absent Amino Acids": "CDEGHIMNOPQTUY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 9,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_11735",
+                    "Similarity": 0.9411764705882353,
+                    "Sequence": "KFWSLLKKALRLWANVL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_11736",
+                    "Similarity": 0.9411764705882353,
+                    "Sequence": "KFWSLLKKALRLWANVL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_11737",
+                    "Similarity": 0.9411764705882353,
+                    "Sequence": "KFWKLLKKALRLWAKVL"
+                }
+            ]
+        }
+    }
+}

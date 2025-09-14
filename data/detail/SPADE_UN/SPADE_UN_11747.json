@@ -1,0 +1,79 @@
+{
+    "SPADE_UN_11747": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_11747",
+            "Peptide Name": "anoplin analog 4",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "GLLKFIKKLL",
+            "Sequence Length": 10,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic form",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "[Ref.27862650]Gram-positive bacteria :Mycobacteria smegmatis mc2 155 (MIC=15 μg/ml), Bacillus subtilis DELTA (MIC=30 μg/ml);Gram-negative bacteria :Escherichia coli DH5a (MIC=300 μg/ml), Zymomonas mobilis 10988 (MIC=7 μg/ml);Fungi :Candida parapsilosis (MIC=40 μg/ml)",
+            "Hemolytic Activity": "[Ref.27862650]0% hemolysis at 55μg/ml , 7% hemolysis at 100μg/ml , 17% hemolysis at 200μg/ml , 24% hemolysis at 300 μg/ml , 33% hemolysis at 400μg/ml , 35% hemolysis at 500 μg/ml against human red blood cells",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C59H105N13O11",
+            "Mass": 1172.55,
+            "PI": 10.3,
+            "Net Charge": 3,
+            "Hydrophobicity": 1.04,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Antibacterial activity against Gram-positive bacteria and Gram-negative bacteria, Antifungal activity agaist Candida parapsilosis",
+            "Literature": [
+                {
+                    "Title": "Synthesis and biological activity of lipophilic analogs of the cationic antimicrobial active peptide anoplin",
+                    "Pubmed ID": "27862650",
+                    "Reference": "J Pept Sci. 2016 Nov;22(11-12)731-736. doi 10.1002/psc.2939.",
+                    "Author": "Kostas Chionis, Dimitrios Krikorian, Anna-Irini Koukkou, Maria Sakarellos-Daitsiotis and Eugenia Panou-Pomonis",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=27862650"
+                },
+                {
+                    "Title": "Synthetic analogs of anoplin show improved antimicrobial activities",
+                    "Pubmed ID": "",
+                    "Author": "Munk JK, Uggerh?j LE, Poulsen TJ, Frimodt-M?ller n, Wimmer R, nyberg nT, Hansen PR"
+                }
+            ],
+            "Frequent Amino Acids": "LKF",
+            "Absent Amino Acids": "ACDEHMNOPQRSTUVWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 3,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01477",
+                    "Similarity": 1.0,
+                    "Sequence": "ILGPILGLVSNAGGLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01560",
+                    "Similarity": 1.0,
+                    "Sequence": "FLPILGNLLNGLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01563",
+                    "Similarity": 1.0,
+                    "Sequence": "FLPIAGKLLSGLSGLL"
+                }
+            ]
+        }
+    }
+}

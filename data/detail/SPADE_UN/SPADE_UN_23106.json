@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_23106": {
+        "Sequence Information": {
+            "Peptide Name": "KL [L6P]",
+            "Sequence": "KLLKLPKKLLKLLK",
+            "Sequence Length": 14,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Proline Hinged Amphipathic α-Helical Peptide Sensitizes Gram-Negative Bacteria to Various Gram-Positive Antibiotics.",
+                    "Pubmed ID": "33205989",
+                    "Reference": "J Med Chem. 2020;63:14937-14950",
+                    "Author": "Hyun S, et al.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/33205989"
+                }
+            ],
+            "Mass": 1676.27,
+            "PI": 10.7,
+            "Net Charge": 6,
+            "Hydrophobicity": 0.11,
+            "Frequent Amino Acids": "LKP",
+            "Absent Amino Acids": "ACDEFGHIMNOQRSTUVWY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 7,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_23106",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_08367",
+                    "Similarity": 1.0,
+                    "Sequence": "KLLK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09755",
+                    "Similarity": 1.0,
+                    "Sequence": "KLLKTFLSKWI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_13163",
+                    "Similarity": 1.0,
+                    "Sequence": "KKLLKGLLKGW"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:10% Hemolysis=640 µM",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=>=80µM),Staphylococcus aureus ATCC 29213(MIC=>80µM)"
+        }
+    }
+}

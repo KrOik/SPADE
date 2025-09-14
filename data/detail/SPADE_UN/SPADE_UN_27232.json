@@ -1,0 +1,59 @@
+{
+    "SPADE_UN_27232": {
+        "Sequence Information": {
+            "Peptide Name": "Defensin-derived D-Peptide E ",
+            "Sequence": "AKGFAANHS",
+            "Sequence Length": 9,
+            "Biological Activity": [
+                "Antiparasitic",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Characteristics of novel insect defensin-based membrane-disrupting trypanocidal peptides.",
+                    "Pubmed ID": "19584534",
+                    "Reference": "Biosci Biotechnol Biochem. 2009;73:1520-1526",
+                    "Author": "Yamage M, Yoshiyama M, Grab DJ, Kubo M, Iwasaki T, Kitani H, Ishibashi J, Yamakawa M",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/19584534"
+                }
+            ],
+            "Mass": 901.97,
+            "PI": 8.8,
+            "Net Charge": 2,
+            "Hydrophobicity": -0.4,
+            "Frequent Amino Acids": "AFG",
+            "Absent Amino Acids": "CDEILMOPQRTUVWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 4,
+            "Polar Residues": 5,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_27232",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02395",
+                    "Similarity": 1.0,
+                    "Sequence": "VTCDLLSFEAKGFAANHSICAAHCLAIGRKGGSCQNGVCVCRN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02396",
+                    "Similarity": 1.0,
+                    "Sequence": "VTCDLLSFEAKGFAANHSICAAHCLVIGRKGGACQNGVCVCRN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02407",
+                    "Similarity": 1.0,
+                    "Sequence": "VTCDLLSFEAKGFAANHSLCAAHCLAIGRRGGSCERGVCICRR"
+                }
+            ],
+            "Hemolytic Activity": "Human brain microvascular endothelial cells HBMEC:-=NA",
+            "Target Organism": "Trypanosoma brucei brucei GUT Tat3.1(MIC=>500µM)"
+        }
+    }
+}

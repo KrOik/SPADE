@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_28267": {
+        "Sequence Information": {
+            "Peptide Name": "Human lactoferricin (17-39)",
+            "Sequence": "TKCFQWQRNMRKVRGPPVSCIKR",
+            "Sequence Length": 23,
+            "Biological Activity": [
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P02788",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P02788",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Fungicidal effect of three new synthetic cationic peptides against Candida albicans.",
+                    "Pubmed ID": "15196144",
+                    "Reference": "Oral Dis. 2004;10:221-228",
+                    "Author": "Nikawa H, Fukushima H, Makihira S, Hamada T, Samaranayake LP",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/15196144"
+                }
+            ],
+            "Mass": 2819.38,
+            "PI": 11.57,
+            "Net Charge": 7,
+            "Hydrophobicity": -1.03,
+            "Frequent Amino Acids": "RKC",
+            "Absent Amino Acids": "ADEHLOUY",
+            "Basic Residues": 7,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 16,
+            "Positive Residues": 7,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_28267",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03181",
+                    "Similarity": 1.0,
+                    "Sequence": "GRRRSVQWCAVSQPEATKCFQWQRNMRKVRGPPVSCIKRDSPIQCIQA"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07878",
+                    "Similarity": 1.0,
+                    "Sequence": "GRRRRSVQWCAVSQPEATKCFQWQRNMRKVRGPPVSCIKRDSPIQCI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08720",
+                    "Similarity": 1.0,
+                    "Sequence": "TKCFQWQRNMRKVR"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:-=NA",
+            "Target Organism": "Candida albicans A2(LC=10µM),Candida albicans A6(LC=10µM)"
+        }
+    }
+}

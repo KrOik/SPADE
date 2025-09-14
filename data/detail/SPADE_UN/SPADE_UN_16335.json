@@ -1,0 +1,77 @@
+{
+    "SPADE_UN_16335": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_16335",
+            "Peptide Name": "L1",
+            "Source": "Synthetic",
+            "Family": "",
+            "Gene": "Not found",
+            "Sequence": "KKK",
+            "Sequence Length": 3,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Notavailable"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Target Organism": "Tumor cells:HeLa  (IC50=3.9 ± 1.1 μg/mL)",
+            "Hemolytic Activity": "Human erythrocytes:HC50=90.0 ± 6.5 µg/ml",
+            "Cytotoxicity": "HaCat:IC50=5.2 ± 0.6 µg/ml",
+            "Binding Target": "Not available",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "CH3(CH2)14CO, Palmitic acid",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C18H38N6O4",
+            "Mass": 402.53,
+            "PI": 10.3,
+            "Net Charge": 3,
+            "Hydrophobicity": -3.9,
+            "Half Life": "Mammalian:1.3 hourYeast:3 minE.coli:2 min",
+            "Literature": [
+                {
+                    "Title": "Effect of Disulfide Cyclization of Ultrashort Cationic Lipopeptides on Antimicrobial Activity and Cytotoxicity",
+                    "Pubmed ID": "33003569",
+                    "Reference": "Int J Mol Sci. 2020 Sep 29;21(19)7208.",
+                    "Author": "Neubauer D, Jaśkiewicz M, Sikorska E, Bauer SBM, Kapusta M, Narajczyk M, Kamysz W.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=33003569"
+                },
+                {
+                    "Title": "Investigating the antimicrobial peptide 'window of activity' using cationic lipopeptides with hydrocarbon and fluorinated tails",
+                    "Pubmed ID": "",
+                    "Author": "Findlay B, Zhanel GG, Schweizer F"
+                }
+            ],
+            "Frequent Amino Acids": "K",
+            "Absent Amino Acids": "ACDEFGHILMNOPQRSTUVWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 0,
+            "Polar Residues": 3,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00036",
+                    "Similarity": 1.0,
+                    "Sequence": "KKKSGVIPTVSHDCHMNTFQFMFTCCS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00037",
+                    "Similarity": 1.0,
+                    "Sequence": "KKKSGVIPTVSHDCHMNSFQFVFTCCS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00053",
+                    "Similarity": 1.0,
+                    "Sequence": "KKKKKKVACTWGNAATAAASGAVGILGGPTGALAGAIWGVSQCASNNLHGMH"
+                }
+            ]
+        }
+    }
+}

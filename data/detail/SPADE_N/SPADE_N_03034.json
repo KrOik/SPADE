@@ -1,0 +1,75 @@
+{
+    "SPADE_N_03034": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03034",
+            "Peptide Name": "Antimicrobial ribonuclease (Fungus)",
+            "Source": "Pleurotus sajor-caju (Oyster mushroom)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "DNGEAGRAAR",
+            "Sequence Length": 10,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P84528"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Antifungal"
+            ],
+            "Target Organism": "Bacteria:Pseudomonas aeruginosa, Pseudomonas fluorescens, Staphylococcus aureus.Fungi:Fusarium oxysporum (IC50=95 µM), Mycosphaerella arachidicola (IC50=72 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C38H65N17O16",
+            "Mass": 1016.03,
+            "PI": 6.07,
+            "Net Charge": 0,
+            "Hydrophobicity": -1.49,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:>10 hour",
+            "Function": "Has ribonuclease activity towards yeast tRNA and polyuracil and weak ribonuclease activity towards other polyhomoribonucleotides. Has weak deoxyribonuclease activity. Displays antimitogenic activity towards murine splenocytes and antiproliferative activity towards HepG2 hepatoma cells and L1210 leukemia cells.",
+            "Biophysicochemical properties": "pH dependence (Optimum pH is from 5.5 to 6.0); Temperature dependence (Optimum temperature below 60 degrees Celsius. Active from 0 to 100 degrees Celsius).",
+            "Literature": [
+                {
+                    "Title": "A ribonuclease with antimicrobial, antimitogenic and antiproliferative activities from the edible mushroom Pleurotus sajor-caju.",
+                    "Pubmed ID": "15003351",
+                    "Reference": "Peptides. 2004 Jan;25(1)11-17.",
+                    "Author": "Ngai PH, Ng TB.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=15003351"
+                }
+            ],
+            "Frequent Amino Acids": "AGR",
+            "Absent Amino Acids": "CFHIKLMOPQSTUVWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 3,
+            "Polar Residues": 6,
+            "Positive Residues": 2,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_04431",
+                    "Similarity": 1.0,
+                    "Sequence": "DEDPNIPKPVSFTVKETVCPKTTQQPLEQCGFKDNG"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_01307",
+                    "Similarity": 1.0,
+                    "Sequence": "AGR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_01862",
+                    "Similarity": 1.0,
+                    "Sequence": "RAARIVVIRVAR"
+                }
+            ]
+        }
+    }
+}

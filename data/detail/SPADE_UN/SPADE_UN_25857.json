@@ -1,0 +1,61 @@
+{
+    "SPADE_UN_25857": {
+        "Sequence Information": {
+            "Peptide Name": "",
+            "Sequence": "GIFKKITGKLFKWIK",
+            "Sequence Length": 15,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Novel antimicrobial peptides against Cutibacterium acnes designed by deep learning",
+                    "Pubmed ID": "",
+                    "Reference": "Research Square. 2023;DOI: https://doi.org/10.21203/rs.3.rs-3535234/v1:",
+                    "Author": "Dong Q, Wang S, Miao Y, Luo H, Weng Z, Yu L",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/"
+                }
+            ],
+            "Mass": 1807.27,
+            "PI": 10.6,
+            "Net Charge": 5,
+            "Hydrophobicity": 0.07,
+            "Frequent Amino Acids": "KIF",
+            "Absent Amino Acids": "ACDEHMNOPQRSUVY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 9,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_25857",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_13762",
+                    "Similarity": 1.0,
+                    "Sequence": "WIKKIWKKIK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_23635",
+                    "Similarity": 1.0,
+                    "Sequence": "KLFK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_23636",
+                    "Similarity": 1.0,
+                    "Sequence": "KLFK"
+                }
+            ],
+            "Hemolytic Activity": "Human keratinocytes HaCat:10% Cytotoxicity=80 µg/ml,Rabbit erythrocytes:10% Hemolysis=240 µg/ml",
+            "Target Organism": "Cutibacterium acnes BNCC 336649(MIC=8µg/ml),Escherichia coli ATCC 25922(MIC=12.5µg/ml),Staphylococcus aureus ATCC 29213(MIC=100µg/ml),Candida albicans ATCC 14053(MIC=12.5µg/ml)"
+        }
+    }
+}

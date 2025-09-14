@@ -1,0 +1,61 @@
+{
+    "SPADE_UN_26515": {
+        "Sequence Information": {
+            "Peptide Name": "Kunitzin-OL-3",
+            "Sequence": "KVKFRCKAAFC",
+            "Sequence Length": 11,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anticancer",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Functional characterisation and modification of a novel Kunitzin peptide for use as an anti-trypsin antimicrobial peptide against drug-resistant Escherichia coli",
+                    "Pubmed ID": "39186954",
+                    "Reference": "Biochem Pharmacol. 2024;229:116508",
+                    "Author": "Wang Z, Ding W, Shi D, Chen X, Ma C, Jiang Y, Wang T, Chen T, Shaw C, Wang L, Zhou M",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/39186954"
+                }
+            ],
+            "Mass": 1300.64,
+            "PI": 9.85,
+            "Net Charge": 4,
+            "Hydrophobicity": 0.2,
+            "Frequent Amino Acids": "KAC",
+            "Absent Amino Acids": "DEGHILMNOPQSTUWY",
+            "Basic Residues": 4,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 4,
+            "Positive Residues": 4,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_26515",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01953",
+                    "Similarity": 1.0,
+                    "Sequence": "AVNIPFKVKFRCKAAFC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08610",
+                    "Similarity": 1.0,
+                    "Sequence": "GEILCNLCTGLINTLENLLTTKGADKVK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08611",
+                    "Similarity": 1.0,
+                    "Sequence": "GEILANLATGLINTLENLLTTKGADKVK"
+                }
+            ],
+            "Hemolytic Activity": "Human keratinocytes HaCat:IC50=>256 µM,Human embryonic kidney HEK293 cells:IC50=119 µM,Horse erythrocytes:10% Hemolysis=16 µM,Horse erythrocytes:50% Hemolysis=>128 µM",
+            "Target Organism": "Staphylococcus aureus NCTC 10788(MIC=64µM),Staphylococcus aureus NCTC 10788(MBC=128µM),Staphylococcus epidermidis NCTC 11047(MIC=16µM),Staphylococcus epidermidis NCTC 11047(MBC=16µM),Staphylococcus aureus NCTC 12493(MIC=64µM),Staphylococcus aureus NCTC 12493(MBC=64µM),Enterococcus faecalis NCTC 12697(MIC=>128µM),Escherichia coli ATCC 8739(MIC=32µM),Escherichia coli ATCC 8739(MBC=32µM),Pseudomonas aeruginosa ATCC 9027(MIC=32µM),Pseudomonas aeruginosa ATCC 9027(MBC=64µM),Klebsiella pneumoniae ATCC 43816(MIC=64µM),Klebsiella pneumoniae ATCC 43816(MBC=128µM),Acinetobacter baumannii ATCC BAA-747(MIC=>128µM),Murine macrophage cells RAW 264.7(IC50=>256µM)"
+        }
+    }
+}

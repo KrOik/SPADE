@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_30827": {
+        "Sequence Information": {
+            "Peptide Name": "Prothrombin (609-623)",
+            "Sequence": "RLKKWMQKVIDRFGG",
+            "Sequence Length": 15,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "Q19AZ8",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/Q19AZ8",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "The C-terminal sequences of porcine thrombin are active as antimicrobial peptides.",
+                    "Pubmed ID": "27439393",
+                    "Reference": "Chem Biol Drug Des. 2016;88:905-914",
+                    "Author": "Lv X, Ma Q, Zhu D, Shao C, Lv Y, Shan A",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/27439393"
+                }
+            ],
+            "Mass": 1862.25,
+            "PI": 11.1,
+            "Net Charge": 4,
+            "Hydrophobicity": -0.81,
+            "Frequent Amino Acids": "KGR",
+            "Absent Amino Acids": "ACEHNOPSTUY",
+            "Basic Residues": 5,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 10,
+            "Positive Residues": 5,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_UN_30827",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06549",
+                    "Similarity": 1.0,
+                    "Sequence": "LRLKLRLKLRLK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10872",
+                    "Similarity": 1.0,
+                    "Sequence": "HIQKEDVPSERYLGYLEQLLRLKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11521",
+                    "Similarity": 1.0,
+                    "Sequence": "VFRLKKWMQKVIDRFGG"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:5% Hemolysis=>128 µM",
+            "Target Organism": "Staphylococcus aureus ATCC 29213(MIC=>128µM),Bacillus subtilis CMCC 63501(MIC=>128µM),Enterococcus faecalis ATCC 29212(MIC=>128µM),Escherichia coli ATCC 25922(MIC=>128µM),Salmonella enterica subsp. enterica serovar Typhimurium C77-31(MIC=>128µM),Salmonella enterica subsp. enterica serovar Pullorum C79-13(MIC=>128µM),Escherichia coli UB1005(MIC=64µM)"
+        }
+    }
+}

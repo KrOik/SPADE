@@ -1,0 +1,80 @@
+{
+    "SPADE_N_03303": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03303",
+            "Peptide Name": "OcyC1f (one chain of Non-disulfide-bridged peptide 5.7; Arthropods, animals)",
+            "Source": "isthacanthus cayaporum (South American scorpion)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "ILSAIWSGIKS",
+            "Sequence Length": 11,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/C5J886"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C55H91N13O15",
+            "Mass": 1174.39,
+            "PI": 8.75,
+            "Net Charge": 1,
+            "Hydrophobicity": 1.05,
+            "Half Life": "Mammalian:20 hourYeast:30 minE.coli:>10 hour",
+            "PTM": "C-terminal amidation.",
+            "Function": "Amphipathic peptide with probable antimicrobial activity.",
+            "Literature": [
+                {
+                    "Title": "Cloning and characterization of cDNA sequences encoding for new venom peptides of the Brazilian scorpion Opisthacanthus cayaporum.",
+                    "Pubmed ID": "19857508",
+                    "Reference": "Toxicon. 2009 Sep 1;54(3)252-561.",
+                    "Author": "Silva EC, Camargos TS, MaranhÃ£o AQ, Silva-Pereira I, Silva LP, Possani LD, Schwartz EF.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=19857508"
+                },
+                {
+                    "Title": "Mass spectrometry analysis, amino acid sequence and biological activity of venom components from the Brazilian scorpion Opisthacanthus cayaporum.",
+                    "Pubmed ID": "18695936",
+                    "Reference": "Toxicon. 2008 Jun 15;51(8)1499-508.",
+                    "Author": "Schwartz EF, Camargos TS, Zamudio FZ, Silva LP, Bloch C Jr, Caixeta F, Schwartz CA, Possani LD.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=18695936"
+                }
+            ],
+            "Frequent Amino Acids": "ISA",
+            "Absent Amino Acids": "CDEFHMNOPQRTUVY",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 5,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00567",
+                    "Similarity": 1.0,
+                    "Sequence": "NTGCFDYDVYQPCDHCRERCLKYYPVTRKAICRKNHCVCIGPCPNDKAIPNVKLFKNVKEQILS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00568",
+                    "Similarity": 1.0,
+                    "Sequence": "NTGCFDYDVYQPCDHCRERCLKYYPVTRKAICRKNHCVCIGPCPDDKAIPDVKLFKNVKEQILS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00569",
+                    "Similarity": 1.0,
+                    "Sequence": "NMGCNDYIVGDVCVHCRERCLRYYPVTRKAECYRNHCLCIGPCPDDRPHKRFQMLNSSKNVKAQILS"
+                }
+            ]
+        }
+    }
+}

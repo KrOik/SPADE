@@ -1,0 +1,74 @@
+{
+    "SPADE_UN_12120": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_12120",
+            "Peptide Name": "K22 (Derived from ATG16)",
+            "Source": "synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "RWKRHISEQLRRRDRLQRQAJ",
+            "Sequence Length": 21,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic form",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "[Ref.31145591] Gram-positive bacteria:Staphylococcus aureus(MIC=14.4-28.8 μM);Gram-negative bacteria:Escherichia coli (MIC=30-60μM), Pseudomonas aeruginosa (MIC=60-120μM);Fungi:Candida albicans (MIC=60-120μM)",
+            "Hemolytic Activity": "[Ref.31145591] 3% hemolysis at 500μM, 10% hemolysis at 600 μM, 13% hemolysis at 700 μM, 17% hemolysis at 800 μM, 20% hemolysis at 900 μM, 25% hemolysis at 1000μM against mouse blood cells.",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C113H192N48O28",
+            "Mass": 2802.25,
+            "PI": 12.13,
+            "Net Charge": 6,
+            "Hydrophobicity": -2.091,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Function": "Antibacterial activity against Gram-positive bacteria and Gram-negative bacteria. Antifungal activity against Candida albicans.",
+            "Literature": [
+                {
+                    "Title": "Design, Synthesis, Antibacterial Potential, and Structural Characterization of N-Acylated Derivatives of the Human Autophagy 16 Polypeptide.",
+                    "Pubmed ID": "31145591",
+                    "Reference": "Bioconjug Chem. 2019 Jun 18. doi 10.1021/acs.bioconjchem.9b00290.",
+                    "Author": "Varnava KG, Mohid SA, Calligari P, Stella L, Reynison J, Bhunia A, Sarojini V",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=31145591"
+                }
+            ],
+            "Frequent Amino Acids": "RQL",
+            "Absent Amino Acids": "CFGMNOPTUVY",
+            "Basic Residues": 9,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 14,
+            "Positive Residues": 9,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_12118",
+                    "Similarity": 1.0,
+                    "Sequence": "RWKRHISEQLRRRDRLQR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_12119",
+                    "Similarity": 1.0,
+                    "Sequence": "RWKRHISEQLRRRDRLQRQAF"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_12120",
+                    "Similarity": 1.0,
+                    "Sequence": "RWKRHISEQLRRRDRLQRQA"
+                }
+            ]
+        }
+    }
+}

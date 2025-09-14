@@ -1,0 +1,70 @@
+{
+    "SPADE_UN_21481": {
+        "Sequence Information": {
+            "Peptide Name": "psmA1 (2-9)[K8I]-psmA4 (9-12)[I10A,I11K]",
+            "Sequence": "GIIAGIIIKAKK",
+            "Sequence Length": 12,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "A9JX05",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/A9JX05",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                },
+                {
+                    "uniprotId": "A9JX08",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/A9JX08",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Phenol-Soluble-Modulin-Inspired Amphipathic Peptides Have Bactericidal Activity against Multidrug-Resistant Bacteria.",
+                    "Pubmed ID": "31359624",
+                    "Reference": "ChemMedChem. 2019;14:1547-1559",
+                    "Author": "Zeng P, Xu C, Cheng Q, Liu J, Gao W, Yang X, Wong KY, Chen S, Chan KF",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/31359624"
+                }
+            ],
+            "Mass": 1224.58,
+            "PI": 10.3,
+            "Net Charge": 3,
+            "Hydrophobicity": 1.13,
+            "Frequent Amino Acids": "IKA",
+            "Absent Amino Acids": "CDEFHLMNOPQRSTUVWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 5,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_21481",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_21458",
+                    "Similarity": 1.0,
+                    "Sequence": "GIIAGIIKIIKA"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10801",
+                    "Similarity": 1.0,
+                    "Sequence": "KAKKFGKAFVKI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_12699",
+                    "Similarity": 1.0,
+                    "Sequence": "KAKKHRCRVYNNGLPTGLYRWC"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=128µM),Bacillus subtilis ATCC 23857(MIC=64µM)"
+        }
+    }
+}

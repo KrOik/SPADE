@@ -1,0 +1,88 @@
+{
+    "SPADE_N_02706": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02706",
+            "Peptide Name": "Drosophila cecropin-A1 (Insects, animals)",
+            "Source": "Drosophila simulans (Fruit fly)",
+            "Family": "Belongs to the cecropin family",
+            "Gene": "CecA1",
+            "Sequence": "QSEAGWLKKIGKKIERVGQHTRDATIQGLGVAQQAPNVAATAR",
+            "Sequence Length": 43,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/O61272"
+            ],
+            "Protein Existence": "Homology",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-negative bacteria:Alcaligenes faecalis (MIC=10-25 µM), Escherichia coli 1106 (MIC=0.25-0.5 µM), Escherichia coli D22 (MIC=0.1-0.25 µM), Escherichia coli D31 (MIC=0.1-0.25 µM), Escherichia coli SBS363 (MIC=0.1-0.25 µM), Enterobacter cloacae β12 (MIC=0.5-1 µM), Erwinia carotovora (MIC=0.5-1 µM), Klebsiella pneumoniae (MIC=1-2.5 µM), Pseudomonas aeruginosa (MIC=1-2.5 µM), Salmonella typhimurium (MIC=0.5-1 µM), Xanthomonas campestris (MIC=0.5-1 µM);Gram-positive bacteria:Aerococcus viridans (MIC=5-10 µM), Bacillus megaterium (MIC=1-2.5 µM), Micrococcus luteus (MIC=5-10 µM).Fungi:Botrytis cinerea (MIC=5-10 µM), Fusarium culmorum (MIC=1-2.5 µM), Fusarium oxysporum (MIC=1-2.5 µM), Neurospora crassa (MIC=2.5-10 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C198H333N65O60",
+            "Mass": 4584.16,
+            "PI": 10.43,
+            "Net Charge": 5,
+            "Hydrophobicity": -0.58,
+            "Half Life": "Mammalian:0.8 hourYeast:10 minE.coli:>10 hour",
+            "Function": "Cecropins have lytic and antibacterial activity against several Gram-positive and Gram-negative bacteria.",
+            "PTM": "C-terminal amidation (By similarity).",
+            "Literature": [
+                {
+                    "Title": "Evolutionary history and mechanism of the Drosophila cecropin gene family.",
+                    "Pubmed ID": "9553148",
+                    "Reference": "Immunogenetics. 1998 May;47(6)417-429.",
+                    "Author": "Date A, Satta Y, Takahata N, Chigusa S.I.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=9553148"
+                },
+                {
+                    "Title": "Molecular evolution of the Cecropin multigene family in Drosophila functional genes vs pseudogenes.",
+                    "Pubmed ID": "9725836",
+                    "Reference": "Genetics. 1998 Sep;150(1)157-171.",
+                    "Author": "Ramos-Onsins S, Aguade M.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=9725836"
+                },
+                {
+                    "Title": "Molecular evolution of the Cecropin multigene family in Drosophila: functional genes vs pseudogenes.",
+                    "Pubmed ID": "",
+                    "Author": "Aguade M.,Ramos-Onsins S."
+                }
+            ],
+            "Frequent Amino Acids": "AGQ",
+            "Absent Amino Acids": "CFMOUY",
+            "Basic Residues": 8,
+            "Acidic Residues": 3,
+            "Hydrophobic Residues": 17,
+            "Polar Residues": 28,
+            "Positive Residues": 8,
+            "Negative Residues": 3,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_08015",
+                    "Similarity": 0.9767441860465116,
+                    "Sequence": "MNFYNIFVFVALILAITIGQSEAGWLKKIGKKIERVGQHTRDATIQGLGVAQQAANVAATARG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02672",
+                    "Similarity": 0.9743589743589743,
+                    "Sequence": "GWLKKIGKKIERVGQHTRDATIQGLGVAQQAANVAATAR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02671",
+                    "Similarity": 0.9534883720930233,
+                    "Sequence": "VFVALILAIAIGQSEAGWLKKIGKKIERVGQHTRDATIQGLGIAQQAANVAATAR"
+                }
+            ]
+        }
+    }
+}

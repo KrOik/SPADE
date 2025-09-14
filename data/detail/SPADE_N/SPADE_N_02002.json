@@ -1,0 +1,112 @@
+{
+    "SPADE_N_02002": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 2005/0260715 A1",
+                "Patent Link": "http://www.lens.org/lens/patent/US_2005_0260715_A1",
+                "Patent Type": "Patent Application",
+                "Publication Date": "2005-11-24",
+                "Family Info": "US6946261",
+                "Patent Title": "Efficient methods for producing antimicrobial cationic peptides in host cells.",
+                "Abstract": "Endogenously produced cationic antimicrobial peptides are ubiquitous components of host defenses in mammals, birds, amphibia, insects, and plants. Cationic peptides are also effective when administered as therapeutic agents. A practical drawback in cationic peptide therapy, however, is the cost of producing the agents. The methods described herein provide a means to efficiently produce cationic peptides from recombinant host cells. These recombinantly-produced cationic peptides can be rapidly purified from host cell proteins using anion exchange chromatography."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02002",
+            "Peptide Name": "PGLa (chain of PYLa/PGLa A; Frogs, amphibians, animals)",
+            "Source": "Xenopus laevis (African clawed frog)",
+            "Family": "Belongs to the gastrin/cholecystokinin family (Magainin subfamily)",
+            "Gene": "pgla-a AND pgla-b",
+            "Sequence": "GMASKAGAIAGKIAKVALKAL",
+            "Sequence Length": 21,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q99134",
+                "http://www.uniprot.org/uniprot/B7ZSG6",
+                "http://www.uniprot.org/uniprot/Q91826"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "Gram-negative bacteria:Escherichia coli 25922 (MIC=62-125 µg/ml), Klebsiella pneumoniae 13883 (MIC=250-500 µg/ml), Pseudomonas aeruginosa 27853 (MIC=250-500 µg/ml);Gram-positive bacteria:Staphylococcus aureus 29213 (MIC=125-500 µg/ml), Strepococcus faecalis (MIC>500 µg/ml).Yeast:Candida albicans 14053 (MIC=250-500 µg/ml).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C88H161N25O23S",
+            "Mass": 1969.44,
+            "PI": 10.48,
+            "Net Charge": 4,
+            "Hydrophobicity": 0.84,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "PGLa display a broad-spectrum of antibacterial activity against a range of Gram-positive and Gram-negative bacteria. PGLa also displays antifungal activity against C. albicans ATCC 14053.",
+            "Tissue specificity": "Expressed by the skin glands. Synthesized in the stomach and stored in a novel granular multinucleated cell in the gastric mucosa. Stored as active, processed peptides in large granules within the granular gland secretions of the skin.",
+            "PTM": "Leucine amide at position 21.",
+            "Literature": [
+                {
+                    "Title": "Biosynthesis and degradation of peptides derived from Xenopus laevis prohormones.",
+                    "Pubmed ID": "3606567",
+                    "Reference": "Biochem J. 1987 Apr 1;243(1)113-120.",
+                    "Author": "Giovannini MG, Poulter L, Gibson BW, Williams DH.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=3606567"
+                },
+                {
+                    "Title": "Antimicrobial peptides in the stomach of Xenopus laevis.",
+                    "Pubmed ID": "1717472",
+                    "Reference": "J Biol Chem. 1991 Oct 15;266(29)19851-19857.",
+                    "Author": "Moore KS, Bevins CL, Brasseur MM, Tomassini N, Turner K, Eck H, Zasloff M.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=1717472"
+                },
+                {
+                    "Title": "A novel peptide designated PYLa and its precursor as predicted from cloned mRNA of Xenopus laevis skin.",
+                    "Pubmed ID": "",
+                    "Author": "Kreil G.,Richter K.,Hoffmann W."
+                },
+                {
+                    "Title": "The genes for the frog skin peptides GLa, xenopsin, levitide and caerulein contain a homologous export exon encoding a signal sequence and part of an amphiphilic peptide.",
+                    "Pubmed ID": "",
+                    "Author": "Sures I.,Kreil G.,Kuchler K."
+                },
+                {
+                    "Title": "Isolation and characterisation of a new antimicrobial peptide from the skin of Xenopus laevis.",
+                    "Pubmed ID": "R2011J0721",
+                    "Author": "Liu L.,Xu J.,Pan P.,Li J.,Hou F."
+                }
+            ],
+            "Frequent Amino Acids": "AKG",
+            "Absent Amino Acids": "CDEFHNOPQRTUWY",
+            "Basic Residues": 4,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 13,
+            "Positive Residues": 4,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07877",
+                    "Similarity": 1.0,
+                    "Sequence": "GMASKAGAIAGKIAKVALKA"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08080",
+                    "Similarity": 1.0,
+                    "Sequence": "MYKQIFLCLIIAALCATIMAEASAFADADEDDDKRYVRGMASKAGAIAGKIAKVALKALGRRDS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10838",
+                    "Similarity": 1.0,
+                    "Sequence": "GMASKAGAIAGKIAKVALKALGGC"
+                }
+            ]
+        }
+    }
+}

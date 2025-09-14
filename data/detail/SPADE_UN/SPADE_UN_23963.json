@@ -1,0 +1,54 @@
+{
+    "SPADE_UN_23963": {
+        "Sequence Information": {
+            "Peptide Name": "Magainin-2 [S8A;G13,18A;L6,I20 6F-LEU]",
+            "Sequence": "GIGKFXHAAKKFAKAFVAEXMNS",
+            "Sequence Length": 23,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P11006",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P11006",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Antimicrobial activity and protease stability of peptides containing fluorinated amino acids",
+                    "Pubmed ID": "18041836",
+                    "Reference": "J Am Chem Soc. 2007;129:15615-15622",
+                    "Author": "Meng H, Kumar K",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/18041836"
+                }
+            ],
+            "SPADE ID": "SPADE_UN_23963",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_08807",
+                    "Similarity": 1.0,
+                    "Sequence": "GIGKFLHAAKKFAKAFVAEIMNS"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_07556",
+                    "Similarity": 1.0,
+                    "Sequence": "GIGKFLHAAKKFAKAFVAEIMNS"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_21632",
+                    "Similarity": 1.0,
+                    "Sequence": "GIGKFLHAAKKFKAFVAEIMNS"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=20 µg/ml",
+            "Target Organism": "Escherichia coli ATCC 23716(MIC=2.5µg/ml),Bacillus subtilis SMY(MIC=2.5µg/ml)"
+        }
+    }
+}

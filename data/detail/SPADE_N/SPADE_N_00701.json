@@ -1,0 +1,90 @@
+{
+    "SPADE_N_00701": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00701",
+            "Peptide Name": "Elicitor peptide 1 (AtPep1; Plant defensin)",
+            "Source": "Arabidopsis thaliana (Mouse-ear cress)",
+            "Family": "Belongs to the brassicaceae elicitor peptide family",
+            "Gene": "PEP1",
+            "Sequence": "ATKVKAKQRGKEKVSSGRPGQHN",
+            "Sequence Length": 23,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q9LV87",
+                "http://www.uniprot.org/uniprot/Q8LCK9"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antifungal"
+            ],
+            "Target Organism": "Pythium irregulare",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Sequential removal of N-terminal amino acids has little effect on activity. Activity is completely abolished when nine C-terminal amino acids remained. Removal of the C-terminal asparagine from AtPep1(9-23), resultes in a decrease in activity (12 max approximately 100 nM).",
+            "Formula": "C104H183N39O32",
+            "Mass": 2491.81,
+            "PI": 11.22,
+            "Net Charge": 7,
+            "Hydrophobicity": -1.69,
+            "Half Life": "Mammalian:4.4 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Elicitor of plant defense. Induces the production of plant defensin (PDF1.2) and of H2O2. Promotes resistance to the root fungal pathogen P. irregulare.",
+            "Subunit structure": "Interacts with its receptor PEPR1.",
+            "Induction": "By wounding, methyl jasmonate (MeJA), ethylene. The expression of the peptide PEP1 precursor is induced by the mature peptide PEP1.",
+            "Literature": [
+                {
+                    "Title": "An endogenous peptide signal in Arabidopsis activates components of the innate immune response.",
+                    "Pubmed ID": "16785434",
+                    "Reference": "Proc Natl Acad Sci U S A. 2006 Jun 27;103(26)10098-103.",
+                    "Author": "Huffaker A, Pearce G, Ryan CA.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16785434"
+                },
+                {
+                    "Title": "The cell surface leucine-rich repeat receptor for AtPep1, an endogenous peptide elicitor in Arabidopsis, is functional in transgenic tobacco cells.",
+                    "Pubmed ID": "16785433",
+                    "Reference": "Proc Natl Acad Sci U S A. 2006 Jun 27;103(26)10104-9.",
+                    "Author": "The cell surface leucine-rich repeat receptor for AtPep1, an endogenous peptide elicitor in Arabidopsis, is functional in transgenic tobacco cells.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16785433"
+                },
+                {
+                    "Title": "Structure-activity studies of AtPep1, a plant peptide signal involved in the innate immune response.",
+                    "Pubmed ID": "18824048",
+                    "Reference": "Peptides. 2008 Dec;29(12)2083-9.",
+                    "Author": "Pearce G, Yamaguchi Y, Munske G, Ryan CA.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=18824048"
+                }
+            ],
+            "Frequent Amino Acids": "KGA",
+            "Absent Amino Acids": "CDFILMOUWY",
+            "Basic Residues": 8,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 18,
+            "Positive Residues": 8,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00702",
+                    "Similarity": 0.6521739130434783,
+                    "Sequence": "DNKAKSKKRDKEKPSSGRPGQTNSVPNAAIQVYKED"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_15390",
+                    "Similarity": 0.5555555555555556,
+                    "Sequence": "KVKVKVKVPPTKVKVKVK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_15391",
+                    "Similarity": 0.5555555555555556,
+                    "Sequence": "KVKVKVKVPPTKVKVKVK"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "SPADE_N_07265": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_07265",
+            "Peptide Name": "hLF V12R",
+            "Source": "Protein derived",
+            "Family": "",
+            "Gene": "Not found",
+            "Sequence": "KCFQWQRNMRKRRGPPVSCIKR",
+            "Sequence Length": 22,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Notavailable"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Target Organism": "Not available",
+            "Hemolytic Activity": "Not available",
+            "Cytotoxicity": "Not available",
+            "Binding Target": "Not available",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Fluorescein",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C119H200N44O27S3",
+            "Mass": 2775.33,
+            "PI": 11.84,
+            "Net Charge": 8,
+            "Hydrophobicity": -1.44,
+            "Half Life": "Mammalian:1.3 hourYeast:3 minE.coli:2 min",
+            "Literature": [
+                {
+                    "Title": "The stoichiometry of peptide-heparan sulfate binding as a determinant of uptake efficiency of cell-penetrating peptides.",
+                    "Pubmed ID": "24270856",
+                    "Reference": "Cell Mol Life Sci. 2014 Jul;71(14)2717-33.",
+                    "Author": "Wallbrecher R, Verdurmen WP, Schmidt S, Bovee-Geurts PH, Broecker F, Reinhardt A, van Kuppevelt TH, Seeberger PH, Brock R.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=24270856"
+                }
+            ],
+            "Frequent Amino Acids": "RKC",
+            "Absent Amino Acids": "ADEHLOTUY",
+            "Basic Residues": 8,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 15,
+            "Positive Residues": 8,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_07559",
+                    "Similarity": 1.0,
+                    "Sequence": "FQWQRN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03181",
+                    "Similarity": 0.9545454545454546,
+                    "Sequence": "GRRRSVQWCAVSQPEATKCFQWQRNMRKVRGPPVSCIKRDSPIQCIQA"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07198",
+                    "Similarity": 0.9545454545454546,
+                    "Sequence": "KCFQWQRNMRKVRGPPVSCIKR"
+                }
+            ]
+        }
+    }
+}

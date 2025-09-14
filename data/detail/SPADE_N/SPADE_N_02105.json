@@ -1,0 +1,76 @@
+{
+    "SPADE_N_02105": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02105",
+            "Peptide Name": "Big defensin (RPD-1)",
+            "Source": "Venerupis philippinarum (Japanese carpet shell) (Tapes japonica)",
+            "Family": "Belongs to the big defensin family",
+            "Gene": "Not found",
+            "Sequence": "AVPDVAFNAYG",
+            "Sequence Length": 11,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P86316"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anticancer"
+            ],
+            "Target Organism": "Gram-positive bacteria:Staphylococcus aureus (MIC=9.6 mg/L), Bacillus subtilis (MIC=76.8 mg/L), Micrococcus tetragenus (MIC=38.4 mg/L);Gram-negative bacteria:Escherichia coli (MIC=76.8 mg/L), Vibrio parahaemolyticus (MIC=19.2 mg/L), Vibrio anguillarum (MIC=19.2 mg/L).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C52H74N12O16",
+            "Mass": 1123.21,
+            "PI": 4.05,
+            "Net Charge": -1,
+            "Hydrophobicity": 0.57,
+            "Half Life": "Mammalian:4.4 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Significantly inhibits the growth of Gram-negative and Gram-positive bacteria and fungi in vitro. Has antibacterial activity.",
+            "Literature": [
+                {
+                    "Title": "Purification of a big defensin from Ruditapes philippinesis and its antibacterial activity.",
+                    "Pubmed ID": "14673509",
+                    "Reference": "Sheng Wu Hua Xue Yu Sheng Wu Wu Li Xue Bao (Shanghai). 2003 Dec;35(12)1145-8.",
+                    "Author": "Wei YX, Guo DS, Li RG, Chen HW, Chen PX.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=14673509"
+                }
+            ],
+            "Frequent Amino Acids": "AVD",
+            "Absent Amino Acids": "CEHIKLMOQRSTUW",
+            "Basic Residues": 0,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 7,
+            "Positive Residues": 0,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_15325",
+                    "Similarity": 1.0,
+                    "Sequence": "ACDCRGDCFCGGGGIVRRADRAAVP"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_15714",
+                    "Similarity": 1.0,
+                    "Sequence": "RVKLVNLFATLRAVP"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_17069",
+                    "Similarity": 1.0,
+                    "Sequence": "IVRRADRAAVP"
+                }
+            ]
+        }
+    }
+}

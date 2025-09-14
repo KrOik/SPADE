@@ -1,0 +1,2143 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title data-translate="SPADE Search">SPADE Search</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="css/shimmer-search.css">
+  <link rel="shortcut icon" href="source/img/favicon.ico">
+  <!-- 引入新的翻译组件 -->
+  <link rel="stylesheet" href="css/language-selector-minimal.css">
+  <script src="js/language-selector-minimal.js"></script>
+  <!-- 闪光搜索框控制器 -->
+  <script src="js/shimmer-search.js"></script>
+  <style>
+     @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+     
+     /* 横屏提示弹窗样式 */
+     .orientation-modal {
+       position: fixed;
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: 100%;
+       background: rgba(0, 0, 0, 0.8);
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       z-index: 10000;
+       opacity: 0;
+       visibility: hidden;
+       transition: all 0.3s ease;
+     }
+     
+     .orientation-modal.show {
+       opacity: 1;
+       visibility: visible;
+     }
+     
+     .orientation-content {
+       background: white;
+       padding: 30px;
+       border-radius: 15px;
+       text-align: center;
+       max-width: 90%;
+       max-height: 90%;
+       overflow-y: auto;
+       box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+       transform: scale(0.8);
+       opacity: 0;
+       transition: all 0.3s ease;
+     }
+     
+     .orientation-modal.show .orientation-content {
+       transform: scale(1);
+       opacity: 1;
+     }
+     
+     .phone-animation {
+       position: relative;
+       width: 80px;
+       height: 120px;
+       margin: 0 auto 20px;
+     }
+     
+     .phone-frame {
+       width: 100%;
+       height: 100%;
+       border: 3px solid #333;
+       border-radius: 15px;
+       position: relative;
+       background: #f0f0f0;
+     }
+     
+     .phone-screen {
+       width: calc(100% - 6px);
+       height: calc(100% - 6px);
+       background: #fff;
+       border-radius: 12px;
+       position: absolute;
+       top: 3px;
+       left: 3px;
+       overflow: hidden;
+     }
+     
+     .phone-content {
+       width: 100%;
+       height: 100%;
+       background: linear-gradient(45deg, #2b1055, #7597de);
+       position: relative;
+     }
+     
+     .rotate-arrow {
+       position: absolute;
+       top: 50%;
+       right: -30px;
+       width: 0;
+       height: 0;
+       border-left: 15px solid #2b1055;
+       border-top: 10px solid transparent;
+       border-bottom: 10px solid transparent;
+       animation: rotate 2s infinite;
+     }
+     
+     @keyframes rotate {
+       0%, 100% { transform: translateY(-50%) rotate(0deg); }
+       50% { transform: translateY(-50%) rotate(90deg); }
+     }
+     
+     .orientation-title {
+       color: #2b1055;
+       font-size: 1.5em;
+       font-weight: 600;
+       margin-bottom: 15px;
+     }
+     
+     .orientation-message {
+       color: #666;
+       font-size: 1em;
+       line-height: 1.5;
+       margin-bottom: 20px;
+     }
+     
+     /* .orientation-tip {
+       background: #f8f9fa;
+       padding: 15px;
+       border-radius: 8px;
+       margin-bottom: 20px;
+       display: flex;
+       align-items: center;
+       gap: 10px;
+     } */
+     
+     .tip-icon {
+       font-size: 1.2em;
+     }
+     
+     .orientation-close-btn {
+       background: #2b1055;
+       color: white;
+       border: none;
+       padding: 10px 20px;
+       border-radius: 5px;
+       cursor: pointer;
+       font-size: 0.9em;
+       transition: background-color 0.3s ease;
+     }
+     
+     .orientation-close-btn:hover {
+       background: #1a0a3a;
+     }
+     
+     /* 移动端横屏提示弹窗样式 */
+     @media (max-width: 768px) {
+       .orientation-content {
+         padding: 20px;
+         max-width: 95%;
+       }
+       
+       .orientation-title {
+         font-size: 1.3em;
+       }
+       
+       .orientation-message {
+         font-size: 0.9em;
+       }
+       
+       .phone-animation {
+         width: 60px;
+         height: 90px;
+       }
+     }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    html, body {
+      min-height: 100vh;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      background: #ffffff;  /* 改为纯白背景 */
+      color: #2b1055;        /* 文本颜色建议配合调整 */
+      overflow-x: hidden;
+    }
+
+    /* 2. 页面主体内容需要能够自动撑开空间 */
+    .main-content {
+      flex: 1;
+    }
+   
+
+    /* body:not(.home-page) {
+    background: #fff; /* 非 Home 页背景色 */
+/* } */
+body:not(.home-page) header {
+    background: linear-gradient(to bottom, rgba(43, 16, 85, 0.98) 0%, rgba(43, 16, 85, 0.9) 100%);
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    transition: background 0.3s ease;
+}
+
+
+.logo-container {
+    position: relative;
+    display: inline-block;
+    align-items: center;
+}
+
+.team-link {
+    font-size: 0.6em;
+    color: rgba(255, 255, 255, 0.8);
+    display: block;
+    margin-top: 5px;
+    letter-spacing: 1px;
+    text-decoration: underline; 
+    transition: color 0.3s ease; 
+}
+
+.team-link:hover {
+    color: #fff; 
+}
+
+header .logo {
+    color: #fff;
+    font-weight: 800;
+    text-decoration: none;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+}
+header .logo img {
+    margin-right: 10px; 
+}
+
+.logo-container span {
+    font-size: 4em;
+    color: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    margin-top: 3px;
+    letter-spacing: 1px;
+}
+
+.team-link {
+    font-size: 1em; 
+    color: rgba(255,255,255,0.8); 
+    display: block;
+    margin-top: 6px; 
+    letter-spacing: 1px;
+}
+
+header ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-size: large; */
+}
+header ul li
+{
+    list-style: none;
+    margin-left: 20px;
+}
+header ul li a {
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;
+}
+
+header ul li a:hover,
+header ul li a.active {
+    background: rgba(255, 255, 255, 0.9);
+    color:  #2b1055;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+}
+
+
+/* 导航栏切换按钮样式 */
+.nav-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1.5em;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-toggle:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* 移动端导航菜单样式 */
+@media (max-width: 768px) {
+    .nav-toggle {
+        display: block;
+    }
+    
+    .nav-menu {
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        width: 100%;
+        height: calc(100vh - 80px);
+        background: linear-gradient(to bottom, rgba(43, 16, 85, 0.98) 0%, rgba(43, 16, 85, 0.9) 100%);
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding-top: 20px;
+        transition: left 0.3s ease;
+        backdrop-filter: blur(8px);
+        border-right: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    
+    .nav-menu.active {
+        left: 0;
+    }
+    
+    .nav-menu li {
+        margin: 15px 0;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .nav-menu li a {
+        display: block;
+        padding: 15px 20px;
+        font-size: 1.1em;
+        border-radius: 8px;
+        margin: 0 20px;
+        transition: all 0.3s ease;
+    }
+    
+    .nav-menu li a:hover,
+    .nav-menu li a.active {
+        background: rgba(255, 255, 255, 0.9);
+        color: #2b1055;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+    
+    /* 调整header在移动端的样式 */
+    header {
+        padding: 15px 20px;
+    }
+    
+    .logo-container {
+        flex: 1;
+    }
+    
+    .logo {
+        font-size: 1.4em;
+    }
+    
+    .logo img {
+        height: 25px;
+    }
+    
+    /* 调整主容器在移动端的样式 */
+    .main-container {
+        top: 100px;
+        width: 95%;
+        flex-direction: column;
+    }
+    
+    .filter {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .table-container {
+        width: 100%;
+        overflow-x: auto;
+    }
+    
+    /* 表格在移动端的响应式处理 */
+    #resultsTable {
+        min-width: 800px;
+    }
+    
+    #resultsTable th,
+    #resultsTable td {
+        padding: 10px 8px;
+        font-size: 0.9em;
+    }
+    
+    /* 分页控件在移动端的样式 */
+    .pagination-container {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+    
+    .pagination-btn {
+        padding: 8px 16px;
+        font-size: 0.9em;
+    }
+}
+
+
+/* 媒体查询，响应式设计 */
+/* 大型设备（1440px以上）的样式 */
+@media (min-width: 1441px) {
+    .main-container {
+        width: 85%;
+        max-width: 1600px;
+    }
+    
+    .filter {
+        width: 300px;
+    }
+    
+    .table-container {
+        flex: 1;
+    }
+}
+
+/* 中型桌面设备 (1280px - 1440px) */
+@media (min-width: 1280px) and (max-width: 1440px) {
+    .main-container {
+        width: 90%;
+    }
+    
+    .filter {
+        width: 280px;
+    }
+}
+
+/* 小型桌面设备 (1024px - 1279px) */
+@media (min-width: 1024px) and (max-width: 1279px) {
+    header {
+        padding: 15px 50px;
+    }
+    
+    .main-container {
+        width: 95%;
+        top: 90px;
+    }
+    
+    .filter {
+        width: 250px;
+        padding: 20px;
+    }
+    
+    th, td {
+        padding: 20px 15px;
+    }
+}
+
+/* 平板设备 (768px - 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+    header {
+        padding: 15px 30px;
+    }
+    
+    header ul li a {
+        padding: 5px 10px;
+        font-size: 0.9em;
+    }
+    
+    .logo {
+        font-size: 1.4em !important;
+    }
+    
+    .main-container {
+        width: 95%;
+        top: 85px;
+        flex-direction: column;
+        height: auto;
+    }
+    
+    .filter {
+        position: relative;
+        width: 100%;
+        margin-bottom: 20px;
+        top: 0;
+        padding: 20px;
+    }
+    
+    .table-container {
+        width: 100%;
+        max-height: 600px;
+    }
+    
+    th, td {
+        padding: 15px 10px;
+        font-size: 0.9em;
+    }
+    
+    .pagination-container {
+        margin-top: 15px;
+    }
+    
+    .language-selector {
+        top: 85px;
+    }
+}
+
+/* 移动设备 (小于 768px) */
+@media (max-width: 767px) {
+    header {
+        padding: 12px 20px;
+    }
+
+    .nav-toggle {
+        display: block;
+    }
+
+    .nav-menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: rgba(43, 16, 85, 0.95);
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+        z-index: 1000;
+        border-radius: 0 0 10px 10px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    .nav-menu.active {
+        display: flex;
+    }
+
+    .nav-menu li {
+        margin: 10px 0;
+    }
+    
+    .nav-menu li a {
+        padding: 8px 20px;
+        font-size: 1em;
+        border-radius: 25px;
+    }
+    
+    .logo {
+        font-size: 1.2em !important;
+    }
+    
+    .logo-container div {
+        font-size: 0.5em !important;
+    }
+    
+    .team-link {
+        font-size: 0.5em;
+    }
+    
+    .main-container {
+        width: 92%;
+        top: 80px;
+        flex-direction: column;
+        height: auto;
+        gap: 15px;
+    }
+    
+    .filter {
+        position: relative;
+        width: 100%;
+        margin-bottom: 15px;
+        top: 0;
+        padding: 15px;
+    }
+    
+    .form-group {
+        margin-bottom: 12px;
+    }
+    
+    label {
+        margin-bottom: 5px;
+        font-size: 0.9em;
+    }
+    
+    input {
+        padding: 8px 15px;
+        font-size: 0.9em;
+    }
+    
+    .search-btn {
+        padding: 10px 15px;
+        font-size: 0.9em;
+        width: 100%;
+        margin-top: 10px;
+    }
+    
+    .table-container {
+        width: 100%;
+        max-height: 500px;
+        padding: 15px;
+        overflow-x: auto;
+    }
+    
+    table {
+        min-width: 700px; /* 确保表格有最小宽度，允许横向滚动 */
+    }
+    
+    th, td {
+        padding: 12px 8px;
+        font-size: 0.85em;
+    }
+    
+    /* 确保操作列不会太挤 */
+    th:nth-child(7), td:nth-child(7) {
+        min-width: 120px;
+    }
+    
+    /* 在移动设备上限制序列列的宽度 */
+    th:nth-child(3), td:nth-child(3) {
+        max-width: 150px;
+    }
+    
+    /* 限制其他列的宽度 */
+    th:nth-child(4), td:nth-child(4),
+    th:nth-child(5), td:nth-child(5),
+    th:nth-child(6), td:nth-child(6) {
+        max-width: 120px;
+    }
+    
+    .view-btn {
+        padding: 6px 10px;
+        font-size: 0.8em;
+        margin-top: 5px;
+    }
+    
+    .pagination-container {
+        margin-top: 15px;
+    }
+    
+    .pagination-btn {
+        padding: 5px 10px;
+        font-size: 0.85em;
+    }
+    
+    .page-info {
+        font-size: 0.85em;
+    }
+    
+    .language-selector {
+        top: 80px;
+        right: 10px;
+    }
+    
+    .language-current {
+        padding: 8px 10px;
+    }
+    
+    .language-options {
+        width: 150px;
+    }
+    
+    .language-options a {
+        padding: 8px 12px;
+        font-size: 0.9em;
+    }
+    
+    /* 搜索页面专用移动端优化 */
+    .main-container {
+        top: 80px;
+        padding-top: 20px;
+    }
+    
+    .filter {
+        border-radius: 15px;
+        margin-bottom: 20px;
+    }
+    
+    .table-container {
+        border-radius: 15px;
+    }
+    
+    /* 优化表格在移动端的显示 */
+    table {
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    
+    .view-btn {
+        padding: 6px 12px;
+        font-size: 0.85em;
+        border-radius: 15px;
+        white-space: nowrap;
+    }
+    
+    /* 分页控件优化 */
+    .pagination-container {
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+    
+    .pagination {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5px;
+    }
+    
+    .pagination-btn {
+        min-width: 35px;
+        height: 35px;
+        font-size: 0.9em;
+    }
+}
+
+/* 超小屏幕设备 (小于 480px) */
+@media (max-width: 479px) {
+    header {
+        padding: 10px 15px;
+    }
+    
+    .logo {
+        font-size: 1em !important;
+    }
+    
+    .logo-container div {
+        font-size: 0.45em !important;
+        line-height: 1.2;
+    }
+    
+    .main-container {
+        width: 95%;
+        top: 75px;
+        gap: 10px;
+    }
+    
+    .filter {
+        padding: 12px;
+    }
+    
+    .table-container {
+        padding: 12px;
+    }
+    
+    th, td {
+        padding: 10px 5px;
+        font-size: 0.8em;
+    }
+    
+    /* 在极小屏幕上优化表格显示 */
+    th:first-child, td:first-child { /* ID列 */
+        max-width: 70px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    
+    /* 调整语言选择器位置 */
+    .language-selector {
+        top: 75px;
+        right: 5px;
+    }
+    
+    /* 超小屏幕搜索页面专用优化 */
+    .main-container {
+        top: 75px;
+        width: 98%;
+        gap: 8px;
+    }
+    
+    .filter {
+        padding: 10px;
+        border-radius: 12px;
+    }
+    
+    .form-group {
+        margin-bottom: 10px;
+    }
+    
+    label {
+        font-size: 0.85em;
+    }
+    
+    input, select {
+        padding: 8px 12px;
+        font-size: 0.85em;
+    }
+    
+    .search-btn {
+        padding: 8px 12px;
+        font-size: 0.85em;
+    }
+    
+    .table-container {
+        padding: 8px;
+        border-radius: 12px;
+    }
+    
+    .view-btn {
+        padding: 4px 8px;
+        font-size: 0.75em;
+    }
+    
+    .pagination-btn {
+        min-width: 30px;
+        height: 30px;
+        font-size: 0.8em;
+    }
+}
+
+.main-container {
+  position: relative;
+  top: 100px;
+  display: flex;
+  gap: 30px;
+  width: 90%;
+  margin: 0 auto;
+  flex: 1; /* 新增 */
+  min-height: calc(100vh - 180px); /* 新增最小高度 */
+  overflow: hidden;
+}
+
+    .filter {
+  position: sticky;
+  top: 100px;
+  background: rgba(255,255,255,0.1);
+  padding: 30px;
+  border-radius: 20px;
+  border: 1px solid rgba(43, 16, 85, 0.3);
+  backdrop-filter: blur(10px);
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
+}
+
+.table-container {
+  flex: 1;
+  position: relative;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background: rgba(255,255,255,0.1);
+  padding: 30px;
+  border-radius: 20px;
+  border: 1px solid rgba(43, 16, 85, 0.3);
+  backdrop-filter: blur(10px);
+  height: auto; /* 修改为auto */
+}
+footer {
+  position: relative; /* 确保页脚定位正确 */
+  z-index: 1; /* 确保页脚在内容之上 */
+  margin-top: 100px; /* 新增间距 */
+}
+
+    thead {
+  /* 恢复固定定位 */
+  position: sticky;
+  top: 0;
+  /* 深紫色纯色背景 */
+  background: rgba(43, 16, 85, 1);
+  /* 增加阴影效果 */
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+    .form-group {
+      margin-bottom: 20px;
+      flex:1;
+    }
+
+    .search-section {
+      margin-bottom: 30px;
+      padding: 20px;
+      background: rgba(255,255,255,0.05);
+      border-radius: 15px;
+      border: 1px solid rgba(43, 16, 85, 0.2);
+    }
+
+    .search-section h4 {
+      margin-bottom: 20px;
+      font-size: 1.1em;
+      font-weight: 600;
+    }
+
+    .search-section h4 i {
+      margin-right: 8px;
+      color: #a88cd4;
+    }
+
+    .search-buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 20px;
+    }
+
+    .search-buttons .search-btn {
+      margin-top: 0;
+    }
+
+    label {
+      color:#2b1055;
+      display: block;
+      margin-bottom: 8px;
+      font-weight: 500;
+    }
+
+    input, select {
+      width: 100%;
+      padding: 12px 20px;
+      background: rgba(255,255,255,0.05);
+      border: 2px solid rgba(43, 16, 85, 0.4); /* 深紫色半透明 */
+      border-radius: 25px;
+      color: #2b1055;
+      font-size: 1em;
+      transition: all 0.3s ease;
+    }
+
+    input:focus, select:focus {
+      outline: none;
+      border-color: #a88cd4;
+      box-shadow: 0 0 0 3px rgba(168, 140, 212, 0.2);
+    }
+
+    .search-btn {
+      background: #fff;
+      color: #2b1055;
+      font-size: large;
+      padding: 15px 20px;
+      border: 2px solid #a88cd4;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: 0.3s;
+      margin-top: 15px;
+    }
+
+    .search-btn:hover {
+      background: #a88cd4;
+      ;
+    }
+
+    .view-btn:hover{
+        background: #a88cd4;
+    }
+
+    .view-btn {
+      background: #a88cd4;
+      color: #fff;
+      padding: 8px 15px;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      transition: 0.3s;
+      margin-top: 15px;
+    }
+
+
+
+    table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+      color: #2b1055;
+      /* 表格整体的圆角与 table-container 保持一致 */
+      border-radius: 20px;
+      overflow: hidden;
+    }
+
+    th {
+      padding: 25px;
+      text-align: left;
+      /* 使表头部分与下方的单元格看起来更融合 */
+      border-bottom: 1px solid rgba(246, 245, 247, 0.2);
+      color: white; /* 表头文字为白色 */
+      background-color: #2b1055; /* 可以设置表头的背景色，确保白色字体清晰可见 */
+    }
+
+    td {
+      padding: 25px;
+  text-align: left;
+      border-bottom: 1px solid rgba(43, 16, 85, 0.2);
+      word-wrap: break-word;
+      word-break: break-all;
+      white-space: normal;
+      max-width: 200px;
+    }
+
+    th:nth-child(7), td:nth-child(7) {
+  white-space: nowrap;  /* 操作列不换行 */
+  width: 120px;         /* 固定操作列宽度 */
+  text-align: center;   /* 按钮居中 */
+    }
+
+    /* 滚动条整体样式 */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+/* 滚动条轨道 */
+::-webkit-scrollbar-track {
+  background: rgba(255,255,255,0.05);
+  border-radius: 10px;
+}
+
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.2);
+  border-radius: 10px;
+}
+
+/* 鼠标悬停时的滑块 */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255,255,255,0.3);
+}
+
+/* 语言选择器样式 - 已移至 translation-component.css */
+
+/* 分页控件样式 */
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    padding: 10px 0;
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+.pagination-btn {
+    background: rgba(255,255,255,0.1);
+    color: #2b1055;
+    border: 1px solid rgba(255,255,255,0.3);
+    padding: 8px 15px;
+    margin: 0 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.pagination-btn:hover:not(:disabled) {
+    background: rgba(255,255,255,0.2);
+}
+
+.pagination-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.page-info {
+    color: #2b1055;
+    margin: 0 15px;
+    font-size: 0.9em;
+}
+
+/* 为表头的第一个和最后一个单元格添加圆角 */
+thead th:first-child {
+  border-top-left-radius: 20px;
+}
+
+thead th:last-child {
+  border-top-right-radius: 20px;
+}
+
+/* 添加搜索按钮动画样式 */
+.search-btn.searching {
+    animation: search-pulse 0.6s cubic-bezier(0.4, 0, 0.6, 1);
+    background-color: #7597de;
+}
+
+@keyframes search-pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+}
+
+/* 添加输入框聚焦样式增强 */
+.form-group input:focus {
+    outline: none;
+    border-color: var(--secondary-color, #7597de);
+    box-shadow: 0 0 0 3px rgba(117, 151, 222, 0.2);
+    transition: all 0.3s ease;
+}
+
+/* 添加搜索结果加载动画 */
+#loading-indicator td {
+    position: relative;
+}
+
+#loading-indicator td::after {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    border: 2px solid rgba(43, 16, 85, 0.2);
+    border-top-color: #2b1055;
+    border-radius: 50%;
+    animation: spinner 1s linear infinite;
+    vertical-align: middle;
+}
+
+@keyframes spinner {
+    to { transform: rotate(360deg); }
+}
+
+    /* 移动端横屏提示弹窗样式 */
+    .orientation-modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(43, 16, 85, 0.95);
+        backdrop-filter: blur(10px);
+        z-index: 10001;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-family: inherit;
+    }
+    
+    .orientation-modal.show {
+        display: flex;
+        animation: fadeIn 0.5s ease;
+    }
+    
+    .orientation-content {
+        text-align: center;
+        padding: 40px 30px;
+        max-width: 350px;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 20px;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .orientation-content::before {
+        content: \'\';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(45deg, rgba(117, 151, 222, 0.1), rgba(80, 226, 194, 0.1));
+        pointer-events: none;
+    }
+    
+    .phone-animation {
+        width: 80px;
+        height: 140px;
+        margin: 0 auto 30px;
+        position: relative;
+        animation: floatPhone 3s ease-in-out infinite;
+    }
+    
+    .phone-frame {
+        width: 100%;
+        height: 100%;
+        border: 3px solid #fff;
+        border-radius: 15px;
+        position: relative;
+        background: linear-gradient(135deg, #7597de, #2b1055);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        transform-origin: center center;
+        animation: rotatePhone 3s ease-in-out infinite;
+    }
+    
+    .phone-screen {
+        position: absolute;
+        top: 8px;
+        left: 8px;
+        right: 8px;
+        bottom: 8px;
+        background: #000;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+    
+    /* .phone-content {
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(45deg, #2b1055, #7597de);
+        position: relative;
+    }
+     */
+    .phone-content::after {
+        content: 'SPADE';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        font-size: 8px;
+        font-weight: bold;
+    }
+    
+    /* .rotate-arrow {
+        position: absolute;
+        right: -20px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 30px;
+        height: 30px;
+        animation: pulseArrow 2s ease-in-out infinite;
+    } */
+    
+    /* .rotate-arrow::before {
+        content: '↻';
+        font-size: 24px;
+        color: #50e2c2;
+        display: block;
+        animation: spinArrow 2s linear infinite;
+    } */
+    
+    .orientation-title {
+        font-size: 1.4rem;
+        font-weight: 600;
+        margin-bottom: 15px;
+        background: linear-gradient(90deg, #7597de, #50e2c2);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        position: relative;
+        z-index: 1;
+    }
+    
+    .orientation-message {
+        font-size: 1rem;
+        line-height: 1.6;
+        color: rgba(255, 255, 255, 0.9);
+        margin-bottom: 25px;
+        position: relative;
+        z-index: 1;
+    }
+    
+    .orientation-tip {
+        font-size: 0.85rem;
+        color: rgba(255, 255, 255, 0.7);
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        padding-top: 20px;
+        position: relative;
+        z-index: 1;
+    }
+    
+    .tip-icon {
+        display: inline-block;
+        margin-right: 8px;
+        animation: bounce 2s ease-in-out infinite;
+    }
+    
+    .orientation-close-btn {
+        margin-top: 20px;
+        padding: 10px 20px;
+        background: rgba(255, 255, 255, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 25px;
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 0.9rem;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        z-index: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+    }
+    
+    .orientation-close-btn:hover {
+        background: rgba(255, 255, 255, 0.2);
+        color: white;
+        transform: translateY(-2px);
+    }
+    
+    .orientation-close-btn i {
+        font-size: 0.8rem;
+    }
+    
+    /* 动画定义 */
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: scale(0.9);
+        }
+        to {
+            opacity: 1;
+            transform: scale(1);
+        }
+    }
+    
+    @keyframes floatPhone {
+        0%, 100% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(-10px);
+        }
+    }
+    
+    @keyframes rotatePhone {
+        0% {
+            transform: rotate(0deg);
+        }
+        25% {
+            transform: rotate(-5deg);
+        }
+        50% {
+            transform: rotate(90deg);
+        }
+        75% {
+            transform: rotate(85deg);
+        }
+        100% {
+            transform: rotate(90deg);
+        }
+    }
+    
+    @keyframes pulseArrow {
+        0%, 100% {
+            transform: translateY(-50%) scale(1);
+            opacity: 1;
+        }
+        50% {
+            transform: translateY(-50%) scale(1.2);
+            opacity: 0.8;
+        }
+    }
+    
+    @keyframes spinArrow {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+    
+    @keyframes bounce {
+        0%, 20%, 50%, 80%, 100% {
+            transform: translateY(0);
+        }
+        40% {
+            transform: translateY(-8px);
+        }
+        60% {
+            transform: translateY(-4px);
+        }
+    }
+    
+    /* 横屏状态下隐藏弹窗 */
+    @media screen and (orientation: landscape) and (max-width: 1024px) {
+        .orientation-modal.show {
+            display: none !important;
+        }
+    }
+    
+    /* 平板横屏优化 */
+    @media screen and (orientation: landscape) and (min-width: 768px) and (max-width: 1024px) {
+        .orientation-modal.show {
+            display: none !important;
+        }
+    }
+    
+    /* 小屏幕设备特殊处理 */
+    @media screen and (max-width: 480px) {
+        .orientation-content {
+            max-width: 300px;
+            padding: 30px 25px;
+        }
+        
+        .orientation-title {
+            font-size: 1.2rem;
+        }
+        
+        .orientation-message {
+            font-size: 0.9rem;
+        }
+        
+        .phone-animation {
+            width: 70px;
+            height: 120px;
+        }
+    }
+    
+    /* 确保弹窗在所有其他元素之上 */
+    .orientation-modal {
+        z-index: 10001 !important;
+    }
+    
+    /* 为弹窗添加更多视觉效果 */
+    .orientation-content {
+        animation: modalSlideIn 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+    
+    @keyframes modalSlideIn {
+        0% {
+            opacity: 0;
+            transform: translateY(30px) scale(0.9);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0) scale(1);
+        }
+    }
+    
+    /* 添加脉冲光效 */
+    .orientation-content::after {
+        content: \'\';
+        position: absolute;
+        top: -2px;
+        left: -2px;
+        right: -2px;
+        bottom: -2px;
+        border-radius: 22px;
+        background: linear-gradient(45deg, 
+            rgba(117, 151, 222, 0.3), 
+            rgba(80, 226, 194, 0.3), 
+            rgba(117, 151, 222, 0.3)
+        );
+        z-index: -1;
+        animation: borderPulse 3s ease-in-out infinite;
+    }
+    
+    @keyframes borderPulse {
+        0%, 100% {
+            opacity: 0.3;
+            transform: scale(1);
+        }
+        50% {
+            opacity: 0.6;
+            transform: scale(1.02);
+        }
+    }
+  </style>
+</head>
+
+<body class="other-page">
+  <!-- 移动端横屏提示弹窗 -->
+  <div class="orientation-modal" id="orientationModal">
+      <div class="orientation-content">
+          <div class="phone-animation">
+              <div class="phone-frame">
+                  <div class="phone-screen">
+                      <div class="phone-content"></div>
+                  </div>
+              </div>
+              <!-- <div class="rotate-arrow"></div> -->
+          </div>
+          <h3 class="orientation-title" data-translate="Better Experience">Better Experience</h3>
+          <p class="orientation-message" data-translate="For the best browsing experience, we recommend using SPADE database in landscape mode.">
+              For the best browsing experience, we recommend using SPADE database in <strong>landscape</strong> mode.
+          </p>
+          <div class="orientation-tip">
+              <span class="tip-icon">💡</span>
+              <span data-translate="In landscape mode, you can better view data tables, charts and research content">In landscape mode, you can better view data tables, charts and research content</span>
+          </div>
+          <button class="orientation-close-btn" id="orientationCloseBtn" style="display: none;">
+              <i class="fas fa-times"></i>
+              <span data-translate="Continue anyway">Continue anyway</span>
+          </button>
+      </div>
+  </div>
+
+  <header>
+    <div class="logo-container">
+      <a href="#" class="logo">
+        <img src="./source/img/logo.png"  style="vertical-align: middle; height: 30px;">
+        SPADE
+      </a>
+      <div style="color: white; font-size: 0.6em;" data-translate="System for Antimicrobial Peptide Management and Database">System for Antimicrobial Peptide<br>Management and Database</div>
+      <!-- <a href="https://2025.igem.wiki/xjtlu - software" class="team-link" target="_blank" rel="noopener noreferrer">Belongs to 2025-XJTLU-Software</a> -->
+    </div>
+    <button class="nav-toggle" aria-label="Toggle navigation">
+      <i class="fas fa-bars"></i>
+    </button>
+            <ul class="nav-menu">
+      <li><a href="home.html" data-translate="Home">Home</a></li>
+      <li><a href="search.html" class="active" data-translate="Search">Search</a></li>
+      <li><a href="tools.html" data-translate="Tools">Tools</a></li>
+      <li><a href="statistics.html" data-translate="Statistics">Statistics</a></li>
+      <!-- <li><a href="chat.html">Chat</a></li> -->
+      <!-- <li><a href="login.html">Login</a></li> -->
+    </ul>
+  </header>
+
+  <!-- 新的侧边语言选择器UI -->
+  <!-- <div class="language-selector">
+    <div class="language-current" id="currentLang">
+      <i class="fas fa-globe"></i>
+      <span id="currentLangText">中文 (简体)</span>
+    </div>
+    <div class="language-options">
+    </div>
+  </div> -->
+
+  <div class="main-container">
+    <div class="filter">
+      <!-- 基础检索 -->
+      <div class="search-section">
+        <h4 style="color: #2b1055; margin-bottom: 15px; border-bottom: 2px solid #a88cd4; padding-bottom: 5px;">
+          <i class="fas fa-search"></i> <span data-translate="Basic Search">Basic Search</span>
+        </h4>
+        <div class="form-group">
+          <label data-translate="ID">ID</label>
+          <input type="text" id="idInput" placeholder="Input ID" data-translate-placeholder="Input ID">
+        </div>
+        <div class="form-group">
+          <label data-translate="Name">Name</label>
+          <input type="text" id="nameInput" placeholder="Input Name" data-translate-placeholder="Input Name">
+        </div>
+        <div class="form-group">
+          <label data-translate="Sequence">Sequence</label>
+          <input type="text" id="sequenceInput" placeholder="Input Sequence" data-translate-placeholder="Input Sequence">
+        </div>
+        <div class="form-group">
+          <label data-translate="Sequence Length">Sequence Length</label>
+          <input type="text" id="lengthInput" placeholder="e.g: 10-50" data-translate-placeholder="e.g: 10-50">
+        </div>
+      </div>
+
+      <!-- 活性类型检索 -->
+      <div class="search-section">
+        <h4 style="color: #2b1055; margin-bottom: 15px; border-bottom: 2px solid #a88cd4; padding-bottom: 5px;">
+          <i></i> <span data-translate="Activity Type Search">Activity Type Search</span>
+        </h4>
+        <div class="form-group">
+          <label data-translate="Activity Type">Activity Type</label>
+          <select id="activityTypeSelect" style="width: 100%; padding: 12px 20px; background: rgba(255,255,255,0.05); border: 2px solid rgba(43, 16, 85, 0.4); border-radius: 25px; color: #2b1055; font-size: 1em;">
+            <option value="" data-translate="All Activity Types">All Activity Types</option>
+            <option value="gram-positive">Gram-positive</option>
+            <option value="gram-negative">Gram-negative</option>
+            <option value="fungal">Fungal</option>
+            <option value="viral">Viral</option>
+            <option value="broad-spectrum">Broad-spectrum</option>
+            <option value="antifungal">Antifungal</option>
+            <option value="antiviral">Antiviral</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- 目标生物检索 -->
+      <div class="search-section">
+        <h4 style="color: #2b1055; margin-bottom: 15px; border-bottom: 2px solid #a88cd4; padding-bottom: 5px;">
+          <i></i> <span data-translate="Target Organism Search">Target Organism Search</span>
+        </h4>
+        <div class="form-group">
+          <label data-translate="Target Organism">Target Organism</label>
+          <select id="targetOrganismSelect" style="width: 100%; padding: 12px 20px; background: rgba(255,255,255,0.05); border: 2px solid rgba(43, 16, 85, 0.4); border-radius: 25px; color: #2b1055; font-size: 1em;">
+            <option value="" data-translate="All Target Organisms">All Target Organisms</option>
+            <option value="Staphylococcus aureus">Staphylococcus aureus</option>
+            <option value="Escherichia coli">Escherichia coli</option>
+            <option value="Pseudomonas aeruginosa">Pseudomonas aeruginosa</option>
+            <option value="Klebsiella pneumoniae">Klebsiella pneumoniae</option>
+            <option value="Enterococcus faecalis">Enterococcus faecalis</option>
+            <option value="Lactobacillus spp.">Lactobacillus spp.</option>
+            <option value="Streptococcus spp.">Streptococcus spp.</option>
+            <option value="Listeria monocytogenes">Listeria monocytogenes</option>
+            <option value="Candida albicans">Candida albicans</option>
+            <option value="Gram-positive bacteria">Gram-positive bacteria</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- 结构特征检索 -->
+      <div class="search-section">
+        <h4 style="color: #2b1055; margin-bottom: 15px; border-bottom: 2px solid #a88cd4; padding-bottom: 5px;">
+          <i></i> <span data-translate="Structure Search">Structure Search</span>
+        </h4>
+        <div class="form-group">
+          <label data-translate="Charge">Charge</label>
+          <select id="chargeSelect" style="width: 100%; padding: 12px 20px; background: rgba(255,255,255,0.05); border: 2px solid rgba(43, 16, 85, 0.4); border-radius: 25px; color: #2b1055; font-size: 1em;">
+            <option value="" data-translate="All Charges">All Charges</option>
+            <option value="positive">Positive</option>
+            <option value="negative">Negative</option>
+            <option value="neutral">Neutral</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label data-translate="Hydrophobicity">Hydrophobicity</label>
+          <select id="hydrophobicitySelect" style="width: 100%; padding: 12px 20px; background: rgba(255,255,255,0.05); border: 2px solid rgba(43, 16, 85, 0.4); border-radius: 25px; color: #2b1055; font-size: 1em;">
+            <option value="" data-translate="All Hydrophobicity">All Hydrophobicity</option>
+            <option value="hydrophilic">Hydrophilic</option>
+            <option value="hydrophobic">Hydrophobic</option>
+            <option value="amphipathic">Amphipathic</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label data-translate="Secondary Structure">Secondary Structure</label>
+          <select id="structureSelect" style="width: 100%; padding: 12px 20px; background: rgba(255,255,255,0.05); border: 2px solid rgba(43, 16, 85, 0.4); border-radius: 25px; color: #2b1055; font-size: 1em;">
+            <option value="" data-translate="All Structures">All Structures</option>
+            <option value="alpha-helix">Alpha-helix</option>
+            <option value="beta-sheet">Beta-sheet</option>
+            <option value="random-coil">Random coil</option>
+            <option value="mixed">Mixed</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- 搜索按钮 -->
+      <div class="search-buttons">
+        <button class="search-btn" onclick="search()" data-translate="Search">
+          <i class="fas fa-search"></i> <span data-translate="Search">Search</span>
+        </button>
+        <button class="search-btn" id="resetSearchBtn" style="display: none; background-color: #6c757d;" data-translate="Clear Search">
+          <i class="fas fa-undo"></i> <span data-translate="Clear Search">Clear Search</span>
+        <!-- </button>
+        <button class="search-btn" onclick="exportCSV()" style="background-color: #28a745;" data-translate="Export CSV">
+          <i class="fas fa-download"></i> <span data-translate="Export CSV">Export CSV</span>
+        </button> -->
+      </div>
+    </div>
+    <div class="table-container">
+      <table id="resultsTable">
+        <thead>
+          <tr>
+            <th data-translate="ID">ID</th>
+            <th data-translate="Name">Name</th>
+            <th data-translate="Sequence">Sequence</th>
+            <th data-translate="Activity Type">Activity Type</th>
+            <th data-translate="Target Organisms">Target Organisms</th>
+            <th data-translate="Structure">Structure</th>
+            <th data-translate="Action">Action</th>
+          </tr>
+        </thead>
+        <tbody id="table-body">
+          <!-- 动态生成的表格行将插入这里 -->
+        </tbody>
+      </table>
+      <!-- 分页控件 -->
+      <div class="pagination-container">
+        <button id="prevPageBtn" class="pagination-btn" disabled data-translate="Previous">Previous</button>
+        <span id="pageInfo" class="page-info">Page 1 of 1</span>
+        <button id="nextPageBtn" class="pagination-btn" disabled data-translate="Next">Next</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // --- Global Scope ---
+    const itemsPerPage = 10;
+    let currentPage = 1;
+    let totalPages = 1;
+    let allPeptideFiles = [];
+    let peptideIndexData = [];
+    let currentFilterFiles = [];
+    let isFiltered = false;
+
+    // --- Function Declarations ---
+
+    function search() {
+      // 基础检索参数
+      const idInput = document.getElementById("idInput").value.trim().toLowerCase();
+      const nameInput = document.getElementById("nameInput").value.trim().toLowerCase();
+      const sequenceInput = document.getElementById("sequenceInput").value.trim().toLowerCase();
+      const lengthInput = document.getElementById("lengthInput").value.trim();
+
+      // 活性类型检索参数
+      const activityType = document.getElementById("activityTypeSelect").value;
+
+      // 目标生物检索参数
+      const targetOrganism = document.getElementById("targetOrganismSelect").value;
+
+      // 结构特征检索参数
+      const charge = document.getElementById("chargeSelect").value;
+      const hydrophobicity = document.getElementById("hydrophobicitySelect").value;
+      const structure = document.getElementById("structureSelect").value;
+
+      isFiltered = true;
+      let results = [...peptideIndexData];
+
+      // 基础检索过滤
+      if (idInput) {
+        results = results.filter(p => p.id && p.id.toLowerCase().includes(idInput));
+      }
+      if (nameInput) {
+        results = results.filter(p => p.name && p.name.toLowerCase().includes(nameInput));
+      }
+      if (sequenceInput) {
+        results = results.filter(p => p.sequence && p.sequence.toLowerCase().includes(sequenceInput));
+      }
+      if (lengthInput) {
+        const rangeMatch = lengthInput.match(/^(\d+)-(\d+)$/);
+        if (rangeMatch) {
+          const minLength = parseInt(rangeMatch[1], 10);
+          const maxLength = parseInt(rangeMatch[2], 10);
+          results = results.filter(p => p.length >= minLength && p.length <= maxLength);
+        } else if (lengthInput) {
+          const errorMsg = window.SPADE_LANGUAGE_SELECTOR_MINIMAL?.getInstance()?.getTranslation("Invalid length format, please input range, e.g.: 15-20") || "Invalid length format, please input range, e.g.: 15-20";
+          alert(errorMsg);
+          return;
+        }
+      }
+
+      // 活性类型过滤
+      if (activityType) {
+        results = results.filter(p => {
+          if (!p.activity_type) return false;
+          // 支持数组和字符串格式
+          const activityTypes = Array.isArray(p.activity_type) ? 
+            p.activity_type.join(',').toLowerCase() : 
+            p.activity_type.toLowerCase();
+          return activityTypes.includes(activityType.toLowerCase());
+        });
+      }
+
+      // 目标生物过滤
+      if (targetOrganism) {
+        results = results.filter(p => {
+          if (!p.target_organisms) return false;
+          
+          // 支持数组格式
+          if (Array.isArray(p.target_organisms)) {
+            return p.target_organisms.some(org => {
+              const orgLower = org.toLowerCase();
+              const targetLower = targetOrganism.toLowerCase();
+              // 支持完整匹配和部分匹配
+              return orgLower === targetLower || orgLower.includes(targetLower) || targetLower.includes(orgLower);
+            });
+          } else {
+            // 支持字符串格式
+            const orgLower = p.target_organisms.toLowerCase();
+            const targetLower = targetOrganism.toLowerCase();
+            return orgLower === targetLower || orgLower.includes(targetLower) || targetLower.includes(orgLower);
+          }
+        });
+      }
+
+      // 结构特征过滤
+      if (charge) {
+        results = results.filter(p => {
+          if (!p.charge) return false;
+          return p.charge.toLowerCase().includes(charge.toLowerCase());
+        });
+      }
+
+      if (hydrophobicity) {
+        results = results.filter(p => {
+          if (!p.hydrophobicity) return false;
+          return p.hydrophobicity.toLowerCase().includes(hydrophobicity.toLowerCase());
+        });
+      }
+
+      if (structure) {
+        results = results.filter(p => {
+          if (!p.secondary_structure) return false;
+          return p.secondary_structure.toLowerCase().includes(structure.toLowerCase());
+        });
+      }
+      
+      currentFilterFiles = results.map(p => `${p.id}.json`);
+      document.getElementById('resetSearchBtn').style.display = 'inline-block';
+      displayPage(1);
+    }
+
+    function resetSearch() {
+        isFiltered = false;
+        currentFilterFiles = [...allPeptideFiles];
+        
+        // 清空所有检索字段
+        const fieldsToReset = [
+            'idInput', 'nameInput', 'sequenceInput', 'lengthInput',
+            'activityTypeSelect', 'targetOrganismSelect', 
+            'chargeSelect', 'hydrophobicitySelect', 'structureSelect'
+        ];
+        
+        fieldsToReset.forEach(id => {
+            const element = document.getElementById(id);
+            if (element) {
+                element.value = '';
+            }
+        });
+        
+        document.getElementById('resetSearchBtn').style.display = 'none';
+        displayPage(1);
+    }
+
+    function exportCSV() {
+      let dataToExport = isFiltered ? peptideIndexData.filter(p => currentFilterFiles.includes(`${p.id}.json`)) : peptideIndexData;
+      let csvContent = "data:text/csv;charset=utf-8,ID,Name,Sequence,Length\r\n";
+      dataToExport.forEach(item => {
+        const row = `${item.id},"${item.name || ''}","${item.sequence || ''}",${item.length || ''}`;
+        csvContent += row + "\r\n";
+      });
+      const link = document.createElement("a");
+      link.setAttribute("href", encodeURI(csvContent));
+      link.setAttribute("download", "spade_search_results.csv");
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    }
+
+    async function loadInitialData() {
+      const tableBody = document.getElementById('table-body');
+      const loadingText = window.SPADE_LANGUAGE_SELECTOR_MINIMAL?.getInstance()?.getTranslation("Loading...") || "Loading...";
+      tableBody.innerHTML = `<tr><td colspan="7" style="text-align:center; padding: 20px;">${loadingText}</td></tr>`;
+      try {
+        // 首先尝试加载扩展索引
+        let response = await fetch('./data/index/peptide_extended_index.json');
+        if (!response.ok) {
+          console.log('扩展索引不存在，使用基础索引');
+          // 如果扩展索引不存在，使用基础索引
+          response = await fetch('./data/index/peptide_index.json');
+          if (!response.ok) throw new Error(`Index file loading failed (${response.status})`);
+        }
+        
+        peptideIndexData = await response.json();
+        if (!Array.isArray(peptideIndexData)) throw new Error("Index data format error");
+
+        allPeptideFiles = peptideIndexData.map(p => `${p.id}.json`);
+        resetSearch(); // Initial load is a "reset" state
+        
+        // 数据加载完成后重新翻译页面
+        setTimeout(() => {
+          const languageSelector = window.SPADE_LANGUAGE_SELECTOR_MINIMAL?.getInstance();
+          if (languageSelector) {
+            languageSelector.translatePage();
+          }
+        }, 500);
+      } catch (error) {
+        console.error('Loading initial data failed:', error);
+        const errorText = window.SPADE_LANGUAGE_SELECTOR_MINIMAL?.getInstance()?.getTranslation("Loading failed, please refresh the page or contact the administrator.") || "Loading failed, please refresh the page or contact the administrator.";
+        tableBody.innerHTML = `<tr><td colspan="7" style="text-align:center; padding: 20px;">${errorText}</td></tr>`;
+      }
+    }
+
+    function displayPage(page) {
+      currentPage = page;
+      const filesSource = isFiltered ? currentFilterFiles : allPeptideFiles;
+      totalPages = Math.ceil(filesSource.length / itemsPerPage);
+      
+      const startIndex = (page - 1) * itemsPerPage;
+      const endIndex = Math.min(startIndex + itemsPerPage, filesSource.length);
+      
+      const peptidesOnPage = filesSource.slice(startIndex, endIndex).map(fileName => {
+        const id = fileName.replace('.json', '');
+        return peptideIndexData.find(p => p.id === id);
+      }).filter(Boolean); // Filter out undefined if any peptide wasn't found
+
+      renderTableRows(peptidesOnPage);
+      updatePagination();
+      
+      // 重新翻译页面以更新动态生成的内容
+      setTimeout(() => {
+        const languageSelector = window.SPADE_LANGUAGE_SELECTOR_MINIMAL?.getInstance();
+        if (languageSelector) {
+          languageSelector.translatePage();
+        }
+      }, 100);
+    }
+
+    function renderTableRows(data) {
+      const tableBody = document.getElementById('table-body');
+      tableBody.innerHTML = '';
+      if (data.length === 0) {
+        const noDataText = window.SPADE_LANGUAGE_SELECTOR_MINIMAL?.getInstance()?.getTranslation("No matching data") || "No matching data";
+        tableBody.innerHTML = `<tr><td colspan="7" style="text-align:center; padding: 20px;">${noDataText}</td></tr>`;
+        return;
+      }
+      data.forEach(item => {
+        const row = tableBody.insertRow();
+        
+        // 格式化活性类型显示
+        const activityType = item.activity_type ? 
+          (Array.isArray(item.activity_type) ? item.activity_type.join(', ') : item.activity_type) : 
+          'N/A';
+        
+        // 格式化目标生物显示
+        const targetOrganisms = item.target_organisms ? 
+          (Array.isArray(item.target_organisms) ? 
+            item.target_organisms.slice(0, 3).join(', ') + (item.target_organisms.length > 3 ? '...' : '') : 
+            item.target_organisms.substring(0, 50) + (item.target_organisms.length > 50 ? '...' : '')) : 
+          'N/A';
+        
+        // 格式化结构信息显示
+        const structureInfo = [];
+        if (item.charge && item.charge !== 'unknown') structureInfo.push(`Charge: ${item.charge}`);
+        if (item.hydrophobicity && item.hydrophobicity !== 'unknown') structureInfo.push(`Hydro: ${item.hydrophobicity}`);
+        if (item.secondary_structure && item.secondary_structure !== 'unknown') structureInfo.push(`Struct: ${item.secondary_structure}`);
+        const structureDisplay = structureInfo.length > 0 ? structureInfo.join('; ') : 'N/A';
+        
+        row.innerHTML = `
+          <td>${item.id}</td>
+          <td>${item.name || 'N/A'}</td>
+          <td style="max-width: 150px; word-break: break-all;">${item.sequence || 'N/A'}</td>
+          <td>${activityType}</td>
+          <td style="max-width: 120px; word-break: break-all;">${targetOrganisms}</td>
+          <td style="max-width: 120px; word-break: break-all;">${structureDisplay}</td>
+          <td>
+            <a href="peptide_card.html?ID=${encodeURIComponent(item.id)}" class="view-btn" data-translate="View">View</a>
+            <a href="amp_visualization.html?id=${encodeURIComponent(item.id)}" class="view-btn" data-translate="Visualize">Visualize</a>
+          </td>`;
+      });
+    }
+
+    function updatePagination() {
+      const pageInfo = document.getElementById('pageInfo');
+      const prevBtn = document.getElementById('prevPageBtn');
+      const nextBtn = document.getElementById('nextPageBtn');
+      totalPages = Math.ceil((isFiltered ? currentFilterFiles.length : allPeptideFiles.length) / itemsPerPage) || 1;
+      currentPage = Math.max(1, Math.min(currentPage, totalPages));
+      const pageText = window.SPADE_LANGUAGE_SELECTOR_MINIMAL?.getInstance()?.getTranslation("Page 1 of 1") || "Page 1 of 1";
+      const pageInfoText = pageText.replace("1 of 1", `${currentPage} of ${totalPages}`);
+      pageInfo.textContent = pageInfoText;
+      prevBtn.disabled = currentPage <= 1;
+      nextBtn.disabled = currentPage >= totalPages;
+    }
+    
+    // --- 移动端横屏提示弹窗功能 ---
+    
+    // 获取设备方向
+    function getOrientation() {
+      return window.innerWidth > window.innerHeight ? 'landscape' : 'portrait';
+    }
+    
+    // 初始化横屏提示弹窗
+    function initOrientationModal() {
+      const orientationModal = document.getElementById('orientationModal');
+      
+      if (!orientationModal) {
+        console.warn('Orientation modal not found');
+        return;
+      }
+      
+      // 检查是否为移动设备
+      const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+      
+      if (!isMobile) {
+        orientationModal.style.display = 'none';
+        return;
+      }
+      
+      // 监听屏幕方向变化
+      window.addEventListener('orientationchange', handleOrientationChange);
+      window.addEventListener('resize', handleOrientationChange);
+      
+      // 初始检查
+      handleOrientationChange();
+    }
+    
+    // 处理方向变化
+    function handleOrientationChange() {
+      const orientation = getOrientation();
+      const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+      
+      console.log('Orientation change detected:', orientation, 'Mobile:', isMobile);
+      
+      if (!isMobile) return;
+      
+      if (orientation === 'portrait') {
+        // 竖屏时显示提示
+        console.log('Showing orientation modal for portrait mode');
+        setTimeout(() => toggleOrientationModal(true), 500);
+      } else {
+        // 横屏时隐藏提示
+        console.log('Hiding orientation modal for landscape mode');
+        toggleOrientationModal(false);
+      }
+    }
+    
+    // 切换弹窗显示状态
+    function toggleOrientationModal(show) {
+      const orientationModal = document.getElementById('orientationModal');
+      if (!orientationModal) return;
+      
+      if (show) {
+        orientationModal.classList.add('show');
+        // 添加动画效果
+        const content = orientationModal.querySelector('.orientation-content');
+        if (content) {
+          content.style.transform = 'scale(1)';
+          content.style.opacity = '1';
+        }
+      } else {
+        orientationModal.classList.remove('show');
+        const content = orientationModal.querySelector('.orientation-content');
+        if (content) {
+          content.style.transform = 'scale(0.8)';
+          content.style.opacity = '0';
+        }
+      }
+    }
+    
+    // 键盘事件处理
+    document.addEventListener('keydown', (e) => {
+      const orientationModal = document.getElementById('orientationModal');
+      if (e.key === 'Escape' && orientationModal.classList.contains('show')) {
+        toggleOrientationModal(false);
+      }
+    });
+    
+    // 点击弹窗外部关闭
+    document.addEventListener('click', (e) => {
+      const orientationModal = document.getElementById('orientationModal');
+      
+      if (e.target === orientationModal) {
+        toggleOrientationModal(false);
+      }
+    });
+    
+    // 关闭按钮事件
+    document.getElementById('orientationCloseBtn').addEventListener('click', () => {
+      toggleOrientationModal(false);
+    });
+    
+    // 窗口大小变化时重新检查
+    window.addEventListener('resize', () => {
+      if (document.getElementById('orientationModal').classList.contains('show')) {
+        handleOrientationChange();
+      }
+    });
+    
+    // --- 移动端导航菜单处理 ---
+    function initMobileNavigation() {
+      const navToggle = document.querySelector('.nav-toggle');
+      const navMenu = document.querySelector('.nav-menu');
+      
+      if (navToggle && navMenu) {
+        navToggle.addEventListener('click', () => {
+          navMenu.classList.toggle('active');
+          // 切换图标
+          const icon = navToggle.querySelector('i');
+          if (icon) {
+            icon.classList.toggle('fa-bars');
+            icon.classList.toggle('fa-times');
+          }
+        });
+        
+        // 点击菜单项后关闭菜单
+        const navLinks = navMenu.querySelectorAll('a');
+        navLinks.forEach(link => {
+          link.addEventListener('click', () => {
+            navMenu.classList.remove('active');
+            const icon = navToggle.querySelector('i');
+            if (icon) {
+              icon.classList.remove('fa-times');
+              icon.classList.add('fa-bars');
+            }
+          });
+        });
+        
+        // 点击外部关闭菜单
+        document.addEventListener('click', (e) => {
+          if (!navToggle.contains(e.target) && !navMenu.contains(e.target)) {
+            navMenu.classList.remove('active');
+            const icon = navToggle.querySelector('i');
+            if (icon) {
+              icon.classList.remove('fa-times');
+              icon.classList.add('fa-bars');
+            }
+          }
+        });
+      }
+    }
+    
+    // --- Initializer ---
+    document.addEventListener('DOMContentLoaded', () => {
+      loadInitialData();
+      
+      // Event Listeners
+      document.getElementById('prevPageBtn').addEventListener('click', () => displayPage(currentPage - 1));
+      document.getElementById('nextPageBtn').addEventListener('click', () => displayPage(currentPage + 1));
+      document.getElementById('resetSearchBtn').addEventListener('click', resetSearch);
+
+      // 初始化移动端功能
+      initOrientationModal();
+      initMobileNavigation();
+      
+      // 等待翻译组件初始化完成后重新翻译页面
+      setTimeout(() => {
+        const languageSelector = window.SPADE_LANGUAGE_SELECTOR_MINIMAL?.getInstance();
+        if (languageSelector) {
+          languageSelector.translatePage();
+        }
+      }, 1000);
+      
+      // 测试横屏提示弹窗（开发用）
+      // 在桌面端按 'T' 键可以测试弹窗显示
+    //   document.addEventListener('keydown', (e) => {
+    //     if (e.key === 't' || e.key === 'T') {
+    //       const orientationModal = document.getElementById('orientationModal');
+    //       if (orientationModal) {
+    //         console.log('Testing orientation modal display');
+    //         toggleOrientationModal(true);
+    //       }
+    //     }
+    //   });
+      
+      // Other initializations like translation can go here
+    });
+  </script>
+
+  
+    <!-- Footer -->
+    <footer style="background-color: #250b53; color: white; padding: 40px 20px;">
+        <div style="display: flex; justify-content: space-between; flex-wrap: wrap; max-width: 1200px; margin: auto;">
+          
+          <!-- About Section -->
+          <div style="flex: 1; min-width: 200px; margin-bottom: 20px;">
+            <h4 id="about-spade-footer" style="color: #9db4f0;">About</h4>
+            <ul style="list-style: none; padding: 0;">
+              <li><a href="spade.html#about-spade-footer" style="color: white; text-decoration: none;">About SPADE</a></li>
+              <li><a id="advertising-policy-footer" href="spade.html#advertising-policy-footer" style="color: white; text-decoration: none;">Advertising policy</a></li>
+              <li><a id="attribution-citations-footer" href="spade.html#attribution-citations-footer" style="color: white; text-decoration: none;">Attribution & citations</a></li>
+            </ul>
+          </div>
+      
+          <!-- Terms & Privacy Section -->
+          <div style="flex: 1; min-width: 200px; margin-bottom: 20px;">
+            <h4 id="terms-of-use-footer" style="color: #9db4f0;">Terms & privacy</h4>
+            <ul style="list-style: none; padding: 0;">
+              <li><a href="spade.html#terms-of-use-footer" style="color: white; text-decoration: none;">Terms of use</a></li>
+              <li><a id="editorial-policy-footer" href="spade.html#editorial-policy-footer" style="color: white; text-decoration: none;">Editorial policy</a></li>
+              <li><a id="privacy-policy-footer" href="spade.html#privacy-policy-footer" style="color: white; text-decoration: none;">Privacy policy</a></li>
+            </ul>
+          </div>
+      
+          <!-- Support Section -->
+          <div style="flex: 1; min-width: 200px; margin-bottom: 20px;">
+            <h4 id="help-center-footer" style="color: #9db4f0;">Support</h4>
+            <ul style="list-style: none; padding: 0;">
+              <li><a href="spade.html#help-center-footer" style="color: white; text-decoration: none;">Help center</a></li>
+              <li><a id="sitemap-footer" href="spade.html#sitemap-footer" style="color: white; text-decoration: none;">Sitemap</a></li>
+              <li><a id="contact-us-footer" href="spade.html#contact-us-footer" style="color: white; text-decoration: none;">Contact us</a></li>
+            </ul>
+          </div>
+        </div>
+      
+        <div style="text-align: right; padding-top: 20px; color: #aaa; max-width: 1200px; margin: auto;">
+          &copy; SPADE.
+        </div>
+      </footer>  
+</body>
+</html>

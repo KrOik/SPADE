@@ -1,0 +1,79 @@
+{
+    "SPADE_N_00348": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00348",
+            "Peptide Name": "Hedyotide B2 (hB2; Uncyclotides; Plants)",
+            "Source": "Hedyotis biflora (aerial tissues)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "IQCGESCVWIPCISSAWGCSCKNKICSS",
+            "Sequence Length": 28,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "Gram-negative bacterium:Escherichia coli (MIC>80 µM);Gram-positive bacteria:Streptococcus salivarius(MIC>80 µM), Staphylococcus epidermidis (MIC>80 µM), Streptococcus aureus (MIC>80 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C125H198N34O39S6",
+            "Mass": 2993.5,
+            "PI": 7.77,
+            "Net Charge": 1,
+            "Hydrophobicity": 0.42,
+            "Half Life": "Mammalian:20 hourYeast:30 minE.coli:>10 hour",
+            "Function": "Possesses antifungal activity.",
+            "Literature": [
+                {
+                    "Title": "Discovery of a linear cyclotide from the bracelet subfamily and its disulfide mapping by top-down mass spectrometry.",
+                    "Pubmed ID": "21979955",
+                    "Reference": "J Biol Chem. 2011 Dec 30;286(52)44833-44844.",
+                    "Author": "Nguyen GK, Zhang S, Wang W, Wong CT, Nguyen NT, Tam JP.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=21979955"
+                },
+                {
+                    "Title": "Discovery of a linear cyclotide from the bracelet subfamily and its disulfide mapping by top-down mass spectrometry",
+                    "Pubmed ID": "",
+                    "Author": "nguyen GK, Zhang S, Wang W, Wong CT, nguyen nT, Tam JP"
+                }
+            ],
+            "Frequent Amino Acids": "CSI",
+            "Absent Amino Acids": "DFHLMORTUY",
+            "Basic Residues": 2,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 18,
+            "Positive Residues": 2,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00823",
+                    "Similarity": 0.8695652173913043,
+                    "Sequence": "KVCYRAIPCGESCVWIPCISAAIGCSCKN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07733",
+                    "Similarity": 0.8461538461538461,
+                    "Sequence": "CGESCVWIPCISSAIGCSCKNKVCYRNGIP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07734",
+                    "Similarity": 0.8461538461538461,
+                    "Sequence": "CGESCVWIPCISSAVGCSCKNKVCYKNGTP"
+                }
+            ]
+        }
+    }
+}

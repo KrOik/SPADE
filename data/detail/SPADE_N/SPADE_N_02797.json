@@ -1,0 +1,74 @@
+{
+    "SPADE_N_02797": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02797",
+            "Peptide Name": "M-ctenitoxin-Cs1b (M-CNTX-Cs1b; Cupiennin-1b; spiders, Arthropods, animals)",
+            "Source": "Cupiennius salei (Wandering spider)",
+            "Family": "Belongs to the cupiennin family",
+            "Gene": "Not found",
+            "Sequence": "GFGSLFKFLAKKVAKTVAKQAAKQGAKYIANKQME",
+            "Sequence Length": 35,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P83620"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Insecticidal"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "[Ref.11792701]Not determined",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C175H287N47O45S",
+            "Mass": 3801.5,
+            "PI": 10.3,
+            "Net Charge": 7,
+            "Hydrophobicity": -0.27,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Has antimicrobial activity. Has insecticidal activity. Probably acts by disturbing membrane Function",
+            "Literature": [
+                {
+                    "Title": "Cupiennin 1, a new family of highly basic antimicrobial peptides in the venom of the spider Cupiennius salei (Ctenidae).",
+                    "Pubmed ID": "11792701",
+                    "Reference": "J Biol Chem. 2002 Mar 29;277(13)11208-11216.",
+                    "Author": "Kuhn-Nentwig L, Muller J, Schaller J, Walz A, Dathe M, Nentwig W.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=11792701"
+                }
+            ],
+            "Frequent Amino Acids": "KAF",
+            "Absent Amino Acids": "CDHOPRUW",
+            "Basic Residues": 8,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 17,
+            "Polar Residues": 24,
+            "Positive Residues": 8,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02798",
+                    "Similarity": 0.9714285714285714,
+                    "Sequence": "GFGSLFKFLAKKVAKTVAKQAAKQGAKYIANKQTE"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02799",
+                    "Similarity": 0.9428571428571428,
+                    "Sequence": "GFGSLFKFLAKKVAKTVAKQAAKQGAKYVANKHME"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02796",
+                    "Similarity": 0.9142857142857143,
+                    "Sequence": "GFGALFKFLAKKVAKTVAKQAAKQGAKYVVNKQME"
+                }
+            ]
+        }
+    }
+}

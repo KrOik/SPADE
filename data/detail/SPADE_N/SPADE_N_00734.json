@@ -1,0 +1,95 @@
+{
+    "SPADE_N_00734": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00734",
+            "Peptide Name": "Varv peptide E (Varv E; Plant defensin)",
+            "Source": "Viola arvensis (European field pansy) (Field violet)",
+            "Family": "Belongs to the cyclotide family",
+            "Gene": "Not found",
+            "Sequence": "GLPICGETCVGGTCNTPGCSCSWPVCTRN",
+            "Sequence Length": 29,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P83835"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Anticancer",
+                "Antiviral"
+            ],
+            "Target Organism": "[Ref.14987049]Human cancer cell lines:U-937 GTB (lymphoma) (IC50=4 µM), RPMI-8226/s (myeloma) (IC50=4 µM).[Ref.18008336]Virus:HIV:inhibition the cytopathic effects of HIV-1 infection in cultured human T-lymphoblast (CEM-SS) cells(EC50=350 nM).",
+            "Hemolytic Activity": "[Ref.20580652] HD50=6.96µM against human type O red blood cells.",
+            "Cytotoxicity": "[Ref.20580652] Cytotoxicity:U251(IC50=38.84μg/mL), MDA-MB-231(IC50>10μg/mL), A549(IC50>10μg/mL), DU145(IC50>10μg/mL), BEL-7402(IC50>10μg/mL).[Ref.14987049] Cytotoxicity:U-937 GTB (lymphoma)(IC50 = 4 µM) and RPMI-8226/s (myeloma)(IC50 = 4 µM).[Ref.18008336]CEM-SS cells:IC50=3980 nM.",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Cyclization (N termini to C termini)",
+            "C-terminal Modification": "Cyclization (C termini to N termini)",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C117H187N35O40S6",
+            "Mass": 2916.34,
+            "PI": 5.96,
+            "Net Charge": 0,
+            "Hydrophobicity": 0.16,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Probably participates in a plant defense mechanism. Has cytotoxic activity against human lymphoma U-937 GTB and human myeloma RPMI-8226/s cell lines.",
+            "PTM": "Contains three disulfide bonds 5-19; 9-21; 14-26.",
+            "Literature": [
+                {
+                    "Title": "Cyclotides as natural anti-HIV agents.",
+                    "Pubmed ID": "18008336",
+                    "Reference": "Biopolymers. 2008;90(1)51-60.",
+                    "Author": "Ireland DC, Wang CK, Wilson JA, Gustafson KR, Craik DJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=18008336"
+                },
+                {
+                    "Title": "Seven novel macrocyclic polypeptides from Viola arvensis.",
+                    "Pubmed ID": "10075760",
+                    "Reference": "J Nat Prod. 1999 Feb;62(2)283-286.",
+                    "Author": "Göransson U, Luijendijk T, Johansson S, Bohlin L, Claeson P.Svang.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=10075760"
+                },
+                {
+                    "Title": "Cytotoxic cyclotides from Viola tricolor.",
+                    "Pubmed ID": "14987049",
+                    "Reference": "J Nat Prod. 2004 Feb;67(2)144-147.",
+                    "Author": "Svangård E, Göransson U, Hocaoglu Z, Gullbo J, Larsson R, Claeson P, Bohlin L.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=14987049"
+                },
+                {
+                    "Title": "Isolation and characterization of cytotoxic cyclotides from Viola tricolor.",
+                    "Pubmed ID": "20580652",
+                    "Reference": "Peptides. 2010 Aug;31(8)1434-40.",
+                    "Author": "Tang J, Wang CK, Pan X, Yan H, Zeng G, Xu W, He W, Daly NL, Craik DJ, Tan N.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=20580652"
+                }
+            ],
+            "Frequent Amino Acids": "CGT",
+            "Absent Amino Acids": "ADFHKMOQUY",
+            "Basic Residues": 1,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 17,
+            "Positive Residues": 1,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07726",
+                    "Similarity": 1.0,
+                    "Sequence": "TCVGGTCNTPGCSCSWPVCTRNGLPICGE"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07743",
+                    "Similarity": 1.0,
+                    "Sequence": "ICGETCVGGTCNTPGCSCSWPVCTRNGLP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07724",
+                    "Similarity": 1.0,
+                    "Sequence": "TCVGGTCNTPGCSCSWPVCTRNGVPICGE"
+                }
+            ]
+        }
+    }
+}

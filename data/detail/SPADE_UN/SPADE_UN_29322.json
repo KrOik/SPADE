@@ -1,0 +1,61 @@
+{
+    "SPADE_UN_29322": {
+        "Sequence Information": {
+            "Peptide Name": "Macropin 1/7",
+            "Sequence": "LVKKLLKLAMGFG",
+            "Sequence Length": 13,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Structure-activity study of macropin, a novel antimicrobial peptide from the venom of solitary bee Macropis fulvipes (Hymenoptera: Melittidae).",
+                    "Pubmed ID": "24616110",
+                    "Reference": "J Pept Sci. 2014;20:375-384",
+                    "Author": "Monincová L, Veverka V, Slaninová J, Budesínský M, Fucík V, Bednárová L, Straka J, Cerovský V",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/24616110"
+                }
+            ],
+            "Mass": 1417.84,
+            "PI": 10.3,
+            "Net Charge": 3,
+            "Hydrophobicity": 1.03,
+            "Frequent Amino Acids": "LKG",
+            "Absent Amino Acids": "CDEHINOPQRSTUWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 5,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_29322",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01203",
+                    "Similarity": 1.0,
+                    "Sequence": "FLGLLPSIVSGAVSLVKKL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01204",
+                    "Similarity": 1.0,
+                    "Sequence": "FLSLLPSLVSGAVSLVKKL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09378",
+                    "Similarity": 1.0,
+                    "Sequence": "PVVGRVASKVFPAVIGLVKK"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=>200 µM",
+            "Target Organism": "Bacillus subtilis 168(MIC=3.7µM),Staphylococcus aureus(MIC=90.0µM),Escherichia coli B(MIC=14.7µM),Pseudomonas aeruginosa(MIC=>100µM),Candida albicans F7-39/IDE99(MIC=25.0µM)"
+        }
+    }
+}

@@ -1,0 +1,1349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPADE Statistics</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="shortcut icon" href="source/img/favicon.ico">
+
+    <!-- <link rel="stylesheet" href="css/translation-component.css">
+    <script src="js/translation-component.js"></script> -->
+    <link rel="stylesheet" href="css/language-selector-minimal.css">
+    <script src="js/language-selector-minimal.js"></script>
+    <script src="js/chart.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+        /* 自定义滚动条样式 */
+        ::-webkit-scrollbar {
+            width: 5px;
+        }
+        
+        ::-webkit-scrollbar-track {
+            background: rgba(255, 255, 255, 0.05);
+        }
+        
+        ::-webkit-scrollbar-thumb {
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 5px;
+        }
+        
+        /* 移动端横屏提示弹窗样式 */
+        .orientation-modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(43, 16, 85, 0.95);
+            backdrop-filter: blur(10px);
+            z-index: 10001;
+            display: none;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-family: inherit;
+        }
+        
+        .orientation-modal.show {
+            display: flex;
+            animation: fadeIn 0.5s ease;
+        }
+        
+        .orientation-content {
+            text-align: center;
+            padding: 40px 30px;
+            max-width: 350px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            position: relative;
+            overflow: hidden;
+            animation: modalSlideIn 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+        }
+        
+        .orientation-content::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(45deg, rgba(117, 151, 222, 0.1), rgba(80, 226, 194, 0.1));
+            pointer-events: none;
+        }
+        
+        .orientation-content::after {
+            content: '';
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            right: -2px;
+            bottom: -2px;
+            border-radius: 22px;
+            background: linear-gradient(45deg, 
+                rgba(117, 151, 222, 0.3), 
+                rgba(80, 226, 194, 0.3), 
+                rgba(117, 151, 222, 0.3)
+            );
+            z-index: -1;
+            animation: borderPulse 3s ease-in-out infinite;
+        }
+        
+        .phone-animation {
+            width: 80px;
+            height: 140px;
+            margin: 0 auto 30px;
+            position: relative;
+            animation: floatPhone 3s ease-in-out infinite;
+        }
+        
+        .phone-frame {
+            width: 100%;
+            height: 100%;
+            border: 3px solid #fff;
+            border-radius: 15px;
+            position: relative;
+            background: linear-gradient(135deg, #7597de, #2b1055);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            transform-origin: center center;
+            animation: rotatePhone 3s ease-in-out infinite;
+        }
+        
+        .phone-screen {
+            position: absolute;
+            top: 8px;
+            left: 8px;
+            right: 8px;
+            bottom: 8px;
+            background: #000;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        
+        .phone-content {
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(45deg, #2b1055, #7597de);
+            position: relative;
+        }
+        
+        .phone-content::after {
+            content: 'SPADE';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff;
+            font-size: 8px;
+            font-weight: bold;
+        }
+        
+        .rotate-arrow {
+            position: absolute;
+            right: -20px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 30px;
+            height: 30px;
+            animation: pulseArrow 2s ease-in-out infinite;
+        }
+        
+        .rotate-arrow::before {
+            content: '↻';
+            font-size: 24px;
+            color: #50e2c2;
+            display: block;
+            animation: spinArrow 2s linear infinite;
+        }
+        
+        .orientation-title {
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+            background: linear-gradient(90deg, #7597de, #50e2c2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .orientation-message {
+            font-size: 1rem;
+            line-height: 1.6;
+            color: rgba(255, 255, 255, 0.9);
+            margin-bottom: 25px;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .orientation-tip {
+            font-size: 0.85rem;
+            color: rgba(255, 255, 255, 0.7);
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding-top: 20px;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .tip-icon {
+            display: inline-block;
+            margin-right: 8px;
+            animation: bounce 2s ease-in-out infinite;
+        }
+        
+        .orientation-close-btn {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 25px;
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 0.9rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+            z-index: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+        
+        .orientation-close-btn:hover {
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            transform: translateY(-2px);
+        }
+        
+        .orientation-close-btn i {
+            font-size: 0.8rem;
+        }
+        
+        /* 动画定义 */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: scale(0.9);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+        
+        @keyframes modalSlideIn {
+            0% {
+                opacity: 0;
+                transform: translateY(30px) scale(0.9);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0) scale(1);
+            }
+        }
+        
+        @keyframes borderPulse {
+            0%, 100% {
+                opacity: 0.3;
+                transform: scale(1);
+            }
+            50% {
+                opacity: 0.6;
+                transform: scale(1.02);
+            }
+        }
+        
+        @keyframes floatPhone {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+        
+        @keyframes rotatePhone {
+            0% {
+                transform: rotate(0deg);
+            }
+            25% {
+                transform: rotate(-5deg);
+            }
+            50% {
+                transform: rotate(90deg);
+            }
+            75% {
+                transform: rotate(85deg);
+            }
+            100% {
+                transform: rotate(90deg);
+            }
+        }
+        
+        @keyframes pulseArrow {
+            0%, 100% {
+                transform: translateY(-50%) scale(1);
+                opacity: 1;
+            }
+            50% {
+                transform: translateY(-50%) scale(1.2);
+                opacity: 0.8;
+            }
+        }
+        
+        @keyframes spinArrow {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+        
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-8px);
+            }
+            60% {
+                transform: translateY(-4px);
+            }
+        }
+        
+        /* 横屏状态下隐藏弹窗 */
+        @media screen and (orientation: landscape) and (max-width: 1024px) {
+            .orientation-modal {
+                display: none !important;
+            }
+        }
+        
+        /* 平板横屏优化 */
+        @media screen and (orientation: landscape) and (min-width: 768px) and (max-width: 1024px) {
+            .orientation-modal {
+                display: none !important;
+            }
+        }
+        
+        /* 小屏幕设备特殊处理 */
+        @media screen and (max-width: 480px) {
+            .orientation-content {
+                max-width: 300px;
+                padding: 30px 25px;
+            }
+            
+            .orientation-title {
+                font-size: 1.2rem;
+            }
+            
+            .orientation-message {
+                font-size: 0.9rem;
+            }
+            
+            .phone-animation {
+                width: 70px;
+                height: 120px;
+            }
+        }
+        
+        /* 确保弹窗在所有其他元素之上 */
+        .orientation-modal {
+            z-index: 10001 !important;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            background: linear-gradient(to bottom, #7d2ae8, #5e17eb);
+            color: #fff;
+            overflow-x: hidden;
+        }
+
+        body:not(.home-page) header {
+            background: linear-gradient(to bottom, rgba(43, 16, 85, 0.98) 0%, rgba(43, 16, 85, 0.9) 100%);
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 15px 100px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+            backdrop-filter: blur(8px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            transition: background 0.3s ease;
+        }
+
+        .logo-container {
+            position: relative;
+            display: inline-block;
+            align-items: center;
+        }
+
+        .team-link {
+            font-size: 0.6em;
+            color: rgba(255, 255, 255, 0.8);
+            display: block;
+            margin-top: 5px;
+            letter-spacing: 1px;
+            text-decoration: underline; 
+            transition: color 0.3s ease; 
+        }
+
+        .team-link:hover {
+            color: #fff; 
+        }
+
+        header .logo {
+            color: #fff;
+            font-weight: 800;
+            text-decoration: none;
+            font-size: 1.6em;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            display: flex;
+            align-items: center;
+        }
+        
+        header .logo img {
+            margin-right: 10px; 
+        }
+
+        header ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        header ul li {
+            list-style: none;
+            margin-left: 20px;
+        }
+        
+        header ul li a {
+            text-decoration: none;
+            padding: 6px 15px;
+            color: #fff;
+            border-radius: 20px;
+        }
+
+        header ul li a:hover,
+        header ul li a.active {
+            background: rgba(255, 255, 255, 0.9);
+            color: #2b1055;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transform: translateY(-2px);
+            transition: all 0.3s ease;
+        }
+
+        /* 主内容区域样式 */
+        .main-container {
+            position: relative;
+            top: 120px;
+            padding: 50px 40px;
+            max-width: 1200px;
+            margin: 0 auto;
+            margin-bottom: 120px;
+        }
+
+        .page-title {
+            text-align: center;
+            font-size: 2.8em;
+            margin-bottom: 60px;
+            color: #2b1055;
+            font-weight: 700;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+        }
+
+        /* 统计卡片样式 */
+        .stats-overview {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 30px;
+            margin-bottom: 50px;
+        }
+
+        .stat-card {
+            background: rgba(255, 255, 255, 0.85);
+            border-radius: 15px;
+            padding: 25px;
+            text-align: center;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .stat-icon {
+            font-size: 2.5em;
+            color: #2b1055;
+            margin-bottom: 15px;
+        }
+
+        .stat-number {
+            font-size: 2em;
+            font-weight: 700;
+            color: #2b1055;
+            margin-bottom: 5px;
+        }
+
+        .stat-label {
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        /* 图表容器样式 */
+        .charts-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+            gap: 40px;
+        }
+
+        .chart-wrapper {
+            background: rgba(255, 255, 255, 0.85);
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .chart-title {
+            font-size: 1.4em;
+            color: #2b1055;
+            margin-bottom: 20px;
+            text-align: center;
+            font-weight: 600;
+        }
+
+        .chart-container {
+            position: relative;
+            height: 300px;
+            margin-top: 20px;
+        }
+
+        /* 过滤器样式 */
+        .filters-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 40px;
+        }
+
+        .filter-group {
+            display: flex;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 50px;
+            padding: 8px 15px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .filter-label {
+            margin-right: 10px;
+            font-weight: 500;
+            color: #2b1055;
+        }
+
+        .filter-select {
+            background: rgba(255, 255, 255, 0.7);
+            border: 1px solid rgba(43, 16, 85, 0.2);
+            border-radius: 20px;
+            padding: 5px 10px;
+            color: #2b1055;
+            cursor: pointer;
+            transition: border-color 0.3s ease;
+        }
+
+        .filter-select:focus {
+            outline: none;
+            border-color: rgba(43, 16, 85, 0.5);
+        }
+
+        /* 响应式样式 */
+        @media (max-width: 1024px) {
+            body:not(.home-page) header {
+                padding: 15px 50px;
+            }
+            .main-container {
+                padding: 40px 30px;
+            }
+            .charts-container {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 768px) {
+            body:not(.home-page) header {
+                padding: 15px 20px;
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .logo-container {
+                margin-bottom: 10px;
+            }
+            header ul {
+                margin-top: 10px;
+                flex-wrap: wrap;
+                justify-content: flex-start;
+            }
+            header ul li {
+                margin-left: 0;
+                margin-right: 15px;
+                margin-bottom: 5px;
+            }
+            .main-container {
+                padding: 30px 15px;
+                top: 160px;
+            }
+            .stats-overview {
+                grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            }
+            .page-title {
+                font-size: 2.2em;
+                margin-bottom: 40px;
+            }
+            .language-selector {
+                top: 160px;
+                right: 15px;
+            }
+            .filters-container {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+
+<body class="other-page">
+    <!-- 移动端横屏提示弹窗 -->
+    <div class="orientation-modal" id="orientationModal">
+        <div class="orientation-content">
+            <div class="phone-animation">
+                <div class="phone-frame">
+                    <div class="phone-screen">
+                        <div class="phone-content"></div>
+                    </div>
+                </div>
+                <div class="rotate-arrow"></div>
+            </div>
+            
+            <h3 class="orientation-title" data-translate="Better Experience">Better Experience</h3>
+            <p class="orientation-message" data-translate="For the best browsing experience, we recommend using SPADE database in landscape mode.">
+                For the best browsing experience, we recommend using SPADE database in <strong>landscape</strong> mode.
+            </p>
+            <div class="orientation-tip">
+                <span class="tip-icon">💡</span>
+                <span data-translate="In landscape mode, you can better view data tables, charts and research content">In landscape mode, you can better view data tables, charts and research content</span>
+            </div>
+            
+            <!-- 横屏时显示的关闭按钮 -->
+            <button class="orientation-close-btn" id="orientationCloseBtn" style="display: none;">
+                <i class="fas fa-times"></i>
+                <span data-translate="Continue anyway">Continue anyway</span>
+            </button>
+        </div>
+    </div>
+    
+    <header>
+      <div class="logo-container">
+        <a href="#" class="logo">
+          <img src="./source/img/logo.png"  style="vertical-align: middle; height: 30px;">
+          SPADE
+        </a>
+        <div style="color: white; font-size: 0.6em;">System for Antimicrobial Peptide<br>Management and Database</div>
+        <!-- <a href="https://2025.igem.wiki/xjtlu - software" class="team-link" target="_blank" rel="noopener noreferrer">Belongs to 2025-XJTLU-Software</a> -->
+      </div>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+      <ul class="nav-menu">
+        <li><a href="home.html" data-translate="home_nav">Home</a></li>
+        <li><a href="search.html" data-translate="search_nav">Search</a></li>
+        <li><a href="tools.html" data-translate="tools_nav">Tools</a></li>
+        <li><a href="statistics.html" class="active" data-translate="statistics_nav">Statistics</a></li>
+        <!-- <li><a href="amp_visualization.html">AMP Visualization</a></li> -->
+        <!-- <li><a href="chat.html">Chat</a></li> -->
+        <!-- <li><a href="login.html">Login</a></li> -->
+    </ul>
+    </header>
+
+    <!-- 语言选择器 -->
+    <!-- <div class="language-selector">
+        <div class="language-current" id="currentLang">
+            <i class="fas fa-globe"></i>
+            <span id="currentLangText">English</span>
+        </div>
+        <div class="language-options">
+        </div>
+    </div> -->
+
+    <div class="main-container">
+        <h1 class="page-title" data-translate="statistics_title">Antimicrobial Peptide Database Statistics</h1>
+        
+        <!-- 过滤器区域 -->
+        <div class="filters-container">
+            <div class="filter-group">
+                <span class="filter-label" data-translate="time_period">Time Period:</span>
+                <select class="filter-select" id="time-filter">
+                    <option value="all" data-translate="all_time">All Time</option>
+                    <option value="year" data-translate="last_year">Last Year</option>
+                    <option value="month" data-translate="last_month">Last Month</option>
+                    <option value="week" data-translate="last_week">Last Week</option>
+                </select>
+            </div>
+            
+            <div class="filter-group">
+                <span class="filter-label" data-translate="category">Category:</span>
+                <select class="filter-select" id="category-filter">
+                    <option value="all" data-translate="all_categories">All Categories</option>
+                    <option value="antibiotic" data-translate="antibiotic">Antibiotic</option>
+                    <option value="peptide" data-translate="peptide">Peptide</option>
+                </select>
+            </div>
+            
+            <div class="filter-group">
+                <span class="filter-label" data-translate="target_organism">Target Organism:</span>
+                <select class="filter-select" id="organism-filter">
+                    <option value="all" data-translate="all_organisms">All Organisms</option>
+                    <option value="bacteria" data-translate="bacteria">Bacteria</option>
+                    <option value="fungi" data-translate="fungi">Fungi</option>
+                    <option value="virus" data-translate="virus">Virus</option>
+                </select>
+            </div>
+        </div>
+        
+        <!-- 统计概览卡片 -->
+        <div class="stats-overview">
+            <div class="stat-card">
+                <i class="fas fa-database stat-icon"></i>
+                <div class="stat-number" id="total-entries">46,877</div>
+                <div class="stat-label" data-translate="total_database_entries">Total Database Entries</div>
+            </div>
+            
+            <div class="stat-card">
+                <i class="fas fa-dna stat-icon"></i>
+                <div class="stat-number" id="unique-peptides">8,214</div>
+                <div class="stat-label" data-translate="unique_peptides">Unique Peptides</div>
+            </div>
+            
+            <div class="stat-card">
+                <i class="fas fa-bacteria stat-icon"></i>
+                <div class="stat-number" id="target-organisms">342</div>
+                <div class="stat-label" data-translate="target_organisms">Target Organisms</div>
+            </div>
+            
+            <div class="stat-card">
+                <i class="fas fa-search stat-icon"></i>
+                <div class="stat-number" id="monthly-searches">1M+</div>
+                <div class="stat-label" data-translate="monthly_searches">Monthly Searches</div>
+            </div>
+        </div>
+        
+        <!-- 图表区域 -->
+        <div class="charts-container">
+            <!-- 条形图：按目标生物分布 -->
+            <!-- <div class="chart-wrapper">
+                <h3 class="chart-title" data-translate="amp_distribution_by_organism">AMP Distribution by Target Organism</h3>
+                <div class="chart-container">
+                    <canvas id="organism-chart"></canvas>
+                </div>
+            </div> -->
+            
+            <!-- 折线图：按时间趋势 -->
+            <div class="chart-wrapper">
+                <h3 class="chart-title" data-translate="database_growth_over_time">Database Growth Over Time</h3>
+                <div class="chart-container">
+                    <canvas id="growth-chart"></canvas>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 综合AMP分析报告 -->
+        <section class="analysis-report">
+            <h2 class="page-subtitle" data-translate="comprehensive_amp_analysis">Comprehensive AMP Analysis</h2>
+            <div class="analysis-charts">
+                <div class="chart-wrapper">
+                    <h3 class="chart-title" data-translate="sequence_length_distribution">Sequence Length Distribution</h3>
+                    <div class="chart-container"><canvas id="length-distribution-chart"></canvas></div>
+                </div>
+                <div class="chart-wrapper">
+                    <h3 class="chart-title" data-translate="amino_acid_composition">Amino Acid Composition</h3>
+                    <div class="chart-container"><canvas id="aa-composition-chart"></canvas></div>
+                </div>
+                <div class="chart-wrapper">
+                    <h3 class="chart-title" data-translate="bioactivity_distribution_top20">Bioactivity Distribution (Top 20)</h3>
+                    <div class="chart-container"><canvas id="bioactivity-chart"></canvas></div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        // 导航栏响应式控制
+        const navToggle = document.querySelector('.nav-toggle');
+        const navMenu = document.querySelector('.nav-menu');
+
+        if (navToggle) {
+            navToggle.addEventListener('click', () => {
+                navMenu.classList.toggle('active');
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            // 设置语言，以便图表可以获取正确的标签
+            // 新的翻译组件不会自动设置<html>的lang属性，但图表需要它
+            if (window.SPADE_TRANSLATION_UTILS) {
+                document.documentElement.lang = window.SPADE_TRANSLATION_UTILS.getLanguagePreference();
+            }
+
+            // 初始化图表
+            initCharts();
+            
+            // 加载综合AMP分析报告文本并渲染图表
+            fetch('data/result/comprehensive_amp_report.txt')
+                .then(resp => resp.text())
+                .then(raw => {
+                    const parsed = parseAmpReport(raw);
+                    if(parsed) {
+                        renderAnalysisCharts(parsed);
+                    }
+                })
+                .catch(err => console.error('无法加载综合报告:', err));
+            
+            // 初始化移动端横屏提示
+            initOrientationModal();
+        });
+
+        // 初始化图表
+        function initCharts() {
+            // 设置图表颜色主题
+            const chartColors = {
+               blue: 'rgba(016, 100, 180, 0.9)',
+                lightBlue: 'rgba(70, 172, 202, 0.9)',
+                pink: 'rgba(224, 187, 228, 0.9)',
+                green: 'rgba(145, 211, 192, 0.9)',
+                yellow: 'rgba(255, 202, 095, 0.9)',
+                white: 'rgba(255, 255, 255, 0.9)',
+                red:'rgba(174,032, 18, 0.9)',
+                rose_red:'rgba(192,63,103,0.9)',
+                violet:'rgba(126,3, 167, 0.9)',
+                rose_pink:'rgba(201,44,134,0.9)',
+                rose_purple:'rgba(142,001,082,0.9)',
+                skyBlue: 'rgba(9,102,255,0.9)',
+                cyan:'rgba(017,214,255,0.9)'
+              
+            };
+            
+            // 设置图表字体
+            Chart.defaults.font.family = "'Poppins', sans-serif";
+            Chart.defaults.font.size = 14;
+            Chart.defaults.color = '#2b1055';
+            
+            // 获取当前语言
+            const currentLang = document.documentElement.lang || 'en';
+            
+            // 定义各语言的图表标签
+            const chartLabels = {
+                category: {
+                    'en': ['Antibacterial', 'Antifungal', 'Antiviral', 'Antiparasitic', 'Multiple Activities'],
+                    'zh-Hans': ['抗细菌', '抗真菌', '抗病毒', '抗寄生虫', '多重活性'],
+                    'zh-Hant': ['抗細菌', '抗真菌', '抗病毒', '抗寄生蟲', '多重活性'],
+                    'ja': ['抗細菌', '抗真菌', '抗ウイルス', '抗寄生虫', '複数活性']
+                },
+                performance: {
+                    'en': ['Efficacy', 'Stability', 'Safety', 'Specificity', 'Synthesis Ease'],
+                    'zh-Hans': ['效力', '稳定性', '安全性', '特异性', '合成难度'],
+                    'zh-Hant': ['效力', '穩定性', '安全性', '特異性', '合成難度'],
+                    'ja': ['効力', '安定性', '安全性', '特異性', '合成容易さ']
+                },
+                datasets: {
+                    'en': {
+                        'antibacterial': 'Antibacterial',
+                        'antifungal': 'Antifungal',
+                        'total': 'Total Entries'
+                    },
+                    'zh-Hans': {
+                        'antibacterial': '抗细菌',
+                        'antifungal': '抗真菌',
+                        'total': '总条目数'
+                    },
+                    'zh-Hant': {
+                        'antibacterial': '抗細菌',
+                        'antifungal': '抗真菌',
+                        'total': '總條目數'
+                    },
+                    'ja': {
+                        'antibacterial': '抗細菌',
+                        'antifungal': '抗真菌',
+                        'total': '総エントリー'
+                    }
+                }
+            };
+            
+            // 获取当前语言的标签，如果不存在则使用英文
+            const getCategoryLabels = () => chartLabels.category[currentLang] || chartLabels.category['en'];
+            const getPerformanceLabels = () => chartLabels.performance[currentLang] || chartLabels.performance['en'];
+            const getDatasetLabel = (key) => (chartLabels.datasets[currentLang] && chartLabels.datasets[currentLang][key]) || 
+                                            chartLabels.datasets['en'][key];
+            
+            // 目标生物分布条形图
+            /* const organismCtx = document.getElementById('organism-chart').getContext('2d');
+            const organismChart = new Chart(organismCtx, {
+                type: 'bar',
+                data: {
+                    labels: ['E. coli', 'S. aureus', 'P. aeruginosa', 'C. albicans', 'HIV-1', 'Influenza A'],
+                    datasets: [{
+                        label: getDatasetLabel('antibacterial'),
+                        data: [1200, 980, 750, 580, 320, 210],
+                        backgroundColor: chartColors.rose_red,
+                        borderColor: 'white',
+                        borderWidth: 1,
+                        borderRadius: 5
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            grid: {
+                                color: 'rgba(126,3,167, 0.1)'
+                            }
+                        },
+                        x: {
+                            grid: {
+                                display: false
+                            }
+                        }
+                    },
+                    plugins: {
+                        legend: {
+                            display: false
+                        }
+                    }
+                }
+            }); */
+            
+            // 数据库增长折线图
+            const growthCtx = document.getElementById('growth-chart').getContext('2d');
+            const growthChart = new Chart(growthCtx, {
+                type: 'line',
+                data: {
+                    labels: ['2024.12', '2025.01', '2025.02', '2025.03', '2025.04', '2025.05', '2025.06'],
+                    datasets: [{
+                        label: getDatasetLabel('total'),
+                        data: [4327, 27388, 37823, 38772, 42902, 45298, 46877],
+                        backgroundColor: 'rgba(126,3,167, 0.2)',
+                        borderColor: chartColors.violet,
+                        tension: 0.3,
+                        fill: true
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            grid: {
+                                color: 'rgba(43, 16, 85, 0.1)'
+                            }
+                        },
+                        x: {
+                            grid: {
+                                display: false
+                            }
+                        }
+                    }
+                }
+            });
+            
+            // 添加过滤器事件监听器
+            const timeFilter = document.getElementById('time-filter');
+            const categoryFilter = document.getElementById('category-filter');
+            const organismFilter = document.getElementById('organism-filter');
+            
+            // 简单示例：更新过滤器时显示加载状态并延迟更新图表
+            [timeFilter, categoryFilter, organismFilter].forEach(filter => {
+                filter.addEventListener('change', function() {
+                    updateChartsBasedOnFilters();
+                });
+            });
+        }
+        
+        // 根据过滤器更新图表
+        function updateChartsBasedOnFilters() {
+            // 在实际应用中，这里应该发送API请求获取新的数据
+            // 这里仅做演示，添加一个简单的加载动画
+            
+            const chartContainers = document.querySelectorAll('.chart-container');
+            
+            // 添加加载状态
+            chartContainers.forEach(container => {
+                container.style.opacity = '0.5';
+            });
+            
+            // 模拟数据加载
+            setTimeout(() => {
+                // 恢复正常显示
+                chartContainers.forEach(container => {
+                    container.style.opacity = '1';
+                });
+                
+                // 这里应该用实际获取的数据更新图表
+                // 现在只是示例，不做实际更新
+            }, 1000);
+        }
+        
+        // 移动端横屏提示功能
+        function initOrientationModal() {
+            const orientationModal = document.getElementById('orientationModal');
+            
+            if (!orientationModal) {
+                console.warn('横屏提示模态框未找到');
+                return;
+            }
+            
+            // 检测是否为移动设备
+            function isMobileDevice() {
+                const userAgent = navigator.userAgent.toLowerCase();
+                const mobileKeywords = [
+                    'mobile', 'android', 'iphone', 'ipad', 'ipod', 
+                    'blackberry', 'windows phone', 'webos'
+                ];
+                
+                const isMobileUserAgent = mobileKeywords.some(keyword => 
+                    userAgent.includes(keyword)
+                );
+                
+                // 如果UserAgent明确表示是移动设备，直接返回true
+                if (isMobileUserAgent) {
+                    return true;
+                }
+                
+                // 排除明确的桌面环境
+                const desktopKeywords = ['windows nt', 'macintosh', 'linux x86'];
+                const isDesktopUserAgent = desktopKeywords.some(keyword => 
+                    userAgent.includes(keyword)
+                );
+                
+                // 如果是桌面操作系统，即使有触摸支持也不认为是移动设备
+                if (isDesktopUserAgent) {
+                    return false;
+                }
+                
+                // 检测指针精度（移动设备通常是粗糙指针）
+                const hasCoarsePointer = window.matchMedia && 
+                    window.matchMedia('(pointer: coarse)').matches;
+                
+                // 检测触摸支持
+                const hasTouch = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+                
+                // 检测屏幕尺寸和像素比
+                const isSmallScreen = window.innerWidth <= 768; // 更严格的尺寸限制
+                const hasHighDPR = window.devicePixelRatio > 1.5; // 移动设备通常有较高的像素比
+                
+                // 综合判断：需要同时满足多个条件
+                return hasCoarsePointer && hasTouch && isSmallScreen && hasHighDPR;
+            }
+            
+            // 检测屏幕方向
+            function getOrientation() {
+                if (screen.orientation) {
+                    return screen.orientation.angle === 0 || screen.orientation.angle === 180 
+                        ? 'portrait' : 'landscape';
+                }
+                
+                const aspectRatio = window.innerWidth / window.innerHeight;
+                return aspectRatio > 1.2 ? 'landscape' : 'portrait';
+            }
+            
+            // 显示/隐藏弹窗
+            function toggleOrientationModal(show) {
+                if (show) {
+                    orientationModal.classList.add('show');
+                    document.body.style.overflow = 'hidden';
+                    
+                    setTimeout(() => {
+                        const content = orientationModal.querySelector('.orientation-content');
+                        if (content) {
+                            content.style.animation = 'modalSlideIn 0.6s cubic-bezier(0.34, 1.56, 0.64, 1)';
+                        }
+                    }, 100);
+                } else {
+                    orientationModal.classList.remove('show');
+                    document.body.style.overflow = '';
+                }
+            }
+            
+            // 检查是否需要显示横屏提示
+            function checkOrientationNeed() {
+                const isMobile = isMobileDevice();
+                const isPortrait = getOrientation() === 'portrait';
+                const isLandscape = getOrientation() === 'landscape';
+                const isDismissed = sessionStorage.getItem('orientationTipDismissed') === 'true';
+                
+                const closeBtn = document.getElementById('orientationCloseBtn');
+                if (closeBtn) {
+                    closeBtn.style.display = isLandscape ? 'flex' : 'none';
+                }
+                
+                if (isMobile && isPortrait && !isDismissed) {
+                    setTimeout(() => {
+                        toggleOrientationModal(true);
+                    }, 500);
+                } else {
+                    toggleOrientationModal(false);
+                }
+            }
+            
+            // 防抖函数
+            function debounce(func, wait) {
+                let timeout;
+                return function executedFunction(...args) {
+                    const later = () => {
+                        clearTimeout(timeout);
+                        func(...args);
+                    };
+                    clearTimeout(timeout);
+                    timeout = setTimeout(later, wait);
+                };
+            }
+            
+            const debouncedCheck = debounce(checkOrientationNeed, 300);
+            
+            // 监听屏幕方向变化
+            function setupOrientationListeners() {
+                if (screen.orientation) {
+                    screen.orientation.addEventListener('change', debouncedCheck);
+                }
+                
+                window.addEventListener('orientationchange', debouncedCheck);
+                window.addEventListener('resize', debouncedCheck);
+                
+                document.addEventListener('visibilitychange', () => {
+                    if (!document.hidden) {
+                        setTimeout(debouncedCheck, 100);
+                    }
+                });
+            }
+            
+            // 键盘事件监听
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape' && orientationModal.classList.contains('show')) {
+                    if (getOrientation() === 'landscape') {
+                        toggleOrientationModal(false);
+                    }
+                }
+            });
+            
+            // 弹窗内容点击事件
+            const orientationContent = orientationModal.querySelector('.orientation-content');
+            if (orientationContent) {
+                orientationContent.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                });
+            }
+            
+            // 点击弹窗背景关闭
+            orientationModal.addEventListener('click', (e) => {
+                if (e.target === orientationModal && getOrientation() === 'landscape') {
+                    toggleOrientationModal(false);
+                }
+            });
+            
+            // 关闭按钮事件
+            const orientationCloseBtn = document.getElementById('orientationCloseBtn');
+            if (orientationCloseBtn) {
+                orientationCloseBtn.addEventListener('click', () => {
+                    toggleOrientationModal(false);
+                    sessionStorage.setItem('orientationTipDismissed', 'true');
+                });
+            }
+            
+            // 初始化检查
+            checkOrientationNeed();
+            setupOrientationListeners();
+            
+            // 保险检查
+            setInterval(() => {
+                if (orientationModal.classList.contains('show')) {
+                    const currentOrientation = getOrientation();
+                    if (currentOrientation === 'landscape') {
+                        toggleOrientationModal(false);
+                    }
+                }
+            }, 5000);
+            
+            window.addEventListener('load', () => {
+                setTimeout(checkOrientationNeed, 1000);
+            });
+        }
+        
+        // 解析综合报告文本
+        function parseAmpReport(text) {
+            const data = {
+                lengthDist: [],
+                aaComp: [],
+                symbols: [],
+                bioactivity: []
+            };
+            // 序列长度分布
+            const lenSection = text.split('2. 序列长度分布')[1]?.split('3. ')[0] || '';
+            lenSection.split('\n').forEach(l => {
+                const m = l.match(/([≤>0-9\- ]+)\s*氨基酸:\s*(\d+)/);
+                if (m) {
+                    let label = m[1].trim();
+                    label = label.replace(' ', '');
+                    data.lengthDist.push({ label: `${label} `, value: parseInt(m[2]) });
+                }
+            });
+            // 氨基酸组成
+            const aaSection = text.split('各氨基酸占比:')[1]?.split('特殊氨基酸详细统计')[0] || '';
+            aaSection.split('\n').forEach(l => {
+                const m = l.match(/^([A-Z]):\s+(\d+)/);
+                if (m) data.aaComp.push({ label: m[1], value: parseInt(m[2]) });
+            });
+            // 特殊符号
+            const symSection = text.split('4. 特殊符号统计')[1]?.split('5. ')[0] || '';
+            symSection.split('\n').forEach(l => {
+                const m = l.match(/^([A-Z]):\s*(\d+)/);
+                if (m) data.symbols.push({ label: m[1], value: parseInt(m[2]) });
+            });
+            // 生物活性分布
+            const bioSection = text.split('5. 生物活性分布')[1] || '';
+            bioSection.split('\n').forEach(l => {
+                const m = l.match(/^([^:]+?):\s+(\d+)/);
+                if (m) data.bioactivity.push({ label: m[1].trim(), value: parseInt(m[2]) });
+            });
+            return data;
+        }
+
+        // 渲染图表
+        function renderAnalysisCharts(data) {
+            const colors = {
+                blue: 'rgba(16,100,180,0.7)',
+                lightBlue: 'rgba(70,172,202,0.7)',
+                green: 'rgba(145,211,192,0.7)',
+                yellow: 'rgba(255,202,95,0.7)',
+                red: 'rgba(174,32,18,0.7)',
+                violet: 'rgba(126,3,167,0.7)',
+                cyan: 'rgba(17,214,255,0.7)'
+            };
+
+            // 序列长度分布
+            const lenCtx = document.getElementById('length-distribution-chart').getContext('2d');
+            new Chart(lenCtx, {
+                type: 'bar',
+                data: {
+                    labels: data.lengthDist.map(d => d.label),
+                    datasets: [{
+                        label: 'Sequences',
+                        data: data.lengthDist.map(d => d.value),
+                        backgroundColor: colors.blue,
+                        borderRadius: 4
+                    }]
+                },
+                options: { responsive: true, maintainAspectRatio: false }
+            });
+
+            // 氨基酸组成
+            const aaCtx = document.getElementById('aa-composition-chart').getContext('2d');
+            new Chart(aaCtx, {
+                type: 'bar',
+                data: {
+                    labels: data.aaComp.map(d => d.label),
+                    datasets: [{
+                        label: 'Count',
+                        data: data.aaComp.map(d => d.value),
+                        backgroundColor: colors.green,
+                        borderRadius: 4
+                    }]
+                },
+                options: { responsive: true, maintainAspectRatio: false, scales: { x: { grid: { display: false } } } }
+            });
+
+            // 生物活性分布（取前20）
+            const bioTop = data.bioactivity.slice(0, 20);
+            const bioCtx = document.getElementById('bioactivity-chart').getContext('2d');
+            new Chart(bioCtx, {
+                type: 'bar',
+                data: {
+                    labels: bioTop.map(d => d.label),
+                    datasets: [{
+                        label: 'Count',
+                        data: bioTop.map(d => d.value),
+                        backgroundColor: colors.violet,
+                        borderRadius: 4
+                    }]
+                },
+                options: {
+                    indexAxis: 'y',
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: { y: { grid: { display: false } } }
+                }
+            });
+        }
+    </script>
+
+    <!-- Footer -->
+    <footer style="background-color: #250b53; color: white; padding: 40px 20px;">
+        <div style="display: flex; justify-content: space-between; flex-wrap: wrap; max-width: 1200px; margin: auto;">
+          
+          <!-- About Section -->
+          <div style="flex: 1; min-width: 200px; margin-bottom: 20px;">
+            <h4 id="about-spade-footer" style="color: #9db4f0;" data-translate="about">About</h4>
+            <ul style="list-style: none; padding: 0;">
+              <li><a href="spade.html#about-spade-footer" style="color: white; text-decoration: none;" data-translate="about_spade">About SPADE</a></li>
+              <li><a id="advertising-policy-footer" href="spade.html#advertising-policy-footer" style="color: white; text-decoration: none;" data-translate="advertising_policy">Advertising policy</a></li>
+              <li><a id="attribution-citations-footer" href="spade.html#attribution-citations-footer" style="color: white; text-decoration: none;" data-translate="attribution_citations">Attribution & citations</a></li>
+            </ul>
+          </div>
+      
+          <!-- Terms & Privacy Section -->
+          <div style="flex: 1; min-width: 200px; margin-bottom: 20px;">
+            <h4 id="terms-of-use-footer" style="color: #9db4f0;" data-translate="terms_privacy">Terms & privacy</h4>
+            <ul style="list-style: none; padding: 0;">
+              <li><a href="spade.html#terms-of-use-footer" style="color: white; text-decoration: none;" data-translate="terms_of_use">Terms of use</a></li>
+              <li><a id="editorial-policy-footer" href="spade.html#editorial-policy-footer" style="color: white; text-decoration: none;" data-translate="editorial_policy">Editorial policy</a></li>
+              <li><a id="privacy-policy-footer" href="spade.html#privacy-policy-footer" style="color: white; text-decoration: none;" data-translate="privacy_policy">Privacy policy</a></li>
+            </ul>
+          </div>
+      
+          <!-- Support Section -->
+          <div style="flex: 1; min-width: 200px; margin-bottom: 20px;">
+            <h4 id="help-center-footer" style="color: #9db4f0;" data-translate="support">Support</h4>
+            <ul style="list-style: none; padding: 0;">
+              <li><a href="spade.html#help-center-footer" style="color: white; text-decoration: none;" data-translate="help_center">Help center</a></li>
+              <li><a id="sitemap-footer" href="spade.html#sitemap-footer" style="color: white; text-decoration: none;" data-translate="sitemap">Sitemap</a></li>
+              <li><a id="contact-us-footer" href="spade.html#contact-us-footer" style="color: white; text-decoration: none;" data-translate="contact_us">Contact us</a></li>
+            </ul>
+          </div>
+        </div>
+      
+        <div style="text-align: right; padding-top: 20px; color: #aaa; max-width: 1200px; margin: auto;">
+          &copy; SPADE.
+        </div>
+      </footer>
+</body>
+</html>

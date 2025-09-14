@@ -1,0 +1,76 @@
+{
+    "SPADE_UN_21376": {
+        "Sequence Information": {
+            "Peptide Name": "Tachyplesin [C3,7,12,16Del][R11,12,13Del]",
+            "Sequence": "KWFRVYRGIY",
+            "Sequence Length": 10,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P69135",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P69135",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                },
+                {
+                    "uniprotId": "P69136",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P69136",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                },
+                {
+                    "uniprotId": "P14213",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P14213",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Modified Cysteine-Deleted Tachyplesin (CDT) Analogs as Linear Antimicrobial Peptides: Influence of Chain Length, Positive Charge, and Hydrophobicity on Antimicrobial and Hemolytic Activity",
+                    "Pubmed ID": "",
+                    "Reference": "Int J Pept Res Ther. 2014;20:519–530",
+                    "Author": "Wood SJ, Park YA, Kanneganti NP, Mukkisa HR, Crisman LL, Davis SE, Vandenbosch JL, Scaglione JB, Heyl DL",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/"
+                }
+            ],
+            "Mass": 1387.63,
+            "PI": 10.28,
+            "Net Charge": 3,
+            "Hydrophobicity": -0.53,
+            "Frequent Amino Acids": "RYF",
+            "Absent Amino Acids": "ACDEHLMNOPQSTU",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 3,
+            "Polar Residues": 7,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_21376",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_13253",
+                    "Similarity": 1.0,
+                    "Sequence": "KWKKWWKWF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14111",
+                    "Similarity": 1.0,
+                    "Sequence": "GLFKKLWRKIKKWF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14679",
+                    "Similarity": 1.0,
+                    "Sequence": "FLPLLAGLAAKWF"
+                }
+            ],
+            "Hemolytic Activity": "Sheep erythrocytes:<1% Hemolysis=90 µM,Sheep erythrocytes:2.07% Hemolysis=500 µg/ml",
+            "Target Organism": "Escherichia coli C25(MIC=>720µM),Staphylococcus aureus ATCC 25923(MIC=180µM)"
+        }
+    }
+}

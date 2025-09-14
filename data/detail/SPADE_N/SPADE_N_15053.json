@@ -1,0 +1,66 @@
+{
+    "SPADE_N_15053": {
+        "Sequence Information": {
+            "Peptide Name": "Phormicin A",
+            "Sequence": "MKYFTIVAVFLAVAVCYISQSSASPAPKEEANFVHGADALKQLEPELHGRYKRATCDLLSGTGVGHSACAAHCLLRGNRGGYCNGKGVCVCRN",
+            "Sequence Length": 93,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "1. Musca domestica",
+            "Gene": "1. 101887872",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "A0A1I8M7Q5",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/A0A1I8M7Q5",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Functional and expression characteristics identification of Phormicins, novel AMPs from Musca domestica with anti-MRSA biofilm activity, in response to different stimuli.",
+                    "Pubmed ID": "35381282",
+                    "Reference": "Int J Biol Macromol. 2022;S0141-8130:00674-2",
+                    "Author": "Wang B, Wei P-W, Yao Y, Song C-R, Wang X, Yang Y-X, Long Y-H, Yang S-W, Hu Y, Gai Z-C, Wu J-W, Liu H-M",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/35381282"
+                }
+            ],
+            "Mass": 9860.27,
+            "PI": 8.75,
+            "Net Charge": 8,
+            "Hydrophobicity": 0.05,
+            "Frequent Amino Acids": "AGL",
+            "Absent Amino Acids": "OUW",
+            "Basic Residues": 14,
+            "Acidic Residues": 6,
+            "Hydrophobic Residues": 41,
+            "Polar Residues": 52,
+            "Positive Residues": 14,
+            "Negative Residues": 6,
+            "SPADE ID": "SPADE_N_15053",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03377",
+                    "Similarity": 1.0,
+                    "Sequence": "ATCDLLSGTGVGHSACAAHCLLRGNRGGYCNGKGVCVCRN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07424",
+                    "Similarity": 1.0,
+                    "Sequence": "ACAAHCLLRGNRGGYCNGKG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02652",
+                    "Similarity": 0.95,
+                    "Sequence": "ATCDLLSGTGINHSACAAHCLLRGNRGGYCNGKGVCVCRN"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Staphylococcus aureus ATCC 25923(MIC=256µg/ml),Staphylococcus aureus ATCC 25923(MBC=512µg/ml),Staphylococcus aureus MR(MIC=>512µg/ml),Staphylococcus epidermidis(MIC=256µg/ml),Staphylococcus haemolyticus(MIC=>512µg/ml),Escherichia coli ATCC 25922(MIC=256µg/ml),Escherichia coli ATCC 25922(MBC=512µg/ml),Acinetobacter baumannii(MIC=>256µg/ml),Enterococcus faecium(MIC=>512µg/ml),Pseudomonas aeruginosa(MIC=>512µg/ml),Pseudomonas aeruginosa(MIC=>512µg/ml),Klebsiella pneumoniae(MIC=>512µg/ml),Citrobacter freundii(MIC=>512µg/ml),Enterobacter cloacae(MIC=>512µg/ml),Proteus mirabilis(MIC=>512µg/ml),Stenotrophomonas maltophilia(MIC=>512µg/ml),Candida albicans ATCC 10231(MIC=>512µg/ml)"
+        }
+    }
+}

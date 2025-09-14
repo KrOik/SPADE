@@ -1,0 +1,78 @@
+{
+    "SPADE_UN_00456": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_00456",
+            "Peptide Name": "LL-23V9 (LL-23 variants)",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "LLGDFFRKVKEKIGKEFKRIVQR",
+            "Sequence Length": 23,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-negative bacteria:Escherichia coli DC2 (MIC=2 µM), Escherichia coli K12 (MIC=40 µM);Gram-positive bacteria:Staphylococcus aureus (MIC=12 µM), S. aureus mprF (presence of carbonate) (MIC=0.35-0.7 µM), S. aureus mprF (absence of carbonate) (MIC=6 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C132H220N38O31",
+            "Mass": 2835.39,
+            "PI": 10.55,
+            "Net Charge": 5,
+            "Hydrophobicity": -0.63,
+            "Half Life": "Mammalian:5.5 hourYeast:3 minE.coli:2 min",
+            "Function": "Has antibacterial activiy against Gram-negative and Gram-positive bacteria.",
+            "Literature": [
+                {
+                    "Title": "Structure, dynamics, and antimicrobial and immune modulatory activities of human LL-23 and its single-residue variants mutated on the basis of homologous primate cathelicidins.",
+                    "Pubmed ID": "22185690",
+                    "Reference": "Biochemistry. 2012 Jan 17;51(2)653-664.",
+                    "Author": "Wang G, Elliott M, Cogen AL, Ezell EL, Gallo RL, Hancock RE.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=22185690"
+                },
+                {
+                    "Title": "Structure, dynamics, and antimicrobial and immune modulatory activities of human LL-23 and its single-residue variants mutated on the basis of homologous primate cathelicidins",
+                    "Pubmed ID": "",
+                    "Author": "Wang G, Elliott M, Cogen AL, Ezell EL, Gallo RL, Hancock RE"
+                }
+            ],
+            "Frequent Amino Acids": "KFR",
+            "Absent Amino Acids": "ACHMNOPSTUWY",
+            "Basic Residues": 8,
+            "Acidic Residues": 3,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 11,
+            "Positive Residues": 8,
+            "Negative Residues": 3,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_00454",
+                    "Similarity": 1.0,
+                    "Sequence": "LLGDFFRKVKEKIGKEFKRIVQRIKDFLRNLVPRTES"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04264",
+                    "Similarity": 1.0,
+                    "Sequence": "KEKIGKEFKRIVQRIKDF"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_25880",
+                    "Similarity": 1.0,
+                    "Sequence": "KEKIGKEFKR"
+                }
+            ]
+        }
+    }
+}

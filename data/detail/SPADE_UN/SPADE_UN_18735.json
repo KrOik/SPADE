@@ -1,0 +1,70 @@
+{
+    "SPADE_UN_18735": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_18735",
+            "Peptide Name": "RV2 (synthetic AMPs, UCSS1a, 1S=S)",
+            "Source": "amino acid substitution, de novo designed, man-made sequences",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "RVRVWRVRVCTKSIPPIC",
+            "Sequence Length": 18,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 2168.68,
+            "PI": 11.54,
+            "Hydrophobicity": 0.18,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Wang C, Shao C, Fang Y, Wang J, Dong N, Shan A. 2021",
+                    "Reference": "Acta Biomater. 2021 Apr 1;124:254-269. doi: 10.1016/j.actbio.2021.01.036.Pub-Med.",
+                    "Title": "Binding loop of sunflower trypsin inhibitor 1 serves as a design motif for proteolysis-resistant antimicrobial peptides."
+                }
+            ],
+            "Frequent Amino Acids": "RVC",
+            "Absent Amino Acids": "ADEFGHLMNOQUY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 13,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "Net Charge": 5,
+            "Comments": "Sequence analysis: APD analysis reveals this sequence is most similar (77.78%) toRI2L=R: 22%; I=C=P: 11%.  GRAVY: 0.183; M Wt:  2168.709; Mol formula:  C96H167N32O21S2; molar extinction coeff: 5675.Activity: active against Gram- E. coli ATCC 25922 or UB1005 or K88 or K99 strains (MIC 2-16 uM), S. pullorum 7913 (MIC 2 uM),  S. enterica serovar Typhimurium C7731 or 14208 (MIC 16 uM), P. aeruginosa 27853 (MIC 16 uM), S. choleraesuis CVCC503 (MIC 16 uM), S. aureus ATCC 29213 or 29523 (MIC 32-64 uM), S. epidermidis 12228 (MIC 32 uM), and E. faecalis 29212 (MIC 32 uM).Antimicrobial robustness:  NaCl-sensitive:E. coli (150 mM salt); KCl-insensitive:E. coli (4.5 mM salt); NH4Cl-insensitive:E. coli (6 uM salt); MgCl2-insensitive:E. coli (1 mM salt); CaCl2-sensitive:E. coli (2 mM salt); ZnCl2-insensitive:E. coli (8 uM salt); FeCl3-insensitive:E. coli (4 uM salt); NaCl-sensitive:S. aureus (150 mM salt); KCl-insensitive:S. aureus (4.5 mM salt); NH4Cl-insensitive:S. aureus (6 uM salt); MgCl2-sensitive:S. aureus (1 mM salt); CaCl2-sensitive:S. aureus (2 mM salt); ZnCl2-insensitive:S. aureus (8 uM salt); FeCl3-insensitive:S. aureus (4 uM salt).Toxicity: 10% hemolysis concentration > 128 uM (poor hemo.lytic).",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_11109",
+                    "Similarity": 1.0,
+                    "Sequence": "CVRVRVRVRPGRVRVRVRVC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11110",
+                    "Similarity": 1.0,
+                    "Sequence": "CVRVRVRVRVRPGRVRVRVRVRVC"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_05927",
+                    "Similarity": 1.0,
+                    "Sequence": "WRWRVRVWR"
+                }
+            ]
+        }
+    }
+}

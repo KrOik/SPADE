@@ -1,0 +1,72 @@
+{
+    "SPADE_UN_00523": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_00523",
+            "Peptide Name": "W11V,T14A (mutant of Def-DAA defensin)",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "ATCDLASKWNVNHALCAAHCIARRYRGGYCNSKAVCVCR",
+            "Sequence Length": 39,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+"
+            ],
+            "Target Organism": "Gram-positive bacteria:Staphylococcus aureus strain 21 (IC90=4 µg/mL), Staphylococcus aureus strain 4 (IC90=8-16 µg/mL).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C179H287N61O50S6",
+            "Mass": 4285.96,
+            "PI": 9.15,
+            "Net Charge": 7,
+            "Hydrophobicity": -0.01,
+            "Half Life": "Mammalian:4.4 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Mutant of Def-DAA defensin (W11V,T14A) is active against sensitive and resistant strains of S. aureus. All the mutants are less toxic than Def-DAA except one (W11V) but are more toxic than Def-AcAA.",
+            "Literature": [
+                {
+                    "Title": "Rational design of peptides active against the gram positive bacteria Staphylococcus aureus.",
+                    "Pubmed ID": "18214975",
+                    "Reference": "Proteins. 2008 Jul;72(1)229-239.",
+                    "Author": "Landon C, Barbault F, Legrain M, Guenneugues M, Vovelle F.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=18214975"
+                }
+            ],
+            "Frequent Amino Acids": "ACR",
+            "Absent Amino Acids": "EFMOPQU",
+            "Basic Residues": 8,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 16,
+            "Polar Residues": 32,
+            "Positive Residues": 8,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07472",
+                    "Similarity": 1.0,
+                    "Sequence": "VNHALCAAHCIARRYRGGYCNSKAVCVCR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_00524",
+                    "Similarity": 0.9743589743589743,
+                    "Sequence": "ATCDLASIWNVNHALCAAHCIARRYRGGYCNSKAVCVCR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_00525",
+                    "Similarity": 0.9743589743589743,
+                    "Sequence": "ATCDLASKWNVNHTLCAAHCIARRYRGGYCNSKAVCVCR"
+                }
+            ]
+        }
+    }
+}

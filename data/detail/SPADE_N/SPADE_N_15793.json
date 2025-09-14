@@ -1,0 +1,62 @@
+{
+    "SPADE_N_15793": {
+        "Sequence Information": {
+            "Peptide Name": "Oreochromicin 3",
+            "Sequence": "IWDAIFHGAKHFLHRLVNPGGKDAVKDVQQKQ",
+            "Sequence Length": 32,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "1. Oreochromis niloticus",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "A0A482G0X0",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/A0A482G0X0",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Cloning and functional characterization of three novel antimicrobial peptides from tilapia (Oreochromis niloticus).",
+                    "Pubmed ID": "",
+                    "Reference": "Aquaculture. 2013;372-375:9-18",
+                    "Author": "Acostaa J, Monterob V, Carpioa Y, Velázqueza J, Garayc HE, Reyesc O, Cabralesc A, Masforrolc Y, Moralesa A, Estrada MP",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/"
+                }
+            ],
+            "Mass": 3654.14,
+            "PI": 9.53,
+            "Net Charge": 5,
+            "Hydrophobicity": -0.55,
+            "Frequent Amino Acids": "KAD",
+            "Absent Amino Acids": "CEMOSTUY",
+            "Basic Residues": 8,
+            "Acidic Residues": 3,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 20,
+            "Positive Residues": 8,
+            "Negative Residues": 3,
+            "SPADE ID": "SPADE_N_15793",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_15153",
+                    "Similarity": 1.0,
+                    "Sequence": "GECIWDAIFHGAKHFLHRLVNP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15690",
+                    "Similarity": 1.0,
+                    "Sequence": "GECIWDAIFHGAKHFLHRLVNP"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:0% Hemolysis=55 µM,Tilapia erythrocytes:0% Hemolysis=55 µM",
+            "Target Organism": "Staphylococcus aureus(MIC=>160µM),Bacillus subtilis(MIC=106µM),Pseudomonas aeruginosa(MIC=>160µM),Escherichia coli(MIC=>160µM),Aeromonas hydrophila(MIC=>160µM),Edwardsiella tarda(MIC=160µM),Vibrio sp.(MIC=106µM),Candida albicans(MIC=40µM)"
+        }
+    }
+}

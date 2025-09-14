@@ -1,0 +1,77 @@
+{
+    "SPADE_UN_00179": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_00179",
+            "Peptide Name": "L-amino-acid oxidase (LAAO; LAO; snakes, reptils, animals)",
+            "Source": "Bothrops leucurus (White-tailed jararaca) (White-tailed lancehead)",
+            "Family": "Belongs to the flavin monoamine oxidase family (FIG1 subfamily)",
+            "Gene": "Not found",
+            "Sequence": "ADDRNPLEECFRETDYEEFLEIAKNGLSTT",
+            "Sequence Length": 30,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P0DI89"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Antiparasitic"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C150H229N39O56S",
+            "Mass": 3506.72,
+            "PI": 4.06,
+            "Net Charge": -6,
+            "Hydrophobicity": -1.0,
+            "Half Life": "Mammalian:4.4 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Catalyzes an oxidative deamination of predominantly hydrophobic and aromatic L-amino acids (high activity against L-Met, L-Leu, L-Nle, L-Trp, L-Phe and moderate activity against L-Tyr), thus producing hydrogen peroxide that may contribute to the diverse toxic effects of this enzyme. Exhibits diverse biological activities, such as hemorrhage, hemolysis, edema, antibacterial and antiparasitic activities (By similarity). In addition, this protein induces apoptosis. It also interacts with endothelial cells, and inhibits collagen- and ADP-induced platelet aggregation. L-LAAO family effects on platelets are controversial, since it either induces aggregation or inhibits agonist-induced aggregation. These different effects are probably due to different experimental conditions.",
+            "Tissue specificity": "Expressed by the venom gland.",
+            "Miscellaneous": "Has parasiticidal activities against both trypanosomes and leishmania, as a result of enzyme-catalyzed hydrogen peroxide production.",
+            "Biophysicochemical properties": "pH dependence (Optimum pH is 7.5-8.8 for L-Leu).",
+            "Literature": [
+                {
+                    "Title": "Cytotoxicity and inhibition of platelet aggregation caused by an l-amino acid oxidase from Bothrops leucurus venom.",
+                    "Pubmed ID": "21539897",
+                    "Reference": "Biochim Biophys Acta. 2011 Jul;1810(7)683-694.",
+                    "Author": "Naumann GB, Silva LF, Silva L, Faria G, Richardson M, Evangelista K, Kohlhoff M, Gontijo CM, Navdaev A, de Rezende FF, Eble JA, Sanchez EF.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=21539897"
+                }
+            ],
+            "Frequent Amino Acids": "EDL",
+            "Absent Amino Acids": "HMOQUVW",
+            "Basic Residues": 3,
+            "Acidic Residues": 9,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 13,
+            "Positive Residues": 3,
+            "Negative Residues": 9,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_11340",
+                    "Similarity": 0.9333333333333333,
+                    "Sequence": "ADPRNPLEECFRETD"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02162",
+                    "Similarity": 0.9,
+                    "Sequence": "ADDKNPLEECFREDDYEGFLEIAKNGLSTTSNPKRVVIVGAGMSGLAAY"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03223",
+                    "Similarity": 0.9,
+                    "Sequence": "ADDRNPLEECFRETDYEEFLEIARNGLKKT"
+                }
+            ]
+        }
+    }
+}

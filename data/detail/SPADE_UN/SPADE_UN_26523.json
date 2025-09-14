@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_26523": {
+        "Sequence Information": {
+            "Peptide Name": "Hemoglobin subunit beta (102-109)",
+            "Sequence": "FKLLGNVL",
+            "Sequence Length": 8,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P02070",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P02070",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Upcycling calf cruor slaughterhouse by-product by peptic hydrolysis and identification of three novel antifungal peptides following a regression based-machine learning approach",
+                    "Pubmed ID": "39614484",
+                    "Reference": "Food Res Int. 2024;196:115045",
+                    "Author": "Sanchez-Reinoso Z, Thibodeau J, de Toro-Martín J, García-Vela S, Clement JP, Vohl MC, Fliss I, Bazinet L",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/39614484"
+                }
+            ],
+            "Mass": 903.12,
+            "PI": 8.75,
+            "Net Charge": 1,
+            "Hydrophobicity": 1.32,
+            "Frequent Amino Acids": "LFG",
+            "Absent Amino Acids": "ACDEHIMOPQRSTUWY",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 3,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_26523",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06190",
+                    "Similarity": 1.0,
+                    "Sequence": "MNKMAMIDLAKLFLASKITAIEFSERICVERRRLYGVKDLSPNILNCGEELFMAAERFEPDADRANYEIDDNGLKVEVRSILEKFKL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09629",
+                    "Similarity": 1.0,
+                    "Sequence": "FLLFFKL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10023",
+                    "Similarity": 1.0,
+                    "Sequence": "AALSELHCDKLHVDPENFKLL"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Listeria ivanovii HPB 28(no activity data),Escherichia coli MP4100(no activity data),Mucor racemosus LMA 722(MIC=1250µM),Rhodotorula mucilaginosa 27173(MIC=1250µM)"
+        }
+    }
+}

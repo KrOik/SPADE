@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_11962": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_11962",
+            "Peptide Name": "IsCT-a (Derived from IsCT-P)",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "ILKKIWKAIKKLF",
+            "Sequence Length": 13,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic form",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.16871429] Gram-positive bacteria :Staphylococcus aureus (KCTC 1621)(MIC=1 μM), Bacillus subtilis (KCTC 3068)(MIC=2 μM), Staphylococcus epidermidis (KCTC 1917)(MIC=1 μM), MRSA (CCARM 3001)(MIC=2 μM), MRSA (CCARM 3543)(MIC=1 μM);Gram-negative bacteria :Escherichia coli (KCTC 1682)(MIC=2 μM), Pseudomonas aeruginosa (KCTC 1637)(MIC=2 μM), Salmonella typhimurium (KCTC 1926)(MIC=2 μM), MDRPA (CCARM 2095)(MIC=2 μM)",
+            "Hemolytic Activity": "[Ref.16871429] HC50>400 μM against human red blood cells",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C80H134N18O12",
+            "Mass": 1629.13,
+            "PI": 10.6,
+            "Net Charge": 5,
+            "Hydrophobicity": 0.41,
+            "Half Life": "Mammalian:20 hourYeast:30 minE.coli:>10 hour",
+            "Function": "Antibacterial activity against Gram-positive bacteria and Gram-negative bacteria",
+            "Literature": [
+                {
+                    "Title": "Mechanism of antibacterial action of a synthetic peptide with an Ala-peptoid residue based on the scorpion-derived antimicrobial peptide IsCT.",
+                    "Pubmed ID": "16871429",
+                    "Reference": "Biotechnol Lett. 2006 Sep;28(18)1431-7.",
+                    "Author": "Lim SS, Yoon SP, Park Y, Zhu WL, Park IS, Hahm KS, Shin SY",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16871429"
+                }
+            ],
+            "Frequent Amino Acids": "KIL",
+            "Absent Amino Acids": "CDEGHMNOPQRSTUVY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 6,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_05585",
+                    "Similarity": 1.0,
+                    "Sequence": "MGAVIKVGAKVIGWGAASGAGLYGLEKILKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10804",
+                    "Similarity": 1.0,
+                    "Sequence": "KFGKAFVKILKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14814",
+                    "Similarity": 1.0,
+                    "Sequence": "NLVGSLLGGILKK"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "SPADE_UN_30089": {
+        "Sequence Information": {
+            "Peptide Name": "CXCL14 (55-73)",
+            "Sequence": "LQSTKRFIKWYNAWNEKRR",
+            "Sequence Length": 19,
+            "Biological Activity": [
+                "Anti-Gram-"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "O95715",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/O95715",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "CXCL14 displays antimicrobial activity against respiratory tract bacteria and contributes to clearance of Streptococcus pneumoniae pulmonary infection.",
+                    "Pubmed ID": "25964486",
+                    "Reference": "J Immunol. 2015;194:5980-5989",
+                    "Author": "Dai C, Basilico P, Cremona TP, Collins P, Moser B, Benarafa C, Wolf M",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/25964486"
+                }
+            ],
+            "Mass": 2524.88,
+            "PI": 11.07,
+            "Net Charge": 5,
+            "Hydrophobicity": -1.63,
+            "Frequent Amino Acids": "KRN",
+            "Absent Amino Acids": "CDGHMOPUV",
+            "Basic Residues": 6,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 4,
+            "Polar Residues": 15,
+            "Positive Residues": 6,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_UN_30089",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03537",
+                    "Similarity": 1.0,
+                    "Sequence": "SKCKCSRKGPKIRYSDVKKLEMKPKYPHCEEKMVIITTKSVSRYRGQEHCLHPKLQSTKRFIKWYNAWNEKRRVYEE"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_30089",
+                    "Similarity": 1.0,
+                    "Sequence": "LQSTKRFIKWYNAWNEKRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_12637",
+                    "Similarity": 1.0,
+                    "Sequence": "KRFIKWYNAWNEKRRVY"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Escherichia coli K-12(no activity data)"
+        }
+    }
+}

@@ -1,0 +1,88 @@
+{
+    "SPADE_UN_00392": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 2008/0170991 A1",
+                "Patent Link": "http://www.lens.org/lens/patent/US_2008_0170991_A1",
+                "Patent Type": "Patent Application",
+                "Publication Date": "2008-7-17",
+                "Family Info": "CA2661634A1,CN101511382A,EP2061488A2,EP2061488A4,US7846895,US20110207657,WO2008030988A2,WO2008030988A3",
+                "Patent Title": "Selectively targeted antimicrobial peptides and the use thereof.",
+                "Abstract": "The present invention relates to targeting peptides capable of specifically binding to microbial organisms (e.g., P. aeruginosa or S. mutans), antimicrobial peptides having antimicrobial activities, and specifically/selectively targeted antimicrobial peptides (STAMPs). In addition, the present invention provides methods of selectively killing or inhibiting microbial organisms by using the peptides or compositions provided by the present invention."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_00392",
+            "Peptide Name": "Del 1 (Ranalexin analog)",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "LGGLIKIVPAMICAVTKKC",
+            "Sequence Length": 19,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-positive bacterium:Staphylococcus aureus (MIC=256 µg/ml);Gram-negative bacteria:Escherichia coli (MIC=256 µg/ml), Pseudomonas aeruginosa (MIC>256 µg/ml).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C88H160N22O21S3",
+            "Mass": 1958.54,
+            "PI": 9.39,
+            "Net Charge": 3,
+            "Hydrophobicity": 1.33,
+            "Half Life": "Mammalian:5.5 hourYeast:3 minE.coli:2 min",
+            "Function": "Has antibacterial activiy against Gram-negative and Gram-positive bacteria.",
+            "Literature": [
+                {
+                    "Title": "Ranalexin. A novel antimicrobial peptide from bullfrog (Rana catesbeiana) skin, structurally related to the bacterial antibiotic, polymyxin.",
+                    "Pubmed ID": "8144672",
+                    "Reference": "J Biol Chem. 1994 Apr 8;269(14)10849-10855.",
+                    "Author": "Clark DP, Durell S, Maloy WL, Zasloff M.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=8144672"
+                },
+                {
+                    "Title": "Solution structure of the antimicrobial peptide ranalexin and a study of its interaction with perdeuterated dodecylphosphocholine micelles.",
+                    "Pubmed ID": "",
+                    "Author": "Grassy G.,Chiche L.,Roch P.,Chavanieu A.,Vignal E."
+                }
+            ],
+            "Frequent Amino Acids": "IKA",
+            "Absent Amino Acids": "DEFHNOQRSUWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 10,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01247",
+                    "Similarity": 1.0,
+                    "Sequence": "FLGGLIKIVPAMICAVTKKC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07930",
+                    "Similarity": 1.0,
+                    "Sequence": "MFTLKKSLLLLFFLGTINLSLCEEERNAEEERRDNPDERDVEVEKRFLGGLIKIVPAMICAVTKKC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09433",
+                    "Similarity": 1.0,
+                    "Sequence": "ILGPVLGLVGSALGGLI"
+                }
+            ]
+        }
+    }
+}

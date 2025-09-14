@@ -1,0 +1,79 @@
+{
+    "SPADE_N_05596": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_05596",
+            "Peptide Name": "BHT-Aa(Bacteriocin)",
+            "Source": "Streptococcus rattus BHT",
+            "Family": "Belongs to the lantibiotics family (Class I bacteriocin)",
+            "Gene": "bht-a",
+            "Sequence": "GTTVVNSTFSIVLGNKGYICTVTVECMRNCQ",
+            "Sequence Length": 31,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+"
+            ],
+            "Target Organism": "Gram-positive",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "A variant of Smb, as evidenced by the fact that the two operons share 95% identity.",
+            "Formula": "C141H233N39O46S4",
+            "Mass": 3338.85,
+            "PI": 7.95,
+            "Net Charge": 1,
+            "Hydrophobicity": 0.4,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "The amino acid sequence of another chain (BhtA2) is STPACAIGVVGITVAVTGISTACTSRCINK, which is identical to SmbA.",
+            "Literature": [
+                {
+                    "Title": "Streptococcus rattus strain BHT produces both a class I two-component lantibiotic and a class II bacteriocin.",
+                    "Pubmed ID": "16194596",
+                    "Reference": "FEMS Microbiol Lett. 2005 Nov 15;252(2)235-41.",
+                    "Author": "Hyink O, Balakrishnan M, Tagg JR.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16194596"
+                },
+                {
+                    "Title": "Two-peptide lantibiotics a medical perspective.",
+                    "Pubmed ID": "18220976",
+                    "Reference": "Mini Rev Med Chem. 2007 Dec;7(12)1236-47.",
+                    "Author": "Lawton EM, Ross RP, Hill C, Cotter PD.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=18220976"
+                }
+            ],
+            "Frequent Amino Acids": "TVC",
+            "Absent Amino Acids": "ADHOPUW",
+            "Basic Residues": 2,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 22,
+            "Positive Residues": 2,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00014",
+                    "Similarity": 0.967741935483871,
+                    "Sequence": "GTTVVNSTFSIVLGNKGYICTVTVECMRNCSK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14665",
+                    "Similarity": 0.5185185185185185,
+                    "Sequence": "CTTNTFSLSDYWGNKGGWCTVSKECMAWC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00016",
+                    "Similarity": 0.5,
+                    "Sequence": "CAWYNISCRLGNKGAYCTLTVECMPSCN"
+                }
+            ]
+        }
+    }
+}

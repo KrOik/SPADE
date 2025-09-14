@@ -1,0 +1,75 @@
+{
+    "SPADE_N_00270": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00270",
+            "Peptide Name": "Endochitinase 2 (Plant defensin)",
+            "Source": "Taxus baccata (English yew)",
+            "Family": "Belongs to the glycosyl hydrolase 28 family (Chitinase class I subfamily)",
+            "Gene": "Not found",
+            "Sequence": "TAGFGVFTNIINGGLECGK",
+            "Sequence Length": 19,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P85338"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antifungal"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C84H132N22O26S",
+            "Mass": 1898.14,
+            "PI": 5.66,
+            "Net Charge": 0,
+            "Hydrophobicity": 0.48,
+            "Half Life": "Mammalian:7.2 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Defense against chitin containing fungal pathogens.",
+            "Catalytic activity": "Random hydrolysis of N-acetyl-beta-D-glucosaminide (1->4)-beta-linkages in chitin and chitodextrins.",
+            "PTM": "Contians one disulfide bond (By similarity).",
+            "Literature": [
+                {
+                    "Title": "Analysis of the soluble cell wall proteome of gymnosperms.",
+                    "Pubmed ID": "19157640",
+                    "Reference": "J Plant Physiol. 2009 May 15;166(8)831-843.",
+                    "Author": "Uzal EN, Gómez-Ros LV, Hernández JA, Pedreño MA, Cuello J, Ros Barceló A.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=19157640"
+                }
+            ],
+            "Frequent Amino Acids": "GFI",
+            "Absent Amino Acids": "DHMOPQRSUWY",
+            "Basic Residues": 1,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 8,
+            "Positive Residues": 1,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00267",
+                    "Similarity": 0.7647058823529411,
+                    "Sequence": "MTEQKPKPSCHNVMVGNYVPTASDRAANRTLGFGLVTNIINGGLDC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00271",
+                    "Similarity": 0.7647058823529411,
+                    "Sequence": "MTPQGNKPSSHDVITGRWTPSDADRAAGRVSGFGVITNIINGGLDC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00274",
+                    "Similarity": 0.7647058823529411,
+                    "Sequence": "MTAQGNKPSSHDVITGRWTPSAADRAAGRVSGFGVITNIINGGLDC"
+                }
+            ]
+        }
+    }
+}

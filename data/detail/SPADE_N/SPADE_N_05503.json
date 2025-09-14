@@ -1,0 +1,68 @@
+{
+    "SPADE_N_05503": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_05503",
+            "Peptide Name": "Labyrinthopeptin A2 (Bacteriocin)",
+            "Source": "Actinomadura namibiensis DSM 6313",
+            "Family": "Belongs to the lantibiotics family (Class I bacteriocin)",
+            "Gene": "labA2",
+            "Sequence": "SDWSLWECCSTGSLFACC",
+            "Sequence Length": 18,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/C0MP60"
+            ],
+            "Protein Existence": "",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antiviral"
+            ],
+            "Target Organism": "HSV",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "This peptide contains a special amino acid labionin at positions 1, 4, 8, 10, 13, and 17. Labs 1,4 and labs 10, 13 are connected via a carbon-carbon bond, while labs 4, 8 and labs 13, 17 form normal thioether bonds. In addition, a disulfide bond occurs between C9 and C18.",
+            "Formula": "C85H120N20O28S4",
+            "Mass": 1998.24,
+            "PI": 4.05,
+            "Net Charge": -2,
+            "Hydrophobicity": 0.51,
+            "Half Life": "Mammalian:1.9 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "In vitro biosynthesis of the prepeptide of type-III lantibiotic labyrinthopeptin A2 including formation of a C-C bond as a post-translational modification.",
+                    "Pubmed ID": "20191635",
+                    "Reference": "Angew Chem Int Ed Engl. 2010 Mar 22;49(13)2436-40.",
+                    "Author": "M",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=20191635"
+                }
+            ],
+            "Frequent Amino Acids": "CSL",
+            "Absent Amino Acids": "HIKMNOPQRUVY",
+            "Basic Residues": 0,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 10,
+            "Positive Residues": 0,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_05502",
+                    "Similarity": 0.7222222222222222,
+                    "Sequence": "SNASVWECCSTGSWVPFTCC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06111",
+                    "Similarity": 0.5,
+                    "Sequence": "MSNTQLLEVLGTETFDVQEDLFAFDTTDTTIVASNDDPDTRFKSWSLCTPGCARTGSFNSYCC"
+                }
+            ]
+        }
+    }
+}

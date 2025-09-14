@@ -1,0 +1,86 @@
+{
+    "SPADE_N_02099": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 2004/0249143 A1",
+                "Patent Link": "http://www.lens.org/lens/patent/US_2004_0249143_A1",
+                "Patent Type": "Patent Application",
+                "Publication Date": "2004-12-9",
+                "Family Info": "CA2455918A1,EP1499633A2,EP1499633A4,WO2003012044A2,WO2003012044A3,WO2003012044A9",
+                "Patent Title": "Hagfish cathelin-associated antimicrobial peptides and genes.",
+                "Abstract": "The present invention includes Myxine glutinosa cathelin-associated antimicrobial peptides and genes encoding these peptides. The invention also includes compositions an methods for producing these peptides as well as method of preventing and treating microbial infections using these peptides."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02099",
+            "Peptide Name": "Hematopoietic antimicrobial peptide-37 (MgCath37; hagfishes, chordates, animals)",
+            "Source": "Myxine glutinosa (Atlantic hagfish)",
+            "Family": "Not found",
+            "Gene": "CATH37",
+            "Sequence": "GWFKKAWRKVKHAGRRVLDTAKGVGRHYLNNWLNRYRG",
+            "Sequence Length": 38,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q71MD7"
+            ],
+            "Protein Existence": "Transcript level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "Gram-positive bacteria:Propionibacterium acnes ATCC 11827 and 33179 (MIC=2 µg/ml), Staphylococcus epidermidi (MIC=2-4 µg/ml), Streptococcus pyogenes (MIC=4 µg/ml), Enterococcus faecium (MIC=4-8 µg/ml), Staphylococcus aureus ATCC 29213 (MIC=8 µg/ml), Clostridium perfringens ATCC 9081 and 13124 (MIC=4-32 µg/ml), Enterococcus faecalis (MIC=32 µg/ml);Gram-negative bacteria:Bacteroides spp. ATCC 29771, 43935, 12290 (MIC=0.5-4 µg/ml), Shigella sonnei (MIC=2-4 µg/ml), Xanthomonas maltophilia (MIC=2-8 µg/ml), Salmonella Group B (MIC=4-8 µg/ml), Pseudomonas aeruginosa ATCC 27853 (MIC=8 µg/ml), Acinetobacter baumannii (MIC=8-16 µg/ml), Escherichia coli ATCC 25922 (MIC=8 µg/ml), Enterobacter aerogenes (MIC=8-16 µg/ml), Enterobacter cloacae (MIC=8-16 µg/ml), Klebsiella pneumoniae (MIC=8-16 µg/ml).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C210H325N71O47",
+            "Mass": 4596.27,
+            "PI": 11.74,
+            "Net Charge": 12,
+            "Hydrophobicity": -1.12,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Hagfish intestinal antimicrobial peptides are ancient cathelicidins.",
+                    "Pubmed ID": "15019197",
+                    "Reference": "Peptides. 2003 Nov;24(11)1655-1667.",
+                    "Author": "Uzzell T, Stolzenberg ED, Shinnar AE, Zasloff M.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=15019197"
+                }
+            ],
+            "Frequent Amino Acids": "RGK",
+            "Absent Amino Acids": "CEIMOPQSU",
+            "Basic Residues": 13,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 15,
+            "Polar Residues": 25,
+            "Positive Residues": 13,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02101",
+                    "Similarity": 0.9459459459459459,
+                    "Sequence": "GFFKKAWRKVKHAGRRVLDTAKGVGRHYVNNWLNRYR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_07858",
+                    "Similarity": 0.9459459459459459,
+                    "Sequence": "GFFKKAWRKVKHAGRRVLDTAKGVGRHYVNNWLNRYR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_07856",
+                    "Similarity": 0.9444444444444444,
+                    "Sequence": "GFFKKARKVKHAGRRVLDTAKGVGRHYVNNWLNRYR"
+                }
+            ]
+        }
+    }
+}

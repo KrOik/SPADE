@@ -1,0 +1,61 @@
+{
+    "SPADE_UN_26922": {
+        "Sequence Information": {
+            "Peptide Name": "LP1 [L5,9,12,19,23V;I8,16,26V]/LP31",
+            "Sequence": "KKKKVKKVVKKVFQFVNQVDNQVQDVKQNK",
+            "Sequence Length": 30,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anticancer",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Computational Design of Pore-Forming Peptides with Potent Antimicrobial and Anticancer Activities",
+                    "Pubmed ID": "39116273",
+                    "Reference": "J Med Chem. 2024;67:14040-14061",
+                    "Author": "Deb R, Torres MDT, Boudný M, Koběrská M, Cappiello F, Popper M, Dvořáková Bendová K, et al.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/39116273"
+                }
+            ],
+            "Mass": 3600.26,
+            "PI": 10.37,
+            "Net Charge": 8,
+            "Hydrophobicity": -1.16,
+            "Frequent Amino Acids": "KVQ",
+            "Absent Amino Acids": "ACEGHILMOPRSTUWY",
+            "Basic Residues": 10,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 20,
+            "Positive Residues": 10,
+            "Negative Residues": 2,
+            "SPADE ID": "SPADE_UN_26922",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_10082",
+                    "Similarity": 1.0,
+                    "Sequence": "GFGKGFGKKKKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10083",
+                    "Similarity": 1.0,
+                    "Sequence": "GFGKGFGKKKKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10084",
+                    "Similarity": 1.0,
+                    "Sequence": "KLGKGFGKKKKK"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=>50 µM,Human keratinocytes HaCat:IC50=6 µM",
+            "Target Organism": "Escherichia coli TOP 10(MIC=>50µM),Staphylococcus carnosus CCM 4838T(MIC=>50µM),Enterococcus faecium Z906(MIC=>32µM),Staphylococcus aureus ATCC 29213(MIC=>32µM),Klebsiella pneumoniae E1120(MIC=>32µM),Klebsiella pneumoniae E1267(MIC=>32µM),Klebsiella pneumoniae 4371(MIC=>32µM),Acinetobacter baumannii Z13(MIC=>32µM),Pseudomonas aeruginosa K12(MIC=>32µM),Escherichia coli E1098(MIC=>32µM),Human lung carcinoma A549(IC50=10µM),Murine macrophage cells RAW 264.7(IC50=>128µM)"
+        }
+    }
+}

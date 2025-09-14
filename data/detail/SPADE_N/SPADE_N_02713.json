@@ -1,0 +1,74 @@
+{
+    "SPADE_N_02713": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02713",
+            "Peptide Name": "Def-AcAA (hybrid defensins; Insects, animals)",
+            "Source": "Anopheles gambiae (African malaria mosquito)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "ATCDLASIFNVNHALCAAHCIARRYRGGYCNSKAVCVCRN",
+            "Sequence Length": 40,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q17027"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+"
+            ],
+            "Target Organism": "Gram-positive bacteria:Staphylococcus aureus strain 21 (IC90=1.56 µg/mL), Staphylococcus aureus strain 4 (IC90=3.125 µg/mL).T1=100 mg/kg, T2>100 mg/kg.T1, dose causing the first signs of toxicity on mice. T2, lethal dose.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Global fold has a N-terminal loop L1, followed by a helix and a two-stranded antiparallel β-sheet forming the CSab motif.",
+            "Formula": "C181H291N61O52S6",
+            "Mass": 4346.01,
+            "PI": 8.94,
+            "Net Charge": 6,
+            "Hydrophobicity": 0.2,
+            "Half Life": "Mammalian:4.4 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Among the five hybrid defensins tested, Def-AcAA appears to be more efficient than Def-AAA on the multi resistant and sensitive strains.",
+            "Literature": [
+                {
+                    "Title": "Rational design of peptides active against the gram positive bacteria Staphylococcus aureus.",
+                    "Pubmed ID": "18214975",
+                    "Reference": "Proteins. 2008 Jul;72(1)229-239.",
+                    "Author": "Landon C, Barbault F, Legrain M, Guenneugues M, Vovelle F.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=18214975"
+                }
+            ],
+            "Frequent Amino Acids": "ACN",
+            "Absent Amino Acids": "EMOPQUW",
+            "Basic Residues": 7,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 17,
+            "Polar Residues": 32,
+            "Positive Residues": 7,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07472",
+                    "Similarity": 1.0,
+                    "Sequence": "VNHALCAAHCIARRYRGGYCNSKAVCVCR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_00520",
+                    "Similarity": 0.9743589743589743,
+                    "Sequence": "ATCDLASIFNVNHTLCAAHCIARRYRGGYCNSKAVCVCR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_00522",
+                    "Similarity": 0.9743589743589743,
+                    "Sequence": "ATCDLASIFNWNHALCAAHCIARRYRGGYCNSKAVCVCR"
+                }
+            ]
+        }
+    }
+}

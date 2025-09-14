@@ -1,0 +1,80 @@
+{
+    "SPADE_N_15870": {
+        "Sequence Information": {
+            "Peptide Name": "Ribonuclease 7, RNase 7",
+            "Sequence": "KPKGMTSSQWFKIQHMQPSPQACNSAMKNINKHTKRCKDLNTFLHEPFSSVAATCQTPKIACKNGDKNCHQSHGAVSLTMCKLTSGKYPNCRYKEKRQNKSYVVACKPPQKKDSQQFHLVPVHLDRVL",
+            "Sequence Length": 128,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "1. Homo sapiens",
+            "Gene": "1. RNASE7",
+            "PDB ID": "2HKY",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "Q9H1E1",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/Q9H1E1",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Contribution of structural domains to the activity of ribonuclease 7 against uropathogenic bacteria.",
+                    "Pubmed ID": "23183439",
+                    "Reference": "Antimicrob Agents Chemother. 2013;57:766-774",
+                    "Author": "Wang H, Schwaderer AL, Kline J, Spencer JD, Kline D, Hains DS",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/23183439"
+                },
+                {
+                    "Title": "Ribonuclease 7, an antimicrobial peptide upregulated during infection, contributes to microbial defense of the human urinary tract.",
+                    "Pubmed ID": "23302724",
+                    "Reference": "Kidney Int. 2013;83:615-625",
+                    "Author": "Spencer JD, Schwaderer AL, Wang H, Bartz J, Kline J, Eichler T, DeSouza KR, Sims-Lucas S, Baker P, Hains DS",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/23302724"
+                },
+                {
+                    "Title": "Two human host defense ribonucleases against mycobacteria, the eosinophil cationic protein (RNase 3) and RNase 7.",
+                    "Pubmed ID": "23716047",
+                    "Reference": "Antimicrob Agents Chemother. 2013;57:3797-3805",
+                    "Author": "Pulido D, Torrent M, Andreu D, Nogués MV, Boix E",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/23716047"
+                }
+            ],
+            "Mass": 14527.73,
+            "PI": 9.8,
+            "Net Charge": 23,
+            "Hydrophobicity": -0.85,
+            "Frequent Amino Acids": "KSQ",
+            "Absent Amino Acids": "OU",
+            "Basic Residues": 29,
+            "Acidic Residues": 6,
+            "Hydrophobic Residues": 40,
+            "Polar Residues": 88,
+            "Positive Residues": 29,
+            "Negative Residues": 6,
+            "SPADE ID": "SPADE_N_15870",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_10141",
+                    "Similarity": 1.0,
+                    "Sequence": "KPKGMTSSQWFKIQHMQPSPQACNSAMKNINKHTKRCKDLNTFLH"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10142",
+                    "Similarity": 1.0,
+                    "Sequence": "KPKGMTSSQWFKIQHMQPSPQACNSAMKNINKHTKRCKDLNTFLHEPFSSVAATCQTPKIACKNGDKNCHQ"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10143",
+                    "Similarity": 1.0,
+                    "Sequence": "KPKGMTSSQWFKIQHMQPSPQACNSAMKNINKHTKRCKDLNTFLHEPFSSVAATCQTPKIACKNGDKNCHQSHGAVSLTMCKL"
+                }
+            ],
+            "Hemolytic Activity": "Human embryonic kidney HEK293 cells:-=NA,Human erythrocytes:-=NA",
+            "Target Organism": "Escherichia coli PEDUTI-89(MIC=0.26µM),Escherichia coli PEDUTI-89(MBC=0.53µM),Staphylococcus saprophyticus ATCC 15305(MIC=0.22µM),Staphylococcus saprophyticus ATCC 15305(MBC=0.44µM),Proteus mirabilis ATCC 7002(MIC=0.88µM),Proteus mirabilis ATCC 7002(MBC=0.88µM),Pseudomonas aeruginosa PEDUTI-961(MIC=0.6-0.8µM),Pseudomonas aeruginosa PEDUTI-961(MBC=1.25-2.5µM),Klebsiella pneumoniae PEDUTI-965(MIC=0.2-0.4µM),Klebsiella pneumoniae PEDUTI-965(MBC=0.8-1.25µM),Proteus mirabilis PEDUTI-971(MIC=0.3-0.6µM),Proteus mirabilis PEDUTI-971(MIC=1.0-1.25µM),Enterococcus faecalis PEDUTI-983(MIC=0.1-0.2µM),Enterococcus faecalis PEDUTI-983(MBC=0.5-0.75µM),Staphylococcus saprophyticus PEDUTI-989(MIC=0.1-0.2µM),Staphylococcus saprophyticus PEDUTI-989(MBC=0.5-0.75µM),Mycobacterium vaccae ATCC 15483(MIC=20.0±0.5µM),Mycobacterium vaccae ATCC 15483(IC50=9.3±1.2µM)"
+        }
+    }
+}

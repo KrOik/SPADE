@@ -1,0 +1,83 @@
+{
+    "SPADE_N_05871": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_05871",
+            "Peptide Name": "Magainin 2a (M2a; Frogs, Amphibians, Animals)",
+            "Source": "From frog",
+            "Family": "Belongs to the gastrin/cholecystokinin family. Magainin subfamily",
+            "Gene": "N/A",
+            "Sequence": "GIGKFLHSAKKWGKAFVGEIMNS",
+            "Sequence Length": 23,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.18586467] Gram-positive bacteria :Staphylococcus aureus (BCRC 10780)(MIC=128 μg/ml), Staphylococcus xylosus (BCRC 12930)(MIC=128 μg/ml), Staphylococcus aureus (BCRC 10781)(MIC=128 μg/ml), Listeria monocytogenes (BCRC 14845)(MIC=128 μg/ml), Streptococcus bovis (BCRC 14729)(MIC=128 μg/ml), Streptococcus iniae (laboratory strain)(MIC=128 μg/ml), Lactococcus garvieae (laboratory strain)(MIC=32 μg/ml);Gram-negative bacteria :Klebsiella oxytoca (BCRC 13985)(MIC=64 μg/ml), Pseudomonas aeruginosa (BCRC 10944)(MIC=64 μg/ml), Escherichia coli (BCRC 10675)(MIC=64 μg/ml), Enterobacter aerogenes (BCRC 10370)(MIC=128 μg/ml), Enterobacter cloacae (BCRC 10401)(MIC=32 μg/ml), Yersinia enterocolitica (BCRC 13999)(MIC=128 μg/ml)",
+            "Hemolytic Activity": "[Ref.18586467] MHC=128 μM against human red blood cells",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C116H181N31O29S",
+            "Mass": 2505.93,
+            "PI": 10.0,
+            "Net Charge": 4,
+            "Hydrophobicity": -0.08,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Antibacterial activity against Gram-positive bacteria and Gram-negative bacteria",
+            "Literature": [
+                {
+                    "Title": "Design and synthesis of cationic antimicrobial peptides with improved activity and selectivity against Vibrio spp.",
+                    "Pubmed ID": "18586467",
+                    "Reference": "Int J Antimicrob Agents. 2008 Aug;32(2)130-8. doi 10.1016/j.ijantimicag.2008.04.003.",
+                    "Author": "Chou HT, Kuo TY, Chiang JC, Pei MJ, Yang WT, Yu HC, Lin SB, Chen WJ",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=18586467"
+                },
+                {
+                    "Title": "Design and synthesis of cationic antimicrobial peptides with improved activity and selectivity against Vibrio spp",
+                    "Pubmed ID": "",
+                    "Author": "Chou HT, Kuo TY, Chiang JC, Pei MJ, Yang WT, Yu HC, Lin SB, Chen WJ"
+                },
+                {
+                    "Title": "Parallel and antiparallel dimers of magainin 2: their interaction with phospholipid membrane and antibacterial activity",
+                    "Pubmed ID": "",
+                    "Author": "Mukai Y, Matsushita Y, niidome T, Hatekeyama T, Aoyag H"
+                }
+            ],
+            "Frequent Amino Acids": "GKA",
+            "Absent Amino Acids": "CDOPQRTUY",
+            "Basic Residues": 5,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 11,
+            "Positive Residues": 5,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_10731",
+                    "Similarity": 1.0,
+                    "Sequence": "KKLFKKILKYLGIGKFLHSAK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10732",
+                    "Similarity": 1.0,
+                    "Sequence": "KKLFKKILKYLAGPAGIGKFLHSAK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10733",
+                    "Similarity": 1.0,
+                    "Sequence": "GKKLFKKILKYLAGPAGIGKFLHSAK"
+                }
+            ]
+        }
+    }
+}

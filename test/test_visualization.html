@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>测试新评分系统可视化</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(#2b1055);
+            color: white;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .test-card {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 20px;
+        }
+        .test-link {
+            display: inline-block;
+            background: rgba(117, 151, 222, 0.3);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            margin: 10px;
+            transition: all 0.3s ease;
+        }
+        .test-link:hover {
+            background: rgba(117, 151, 222, 0.5);
+            transform: translateY(-2px);
+        }
+        .score-info {
+            background: rgba(0, 0, 0, 0.2);
+            padding: 15px;
+            border-radius: 8px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🧬 SPADE 新评分系统测试</h1>
+        
+        <div class="test-card">
+            <h2>📊 评分系统升级说明</h2>
+            <p>新的评分系统包含以下5个维度：</p>
+            <ul>
+                <li><strong>效力 (Efficacy)</strong> - 35%权重：基于MIC预测和实验数据</li>
+                <li><strong>选择性 (Selectivity)</strong> - 25%权重：溶血活性和细胞毒性评估</li>
+                <li><strong>稳定性 (Stability)</strong> - 20%权重：二硫键、pH和热稳定性</li>
+                <li><strong>合成难度 (Synthesis)</strong> - 12%权重：长度、稀有氨基酸、复杂性</li>
+                <li><strong>新颖性 (Novelty)</strong> - 8%权重：序列相似性和功能多样性</li>
+            </ul>
+        </div>
+        
+        <div class="test-card">
+            <h2>🔬 测试样本</h2>
+            <p>以下是已生成评分数据的测试样本：</p>
+            
+            <div class="score-info">
+                <h3>SPADE_N_00001</h3>
+                <p>总分: 7.86 (Good) | 效力: 9.0 | 选择性: 7.0 | 稳定性: 6.5</p>
+                <a href="amp_visualization.html?id=SPADE_N_00001" class="test-link">查看详细分析</a>
+            </div>
+            
+            <div class="score-info">
+                <h3>SPADE_N_00002</h3>
+                <p>总分: 7.97 (Good) | 效力: 9.0 | 选择性: 9.0 | 稳定性: 7.0</p>
+                <a href="amp_visualization.html?id=SPADE_N_00002" class="test-link">查看详细分析</a>
+            </div>
+            
+            <div class="score-info">
+                <h3>SPADE_N_00003</h3>
+                <p>总分: 8.44 (Good) | 效力: 9.0 | 选择性: 8.0 | 稳定性: 7.5</p>
+                <a href="amp_visualization.html?id=SPADE_N_00003" class="test-link">查看详细分析</a>
+            </div>
+            
+            <div class="score-info">
+                <h3>SPADE_UN_00001</h3>
+                <p>总分: 8.01 (Good) | 效力: 8.5 | 选择性: 8.5 | 稳定性: 7.0</p>
+                <a href="amp_visualization.html?id=SPADE_UN_00001" class="test-link">查看详细分析</a>
+            </div>
+        </div>
+        
+        <div class="test-card">
+            <h2>✨ 新增功能</h2>
+            <ul>
+                <li><strong>详细评分分析</strong>：每个维度的具体计算过程和影响因子</li>
+                <li><strong>评分特征展示</strong>：氨基酸组成和物理化学性质详细分析</li>
+                <li><strong>增强雷达图</strong>：5维度评分可视化</li>
+                <li><strong>权重显示</strong>：透明的评分权重和计算过程</li>
+                <li><strong>实验数据整合</strong>：基于真实MIC、溶血活性等数据</li>
+            </ul>
+        </div>
+        
+        <div class="test-card">
+            <h2>🎯 测试要点</h2>
+            <ol>
+                <li>检查新的详细评分分析卡片是否正确显示</li>
+                <li>验证评分特征卡片中的氨基酸组成和物理性质</li>
+                <li>确认雷达图显示5个新维度</li>
+                <li>测试多语言支持（中文/英文切换）</li>
+                <li>验证响应式设计在不同屏幕尺寸下的表现</li>
+            </ol>
+        </div>
+        
+        <div class="test-card">
+            <h2>🔗 快速链接</h2>
+            <a href="search.html" class="test-link">返回搜索页面</a>
+            <a href="home.html" class="test-link">返回首页</a>
+            <a href="statistics.html" class="test-link">查看统计页面</a>
+        </div>
+    </div>
+</body>
+</html> 

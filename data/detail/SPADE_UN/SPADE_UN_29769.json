@@ -1,0 +1,48 @@
+{
+    "SPADE_UN_29769": {
+        "Sequence Information": {
+            "Peptide Name": "BDZ-P6",
+            "Sequence": "KXKC",
+            "Sequence Length": 4,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Antimicrobial benzodiazepine-based short cationic peptidomimetics.",
+                    "Pubmed ID": "25807936",
+                    "Reference": "J Pept Sci. 2015;:",
+                    "Author": "Zats GM, Kovaliov M, Albeck A, Shatzmiller S",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/25807936"
+                }
+            ],
+            "SPADE ID": "SPADE_UN_29769",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00058",
+                    "Similarity": 1.0,
+                    "Sequence": "KTVNYGNGLYCNQKKCWVNWSETATTIVNNSIMNGLTGGNAGWHSGGRA"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00067",
+                    "Similarity": 1.0,
+                    "Sequence": "ARSYGNGVYCNNKKCWVNRGEATQSIIGGMISGWASGLAGM"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00069",
+                    "Similarity": 1.0,
+                    "Sequence": "TKYYGNGVYCNSKKCWVDWGQAAGGIGQTVVGWLGGAIPGK"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:1% Hemolysis=1000 µg/ml",
+            "Target Organism": "Escherichia coli(MIC=>200µg/ml),Staphylococcus aureus(MIC=100µg/ml)"
+        }
+    }
+}

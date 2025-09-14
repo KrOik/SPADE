@@ -1,0 +1,86 @@
+{
+    "SPADE_N_01391": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 2005/0260715 A1",
+                "Patent Link": "http://www.lens.org/lens/patent/US_2005_0260715_A1",
+                "Patent Type": "Patent Application",
+                "Publication Date": "2005-11-24",
+                "Family Info": "US6946261",
+                "Patent Title": "Efficient methods for producing antimicrobial cationic peptides in host cells.",
+                "Abstract": "Endogenously produced cationic antimicrobial peptides are ubiquitous components of host defenses in mammals, birds, amphibia, insects, and plants. Cationic peptides are also effective when administered as therapeutic agents. A practical drawback in cationic peptide therapy, however, is the cost of producing the agents. The methods described herein provide a means to efficiently produce cationic peptides from recombinant host cells. These recombinantly-produced cationic peptides can be rapidly purified from host cell proteins using anion exchange chromatography."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01391",
+            "Peptide Name": "Esculentin-1 (Frogs, amphibians, animals)",
+            "Source": "Rana esculenta (Edible frog) (Pelophylax esculentus)",
+            "Family": "Belongs to the frog skin active peptide family (Brevinin subfamily)",
+            "Gene": "Not found",
+            "Sequence": "GIFSKLGRKKIKNLLISGLKNVGKEVGMDVVRTGIDIAGCKIKGEC",
+            "Sequence Length": 46,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P32414"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "Gram-negative bacteria:Escherichia coli D21 (MIC=0.2 µM), Pseudomonas aeruginosaATCC15692 (MIC=0.7 µM);Gram-positive bacteria:Bacillus megaterium Bm11 (MIC=0.1 µM), Staphylococcus aureus Cowan1 (MIC=0.4 µM).Fungi:Candida albicans (MIC=0.5 µM), Saccharomyces cerevisiae (MIC=0.9 µM).",
+            "Hemolytic Activity": "[Ref. 8163497] LC>100μM",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Cyclization (Cys40 and Cys46)",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C215H378N62O60S3",
+            "Mass": 4887.88,
+            "PI": 9.83,
+            "Net Charge": 6,
+            "Hydrophobicity": 0.08,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Shows antibacterial activity against both Gram-positive and Gram-negative bacteria and against the fungus C. albicans.  Has hemolytic activity.",
+            "Literature": [
+                {
+                    "Title": "Novel antimicrobial peptides from skin secretion of the European frog Rana esculenta.",
+                    "Pubmed ID": "8508915",
+                    "Reference": "FEBS Lett. 1993 Jun 14;324(2)159-161.",
+                    "Author": "Simmaco M, Mignogna G, Barra D, Bossa F.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=8508915"
+                }
+            ],
+            "Frequent Amino Acids": "GKI",
+            "Absent Amino Acids": "HOPQUWY",
+            "Basic Residues": 10,
+            "Acidic Residues": 4,
+            "Hydrophobic Residues": 17,
+            "Polar Residues": 22,
+            "Positive Residues": 10,
+            "Negative Residues": 4,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01392",
+                    "Similarity": 0.9782608695652174,
+                    "Sequence": "GIFSKFGRKKIKNLLISGLKNVGKEVGMDVVRTGIDIAGCKIKGEC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01368",
+                    "Similarity": 0.9565217391304348,
+                    "Sequence": "GIFSKLAGKKIKNLLISGLKNVGKEVGMDVVRTGIDIAGCKIKGEC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01370",
+                    "Similarity": 0.9347826086956522,
+                    "Sequence": "GIFSKLAGKKLKNLLISGLKNVGKEVGMDVVRTGIDIAGCKIKGEC"
+                }
+            ]
+        }
+    }
+}

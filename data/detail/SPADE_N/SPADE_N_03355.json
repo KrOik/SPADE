@@ -1,0 +1,81 @@
+{
+    "SPADE_N_03355": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03355",
+            "Peptide Name": "Antifungal protein (PAF)",
+            "Source": "Penicillium chrysogenum (Penicillium notatum)",
+            "Family": "Not found",
+            "Gene": "paf",
+            "Sequence": "AKYTGKCTKSKNECKYKNDAGKDTFIKCPKFDNKKCTKDNNKCTVDTYNNAVDCD",
+            "Sequence Length": 55,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q01701"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antifungal",
+                "Antiviral"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "PAF comprises five beta-strands forming two orthogonally packed beta-sheets that share a common interface.",
+            "Formula": "C263H421N75O89S6",
+            "Mass": 6250.0,
+            "PI": 8.93,
+            "Net Charge": 5,
+            "Hydrophobicity": -1.37,
+            "Half Life": "Mammalian:4.4 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "It exhibits antifungal activity.",
+            "Literature": [
+                {
+                    "Title": "Functional aspects of the solution structure and dynamics of PAF--a highly-stable antifungal protein from Penicillium chrysogenum.",
+                    "Pubmed ID": "19459942",
+                    "Reference": "FEBS J. 2009 May;276(10)2875-2890.",
+                    "Author": "Batta G, Barna T, Gáspári Z, Sándor S, Kövér KE, Binder U, Sarg B, Kaiserer L, Chhillar AK, Eigentler A, Leiter E, Hegedüs N, Pócsi I, Lindner H, Marx F.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=19459942"
+                },
+                {
+                    "Title": "oning, structural organization and regulation of expression of the Penicillium chrysogenum paf gene encoding an abundantly secreted protein with antifungal activity.",
+                    "Pubmed ID": "8566771",
+                    "Reference": "Gene. 1995 Dec 29;167(1-2)167-171.",
+                    "Author": "Marx F, Haas H, Reindl M, Stöffler G, Lottspeich F, Redl B.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=8566771"
+                }
+            ],
+            "Frequent Amino Acids": "KDN",
+            "Absent Amino Acids": "HLMOQRUW",
+            "Basic Residues": 13,
+            "Acidic Residues": 8,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 41,
+            "Positive Residues": 13,
+            "Negative Residues": 8,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_12805",
+                    "Similarity": 1.0,
+                    "Sequence": "KYTGKCTKSKNECK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_20511",
+                    "Similarity": 1.0,
+                    "Sequence": "KYTGKCTKSKNECK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_12808",
+                    "Similarity": 0.9636363636363636,
+                    "Sequence": "AKYTGKCYKKKNECKYKNDAGKDTFIKCPKFDNKKCTKDNNKCTVDTYNNAVDCD"
+                }
+            ]
+        }
+    }
+}

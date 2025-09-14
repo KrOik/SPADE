@@ -1,0 +1,59 @@
+{
+    "SPADE_UN_26079": {
+        "Sequence Information": {
+            "Peptide Name": "EME7(7)",
+            "Sequence": "RRWWRIW",
+            "Sequence Length": 7,
+            "Biological Activity": [
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Discovery of antimicrobial peptides targeting Acinetobacter baumannii via a pre-trained and finetuned few-shot learning-based pipeline",
+                    "Pubmed ID": "",
+                    "Reference": "Research Square. 2024;DOI: https://doi.org/10.21203/rs.3.rs-3789296/v1:",
+                    "Author": "Ji J, Huang J, Zhang W, Wang A, Lai Y, Xu Y, Wang C, Zhao J, Zhang P",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/"
+                }
+            ],
+            "Mass": 1158.36,
+            "PI": 12.0,
+            "Net Charge": 3,
+            "Hydrophobicity": -1.67,
+            "Frequent Amino Acids": "RWI",
+            "Absent Amino Acids": "ACDEFGHKLMNOPQSTUVY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 1,
+            "Polar Residues": 6,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_26079",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02452",
+                    "Similarity": 1.0,
+                    "Sequence": "RRWQWR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02472",
+                    "Similarity": 1.0,
+                    "Sequence": "QVVRNPQSCRWNMGVCIPISCPGNMRQIGTCFGPRVPCCRRW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02473",
+                    "Similarity": 1.0,
+                    "Sequence": "QGVRNHVTCRIYGGFCVPIRCPGRTRQIGTCFGRPVKCCRRW"
+                }
+            ],
+            "Hemolytic Activity": "Mouse erythrocytes:50% Hemolysis=>1500 µg/ml,Mouse fibroblasts NIH 3T3:IC50=248.8 µg/ml",
+            "Target Organism": "Acinetobacter baumannii ATCC 19606(MIC=8µg/ml),Acinetobacter baumannii ATCC 17978(MIC=8µg/ml),Acinetobacter baumannii XH197(MIC=16µg/ml)"
+        }
+    }
+}

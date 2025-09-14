@@ -1,0 +1,74 @@
+{
+    "SPADE_N_00241": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00241",
+            "Peptide Name": "Defensin-like protein P322 (Probable protease inhibitor P322; Plant defensin)",
+            "Source": "Solanum tuberosum (Potato)",
+            "Family": "Belongs to the DEFL family",
+            "Gene": "Not found",
+            "Sequence": "GPMRIAEARHCESLSHRFKGPCTRDSNCASVCETERFSGGNCHGFRRRCFCTKPC",
+            "Sequence Length": 55,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P20346"
+            ],
+            "Protein Existence": "Transcript level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antifungal"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C253H401N89O76S9",
+            "Mass": 6194.03,
+            "PI": 8.97,
+            "Net Charge": 8,
+            "Hydrophobicity": -0.72,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "May have antifungal activity.",
+            "PTM": "Contains four disulfide bonds (By similarity).",
+            "Literature": [
+                {
+                    "Title": "Molecular cloning and analysis of four potato tuber mRNAs.",
+                    "Pubmed ID": "PubMed ID is not available",
+                    "Reference": "Plant Molecular Biology. 1988, 11(3)255-269.",
+                    "Author": "Stiekema WJ, Heidekamp F, Dirkse WG, van Beckum J, de Haan P, ten Bosch C, Louwerse JD.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=PubMed ID is not available"
+                }
+            ],
+            "Frequent Amino Acids": "CRG",
+            "Absent Amino Acids": "OQUWY",
+            "Basic Residues": 13,
+            "Acidic Residues": 5,
+            "Hydrophobic Residues": 14,
+            "Polar Residues": 35,
+            "Positive Residues": 13,
+            "Negative Residues": 5,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00980",
+                    "Similarity": 1.0,
+                    "Sequence": "RHCESLSHRFKGPCTRDSNCASVCETERFSGGNCHGFRRRCFCTKPC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00903",
+                    "Similarity": 0.95,
+                    "Sequence": "RNCESLSHRFKGPCTRDSNC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07710",
+                    "Similarity": 0.9473684210526315,
+                    "Sequence": "RNCESLSHRFKGPCTRDSN"
+                }
+            ]
+        }
+    }
+}

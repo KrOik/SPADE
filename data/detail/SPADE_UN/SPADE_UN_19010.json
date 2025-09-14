@@ -1,0 +1,71 @@
+{
+    "SPADE_UN_19010": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_19010",
+            "Peptide Name": "FK4 (Synthetic AMPs, Lys-rich, Phe-rich, XXA, UCLL1c)",
+            "Source": "Designed, man-made sequences",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "GFFKKFFKKFFKKFFKKI",
+            "Sequence Length": 18,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Hemolytic"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 2390.99,
+            "PI": 10.85,
+            "Hydrophobicity": -0.26,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Ouyang X, Li B, Yang T, Yang Y, Ba Z, Zhang J, Yang P, Liu Y, Wang Y, Zhao Y, Mao W, Wu X, Zeng X, Zhong C, Liu H, Zhang Y, Gou S, Ni J. 2024",
+                    "Reference": "ACS Infect Dis. 2024 Aug 14. doi: 10.1021/acsinfecdis.3c00706.PubMed",
+                    "Title": "High Therapeutic Index alpha-Helical AMPs and Their Therapeutic Potential on Bacterial Lung and Skin Wound Infections"
+                }
+            ],
+            "Frequent Amino Acids": "FKG",
+            "Absent Amino Acids": "ACDEHLMNOPQRSTUVWY",
+            "Basic Residues": 8,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 8,
+            "Positive Residues": 8,
+            "Negative Residues": 0,
+            "Net Charge": 8,
+            "Comments": "Sequence analysis: APD analysis reveals that this sequence is similar (77.78%) toFK3F: 44%; K: 44%.Activity: active against S. aureus ATCC 25923 (MIC 8 uM), B. subtilis ATCC 23857 (MIC 4 uM), K. pneumoniae ATCC 700603 (MIC 8 uM), E. coli ATCC 25922 (MIC 8 uM), P. aeruginosa ATCC 27853 (MIC 4 uM), A. baumannii ATCC 19606 (MIC 8 uM).In vitro toxicity: hRBC: HC10 4.02 uM. HC50 32-64 uM. hemolytic. LC50 8-16 uM toxic to human embryonic kidney cell line (HEK293T).Structure:  random coil in water and helical in 50% TFE. Helicity is length-dependent and longer peptides are more helical in the series.",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_05700",
+                    "Similarity": 1.0,
+                    "Sequence": "KFFKFKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_15674",
+                    "Similarity": 1.0,
+                    "Sequence": "KKFFKKMKSFFKKFF"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_22014",
+                    "Similarity": 1.0,
+                    "Sequence": "KKFFK"
+                }
+            ]
+        }
+    }
+}

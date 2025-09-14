@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_22416": {
+        "Sequence Information": {
+            "Peptide Name": "Rifin (326-332)[K323A], Peptide 35409-7",
+            "Sequence": "YIKLLKE",
+            "Sequence Length": 7,
+            "Biological Activity": [
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "Q8IAS6",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/Q8IAS6",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Shorter Antibacterial Peptide Having High Selectivity for E. coli Membranes and Low Potential for Inducing Resistance.",
+                    "Pubmed ID": "32521823",
+                    "Reference": "Microorganisms. 2020;8:E867",
+                    "Author": "Barreto-Santamaría A, Rivera ZJ, García JE, Curtidor H, Patarroyo ME, Patarroyo MA, Arévalo-Pinzón G",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/32521823"
+                }
+            ],
+            "Mass": 906.12,
+            "PI": 8.5,
+            "Net Charge": 1,
+            "Hydrophobicity": -0.07,
+            "Frequent Amino Acids": "KLE",
+            "Absent Amino Acids": "ACDFGHMNOPQRSTUVW",
+            "Basic Residues": 2,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 3,
+            "Polar Residues": 4,
+            "Positive Residues": 2,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_UN_22416",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_10601",
+                    "Similarity": 1.0,
+                    "Sequence": "FKALRALRLEDLRIPTSYIK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_02457",
+                    "Similarity": 1.0,
+                    "Sequence": "KKQARKYIK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_06705",
+                    "Similarity": 1.0,
+                    "Sequence": "MQTMRNMNLVYMFVYAFIIFLSIHFPPRIKCNTEADCPQRFDNIVECLFGICHFYIK"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:<5% Hemolysis=>200 µM",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=>100µM),Pseudomonas aeruginosa ATCC 27853(MIC=>100µM)"
+        }
+    }
+}

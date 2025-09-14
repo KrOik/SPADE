@@ -1,0 +1,73 @@
+{
+    "SPADE_N_06265": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_06265",
+            "Peptide Name": "EGFR-related peptide",
+            "Source": "EGFR-related peptide",
+            "Family": "",
+            "Gene": "Not found",
+            "Sequence": "ERRP",
+            "Sequence Length": 4,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Notavailable"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Target Organism": "Tumor cells:PC-3 (30% Cell viability at 5 µg/ml)",
+            "Hemolytic Activity": "Not available",
+            "Cytotoxicity": "Not available",
+            "Binding Target": "Not available",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C22H40N10O7",
+            "Mass": 556.62,
+            "PI": 9.7,
+            "Net Charge": 1,
+            "Hydrophobicity": -3.52,
+            "Half Life": "Mammalian:1 hourYeast:30 minE.coli:>10 hour",
+            "Comments": "ERRP inhibits the growth of prostate cancer cells by attenuating EGFR signaling processes",
+            "Literature": [
+                {
+                    "Title": "Epidermal growth factor receptor-related peptide inhibits growth of PC-3 prostate cancer cells",
+                    "Pubmed ID": "15634655",
+                    "Reference": "Mol Cancer Ther. 2004 Dec;3(12)1615-21.",
+                    "Author": "Marciniak DJ, Rishi AK, Sarkar FH, Majumdar AP.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=15634655"
+                }
+            ],
+            "Frequent Amino Acids": "REP",
+            "Absent Amino Acids": "ACDFGHIKLMNOQSTUVWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 1,
+            "Polar Residues": 2,
+            "Positive Residues": 2,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00631",
+                    "Similarity": 1.0,
+                    "Sequence": "EESRMNINAERRPWCPSKIQMFDTNCEVDGAKQCLDLLISTWDPSVRLTRVSCICSDFPYRNMMCSCPNMICP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04462",
+                    "Similarity": 1.0,
+                    "Sequence": "EERRPGSVDVPLPESNIVRTIMEFLSFLHLKEAGALDSLPGIPLATSSEDLEKS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09557",
+                    "Similarity": 1.0,
+                    "Sequence": "ILPEKEPEEPERR"
+                }
+            ]
+        }
+    }
+}

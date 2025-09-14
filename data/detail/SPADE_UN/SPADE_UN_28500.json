@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_28500": {
+        "Sequence Information": {
+            "Peptide Name": "Pardaxin P-4 (1-11)",
+            "Sequence": "GFFALIPKIIS",
+            "Sequence Length": 11,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P81861",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P81861",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "A class of highly potent antibacterial peptides derived from pardaxin, a pore-forming peptide isolated from Moses sole fish Pardachirus marmoratus.",
+                    "Pubmed ID": "8620888",
+                    "Reference": "Eur J Biochem. 1996;237:303-310",
+                    "Author": "Oren Z, Shai Y",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/8620888"
+                }
+            ],
+            "Mass": 1205.49,
+            "PI": 8.75,
+            "Net Charge": 1,
+            "Hydrophobicity": 1.64,
+            "Frequent Amino Acids": "IFA",
+            "Absent Amino Acids": "CDEHMNOQRTUVWY",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 4,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_28500",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00559",
+                    "Similarity": 1.0,
+                    "Sequence": "QKRCRQELEPGKQCVLAKCRELCFKQLKGFGSCIEKPPGSSKYTCNCFYNCGPPGFF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03343",
+                    "Similarity": 1.0,
+                    "Sequence": "GFFALIPKIISSPLFKTLLSAVGSALSSSGEQE"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03344",
+                    "Similarity": 1.0,
+                    "Sequence": "GFFALIPKIISSPIFKTLLSAVGSALSSSGGQE"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Escherichia coli D21(MIC=>100µM),Acinetobacter calcoaceticus Ac11(MIC=>100µM),Pseudomonas aeruginosa ATCC 27853(MIC=>100µM),Salmonella enterica subsp. enterica serovar Typhimurium LT2(MIC=>100µM),Bacillus megaterium Bm11(MIC=>100µM),Micrococcus luteus ATCC 9341(MIC=>100µM),Bacillus subtilis ATCC 6051(MIC=>100µM)"
+        }
+    }
+}

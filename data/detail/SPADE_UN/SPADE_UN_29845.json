@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_29845": {
+        "Sequence Information": {
+            "Peptide Name": "BP208, S-BP134-AGPA-Melittin(10-19)",
+            "Sequence": "SKKLFKKILKYLAGPATTGLPALISW",
+            "Sequence Length": 26,
+            "Biological Activity": [
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P01501",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P01501",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Derivatives of the antimicrobial peptide BP100 for expression in plant systems.",
+                    "Pubmed ID": "24376887",
+                    "Reference": "PLoS One. 2013;8:e85515",
+                    "Author": "Badosa E, Moiset G, Montesinos L, Talleda M, Bardají E, Feliu L, Planas M, Montesinos E",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/24376887"
+                }
+            ],
+            "Mass": 2845.47,
+            "PI": 10.3,
+            "Net Charge": 5,
+            "Hydrophobicity": 0.29,
+            "Frequent Amino Acids": "KLA",
+            "Absent Amino Acids": "CDEHMNOQRUV",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 15,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_29845",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_14413",
+                    "Similarity": 1.0,
+                    "Sequence": "AEEASKKAEEASKKAEEASKKAEEASKKAEEASKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_29845",
+                    "Similarity": 1.0,
+                    "Sequence": "SKKLFKKILKYLAGPATTGLPALISW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06419",
+                    "Similarity": 1.0,
+                    "Sequence": "KKLFKKILKY"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:15% Hemolysis=50 µM,Human erythrocytes:47% Hemolysis=150 µM,Human erythrocytes:68% Hemolysis=250 µM",
+            "Target Organism": "Xanthomonas campestris pv. Vesicatoria 2133-2(MIC=<1.25µM),Pseudomonas syringae pv. syringae EPS 94(MIC=1.25-2.5µM),Erwinia amylovora PMV 6076(MIC=1.25-2.5µM)"
+        }
+    }
+}

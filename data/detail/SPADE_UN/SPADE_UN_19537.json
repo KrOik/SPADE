@@ -1,0 +1,61 @@
+{
+    "SPADE_UN_19537": {
+        "Sequence Information": {
+            "Peptide Name": "Oxysterlin 3",
+            "Sequence": "GSKRWRKFEKRVKKVFEHTKEALPVIQGVATVVGAVGRR",
+            "Sequence Length": 39,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Identification and characterization of novel cecropins from the Oxysternon conspicillatum neotropic dung beetle.",
+                    "Pubmed ID": "29186139",
+                    "Reference": "PLoS One. 2017;12:e0187914",
+                    "Author": "Toro Segovia LJ, Téllez Ramírez GA, Henao Arias DC, Rivera Duran JD, Bedoya JP, Castano Osorio JC",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/29186139"
+                }
+            ],
+            "Mass": 4449.22,
+            "PI": 11.49,
+            "Net Charge": 9,
+            "Hydrophobicity": -0.53,
+            "Frequent Amino Acids": "VKR",
+            "Absent Amino Acids": "CDMNOUY",
+            "Basic Residues": 12,
+            "Acidic Residues": 3,
+            "Hydrophobic Residues": 14,
+            "Polar Residues": 25,
+            "Positive Residues": 12,
+            "Negative Residues": 3,
+            "SPADE ID": "SPADE_UN_19537",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_17547",
+                    "Similarity": 0.9210526315789473,
+                    "Sequence": "GSKRWRKFEKRVKKIFEETKEALPVIQGVATIVGAVGR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_19536",
+                    "Similarity": 0.8461538461538461,
+                    "Sequence": "GSKRWRKFEKKVKKALEDAKEKLQEERVQKIVEHTKEALPVIKAVATVVGVVGRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_17546",
+                    "Similarity": 0.8421052631578947,
+                    "Sequence": "RSKKWRKIEKRVKKIFEKTKEALPVIQGVATIVGAVGR"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:0% Hemolysis=250 µg/ml,Human erythrocytes:50% Hemolysis=500 µg/ml,Vero cells:20% Killing=250 µg/ml",
+            "Target Organism": "Escherichia coli ATCC 35218(MIC=3.12µg/ml),Escherichia coli(MIC=3.12µg/ml),Enterobacter cloacae(MIC=3.12µg/ml),Klebsiella pneumoniae ATCC BAA-1705(MIC=3.12µg/ml),Salmonella typhimurium(MIC=6.25µg/ml),Pseudomonas aeruginosa ATCC 105663(MIC=12.5µg/ml),Staphylococcus saprophyticus(MIC=12.5µg/ml),Staphylococcus epidermidis(MIC=>200µg/ml),Staphylococcus aureus(MIC=>200µg/ml),Candida parapsilosis ATCC 22019(MIC=>200µg/ml)"
+        }
+    }
+}

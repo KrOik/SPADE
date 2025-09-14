@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_24886": {
+        "Sequence Information": {
+            "Peptide Name": "LI14 [L8A]",
+            "Sequence": "LKKLCRIAKKLCRI",
+            "Sequence Length": 14,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "The antimicrobial peptide LI14 combats multidrug-resistant bacterial infections.",
+                    "Pubmed ID": "36071151",
+                    "Reference": "Commun Biol. 2022;5:926",
+                    "Author": "Shi J, Chen C, Wang D, Wang Z, Liu Y",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/36071151"
+                }
+            ],
+            "Mass": 1686.23,
+            "PI": 10.48,
+            "Net Charge": 6,
+            "Hydrophobicity": 0.19,
+            "Frequent Amino Acids": "KLC",
+            "Absent Amino Acids": "DEFGHMNOPQSTUVWY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 6,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_24886",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06704",
+                    "Similarity": 1.0,
+                    "Sequence": "FALALKALKKL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06711",
+                    "Similarity": 1.0,
+                    "Sequence": "FALALKLKKL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06749",
+                    "Similarity": 1.0,
+                    "Sequence": "VALALKALKKL"
+                }
+            ],
+            "Hemolytic Activity": "Sheep erythrocytes:5% Hemolysis=128 µg/ml",
+            "Target Organism": "Staphylococcus aureus ATCC 29213(MIC=128µg/ml),Staphylococcus aureus T144(MIC=64µg/ml),Escherichia coli ATCC 25922(MIC=16µg/ml),Escherichia coli B2(MIC=8µg/ml)"
+        }
+    }
+}

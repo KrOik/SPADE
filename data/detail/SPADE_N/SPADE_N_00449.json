@@ -1,0 +1,68 @@
+{
+    "SPADE_N_00449": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00449",
+            "Peptide Name": "Defensin-like protein 44 (Plant defensin)",
+            "Source": "Arabidopsis thaliana (Mouse-ear cress)",
+            "Family": "Belongs to the DEFL family",
+            "Gene": "Not found",
+            "Sequence": "SEIKPTGRVDNQCKEMCSATFGDGKCAADCRKAGFSSGRCLTSSPFGNKCCCT",
+            "Sequence Length": 53,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q9M833"
+            ],
+            "Protein Existence": "Transcript level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antifungal"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C224H364N70O77S9",
+            "Mass": 5558.29,
+            "PI": 8.49,
+            "Net Charge": 3,
+            "Hydrophobicity": -0.46,
+            "Half Life": "Mammalian:1.9 hourYeast:>20 hourE.coli:>10 hour",
+            "PTM": "Contains four disulfide bonds (By similarity).",
+            "Literature": [
+                {
+                    "Title": "Genome organization of more than 300 defensin-like genes in Arabidopsis.",
+                    "Pubmed ID": "15955924",
+                    "Reference": "Plant Physiol. 2005 Jun;138(2)600-610.",
+                    "Author": "Silverstein KA, Graham MA, Paape TD, VandenBosch KA.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=15955924"
+                }
+            ],
+            "Frequent Amino Acids": "CGS",
+            "Absent Amino Acids": "HOUWY",
+            "Basic Residues": 8,
+            "Acidic Residues": 5,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 34,
+            "Positive Residues": 8,
+            "Negative Residues": 5,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00448",
+                    "Similarity": 0.9056603773584906,
+                    "Sequence": "SEIKPTGRIDDQCKQMCSATYGDGKCASDCRKAGFSSGRCLTSSPFGNKCCCTK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00450",
+                    "Similarity": 0.7547169811320755,
+                    "Sequence": "SDIKPTGRIDNQCKRMCSATYGNGKCAADCRSDGFSSGQCFTSPPFDNRCCCNN"
+                }
+            ]
+        }
+    }
+}

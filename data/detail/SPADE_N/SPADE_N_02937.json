@@ -1,0 +1,87 @@
+{
+    "SPADE_N_02937": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02937",
+            "Peptide Name": "Beta-defensin 11 (BD-11, mBD-11; Defensin, beta 11; Rodents, mammals, animals)",
+            "Source": "Mus musculus (Mouse)",
+            "Family": "Belongs to the beta-defensin family",
+            "Gene": "Defb11",
+            "Sequence": "DLKHLILKAQLARCYKFGGFCYNSMCPPHTKFIGNCHPDHLHCCINMKELEGST",
+            "Sequence Length": 54,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q8R2I7",
+                "http://www.uniprot.org/uniprot/Q499L3"
+            ],
+            "Protein Existence": "Transcript level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C271H418N76O73S8",
+            "Mass": 6165.2,
+            "PI": 8.31,
+            "Net Charge": 7,
+            "Hydrophobicity": -0.24,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:>10 hour",
+            "PTM": "Contains three disulfide bonds 14-43; 21-36; 26-44.",
+            "Tissue specificity": "Expressed in both adult and neonate brain, and very weakly in kidneys, epididymis, and testis.",
+            "Literature": [
+                {
+                    "Title": "Signal sequence conservation and mature peptide divergence within subgroups of the murine beta-defensin gene family.",
+                    "Pubmed ID": "12644567",
+                    "Reference": "Mol Biol Evol. 2003 Mar;20(3)460-470.",
+                    "Author": "Morrison G.M, Semple C.A.M, Kilanowski F.M, Hill R.E, Dorin J.R.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=12644567"
+                },
+                {
+                    "Title": "Lineage-specific biology revealed by a finished genome assembly of the mouse.",
+                    "Pubmed ID": "19468303",
+                    "Reference": "PLoS Biol. 2009 May 5;7(5)e1000112.",
+                    "Author": "Church D.M, Goodstadt L, Hillier L.W, Zody M.C, Goldstein S, et al, Ponting C.P.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=19468303"
+                },
+                {
+                    "Title": "The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).",
+                    "Pubmed ID": "R2004J1449",
+                    "Author": ""
+                }
+            ],
+            "Frequent Amino Acids": "CLH",
+            "Absent Amino Acids": "OUVW",
+            "Basic Residues": 11,
+            "Acidic Residues": 4,
+            "Hydrophobic Residues": 21,
+            "Polar Residues": 29,
+            "Positive Residues": 11,
+            "Negative Residues": 4,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_04190",
+                    "Similarity": 1.0,
+                    "Sequence": "MRTLCSLLLICCLLFSYTTPAVGDLKHLILKAQLARCYKFGGFCYNSMCPPHTKFIGNCHPDHLHCCINMKELEGST"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03679",
+                    "Similarity": 1.0,
+                    "Sequence": "ARCYKFGGFCYNSMCPPHTKFIGNCHPDHLHCCIN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02936",
+                    "Similarity": 0.64,
+                    "Sequence": "DLKHLILKAQLTRCYKFGGFCHYNICPGNSRFMSNCHPENLRCCKNIKQF"
+                }
+            ]
+        }
+    }
+}

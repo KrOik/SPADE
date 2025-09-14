@@ -1,0 +1,97 @@
+{
+    "SPADE_N_00110": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "WO 2023/075675 A1",
+                "Patent Link": "http://www.lens.org/lens/patent/WO_2023_075675_A1",
+                "Patent Type": "Patent Application",
+                "Publication Date": "2023-5-4",
+                "Family Info": "SE2151338A1,WO2023/075675A1",
+                "Patent Title": "Antibacterial Peptide",
+                "Abstract": "The present document is directed to an antimicrobial peptide, pharmaceutical and non- pharmaceutical compositions comprising an amino acid sequence as set forth in SEQ ID NO: 1 or SEQ ID NO: 2 or an amino acid sequence having at least 85% or at least 90%, sequence identity to SEQ ID NO: 1 or SEQ ID NO: 2, and medical and non- medical use the antimicrobial peptide"
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00110",
+            "Peptide Name": "Plantaricin NC8 beta peptide (PLNC8 beta; Bacteriocin)",
+            "Source": "Lactobacillus plantarum NC8 (Gram-positive bacteria)",
+            "Family": "Belongs to the class IIb bacteriocin",
+            "Gene": "plnc8B",
+            "Sequence": "SVPTSVYTLGIKILWSAYKHRKTIEKSFNKGFYH",
+            "Sequence Length": 34,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q84HW1"
+            ],
+            "Protein Existence": "Predicted",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C189H288N48O48",
+            "Mass": 4000.6,
+            "PI": 10.0,
+            "Net Charge": 7,
+            "Hydrophobicity": -0.38,
+            "Half Life": "Mammalian:1.9 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Purification and genetic characterization of plantaricin NC8, a novel coculture-inducible two-peptide bacteriocin from Lactobacillus plantarum NC8.",
+                    "Pubmed ID": "12514019",
+                    "Reference": "Appl Environ Microbiol. 2003 Jan;69(1)383-339.",
+                    "Author": "Maldonado A, Ruiz-Barba JL, Jim©nez-D­az R.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=12514019"
+                },
+                {
+                    "Title": "Induction of plantaricin production in Lactobacillus plantarum NC8 after coculture with specific Gram-positive bacteria is mediated by an autoinduction mechanism.",
+                    "Pubmed ID": "14973042",
+                    "Reference": "J Bacteriol. 2004 Mar;186(5)1556-1564.",
+                    "Author": "Maldonado A, Jim©nez-D­az R, Ruiz-Barba JL.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=14973042"
+                },
+                {
+                    "Title": "Comparative study of the pln locus of the quorum-sensing regulated bacteriocin-producing Lactobacillus plantarum J51 strain.",
+                    "Pubmed ID": "18819721",
+                    "Reference": "Int J Food Microbiol. 2008 Dec 10;128(2)390-394.",
+                    "Author": "Navarro L, Rojo-Bezares B, S¡enz Y, D­ez L, Zarazaga M, Ruiz-Larrea F, Torres C.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=18819721"
+                }
+            ],
+            "Frequent Amino Acids": "KSI",
+            "Absent Amino Acids": "CDMOQU",
+            "Basic Residues": 8,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 15,
+            "Polar Residues": 22,
+            "Positive Residues": 8,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03422",
+                    "Similarity": 1.0,
+                    "Sequence": "MNNLNKFSTLGKSSLSQIEGGSVPTSVYTLGIKILWSAYKHRKTIEKSFNKGFYH"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_13698",
+                    "Similarity": 1.0,
+                    "Sequence": "SVPTSVYTLGIKILWS"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_13699",
+                    "Similarity": 1.0,
+                    "Sequence": "VPTSVYTLGIKILWSA"
+                }
+            ]
+        }
+    }
+}

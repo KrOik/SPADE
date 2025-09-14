@@ -1,0 +1,72 @@
+{
+    "SPADE_UN_15516": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_15516",
+            "Peptide Name": "Kalata B7 [Y15S]",
+            "Source": "Synthetic",
+            "Family": "",
+            "Gene": "Not found",
+            "Sequence": "GLPVCGETCTLGTCSTQGCTCSWPICKRN",
+            "Sequence Length": 29,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Notavailable"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Target Organism": "Tumor cells:U-937/GTB (IC50>>40µM)",
+            "Hemolytic Activity": "Not available",
+            "Cytotoxicity": "Not available",
+            "Binding Target": "Not available",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C122H200N36O41S6",
+            "Mass": 3019.5,
+            "PI": 7.78,
+            "Net Charge": 1,
+            "Hydrophobicity": 0.06,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Literature": [
+                {
+                    "Title": "Bactericidal activity of cyclotides where phosphatidylethanolamine-lipid selectivity determines antimicrobial spectra",
+                    "Pubmed ID": "28669767",
+                    "Reference": "Biochim Biophys Acta Biomembr. 2017 Oct;1859(10)1986-2000",
+                    "Author": "Strömstedt AA, Park S, Burman R, Göransson U.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=28669767"
+                }
+            ],
+            "Frequent Amino Acids": "CTG",
+            "Absent Amino Acids": "ADFHMOUY",
+            "Basic Residues": 2,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 18,
+            "Positive Residues": 2,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00804",
+                    "Similarity": 0.9655172413793104,
+                    "Sequence": "GLPVCGETCTLGTCYTQGCTCSWPICKRN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15751",
+                    "Similarity": 0.9565217391304348,
+                    "Sequence": "PICKRNGLPVCGETCTLGTCYTQGCTCSW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15750",
+                    "Similarity": 0.8260869565217391,
+                    "Sequence": "PVCTRNGLPVCGETCVGGTCNTPGCTCSW"
+                }
+            ]
+        }
+    }
+}

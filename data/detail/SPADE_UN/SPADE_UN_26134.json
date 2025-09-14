@@ -1,0 +1,61 @@
+{
+    "SPADE_UN_26134": {
+        "Sequence Information": {
+            "Peptide Name": "Pep 9",
+            "Sequence": "LKKLCCKCKLKC",
+            "Sequence Length": 12,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Engineering Enhanced Antimicrobial Properties in α-Conotoxin RgIA through D-Type Amino Acid Substitution and Incorporation of Lysine and Leucine Residues.",
+                    "Pubmed ID": "38474693",
+                    "Reference": "Molecules. 2024;29:1181",
+                    "Author": "Wang M, Liao Z, Zhangsun D, Wu Y, Luo S",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/38474693"
+                }
+            ],
+            "Mass": 1410.92,
+            "PI": 9.44,
+            "Net Charge": 5,
+            "Hydrophobicity": 0.16,
+            "Frequent Amino Acids": "KCL",
+            "Absent Amino Acids": "ADEFGHIMNOPQRSTUVWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 5,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_26134",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06018",
+                    "Similarity": 1.0,
+                    "Sequence": "LLWKLLKKL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06024",
+                    "Similarity": 1.0,
+                    "Sequence": "KWLLKLLKKL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06422",
+                    "Similarity": 1.0,
+                    "Sequence": "KKLFKKILKYLKKL"
+                }
+            ],
+            "Hemolytic Activity": "Mouse erythrocytes:0.01% Hemolysis=128 µM,Human hepatocyte cells THLE-3:25% Cytotoxicity=128 µM",
+            "Target Organism": "Candida tropicalis BNCC 340288(MIC=16µM),Candida parapsilosis BNCC 336015(MIC=16µM),Bacillus subtilis BNCC 109047 (MIC=128µM),Escherichia coli BNCC 336902(MIC=>128µM)"
+        }
+    }
+}

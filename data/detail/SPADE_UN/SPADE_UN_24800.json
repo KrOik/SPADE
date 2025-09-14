@@ -1,0 +1,53 @@
+{
+    "SPADE_UN_24800": {
+        "Sequence Information": {
+            "Peptide Name": "HPIV3-F (449-484)[E459V,Q479G]-GSGSG-C(Chol)",
+            "Sequence": "VALDPIDISIVLNKAKSDLEESKEWIRRSNGKLDSIGSGSGX",
+            "Sequence Length": 42,
+            "Biological Activity": [
+                "Antiviral",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Virus entry",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P06828",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P06828",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Broad spectrum antiviral activity for paramyxoviruses is modulated by biophysical properties of fusion inhibitory peptides.",
+                    "Pubmed ID": "28344321",
+                    "Reference": "Sci Rep. 2017;7:43610",
+                    "Author": "Mathieu C, Augusto MT, Niewiesk S, Horvat B, Palermo LM, Sanna G, Madeddu S, Huey D, Castanho MA, Porotto M, Santos NC, Moscona A",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/28344321"
+                }
+            ],
+            "SPADE ID": "SPADE_UN_24800",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_10566",
+                    "Similarity": 1.0,
+                    "Sequence": "ITLNNSVALDPIDISI"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_10567",
+                    "Similarity": 1.0,
+                    "Sequence": "ITLNNSVALDPIDIS"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_24799",
+                    "Similarity": 1.0,
+                    "Sequence": "VALDPIDISIVLNKAKSDLEESKEWIRRSNGKLDSI"
+                }
+            ],
+            "Hemolytic Activity": "Vero cells:50% Cytotoxicity=10 µM",
+            "Target Organism": "Human parainfluenza virus 3 ( HPIV3)(IC50 E=0.000015±0.00007µM),Human parainfluenza virus 3 ( HPIV3)(IC90 E=0.0007±0.00026µM)"
+        }
+    }
+}

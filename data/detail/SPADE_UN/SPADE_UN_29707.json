@@ -1,0 +1,71 @@
+{
+    "SPADE_UN_29707": {
+        "Sequence Information": {
+            "Peptide Name": "Cathelicidin-1 (5-26), CATH-1 (5-26), Fowlicidin-1 (5-26)",
+            "Sequence": "VWPLVIRTVIAGYNLYRAIKKK",
+            "Sequence Length": 22,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "Q6QLQ5",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/Q6QLQ5",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                },
+                {
+                    "uniprotId": "C4PFJ7",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/C4PFJ7",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Structure-activity relationships of fowlicidin-1, a cathelicidin antimicrobial peptide in chicken",
+                    "Pubmed ID": "16817888",
+                    "Reference": "FASEB J. 2006;273:2581-2593",
+                    "Author": "Xiao Y, Dai H, Bommineni YR, Soulages JL, Gong YX, Prakash O, Zhang G",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/16817888"
+                }
+            ],
+            "Mass": 2602.17,
+            "PI": 10.56,
+            "Net Charge": 5,
+            "Hydrophobicity": 0.31,
+            "Frequent Amino Acids": "IKV",
+            "Absent Amino Acids": "CDEFHMOQSU",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 12,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_29707",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03190",
+                    "Similarity": 1.0,
+                    "Sequence": "RVKRVWPLVIRTVIAGYNLYRAIKKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08558",
+                    "Similarity": 1.0,
+                    "Sequence": "RVKRVWPLVIRTVIA"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08559",
+                    "Similarity": 1.0,
+                    "Sequence": "RVKRVWPLVIRTVIAGYNLYRAI"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=11 µM,Madin-Darby canine kidney cells:50% Cell death=9 µM",
+            "Target Organism": "Staphylococcus aureus ATCC 25923(MIC=0.6µM),Listeria monocytogenes ATCC 19115(MIC=2.4µM),Salmonella enterica subsp. enterica serovar Typhimurium ATCC 14028(MIC=2.4µM),Escherichia coli ATCC 25922(MIC=4.8µM)"
+        }
+    }
+}

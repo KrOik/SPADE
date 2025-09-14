@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_20784": {
+        "Sequence Information": {
+            "Peptide Name": "P-rpl39e (1-18)[P7I, K11I, L14K, A15I]",
+            "Sequence": "PMARNKILGKILRKIAAFK",
+            "Sequence Length": 19,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "6MI9",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "Q8ZTX6",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/Q8ZTX6",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Joker: An algorithm to insert patterns into sequences for designing antimicrobial peptides.",
+                    "Pubmed ID": "29928920",
+                    "Reference": "Biochim Biophys Acta. 2018;1862:2043-2052",
+                    "Author": "Porto WF, Fensterseifer ICM,  Ribeiro SM, Franco OL",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/29928920"
+                }
+            ],
+            "Mass": 2168.74,
+            "PI": 12.0,
+            "Net Charge": 6,
+            "Hydrophobicity": 0.06,
+            "Frequent Amino Acids": "KAI",
+            "Absent Amino Acids": "CDEHOQSTUVWY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 9,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_20784",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_20784",
+                    "Similarity": 1.0,
+                    "Sequence": "PMARNKILGKILRKIAAFK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_13048",
+                    "Similarity": 0.7777777777777778,
+                    "Sequence": "MARNKPLGKKLRLAAAFK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_20781",
+                    "Similarity": 0.7777777777777778,
+                    "Sequence": "MARNKPLGKKLRLAAAFK"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Escherichia coli ATCC 8739(MIC=8µg/ml),Staphylococcus aureus ATCC 25923(MIC=64µg/ml)"
+        }
+    }
+}

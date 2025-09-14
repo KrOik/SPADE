@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_29611": {
+        "Sequence Information": {
+            "Peptide Name": "Neutrophil defensin 1/ HNP-1 AMD(10-18, 20-28)",
+            "Sequence": "IAGERRYGTIYQGRLWAF",
+            "Sequence Length": 18,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P59665",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P59665",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Antibacterial activity of human neutrophil defensin HNP-1 analogs without cysteines",
+                    "Pubmed ID": "16251296",
+                    "Reference": "Antimicrob Agents Chemother. 2005;49:4561-4566",
+                    "Author": "Varkey J, Nagaraj R",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/16251296"
+                }
+            ],
+            "Mass": 2157.43,
+            "PI": 9.98,
+            "Net Charge": 2,
+            "Hydrophobicity": -0.37,
+            "Frequent Amino Acids": "GRA",
+            "Absent Amino Acids": "CDHKMNOPSUV",
+            "Basic Residues": 3,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 12,
+            "Positive Residues": 3,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_UN_29611",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03110",
+                    "Similarity": 1.0,
+                    "Sequence": "DIPEVVVSLAWDESLAPKHPGSRKNMDCYCRIPACIAGERRYGTCIYQGRLWAFCC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03111",
+                    "Similarity": 1.0,
+                    "Sequence": "DIPEVVVSLAWDESLAPKHPGSRKNMACYCRIPACIAGERRYGTCIYQGRLWAFCC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03148",
+                    "Similarity": 1.0,
+                    "Sequence": "ACYCRIPACIAGERRYGTCIYQGRLWAFCC"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:9% Hemolysis=20 µM,Human erythrocytes:14% Hemolysis=40 µM",
+            "Target Organism": "Escherichia coli W160-37(LC=19.0±3.0µM),Pseudomonas aeruginosa NCTC 6750(LC=23.0±3.0µM),Staphylococcus aureus NCTC 8530(LC=10.0±2.0µM)"
+        }
+    }
+}

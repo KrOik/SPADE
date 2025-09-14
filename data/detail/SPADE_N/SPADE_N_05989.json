@@ -1,0 +1,99 @@
+{
+    "SPADE_N_05989": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 10723764 B2",
+                "Patent Link": "http://www.lens.org/lens/patent/US_10723764_B2",
+                "Patent Type": "Granted Patent",
+                "Publication Date": "2020-7-28",
+                "Family Info": "US20150259382A1",
+                "Patent Title": "Anti-microbial Peptides And Methods Of Use Thereof",
+                "Abstract": "Anti-microbial peptides and methods of use are provided."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_05989",
+            "Peptide Name": "temporin G",
+            "Source": "Rana temporaria (European common frog)",
+            "Family": "Belongs to the frog skin active peptide (FSAP) family. Temporin subfamily.",
+            "Gene": "N/A",
+            "Sequence": "FFPVIGRILNGIL",
+            "Sequence Length": 13,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P79875"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Antibiofilm"
+            ],
+            "Target Organism": "[Ref.33321906] S. aureus ATCC 25923 biofilm:TG was capable of killing at least 39%, 78% and 87% at 3.12, 6.25, 12.5 and 25 µM.[Ref.22439858] Summary:TG had specific bactericidal activities against E. coli ATCC2592, M. luteus or S. cerevisiae.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "[Ref.33321906]TG was shown to be harmless against human keratinocytes at all concentrations tested with a slight cytotoxicity (~20% reduction of metabolically-active cells) at the highest active concentration",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C72H115N17O15",
+            "Mass": 1458.79,
+            "PI": 9.75,
+            "Net Charge": 1,
+            "Hydrophobicity": 1.58,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Function": "Amphipathic alpha-helical antimicrobial peptide with activity against Gram-positive bacteria (M.luteus), Gram-negative bacteria (E.coli), and fungi (S.cerevisiae) (PubMed",
+            "Literature": [
+                {
+                    "Title": "The Antimicrobial Peptide Temporin G Anti-Biofilm, Anti-Persister Activities, and Potentiator Effect of Tobramycin Efficacy Against Staphylococcus aureus.",
+                    "Pubmed ID": "33321906",
+                    "Reference": "Int J Mol Sci. 2020 Dec 10;21(24)9410. doi 10.3390/ijms21249410.",
+                    "Author": "Casciaro B, Loffredo MR, Cappiello F, Fabiano G, Torrini L, Mangoni ML",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=33321906"
+                },
+                {
+                    "Title": "A novel PCR-based method for high throughput prokaryotic expression of antimicrobial peptide genes",
+                    "Pubmed ID": "22439858",
+                    "Reference": "BMC Biotechnol. 2012 Mar 23;1210. doi 10.1186/1472-6750-12-10.",
+                    "Author": "Tao Ke, Su Liang, Jin Huang, Han Mao, Jibao Chen, Caihua Dong, Junyan Huang, Shengyi Liu, Jianxiong Kang, Dongqi Liu, Xiangdong Ma",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=22439858"
+                },
+                {
+                    "Title": "Temporins, antimicrobial peptides from the European red frog Rana temporaria.",
+                    "Pubmed ID": "",
+                    "Author": "Mangoni M.L.,Miele R.,Canofeni S.,Mignogna G.,Simmaco M."
+                }
+            ],
+            "Frequent Amino Acids": "IFG",
+            "Absent Amino Acids": "ACDEHKMOQSTUWY",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 3,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_18139",
+                    "Similarity": 0.8571428571428571,
+                    "Sequence": "RILNQILYY"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_17928",
+                    "Similarity": 0.8,
+                    "Sequence": "KYKDYFPVI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09589",
+                    "Similarity": 0.75,
+                    "Sequence": "FPVFPV"
+                }
+            ]
+        }
+    }
+}

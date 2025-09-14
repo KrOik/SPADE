@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>目标生物筛选修复测试</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        
+        .test-container {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 20px;
+            backdrop-filter: blur(10px);
+        }
+        
+        .test-section {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+        
+        .test-result {
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+            padding: 10px;
+            margin: 10px 0;
+            font-family: monospace;
+            font-size: 12px;
+        }
+        
+        .success {
+            color: #4CAF50;
+        }
+        
+        .error {
+            color: #f44336;
+        }
+        
+        button {
+            background: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        
+        button:hover {
+            background: #45a049;
+        }
+        
+        select {
+            padding: 8px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>目标生物筛选修复测试</h1>
+    
+    <div class="test-container">
+        <h2>测试配置</h2>
+        <div class="test-section">
+            <label for="targetOrganism">选择目标生物:</label>
+            <select id="targetOrganism">
+                <option value="">请选择...</option>
+                <option value="Gram-positive bacteria">革兰氏阳性菌</option>
+                <option value="Gram-negative bacteria">革兰氏阴性菌</option>
+                <option value="Yeast">酵母菌</option>
+                <option value="Fungi">真菌</option>
+                <option value="Virus">病毒</option>
+                <option value="Bacillus">芽孢杆菌</option>
+                <option value="Staphylococcus">葡萄球菌</option>
+                <option value="Escherichia coli">大肠杆菌</option>
+                <option value="Candida">念珠菌</option>
+                <option value="Listeria">李斯特菌</option>
+                <option value="Enterococcus">肠球菌</option>
+                <option value="Lactobacillus">乳酸杆菌</option>
+                <option value="Pseudomonas">假单胞菌</option>
+                <option value="Streptococcus">链球菌</option>
+                <option value="No MICs found in DRAMP database">无数据</option>
+            </select>
+            <button onclick="testFilter()">测试筛选</button>
+        </div>
+    </div>
+    
+    <div class="test-container">
+        <h2>测试结果</h2>
+        <div id="testResults"></div>
+    </div>
+    
+    <div class="test-container">
+        <h2>原始数据示例</h2>
+        <div id="sampleData"></div>
+    </div>
+
+    <script>
+        // 模拟数据
+        const sampleData = [
+            {
+                id: "SPADE_N_00001",
+                name: "Variacin",
+                target_organisms: "Gram-positive bacteria:Lactobacillus helveticus, L. bulgaricus, Lactobacillus lactis, Lactobacillus delbrueckii, Lactobacillus acidophilus, Lactobacillus plantarum, Lactobacillus sake (LSK), Lactobacillus curvatus, Leuconostoc mesenteroides, Streptococcus thermophilus, Lactococcus lactis (SL2), Enterococcus faecalis, Enterococcus faecium, Listeria innocua, Listeria monocytogenes, Listeria welhia. Note:Inhibitory activity tested with supernatant adjusted to pH 7.",
+                activity_type: ["Antimicrobial", "Antibacterial", "Anti-Gram+"]
+            },
+            {
+                id: "SPADE_N_00002",
+                name: "Nisin A",
+                target_organisms: "[Ref.21239550] Gram-positive bacteria:Staphylococcus aureus ATCC 29213 (MIC = 4-8 μg/ml),Staphylococcus aureus ATCC 43300 (MRSA)(MIC = 8 μg/ml), Enterococcus faecalis ATCC 29212(MI",
+                activity_type: ["Antibacterial", "Anti-Gram+"]
+            },
+            {
+                id: "SPADE_N_00046",
+                name: "Defensin",
+                target_organisms: "Gram-negative bacteria:Escherichia coli, Moraxella catarrhalis.Yeast:Candida albicans.",
+                activity_type: ["Antimicrobial", "Antifungal"]
+            },
+            {
+                id: "SPADE_N_00050",
+                name: "Antiviral Peptide",
+                target_organisms: "Bacillus, herpes simplex virus.",
+                activity_type: ["Antiviral"]
+            },
+            {
+                id: "SPADE_N_00017",
+                name: "Unknown Peptide",
+                target_organisms: "No MICs found in DRAMP database",
+                activity_type: ["Unknown"]
+            }
+        ];
+
+        // 应用过滤器函数（从search_advanced.html复制）
+        function applyFilter(item, filterKey, filterValue) {
+            switch (filterKey) {
+                case 'target_organisms':
+                    if (!item.target_organisms) return false;
+                    const targetOrgText = item.target_organisms.toLowerCase();
+                    const targetFilterValue = filterValue.toLowerCase();
+                    
+                    // 特殊处理无数据的情况
+                    if (filterValue === 'No MICs found in DRAMP database') {
+                        return targetOrgText.includes('no mics found in dramp database');
+                    }
+                    
+                    // 处理主要的目标生物类型
+                    if (filterValue === 'Gram-positive bacteria') {
+                        return targetOrgText.includes('gram-positive bacteria') || 
+                               targetOrgText.includes('gram-positive bacterium');
+                    }
+                    
+                    if (filterValue === 'Gram-negative bacteria') {
+                        return targetOrgText.includes('gram-negative bacteria') || 
+                               targetOrgText.includes('gram-negative bacterium');
+                    }
+                    
+                    if (filterValue === 'Yeast') {
+                        return targetOrgText.includes('yeast') || 
+                               targetOrgText.includes('candida');
+                    }
+                    
+                    if (filterValue === 'Fungi') {
+                        return targetOrgText.includes('fungi') || 
+                               targetOrgText.includes('fungal');
+                    }
+                    
+                    if (filterValue === 'Virus') {
+                        return targetOrgText.includes('virus') || 
+                               targetOrgText.includes('viral');
+                    }
+                    
+                    // 处理具体的生物名称
+                    return targetOrgText.includes(targetFilterValue);
+                
+                default:
+                    return true;
+            }
+        }
+
+        function testFilter() {
+            const selectedValue = document.getElementById('targetOrganism').value;
+            if (!selectedValue) {
+                alert('请选择一个目标生物进行测试');
+                return;
+            }
+
+            const results = sampleData.filter(item => 
+                applyFilter(item, 'target_organisms', selectedValue)
+            );
+
+            const testResultsDiv = document.getElementById('testResults');
+            testResultsDiv.innerHTML = `
+                <div class="test-section">
+                    <h3>筛选条件: ${selectedValue}</h3>
+                    <div class="test-result ${results.length > 0 ? 'success' : 'error'}">
+                        找到 ${results.length} 条匹配记录
+                    </div>
+                    ${results.map(item => `
+                        <div class="test-result">
+                            <strong>ID:</strong> ${item.id}<br>
+                            <strong>名称:</strong> ${item.name}<br>
+                            <strong>目标生物:</strong> ${item.target_organisms}<br>
+                            <strong>活性类型:</strong> ${item.activity_type.join(', ')}
+                        </div>
+                    `).join('')}
+                </div>
+            `;
+        }
+
+        // 显示样本数据
+        function showSampleData() {
+            const sampleDataDiv = document.getElementById('sampleData');
+            sampleDataDiv.innerHTML = sampleData.map(item => `
+                <div class="test-result">
+                    <strong>ID:</strong> ${item.id}<br>
+                    <strong>名称:</strong> ${item.name}<br>
+                    <strong>目标生物:</strong> ${item.target_organisms}<br>
+                    <strong>活性类型:</strong> ${item.activity_type.join(', ')}
+                </div>
+            `).join('');
+        }
+
+        // 页面加载时显示样本数据
+        window.addEventListener('load', showSampleData);
+    </script>
+</body>
+</html> 

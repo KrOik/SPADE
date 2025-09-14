@@ -1,0 +1,81 @@
+{
+    "SPADE_UN_00250": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_00250",
+            "Peptide Name": "Beta defensin 1(BD-1; mammals, animals)",
+            "Source": "Chinchilla lanigera (Long-tailed chinchilla)",
+            "Family": "Belongs to the beta-defensin family",
+            "Gene": "DEFB1",
+            "Sequence": "QRYFCRVRGGRCAALTCLPRETQIGRCSVKGRKCCR",
+            "Sequence Length": 36,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P83943"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "Gram-negative bacterium:Moraxella catarrhalis (MIC=5 µg/ml);Gram-positive bacterium:Streptococcus pneumoniae (MIC=5 µg/ml).Fungi:Candida albicans (MIC=12.5-20 µg/ml).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C169H292N64O45S6",
+            "Mass": 4132.92,
+            "PI": 10.35,
+            "Net Charge": 9,
+            "Hydrophobicity": -0.53,
+            "Half Life": "Mammalian:0.8 hourYeast:10 minE.coli:>10 hour",
+            "Function": "Has antibacterial and antifungal activity. May have a role in maintaining sterility in the middle ear.",
+            "Literature": [
+                {
+                    "Title": "Identification and characterization of a mucosal antimicrobial peptide expressed by the chinchilla (Chinchilla lanigera) airway.",
+                    "Pubmed ID": "14996845",
+                    "Reference": "J Biol Chem. 2004 May 7;279(19)20250-20256.",
+                    "Author": "Harris RH, Wilk D, Bevins CL, Munson RS Jr, Bakaletz LO.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=14996845"
+                },
+                {
+                    "Title": "Identification and characterization of mucosal antimicrobial peptides expressed by the chinchilla (Chinchilla lanigera) airway.",
+                    "Pubmed ID": "R2004J0627",
+                    "Author": "Bakaletz L.O.,Munson R.S. Jr.,Bevins C.L.,Wilk D.,Harris R.H."
+                }
+            ],
+            "Frequent Amino Acids": "RCG",
+            "Absent Amino Acids": "DHMNOUW",
+            "Basic Residues": 10,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 26,
+            "Positive Residues": 10,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_08031",
+                    "Similarity": 1.0,
+                    "Sequence": "MRIHYLLFAVLFLFLMPVPGEGGIINTIQRYFCRVRGGRCAALTCLPRETQIGRCSVKGRKCCRTRK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08145",
+                    "Similarity": 1.0,
+                    "Sequence": "GIINTIQRYFCRVRGGRCAALTCLPRETQIGRCSVKGRKCCRTRK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_19038",
+                    "Similarity": 1.0,
+                    "Sequence": "MRIHYLLFAVLFLFLMPVPGEGGIINTIQRYFCRVRGGRCAALTCLPRETQIGRCSVKGKCCRTRK"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "SPADE_N_01480": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01480",
+            "Peptide Name": "Phylloxin (Frogs, amphibians, animals)",
+            "Source": "Phyllomedusa bicolor (Two-colored leaf frog)",
+            "Family": "Belongs to the frog skin active peptide family (Dermaseptin subfamily)",
+            "Gene": "PLX",
+            "Sequence": "GWMSKIASGIGTFLSGMQQ",
+            "Sequence Length": 19,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P81565",
+                "http://www.uniprot.org/uniprot/Q9PT74"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-negative bacteria:Acholeplasma laidlawii A-PG8 (MIC=12.5 µM), Spiroplasma melliferum BC3 (MIC=50 µM), Rhizobium meliloti 102F34 (MIC=12.5 µM), Escherichia coli K12 (MIC=10 µM);Gram-positive bacteria:Bacillus megaterium KM (MIC=3.12 µM), Corynebacterium glutamicum ATCC 27853 (MIC=1.56 µM), Micrococcus luteus ATCC 27853 (MIC=3.0 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C88H139N23O26S2",
+            "Mass": 1999.31,
+            "PI": 8.75,
+            "Net Charge": 1,
+            "Hydrophobicity": 0.25,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Antimicrobial peptide against the Gram-positive bacteria and the Gram-negative-bacteria.",
+            "Tissue specificity": "Expressed by the skin glands.",
+            "PTM": "C-terminal amidation.",
+            "Literature": [
+                {
+                    "Title": "Phylloxin, a novel peptide antibiotic of the dermaseptin family of antimicrobial/opioid peptide precursors.",
+                    "Pubmed ID": "10632707",
+                    "Reference": "Eur J Biochem. 2000 Jan;267(2)370-378.",
+                    "Author": "Pierre TN, Seon AA, Amiche M, Nicolas P.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=10632707"
+                }
+            ],
+            "Frequent Amino Acids": "GSI",
+            "Absent Amino Acids": "CDEHNOPRUVY",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 8,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_08072",
+                    "Similarity": 1.0,
+                    "Sequence": "MVFLKKSLLLVLFVGLVSLSICEENKREEHEEIEENKEKAEEKRGWMSKIASGIGTFLSGMQQG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01481",
+                    "Similarity": 0.9473684210526315,
+                    "Sequence": "GWMSKIASGIGTFLSGVQQG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11586",
+                    "Similarity": 0.5714285714285714,
+                    "Sequence": "KIAGKIAKKAGKIAKIA"
+                }
+            ]
+        }
+    }
+}

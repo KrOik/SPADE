@@ -1,0 +1,90 @@
+{
+    "SPADE_N_03290": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03290",
+            "Peptide Name": "Peptide BmKb1 (Non-disulfide-bridged peptide 4.2, NDBP-4.2; Arthropods, animals)",
+            "Source": "Mesobuthus martensii (Manchurian scorpion)",
+            "Family": "Not found",
+            "Gene": "Kb1",
+            "Sequence": "FLFSLIPSAISGLISAFK",
+            "Sequence Length": 18,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q718F4",
+                "http://www.uniprot.org/uniprot/Q2M5D6Q95P85"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-positive bacteria:Staphylococcus aureus (MIC=16 µg/ml), Micrococcus luteus(MIC=81.5 µg/ml), Bacillus subtilis (MIC=48.8 µg/ml);Gram-negative bacteria:Escherichia coli (MIC=18.1 µg/ml), Pseudomonas aeruginosa (MIC=90.8 µg/ml).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Cell membrane (Forms a helical membrane channel in the prey)",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C94H147N19O23",
+            "Mass": 1911.29,
+            "PI": 8.75,
+            "Net Charge": 1,
+            "Hydrophobicity": 1.54,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Function": "Has antibacterial activity against Gram-positive bacteria and Gram-negative bacteria.",
+            "Tissue specificity": "Expressed by the venom gland.",
+            "PTM": "C-terminal amidation.",
+            "Literature": [
+                {
+                    "Title": "Identification and functional characterization of novel scorpion venom peptides with no disulfide bridge from Buthus martensii Karsch.",
+                    "Pubmed ID": "15062994",
+                    "Reference": "Peptides. 2004 Feb;25(2)143-150.",
+                    "Author": "Zeng XC, Wang SX, Zhu Y, Zhu SY, Li WX.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=15062994"
+                },
+                {
+                    "Title": "Genomic organization of four novel nondisulfide-bridged peptides from scorpion Mesobuthus martensii Karsch gaining insight into evolutionary mechanism.",
+                    "Pubmed ID": "16040157",
+                    "Reference": "Peptides. 2005 Dec;26(12)2427-2433.",
+                    "Author": "Luo F, Zeng XC, Hahin R, Cao ZJ, Liu H, Li WX.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16040157"
+                },
+                {
+                    "Title": "Genomic organization of four novel nondisulfide-bridged peptides from scorpion Mesobuthus martensii Karsch: gaining insight into evolutionary mechanism.",
+                    "Pubmed ID": "R2005J0578",
+                    "Author": "Liu H.,Cao Z.-J.,Hahin R.,Zeng X.-C.,Luo F."
+                }
+            ],
+            "Frequent Amino Acids": "SFI",
+            "Absent Amino Acids": "CDEHMNOQRTUVWY",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 7,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01425",
+                    "Similarity": 1.0,
+                    "Sequence": "MEIKYLLTVFLVLLIVSDHCQAFLFSLIPSAISGLISAFKGRRKRDLNGQIDHFKNFRKRDAELEELLSKLPIY"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01438",
+                    "Similarity": 1.0,
+                    "Sequence": "MEIKYLLTVFLVLLIVSDHCQAFLFSLIPSAISGLISAFKGKRRRDLNAQIDQFKNFRKRDAELEELLSKLPIY"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14712",
+                    "Similarity": 1.0,
+                    "Sequence": "FLFSLIPSAISGLISAFKGRRKRDLN"
+                }
+            ]
+        }
+    }
+}

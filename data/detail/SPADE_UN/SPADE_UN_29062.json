@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_29062": {
+        "Sequence Information": {
+            "Peptide Name": "ApoE11",
+            "Sequence": "CLRKLRKRLLC",
+            "Sequence Length": 11,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P02649",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P02649",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "An apolipoprotein E mimetic peptide with activities against multidrug-resistant bacteria and immunomodulatory effects.",
+                    "Pubmed ID": "24243597",
+                    "Reference": "J Pept Sci. 2013;19:745-750",
+                    "Author": "Wang CQ, Yang CS, Yang Y, Pan F, He LY, Wang AM",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/24243597"
+                }
+            ],
+            "Mass": 1401.83,
+            "PI": 10.93,
+            "Net Charge": 5,
+            "Hydrophobicity": -0.1,
+            "Frequent Amino Acids": "LRC",
+            "Absent Amino Acids": "ADEFGHIMNOPQSTUVWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 5,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_29062",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03707",
+                    "Similarity": 1.0,
+                    "Sequence": "RTCFYGLGKCRRICRANEKKKERCGERTFCCLR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04008",
+                    "Similarity": 1.0,
+                    "Sequence": "RICGYGTARCRKKCRSQEYRIGRCPNTYACCLRK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07289",
+                    "Similarity": 1.0,
+                    "Sequence": "LCLR"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=24µg/ml),Pseudomonas aeruginosa ATCC 27853(MIC=>32µg/ml),Staphylococcus aureus ATCC 29213(MIC=>32µg/ml),Enterococcus faecalis ATCC 29212(MIC=>32µg/ml),Acinetobacter baumannii(MIC=>32µg/ml)"
+        }
+    }
+}

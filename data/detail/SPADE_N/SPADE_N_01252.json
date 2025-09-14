@@ -1,0 +1,76 @@
+{
+    "SPADE_N_01252": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01252",
+            "Peptide Name": "Frenatin-1 (Frogs, amphibians, animals)",
+            "Source": "Litoria infrafrenata (Giant tree frog) (White-lipped tree frog)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "GLLDALSGILGL",
+            "Sequence Length": 12,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P82021"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+"
+            ],
+            "Target Organism": "Gram-positive bacteria:Micrococcus luteus (MIC=25 µg/ml).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C52H92N12O16",
+            "Mass": 1141.36,
+            "PI": 4.05,
+            "Net Charge": -1,
+            "Hydrophobicity": 1.65,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Wide spectrum antimicrobial peptide. Considered to interact with the outer lipid layer of the bacterial cell, penetrate the bacterial membrane, form ion channels, and ultimately kill the cell.",
+            "Tissue specificity": "Expressed by the skin parotoid and/or rostral glands.",
+            "PTM": "C-terminal amidation.",
+            "Literature": [
+                {
+                    "Title": "The structures of the frenatin peptides from the skin secretion of the giant tree frog Litoria infrafrenata.",
+                    "Pubmed ID": "9225251",
+                    "Reference": "J Pept Sci. 1996 Mar-Apr;2(2)117-124.",
+                    "Author": "Raftery MJ, Waugh RJ, Bowie JH, Wallace JC, Tyler MJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=9225251"
+                }
+            ],
+            "Frequent Amino Acids": "LGA",
+            "Absent Amino Acids": "CEFHKMNOPQRTUVWY",
+            "Basic Residues": 0,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 2,
+            "Positive Residues": 0,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_05416",
+                    "Similarity": 1.0,
+                    "Sequence": "MDGFESTVKVGVKHTQYEELRDLKQRGETFDDVIRRLLDAHKSLKSIGLLD"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15658",
+                    "Similarity": 1.0,
+                    "Sequence": "AGLLDILGL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15684",
+                    "Similarity": 1.0,
+                    "Sequence": "ILGLVISTIGNVLGGLLKNL"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,88 @@
+{
+    "SPADE_N_15247": {
+        "Sequence Information": {
+            "Peptide Name": "Bacteriocin LFX01",
+            "Sequence": "ITGGPAVVHQA",
+            "Sequence Length": 11,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antibiofilm"
+            ],
+            "Binding Target": "1. Lipid Bilayer\n2. DNA / RNA",
+            "Source": "1. Lactiplantibacillus plantarum LF-8\n2. Lentilactobacillus diolivorans\n3. Levilactobacillus brevis\n4. Secundilactobacillus kimchicus\n5. Bombilactobacillus mellifer",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "A0A0R1RZZ8",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/A0A0R1RZZ8",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                },
+                {
+                    "uniprotId": "Q03Q42",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/Q03Q42",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                },
+                {
+                    "uniprotId": "A0A0R1HUV4",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/A0A0R1HUV4",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                },
+                {
+                    "uniprotId": "A0A0F4LVD8",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/A0A0F4LVD8",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "A Novel Bacteriocin Against Shigella flexneri From Lactiplantibacillus plantarum Isolated From Tilapia Intestine: Purification, Antibacterial Properties and Antibiofilm Activity.",
+                    "Pubmed ID": "35069481",
+                    "Reference": "Front Microbiol. 2022;12:779315",
+                    "Author": "Jiang YH, Xin WG, Zhang QL, Lin LB, Deng XY",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/35069481"
+                },
+                {
+                    "Title": "Antibacterial activity and mechanism of action of bacteriocin LFX01 against Staphylococcus aureus and Escherichia coli and its application on pork model.",
+                    "Pubmed ID": "36434981",
+                    "Reference": "Meat Sci. 2023;196:109045",
+                    "Author": "Xin WG, Wu G, Ying JP, Xiang YZ, Jiang YH, Deng XY, Lin LB, Zhang QL",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/36434981"
+                }
+            ],
+            "Mass": 1049.18,
+            "PI": 6.74,
+            "Net Charge": 1,
+            "Hydrophobicity": 0.61,
+            "Frequent Amino Acids": "AGV",
+            "Absent Amino Acids": "CDEFKLMNORSUWY",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 6,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_N_15247",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_13677",
+                    "Similarity": 1.0,
+                    "Sequence": "FFGHLLRGIVSVGKHIHGLITG"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_18727",
+                    "Similarity": 1.0,
+                    "Sequence": "ITGGPAVVHQA"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_22272",
+                    "Similarity": 1.0,
+                    "Sequence": "KQLSSNFGAISSVLNDILSRLDKVEAEVQIDRLITG"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Shigella flexneri(MIC=12.5µg/ml),Staphylococcus aureus(MIC=12.36µg/ml),Escherichia coli(MIC=16.17µg/ml)"
+        }
+    }
+}

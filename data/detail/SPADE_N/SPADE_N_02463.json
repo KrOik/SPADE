@@ -1,0 +1,97 @@
+{
+    "SPADE_N_02463": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 2005/0260715 A1",
+                "Patent Link": "http://www.lens.org/lens/patent/US_2005_0260715_A1",
+                "Patent Type": "Patent Application",
+                "Publication Date": "2005-11-24",
+                "Family Info": "US6946261",
+                "Patent Title": "Efficient methods for producing antimicrobial cationic peptides in host cells.",
+                "Abstract": "Endogenously produced cationic antimicrobial peptides are ubiquitous components of host defenses in mammals, birds, amphibia, insects, and plants. Cationic peptides are also effective when administered as therapeutic agents. A practical drawback in cationic peptide therapy, however, is the cost of producing the agents. The methods described herein provide a means to efficiently produce cationic peptides from recombinant host cells. These recombinantly-produced cationic peptides can be rapidly purified from host cell proteins using anion exchange chromatography."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02463",
+            "Peptide Name": "Cathelicidin-3 (Bactenecin-7, Bac7; PR-59; mammals, animals)",
+            "Source": "Bos taurus (Bovine)",
+            "Family": "Belongs to the cathelicidin family",
+            "Gene": "CATHL3",
+            "Sequence": "RRIRPRPPRLPRPRPRPLPFPRPGPRPIPRPLPFPRPGPRPIPRPLPFPRPGPRPIPRP",
+            "Sequence Length": 59,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P19661",
+                "http://www.uniprot.org/uniprot/A5PJ95"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-negative bacterium:Escherichia coli.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C323H526N110O60",
+            "Mass": 6910.33,
+            "PI": 12.0,
+            "Net Charge": 17,
+            "Hydrophobicity": -1.37,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Function": "Exerts, in vitro, a potent antimicrobial activity. Probably due to an impairment of the function of the respiratory chain and of energy-dependent activities in the inner membrane of susceptible microorganisms.",
+            "Tissue specificity": "Large granules of neutrophils.",
+            "PTM": "Contains two disulfide bonds.",
+            "Literature": [
+                {
+                    "Title": "Amino acid sequences of two proline-rich bactenecins. Antimicrobial peptides of bovine neutrophils.",
+                    "Pubmed ID": "2229048",
+                    "Reference": "J Biol Chem. 1990 Nov 5;265(31)18871-18874.",
+                    "Author": "Frank RW, Gennaro R, Schneider K, Przybylski M, Romeo D.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=2229048"
+                },
+                {
+                    "Title": "Molecular cloning of Bac7, a proline- and arginine-rich antimicrobial peptide from bovine neutrophils.",
+                    "Pubmed ID": "",
+                    "Author": "Zanetti M.,Romeo D.,Scocchi M."
+                },
+                {
+                    "Title": "Purification and structural characterization of bovine cathelicidins, precursors of antimicrobial peptides.",
+                    "Pubmed ID": "",
+                    "Author": "Romeo D.,Lenarcic B.,Tossi A.,Storici P."
+                }
+            ],
+            "Frequent Amino Acids": "PRI",
+            "Absent Amino Acids": "ACDEHKMNOQSTUVWY",
+            "Basic Residues": 17,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 39,
+            "Polar Residues": 17,
+            "Positive Residues": 17,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_05739",
+                    "Similarity": 1.0,
+                    "Sequence": "RRIRPRPPRLPRPRPRPLPFPRPGPRPIPRPLPFPRPGPRPIPRPLPFPRPGPRPIPRPL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07423",
+                    "Similarity": 1.0,
+                    "Sequence": "RRIRPRPPRLPRPRPRPLPFPRPGPRPIPRPLPFPRPGPRPIPRPLPFPRPGPRP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09653",
+                    "Similarity": 1.0,
+                    "Sequence": "RRIRPRPPRLPRPRPRPL"
+                }
+            ]
+        }
+    }
+}

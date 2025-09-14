@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_25521": {
+        "Sequence Information": {
+            "Peptide Name": "Syphaxin [D4E,N23K]",
+            "Sequence": "GVLEILKGAAKDLAGHVATKVIKKI",
+            "Sequence Length": 25,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P85279",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P85279",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Discovering highly potent antimicrobial peptides with deep generative model HydrAMP.",
+                    "Pubmed ID": "36922490",
+                    "Reference": "Nat Commun. 2023;14:1453",
+                    "Author": "Szymczak P, Możejko M, Grzegorzek T, Jurczak R, Bauer M, Neubauer D, Sikora K, Michalski M, Sroka J, Setny P, Kamysz W, Szczurek E",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/36922490"
+                }
+            ],
+            "Mass": 2573.13,
+            "PI": 9.83,
+            "Net Charge": 4,
+            "Hydrophobicity": 0.52,
+            "Frequent Amino Acids": "KAG",
+            "Absent Amino Acids": "CFMNOPQRSUWY",
+            "Basic Residues": 6,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 12,
+            "Positive Residues": 6,
+            "Negative Residues": 2,
+            "SPADE ID": "SPADE_UN_25521",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_25522",
+                    "Similarity": 0.96,
+                    "Sequence": "GVLEILKSAAKDLAGHVATKVIKKI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01101",
+                    "Similarity": 0.9545454545454546,
+                    "Sequence": "GVLDILKGAAKDLAGHVATKVI"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_28648",
+                    "Similarity": 0.9545454545454546,
+                    "Sequence": "GVLDILKGAAKDLAGHVATKVI"
+                }
+            ],
+            "Hemolytic Activity": "Sheep erythrocytes:50% Hemolysis=>512 µg/ml",
+            "Target Organism": "Staphylococcus aureus ATCC 33591(MIC=>512µg/ml),Staphylococcus aureus ATCC 33591(MBC=>512µg/ml),Escherichia coli ATCC 25922(MIC=256µg/ml),Escherichia coli ATCC 25922(MBC=512µg/ml),Escherichia coli ATCC 43827(MIC=512µg/ml),Escherichia coli ATCC 43827(MBC=512µg/ml),Acinetobacter baumannii ATCC BAA-1605(MIC=64µg/ml),Acinetobacter baumannii ATCC BAA-1605(MBC=64µg/ml),Pseudomonas aeruginosa ATCC 9027(MIC=>512µg/ml),Pseudomonas aeruginosa ATCC 9027(MBC=>512µg/ml)"
+        }
+    }
+}

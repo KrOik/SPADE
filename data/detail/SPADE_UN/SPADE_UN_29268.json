@@ -1,0 +1,75 @@
+{
+    "SPADE_UN_29268": {
+        "Sequence Information": {
+            "Peptide Name": "Endochitinase CHI (221-230), PepKAA",
+            "Sequence": "KAANRIKYFQ",
+            "Sequence Length": 10,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antiviral",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer\n2. Sgp",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "O24603",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/O24603",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Synthetic antimicrobial peptides: From choice of the best sequences to action mechanisms.",
+                    "Pubmed ID": "32534825",
+                    "Reference": "Biochimie. 2020;175:132-145",
+                    "Author": "Souza PFN, Marques LSM, Oliveira JTA, Lima PG, Dias LP, Neto NAS, Lopes FES, Sousa JS, Silva AFB, Caneiro RF, Lopes JLS, Ramos MV, Freitas CDT",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/32534825"
+                },
+                {
+                    "Title": "Neutralizing Effect of Synthetic Peptides toward SARS-CoV-2.",
+                    "Pubmed ID": "35530749",
+                    "Reference": "ACS Omega. 2022;7:16222-16234",
+                    "Author": "Souza PFN, vanTilburg MF, Mesquita FP, Amaral JL, Lima LB, Montenegro RC, Lopes FES, Martins RX, Vieira L, Farias DF, Monteiro-Moreira ACO, Freitas CDT, Bezerra AS, Guedes MIF, Castelo-Branco DSCM, Oliveira JTA",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/35530749"
+                }
+            ],
+            "Mass": 1238.44,
+            "PI": 10.29,
+            "Net Charge": 3,
+            "Hydrophobicity": -0.97,
+            "Frequent Amino Acids": "AKF",
+            "Absent Amino Acids": "CDEGHLMOPSTUVW",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 4,
+            "Polar Residues": 6,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_29268",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06020",
+                    "Similarity": 1.0,
+                    "Sequence": "KAAAKAAKAA"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06677",
+                    "Similarity": 1.0,
+                    "Sequence": "FAKLLAKLAKKAA"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08374",
+                    "Similarity": 1.0,
+                    "Sequence": "KLALKAAAKAWKAAAKAA"
+                }
+            ],
+            "Hemolytic Activity": "Rabbit erythrocytes:4% Hemolysis=500 µg/ml",
+            "Target Organism": "Klebsiella pneumoniae ATCC 10031(0-10% Inhibition=50µg/ml),Staphylococcus aureus ATCC 25923(0-10% Inhibition=50µg/ml),Bacillus subtilis ATCC 6633(0-10% Inhibition=50µg/ml),Salmonella enterica subsp. enterica serovar Typhimurium ATCC 14028(0-10% Inhibition=50µg/ml),Klebsiella aerogenes ATCC 13048(no activity data),Escherichia coli ATCC 8739(no activity data),Pseudomonas aeruginosa ATCC 25619(no activity data),Candida albicans ATCC 10231(no activity data),Candida krusei ATCC 6258(80-90% Inhibition=50µg/ml),Candida parapsilosis ATCC 22019(no activity data),Candida tropicalis(no activity data),Trichophyton mentagrophytes(90-100% Inhibition=50µg/ml),Trichophyton rubrum(10-20% Inhibition=50µg/ml),SARS-CoV-2(EC50=40µg/ml)"
+        }
+    }
+}

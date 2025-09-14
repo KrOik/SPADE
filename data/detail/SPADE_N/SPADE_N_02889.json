@@ -1,0 +1,90 @@
+{
+    "SPADE_N_02889": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02889",
+            "Peptide Name": "Protein S100-A8 (Calgranulin-A; MRP-8; Rodents, mammals, animals)",
+            "Source": "Mus musculus (Mouse)",
+            "Family": "Belongs to the S-100 family",
+            "Gene": "S100a8",
+            "Sequence": "PSELEKALSNLIDVYHNYSNIQGNHHALYKNDFKKMVTTECPQFVQNINIENLFRELDINSDNAINFEEFLAMVIKVGVASHKDSHKE",
+            "Sequence Length": 88,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P27005",
+                "http://www.uniprot.org/uniprot/P31724"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Antifungal"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Metal-binding",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C451H696N122O140S3",
+            "Mass": 10163.28,
+            "PI": 5.44,
+            "Net Charge": 0,
+            "Hydrophobicity": -0.5,
+            "Half Life": "Mammalian:>20 hourYeast:>20 hourE.coli:?",
+            "Function": "Has antimicrobial activity towards bacteria and fungi and exerts its antimicrobial activity probably via chelation of Zn2+ which is essential for microbial growth. Can induce cell death via autophagy and apoptosis and this occurs through the cross-talk of mitochondria and lysosomes via reactive oxygen species (ROS) and the process involves BNIP3. Can regulate neutrophil number and apoptosis by an anti-apoptotic effect. Death at an early embryonic stage due to embryo resorption, starting about 8 days after fertilization.",
+            "Miscellaneous": "Binds two calcium ions per molecule with an affinity similar to that of the S100 proteins (By similarity).",
+            "Literature": [
+                {
+                    "Title": "Mouse MRP8 and MRP14, two intracellular calcium-binding proteins associated with the development of the myeloid lineage.",
+                    "Pubmed ID": "1373330",
+                    "Reference": "Blood. 1992 Apr 15;79(8)1907-15.",
+                    "Author": "Lagasse E, Weissman IL.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=1373330"
+                },
+                {
+                    "Title": "Mrp8 and Mrp14 are endogenous activators of Toll-like receptor 4, promoting lethal, endotoxin-induced shock.",
+                    "Pubmed ID": "17767165",
+                    "Reference": "Nat Med. 2007 Sep;13(9)1042-9.",
+                    "Author": "Vogl T, Tenbrock K, Ludwig S, Leukert N, Ehrhardt C, van Zoelen MA, Nacken W, Foell D, van der Poll T, Sorg C, Roth J.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=17767165"
+                },
+                {
+                    "Title": "S100A8 and S100A9 mediate endotoxin-induced cardiomyocyte dysfunction via the receptor for advanced glycation end products.",
+                    "Pubmed ID": "18403730",
+                    "Reference": "Circ Res. 2008 May 23;102(10)1239-46.",
+                    "Author": "Boyd JH, Kan B, Roberts H, Wang Y, Walley KR.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=18403730"
+                }
+            ],
+            "Frequent Amino Acids": "NEI",
+            "Absent Amino Acids": "OUW",
+            "Basic Residues": 13,
+            "Acidic Residues": 13,
+            "Hydrophobic Residues": 37,
+            "Polar Residues": 50,
+            "Positive Residues": 13,
+            "Negative Residues": 13,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03023",
+                    "Similarity": 0.7954545454545454,
+                    "Sequence": "ATELEKALSNVIEVYHNYSGIKGNHHALYRDDFRKMVTTECPQFVQNKNTESLFKELDVNSDNAINFEEFLVLVIRVGVAAHKDSHKE"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03180",
+                    "Similarity": 0.5795454545454546,
+                    "Sequence": "MLTELEKALNSIIDVYHKYSLIKGNFHAVYRDDLKKLLETECPQYIRKKGADVWFKELDINTDGAVNFQEFLILVIKMGVAAHKKSHEESHKE"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02443",
+                    "Similarity": 0.5227272727272727,
+                    "Sequence": "MLTDLECAINSLIDVYHKYSLKKGNYHAVYRDDLKQLLETECPKFMKKKDADTWFKELDINQDGGINFEEFLVLVIKVGLEAHEEIHKE"
+                }
+            ]
+        }
+    }
+}

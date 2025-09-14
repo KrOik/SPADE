@@ -1,0 +1,76 @@
+{
+    "SPADE_UN_14471": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_14471",
+            "Peptide Name": "IQ22N17",
+            "Source": "Synthetic construct",
+            "Family": "Retroviridae",
+            "Gene": "Not found",
+            "Sequence": "KIEEIESKQKKIENEIARIKKLLQLTVWGIKQLQARIL",
+            "Sequence Length": 38,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antiviral"
+            ],
+            "Target Organism": "[Ref.11572974]HIV-1:inhibition of cell-cell fusion between 293T cells and  HOS-CD4/fusion cells(IC50=1.4±0.3 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information or data found in the reference(s) presented in this entry",
+            "Binding Target": "membrane",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Acetylation",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C206H359N57O56",
+            "Mass": 4530.4,
+            "PI": 9.87,
+            "Net Charge": 4,
+            "Hydrophobicity": -0.42,
+            "Half Life": "Mammalian:1.3 hourYeast:3 minE.coli:2 min",
+            "Mechanism of action": "The peptide inhibits HIV-1 entry by inhibiting the fusion between virus and cell membrane.",
+            "Literature": [
+                {
+                    "Title": "Design of potent inhibitors of HIV-1 entry from the gp41 N-peptide region.",
+                    "Pubmed ID": "11572974",
+                    "Reference": "Proc Natl Acad Sci U S A. 2001 Sep 25;98(20)11187-92.",
+                    "Author": "Eckert DM, Kim PS.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=11572974"
+                },
+                {
+                    "Title": "Design of potent inhibitors of HIV-1 entry from the gp41 n-peptide region",
+                    "Pubmed ID": "",
+                    "Author": "Eckert DM, Kim PS"
+                }
+            ],
+            "Frequent Amino Acids": "IKE",
+            "Absent Amino Acids": "CDFHMOPUY",
+            "Basic Residues": 9,
+            "Acidic Residues": 5,
+            "Hydrophobic Residues": 16,
+            "Polar Residues": 19,
+            "Positive Residues": 9,
+            "Negative Residues": 5,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_10717",
+                    "Similarity": 1.0,
+                    "Sequence": "RMKQIEDKIEEIESKQKKIENEIARIKKLLQLTVWGIKQLQARIL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_10718",
+                    "Similarity": 1.0,
+                    "Sequence": "RMKQIEDKIEEIESKQKKIENEIARIKKLIEAQQHLLQLTVWGIKQLQARIL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_10719",
+                    "Similarity": 1.0,
+                    "Sequence": "RMKQIEDKIEEIESKQKKIENEIARIKKLISGIVQQQNNLLRAIEAQQHLLQLTVWGIKQLQARIL"
+                }
+            ]
+        }
+    }
+}

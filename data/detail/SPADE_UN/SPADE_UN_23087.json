@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_23087": {
+        "Sequence Information": {
+            "Peptide Name": "SARS-CoV-2-S(1168–1203)-GSGSGC",
+            "Sequence": "DISGINASVVNIQKEIDRLNEVAKNLNESLIDLQELGSGSGX",
+            "Sequence Length": 42,
+            "Biological Activity": [
+                "Antiviral",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Virus entry",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P0DTC2",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P0DTC2",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Intranasal  fusion  inhibitory  lipopeptide  prevents  direct  contact  SARS-CoV-2 transmission in ferrets",
+                    "Pubmed ID": "",
+                    "Reference": "bioRxiv. 2020;doi.org/10.1101/2020.11.04.361154:",
+                    "Author": "de Vries RD, Schmitz KS, Bovier FT, Noack D, Haagmans BL, Biswas S, Rockx B, Gellman SH, Alabi CA, de Swart RL, Moscona A, Porotto M",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/"
+                },
+                {
+                    "Title": "Inhibition of Coronavirus Entry In Vitro and Ex Vivo by a Lipid-Conjugated Peptide Derived from the SARS-CoV-2 Spike Glycoprotein HRC Domain.",
+                    "Pubmed ID": "33082259 ",
+                    "Reference": "MBio. 2020;11:e01935-20",
+                    "Author": "Outlaw VK, Bovier FT, Mears MC, Cajimat MN, Zhu Y, Lin MJ, Addetia A, Lieberman NAP, Peddu V, Xie X, Shi PY, Greninger AL, Gellman SH, Bente DA, Moscona A, Porotto M",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/33082259 "
+                }
+            ],
+            "SPADE ID": "SPADE_UN_23087",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_13518",
+                    "Similarity": 1.0,
+                    "Sequence": "DISGINASVVNIQKEIDRLNEVAKNLNESLIDLQEL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_13540",
+                    "Similarity": 1.0,
+                    "Sequence": "DISGINASVVNIQKEIDRLNEVAKNLNESLIDLQELGSGSGC"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_13829",
+                    "Similarity": 1.0,
+                    "Sequence": "GDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQELG"
+                }
+            ],
+            "Hemolytic Activity": "Human embryonic kidney HEK293T cells:18% Cytotoxicity=10 µM,Vero E6 cells:12% Cytotoxicity=1 µM,Vero E6 cells:30% Cytotoxicity=10 µM,Human airway epithelial cells:25% Cytotoxicity=1 µM",
+            "Target Organism": "SARS-CoV-2(IC50 F=0.01±0.008µM),SARS-CoV-2(IC90 F=0.098±0.057µM),SARS-CoV-2 D614G(IC50 F=0.008±0.004µM),SARS-CoV-2 D614G(IC90 F=0.096±0.05µM),SARS-CoV-2 S943P(IC50 F=0.006±0.004µM),SARS-CoV-2 S943P(IC90 F=0.075±0.042µM),SARS-CoV-2 S247R(IC50 F=0.009±0.007µM),SARS-CoV-2 S247R(IC90 F=0.078±0.059µM),MERS-CoV(IC50 F=0.035±0.012µM),MERS-CoV(IC90 F=>1µM),SARS-CoV(IC50 F=0.007±0.005µM),SARS-CoV(IC90 F=0.043±0.006µM),SARS-CoV-2(IC50 I=0.006µM),MERS-CoV(IC50 I=0.003µM)"
+        }
+    }
+}

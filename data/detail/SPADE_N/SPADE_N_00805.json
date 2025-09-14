@@ -1,0 +1,93 @@
+{
+    "SPADE_N_00805": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00805",
+            "Peptide Name": "Kalata-B8 (Plant defensin)",
+            "Source": "Oldenlandia affinis",
+            "Family": "Belongs to the cyclotide family",
+            "Gene": "Not found",
+            "Sequence": "GSVLNCGETCLLGTCYTTGCTCNKYRVCTKD",
+            "Sequence Length": 31,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P85175"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antiviral"
+            ],
+            "Target Organism": "[Ref.16207177]Virus:Human T-lymphoblast (CEM-SS) cells (EC50=2.5 µM).[Ref.18008336]Virus:HIV:inhibition the cytopathic effects of HIV-1 infection in cultured human T-lymphoblast (CEM-SS) cells(EC50=2500 nM).",
+            "Hemolytic Activity": "[Ref.20564013] It produced 7% hemolysis at the 62μM.",
+            "Cytotoxicity": "[Ref.16207177] Kalata B8 inhibited the cytopathic effects of HIV-1 infection in cultured human T-lymphoblast (CEM-SS) cells with an antiviral cytoprotective concentration (EC50) of approx. 2.5 μM, while the cytotoxic concentration (IC50) was >11 μM.[Ref.18008336]CEM-SS cells:IC50>11000 nM.",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Cyclization (N termini to C termini)",
+            "C-terminal Modification": "Cyclization (C termini to N termini)",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C134H220N38O47S6",
+            "Mass": 3307.8,
+            "PI": 7.77,
+            "Net Charge": 1,
+            "Hydrophobicity": -0.02,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Probably participates in a plant defense mechanism. Inhibits the cytopathic effects of the human immunodeficiency virus. Has no hemolytic activity.",
+            "PTM": "Kalata-B8 is a cyclic peptide which contains three disulfide bonds 6-20; 10-22; 15-28.",
+            "Literature": [
+                {
+                    "Title": "Cyclotides as natural anti-HIV agents.",
+                    "Pubmed ID": "18008336",
+                    "Reference": "Biopolymers. 2008;90(1)51-60.",
+                    "Author": "Ireland DC, Wang CK, Wilson JA, Gustafson KR, Craik DJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=18008336"
+                },
+                {
+                    "Title": "Kalata B8, a novel antiviral circular protein, exhibits conformational flexibility in the cystine knot motif.",
+                    "Pubmed ID": "16207177",
+                    "Reference": "Biochem J. 2006 Feb 1;393(Pt 3)619-626.",
+                    "Author": "Daly NL, Clark RJ, Plan MR, Craik DJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16207177"
+                },
+                {
+                    "Title": "The cyclotide fingerprint in Oldenlandia affinis elucidation of chemically modified, linear and novel macrocyclic peptides.",
+                    "Pubmed ID": "17534989",
+                    "Reference": "Chembiochem. 2007 Jun 18;8(9)1001-1011.",
+                    "Author": "Plan MR, Göransson U, Clark RJ, Daly NL, Colgrave ML, Craik DJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=17534989"
+                },
+                {
+                    "Title": "The cyclotide fingerprint in Oldenlandia affinis: elucidation of chemically modified, linear and novel macrocyclic peptides.",
+                    "Pubmed ID": "R2007J1382",
+                    "Author": "Colgrave M.L.,Daly N.L.,Clark R.J.,Goeransson U.,Plan M.R.R."
+                }
+            ],
+            "Frequent Amino Acids": "CTG",
+            "Absent Amino Acids": "AFHIMOPQUW",
+            "Basic Residues": 3,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 22,
+            "Positive Residues": 3,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00806",
+                    "Similarity": 0.8709677419354839,
+                    "Sequence": "GSVFNCGETCVLGTCYTPGCTCNTYRVCTKD"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06926",
+                    "Similarity": 0.68,
+                    "Sequence": "CGETCTLGTCYTAGCSCSWPVCTRNGVPI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06794",
+                    "Similarity": 0.6666666666666666,
+                    "Sequence": "GSVIKCGESCLLGKCYTPGCTCSRPICKKD"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_19213": {
+        "Sequence Information": {
+            "Peptide Name": "Tat (47–57)",
+            "Sequence": "YGRKKRRQRRR",
+            "Sequence Length": 11,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P04612",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P04612",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Comparative analysis of internalisation, haemolytic, cytotoxic and antibacterial effect of membrane-active cationic peptides: aspects of experimental setup.",
+                    "Pubmed ID": "28314993",
+                    "Reference": "Amino Acids. 2017;49:1053-1067",
+                    "Author": "Horváti K, Bacsa B, Mlinkó T, Szabó N, Hudecz F, Zsila F, Bosze S",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/28314993"
+                },
+                {
+                    "Title": "Penetratin analogues acting as antifungal agents.",
+                    "Pubmed ID": "21093119",
+                    "Reference": "Eur J Med Chem. 2011;46:370-377",
+                    "Author": "Garibotto FM, Garro AD, Rodríguez AM, Raimondi M, Zacchino SA, Perczel A, Somlai C, Penke B, Enriz RD",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/21093119"
+                }
+            ],
+            "Mass": 1559.83,
+            "PI": 12.0,
+            "Net Charge": 8,
+            "Hydrophobicity": -3.64,
+            "Frequent Amino Acids": "RKG",
+            "Absent Amino Acids": "ACDEFHILMNOPSTUVW",
+            "Basic Residues": 8,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 0,
+            "Polar Residues": 11,
+            "Positive Residues": 8,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_19213",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00592",
+                    "Similarity": 1.0,
+                    "Sequence": "NCDTYLGEVTVYYPCRERDCEAQCYEHYPHSCKGECEHHDHVVHHDNEEEHCHCYGR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07214",
+                    "Similarity": 1.0,
+                    "Sequence": "GCGGGYGRKKRRQRRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07216",
+                    "Similarity": 1.0,
+                    "Sequence": "CGGGYGRKKRRQRRR"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=>300 µM,Human PBMC:IC50=>300 µM",
+            "Target Organism": "Streptococcus pneumoniae ATCC 49619(MIC=300µM),Mycobacterium tuberculosis H37Rv(MIC=>300µM),Candida albicans ATCC 10231(MIC=100µM),Cryptococcus neoformans ATCC 32264(MIC=100µM)"
+        }
+    }
+}

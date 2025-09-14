@@ -1,0 +1,74 @@
+{
+    "SPADE_UN_13457": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_13457",
+            "Peptide Name": "RiLK1",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "N/A",
+            "Sequence": "VRLIVKVRIWRR",
+            "Sequence Length": 12,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic form",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "[Ref.32971824] Gram-negative bacteria:E.coli (IC50 = 1.20 ± 0.10 μM, MBC = 2.0 μM), S. Typhimurium (IC50 = 1.30 ± 0.14\tμM, MBC = 2.5 μM);Gram-positive bacteria:S. aureus (IC50 = 1.98 ± 0.25 μM, MBC = 16.0 μM), L. monocytogenes (IC50 = 0.46 ± 0.01 μM, MBC = 2.0 μM);Fungi:C. albicans ATCC 14053, A. brasiliensis ATCC 9341. Susceptibility testing clearly showed that RiLK1 was very effective, being able to inhibit 100% growth of both fungi at 25 μM concentration (MFC).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "[Ref.32971824] It was observed that the cell viability was recorded as 98%, 98.7%, and 98.9% at the concentrations of RiLK1 (10, 25, 50 μM)",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Without SDS: 1.2% α-helix, 47.3% β-sheet, 51.5% random; t = 0 h with SDS:  7.4% α-helix, 51.4% β-sheet, 41.3% random; t = 5 min with SDS:  4.4% α-helix, 53.4% β-sheet, 42.2% random; t = 30 min with SDS: 11% α-helix, 48.7% β-sheet, 40.3% random; t = 1 h with SDS: 9.8% α-helix, 51.1% β-sheet, 39.1% random; t = 5 h with SDS: 6.7% α-helix, 54% β-sheet, 39.3% random; t = 6 h with SDS: 8% α-helix, 52% β-sheet, 40.1% random; t = 24 h with SDS: 8.4% α-helix, 53.6% β-sheet, 38% random",
+            "Formula": "C74H132N26O13",
+            "Mass": 1594.01,
+            "PI": 12.0,
+            "Net Charge": 5,
+            "Hydrophobicity": 0.22,
+            "Half Life": "Mammalian:100 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "RiLK1 exerted potent killing effects against the clinical isolate (MBC = 1.25 M), two-fold lower than those observed against the strain isolated from food products and those determined with the parental peptide 1018-K6 against ACSSuT strain, thus, suggesting that RiLK1 might have a high potential also in the medical field.",
+            "Literature": [
+                {
+                    "Title": "A Safe and Multitasking Antimicrobial Decapeptide The Road from De Novo Design to Structural and Functional Characterization",
+                    "Pubmed ID": "32971824",
+                    "Reference": "Int J Mol Sci. 2020 Sep 22;21(18)6952. doi 10.3390/ijms21186952.",
+                    "Author": "Agrillo B, Proroga YTR, Gogliettino M, Balestrieri M, Tatè R, Nicolais L, Palmieri G",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=32971824"
+                }
+            ],
+            "Frequent Amino Acids": "RVI",
+            "Absent Amino Acids": "ACDEFGHMNOPQSTUY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 8,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_23009",
+                    "Similarity": 1.0,
+                    "Sequence": "RLIVKVRIWRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_05263",
+                    "Similarity": 1.0,
+                    "Sequence": "VRIGWRRVK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_13037",
+                    "Similarity": 1.0,
+                    "Sequence": "VRIWRR"
+                }
+            ]
+        }
+    }
+}

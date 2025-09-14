@@ -1,0 +1,71 @@
+{
+    "SPADE_UN_13969": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_13969",
+            "Peptide Name": "LCD278B",
+            "Source": "Synthetic construct",
+            "Family": "Retroviridae",
+            "Gene": "Not found",
+            "Sequence": "QLLIRMI",
+            "Sequence Length": 7,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antiviral"
+            ],
+            "Target Organism": "[Ref.12054767]HIV-1:Inhibition of 3′-end processing catalyzed by integrase(IC50>200 µM);no inhibition of HIV-1 infection up to 100 μM.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "[Ref.12054767]P4 cells:Cell viability estimated by the MTT assay was decreased by about 5% at peptide concentrations higher than 100 μM.",
+            "Binding Target": "Integrase",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C40H75N11O9S",
+            "Mass": 886.16,
+            "PI": 9.75,
+            "Net Charge": 1,
+            "Hydrophobicity": 1.5,
+            "Half Life": "Mammalian:0.8 hourYeast:10 minE.coli:>10 hour",
+            "Mechanism of action": "Binding of both viral DNA and host chromosomal DNA are critical steps in IN-catalyzed reactions. The peptide interacted with the catalytic domain of IN interfering with the binding of the DNA substrate and inhibit the replication of virus.",
+            "Literature": [
+                {
+                    "Title": "A novel short peptide is a specific inhibitor of the human immunodeficiency virus type 1 integrase.",
+                    "Pubmed ID": "12054767",
+                    "Reference": "J Mol Biol. 2002 Apr 19;318(1)45-58.",
+                    "Author": "de Soultrait VR, Caumont A, Parissi V, Morellet N, Ventura M, Lenoir C, Litvak S, Fournier M, Roques B.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=12054767"
+                }
+            ],
+            "Frequent Amino Acids": "ILM",
+            "Absent Amino Acids": "ACDEFGHKNOPSTUVWY",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 2,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_08147",
+                    "Similarity": 1.0,
+                    "Sequence": "RCLCRRGVCQLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08962",
+                    "Similarity": 1.0,
+                    "Sequence": "KVYLPRYKVYSTAAGRYQLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11120",
+                    "Similarity": 1.0,
+                    "Sequence": "EHMDRILAQLL"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,70 @@
+{
+    "SPADE_UN_18863": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_18863",
+            "Peptide Name": "CGS8 (Synthetic AMPs, Arg-rich, Phe-rich; XXA, UCLL1c)",
+            "Source": "Designed",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "RRFFVRRVFFRRRRFF",
+            "Sequence Length": 16,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-MRSA"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 2348.81,
+            "PI": 12.0,
+            "Hydrophobicity": -0.68,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Li C, Zhou Z, Wang W, Zhao Y, Yin X, Meng Y, Zhao P, Wang M, Liu X, Wang X, Wang S, Ren B, Zhang L, Xia X. 2024",
+                    "Reference": "J Med Chem. 2024 Jan 25;67(2):1044-1060. doi: 10.1021/acs.jmedchem.3c01360.PubMed",
+                    "Title": "Development of Antibacterial Peptides with Membrane Disruption and Folate Pathway Inhibitory Activities against Methicillin-Resistant Staphylococcus aureus."
+                }
+            ],
+            "Frequent Amino Acids": "RFV",
+            "Absent Amino Acids": "ACDEGHIKLMNOPQSTUWY",
+            "Basic Residues": 8,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 10,
+            "Positive Residues": 8,
+            "Negative Residues": 0,
+            "Net Charge": 8,
+            "Comments": "Sequence analysis: APD analysis reveals that this sequence is similar (50%) toCGS7R: 50%; F: 38%.Activity: Active against S. aureus MRSA (MIC 48 uM).Toxicity: murine RBC: HC10 41.05 uM. HC50>320 uM (poorly hemo.lytic). Not toxic to HEK293 cells (IC50 > 320 uM).Structure: it became helical in 50% TFE.",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_08366",
+                    "Similarity": 1.0,
+                    "Sequence": "RRRF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09931",
+                    "Similarity": 1.0,
+                    "Sequence": "RRRFFF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_12316",
+                    "Similarity": 1.0,
+                    "Sequence": "RRRF"
+                }
+            ]
+        }
+    }
+}

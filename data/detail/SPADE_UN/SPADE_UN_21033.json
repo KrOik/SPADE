@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_21033": {
+        "Sequence Information": {
+            "Peptide Name": "Human Defensin-5 (26-32)",
+            "Sequence": "LYRLCCR",
+            "Sequence Length": 7,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Binding Target": "",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "Q01523",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/Q01523",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Paneth cell ?-defensins HD-5 and HD-6 display differential degradation into active antimicrobial fragments.",
+                    "Pubmed ID": "30808760",
+                    "Reference": "Proc Natl Acad Sci U S A. 2019;116:3746-3751",
+                    "Author": "Ehmann D, Wendler J, Koeninger L, Larsen IS, Klag T, Berger J, Marette A, Schaller M, Stange EF, Malek NP, Jensen BAH, Wehkamp J",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/30808760"
+                }
+            ],
+            "Mass": 926.16,
+            "PI": 8.96,
+            "Net Charge": 2,
+            "Hydrophobicity": 0.33,
+            "Frequent Amino Acids": "CLR",
+            "Absent Amino Acids": "ADEFGHIKMNOPQSTUVW",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 4,
+            "Polar Residues": 3,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_21033",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02324",
+                    "Similarity": 1.0,
+                    "Sequence": "ESLQERADEATTQKQSGEDNQDLAISFAGNGLSALRTSGSQARATCYCRIGHCTILESLSGVCEISGRLYRLCCR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03152",
+                    "Similarity": 1.0,
+                    "Sequence": "ATCYCRTGRCATRESLSGVCEISGRLYRLCCR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05034",
+                    "Similarity": 1.0,
+                    "Sequence": "VPLDCVLYR"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Acinetobacter baumannii 4-MRGN(no activity data),Klebsiella pneumoniae 3-MRGN(no activity data),Pseudomonas aeruginosa ATCC 27853(no activity data),Enterococcus faecium(no activity data),Staphylococcus aureus USA 300(no activity data),Bifidobacterium breve(no activity data),Ligilactobacillus salivarius(no activity data)"
+        }
+    }
+}

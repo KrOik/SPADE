@@ -1,0 +1,91 @@
+{
+    "SPADE_N_05543": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 2023/0416797 A1",
+                "Patent Link": "http://www.lens.org/lens/patent/US_2023_0416797_A1",
+                "Patent Type": "Patent Application",
+                "Publication Date": "2023-12-28",
+                "Family Info": "JP2023548477A,EP4243844A1,CN116685204A,WO2022104321A1",
+                "Patent Title": "MODULATING ANTIMICROBIAL PEPTIDE HALF-LIFE",
+                "Abstract": "Methods of modulating the half-life of an antimicrobial peptide are described. The method may include administering an antimicrobial peptide to an environment where the antimicrobial peptide remains active until a specified endpoint, and on or after the specified endpoint, digesting the antimicrobial peptide with a protease to thereby inactivate the antimicrobial peptide and modulate its half-life. Compositions and kits for modulating the half-life of an antimicrobial peptide are also described."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_05543",
+            "Peptide Name": "Enterocin 7A(Bacteriocin)",
+            "Source": "Enterococcus faecalis MRR 10-3; Enterococcus faecalis 710C",
+            "Family": "Belongs to the class IId bacteriocin",
+            "Gene": "mr10A",
+            "Sequence": "MGAIAKLVAKFGWPIVKKYYKQIMQFIGEGWAINKIIDWIKKHI",
+            "Sequence Length": 44,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q1A2D3"
+            ],
+            "Protein Existence": "",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+"
+            ],
+            "Target Organism": "Gram-positive (broad-spectrum)",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Cell membrane",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Both peptides are primarily alpha-helical, adopting a similar overall fold. The structures can be divided into three separate alpha-helical regions: the N- and C-termini are both alpha-helical, separated by a central kinked alpha-helix. The overall structures bear an unexpected resemblance to carnocyclin A, a 60-residue peptide that is cyclized via an amide bond between the C- and N-termini and has a saposin fold.",
+            "Formula": "C251H390N60O54S2",
+            "Mass": 5176.28,
+            "PI": 10.0,
+            "Net Charge": 7,
+            "Hydrophobicity": 0.2,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "leaderless, i.e. no signal peptide. The amino acid sequence of enterocin 7A is identical to that of MR10A. However, enterocin 7A is N-terminally formylated. Remarkably, the peptide is helical in aqueous solution.Enterocins 7A and 7B each display strong activity by themselves without their partner.",
+            "Literature": [
+                {
+                    "Title": "Characterization of antimicrobial substances produced by Enterococcus faecalis MRR 10-3, isolated from the uropygial gland of the hoopoe (Upupa epops).",
+                    "Pubmed ID": "16751538",
+                    "Reference": "Appl Environ Microbiol. 2006 Jun;72(6)4245-9.",
+                    "Author": "Mart",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16751538"
+                },
+                {
+                    "Title": "Solution structures of the linear leaderless bacteriocins enterocin 7A and 7B resemble carnocyclin A, a circular antimicrobial peptide.",
+                    "Pubmed ID": "23725536",
+                    "Reference": "Biochemistry. 2013 Jun 11;52(23)3987-94.",
+                    "Author": "",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=23725536"
+                }
+            ],
+            "Frequent Amino Acids": "IKA",
+            "Absent Amino Acids": "CORSTU",
+            "Basic Residues": 9,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 26,
+            "Polar Residues": 20,
+            "Positive Residues": 9,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00143",
+                    "Similarity": 0.9772727272727273,
+                    "Sequence": "MGAIAKLVAKFGWPIVKKYYKQIMQFIGEGWAINKIIEWIKKHI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00155",
+                    "Similarity": 0.7857142857142857,
+                    "Sequence": "APAGLVAKFGRPIVKKYYKQIMQFIGEGSAINKIIPWIARMWRT"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05542",
+                    "Similarity": 0.7441860465116279,
+                    "Sequence": "MGAIAKLVAKFGWPFIKKFYKQIMQFIGQGWTIDQIEKWLKRH"
+                }
+            ]
+        }
+    }
+}

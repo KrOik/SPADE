@@ -1,0 +1,81 @@
+{
+    "SPADE_N_02865": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02865",
+            "Peptide Name": "Defensin-A3 (DefA3; OaDefA3; mammals, animals)",
+            "Source": "Ornithorhynchus anatinus (Duckbill platypus)",
+            "Family": "Belongs to the alpha-defensin family",
+            "Gene": "Not found",
+            "Sequence": "RIITCSCRTFCFLGERISGRCYQSVFIYRLCCRG",
+            "Sequence Length": 34,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P0C8A3"
+            ],
+            "Protein Existence": "Transcript level",
+            "Biological Activity": [
+                "Antimicrobial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C173H277N53O45S6",
+            "Mass": 4011.77,
+            "PI": 9.21,
+            "Net Charge": 5,
+            "Hydrophobicity": 0.34,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Function": "Has antimicrobial activity (By similarity).",
+            "Tissue specificity": "Highly expressed in spleen, and expressed at lower levels in intestin and lung.",
+            "PTM": "Contains three disulfide bonds (By similarity).",
+            "Literature": [
+                {
+                    "Title": "Defensins and the convergent evolution of platypus and reptile venom genes.",
+                    "Pubmed ID": "18463304",
+                    "Reference": "Genome Res. 2008 Jun;18(6)986-994.",
+                    "Author": "Whittington CM, Papenfuss AT, Bansal P, Torres AM, Wong ES, Deakin JE, Graves T, Alsop A, Schatzkamer K, Kremitzki C, Ponting CP, Temple-Smith P, Warren WC, Kuchel PW, Belov K.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=18463304"
+                },
+                {
+                    "Title": "Expression patterns of platypus defensin and related venom genes across a range of tissue types reveal the possibility of broader functions for OvDLPs than previously suspected.",
+                    "Pubmed ID": "18662710",
+                    "Reference": "Toxicon. 2008 Sep 15;52(4)559-565.",
+                    "Author": "Whittington CM, Papenfuss AT, Kuchel PW, Belov K.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=18662710"
+                }
+            ],
+            "Frequent Amino Acids": "CRI",
+            "Absent Amino Acids": "ADHKMNOPUW",
+            "Basic Residues": 6,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 21,
+            "Positive Residues": 6,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02982",
+                    "Similarity": 0.6428571428571429,
+                    "Sequence": "CSCRTSSCRFGERLSGACRLNGRIYRLCC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04217",
+                    "Similarity": 0.6333333333333333,
+                    "Sequence": "VTCSCRTSSCRFGERLSGACRLNGRIYRLCC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05908",
+                    "Similarity": 0.625,
+                    "Sequence": "SGVCEISGRLYRLCCR"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_28462": {
+        "Sequence Information": {
+            "Peptide Name": "",
+            "Sequence": "KWLLKLKLKLLK",
+            "Sequence Length": 12,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Structure and organization of hemolytic and nonhemolytic diastereomers of antimicrobial peptides in membranes.",
+                    "Pubmed ID": "10606532",
+                    "Reference": "Biochemistry. 1999;38:16963-16973",
+                    "Author": "Hong J, Oren Z, Shai Y",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/10606532"
+                }
+            ],
+            "Mass": 1524.03,
+            "PI": 10.6,
+            "Net Charge": 5,
+            "Hydrophobicity": 0.2,
+            "Frequent Amino Acids": "LKW",
+            "Absent Amino Acids": "ACDEFGHIMNOPQRSTUVY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 6,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_28462",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06025",
+                    "Similarity": 1.0,
+                    "Sequence": "LKWLLKLLKLK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09111",
+                    "Similarity": 1.0,
+                    "Sequence": "KLWKLWLKWLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09183",
+                    "Similarity": 1.0,
+                    "Sequence": "GLLKRIKWLL"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:0% Hemolysis=50 µM",
+            "Target Organism": "Escherichia coli D21(MIC=10µM),Acinetobacter calcoaceticus Ac11(MIC=8.5µM),Bacillus megaterium Bm11(MIC=0.5µM),Bacillus subtilis ATCC 6051(MIC=1.8µM)"
+        }
+    }
+}

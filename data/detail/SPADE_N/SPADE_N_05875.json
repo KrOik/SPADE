@@ -1,0 +1,75 @@
+{
+    "SPADE_N_05875": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_05875",
+            "Peptide Name": "AaeAP2 (Scorpionida, Arachricla, Arthropoda)",
+            "Source": "Androctonus aeneas",
+            "Family": "Not found",
+            "Gene": "AP2",
+            "Sequence": "FLFSLIPSAIAGLVSAIRN",
+            "Sequence Length": 19,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/A0A060QMQ0"
+            ],
+            "Protein Existence": "Transcript level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Antifungal"
+            ],
+            "Target Organism": "[Ref.25626077] Gram-positive bacteria :Staphylococcus aureus(MIC=16 mg/L, MBC=16 mg/L);Gram-negative bacteria :Escherichia coli(MIC>512 mg/L);Fungi :Candida albicans(MIC=32 mg/L, MBC=64 mg/L)",
+            "Hemolytic Activity": "[Ref.25626077] 100% hemolysis at 64 μg/ml against horse red blood cells",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C94H153N23O24",
+            "Mass": 1989.36,
+            "PI": 9.75,
+            "Net Charge": 1,
+            "Hydrophobicity": 1.46,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Function": "Antibacterial activity against Gram-positive bacteria. Antifungal activity against Candida albicans",
+            "Literature": [
+                {
+                    "Title": "AaeAP1 and AaeAP2 novel antimicrobial peptides from the venom of the scorpion, Androctonus aeneas structural characterisation, molecular cloning of biosynthetic precursor-encoding cDNAs and engineering of analogues with enhanced antimicrobial and anticancer activities.",
+                    "Pubmed ID": "25626077",
+                    "Reference": "Toxins (Basel). 2015 Jan 23;7(2)219-37. doi 10.3390/toxins7020219.",
+                    "Author": "Du Q, Hou X, Wang L, Zhang Y, Xi X, Wang H, Zhou M, Duan J, Wei M, Chen T, Shaw C",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=25626077"
+                }
+            ],
+            "Frequent Amino Acids": "AIL",
+            "Absent Amino Acids": "CDEHKMOQTUWY",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 9,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_05874",
+                    "Similarity": 0.9473684210526315,
+                    "Sequence": "FLFSLIPSVIAGLVSAIRN"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_11382",
+                    "Similarity": 0.8571428571428571,
+                    "Sequence": "FSLIPSAIGGLISA"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_25045",
+                    "Similarity": 0.8181818181818182,
+                    "Sequence": "FLGALIPAIAG"
+                }
+            ]
+        }
+    }
+}

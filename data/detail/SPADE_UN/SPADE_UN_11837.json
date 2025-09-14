@@ -1,0 +1,78 @@
+{
+    "SPADE_UN_11837": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_11837",
+            "Peptide Name": "PRW4-R (Derived from PRW4)",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "RFRRLRWRTRWRLRRI",
+            "Sequence Length": 16,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic form",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.25735802] Gram-positive bacteria :Staphylococcus aureus 29213(MIC=4 μM), Staphylococcus epidermidis 12228(MIC=4 μM), Enterococcus faecalis 29212(MIC=2 μM);Gram-negative bacteria :Escherichia coli 25922(MIC=4 μM), Escherichia coli 1005(MIC=2 μM), Salmonella typhimurium 7731(MIC=4 μM)",
+            "Hemolytic Activity": "[Ref.25735802] MHC5>256 μM against human red blood cells",
+            "Cytotoxicity": "[Ref.25735802] The peptide exhibited no cytoxicity against HaCaT cells in the range of 0/25-256 μM.",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C107H179N45O18",
+            "Mass": 2383.86,
+            "PI": 12.0,
+            "Net Charge": 9,
+            "Hydrophobicity": -1.76,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Function": "Antibacterial activity against Gram-positive bacteria and Gram-negative bacteria",
+            "Literature": [
+                {
+                    "Title": "Characterization of antimicrobial activity and mechanisms of low amphipathic peptides with different α-helical propensity",
+                    "Pubmed ID": "25735802",
+                    "Reference": "Acta Biomater. 2015 May;18155-67. doi 10.1016/j.actbio.2015.02.023.",
+                    "Author": "Xin Zhu, Licong Zhang, Jue Wang, Zhi Ma, Wei Xu, Jianping Li, Anshan Shan",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=25735802"
+                },
+                {
+                    "Title": "Characterization of antimicrobial activity and mechanisms of low amphipathic peptides with different ?-helical propensity",
+                    "Pubmed ID": "",
+                    "Author": "Zhu X, Zhang L, Wang J, Ma Z, Xu W, Li J, Shan A"
+                }
+            ],
+            "Frequent Amino Acids": "RLW",
+            "Absent Amino Acids": "ACDEGHKMNOPQSUVY",
+            "Basic Residues": 9,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 10,
+            "Positive Residues": 9,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_23720",
+                    "Similarity": 1.0,
+                    "Sequence": "RFRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_08196",
+                    "Similarity": 1.0,
+                    "Sequence": "RWRLFRRIGIG"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_08197",
+                    "Similarity": 1.0,
+                    "Sequence": "RWRLFRRIGIG"
+                }
+            ]
+        }
+    }
+}

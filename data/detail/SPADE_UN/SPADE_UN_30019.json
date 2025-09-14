@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_30019": {
+        "Sequence Information": {
+            "Peptide Name": "Alpha-S1-casein (1-36)",
+            "Sequence": "RPKHPIKHQGLPQEVLNENLLRFFVAPFPEVFGKEK",
+            "Sequence Length": 36,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P02662",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P02662",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Virtual screening of a milk peptide database for the identification of food-derived antimicrobial peptides.",
+                    "Pubmed ID": "26202586",
+                    "Reference": "Mol Nutr Food Res. 2015;:",
+                    "Author": "Liu Y, Eichler J, Pischetsrieder M",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/26202586"
+                }
+            ],
+            "Mass": 4240.91,
+            "PI": 9.52,
+            "Net Charge": 4,
+            "Hydrophobicity": -0.62,
+            "Frequent Amino Acids": "PEF",
+            "Absent Amino Acids": "CDMOSTUWY",
+            "Basic Residues": 8,
+            "Acidic Residues": 4,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 23,
+            "Positive Residues": 8,
+            "Negative Residues": 4,
+            "SPADE ID": "SPADE_UN_30019",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02438",
+                    "Similarity": 1.0,
+                    "Sequence": "RPKHPIKHQGLPQEVLNENLLRF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04415",
+                    "Similarity": 1.0,
+                    "Sequence": "RPKHPIKHQ"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10876",
+                    "Similarity": 1.0,
+                    "Sequence": "RPKHPIKHQGLPQEVLNENLLRFF"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Escherichia coli NEB5alpha(MIC=250µg/ml),Escherichia coli ATCC 25922(MIC=250µg/ml),Bacillus subtilis ATCC 6051(MIC=250µg/ml)"
+        }
+    }
+}

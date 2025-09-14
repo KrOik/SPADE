@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_26371": {
+        "Sequence Information": {
+            "Peptide Name": "Turripeptide ubi3a (10-17), UnBi1",
+            "Sequence": "VRCRFACC",
+            "Sequence Length": 8,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "C0HKK6",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/C0HKK6",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Mining the UniProtKB/Swiss-Prot database for antimicrobial peptides",
+                    "Pubmed ID": "",
+                    "Reference": "bioRxiv. 2024;doi: https://doi.org/10.1101/2024.05.24.595811:",
+                    "Author": "Li C, Sutherland D, Salehi A, Richter A, Lin D, Aninta SI, Ebrahimikondori H, Yanai A, Coombe L, Warren RL, Kotkoff M, Hoang LMN, Helbing CC, Birol I",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/"
+                }
+            ],
+            "Mass": 957.2,
+            "PI": 8.73,
+            "Net Charge": 2,
+            "Hydrophobicity": 0.91,
+            "Frequent Amino Acids": "CRA",
+            "Absent Amino Acids": "DEGHIKLMNOPQSTUWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 2,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_26371",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_03273",
+                    "Similarity": 1.0,
+                    "Sequence": "RRWRIVVIRVRC"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_22943",
+                    "Similarity": 1.0,
+                    "Sequence": "CFWQRNIRKVRC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06233",
+                    "Similarity": 0.8,
+                    "Sequence": "MKTFSVAVAVAIVLAFICTQESSALPVTGVEELVELVSSDDPVADHQELPVELGERLFNIRKKRASPKCTPYCYPTRDGVFCGVRCDF"
+                }
+            ],
+            "Hemolytic Activity": "Pig erythrocytes:50% Hemolysis=>128 µg/ml",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=128µg/ml),Staphylococcus aureus ATCC 29213(MIC=>128µg/ml)"
+        }
+    }
+}

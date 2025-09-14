@@ -1,0 +1,72 @@
+{
+    "SPADE_N_05715": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_05715",
+            "Peptide Name": "AI-hemocidins 4 (Hb-1  truncated peptide)",
+            "Source": "Arca inflata",
+            "Family": "Belongs to truncated Hb-1",
+            "Gene": "Not found",
+            "Sequence": "VLASKNFGDK",
+            "Sequence Length": 10,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+"
+            ],
+            "Target Organism": "[Ref.28661457] Gram-positive bacterium:Bacillus subtilis ATCC 6633 (MIC=69.55 μM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C48H79N13O15",
+            "Mass": 1078.22,
+            "PI": 8.56,
+            "Net Charge": 1,
+            "Hydrophobicity": -0.34,
+            "Half Life": "Mammalian:100 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Antibacterial activity against the Gram-positive bacteria.",
+            "Literature": [
+                {
+                    "Title": "Antibacterial Activity of AI-Hemocidin 2, a Novel N-Terminal Peptide of Hemoglobin Purified from Arca inflata",
+                    "Pubmed ID": "28661457",
+                    "Reference": "Mar Drugs. 2017 Jun 29;15(7). pii E205.",
+                    "Author": "Li C, Zhu J, Wang Y, Chen Y, Song L, Zheng W, Li J, Yu R.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=28661457"
+                }
+            ],
+            "Frequent Amino Acids": "KAD",
+            "Absent Amino Acids": "CEHIMOPQRTUWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 4,
+            "Polar Residues": 6,
+            "Positive Residues": 2,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02746",
+                    "Similarity": 1.0,
+                    "Sequence": "ALLHHGLNCAKGVLA"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02747",
+                    "Similarity": 1.0,
+                    "Sequence": "WLNALLHHGLNCAKGVLA"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03497",
+                    "Similarity": 1.0,
+                    "Sequence": "WLNALLKKGLNCAKGVLA"
+                }
+            ]
+        }
+    }
+}

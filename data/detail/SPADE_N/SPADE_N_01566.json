@@ -1,0 +1,73 @@
+{
+    "SPADE_N_01566": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01566",
+            "Peptide Name": "Temporin-ALg (Frogs, amphibians, animals)",
+            "Source": "Amolops loloensis",
+            "Family": "Belongs to the frog skin active peptide family (Brevinin subfamily)",
+            "Gene": "Not found",
+            "Sequence": "FFPIVGKLLFGLFGLL",
+            "Sequence Length": 16,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.19843479]Gram-positive bacteria:Staphylococcus aureus ATCC2592 (MIC=2.5 µg/mL), Bacillus pumilus (MIC=2.5 µg/mL), Bacillus cereus (MIC=30 µg/mL);Gram-negative bacteria:Escherichia coli ATCC25922 (MIC=5 µg/mL), Bacillus dysenteriae (MIC=10 µg/mL), Acinetobacter calcoaceticus (MIC=30 µg/mL), Psecdomonas aeruginosa (MIC=7.5 µg/mL);Yeast:Candida albicans ATCC2002 (MIC=1.25 µg/mL).",
+            "Hemolytic Activity": "[Ref:19843479]16% hemolytic activity at 100 μg/mL against rabbit red blood cells.",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C94H141N17O17",
+            "Mass": 1781.23,
+            "PI": 8.75,
+            "Net Charge": 1,
+            "Hydrophobicity": 2.01,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Function": "Temporin-ALg exhibits hemolytic activity against rabbit red blood cells.",
+            "Literature": [
+                {
+                    "Title": "Five novel antimicrobial peptides from skin secretions of the frog, Amolops loloensis.",
+                    "Pubmed ID": "19843479",
+                    "Reference": "Comp Biochem Physiol B Biochem Mol Biol. 2010 Jan;155(1)72-76.",
+                    "Author": "Wang M, Wang Y, Wang A, Song Y, Ma D, Yang H, Ma Y, Lai R.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=19843479"
+                }
+            ],
+            "Frequent Amino Acids": "LFG",
+            "Absent Amino Acids": "ACDEHMNOQRSTUWY",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 2,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01219",
+                    "Similarity": 1.0,
+                    "Sequence": "MFTLKKSLLLLFFLGTINLSLCEQERNAEEERRDDLGERQAEVEKRFFPIVGKLLFGLFGLLGK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09179",
+                    "Similarity": 1.0,
+                    "Sequence": "GLLKRIKLLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09184",
+                    "Similarity": 1.0,
+                    "Sequence": "GLLKRIKKLL"
+                }
+            ]
+        }
+    }
+}

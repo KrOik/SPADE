@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_28427": {
+        "Sequence Information": {
+            "Peptide Name": "",
+            "Sequence": "GVAKFGKAAAHFGKGWIKEMLNS",
+            "Sequence Length": 23,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Influence of the angle subtended by the positively charged helix face on the membrane activity of amphipathic, antibacterial peptides.",
+                    "Pubmed ID": "9335545",
+                    "Reference": "Biochemistry. 1997;36:12869-12880",
+                    "Author": "Wieprecht T, Dathe M, Epand RM, Beyermann M, Krause E, Maloy WL, MacDonald DL, Bienert M",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/9335545"
+                }
+            ],
+            "Mass": 2447.85,
+            "PI": 10.0,
+            "Net Charge": 4,
+            "Hydrophobicity": -0.08,
+            "Frequent Amino Acids": "AGK",
+            "Absent Amino Acids": "CDOPQRTUY",
+            "Basic Residues": 5,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 13,
+            "Positive Residues": 5,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_UN_28427",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_20469",
+                    "Similarity": 0.7391304347826086,
+                    "Sequence": "GIAKFGKAAAHFGKKWVGELMNS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11922",
+                    "Similarity": 0.6428571428571429,
+                    "Sequence": "GKGLGKGFGKGFGKGKR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_19494",
+                    "Similarity": 0.6428571428571429,
+                    "Sequence": "GKGLGKGFGKGFGKGKR"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:25% Hemolysis=307 µM",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=>76µM),Pseudomonas aeruginosa ATCC 27853(MIC=>76µM),Staphylococcus aureus ATCC 29213(MIC=>76µM)"
+        }
+    }
+}

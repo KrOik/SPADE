@@ -1,0 +1,67 @@
+{
+    "SPADE_UN_22058": {
+        "Sequence Information": {
+            "Peptide Name": "Aurein-1.2 [I6A]",
+            "Sequence": "GLFDIAKKIAESF",
+            "Sequence Length": 13,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P82387",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P82387",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Alanine Scanning Studies of the Antimicrobial Peptide Aurein 1.2",
+                    "Pubmed ID": "30569430",
+                    "Reference": "Probiotics Antimicrob Proteins. 2019;11:1042-1054",
+                    "Author": "Migon D, Jaskiewicz M, Neubauer D, Bauer M, Sikorska E, Kamysz E, Kamysz W",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/30569430"
+                }
+            ],
+            "Mass": 1438.67,
+            "PI": 6.07,
+            "Net Charge": 0,
+            "Hydrophobicity": 0.46,
+            "Frequent Amino Acids": "AFI",
+            "Absent Amino Acids": "CHMNOPQRTUVWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 6,
+            "Positive Residues": 2,
+            "Negative Residues": 2,
+            "SPADE ID": "SPADE_UN_22058",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_11592",
+                    "Similarity": 1.0,
+                    "Sequence": "KKKKPLFGLFFGLF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01461",
+                    "Similarity": 0.9230769230769231,
+                    "Sequence": "GLFDIIKKIAESF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05696",
+                    "Similarity": 0.9230769230769231,
+                    "Sequence": "FSEAIKKIIDFLGEGLFDIIKKIAESF"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:0.1% Hemolysis=256 µg/ml",
+            "Target Organism": "Staphylococcus aureus ATCC 25923(MIC=>512µg/ml),Enterococcus faecalis PCM 2673(MIC=256µg/ml),Escherichia coli ATCC 25922(MIC=512µg/ml),Pseudomonas aeruginosa ATCC 9027(MIC=>512µg/ml),Candida albicans ATCC 10231(MIC=256µg/ml)"
+        }
+    }
+}

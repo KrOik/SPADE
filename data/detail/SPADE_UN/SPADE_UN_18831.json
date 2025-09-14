@@ -1,0 +1,69 @@
+{
+    "SPADE_UN_18831": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_18831",
+            "Peptide Name": "PeNi7 (AI predicted AMPs)",
+            "Source": "AI predicted, machine learning predicted fromBufo gargarizans, Leptobrachium boringii, Megophrys sangzhiensis, Polypedates megacephalus, Pelophylax nigromaculatus, Rhacophorus dennysi, Rana omeimontis",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "VIPFVASVAAEMMHHVYCAASKRCKN",
+            "Sequence Length": 26,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 2863.41,
+            "PI": 8.86,
+            "Hydrophobicity": 0.45,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Richter A, Sutherland D, Ebrahimikondori H, Babcock A, Louie N, Li C, Coombe L, Lin D, Warren RL, Yanai A, Kotkoff M, Helbing CC, Hof F, Hoang LMN, Birol I.2022",
+                    "Reference": "Antibiotics (Basel). 2022 Nov 27;11(12):1710. doi: 10.3390/antibiotics11121710.PubMed",
+                    "Title": "Associating Biological Activity and Predicted Structure of Antimicrobial Peptides from Amphibians and Insects."
+                }
+            ],
+            "Frequent Amino Acids": "AVC",
+            "Absent Amino Acids": "DGLOQTUW",
+            "Basic Residues": 5,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 15,
+            "Polar Residues": 20,
+            "Positive Residues": 5,
+            "Negative Residues": 1,
+            "Net Charge": 4,
+            "Comments": "Sequence analysis: APD analysis reveals that this sequence is highly similar (92.31%) toBrevinin-1LT2The predicted form contains two additional amino acids beyond the C-terminal Rana box compared to the natural form (AP1657). A: 15%;  V: 19%; GRAVY: 0.45; M Wt: 2863.446; M formula: C125H201N35O33S4; mol ex coeff: 1615.Activity: active against E. coli ATCC 25922 (MIC 44.7 uM), S.enteritidis (MIC >128 ug/ml), S.aureus ATCC 29213 (MIC > 128 ug/ml).Toxicity: porcine RBC: HC50 > 128 ug/ml.Found in multiple species",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01720",
+                    "Similarity": 1.0,
+                    "Sequence": "VIPFVASVAAEMMHHVYCAASKRC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15967",
+                    "Similarity": 0.9583333333333334,
+                    "Sequence": "VIPFVASVAAEMMQHVYCAASKRC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01276",
+                    "Similarity": 0.9166666666666666,
+                    "Sequence": "VIPFVASVAAEMMQHVYCAASKKC"
+                }
+            ]
+        }
+    }
+}

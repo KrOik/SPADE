@@ -1,0 +1,67 @@
+{
+    "SPADE_UN_28157": {
+        "Sequence Information": {
+            "Peptide Name": "Temporin-1DRa [H1K]",
+            "Sequence": "KFLGTLVNLAKKIL",
+            "Sequence Length": 14,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anticancer",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "M9NXM1",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/M9NXM1",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Strategies for transformation of naturally-occurring amphibian antimicrobial peptides into therapeutically valuable anti-infective agents.",
+                    "Pubmed ID": "17560323",
+                    "Reference": "Methods. 2007;42:349-357",
+                    "Author": "Conlon JM, Al-Ghaferi N, Abraham B, Leprince J",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/17560323"
+                }
+            ],
+            "Mass": 1557.96,
+            "PI": 10.3,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.87,
+            "Frequent Amino Acids": "LKA",
+            "Absent Amino Acids": "CDEHMOPQRSUWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 6,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_28157",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07699",
+                    "Similarity": 1.0,
+                    "Sequence": "IDWKKVDWKKVSKKTCKVMLKACKFLG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_13782",
+                    "Similarity": 1.0,
+                    "Sequence": "FKFLARTGKFL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14107",
+                    "Similarity": 1.0,
+                    "Sequence": "KECIPKHHECTSNKKGCCRGKLFKYKCQCTTVVDQSGEQAERCFCGTATHHKAAELVVGFGKKFLG"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=>500 µM",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=>128µM),Staphylococcus aureus NCTC 8352(MIC=>128µM),Candida albicans ATCC 90028(MIC=>128µM)"
+        }
+    }
+}

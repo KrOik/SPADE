@@ -1,0 +1,73 @@
+{
+    "SPADE_N_01354": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01354",
+            "Peptide Name": "Esculentin-1PLa (Frogs, amphibians, animals)",
+            "Source": "Rana palustris (North American pickerel frog)",
+            "Family": "Belongs to the frog skin active peptide family (Brevinin subfamily)",
+            "Gene": "Not found",
+            "Sequence": "GLFPKINKKKAKTGVFNIIKTVGKEAGMDLIRTGIDTIGCKIKGEC",
+            "Sequence Length": 46,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-negative bacterium:Escherichia coli (MIC=1 µM);Gram-positive bacterium:Staphylococcus aureus (MIC=12 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Cyclization (Cys40 and Cys46)",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C220H378N60O61S3",
+            "Mass": 4935.92,
+            "PI": 9.76,
+            "Net Charge": 6,
+            "Hydrophobicity": -0.09,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Shows antibacterial against the Gram-positive bacterium S. aureus and the Gram-negative bacterium E. coli.",
+            "Literature": [
+                {
+                    "Title": "Multiple antimicrobial peptides and peptides related to bradykinin and neuromedin N isolated from skin secretions of the pickerel frog, Rana palustris.",
+                    "Pubmed ID": "11087945",
+                    "Reference": "Biochim Biophys Acta. 2000 Nov 30;1543(1)95-105.",
+                    "Author": "Basir YJ, Knoop FC, Dulka J, Conlon JM.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=11087945"
+                }
+            ],
+            "Frequent Amino Acids": "KGI",
+            "Absent Amino Acids": "HOQSUWY",
+            "Basic Residues": 10,
+            "Acidic Residues": 4,
+            "Hydrophobic Residues": 17,
+            "Polar Residues": 22,
+            "Positive Residues": 10,
+            "Negative Residues": 4,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01356",
+                    "Similarity": 0.8695652173913043,
+                    "Sequence": "GIFSKINKKKAKTGLFNIIKTVGKEAGMDVIRAGIDTISCKIKGEC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01355",
+                    "Similarity": 0.8695652173913043,
+                    "Sequence": "GIFTKINKKKAKTGVFNIIKTIGKEAGMDVIRAGIDTISCKIKGEC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01357",
+                    "Similarity": 0.8478260869565217,
+                    "Sequence": "GLFPKFNKKKVKTGIFDIIKTVGKEAGMDVLRTGIDVIGCKIKGEC"
+                }
+            ]
+        }
+    }
+}

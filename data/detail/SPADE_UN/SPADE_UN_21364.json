@@ -1,0 +1,67 @@
+{
+    "SPADE_UN_21364": {
+        "Sequence Information": {
+            "Peptide Name": "Citropin-1.1 [K7,8R]",
+            "Sequence": "GLFDVIRRVASVIGGL",
+            "Sequence Length": 16,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P81835",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P81835",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Understanding interactions of Citropin 1.1 analogues with model membranes and their influence on biological activity.",
+                    "Pubmed ID": "31336137",
+                    "Reference": "Peptides. 2019;119:170119",
+                    "Author": "Rodrigues de Almeida N, Catazaro J, Krishnaiah M, Singh Chhonker Y, Murry DJ, Powers R, Conda-Sheridan M",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/31336137"
+                }
+            ],
+            "Mass": 1671.98,
+            "PI": 9.6,
+            "Net Charge": 1,
+            "Hydrophobicity": 1.21,
+            "Frequent Amino Acids": "GVI",
+            "Absent Amino Acids": "CEHKMNOPQTUWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 7,
+            "Positive Residues": 2,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_UN_21364",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_09456",
+                    "Similarity": 1.0,
+                    "Sequence": "GLFDVVIGGL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_11592",
+                    "Similarity": 1.0,
+                    "Sequence": "KKKKPLFGLFFGLF"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_21359",
+                    "Similarity": 1.0,
+                    "Sequence": "GLFDVIVASVIGGL"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=18.2 µg/ml,Human embryonic kidney HEK293 cells:IC50=17.64 µg/ml",
+            "Target Organism": "Staphylococcus aureus JE2(MIC=16µg/ml),Staphylococcus aureus ATCC 43300(MIC=16µg/ml),Escherichia coli K-12(MIC=32µg/ml),Escherichia coli ATCC 25922(MIC=32µg/ml),Pseudomonas aeruginosa ATCC 27853(MIC=>32µg/ml),Klebsiella pneumoniae ATCC 700603(MIC=>32µg/ml),Acinetobacter baumannii ATCC 19606(MIC=32µg/ml),Acinetobacter baumannii ATCC 19606(MIC=32µg/ml),Candida albicans ATCC 90028(MIC=16µg/ml),Cryptococcus neoformans var. grubii H99(MIC=16µg/ml)"
+        }
+    }
+}

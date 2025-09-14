@@ -1,0 +1,71 @@
+{
+    "SPADE_UN_14785": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_14785",
+            "Peptide Name": "18-c01",
+            "Source": "Synthetic construct",
+            "Family": "Orthomyxoviridae",
+            "Gene": "Not found",
+            "Sequence": "GWWYKGRARPVSAVA",
+            "Sequence Length": 15,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antiviral"
+            ],
+            "Target Organism": "[Ref.19558186]H1N1(A/PR/8/34):inhibition of virus infection in  Madin-Darby canine kidney(MDCK) cells(IC50=3.2 μM);H3N2(A/Aichi/2/68):inhibition of virus infection in Madin-Darby canine kidney(MDCK) cells(IC50>10 μM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "sialylgalactose",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Alkylated(C18)",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C80H118N24O18",
+            "Mass": 1703.94,
+            "PI": 11.0,
+            "Net Charge": 3,
+            "Hydrophobicity": -0.36,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Mechanism of action": "The peptide has affinity for glycoconjugates on the cell surface. And its binding to the cell resulted in the significant inhibition of influenza virus infections.",
+            "Literature": [
+                {
+                    "Title": "Inhibition of influenza virus infections by sialylgalactose-binding peptides selected from a phage library.",
+                    "Pubmed ID": "19558186",
+                    "Reference": "J Med Chem. 2009 Jul 23;52(14)4247-56.",
+                    "Author": "Matsubara T, Sumi M, Kubota H, Taki T, Okahata Y, Sato T.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=19558186"
+                }
+            ],
+            "Frequent Amino Acids": "AGR",
+            "Absent Amino Acids": "CDEFHILMNOQTU",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 10,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_28198",
+                    "Similarity": 1.0,
+                    "Sequence": "VSAVAKVAMKKGAALLKKMGVKISPLK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_14788",
+                    "Similarity": 0.9333333333333333,
+                    "Sequence": "GWWYKGRARAVSAVA"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_14787",
+                    "Similarity": 0.9333333333333333,
+                    "Sequence": "GAWYKGRARPVSAVA"
+                }
+            ]
+        }
+    }
+}

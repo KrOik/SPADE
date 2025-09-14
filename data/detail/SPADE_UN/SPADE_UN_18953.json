@@ -1,0 +1,70 @@
+{
+    "SPADE_UN_18953": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_18953",
+            "Peptide Name": "Peptide 2 (AI Predicted AMPs, XXA, UCLl1c)",
+            "Source": "AI predicted,  Derived from UniProt ID: Q9H4K7, human protein",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "KKLKRYFVDYRRVLV",
+            "Sequence Length": 15,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 1983.41,
+            "PI": 10.55,
+            "Hydrophobicity": -0.55,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Ramos-Llorens M, Bello-Madruga R, Valle J, Andreu D, Torrent M. 2024",
+                    "Reference": "mSystems. 2024 Jun 27:e0135823. doi: 10.1128/msystems.01358-23.PubMed",
+                    "Title": "PyAMPA: a high-throughput prediction and optimization tool for antimicrobial peptides."
+                }
+            ],
+            "Frequent Amino Acids": "KRV",
+            "Absent Amino Acids": "ACEGHIMNOPQSTUW",
+            "Basic Residues": 6,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 11,
+            "Positive Residues": 6,
+            "Negative Residues": 1,
+            "Net Charge": 5,
+            "Comments": "Sequence analysis: APD analysis reveals that this sequence is similar (43.75%) toChem-KVLV=R=K: 20%, L=Y: 13%.Activity: Active against E. coli (MIC 3.1 uM), P. aeruginosa (MIC 3.1 uM), A. baumannii (MIC 0.8 uM), S. enterica (MIC 13 uM), S. aureus (MIC 50 uM), E. faecium (MIC 3.1 uM), and M. luteus (MIC 3.1 uM).In vitro toxicity:  horse RBC: 90% hemolysis at 150 uM. HepG2 cell (IC50 116 uM).Structure:  random coil in water and helical in 10 mM SDS, a different conformation at 1 and 5 mM.",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_11015",
+                    "Similarity": 1.0,
+                    "Sequence": "KKKLFKKL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_12565",
+                    "Similarity": 1.0,
+                    "Sequence": "LKCKCKLLKLLKLKKLK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_04228",
+                    "Similarity": 1.0,
+                    "Sequence": "PFWRKKLKR"
+                }
+            ]
+        }
+    }
+}

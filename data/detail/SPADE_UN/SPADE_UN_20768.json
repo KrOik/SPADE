@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_20768": {
+        "Sequence Information": {
+            "Peptide Name": "ST1",
+            "Sequence": "KRKIFAL",
+            "Sequence Length": 7,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Topological effects on the designability and bactericidal potency of antimicrobial peptides.",
+                    "Pubmed ID": "30836162",
+                    "Reference": "Biophys Chem. 2019;248:1-8",
+                    "Author": "Hazam PK, Akhil R, Jerath G, Saikia J, Ramakrishnan V",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/30836162"
+                }
+            ],
+            "Mass": 875.11,
+            "PI": 11.17,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.09,
+            "Frequent Amino Acids": "KAF",
+            "Absent Amino Acids": "CDEGHMNOPQSTUVWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 4,
+            "Polar Residues": 3,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_20768",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02199",
+                    "Similarity": 1.0,
+                    "Sequence": "RVKRVLPLVIRTVIAGYNLYRAIKRK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02576",
+                    "Similarity": 1.0,
+                    "Sequence": "NIGNSVSCLRNKGVCMPGKCAPKMKQIGTCGMPQVKCCKRK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02577",
+                    "Similarity": 1.0,
+                    "Sequence": "SVSCLRNKGVCMPGKCAPKMKQIGTCGMPQVKCCKRK"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:14% Hemolysis=100 µM",
+            "Target Organism": "Staphylococcus aureus NCTC 8530(MIC=>100µM),Escherichia coli MG1655(MIC=>100µM),Staphylococcus aureus ATCC 33592(MIC=>100µM)"
+        }
+    }
+}

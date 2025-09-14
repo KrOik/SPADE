@@ -1,0 +1,543 @@
+/* Language Selector 现代化样式系统 */
+
+/* CSS 变量定义 - 主题色彩系统 */
+:root {
+  /* 主色调 - 保持与SPADE系统一致 */
+  --ls-primary: #2b1055;
+  --ls-primary-light: rgba(43, 16, 85, 0.8);
+  --ls-primary-dark: #1a0a33;
+  --ls-accent: #50e2c2;
+  --ls-accent-light: rgba(80, 226, 194, 0.2);
+  
+  /* 中性色系 */
+  --ls-white: #ffffff;
+  --ls-white-alpha-10: rgba(255, 255, 255, 0.1);
+  --ls-white-alpha-20: rgba(255, 255, 255, 0.2);
+  --ls-white-alpha-05: rgba(255, 255, 255, 0.05);
+  --ls-black-alpha-15: rgba(0, 0, 0, 0.15);
+  --ls-black-alpha-30: rgba(0, 0, 0, 0.3);
+  
+  /* 渐变色系 */
+  --ls-gradient-primary: linear-gradient(135deg, var(--ls-primary) 0%, #3d1a78 100%);
+  --ls-gradient-accent: linear-gradient(135deg, var(--ls-accent) 0%, #42d4a8 100%);
+  --ls-gradient-glass: linear-gradient(135deg, 
+    rgba(255, 255, 255, 0.1) 0%, 
+    rgba(255, 255, 255, 0.05) 100%);
+  
+  /* 阴影系统 */
+  --ls-shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.1);
+  --ls-shadow-md: 0 4px 16px rgba(0, 0, 0, 0.15);
+  --ls-shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.2);
+  --ls-shadow-xl: 0 12px 32px rgba(0, 0, 0, 0.25);
+  --ls-shadow-glow: 0 0 20px rgba(80, 226, 194, 0.3);
+  
+  /* 尺寸系统 */
+  --ls-size-sm: 40px;
+  --ls-size-md: 48px;
+  --ls-size-lg: 56px;
+  --ls-border-radius: 16px;
+  --ls-border-radius-sm: 12px;
+  --ls-border-radius-full: 50%;
+  
+  /* 动画参数 */
+  --ls-transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --ls-transition-normal: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --ls-transition-slow: 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+  --ls-transition-bounce: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  
+  /* 毛玻璃效果 */
+  --ls-backdrop-blur: blur(20px);
+  --ls-backdrop-blur-sm: blur(10px);
+}
+
+/* 深色模式支持 */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ls-primary: #3d1a78;
+    --ls-primary-light: rgba(61, 26, 120, 0.9);
+    --ls-shadow-md: 0 4px 16px rgba(0, 0, 0, 0.4);
+    --ls-shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.5);
+  }
+}
+
+/* 主容器 */
+.language-selector-modern {
+  position: fixed;
+  right: 30px;
+  top: 85px;
+  z-index: 10000;
+  user-select: none;
+  touch-action: none;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  
+  /* 容器动画 */
+  transition: all var(--ls-transition-normal);
+}
+
+/* 主按钮 - 现代化设计 */
+.ls-trigger {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--ls-size-md);
+  height: var(--ls-size-md);
+  background: var(--ls-gradient-primary);
+  border-radius: var(--ls-border-radius-full);
+  cursor: grab;
+  border: 1px solid var(--ls-white-alpha-10);
+  box-shadow: var(--ls-shadow-md);
+  backdrop-filter: var(--ls-backdrop-blur);
+  overflow: hidden;
+  
+  /* 过渡动画 */
+  transition: all var(--ls-transition-normal);
+  
+  /* 伪元素 - 毛玻璃光泽效果 */
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--ls-gradient-glass);
+    border-radius: inherit;
+    opacity: 0;
+    transition: opacity var(--ls-transition-fast);
+  }
+  
+  /* 伪元素 - 发光边框 */
+  &::after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: var(--ls-gradient-accent);
+    border-radius: inherit;
+    z-index: -1;
+    opacity: 0;
+    transition: opacity var(--ls-transition-normal);
+  }
+}
+
+/* 按钮图标 */
+.ls-trigger-icon {
+  font-size: 20px;
+  color: var(--ls-white);
+  transition: all var(--ls-transition-normal);
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* 当前语言文本 */
+.ls-current-lang {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--ls-white);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: all var(--ls-transition-normal);
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* 悬停状态 */
+.language-selector-modern:hover .ls-trigger {
+  transform: scale(1.05) translateY(-2px);
+  box-shadow: var(--ls-shadow-lg), var(--ls-shadow-glow);
+  border-color: var(--ls-white-alpha-20);
+}
+
+.language-selector-modern:hover .ls-trigger::before {
+  opacity: 1;
+}
+
+.language-selector-modern:hover .ls-trigger::after {
+  opacity: 0.6;
+}
+
+.language-selector-modern:hover .ls-trigger-icon {
+  transform: rotate(180deg) scale(1.1);
+  color: var(--ls-accent);
+}
+
+/* 激活状态 */
+.language-selector-modern:active .ls-trigger {
+  transform: scale(0.95);
+  box-shadow: var(--ls-shadow-sm);
+}
+
+/* 拖拽状态 */
+.language-selector-modern.dragging .ls-trigger {
+  cursor: grabbing;
+  transform: scale(1.1) rotate(5deg);
+  box-shadow: var(--ls-shadow-xl);
+  z-index: 10001;
+}
+
+.language-selector-modern.dragging .ls-trigger::after {
+  opacity: 1;
+}
+
+/* 边缘收缩状态 */
+.language-selector-modern.edge-collapsed .ls-trigger {
+  width: 32px;
+  height: 32px;
+  border-radius: var(--ls-border-radius-sm);
+  opacity: 0.7;
+  backdrop-filter: var(--ls-backdrop-blur-sm);
+}
+
+.language-selector-modern.edge-collapsed .ls-trigger-icon {
+  font-size: 14px;
+}
+
+.language-selector-modern.edge-collapsed .ls-current-lang {
+  font-size: 10px;
+}
+
+/* 下拉菜单容器 */
+.ls-dropdown {
+  position: absolute;
+  top: calc(100% + 12px);
+  right: 0;
+  min-width: 160px;
+  max-height: 320px;
+  background: var(--ls-gradient-primary);
+  border-radius: var(--ls-border-radius);
+  border: 1px solid var(--ls-white-alpha-10);
+  box-shadow: var(--ls-shadow-lg);
+  backdrop-filter: var(--ls-backdrop-blur);
+  overflow: hidden;
+  z-index: 10002;
+  
+  /* 初始状态 */
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px) scale(0.95);
+  transform-origin: top right;
+  
+  /* 过渡动画 */
+  transition: all var(--ls-transition-normal);
+  
+  /* 毛玻璃光泽 */
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: var(--ls-gradient-glass);
+  }
+}
+
+/* 下拉菜单显示状态 */
+.ls-dropdown.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0) scale(1);
+}
+
+/* 下拉菜单滚动区域 */
+.ls-dropdown-scroll {
+  max-height: 320px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--ls-white-alpha-20) transparent;
+}
+
+/* 自定义滚动条 */
+.ls-dropdown-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+
+.ls-dropdown-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.ls-dropdown-scroll::-webkit-scrollbar-thumb {
+  background: var(--ls-white-alpha-20);
+  border-radius: 3px;
+  transition: background var(--ls-transition-fast);
+}
+
+.ls-dropdown-scroll::-webkit-scrollbar-thumb:hover {
+  background: var(--ls-white-alpha-20);
+}
+
+/* 语言选项 */
+.ls-option {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 18px;
+  color: var(--ls-white);
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.4;
+  border-bottom: 1px solid var(--ls-white-alpha-05);
+  transition: all var(--ls-transition-fast);
+  
+  /* 悬停指示器 */
+  &::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 0;
+    background: var(--ls-gradient-accent);
+    transition: width var(--ls-transition-normal);
+  }
+  
+  /* 选中指示器 */
+  &::after {
+    content: '';
+    position: absolute;
+    right: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 6px;
+    height: 6px;
+    background: var(--ls-accent);
+    border-radius: 50%;
+    opacity: 0;
+    transition: all var(--ls-transition-fast);
+  }
+}
+
+/* 语言选项图标 */
+.ls-option-flag {
+  font-size: 18px;
+  flex-shrink: 0;
+}
+
+/* 语言选项文本 */
+.ls-option-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.ls-option-name {
+  font-weight: 600;
+  color: var(--ls-white);
+}
+
+.ls-option-native {
+  font-size: 12px;
+  color: var(--ls-white-alpha-20);
+  opacity: 0.8;
+}
+
+/* 最后一个选项 */
+.ls-option:last-child {
+  border-bottom: none;
+}
+
+/* 悬停状态 */
+.ls-option:hover {
+  background: var(--ls-white-alpha-10);
+  transform: translateX(4px);
+  padding-left: 22px;
+}
+
+.ls-option:hover::before {
+  width: 3px;
+}
+
+.ls-option:hover .ls-option-name {
+  color: var(--ls-accent);
+}
+
+/* 激活状态 */
+.ls-option.active {
+  background: var(--ls-accent-light);
+  color: var(--ls-accent);
+  font-weight: 600;
+}
+
+.ls-option.active::before {
+  width: 3px;
+}
+
+.ls-option.active::after {
+  opacity: 1;
+}
+
+.ls-option.active .ls-option-name {
+  color: var(--ls-accent);
+}
+
+.ls-option.active .ls-option-native {
+  color: var(--ls-accent);
+  opacity: 0.7;
+}
+
+/* 脉冲动画 */
+@keyframes ls-pulse {
+  0%, 100% {
+    box-shadow: var(--ls-shadow-md);
+  }
+  50% {
+    box-shadow: var(--ls-shadow-md), 0 0 0 8px rgba(80, 226, 194, 0.2);
+  }
+}
+
+.language-selector-modern.pulse .ls-trigger {
+  animation: ls-pulse 1s ease-in-out;
+}
+
+/* 切换按钮模式 */
+.ls-toggle-mode {
+  display: flex;
+  background: var(--ls-gradient-primary);
+  border-radius: var(--ls-border-radius);
+  border: 1px solid var(--ls-white-alpha-10);
+  box-shadow: var(--ls-shadow-md);
+  backdrop-filter: var(--ls-backdrop-blur);
+  overflow: hidden;
+  position: relative;
+}
+
+.ls-toggle-option {
+  position: relative;
+  padding: 12px 20px;
+  color: var(--ls-white);
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all var(--ls-transition-normal);
+  z-index: 1;
+}
+
+.ls-toggle-option.active {
+  color: var(--ls-primary);
+  font-weight: 600;
+}
+
+/* 滑动指示器 */
+.ls-toggle-indicator {
+  position: absolute;
+  top: 4px;
+  bottom: 4px;
+  background: var(--ls-gradient-accent);
+  border-radius: calc(var(--ls-border-radius) - 4px);
+  transition: all var(--ls-transition-bounce);
+  box-shadow: var(--ls-shadow-sm);
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .language-selector-modern {
+    right: 20px;
+    top: 80px;
+  }
+  
+  .ls-trigger {
+    width: var(--ls-size-sm);
+    height: var(--ls-size-sm);
+  }
+  
+  .ls-trigger-icon {
+    font-size: 16px;
+  }
+  
+  .ls-current-lang {
+    font-size: 10px;
+  }
+  
+  .ls-dropdown {
+    min-width: 140px;
+    right: -10px;
+  }
+  
+  .ls-option {
+    padding: 12px 16px;
+    font-size: 13px;
+  }
+  
+  .ls-option-flag {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .language-selector-modern {
+    right: 16px;
+    top: 70px;
+  }
+  
+  .ls-dropdown {
+    right: -20px;
+    min-width: 120px;
+  }
+}
+
+/* 高对比度模式 */
+@media (prefers-contrast: high) {
+  :root {
+    --ls-primary: #000000;
+    --ls-accent: #ffffff;
+    --ls-white: #ffffff;
+    --ls-shadow-md: 0 4px 16px rgba(0, 0, 0, 0.8);
+  }
+  
+  .ls-trigger {
+    border: 2px solid var(--ls-white);
+  }
+  
+  .ls-dropdown {
+    border: 2px solid var(--ls-white);
+  }
+}
+
+/* 减少动画模式 */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  
+  .language-selector-modern:hover .ls-trigger {
+    transform: none;
+  }
+  
+  .ls-option:hover {
+    transform: none;
+  }
+}
+
+/* 焦点可见性 */
+.ls-trigger:focus-visible {
+  outline: 2px solid var(--ls-accent);
+  outline-offset: 2px;
+}
+
+.ls-option:focus-visible {
+  outline: 2px solid var(--ls-accent);
+  outline-offset: -2px;
+}
+
+/* 加载状态 */
+.language-selector-modern.loading .ls-trigger {
+  pointer-events: none;
+  opacity: 0.6;
+}
+
+.language-selector-modern.loading .ls-trigger-icon {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

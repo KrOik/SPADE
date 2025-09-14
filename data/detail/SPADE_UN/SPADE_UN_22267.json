@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_22267": {
+        "Sequence Information": {
+            "Peptide Name": "SARS-CoV-S (690-709)",
+            "Sequence": "SNNTIAIPTNFSISITTEVM",
+            "Sequence Length": 20,
+            "Biological Activity": [
+                "Antiviral",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Virus entry",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P59594",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P59594",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Synthetic peptide targeting critical sites on the SARS-associated coronavirus spike protein responsible for viral infection and method of use thereof",
+                    "Pubmed ID": "",
+                    "Reference": "PATENT US7491489B2. 2009;:",
+                    "Author": "Zheng BJ, Guan Y, Huang J, He M",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/"
+                }
+            ],
+            "Mass": 2153.41,
+            "PI": 4.05,
+            "Net Charge": -1,
+            "Hydrophobicity": 0.4,
+            "Frequent Amino Acids": "ITN",
+            "Absent Amino Acids": "CDGHKLOQRUWY",
+            "Basic Residues": 0,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 12,
+            "Positive Residues": 0,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_UN_22267",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_22327",
+                    "Similarity": 0.95,
+                    "Sequence": "SNNTIAIPTNFLISITTEVM"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07916",
+                    "Similarity": 0.5,
+                    "Sequence": "MALSTRTQAACLLLLLLASLSSTTYLHQQMRQTTELQPLHGEESRADIAIPMQKRRKRDTNFPICIFCCKCCNNSQCGICCKT"
+                }
+            ],
+            "Hemolytic Activity": "Monkey kidney cells FRhK-4:0% Cytotoxicity=100 µg/ml",
+            "Target Organism": "SARS-CoV(IC90 I=>500µg/ml)"
+        }
+    }
+}

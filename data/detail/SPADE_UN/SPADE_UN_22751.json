@@ -1,0 +1,62 @@
+{
+    "SPADE_UN_22751": {
+        "Sequence Information": {
+            "Peptide Name": "",
+            "Sequence": "KGGK",
+            "Sequence Length": 4,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anticancer",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Ultrashort peptide bioconjugates are exclusively antifungal agents and synergize with cyclodextrin and amphotericin B.",
+                    "Pubmed ID": "22006001",
+                    "Reference": "Antimicrob Agents Chemother. 2012;56:1-9",
+                    "Author": "Arnusch CJ, Ulm H, Josten M, Shadkchan Y, Osherov N, Sahl HG, Shai Y",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/22006001"
+                }
+            ],
+            "Mass": 388.46,
+            "PI": 10.0,
+            "Net Charge": 2,
+            "Hydrophobicity": -2.15,
+            "Frequent Amino Acids": "GK",
+            "Absent Amino Acids": "ACDEFHILMNOPQRSTUVWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 0,
+            "Polar Residues": 4,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_22751",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00209",
+                    "Similarity": 1.0,
+                    "Sequence": "YSLQMGATAIKQVKKLFKKKGG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00426",
+                    "Similarity": 1.0,
+                    "Sequence": "QKHTAPWIPEDNSICCKEHPSVGRCLPNIDDSAEKGGKCWKFCIEGCETGGFCKLFGHKHICHCNCSG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00562",
+                    "Similarity": 1.0,
+                    "Sequence": "LMDSMPQRHPVEGWCKRPLPNQKPGPCNNDRCSARCKEQKQFEFKGGKAMGICSSENRCLCTFRCR"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=60 µM",
+            "Target Organism": "Escherichia coli D21(MIC=>100µM),Staphylococcus aureus(MIC=>100µM),Acinetobacter baumannii(MIC=>100µM),Aspergillus fumigatus ATCC 26430(MIC=3.12µM),Candida albicans ATCC 10231(MIC=>100µM),Cryptococcus neoformans ATCC MYA-422(MIC=3.12µM),Murine macrophage cells RAW 264.7(LC50=>100µM)"
+        }
+    }
+}

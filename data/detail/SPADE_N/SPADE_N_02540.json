@@ -1,0 +1,78 @@
+{
+    "SPADE_N_02540": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02540",
+            "Peptide Name": "Tachycitin (crabs, Arthropods, animals)",
+            "Source": "Tachypleus tridentatus (Japanese horseshoe crab)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "YLAFRCGRYSPCLDDGPNVNLYSCCSFYNCHKCLARLENCPKGLHYNAYLKVCDWPSKAGCTSVNKECHLWKT",
+            "Sequence Length": 73,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P91818"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Antifungal",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-positive bacteria:Staphylococcus aureus (IC50=56 µg/ml);Gram-negative bacteria:Escherichia coli 363 (IC50=33 µg/ml), Escherichia coli B (IC50=2 µg/ml), Salmonella typhimurium LT2 (IC50=44 µg/ml), S. minnesota R595 (IC50=41 µg/ml), Klebsiella pneumoniae (IC50=32 µg/ml).Yeast:Candida albicans (IC50=52 µg/ml).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Chitin-binding",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C368H552N102O103S10",
+            "Mass": 8373.59,
+            "PI": 8.56,
+            "Net Charge": 7,
+            "Hydrophobicity": -0.37,
+            "Half Life": "Mammalian:2.8 hourYeast:10 minE.coli:2 min",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Tachycitin, a small granular component in horseshoe crab hemocytes, is an antimicrobial protein with chitin-binding activity.",
+                    "Pubmed ID": "9010778",
+                    "Reference": "J Biochem. 1996 Dec;120(6)1253-1260.",
+                    "Author": "Kawabata S, Nagayama R, Hirata M, Shigenaga T, Agarwala KL, Saito T, Cho J, Nakajima H, Takagi T, Iwanaga S.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=9010778"
+                },
+                {
+                    "Title": "Chitin-binding proteins in invertebrates and plants comprise a common chitin-binding structural motif.",
+                    "Pubmed ID": "10770921",
+                    "Reference": "J Biol Chem. 2000 Jun 16;275(24)17929-17932.",
+                    "Author": "Suetake T, Tsuda S, Kawabata S, Miura K, Iwanaga S, Hikichi K, Nitta K, Kawano K.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=10770921"
+                }
+            ],
+            "Frequent Amino Acids": "CLK",
+            "Absent Amino Acids": "IMOQU",
+            "Basic Residues": 12,
+            "Acidic Residues": 5,
+            "Hydrophobic Residues": 29,
+            "Polar Residues": 48,
+            "Positive Residues": 12,
+            "Negative Residues": 5,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07759",
+                    "Similarity": 1.0,
+                    "Sequence": "YLAFRCGRYSPCLDDGPNVNLYSCCSFYNCHKCLARLENCPKGLHYNAYLKVCDWPSKAGCT"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07921",
+                    "Similarity": 1.0,
+                    "Sequence": "MASSFMFAVVVLFISLAANVESYLAFRCGRYSPCLDDGPNVNLYSCCSFYNCHKCLARLENCPKGLHYNAYLKVCDWPSKAGCTSVNKECHLWKTGRK"
+                }
+            ]
+        }
+    }
+}

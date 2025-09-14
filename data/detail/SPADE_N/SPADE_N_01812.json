@@ -1,0 +1,85 @@
+{
+    "SPADE_N_01812": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01812",
+            "Peptide Name": "Lividin-2 (Brevinin-2-OR8; Frogs, amphibians, animals)",
+            "Source": "Odorrana rotodora (Chinese odorous frog) (Odorrana livida)",
+            "Family": "Belongs to the frog skin active peptide family (Brevinin subfamily)",
+            "Gene": "lividin-2",
+            "Sequence": "SFLDTLKNLAISAAKGAGQSVLSTLSCKLSKTC",
+            "Sequence Length": 33,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q2UXR3"
+            ],
+            "Protein Existence": "Homology",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "Gram-negative bacteria:Escherichia coli ATCC 25922 (MIC=13.1 µg/ml), Bacillus pyocyaneus CMCCB 10104 (MIC=13.1 µg/ml);Gram-positive bacterium:Staphylococcus aureus ATCC 25923 (MIC=13.1 µg/ml).Yeast:Candida albicans (MIC=13.1 µg/ml).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Cyclization (Cys27 and Cys33)",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C145H251N39O47S2",
+            "Mass": 3356.91,
+            "PI": 9.3,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.38,
+            "Half Life": "Mammalian:1.9 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Amphibian defensive peptide.",
+            "Tissue specificity": "Expressed by the skin glands.",
+            "PTM": "Contains disulfide bond.",
+            "Literature": [
+                {
+                    "Title": "Lividins novel antimicrobial peptide homologs from the skin secretion of the Chinese Large Odorous frog, Rana (Odorrana) livida. Identification by shotgun cDNA cloning and sequence analysis.",
+                    "Pubmed ID": "16713657",
+                    "Reference": "Peptides. 2006 Sep;27(9)2118-2123.",
+                    "Author": "Zhou M, Chen T, Walker B, Shaw C.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16713657"
+                },
+                {
+                    "Title": "Extremely abundant antimicrobial peptides existed in the skins of nine kinds of Chinese odorous frogs.",
+                    "Pubmed ID": "22029824",
+                    "Reference": "J Proteome Res. 2012 Jan 1;11(1)306-319.",
+                    "Author": "Yang X, Lee WH, Zhang Y.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=22029824"
+                }
+            ],
+            "Frequent Amino Acids": "LSA",
+            "Absent Amino Acids": "EHMOPRUWY",
+            "Basic Residues": 4,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 22,
+            "Positive Residues": 4,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01825",
+                    "Similarity": 0.9696969696969697,
+                    "Sequence": "SFLDTLKNLAISAAKGAGQSVLSTLSCKLSETC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01741",
+                    "Similarity": 0.8484848484848485,
+                    "Sequence": "GLLDTLKNMAINAAKGAGQSVLNTLSCKLSKTC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01740",
+                    "Similarity": 0.8484848484848485,
+                    "Sequence": "GLLDSLKNLAINAAKGAGQSVLNTLSCKLSKTC"
+                }
+            ]
+        }
+    }
+}

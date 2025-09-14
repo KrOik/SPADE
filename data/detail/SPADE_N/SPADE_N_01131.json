@@ -1,0 +1,72 @@
+{
+    "SPADE_N_01131": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01131",
+            "Peptide Name": "Kassinatuerin-2Mb (Frogs, amphibians, animals)",
+            "Source": "Kassina maculata (African hyperoliid frog)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "FFGAIAAALPHVISAIKNAL",
+            "Sequence Length": 20,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+"
+            ],
+            "Target Organism": "[Ref.19427345]Gram-positive bacterium:Staphylococcus aureus",
+            "Hemolytic Activity": "[Ref:19427345]18% hemolytic activity at 16 μM, 45–50% hemolytic activity at 120 μM against horse erythrocytes",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Secondary structure prediction analysis revealed that virtually the entire structure of each kassinatuerin-2 related peptide is composed of alpha-helix, the helix was not amphipathic like many other amphibian skin antimicrobial peptides, in which there is a hydrophobic face and a positively charged faces the latter presumably interacting with the negatively charged glycocalyx of cell membranes.",
+            "Formula": "C97H154N24O23",
+            "Mass": 2024.41,
+            "PI": 8.76,
+            "Net Charge": 2,
+            "Hydrophobicity": 1.42,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Function": "Has relatively potent growth inhibitory activity against the Gram-positive bacterium, S. aureus, but were ineffective against the Gram-negative bacterium, E. coli and were relatively ineffective against the pathogenic yeast, C. albicans. Has hemolytic activity as demonstrated using horse erythrocytes.",
+            "Literature": [
+                {
+                    "Title": "A family of kassinatuerin-2 related peptides from the skin secretion of the African hyperoliid frog, Kassina maculata.",
+                    "Pubmed ID": "19427345",
+                    "Reference": "Peptides. 2009 Aug;30(8)1428-1433.",
+                    "Author": "Wang L, Zhou M, McGrath S, Chen T, Gorman SP, Walker B, Shaw C.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=19427345"
+                }
+            ],
+            "Frequent Amino Acids": "AIF",
+            "Absent Amino Acids": "CDEMOQRTUWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 15,
+            "Polar Residues": 11,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01132",
+                    "Similarity": 0.95,
+                    "Sequence": "FVGAIAAALPHVISAIKNAL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01130",
+                    "Similarity": 0.8,
+                    "Sequence": "FLGAIAAALPHVINAVTNAL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01133",
+                    "Similarity": 0.75,
+                    "Sequence": "IIGAIAAALPHVINAIKNTF"
+                }
+            ]
+        }
+    }
+}

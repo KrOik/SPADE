@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_12057": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_12057",
+            "Peptide Name": "RVR  (Derived from PMAP-36)",
+            "Source": "synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "WRVRWRVRWRVR",
+            "Sequence Length": 12,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic form",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.31276398] Gram-positive bacteria:Staphylococcus aureus 29213 (MIC=1 μM), Staphylococcus aureus 25923 (MIC=2 μM), Staphylococcus  epidermidis 12228 (MIC=2 μM), Staphylococcus aureus 11011 (MIC=1 μM);Gram-negative bacteria:Escherichia coli 25922 (MIC=4 μM), Escherichia coli 1005 (MIC=2 μM), Staphylococcus typhi (MIC=4 μM), Escherichia coli 20411 (MIC=2 μM), Acinetobacter baumannii AB1901 (MIC=2 μM), Acinetobacter baumannii AB1902 (MIC=2 μM), Pseudomonas aeruginosa 25349 (MIC=4 μM).",
+            "Hemolytic Activity": "[Ref.31276398] MHC>128μM. The minimum hemolytic concentration (MHC) is measured as the lowest concentration of the peptides that caused 5% hemolysis of human red blood cells (hRBCs).",
+            "Cytotoxicity": "[Ref.31276398] The cell viability of the murine macrophage cell line RAW264.7 induced by RVR is 97.9%, 98.6%, 91.7%, 102.9%, 102.2%, 100.3%, 98.1% and 97.1% at peptide concentrations of 1, 2, 4, 8, 16, 32, 64 and 128 μM",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C84H131N33O13",
+            "Mass": 1811.15,
+            "PI": 12.0,
+            "Net Charge": 6,
+            "Hydrophobicity": -1.42,
+            "Half Life": "Mammalian:2.8 hourYeast:3 minE.coli:2 min",
+            "Function": "Antibacterial activity against Gram-positive bacteria and Gram-negative bacteria.",
+            "Literature": [
+                {
+                    "Title": "Design of Trp-rich dodecapeptides with broad-spectrum antimicrobial potency and membrane-disruptive mechanism",
+                    "Pubmed ID": "31276398",
+                    "Reference": "J Med Chem. 2019 Aug 8;62(15)6941-6957. doi 10.1021/acs.jmedchem.9b00305.",
+                    "Author": "Lyu Y, Chen T, Shang L, Yang Y, Li Z, Zhu J, Shan A.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=31276398"
+                }
+            ],
+            "Frequent Amino Acids": "RVW",
+            "Absent Amino Acids": "ACDEFGHIKLMNOPQSTUY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 9,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_18735",
+                    "Similarity": 1.0,
+                    "Sequence": "RVRVWRVRVCTKSIPPIC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02201",
+                    "Similarity": 1.0,
+                    "Sequence": "RVRRFWPLVPVAINTVAAGINLYKAIRRK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04441",
+                    "Similarity": 1.0,
+                    "Sequence": "RVRRPPKGKHRKFKHTHDKTA"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "SPADE_UN_11371": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_11371",
+            "Peptide Name": "BsaA2(Bacteriocin)",
+            "Source": "Staphylococcus aureus strain 26",
+            "Family": "Belongs to the lantibiotics family (Class I bacteriocin)",
+            "Gene": "Not found",
+            "Sequence": "ITSHSLCTPGCAKTGSFNSFCC",
+            "Sequence Length": 22,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+"
+            ],
+            "Target Organism": "Gram-positive",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Tandem MS analysis identified two sequence tags (Dhb-PGCAK/Q-Dhb-G and I/L-Dhb-Dha-H [due to the use of CID, Dha/Dhb represents either a dehydrated amino acid or a site of thioether bridge cleavage]) that matched the deduced amino acid sequence of BsaA2.Thioether bonds between residues 3 and 7, 8-11, 16-21, and 19-22.",
+            "Formula": "C94H146N26O31S4",
+            "Mass": 2264.58,
+            "PI": 7.9,
+            "Net Charge": 2,
+            "Hydrophobicity": 0.34,
+            "Half Life": "Mammalian:20 hourYeast:30 minE.coli:>10 hour",
+            "Comments": "This bacteriocin is identical to staphylococcin Au-26 initially reported in 1992.",
+            "Literature": [
+                {
+                    "Title": "Production of the Bsa lantibiotic by community-acquired Staphylococcus aureus strains.",
+                    "Pubmed ID": "20023032",
+                    "Reference": "J Bacteriol. 2010 Feb;192(4)1131-42.",
+                    "Author": "Daly KM, Upton M, Sandiford SK, Draper LA, Wescombe PA, Jack RW, O'Connor PM, Rossney A, G?tz F, Hill C, Cotter PD, Ross RP, Tagg JR.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=20023032"
+                }
+            ],
+            "Frequent Amino Acids": "CST",
+            "Absent Amino Acids": "DEMOQRUVWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 15,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_05608",
+                    "Similarity": 0.9090909090909091,
+                    "Sequence": "ITSFSLCTPGCAKTGSFNSYCC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05586",
+                    "Similarity": 0.8181818181818182,
+                    "Sequence": "ITSFIGCTPGCGKTGSFNSFCC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00033",
+                    "Similarity": 0.8181818181818182,
+                    "Sequence": "IASKFLCTPGCAKTGSFNSYCC"
+                }
+            ]
+        }
+    }
+}

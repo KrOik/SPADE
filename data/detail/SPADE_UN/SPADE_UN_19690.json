@@ -1,0 +1,67 @@
+{
+    "SPADE_UN_19690": {
+        "Sequence Information": {
+            "Peptide Name": "Distinctin-Like-Peptide-PH (1-18), DLP-PH (1-18)",
+            "Sequence": "NLVSALIEGRKYLKNVLK",
+            "Sequence Length": 18,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "A0A238GSL3",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/A0A238GSL3",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Discovery of Distinctin-Like-Peptide-PH (DLP-PH) From the Skin Secretion of Phyllomedusa hypochondrialis, a Prototype of a Novel Family of Antimicrobial Peptide.",
+                    "Pubmed ID": "29628917",
+                    "Reference": "Front Microbiol. 2018;9:541",
+                    "Author": "Wu D, Gao Y, Tan Y, Liu Y, Wang L, Zhou M, Xi X, Ma C, Bininda-Emonds ORP, Chen T, Shaw C",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/29628917"
+                }
+            ],
+            "Mass": 2058.47,
+            "PI": 10.0,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.04,
+            "Frequent Amino Acids": "LKN",
+            "Absent Amino Acids": "CDFHMOPQTUW",
+            "Basic Residues": 4,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 10,
+            "Positive Residues": 4,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_UN_19690",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01190",
+                    "Similarity": 1.0,
+                    "Sequence": "NLVSALIEGRKYLKNVLKKLNRLKEKNKAKNSKENN"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_19690",
+                    "Similarity": 1.0,
+                    "Sequence": "NLVSALIEGRKYLKNVLK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_26260",
+                    "Similarity": 0.8333333333333334,
+                    "Sequence": "IKNVLKSIVTPAKNQLDKYQ"
+                }
+            ],
+            "Hemolytic Activity": "Horse erythrocytes:8% Hemolysis=128 µg/ml,Horse erythrocytes:20% Hemolysis=256 µg/ml,Horse erythrocytes:40% Hemolysis=512 µg/ml",
+            "Target Organism": "Staphylococcus aureus NCTC 10788(MIC=128µg/ml),Staphylococcus aureus NCTC 10788(MBC=128µg/ml),Escherichia coli NCTC 10418(MIC=128µg/ml),Escherichia coli NCTC 10418(MBC=128µg/ml),Pseudomonas aeruginosa ATCC 27853(MIC=>512µg/ml),Pseudomonas aeruginosa ATCC 27853(MBC=>512µg/ml),Candida albicans NCYC 1467(MIC=64µg/ml),Candida albicans NCYC 1467(MFC=64µg/ml)"
+        }
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "SPADE_N_02995": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02995",
+            "Peptide Name": "Beta-defensin 15 (BD-15, RBD-15; Defensin, beta 15; Rodents, mammals, animals)",
+            "Source": "Rattus norvegicus (Rat)",
+            "Family": "Belongs to the beta-defensin family",
+            "Gene": "Defb15",
+            "Sequence": "FFDEKCSRINGRCTESCLKNEELIALCQKNLKCCVTVQPCGRDKGDELDEDSGYNRTRG",
+            "Sequence Length": 59,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q32ZH6"
+            ],
+            "Protein Existence": "Homology",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C275H449N85O95S7",
+            "Mass": 6690.47,
+            "PI": 5.31,
+            "Net Charge": -1,
+            "Hydrophobicity": -0.84,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Function": "Has antibacteruak activity (By similarity).",
+            "PTM": "Contains three disulfide bonds 6-33; 13-27; 17-34.",
+            "Literature": [
+                {
+                    "Title": "Cross-species analysis of the mammalian beta-defensin gene family presence of syntenic gene clusters and preferential expression in the male reproductive tract.",
+                    "Pubmed ID": "16033865",
+                    "Reference": "Physiol Genomics. 2005 Sep 21;23(1)5-17.",
+                    "Author": "Patil AA, Cai Y, Sang Y, Blecha F, Zhang G.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16033865"
+                },
+                {
+                    "Title": "Cross-species analysis of the mammalian beta-defensin gene family: presence of syntenic gene clusters and preferential expression in the male reproductive tract.",
+                    "Pubmed ID": "R2005J0403",
+                    "Author": "Zhang G.,Blecha F.,Sang Y.,Cai Y.,Patil A.A."
+                }
+            ],
+            "Frequent Amino Acids": "CED",
+            "Absent Amino Acids": "HMOUW",
+            "Basic Residues": 10,
+            "Acidic Residues": 11,
+            "Hydrophobic Residues": 14,
+            "Polar Residues": 33,
+            "Positive Residues": 10,
+            "Negative Residues": 11,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03742",
+                    "Similarity": 0.9090909090909091,
+                    "Sequence": "EKCSRVNGRCTASCLKNEELVALCQKNLKCCVT"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03743",
+                    "Similarity": 0.9090909090909091,
+                    "Sequence": "EKCSRINGRCTASCLKNEELVALCWKNLKCCVT"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02950",
+                    "Similarity": 0.7966101694915254,
+                    "Sequence": "FFFFDEKCSRINGRCTASCLKNEELVALCWKNLKCCVTVQSCGRSKGNQSDEGSGHMGTRG"
+                }
+            ]
+        }
+    }
+}

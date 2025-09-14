@@ -1,0 +1,84 @@
+{
+    "SPADE_UN_29642": {
+        "Sequence Information": {
+            "Peptide Name": "LL-37 (7-37)",
+            "Sequence": "RKSKEKIGKEFKRIVQRIKDFLRNLVPRTES",
+            "Sequence Length": 31,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P49913",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P49913",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                },
+                {
+                    "uniprotId": "Q1KLX1",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/Q1KLX1",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                },
+                {
+                    "uniprotId": "J3KNB4",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/J3KNB4",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Antimicrobial and chemoattractant activity, lipopolysaccharide neutralization, cytotoxicity, and inhibition by serum of analogs of human cathelicidin LL-37",
+                    "Pubmed ID": "15980359",
+                    "Reference": "Antimicrob Agents Chemother. 2005;49:2845-2850",
+                    "Author": "Ciornei CD, Sigurdardóttir T, Schmidtchen A, Bodelsson M",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/15980359"
+                },
+                {
+                    "Title": "Postsecretory processing generates multiple cathelicidins for enhanced topical antimicrobial defense.",
+                    "Pubmed ID": "14978112",
+                    "Reference": "J Immunol. 2004;172:3070-3077",
+                    "Author": "Murakami M, López-García B, Braff M, Dorschner RA, Gallo RL",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/14978112"
+                }
+            ],
+            "Mass": 3800.46,
+            "PI": 11.04,
+            "Net Charge": 7,
+            "Hydrophobicity": -1.16,
+            "Frequent Amino Acids": "KRE",
+            "Absent Amino Acids": "ACHMOUWY",
+            "Basic Residues": 11,
+            "Acidic Residues": 4,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 22,
+            "Positive Residues": 11,
+            "Negative Residues": 4,
+            "SPADE ID": "SPADE_UN_29642",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02277",
+                    "Similarity": 1.0,
+                    "Sequence": "GDFFRKSKEKIGKEFKRIVQRIKDFLRN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03107",
+                    "Similarity": 1.0,
+                    "Sequence": "ALLGDFFRKSKEKIGKEFKRIVQRIKDFLRNLVPRTES"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03128",
+                    "Similarity": 1.0,
+                    "Sequence": "LLGDFFRKSKEKIGKEFKRIVQR"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:6% Hemolysis=44 µM",
+            "Target Organism": "Escherichia coli(MEC=0.33µM),Escherichia coli(MEC=0.47µM),Pseudomonas aeruginosa 15159(MEC=0.18µM),Pseudomonas aeruginosa 15159(MEC=0.15µM),Staphylococcus aureus F18(MEC=0.80µM),Staphylococcus aureus F18(MEC=2.4µM),Candida albicans ATCC 90028(MEC=2.4µM),Candida albicans ATCC 90028(MEC=>40µM),Staphylococcus aureus mprF(MIC=8µM),Staphylococcus aureus ATCC 25923(MIC=16µM),Escherichia coli O29(MIC=8µM),Streptococcus pyogenes NZ131(MIC=8µM),Candida albicans ATCC 14053(MIC=4µM)"
+        }
+    }
+}

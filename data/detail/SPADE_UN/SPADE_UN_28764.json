@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_28764": {
+        "Sequence Information": {
+            "Peptide Name": "Dermaseptin S4 (13-28)",
+            "Sequence": "AAAKAALNAVLVGANA",
+            "Sequence Length": 16,
+            "Biological Activity": [
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P80280",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P80280",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Structure-activity relationship study of antimicrobial dermaseptin S4 showing the consequences of peptide oligomerization on selective cytotoxicity",
+                    "Pubmed ID": "10660589",
+                    "Reference": "J Biol Chem. 2000;275:4230-4238",
+                    "Author": "Feder R, Dagan A, Mor A",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/10660589"
+                }
+            ],
+            "Mass": 1424.64,
+            "PI": 8.8,
+            "Net Charge": 1,
+            "Hydrophobicity": 1.19,
+            "Frequent Amino Acids": "ALN",
+            "Absent Amino Acids": "CDEFHIMOPQRSTUWY",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 4,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_28764",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_05740",
+                    "Similarity": 1.0,
+                    "Sequence": "ALWMTLLKKVLKAAAKAALNAVLVGANA"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05752",
+                    "Similarity": 1.0,
+                    "Sequence": "GWKIGKKLEHHGQNIRDGLISAGPAVFAVGQAATIYAAAK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08374",
+                    "Similarity": 1.0,
+                    "Sequence": "KLALKAAAKAWKAAAKAA"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=40 µM",
+            "Target Organism": "Escherichia coli TG1(IC50=>80µM)"
+        }
+    }
+}

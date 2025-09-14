@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_22163": {
+        "Sequence Information": {
+            "Peptide Name": "LL-37 KR-12 [Q5K,D9A]",
+            "Sequence": "KRIVKRIKAFLR",
+            "Sequence Length": 12,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P49913",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P49913",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Alanine and Lysine Scans of the LL-37-Derived Peptide Fragment KR-12 Reveal Key Residues for Antimicrobial Activity.",
+                    "Pubmed ID": "29430821",
+                    "Reference": "Chembiochem. 2018;19:931-939",
+                    "Author": "Gunasekera S, Muhammad T, Strömstedt AA, Rosengren KJ, Göransson U",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/29430821"
+                }
+            ],
+            "Mass": 1527.94,
+            "PI": 12.0,
+            "Net Charge": 6,
+            "Hydrophobicity": -0.3,
+            "Frequent Amino Acids": "KRI",
+            "Absent Amino Acids": "CDEGHMNOPQSTUWY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 6,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_22163",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_04256",
+                    "Similarity": 1.0,
+                    "Sequence": "LLGDFFRKSKEKIGKEFKRIV"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04258",
+                    "Similarity": 1.0,
+                    "Sequence": "EFKRIV"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05467",
+                    "Similarity": 1.0,
+                    "Sequence": "ILGKFCDEIKRIV"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=1.25µM),Pseudomonas aeruginosa ATCC 27853(MIC=1.25µM),Staphylococcus aureus ATCC 29213(MIC=1.25µM),Candida albicans ATCC 90028(MIC=1.25µM)"
+        }
+    }
+}

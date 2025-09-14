@@ -1,0 +1,70 @@
+{
+    "SPADE_UN_18753": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_18753",
+            "Peptide Name": "Oncocin (synthetic AMPs, L-Onc, Pro-rich, PrAMPs, Arg-rich; UCLL1c; Derivatives: Onc72; sr5Cterm-Onc, sr8Cterm-Onc, sr9Cterm-Onc; sr14Nterm-Onc, sr-onc, D5Cterm-Onc, DL7-Onc; D-Onc)",
+            "Source": "peptide design",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "ATCDLLSPFKVGHAACALHCIALGRRGGWCDGRAVCNCRR",
+            "Sequence Length": 19,
+            "UniProt Entry": "",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 4258.98,
+            "PI": 8.98,
+            "Hydrophobicity": 0.18,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Knappe D, Piantavigna S, Hansen A, Mechler A, Binas A, Nolte O, Martin LL, Hoffmann R. 2010",
+                    "Reference": "J Med Chem. 2010 Jul 22;53(14):5240-7. doi: 10.1021/jm100378b.Pub-Med.",
+                    "Title": "Oncocin (VDKPPYLPRPRPPRRIYNR-NH2): a novel antibacterial peptide optimized against gram-negative human pathogens."
+                }
+            ],
+            "Frequent Amino Acids": "ACG",
+            "Absent Amino Acids": "EMOQUY",
+            "Basic Residues": 8,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 16,
+            "Polar Residues": 25,
+            "Positive Residues": 8,
+            "Negative Residues": 2,
+            "Net Charge": 6,
+            "Comments": "Peptide design: obtained by changing P11 to R, removing N19, and adding C-terminal amidation to Oncopeltus antibacte-rial peptide 4.Sequence analysis: APD analysis reveals this sequence is most similar (90%) toOncopeltus antibacte-rial peptide 4I=L: 18%; G: 12%. GRAVY: 1.64; Mol W: 1762.166; Mol formula:C86H140N18O21; Mol Ex coeff: 0.Activity: Oncocin is particularly active against Gram-negative bacteria E. coli 8 strains (MIC 0.5-8 ug/ml), P. aeruginosa 8 strains (MIC 2-8 ug/ml) and K. pneumoniae 6 strains (MIC 0.25-8 ug/ml), A. baumannii 5 strains (MIC 0.5-2 ug/ml), E. cloacae (MIC 0.125-4 ug/ml), P. vulgaris (MIC 4 ug/ml), and Stenotrophomonas (MIC 8-32 ug/ml).Structure: The 3D structure for the complex between oncocin and a portion of the E. coli heat shock protein has been determined by X-ray crystallography.You can rotate, zoom, and view the 3D structureherein the PDB. The AMP was found to bind to the beta-strand region of the protein (Knappe D et al. 2011 ChemBioChem 12:874). However, it was not clear how this binding kills bacteria. DnaK null mutants are still susceptible to oncocin (Krizan et al., 2014).MOA:bacteria: More recently, it is demonstrated that oncocins can also bind the 50S subunit of the 70S ribosome, thereby providing a more likely mechanism that inhibits protein synthesis (Krizsan A et al., 2015).You can rotate, zoom, and view the 3D structureherein the PDB.  Onc112 (seq VDKPPYLPRPRPPRrIYNr-NH2, in which r denotes d-arginine) bound to the 70S ribosome with residues 1-12 binding to the exit tunnel via its N-terminal 14 residues.Derivatives: oncocin has been further engineered (Shaikh et al., 2023) by using non-standard amino acids. Onc72, with a sequence VDKPPYLPRPRPPROIYNO-NH2 (O=orinithine), is highly efficient in systemic septicaemia infection models with E. coli ATCC25922, a carbapenemase (KPC)-producing K. pneumoniae strain, and in a Murine Thigh Infection Model of K. pneumoniae ATCC43816 (Knappe D et al., 2015 Peptide Sci 104: 707-711).Interestingly, D-amino acids can be partially incorporated to confer other desired properties (e.g., serum stability) to the peptide without sacrificing peptide activity (Gan et al., 2024). Up to 9 C-terminal residues can be replaced with D-amino acids.  In contrast, full sequence stereo-randomization to sr-Onc abolished ribosome binding, similar to the case for the enantiomer D-Onc and further diastereomers containing D-residues in the ribosome binding stretch, such as DL7-Onc. For other derivatives, please refer to the ref above. D-amino acid incorporated peptides are resistant to serum degradation.Updated 10/2024",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_18753",
+                    "Similarity": 1.0,
+                    "Sequence": "ATCDLLSPFKVGHAACALHCIALGRRGGWCDGRAVCNCRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_13411",
+                    "Similarity": 0.975,
+                    "Sequence": "ATCDLLSPFKVGHAACALHCIAMGRRGGWCDGRAVCNCRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_13956",
+                    "Similarity": 0.9,
+                    "Sequence": "ATCDLLSPFKVGHAACAAHCIARGKRGGWCDGRAVCNCRK"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "SPADE_N_06763": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_06763",
+            "Peptide Name": "vitri D",
+            "Source": "Viola tricolor",
+            "Family": "",
+            "Gene": "Not found",
+            "Sequence": "GLPVCGETCFTGSCYTPGCSCNWPVCNRN",
+            "Sequence Length": 29,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Notavailable"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Target Organism": "Tumor cells:BEL-7402 (IC50>10 µg/ml)",
+            "Hemolytic Activity": "HRBCs:HC50=4.29 μM",
+            "Cytotoxicity": "Not available",
+            "Binding Target": "Not available",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C127H190N36O41S6",
+            "Mass": 3069.47,
+            "PI": 5.96,
+            "Net Charge": 0,
+            "Hydrophobicity": -0.03,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Literature": [
+                {
+                    "Title": "Isolation and characterization of cytotoxic cyclotides from Viola tricolor",
+                    "Pubmed ID": "20580652",
+                    "Reference": "Peptides. 2010 Aug;31(8)1434-40.",
+                    "Author": "Tang J, Wang CK, Pan X, Yan H, Zeng G, Xu W, He W, Daly NL, Craik DJ, Tan N.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=20580652"
+                }
+            ],
+            "Frequent Amino Acids": "CGN",
+            "Absent Amino Acids": "ADHIKMOQU",
+            "Basic Residues": 1,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 18,
+            "Positive Residues": 1,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00768",
+                    "Similarity": 0.8620689655172413,
+                    "Sequence": "GLPVCGETCVTGSCYTPGCTCSWPVCTRN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00856",
+                    "Similarity": 0.8620689655172413,
+                    "Sequence": "GLPVCGETCAFGSCYTPGCSCSWPVCTRN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00737",
+                    "Similarity": 0.8275862068965517,
+                    "Sequence": "GLPVCGETCFGGTCNTPGCSCETWPVCSRN"
+                }
+            ]
+        }
+    }
+}

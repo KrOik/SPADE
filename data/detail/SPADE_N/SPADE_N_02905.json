@@ -1,0 +1,77 @@
+{
+    "SPADE_N_02905": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02905",
+            "Peptide Name": "Alpha-defensin cryptdin-17 (CRYP17; Rodents, mammals, animals)",
+            "Source": "Mus musculus (Mouse)",
+            "Family": "Belongs to the alpha-defensin family",
+            "Gene": "Defa17",
+            "Sequence": "LRDLVCYCRKRGCKRREHMNGTCRKGHLLYTLCCR",
+            "Sequence Length": 35,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q64016"
+            ],
+            "Protein Existence": "Transcript level",
+            "Biological Activity": [
+                "Antimicrobial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C175H298N64O45S7",
+            "Mass": 4243.1,
+            "PI": 9.77,
+            "Net Charge": 10,
+            "Hydrophobicity": -0.72,
+            "Half Life": "Mammalian:5.5 hourYeast:3 minE.coli:2 min",
+            "Function": "Probably contributes to the antimicrobial barrier Function",
+            "Literature": [
+                {
+                    "Title": "Mouse Paneth cell defensins primary structures and antibacterial activities of numerous cryptdin isoforms.",
+                    "Pubmed ID": "7927786",
+                    "Reference": "Genomics. 1994;19448-453.",
+                    "Author": "Ouellette AJ, Hsieh MM, Nosek MT, Cano-Gauci DF, Huttner KM, Buick RN, Selsted ME.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=7927786"
+                },
+                {
+                    "Title": "Mouse Paneth cell defensins: primary structures and antibacterial activities of numerous cryptdin isoforms.",
+                    "Pubmed ID": "",
+                    "Author": "Huttner K.M.,Cano-Gauci D.F.,Nosek M.T.,Hsieh M.M.,Ouellette A.J."
+                }
+            ],
+            "Frequent Amino Acids": "RCL",
+            "Absent Amino Acids": "AFIOPQSUW",
+            "Basic Residues": 12,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 24,
+            "Positive Residues": 12,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07894",
+                    "Similarity": 1.0,
+                    "Sequence": "LLAFQVQADPIQNTDEETKTEEQPGEEDQAVSVSFGDPEGTSLQEESLRDLVCYCRKRGCKRREHMNGTCRKGHLLYTLCCR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02897",
+                    "Similarity": 0.9714285714285714,
+                    "Sequence": "LRDLVCYCRKRGCKRREHMNGTCRKGHLMYTLCCR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02898",
+                    "Similarity": 0.9714285714285714,
+                    "Sequence": "LRDLVCYCRKRGCKRREHMNGTCRKGHLLYMLCCR"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_00761": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_00761",
+            "Peptide Name": "IG-19 (residues 13-31 of LL-37)",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "IGKEFKRIVQRIKDFLRNL",
+            "Sequence Length": 19,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.22521196] Gram-positive bacteria :Bacillus subtilis (KCTC 3068)(MIC=4 μM), Staphylococcus epidermidis (KCTC 1917)(MIC=4 μM), Staphylococcus aureus (KCTC 1621)(MIC=4 μM);Gram-negative bacteria :Escherichia coli (KCTC 1682)(MIC=8 μM), Pseudomonas aeruginosa (KCTC 1637)(MIC=16 μM), Salmonella typhimurium (KCTC 1926)(MIC=8 μM)",
+            "Hemolytic Activity": "[Ref.22521196] MHC10=21.6 μM against human red blood cells",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "All of the peptides exhibited a predominantly-helical structure characterized by double minima at 208 and 222 nm in the presence of LPS.",
+            "Formula": "C109H185N33O26",
+            "Mass": 2373.84,
+            "PI": 11.0,
+            "Net Charge": 4,
+            "Hydrophobicity": -0.46,
+            "Half Life": "Mammalian:20 hourYeast:30 minE.coli:>10 hour",
+            "Function": "Antibacterial activity against Gram-positive bacteria and Gram-negative bacteria",
+            "Literature": [
+                {
+                    "Title": "Prokaryotic selectivity and LPS-neutralizing activity of short antimicrobial peptides designed from the human antimicrobial peptide LL-37.",
+                    "Pubmed ID": "22521196",
+                    "Reference": "Peptides. 2012 Jun;35(2)239-247.",
+                    "Author": "Nan YH, Bang JK, Jacob B, Park IS, Shin SY.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=22521196"
+                }
+            ],
+            "Frequent Amino Acids": "IKR",
+            "Absent Amino Acids": "ACHMOPSTUWY",
+            "Basic Residues": 6,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 9,
+            "Positive Residues": 6,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02277",
+                    "Similarity": 1.0,
+                    "Sequence": "GDFFRKSKEKIGKEFKRIVQRIKDFLRN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03100",
+                    "Similarity": 1.0,
+                    "Sequence": "KSKEKIGKEFKRIVQRIKDFLRNLVPR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03107",
+                    "Similarity": 1.0,
+                    "Sequence": "ALLGDFFRKSKEKIGKEFKRIVQRIKDFLRNLVPRTES"
+                }
+            ]
+        }
+    }
+}

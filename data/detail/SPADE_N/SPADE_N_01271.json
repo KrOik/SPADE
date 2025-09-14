@@ -1,0 +1,76 @@
+{
+    "SPADE_N_01271": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01271",
+            "Peptide Name": "Odorranain-K1 (OdK1; Frogs, amphibians, animals)",
+            "Source": "Odorrana grahami (Yunnanfu frog) (Rana grahami)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "GLFTLIKGAAKLIGKTVPKKQARLGMNLWLVKLPTNVKT",
+            "Sequence Length": 39,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/A6MBN8"
+            ],
+            "Protein Existence": "Transcript level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Antifungal",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.17272268] Gram-negative bacterium:Escherichia coli (MIC=4.68 μg/ml);Gram-positive bacteria:Staphylococcus aureus (MIC=4.68 μg/ml), Bacillus subtilis (MIC=1.10 μg/ml).Yeast:Candida albicans (MIC=1.10 μg/ml).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C198H341N53O47S",
+            "Mass": 4248.22,
+            "PI": 11.47,
+            "Net Charge": 8,
+            "Hydrophobicity": 0.19,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Odorranain-K1 exhibites antimicrobial activities against all of the tested microbes including Gram-positive and Gram-negative bacteria and fungi.",
+            "Literature": [
+                {
+                    "Title": "Anti-infection peptidomics of amphibian skin.",
+                    "Pubmed ID": "17272268",
+                    "Reference": "Mol Cell Proteomics. 2007 May;6(5)882-894.",
+                    "Author": "Li J, Xu X, Xu C, Zhou W, Zhang K, Yu H, Zhang Y, Zheng Y, Rees HH, Lai R, Yang D, Wu J.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=17272268"
+                }
+            ],
+            "Frequent Amino Acids": "KLG",
+            "Absent Amino Acids": "CDEHOSUY",
+            "Basic Residues": 8,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 20,
+            "Polar Residues": 21,
+            "Positive Residues": 8,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01291",
+                    "Similarity": 0.65,
+                    "Sequence": "GLFTLIKGAYKLDAPTVACN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02382",
+                    "Similarity": 0.6190476190476191,
+                    "Sequence": "FWGALIKGAAKLIPSVVGLFKKKQ"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01292",
+                    "Similarity": 0.6,
+                    "Sequence": "GLFTLIKGAYKNDAPTVACN"
+                }
+            ]
+        }
+    }
+}

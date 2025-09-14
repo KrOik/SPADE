@@ -1,0 +1,72 @@
+{
+    "SPADE_N_00182": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00182",
+            "Peptide Name": "PlnA-17 (Bacteriocin)",
+            "Source": "Lactobacillus plantarum (Gram-positive bacteria)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "GATAIKQVKKLFKKWGW",
+            "Sequence Length": 17,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+"
+            ],
+            "Target Organism": "Gram-positive bacteria:Lactobacillus sake NCDO 2714 (IC50=15 nM), Lactobacillus plantarum 965 (IC50=400 nM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C97H153N25O20",
+            "Mass": 1989.41,
+            "PI": 10.6,
+            "Net Charge": 5,
+            "Hydrophobicity": -0.44,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Structure and mode of action of the membrane-permeabilizing antimicrobial peptide pheromone plantaricin A.",
+                    "Pubmed ID": "15805109",
+                    "Reference": "J Biol Chem. 2005 Jun 17;280(24)22945-22950.",
+                    "Author": "Kristiansen PE, Fimland G, Mantzilas D, Nissen-Meyer J.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=15805109"
+                }
+            ],
+            "Frequent Amino Acids": "KAG",
+            "Absent Amino Acids": "CDEHMNOPRSUY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 10,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00181",
+                    "Similarity": 1.0,
+                    "Sequence": "YSLQMGATAIKQVKKLFKKWGW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06136",
+                    "Similarity": 1.0,
+                    "Sequence": "MKIQIKGMKQLSNKEMQKIVGGKSSAYSLQMGATAIKQVKKLFKKWGW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15617",
+                    "Similarity": 1.0,
+                    "Sequence": "KSSAYSLQMGATAIKQVKKLFKKWGW"
+                }
+            ]
+        }
+    }
+}

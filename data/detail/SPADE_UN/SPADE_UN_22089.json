@@ -1,0 +1,49 @@
+{
+    "SPADE_UN_22089": {
+        "Sequence Information": {
+            "Peptide Name": "",
+            "Sequence": "XRR",
+            "Sequence Length": 3,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Ultrashort Cationic Lipopeptides-Effect of N-Terminal Amino Acid and Fatty Acid Type on Antimicrobial Activity and Hemolysis",
+                    "Pubmed ID": "31936341",
+                    "Reference": "Molecules. 2020;25:",
+                    "Author": "Neubauer D, Jaskiewicz M, Bauer M, Golacki K, Kamysz W",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/31936341"
+                }
+            ],
+            "SPADE ID": "SPADE_UN_22089",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00066",
+                    "Similarity": 1.0,
+                    "Sequence": "ATYYGNGLYCNKEKCWVDWNQAKGEIGKIIVNGWVNHGPWAPRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00076",
+                    "Similarity": 1.0,
+                    "Sequence": "VNYGNGVSCSKTKCSVNWGQAFQERYTAGINSFVSGVASGAGSIGRRP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00079",
+                    "Similarity": 1.0,
+                    "Sequence": "FVYGNGVTSILVQAQFLVNGQRRFFYTPDK"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=>256 µg/ml",
+            "Target Organism": "Staphylococcus aureus ATCC 25923(MIC=8µg/ml),Pseudomonas aeruginosa ATCC 9027(MIC=8µg/ml),Candida albicans ATCC 10231(MIC=16µg/ml),Enterococcus faecium ATCC 700221(MIC=8µg/ml),Staphylococcus aureus ATCC 33591(MIC=8µg/ml),Klebsiella pneumoniae ATCC 700603(MIC=256µg/ml),Acinetobacter baumannii ATCC BAA-1605(MIC=32µg/ml),Klebsiella aerogenes ATCC 13048(MIC=256µg/ml)"
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_11986": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_11986",
+            "Peptide Name": "WL1 (Derived from CP-1)",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "WLSKTAKKL",
+            "Sequence Length": 9,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic form",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.29266746] Gram-positive bacteria :Staphylococcus aureus ATCC 29213(MIC>128 μM), Staphylococcus aureus ATCC 43300(MIC>128 μM), Staphylococcus epidermidis ATCC 12228(MIC>128 μM), Bacillus subtilis CMCC 63501(MIC>128 μM);Gram-negative bacteria :Escherichia coli ATCC25922(MIC>128 μM), Escherichia coli UB1005(MIC>128 μM), Pseudomonas aeruginosa ATCC 27853(MIC>128 μM), Salmonella typhimurium ATCC 7731(MIC>128 μM), Salmonella pullorum C79-13(MIC>128 μM)",
+            "Hemolytic Activity": "[Ref.29266746] MHC5>128 μM against human red blood cells",
+            "Cytotoxicity": "[Ref.29266746] The cell viability of IPEC-J2 cells induced by WL1 is 99.2%, 89.8%, 86.2%, 90.8%, 87.8%, 94.3% and 76.5% at peptide concentrations of 2, 4, 8, 16, 32, 64 and 128 μM. The cell viability of IPEC-J2 cells induced by the control Melittin is 7",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C51H87N13O12",
+            "Mass": 1074.32,
+            "PI": 10.3,
+            "Net Charge": 3,
+            "Hydrophobicity": -0.52,
+            "Half Life": "Mammalian:2.8 hourYeast:3 minE.coli:2 min",
+            "Function": "Antibacterial activity against Gram-positive bacteria and Gram-negative bacteria",
+            "Literature": [
+                {
+                    "Title": "Antibacterial activities and molecular mechanism of amino-terminal fragments from pig nematode antimicrobial peptide CP-1.",
+                    "Pubmed ID": "29266746",
+                    "Reference": "Chem Biol Drug Des. 2018 May;91(5)1017-1029. doi 10.1111/cbdd.13165.",
+                    "Author": "Dong N, Wang Z, Chou S, Zhang L, Shan A, Jiang J",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=29266746"
+                }
+            ],
+            "Frequent Amino Acids": "KLA",
+            "Absent Amino Acids": "CDEFGHIMNOPQRUVY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 4,
+            "Polar Residues": 6,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02761",
+                    "Similarity": 1.0,
+                    "Sequence": "SWLSKTAKKLENSAKKRISEGIAIAIQGGPR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02763",
+                    "Similarity": 1.0,
+                    "Sequence": "SWLSKTAKKLENSAKKRISEGIAIAIKGGSR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08887",
+                    "Similarity": 1.0,
+                    "Sequence": "SWLSKTAKKLENSAKKRISEGIAIAQGPR"
+                }
+            ]
+        }
+    }
+}

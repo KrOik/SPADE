@@ -1,0 +1,71 @@
+{
+    "SPADE_UN_00371": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_00371",
+            "Peptide Name": "Cecropin B (1-7)-melittin (4-11)hybrid peptide (CBM)",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "GWLRKLGAVLKVLTT",
+            "Sequence Length": 15,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "[Ref.20111863]Escherichia coli, Staphylococcus aureus, Pseudomonas aeruginosa, Klebsiella pneumoniae, Bacillus subtilis, Bacillus thuringiensis, Salmonella derby.",
+            "Hemolytic Activity": "[Ref.20111863]0.05% hemolytic activity at 5 mg/kg, 0.14% hemolytic activity at 10 mg/kg in vivo",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C78H135N21O18",
+            "Mass": 1655.04,
+            "PI": 11.17,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.67,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "The hemolytic assays indicated CBM had no hemolytic in vivo and in vitro.",
+            "Literature": [
+                {
+                    "Title": "Design, recombinant expression, and antibacterial activity of the cecropins-melittin hybrid antimicrobial peptides.",
+                    "Pubmed ID": "20111863",
+                    "Reference": "Curr Microbiol. 2010 Sep;61(3)169-175.",
+                    "Author": "Cao Y, Yu RQ, Liu Y, Zhou HX, Song LL, Cao Y, Qiao DR.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=20111863"
+                }
+            ],
+            "Frequent Amino Acids": "LGK",
+            "Absent Amino Acids": "CDEFHIMNOPQSUY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 8,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_02634",
+                    "Similarity": 1.0,
+                    "Sequence": "FKRRGGWLR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_00771",
+                    "Similarity": 0.8333333333333334,
+                    "Sequence": "IGKKFKRIVKRIKKWLRKL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09573",
+                    "Similarity": 0.8333333333333334,
+                    "Sequence": "WLFKKIGAVLKVL"
+                }
+            ]
+        }
+    }
+}

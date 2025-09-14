@@ -1,0 +1,72 @@
+{
+    "SPADE_N_03410": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03410",
+            "Peptide Name": "Defensin A",
+            "Source": "Rhodnius prolixus (Triatomid bug)",
+            "Family": "Not found",
+            "Gene": "DEFA",
+            "Sequence": "MKCILSLVTLFLVAVLVHSHPAEWNTHQQLDDALWEPAGEVTEEHVARLKRATCDLFSFRSKWVTPNHAACAAHCLLRGNRGGRCKGTICHCRK",
+            "Sequence Length": 94,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q86MY3"
+            ],
+            "Protein Existence": "Predicted",
+            "Biological Activity": [
+                "Antimicrobial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C463H734N142O126S8",
+            "Mass": 10562.18,
+            "PI": 8.8,
+            "Net Charge": 11,
+            "Hydrophobicity": -0.1,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Isolation and characterization of a novel insect defensin from Rhodnius prolixus, a vector of Chagas disease.",
+                    "Pubmed ID": "12650692",
+                    "Reference": "Insect Biochem Mol Biol. 2003 Apr;33(4)439-447.",
+                    "Author": "Lopez L, Morales G, Ursic R, Wolff M, Lowenberger C.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=12650692"
+                }
+            ],
+            "Frequent Amino Acids": "LAC",
+            "Absent Amino Acids": "OUY",
+            "Basic Residues": 19,
+            "Acidic Residues": 8,
+            "Hydrophobic Residues": 40,
+            "Polar Residues": 58,
+            "Positive Residues": 19,
+            "Negative Residues": 8,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02752",
+                    "Similarity": 1.0,
+                    "Sequence": "ATCDLFSFRSKWVTPNHAACAAHCLLRGNRGGRCKGTICHCRK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07631",
+                    "Similarity": 0.9696969696969697,
+                    "Sequence": "SKWVTPNHAACAAHCLLRGNRGGQCKGTICHCR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03372",
+                    "Similarity": 0.9534883720930233,
+                    "Sequence": "ATCDLFSFQSKWVTPNHAACAAHCLLRGNRGGQCKGTICHCRK"
+                }
+            ]
+        }
+    }
+}

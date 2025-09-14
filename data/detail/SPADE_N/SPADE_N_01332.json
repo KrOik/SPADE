@@ -1,0 +1,78 @@
+{
+    "SPADE_N_01332": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01332",
+            "Peptide Name": "Nigrocin-2 (Nigrocin-2LVa; Frogs, amphibians, animals)",
+            "Source": "Rana nigromaculata (Black-spotted frog)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "GLLSKVLGVGKKVLCGVSGLC",
+            "Sequence Length": 21,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P0C009"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "[Ref.11682065]Gram-positive bacterium:Micrococcus luteus(MIC=2.5μg/ml);Gram-negative bacteria:Shigella dysenteriae(MIC=10μg/ml), Klebsiella pneumoniae(MIC=10μg/ml), Pseudomonas aeruginosa(MIC=100μg/ml), Salmonella typhimurium(MIC=22.5μg/ml), Proteus mirabilis(MIC>200μg/ml), Serratia marcescens(MIC>200μg/ml);Yeast:Candida albicans(MIC=150μg/ml).",
+            "Hemolytic Activity": "[Ref:11682065] It has 0.9% hemolytic activity at 100μg/ml against human red blood cells",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Cell membrane",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Cyclization (Cys15 and Cys21)",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C90H164N24O24S2",
+            "Mass": 2030.54,
+            "PI": 9.39,
+            "Net Charge": 3,
+            "Hydrophobicity": 1.21,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Thanks to its single linear amphipathic alpha-helix, may integrate into membrane phospholipids, leading to lysis of the membrane. Shows antibacterial activity against both Gram-positive and Gram-negative bacteria and against the fungus C. albicans. Has weak hemolytic activity.",
+            "Tissue specificity": "Expressed by the skin dorsal glands.",
+            "PTM": "Contains one disulfide bond 15-21. (By similarity)",
+            "Literature": [
+                {
+                    "Title": "Structural study of novel antimicrobial peptides, nigrocins, isolated from Rana nigromaculata.",
+                    "Pubmed ID": "11682065",
+                    "Reference": "FEBS Lett. 2001 Oct 19;507(1)95-100.",
+                    "Author": "Park S, Park SH, Ahn HC, Kim S, Kim SS, Lee BJ, Lee BJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=11682065"
+                }
+            ],
+            "Frequent Amino Acids": "GLV",
+            "Absent Amino Acids": "ADEFHIMNOPQRTUWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 11,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07874",
+                    "Similarity": 0.9523809523809523,
+                    "Sequence": "GLLSKVLGVGKKVLCGVSGLVC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_13859",
+                    "Similarity": 0.9333333333333333,
+                    "Sequence": "GLLGKVLGVGKKVLC"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_25267",
+                    "Similarity": 0.9333333333333333,
+                    "Sequence": "GLLGKVLGVGKKVLC"
+                }
+            ]
+        }
+    }
+}

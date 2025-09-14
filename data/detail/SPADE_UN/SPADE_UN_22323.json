@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_22323": {
+        "Sequence Information": {
+            "Peptide Name": "SARS-CoV Sgp (220-239)[N227K,S239L]",
+            "Sequence": "FKLPLGIKITNFRAILTAFL",
+            "Sequence Length": 20,
+            "Biological Activity": [
+                "Antiviral",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P59594",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P59594",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Synthetic peptides outside the spike protein heptad repeat regions as potent inhibitors of SARS-associated coronavirus.",
+                    "Pubmed ID": "15918330",
+                    "Reference": "Antivir Ther. 2005;10:393-403",
+                    "Author": "Zheng BJ, Guan Y, Hez ML, Sun H, Du L, Zheng Y, Wong KL, Chen H, Chen Y, Lu L, Tanner JA, Watt RM, Niccolai N, Bernini A, Spiga O, Woo PC, Kung HF,  Yuen KY, Huang JD",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/15918330"
+                }
+            ],
+            "Mass": 2276.8,
+            "PI": 11.17,
+            "Net Charge": 3,
+            "Hydrophobicity": 1.07,
+            "Frequent Amino Acids": "LFI",
+            "Absent Amino Acids": "CDEHMOQSUVWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 8,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_22323",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_13848",
+                    "Similarity": 0.9230769230769231,
+                    "Sequence": "TLKPIFKLPLGINITNFR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_22263",
+                    "Similarity": 0.9,
+                    "Sequence": "FKLPLGINITNFRAILTAFS"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_22209",
+                    "Similarity": 0.5333333333333333,
+                    "Sequence": "LLLGIKYKKIGANNFREVKK"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "SARS-CoV(IC90=>500µg/ml)"
+        }
+    }
+}

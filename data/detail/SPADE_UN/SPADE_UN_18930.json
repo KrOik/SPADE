@@ -1,0 +1,71 @@
+{
+    "SPADE_UN_18930": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_18930",
+            "Peptide Name": "YZ105 (Synthetic AMPs, teixobactin-derived, Leu-rich, XXA, UCLL1c; BBMm)",
+            "Source": "designed, bacteria-derived, natural derivative",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "FLSQILSTLRILL",
+            "Sequence Length": 13,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-MRSA",
+                "Antibiofilm"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 1516.87,
+            "PI": 9.75,
+            "Hydrophobicity": 1.58,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Wu Q, Mishra B, Wang G. 2022",
+                    "Reference": "Pept Sci (Hoboken). 2022 Sep;114(5):e24269. doi: 10.1002/pep2.24269.PubMed",
+                    "Title": "Linearized teixobactin is inactive and after sequence enhancement, kills methicillin-resistant Staphylococcus aureus via a different mechanism."
+                }
+            ],
+            "Frequent Amino Acids": "LIS",
+            "Absent Amino Acids": "ACDEGHKMNOPUVWY",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 5,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "Net Charge": 1,
+            "Comments": "Sequence analysis: APD analysis reveals that this sequence is similar (61.54%) toTemporin-1SPbL: 38%, I=S: 15%.Activity: active against S. aureus USA300 LAC and 5 clinical strains (MIC 1-2 uM),\tS. epidermidis 1457 (MIC 1 uM), E-coli E423-17 (MIC > 16 uM), \tA-baumannii B28-16 (MIC >16 uM),\tP-aeruginosa E411-17 (MIC > 16 uM), and\tK-pneumoniae E406-17 (MIC > 16 uM). Also, can disrupt 24-h preformed biofilms:bacteria:S. aureus.In vitro toxicity: human RBC HC50 150 uM, less hemo.lytic.Antimicrobial robustness: pH-sensitive (acidic pH 5.5), NaCl-insensitive:S. aureus (100 mM), serum-sensitive (10%, MIC increased 4-8 fold).MOA:bacteria:S. aureus: membrane permeation.",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_18931",
+                    "Similarity": 0.9230769230769231,
+                    "Sequence": "FLSKILSTLRILL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_18932",
+                    "Similarity": 0.8461538461538461,
+                    "Sequence": "FLSKILSTLRILF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09887",
+                    "Similarity": 0.8333333333333334,
+                    "Sequence": "GLRILLLKV"
+                }
+            ]
+        }
+    }
+}

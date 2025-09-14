@@ -1,0 +1,75 @@
+{
+    "SPADE_N_01210": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01210",
+            "Peptide Name": "Phylloseptin 15 (PS-15; Frogs, amphibians, animals)",
+            "Source": "Phyllomedusa azurea (Orange-legged monkey frog) (Phyllomedusa hypochondrialis azurea)",
+            "Family": "Not found",
+            "Gene": "psn15",
+            "Sequence": "LLSLVPHAINAVSAIAKHF",
+            "Sequence Length": 19,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q0VKG9",
+                "http://www.uniprot.org/uniprot/P84940"
+            ],
+            "Protein Existence": "Transcript level",
+            "Biological Activity": [
+                "Antimicrobial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C94H153N25O23",
+            "Mass": 2001.37,
+            "PI": 8.76,
+            "Net Charge": 3,
+            "Hydrophobicity": 1.15,
+            "Half Life": "Mammalian:5.5 hourYeast:3 minE.coli:2 min",
+            "Function": "Has antimicrobial activity (By similarity).",
+            "Tissue specificity": "Expressed by the skin glands.",
+            "PTM": "C-terminal amidation.",
+            "Literature": [
+                {
+                    "Title": "A combined mass spectrometric and cDNA sequencing approach to the isolation and characterization of novel antimicrobial peptides from the skin secretions of Phyllomedusa hypochondrialis azurea.",
+                    "Pubmed ID": "17553595",
+                    "Reference": "Peptides. 2007 Jul;28(7)1331-1343.",
+                    "Author": "Thompson AH, Bjourson AJ, Orr DF, Shaw C, McClean S.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=17553595"
+                }
+            ],
+            "Frequent Amino Acids": "ALH",
+            "Absent Amino Acids": "CDEGMOQRTUWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 12,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07596",
+                    "Similarity": 1.0,
+                    "Sequence": "LLSLVPHAINAVSAIAKHFG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_13880",
+                    "Similarity": 1.0,
+                    "Sequence": "LETLLSLV"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01198",
+                    "Similarity": 0.9411764705882353,
+                    "Sequence": "SLIPHAINAVSAIAKHF"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,76 @@
+{
+    "SPADE_UN_28939": {
+        "Sequence Information": {
+            "Peptide Name": "Parasin I [R1]",
+            "Sequence": "RGRGKQGGKVRAKAKTRSS",
+            "Sequence Length": 19,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "Q90ZD8",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/Q90ZD8",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                },
+                {
+                    "uniprotId": "F6X3F6",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/F6X3F6",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                },
+                {
+                    "uniprotId": "F7CN31",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/F7CN31",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Potent antimicrobial peptides with selectivity for Bacillus anthracis over human erythrocytes.",
+                    "Pubmed ID": "21741801",
+                    "Reference": "Int J Antimicrob Agents. 2011;38:237-242",
+                    "Author": "Dawson RM, Fox MA, Atkins HS, Liu CQ",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/21741801"
+                }
+            ],
+            "Mass": 2028.33,
+            "PI": 12.0,
+            "Net Charge": 8,
+            "Hydrophobicity": -1.75,
+            "Frequent Amino Acids": "GKR",
+            "Absent Amino Acids": "CDEFHILMNOPUWY",
+            "Basic Residues": 8,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 3,
+            "Polar Residues": 16,
+            "Positive Residues": 8,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_28939",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_27331",
+                    "Similarity": 1.0,
+                    "Sequence": "RGRGKQGGKVRAKAKTRSS"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_28939",
+                    "Similarity": 1.0,
+                    "Sequence": "RGRGKQGGKVRAKAKTRSS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09085",
+                    "Similarity": 1.0,
+                    "Sequence": "GRGKQGGKVRAKAKTRSS"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:0% Hemolysis=100 µM",
+            "Target Organism": "Escherichia coli K91BK(MIC=>100µM),Escherichia coli K91BK(IC50=>100µM),Bacillus subtilis var. niger ATCC 9372(MIC=>100µM),Bacillus subtilis var. niger ATCC 9372(IC50=>100µM),Bacillus anthracis Sterne 34F2(MIC=>100µM),Bacillus anthracis Sterne 34F2(IC50=>100µM),Burkholderia thailandensis ATCC 700388(no activity data)"
+        }
+    }
+}

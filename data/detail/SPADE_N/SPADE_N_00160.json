@@ -1,0 +1,107 @@
+{
+    "SPADE_N_00160": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00160",
+            "Peptide Name": "Microcin B17 (MccB17; Bacteriocin)",
+            "Source": "Escherichia coli (Gram-negative bacteria)",
+            "Family": "Belongs to the class I microcin",
+            "Gene": "mcbA",
+            "Sequence": "VGIGGGGGGGGGGSCGGQGGGCGGCSNGCSGGNGGSGGSGSHI",
+            "Sequence Length": 43,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P05834",
+                "http://www.uniprot.org/uniprot/Q7M024"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C118H188N48O53S4",
+            "Mass": 3255.3,
+            "PI": 6.68,
+            "Net Charge": 1,
+            "Hydrophobicity": -0.13,
+            "Half Life": "Mammalian:100 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "This glycine-rich peptide antibiotic inhibits DNA replication in many enteric bacteria, that leads to induction of the SOS repair system, massive DNA degradation and cell death. B17 inhibits type II topoisomerase by trapping an enzyme - DNA cleavable complex.",
+            "PTM": "Maturation of thiazole and oxazole containing antibiotics involves the enzymic condensation of a Cys, Ser or Thr with the alpha-carbonyl of the preceding amino acid to form a thioether or ether bond, then dehydration to form a double bond with the alpha-amino nitrogen. Thiazoline or oxazoline rings are dehydrogenated to form thiazole or oxazole rings.",
+            "Literature": [
+                {
+                    "Title": "The peptide antibiotic microcin B17 induces double-strand cleavage of DNA mediated by Escherichia coli DNA gyrase.",
+                    "Pubmed ID": "1846808",
+                    "Reference": "EMBO J. 1991 Feb;10(2)467-476.",
+                    "Author": "Viz¡n JL, Hern¡ndez-Chico C, del Castillo I, Moreno F.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=1846808"
+                },
+                {
+                    "Title": "The DNA replication inhibitor microcin B17 is a forty-three-amino-acid protein containing sixty percent glycine.",
+                    "Pubmed ID": "3329729",
+                    "Reference": "Proteins. 1986 Nov;1(3)230-238.",
+                    "Author": "Davagnino J, Herrero M, Furlong D, Moreno F, Kolter R.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=3329729"
+                },
+                {
+                    "Title": "DNA sequence, products, and transcriptional pattern of the genes involved in production of the DNA replication inhibitor microcin B17.",
+                    "Pubmed ID": "",
+                    "Author": "Kolter R.,Moreno F.,Genilloud O."
+                },
+                {
+                    "Title": "An E. coli promoter induced by the cessation of growth.",
+                    "Pubmed ID": "",
+                    "Author": "Kolter R.,Moreno F.,Han Z.,Conell N."
+                },
+                {
+                    "Title": "Posttranslational modifications in microcin B17 define an additional class of DNA gyrase inhibitor.",
+                    "Pubmed ID": "",
+                    "Author": "Warner P.,Vivas E.,Koerdel J.,Lee J.,Yorgey P."
+                },
+                {
+                    "Title": "The peptide antibiotic microcin B17 induces double-strand cleavage of DNA mediated by E. coli DNA gyrase.",
+                    "Pubmed ID": "",
+                    "Author": "Moreno F.,del Castillo I.,Hernandez-Chico C.,Vizan J.L."
+                },
+                {
+                    "Title": "Role of the microcin B17 propeptide in substrate recognition: solution structure and mutational analysis of McbA1-26.",
+                    "Pubmed ID": "",
+                    "Author": "Walsh C.T.,Baleja J.D.,Kim S.,Roy R.S."
+                }
+            ],
+            "Frequent Amino Acids": "GSC",
+            "Absent Amino Acids": "ADEFKLMOPRTUWY",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 3,
+            "Polar Residues": 15,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06105",
+                    "Similarity": 1.0,
+                    "Sequence": "MELKASEFGVVLSVDALKLSRQSPLGVGIGGGGGGGGGGSCGGQGGGCGGCSNGCSGGNGGSGGSGSHI"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_01709",
+                    "Similarity": 1.0,
+                    "Sequence": "GGGG"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_01723",
+                    "Similarity": 1.0,
+                    "Sequence": "GGG"
+                }
+            ]
+        }
+    }
+}

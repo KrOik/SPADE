@@ -1,0 +1,72 @@
+{
+    "SPADE_UN_16508": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_16508",
+            "Peptide Name": "NoxaA",
+            "Source": "Synthetic",
+            "Family": "",
+            "Gene": "Not found",
+            "Sequence": "AELPPEFAAQLRKIGDKVYC",
+            "Sequence Length": 20,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Notavailable"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Target Organism": "Not available",
+            "Hemolytic Activity": "Not available",
+            "Cytotoxicity": "Not available",
+            "Binding Target": "Mcl-1",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "5/6-Fluorescein amidite",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C102H162N26O29S",
+            "Mass": 2248.6,
+            "PI": 6.22,
+            "Net Charge": 0,
+            "Hydrophobicity": -0.21,
+            "Half Life": "Mammalian:4.4 hourYeast:>20 hourE.coli:>10 hour",
+            "Literature": [
+                {
+                    "Title": "Designed BH3 Peptides with High Affinity and Specificity for Targeting Mcl-1 in Cells",
+                    "Pubmed ID": "25052212",
+                    "Reference": "ACS Chem Biol. 2014 Sep 19;9(9)1962-8.",
+                    "Author": "Foight GW, Ryan JA, Gullá SV, Letai A, Keating AE.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=25052212"
+                }
+            ],
+            "Frequent Amino Acids": "AEK",
+            "Absent Amino Acids": "HMNOSTUW",
+            "Basic Residues": 3,
+            "Acidic Residues": 3,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 10,
+            "Positive Residues": 3,
+            "Negative Residues": 3,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07123",
+                    "Similarity": 0.6666666666666666,
+                    "Sequence": "VELPPPVELPPPVELPPP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02588",
+                    "Similarity": 0.5454545454545454,
+                    "Sequence": "AGFAAQAAASLAPVAAQQL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06910",
+                    "Similarity": 0.5,
+                    "Sequence": "VRLPPPVRLPPPVRLPPP"
+                }
+            ]
+        }
+    }
+}

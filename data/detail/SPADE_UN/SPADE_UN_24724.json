@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_24724": {
+        "Sequence Information": {
+            "Peptide Name": "Abarenicin-1 [M9R]",
+            "Sequence": "GYCFTACYRRNGVRICYRRCN",
+            "Sequence Length": 21,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Novel β-Hairpin Peptide from Marine Polychaeta with a High Efficacy against Gram-Negative Pathogens",
+                    "Pubmed ID": "36005520",
+                    "Reference": "Mar Drugs. 2022;20:517",
+                    "Author": "Safronova VN, Bolosov IA, Kruglikov RN, Korobova OV, Pereskokova ES, Borzilov AI, Panteleev PV, Ovchinnikova TV",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/36005520"
+                }
+            ],
+            "Mass": 2574.99,
+            "PI": 9.58,
+            "Net Charge": 5,
+            "Hydrophobicity": -0.55,
+            "Frequent Amino Acids": "RCY",
+            "Absent Amino Acids": "DEHKLMOPQSUW",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 13,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_24724",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_24720",
+                    "Similarity": 0.9523809523809523,
+                    "Sequence": "GYCFTACYLRNGVRICYRRCN"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_24723",
+                    "Similarity": 0.9523809523809523,
+                    "Sequence": "GYCFTACYARNGVRICYRRCN"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_24735",
+                    "Similarity": 0.9523809523809523,
+                    "Sequence": "GYCFTACARRNGVRICYRRCN"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=40 µM",
+            "Target Organism": "Escherichia coli ML-35p(MIC=0.063µM),Escherichia coli ATCC 25922(MIC=0.063µM),Escherichia coli 214(MIC=0.063µM),Escherichia coli 1057(MIC=0.063µM),Pseudomonas aeruginosa PAO1(MIC=0.25µM),Pseudomonas aeruginosa ATCC 27853(MIC=<0.063µM),Proteus mirabilis(MIC=0.25µM),Acinetobacter baumannii 2675(MIC=0.032µM),Enterobacter cloacae 4172(MIC=0.5µM),Pseudomonas aeruginosa(MIC=0.063-0.25µM),Klebsiella pneumoniae ATCC 700603(MIC=0.5µM),Staphylococcus aureus 209P(MIC=0.5µM),Bacillus licheniformis VKM B-511(MIC=1µM),Bacillus subtilis VKM B-886(MIC=0.5µM)"
+        }
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_21987": {
+        "Sequence Information": {
+            "Peptide Name": "BP206",
+            "Sequence": "RRLFKKILKYL",
+            "Sequence Length": 11,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "An Amphipathic Undecapeptide With All d-Amino Acids Shows Promising Activity Against Colistin-Resistant Strains of Acinetobacter Baumannii and a Dual Mode of Action",
+                    "Pubmed ID": "26574005",
+                    "Reference": "Antimicrob Agents Chemother. 2015;60:592-599",
+                    "Author": "Oddo A, Thomsen TT, Kjelstrup S, Gorey C, Franzyk H, Frimodt-Møller N, Løbner-Olesen A, Hansen PR",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/26574005"
+                }
+            ],
+            "Mass": 1477.88,
+            "PI": 11.17,
+            "Net Charge": 5,
+            "Hydrophobicity": -0.3,
+            "Frequent Amino Acids": "KLR",
+            "Absent Amino Acids": "ACDEGHMNOPQSTUVW",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 6,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_21987",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_04978",
+                    "Similarity": 1.0,
+                    "Sequence": "EEDGPQKKKRRL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09749",
+                    "Similarity": 1.0,
+                    "Sequence": "LKDVEEAQQKIINIIRRL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_12336",
+                    "Similarity": 1.0,
+                    "Sequence": "LRWLRRL"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:68% Hemolysis=150 µM",
+            "Target Organism": "Staphylococcus aureus ATCC 33591(MIC=34.5µg/ml),Enterococcus faecium ATCC 700221(MIC=17µg/ml),Escherichia coli ATCC 25922(MIC=34.5µg/ml),Pseudomonas aeruginosa ATCC 27853(MIC=17µg/ml),Klebsiella pneumoniae ATCC 700603(MIC=17µg/ml),Acinetobacter baumannii ATCC BAA-1605(MIC=4.5µg/ml)"
+        }
+    }
+}

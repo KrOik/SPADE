@@ -1,0 +1,68 @@
+{
+    "SPADE_UN_19254": {
+        "Sequence Information": {
+            "Peptide Name": "Human cathelicidin LL-37 (15-32)",
+            "Sequence": "KEFKRIVQRIKDFLRNLV",
+            "Sequence Length": 18,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell",
+                "Antibiofilm"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P49913",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P49913",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "The Naturally Occurring Host Defense Peptide, LL-37, and Its Truncated Mimetics KE-18 and KR-12 Have Selected Biocidal and Antibiofilm Activities Against Candida albicans, Staphylococcus aureus, and Escherichia coli In vitro.",
+                    "Pubmed ID": "28408902",
+                    "Reference": "Front Microbiol. 2017;8:544",
+                    "Author": "Luo Y, McLean DT, Linden GJ, McAuley DF, McMullan R, Lundy FT",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/28408902"
+                }
+            ],
+            "Mass": 2302.76,
+            "PI": 11.0,
+            "Net Charge": 4,
+            "Hydrophobicity": -0.48,
+            "Frequent Amino Acids": "KRF",
+            "Absent Amino Acids": "ACGHMOPSTUWY",
+            "Basic Residues": 6,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 10,
+            "Positive Residues": 6,
+            "Negative Residues": 2,
+            "SPADE ID": "SPADE_UN_19254",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02277",
+                    "Similarity": 1.0,
+                    "Sequence": "GDFFRKSKEKIGKEFKRIVQRIKDFLRN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03100",
+                    "Similarity": 1.0,
+                    "Sequence": "KSKEKIGKEFKRIVQRIKDFLRNLVPR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03107",
+                    "Similarity": 1.0,
+                    "Sequence": "ALLGDFFRKSKEKIGKEFKRIVQRIKDFLRNLVPRTES"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:1.17±0.18% Hemolysis=175 µg/ml",
+            "Target Organism": "Candida albicans NCTC 3179(MIC=84±1µg/ml),Staphylococcus aureus NCTC 6571(MIC=7.2±0.6µg/ml),Escherichia coli ATCC 25922(MIC=2.1±1µg/ml)"
+        }
+    }
+}

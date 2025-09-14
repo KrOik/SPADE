@@ -1,0 +1,92 @@
+{
+    "SPADE_N_00388": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00388",
+            "Peptide Name": "Pisum sativum defensin 1 (Psd1; Plant defensin)",
+            "Source": "Pisum sativum (Garden pea)",
+            "Family": "Belongs to the DEFL family",
+            "Gene": "Not found",
+            "Sequence": "KTCEHLADTYRGVCFTNASCDDHCKNKAHLISGTCHNWKCFCTQNC",
+            "Sequence Length": 46,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P81929"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antifungal"
+            ],
+            "Target Organism": "PD:Aspergillus niger (MIC=12.1 µg/ml), Aspergillus versicolor (MIC<5.0 µg/ml), Fusarium moniliforme (MIC=21.7 µg/ml), Fusarium oxysporum (MIC>100 µg/ml), Fusarium solani (MIC=12.1 µg/ml), Neurospora crassa (MIC=0.04 µg/ml), Saccharomyces cerevisae (MIC>100 µg/ml), Trichophyton mentagrophytes (MIC>100 µg/ml).PD+:Aspergillus niger (MIC=7.4 µg/ml), Fusarium moniliforme (MIC=33.2 µg/ml), Fusarium oxysporum (MIC=100 µg/ml), Fusarium solani (MIC=79.2 µg/ml), Neurospora crassa (MIC=0.05 µg/ml).NOTE:PD+:potato dextrose medium supplemented with 1 mM CaCl2.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "It interacts with cell-cycle-realted protein cyclin F as the target.",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Cyclization of a C-terminal Cys residue (forming a disulfide bond)",
+            "Stereochemistry": "L",
+            "Structure Description": "The protein has a globular fold with a triple-stranded antiparalell beta-sheet and an alpha-helix (from residue Asn17 to Leu27).",
+            "Formula": "C216H329N67O68S8",
+            "Mass": 5208.85,
+            "PI": 7.73,
+            "Net Charge": 5,
+            "Hydrophobicity": -0.55,
+            "Half Life": "Mammalian:1.3 hourYeast:3 minE.coli:2 min",
+            "PTM": "Contains four disulfide bonds 3-46; 14-35; 20-40; 24-42.",
+            "Literature": [
+                {
+                    "Title": "Characterization of two novel defense peptides from pea (Pisum sativum) seeds.",
+                    "Pubmed ID": "10860545",
+                    "Reference": "Arch Biochem Biophys. 2000 Jun 15;378(2)278-286.",
+                    "Author": "Almeida M.S, Cabral K.M, Zingali R.B, Kurtenbach E.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=10860545"
+                },
+                {
+                    "Title": "cDNA cloning and heterologous expression of functional cysteine-rich antifungal protein Psd1 in the yeast Pichia pastoris.",
+                    "Pubmed ID": "11697857",
+                    "Reference": "Arch Biochem Biophys. 2001 Nov 15;395(2)199-207.",
+                    "Author": "Almeida MS, Cabral KS, de Medeiros LN, Valente AP, Almeida FC, Kurtenbach E.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=11697857"
+                },
+                {
+                    "Title": "Solution structure of Pisum sativum defensin 1 by high resolution NMR plant defensins, identical backbone with different mechanisms of action.",
+                    "Pubmed ID": "11812144",
+                    "Reference": "J Mol Biol. 2002 Jan 25;315(4)749-757.",
+                    "Author": "Almeida MS, Cabral KM, Kurtenbach E, Almeida FC, Valente AP.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=11812144"
+                },
+                {
+                    "Title": "Solution structure of Pisum sativum defensin 1 by high resolution NMR: plant defensins, identical backbone with different mechanisms of action.",
+                    "Pubmed ID": "",
+                    "Author": "Valente A.P.,Almeida F.C.,Kurtenbach E.,Cabral K.M.,Almeida M.S."
+                }
+            ],
+            "Frequent Amino Acids": "CTH",
+            "Absent Amino Acids": "MOPU",
+            "Basic Residues": 9,
+            "Acidic Residues": 4,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 34,
+            "Positive Residues": 9,
+            "Negative Residues": 4,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00354",
+                    "Similarity": 0.9565217391304348,
+                    "Sequence": "NTCEHLADTYRGVCFTNASCDDHCKNKAHLISGTCHDWKCFCTQNC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07924",
+                    "Similarity": 0.9565217391304348,
+                    "Sequence": "MEKKSLAALSFLLLLVLFVAQEIVVTEANTCEHLADTYRGVCFTNASCDDHCKNKAHLISGTCHDWKCFCTQNC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03617",
+                    "Similarity": 0.925,
+                    "Sequence": "ALSFLFLFLFVAQEIVVTEANTCEHLADTYRGVCFTDASCDDHCKNKAHLISGTCHNFKC"
+                }
+            ]
+        }
+    }
+}

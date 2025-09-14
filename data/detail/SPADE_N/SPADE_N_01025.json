@@ -1,0 +1,74 @@
+{
+    "SPADE_N_01025": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01025",
+            "Peptide Name": "Alyteserin-2Ma (toads, amphibians, animals)",
+            "Source": "Alytes maurus (Midwife toad)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "FIGKLISAASGLLSHL",
+            "Sequence Length": 16,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "Gram-negative bacterium:Escherichia coli NCTC 10418 (MIC=38.4 µM) and Gram-positive bacterium:Staphylococcus aureus NCTC 10788 (MIC=9.5 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "α-Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C76H127N19O20",
+            "Mass": 1626.94,
+            "PI": 8.76,
+            "Net Charge": 2,
+            "Hydrophobicity": 1.27,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Function": "Has antibacterial activity against the Gram-negative bacteria E. coli and Gram-positive bacteria S. aures. It only inhibits C. albicans at very high concentration of 150 microM.",
+            "Literature": [
+                {
+                    "Title": "Antimicrobial peptides and alytesin are co-secreted from the venom of the Midwife toad, Alytes maurus (Alytidae, Anura) Implications for the evolution of frog skin defensive secretions.",
+                    "Pubmed ID": "22800568",
+                    "Reference": "Toxicon. 2012 Nov;60(6)967-981.",
+                    "Author": "König E, Zhou M, Wang L, Chen T, Bininda-Emonds OR, Shaw C.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=22800568"
+                }
+            ],
+            "Frequent Amino Acids": "LSA",
+            "Absent Amino Acids": "CDEMNOPQRTUVWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 7,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_12138",
+                    "Similarity": 1.0,
+                    "Sequence": "GLLFKELQKLIRYQIFIGK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15403",
+                    "Similarity": 1.0,
+                    "Sequence": "ISKLCTPGCITGWMMCNVTKGCFIGK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_10865",
+                    "Similarity": 1.0,
+                    "Sequence": "RYYNLSDEELSQFIGK"
+                }
+            ]
+        }
+    }
+}

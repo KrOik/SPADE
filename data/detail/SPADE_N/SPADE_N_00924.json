@@ -1,0 +1,75 @@
+{
+    "SPADE_N_00924": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00924",
+            "Peptide Name": "Antimicrobial peptide Ar-AMP (Ar-AMP; hevin-like peptides; Plant defensin)",
+            "Source": "Amaranthus retroflexus (Redroot amaranth) (Redroot pigweed)",
+            "Family": "Belongs to the hevein-like family",
+            "Gene": "Not found",
+            "Sequence": "AGECVQGRCPSGMCCSQFGYCGRGPKYCGR",
+            "Sequence Length": 30,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q5I2B2"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Antifungal"
+            ],
+            "Target Organism": "Fungi:Botrytis cinerea, Fusarium culmorum, Helminthosporium sativum and Alternaria consortiale.Gram-positive bacterium:Bacillus subtilis.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Chitin-binding",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C127H198N42O39S7",
+            "Mass": 3161.64,
+            "PI": 8.68,
+            "Net Charge": 3,
+            "Hydrophobicity": -0.41,
+            "Half Life": "Mammalian:4.4 hourYeast:>20 hourE.coli:>10 hour",
+            "PTM": "Contains three disulfide bonds 4-15; 9-21; 14-28.",
+            "Literature": [
+                {
+                    "Title": "An antimicrobial peptide Ar-AMP from amaranth (Amaranthus retroflexus L.) seeds.",
+                    "Pubmed ID": "16126239",
+                    "Reference": "Phytochemistry. 2005 Oct;66(20)2426-2431.",
+                    "Author": "Lipkin A, Anisimova V, Nikonorova A, Babakov A, Krause E, Bienert M, Grishin E, Egorov T.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16126239"
+                }
+            ],
+            "Frequent Amino Acids": "GCR",
+            "Absent Amino Acids": "DHILNOTUW",
+            "Basic Residues": 4,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 18,
+            "Positive Residues": 4,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00917",
+                    "Similarity": 0.9,
+                    "Sequence": "VGECVRGRCPSGMCCSQFGYCGKGPKYCGR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08078",
+                    "Similarity": 0.9,
+                    "Sequence": "MVNMKCVALIVIVMMAFMMVDPSMGVGECVRGRCPSGMCCSQFGYCGKGPKYCGRASTTVDHQADVAATKTAKNPTDAKLAGAGSP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00916",
+                    "Similarity": 0.896551724137931,
+                    "Sequence": "VGECVRGRCPSGMCCSQFGYCGKGPKYCG"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "SPADE_UN_11917": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_11917",
+            "Peptide Name": "WR1 (Derived from leucocin A)",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "WGRAFSAGVHRLANGGNG",
+            "Sequence Length": 18,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic form",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "[Ref.28002968] Gram-positive bacteria :Staphylococcus aureus 29213(MIC>70.09s μM), Staphylococcus aureus 1.160(MIC=70.09 μM), Listeria monocytogenes 21662(MIC>70.09 μM), Listeria monocytogenes 21633(MIC>70.09 μM), Bacillus cereus 63301(MIC>70.09 μM), Micrococcus luteus 28001(MIC>70.09 μM), Bacillus pumilus 63202(MIC>70.09 μM), Pseudomonas fluorescens 21620(MIC>70.09 μM), MRSA 43300(MIC>70.09 μM);Gram-negative bacteria :Escherichia coli O157 :H7 21530(MIC>70.09 μM), Escherichia coli 25922(MIC>70.09 μM), Escherichia coli 35150(MIC>70.09 μM), Salmonella paratyphi-A 20501(MIC>70.09 μM), Salmonella paratyphi paratyphi-B 21495(MIC>70.09 μM), Salmonella paratyphi paratyphi-C 21512(MIC>70.09 μM), Shigella flexneri 51571(MIC>70.09 μM), Salmonella choleraesuis 13312(MIC>70.09 μM), Salmonella typhimurium 51005(MIC>70.09 μM), Salmonella enteritidis 21527(MIC>70.09 μM), Vibrio parahemolyticus 21617(MIC>70.09 μM);Fungi :Candida albicans 10231(MIC>70.09 μM)",
+            "Hemolytic Activity": "[Ref.28002968] MHC10>70.09 μM against human red blood cells",
+            "Cytotoxicity": "[Ref.28002968] The cell viability of RAW264.7 cells induced by WR1 is 99.44%, 96.62%, 95.21%, 94.08%, 92.96%, 92.99%, 92.68%, 87.04% and 77.58% at peptide concentrations of 0.25, 0.5, 1, 2, 4, 8, 16, 32 and 64 μM.",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C79H119N29O22",
+            "Mass": 1826.97,
+            "PI": 12.0,
+            "Net Charge": 3,
+            "Hydrophobicity": -0.37,
+            "Half Life": "Mammalian:2.8 hourYeast:3 minE.coli:2 min",
+            "Function": "Antibacterial activity against Gram-positive bacteria and Gram-negative bacteria. Antifungal activity against Candida albicans",
+            "Literature": [
+                {
+                    "Title": "Insights into the Antimicrobial Activity and Cytotoxicity of Engineered α-Helical PeptideAmphiphiles.",
+                    "Pubmed ID": "28002968",
+                    "Reference": "J Med Chem. 2016 Dec 22;59(24)10946-10962. doi 10.1021/acs.jmedchem.6b00922.",
+                    "Author": "Ma Z, Yang J, Han J, Gao L, Liu H, Lu Z, Zhao H, Bie X",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=28002968"
+                },
+                {
+                    "Title": "Insights into the Antimicrobial Activity and Cytotoxicity of Engineered ��-Helical Peptide Amphiphiles",
+                    "Pubmed ID": "",
+                    "Author": "Ma Z, Yang J, Han J, Gao L, Liu H, Lu Z, Zhao H, Bie X"
+                }
+            ],
+            "Frequent Amino Acids": "GAN",
+            "Absent Amino Acids": "CDEIKMOPQTUY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 10,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00068",
+                    "Similarity": 0.9444444444444444,
+                    "Sequence": "KYYGNGVHCTKSGCSVNWGEAFSAGVHRLANGGNGFW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06097",
+                    "Similarity": 0.9444444444444444,
+                    "Sequence": "MMNMKPTESYEQLDNSALEQVVGGKYYGNGVHCTKSGCSVNWGEAFSAGVHRLANGGNGFW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06098",
+                    "Similarity": 0.9444444444444444,
+                    "Sequence": "MNNMKSADNYQQLDNNALEQVVGGKYYGNGVHCTKSGCSVNWGEAFSAGVHRLANGGNGFW"
+                }
+            ]
+        }
+    }
+}

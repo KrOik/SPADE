@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_13453": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_13453",
+            "Peptide Name": "dCATH 12-2 (modified from dCATH 12)",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "N/A",
+            "Sequence": "LAKKIYRAWKRW",
+            "Sequence Length": 12,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic form",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram-",
+                "Anti-Gram+"
+            ],
+            "Target Organism": "[Ref.32698035] Gram-positive bacteria:S. aureus KCTC 1621 (MIC = 4 μM), S. epidermidis KCTC 1917 (MIC = 8 μM), B. subtilis KCTC 3068 (MIC = 4 μM);Resistant Gram-positive bacteria:MRSA CCARM 3089 (MIC = 32 μM), MRSA CCARM 3090 (MIC = 16 μM), MRSA CCARM 3095 (MIC = 16 μM), VREF ATCC 51559(MIC = 16 μM);Gram-negative bacteria:E. coli KCTC 1682 (MIC = 16 μM), P. aeruginosa KCTC 1637(MIC = 4 μM), S. typhimurium KCTC 1926 (MIC = 2 μM);Resistant Gram-negative bacteria:MDRPAd CCARM 2095 (MIC = 16 μM), MDRPA CCARM 2109 (MIC = 32 μM);Yeast:C. albicans KCTC 7965 (MIC = 8 μM), C. albicans KCTC 7121 (MIC = 8 μM).",
+            "Hemolytic Activity": "[Ref.32698035] HC10 > 256 μM. Note:HC10 is the peptide concentration that caused 10% hemolysis of sheep red blood cells (sRBCs).",
+            "Cytotoxicity": "[Ref.32698035] At the concentration of 1.25, 2.5, 5, 10, 20, 40, 80 μM, the cell survival of dCATH 12-2 against human bone marrow SH-SY5Y cells is 102%, 101%, 100%, 100%, 97%, 92%, 85%.",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C79H123N23O14",
+            "Mass": 1618.97,
+            "PI": 11.17,
+            "Net Charge": 5,
+            "Hydrophobicity": -0.99,
+            "Half Life": "Mammalian:5.5 hourYeast:3 minE.coli:2 min",
+            "Comments": "dCATH12-2 displayed high antimicrobial activity with minimal cytotoxicity",
+            "Literature": [
+                {
+                    "Title": "Antimicrobial and anti-inflammatory activities of short dodecapeptides derived from duck cathelicidin Plausible mechanism of bactericidal action and endotoxin neutralization",
+                    "Pubmed ID": "32698035",
+                    "Reference": "Eur J Med Chem. 2020 Oct 15;204112580. doi 10.1016/j.ejmech.2020.112580. Epub 2020 Jul 16.",
+                    "Author": "Kumar SD, Shin SY",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=32698035"
+                }
+            ],
+            "Frequent Amino Acids": "KAR",
+            "Absent Amino Acids": "CDEFGHMNOPQSTUV",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 8,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06672",
+                    "Similarity": 1.0,
+                    "Sequence": "FAKLLAKLAK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06676",
+                    "Similarity": 1.0,
+                    "Sequence": "FAKLLAKLAKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_00422",
+                    "Similarity": 1.0,
+                    "Sequence": "KWKLFKKIPKFLHLAKK"
+                }
+            ]
+        }
+    }
+}

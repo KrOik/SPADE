@@ -1,0 +1,64 @@
+{
+    "SPADE_UN_23111": {
+        "Sequence Information": {
+            "Peptide Name": "Histatin 5 (1-12)",
+            "Sequence": "DSHAKRHHGYKR",
+            "Sequence Length": 12,
+            "Biological Activity": [
+                "Antifungal"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P15516",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P15516",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Specific Histidine Residues Confer Histatin Peptides with Copper-Dependent Activity against Candida albicans.",
+                    "Pubmed ID": "28763199",
+                    "Reference": "Biochemistry. 2017;56:4244-4255",
+                    "Author": "Conklin SE, Bridgman EC, Su Q, Riggs-Gelasco P, Haas KL, Franz KJ",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/28763199"
+                }
+            ],
+            "Mass": 1491.62,
+            "PI": 10.28,
+            "Net Charge": 6,
+            "Hydrophobicity": -2.55,
+            "Frequent Amino Acids": "HKR",
+            "Absent Amino Acids": "CEFILMNOPQTUVW",
+            "Basic Residues": 7,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 1,
+            "Polar Residues": 11,
+            "Positive Residues": 7,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_UN_23111",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03135",
+                    "Similarity": 1.0,
+                    "Sequence": "DSHAKRHHGYKRKFHEKHHSHRGYRSNYLYDN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03137",
+                    "Similarity": 1.0,
+                    "Sequence": "DSHAKRHHGYKRKFHEKHHSHRGY"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03138",
+                    "Similarity": 1.0,
+                    "Sequence": "DSHAKRHHGYKRKFHEKHHSHRGYR"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Candida albicans SC5314(EC50=>25µM),Candida albicans SC5314(EC50=4.74±0.02µM),Candida albicans SC5314(EC50=>100µM),Candida albicans SC5314(EC50=>100µM),Candida albicans SC5314(EC50=>100µM)"
+        }
+    }
+}

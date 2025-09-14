@@ -1,0 +1,56 @@
+{
+    "SPADE_UN_08740": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 2005/0277589 A1",
+                "Patent Link": "http://www.lens.org/lens/patent/US_2005_0277589_A1",
+                "Patent Type": "Patent Application",
+                "Publication Date": "2005-12-15",
+                "Family Info": "CA2491011A1,DE60313970D1,DE60313970T2,EP1519951A2,EP1519951B1,US7884070,WO2004005339A2,WO2004005339A3",
+                "Patent Title": "Linear cationic peptides having antibacterial and/or antifungal properties.",
+                "Abstract": "A peptide including a first peptide sequence of formula KLAKLAK in which K is lysine, L is leucine and A is alanine, and a second peptide sequence of formula (B) in which B is a peptide of 4 to 15 amino acids positively charged at neutral pH, including at least one peptide motif of formula Î²xxÎ² in which Î² is a basic amino acid and X is any amino acid, and in which the first peptide sequence is repeated n times and the second peptide sequence is repeated m times, n and m being whole numbers between 1 and 5."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_08740",
+            "Sequence": "KLAKLAKKLAKLAK",
+            "Sequence Length": 14,
+            "Peptide Name": "Sequence 4 from Patent US 20050277589",
+            "Source": "Synthetic construct",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antifungal"
+            ],
+            "Frequent Amino Acids": "KAL",
+            "Absent Amino Acids": "CDEFGHIMNOPQRSTUVWY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 10,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "Mass": 1523.99,
+            "PI": 10.7,
+            "Net Charge": 6,
+            "Hydrophobicity": -0.07,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06728",
+                    "Similarity": 1.0,
+                    "Sequence": "KLAKKLAKLAKLAKAL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07242",
+                    "Similarity": 1.0,
+                    "Sequence": "KLAKLAKKLAKLAKGRKKRRQRRRP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07243",
+                    "Similarity": 1.0,
+                    "Sequence": "KLAKLAKKLAKLAKNYRWRCKNQN"
+                }
+            ]
+        }
+    }
+}

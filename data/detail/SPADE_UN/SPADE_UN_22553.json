@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_22553": {
+        "Sequence Information": {
+            "Peptide Name": "KL10",
+            "Sequence": "KLKLKLKLKL",
+            "Sequence Length": 10,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Phosphate-dependent aggregation of [KL]n peptides affects their membranolytic activity.",
+                    "Pubmed ID": "32704013",
+                    "Reference": "Sci Rep. 2020;10:12300",
+                    "Author": "Strandberg E, Schweigardt F, Wadhwani P, Bürck J, Reichert J, Cravo HLP, Burger L, Ulrich AS",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/32704013"
+                }
+            ],
+            "Mass": 1224.66,
+            "PI": 10.6,
+            "Net Charge": 5,
+            "Hydrophobicity": -0.05,
+            "Frequent Amino Acids": "KL",
+            "Absent Amino Acids": "ACDEFGHIMNOPQRSTUVWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 5,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_22553",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06547",
+                    "Similarity": 1.0,
+                    "Sequence": "LKLKLKLKLKLK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10571",
+                    "Similarity": 1.0,
+                    "Sequence": "KLKLVALHKQVL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10658",
+                    "Similarity": 1.0,
+                    "Sequence": "KLK"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:12% Hemolysis=2 µg/ml,Human erythrocytes:20% Hemolysis=8 µg/ml,Human erythrocytes:40% Hemolysis=32 µg/ml,Human erythrocytes:81% Hemolysis=128 µg/ml,Human erythrocytes:94% Hemolysis=256 µg/ml",
+            "Target Organism": "Escherichia coli DSM 1116(MIC=8µg/ml),Escherichia coli DSM 1116(MIC=4µg/ml),Franconibacter helveticus DSM 18390(MIC=4µg/ml),Franconibacter helveticus DSM 18390(MIC=<=2µg/ml),Bacillus subtilis DSM 347(MIC=8µg/ml),Bacillus subtilis DSM 347(MIC=<=2µg/ml),Staphylococcus xylosus DSM 20267(MIC=<=2µg/ml)"
+        }
+    }
+}

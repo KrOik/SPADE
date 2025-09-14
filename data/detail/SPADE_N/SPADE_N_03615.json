@@ -1,0 +1,80 @@
+{
+    "SPADE_N_03615": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03615",
+            "Peptide Name": "Alamethicin (ALM; fungi)",
+            "Source": "Trichoderma viride",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "PAAAAQAVAGLAPVAAEQ",
+            "Sequence Length": 18,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Antifungal",
+                "Antiparasitic"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "The molecular conformation of the three crystallographically independent molecules is largely alpha-helical with a bend in the helix axis at an internal proline residue. The helix structure is highly amphipathic as most of the solvent-accessible polar atoms lie on a narrow strip of surface parallel to the helix axis.(Ref.2)",
+            "Formula": "C70H116N20O23",
+            "Mass": 1605.79,
+            "PI": 4.05,
+            "Net Charge": -1,
+            "Hydrophobicity": 0.79,
+            "Half Life": "Mammalian:>20 hourYeast:>20 hourE.coli:?",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Polypeptide anti-bacterial agent isolated from Trichoderma viride.",
+                    "Pubmed ID": "PubMed ID is not available",
+                    "Reference": "Experientia, 1967; 23 85-86.",
+                    "Author": "Meyer CE, Reusser F.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=PubMed ID is not available"
+                },
+                {
+                    "Title": "A voltage-gated ion channel model inferred from the crystal structure of alamethicin at 1.5-A resolution.",
+                    "Pubmed ID": "6292726",
+                    "Reference": "Nature. 1982 Nov 25;300(5890)325-330.",
+                    "Author": "Fox RO Jr, Richards FM.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=6292726"
+                }
+            ],
+            "Frequent Amino Acids": "APQ",
+            "Absent Amino Acids": "CDFHIKMNORSTUWY",
+            "Basic Residues": 0,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 14,
+            "Polar Residues": 13,
+            "Positive Residues": 0,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02117",
+                    "Similarity": 1.0,
+                    "Sequence": "FSKYERQKDKRPYSERKNQYTGPQFLYPPERIPPQKVIKWNEEGLPIYEIPGEGGHAEPAAA"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05635",
+                    "Similarity": 1.0,
+                    "Sequence": "AAGGVKKPKKAAAAKKSPKKPKKPAAA"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_08626",
+                    "Similarity": 1.0,
+                    "Sequence": "MSLCISDYLYLTLTFSKYERQKDKRPYSERKNQYTGPQFLYPPERIPPQKVIKWNEEGLPIYEIPGEGGHAEPAAA"
+                }
+            ]
+        }
+    }
+}

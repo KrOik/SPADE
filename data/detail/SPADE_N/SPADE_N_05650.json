@@ -1,0 +1,71 @@
+{
+    "SPADE_N_05650": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_05650",
+            "Peptide Name": "Tridecaptin A1 (TriA1; lipopeptides; nonribosomally synthesized peptide antibiotic)",
+            "Source": "Paenibacillus terrae; old: Bacillus circulans NRRL B-30644",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "VKGSWSKKFEVIA",
+            "Sequence Length": 13,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "Active against Gram+ B. subtilis JH642 (MIC 50 uM), S. aureus ATCC 25923 (100 uM), Gram- food pathogens C. jejuni NCTC 11168 (MIC 100 uM), E. coli DH5alpha (MIC 50 uM), and Salmonella enterica serovar Typhimurium (25 uM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C70H109N17O17",
+            "Mass": 1478.73,
+            "PI": 9.7,
+            "Net Charge": 2,
+            "Hydrophobicity": -0.05,
+            "Half Life": "Mammalian:100 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "There are three D-type 2,4-diaminobutyrate (Dab), represented by K's here. In addition, residue V1, S4, W5, and I12 are also D-amino acids.",
+            "Literature": [
+                {
+                    "Title": "Biochemical, structural, and genetic characterization of tridecaptin A?, an antagonist of Campylobacter jejuni.",
+                    "Pubmed ID": "24382692",
+                    "Reference": "Chembiochem. 2014 Jan 24;15(2)243-9.",
+                    "Author": "Lohans CT1, van Belkum MJ, Cochrane SA, Huang Z, Sit CS, McMullen LM, Vederas JC.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=24382692"
+                }
+            ],
+            "Frequent Amino Acids": "KSV",
+            "Absent Amino Acids": "CDHLMNOPQRTUY",
+            "Basic Residues": 3,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 8,
+            "Positive Residues": 3,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_21964",
+                    "Similarity": 0.9230769230769231,
+                    "Sequence": "VKGSWSKKFEVVA"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_21962",
+                    "Similarity": 0.9166666666666666,
+                    "Sequence": "VKGSWSKKFEVA"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_21961",
+                    "Similarity": 0.9090909090909091,
+                    "Sequence": "VKGSWSKFEVA"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "SPADE_N_02850": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02850",
+            "Peptide Name": "Ostricacin-1 (Beta-defensin 2; Birds, animals)",
+            "Source": "Struthio camelus (Ostrich)",
+            "Family": "Belongs to the beta-defensin family",
+            "Gene": "Not found",
+            "Sequence": "LFCRKGTCHFGGCPAHLVKVGSCFGFRACCKWPWDV",
+            "Sequence Length": 36,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P85113"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-positive bacteria:Staphylococcus aureus 1056-MRSA (MIC=1.25 µg/ml), S. aureus NCTC 4163 (MIC=6.7 µg/ml);Gram-negative bacteria:Escherichia coli O157:H7 (MIC=0.96 µg/ml), E. coli 0111 (MIC=6.7 µg/ml).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C182H267N51O41S6",
+            "Mass": 4017.77,
+            "PI": 8.94,
+            "Net Charge": 6,
+            "Hydrophobicity": 0.3,
+            "Half Life": "Mammalian:5.5 hourYeast:3 minE.coli:2 min",
+            "PTM": "Contains three disulfide bonds 3-29; 8-23; 13-30.",
+            "Literature": [
+                {
+                    "Title": "Purification and characterization of the antimicrobial peptide, ostricacin.",
+                    "Pubmed ID": "16459058",
+                    "Reference": "Biotechnol Lett 2001; 23 207-210.",
+                    "Author": "Yu, PL, Choudhury SD, Ahrens K.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16459058"
+                },
+                {
+                    "Title": "Identification of three novel ostricacins: an update on the phylogenetic perspective of beta-defensins.",
+                    "Pubmed ID": "R2006J0668",
+                    "Author": "Yu P.-L.,Sugiarto H."
+                }
+            ],
+            "Frequent Amino Acids": "CGF",
+            "Absent Amino Acids": "EIMNOQUY",
+            "Basic Residues": 7,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 15,
+            "Polar Residues": 20,
+            "Positive Residues": 7,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02849",
+                    "Similarity": 0.8055555555555556,
+                    "Sequence": "LFCKRGTCHFGRCPSHLIKVGSCFGFRSCCKWPWDA"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08034",
+                    "Similarity": 0.8055555555555556,
+                    "Sequence": "MRILYLLFSLLFLALQVSPGLSSPKRDMLFCKRGTCHFGRCPSHLIKVGSCFGFRSCCKWPWDA"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03196",
+                    "Similarity": 0.7777777777777778,
+                    "Sequence": "LFCKGGSCHFGGCPSHLIKVGSCFGFRSCCKWPWNA"
+                }
+            ]
+        }
+    }
+}

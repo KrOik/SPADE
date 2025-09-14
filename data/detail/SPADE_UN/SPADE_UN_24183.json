@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_24183": {
+        "Sequence Information": {
+            "Peptide Name": "K10S [K1,2R]",
+            "Sequence": "RRVTMTCSAS",
+            "Sequence Length": 10,
+            "Biological Activity": [
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P01680",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P01680",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "In Silico Predicted Antifungal Peptides: In Vitro and In Vivo Anti- Candida Activity.",
+                    "Pubmed ID": "34072802",
+                    "Reference": "J Fungi (Basel). 2021;7:439",
+                    "Author": "Ciociola T, Magliani W, Simone TD, Pertinhez TA, Conti S, Cozza G, Marin O, Giovati L",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/34072802"
+                }
+            ],
+            "Mass": 1111.3,
+            "PI": 10.35,
+            "Net Charge": 2,
+            "Hydrophobicity": -0.16,
+            "Frequent Amino Acids": "RST",
+            "Absent Amino Acids": "DEFGHIKLNOPQUWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 4,
+            "Polar Residues": 6,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_24183",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_00458",
+                    "Similarity": 1.0,
+                    "Sequence": "RAVAVIIRLRRV"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_01384",
+                    "Similarity": 1.0,
+                    "Sequence": "KRRV"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_01784",
+                    "Similarity": 1.0,
+                    "Sequence": "ARAILIRVVRRV"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:<2% Hemolysis=50 µM,Monkey kidney epithelial cells LLC-MK2:0% Killing=200 µM",
+            "Target Organism": "Candida albicans SC5314(EC50=0.254µM)"
+        }
+    }
+}

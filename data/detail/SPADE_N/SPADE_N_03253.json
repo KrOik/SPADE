@@ -1,0 +1,76 @@
+{
+    "SPADE_N_03253": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03253",
+            "Peptide Name": "Amphiphatic peptide CT2 (VmCT2; Non-disulfide-bridged peptide 5.14, NDBP-5.14; Arthropods, animal",
+            "Source": "Vaejovis mexicanus smithi (Scorpion)",
+            "Family": "Belongs to the scorpion NDBP 5 family",
+            "Gene": "Not found",
+            "Sequence": "FLSTLWNAAKSIF",
+            "Sequence Length": 13,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/I0DEB4"
+            ],
+            "Protein Existence": "Transcript level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.22342498]Gram-positive bacteria:Staphylococcus aureus ATCC 25923 (MIC=10 uM), Bacillus subtilis ATCC 6633 (MIC=20 µM), Streptococcus agalactiae (clinical isolate) (MIC=20 µM);Gram-negative bacteria:Escherichia coli ATCC 25922 (MIC=20 µM), Salmonella typhi ATCC 6399 (MIC=10 µM), Pseudomonas aeruginosa ATCC 9027 (MIC=10 µM).",
+            "Hemolytic Activity": "[Ref.22342498]25% hemolytic activity at 25 μM, 84% hemolytic activity at 50 μM against human erythrocytes",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Cell membrane",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C73H108N16O18",
+            "Mass": 1497.73,
+            "PI": 8.75,
+            "Net Charge": 1,
+            "Hydrophobicity": 0.82,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Function": "Amphipatic peptide that shows antibacterial activities against both Gram-positive and Gram-negative bacteria. Has hemolytic at its MIC range, but shows a strong cytotoxic activity at higher concentrations, reaching 84% lysis at 50 µM.",
+            "Tissue specificity": "Expressed by the venom gland.",
+            "Literature": [
+                {
+                    "Title": "Gene cloning and functional characterization of four novel antimicrobial-like peptides from scorpions of the family Vaejovidae.",
+                    "Pubmed ID": "22342498",
+                    "Reference": "Peptides. 2012 Apr;34(2)290-295.",
+                    "Author": "RamÃ­rez-Carreto S, Quintero-HernÃ¡ndez V, JimÃ©nez-Vargas JM, Corzo G, Possani LD, Becerril B, Ortiz E.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=22342498"
+                }
+            ],
+            "Frequent Amino Acids": "AFL",
+            "Absent Amino Acids": "CDEGHMOPQRUVY",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 7,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01612",
+                    "Similarity": 1.0,
+                    "Sequence": "SIFPAIVSFLSKFL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15351",
+                    "Similarity": 0.8,
+                    "Sequence": "LSTLI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09097",
+                    "Similarity": 0.8,
+                    "Sequence": "CKSIFC"
+                }
+            ]
+        }
+    }
+}

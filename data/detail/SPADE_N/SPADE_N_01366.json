@@ -1,0 +1,74 @@
+{
+    "SPADE_N_01366": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01366",
+            "Peptide Name": "Esculentin-1GRa (Frogs, amphibians, animals)",
+            "Source": "Rana grahami (Odorrana andersonii)",
+            "Family": "Belongs to the frog skin active peptide family (Brevinin subfamily)",
+            "Gene": "Not found",
+            "Sequence": "GLFSKFAGKGIKNLIFKGVKHIGKEVGMDVIRTGIDVAGCKIKGEC",
+            "Sequence Length": 46,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "Gram-negative bacterium:Escherichia coli (MIC=6 µM);Gram-positive bacterium:Staphylococcus aureus (MIC=12.5 µM).Yeast:Candida albicans (MIC>50 µM).",
+            "Hemolytic Activity": "[Ref.16621155] LC50=210 μM against human erythrocytes.",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Cyclization (Cys40 and Cys46)",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C219H366N60O58S3",
+            "Mass": 4863.81,
+            "PI": 9.63,
+            "Net Charge": 6,
+            "Hydrophobicity": 0.19,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Shows antibacterial activity, also activity against fungus C. albicans.",
+            "Literature": [
+                {
+                    "Title": "Antimicrobial peptides from diverse families isolated from the skin of the Asia frog, Rana Grahami.",
+                    "Pubmed ID": "16621155",
+                    "Reference": "Peptides 2006; 27 2111-2117.",
+                    "Author": "Conlon JM, Al-Ghaferi N, Abraham B, Jiansheng H, Cosette P, Leprince J, Jouenne T, Vaudry H.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16621155"
+                }
+            ],
+            "Frequent Amino Acids": "GKI",
+            "Absent Amino Acids": "OPQUWY",
+            "Basic Residues": 10,
+            "Acidic Residues": 4,
+            "Hydrophobic Residues": 18,
+            "Polar Residues": 21,
+            "Positive Residues": 10,
+            "Negative Residues": 4,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_08349",
+                    "Similarity": 0.9782608695652174,
+                    "Sequence": "GLFSKFAGKGIKDLIFKGVKHIGKEVGMDVIRTGIDVAGCKIKGEC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08357",
+                    "Similarity": 0.9565217391304348,
+                    "Sequence": "GLFTKFAGKGIKDLIFKGVKHIGKEVGMDVIRTGIDVAGCKIKGEC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01374",
+                    "Similarity": 0.9347826086956522,
+                    "Sequence": "GLFSKFAGKGIKDLIFKGVKHIGKEVGMDVIRVGIDVAGCKIKGVC"
+                }
+            ]
+        }
+    }
+}

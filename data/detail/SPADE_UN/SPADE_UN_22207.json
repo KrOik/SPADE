@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_22207": {
+        "Sequence Information": {
+            "Peptide Name": "",
+            "Sequence": "KKIAIITKNLKNFFIMLNII",
+            "Sequence Length": 20,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Novel Antimicrobial Peptide Discovery Using Machine Learning and Biophysical Selection of Minimal Bacteriocin Domains.",
+                    "Pubmed ID": "31483516",
+                    "Reference": "Drug Dev Res. 2020;81:43-51",
+                    "Author": "Fields FR, Freed SD, Carothers KE, Hamid MN, Hammers DE, Ross JN, Kalwajtys VR, Gonzalez AJ, Hildreth AD, Friedberg I, Lee SW",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/31483516"
+                }
+            ],
+            "Mass": 2376.0,
+            "PI": 10.48,
+            "Net Charge": 4,
+            "Hydrophobicity": 0.86,
+            "Frequent Amino Acids": "IKN",
+            "Absent Amino Acids": "CDEGHOPQRSUVWY",
+            "Basic Residues": 4,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 8,
+            "Positive Residues": 4,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_22207",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_13424",
+                    "Similarity": 1.0,
+                    "Sequence": "LCRVHKKIAI"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_13477",
+                    "Similarity": 1.0,
+                    "Sequence": "LNLKALLAVAKKIA"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_21198",
+                    "Similarity": 1.0,
+                    "Sequence": "LCRVHKKIAI"
+                }
+            ],
+            "Hemolytic Activity": "Sheep erythrocytes:0% Hemolysis=128 µM,Human keratinocytes HaCat:0% Cytotoxicity=128 µM",
+            "Target Organism": "Pseudomonas aeruginosa PAO1(MIC=>128µM),Pseudomonas aeruginosa PAO1(MBC=>128µM),Escherichia coli BL21(MIC=>128µM),Escherichia coli BL21(MBC=>128µM),Staphylococcus aureus USA 300(MIC=>128µM),Staphylococcus aureus USA 300(MBC=>128µM)"
+        }
+    }
+}

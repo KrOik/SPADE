@@ -1,0 +1,54 @@
+{
+    "SPADE_UN_20471": {
+        "Sequence Information": {
+            "Peptide Name": "Mastoparan-1 [K6,A10 METH-PENT-GLY]",
+            "Sequence": "IDWKKXLDAXKQIL",
+            "Sequence Length": 14,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P0C1Q4",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P0C1Q4",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Antimicrobial activity and stability of stapled helices of polybia-MP1.",
+                    "Pubmed ID": "29075946",
+                    "Reference": "Arch Pharm Res. 2017;40:1414-1419",
+                    "Author": "Luong HX, Kim DH, Lee BJ, Kim YW",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/29075946"
+                }
+            ],
+            "SPADE ID": "SPADE_UN_20471",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_20471",
+                    "Similarity": 1.0,
+                    "Sequence": "IDWKKLDAKQIL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02624",
+                    "Similarity": 0.9166666666666666,
+                    "Sequence": "IDWKKLLDAAKQIL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_12775",
+                    "Similarity": 0.9166666666666666,
+                    "Sequence": "IDWKKLNAKQIL"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:12.3% Hemolysis=25 µM,Human erythrocytes:6.7=12.5 µM",
+            "Target Organism": "Bacillus subtilis(MIC=1.6µg/ml),Staphylococcus aureus(MIC=2.4µg/ml),Staphylococcus epidermidis(MIC=>100µg/ml),Escherichia coli(MIC=>100µg/ml),Shigella dysenteriae(MIC=>100µg/ml),Salmonella typhimurium(MIC=>100µg/ml),Klebsiella pneumoniae(MIC=>100µg/ml),Pseudomonas aeruginosa(MIC=>100µg/ml)"
+        }
+    }
+}

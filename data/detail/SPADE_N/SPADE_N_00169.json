@@ -1,0 +1,75 @@
+{
+    "SPADE_N_00169": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00169",
+            "Peptide Name": "Thiocillin GE37468 (Antibiotic GE37468; Bacteriocin)",
+            "Source": "Streptomyces sp. (Gram-positive bacteria)",
+            "Family": "Belongs to the thiocillin family",
+            "Gene": "getA",
+            "Sequence": "STNCFCYICCSCSS",
+            "Sequence Length": 14,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P0C8P9",
+                "http://www.uniprot.org/uniprot/G1ECL0"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+"
+            ],
+            "Target Organism": "Gram-positive bacteria:Bacillus subtilis (MIC=0.047 µg/ml), Staphylococcus aureus (MRSA) (MIC=0.047 µg/ml).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Cyclization",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C58H85N15O22S5",
+            "Mass": 1520.75,
+            "PI": 5.23,
+            "Net Charge": 0,
+            "Hydrophobicity": 0.79,
+            "Half Life": "Mammalian:1.9 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Has bacteriocidal activity against both aerobic and anaerobic Gram-positive bacteria. Has poor activity against Gram-negative bacteria, with the exception of B.fragilis. Inhibits bacterial protein biosynthesis by acting on elongation factor Tu (",
+            "Literature": [
+                {
+                    "Title": "Identification of the thiazolyl peptide GE37468 gene cluster from Streptomyces ATCC 55365 and heterologous expression in Streptomyces lividans.",
+                    "Pubmed ID": "21788474",
+                    "Reference": "Proc Natl Acad Sci U S A. 2011 Aug 9;108(32)13053-13058.",
+                    "Author": "Young TS, Walsh CT.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=21788474"
+                }
+            ],
+            "Frequent Amino Acids": "CSF",
+            "Absent Amino Acids": "ADEGHKLMOPQRUVW",
+            "Basic Residues": 0,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 3,
+            "Polar Residues": 12,
+            "Positive Residues": 0,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_13776",
+                    "Similarity": 1.0,
+                    "Sequence": "SCSSLTTLRPCG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07598",
+                    "Similarity": 0.9285714285714286,
+                    "Sequence": "STNCFCYPCCSCSS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05570",
+                    "Similarity": 0.8333333333333334,
+                    "Sequence": "CCSCSCSTCTCTCTCASSAATKM"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,474 @@
+/**
+ * SPADE 反爬虫监控面板
+ * 提供实时状态监控和统计信息显示
+ */
+
+class AntiCrawlerMonitor {
+    constructor() {
+        this.isVisible = false;
+        this.updateInterval = null;
+        this.chartData = {
+            scores: [],
+            activities: [],
+            requests: []
+        };
+        
+        // 监听键盘快捷键 (Ctrl+Shift+A)
+        this.initKeyboardShortcut();
+    }
+    
+    // 初始化键盘快捷键
+    initKeyboardShortcut() {
+        document.addEventListener('keydown', (e) => {
+            if (e.ctrlKey && e.shiftKey && e.key.toLowerCase() === 'a') {
+                e.preventDefault();
+                this.toggle();
+            }
+        });
+    }
+    
+    // 切换监控面板显示状态
+    toggle() {
+        if (this.isVisible) {
+            this.hide();
+        } else {
+            this.show();
+        }
+    }
+    
+    // 显示监控面板
+    show() {
+        if (!window.antiCrawler) {
+            alert('Anti-crawler component not initialized');
+            return;
+        }
+        
+        this.createMonitorPanel();
+        this.isVisible = true;
+        
+        // 开始更新数据
+        this.startUpdating();
+    }
+    
+    // 隐藏监控面板
+    hide() {
+        const panel = document.getElementById('anti-crawler-monitor');
+        if (panel) {
+            panel.remove();
+        }
+        
+        this.isVisible = false;
+        
+        // 停止更新
+        if (this.updateInterval) {
+            clearInterval(this.updateInterval);
+            this.updateInterval = null;
+        }
+    }
+    
+    // 创建监控面板
+    createMonitorPanel() {
+        // 移除已存在的面板
+        const existingPanel = document.getElementById('anti-crawler-monitor');
+        if (existingPanel) {
+            existingPanel.remove();
+        }
+        
+        const panel = document.createElement('div');
+        panel.id = 'anti-crawler-monitor';
+        panel.style.cssText = `
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            width: 400px;
+            max-height: 80vh;
+            background: rgba(255, 255, 255, 0.95);
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            z-index: 10000;
+            font-family: 'Courier New', monospace;
+            font-size: 12px;
+            overflow-y: auto;
+            backdrop-filter: blur(10px);
+        `;
+        
+        panel.innerHTML = `
+            <div style="background: #2b1055; color: white; padding: 15px; border-radius: 10px 10px 0 0; display: flex; justify-content: space-between; align-items: center;">
+                <h3 style="margin: 0; font-size: 16px;">🛡️ Anti-Crawler Monitor</h3>
+                <div>
+                    <button id="refresh-monitor" style="background: #7597de; color: white; border: none; padding: 5px 10px; border-radius: 5px; margin-right: 5px; cursor: pointer;">Refresh</button>
+                    <button id="close-monitor" style="background: #e74c3c; color: white; border: none; padding: 5px 10px; border-radius: 5px; cursor: pointer;">✕</button>
+                </div>
+            </div>
+            
+            <div style="padding: 15px;">
+                <!-- 基础状态 -->
+                <div style="margin-bottom: 20px;">
+                    <h4 style="margin: 0 0 10px 0; color: #2b1055; border-bottom: 1px solid #eee; padding-bottom: 5px;">Basic Status</h4>
+                    <div id="basic-stats"></div>
+                </div>
+                
+                <!-- 实时数据 -->
+                <div style="margin-bottom: 20px;">
+                    <h4 style="margin: 0 0 10px 0; color: #2b1055; border-bottom: 1px solid #eee; padding-bottom: 5px;">Real-time Data</h4>
+                    <div id="realtime-stats"></div>
+                </div>
+                
+                <!-- 自动化分数历史 -->
+                <div style="margin-bottom: 20px;">
+                    <h4 style="margin: 0 0 10px 0; color: #2b1055; border-bottom: 1px solid #eee; padding-bottom: 5px;">Automation Score Trend</h4>
+                    <div id="score-chart" style="height: 100px; background: #f8f9fa; border: 1px solid #eee; border-radius: 5px; position: relative; overflow: hidden;"></div>
+                </div>
+                
+                <!-- 最近活动 -->
+                <div style="margin-bottom: 20px;">
+                    <h4 style="margin: 0 0 10px 0; color: #2b1055; border-bottom: 1px solid #eee; padding-bottom: 5px;">Recent Suspicious Activities</h4>
+                    <div id="recent-activities" style="max-height: 200px; overflow-y: auto; background: #f8f9fa; border: 1px solid #eee; border-radius: 5px; padding: 10px;"></div>
+                </div>
+                
+                <!-- 控制操作 -->
+                <div>
+                    <h4 style="margin: 0 0 10px 0; color: #2b1055; border-bottom: 1px solid #eee; padding-bottom: 5px;">Control Actions</h4>
+                    <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+                        <button id="reset-protection" style="background: #ffc107; color: #000; border: none; padding: 8px 15px; border-radius: 5px; cursor: pointer; font-size: 11px;">Reset Protection</button>
+                        <button id="export-logs" style="background: #17a2b8; color: white; border: none; padding: 8px 15px; border-radius: 5px; cursor: pointer; font-size: 11px;">Export Logs</button>
+                        <button id="test-detection" style="background: #6c757d; color: white; border: none; padding: 8px 15px; border-radius: 5px; cursor: pointer; font-size: 11px;">Test Detection</button>
+                    </div>
+                </div>
+            </div>
+        `;
+        
+        document.body.appendChild(panel);
+        
+        // 绑定事件
+        this.bindEvents();
+        
+        // 初始化数据
+        this.updateData();
+    }
+    
+    // 绑定事件
+    bindEvents() {
+        // 关闭按钮
+        document.getElementById('close-monitor').addEventListener('click', () => {
+            this.hide();
+        });
+        
+        // 刷新按钮
+        document.getElementById('refresh-monitor').addEventListener('click', () => {
+            this.updateData();
+        });
+        
+        // 重置保护
+        document.getElementById('reset-protection').addEventListener('click', () => {
+            if (confirm('Are you sure you want to reset the anti-crawler protection status?')) {
+                window.antiCrawler.reset();
+                this.chartData = { scores: [], activities: [], requests: [] };
+                this.updateData();
+            }
+        });
+        
+        // 导出日志
+        document.getElementById('export-logs').addEventListener('click', () => {
+            this.exportLogs();
+        });
+        
+        // 测试检测
+        document.getElementById('test-detection').addEventListener('click', () => {
+            this.testDetection();
+        });
+    }
+    
+    // 开始更新数据
+    startUpdating() {
+        this.updateInterval = setInterval(() => {
+            this.updateData();
+        }, 2000); // 每2秒更新一次
+    }
+    
+    // 更新数据
+    updateData() {
+        if (!window.antiCrawler) return;
+        
+        const stats = window.antiCrawler.getStats();
+        const state = window.antiCrawler.state;
+        
+        // 更新图表数据
+        this.updateChartData(stats);
+        
+        // 更新基础状态
+        this.updateBasicStats(stats, state);
+        
+        // 更新实时数据
+        this.updateRealtimeStats(stats);
+        
+        // 更新分数图表
+        this.updateScoreChart();
+        
+        // 更新最近活动
+        this.updateRecentActivities(state);
+    }
+    
+    // 更新图表数据
+    updateChartData(stats) {
+        const now = Date.now();
+        
+        // 添加新数据点
+        this.chartData.scores.push({
+            time: now,
+            value: stats.automationScore
+        });
+        
+        this.chartData.activities.push({
+            time: now,
+            value: stats.suspiciousActivities
+        });
+        
+        this.chartData.requests.push({
+            time: now,
+            value: stats.requestCount
+        });
+        
+        // 保持最近50个数据点
+        if (this.chartData.scores.length > 50) {
+            this.chartData.scores = this.chartData.scores.slice(-50);
+        }
+        if (this.chartData.activities.length > 50) {
+            this.chartData.activities = this.chartData.activities.slice(-50);
+        }
+        if (this.chartData.requests.length > 50) {
+            this.chartData.requests = this.chartData.requests.slice(-50);
+        }
+    }
+    
+    // 更新基础状态
+    updateBasicStats(stats, state) {
+        const basicStatsElement = document.getElementById('basic-stats');
+        if (!basicStatsElement) return;
+        
+        const runTimeMinutes = Math.floor(stats.runTime / 60000);
+        const runTimeSeconds = Math.floor((stats.runTime % 60000) / 1000);
+        
+        const statusColor = state.isBlocked ? '#e74c3c' : 
+                           stats.automationScore > 50 ? '#f39c12' : '#27ae60';
+        
+        const status = state.isBlocked ? '🚫 Blocked' : 
+                      stats.automationScore > 50 ? '⚠️ Warning' : '✅ Normal';
+        
+        basicStatsElement.innerHTML = `
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; font-size: 11px;">
+                <div><strong>Status:</strong> <span style="color: ${statusColor};">${status}</span></div>
+                <div><strong>Runtime:</strong> ${runTimeMinutes}m ${runTimeSeconds}s</div>
+                <div><strong>Automation Score:</strong> <span style="color: ${statusColor};">${stats.automationScore}</span></div>
+                <div><strong>Request Count:</strong> ${stats.requestCount}</div>
+                <div><strong>Suspicious Activities:</strong> ${stats.suspiciousActivities}</div>
+                <div><strong>Blocked Status:</strong> ${state.isBlocked ? 'Yes' : 'No'}</div>
+            </div>
+        `;
+    }
+    
+    // 更新实时数据
+    updateRealtimeStats(stats) {
+        const realtimeStatsElement = document.getElementById('realtime-stats');
+        if (!realtimeStatsElement) return;
+        
+        realtimeStatsElement.innerHTML = `
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; font-size: 11px;">
+                <div><strong>Mouse Events:</strong> ${stats.mouseEvents}</div>
+                <div><strong>Keyboard Events:</strong> ${stats.keyboardEvents}</div>
+                <div><strong>Last Mouse Move:</strong> ${this.getTimeSince(window.antiCrawler.state.lastMouseMove)}</div>
+                <div><strong>Last Request:</strong> ${this.getTimeSince(window.antiCrawler.state.lastRequestTime)}</div>
+            </div>
+        `;
+    }
+    
+    // 更新分数图表
+    updateScoreChart() {
+        const chartElement = document.getElementById('score-chart');
+        if (!chartElement || this.chartData.scores.length === 0) return;
+        
+        const maxScore = Math.max(...this.chartData.scores.map(d => d.value), 100);
+        const width = chartElement.offsetWidth;
+        const height = chartElement.offsetHeight;
+        
+        let pathData = '';
+        this.chartData.scores.forEach((point, index) => {
+            const x = (index / (this.chartData.scores.length - 1)) * width;
+            const y = height - (point.value / maxScore) * height;
+            
+            if (index === 0) {
+                pathData += `M ${x} ${y}`;
+            } else {
+                pathData += ` L ${x} ${y}`;
+            }
+        });
+        
+        chartElement.innerHTML = `
+            <svg width="100%" height="100%" style="position: absolute; top: 0; left: 0;">
+                <!-- 网格线 -->
+                <defs>
+                    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+                        <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#e0e0e0" stroke-width="1"/>
+                    </pattern>
+                </defs>
+                <rect width="100%" height="100%" fill="url(#grid)" />
+                
+                <!-- 危险线 -->
+                <line x1="0" y1="${height - (70 / maxScore) * height}" x2="100%" y2="${height - (70 / maxScore) * height}" 
+                      stroke="#e74c3c" stroke-width="1" stroke-dasharray="5,5" opacity="0.7"/>
+                
+                <!-- 数据线 -->
+                <path d="${pathData}" fill="none" stroke="#2b1055" stroke-width="2"/>
+                
+                <!-- 数据点 -->
+                ${this.chartData.scores.map((point, index) => {
+                    const x = (index / (this.chartData.scores.length - 1)) * width;
+                    const y = height - (point.value / maxScore) * height;
+                    const color = point.value > 70 ? '#e74c3c' : point.value > 50 ? '#f39c12' : '#27ae60';
+                    return `<circle cx="${x}" cy="${y}" r="3" fill="${color}"/>`;
+                }).join('')}
+            </svg>
+            
+            <!-- 当前分数显示 -->
+            <div style="position: absolute; top: 5px; right: 5px; background: rgba(43, 16, 85, 0.8); color: white; padding: 2px 8px; border-radius: 10px; font-size: 10px;">
+                Current: ${this.chartData.scores[this.chartData.scores.length - 1]?.value || 0}
+            </div>
+        `;
+    }
+    
+    // 更新最近活动
+    updateRecentActivities(state) {
+        const activitiesElement = document.getElementById('recent-activities');
+        if (!activitiesElement) return;
+        
+        const recentActivities = state.suspiciousActivities.slice(-10).reverse();
+        
+        if (recentActivities.length === 0) {
+            activitiesElement.innerHTML = '<div style="color: #999; text-align: center; padding: 20px;">No suspicious activities</div>';
+            return;
+        }
+        
+        activitiesElement.innerHTML = recentActivities.map(activity => {
+            const timeAgo = this.getTimeSince(activity.timestamp);
+            const details = activity.details ? JSON.stringify(activity.details) : '';
+            
+            return `
+                <div style="border-bottom: 1px solid #eee; padding: 8px 0; font-size: 11px;">
+                    <div style="display: flex; justify-content: between; align-items: center; margin-bottom: 3px;">
+                        <strong style="color: #e74c3c;">${activity.type}</strong>
+                        <span style="color: #999; font-size: 10px;">${timeAgo}</span>
+                    </div>
+                    ${details ? `<div style="color: #666; font-size: 10px;">${details}</div>` : ''}
+                </div>
+            `;
+        }).join('');
+    }
+    
+    // 获取时间差描述
+    getTimeSince(timestamp) {
+        const now = Date.now();
+        const diff = now - timestamp;
+        
+        if (diff < 1000) return 'just now';
+        if (diff < 60000) return `${Math.floor(diff / 1000)}s ago`;
+        if (diff < 3600000) return `${Math.floor(diff / 60000)}m ago`;
+        return `${Math.floor(diff / 3600000)}h ago`;
+    }
+    
+    // 导出日志
+    exportLogs() {
+        if (!window.antiCrawler) return;
+        
+        const stats = window.antiCrawler.getStats();
+        const state = window.antiCrawler.state;
+        
+        const logData = {
+            timestamp: new Date().toISOString(),
+            stats: stats,
+            suspiciousActivities: state.suspiciousActivities,
+            chartData: this.chartData,
+            userAgent: navigator.userAgent,
+            url: window.location.href
+        };
+        
+        const blob = new Blob([JSON.stringify(logData, null, 2)], {
+            type: 'application/json'
+        });
+        
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = `anti-crawler-log-${Date.now()}.json`;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+    }
+    
+    // 测试检测功能
+    testDetection() {
+        if (!window.antiCrawler) return;
+        
+        const tests = [
+            'Simulate Fast Clicking',
+            'Simulate Frequent Requests',
+            'Simulate Copy Behavior',
+            'Increase Automation Score'
+        ];
+        
+        const selectedTest = prompt(`Select test type:\n${tests.map((test, index) => `${index + 1}. ${test}`).join('\n')}\n\nEnter number (1-${tests.length}):`);
+        
+        const testIndex = parseInt(selectedTest) - 1;
+        
+        if (testIndex >= 0 && testIndex < tests.length) {
+            switch (testIndex) {
+                case 0:
+                    // 模拟快速点击
+                    window.antiCrawler.addSuspiciousActivity('快速连续点击', { 
+                        interval: 100,
+                        element: 'TEST' 
+                    });
+                    break;
+                    
+                case 1:
+                    // 模拟频繁请求
+                    for (let i = 0; i < 5; i++) {
+                        window.antiCrawler.addSuspiciousActivity('请求频率过高', { 
+                            count: 30 + i 
+                        });
+                    }
+                    break;
+                    
+                case 2:
+                    // 模拟复制行为
+                    window.antiCrawler.addSuspiciousActivity('复制行为', {});
+                    break;
+                    
+                case 3:
+                    // 直接增加自动化分数
+                    window.antiCrawler.state.automationScore += 20;
+                    break;
+            }
+            
+            alert(`Test "${tests[testIndex]}" executed`);
+            this.updateData();
+        }
+    }
+}
+
+// 创建全局监控实例
+window.AntiCrawlerMonitor = AntiCrawlerMonitor;
+
+// 在页面加载完成后初始化
+document.addEventListener('DOMContentLoaded', () => {
+    window.antiCrawlerMonitor = new AntiCrawlerMonitor();
+    
+    // 在控制台提示快捷键
+    console.log('%c🛡️ SPADE Anti-Crawler Monitor Panel', 
+                'background: #2b1055; color: white; padding: 10px; border-radius: 5px; font-size: 14px;');
+    console.log('%cShortcut: Ctrl+Shift+A to open/close monitor panel', 
+                'color: #666; font-size: 12px;');
+    console.log('%cCommand: window.antiCrawlerMonitor.show() to show panel', 
+                'color: #666; font-size: 12px;');
+}); 

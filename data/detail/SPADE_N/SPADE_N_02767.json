@@ -1,0 +1,92 @@
+{
+    "SPADE_N_02767": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 2004/0087771 A1",
+                "Patent Link": "http://www.lens.org/lens/patent/US_2004_0087771_A1",
+                "Patent Type": "Patent Application",
+                "Publication Date": "2004-5-6",
+                "Family Info": "CA2410575A1,EP1294880A2,WO2002000706A2,WO2002000706A3",
+                "Patent Title": "Antimicrobial peptides of the family of defensins, polynucleotides encoding said peptides, transformed vectors and organisms containing them.",
+                "Abstract": "The invention concerns novel antimicrobial peptides of the family of defensins, in particular antifungal, called termicines, polynucleotides encoding said peptides, vectors containing them for transforming a host organism and the method for transforming said organism. The invention also concerns transformed organisms, in particular yeast producing termicine, or plant cells and plants, the termicines produced by the transformed plats providing them with resistence to fungus-mediated diseases. The invention further concerns the use of termicines as medicine and pharmaceutical compositions containing them."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02767",
+            "Peptide Name": "Termicin (Termite defensin; Insects, animals)",
+            "Source": "Pseudacanthotermes spiniger",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "ACNFQSCWATCQAQHSIYFRRAFCDRSQCKCVFVRG",
+            "Sequence Length": 36,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P82321"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Antifungal"
+            ],
+            "Target Organism": "Gram-positive bacteria:Bacillus megaterium, Micrococcus luteus, Streptococcus pyogenes(++).Fungi:Fusarium culmorum, Fusarium oxysporum, Neurospora crassa, Nectria haematococca, Trichoderma viride(+); Candida albicans, Cryptococcus neoformans, Saccharomyces cerevisiae(+++).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C181H271N57O49S6",
+            "Mass": 4221.83,
+            "PI": 8.96,
+            "Net Charge": 5,
+            "Hydrophobicity": -0.15,
+            "Half Life": "Mammalian:4.4 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Has antibacterial activity.",
+            "Literature": [
+                {
+                    "Title": "Insect immunity. Constitutive expression of a cysteine-rich antifungal and a linear antibacterial peptide in a termite insect.",
+                    "Pubmed ID": "11053427",
+                    "Reference": "J Biol Chem. 2001 Feb 9;276(6)4085-4092.",
+                    "Author": "Lamberty M, Zachary D, Lanot R, Bordereau C, Robert A, Hoffmann JA, Bulet P.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=11053427"
+                },
+                {
+                    "Title": "Solution structure of termicin, an antimicrobial peptide from the termite Pseudacanthotermes spiniger.",
+                    "Pubmed ID": "12592014",
+                    "Reference": "Protein Sci. 2003 Mar;12(3)438-446.",
+                    "Author": "Da Silva P, Jouvensal L, Lamberty M, Bulet P, Caille A, Vovelle F.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=12592014"
+                }
+            ],
+            "Frequent Amino Acids": "CAF",
+            "Absent Amino Acids": "ELMOPU",
+            "Basic Residues": 6,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 28,
+            "Positive Residues": 6,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_00989",
+                    "Similarity": 1.0,
+                    "Sequence": "SLDKRACNFQSCWATCQAQHSIYFRRAFCDRSQCKCVFVRG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08205",
+                    "Similarity": 0.7222222222222222,
+                    "Sequence": "ACDFQSCWVTCQRQHSIYFIRAFCDGSRCMCVYNNGG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08208",
+                    "Similarity": 0.6764705882352942,
+                    "Sequence": "ACDFQSCWFTCQRQYSIYFIRAYCDGSTCMCVHN"
+                }
+            ]
+        }
+    }
+}

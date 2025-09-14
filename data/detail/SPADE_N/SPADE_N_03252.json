@@ -1,0 +1,75 @@
+{
+    "SPADE_N_03252": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03252",
+            "Peptide Name": "VmCT1",
+            "Source": "Vaejovis mexicanus smithi (Scorpion)",
+            "Family": "Belongs to the scorpion NDBP 5 family",
+            "Gene": "Not found",
+            "Sequence": "FLGALWNVAKSVF",
+            "Sequence Length": 13,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/I0DEB3"
+            ],
+            "Protein Existence": "Transcript level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.27912176] Gram-positive bacteria:Staphylococcus aureus ATCC 29213 (MIC=3.12 μmol/L), Bacillus subtilis ATCC 6633 (MIC=25μmol/L), Staphylococcus epidermidis ATCC 12228 (MIC=3.12μmol/L);Gram-negative bacterium:Pseudomonas aeruginosa ATCC 27853 (MIC=0.78μmol/L), Escherichia coli D31 (MIC=3.12μmol/L), Serratia marcescens ATCC 4112 (MIC=1.56μmol/L), Enterobacter cloacae β-12 (MIC=25μmol/L), Micrococcus luteus A270 (MIC=1.56μmol/L);Fungi:Candida albicans MDM8 (MIC=12.5μmol/L), Candida tropicalis IOC 4560 (MIC=6.25μmol/L), Candida parapsilosis IOC 4564 (MIC=25μmol/L), Aspergillus niger (MIC=25μmol/L), Cladosporium herbarum ATCC 26362 (MIC=50μmol/L), Cryptococcus neoformans (MIC=3.12μmol/L)",
+            "Hemolytic Activity": "[Ref.27912176] 10% hemolysis at 1.99μmol/L against human red blood cells.",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "the peptide showed a coiled structure in water, zwitterionic lipid vesicles (POPC and POPC:DOPE) and negatively charge lipid vesicle (POPC:POPG) the analogs tend to adopt helical structures.",
+            "Formula": "C72H106N16O16",
+            "Mass": 1451.71,
+            "PI": 8.75,
+            "Net Charge": 1,
+            "Hydrophobicity": 1.21,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Function": "Antibacterial activity against the Gram-negative bacteria and Gram-positive bacteria, antifungal activity. Has hemolytic activity.",
+            "Literature": [
+                {
+                    "Title": "Novel designed VmCT1 analogs with increased antimicrobial activity",
+                    "Pubmed ID": "27912176",
+                    "Reference": "Eur J Med Chem. 2017 Jan 27;126456-463.",
+                    "Author": "Pedron CN, Torres MT, Lima JADS, Silva PI, Silva FD, Oliveira VX.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=27912176"
+                }
+            ],
+            "Frequent Amino Acids": "AFL",
+            "Absent Amino Acids": "CDEHIMOPQRTUY",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 7,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_13818",
+                    "Similarity": 1.0,
+                    "Sequence": "KRVNWRKVGRNTALGASYVLSFLG"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_11711",
+                    "Similarity": 0.9230769230769231,
+                    "Sequence": "FLGALWKVAKSVF"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_11712",
+                    "Similarity": 0.9230769230769231,
+                    "Sequence": "FLGALWNVAKKVF"
+                }
+            ]
+        }
+    }
+}

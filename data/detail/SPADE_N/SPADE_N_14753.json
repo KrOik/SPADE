@@ -1,0 +1,67 @@
+{
+    "SPADE_N_14753": {
+        "Sequence Information": {
+            "Peptide Name": "Jellein-4",
+            "Sequence": "TPFKISIH",
+            "Sequence Length": 8,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "1. Apis mellifera ",
+            "Gene": "1. MRJP1",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "O18330",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/O18330",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Jelleines: a family of antimicrobial peptides from the Royal Jelly of honeybees (Apis mellifera).",
+                    "Pubmed ID": "15203237",
+                    "Reference": "Peptides. 2004;25:919-928",
+                    "Author": "Fontana R, Mendes MA, de Souza BM, Konno K, César LM, Malaspina O, Palma MS",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/15203237"
+                }
+            ],
+            "Mass": 942.11,
+            "PI": 8.44,
+            "Net Charge": 2,
+            "Hydrophobicity": 0.2,
+            "Frequent Amino Acids": "IFH",
+            "Absent Amino Acids": "ACDEGLMNOQRUVWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 3,
+            "Polar Residues": 5,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_N_14753",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02600",
+                    "Similarity": 1.0,
+                    "Sequence": "TPFKISIHL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06914",
+                    "Similarity": 1.0,
+                    "Sequence": "LLPFPYPTPF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10553",
+                    "Similarity": 1.0,
+                    "Sequence": "TPFKISIHLGGY"
+                }
+            ],
+            "Hemolytic Activity": "Rat erythrocytes:3% Hemolysis=100 µg/ml,Rat peritoneal mast cells:(0.8±0.6)% degranulation=100 µg/ml",
+            "Target Organism": "Staphylococcus aureus ATCC 6535(no activity data),Staphylococcus saprophyticus(no activity data),Bacillus subtilis CCT 2471(no activity data),Bacillus cereus(no activity data),Bacillus thuringiensis(no activity data),Bacillus pumilus(no activity data),Escherichia coli CCT 1371(no activity data),Enterobacter cloacae ATCC 23355(no activity data),Klebsiella pneumoniae ATCC 13883(no activity data),Proteus mirabilis(no activity data),Pseudomonas aeruginosa ATCC 27853(no activity data),Candida albicans(no activity data)"
+        }
+    }
+}

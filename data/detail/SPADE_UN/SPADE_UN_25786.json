@@ -1,0 +1,59 @@
+{
+    "SPADE_UN_25786": {
+        "Sequence Information": {
+            "Peptide Name": "",
+            "Sequence": "GIIKKIIKKIIKKII",
+            "Sequence Length": 15,
+            "Biological Activity": [
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "How do terminal modifications of short designed IIKK peptide amphiphiles affect their antifungal activity and biocompatibility?",
+                    "Pubmed ID": "34626966",
+                    "Reference": "J Colloid Interface Sci. 2022;608:193-206",
+                    "Author": "Zhang J, Gong H, Liao M, Li Z, Schweins R, Penny J, Lu JR",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/34626966"
+                }
+            ],
+            "Mass": 1749.36,
+            "PI": 10.7,
+            "Net Charge": 6,
+            "Hydrophobicity": 0.81,
+            "Frequent Amino Acids": "IKG",
+            "Absent Amino Acids": "ACDEFHLMNOPQRSTUVWY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 7,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_25786",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06325",
+                    "Similarity": 1.0,
+                    "Sequence": "GIIKKIIIKKI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06344",
+                    "Similarity": 1.0,
+                    "Sequence": "GIIKKIIKKI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06345",
+                    "Similarity": 1.0,
+                    "Sequence": "GIIKKIIKKIIKKI"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=85±2 µM,Human dermal fibroblasts:IC50=25±1 µM",
+            "Target Organism": "Candida albicans SC5314(MIC=25±2µM),Candida tropicalis ATCC 750(MIC=3.1±1µM),Candida parapsilosis ATCC 22019(MIC=50±4µM),Candida krusei ATCC 6258(MIC=25±2µM),Cryptococcus neoformans ATCC 208821(MIC=3.1±1µM)"
+        }
+    }
+}

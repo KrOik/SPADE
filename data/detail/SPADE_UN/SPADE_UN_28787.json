@@ -1,0 +1,67 @@
+{
+    "SPADE_UN_28787": {
+        "Sequence Information": {
+            "Peptide Name": "[R3W3]",
+            "Sequence": "RRRWWW",
+            "Sequence Length": 6,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Cyclic antimicrobial R-, W-rich peptides: the role of peptide structure and E. coli outer and inner membranes in activity and the mode of action.",
+                    "Pubmed ID": "21286704",
+                    "Reference": "Eur Biophys J. 2011;40:515-528",
+                    "Author": "Junkes C, Harvey RD, Bruce KD, Dölling R, Bagheri M, Dathe M",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/21286704"
+                },
+                {
+                    "Title": "Membrane-Active Cyclic Amphiphilic Peptides: Broad-Spectrum Antibacterial Activity Alone and in Combination with Antibiotics.",
+                    "Pubmed ID": "36442155",
+                    "Reference": "J Med Chem. 2022;65:15819-15839",
+                    "Author": "Mohammed EHM, Lohan S, Ghaffari T, Gupta S, Tiwari RK, Parang K",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/36442155"
+                }
+            ],
+            "Mass": 1045.2,
+            "PI": 12.0,
+            "Net Charge": 3,
+            "Hydrophobicity": -2.7,
+            "Frequent Amino Acids": "RW",
+            "Absent Amino Acids": "ACDEFGHIKLMNOPQSTUVY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 0,
+            "Polar Residues": 6,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_28787",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02907",
+                    "Similarity": 1.0,
+                    "Sequence": "SRDLICLCRNRRCNRGELFYGTCAGPFLRCCRRRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02908",
+                    "Similarity": 1.0,
+                    "Sequence": "SRDLICLCRKRRCNRGELFYGTCAGPFLRCCRRRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02991",
+                    "Similarity": 1.0,
+                    "Sequence": "FLRRSVSGFQECHSKGGYCYRYYCPRPHRRLGSCYPYAANCCRRRR"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:6% Hemolysis=100 µM,Human erythrocytes:50% Hemolysis=155 µg/ml",
+            "Target Organism": "Escherichia coli DH5alpha(MIC=11µM),Bacillus subtilis DSM 357(MIC=3µM),Escherichia coli LWF+(MIC=19µM),Bacillus subtilis L170(MIC=50µM),Staphylococcus aureus ATCC BAA-1556(MIC=16µg/ml),Klebsiella pneumoniae ATCC BAA-1705(MIC=64µg/ml),Pseudomonas aeruginosa ATCC 27883(MIC=128µg/ml),Escherichia coli ATCC 25922(MIC=32µg/ml)"
+        }
+    }
+}

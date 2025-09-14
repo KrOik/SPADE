@@ -1,0 +1,77 @@
+{
+    "SPADE_N_01834": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01834",
+            "Peptide Name": "Brevinin-1JDc (Frogs, amphibians, animals)",
+            "Source": "Odorrana jingdongensis (Jingdong frog) (Rana jingdongensis)",
+            "Family": "Belongs to the frog skin active peptide family (Brevinin subfamily)",
+            "Gene": "Not found",
+            "Sequence": "FLPAVLRVAAKVVPTVFCLISKKC",
+            "Sequence Length": 24,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/B3A0N0"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.22917879]Gram-positive bacteria:Staphylococcus aureus (MIC=16 µg/ml), S. aureus (MRSA) (MIC=8 µg/ml);Gram-negative bacterium:Escherichia coli (MIC=128 µg/ml).",
+            "Hemolytic Activity": "[Ref.22917879] It has 11.7 ± 3.2% hemolytic activity at 64 μg/mL and 88.4 ± 4.2% hemolytic activity at 128 μg/mL against rabbit red blood cells",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Cyclization (Cys18 and Cys24)",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C123H208N30O27S2",
+            "Mass": 2603.28,
+            "PI": 9.85,
+            "Net Charge": 4,
+            "Hydrophobicity": 1.33,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Function": "Has antibacterial and antifungal activity. Has hemolytic activity against rabbit erythrocytes.",
+            "Tissue specificity": "Expressed by the skin glands.",
+            "PTM": "contains one disulfide bonds.",
+            "Literature": [
+                {
+                    "Title": "Antimicrobial peptides from the skin of the Asian frog, Odorrana jingdongensis De novo sequencing and analysis of tandem mass spectrometry data.",
+                    "Pubmed ID": "22917879",
+                    "Reference": "J Proteomics. 2012 Oct 22;75(18)5807-5821.",
+                    "Author": "Liu J, Jiang J, Wu Z, Xie F.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=22917879"
+                }
+            ],
+            "Frequent Amino Acids": "VAK",
+            "Absent Amino Acids": "DEGHMNOQUWY",
+            "Basic Residues": 4,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 16,
+            "Polar Residues": 16,
+            "Positive Residues": 4,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01736",
+                    "Similarity": 0.9166666666666666,
+                    "Sequence": "FLPAVLRVAAKIVPTVFCAISKKC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01737",
+                    "Similarity": 0.9166666666666666,
+                    "Sequence": "FLPAVLRVAAQVVPTVFCAISKKC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01833",
+                    "Similarity": 0.8333333333333334,
+                    "Sequence": "FLPAVIRVAANVLPTVFCAISKKC"
+                }
+            ]
+        }
+    }
+}

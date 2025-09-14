@@ -1,0 +1,91 @@
+{
+    "SPADE_N_03197": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03197",
+            "Peptide Name": "Gallinacin-3 (Gal-3; Beta-defensin 3; Birds, animals)",
+            "Source": "Gallus gallus (Chicken)",
+            "Family": "Belongs to the beta-defensin family",
+            "Gene": "GAL3",
+            "Sequence": "IATQCRIRGGFCRVGSCRFPHIAIGKCATFISCCGRAY",
+            "Sequence Length": 38,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q9DG58",
+                "http://www.uniprot.org/uniprot/Q0PWH2",
+                "http://www.uniprot.org/uniprot/Q6GXJ2"
+            ],
+            "Protein Existence": "Transcript level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C177H285N57O45S6",
+            "Mass": 4123.9,
+            "PI": 9.49,
+            "Net Charge": 7,
+            "Hydrophobicity": 0.43,
+            "Half Life": "Mammalian:20 hourYeast:30 minE.coli:>10 hour",
+            "Tissue specificity": "Strongly expressed in the tongue, bone marrow, bursa of Fabricius and trachea. Also expressed in skin, esophagus and air sacs. Weak expression in the large intestine, kidney and ovary. Expressed in the vagina and ovarian stroma, but not in the ovarian follicle.",
+            "Developmental stage": "In the vagina expression is higher in laying hens than in non-laying hens, and is higher in older laying hens than in young laying hens. Induction",
+            "PTM": "contains three disulfide bonds 3-31; 10-25; 15-33.",
+            "Literature": [
+                {
+                    "Title": "Gallinacin-3, an inducible epithelial beta-defensin in the chicken.",
+                    "Pubmed ID": "11254635",
+                    "Reference": "Infect Immun. 2001 Apr;69(4)2684-2691.",
+                    "Author": "Zhao C, Nguyen T, Liu L, Sacco RE, Brogden KA, Lehrer RI.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=11254635"
+                },
+                {
+                    "Title": "Bioinformatic discovery and initial characterisation of nine novel antimicrobial peptide genes in the chicken.",
+                    "Pubmed ID": "15148642",
+                    "Reference": "Immunogenetics. 2004 Jun;56(3)170-177.",
+                    "Author": "Lynn DJ, Higgs R, Gaines S, Tierney J, James T, Lloyd AT, Fares MA, Mulcahy G, O'Farrelly C.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=15148642"
+                },
+                {
+                    "Title": "Effects of age, egg-laying activity, and Salmonella-inoculation on the expressions of gallinacin mRNA in the vagina of the hen oviduct.",
+                    "Pubmed ID": "16394622",
+                    "Reference": "J Reprod Dev. 2006 Apr;52(2)211-218.",
+                    "Author": "Yoshimura Y, Ohashi H, Subedi K, Nishibori M, Isobe N.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16394622"
+                }
+            ],
+            "Frequent Amino Acids": "CGI",
+            "Absent Amino Acids": "DELMNOUW",
+            "Basic Residues": 7,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 15,
+            "Polar Residues": 24,
+            "Positive Residues": 7,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07489",
+                    "Similarity": 1.0,
+                    "Sequence": "TQCRIRGGFCRVGSCRFPHIAIGKCATFISCC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03969",
+                    "Similarity": 0.9736842105263158,
+                    "Sequence": "GTATQCRIRGGFCRVGSCRFPHIAIGKCATFISCCGRAY"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08037",
+                    "Similarity": 0.9736842105263158,
+                    "Sequence": "MRIVYLLIPFFLLFLQGAAGTATQCRIRGGFCRVGSCRFPHIAIGKCATFISCCGRAY"
+                }
+            ]
+        }
+    }
+}

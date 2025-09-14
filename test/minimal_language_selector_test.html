@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>极简语言选择器测试 - SPADE</title>
+    <link rel="stylesheet" href="../css/translation-component.css">
+    <script src="../js/translation-component.js"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #000;
+            color: #fff;
+            padding: 20px;
+            margin: 0;
+        }
+        
+        /* 模拟header样式 */
+        .mock-header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 80px;
+            background: linear-gradient(to bottom, rgba(43, 16, 85, 0.98) 0%, rgba(43, 16, 85, 0.9) 100%);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 100px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+        }
+        
+        .mock-header .logo {
+            color: #fff;
+            font-weight: 800;
+            font-size: 1.6em;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        
+        .mock-header .nav-menu {
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .mock-header .nav-menu li {
+            margin-left: 20px;
+        }
+        
+        .mock-header .nav-menu a {
+            color: white;
+            text-decoration: none;
+            padding: 8px 16px;
+            border-radius: 20px;
+            transition: background 0.3s ease;
+        }
+        
+        .mock-header .nav-menu a.active {
+            background: rgba(255, 255, 255, 0.2);
+        }
+        
+        .test-container {
+            margin-top: 100px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 20px;
+        }
+        
+        .test-section {
+            margin: 20px 0;
+            padding: 20px;
+            background: rgba(43, 16, 85, 0.3);
+            border-radius: 10px;
+        }
+        
+        .language-info {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 10px;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+        
+        .description {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 4px solid #50e2c2;
+        }
+    </style>
+</head>
+<body>
+    <!-- 模拟header -->
+    <div class="mock-header">
+        <div class="logo">SPADE</div>
+        <ul class="nav-menu">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Search</a></li>
+            <li><a href="#">Tools</a></li>
+            <li><a href="#">Statistics</a></li>
+        </ul>
+    </div>
+    
+    <!-- 语言选择器 -->
+    <div class="language-selector" id="languageSelector">
+        <div class="language-current">
+            <i class="fas fa-globe"></i>
+            <span id="currentLanguage">English</span>
+        </div>
+    </div>
+    
+    <div class="test-container">
+        <h1>极简语言选择器测试</h1>
+        
+        <div class="description">
+            <h3>设计说明</h3>
+            <p>• 语言选择器现在是一个圆形按钮，只显示地球图标</p>
+            <p>• 位置：右上角，紧贴导航栏下方</p>
+            <p>• 悬停时轻微放大，提供视觉反馈</p>
+            <p>• 点击后显示下拉菜单，包含5种语言选项</p>
+        </div>
+        
+        <div class="test-section">
+            <h2>语言选择器测试</h2>
+            <p>点击右上角的圆形地球图标来切换语言</p>
+            <div class="language-info">
+                <strong>当前语言:</strong> <span id="currentLangDisplay">English</span>
+            </div>
+        </div>
+        
+        <div class="test-section">
+            <h2>翻译内容测试</h2>
+            <p data-translate="welcome_title">Welcome to SPADE</p>
+            <p data-translate="welcome_subtitle">System for Antimicrobial Peptide Management and Database</p>
+            <p data-translate="spade_description">SPADE is a comprehensive database and management system for antimicrobial peptides, providing researchers with powerful tools for peptide discovery, analysis, and application.</p>
+        </div>
+        
+        <div class="test-section">
+            <h2>导航菜单测试</h2>
+            <ul>
+                <li><a href="#" data-translate="home_nav">Home</a></li>
+                <li><a href="#" data-translate="search_nav">Search</a></li>
+                <li><a href="#" data-translate="tools_nav">Tools</a></li>
+                <li><a href="#" data-translate="statistics_nav">Statistics</a></li>
+            </ul>
+        </div>
+        
+        <div class="test-section">
+            <h2>功能特性测试</h2>
+            <div>
+                <h3 data-translate="comprehensive_database">Comprehensive Database</h3>
+                <p data-translate="database_description">Access over 46,000 antimicrobial peptides with detailed structural and functional data</p>
+            </div>
+            <div>
+                <h3 data-translate="advanced_search">Advanced Search</h3>
+                <p data-translate="search_description">Powerful filtering and search capabilities for precise peptide discovery</p>
+            </div>
+            <div>
+                <h3 data-translate="data_analysis">Data Analysis</h3>
+                <p data-translate="analysis_description">Comprehensive analysis tools for peptide structure and function research</p>
+            </div>
+        </div>
+        
+        <div class="test-section">
+            <h2>搜索框测试</h2>
+            <input type="text" placeholder="Enter peptide sequence..." data-translate-placeholder="search_placeholder" style="width: 100%; padding: 10px; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.3); border-radius: 5px; color: white;">
+        </div>
+    </div>
+    
+    <script>
+        // 更新当前语言显示
+        function updateLanguageDisplay() {
+            if (window.SPADE_TRANSLATION_UTILS) {
+                const currentLang = window.SPADE_TRANSLATION_UTILS.currentLanguage;
+                const displayName = window.SPADE_TRANSLATION_UTILS.getLanguageDisplayName(currentLang);
+                document.getElementById('currentLangDisplay').textContent = displayName;
+            }
+        }
+        
+        // 监听语言变化
+        document.addEventListener('DOMContentLoaded', function() {
+            // 等待翻译组件初始化
+            setTimeout(() => {
+                updateLanguageDisplay();
+                
+                // 监听语言变化
+                const observer = new MutationObserver(() => {
+                    updateLanguageDisplay();
+                });
+                
+                const currentLangElement = document.getElementById('currentLanguage');
+                if (currentLangElement) {
+                    observer.observe(currentLangElement, { childList: true, subtree: true });
+                }
+            }, 1000);
+        });
+    </script>
+</body>
+</html> 

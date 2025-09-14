@@ -1,0 +1,72 @@
+{
+    "SPADE_N_13744": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_13744",
+            "Peptide Name": "Brevibacillin I (Bre I; natural AMPs; nonribosomal peptide, XXL; lipopeptide; XXw1; bacteria, prokaryotes)",
+            "Source": "Brevibacillus laterosporusDSM 25",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "TLKIIVKIVKYLV",
+            "Sequence Length": 13,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-MRSA",
+                "Hemolytic"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 1529.99,
+            "PI": 10.0,
+            "Hydrophobicity": 1.54,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Zhao X, Wang X, Shukla R, Kumar R, Weingarth M, Breukink E, Kuipers OP.2021",
+                    "Reference": "Front Microbiol. 2021 Jun 17;12:693725. doi: 10.3389/fmicb.2021.693725.PubMed",
+                    "Title": "Brevibacillin 2V, a Novel Antimicrobial Lipopeptide With an Exceptionally Low Hemolytic Activity."
+                }
+            ],
+            "Frequent Amino Acids": "IKV",
+            "Absent Amino Acids": "ACDEFGHMNOPQRSUW",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 8,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "Net Charge": 3,
+            "Comments": "APD analysis reveals this sequence is most similar (92.31%) toBrevibacillinChemical modification: T1 dehydrated (Dhb); K3=Orithine, N-terminus is acylated with 2-hydroxy-3-methylvaleric acid (lipo); C-terminus is a characteristic valinol (an alcohol form of valine).Activity: Active against Gram+ S. aureus ATCC159750 or MRSA (MIC 2 ug/ml), E. faecium LMG16003 (VRE), E. faecalis LMG16216 (VRE), B. cereus ATCC14579 (MIC 2 ug/ml), Gram- A. baumannii ATCC17978 (MIC 64 ug/ml), E. coli ATCC25922 (MIC 32 ug/ml), P. aeruginosa LMG6395 (MIC 64 ug/ml), and K. pneumoniae LMG20218 (MIC 64 ug/ml).Toxicity: highly hemolytic: HC50=18.8 ug/ml and toxic: IC50 of HepG2 cells is 7.38 ug/ml.",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_13741",
+                    "Similarity": 0.9230769230769231,
+                    "Sequence": "TLKIIVKVVKYLV"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07389",
+                    "Similarity": 0.9,
+                    "Sequence": "LIIVKIVKYL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15007",
+                    "Similarity": 0.9,
+                    "Sequence": "LIIVKIVKYL"
+                }
+            ]
+        }
+    }
+}

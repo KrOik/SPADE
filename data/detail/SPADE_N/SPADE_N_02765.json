@@ -1,0 +1,83 @@
+{
+    "SPADE_N_02765": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02765",
+            "Peptide Name": "ASABF-alpha (ASABF; nematodes, animals)",
+            "Source": "Ascaris suum (Pig roundworm) (Ascaris lumbricoides)",
+            "Family": "Not found",
+            "Gene": "asabf-alpha",
+            "Sequence": "AVDFSSCARMDVPGLSKVAQGLCISSCKFQNCGTGHCEKRGGRPTCVCDRCGRGGGEWPSVPMPKGRSSRGRRHS",
+            "Sequence Length": 75,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P90683"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "[Ref.10991847]Gram-negative bacteria:Escherichia coli JM109 (IC50=50 µg/ml), Proteus vulgaris ATCC 13315 (IC50=10 µg/ml);Gram-positive bacteria:Staphylococcus aureus ATCC6538P (IC50=0.6 µg/ml), Bacillus subtilis ATCC6633 (IC50=1.2 µg/ml), Micrococcus luteus ATCC398 (IC50=0.8 µg/ml).",
+            "Hemolytic Activity": "[Ref.10991847]4.5% hemolytic activity at 1000 μg/ml against human red blood cells",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C325H532N114O100S10",
+            "Mass": 7957.05,
+            "PI": 9.49,
+            "Net Charge": 10,
+            "Hydrophobicity": -0.6,
+            "Half Life": "Mammalian:4.4 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "Slight hemolytic activity against human erythrocytes.",
+            "Literature": [
+                {
+                    "Title": "ASABF, a novel cysteine-rich antibacterial peptide isolated from the nematode Ascaris suum. Purification, primary structure, and molecular cloning of cDNA.",
+                    "Pubmed ID": "8940016",
+                    "Reference": "J Biol Chem. 1996 Nov 29;271(48)30493-30498.",
+                    "Author": "Kato Y, Komatsu S.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=8940016"
+                },
+                {
+                    "Title": "In vitro antimicrobial properties of recombinant ASABF, an antimicrobial peptide isolated from the nematode Ascaris suum.",
+                    "Pubmed ID": "10991847",
+                    "Reference": "Antimicrob Agents Chemother. 2000 Oct;44(10)2701-2715.",
+                    "Author": "Zhang H, Yoshida S, Aizawa T, Murakami R, Suzuki M, Koganezawa N, Matsuura A, Miyazawa M, Kawano K, Nitta K, Kato Y.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=10991847"
+                }
+            ],
+            "Frequent Amino Acids": "GRS",
+            "Absent Amino Acids": "OUY",
+            "Basic Residues": 15,
+            "Acidic Residues": 5,
+            "Hydrophobic Residues": 21,
+            "Polar Residues": 45,
+            "Positive Residues": 15,
+            "Negative Residues": 5,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07454",
+                    "Similarity": 1.0,
+                    "Sequence": "AVDFSSCARMDVPGLSKVAQGLCISSCKFQNCGTGHCEKRGGRPTCVCDRCGRGGGEWPSVPMPKGRSSRGR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07966",
+                    "Similarity": 1.0,
+                    "Sequence": "MKTAIIVVLLVIFASTNAAVDFSSCARMDVPGLSKVAQGLCISSCKFQNCGTGHCEKRGGRPTCVCDRCGRGGGEWPSVPMPKGRSSRGRRHS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08709",
+                    "Similarity": 1.0,
+                    "Sequence": "AVDFSSCARMDVPGLSKVAQGLCISSCKFQNCGTGHCEKRGGRPTCVCDRCGRGGGEWPSVPMPKGRSSRG"
+                }
+            ]
+        }
+    }
+}

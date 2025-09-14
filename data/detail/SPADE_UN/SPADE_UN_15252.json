@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_15252": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_15252",
+            "Peptide Name": "Bomidin",
+            "Source": "Synthetic construct",
+            "Family": "Flaviviridae,Herpesviridae,Coronaviridae",
+            "Gene": "Not found",
+            "Sequence": "MGRFKRFRKKFKKLFKKLS",
+            "Sequence Length": 19,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P54228"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antiviral"
+            ],
+            "Target Organism": "[Ref.35663971]Dengue virus 2(DENV2):inhibition of viral infection in Huh7 cells(50% inhibition at 10 μM);HSV:inhibition of viral infection in Huh7 cells(50% inhibition at 10 μM);SARS-CoV-2:inhibition of viral infection in Huh7 cells(80% inhibition at 10 μM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "[Ref.35663971]Vero E6 cells:CC50=169.6 ± 1.1 µM.",
+            "Binding Target": "membrane",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C118H197N35O21S",
+            "Mass": 2474.11,
+            "PI": 12.0,
+            "Net Charge": 10,
+            "Hydrophobicity": -1.12,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Mechanism of action": "bomidin readily disrupted viral membranes (with components similar to those in the endoplasmic reticulum) and bacterial membranes but did not alter the overall structures of the cell membranes",
+            "Literature": [
+                {
+                    "Title": "Bomidin An Optimized Antimicrobial Peptide With Broad Antiviral Activity Against Enveloped Viruses.",
+                    "Pubmed ID": "35663971",
+                    "Reference": "Front Immunol. 2022 May 19;13851642.",
+                    "Author": "Liu R, Liu Z, Peng H, Lv Y, Feng Y, Kang J, Lu N, Ma R, Hou S, Sun W, Ying Q, Wang F, Gao Q, Zhao P, Zhu C, Wang Y, Wu X.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=35663971"
+                }
+            ],
+            "Frequent Amino Acids": "KFR",
+            "Absent Amino Acids": "ACDEHINOPQTUVWY",
+            "Basic Residues": 10,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 11,
+            "Positive Residues": 10,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02465",
+                    "Similarity": 1.0,
+                    "Sequence": "GRFKRFRKKFKKLFKKLSPVIPLLHLG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02482",
+                    "Similarity": 1.0,
+                    "Sequence": "GRFKRFRKKFKKLFKKLS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05877",
+                    "Similarity": 1.0,
+                    "Sequence": "GRFKRFRKKFKKLFKKLSPVIPLLHL"
+                }
+            ]
+        }
+    }
+}

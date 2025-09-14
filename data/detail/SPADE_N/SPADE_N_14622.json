@@ -1,0 +1,69 @@
+{
+    "SPADE_N_14622": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_14622",
+            "Peptide Name": "SRA-15 (predicted AMPs, XXA, UCLL1c)",
+            "Source": "in silico screening from human GST protein",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "SRAVYIFAKKNGIPL",
+            "Sequence Length": 15,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram+"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 1677.0,
+            "PI": 10.29,
+            "Hydrophobicity": 0.23,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Horam S, Raj S, Tripathi VC, Pant G, Kalyan M, Reddy TJ, Arockiaraj J & Pasupuleti M. 2018",
+                    "Reference": "Int J Peptide Res Ther. 2018; 25:1477-1489.Publisher",
+                    "Title": "Xenobiotic Binding Domain of Glutathione S-Transferase Has Cryptic Antimicrobial Peptides"
+                }
+            ],
+            "Frequent Amino Acids": "AIK",
+            "Absent Amino Acids": "CDEHMOQTUW",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 9,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "Net Charge": 3,
+            "Comments": "Sequence analysis: APD analysis reveals that this sequence is 44.44% similar toOvipinI=A=K: 13%.Activity: Active against Gram-Activity: zone inhibition: Active against Gram- K.pneumoniae ATCC 7637, and Gram+ S. aureus ATCC 29213. Warning: other bacteria not tested.In vitro toxicity: human RBC: little hemol.lytic at 100 uM. >20% LDH release at 100 uM. low toxicity to keratinocytes (~80% survival).Structure: CD spectrum is not clear.",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_14621",
+                    "Similarity": 1.0,
+                    "Sequence": "LVSQPSRAVYIFAKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00749",
+                    "Similarity": 0.75,
+                    "Sequence": "GIPCAESCVYIPCTVTALLGCSCSNRVCYN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00758",
+                    "Similarity": 0.75,
+                    "Sequence": "GIPCGESCVYIPCLTSAVGCSCKSKVCYRN"
+                }
+            ]
+        }
+    }
+}

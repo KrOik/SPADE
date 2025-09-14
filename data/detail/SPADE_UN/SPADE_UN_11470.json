@@ -1,0 +1,79 @@
+{
+    "SPADE_UN_11470": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_11470",
+            "Peptide Name": "[Arg13]ccTP (ccTP peptide derivative)",
+            "Source": "Synthetic construct",
+            "Family": "Derived from the peptide ccTP",
+            "Gene": "Not found",
+            "Sequence": "KWCFCVCYRGICRCRCRG",
+            "Sequence Length": 18,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anitifungal"
+            ],
+            "Target Organism": "[Ref.10673369]Gram-positive bacteria:Staphylococcus aureus (MIC=1.3 μM in low-salt; MIC=0.9 μM in high-salt), Micrococcus luteus (MIC=0.5 μM in low-salt; MIC=0.5 μM in high-salt), Enterococcus faecalis (MIC=1.9 μM in low-salt; MIC=1.3 μM in high-salt);Gram-negative bacteria:Escherichia coli (MIC=10.4 μM in low-salt; MIC=0.9 μM in high-salt), Pseudomonas aeruginosa (MIC=6.2 μM in low-salt; MIC=10.4 μM in high-salt), Primula vulgaris (MIC=16.4 μM in low-salt; MIC=28.9 μM in high-salt), Klebsiella oxytoca (MIC=4.0 μM in low-salt; MIC=7.6 μM in high-salt);Fungi:Candida albicans (MIC=24.2 μM in low-salt; MIC=30.2 μM in high-salt), Candida kefyr (MIC=1.1 μM in low-salt; MIC=4.3 μM in high-salt), Candida tropicalis (MIC=12.4 μM in low-salt; MIC=3.9 μM in high-salt).",
+            "Hemolytic Activity": "[Ref.10673369] EC25=590 μM against human red blood cells",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "No specific N-terminal",
+            "C-terminal Modification": "No specific C-terminal",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C92H146N32O20S6",
+            "Mass": 2212.74,
+            "PI": 9.22,
+            "Net Charge": 5,
+            "Hydrophobicity": 0.09,
+            "Half Life": "Mammalian:1.3 hourYeast:3 minE.coli:2 min",
+            "Function": "Antimicrobial activity against Gram-positive bacteria, Gram-negative bacteria and fungi. Has hemolytic activity.",
+            "Literature": [
+                {
+                    "Title": "Marked increase in membranolytic selectivity of novel cyclic tachyplesins constrained with an antiparallel two-beta strand cystine knot framework.",
+                    "Pubmed ID": "10673369",
+                    "Reference": "Biochem Biophys Res Commun. 2000 Jan 27;267(3)783-90.",
+                    "Author": "Tam JP, Lu YA, Yang JL.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=10673369"
+                },
+                {
+                    "Title": "Marked increase in membranolytic selectivity of novel cyclic tachyplesins constrained with an antiparallel two-beta strand cystine knot framework",
+                    "Pubmed ID": "",
+                    "Author": "Tam JP, Lu YA, Yang JL"
+                }
+            ],
+            "Frequent Amino Acids": "CRG",
+            "Absent Amino Acids": "ADEHLMNOPQSTU",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 13,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_11469",
+                    "Similarity": 0.9444444444444444,
+                    "Sequence": "KWCFCVCYRGICYCRCRG"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_11472",
+                    "Similarity": 0.8888888888888888,
+                    "Sequence": "KWCRCVCRRGICRCRCRG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06480",
+                    "Similarity": 0.8333333333333334,
+                    "Sequence": "KWCFRVCYRGICYRRCRG"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "SPADE_N_02084": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02084",
+            "Peptide Name": "Bass hepcidin (fish, chordates, animals)",
+            "Source": "Morone chrysops x Morone saxatilis (white bass x striped sea-bass)",
+            "Family": "Belongs to the hepcidin family",
+            "Gene": "hamp",
+            "Sequence": "GCRFCCNCCPNMSGCGVCCRF",
+            "Sequence Length": 21,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P82951"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "Gram-negative bacteria:Escherichia coli ATCC 25,922,351,50 (MIC=22 µM), Escherichia coli ATCC D31K (MIC=11 µM), Klebsiella pneumoniae ATCC 10,031 (MIC=22 µM), P. shigelloides ATCC KST (MIC=11 µM), S. flexneri ATCC 12,022 (MIC=22 µM), Shigella sonnei ATCC 9290 (MIC=44 µM), Y. enterocolitica ATCC 23,715 (MIC=22 µM).Fungi:Aspergillus niger (MIC=44 µM).",
+            "Hemolytic Activity": "[Ref.15546886] It displays essentially no hemolytic activity toward HSB erythrocytes",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Solution structure by NMR indicates that bass hepcidin is very similar to that of human hepcidin, including the presence of an antiparallel beta-sheet, a conserved disulfide-bonding pattern, and a rare vicinal disulfide bond.",
+            "Formula": "C86H135N29O25S9",
+            "Mass": 2263.76,
+            "PI": 8.23,
+            "Net Charge": 2,
+            "Hydrophobicity": 0.58,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Seems to act as a signaling molecule involved in the maintenance of iron homeostasis. Seems to be required in conjunction with HFE to regulate both intestinal iron absorption and iron storage in macrophages (By similarity). Synthetic bass hepcidin is active in vitro against Gram-negative pathogens and fungi but showes no activity against key Gram-positive pathogens and a single yeast strain tested.",
+            "Tissue specificity": "Predominantly expressed in liver.",
+            "Induction": "By bacterial challenge.",
+            "PTM": "Contains four disulfide bonds 2-19; 5-8; 6-15; 9-18.",
+            "Literature": [
+                {
+                    "Title": "Bass hepcidin is a novel antimicrobial peptide induced by bacterial challenge.",
+                    "Pubmed ID": "11985602",
+                    "Reference": "Eur J Biochem. 2002 Apr;269(8)2232-2237.",
+                    "Author": "Shike H, Lauth X, Westerman ME, Ostland VE, Carlberg JM, Van Olst JC, Shimizu C, Bulet P, Burns JC.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=11985602"
+                },
+                {
+                    "Title": "Bass hepcidin synthesis, solution structure, antimicrobial activities and synergism, and in vivo hepatic response to bacterial infections.",
+                    "Pubmed ID": "15546886",
+                    "Reference": "J Biol Chem. 2005 Mar 11;280(10)9272-9282.",
+                    "Author": "Lauth X, Babon JJ, Stannard JA, Singh S, Nizet V, Carlberg JM, Ostland VE, Pennington MW, Norton RS, Westerman ME.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=15546886"
+                }
+            ],
+            "Frequent Amino Acids": "CGF",
+            "Absent Amino Acids": "ADEHIKLOQTUWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 14,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_04090",
+                    "Similarity": 1.0,
+                    "Sequence": "MKTFSVAVAVAVVLAFICLQESSAVPVTEVQELEEPMSNEYQEMPVESWKMPYNNRHKRHSSPGGCRFCCNCCPNMSGCGVCCRF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02092",
+                    "Similarity": 0.9047619047619048,
+                    "Sequence": "SPAGCRFCCGCCPNMRGCGVCCRF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15986",
+                    "Similarity": 0.9047619047619048,
+                    "Sequence": "NPAGCRFCCGCCPNMIGCGVCCRF"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,84 @@
+{
+    "SPADE_N_02221": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02221",
+            "Peptide Name": "Penaeidin-4a (Pen-4a; shrimps, Arthropods, animals)",
+            "Source": "Litopenaeus vannamei (Whiteleg shrimp) (Penaeus vannamei)",
+            "Family": "Belongs to the penaeidin family",
+            "Gene": "Not found",
+            "Sequence": "HSSGYTRPLPKPSRPIFIRPIGCDVCYGIPSSTARLCCFRYGDCCHR",
+            "Sequence Length": 47,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q95NT0"
+            ],
+            "Protein Existence": "Homology",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "Gram-positive bacteria:Aerococcus viridans (MIC=1.9-2.92 µM), Micrococcus luteus (MIC=1.9-2.92 µM), Bacillus megaterium (MIC>50 µM), Saphylococcus aureus (MIC>50 µM);Gram-negative bacteria:Escherichia coli 363 (MIC=22-33 µM), Vibrio vulnificus (MIC>50 µM), Salmonella thyphimurium (MIC>50 µM), Klebsiella pneumoniae (MIC>50 µM).Fungi:Fusarium oxysporum (MIC=0.84-1.26 µM), Botrytis cinerea (MIC=4.38-6.57 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Chitin-binding",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C230H358N70O62S6",
+            "Mass": 5288.12,
+            "PI": 9.15,
+            "Net Charge": 7,
+            "Hydrophobicity": -0.27,
+            "Half Life": "Mammalian:3.5 hourYeast:10 minE.coli:>10 hour",
+            "Function": "Posesses antibacterial and antifungal activity. Presents chitin-binding activity (By similarity).",
+            "PTM": "Contains three disulfide bonds 23-37; 26-44; 38-45 and C-terminal amidation.",
+            "Literature": [
+                {
+                    "Title": "Diversity of the penaeidin antimicrobial peptides in two shrimp species.",
+                    "Pubmed ID": "12242595",
+                    "Reference": "Immunogenetics. 2002 Sep;54(6)442-445.",
+                    "Author": "Cuthbertson BJ, Shepard EF, Chapman RW, Gross PS.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=12242595"
+                },
+                {
+                    "Title": "A new class (penaeidin class 4) of antimicrobial peptides from the Atlantic white shrimp (Litopenaeus setiferus) exhibits target specificity and an independent proline-rich-domain function.",
+                    "Pubmed ID": "15084144",
+                    "Reference": "Biochem J. 2004 Jul 1;381(Pt 1)79-86.",
+                    "Author": "Cuthbertson BJ, Bullesbach EE, Fievet J, Bachère E, Gross PS.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=15084144"
+                }
+            ],
+            "Frequent Amino Acids": "CPR",
+            "Absent Amino Acids": "EMNOQUW",
+            "Basic Residues": 9,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 19,
+            "Polar Residues": 27,
+            "Positive Residues": 9,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02222",
+                    "Similarity": 0.9787234042553191,
+                    "Sequence": "YSSGYTRPLPKPSRPIFIRPIGCDVCYGIPSSTARLCCFRYGDCCHR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02228",
+                    "Similarity": 0.9574468085106383,
+                    "Sequence": "HSSGYTRPLRKPSRPIFIRPIGCDVCYGIPSSTARLCCFRYGDCCHL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10236",
+                    "Similarity": 0.9545454545454546,
+                    "Sequence": "HSSGYTRPLRKPSRPIFIRPIG"
+                }
+            ]
+        }
+    }
+}

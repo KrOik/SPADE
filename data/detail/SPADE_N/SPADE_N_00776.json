@@ -1,0 +1,78 @@
+{
+    "SPADE_N_00776": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00776",
+            "Peptide Name": "Cycloviolacin-Y1 (Plants)",
+            "Source": "Viola yedoensis (Chinese herb)",
+            "Family": "Belongs to the cyclotide family",
+            "Gene": "Not found",
+            "Sequence": "GGTIFDCGETCFLGTCYTPGCSCGNYGFCYGTN",
+            "Sequence Length": 33,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antiviral"
+            ],
+            "Target Organism": "[Ref.18081258] Anti-HIV activity:EC50=1.2μM, IC50>4.5μM.NOTE:EC50 refers to the values for HIV-infected cell cultures, IC50 refers to the values for uninfected cell cultures.[Ref.18008336]Virus:HIV:inhibition the cytopathic effects of HIV-1 infection in cultured human T-lymphoblast (CEM-SS) cells(EC50=1210 nM).",
+            "Hemolytic Activity": "[Ref.18081258] It has hemolytic activity.",
+            "Cytotoxicity": "[Ref.18008336]CEM-SS cells:IC50>4470 nM.",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Cyclization (N termini to C termini)",
+            "C-terminal Modification": "Cyclization (N termini to C termini)",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C145H203N35O49S6",
+            "Mass": 3412.76,
+            "PI": 4.05,
+            "Net Charge": -2,
+            "Hydrophobicity": 0.14,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Has anti-HIV activity. PTM",
+            "Literature": [
+                {
+                    "Title": "Anti-HIV cyclotides from the Chinese medicinal herb Viola yedoensis.",
+                    "Pubmed ID": "18081258",
+                    "Reference": "J Nat Prod. 2008 Jan;71(1)47-52.",
+                    "Author": "Wang CK, Colgrave ML, Gustafson KR, Ireland DC, Goransson U, Craik DJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=18081258"
+                },
+                {
+                    "Title": "Cyclotides as natural anti-HIV agents",
+                    "Pubmed ID": "18008336",
+                    "Reference": "Biopolymers. 2008;90(1)51-60.",
+                    "Author": "David C Ireland, Conan K L Wang, Jennifer A Wilson, Kirk R Gustafson, David J Craik",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=18008336"
+                }
+            ],
+            "Frequent Amino Acids": "GCT",
+            "Absent Amino Acids": "AHKMOQRUVW",
+            "Basic Residues": 0,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 17,
+            "Positive Residues": 0,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00778",
+                    "Similarity": 0.9090909090909091,
+                    "Sequence": "GGTIFDCGETCFLGTCYTAGCSCGNWGLCYGTN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00777",
+                    "Similarity": 0.8787878787878788,
+                    "Sequence": "GGTIFDCGESCFLGTCYTAGCSCGNWGLCYGTN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00851",
+                    "Similarity": 0.8181818181818182,
+                    "Sequence": "GGTIFDCGESCFLGTCYTKGCSCGEWKLCYGTN"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "SPADE_N_05878": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_05878",
+            "Peptide Name": "Pep-H  (Human, mammals, animals)",
+            "Source": "Homo sapiens (Human)",
+            "Family": "Belongs to the alpha-defensin family.",
+            "Gene": "Not found",
+            "Sequence": "RRYGTCIYQGRLWAF",
+            "Sequence Length": 15,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+"
+            ],
+            "Target Organism": "[Ref.31133658] Gram-positive bacteria:M.tb H37Rv (MIC=10 μg/ml)",
+            "Hemolytic Activity": "[Ref.31133658] 2.7% hemolysis at 1μg/ml, 5% hemolysis at 5μg/ml, 6% hemolysis at 50μg/ml, 8% hemolysis at 100 μg/ml against human blood cells.",
+            "Cytotoxicity": "[Ref.31133658] The cell viability of MDMs induced by Pep-H is 94.2%, 91.5%, 90.4%, 88.0% and 84.1% at peptide concentrations of 1, 5, 25, 50, 100 μg/mL",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C87H128N26O20S",
+            "Mass": 1890.17,
+            "PI": 10.05,
+            "Net Charge": 3,
+            "Hydrophobicity": -0.44,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Function": "Antibacterial activity against Gram-positive bacteria.",
+            "Literature": [
+                {
+                    "Title": "Exploiting chitosan and gold nanoparticles for antimycobacterial activity of in silico identified antimicrobial motif of human neutrophil peptide-1",
+                    "Pubmed ID": "31133658",
+                    "Reference": "Sci Rep. 2019; 9 7866. Published online 2019 May 27. doi 10.1038/s41598-019-44256-6",
+                    "Author": "Richa Sharma， Ragini Raghav, Kumari Priyanka, Praveen Rishi, Sadhna Sharma, Sudha Srivastava, Indu Verma",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=31133658"
+                }
+            ],
+            "Frequent Amino Acids": "RGY",
+            "Absent Amino Acids": "DEHKMNOPSUV",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 9,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02297",
+                    "Similarity": 1.0,
+                    "Sequence": "ACYCRIPACLAGERRYGTCIYQGRLWAFCC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03110",
+                    "Similarity": 1.0,
+                    "Sequence": "DIPEVVVSLAWDESLAPKHPGSRKNMDCYCRIPACIAGERRYGTCIYQGRLWAFCC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03111",
+                    "Similarity": 1.0,
+                    "Sequence": "DIPEVVVSLAWDESLAPKHPGSRKNMACYCRIPACIAGERRYGTCIYQGRLWAFCC"
+                }
+            ]
+        }
+    }
+}

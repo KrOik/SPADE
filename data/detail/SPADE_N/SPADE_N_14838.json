@@ -1,0 +1,60 @@
+{
+    "SPADE_N_14838": {
+        "Sequence Information": {
+            "Peptide Name": "SpCrus3",
+            "Sequence": "SPSRSCNTHCPDPYLNLPGHYVCCDQHPGKCPPVPHCPAYPRKCFYDPECGLNEKCCNTPCGGKRCISIPYSGK",
+            "Sequence Length": 74,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "1. Scylla paramamosain",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "SpCrus3 and SpCrus4 share high similarity in mud crab (Scylla paramamosain) exhibiting different antibacterial activities.",
+                    "Pubmed ID": "29352984",
+                    "Reference": "Dev Comp Immunol. 2018;82:139-151",
+                    "Author": "Wang Y, Zhang XW, Wang H, Fang WH, Ma H, Zhang F, Li XC",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/29352984"
+                }
+            ],
+            "Mass": 8142.3,
+            "PI": 8.27,
+            "Net Charge": 7,
+            "Hydrophobicity": -0.71,
+            "Frequent Amino Acids": "PCG",
+            "Absent Amino Acids": "MOUW",
+            "Basic Residues": 12,
+            "Acidic Residues": 5,
+            "Hydrophobic Residues": 21,
+            "Polar Residues": 53,
+            "Positive Residues": 12,
+            "Negative Residues": 5,
+            "SPADE ID": "SPADE_N_14838",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_18647",
+                    "Similarity": 0.9864864864864865,
+                    "Sequence": "ALSVASPSPSCNTHCPDPYLNLPGHYVCCDQHPGKCPPVPHCPAYPRKCFYDPECGLNEKCCNTPCGGKRCISIPYSGK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14839",
+                    "Similarity": 0.647887323943662,
+                    "Sequence": "SPSRSCNTHCPDPYLNLPGHYVCCDQHPGKCFRRDKCPPHELNKGLRQTIKYCHYDPECALHEKCCYDVCIEAKVCKLPE"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_18648",
+                    "Similarity": 0.6428571428571429,
+                    "Sequence": "PSRSCNTHCPDPYLNLPGHYVCCDQHPGKCFRRDKCPPHELNKGLRQTIKYCHYDPECALHEKCCYDVCIEAKVCKLPE"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Staphylococcus aureus(MIC=<6.25µM),Bacillus subtilis(MIC=<12.5µM),Bacillus megaterium(MIC=<6.25µM),Vibrio alginolyticus(MIC=>25µM),Vibrio parahaemolyticus(MIC=<25µM),Vibrio harveyi(MIC=>25µM),Escherichia coli(MIC=>25µM),Aeromonas hydrophila(MIC=>25µM),Pichia pastoris(MIC=>25µM),Candida albicans(MIC=<25µM)"
+        }
+    }
+}

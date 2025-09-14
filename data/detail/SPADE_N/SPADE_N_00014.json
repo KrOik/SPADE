@@ -1,0 +1,66 @@
+{
+    "SPADE_N_00014": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00014",
+            "Peptide Name": "SmbA1 (Bacteriocin)",
+            "Source": "Streptococcus mutans GS5 (Gram-negative bacteria)",
+            "Family": "Belongs to the lantibiotic family (Class I bacteriocin)",
+            "Gene": "Not found",
+            "Sequence": "GTTVVNSTFSIVLGNKGYICTVTVECMRNCSK",
+            "Sequence Length": 32,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C145H242N40O47S4",
+            "Mass": 3425.97,
+            "PI": 8.66,
+            "Net Charge": 2,
+            "Hydrophobicity": 0.35,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "The two peptides (SmbA and SmbB) are encoded by two chromosomal DNA genes in the same operon.",
+            "Literature": [
+                {
+                    "Title": "Genetic analysis of a unique bacteriocin, Smb, produced by Streptococcus mutans GS5.",
+                    "Pubmed ID": "15673730",
+                    "Reference": "Antimicrob Agents Chemother. 2005 Feb;49(2)541-548.",
+                    "Author": "Yonezawa H, Kuramitsu HK.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=15673730"
+                }
+            ],
+            "Frequent Amino Acids": "TVC",
+            "Absent Amino Acids": "ADHOPQUW",
+            "Basic Residues": 3,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 23,
+            "Positive Residues": 3,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_05596",
+                    "Similarity": 0.967741935483871,
+                    "Sequence": "GTTVVNSTFSIVLGNKGYICTVTVECMRNCQ"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00016",
+                    "Similarity": 0.5,
+                    "Sequence": "CAWYNISCRLGNKGAYCTLTVECMPSCN"
+                }
+            ]
+        }
+    }
+}

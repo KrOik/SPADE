@@ -1,0 +1,72 @@
+{
+    "SPADE_N_01858": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01858",
+            "Peptide Name": "Brevinin-1RTc (Frogs, amphibians, animals)",
+            "Source": "Amolops ricketti (Chinese sucker frog)",
+            "Family": "Belongs to the frog skin active peptide family (Brevinin subfamily)",
+            "Gene": "Not found",
+            "Sequence": "FLGSLLGLVGKIVPTLICKISKKC",
+            "Sequence Length": 24,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "[Ref.22100518]Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C118H208N28O28S2",
+            "Mass": 2531.21,
+            "PI": 9.7,
+            "Net Charge": 4,
+            "Hydrophobicity": 1.17,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Function": "Brevinin-2RTc has antibacterial activity.",
+            "PTM": "Contains one disulfide bond 27-33.",
+            "Literature": [
+                {
+                    "Title": "Identification and characterization of antimicrobial peptides from skin of Amolops ricketti (Anura Ranidae).",
+                    "Pubmed ID": "22100518",
+                    "Reference": "Peptides. 2012 Jan;33(1)27-34.",
+                    "Author": "Wang H, Ran R, Yu H, Yu Z, Hu Y, Zheng H, Wang D, Yang F, Liu R, Liu J.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=22100518"
+                }
+            ],
+            "Frequent Amino Acids": "LKG",
+            "Absent Amino Acids": "ADEHMNOQRUWY",
+            "Basic Residues": 4,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 11,
+            "Positive Residues": 4,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01662",
+                    "Similarity": 1.0,
+                    "Sequence": "MFTFKKSMLLLFFLGTINLSLCEQERNADEEERRDDEDKRDVEVEKRFLGSLLGLVGKIVPTLICKISKKC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01664",
+                    "Similarity": 0.9166666666666666,
+                    "Sequence": "MFTSKKSMLLLFFLGTINLSLCEQERNADEEERRDDEDKRDVEVEKRFLGSLLGLVGKVVPTLFCKISKKC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01857",
+                    "Similarity": 0.9166666666666666,
+                    "Sequence": "FLGSLLGLVGKVVPTLFCKISKKC"
+                }
+            ]
+        }
+    }
+}

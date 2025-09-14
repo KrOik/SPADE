@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_24673": {
+        "Sequence Information": {
+            "Peptide Name": "F(RV)2",
+            "Sequence": "VRVRRRRFRVRV",
+            "Sequence Length": 12,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Novel β-Hairpin Antimicrobial Peptides Containing the β-Turn Sequence of -RRRF- Having High Cell Selectivity and Low Incidence of Drug Resistance.",
+                    "Pubmed ID": "35311294",
+                    "Reference": "J Med Chem. 2022;65:5625-5641",
+                    "Author": "Li B, Ouyang X, Ba Z, Yang Y, Zhang J, Liu H, Zhang T, Zhang F, Zhang Y, Gou S, Ni J",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/35311294"
+                }
+            ],
+            "Mass": 1655.01,
+            "PI": 12.0,
+            "Net Charge": 7,
+            "Hydrophobicity": -0.99,
+            "Frequent Amino Acids": "RVF",
+            "Absent Amino Acids": "ACDEGHIKLMNOPQSTUWY",
+            "Basic Residues": 7,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 7,
+            "Positive Residues": 7,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_24673",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07047",
+                    "Similarity": 1.0,
+                    "Sequence": "RVRVFVVHIPRLT"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_13912",
+                    "Similarity": 1.0,
+                    "Sequence": "VRVGPCDQVCSRTNPEKDECCRAHGHSGHSSCYGGRMNCYG"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_03212",
+                    "Similarity": 1.0,
+                    "Sequence": "RRWRIVVVRVRR"
+                }
+            ],
+            "Hemolytic Activity": "Mouse erythrocytes:10% Hemolysis=>256 µM,Human kidney proximal tubule HK-2 cells:IC50=>128 µM",
+            "Target Organism": "Staphylococcus aureus ATCC 25923(MIC=16µM),Bacillus subtilis ATCC 23857(MIC=4µM),Staphylococcus epidermidis ATCC 12228(MIC=8µM),Enterococcus faecalis ATCC 29212(MIC=>128µM),Klebsiella pneumoniae ATCC 700603(MIC=64µM),Escherichia coli ATCC 25922(MIC=32µM),Pseudomonas aeruginosa ATCC 27853(MIC=64µM)"
+        }
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "SPADE_UN_27207": {
+        "Sequence Information": {
+            "Peptide Name": "Defensin MGD1 (25-33) peptide C",
+            "Sequence": "CGGWKRLRC",
+            "Sequence Length": 9,
+            "Biological Activity": [
+                "Anti-Gram+"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P80571",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P80571",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Key role of the loop connecting the two beta strands of mussel defensin in its antimicrobial activity.",
+                    "Pubmed ID": "12823551",
+                    "Reference": "Eur J Biochem. 2003;270:2805-2813",
+                    "Author": "Granier C, Roch P, Richard V, Molina F, Romestand B",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/12823551"
+                }
+            ],
+            "Mass": 1078.31,
+            "PI": 9.7,
+            "Net Charge": 3,
+            "Hydrophobicity": -0.64,
+            "Frequent Amino Acids": "CGR",
+            "Absent Amino Acids": "ADEFHIMNOPQSTUVY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 3,
+            "Polar Residues": 6,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_27207",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_10239",
+                    "Similarity": 1.0,
+                    "Sequence": "GICRCICGGGICRCICGG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10240",
+                    "Similarity": 1.0,
+                    "Sequence": "GICHCICGGGICHCICGG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10241",
+                    "Similarity": 1.0,
+                    "Sequence": "GICRCICGGGICHCICGG"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Micrococcus luteus ATCC 4698(MIC=13µM)"
+        }
+    }
+}

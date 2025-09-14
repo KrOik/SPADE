@@ -1,0 +1,75 @@
+{
+    "SPADE_N_00180": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00180",
+            "Peptide Name": "Plantazolicin (PZN; Bacteriocin)",
+            "Source": "Bacillus amyloliquefaciens FZB42 & Bacillus pumilus (Bacillus mesentericus) (Gram-positive bacteria)",
+            "Family": "Not found",
+            "Gene": "pznA",
+            "Sequence": "RCTCTTIISSSSTF",
+            "Sequence Length": 14,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/D3VML5",
+                "http://www.uniprot.org/uniprot/B3A0N7"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+"
+            ],
+            "Target Organism": "Gram-positive bacteria:Bacillus subtilis HB0042, Bacillus subtilis strain 168, Bacillus megaterium 7A1, Bacillus anthracis (MIC=2-4 µg/ml), Bacillus brevis strain ATCC 8246, Bacillus cereus strain ATCC 14579 and strain CU1065, Bacillus licheniformis strain ATCC 9789, Micrococcus luteus, Bacillus sphaericus, Paenibacillus granivorans and Streptococcus pyogenes (MIC=128 µg/ml).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic (possibly)",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C61H103N17O23S2",
+            "Mass": 1506.7,
+            "PI": 8.07,
+            "Net Charge": 1,
+            "Hydrophobicity": 0.45,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Function": "Peptide antibiotic inhibiting growth of Gram-positive bacteria",
+            "Literature": [
+                {
+                    "Title": "Plantazolicin, a novel microcin B17/streptolysin S-like natural product from Bacillus amyloliquefaciens FZB42.",
+                    "Pubmed ID": "20971906",
+                    "Reference": "J Bacteriol. 2011 Jan;193(1)215-224.",
+                    "Author": "Scholz R, Molohon KJ, Nachtigall J, Vater J, Markley AL, S¼ssmuth RD, Mitchell DA, Borriss R.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=20971906"
+                }
+            ],
+            "Frequent Amino Acids": "STC",
+            "Absent Amino Acids": "ADEGHKLMNOPQUVWY",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 3,
+            "Polar Residues": 11,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02419",
+                    "Similarity": 1.0,
+                    "Sequence": "GFGCPNDYPCHRHCKSIPGRYGGYCGGHRLRCTC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07682",
+                    "Similarity": 1.0,
+                    "Sequence": "GFGCPNDYPCHRHCKSIPGRYGGYCGGAHRLRCTC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15219",
+                    "Similarity": 1.0,
+                    "Sequence": "CTCTTIISSSSTF"
+                }
+            ]
+        }
+    }
+}

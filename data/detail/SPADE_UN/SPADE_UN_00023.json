@@ -1,0 +1,107 @@
+{
+    "SPADE_UN_00023": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 5773694 A",
+                "Patent Link": "http://www.lens.org/lens/patent/US_5773694_A",
+                "Patent Type": "Granted Patent",
+                "Publication Date": "1998-6-30",
+                "Family Info": "CA2166309A1,EP0712413A1,WO1995004754A1",
+                "Patent Title": "Antimicrobial proteins from Allium.",
+                "Abstract": "Antimicrobial proteins capable of isolation from seeds of Allium show a wide range of antifungal activity and some activity against Gram-positive bacteria. DNA encoding the proteins may be isolated and incorporated into vectors. Plants transformed with this DNA may be produced. The proteins find commercial application as antifungal or antibacterial agents; transformed plants will show increased disease resistance."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_00023",
+            "Peptide Name": "Non-specific lipid-transfer protein (LTP; PLTP; Plants)",
+            "Source": "Zea mays (Maize)",
+            "Family": "Belongs to the plant LTP family",
+            "Gene": "Not found",
+            "Sequence": "AISCGQVASAIAPCISYARGQGSGPSAGCCSGVRSLNNAARTTADRRAACNCLKNAAAGVSGLNAGNAASIPSKCGVSIPYTISTSTDCSRVN",
+            "Sequence Length": 93,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P19656"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Unknown"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Lipid-binding",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "The global fold involving four helical fragments connected by three loops and a C-terminal tail without regular secondary structures is stabilized by four disulfide bridges. The most striking feature of this structure is the existence of an internal hydrophobic cavity running through the whole molecule. (Ref.3)",
+            "Formula": "C368H616N122O128S8",
+            "Mass": 9054.09,
+            "PI": 9.12,
+            "Net Charge": 6,
+            "Hydrophobicity": 0.1,
+            "Half Life": "Mammalian:4.4 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Plant non-specific lipid-transfer proteins transfer phospholipids as well as galactolipids across membranes. May play a role in wax or cutin deposition in the cell walls of expanding epidermal cells and certain secretory tissues. Causes an allergic reaction in human.",
+            "PTM": "Contains four disulfide bonds (By similarity).",
+            "Literature": [
+                {
+                    "Title": "Multiple mRNA coding for phospholipid-transfer protein from Zea mays arise from alternative splicing.",
+                    "Pubmed ID": "2022320",
+                    "Reference": "Gene. 1991 Mar 1;99(1)133-136.",
+                    "Author": "Arondel V, Tchang F, Baillet B, Vignols F, Grellet F, Delseny M, Kader JC, Puigdom¨nech P.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=2022320"
+                },
+                {
+                    "Title": "High-resolution crystal structure of the non-specific lipid-transfer protein from maize seedlings.",
+                    "Pubmed ID": "7735835",
+                    "Reference": "Structure. 1995 Feb 15;3(2)189-199.",
+                    "Author": "Shin DH, Lee JY, Hwang KY, Kim KK, Suh SW.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=7735835"
+                },
+                {
+                    "Title": "Solution structure and lipid binding of a nonspecific lipid transfer protein extracted from maize seeds.",
+                    "Pubmed ID": "8845747",
+                    "Reference": "Protein Sci. 1996 Apr;5(4)565-577.",
+                    "Author": "Gomar J, Petit MC, Sodano P, Sy D, Marion D, Kader JC, Vovelle F, Ptak M.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=8845747"
+                },
+                {
+                    "Title": "Phospholipid transfer protein: full-length cDNA and amino acid sequence in maize. Amino acid sequence homologies between plant phospholipid transfer proteins.",
+                    "Pubmed ID": "",
+                    "Author": "Morch M.-D.,Arondel V.,Stiefel V.,This P.,Tchang F."
+                },
+                {
+                    "Title": "Two-dimensional 1H-NMR studies of maize lipid-transfer protein. Sequence-specific assignment and secondary structure.",
+                    "Pubmed ID": "",
+                    "Author": "Ptak M.,Marion D.,Sodano P.,Petit M.-C."
+                }
+            ],
+            "Frequent Amino Acids": "ASG",
+            "Absent Amino Acids": "EFHMOUW",
+            "Basic Residues": 8,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 37,
+            "Polar Residues": 68,
+            "Positive Residues": 8,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01007",
+                    "Similarity": 0.989247311827957,
+                    "Sequence": "AISCGQVASAIAPCISYARGQGSAPSAGCCSGVRSLNNAARTTADRRAACNCLKNAAAGVSGLNAGNAASIPSKCGVSIPYTISTSTDCSRVN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01008",
+                    "Similarity": 0.989247311827957,
+                    "Sequence": "AISCGQVASAIAPCISYARGQGSGPSAGCCSGVKSLNNAARTTADRRAACNCLKNAAAGVSGLNAGNAASIPSKCGVSIPYTISTSTDCSRVN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00313",
+                    "Similarity": 0.8924731182795699,
+                    "Sequence": "TTSEAAISCGQVSSAIALCLSYARGQGFAPSAGCCSGVRSLNSAARTTADRRAACNCLKNAARGISGLNAGNAASIPSKCGVSVPYTISTSTDCSRVS"
+                }
+            ]
+        }
+    }
+}

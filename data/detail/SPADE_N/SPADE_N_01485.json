@@ -1,0 +1,72 @@
+{
+    "SPADE_N_01485": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01485",
+            "Peptide Name": "Preprodermaseptin S10 (Frogs, amphibians, animals)",
+            "Source": "Phyllomedusa sauvagei (Sauvage's leaf frog)",
+            "Family": "Not found",
+            "Gene": "drsS10",
+            "Sequence": "EEEKREGENEKEQEDDNQSEEKRGLVSDLLSTVTGLLGNLGGGGLKKI",
+            "Sequence Length": 48,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q1EN14"
+            ],
+            "Protein Existence": "Homology",
+            "Biological Activity": [
+                "Antimicrobial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C217H364N64O85",
+            "Mass": 5229.59,
+            "PI": 4.45,
+            "Net Charge": -6,
+            "Hydrophobicity": -1.23,
+            "Half Life": "Mammalian:1 hourYeast:30 minE.coli:>10 hour",
+            "Function": "Defense response to bacterium",
+            "Literature": [
+                {
+                    "Title": "A new structural motif of alpha-helical antimicrobial peptides with a nonamphipathic hydrophobic core and cationic termini.",
+                    "Pubmed ID": "PubMed ID is not available",
+                    "Reference": "Submitted (JUN-2005) to the EMBL/GenBank/DDBJ databases.",
+                    "Author": "Amiche M., Lequin O., Vanhoye D., Bruston F., Ladram A., Convert O., Nicolas P.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=PubMed ID is not available"
+                }
+            ],
+            "Frequent Amino Acids": "EGL",
+            "Absent Amino Acids": "ACFHMOPUWY",
+            "Basic Residues": 7,
+            "Acidic Residues": 13,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 19,
+            "Positive Residues": 7,
+            "Negative Residues": 13,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_00449",
+                    "Similarity": 1.0,
+                    "Sequence": "GLVSDLLSTVTGLLGNLGGGGLKKI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_12318",
+                    "Similarity": 0.8181818181818182,
+                    "Sequence": "GLVSGLLNSVTGLLGNLAGGGL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_13005",
+                    "Similarity": 0.7142857142857143,
+                    "Sequence": "GGGGGGG"
+                }
+            ]
+        }
+    }
+}

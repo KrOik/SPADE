@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_00368": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_00368",
+            "Peptide Name": "Cecropin A (1-8)-melittin (1-10)hybrid peptide",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "KWKLFKKIGIGAVLKVLT",
+            "Sequence Length": 18,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-negative bacteria:Escherichia coli D21 (MIC=0.5 µM), Pseudomonas aeruginosa OT97 (MIC=3 µM);Gram-positive bacteria:Bacillus subtilis Bs11 (MIC=0.3 µM), Bacillus megaterium Bm11 (MIC=0.5 µM), Staphylococcus aureus Cowan 1 (MIC=7 µM), Streptococcus pyogenes (MIC=0.8 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C101H172N24O20",
+            "Mass": 2042.59,
+            "PI": 10.6,
+            "Net Charge": 5,
+            "Hydrophobicity": 0.64,
+            "Half Life": "Mammalian:1.3 hourYeast:3 minE.coli:2 min",
+            "Function": "Has antibacterial activiy against Gram-negative and Gram-positive bacteria.",
+            "Literature": [
+                {
+                    "Title": "Shortened cecropin A-melittin hybrids. Significant size reduction retains potent antibiotic activity.",
+                    "Pubmed ID": "1733777",
+                    "Reference": "FEBS Lett. 1992 Jan 20;296(2)190-194.",
+                    "Author": "Andreu D, Ubach J, Boman A, WÃ¥hlin B, Wade D, Merrifield RB, Boman HG.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=1733777"
+                }
+            ],
+            "Frequent Amino Acids": "KLG",
+            "Absent Amino Acids": "CDEHMNOPQRSUY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 9,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_05754",
+                    "Similarity": 1.0,
+                    "Sequence": "KWKLFKKI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06734",
+                    "Similarity": 1.0,
+                    "Sequence": "KWKLF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07815",
+                    "Similarity": 1.0,
+                    "Sequence": "LVLKYCPKIGYCSNTCSKTQIWATSHGCKMYCCLPASWKWK"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_28276": {
+        "Sequence Information": {
+            "Peptide Name": "Bactenecin-7 (5-35)",
+            "Sequence": "PRPPRLPRPRPRPLPFPRPGPRPIPRPLPFP",
+            "Sequence Length": 31,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P19661",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P19661",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Antimicrobial activity of Bac7 fragments against drug-resistant clinical isolates.",
+                    "Pubmed ID": "15572192",
+                    "Reference": "Peptides. 2004;25:2055-2061",
+                    "Author": "Benincasa M, Scocchi M, Podda E, Skerlavaj B, Dolzani L, Gennaro R",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/15572192"
+                }
+            ],
+            "Mass": 3625.37,
+            "PI": 12.0,
+            "Net Charge": 8,
+            "Hydrophobicity": -1.31,
+            "Frequent Amino Acids": "PRL",
+            "Absent Amino Acids": "ACDEHKMNOQSTUVWY",
+            "Basic Residues": 8,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 25,
+            "Positive Residues": 8,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_28276",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02463",
+                    "Similarity": 1.0,
+                    "Sequence": "RRIRPRPPRLPRPRPRPLPFPRPGPRPIPRPLPFPRPGPRPIPRPLPFPRPGPRPIPRP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05739",
+                    "Similarity": 1.0,
+                    "Sequence": "RRIRPRPPRLPRPRPRPLPFPRPGPRPIPRPLPFPRPGPRPIPRPLPFPRPGPRPIPRPL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07423",
+                    "Similarity": 1.0,
+                    "Sequence": "RRIRPRPPRLPRPRPRPLPFPRPGPRPIPRPLPFPRPGPRPIPRPLPFPRPGPRP"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=16µM),Escherichia coli ML-35(MIC=32µM),Salmonella enterica subsp. enterica serovar Typhimurium ATCC 14028(MIC=>64µM),Serratia marcescens ATCC 8100(MIC=32µM),Staphylococcus aureus ATCC 25923(MIC=>128µM)"
+        }
+    }
+}

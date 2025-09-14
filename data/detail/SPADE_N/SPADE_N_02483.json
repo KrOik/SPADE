@@ -1,0 +1,74 @@
+{
+    "SPADE_N_02483": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02483",
+            "Peptide Name": "Myeloid antimicrobial peptide BMAP-28 (1-18) (mammals, animals)",
+            "Source": "Bos taurus (Bovine)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "GGLRSLGRKILRAWKKYG",
+            "Sequence Length": 18,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "Gram-negative bacteria:Escherichia coli ATCC 25922 (MIC=1 µM), Escherichia coli ML35 (MIC=0.5 µM), Escherichia coli D21 (MIC=0.5 µM), Salmonella typhimurium ATCC14028 (MIC=2 µM), Pseudomonas aeruginosa ATCC 27853 (MIC=1 µM), Serratia marcescens ATCC 8100 (MIC=2 µM);Gram-positive bacteria:Staphylococcus aureus ATCC 25923 (MIC=2 µM), Staphylococcus aureus Cowan 1 (MIC=1 µM), Staphylococcus aureus (MIC=4 µM), Staphylococcus epidermidis ATCC 12228 (MIC=1 µM), Bacillus megaterium Bm11 (MIC=2 µM).Fungi:Candida albicans (MIC=16 µM), Cryptococcus neoformans (MIC=2 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C94H159N31O21",
+            "Mass": 2059.46,
+            "PI": 11.74,
+            "Net Charge": 6,
+            "Hydrophobicity": -0.67,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Shows antibacterial activity against Gram-positive bacteria and Gram-negative bacteria. Also has antifungal activity.",
+            "Literature": [
+                {
+                    "Title": "Biological characterization of two novel cathelicidin-derived peptides and identification of structural requirements for their antimicrobial and cell lytic activities.",
+                    "Pubmed ID": "8910461",
+                    "Reference": "J Biol Chem. 1996 Nov 8;271(45)28375-28381.",
+                    "Author": "Skerlavaj B, Gennaro R, Bagella L, Merluzzi L, Risso A, Zanetti M.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=8910461"
+                }
+            ],
+            "Frequent Amino Acids": "GKL",
+            "Absent Amino Acids": "CDEFHMNOPQTUV",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 9,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02464",
+                    "Similarity": 1.0,
+                    "Sequence": "GGLRSLGRKILRAWKKYGPIIVPIIRIG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02486",
+                    "Similarity": 1.0,
+                    "Sequence": "GGLRSLGRKILRAWKKYGPQATPATRQ"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04275",
+                    "Similarity": 1.0,
+                    "Sequence": "GGLRSLGRKILRAWKKYGPIIVPIIRI"
+                }
+            ]
+        }
+    }
+}

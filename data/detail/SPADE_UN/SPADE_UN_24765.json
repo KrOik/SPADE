@@ -1,0 +1,48 @@
+{
+    "SPADE_UN_24765": {
+        "Sequence Information": {
+            "Peptide Name": "Cyclic peptide (5C)",
+            "Sequence": "RRRRXXXX",
+            "Sequence Length": 8,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Small Amphiphilic Peptides: Activity Against a Broad Range of Drug-Resistant Bacteria and Structural Insight into Membranolytic Properties.",
+                    "Pubmed ID": "34978443",
+                    "Reference": "J Med Chem. 2022;65:665-687",
+                    "Author": "Lohan S, Mandal D, Choi W, Konshina AG, Tiwari RK, Efremov RG, Maslennikov I, Parang K",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/34978443"
+                }
+            ],
+            "SPADE ID": "SPADE_UN_24765",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00342",
+                    "Similarity": 1.0,
+                    "Sequence": "GSGRGSCRSQCMRRHEDEPWRVQECVSQCRRRRGGGD"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00501",
+                    "Similarity": 1.0,
+                    "Sequence": "LPTTARSPGYEIGPQRRRRVTCFSFSFCKPARGLASCDLFCKRLKFESGLCTGDLEKCCCIDYIN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02501",
+                    "Similarity": 1.0,
+                    "Sequence": "MKTFSVAVAVAVVLTFICLQESSADSVTEVQELEEPMSIGSPVAAYEEMPEESWKMPYASRSSSDRRRRRWRCRTCCRCCPRMKGCGICCRRR"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=40 µg/ml",
+            "Target Organism": "Staphylococcus aureus ATCC BAA-1556(MIC=6.2µg/ml),Staphylococcus aureus ATCC 29213(MIC=3.1µg/ml),Pseudomonas aeruginosa ATCC 27883(MIC=25µg/ml),Escherichia coli ATCC 25922(MIC=25µg/ml)"
+        }
+    }
+}

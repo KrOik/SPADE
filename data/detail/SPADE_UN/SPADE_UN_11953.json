@@ -1,0 +1,74 @@
+{
+    "SPADE_UN_11953": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_11953",
+            "Peptide Name": "IK12-all D (Derived from IK12-all L)",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "IRVKIRVKIRVK",
+            "Sequence Length": 12,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic form",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "[Ref.24211081] Gram-positive bacteria :Staphylococcus epidermidis(MIC=1.0 mg/L), Staphylococcus aureus(MIC=7.8 mg/L);Gram-negative bacteria :Escherichia coli(MIC=7.8 mg/L), Pseudomonas aeruginosa(MIC=15.6 mg/L);Fungi :Candida albicans(MIC=31.3 mg/L)",
+            "Hemolytic Activity": "[Ref.24211081] HC10>125 mg/L against rabbit red blood cells",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "D",
+            "Structure Description": "Not found",
+            "Formula": "H-22O-11",
+            "Mass": 1507.96,
+            "PI": 12.0,
+            "Net Charge": 6,
+            "Hydrophobicity": 0.08,
+            "Half Life": "Mammalian:Yeast:E.coli:",
+            "Function": "Antibacterial activity against Gram-positive bacteria and Gram-negative bacteria. Antifungal activity against Candida albicans",
+            "Literature": [
+                {
+                    "Title": "Effect of stereochemistry, chain length and sequence pattern on antimicrobial properties of short synthetic β-sheet forming peptide amphiphiles.",
+                    "Pubmed ID": "24211081",
+                    "Reference": "Biomaterials. 2014 Jan;35(4)1315-25. doi 10.1016/j.biomaterials.2013.10.053.",
+                    "Author": "Ong ZY, Cheng J, Huang Y, Xu K, Ji Z, Fan W, Yang YY",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=24211081"
+                }
+            ],
+            "Frequent Amino Acids": "IKR",
+            "Absent Amino Acids": "ACDEFGHLMNOPQSTUWY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 9,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_11396",
+                    "Similarity": 1.0,
+                    "Sequence": "IRVKIRVK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_11953",
+                    "Similarity": 1.0,
+                    "Sequence": "IRVKIRVKIRVK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_30673",
+                    "Similarity": 1.0,
+                    "Sequence": "IRVKIRVK"
+                }
+            ]
+        }
+    }
+}

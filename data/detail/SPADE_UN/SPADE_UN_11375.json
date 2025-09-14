@@ -1,0 +1,72 @@
+{
+    "SPADE_UN_11375": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_11375",
+            "Peptide Name": "Siamycin I (Bacteriocin)",
+            "Source": "Streptomyces strain AA6532",
+            "Family": "Belongs to the class I bacteriocin",
+            "Gene": "Not found",
+            "Sequence": "CLGVGSCNDFAGCGYAVVCFW",
+            "Sequence Length": 21,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "",
+            "Biological Activity": [
+                "Antiviral",
+                "Anti-HIV",
+                "Antimicrobial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "It differs from Siamycin I only by one amino acid. Siamycin I has a valine residue at position 4. In both peptides, disulfide bonds link Cys1 with Cys13 and Cys7 with Cys19, and the side chain of Asp9 forms an amide bond with the N-terminus (XXJ). The original has been replaced since antimicrobial assays revealed no activity.",
+            "Formula": "C96H135N23O27S4",
+            "Mass": 2171.5,
+            "PI": 4.05,
+            "Net Charge": -1,
+            "Hydrophobicity": 1.14,
+            "Half Life": "Mammalian:1.2 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Siamycins I and II, new anti-HIV-1 peptides II. Sequence analysis and structure determination of siamycin I.",
+                    "Pubmed ID": "8557614",
+                    "Reference": "J Antibiot (Tokyo). 1995 Dec;48(12)1515-7.",
+                    "Author": "Detlefsen DJ, Hill SE, Volk KJ, Klohr SE, Tsunakawa M, Furumai T, Lin PF, Nishio M, Kawano K, Oki T, et al.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=8557614"
+                }
+            ],
+            "Frequent Amino Acids": "CGV",
+            "Absent Amino Acids": "EHIKMOPQRTU",
+            "Basic Residues": 0,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 12,
+            "Positive Residues": 0,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_05603",
+                    "Similarity": 0.9523809523809523,
+                    "Sequence": "CLGVGSCNDFAGCGYAIVCFW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15068",
+                    "Similarity": 0.9523809523809523,
+                    "Sequence": "CLGVGSCVDFAGCGYAVVCFW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15069",
+                    "Similarity": 0.9523809523809523,
+                    "Sequence": "CLGIGSCNDFAGCGYAVVCFW"
+                }
+            ]
+        }
+    }
+}

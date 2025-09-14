@@ -1,0 +1,79 @@
+{
+    "SPADE_UN_00266": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_00266",
+            "Peptide Name": "Cyclic hexapeptide CYC-(RRWWRF)",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "RRWWRF",
+            "Sequence Length": 6,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.16075425] Gram-negative bacterium:Escherichia coli(MIC=6.3 μM);Gram-positive bacterium:Bacillus subtilis(MIC=3.1 μM)",
+            "Hemolytic Activity": "[Ref.16075425] It has 24% hemolysis at 100 μM against erythrocytes.",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "No specific N-terminal",
+            "C-terminal Modification": "No specific C-terminal",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C49H67N17O7",
+            "Mass": 1006.17,
+            "PI": 12.0,
+            "Net Charge": 3,
+            "Hydrophobicity": -2.08,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Function": "Antibacterial activity against Escherichia coli and Bacillus subtilis.  Has hemolytic activity.",
+            "Literature": [
+                {
+                    "Title": "Structure of the antimicrobial, cationic hexapeptide cyclo(RRWWRF) and its analogues in solution and bound to detergent micelles.",
+                    "Pubmed ID": "16075425",
+                    "Reference": "Chembiochem. 2005 Sep;6(9)1654-1662.",
+                    "Author": "Appelt C, Wessolowski A, S?derh??ll JA, Dathe M, Schmieder P.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16075425"
+                },
+                {
+                    "Title": "The antimicrobial activity of hexapeptides derived from synthetic combinatorial libraries.",
+                    "Pubmed ID": "7883644",
+                    "Reference": "J Appl Bacteriol. 1995 Jan;78(1)39-46.",
+                    "Author": "Blondelle SE, Takahashi E, Dinh KT, Houghten RA.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=7883644"
+                }
+            ],
+            "Frequent Amino Acids": "RWF",
+            "Absent Amino Acids": "ACDEGHIKLMNOPQSTUVY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 3,
+            "Polar Residues": 3,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02452",
+                    "Similarity": 1.0,
+                    "Sequence": "RRWQWR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02472",
+                    "Similarity": 1.0,
+                    "Sequence": "QVVRNPQSCRWNMGVCIPISCPGNMRQIGTCFGPRVPCCRRW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02473",
+                    "Similarity": 1.0,
+                    "Sequence": "QGVRNHVTCRIYGGFCVPIRCPGRTRQIGTCFGRPVKCCRRW"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,93 @@
+{
+    "SPADE_UN_11877": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "KR 101838208 B1",
+                "Patent Link": "http://www.lens.org/lens/patent/KR_101838208_B1",
+                "Patent Type": "Granted Patent",
+                "Publication Date": "2018-3-13",
+                "Family Info": "KR20160128904A",
+                "Patent Title": "Antimicrobial peptide with improved specificity to gram-negative pathogen and antimicrobial composition comprising the same",
+                "Abstract": "The present invention relates to a novel antimicrobial peptide and an antimicrobial composition containing the antimicrobial peptide. More particularly, the present invention relates to an antimicrobial peptide having an antimicrobial activity and an antiinflammatory activity with enhanced specificity against gram-negative bacteria and an antimicrobial composition containing the same . The antimicrobial peptide according to the present invention exhibits high specificity and low cytotoxicity against Gram-negative bacteria and has excellent anti-inflammatory and antibacterial activity by inactivating LPS by binding to LPS acting as endotoxin, It can be usefully utilized as a composition for antibiosis specific for a pathogen."
+            },
+            {
+                "Patent No": "KR 20190019309 A",
+                "Patent Link": "http://www.lens.org/lens/patent/KR_20190019309_A",
+                "Patent Type": "Patent Application",
+                "Publication Date": "2019-2-27",
+                "Family Info": "KR101977800B1",
+                "Patent Title": "Pseudomonas specific antimicrobial peptide and antimicrobial composition comprising the same",
+                "Abstract": "The present invention relates to an antimicrobial peptide specific to a Pseudomonas sp. strain and an antimicrobial composition containing the same. The antimicrobial peptide according to the present invention has a specific antimicrobial effect on the Pseudomonas sp. strain, thus can be utilized as a pharmaceutical composition for antimicrobial use, a food preservative, a cosmetic additive and a feed additive in medicine, cosmetics and food area. In addition, the antimicrobial peptide can provide a substitute for conventional antibiotics and a method of using the antibiotic peptide as a therapeutic agent for new infection."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_11877",
+            "Peptide Name": "GNU7 (De novo synthesis)",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "RLLRPLLQLLKQKLR",
+            "Sequence Length": 15,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic form",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "[Ref.23946320] Gram-positive bacteria :Bacillus subtilis(MIC=2 mg/L), Enterococcus faecalis(MIC=2 mg/L), Micrococcus luteus(MIC=2 mg/L), Staphylococcus aureus(MIC=2 mg/L);Gram-negative bacteria :Escherichia coli(MIC=2 mg/L), Pseudomonas aeruginosa(MIC=2 mg/L), Salmonella typhimurium(MIC=2 mg/L);Fungi :Candida albicans(MIC=2 mg/L), Cryptococcus neoformans(MIC=2 mg/L), Saccharomyces cerevisiae(MIC=4 mg/L)",
+            "Hemolytic Activity": "[Ref.23946320] 0% hemolysis at 140 mg/L against human red blood cells",
+            "Cytotoxicity": "[Ref.23946320] The cell viability of hPBMCs is at peptide concentrations of 4, 8, 16, 32, 64 μg/ml",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C87H162N28O18",
+            "Mass": 1888.39,
+            "PI": 12.0,
+            "Net Charge": 5,
+            "Hydrophobicity": -0.22,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Function": "Antibacterial activity against Gram-positive bacteria and Gram-negative bacteria. Antifungal activity against Candida albicans, Cryptococcus neoformans, Saccharomyces cerevisiae",
+            "Literature": [
+                {
+                    "Title": "De novo generation of short antimicrobial peptides with enhanced stability and cell specificity",
+                    "Pubmed ID": "23946320",
+                    "Reference": "J Antimicrob Chemother. 2014 Jan;69(1)121-32. doi 10.1093/jac/dkt322.",
+                    "Author": "Hyun Kim, Ju Hye Jang, Sun Chang Kim and Ju Hyun Cho",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=23946320"
+                }
+            ],
+            "Frequent Amino Acids": "LRK",
+            "Absent Amino Acids": "ACDEFGHIMNOSTUVWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 7,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01647",
+                    "Similarity": 1.0,
+                    "Sequence": "RAGLKFPVGRVHRLLR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05626",
+                    "Similarity": 1.0,
+                    "Sequence": "SGRGKTGGKARAKAKTRSSRAGLQFPVGRVHRLLR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08594",
+                    "Similarity": 1.0,
+                    "Sequence": "RAGLQFPVGRVHRLLR"
+                }
+            ]
+        }
+    }
+}

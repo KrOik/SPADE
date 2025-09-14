@@ -1,0 +1,75 @@
+{
+    "SPADE_N_01371": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01371",
+            "Peptide Name": "Esculentin-IIb (Frogs, amphibians, animals)",
+            "Source": "Rana esculenta (European Edible frog)",
+            "Family": "Belongs to the frog skin active peptide family (Brevinin subfamily)",
+            "Gene": "Not found",
+            "Sequence": "GIFSLVKGAAKLAGKGLAKEGGKFGLELIACKIAKQC",
+            "Sequence Length": 37,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P40846"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Swiss_Prot Entry P40846]Shows antibacterial activity against representative Gram-negative and Gram-positive bacterial species",
+            "Hemolytic Activity": "[Ref:8163497]Not found",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C169H289N45O44S2",
+            "Mass": 3719.51,
+            "PI": 9.7,
+            "Net Charge": 5,
+            "Hydrophobicity": 0.45,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Shows antibacterial activity against representative Gram-negative and Gram-positive bacterial species.",
+            "Literature": [
+                {
+                    "Title": "Antimicrobial peptides from skin secretions of Rana esculenta. Molecular cloning of cDNAs encoding esculentin and brevinins and isolation of new active peptides.",
+                    "Pubmed ID": "8163497",
+                    "Reference": "J Biol Chem. 1994 Apr 22;269(16)11956-11961.",
+                    "Author": "Simmaco M, Mignogna G, Barra D, Bossa F.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=8163497"
+                }
+            ],
+            "Frequent Amino Acids": "GKA",
+            "Absent Amino Acids": "DHMNOPRTUWY",
+            "Basic Residues": 7,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 17,
+            "Polar Residues": 18,
+            "Positive Residues": 7,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01369",
+                    "Similarity": 0.9459459459459459,
+                    "Sequence": "GILSLVKGVAKLAGKGLAKEGGKFGLELIACKIAKQC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01350",
+                    "Similarity": 0.8918918918918919,
+                    "Sequence": "GIFSLVKGVAKLAGKTLAKEGGKFGLELAMCKIAKQC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01351",
+                    "Similarity": 0.8108108108108109,
+                    "Sequence": "GILSLVKGAAKLLGKGLAKEGGKVGLEFIACKVTNQC"
+                }
+            ]
+        }
+    }
+}

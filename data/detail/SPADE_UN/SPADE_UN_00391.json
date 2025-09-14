@@ -1,0 +1,78 @@
+{
+    "SPADE_UN_00391": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_00391",
+            "Peptide Name": "Del 1-2 (Ranalexin analog)",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "GGLIKIVPAMICAVTKKC",
+            "Sequence Length": 18,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-positive bacterium:Staphylococcus aureus (MIC=256 µg/ml);Gram-negative bacteria:Escherichia coli (MIC>256 µg/ml), Pseudomonas aeruginosa (MIC>256 µg/ml).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C82H149N21O20S3",
+            "Mass": 1845.38,
+            "PI": 9.39,
+            "Net Charge": 3,
+            "Hydrophobicity": 1.19,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Has antibacterial activiy against Gram-negative and Gram-positive bacteria.",
+            "Literature": [
+                {
+                    "Title": "Ranalexin. A novel antimicrobial peptide from bullfrog (Rana catesbeiana) skin, structurally related to the bacterial antibiotic, polymyxin.",
+                    "Pubmed ID": "8144672",
+                    "Reference": "J Biol Chem. 1994 Apr 8;269(14)10849-10855.",
+                    "Author": "Clark DP, Durell S, Maloy WL, Zasloff M.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=8144672"
+                },
+                {
+                    "Title": "Solution structure of the antimicrobial peptide ranalexin and a study of its interaction with perdeuterated dodecylphosphocholine micelles.",
+                    "Pubmed ID": "",
+                    "Author": "Grassy G.,Chiche L.,Roch P.,Chavanieu A.,Vignal E."
+                }
+            ],
+            "Frequent Amino Acids": "IKA",
+            "Absent Amino Acids": "DEFHNOQRSUWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 10,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01247",
+                    "Similarity": 1.0,
+                    "Sequence": "FLGGLIKIVPAMICAVTKKC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07930",
+                    "Similarity": 1.0,
+                    "Sequence": "MFTLKKSLLLLFFLGTINLSLCEEERNAEEERRDNPDERDVEVEKRFLGGLIKIVPAMICAVTKKC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11237",
+                    "Similarity": 1.0,
+                    "Sequence": "FLGGLIKIVPAMICAVTKKCHHHHHH"
+                }
+            ]
+        }
+    }
+}

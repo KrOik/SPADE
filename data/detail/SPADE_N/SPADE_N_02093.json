@@ -1,0 +1,73 @@
+{
+    "SPADE_N_02093": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02093",
+            "Peptide Name": "Hepcidin AS-hepc6 (fish, chordates, animals)",
+            "Source": "Acanthopagrus schlegelii (Black porgy)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "CRFCCRCCPRMRGCGLCCRF",
+            "Sequence Length": 20,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q68M52"
+            ],
+            "Protein Existence": "Predicted",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "Pdp11 (IC50=2.20 µM), 51M6 (IC50=14.61 µM), Bacillus subtilis CECT 35 (IC50=11.41 µM), Escherichia coli DH5Î± (IC50=18.66 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C92H153N35O21S9",
+            "Mass": 2374.01,
+            "PI": 9.01,
+            "Net Charge": 5,
+            "Hydrophobicity": 0.32,
+            "Half Life": "Mammalian:1.2 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "The antimicrobial peptide hepcidin exerts an important role in the innate immunity against bacteria in the bony fish giltherad seabream.",
+                    "Pubmed ID": "18164062",
+                    "Reference": "Mol Immunol. 2008 Apr;45(8)2333-2342.",
+                    "Author": "Cuesta A, Meseguer J, Esteban MA.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=18164062"
+                }
+            ],
+            "Frequent Amino Acids": "CRF",
+            "Absent Amino Acids": "ADEHIKNOQSTUVWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 13,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_25929",
+                    "Similarity": 1.0,
+                    "Sequence": "RRRRCRFCC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02044",
+                    "Similarity": 0.95,
+                    "Sequence": "RCRFCCRCCPRMRGCGICCRF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09422",
+                    "Similarity": 0.95,
+                    "Sequence": "QGSPARCRFCCRCCPRMRGCGICCRF"
+                }
+            ]
+        }
+    }
+}

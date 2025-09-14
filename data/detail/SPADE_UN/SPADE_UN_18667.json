@@ -1,0 +1,72 @@
+{
+    "SPADE_UN_18667": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_18667",
+            "Peptide Name": "SyCPA 63 (thurinsyn; XXD; XXL, lipopeptide; chemically synthetic AMPs20; lactam; XXJ; UCSB1a)",
+            "Source": "bioinformatic predicted bacterial nonribosomal gene cluster,Bacillus thuringiensisplasmid BMB171, bacteria-derived, natural derivatives",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "KRIRL",
+            "Sequence Length": 5,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-MRSA"
+            ],
+            "Target Organism": "active against B. subtilis 168 1A1 (MIC 4 ug/ml), E. faecium Com15 (MIC 8 ug/ml), S. aureus USA300 (MIC 8 ug/ml), E. coli DH5alpha (MIC 16 ug/ml), K. pneumoniae ATCC 10031 (MIC 8 ug/ml), A. baumannii ATCC 17978 (MIC 32 ug/ml), P. aeruginosa PAO1 (MI 16 ug/ml), E. cloacae ATCC 14037 (MIC 64 ug/ml), M. tuberculosis H37RV (MIC 6 ug/ml). This peptide shows the broadest activity spectrum in this family of peptides.",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "not toxic to HeLa cells.",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "coupled with fatty acid tetradecanoic acid; R2 is a D-amino acid;",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 684.87,
+            "PI": 12.0,
+            "Hydrophobicity": -0.92,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Chu J, Koirala B, Forelli N, Vila-Farres X, Ternei MA, Ali T, Colosimo DA, Brady SF. 2020",
+                    "Reference": "J Am Chem Soc. 2020 Aug 19;142(33):14158-14168. doi: 10.1021/jacs.0c04376.PubMed",
+                    "Title": "Synthetic-Bioinformatic Natural Product Antibiotics with Diverse Modes of Action."
+                }
+            ],
+            "Frequent Amino Acids": "RIK",
+            "Absent Amino Acids": "ACDEFGHMNOPQSTUVWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 2,
+            "Polar Residues": 3,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "Net Charge": 3,
+            "Mechanism of action": "it depolarizes the bacterial membranes.",
+            "Comments": "Discovery: the peptide was predicted but made in a different way.",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03188",
+                    "Similarity": 1.0,
+                    "Sequence": "GRKSDCFRKSGFCAFLKCPSLTLISGKCSRFYLCCKRIR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04257",
+                    "Similarity": 1.0,
+                    "Sequence": "LLGDFFRKSKEKIGKEFKRI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10858",
+                    "Similarity": 1.0,
+                    "Sequence": "FRKSKEKIGKEFKRI"
+                }
+            ]
+        }
+    }
+}

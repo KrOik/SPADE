@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_24574": {
+        "Sequence Information": {
+            "Peptide Name": "SARS-CoV-2-S(1028-1040)",
+            "Sequence": "KMSECVLGQSKRV",
+            "Sequence Length": 13,
+            "Biological Activity": [
+                "Antiviral",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Virus entry",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P0DTC2",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P0DTC2",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Peptide Antidotes to SARS-CoV-2 (COVID-19)",
+                    "Pubmed ID": "",
+                    "Reference": "bioRxiv. 2020;doi.org/10.1101/2020.08.06.238915:",
+                    "Author": "Watson A, Ferreira L, Hwang P, Xu J, Stroud R",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/"
+                }
+            ],
+            "Mass": 1464.75,
+            "PI": 9.31,
+            "Net Charge": 2,
+            "Hydrophobicity": -0.36,
+            "Frequent Amino Acids": "KSV",
+            "Absent Amino Acids": "ADFHINOPTUWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 8,
+            "Positive Residues": 3,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_UN_24574",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_22273",
+                    "Similarity": 1.0,
+                    "Sequence": "GRLQSLQTYVTQQLIRAAEIRASANLAATKMSEC"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_24573",
+                    "Similarity": 1.0,
+                    "Sequence": "ASANLAATKMSECVLGQSKRVDFCGKGY"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04982",
+                    "Similarity": 1.0,
+                    "Sequence": "SKRVAKRKL"
+                }
+            ],
+            "Hemolytic Activity": "HEK293T/ACE2 cells:50% Cell death=20 µM",
+            "Target Organism": "SARS-CoV-2 PsV(90-100% Inhibition=20µM),SARS-CoV-2 PsV(90-100% Inhibition=6.66µM),SARS-CoV-2 PsV(IC50 I=0.74µM),SARS-CoV-2 PsV(20-30% Inhibition=0.03µM)"
+        }
+    }
+}

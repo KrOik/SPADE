@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_20285": {
+        "Sequence Information": {
+            "Peptide Name": "P2-Ll-1298",
+            "Sequence": "AAGKGLVSNLLEK",
+            "Sequence Length": 13,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Leptodactylus latrans Amphibian Skin Secretions as a Novel Source for the Isolation of Antibacterial Peptides.",
+                    "Pubmed ID": "30423858",
+                    "Reference": "Molecules. 2018;23:E2943",
+                    "Author": "Siano A, Húmpola MV, de Oliveira E, Albericio F, Simonetta AC, Lajmanovich R, Tonarelli GG",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/30423858"
+                }
+            ],
+            "Mass": 1299.52,
+            "PI": 8.64,
+            "Net Charge": 1,
+            "Hydrophobicity": 0.22,
+            "Frequent Amino Acids": "LAG",
+            "Absent Amino Acids": "CDFHIMOPQRTUWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 7,
+            "Positive Residues": 2,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_UN_20285",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02707",
+                    "Similarity": 1.0,
+                    "Sequence": "RRFKKFLKKVEGAGRRVANAAQKGLPLAAGVKGLV"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05887",
+                    "Similarity": 1.0,
+                    "Sequence": "GLLDFLKAAGKGLVSNLLEK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09923",
+                    "Similarity": 1.0,
+                    "Sequence": "GLWSKIKEVGKEAAKAAAKAAGK"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:0% Hemolysis=80 µM,Human erythrocytes:28% Hemolysis=160 µM,Human erythrocytes:100% Hemolysis=320 µM",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=24.6µM),Staphylococcus aureus ATCC 25923(MIC=49µM)"
+        }
+    }
+}

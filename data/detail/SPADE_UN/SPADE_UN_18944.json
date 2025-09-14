@@ -1,0 +1,72 @@
+{
+    "SPADE_UN_18944": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_18944",
+            "Peptide Name": "2Retrocd4 (cyclic dimeric KR-12, synthetic AMPs, UCBB1)",
+            "Source": "designed, human cathelicidin analog, animal-derived, natural derivative",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "AGGRLFDKIRQVIRKGAGGRLFDKIRQVIRKG",
+            "Sequence Length": 32,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Antifungal"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 3610.27,
+            "PI": 12.0,
+            "Hydrophobicity": -0.49,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Gunasekera S, Muhammad T, Strömstedt AA, Rosengren KJ, Göransson U.2020",
+                    "Reference": "Front Microbiol. 2020 Feb 21;11:168. doi: 10.3389/fmicb.2020.00168.PubMed",
+                    "Title": "Backbone Cyclization and Dimerization of LL-37-Derived Peptides Enhance Antimicrobial Activity and Proteolytic Stability."
+                }
+            ],
+            "Frequent Amino Acids": "GRI",
+            "Absent Amino Acids": "CEHMNOPSTUWY",
+            "Basic Residues": 10,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 16,
+            "Positive Residues": 10,
+            "Negative Residues": 2,
+            "Net Charge": 8,
+            "Comments": "Sequence analysis: APD analysis reveals that this sequence is similar (67.57%) toretrocd4K: 13%, R: 19%, I: 13%, G: 19%.Activity:  active against E. coli (MIC 0.625 uM), P. aeruginosa (MIC 1.25 uM), S. aureus (MIC 1.25  uM), and C. albicans (MIC 2.5  uM). Warning: Non-standard assay.Structure:  random coil in buffer and helical in lysophosphatidylglycerol.",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_18940",
+                    "Similarity": 1.0,
+                    "Sequence": "RLFDKIRQVIRK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_22142",
+                    "Similarity": 0.96875,
+                    "Sequence": "CGGRLFDKIRQVIRKGAGGRLFDKIRQVIRKG"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_01706",
+                    "Similarity": 0.9230769230769231,
+                    "Sequence": "RLFDKIRQVIRKF"
+                }
+            ]
+        }
+    }
+}

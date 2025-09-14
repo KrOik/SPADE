@@ -1,0 +1,76 @@
+{
+    "SPADE_N_03651": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03651",
+            "Peptide Name": "Myotoxin (Crotamine-4; Toxic peptide C)",
+            "Source": "Crotalus oreganus helleri (Southern pacific rattlesnake) (Crotalusviridis helleri)",
+            "Family": "Belongs to the crotamine-myotoxin family",
+            "Gene": "Not found",
+            "Sequence": "YKRCHKKGGHCFPKTVICLPPSSDFGKMDCRWKWKCCKKGSVNNAISI",
+            "Sequence Length": 48,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P01477",
+                "http://www.uniprot.org/uniprot/G9DCI6"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Toxin"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C368H569N95O88S8",
+            "Mass": 5487.52,
+            "PI": 9.65,
+            "Net Charge": 11,
+            "Hydrophobicity": -0.58,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Cationic peptide that possess multiple functions. It acts as a cell-penetrating peptide (CPP), and as a potent voltage- gated potassium channel (Kv) inhibitor. It exhibits antimicrobial activities, hind limb paralysis, and severe muscle necrosis by a non-enzymatic mechanism (By similarity).",
+            "Tissue specificity": "Expressed by the venom gland.",
+            "Toxic Dose": "LD(50) is 1.96 mg/kg by subcutaneous injection.",
+            "Literature": [
+                {
+                    "Title": "Some chemical properties of the venom of the rattlesnake, Crotalus viridis helleri.",
+                    "Pubmed ID": "694946",
+                    "Reference": "Toxicon. 1978;16(5)431-441.",
+                    "Author": "Maeda N, Tamiya N, Pattabhiraman TR, Russell FE.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=694946"
+                }
+            ],
+            "Frequent Amino Acids": "KCG",
+            "Absent Amino Acids": "EOQU",
+            "Basic Residues": 13,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 16,
+            "Polar Residues": 30,
+            "Positive Residues": 13,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_00835",
+                    "Similarity": 1.0,
+                    "Sequence": "YKRCHKKGGHCFPKTVICLPPSSDFGKMDCRWKWKCCKKGSVNNA"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03652",
+                    "Similarity": 0.9791666666666666,
+                    "Sequence": "YKRCHKKGGHCFPKTVICLPPSSDFGKMDCRWRWKCCKKGSVNNAISI"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_00834",
+                    "Similarity": 0.9777777777777777,
+                    "Sequence": "YKRCHKKEGHCFPKTVICLPPSSDFGKMDCRWKWKCCKKGSVNNA"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,69 @@
+{
+    "SPADE_N_14314": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_14314",
+            "Peptide Name": "Syn-xiamencin-70 (AS-48 minimal domain analog, synthetic AMPs, UCLL1)",
+            "Source": "amino acid substitution, sequence shuffling, bacteria-derived, natural derivative",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "AGRQALTLYLKEELRKRKKIAFKAW",
+            "Sequence Length": 25,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antiparasitic"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 3018.6,
+            "PI": 10.64,
+            "Hydrophobicity": -0.68,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Corman HN, Ross JN, Fields FR, Shoue DA, McDowell MA, Lee SW.2022",
+                    "Reference": "Microbiol Spectr. 2022 Dec 21;10(6):e0265822. doi: 10.1128/spectrum.02658-22.PubMed",
+                    "Title": "Rationally Designed Minimal Bioactive Domains of AS-48 Bacteriocin Homologs Possess Potent Antileishmanial Properties"
+                }
+            ],
+            "Frequent Amino Acids": "KAL",
+            "Absent Amino Acids": "CDHMNOPSUV",
+            "Basic Residues": 8,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 15,
+            "Positive Residues": 8,
+            "Negative Residues": 2,
+            "Net Charge": 6,
+            "Comments": "Sequence analysis: APD analysis reveals that this sequence is similar (96%) toSyn-xiamencin-22K: 20%, L=A: 16%, R: 12%.Activity: exhibits leishmanicidal activity against L. donovani (IC50 2.28 uM).Toxicity: THP-1 cells (CC50 < 20 uM).",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_14266",
+                    "Similarity": 0.96,
+                    "Sequence": "AGRQALTLYLKEELRKRGKIAFKAW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14280",
+                    "Similarity": 0.96,
+                    "Sequence": "AGRQALTLYLKEELRKRWKIAFKAW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14298",
+                    "Similarity": 0.92,
+                    "Sequence": "AGRQALWLYLKEELRKRGKIAFKAW"
+                }
+            ]
+        }
+    }
+}

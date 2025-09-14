@@ -1,0 +1,67 @@
+{
+    "SPADE_UN_23634": {
+        "Sequence Information": {
+            "Peptide Name": "Anoplin [R5I,T8R]",
+            "Sequence": "GLLKIIKRLL",
+            "Sequence Length": 10,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P0C005",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P0C005",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Novel anoplin-based (lipo)-peptide models show potent antimicrobial activity.",
+                    "Pubmed ID": "33506605",
+                    "Reference": "J Pept Sci. 2021;27:e3303",
+                    "Author": "Stergiou V, Krikorian D, Koukkou A-I, Sakarellos-Daitsiotis M, Panou-Pomonis E",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/33506605"
+                }
+            ],
+            "Mass": 1166.54,
+            "PI": 11.17,
+            "Net Charge": 3,
+            "Hydrophobicity": 1.15,
+            "Frequent Amino Acids": "LIK",
+            "Absent Amino Acids": "ACDEFHMNOPQSTUVWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 4,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_23634",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01477",
+                    "Similarity": 1.0,
+                    "Sequence": "ILGPILGLVSNAGGLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01561",
+                    "Similarity": 1.0,
+                    "Sequence": "FLPFVGNLLNGLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01633",
+                    "Similarity": 1.0,
+                    "Sequence": "FLPLVTGLLSGLL"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:62% Hemolysis=100 µg/ml,Human erythrocytes:82% Hemolysis=200 µg/ml,Human erythrocytes:50% Hemolysis=68.1 µg/ml",
+            "Target Organism": "Escherichia coli DH5alpha(MIC=>200µg/ml),Pseudomonas aeruginosa PAO1(MIC=40µg/ml),Zymomonas mobilis ATCC 10988(MIC=15µg/ml),Mycobacterium smegmatis mc2-155(MIC=40µg/ml),Bacillus subtilis DELTA(MIC=200µg/ml),Candida parapsilosis(MIC=200µg/ml)"
+        }
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "SPADE_N_08152": {
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_08152",
+            "Sequence Length": 79,
+            "Mass": 8730.06,
+            "PI": 8.53,
+            "Net Charge": 4,
+            "Source": "Mus musculus",
+            "Biological Activity": [
+                "Antimicrobial"
+            ],
+            "Sequence": "MKTFLFLFAVLFFLDPAKNAFFDEKCSRVNGRCTASCLKNEELVALCQKNLKCCVTVQPCGKSKSNQSDEGSGHMGTWG",
+            "Function": "Has antibacterial activity (By similarity).",
+            "Literature": [
+                {
+                    "Title": "Signal sequence conservation and mature peptide divergence within subgroups of the murine beta-defensin gene family.",
+                    "Pubmed ID": "R2003J1199",
+                    "Author": "Dorin J.R.,Hill R.E.,Kilanowski F.M.,Semple C.A.M.,Morrison G.M."
+                },
+                {
+                    "Title": "Identification on mouse chromosome 8 of new beta-defensin genes with regionally specific expression in the male reproductive organ.",
+                    "Pubmed ID": "R2004J0669",
+                    "Author": "Marquez G.,Martinez-A C.,Albar J.P.,Villares R.,Zaballos A."
+                },
+                {
+                    "Title": "Lineage-specific biology revealed by a finished genome assembly of the mouse.",
+                    "Pubmed ID": "R2009J0811",
+                    "Author": "Goldstein S.,Zody M.C.,Hillier L.W.,Goodstadt L.,Church D.M."
+                }
+            ],
+            "Peptide Name": "Beta-defensin 15 (DFB15_MOUSE)",
+            "Hemolytic Activity": [],
+            "Frequent Amino Acids": "KLC",
+            "Absent Amino Acids": "IOUY",
+            "Basic Residues": 11,
+            "Acidic Residues": 7,
+            "Hydrophobic Residues": 30,
+            "Polar Residues": 46,
+            "Positive Residues": 11,
+            "Negative Residues": 7,
+            "Hydrophobicity": -0.11,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02941",
+                    "Similarity": 1.0,
+                    "Sequence": "FFDEKCSRVNGRCTASCLKNEELVALCQKNLKCCVTVQPCGKSKSNQSDEGSGHMGTWG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03742",
+                    "Similarity": 1.0,
+                    "Sequence": "EKCSRVNGRCTASCLKNEELVALCQKNLKCCVT"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03743",
+                    "Similarity": 0.9393939393939394,
+                    "Sequence": "EKCSRINGRCTASCLKNEELVALCWKNLKCCVT"
+                }
+            ]
+        }
+    }
+}

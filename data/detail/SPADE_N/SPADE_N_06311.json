@@ -1,0 +1,73 @@
+{
+    "SPADE_N_06311": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_06311",
+            "Peptide Name": "DI",
+            "Source": "E3 ubiquitin-protein ligase",
+            "Family": "",
+            "Gene": "Not found",
+            "Sequence": "LTFEHYWAQLTS",
+            "Sequence Length": 12,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Notavailable"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Target Organism": "Tumor cells:-- (IC50 for MDM2=0.29 µM);  -- (IC50 for MDMX-p53=1.6 µM)",
+            "Hemolytic Activity": "Not available",
+            "Cytotoxicity": "Not available",
+            "Binding Target": "MDM2",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C71H98N16O20",
+            "Mass": 1495.63,
+            "PI": 5.24,
+            "Net Charge": 0,
+            "Hydrophobicity": -0.2,
+            "Half Life": "Mammalian:5.5 hourYeast:3 minE.coli:2 min",
+            "Comments": "Inhibits MDM2-p53 Interaction",
+            "Literature": [
+                {
+                    "Title": "mRNA display selection of an optimized MDM2-binding peptide that potently inhibits MDM2-p53 interaction",
+                    "Pubmed ID": "21423613",
+                    "Reference": "PLoS One. 2011 Mar 15;6(3)e17898.",
+                    "Author": "Shiheido H, Takashima H, Doi N, Yanagawa H.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=21423613"
+                }
+            ],
+            "Frequent Amino Acids": "LTA",
+            "Absent Amino Acids": "CDGIKMNOPRUV",
+            "Basic Residues": 1,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 7,
+            "Positive Residues": 1,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_16353",
+                    "Similarity": 1.0,
+                    "Sequence": "GARELRRLERELRRLEKGGGGGGKLAALTFEHYWAQLTSC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02868",
+                    "Similarity": 0.8,
+                    "Sequence": "DHHHDHGHDDHEHEELTLEKIKEKIKDYADKTPVDQLTERVQAGRDYLLGKGARPSHLPARVDRHLSKLTAAEKQELADYLLTFLH"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_13750",
+                    "Similarity": 0.8,
+                    "Sequence": "MQLTSIAIILFAAMGAIANPIAAESDDLLARDAQLSKYGGECSLEHNTCTYRKDGKNHVVSCPSAANLRCKTDRHHCEYDDHHKTVDCQTPV"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "SPADE_N_02775": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02775",
+            "Peptide Name": "Theta defensin subunit B (primates, mammals, animals)",
+            "Source": "Papio hamadryas (Hamadryas baboon)",
+            "Family": "Belongs to the alpha-defensin family (Theta subfamily)",
+            "Gene": "Not found",
+            "Sequence": "RCVCRRGVC",
+            "Sequence Length": 9,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P86723"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Antifungal"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C39H74N18O10S3",
+            "Mass": 1051.31,
+            "PI": 9.31,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.22,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Comments": "Forms a cyclic peptide with subunit A (PhTD-1). An additional intersubunit disulfide bond is formed.",
+            "Literature": [
+                {
+                    "Title": "De novo sequencing of two new cyclic theta-defensins from baboon (Papio hamadryas) leukocytes by matrix-assisted laser desorption/ionization mass spectrometry.",
+                    "Pubmed ID": "20155756",
+                    "Reference": "Rapid Commun Mass Spectrom. 2010 Mar 15;24(5)599-604.",
+                    "Author": "Stegemann C, Tsvetkova EV, Aleshina GM, Lehrer RI, Kokryakov VN, Hoffmann R.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=20155756"
+                }
+            ],
+            "Frequent Amino Acids": "CRV",
+            "Absent Amino Acids": "ADEFHIKLMNOPQSTUWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 2,
+            "Polar Residues": 8,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02776",
+                    "Similarity": 1.0,
+                    "Sequence": "RCVCRRGVCRCVCTRGFC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02785",
+                    "Similarity": 1.0,
+                    "Sequence": "RCVCTRGFCRCVCRRGVC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02786",
+                    "Similarity": 1.0,
+                    "Sequence": "RCVCRRGVCRCVCRRGVC"
+                }
+            ]
+        }
+    }
+}

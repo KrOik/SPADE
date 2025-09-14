@@ -1,0 +1,98 @@
+{
+    "SPADE_N_02271": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02271",
+            "Peptide Name": "Rhesus theta-defensin 1 (RTD-1; primates, mammals, animals)",
+            "Source": "Macaca mulatta (Rhesus macaque)",
+            "Family": "Belongs to the alpha-defensin family (Theta subfamily)",
+            "Gene": "Not found",
+            "Sequence": "GFCRCLCRRGVCRCICTR",
+            "Sequence Length": 18,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P82271",
+                "http://www.uniprot.org/uniprot/P82270",
+                "http://www.uniprot.org/uniprot/Q9TU01"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Antiviral"
+            ],
+            "Target Organism": "Gram-positive bacteria:Staphylococcus aureus 502a and Listeria monocytogenes;Gram-negative bacteria:Salmonella typhimurium, Escherichia coli ML35.Fungi:Candida albicans 16820, Cryptococcus neoformans 271A (the activity of RTD-2 against Escherichia coli ML35 was 2-3-fold less than those of RTD-1 and RTD-3).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "No specific N-terminal",
+            "C-terminal Modification": "No specific C-terminal",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C82H145N33O20S6",
+            "Mass": 2105.63,
+            "PI": 9.3,
+            "Net Charge": 5,
+            "Hydrophobicity": 0.35,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "RTD-1 and RTD-2 have similar antimicrobial activities against the Gram-positive bacteria S. aureus 502A and L. monocytogenes, the Gram-negative bacterium S. typhimurium, and the fungi C. albicans 16820 and C. neoformans 271A. RTD-2 is 2-3-fold less active than RTD-1 against E. coli ML35.",
+            "Subunit structure": "RTD-1 is a cyclic heterodimer composed of subunits A and B; disulfide-linked.",
+            "Tissue specificity": "RTD-1 is expressed in bone marrow. Detected in promyelocytes, myelocytes and mature neutrophils and monocytes.",
+            "Developmental stage": "RTD-1 expression begins early during granulocyte myelopoiesis.",
+            "PTM": "Forms a cyclic peptide with 1 subunit B (RTD-2) or with 1 subunit A (RTD-1). An additional intersubunit disulfide bond is formed.",
+            "Miscellaneous": "RTD-1 is 10-fold more present in cells than RTD-2.",
+            "Literature": [
+                {
+                    "Title": "A cyclic antimicrobial peptide produced in primate leukocytes by the ligation of two truncated alpha-defensins.",
+                    "Pubmed ID": "10521339",
+                    "Reference": "Science. 1999 Oct 15;286(5439)498-502.",
+                    "Author": "Tang YQ, Yuan J, Osapay G, Osapay K, Tran D, Miller CJ, Ouellette AJ, Selsted ME.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=10521339"
+                },
+                {
+                    "Title": "Circular minidefensins and posttranslational generation of molecular diversity.",
+                    "Pubmed ID": "1152799",
+                    "Reference": "J Leukoc Biol. 2001 Sep;70(3)461-464.",
+                    "Author": "Leonova L, Kokryakov VN, Aleshina G, Hong T, Nguyen T, Zhao C, Waring AJ, Lehrer RI.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=1152799"
+                },
+                {
+                    "Title": "Homodimeric theta-defensins from rhesus macaque leukocytes isolation, synthesis, antimicrobial activities, and bacterial binding properties of the cyclic peptides.",
+                    "Pubmed ID": "11675394",
+                    "Reference": "J Biol Chem. 2002 Feb 1;277(5)3079-3084.",
+                    "Author": "Tran D, Tran PA, Tang YQ, Yuan J, Cole T, Selsted ME.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=11675394"
+                }
+            ],
+            "Frequent Amino Acids": "CRG",
+            "Absent Amino Acids": "ADEHKMNOPQSUWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 4,
+            "Polar Residues": 13,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_04207",
+                    "Similarity": 1.0,
+                    "Sequence": "RCICTRGFCRCLCRRGVC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02269",
+                    "Similarity": 1.0,
+                    "Sequence": "RCLCRRGVC"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_09577",
+                    "Similarity": 1.0,
+                    "Sequence": "RCICTRRFC"
+                }
+            ]
+        }
+    }
+}

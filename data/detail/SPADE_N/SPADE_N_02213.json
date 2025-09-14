@@ -1,0 +1,77 @@
+{
+    "SPADE_N_02213": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02213",
+            "Peptide Name": "[T8A]-Penaeidin-3a ([T8A]-Pen-3a; shrimps, Arthropods, animals)",
+            "Source": "Litopenaeus vannamei (Whiteleg shrimp) (Penaeus vannamei)",
+            "Family": "Belongs to the penaeidin family",
+            "Gene": "Not found",
+            "Sequence": "QVYKGGYARPIPRPPPFVRPLPGGPIGPYNGCPVSCRGISFSQARSCCSRLGRCCHVGKGYSG",
+            "Sequence Length": 63,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P81058"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "Gram-positive bacteria:Aerococcus viridans (MIC=0.4-0.8 µM), Micrococcus luteus (MIC=0.8-1.6 µM), Bacillus megaterium (MIC=3.12-6.25 µM);Gram-negative bacteria:Escherichia coli 363 (MI=3.12-6.25 µM), Vibrio vulnificus (MIC>50 µM), Salmonella thyphimurium (MIC>50 µM), Klebsiella pneumoniae (MIC>50 µM).Fungi:Fusarium oxysporum (MIC=3.12-6.25 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "pyroglutamic acid",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "[T8A]-Pen-3a structure consists of an unconstrained and a constrained part, which roughly match with the proline-rich (1-28 residues) and the cysteine-rich (29-58 residues) domains, respectively. The proline-rich domain does not adopt a constrained structure, whereas the cysteine-rich domain adopts a well-defined structure that consists of a helix (41-50 residues) tightly bound to the upstream (27-40 residues) and the downstream (51-63",
+            "Formula": "C292H457N91O77S6",
+            "Mass": 6666.71,
+            "PI": 9.89,
+            "Net Charge": 10,
+            "Hydrophobicity": -0.34,
+            "Half Life": "Mammalian:0.8 hourYeast:10 minE.coli:>10 hour",
+            "Function": "Posesses antibacterial and antifungal activity. Presents chitin-binding activity.",
+            "PTM": "Contains three disulfide bonds.",
+            "Literature": [
+                {
+                    "Title": "Solution structure of the recombinant penaeidin-3, a shrimp antimicrobial peptide.",
+                    "Pubmed ID": "12842879",
+                    "Reference": "J Biol Chem. 2003 Sep 19;278(38)36859-36867.",
+                    "Author": "Yang Y, Poncet J, Garnier J, Zatylny C, Bachère E, Aumelas A.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=12842879"
+                }
+            ],
+            "Frequent Amino Acids": "GPR",
+            "Absent Amino Acids": "DEMOTUW",
+            "Basic Residues": 10,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 27,
+            "Polar Residues": 35,
+            "Positive Residues": 10,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_25372",
+                    "Similarity": 1.0,
+                    "Sequence": "QVYKGGYARPIPRPPPFVRPLPGGPIGPYNGCPVSCRGISFSQARSCCSRLGRCCHVGKGYSG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08304",
+                    "Similarity": 0.9841269841269841,
+                    "Sequence": "QVYKGGYTRPIPRPPPFVRPLPGGPIGPYNGCPVSCRGISFSQARSCCSRLGRCCHVGKGYSG"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_07973",
+                    "Similarity": 0.9841269841269841,
+                    "Sequence": "MRLVVCLVFLASFALVCQGQVYKGGYTRPIPRPPPFVRPLPGGPIGPYNGCPVSCRGISFSQARSCCSRLGRCCHVGKGYSG"
+                }
+            ]
+        }
+    }
+}

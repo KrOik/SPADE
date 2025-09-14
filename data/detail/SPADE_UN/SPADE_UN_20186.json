@@ -1,0 +1,67 @@
+{
+    "SPADE_UN_20186": {
+        "Sequence Information": {
+            "Peptide Name": "[R7W5]",
+            "Sequence": "RRRRRRRWWWWW",
+            "Sequence Length": 12,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Design, Synthesis, and Evaluation of Amphiphilic Cyclic and Linear Peptides Composed of Hydrophobic and Positively-Charged Amino Acids as Antibacterial Agents.",
+                    "Pubmed ID": "30360400",
+                    "Reference": "Molecules. 2018;23:E2722",
+                    "Author": "Riahifard N, Mozaffari S, Aldakhil T, Nunez F, Alshammari Q, Alshammari S, Yamaki J, Parang K, Tiwari RK",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/30360400"
+                },
+                {
+                    "Title": "Membrane-Active Cyclic Amphiphilic Peptides: Broad-Spectrum Antibacterial Activity Alone and in Combination with Antibiotics.",
+                    "Pubmed ID": "36442155",
+                    "Reference": "J Med Chem. 2022;65:15819-15839",
+                    "Author": "Mohammed EHM, Lohan S, Ghaffari T, Gupta S, Tiwari RK, Parang K",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/36442155"
+                }
+            ],
+            "Mass": 2042.36,
+            "PI": 12.0,
+            "Net Charge": 7,
+            "Hydrophobicity": -3.0,
+            "Frequent Amino Acids": "RW",
+            "Absent Amino Acids": "ACDEFGHIKLMNOPQSTUVY",
+            "Basic Residues": 7,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 0,
+            "Polar Residues": 12,
+            "Positive Residues": 7,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_20186",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_08804",
+                    "Similarity": 1.0,
+                    "Sequence": "RRRWWWRRWWRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09932",
+                    "Similarity": 1.0,
+                    "Sequence": "RRRWWW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10932",
+                    "Similarity": 1.0,
+                    "Sequence": "RRR"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=175 µg/ml",
+            "Target Organism": "Staphylococcus aureus LAC(MIC=32µg/ml),Escherichia coli ATCC 25922(MIC=64µg/ml),Staphylococcus aureus ATCC BAA-1556(MIC=8µg/ml)"
+        }
+    }
+}

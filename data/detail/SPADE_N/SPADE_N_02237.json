@@ -1,0 +1,84 @@
+{
+    "SPADE_N_02237": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02237",
+            "Peptide Name": "Clavanin-D (His-rich; chordates, animals)",
+            "Source": "Styela clava (Sea squirt)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "AFKLLGRIIHHVGNFVYGFSHVF",
+            "Sequence Length": 23,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P80713",
+                "http://www.uniprot.org/uniprot/O18491"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Antifungal"
+            ],
+            "Target Organism": "Gram-negative bacterium:Escherichia coli;yeast Candida albicans.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C130H188N34O27",
+            "Mass": 2659.09,
+            "PI": 10.0,
+            "Net Charge": 5,
+            "Hydrophobicity": 0.76,
+            "Half Life": "Mammalian:4.4 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Has antimicrobial activity.",
+            "Tissue specificity": "Hemocytes and pharyngeal tissues.",
+            "Literature": [
+                {
+                    "Title": "cDNA cloning of Clavanins antimicrobial peptides of tunicate hemocytes.",
+                    "Pubmed ID": "9237689",
+                    "Reference": "FEBS Lett. 1997 Jun 30;410(2-3)490-492.",
+                    "Author": "Zhao C, Liaw L, Lee IH, Lehrer RI.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=9237689"
+                },
+                {
+                    "Title": "Clavanins, alpha-helical antimicrobial peptides from tunicate hemocytes.",
+                    "Pubmed ID": "9001389",
+                    "Reference": "FEBS Lett. 1997 Jan 3;400(2)158-162.",
+                    "Author": "Lee IH, Zhao C, Cho Y, Harwig SS, Cooper EL, Lehrer RI.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=9001389"
+                }
+            ],
+            "Frequent Amino Acids": "FGH",
+            "Absent Amino Acids": "CDEMOPQTUW",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 12,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_18487",
+                    "Similarity": 1.0,
+                    "Sequence": "MKTTILILLILGLGINAKSLEERKSEEEKAFKLLGRIIHHVGNFVYGFSHVFGDDQQDNGKFYGHYAEDNGKHWYDTGDQ"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02238",
+                    "Similarity": 0.8695652173913043,
+                    "Sequence": "LFKLLGKIIHHVGNFVHGFSHVF"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_18486",
+                    "Similarity": 0.8695652173913043,
+                    "Sequence": "MKTTILILLILGLGINAKSLEERKSEEEKLFKLLGKIIHHVGNFVHGFSHVFGDDQQDNGKFYGYYAEDNGKHWYDTGDQ"
+                }
+            ]
+        }
+    }
+}

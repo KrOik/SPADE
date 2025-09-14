@@ -1,0 +1,75 @@
+{
+    "SPADE_UN_28545": {
+        "Sequence Information": {
+            "Peptide Name": "CPF-St7, Pxt-12",
+            "Sequence": "NLLGSLLKTGLKVGSNLL",
+            "Sequence Length": 18,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antiparasitic",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P84386",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P84386",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Origin and functional diversification of an amphibian defense peptide arsenal.",
+                    "Pubmed ID": "23935531",
+                    "Reference": "PLoS Genet. 2013;9:e1003662",
+                    "Author": "Roelants K, Fry BG, Ye L, Stijlemans B, Brys L, Kok P, Clynen E, Schoofs L, Cornelis P, Bossuyt F",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/23935531"
+                },
+                {
+                    "Title": "Physicochemical and biological characterizations of Pxt peptides from amphibian (Xenopus tropicalis) skin.",
+                    "Pubmed ID": "26802742",
+                    "Reference": "J Biochem. 2016;:",
+                    "Author": "Shigeri Y, Horie M, Yoshida T, Hagihara Y, Imura T, Imura T, Haramoto Y, Ito Y, Asashima M",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/26802742"
+                }
+            ],
+            "Mass": 1840.21,
+            "PI": 10.0,
+            "Net Charge": 2,
+            "Hydrophobicity": 0.69,
+            "Frequent Amino Acids": "LGK",
+            "Absent Amino Acids": "ACDEFHIMOPQRUWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 10,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_28545",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_08074",
+                    "Similarity": 1.0,
+                    "Sequence": "LRLLTPEHYQKVFRLGLAVPKKQIKTAVGRNRFKRICRESFRLHQNQLDFVVIAKKSAQDLSNEELFNLLG"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_10671",
+                    "Similarity": 1.0,
+                    "Sequence": "SNLLRAIEAQQHLLQLTVWQIKQLQARILAVERYLKDQ"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_28545",
+                    "Similarity": 1.0,
+                    "Sequence": "NLLGSLLKTGLKVGSNLL"
+                }
+            ],
+            "Hemolytic Activity": "Mouse erythrocytes:50% Hemolysis=256 µM,Mouse splenocytes:IC50=128 µM,Rat erythrocytes:0% Hemolysis=50 µM",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=128µM),Pseudomonas aeruginosa ATCC 15692(MIC=>256µM),Staphylococcus aureus ATCC 25923(MIC=32µM),Micrococcus luteus(MIC=2µM),Saccharomyces cerevisiae(MIC=64µM),Trypanosoma brucei(90-100% Killing=2-64µM),Escherichia coli NBRC 14237(MIC=<12.5µM),Pseudomonas aeruginosa NBRC 12582(MIC=<50µM),Staphylococcus aureus NBRC 12732(MIC=<12.5µM),Micrococcus luteus NBRC 12708(MIC=<50µM),Candida albicans NBRC 1594(no activity data)"
+        }
+    }
+}

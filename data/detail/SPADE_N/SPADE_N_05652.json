@@ -1,0 +1,71 @@
+{
+    "SPADE_N_05652": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_05652",
+            "Peptide Name": "PDC213 (beta-casein 213-224, human)",
+            "Source": "milk, Homo sapiens",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "VTQPLAPVHNPISV",
+            "Sequence Length": 14,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "Active against S. aureus and Y. enterocolitica (80% inhibition at 15 ug/ml).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C67H110N18O19",
+            "Mass": 1471.7,
+            "PI": 6.71,
+            "Net Charge": 1,
+            "Hydrophobicity": 0.44,
+            "Half Life": "Mammalian:100 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "It is a endogenous peptide with higher levels in preterm milk.",
+            "Literature": [
+                {
+                    "Title": "Antimicrobial activity and mechanism of PDC213, an endogenous peptide from human milk.",
+                    "Pubmed ID": "28093229",
+                    "Reference": "Biochem Biophys Res Commun. 2017 Feb 26;484(1)132-137.",
+                    "Author": "Sun Y, Zhou Y, Liu X, Zhang F, Yan L, Chen L, Wang X, Ruan H, Ji C, Cui X, Wang J.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=28093229"
+                }
+            ],
+            "Frequent Amino Acids": "PVA",
+            "Absent Amino Acids": "CDEFGKMORUWY",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 9,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_23586",
+                    "Similarity": 1.0,
+                    "Sequence": "LLNPTHQIYPVTQPLAPVHNPIS"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_23587",
+                    "Similarity": 1.0,
+                    "Sequence": "HQIYPVTQPL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_23679",
+                    "Similarity": 1.0,
+                    "Sequence": "YPVTQPLAPVHNPIS"
+                }
+            ]
+        }
+    }
+}

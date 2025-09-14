@@ -1,0 +1,55 @@
+{
+    "SPADE_UN_01612": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 2007/0122425 A1",
+                "Patent Link": "http://www.lens.org/lens/patent/US_2007_0122425_A1",
+                "Patent Type": "Patent Application",
+                "Publication Date": "2007-5-31",
+                "Family Info": "US7579005",
+                "Patent Title": "Process for recombinant expression and purification of antimicrobial peptides using periplasmic targeting signals as precipitable hydrophobic",
+                "Abstract": "A process was developed for expressing antimicrobial peptides in a recombinant host cell that eliminates host cell toxicity and antimicrobial peptide degradation, as well as providing a process for rapid purification. Fusion proteins comprising a periplasmic targeting signal, cleavage site, and antimicrobial peptides provide the basis for this process which produces antimicrobial peptides that may be used in antimicrobial compositions and articles."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_01612",
+            "Sequence": "MKKLLFAIPLVVPFYSHSKGLKKLLKGLKKLLKLHHHHHH",
+            "Sequence Length": 40,
+            "Peptide Name": "Sequence 7 from Patent US 20070122425",
+            "Source": "Synthetic construct",
+            "Biological Activity": [
+                "Antimicrobial"
+            ],
+            "Frequent Amino Acids": "LKH",
+            "Absent Amino Acids": "CDENOQRTUW",
+            "Basic Residues": 16,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 20,
+            "Polar Residues": 22,
+            "Positive Residues": 16,
+            "Negative Residues": 0,
+            "Mass": 4716.82,
+            "PI": 10.6,
+            "Net Charge": 16,
+            "Hydrophobicity": -0.11,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02630",
+                    "Similarity": 1.0,
+                    "Sequence": "INWKGIAAMKKLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04179",
+                    "Similarity": 1.0,
+                    "Sequence": "MKKLLFAIPLVVPFYSHS"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_01610",
+                    "Similarity": 1.0,
+                    "Sequence": "MKKLLFAIPLVVPFYSHSDPKGLKKLLKGLKKLLKL"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,76 @@
+{
+    "SPADE_N_03229": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03229",
+            "Peptide Name": "Scorpine-like (Arthropods, animals)",
+            "Source": "Opisthacanthus cayaporum (South American scorpion)",
+            "Family": "Belongs to the Belongs to the long chain scorpion toxin famiy",
+            "Gene": "Not found",
+            "Sequence": "GWINEEKIQKKIDEP",
+            "Sequence Length": 15,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P86121"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+"
+            ],
+            "Target Organism": "Gram-positive bacterium:Staphylococcus aureus.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C82H131N21O26",
+            "Mass": 1827.04,
+            "PI": 4.87,
+            "Net Charge": -1,
+            "Hydrophobicity": -1.47,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Has antimicrobial activity against S. aureus (78% growth inhibition at 1.8 µM).",
+            "Tissue specificity": "Expressed by the venom gland.",
+            "PTM": "Contains three disulfide bonds.",
+            "Literature": [
+                {
+                    "Title": "Mass spectrometry analysis, amino acid sequence and biological activity of venom components from the Brazilian scorpion Opisthacanthus cayaporum.",
+                    "Pubmed ID": "18502464",
+                    "Reference": "Toxicon. 2008 Jun 15;51(8)1499-1508.",
+                    "Author": "Schwartz EF, Camargos TS, Zamudio FZ, Silva LP, Bloch C Jr, Caixeta F, Schwartz CA, Possani LD.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=18502464"
+                }
+            ],
+            "Frequent Amino Acids": "EIK",
+            "Absent Amino Acids": "ACFHLMORSTUVY",
+            "Basic Residues": 3,
+            "Acidic Residues": 4,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 5,
+            "Positive Residues": 3,
+            "Negative Residues": 4,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03276",
+                    "Similarity": 0.9333333333333333,
+                    "Sequence": "GWINEEKIQKKIDERMGNTVLGGMAKAIVHKMAKNEFQCMANMDMLGNCEKHCQTSGEKGYCHGTKCKCGTPLSY"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08022",
+                    "Similarity": 0.9333333333333333,
+                    "Sequence": "MNSKLTALIFLGLIAIAYCGWINEEKIQKKIDERMGNTVLGGMAKAIVHKMAKNEFQCMANMDMLGNCEKHCQTSGEKGYCHGTKCKCGTPLSY"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_00259",
+                    "Similarity": 0.9333333333333333,
+                    "Sequence": "GWINEEKIQKKIDEKIGNNILGGMAKAVVHKLAKGEFQCVANIDTMGNCETHCQKTSGEKGFCHGTKCKCGKPLSY"
+                }
+            ]
+        }
+    }
+}

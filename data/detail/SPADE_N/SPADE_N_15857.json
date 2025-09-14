@@ -1,0 +1,66 @@
+{
+    "SPADE_N_15857": {
+        "Sequence Information": {
+            "Peptide Name": "Cathelicidin-BF",
+            "Sequence": "KFFRKLKKSVKKRAKEFFKKPRVIGVSIPF",
+            "Sequence Length": 30,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "1. Bungarus fasciatus",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "B6D434",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/B6D434",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Potent antimicrobial peptides with selectivity for Bacillus anthracis over human erythrocytes.",
+                    "Pubmed ID": "21741801",
+                    "Reference": "Int J Antimicrob Agents. 2011;38:237-242",
+                    "Author": "Dawson RM, Fox MA, Atkins HS, Liu CQ",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/21741801"
+                }
+            ],
+            "Mass": 3638.49,
+            "PI": 11.79,
+            "Net Charge": 11,
+            "Hydrophobicity": -0.54,
+            "Frequent Amino Acids": "KFR",
+            "Absent Amino Acids": "CDHMNOQTUWY",
+            "Basic Residues": 12,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 18,
+            "Positive Residues": 12,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_N_15857",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06241",
+                    "Similarity": 1.0,
+                    "Sequence": "KFFRKKSVKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06372",
+                    "Similarity": 1.0,
+                    "Sequence": "VKRFKKFFRKLKKSV"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09466",
+                    "Similarity": 1.0,
+                    "Sequence": "VKRFKKFFRKLKKSVK"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:1% Hemolysis=100 µM",
+            "Target Organism": "Escherichia coli K91BK(MIC=29.7±2.2µM),Escherichia coli K91BK(IC50=14.0±0.7µM),Bacillus subtilis var. niger ATCC 9372(MIC=2.21±0.19µM),Bacillus subtilis var. niger ATCC 9372(IC50=0.85±0.06µM),Bacillus anthracis Sterne 34F2(MIC=>100µM),Bacillus anthracis Sterne 34F2(IC50=>100µM),Burkholderia thailandensis ATCC 700388(no activity data)"
+        }
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "SPADE_N_02951": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02951",
+            "Peptide Name": "Beta-defensin 35 (BD-35, mBD-35; Defensin, beta 35; Rodents, mammals, animals)",
+            "Source": "Mus musculus (Mouse)",
+            "Family": "Belongs to the beta-defensin family",
+            "Gene": "Defb35",
+            "Sequence": "EIAVCETCRLGRGKCRRACIESEKIVGWCKLNFFCCRERI",
+            "Sequence Length": 40,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q8R2I3"
+            ],
+            "Protein Existence": "Transcript level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C198H329N63O54S7",
+            "Mass": 4680.58,
+            "PI": 8.84,
+            "Net Charge": 4,
+            "Hydrophobicity": -0.07,
+            "Half Life": "Mammalian:1 hourYeast:30 minE.coli:>10 hour",
+            "PTM": "Contains three disulfide bonds 8-35; 15-29; 19-36.",
+            "Literature": [
+                {
+                    "Title": "Signal sequence conservation and mature peptide divergence within subgroups of the murine beta-defensin gene family.",
+                    "Pubmed ID": "12644567",
+                    "Reference": "J Biol Chem. 2004 Mar 26;279(13)12421-12426.",
+                    "Author": "Morrison G.M, Semple C.A.M, Kilanowski F.M, Hill R.E, Dorin J.R.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=12644567"
+                },
+                {
+                    "Title": "Identification on mouse chromosome 8 of new beta-defensin genes with regionally specific expression in the male reproductive organ.",
+                    "Pubmed ID": "14718547",
+                    "Reference": "J Biol Chem. 2004 Mar 26;279(13)12421-12426.",
+                    "Author": "Zaballos A, Villares R, Albar J.P, Martinez-A C, Marquez G.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=14718547"
+                }
+            ],
+            "Frequent Amino Acids": "CRE",
+            "Absent Amino Acids": "DHMOPQUY",
+            "Basic Residues": 9,
+            "Acidic Residues": 5,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 23,
+            "Positive Residues": 9,
+            "Negative Residues": 5,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_04192",
+                    "Similarity": 1.0,
+                    "Sequence": "MPQTFFVFCFLFFVFLQLFPGTGEIAVCETCRLGRGKCRRACIESEKIVGWCKLNFFCCRERI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03738",
+                    "Similarity": 1.0,
+                    "Sequence": "ETCRLGRGKCRRACIESEKIVGWCKLNFFCCRE"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02938",
+                    "Similarity": 0.95,
+                    "Sequence": "GLEYSQSFPGGEIAVCETCRLGRGKCRRTCIESEKIAGWCKLNFFCCRERI"
+                }
+            ]
+        }
+    }
+}

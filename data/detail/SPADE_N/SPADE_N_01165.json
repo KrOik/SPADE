@@ -1,0 +1,74 @@
+{
+    "SPADE_N_01165": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01165",
+            "Peptide Name": "Dybowskin-4 (Frogs, amphibians, animals)",
+            "Source": "Rana dybowskii (Korea brown frog)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "VWPLGLVICKALKIC",
+            "Sequence Length": 15,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "[Ref.17698251]Gram-positive bacteria:Micrococcus luteus ATCC4698 (MIC=1.56 µg/ml), Staphylococcus aureus KCTC3881 (MIC=3.13 µg/ml), Bacillus subtilis ATCC6633 (MIC=6.25 µg/ml), Staphylococcus epidermidis ATCC12228 (MIC=6.25 µg/ml);Gram-negative bacteria:Shigella dysenteriae ATCC9752 (MIC=30 µg/ml), Escherichia coli KCTC2433 (MIC=15 µg/ml), Klebsiella pneumoniae ATCC10031 (MIC=15 µg/ml);Yeast:Candida albicans ATCC36232 (MIC=25 µg/ml).",
+            "Hemolytic Activity": "[Ref:17698251] It has 47.58% hemolytic activity at 100 μg/ml against human red blood cells",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Cyclization (Cys9 and Cys15)",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C79H134N18O16S2",
+            "Mass": 1656.15,
+            "PI": 8.9,
+            "Net Charge": 2,
+            "Hydrophobicity": 1.66,
+            "Half Life": "Mammalian:100 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Dybowskin-4 has relatively greater hemolytic activity against human red blood cells (hRBCs).",
+            "Literature": [
+                {
+                    "Title": "Purification and characterization of antimicrobial peptides from the skin secretion of Rana dybowskii.",
+                    "Pubmed ID": "17698251",
+                    "Reference": "Peptides 2007; 28 1532-1539.",
+                    "Author": "Kim SS, Shim MS, Chung J, Lim DY, Lee BJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=17698251"
+                }
+            ],
+            "Frequent Amino Acids": "LCI",
+            "Absent Amino Acids": "DEFHMNOQRSTUY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 7,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_14055",
+                    "Similarity": 0.8,
+                    "Sequence": "GTKWLTEVWPLC"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_14056",
+                    "Similarity": 0.8,
+                    "Sequence": "GTKAWTEVWPLC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15236",
+                    "Similarity": 0.8,
+                    "Sequence": "LVICC"
+                }
+            ]
+        }
+    }
+}

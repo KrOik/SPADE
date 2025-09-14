@@ -1,0 +1,75 @@
+{
+    "SPADE_N_02222": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02222",
+            "Peptide Name": "Penaeidin-4c (Pen-4c; shrimps, Arthropods, animals)",
+            "Source": "Litopenaeus vannamei (Whiteleg shrimp) (Penaeus vannamei)",
+            "Family": "Belongs to the penaeidin family",
+            "Gene": "Not found",
+            "Sequence": "YSSGYTRPLPKPSRPIFIRPIGCDVCYGIPSSTARLCCFRYGDCCHR",
+            "Sequence Length": 47,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q963C3"
+            ],
+            "Protein Existence": "Homology",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Antifungal"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Chitin-binding",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C233H360N68O63S6",
+            "Mass": 5314.16,
+            "PI": 9.12,
+            "Net Charge": 6,
+            "Hydrophobicity": -0.23,
+            "Half Life": "Mammalian:2.8 hourYeast:10 minE.coli:2 min",
+            "Function": "Posesses antibacterial and antifungal activity. Presents chitin-binding activity (By similarity).",
+            "PTM": "Contains three disulfide bonds 23-37; 26-44; 38-45 and C-terminal amidation.",
+            "Literature": [
+                {
+                    "Title": "Diversity of the penaeidin antimicrobial peptides in two shrimp species.",
+                    "Pubmed ID": "12242595",
+                    "Reference": "Immunogenetics. 2002 Sep;54(6)442-445.",
+                    "Author": "Cuthbertson BJ, Shepard EF, Chapman RW, Gross PS.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=12242595"
+                }
+            ],
+            "Frequent Amino Acids": "CPR",
+            "Absent Amino Acids": "EMNOQUW",
+            "Basic Residues": 8,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 20,
+            "Polar Residues": 27,
+            "Positive Residues": 8,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02221",
+                    "Similarity": 0.9787234042553191,
+                    "Sequence": "HSSGYTRPLPKPSRPIFIRPIGCDVCYGIPSSTARLCCFRYGDCCHR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02228",
+                    "Similarity": 0.9361702127659575,
+                    "Sequence": "HSSGYTRPLRKPSRPIFIRPIGCDVCYGIPSSTARLCCFRYGDCCHL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10236",
+                    "Similarity": 0.9090909090909091,
+                    "Sequence": "HSSGYTRPLRKPSRPIFIRPIG"
+                }
+            ]
+        }
+    }
+}

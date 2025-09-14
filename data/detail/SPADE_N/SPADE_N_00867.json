@@ -1,0 +1,81 @@
+{
+    "SPADE_N_00867": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00867",
+            "Peptide Name": "Violacin-A (Violacin-1; linearized uncyclotides; Plant defensin)",
+            "Source": "Viola odorata (Sweet violet)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "SAISCGETCFKFKCYTPRCSCSYPVCK",
+            "Sequence Length": 27,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q2HY54"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial"
+            ],
+            "Target Organism": "[Ref.16488428]show insecticidal, anti-HIV, antimicrobial, antineurotensive, cytotoxic and haemolytic activity",
+            "Hemolytic Activity": "[Ref:16488428]10% hemolytic activity at 1.0μM and 35% hemolytic activity at 1.5μM against human type A red blood cells",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "The three-dimensional solution structure of violacin A is determined and found to adopt the cystine knot fold of native cyclotides. (Ref.2)",
+            "Formula": "C129H199N33O38S6",
+            "Mass": 3012.55,
+            "PI": 8.64,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.02,
+            "Half Life": "Mammalian:1.9 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Probably participates in a plant defense mechanism. Has low hemolytic activity.",
+            "Miscellaneous": "The presence of a premature stop codon inhibits the translation of a key Asn residue that is thought to be required for cyclization.",
+            "PTM": "Contains three disulfide bonds 5-19; 9-21; 14-26.",
+            "Literature": [
+                {
+                    "Title": "A novel suite of cyclotides from Viola odorata sequence variation and the implications for structure, function and stability..",
+                    "Pubmed ID": "16872274",
+                    "Reference": "Biochem J. 2006 Nov 15;400(1)1-12.",
+                    "Author": "Ireland DC, Colgrave ML, Craik DJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16872274"
+                },
+                {
+                    "Title": "Discovery and characterization of a linear cyclotide from Viola odorata implications for the processing of circular proteins.",
+                    "Pubmed ID": "16488428",
+                    "Reference": "J Mol Biol. 2006 Apr 14;357(5)1522-1535.",
+                    "Author": "Ireland DC, Colgrave ML, Nguyencong P, Daly NL, Craik DJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16488428"
+                }
+            ],
+            "Frequent Amino Acids": "CSK",
+            "Absent Amino Acids": "DHLMNOQUW",
+            "Basic Residues": 4,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 20,
+            "Positive Residues": 4,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00719",
+                    "Similarity": 0.84,
+                    "Sequence": "KLCGETCFKFKCYTPGCSCSYPFCK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06396",
+                    "Similarity": 0.7407407407407407,
+                    "Sequence": "GLPTCGETCFKGKCYTPGCSCSYPICKKD"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06397",
+                    "Similarity": 0.7407407407407407,
+                    "Sequence": "GLPTCGETCFKGKCYTPGCSCSYPICKKN"
+                }
+            ]
+        }
+    }
+}

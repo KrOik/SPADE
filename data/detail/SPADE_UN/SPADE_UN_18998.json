@@ -1,0 +1,70 @@
+{
+    "SPADE_UN_18998": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_18998",
+            "Peptide Name": "DeNo1057 (Synthetic AMPs, Leu-rich, Lys-rich, UCLL1)",
+            "Source": "AI-aided de novo designed",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "ILGKLLKKLLKKL",
+            "Sequence Length": 13,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 1508.03,
+            "PI": 10.6,
+            "Hydrophobicity": 0.57,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Li C, Sutherland D, Richter A, Coombe L, Yanai A, Warren RL, Kotkoff M, Hof F, Hoang LMN, Helbing CC, Birol I.2024",
+                    "Reference": "Protein Sci. 2024 Aug;33(8):e5088. doi: 10.1002/pro.5088.PubMed",
+                    "Title": "De novo synthetic antimicrobial peptide design with a recurrent neural network"
+                }
+            ],
+            "Frequent Amino Acids": "LKG",
+            "Absent Amino Acids": "ACDEFHMNOPQRSTUVWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 5,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "Net Charge": 5,
+            "Comments": "Sequence analysis: APD analysis reveals that this sequence is similar (61.54%) toinsect  \tProtonectinL: 46%, K: 38%.Activity: Active against E. coli ATCC 25922 (MIC 8-16 ug/ml) and S. aureus ATCC 29213 (MIC 32 ug/ml).In vitro toxicity: porcine RBC: HC50 >128 ug/ml. Poorly hemo.lytic.",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_05584",
+                    "Similarity": 1.0,
+                    "Sequence": "MGALIKTGAKIIGSGAAGGLGTYIGHKILGK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_01270",
+                    "Similarity": 1.0,
+                    "Sequence": "KLLKKLLKKLLKQWPIGKLLK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_01287",
+                    "Similarity": 1.0,
+                    "Sequence": "KLLKKLLKKLLKNWPIGKLLK"
+                }
+            ]
+        }
+    }
+}

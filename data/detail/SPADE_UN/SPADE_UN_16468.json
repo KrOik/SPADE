@@ -1,0 +1,72 @@
+{
+    "SPADE_UN_16468": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_16468",
+            "Peptide Name": "Puma-BH3",
+            "Source": "Synthetic",
+            "Family": "",
+            "Gene": "Not found",
+            "Sequence": "EQWAREIGAQLRRMADDLNA",
+            "Sequence Length": 20,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Notavailable"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Target Organism": "Tumor cells:MDA-MB-231 (Bc1-xL dependent) (EC50=1.006 ± 0.337 μM); OCI-Ly1 (Bcl-2 dependent) (EC50=1.967 ± 0.48 μM)",
+            "Hemolytic Activity": "Not available",
+            "Cytotoxicity": "Not available",
+            "Binding Target": "Bcl-xL",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C98H159N33O32S",
+            "Mass": 2343.58,
+            "PI": 4.78,
+            "Net Charge": -1,
+            "Hydrophobicity": -0.91,
+            "Half Life": "Mammalian:1 hourYeast:30 minE.coli:>10 hour",
+            "Literature": [
+                {
+                    "Title": "Potent and specific peptide inhibitors of human pro-survival protein Bcl-xL",
+                    "Pubmed ID": "25451027",
+                    "Reference": "J Mol Biol. 2015 Mar 27;427(6 Pt B)1241-1253.",
+                    "Author": "Dutta S, Ryan J, Chen TS, Kougentakis C, Letai A, Keating AE.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=25451027"
+                }
+            ],
+            "Frequent Amino Acids": "ARD",
+            "Absent Amino Acids": "CFHKOPSTUVY",
+            "Basic Residues": 3,
+            "Acidic Residues": 4,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 10,
+            "Positive Residues": 3,
+            "Negative Residues": 4,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_11849",
+                    "Similarity": 0.6,
+                    "Sequence": "LRRAARWARRLLRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_14489",
+                    "Similarity": 0.5333333333333333,
+                    "Sequence": "EGPTLGNWAREIWATLFKKA"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_11848",
+                    "Similarity": 0.5,
+                    "Sequence": "LRRLLRWLRRLLRR"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_30246": {
+        "Sequence Information": {
+            "Peptide Name": "Dengue virus peptide fragment VG16 [D2A]",
+            "Sequence": "VARGWGNGCGLFGKGG",
+            "Sequence Length": 16,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "O39650",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/O39650",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Antimicrobial Peptides: Insights into Membrane Permeabilization, Lipopolysaccharide Fragmentation and Application in Plant Disease Control.",
+                    "Pubmed ID": "26144972",
+                    "Reference": "Sci Rep. 2015;5:11951",
+                    "Author": "Datta A, Ghosh A, Airoldi C, Sperandeo P, Mroue KH, Jiménez-Barbero J, Kundu P, Ramamoorthy A, Bhunia A",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/26144972"
+                }
+            ],
+            "Mass": 1535.73,
+            "PI": 9.51,
+            "Net Charge": 2,
+            "Hydrophobicity": -0.03,
+            "Frequent Amino Acids": "GAC",
+            "Absent Amino Acids": "DEHIMOPQSTUY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 11,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_30246",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_01876",
+                    "Similarity": 1.0,
+                    "Sequence": "RVARIVVIRVAR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_01970",
+                    "Similarity": 1.0,
+                    "Sequence": "RLARIVVARVAR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_26547",
+                    "Similarity": 1.0,
+                    "Sequence": "WVKKVARKVVKIGRKVAR"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Escherichia coli DH5alpha(MIC=>100µM),Xanthomonas campestris pv. campestris(MIC=>100µM),Xanthomonas oryzae pv. oryzae(MIC=>100µM),Pseudomonas aeruginosa ATCC 27853(MIC=>100µM),Bacillus subtilis(MIC=>100µM),Candida albicans SC5314(MIC=>100µM),Cryptococcus neoformans var. grubii H99(MIC=>100µM)"
+        }
+    }
+}

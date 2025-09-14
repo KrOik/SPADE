@@ -1,0 +1,83 @@
+{
+    "SPADE_UN_00020": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 2023/0416797 A1",
+                "Patent Link": "http://www.lens.org/lens/patent/US_2023_0416797_A1",
+                "Patent Type": "Patent Application",
+                "Publication Date": "2023-12-28",
+                "Family Info": "JP2023548477A,EP4243844A1,CN116685204A,WO2022104321A1",
+                "Patent Title": "MODULATING ANTIMICROBIAL PEPTIDE HALF-LIFE",
+                "Abstract": "Methods of modulating the half-life of an antimicrobial peptide are described. The method may include administering an antimicrobial peptide to an environment where the antimicrobial peptide remains active until a specified endpoint, and on or after the specified endpoint, digesting the antimicrobial peptide with a protease to thereby inactivate the antimicrobial peptide and modulate its half-life. Compositions and kits for modulating the half-life of an antimicrobial peptide are also described."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_00020",
+            "Peptide Name": "Halocin-C8 (HalC8; Bacteriocin)",
+            "Source": "Halobacterium sp. (strain AS7092)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "DIDITGCSACKYAAG",
+            "Sequence Length": 15,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P83716"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "A wide variety of haloarchaeons.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Cell wall",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C61H98N16O23S2",
+            "Mass": 1487.65,
+            "PI": 4.21,
+            "Net Charge": -1,
+            "Hydrophobicity": 0.33,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:>10 hour",
+            "Mechanism of action": "Causes cell lysis and death, possibly by disrupting the cell wall. boiled, subjected to organic solvents, and stored at 4 degrees Celsius for extended periods without losing activity.",
+            "Literature": [
+                {
+                    "Title": "Purification and biological characterization of halocin C8, a novel peptide antibiotic from Halobacterium strain AS7092.",
+                    "Pubmed ID": "12811620",
+                    "Reference": "Extremophiles. 2003 Oct;7(5)401-407.",
+                    "Author": "Li Y, Xiang H, Liu J, Zhou M, Tan H.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=12811620"
+                }
+            ],
+            "Frequent Amino Acids": "ACD",
+            "Absent Amino Acids": "EFHLMNOPQRUVW",
+            "Basic Residues": 1,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 9,
+            "Positive Residues": 1,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_11367",
+                    "Similarity": 1.0,
+                    "Sequence": "DIDITGCSACKYAAGQVCTIGCSAAGGFICGLLGITIPVAGLSCLGFVEIVCTVADEYSGCGDAVAKEACNRAGLC"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_11586",
+                    "Similarity": 1.0,
+                    "Sequence": "DIDITGCSACKYAAGQVCTIGCSAAGGFICGLLGITIPVAGLSSLGFFVITCTTSADYYSIPDSNAAK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02842",
+                    "Similarity": 0.6666666666666666,
+                    "Sequence": "DQYCPKSSITACKKMNIRNDCCKDDDCTGGSWCCATPCGNFCKYPADRPGGKRAAGGKSCKTGYVY"
+                }
+            ]
+        }
+    }
+}

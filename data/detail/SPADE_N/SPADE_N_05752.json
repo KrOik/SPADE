@@ -1,0 +1,74 @@
+{
+    "SPADE_N_05752": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_05752",
+            "Peptide Name": "Hinnavin I (Hin I; insects, arthropods, invertebrates, animals)",
+            "Source": "Artogeia rapae (cabbage butterfly)",
+            "Family": "Belongs to the Cecropins family.",
+            "Gene": "Not found",
+            "Sequence": "GWKIGKKLEHHGQNIRDGLISAGPAVFAVGQAATIYAAAK",
+            "Sequence Length": 40,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "[Ref.9339895] Gram-positive bacteria:Bacillus subtilis (Inhibition zone=3.0 mm), Bacillus megaterium Bm11 (Inhibition zone=5.0 mm), Bacillus thuringiensis (Inhibition zone=3.0 mm);Gram-negative bacteria:Escherichia coli (Inhibition zone=7.0 mm), Escherichia coli D21 (Inhibition zone=7.1 mm), Enterobacter cloacae (Inhibition zone=6.0 mm);Fungi:Candida albicans (Inhibition zone=3.0 mm), Aspergillus niger (Inhibition zone=3.0 mm).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Cell membranes",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C188H299N55O51",
+            "Mass": 4145.72,
+            "PI": 9.82,
+            "Net Charge": 5,
+            "Hydrophobicity": -0.01,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Hinnavin 1 is heat stable; its activity is retained after 60 min incubation at 100 DC, being effective against Gram negative and/or Gram positive bacteria. Hinnavin I and lysozyme 2 showed a powerful synergistic effect on the inhibition of bacterial growth.",
+            "Literature": [
+                {
+                    "Title": "Hinnavin I, an antibacterial peptide from cabbage butterfly, Artogeia rapae.",
+                    "Pubmed ID": "9339895",
+                    "Reference": "Mol Cells. 1997 Aug 31;7(4)509-13",
+                    "Author": "Bang IS, Son SY, Yoe SM.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=9339895"
+                }
+            ],
+            "Frequent Amino Acids": "AGI",
+            "Absent Amino Acids": "CMOU",
+            "Basic Residues": 7,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 20,
+            "Polar Residues": 23,
+            "Positive Residues": 7,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_08322",
+                    "Similarity": 0.7837837837837838,
+                    "Sequence": "KWKIFKKIEHMGQNIRDGLIKAGPAVQVVGQAATIYK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02512",
+                    "Similarity": 0.7631578947368421,
+                    "Sequence": "KWKIFKKIEHMGQNIRDGLIKAGPAVQVVGQAATIYKG"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_00505",
+                    "Similarity": 0.725,
+                    "Sequence": "KWKIFKKIEHMGQNIRDGLIKAGPAVQVVGQAATIYKGSYSMEHFRWGKPV"
+                }
+            ]
+        }
+    }
+}

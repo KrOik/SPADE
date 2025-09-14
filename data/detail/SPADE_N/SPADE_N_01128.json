@@ -1,0 +1,77 @@
+{
+    "SPADE_N_01128": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01128",
+            "Peptide Name": "Pleurain-A3 (Pleurain A3; Frogs, amphibians, animals)",
+            "Source": "Rana pleuraden (Yunnan pond frog)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "SIITMTREAKLPQLWKQIACRLYNTC",
+            "Sequence Length": 26,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/A8B5P7"
+            ],
+            "Protein Existence": "Transcript level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "[Swiss_Prot Entry A8B5P7]has activity against Gram-positive and -negative bacteria, and fungi",
+            "Hemolytic Activity": "[Ref:17764786]Little hemolytic activity on red blood cells even with peptide concentration up to 200 μg/ml",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C136H226N38O37S3",
+            "Mass": 3081.68,
+            "PI": 9.38,
+            "Net Charge": 3,
+            "Hydrophobicity": -0.08,
+            "Half Life": "Mammalian:1.9 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Has little hemolytic activity on red blood cells.",
+            "Tissue specificity": "Expressed by the skin dorsal glands.",
+            "Literature": [
+                {
+                    "Title": "A new family of antimicrobial peptides from skin secretions of Rana pleuraden.",
+                    "Pubmed ID": "17764786",
+                    "Reference": "Peptides. 2007 Oct;28(10)2069-2074.",
+                    "Author": "Wang X, Song Y, Li J, Liu H, Xu X, Lai R, Zhang K.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=17764786"
+                }
+            ],
+            "Frequent Amino Acids": "ILT",
+            "Absent Amino Acids": "DFGHOUV",
+            "Basic Residues": 4,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 16,
+            "Positive Residues": 4,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01124",
+                    "Similarity": 0.9615384615384616,
+                    "Sequence": "SIITMTKEAKLPQLWKQIACRLYNTC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01125",
+                    "Similarity": 0.9230769230769231,
+                    "Sequence": "SIITMTKEAKLPQSWKQIACRLYNTC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01129",
+                    "Similarity": 0.9230769230769231,
+                    "Sequence": "SIITTTKEAKLPQLWKQIACRLYNTC"
+                }
+            ]
+        }
+    }
+}

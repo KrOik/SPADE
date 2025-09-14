@@ -1,0 +1,47 @@
+{
+    "SPADE_UN_26138": {
+        "Sequence Information": {
+            "Peptide Name": "Rufomycin NBZ6",
+            "Sequence": "LXAXLXX",
+            "Sequence Length": 7,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Cytoplasmic Protein",
+            "Source": "1. Streptomyces atratus",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Antimycobacterial Rufomycin Analogues from Streptomyces atratus Strain MJM3502",
+                    "Pubmed ID": "32031795",
+                    "Reference": "J Nat Prod. 2020;83:657-667",
+                    "Author": "Zhou B, Shetye G, Yu Y, Santarsiero BD, Klein LL, Abad-Zapatero C, Wolf NM, Cheng J, Jin Y, Lee H, Suh JW, Bisson J, McAlpine JB, Chen SN, Cho SH, Franzblau SG, Pauli GF",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/32031795"
+                }
+            ],
+            "SPADE ID": "SPADE_UN_26138",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00019",
+                    "Similarity": 1.0,
+                    "Sequence": "GTPLALLGGAATGVIGYISNQTCPTTACTRAC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00142",
+                    "Similarity": 1.0,
+                    "Sequence": "LVNQLGISKSLANTILGAIAVGNLASWVLALVPGPGWATKAALATAETIVKHEGKAAAIAW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01157",
+                    "Similarity": 1.0,
+                    "Sequence": "MFTLKKSLFLVFFLGMVSLALCRHERHAHEESSNDPTEEENAAGNEESGEEGDMEKRFVLPLVMCKILRKC"
+                }
+            ],
+            "Hemolytic Activity": "Vero cells:IC50=>100 µM",
+            "Target Organism": "Mycobacterium tuberculosis H37Rv(MIC=0.57µM),Mycobacterium abscessus ATCC 19977(MIC=>10µM),Mycobacterium tuberculosis H37Rv(MBC=>10µM),Mycobacterium tuberculosis H37Rv(MBC=2.2µM)"
+        }
+    }
+}

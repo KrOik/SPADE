@@ -1,0 +1,83 @@
+{
+    "SPADE_N_00695": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00695",
+            "Peptide Name": "Defensin-like protein (Flower-specific gamma-thionin; Plant defensin)",
+            "Source": "Nicotiana tabacum (Common tobacco)",
+            "Family": "Belongs to the DEFL family",
+            "Gene": "FST",
+            "Sequence": "RECKTESNTFPGICITKPPCRKACISEKFTDGHCSKLLRRCLCTKPCVFDEKMIKTGAETLVEEAKTLAAALLEEEIMDN",
+            "Sequence Length": 80,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P32026"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antifungal"
+            ],
+            "Target Organism": "Fungi:Fusarium oxysporum and Botrytis cinerea.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C382H635N105O120S10",
+            "Mass": 8939.41,
+            "PI": 6.75,
+            "Net Charge": 1,
+            "Hydrophobicity": -0.3,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Function": "Involved in floral organogenesis. May play a protective role in flowers by protecting the reproductive organs from potential pathogen attack.",
+            "Tissue specificity": "Found in petals, stamen and pistils, but not in sepals. In particular, accumulation in a configuration surrounding the inner reproductive whorls.",
+            "Developmental stage": "Accumulates in developing flowers and its level drops as flowers mature.",
+            "PTM": "Contains four disulfide bonds 3-47; 14-34; 20-41; 24-43.",
+            "Literature": [
+                {
+                    "Title": "A flower-specific cDNA encoding a novel thionin in tobacco.",
+                    "Pubmed ID": "1495489",
+                    "Reference": "Mol Gen Genet. 1992 Jul;234(1)89-96.",
+                    "Author": "Gu Q, Kawata EE, Morse MJ, Wu HM, Cheung AY.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=1495489"
+                },
+                {
+                    "Title": "The three-dimensional solution structure of NaD1, a new floral defensin from Nicotiana alata and its application to a homology model of the crop defense protein alfAFP.",
+                    "Pubmed ID": "12473460",
+                    "Reference": "J Mol Biol. 2003 Jan 3;325(1)175-188.",
+                    "Author": "Lay FT, Schirra HJ, Scanlon MJ, Anderson MA, Craik DJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=12473460"
+                }
+            ],
+            "Frequent Amino Acids": "EKC",
+            "Absent Amino Acids": "OQUWY",
+            "Basic Residues": 14,
+            "Acidic Residues": 13,
+            "Hydrophobic Residues": 29,
+            "Polar Residues": 43,
+            "Positive Residues": 14,
+            "Negative Residues": 13,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07704",
+                    "Similarity": 1.0,
+                    "Sequence": "RECKTESNTFPGICITKPPCRKACISEKFTDGHCSKLLRRCLCTKPC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08085",
+                    "Similarity": 1.0,
+                    "Sequence": "RECKTESNTFPGICITKPPCRKACISEKFTDGHCSLLRRCLCTKPC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00694",
+                    "Similarity": 0.9787234042553191,
+                    "Sequence": "RECKTESNTFPGICITKPPCRKACISEKFTDGHCSKILRRCLCTKPC"
+                }
+            ]
+        }
+    }
+}

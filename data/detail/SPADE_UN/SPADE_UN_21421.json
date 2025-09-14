@@ -1,0 +1,74 @@
+{
+    "SPADE_UN_21421": {
+        "Sequence Information": {
+            "Peptide Name": "Cyclic Tachyplesin-1",
+            "Sequence": "KWCFRVCYRGICYRRCRG",
+            "Sequence Length": 18,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anticancer",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "6PIN",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P69136",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P69136",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Characterization of Tachyplesin Peptides and Their Cyclized Analogues to Improve Antimicrobial and Anticancer Properties.",
+                    "Pubmed ID": "31455019",
+                    "Reference": "Int J Mol Sci. 2019;20:",
+                    "Author": "Vernen F, Harvey PJ, Dias SA, Veiga AS, Huang YH, Craik DJ, Lawrence N, Troeira Henriques S",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/31455019"
+                },
+                {
+                    "Title": "Cyclic Analogues of Horseshoe Crab Peptide Tachyplesin I with Anticancer and Cell Penetrating Properties.",
+                    "Pubmed ID": "31714739",
+                    "Reference": "ACS Chem Biol. 2019;14:2895-2908",
+                    "Author": "Vernen F, Craik DJ, Lawrence N, Troeira Henriques S",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/31714739"
+                }
+            ],
+            "Mass": 2325.81,
+            "PI": 9.93,
+            "Net Charge": 6,
+            "Hydrophobicity": -0.51,
+            "Frequent Amino Acids": "RCG",
+            "Absent Amino Acids": "ADEHLMNOPQSTU",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 11,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_21421",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02532",
+                    "Similarity": 1.0,
+                    "Sequence": "KWCFRVCYRGICYRRCR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07952",
+                    "Similarity": 1.0,
+                    "Sequence": "MKKLVIALCLMMVLAVMVEEAEAKWCFRVCYRGICYRRCRGKRNEVRQYRDRGYDVRAIPEETFFTRQDEDEDDDEE"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15019",
+                    "Similarity": 1.0,
+                    "Sequence": "KWCFRVCYRGICYRRCRGK"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=106.9±21.0 µM,Human keratinocytes HaCat:50% Cell death=7.9±0.5 µM",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=1µM),Escherichia coli DC2(MIC=4µM),Staphylococcus aureus ATCC 25923(MIC=2-8µM),Staphylococcus aureus ATCC 6538(MIC=8µM),Human skin melanoma MM96L(50% Cell death=1.3±0.1µM),Human malignant melanoma HT-144(50% Cell death=1.4±0.1µM),Human metastatic melanoma WM164(50% Cell death=2.7±0.1µM),Human cervical carcinoma HeLa(50% Cell death=6.7±0.6µM),Human breast adenocarcinoma MDA-MB-435S(50% Cell death=2.7±0.3µM),Human myelogenous leukemia K562(50% Cell death=2.0±0.1µM),Human breast adenocarcinoma MCF-7(50% Cell death=6.4±0.6µM)"
+        }
+    }
+}

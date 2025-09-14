@@ -1,0 +1,85 @@
+{
+    "SPADE_N_02423": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 6911524 B1",
+                "Patent Link": "http://www.lens.org/lens/patent/US_6911524_B1",
+                "Patent Type": "Granted Patent",
+                "Publication Date": "2005-6-28",
+                "Family Info": "CA2378452A1,EP1194550A1,WO2001004294A1",
+                "Patent Title": "Antimicrobial peptides derived from mollusks.",
+                "Abstract": "The invention concerns an antimicrobial peptide, called myticin, characterised in that it can be obtained from a bivalve mollusc shellfish, and its molecular mass is about 4.5 kDa; its pI is about 8.7; it comprises 8 cystein radicals. The invention also concerns its preparation and its uses. The invention further concerns a nucleic acid coding for said peptide."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02423",
+            "Peptide Name": "Myticin-A (Myt A; Cys-rich; molluscas, animals)",
+            "Source": "Mytilus galloprovincialis (Mediterranean mussel)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "HSHACTSYWCGKFCGTASCTHYLCRVLHPGKMCACVHCSR",
+            "Sequence Length": 40,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P82103"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+"
+            ],
+            "Target Organism": "Gram-positive bacteria:Micrococcus luteus (MBC=2.25-4.5 µM), Bacillus megaterium (MBC=2.25-4.5 µM), Aerococcus viridans (MBC=9-4.5 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C187H283N59O50S9",
+            "Mass": 4446.2,
+            "PI": 8.74,
+            "Net Charge": 9,
+            "Hydrophobicity": 0.04,
+            "Half Life": "Mammalian:3.5 hourYeast:10 minE.coli:>10 hour",
+            "Function": "Bacteriolytic activity against Gram-positive bacteria M. luteus, Bacillus megaterium and A. viridans.",
+            "PTM": "contains four disulfide bonds.",
+            "Literature": [
+                {
+                    "Title": "Myticin, a novel cysteine-rich antimicrobial peptide isolated from haemocytes and plasma of the mussel Mytilus galloprovincialis.",
+                    "Pubmed ID": "10491159",
+                    "Reference": "Eur J Biochem. 1999 Oct 1;265(1)71-78.",
+                    "Author": "Mitta G, Hubert F, Noël T, Roch P.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=10491159"
+                }
+            ],
+            "Frequent Amino Acids": "CHS",
+            "Absent Amino Acids": "DEINOQU",
+            "Basic Residues": 9,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 31,
+            "Positive Residues": 9,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_08061",
+                    "Similarity": 1.0,
+                    "Sequence": "MKATILLAVLVAVFVAGTEAHSHACTSYWCGKFCGTASCTHYLCRVLHPGKMCACVHCSRVNNPFRVNQVAKSINDLDYTPIMKSMENLDNGMDML"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_08063",
+                    "Similarity": 0.8928571428571429,
+                    "Sequence": "HHCTSYCKFCGTACTYCRLHGKCCHCSR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02424",
+                    "Similarity": 0.7,
+                    "Sequence": "HPHVCTSYYCSKFCGTAGCTRYGCRNLHRGKLCFCLHCSR"
+                }
+            ]
+        }
+    }
+}

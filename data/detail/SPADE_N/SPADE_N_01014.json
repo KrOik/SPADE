@@ -1,0 +1,72 @@
+{
+    "SPADE_N_01014": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01014",
+            "Peptide Name": "Non-specific lipid-transfer protein (Plants)",
+            "Source": "Secale cereale (Rye)",
+            "Family": "Belongs to the plant LTP family",
+            "Gene": "Not found",
+            "Sequence": "AITCGQVSSALSPCIPYARGNGANPSAACCSGVRRIAGAVQSTADKKTACNCIKRAAGGLNAGKAADIPSKCSVSIPYAINPSVDCSTIR",
+            "Sequence Length": 90,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q155V1"
+            ],
+            "Protein Existence": "Homology",
+            "Biological Activity": [
+                "Antimicrobial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Lipid-binding",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C372H625N117O121S8",
+            "Mass": 8929.17,
+            "PI": 9.22,
+            "Net Charge": 7,
+            "Hydrophobicity": 0.1,
+            "Half Life": "Mammalian:4.4 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Plant non-specific lipid-transfer proteins transfer phospholipids as well as galactolipids across membranes. May play a role in wax or cutin deposition in the cell walls of expanding epidermal cells and certain secretory tissues (By similarity).",
+            "Literature": [
+                {
+                    "Title": "Ordered surface carbons distinguish antifreeze proteins and their ice-binding regions.",
+                    "Pubmed ID": "16823370",
+                    "Reference": "Nat Biotechnol. 2006 Jul;24(7)852-855.",
+                    "Author": "Doxey AC, Yaish MW, Griffith M, McConkey BJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16823370"
+                }
+            ],
+            "Frequent Amino Acids": "ASC",
+            "Absent Amino Acids": "EFHMOUW",
+            "Basic Residues": 10,
+            "Acidic Residues": 3,
+            "Hydrophobic Residues": 39,
+            "Polar Residues": 63,
+            "Positive Residues": 10,
+            "Negative Residues": 3,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00305",
+                    "Similarity": 0.8,
+                    "Sequence": "AISCGQVSSALSPCISYARGNGAKPPAACCSGVKRLAGAAQSTADKQAACKCIKSAAGGLNAGKAAGIPSMCGVSVPYAISASVDCSKIR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00306",
+                    "Similarity": 0.7888888888888889,
+                    "Sequence": "AISCGQVSSALSPCISYARGNGAKPPVACCSGVKRLAGAAQSTADKQAACKCIKSAAGGLNAGKAAGIPSMCGVSVPYAISASVDCSKIR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01011",
+                    "Similarity": 0.7888888888888889,
+                    "Sequence": "AISCGQVSSALSPCISYARGSGSSPPAACCSGVRSLAGAARSTADKQAACKCIKSAAGGLNAGKAAGIPSKCGVSIPYAISSSVDCSKIR"
+                }
+            ]
+        }
+    }
+}

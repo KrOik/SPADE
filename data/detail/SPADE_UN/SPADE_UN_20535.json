@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_20535": {
+        "Sequence Information": {
+            "Peptide Name": "BRCA1 (782–786)",
+            "Sequence": "SISLL",
+            "Sequence Length": 5,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer\n2. DNA / RNA",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P38398",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P38398",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "DNA/Lysozyme-binding affinity study of novel peptides from TAT (47-57) and BRCA1 (782-786) in vitro by spectroscopic analysis.",
+                    "Pubmed ID": "30384016",
+                    "Reference": "Spectrochim Acta A Mol Biomol Spectrosc. 2019;:",
+                    "Author": "Lv M, Wang M, Lu K, Peng L, Zhao Y",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/30384016"
+                }
+            ],
+            "Mass": 531.64,
+            "PI": 5.24,
+            "Net Charge": 0,
+            "Hydrophobicity": 2.1,
+            "Frequent Amino Acids": "LSI",
+            "Absent Amino Acids": "ACDEFGHKMNOPQRTUVWY",
+            "Basic Residues": 0,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 3,
+            "Polar Residues": 2,
+            "Positive Residues": 0,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_20535",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06222",
+                    "Similarity": 1.0,
+                    "Sequence": "CGESCAISFCFTEVIGCSCKNKVCYLNSIS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07562",
+                    "Similarity": 1.0,
+                    "Sequence": "CGESCAMISFCFTEVIGCSCKNKVCYLNSIS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_12827",
+                    "Similarity": 1.0,
+                    "Sequence": "SISLLYGRKKRRQRRR"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:5% Hemolysis=>250 µg/ml",
+            "Target Organism": "Staphylococcus aureus ATCC 29213(MIC=83.85µg/ml),Bacillus subtilis KCTC 3068(MIC=70.62µg/ml),Escherichia coli ATCC 25922(MIC=91.41µg/ml),Salmonella typhimurium CMCC 50013(MIC=98.62µg/ml)"
+        }
+    }
+}

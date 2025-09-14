@@ -1,0 +1,64 @@
+{
+    "SPADE_UN_26146": {
+        "Sequence Information": {
+            "Peptide Name": "Defensin MtDef4 (31-47)",
+            "Sequence": "GGRCRGFRRRCFCTTHC",
+            "Sequence Length": 17,
+            "Biological Activity": [
+                "Antifungal"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "G7L736",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/G7L736",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Modes of action and potential as a peptide-based biofungicide of a plant defensin MtDef4",
+                    "Pubmed ID": "38619888",
+                    "Reference": "Mol Plant Pathol. 2024;25:e13458",
+                    "Author": "Li H, Kalunke R, Tetorya M, Czymmek KJ, Shah DM",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/38619888"
+                }
+            ],
+            "Mass": 2016.36,
+            "PI": 10.45,
+            "Net Charge": 6,
+            "Hydrophobicity": -0.75,
+            "Frequent Amino Acids": "RCG",
+            "Absent Amino Acids": "ADEIKLMNOPQSUVWY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 11,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_26146",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_04744",
+                    "Similarity": 1.0,
+                    "Sequence": "RTCESQSHKFKGPCASDHNCASVCQTERFSGGRCRGFRRRCFCTTHC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04745",
+                    "Similarity": 1.0,
+                    "Sequence": "MARSVPLVSTIFVFLLLLVATGPSMVAEARTCESQSHKFKGPCASDHNCASVCQTERFSGGRCRGFRRRCFCTTHC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04746",
+                    "Similarity": 1.0,
+                    "Sequence": "RTCESQSHKFKGPCASDHNSASVCQTERFSGGRCRGF"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Botrytis cinerea T4(MIC=3µM),Fusarium graminearum(MIC=6-12µM)"
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "SPADE_N_01167": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01167",
+            "Peptide Name": "Dybowskin-6 (Frogs, amphibians, animals)",
+            "Source": "Rana dybowskii (Korea brown frog)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "FLPLLLAGLPLKLCFLFKKC",
+            "Sequence Length": 20,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Antifungal"
+            ],
+            "Target Organism": "Gram-positive bacteria:Micrococcus luteus ATCC4698 (MIC=6.25 µg/ml), Staphylococcus aureus KCTC3881 (MIC=12.5 µg/ml), Bacillus subtilis ATCC6633 (MIC=50 µg/ml), Staphylococcus epidermidis ATCC12228 (MIC=50 µg/ml).Yeast:Candida albicans (MIC=50 µg/ml).",
+            "Hemolytic Activity": "[Ref:17698251] It has 59.39% hemolytic activity at 100 μg/ml against huamn red blood cells",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "[Ref:17698251]59.39% hemolytic activity at 100 μg/ml against huamn red blood cells",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Cyclization (Cys14 and Cys20)",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C114H185N23O21S2",
+            "Mass": 2277.96,
+            "PI": 9.39,
+            "Net Charge": 3,
+            "Hydrophobicity": 1.51,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Function": "Dybowskin-6 has relatively greater hemolytic activity against human red blood cells (hRBCs).",
+            "Literature": [
+                {
+                    "Title": "Purification and characterization of antimicrobial peptides from the skin secretion of Rana dybowskii.",
+                    "Pubmed ID": "17698251",
+                    "Reference": "Peptides. 2007 Aug;28(8)1532-1539.",
+                    "Author": "Kim SS, Shim MS, Chung J, Lim DY, Lee BJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=17698251"
+                }
+            ],
+            "Frequent Amino Acids": "LFK",
+            "Absent Amino Acids": "DEHIMNOQRSTUVWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 14,
+            "Polar Residues": 6,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01791",
+                    "Similarity": 0.9,
+                    "Sequence": "FLPLLLAGLPKLLCFLFKKC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01633",
+                    "Similarity": 0.8,
+                    "Sequence": "FLPLVTGLLSGLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01646",
+                    "Similarity": 0.8,
+                    "Sequence": "FLPGLLAGLL"
+                }
+            ]
+        }
+    }
+}

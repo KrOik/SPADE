@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_22547": {
+        "Sequence Information": {
+            "Peptide Name": "AvBD-4 (26-38)[C3,9,10I;P5R;Y7R]",
+            "Sequence": "GLIRRKRSIIRWL",
+            "Sequence Length": 13,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "Q6GXJ1",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/Q6GXJ1",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Novel design of short antimicrobial peptides derived from the bactericidal domain of avian ?-defensin-4.",
+                    "Pubmed ID": "22587782",
+                    "Reference": "Protein Pept Lett. 2012;19:1212-1219",
+                    "Author": "Dong N, Ma QQ, Shan AS, Lv YF, Hu W, Gu Y, Li YZ",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/22587782"
+                }
+            ],
+            "Mass": 1667.06,
+            "PI": 12.0,
+            "Net Charge": 5,
+            "Hydrophobicity": -0.22,
+            "Frequent Amino Acids": "RIL",
+            "Absent Amino Acids": "ACDEFHMNOPQTUVY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 8,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_22547",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_05774",
+                    "Similarity": 1.0,
+                    "Sequence": "RWLVLRKRW"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_12041",
+                    "Similarity": 1.0,
+                    "Sequence": "RWLRKWTRKRLK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_22546",
+                    "Similarity": 0.9230769230769231,
+                    "Sequence": "GLIRRKYSIIRWL"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:5% Hemolysis=>128 µM",
+            "Target Organism": "Escherichia coli ATCC 25922(LC=4µM),Salmonella enterica subsp. enterica serovar Pullorum C79-13(LC=64µM),Salmonella enterica subsp. enterica serovar Typhimurium C77-31(LC=4µM),Staphylococcus aureus ATCC 29213(LC=2µM),Staphylococcus epidermidis ATCC 12228(LC=4µM),Enterococcus faecalis ATCC 29212(LC=4µM)"
+        }
+    }
+}

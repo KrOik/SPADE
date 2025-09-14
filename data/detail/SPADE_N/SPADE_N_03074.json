@@ -1,0 +1,76 @@
+{
+    "SPADE_N_03074": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03074",
+            "Peptide Name": "G. mellonella moricin-like peptide B (Gm-mlpB; Insects, animals; Predicted)",
+            "Source": "Galleria mellonella (Greater wax moth)",
+            "Family": "Not found",
+            "Gene": "mor",
+            "Sequence": "GKIPVKAIKKGGQIIGKALRGINIASTAHDIISQFKPKKKKNH",
+            "Sequence Length": 43,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/A5JSU6"
+            ],
+            "Protein Existence": "Predicted",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "Gram-negative bacterium:Escherichia coli (MIC=100 µM);Gram-positive bacterium:Micrococcus luteus (MIC=100 µM).Fungi:Fusarium graminearum spores (MIC=10 µM), F;Graminearum mycelia (MIC=280 µM), Fusarium oxysporum spores (MIC=100 µM), F. oxysporum mycelia (MIC=280 µM), Leptosphaeria maculans spores (MIC=100 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C210H364N64O53",
+            "Mass": 4633.53,
+            "PI": 10.92,
+            "Net Charge": 12,
+            "Hydrophobicity": -0.49,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "The discovery and analysis of a diverged family of novel antifungal moricin-like peptides in the wax moth Galleria mellonella.",
+                    "Pubmed ID": "18207081",
+                    "Reference": "Insect Biochem Mol Biol. 2008;38201-212.",
+                    "Author": "Brown SE, Howard A, Kasprzak AB, Gordon KH, East PD.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=18207081"
+                }
+            ],
+            "Frequent Amino Acids": "KIG",
+            "Absent Amino Acids": "CEMOUWY",
+            "Basic Residues": 13,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 17,
+            "Polar Residues": 25,
+            "Positive Residues": 13,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_04671",
+                    "Similarity": 1.0,
+                    "Sequence": "MRLSIILVVVMMVMAMFVSSGDAAPGKIPVKAIKKGGQIIGKALRGINIASTAHDIISQFKPKKKKNH"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04672",
+                    "Similarity": 1.0,
+                    "Sequence": "GGQIIGKALRGINIASTAHDIISQFKPKKKKNH"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04678",
+                    "Similarity": 1.0,
+                    "Sequence": "GGQIIGKALRGINIASTAHDIISQFKPK"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "SPADE_UN_13548": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_13548",
+            "Peptide Name": "P7",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "SALEEQYKTFLDKFLHELEDLLYQLALAL",
+            "Sequence Length": 29,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antiviral(SARS-CoV-2)"
+            ],
+            "Target Organism": "[Ref.33580154]Virus:SARS-CoV-2:54% inhibition of replication in Vero-E6 cells at 10 μM;inhibition of replication in Calu-3 cells(IC50>1 μM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C162H249N35O48",
+            "Mass": 3454.92,
+            "PI": 4.35,
+            "Net Charge": -3,
+            "Hydrophobicity": 0.07,
+            "Half Life": "Mammalian:1.9 hourYeast:>20 hourE.coli:>10 hour",
+            "Mechanism of action": "The peptide was designed mimicking the N-terminal helix of hACE2 protein,which could prevent the SARS-CoV-2 from infecting human cells, blocking the interaction between hACE2 and the virus spike protein.",
+            "Literature": [
+                {
+                    "Title": "Human ACE2 peptide-mimics block SARS-CoV-2 pulmonary cells infection.",
+                    "Pubmed ID": "33580154",
+                    "Reference": "Commun Biol. 2021 Feb 12;4(1)197.",
+                    "Author": "Karoyan P, Vieillard V, Gómez-Morales L, Odile E, Guihot A, Luyt CE, Denis A, Grondin P, Lequin O.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=33580154"
+                }
+            ],
+            "Frequent Amino Acids": "LEA",
+            "Absent Amino Acids": "CGIMNOPRUVW",
+            "Basic Residues": 3,
+            "Acidic Residues": 6,
+            "Hydrophobic Residues": 16,
+            "Polar Residues": 12,
+            "Positive Residues": 3,
+            "Negative Residues": 6,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_13551",
+                    "Similarity": 0.9629629629629629,
+                    "Sequence": "SALEEQYKTFLDKFMHELEDLLYQLAL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_24458",
+                    "Similarity": 0.9615384615384616,
+                    "Sequence": "SALEEQKTFLDKFMHELEDLLYQLAL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_13549",
+                    "Similarity": 0.9259259259259259,
+                    "Sequence": "SALEEQLKTFLDKFMHELEDLLYQLAL"
+                }
+            ]
+        }
+    }
+}

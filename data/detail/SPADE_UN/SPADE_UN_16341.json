@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_16341": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_16341",
+            "Peptide Name": "TRPs R8",
+            "Source": "Synthetic",
+            "Family": "",
+            "Gene": "Not found",
+            "Sequence": "RRRRWRWWRWWRR",
+            "Sequence Length": 13,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P33432"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Target Organism": "Tumor cells:HeLa  (IC50=250 μg/mL)",
+            "Hemolytic Activity": "Sheep erythrocytes:No hemolysis up tp 500 µg/ml",
+            "Cytotoxicity": "NIH 3T3:IC50>250 µg/ml",
+            "Binding Target": "Not available",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C103H148N42O14",
+            "Mass": 2198.55,
+            "PI": 12.0,
+            "Net Charge": 8,
+            "Hydrophobicity": -3.12,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Comments": "Dual mechanism, with the disruption of the membrane integrity possibly being the main cause of cell death, but only after peptide translocation and binding to intracellular targets.",
+            "Literature": [
+                {
+                    "Title": "Effects of Rationally Designed Physico-Chemical Variants of the Peptide PuroA on Biocidal Activity towards Bacterial and Mammalian Cells",
+                    "Pubmed ID": "33207639",
+                    "Reference": "Int J Mol Sci. 2020 Nov 16;21(22)8624.",
+                    "Author": "Shagaghi N, Clayton AHA, Aguilar MI, Lee TH, Palombo EA, Bhave M.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=33207639"
+                }
+            ],
+            "Frequent Amino Acids": "RW",
+            "Absent Amino Acids": "ACDEFGHIKLMNOPQSTUVY",
+            "Basic Residues": 8,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 8,
+            "Positive Residues": 8,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02907",
+                    "Similarity": 1.0,
+                    "Sequence": "SRDLICLCRNRRCNRGELFYGTCAGPFLRCCRRRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02908",
+                    "Similarity": 1.0,
+                    "Sequence": "SRDLICLCRKRRCNRGELFYGTCAGPFLRCCRRRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02991",
+                    "Similarity": 1.0,
+                    "Sequence": "FLRRSVSGFQECHSKGGYCYRYYCPRPHRRLGSCYPYAANCCRRRR"
+                }
+            ]
+        }
+    }
+}

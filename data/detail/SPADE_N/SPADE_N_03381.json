@@ -1,0 +1,72 @@
+{
+    "SPADE_N_03381": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03381",
+            "Peptide Name": "Beta defensin-2",
+            "Source": "Capra hircus (Goat)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "NHRSCYRNKGVCAPARCPRNMRQIGTCHGPPVKCCRKK",
+            "Sequence Length": 38,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/O97942"
+            ],
+            "Protein Existence": "Predicted",
+            "Biological Activity": [
+                "Antimicrobial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C176H298N68O46S7",
+            "Mass": 4327.13,
+            "PI": 10.25,
+            "Net Charge": 12,
+            "Hydrophobicity": -1.05,
+            "Half Life": "Mammalian:1.4 hourYeast:3 minE.coli:>10 hour",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Differential expression of caprine beta-defensins in digestive and respiratory tissues.",
+                    "Pubmed ID": "10531296",
+                    "Reference": "Infect Immun. 1999 Nov;67(11)6221-6224.",
+                    "Author": "Zhao C, Nguyen T, Liu L, Shamova O, Brogden K, Lehrer RI.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=10531296"
+                }
+            ],
+            "Frequent Amino Acids": "CRK",
+            "Absent Amino Acids": "DEFLOUW",
+            "Basic Residues": 12,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 29,
+            "Positive Residues": 12,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03429",
+                    "Similarity": 1.0,
+                    "Sequence": "MRLHHLLLALFFLVLSAGSGFTQGIINHRSCYRNKGVCAPARCPRNMRQIGTCHGPPVKCCRKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03979",
+                    "Similarity": 1.0,
+                    "Sequence": "QGIINHRSCYRNKGVCAPARCPRNMRQIGTCHGPPVKCCRKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05755",
+                    "Similarity": 1.0,
+                    "Sequence": "NHRSCYRNKGVCAPARCPRNMRQIGTCHGPPVKCCR"
+                }
+            ]
+        }
+    }
+}

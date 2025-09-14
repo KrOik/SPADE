@@ -1,0 +1,73 @@
+{
+    "SPADE_N_06388": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_06388",
+            "Peptide Name": "R-DIM-P-LF11-322",
+            "Source": "Human lactoferricin derived",
+            "Family": "",
+            "Gene": "Not found",
+            "Sequence": "PFWRIRIRRPRRIRIRWFP",
+            "Sequence Length": 19,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Notavailable"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Target Organism": "Tumor cells:SBcl-2 (LC50=10.4±0.7 µM ); A-375 (LC50=23.3±1.7 µM )",
+            "Hemolytic Activity": "Not available",
+            "Cytotoxicity": "Normal Human Dermal Fibroblasts (NHDF):LC50>101 µM",
+            "Binding Target": "Not available",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C127H201N45O20",
+            "Mass": 2678.24,
+            "PI": 12.0,
+            "Net Charge": 8,
+            "Hydrophobicity": -1.0,
+            "Half Life": "Mammalian:>20 hourYeast:>20 hourE.coli:/",
+            "Comments": "Human lactoferricin derived di-peptides deploying loop structures induce apoptosis specifically in cancer cells through targeting membranous phosphatidylserin",
+            "Literature": [
+                {
+                    "Title": "Human lactoferricin derived di-peptides deploying loop structures induce apoptosis specifically in cancer cells through targeting membranous phosphatidylserine",
+                    "Pubmed ID": "26239537",
+                    "Reference": "Biochim Biophys Acta. 2015 Nov;1848(11 Pt A)2918-31.",
+                    "Author": "Riedl S, Leber R, Rinner B, Schaider H, Lohner K, Zweytick D.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=26239537"
+                }
+            ],
+            "Frequent Amino Acids": "RIP",
+            "Absent Amino Acids": "ACDEGHKLMNOQSTUVY",
+            "Basic Residues": 8,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 8,
+            "Positive Residues": 8,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_00507",
+                    "Similarity": 1.0,
+                    "Sequence": "PFWRIRIRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_15560",
+                    "Similarity": 1.0,
+                    "Sequence": "RFRRPIRRRPIRPPFWR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_15566",
+                    "Similarity": 1.0,
+                    "Sequence": "RFRWPIRRRPIRPPFWR"
+                }
+            ]
+        }
+    }
+}

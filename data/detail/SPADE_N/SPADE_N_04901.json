@@ -1,0 +1,51 @@
+{
+    "SPADE_N_04901": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 2009/0233868 A1",
+                "Patent Link": "http://www.lens.org/lens/patent/US_2009_0233868_A1",
+                "Patent Type": "Patent Application",
+                "Publication Date": "2009-9-17",
+                "Family Info": "CA2606668A1,EP1877431A1,US20110091966,WO2006117805A1",
+                "Patent Title": "Small antiviral peptides against hepatitis C virus.",
+                "Abstract": "Disclosed herein is a small 7 amino-acid peptide, corresponding to the C terminus of RRM2 of the human La protein that binds to the IRES element of hepatitis C virus RNA and its derivatives. This disclosure demonstrates that this 7-mer interacts with the HCV IRES element both in vitro and in vivo and can compete against cellular La protein in binding to the HCV RNA. It is also shown here that this 7-mer peptide is able to inhibit HCV-IRES mediated translation in vivo which, in turn, leads to decreased viral replication."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_04901",
+            "Sequence": "KYKETDLLILFKDDYFAKKNEERK",
+            "Sequence Length": 24,
+            "Peptide Name": "Sequence 1 from Patent US 20090233868",
+            "Source": "Homo sapiens",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antiviral"
+            ],
+            "Frequent Amino Acids": "KDE",
+            "Absent Amino Acids": "CGHMOPQSUVW",
+            "Basic Residues": 7,
+            "Acidic Residues": 6,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 12,
+            "Positive Residues": 7,
+            "Negative Residues": 6,
+            "Mass": 3035.45,
+            "PI": 8.27,
+            "Net Charge": 1,
+            "Hydrophobicity": -1.35,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_04902",
+                    "Similarity": 1.0,
+                    "Sequence": "KYKETDL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05191",
+                    "Similarity": 0.5,
+                    "Sequence": "MIIAENELYLVKNPLNEWDMNYHLIEKETGKDFLIDIGDVADNEEEREKYELGLLFSDLKNLIVDLLIEYSWKTI"
+                }
+            ]
+        }
+    }
+}

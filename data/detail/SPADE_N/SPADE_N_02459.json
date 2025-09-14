@@ -1,0 +1,82 @@
+{
+    "SPADE_N_02459": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 2005/0260715 A1",
+                "Patent Link": "http://www.lens.org/lens/patent/US_2005_0260715_A1",
+                "Patent Type": "Patent Application",
+                "Publication Date": "2005-11-24",
+                "Family Info": "US6946261",
+                "Patent Title": "Efficient methods for producing antimicrobial cationic peptides in host cells.",
+                "Abstract": "Endogenously produced cationic antimicrobial peptides are ubiquitous components of host defenses in mammals, birds, amphibia, insects, and plants. Cationic peptides are also effective when administered as therapeutic agents. A practical drawback in cationic peptide therapy, however, is the cost of producing the agents. The methods described herein provide a means to efficiently produce cationic peptides from recombinant host cells. These recombinantly-produced cationic peptides can be rapidly purified from host cell proteins using anion exchange chromatography."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02459",
+            "Peptide Name": "Bactenecin 5 (mammals, animals)",
+            "Source": "Bos taurus (Bovine)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "RFRPPIRRPPIRPPFYPPFRPPIRPPIFPPIRPPFRPPLRFP",
+            "Sequence Length": 42,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-negative bacteria:Salmonella typhimurium (MIC=2-10 µM), Klebsiella pneumoniae, Escherichia coli.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C254H384N72O44",
+            "Mass": 5150.22,
+            "PI": 12.0,
+            "Net Charge": 10,
+            "Hydrophobicity": -0.8,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Amino acid sequences of two proline-rich bactenecins. Antimicrobial peptides of bovine neutrophils.",
+                    "Pubmed ID": "2229048",
+                    "Reference": "J Biol Chem. 1990 Nov 5;265(31)18871-18874.",
+                    "Author": "Frank RW, Gennaro R, Schneider K, Przybylski M, Romeo D.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=2229048"
+                }
+            ],
+            "Frequent Amino Acids": "PRF",
+            "Absent Amino Acids": "ACDEGHKMNOQSTUVW",
+            "Basic Residues": 10,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 32,
+            "Polar Residues": 11,
+            "Positive Residues": 10,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_09657",
+                    "Similarity": 1.0,
+                    "Sequence": "RFRPPIRRPPIRPPFYPPFRPP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_12832",
+                    "Similarity": 1.0,
+                    "Sequence": "RFRPPIRRPPIRPPFYPPFRPPIRP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_12872",
+                    "Similarity": 1.0,
+                    "Sequence": "RFRPPIRRPPIRPPFYPPFRPPI"
+                }
+            ]
+        }
+    }
+}

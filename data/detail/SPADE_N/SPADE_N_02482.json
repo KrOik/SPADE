@@ -1,0 +1,84 @@
+{
+    "SPADE_N_02482": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 10723764 B2",
+                "Patent Link": "http://www.lens.org/lens/patent/US_10723764_B2",
+                "Patent Type": "Granted Patent",
+                "Publication Date": "2020-7-28",
+                "Family Info": "US20150259382A1",
+                "Patent Title": "Anti-microbial Peptides And Methods Of Use Thereof",
+                "Abstract": "Anti-microbial peptides and methods of use are provided."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02482",
+            "Peptide Name": "Myeloid antimicrobial peptide BMAP-27 (1-18) (mammals, animals)",
+            "Source": "Bos taurus (Bovine)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "GRFKRFRKKFKKLFKKLS",
+            "Sequence Length": 18,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "Gram-negative bacteria:Escherichia coli ATCC 25922 (MIC=2 µM), Escherichia coli ML35 (MIC=4 µM), Escherichia coli D21 (MIC=4 µM), Salmonella typhimurium ATCC 14028 (MIC=4 µM), Pseudomonas aeruginosa ATCC 27853 (MIC=1 µM), Serratia marcescens ATCC 8100 (MIC=2 µM);Gram-positive bacteria:Staphylococcus aureus ATCC 25923 (MIC=2 µM), Staphylococcus aureus Cowan 1 (MIC=2 µM), Staphylococcus aureus (MRSA) (MIC=4 µM), Staphylococcus epidermidis ATCC 12228 (MIC=1 µM), Bacillus megaterium Bm11 (MIC=2 µM).Fungi:Candida albicans (MIC=16 µM), Cryptococcus neoformans (MIC=4 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C113H188N34O20",
+            "Mass": 2342.92,
+            "PI": 12.0,
+            "Net Charge": 10,
+            "Hydrophobicity": -1.29,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Shows antibacterial activity against Gram-positive bacteria and Gram-negative bacteria. Also has antifungal activity.",
+            "Literature": [
+                {
+                    "Title": "Biological characterization of two novel cathelicidin-derived peptides and identification of structural requirements for their antimicrobial and cell lytic activities.",
+                    "Pubmed ID": "8910461",
+                    "Reference": "J Biol Chem. 1996 Nov 8;271(45)28375-28381.",
+                    "Author": "Skerlavaj B, Gennaro R, Bagella L, Merluzzi L, Risso A, Zanetti M.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=8910461"
+                }
+            ],
+            "Frequent Amino Acids": "KFR",
+            "Absent Amino Acids": "ACDEHIMNOPQTUVWY",
+            "Basic Residues": 10,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 11,
+            "Positive Residues": 10,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02465",
+                    "Similarity": 1.0,
+                    "Sequence": "GRFKRFRKKFKKLFKKLSPVIPLLHLG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05877",
+                    "Similarity": 1.0,
+                    "Sequence": "GRFKRFRKKFKKLFKKLSPVIPLLHL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_12837",
+                    "Similarity": 1.0,
+                    "Sequence": "GGGGRFKRFRKKFKKLFKKLSPVIPLLHLG"
+                }
+            ]
+        }
+    }
+}

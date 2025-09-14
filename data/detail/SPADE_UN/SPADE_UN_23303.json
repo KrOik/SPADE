@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_23303": {
+        "Sequence Information": {
+            "Peptide Name": "",
+            "Sequence": "KLAKKLA",
+            "Sequence Length": 7,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "De novo antimicrobial peptides with low mammalian cell toxicity.",
+                    "Pubmed ID": "8759631",
+                    "Reference": "J Med Chem. 1996;39:3107-3113",
+                    "Author": "Javadpour MM, Juban MM, Lo WC, Bishop SM, Alberty JB, Cowell SM, Becker CL, McLaughlin ML",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/8759631"
+                }
+            ],
+            "Mass": 771.0,
+            "PI": 10.3,
+            "Net Charge": 3,
+            "Hydrophobicity": -0.07,
+            "Frequent Amino Acids": "KAL",
+            "Absent Amino Acids": "CDEFGHIMNOPQRSTUVWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 4,
+            "Polar Residues": 3,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_23303",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06632",
+                    "Similarity": 1.0,
+                    "Sequence": "FAKKLAKKAKLAKKL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06633",
+                    "Similarity": 1.0,
+                    "Sequence": "FAKKLAKKLAKAAL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06634",
+                    "Similarity": 1.0,
+                    "Sequence": "FAKKLAKKLAKAL"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:0% Hemolysis=<500 µg/ml,Mouse fibroblasts NIH 3T3:0% Killing=400 µM",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=>100µM),Pseudomonas aeruginosa ATCC 27853(MIC=>100µM),Staphylococcus aureus ATCC 25923(MIC=>100µM)"
+        }
+    }
+}

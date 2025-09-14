@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_19584": {
+        "Sequence Information": {
+            "Peptide Name": "",
+            "Sequence": "KLALKAAAKAWKAAAKAA",
+            "Sequence Length": 18,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Hydrophobicity, hydrophobic moment and angle subtended by charged residues modulate antibacterial and haemolytic activity of amphipathic helical peptides",
+                    "Pubmed ID": "9042968",
+                    "Reference": "FEBS Lett. 1997;403:208-212",
+                    "Author": "Dathe M, Wieprecht T, Nikolenko H, Handel L, Maloy WL, MacDonald DL, Beyermann M, Bienert M",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/9042968"
+                }
+            ],
+            "Mass": 1782.18,
+            "PI": 10.6,
+            "Net Charge": 5,
+            "Hydrophobicity": 0.29,
+            "Frequent Amino Acids": "AKL",
+            "Absent Amino Acids": "CDEFGHIMNOPQRSTUVY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 6,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_19584",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_19584",
+                    "Similarity": 1.0,
+                    "Sequence": "KLALKAAAKAWKAAAKAA"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04037",
+                    "Similarity": 1.0,
+                    "Sequence": "KAAHVG"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_15903",
+                    "Similarity": 1.0,
+                    "Sequence": "KAAK"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=>200 µM",
+            "Target Organism": "Escherichia coli(MIC=91µM),Pseudomonas aeruginosa(MIC=>91µM),Staphylococcus aureus(MIC=>91µM)"
+        }
+    }
+}

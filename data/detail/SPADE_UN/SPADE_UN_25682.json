@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_25682": {
+        "Sequence Information": {
+            "Peptide Name": "Aranetoxin-Ab3a",
+            "Sequence": "KEPRLLCRQCVRMILNVEKL",
+            "Sequence Length": 20,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "In silico identification of novel antimicrobial peptides from the venom gland transcriptome of the spider Argiope bruennichi (Scopoli, 1772).",
+                    "Pubmed ID": "37577428",
+                    "Reference": "Front Microbiol. 2023;14:1249175",
+                    "Author": "Shin MK, Hwang IW, Jang BY, Bu KB, Yoo JS, Sung JS",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/37577428"
+                }
+            ],
+            "Mass": 2442.02,
+            "PI": 9.5,
+            "Net Charge": 3,
+            "Hydrophobicity": -0.1,
+            "Frequent Amino Acids": "LRC",
+            "Absent Amino Acids": "ADFGHOSTUWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 10,
+            "Positive Residues": 5,
+            "Negative Residues": 2,
+            "SPADE ID": "SPADE_UN_25682",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_25682",
+                    "Similarity": 1.0,
+                    "Sequence": "KEPRLLCRQCVRMILNVEKL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_18788",
+                    "Similarity": 0.625,
+                    "Sequence": "GCRRLLGRLLRRLGRLLCR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_18791",
+                    "Similarity": 0.625,
+                    "Sequence": "GCRRLCGRLGRRLCRLLCR"
+                }
+            ],
+            "Hemolytic Activity": "Human keratinocytes HaCat:50% Cell death=64 µM,Human adipose-derived mesenchymal cells ADMSC:25% Cell death=64 µM",
+            "Target Organism": "Bacillus cereus KCCM 21366(MIC90=2µM),Staphylococcus aureus KCCM 11335(MIC90=64µM),Escherichia coli KCCM 11234(MIC90=4µM),Pseudomonas aeruginosa ATCC 9027(MIC=4µM),Pseudomonas aeruginosa CCARM 2007(MIC90=16µM),Pseudomonas aeruginosa CCARM 2095(MIC90=4µM),Candida albicans ATCC 10231(MIC=32µM),Fusarium oxysporum KCCM 60555(MIC90=16µM)"
+        }
+    }
+}

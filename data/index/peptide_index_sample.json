@@ -1,0 +1,112 @@
+[
+  {
+    "id": "AMP001",
+    "name": "Melittin",
+    "sequence": "GIGAVLKVLTTGLPALISWIKRKRQQ",
+    "length": 26,
+    "activity_type": "gram-positive,gram-negative,broad-spectrum",
+    "target_organisms": ["Staphylococcus aureus", "Escherichia coli", "Pseudomonas aeruginosa"],
+    "charge": "positive",
+    "hydrophobicity": "amphipathic",
+    "secondary_structure": "alpha-helix"
+  },
+  {
+    "id": "AMP002",
+    "name": "Defensin HNP-1",
+    "sequence": "ACYCRIPACIAGERRYGTCIYQGRLWAFCC",
+    "length": 30,
+    "activity_type": "gram-positive,gram-negative",
+    "target_organisms": ["Staphylococcus aureus", "Escherichia coli"],
+    "charge": "positive",
+    "hydrophobicity": "hydrophilic",
+    "secondary_structure": "beta-sheet"
+  },
+  {
+    "id": "AMP003",
+    "name": "LL-37",
+    "sequence": "LLGDFFRKSKEKIGKEFKRIVQRIKDFLRNLVPRTES",
+    "length": 37,
+    "activity_type": "broad-spectrum,antifungal",
+    "target_organisms": ["Staphylococcus aureus", "Escherichia coli", "Candida albicans"],
+    "charge": "positive",
+    "hydrophobicity": "amphipathic",
+    "secondary_structure": "alpha-helix"
+  },
+  {
+    "id": "AMP004",
+    "name": "Magainin 2",
+    "sequence": "GIGKFLHSAKKFGKAFVGEIMNS",
+    "length": 23,
+    "activity_type": "gram-negative,antifungal",
+    "target_organisms": ["Escherichia coli", "Pseudomonas aeruginosa", "Candida albicans"],
+    "charge": "positive",
+    "hydrophobicity": "amphipathic",
+    "secondary_structure": "alpha-helix"
+  },
+  {
+    "id": "AMP005",
+    "name": "Cecropin A",
+    "sequence": "KWKLFKKIEKVGQNIRDGIIKAGPAVAVVGQATQIAK",
+    "length": 37,
+    "activity_type": "gram-negative,antiviral",
+    "target_organisms": ["Escherichia coli", "Pseudomonas aeruginosa", "HIV"],
+    "charge": "positive",
+    "hydrophobicity": "amphipathic",
+    "secondary_structure": "alpha-helix"
+  },
+  {
+    "id": "AMP006",
+    "name": "Histatin 5",
+    "sequence": "DSHAKRHHGYKRKFHEKHHSHRGY",
+    "length": 24,
+    "activity_type": "antifungal",
+    "target_organisms": ["Candida albicans", "Aspergillus fumigatus"],
+    "charge": "positive",
+    "hydrophobicity": "hydrophilic",
+    "secondary_structure": "random-coil"
+  },
+  {
+    "id": "AMP007",
+    "name": "Lactoferricin B",
+    "sequence": "FKCRRWQWRMKKLGAPSITCVRRAF",
+    "length": 25,
+    "activity_type": "gram-positive,gram-negative,broad-spectrum",
+    "target_organisms": ["Staphylococcus aureus", "Escherichia coli", "Klebsiella pneumoniae"],
+    "charge": "positive",
+    "hydrophobicity": "amphipathic",
+    "secondary_structure": "beta-sheet"
+  },
+  {
+    "id": "AMP008",
+    "name": "Indolicidin",
+    "sequence": "ILPWKWPWWPWRR",
+    "length": 13,
+    "activity_type": "gram-positive,gram-negative,antifungal",
+    "target_organisms": ["Staphylococcus aureus", "Escherichia coli", "Candida albicans"],
+    "charge": "positive",
+    "hydrophobicity": "hydrophobic",
+    "secondary_structure": "random-coil"
+  },
+  {
+    "id": "AMP009",
+    "name": "Bactenecin",
+    "sequence": "RLCRIVVIRVCR",
+    "length": 12,
+    "activity_type": "gram-negative",
+    "target_organisms": ["Escherichia coli", "Pseudomonas aeruginosa"],
+    "charge": "positive",
+    "hydrophobicity": "hydrophobic",
+    "secondary_structure": "beta-sheet"
+  },
+  {
+    "id": "AMP010",
+    "name": "Protegrin-1",
+    "sequence": "RGGRLCYCRRRFCVCVGR",
+    "length": 18,
+    "activity_type": "gram-positive,gram-negative,antifungal,antiviral",
+    "target_organisms": ["Staphylococcus aureus", "Escherichia coli", "Candida albicans", "HIV"],
+    "charge": "positive",
+    "hydrophobicity": "amphipathic",
+    "secondary_structure": "beta-sheet"
+  }
+] 

@@ -1,0 +1,79 @@
+{
+    "SPADE_N_00400": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00400",
+            "Peptide Name": "Defensin Tk-AMP-D6.1 (Plant defensin)",
+            "Source": "Triticum kiharae (Wheat)",
+            "Family": "Belongs to the DEFL family",
+            "Gene": "Not found",
+            "Sequence": "RECRSQSKQFVGLCVSDTNCASVCLTEHFPGGKCDGYRRCFCTKDC",
+            "Sequence Length": 46,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P84969"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antifungal"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C211H334N66O68S8",
+            "Mass": 5139.83,
+            "PI": 8.21,
+            "Net Charge": 3,
+            "Hydrophobicity": -0.44,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Function": "Plant defense peptide (By similarity).",
+            "PTM": "Contains four disulfide bonds 3-46; 14-34; 20-40; 24-42 (By similarity).",
+            "Literature": [
+                {
+                    "Title": "Seed defensins from T. kiharae and related species genome localization of defensin-encoding genes.",
+                    "Pubmed ID": "17321030",
+                    "Reference": "Biochimie. 2007 May;89(5)605-612.",
+                    "Author": "Odintsova TI, Egorov TA, Musolyamov AKh, Odintsova MS, Pukhalsky VA, Grishin EV.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=17321030"
+                },
+                {
+                    "Title": "Seed defensins from T. kiharae and related species: Genome localization of defensin-encoding genes.",
+                    "Pubmed ID": "R2007J1165",
+                    "Author": "Pukhalsky V.A.,Odintsova M.S.,Musolyamov A.K.,Egorov T.A.,Odintsova T.I."
+                }
+            ],
+            "Frequent Amino Acids": "CGR",
+            "Absent Amino Acids": "IMOUW",
+            "Basic Residues": 8,
+            "Acidic Residues": 5,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 31,
+            "Positive Residues": 8,
+            "Negative Residues": 5,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00399",
+                    "Similarity": 0.9565217391304348,
+                    "Sequence": "RDCRSQSKTFVGLCVSDTNCASVCLTEHFPGGKCDGYRRCFCTKDC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00398",
+                    "Similarity": 0.9347826086956522,
+                    "Sequence": "RECRSESKKFVGLCVSDTNCASVCLTERFPGGKCDGYRRCFCTKDC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00397",
+                    "Similarity": 0.7555555555555555,
+                    "Sequence": "RDCTSQSHKFVGLCLSDRNCASVCLTEYFTGGKCDHRRCVCTKGC"
+                }
+            ]
+        }
+    }
+}

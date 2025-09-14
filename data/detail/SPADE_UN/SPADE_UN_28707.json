@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_28707": {
+        "Sequence Information": {
+            "Peptide Name": "Lingual antimicrobial peptide (21-64)",
+            "Sequence": "FTQGVGNPVSCARNKGICVPSRCPGNNRQIGTCLGPPVKCCRRK",
+            "Sequence Length": 44,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "Q1PAH7",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/Q1PAH7",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Molecular cloning and characterization of lingual antimicrobial peptide cDNA of Bubalus bubalis.",
+                    "Pubmed ID": "18558415",
+                    "Reference": "Res Vet Sci. 2009;86:91-97",
+                    "Author": "Kalita DJ, Kumar A",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/18558415"
+                }
+            ],
+            "Mass": 4673.48,
+            "PI": 10.0,
+            "Net Charge": 8,
+            "Hydrophobicity": -0.44,
+            "Frequent Amino Acids": "CGP",
+            "Absent Amino Acids": "DEHMOUWY",
+            "Basic Residues": 8,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 15,
+            "Polar Residues": 29,
+            "Positive Residues": 8,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_28707",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07621",
+                    "Similarity": 1.0,
+                    "Sequence": "LLALLFLVLSAGSGFTQGVGNPVSCARNKGICVPSR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_28707",
+                    "Similarity": 1.0,
+                    "Sequence": "FTQGVGNPVSCARNKGICVPSRCPGNNRQIGTCLGPPVKCCRRK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07468",
+                    "Similarity": 0.9722222222222222,
+                    "Sequence": "NPVSCARNKGICVPSRCPGNMRQIGTCLGPPVKCCR"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Staphylococcus aureus(MIC=12µM),Listeria monocytogenes(MIC=12µM),Escherichia coli(MIC=16µM),Salmonella typhimurium(MIC=16µM)"
+        }
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_27498": {
+        "Sequence Information": {
+            "Peptide Name": "Anoplin [R5I]",
+            "Sequence": "GLLKIIKTLL",
+            "Sequence Length": 10,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P0C005",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P0C005",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Structure-activity relationship study of anoplin.",
+                    "Pubmed ID": "15635634",
+                    "Reference": "J Pept Sci. 2005;11:113-121",
+                    "Author": "Ifrah D, Doisy X, Ryge TS, Hansen PR",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/15635634"
+                }
+            ],
+            "Mass": 1111.46,
+            "PI": 10.0,
+            "Net Charge": 2,
+            "Hydrophobicity": 1.53,
+            "Frequent Amino Acids": "LIK",
+            "Absent Amino Acids": "ACDEFHMNOPQRSUVWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 4,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_27498",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01477",
+                    "Similarity": 1.0,
+                    "Sequence": "ILGPILGLVSNAGGLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01561",
+                    "Similarity": 1.0,
+                    "Sequence": "FLPFVGNLLNGLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01563",
+                    "Similarity": 1.0,
+                    "Sequence": "FLPIAGKLLSGLSGLL"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=29 µg/ml",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=2µg/ml),Staphylococcus aureus ATCC 25923(MIC=2µg/ml)"
+        }
+    }
+}

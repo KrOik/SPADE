@@ -1,0 +1,73 @@
+{
+    "SPADE_N_00882": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00882",
+            "Peptide Name": "Hellethionin-D (Plant defensin)",
+            "Source": "Helleborus purpurascens (Purple hellebore)",
+            "Family": "Belongs to the thionin family",
+            "Gene": "Not found",
+            "Sequence": "KSCCRNTLARNCYNACRFTGGSQPTCGILCDCIHVTTTTCPSSHPS",
+            "Sequence Length": 46,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P60057"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Cytotoxic"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C198H320N64O66S8",
+            "Mass": 4909.57,
+            "PI": 8.53,
+            "Net Charge": 5,
+            "Hydrophobicity": -0.22,
+            "Half Life": "Mammalian:1.3 hourYeast:3 minE.coli:2 min",
+            "Function": "Thionins are small plant proteins which are toxic to animal cells. They seem to exert their toxic effect at the level of the cell membrane.",
+            "PTM": "Contains four disulfide bonds 3-40; 4-32; 12-30; 16-26.",
+            "Literature": [
+                {
+                    "Title": "Structural characterization of hellethionins from Helleborus purpurascens.",
+                    "Pubmed ID": "12600207",
+                    "Reference": "Biochemistry. 2003 Mar 4;42(8)2404-2411.",
+                    "Author": "Milbradt AG, Kerek F, Moroder L, Renner C.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=12600207"
+                }
+            ],
+            "Frequent Amino Acids": "CTS",
+            "Absent Amino Acids": "EMOUW",
+            "Basic Residues": 6,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 34,
+            "Positive Residues": 6,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00879",
+                    "Similarity": 0.8,
+                    "Sequence": "KSCCRNTTARNCYNVCRIPG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00902",
+                    "Similarity": 0.5869565217391305,
+                    "Sequence": "KSCCRNTWARNCYNVCRLPGTISREICAKKCDCKIISGTTCPSDYPK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08491",
+                    "Similarity": 0.5789473684210527,
+                    "Sequence": "CCRNTWARNCYNVCRLPGTISREICAKKCDCKIISGTTC"
+                }
+            ]
+        }
+    }
+}

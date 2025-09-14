@@ -1,0 +1,73 @@
+{
+    "SPADE_N_06010": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_06010",
+            "Peptide Name": "Pxt‐5",
+            "Source": "Xenopus tropicalis",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "FIGALLGPLLNLLK",
+            "Sequence Length": 14,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.25312021]Gram-negative bacteria:Escherichia coli DH5α(Not active up to 150 µg/ml);Gram-positive bacteria:Staphylococcus aureus JCM 2151(Not active up to 150 µg/ml).",
+            "Hemolytic Activity": "[Ref.25312021]10.5% Hemolysis against Rat erythrocytes at 20 µM.",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "37.4%,36.5%,34.6% α-helix were mearsured by CD spectra at 10 °C, 25 °C and 37 °C in 10 mm Tris-HCl (pH 7.2).",
+            "Formula": "C73H124N16O16",
+            "Mass": 1481.86,
+            "PI": 8.75,
+            "Net Charge": 1,
+            "Hydrophobicity": 1.58,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Function": "showed growth inhibitory effects on both Escherichia coli (Gram-negative) and Staphylococcus aureus (Gram-positive).",
+            "Literature": [
+                {
+                    "Title": "Identification of novel peptides from amphibian (Xenopus tropicalis) skin by direct tissue MALDI-MS analysis.",
+                    "Pubmed ID": "25312021",
+                    "Reference": "FEBS J. 2015 Jan;282(1)102-13.",
+                    "Author": "Shigeri Y, Yasuda A, Hagihara Y, Nishi K, Watanabe K, Imura T, Inagaki H, Haramoto Y, Ito Y, Asashima M.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=25312021"
+                }
+            ],
+            "Frequent Amino Acids": "LGA",
+            "Absent Amino Acids": "CDEHMOQRSTUVWY",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 3,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_11772",
+                    "Similarity": 1.0,
+                    "Sequence": "NLLKSALKTVNKLLAAS"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_19334",
+                    "Similarity": 1.0,
+                    "Sequence": "NLLKSALKTVNKLLAAS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11239",
+                    "Similarity": 0.8571428571428571,
+                    "Sequence": "PLLKKLLKKP"
+                }
+            ]
+        }
+    }
+}

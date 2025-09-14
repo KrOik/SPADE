@@ -1,0 +1,74 @@
+{
+    "SPADE_N_01754": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01754",
+            "Peptide Name": "Brevinin-2Ra (Frogs, amphibians, animals)",
+            "Source": "Pelophylax ridibundus (Marsh frog) (Rana ridibunda)",
+            "Family": "Belongs to the frog skin active peptide family (Brevinin subfamily)",
+            "Gene": "Not found",
+            "Sequence": "GILDSLKNFAKDAAGILLKKASCKLSGQC",
+            "Sequence Length": 29,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P86022"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C131H226N36O39S2",
+            "Mass": 2993.54,
+            "PI": 9.24,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.2,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Antimicrobial peptide. (By similarity)",
+            "Tissue specificity": "Expressed by the skin glands.",
+            "PTM": "contains one disulfide bond 23-29.",
+            "Literature": [
+                {
+                    "Title": "De novo sequencing of peptides secreted by the skin glands of the Caucasian Green Frog Rana ridibunda.",
+                    "Pubmed ID": "18855342",
+                    "Reference": "Rapid Commun Mass Spectrom. 2008 Nov;22(22)3517-3525.",
+                    "Author": "Samgina TY, Artemenko KA, Gorshkov VA, Ogourtsov SV, Zubarev RA, Lebedev AT.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=18855342"
+                }
+            ],
+            "Frequent Amino Acids": "KLA",
+            "Absent Amino Acids": "EHMOPRTUVWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 16,
+            "Positive Residues": 5,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01757",
+                    "Similarity": 0.8620689655172413,
+                    "Sequence": "GILDSLKNLAKNAAQILLNKASCKLSGQC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05807",
+                    "Similarity": 0.8518518518518519,
+                    "Sequence": "GILDSLKNLAKGQILLNKASCKLSGQC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01721",
+                    "Similarity": 0.8275862068965517,
+                    "Sequence": "GILDSLKNLAKNAGQILLNKASCKLSGQC"
+                }
+            ]
+        }
+    }
+}

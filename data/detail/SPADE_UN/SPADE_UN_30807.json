@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_30807": {
+        "Sequence Information": {
+            "Peptide Name": "",
+            "Sequence": "GVVVRVGRVVVRWVRR",
+            "Sequence Length": 16,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Structure-function relationship of Val/Arg-rich peptides: effects of net charge and pro on activity.",
+                    "Pubmed ID": "24649883",
+                    "Reference": "Chem Biol Drug Des. 2014;84:348-353",
+                    "Author": "Ma Q, Lv Y, Dong N, Zhu X, Shan A, Jiao W",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/24649883"
+                }
+            ],
+            "Mass": 1892.3,
+            "PI": 12.0,
+            "Net Charge": 5,
+            "Hydrophobicity": 0.59,
+            "Frequent Amino Acids": "VRG",
+            "Absent Amino Acids": "ACDEFHIKLMNOPQSTUY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 8,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_30807",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_11500",
+                    "Similarity": 1.0,
+                    "Sequence": "GVVVRVGRVVVRWV"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11502",
+                    "Similarity": 1.0,
+                    "Sequence": "GVVVRVGRVVVRWVRRRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_30806",
+                    "Similarity": 1.0,
+                    "Sequence": "GVVVRVGRVVVRWV"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=94 µM",
+            "Target Organism": "Enterococcus faecalis(MIC=4µM),Staphylococcus aureus(MIC=2µM),Staphylococcus epidermidis(MIC=2µM),Escherichia coli ATCC 25922(MIC=2µM),Salmonella typhimurium(MIC=4µM),Salmonella enterica subsp. enterica serovar Pullorum(MIC=2µM)"
+        }
+    }
+}

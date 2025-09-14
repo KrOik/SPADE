@@ -1,0 +1,67 @@
+{
+    "SPADE_UN_30325": {
+        "Sequence Information": {
+            "Peptide Name": "Pc-CATH1 (1-15), LR12",
+            "Sequence": "RIKRFWPVVIRTVVA",
+            "Sequence Length": 15,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "D1MJ07",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/D1MJ07",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Structure-function relationship of antimicrobial peptide cathelicidin  Pc-CATH1",
+                    "Pubmed ID": "",
+                    "Reference": "Nat Prod Bioprospect. 2012;2:81-86",
+                    "Author": "Dong L, Yang J, Wang Y, Liu H, Mu L, Lin D, Lai R",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/"
+                }
+            ],
+            "Mass": 1840.26,
+            "PI": 12.0,
+            "Net Charge": 4,
+            "Hydrophobicity": 0.65,
+            "Frequent Amino Acids": "VRI",
+            "Absent Amino Acids": "CDEGHLMNOQSUY",
+            "Basic Residues": 4,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 7,
+            "Positive Residues": 4,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_30325",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02198",
+                    "Similarity": 1.0,
+                    "Sequence": "RIKRFWPVVIRTVVAGYNLYRAIKKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06546",
+                    "Similarity": 1.0,
+                    "Sequence": "IRIKIRIKIRIK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11126",
+                    "Similarity": 1.0,
+                    "Sequence": "RIKRFWPVVIRTV"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:8% Hemolysis=200 µg/ml",
+            "Target Organism": "Escherichia coli ATCC 25922(no activity data),Bacillus subtilis(no activity data),Staphylococcus aureus ATCC 25923(no activity data),Candida albicans ATCC 2002(no activity data)"
+        }
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "SPADE_N_05697": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_05697",
+            "Peptide Name": "(AU)2K (Aurein 1.2 peptide derivative)",
+            "Source": "Litoria raniformis (Southern bell frog)",
+            "Family": "Derived from Aurein 1.2",
+            "Gene": "Not found",
+            "Sequence": "GLFDIIKKIAESFKFSEAIKKIIDFLG",
+            "Sequence Length": 27,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.23519707]Gram-negative bacterium:Escherichia coli (MIC=128 μmol/L)",
+            "Hemolytic Activity": "[Ref.23519707]~30% hemolysis at 32μmol/L, 10% hemolysis at 4 μmol/L against human red blood cells.",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C148H236N32O38",
+            "Mass": 3071.65,
+            "PI": 8.38,
+            "Net Charge": 1,
+            "Hydrophobicity": 0.5,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Antibacterial activity against Gram-negative bacteria, Has hemolytic activity.",
+            "Literature": [
+                {
+                    "Title": "Dimerization of aurein 1.2 effects in structure, antimicrobial activity and aggregation of C?ndida albicans cells",
+                    "Pubmed ID": "23519707",
+                    "Reference": "Amino Acids. 2013 Jun;44(6)1521-8.",
+                    "Author": "Lorenzón EN, Sanches PR, Nogueira LG, Bauab TM, Cilli EM",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=23519707"
+                }
+            ],
+            "Frequent Amino Acids": "IKF",
+            "Absent Amino Acids": "CHMNOPQRTUVWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 4,
+            "Hydrophobic Residues": 14,
+            "Polar Residues": 9,
+            "Positive Residues": 5,
+            "Negative Residues": 4,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01461",
+                    "Similarity": 1.0,
+                    "Sequence": "GLFDIIKKIAESF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05696",
+                    "Similarity": 1.0,
+                    "Sequence": "FSEAIKKIIDFLGEGLFDIIKKIAESF"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_01707",
+                    "Similarity": 1.0,
+                    "Sequence": "GLFDIIKKIAES"
+                }
+            ]
+        }
+    }
+}

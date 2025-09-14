@@ -1,0 +1,66 @@
+{
+    "SPADE_N_14705": {
+        "Sequence Information": {
+            "Peptide Name": "Chaxapeptin",
+            "Sequence": "GFGSKPLDSFGLNFF",
+            "Sequence Length": 15,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anticancer"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "1. Streptomyces leeuwenhoekii",
+            "Gene": "1. ls3A",
+            "PDB ID": "2N5C",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "A0A0F7VRL1",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/A0A0F7VRL1",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Chaxapeptin, a Lasso Peptide from Extremotolerant Streptomyces leeuwenhoekii Strain C58 from the Hyperarid Atacama Desert.",
+                    "Pubmed ID": "26402731",
+                    "Reference": "J Org Chem. 2015;80::10252-10260",
+                    "Author": "Elsayed SS, Trusch F, Deng H, Raab A, Prokes I, Busarakam K, Asenjo JA, Andrews BA, van West P, Bull AT, Goodfellow M, Yi Y, Ebel R, Jaspars M, Rateb ME",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/26402731"
+                }
+            ],
+            "Mass": 1632.81,
+            "PI": 5.84,
+            "Net Charge": 0,
+            "Hydrophobicity": 0.23,
+            "Frequent Amino Acids": "FGL",
+            "Absent Amino Acids": "ACEHIMOQRTUVWY",
+            "Basic Residues": 1,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 9,
+            "Positive Residues": 1,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_N_14705",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_10111",
+                    "Similarity": 1.0,
+                    "Sequence": "GFGGFG"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_11359",
+                    "Similarity": 1.0,
+                    "Sequence": "GFGSKPLDSFGLNFF"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_29041",
+                    "Similarity": 1.0,
+                    "Sequence": "GFGGFG"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Staphylococcus aureus ATCC 25923(MIC=30-35µg/ml),Bacillus subtilis NCTC 2116(MIC=30-35µg/ml),Escherichia coli ATCC 25922(no activity data),Human lung carcinoma A549(20-30% Inhibition=5µM),Human lung carcinoma A549(50-60% Inhibition=50µM)"
+        }
+    }
+}

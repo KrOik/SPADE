@@ -1,0 +1,75 @@
+{
+    "SPADE_N_05493": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_05493",
+            "Peptide Name": "Cathelicidin-related peptide crotalicidin",
+            "Source": "Crotalus durissus terrificus (South American rattlesnake)",
+            "Family": "Belongs to the cathelicidin family.",
+            "Gene": "Not found",
+            "Sequence": "KRFKKFFKKVKKSVKKRLKKIFKKPMVIGVTIPF",
+            "Sequence Length": 34,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/U5KJM4"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.25100358]Gram-negative:E.coli ATCC 25922 (MIC=0.25 μg/mL),P.aeruginosa (MIC=1 μg/mL);Gram-positive:E.faecalis (MIC=32 μg/mL), S.aureus (MIC=32 μg/mL).",
+            "Hemolytic Activity": "[Ref.25100358] Crotalicidin reached 10% hemolysis at 25 μM. Even so, extrapolation of existing data indicates that 50% hemolysis would be reached at near-millimolar values, which defines an adequate (~2 log) selectivity window.",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "cell membrane",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C203H345N53O37S",
+            "Mass": 4152.31,
+            "PI": 12.0,
+            "Net Charge": 15,
+            "Hydrophobicity": -0.44,
+            "Half Life": "Mammalian:1.3 hourYeast:3 minE.coli:2 min",
+            "Function": "Adopts an amphipathic alpha helical conformation, that may allow to partition into the target membrane (By similarity). Hemolytic activities have been observed on mammalian cells. Expressed by the venom gland.",
+            "Literature": [
+                {
+                    "Title": "Vipericidins a novel family of cathelicidin-related peptides fromthe venom gland of South American pit vipers.",
+                    "Pubmed ID": "25100358",
+                    "Reference": "Amino Acids 462561-2571(2014)",
+                    "Author": "Falcao C.B., de La Torre B.G., Perez-Peinado C., Barron A.E.,Andreu D., Radis-Baptista G.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=25100358"
+                }
+            ],
+            "Frequent Amino Acids": "KFV",
+            "Absent Amino Acids": "ACDEHNOQUWY",
+            "Basic Residues": 15,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 16,
+            "Polar Residues": 21,
+            "Positive Residues": 15,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06401",
+                    "Similarity": 1.0,
+                    "Sequence": "KRFKKFFKKVKKSV"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05987",
+                    "Similarity": 1.0,
+                    "Sequence": "KKRLKKIFKKPMVIGVTIPF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_13983",
+                    "Similarity": 1.0,
+                    "Sequence": "FFKKVKKSVKKRLKKIFKKPMVI"
+                }
+            ]
+        }
+    }
+}

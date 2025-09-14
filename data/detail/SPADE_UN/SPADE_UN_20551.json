@@ -1,0 +1,64 @@
+{
+    "SPADE_UN_20551": {
+        "Sequence Information": {
+            "Peptide Name": "Hepatitis B virus Capsid protein (150-177)",
+            "Sequence": "RRRGRSPRRRTPSPRRRRSQSPRRRRSQ",
+            "Sequence Length": 28,
+            "Biological Activity": [
+                "Anti-Gram+"
+            ],
+            "Binding Target": "",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "G9G8L1",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/G9G8L1",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Adding a C-terminal Cysteine (CTC) Can Enhance the Bactericidal Activity of Three Different Antimicrobial Peptides.",
+                    "Pubmed ID": "30002652",
+                    "Reference": "Front Microbiol. 2018;9:",
+                    "Author": "Chen HL, Su PY, Kuo SC, Lauderdale TY, Shih C",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/30002652"
+                }
+            ],
+            "Mass": 3599.06,
+            "PI": 12.0,
+            "Net Charge": 15,
+            "Hydrophobicity": -3.07,
+            "Frequent Amino Acids": "RSP",
+            "Absent Amino Acids": "ACDEFHIKLMNOUVWY",
+            "Basic Residues": 15,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 0,
+            "Polar Residues": 28,
+            "Positive Residues": 15,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_20551",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_10932",
+                    "Similarity": 1.0,
+                    "Sequence": "RRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11276",
+                    "Similarity": 1.0,
+                    "Sequence": "TVVRRRGRSPRRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11277",
+                    "Similarity": 1.0,
+                    "Sequence": "RRRTPSPRRRRSQSPRRRRS"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Staphylococcus aureus ATCC 19636(no activity data),Staphylococcus aureus ATCC 25923(no activity data),Staphylococcus aureus ATCC 29213(no activity data)"
+        }
+    }
+}

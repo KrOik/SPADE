@@ -1,0 +1,74 @@
+{
+    "SPADE_UN_00426": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_00426",
+            "Peptide Name": "C-6 (analog of P18)",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "KWKLFKKIPKFLHLA",
+            "Sequence Length": 15,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antitumor"
+            ],
+            "Target Organism": "Gram-negative bacteria:Escherichia coli KCTC 1682 (MIC=6.25-12.5 µM), Pseudomonas aeruginosa KCTC 1637 (MIC=6.25 µM), Proteus vulgaris (MIC=3.125 µM).Gram-positive bacteria:Bacillus subtilis KCTC 1918 (MIC=0.78 µM), Staphylococcus aureus KCTC 1621 (MIC=6.25 µM), Bacillus megaterium KCTC 1096 (MIC=3.125 µM).Tumor cells:MDA-MB-361 (IC50=47.0 µM), Jurkat (IC50=21.0 µM), K-562 (IC50=27.0 µM), Normal cells NIH 3T3 (IC50=100.0 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C97H153N23O16",
+            "Mass": 1897.4,
+            "PI": 10.6,
+            "Net Charge": 6,
+            "Hydrophobicity": -0.13,
+            "Half Life": "Mammalian:1.3 hourYeast:3 minE.coli:2 min",
+            "Function": "Has antibacterial activiy against Gram-negative and Gram-positive bacteria. Also has antitumor activity.",
+            "Literature": [
+                {
+                    "Title": "Antibacterial, antitumor and hemolytic activities of alpha-helical antibiotic peptide, P18 and its analogs.",
+                    "Pubmed ID": "12005420",
+                    "Reference": "J Pept Res. 2001 Dec;58(6)504-514.",
+                    "Author": "Shin SY, Lee SH, Yang ST, Park EJ, Lee DG, Lee MK, Eom SH, Song WK, Kim Y, Hahm KS, Kim JI.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=12005420"
+                }
+            ],
+            "Frequent Amino Acids": "KLF",
+            "Absent Amino Acids": "CDEGMNOQRSTUVY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 7,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_05754",
+                    "Similarity": 1.0,
+                    "Sequence": "KWKLFKKI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06249",
+                    "Similarity": 1.0,
+                    "Sequence": "KWKFKKIPKFLHLAKKF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06638",
+                    "Similarity": 1.0,
+                    "Sequence": "FAKKLAKKLKKLAKKLAKKWKL"
+                }
+            ]
+        }
+    }
+}

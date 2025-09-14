@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_23523": {
+        "Sequence Information": {
+            "Peptide Name": "(WRW)2",
+            "Sequence": "WRWWRW",
+            "Sequence Length": 6,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "New Antimicrobial Peptides with Repeating Unit against Multidrug-Resistant Bacteria.",
+                    "Pubmed ID": "33829758",
+                    "Reference": "ACS Infect Dis. 2021;7:1619-1637",
+                    "Author": "Zhong C, et al.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/33829758"
+                }
+            ],
+            "Mass": 1075.23,
+            "PI": 12.0,
+            "Net Charge": 2,
+            "Hydrophobicity": -2.1,
+            "Frequent Amino Acids": "WR",
+            "Absent Amino Acids": "ACDEFGHIKLMNOPQSTUVY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 0,
+            "Polar Residues": 6,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_23523",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06780",
+                    "Similarity": 1.0,
+                    "Sequence": "FPVTWRWWRWWRG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07227",
+                    "Similarity": 1.0,
+                    "Sequence": "WRWRWRWRW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08320",
+                    "Similarity": 1.0,
+                    "Sequence": "FKCWRWQWRWKKLGAKVFKRLEKLFSKI"
+                }
+            ],
+            "Hemolytic Activity": "Mouse erythrocytes:10% Hemolysis=256 µM,Human embryonic kidney HEK293T cells:50% Cell death=>128 µM",
+            "Target Organism": "Acinetobacter baumannii ATCC 19606(MIC=32µM),Pseudomonas aeruginosa ATCC 27853(MIC=16µM),Pseudomonas aeruginosa ATCC 9027(MIC=16µM),Klebsiella pneumoniae ATCC 700603(MIC=128µM),Escherichia coli 780(MIC=32µM),Escherichia coli 804(MIC=64µM),Acinetobacter baumannii 9931(MIC=128µM),Acinetobacter baumannii 97830(MIC=32µM),Pseudomonas aeruginosa 50(MIC=32µM),Staphylococcus epidermidis ATCC 12228(MIC=4µM),Staphylococcus aureus ATCC 29213(MIC=8µM),Bacillus subtilis ATCC 23857(MIC=4µM),Staphylococcus aureus 75(MIC=8µM),Escherichia coli ATCC 25922(MIC=32µM),Escherichia coli ATCC 25922(MIC=128µM),Escherichia coli ATCC 25922(MIC=64µM),Staphylococcus aureus ATCC 25923(MIC=8µM),Staphylococcus aureus ATCC 25923(MIC=16µM)"
+        }
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "SPADE_N_03431": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03431",
+            "Peptide Name": "Defensin like 3 (Predicted)",
+            "Source": "Equus caballus (Horse)",
+            "Family": "Not found",
+            "Gene": "defl3",
+            "Sequence": "MRLLFLLFLLLVCLIQMASGHEKTGRKHECQNMGGACKHQKTHGCAILPADCKSRNKHCCRV",
+            "Sequence Length": 62,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q0W9Q3"
+            ],
+            "Protein Existence": "Predicted",
+            "Biological Activity": [
+                "Antimicrobial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C298H497N95O78S10",
+            "Mass": 6979.37,
+            "PI": 9.36,
+            "Net Charge": 12,
+            "Hydrophobicity": -0.07,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Sequence analysis of a 212 kb defensin gene cluster on ECA 27q17.",
+                    "Pubmed ID": "16723195",
+                    "Reference": "Gene. 2006 Jul 19;376(2)192-198.",
+                    "Author": "Looft C, Paul S, Philipp U, Regenhard P, Kuiper H, Distl O, Chowdhary BP, Leeb T.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16723195"
+                }
+            ],
+            "Frequent Amino Acids": "LCK",
+            "Absent Amino Acids": "OUWY",
+            "Basic Residues": 15,
+            "Acidic Residues": 3,
+            "Hydrophobic Residues": 23,
+            "Polar Residues": 37,
+            "Positive Residues": 15,
+            "Negative Residues": 3,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02528",
+                    "Similarity": 0.7903225806451613,
+                    "Sequence": "MRLLFLLFLLLVCLVQMTSGREKRRKSLECERMGGVCKHQKTHGCSILPAECKSRNKHCCRV"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03747",
+                    "Similarity": 0.7142857142857143,
+                    "Sequence": "RPCEKMGGICKSQKTHGCSILPAECKSRYKHCCRL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02949",
+                    "Similarity": 0.5952380952380952,
+                    "Sequence": "RKRNSKFRPCEKMGGICKSQKTHGCSILPAECKSRYKHCCRL"
+                }
+            ]
+        }
+    }
+}

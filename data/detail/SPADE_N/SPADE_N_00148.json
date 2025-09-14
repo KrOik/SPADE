@@ -1,0 +1,75 @@
+{
+    "SPADE_N_00148": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00148",
+            "Peptide Name": "Lactococcin-B (LCN-B; Bacteriocin)",
+            "Source": "Lactococcus lactis subsp (Streptococcus cremoris) (Gram-positive bacteria)",
+            "Family": "Belongs to the class IId bacteriocin",
+            "Gene": "lcnB",
+            "Sequence": "SLQYVMSAGPYTWYKDTRTGKTICKQTIDTASYTFGVMAEGWGKTFH",
+            "Sequence Length": 47,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P35518"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "Lactococcus.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Cell membrane",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C241H358N60O71S3",
+            "Mass": 5327.98,
+            "PI": 8.89,
+            "Net Charge": 3,
+            "Hydrophobicity": -0.44,
+            "Half Life": "Mammalian:1.9 hourYeast:>20 hourE.coli:>10 hour",
+            "Mechanism of action": "Kills Lactococci by dissipating the membrane potential of the cells.",
+            "Literature": [
+                {
+                    "Title": "Cloning, sequencing, and expression in Escherichia coli of lcnB, a third bacteriocin determinant from the lactococcal bacteriocin plasmid p9B4-6.",
+                    "Pubmed ID": "1610182",
+                    "Reference": "Appl Environ Microbiol. 1992 Feb;58(2)572-577.",
+                    "Author": "van Belkum MJ, Kok J, Venema G.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=1610182"
+                },
+                {
+                    "Title": "Mutational analysis and chemical modification of Cys24 of lactococcin B, a bacteriocin produced by Lactococcus lactis.",
+                    "Pubmed ID": "8885398",
+                    "Reference": "Microbiology. 1996 Oct;142 (Pt 10)2825-2830.",
+                    "Author": "Venema K, Dost MH, Venema G, Kok J.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=8885398"
+                }
+            ],
+            "Frequent Amino Acids": "TGK",
+            "Absent Amino Acids": "NOU",
+            "Basic Residues": 6,
+            "Acidic Residues": 3,
+            "Hydrophobic Residues": 19,
+            "Polar Residues": 29,
+            "Positive Residues": 6,
+            "Negative Residues": 3,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06094",
+                    "Similarity": 1.0,
+                    "Sequence": "MKNQLNFNIVSDEELAEVNGGSLQYVMSAGPYTWYKDTRTGKTICKQTIDTASYTFGVMAEGWGKTFH"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_13490",
+                    "Similarity": 0.9787234042553191,
+                    "Sequence": "SLQYVMSAGPYTWYKDTRTGKTLCKQTIDTASYTFGVMAEGWGKTFH"
+                }
+            ]
+        }
+    }
+}

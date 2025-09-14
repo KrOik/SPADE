@@ -1,0 +1,72 @@
+{
+    "SPADE_UN_16300": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_16300",
+            "Peptide Name": "AmphiArc2 Off2.6",
+            "Source": "Synthetic",
+            "Family": "",
+            "Gene": "Not found",
+            "Sequence": "QIFKKVKTWYKKAFQILGRL",
+            "Sequence Length": 20,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Notavailable"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Target Organism": "Tumor cells:A549 (EC50=12.4 ± 0.1 µM); MCF-7 (EC50=9.3 ± 0.2 µM)",
+            "Hemolytic Activity": "Human erythrocytes:HC50>100 µM",
+            "Cytotoxicity": "HDMEC:EC50=21 ± 2 µM",
+            "Binding Target": "Not available",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C122H195N31O25",
+            "Mass": 2496.05,
+            "PI": 10.68,
+            "Net Charge": 6,
+            "Hydrophobicity": -0.3,
+            "Half Life": "Mammalian:0.8 hourYeast:10 minE.coli:>10 hour",
+            "Literature": [
+                {
+                    "Title": "In silico design and optimization of selective membranolytic anticancer peptides",
+                    "Pubmed ID": "31375699",
+                    "Reference": "Sci Rep. 2019 Aug 2;9(1)11282.",
+                    "Author": "Gabernet G, Gautschi D, Müller AT, Neuhaus CS, Armbrecht L, Dittrich PS, Hiss JA, Schneider G.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=31375699"
+                }
+            ],
+            "Frequent Amino Acids": "KFI",
+            "Absent Amino Acids": "CDEHMNOPSU",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 12,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_13773",
+                    "Similarity": 1.0,
+                    "Sequence": "ILGRLRDLLRRGGRKIGQGLERIGQRIQGFFSNREPMEES"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01764",
+                    "Similarity": 0.8333333333333334,
+                    "Sequence": "FMGSALRIAAKVLPAALCQIFKKC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01765",
+                    "Similarity": 0.8333333333333334,
+                    "Sequence": "FFGSVLKVAAKVLPAALCQIFKKC"
+                }
+            ]
+        }
+    }
+}

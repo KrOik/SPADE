@@ -1,0 +1,48 @@
+{
+    "SPADE_UN_23720": {
+        "Sequence Information": {
+            "Peptide Name": "",
+            "Sequence": "RFRRXX",
+            "Sequence Length": 6,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Antimicrobial activity of arginine- and tryptophan-rich hexapeptides: the effects of aromatic clusters, D-amino acid substitution and cyclization",
+                    "Pubmed ID": "15357671",
+                    "Reference": "J Pept Res. 2004;64:159-169",
+                    "Author": "Wessolowski A, Bienert M, Dathe M",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/15357671"
+                }
+            ],
+            "SPADE ID": "SPADE_UN_23720",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02563",
+                    "Similarity": 1.0,
+                    "Sequence": "GRFRRLRKKTRKRLKKIGKVLKWIPPIVGSIPLGCG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02564",
+                    "Similarity": 1.0,
+                    "Sequence": "GRFRRLRKKTRKRLKKIGKV"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02565",
+                    "Similarity": 1.0,
+                    "Sequence": "GRFRRLRKKTRKRLKKIGKVLKWIPPIVGSIPLG"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:21.8% Hemolysis=100 µM",
+            "Target Organism": "Escherichia coli DH5alpha(MIC=31.3µM),Bacillus subtilis PY22(MIC=3.9µM)"
+        }
+    }
+}

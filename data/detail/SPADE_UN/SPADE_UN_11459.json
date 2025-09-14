@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_11459": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_11459",
+            "Peptide Name": "LL-IIIs-5 cis (lasioglossin III peptide derivative)",
+            "Source": "Synthetic construct",
+            "Family": "Derived from the peptide lasioglossin III",
+            "Gene": "Not found",
+            "Sequence": "VNRKKILGKSIKVVK",
+            "Sequence Length": 15,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.22526241]Gram-positive bacteria:Micrococcus luteus (MIC=0.9 μM), Bacillus cereus (MIC=0.9 μM), Staphylococcus aureus  (MIC=45 μM);Gram-negative bacteria:Escherichia coli (MIC=3.5 μM), Pseudomonas aeruginosa (MIC=80 μM).",
+            "Hemolytic Activity": "[Ref.22526241]LC50=100 μM against human red blood cells",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C78H148N24O18",
+            "Mass": 1710.16,
+            "PI": 11.39,
+            "Net Charge": 6,
+            "Hydrophobicity": -0.22,
+            "Half Life": "Mammalian:100 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Antibacterial activity against Gram-positive bacteria and Gram-negative bacteria.Has hemolytic activity.",
+            "Literature": [
+                {
+                    "Title": "Effect of hydrocarbon stapling on the properties of",
+                    "Pubmed ID": "22526241",
+                    "Reference": "Amino Acids. 2012 Nov;43(5)2047-58.",
+                    "Author": "Chapuis H, Slaninová J, Bednárová L, Monincová L, Buděšínský M, Čeřovský V.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=22526241"
+                }
+            ],
+            "Frequent Amino Acids": "KVI",
+            "Absent Amino Acids": "ACDEFHMOPQTUWY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 11,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_09681",
+                    "Similarity": 0.9230769230769231,
+                    "Sequence": "VNWKKLGKIKVVK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_28335",
+                    "Similarity": 0.9230769230769231,
+                    "Sequence": "VNWKKLGKIKVVK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_11491",
+                    "Similarity": 0.9,
+                    "Sequence": "ILGKIIKVVK"
+                }
+            ]
+        }
+    }
+}

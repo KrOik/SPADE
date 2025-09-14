@@ -1,0 +1,83 @@
+{
+    "SPADE_N_00085": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00085",
+            "Peptide Name": "Sakacin P (Sakacin 674; Pediocin-like peptide; Bacteriocin)",
+            "Source": "Lactobacillus sakei Lb674 (Gram-positive bacteria)",
+            "Family": "Belongs to the class IIa bacteriocin",
+            "Gene": "sakP",
+            "Sequence": "KYYGNGVHCGKHSCTVDWGTAIGNIGNNAAANWATGGNAGWNK",
+            "Sequence Length": 43,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P35618",
+                "http://www.uniprot.org/uniprot/Q57121"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+"
+            ],
+            "Target Organism": "Gram-positive bacteria:Listeria monocytogenes and ivanovvi, Enterococcus faecalis, Carnobacterium sp and Brocothrix thermosphacta.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Structures in TFE and DPC were determined (Uteng M et al 2003 Biochemistry 42: 11417-26). The N-terminal region formed a 3-stranded beta sheet-like structure, while a well defined helical region was found between residues 18-33. The beta-like structure and the helical region are not packed together.",
+            "Formula": "C192H280N60O59S2",
+            "Mass": 4436.77,
+            "PI": 8.79,
+            "Net Charge": 4,
+            "Hydrophobicity": -0.57,
+            "Half Life": "Mammalian:1.3 hourYeast:3 minE.coli:2 min",
+            "Function": "Has bactericidal activity.",
+            "PTM": "Contains one disulfide bond 9-14.",
+            "Literature": [
+                {
+                    "Title": "Purification and cloning of sakacin 674, a bacteriocin from Lactobacillus sakei Lb674.",
+                    "Pubmed ID": "8138128",
+                    "Reference": "FEMS Microbiol Lett. 1994 Jan 15;115(2-3)143-149.",
+                    "Author": "Holck AL, Axelsson L, H¼hne K, Kröckel L.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=8138128"
+                },
+                {
+                    "Title": "Three-dimensional structure in lipid micelles of the pediocin-like antimicrobial peptide sakacin P and a sakacin P variant that is structurally stabilized by an inserted C-terminal disulfide bridge.",
+                    "Pubmed ID": "14516192",
+                    "Reference": "Biochemistry. 2003 Oct 7;42(39)11417-11426.",
+                    "Author": "Uteng M, Hauge HH, Markwick PR, Fimland G, Mantzilas D, Nissen-Meyer J, Muhle-Goll C.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=14516192"
+                }
+            ],
+            "Frequent Amino Acids": "GNA",
+            "Absent Amino Acids": "EFLMOPQRU",
+            "Basic Residues": 5,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 15,
+            "Polar Residues": 28,
+            "Positive Residues": 5,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06139",
+                    "Similarity": 1.0,
+                    "Sequence": "MEKFIELSLKEVTAITGGKYYGNGVHCGKHSCTVDWGTAIGNIGNNAAANWATGGNAGWNK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07436",
+                    "Similarity": 1.0,
+                    "Sequence": "KYYGNGVHCGKHSCTVDW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08714",
+                    "Similarity": 1.0,
+                    "Sequence": "KYYGNGVHCGKHSCTVDWGTAIGNIGNNAAANWATGGNAGWNKS"
+                }
+            ]
+        }
+    }
+}

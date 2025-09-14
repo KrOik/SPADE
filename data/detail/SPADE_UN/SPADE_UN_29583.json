@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_29583": {
+        "Sequence Information": {
+            "Peptide Name": "hBD-4 (1-18)[C17Del]",
+            "Sequence": "ELDRICGYGTARCRKKR",
+            "Sequence Length": 17,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "Q8WTQ1",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/Q8WTQ1",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Antimicrobial activity of human ?-defensin 4 analogs: insights into the role of disulfide linkages in modulating activity.",
+                    "Pubmed ID": "23000475",
+                    "Reference": "Peptides. 2012;38:255-265",
+                    "Author": "Sharma H, Nagaraj R",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/23000475"
+                }
+            ],
+            "Mass": 2025.36,
+            "PI": 9.84,
+            "Net Charge": 4,
+            "Hydrophobicity": -1.21,
+            "Frequent Amino Acids": "RCG",
+            "Absent Amino Acids": "FHMNOPQSUVW",
+            "Basic Residues": 6,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 12,
+            "Positive Residues": 6,
+            "Negative Residues": 2,
+            "SPADE ID": "SPADE_UN_29583",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_11938",
+                    "Similarity": 1.0,
+                    "Sequence": "EFELDRIGYGTARCRKKRSQEYRIGRPNTYACLRK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11939",
+                    "Similarity": 1.0,
+                    "Sequence": "EFELDRICGYGTARCRKKRSQEYRIGRPNTYACCLRK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11940",
+                    "Similarity": 1.0,
+                    "Sequence": "EFELDRICCGYGTARCRKKRSQEYRIGRCPNTYACCLRK"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Escherichia coli MG1655(LC=100µM),Pseudomonas aeruginosa NCTC 6750(LC=100µM),Staphylococcus aureus NCTC 8530(LC=20µM),Candida albicans ATCC 18804(MFC=40µM)"
+        }
+    }
+}

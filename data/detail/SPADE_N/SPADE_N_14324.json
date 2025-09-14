@@ -1,0 +1,70 @@
+{
+    "SPADE_N_14324": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_14324",
+            "Peptide Name": "EntV 20mer (Synthetic AMPs)",
+            "Source": "sequence truncation, bacteria-derived, natural derivative",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "TNAIIVAGQLALWAVQCGLS",
+            "Sequence Length": 20,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antifungal",
+                "Antifungal"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 2028.37,
+            "PI": 5.18,
+            "Hydrophobicity": 1.24,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Cruz MR, Cristy S, Guha S, De Cesare GB, Evdokimova E, Sanchez H, Borek D, Miramón P, Yano J, Fidel PL Jr, Savchenko A, Andes DR, Stogios PJ, Lorenz MC, Garsin DA. 2022",
+                    "Reference": "Nat Commun. 2022 Oct 13;13(1):6047. doi: 10.1038/s41467-022-33613-1.PubMed",
+                    "Title": "Structural and functional analysis of EntV reveals a 12 amino acid fragment protective against fungal infections."
+                }
+            ],
+            "Frequent Amino Acids": "ALG",
+            "Absent Amino Acids": "DEFHKMOPRUY",
+            "Basic Residues": 0,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 12,
+            "Positive Residues": 0,
+            "Negative Residues": 0,
+            "Net Charge": 0,
+            "Comments": "Sequence analysis: APD analysis reveals that this sequence is similar (41.38%) toBTM-P1A: 20%, L: 15%,I=V=G=Q: 10%.Activity: active against C. albicans based on the survival of the infected animal model:Caenorhabditis elegans.",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_05540",
+                    "Similarity": 1.0,
+                    "Sequence": "LGSCVANKIKDEFFAMISISAIVKAAQKKAWKELAVTVLRFAKANGLKTNAIIVAGQLALWAVQCGLS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14325",
+                    "Similarity": 1.0,
+                    "Sequence": "AIIVAGQLALWAVQCG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14327",
+                    "Similarity": 1.0,
+                    "Sequence": "AIIVAGQLALWAVQ"
+                }
+            ]
+        }
+    }
+}

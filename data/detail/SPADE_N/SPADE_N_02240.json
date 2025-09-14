@@ -1,0 +1,74 @@
+{
+    "SPADE_N_02240": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02240",
+            "Peptide Name": "Putative antimicrobial peptide A Northern Europe Heligoland (chordates, animals)",
+            "Source": "Ciona intestinalis",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "AALRGALRAVARVGKAILPHVAIANPYVRTPYVHNNP",
+            "Sequence Length": 37,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "Gram-positive bacteria:Bacillus megaterium (MIC=0.1 µM), Bacillus subtilis (MIC=3.1 µM), Staphylococcus aureus (MIC>25 µM), Staphylococcus epidermidis (MIC=25 µM).Gram-negative bacteria:Escherichia coli K12 D31 (MIC=0.8 µM), Y. enterocolitica (MIC=3.1 µM), Klebsiella pneumoniae (MIC>25µM), Pseudomonas aeruginosa (MIC=12.5 µM), Serratia marcescens(MIC>25 µM).Fungi:Candida albicans ATCC 10261 (MIC=6.3 µM), Candida albicans SC 5314 (MIC=6.3 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C179H293N57O44",
+            "Mass": 3947.6,
+            "PI": 11.57,
+            "Net Charge": 7,
+            "Hydrophobicity": 0.18,
+            "Half Life": "Mammalian:4.4 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "A reverse search for antimicrobial peptides in Ciona intestinalis identification of a gene family expressed in hemocytes and evaluation of activity.",
+                    "Pubmed ID": "17658598",
+                    "Reference": "Dev Comp Immunol. 2008;32(3)286-298.",
+                    "Author": "Fedders H, Leippe M.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=17658598"
+                }
+            ],
+            "Frequent Amino Acids": "AVP",
+            "Absent Amino Acids": "CDEFMOQSUW",
+            "Basic Residues": 7,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 24,
+            "Polar Residues": 26,
+            "Positive Residues": 7,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07481",
+                    "Similarity": 1.0,
+                    "Sequence": "ALRGALRAVARVGKAILPHVAIANPYVRTPYVHNNPDWSLWRSRRRSGNQQPTSQAEILEDALEAQAIEALMQEQ"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07480",
+                    "Similarity": 0.8333333333333334,
+                    "Sequence": "ALRSAVRTVARVGRAVLPHVAIADPYVRTPYVHNNPDWSLWRRKRWNQQPTSQADMLEDALEAQAIEALMQEQ"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03508",
+                    "Similarity": 0.7727272727272727,
+                    "Sequence": "ALRSAVRTVARVGRAVLPHVAI"
+                }
+            ]
+        }
+    }
+}

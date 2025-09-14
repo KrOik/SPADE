@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_23714": {
+        "Sequence Information": {
+            "Peptide Name": "RW5",
+            "Sequence": "FRWWRR",
+            "Sequence Length": 6,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Antimicrobial activity of arginine- and tryptophan-rich hexapeptides: the effects of aromatic clusters, D-amino acid substitution and cyclization",
+                    "Pubmed ID": "15357671",
+                    "Reference": "J Pept Res. 2004;64:159-169",
+                    "Author": "Wessolowski A, Bienert M, Dathe M",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/15357671"
+                }
+            ],
+            "Mass": 1006.17,
+            "PI": 12.0,
+            "Net Charge": 3,
+            "Hydrophobicity": -2.08,
+            "Frequent Amino Acids": "RWF",
+            "Absent Amino Acids": "ACDEGHIKLMNOPQSTUVY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 1,
+            "Polar Residues": 5,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_23714",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02404",
+                    "Similarity": 1.0,
+                    "Sequence": "SDDEDEEEEEDQPWQLNPNIARGDDGNTRADVNIKRRGENHDFEAGWSKVVDGPDRAKPTWHVGGTFRW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11387",
+                    "Similarity": 1.0,
+                    "Sequence": "LKWKFRW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11393",
+                    "Similarity": 1.0,
+                    "Sequence": "LKWRKMFRW"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:6.3% Hemolysis=100 µM",
+            "Target Organism": "Escherichia coli DH5alpha(MIC=>125.0µM),Bacillus subtilis PY22(MIC=15.6µM)"
+        }
+    }
+}

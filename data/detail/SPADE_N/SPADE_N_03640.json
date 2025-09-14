@@ -1,0 +1,75 @@
+{
+    "SPADE_N_03640": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03640",
+            "Peptide Name": "38 kDa autolysin (Beta-glycosidase; Peptidoglycan hydrolase)",
+            "Source": "Mycobacterium phlei",
+            "Family": "Not found",
+            "Gene": "lytA",
+            "Sequence": "VAVKATTTEEETEIPAK",
+            "Sequence Length": 17,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P81528"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Toxin"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C78H133N19O30",
+            "Mass": 1817.0,
+            "PI": 4.49,
+            "Net Charge": -2,
+            "Hydrophobicity": -0.46,
+            "Half Life": "Mammalian:100 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Hydrolyzes the cell walls of mycobacteria. May play an important role in cell wall growth and cell separation.",
+            "Biophysicochemical properties": "pH dependence (Optimum pH is 7.5).",
+            "PTM": "The N-terminus is blocked (Probable).",
+            "Literature": [
+                {
+                    "Title": "Partial characterization of a major autolysin from Mycobacterium phlei.",
+                    "Pubmed ID": "10206696",
+                    "Reference": "Microbiology. 1999 Jan;145 ( Pt 1)169-176.",
+                    "Author": "Li ZS, Beveridge TJ, Betts J, Clarke AJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=10206696"
+                }
+            ],
+            "Frequent Amino Acids": "ETA",
+            "Absent Amino Acids": "CDFGHLMNOQRSUWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 4,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 11,
+            "Positive Residues": 2,
+            "Negative Residues": 4,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_24236",
+                    "Similarity": 1.0,
+                    "Sequence": "TEEET"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_01602",
+                    "Similarity": 0.7142857142857143,
+                    "Sequence": "EEEEEDP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03859",
+                    "Similarity": 0.6666666666666666,
+                    "Sequence": "TEIPTINTIASGEPTSTPTTEAVESTVATLEDSPEVIESPPEINTVQVTSTAV"
+                }
+            ]
+        }
+    }
+}

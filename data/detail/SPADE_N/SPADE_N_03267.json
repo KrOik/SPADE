@@ -1,0 +1,83 @@
+{
+    "SPADE_N_03267": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03267",
+            "Peptide Name": "Opiscorpine-1 (Arthropods, animals)",
+            "Source": "Opistophthalmus carinatus (African yellow leg scorpion)",
+            "Family": "Belongs to the long chain scorpion toxin family (Class 3 subfamily)",
+            "Gene": "Not found",
+            "Sequence": "KWFNEKSIQNKIDEKIGKNFLGGMAKAVVHKLAKNEFMCVANVDMTKSCDTHCQKASGEKGYCHGTKCKCGVPLSY",
+            "Sequence Length": 76,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q5WR03",
+                "http://www.uniprot.org/uniprot/Q5WQZ8"
+            ],
+            "Protein Existence": "Transcript level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "Fungi:Fusarium culmorum IMI180420 (IC50=8.8 µM), Fusarium oxysporum MUCL39789 (IC50=10.04 µM).Gram-negative bacterium:Escherichia coli JM109 (MIC=12 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C366H585N103O107S9",
+            "Mass": 8428.77,
+            "PI": 9.1,
+            "Net Charge": 9,
+            "Hydrophobicity": -0.51,
+            "Half Life": "Mammalian:1.3 hourYeast:3 minE.coli:2 min",
+            "Function": "The short amino-terminal segment of opiscorpine 1 (residues 1–35), named Jan-f3, has antimicrobial activity against fungi and the Gram-negative bacteria.",
+            "Tissue specificity": "Expressed by the venom gland.",
+            "PTM": "Contains three disulfide bonds (By similarity).",
+            "Literature": [
+                {
+                    "Title": "The scorpine family of defensins gene structure, alternative polyadenylation and fold recognition.",
+                    "Pubmed ID": "15241551",
+                    "Reference": "Cell Mol Life Sci. 2004 Jul;61(14)1751-1763.",
+                    "Author": "Zhu S, Tytgat J.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=15241551"
+                },
+                {
+                    "Title": "The scorpine family of defensins: gene structure, alternative polyadenylation and fold recognition.",
+                    "Pubmed ID": "R2004J1438",
+                    "Author": "Tytgat J.,Zhu S."
+                }
+            ],
+            "Frequent Amino Acids": "KGC",
+            "Absent Amino Acids": "ORU",
+            "Basic Residues": 16,
+            "Acidic Residues": 7,
+            "Hydrophobic Residues": 26,
+            "Polar Residues": 48,
+            "Positive Residues": 16,
+            "Negative Residues": 7,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03269",
+                    "Similarity": 0.9868421052631579,
+                    "Sequence": "KWLNEKSIQNKIDEKIGKNFLGGMAKAVVHKLAKNEFMCVANVDMTKSCDTHCQKASGEKGYCHGTKCKCGVPLSY"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03270",
+                    "Similarity": 0.9736842105263158,
+                    "Sequence": "KWLNEKSIQNKIDEKIGKNFLGGMAKAVVHKLAKNEFMCVANIDMTKSCDTHCQKASGEKGYCHGTKCKCGVPLSY"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03268",
+                    "Similarity": 0.9210526315789473,
+                    "Sequence": "KWLNEKSIQNKIDEKIGKNFLGGMAKAVVHKLAKNEFMCMANMDPTGSCETHCQKASGEKGYCHGTKCKCGVPLSY"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "SPADE_UN_22574": {
+        "Sequence Information": {
+            "Peptide Name": "Anoplin [L10Meth-Leu]",
+            "Sequence": "GLLKRIKTLX",
+            "Sequence Length": 10,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P0C005",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P0C005",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Effect of N-methylated and fatty acid conjugation on analogs of antimicrobial peptide Anoplin",
+                    "Pubmed ID": "32649983",
+                    "Reference": "Eur J Pharm Sci. 2020;152:105453",
+                    "Author": "Liu T, Zhu N, Zhong C, Zhu Y, Gou S, Chang L, Bao H, Liu H, Zhang Y, Ni J",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/32649983"
+                }
+            ],
+            "SPADE ID": "SPADE_UN_22574",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01232",
+                    "Similarity": 1.0,
+                    "Sequence": "FLPIVGKLLSGLSGLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01235",
+                    "Similarity": 1.0,
+                    "Sequence": "FLPIVGKLLSGLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01237",
+                    "Similarity": 1.0,
+                    "Sequence": "LLPIVGKLLSGLL"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Staphylococcus aureus ATCC 25923(MIC=>128µM),Bacillus subtilis ATCC 23857(MIC=64µM),Escherichia coli ATCC 25922(MIC=>128µM),Klebsiella pneumoniae ATCC 700603(MIC=>128µM),Pseudomonas aeruginosa ATCC 27853(MIC=32µM)"
+        }
+    }
+}

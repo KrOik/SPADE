@@ -1,0 +1,72 @@
+{
+    "SPADE_N_02122": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02122",
+            "Peptide Name": "Ornithodoros defensin D (Ticks, Arthropods, animals)",
+            "Source": "Ornithodoros moubata (Soft tick) (Argasid tick)",
+            "Family": "Not found",
+            "Gene": "omdef-D",
+            "Sequence": "GFGCPFNQYECHAHCSGVPGYKGGYCKGLFKQTCNCY",
+            "Sequence Length": 37,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q8MY07"
+            ],
+            "Protein Existence": "Predicted",
+            "Biological Activity": [
+                "Antimicrobial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C179H252N48O50S6",
+            "Mass": 4068.6,
+            "PI": 8.3,
+            "Net Charge": 4,
+            "Hydrophobicity": -0.41,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Two isoforms of a member of the arthropod defensin family from the soft tick, Ornithodoros moubata (Acari Argasidae).",
+                    "Pubmed ID": "11378409",
+                    "Reference": "Insect Biochem Mol Biol. 2001 Jun 22;31(8)747-751.",
+                    "Author": "Nakajima Y, van der Goes van Naters-Yasui A, Taylor D, Yamakawa M.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=11378409"
+                }
+            ],
+            "Frequent Amino Acids": "GCY",
+            "Absent Amino Acids": "DIMORUW",
+            "Basic Residues": 5,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 23,
+            "Positive Residues": 5,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_08017",
+                    "Similarity": 1.0,
+                    "Sequence": "MNKLFIVALVLALAVATMAHEVHDDIEEPSVPRVRRGFGCPFNQYECHAHCSGVPGYKGGYCKGLFKQTCNCY"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_21856",
+                    "Similarity": 0.9,
+                    "Sequence": "GYKGGYCKGA"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02121",
+                    "Similarity": 0.8648648648648649,
+                    "Sequence": "GYGCPFNQYQCHSHCSGIRGYKGGYCKGLFKQTCNCY"
+                }
+            ]
+        }
+    }
+}

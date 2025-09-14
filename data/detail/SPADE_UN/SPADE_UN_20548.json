@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_20548": {
+        "Sequence Information": {
+            "Peptide Name": "3G-Cathelicidin-6 (8-27)[F7C, L14C]",
+            "Sequence": "GGGGKKCKKLFKKCSPVIPLLHLG",
+            "Sequence Length": 24,
+            "Biological Activity": [
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P54228",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P54228",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Antibody-Bactericidal Macrocyclic Peptide Conjugates To Target Gram-Negative Bacteria.",
+                    "Pubmed ID": "29984452",
+                    "Reference": "Chembiochem. 2018;19:2039-2044",
+                    "Author": "Touti F, Lautrette G, Johnson KD, Delaney JC, Wollacott A, Tissire H, Viswanathan K, Shriver Z, Mong SK, Mijalis AJ, Plante OJ, Pentelute BL",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/29984452"
+                }
+            ],
+            "Mass": 2509.13,
+            "PI": 10.05,
+            "Net Charge": 7,
+            "Hydrophobicity": -0.04,
+            "Frequent Amino Acids": "KGL",
+            "Absent Amino Acids": "ADEMNOQRTUWY",
+            "Basic Residues": 7,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 15,
+            "Positive Residues": 7,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_20548",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_12838",
+                    "Similarity": 1.0,
+                    "Sequence": "GGGGRFKRFRKKCKKLFKKCSPVIPLLHLG"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_01559",
+                    "Similarity": 1.0,
+                    "Sequence": "GGGGGGSMFGGAKKRSGGGGGG"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_01709",
+                    "Similarity": 1.0,
+                    "Sequence": "GGGG"
+                }
+            ],
+            "Hemolytic Activity": "Sheep erythrocytes:<10% Hemolysis=>32 µM",
+            "Target Organism": "Escherichia coli 1(MIC=2.7µM),Escherichia coli(MIC=1.3µM),Pseudomonas aeruginosa 1(MIC=27µM),Pseudomonas aeruginosa(MIC=16µM)"
+        }
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_25048": {
+        "Sequence Information": {
+            "Peptide Name": "Fowlicidin-2 (6-20)[R10,13L;P14K]",
+            "Sequence": "RFGRFLRKILRFLKK",
+            "Sequence Length": 15,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "Q2IAL7",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/Q2IAL7",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Design, characterization and structure-function analysis of novel antimicrobial peptides based on the N-terminal CATH-2 fragment.",
+                    "Pubmed ID": "35835842",
+                    "Reference": "Sci Rep. 2022;12:12058",
+                    "Author": "Sharma P, Sharma S, Joshi S, Barman P, Bhatt A, Maan M, Singla N, Rishi P, Ali ME, Preet S, Saini A",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/35835842"
+                }
+            ],
+            "Mass": 1978.48,
+            "PI": 12.0,
+            "Net Charge": 7,
+            "Hydrophobicity": -0.39,
+            "Frequent Amino Acids": "RFK",
+            "Absent Amino Acids": "ACDEHMNOPQSTUVWY",
+            "Basic Residues": 7,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 8,
+            "Positive Residues": 7,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_25048",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02356",
+                    "Similarity": 1.0,
+                    "Sequence": "YDLSKNCRLRGGICYIGKCPRRFFRSGSCSRGNVCCLRFG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07440",
+                    "Similarity": 1.0,
+                    "Sequence": "MLTLKKSMLLLFFLGLVSVSLADDKREDEAEEGEDKRAAEEERNVEKRCYSAAKYPGFQEFINRKYKSSRFG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09822",
+                    "Similarity": 1.0,
+                    "Sequence": "LVQRGRFGRFLRKI"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=216 µg/ml,Murine macrophages:10% Cell death=1978.47 µg/ml",
+            "Target Organism": "Escherichia coli O157:H7(MIC=16µg/ml),Salmonella typhimurium NCTC 74(MIC=32µg/ml),Staphylococcus aureus ATCC 9144(MIC=16µg/ml)"
+        }
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "SPADE_UN_11977": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_11977",
+            "Peptide Name": "TsAP-S1 (Derived from TsAP-1)",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "FLSLIPKLVKKIIKAFK",
+            "Sequence Length": 17,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic form",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "[Ref.23770440] Gram-positive bacteria :Staphylococcus aureus(MIC=2.5 μM, MBC=20 μM);Gram-negative bacteria :Escherichia coli(MIC=5 μM, MBC=20 μM);Fungi :Candida albicans(MIC=2.5 μM, MBC=5 μM)",
+            "Hemolytic Activity": "[Ref.23770440] 30% hemolysis at 5 μM , 85% hemolysis at 10 μM , 100% hemolysis at 20 μM against horse red blood cells",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C100H172N22O19",
+            "Mass": 1986.57,
+            "PI": 10.6,
+            "Net Charge": 5,
+            "Hydrophobicity": 0.86,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Function": "Antibacterial activity against Gram-positive bacteria and Gram-negative bacteria. Antifungal activity against Candida albicans, Anticancer against H157, H838, MCF-7, PC3 and U251-MG",
+            "Literature": [
+                {
+                    "Title": "Two peptides, TsAP-1 and TsAP-2, from the venom of the Brazilian yellow scorpion, Tityus serrulatus evaluation of their antimicrobial and anticancer activities.",
+                    "Pubmed ID": "23770440",
+                    "Reference": "Biochimie. 2013 Sep;95(9)1784-94. doi 10.1016/j.biochi.2013.06.003.",
+                    "Author": "Guo X, Ma C, Du Q, Wei R, Wang L, Zhou M, Chen T, Shaw C",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=23770440"
+                }
+            ],
+            "Frequent Amino Acids": "KIL",
+            "Absent Amino Acids": "CDEGHMNOQRTUWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 8,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_11773",
+                    "Similarity": 0.8235294117647058,
+                    "Sequence": "FFSLIPSLVKKLIKAFK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_24443",
+                    "Similarity": 0.8235294117647058,
+                    "Sequence": "FFSLIPKLVGKLIKAFK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_11774",
+                    "Similarity": 0.8235294117647058,
+                    "Sequence": "FFKLIPKLVKKLIKAFK"
+                }
+            ]
+        }
+    }
+}

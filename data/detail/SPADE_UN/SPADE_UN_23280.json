@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_23280": {
+        "Sequence Information": {
+            "Peptide Name": "DBS1-G",
+            "Sequence": "RRWARRLFFAYRR",
+            "Sequence Length": 13,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Synthetic molecular evolution of host cell-compatible, antimicrobial peptides effective against drug-resistant, biofilm-forming bacteria.",
+                    "Pubmed ID": "32241895",
+                    "Reference": "Proc Natl Acad Sci U S A. 2020;117:8437-8448",
+                    "Author": "Starr CG, Ghimire J, Guha S, Hoffmann JP, Wang Y, Landreneau BN, Sun L, Sammarco MC, Morici LA, Wimley WC",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/32241895"
+                }
+            ],
+            "Mass": 1854.17,
+            "PI": 12.0,
+            "Net Charge": 6,
+            "Hydrophobicity": -1.25,
+            "Frequent Amino Acids": "RAF",
+            "Absent Amino Acids": "CDEGHIKMNOPQSTUV",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 8,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_23280",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_08930",
+                    "Similarity": 1.0,
+                    "Sequence": "RGRRGWGPGRRYRRW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08931",
+                    "Similarity": 1.0,
+                    "Sequence": "WRRRGWGPGRRYRRW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08944",
+                    "Similarity": 1.0,
+                    "Sequence": "WWRRGWGPGRRYRRW"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:10% Hemolysis=100 µM",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=5.2µM),Escherichia coli ATCC 25922(MIC=>30µM),Pseudomonas aeruginosa PAO1(MIC=4.2µM),Pseudomonas aeruginosa PAO1(MIC=26µM),Klebsiella pneumoniae ATCC 13883(MIC=>30µM),Acinetobacter baumannii ATCC 19606(MIC=6.6µM),Salmonella enterica subsp. enterica serovar Typhimurium ATCC 14028(MIC=3.1µM),Staphylococcus aureus ATCC 25923(MIC=18.7µM),Staphylococcus aureus ATCC 25923(MIC=>30µM)"
+        }
+    }
+}

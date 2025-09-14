@@ -1,0 +1,73 @@
+{
+    "SPADE_N_01340": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01340",
+            "Peptide Name": "Esculentin-2LTa (Frogs, amphibians, animals)",
+            "Source": "Hylarana latouchii (Broad-folded frog)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "GIFSLFKAGAKFFGKHLLKQAGKAGAEHLACKATNQC",
+            "Sequence Length": 37,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-positive bacteria:Staphylococcus aureus ATCC2592 (MIC=1.6 µM), Bacillus licheniformis X39 (MIC=3.2 µM), Staphylococcus carnosus KHS (MIC=3.2 µM), Rhodococcus rhodochrous X15 (MIC=0.8 µM);Gram-negative bacterium:Psychrobacter faecalis X29 (MIC=1.6 µM).",
+            "Hemolytic Activity": "[Ref.22426384] LD50>600 μM against human erythrocytes",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Cyclization (Cys31 and Cys37)",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C177H296N44O58S5",
+            "Mass": 3892.55,
+            "PI": 9.79,
+            "Net Charge": 7,
+            "Hydrophobicity": 0.03,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Molecular cloning and characterization of antimicrobial peptides from skin of the broad-folded frog, Hylarana latouchii.",
+                    "Pubmed ID": "22426384",
+                    "Reference": "Biochimie. 2012 Jun;94(6)1317-1326.",
+                    "Author": "Wang H, Yu Z, Hu Y, Yu H, Ran R, Xia J, Wang D, Yang S, Yang X, Liu J.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=22426384"
+                }
+            ],
+            "Frequent Amino Acids": "AKG",
+            "Absent Amino Acids": "DMOPRUVWY",
+            "Basic Residues": 8,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 16,
+            "Polar Residues": 22,
+            "Positive Residues": 8,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_15811",
+                    "Similarity": 0.918918918918919,
+                    "Sequence": "GIFSLFKAGAKFFGKNLLKEAGKAGAEHLACKAANQC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01228",
+                    "Similarity": 0.8108108108108109,
+                    "Sequence": "MFTMKKSLLLLFFLGTISLSLCEEERSADEDDGEKGVKRGIFSLIKTAAKFVGKNLLKQAGKAGVEHLACKANNQC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01353",
+                    "Similarity": 0.8108108108108109,
+                    "Sequence": "GIFSLIKTAAKFVGKNLLKQAGKAGVEHLACKANNQC"
+                }
+            ]
+        }
+    }
+}

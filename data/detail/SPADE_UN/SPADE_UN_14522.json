@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_14522": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_14522",
+            "Peptide Name": "44(derived from FIV envelope glycoprotein )",
+            "Source": "Synthetic construct(derived from FIV envelope glycoprotein (gE))",
+            "Family": "Retroviridae",
+            "Gene": "Not found",
+            "Sequence": "HVMLALATVLSIAGAGTGATAI",
+            "Sequence Length": 22,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P16090"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antiviral"
+            ],
+            "Target Organism": "[Ref.8661378]Feline immunodeficiency virus (FIV):inhibition of virus replication in Crandell feline kidney (CrFK) fibroblastoid cells(58% inhibition at 16 µg/ml).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Syncytium formation",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C90H156N24O27S",
+            "Mass": 2038.41,
+            "PI": 6.74,
+            "Net Charge": 1,
+            "Hydrophobicity": 1.55,
+            "Half Life": "Mammalian:3.5 hourYeast:10 minE.coli:>10 hour",
+            "Mechanism of action": "The machanism might be peptide bound the surface of FIV permissive cells and were highly active in blocking FIV infection when administered before the virus.",
+            "Literature": [
+                {
+                    "Title": "Inhibition of feline immunodeficiency virus infection in vitro by envelope glycoprotein synthetic peptides.",
+                    "Pubmed ID": "8661378",
+                    "Reference": "Virology. 1996 Jun 15;220(2)274-84.",
+                    "Author": "Lombardi S, Massi C, Indino E, La Rosa C, Mazzetti P, Falcone ML, Rovero P, Fissi A, Pieroni O, Bandecchi P, Esposito F, Tozzini F, Bendinelli M, Garzelli C.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=8661378"
+                }
+            ],
+            "Frequent Amino Acids": "AGL",
+            "Absent Amino Acids": "CDEFKNOPQRUWY",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 14,
+            "Polar Residues": 13,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_14521",
+                    "Similarity": 1.0,
+                    "Sequence": "YKPRRKRAAIHVMLALATVLSI"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_14523",
+                    "Similarity": 1.0,
+                    "Sequence": "AGAGTGATAIGMVTQYHQVL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_00010",
+                    "Similarity": 0.55,
+                    "Sequence": "NRWGDTVLSAASGAGTGIKACKSFGPWGMAICGVGGAAIGGYFGYTHN"
+                }
+            ]
+        }
+    }
+}

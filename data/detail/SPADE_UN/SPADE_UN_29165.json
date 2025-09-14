@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_29165": {
+        "Sequence Information": {
+            "Peptide Name": "Pseudin-2 [N21K]",
+            "Sequence": "GLNALKKVFQGIHEAIKLINKHVQ",
+            "Sequence Length": 24,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P83189",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P83189",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Design of potent, non-toxic antimicrobial agents based upon the structure of the frog skin peptide, pseudin-2.",
+                    "Pubmed ID": "15927702",
+                    "Reference": "Regul Pept. 2005;129:85-91",
+                    "Author": "Pál T, Sonnevend A, Galadari S, Conlon JM",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/15927702"
+                }
+            ],
+            "Mass": 2699.2,
+            "PI": 10.0,
+            "Net Charge": 5,
+            "Hydrophobicity": -0.03,
+            "Frequent Amino Acids": "KIL",
+            "Absent Amino Acids": "CDMOPRSTUWY",
+            "Basic Residues": 6,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 13,
+            "Positive Residues": 6,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_UN_29165",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_12406",
+                    "Similarity": 1.0,
+                    "Sequence": "ALWMTLKKKVLKAKAKALNAVLVGLNA"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_12407",
+                    "Similarity": 1.0,
+                    "Sequence": "ALWMTLKKKVLKAKAKLLNAVLVGLNA"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_29165",
+                    "Similarity": 1.0,
+                    "Sequence": "GLNALKKVFQGIHEAIKLINKHVQ"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=270 µM",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=20µM),Staphylococcus aureus NCTC 8325(MIC=80µM)"
+        }
+    }
+}

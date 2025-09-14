@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_25159": {
+        "Sequence Information": {
+            "Peptide Name": "GGH-Magainin 2 [F12W], Mag2-01",
+            "Sequence": "GGHGIGKFLHSAKKWGKAFVGEIMNS",
+            "Sequence Length": 26,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P11006",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P11006",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Activity and Synergy of Cu-ATCUN Antimicrobial Peptides",
+                    "Pubmed ID": "36430622",
+                    "Reference": "Int J Mol Sci. 2022;23:14151",
+                    "Author": "Greve JM, Cowan JA",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/36430622"
+                }
+            ],
+            "Mass": 2757.18,
+            "PI": 10.0,
+            "Net Charge": 5,
+            "Hydrophobicity": -0.22,
+            "Frequent Amino Acids": "GKA",
+            "Absent Amino Acids": "CDOPQRTUY",
+            "Basic Residues": 6,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 17,
+            "Positive Residues": 6,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_UN_25159",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_05871",
+                    "Similarity": 1.0,
+                    "Sequence": "GIGKFLHSAKKWGKAFVGEIMNS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11247",
+                    "Similarity": 1.0,
+                    "Sequence": "GIGKFLHSAKKWGKAFVGEIMNSC"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_13322",
+                    "Similarity": 1.0,
+                    "Sequence": "GIGKFLHSAKKGKAFVGEIMN"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=16µM),Acinetobacter baumannii ATCC BAA-747(MIC=8µM),Pseudomonas aeruginosa ATCC 27583(MIC=64µM),Klebsiella pneumoniae ATCC 700603(MIC=64µM),Staphylococcus aureus ATCC 43300(MIC=>128µM),Enterococcus faecium ATCC 700221(MIC=32µM)"
+        }
+    }
+}

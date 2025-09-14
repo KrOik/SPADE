@@ -1,0 +1,78 @@
+{
+    "SPADE_N_00738": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00738",
+            "Peptide Name": "Vodo peptide N (Plant defensin)",
+            "Source": "Viola odorata (Sweet violet)",
+            "Family": "Belongs to the cyclotide family",
+            "Gene": "Not found",
+            "Sequence": "GLPVCGETCTLGKCYTAGCSCSWPVCYRN",
+            "Sequence Length": 29,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P83838"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Unknown"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Forms a head-to-tail cyclic backbone and that six cysteine residues are involved in three disulphide bonds.",
+            "Formula": "C129H199N35O40S6",
+            "Mass": 3072.56,
+            "PI": 7.77,
+            "Net Charge": 1,
+            "Hydrophobicity": 0.19,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Probably participates in a plant defense mechanism.",
+            "PTM": "Problely contains three disulfide bonds 5-19; 9-21; 14-26.",
+            "Literature": [
+                {
+                    "Title": "Primary and 3-D modelled structures of two cyclotides from Viola odorata.",
+                    "Pubmed ID": "12946412",
+                    "Reference": "Phytochemistry. 2003 Sep;64(1)135-142.",
+                    "Author": "Svang¥rd E, Göransson , Smith D, Verma C, Backlund A, Bohlin L, Claeson P.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=12946412"
+                },
+                {
+                    "Title": "A novel suite of cyclotides from Viola odorata: sequence variation and the implications for structure, function and stability.",
+                    "Pubmed ID": "R2006J0070",
+                    "Author": "Craik D.J.,Colgrave M.L.,Ireland D.C."
+                }
+            ],
+            "Frequent Amino Acids": "CGT",
+            "Absent Amino Acids": "DFHIMOQU",
+            "Basic Residues": 2,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 19,
+            "Positive Residues": 2,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06926",
+                    "Similarity": 0.92,
+                    "Sequence": "CGETCTLGTCYTAGCSCSWPVCTRNGVPI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07727",
+                    "Similarity": 0.9090909090909091,
+                    "Sequence": "TCTLGTCYTAGCSCSWPVCTRNGVPICGE"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15751",
+                    "Similarity": 0.8695652173913043,
+                    "Sequence": "PICKRNGLPVCGETCTLGTCYTQGCTCSW"
+                }
+            ]
+        }
+    }
+}

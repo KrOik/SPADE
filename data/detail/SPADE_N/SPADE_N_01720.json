@@ -1,0 +1,72 @@
+{
+    "SPADE_N_01720": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01720",
+            "Peptide Name": "Brevinin-1Ed (Frogs, amphibians, animals)",
+            "Source": "Rana esculenta (Korea)",
+            "Family": "Belongs to the frog skin active peptide family (Brevinin subfamily)",
+            "Gene": "Not found",
+            "Sequence": "VIPFVASVAAEMMHHVYCAASKRC",
+            "Sequence Length": 24,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+"
+            ],
+            "Target Organism": "Gram-positive bacterium:Micrococcus luteus.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C115H182N32O30S4",
+            "Mass": 2621.13,
+            "PI": 8.04,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.8,
+            "Half Life": "Mammalian:100 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "This is a narrow spectrum AMP from the frog.",
+            "Literature": [
+                {
+                    "Title": "Structure-activity relationships of antimicrobial peptides from the skin of Rana esculenta inhabiting in Korea.",
+                    "Pubmed ID": "15232222",
+                    "Reference": "Mol Cells. 2004 Jun 30;17(3)469-476.",
+                    "Author": "Won HS, Kim SS, Jung SJ, Son WS, Lee B, Lee BJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=15232222"
+                }
+            ],
+            "Frequent Amino Acids": "AVC",
+            "Absent Amino Acids": "DGLNOQTUW",
+            "Basic Residues": 4,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 15,
+            "Polar Residues": 18,
+            "Positive Residues": 4,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_18831",
+                    "Similarity": 1.0,
+                    "Sequence": "VIPFVASVAAEMMHHVYCAASKRCKN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15967",
+                    "Similarity": 0.9583333333333334,
+                    "Sequence": "VIPFVASVAAEMMQHVYCAASKRC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01276",
+                    "Similarity": 0.9166666666666666,
+                    "Sequence": "VIPFVASVAAEMMQHVYCAASKKC"
+                }
+            ]
+        }
+    }
+}

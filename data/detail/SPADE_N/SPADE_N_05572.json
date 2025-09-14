@@ -1,0 +1,71 @@
+{
+    "SPADE_N_05572": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_05572",
+            "Peptide Name": "nocathiacin I(Bacteriocin)",
+            "Source": "Nocardia sp. ATCC202099",
+            "Family": "Belongs to the class I bacteriocin",
+            "Gene": "Not found",
+            "Sequence": "SCTTCECSCSCSS",
+            "Sequence Length": 13,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "NOC-I shares the overall similarity in structure to the naturally occurring but un-glycosylated analogue, nosiheptide (NOS). NOC-I is further functionalized by the methoxylation of a dehydrothreonine in the macrocyclic core,N-hydroxylation ofthe indole moiety, rigid constraining of these two systems viaan etherbondinadditiontotwoesterlinkages,andappendingofa rare sugar moiety, 2,4,6-tri-deoxy-3-methyl-4-N,N-dimethylaminoL-hexose.",
+            "Formula": "C43H73N13O23S5",
+            "Mass": 1300.44,
+            "PI": 4.05,
+            "Net Charge": -1,
+            "Hydrophobicity": 0.28,
+            "Half Life": "Mammalian:1.9 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Moving posttranslational modifications forward to biosynthesize the glycosylated thiopeptide nocathiacin I in Nocardia sp. ATCC202099.",
+                    "Pubmed ID": "20473441",
+                    "Reference": "Mol Biosyst. 2010 Jul;6(7)1180-5.",
+                    "Author": "Ding Y, Yu Y, Pan H, Guo H, Li Y, Liu W.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=20473441"
+                }
+            ],
+            "Frequent Amino Acids": "CST",
+            "Absent Amino Acids": "ADFGHIKLMNOPQRUVWY",
+            "Basic Residues": 0,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 0,
+            "Polar Residues": 12,
+            "Positive Residues": 0,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_13776",
+                    "Similarity": 1.0,
+                    "Sequence": "SCSSLTTLRPCG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02172",
+                    "Similarity": 0.9166666666666666,
+                    "Sequence": "SCTTCECCCSCS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02173",
+                    "Similarity": 0.8461538461538461,
+                    "Sequence": "IASASCTTCICTCSCSS"
+                }
+            ]
+        }
+    }
+}

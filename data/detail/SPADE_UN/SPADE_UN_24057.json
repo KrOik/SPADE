@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_24057": {
+        "Sequence Information": {
+            "Peptide Name": "NCR169 (17-38)",
+            "Sequence": "KSKKPLFKIWKCVENVCVLWYK",
+            "Sequence Length": 22,
+            "Biological Activity": [
+                "Antifungal",
+                "Anti-Mammalian Cell",
+                "Antibiofilm"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "A7KHA7",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/A7KHA7",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Symbiotic NCR Peptide Fragments Affect the Viability, Morphology and Biofilm Formation of Candida Species.",
+                    "Pubmed ID": "33915930",
+                    "Reference": "Int J Mol Sci. 2021;22:3666",
+                    "Author": "Szerencsés B, Gácser A, Endre G, Domonkos I, Tiricz H, Vágvolgyi C, Szolomajer J, Howan DHO, Tóth GK, Pfeiffer I, Kondorosi É",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/33915930"
+                }
+            ],
+            "Mass": 2740.38,
+            "PI": 9.7,
+            "Net Charge": 5,
+            "Hydrophobicity": -0.15,
+            "Frequent Amino Acids": "KVC",
+            "Absent Amino Acids": "ADGHMOQRTU",
+            "Basic Residues": 6,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 13,
+            "Positive Residues": 6,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_UN_24057",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06286",
+                    "Similarity": 1.0,
+                    "Sequence": "AKSKAKSKAKSKAKSKAKSKAKSK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14877",
+                    "Similarity": 1.0,
+                    "Sequence": "EDIGHIKYCGIVDDCYKSKKPLFKIWKCVENVCVLWYK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_06808",
+                    "Similarity": 1.0,
+                    "Sequence": "MGEMFKFIYTFILFVHLFLVVIFEDIGHIKYCGIVDDCYKSKKPLFKIWKCVENVCVLWYK"
+                }
+            ],
+            "Hemolytic Activity": "Human keratinocytes HaCat:10% Cell death=25 µM",
+            "Target Organism": "Candida albicans ATCC 10231(MIC=25µM),Candida albicans SC5314(MIC=12.5µM),Candida albicans SZMC 1458(MIC=12.5µM),Candida auris 0381(MIC=6.25µM),Candida glabrata CBS 138(MIC=25µM),Candida parapsilosis CBS 604(no activity data),Candida tropicalis CBS 94(MIC=3.12µM)"
+        }
+    }
+}

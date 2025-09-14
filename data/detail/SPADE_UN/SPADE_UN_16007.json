@@ -1,0 +1,72 @@
+{
+    "SPADE_UN_16007": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_16007",
+            "Peptide Name": "PMAP-23 [R10W][Q13W][K14W]",
+            "Source": "Synthetic (Derived from PMAP-23)",
+            "Family": "",
+            "Gene": "Not found",
+            "Sequence": "RIIDLLWRVWRPWWPKFVTVWVR",
+            "Sequence Length": 23,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P49930"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Target Organism": "Tumor cells:SNU-601 (IC50=10 µM); Jurkat (IC50=11 µM)",
+            "Hemolytic Activity": "Not available",
+            "Cytotoxicity": "Not available",
+            "Binding Target": "Not available",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C156H227N41O27",
+            "Mass": 3108.73,
+            "PI": 12.0,
+            "Net Charge": 4,
+            "Hydrophobicity": 0.1,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Literature": [
+                {
+                    "Title": "Design of novel peptide analogs with potent fungicidal activity, based on PMAP-23 antimicrobial peptide isolated from porcine myeloid",
+                    "Pubmed ID": "12054589",
+                    "Reference": "Biochem Biophys Res Commun. 2002 Apr 26;293(1)231-8.",
+                    "Author": "Lee DG, Kim PI, Park Y, Woo ER, Choi JS, Choi CH, Hahm KS.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=12054589"
+                }
+            ],
+            "Frequent Amino Acids": "WRV",
+            "Absent Amino Acids": "ACEGHMNOQSUY",
+            "Basic Residues": 5,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 16,
+            "Polar Residues": 10,
+            "Positive Residues": 5,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_25627",
+                    "Similarity": 1.0,
+                    "Sequence": "KFVTVWVR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_25634",
+                    "Similarity": 1.0,
+                    "Sequence": "KFVTVWVRGWKRKRFG"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_16005",
+                    "Similarity": 0.9565217391304348,
+                    "Sequence": "RIIDLLWRVRRPWWPKFVTVWVR"
+                }
+            ]
+        }
+    }
+}

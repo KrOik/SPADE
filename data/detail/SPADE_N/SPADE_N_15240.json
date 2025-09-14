@@ -1,0 +1,60 @@
+{
+    "SPADE_N_15240": {
+        "Sequence Information": {
+            "Peptide Name": "MBJ-0174",
+            "Sequence": "RVLVY",
+            "Sequence Length": 5,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anticancer"
+            ],
+            "Binding Target": "",
+            "Source": "1. Mortierella alpina f28740",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Novel arginine-containing peptides MBJ-0173 and MBJ-0174 from Mortierella alpina f28740.",
+                    "Pubmed ID": "27624401",
+                    "Reference": "J Antibiot (Tokyo). 2017;70:226-229",
+                    "Author": "Kawahara T, Itoh M, Izumikawa M, Sakata N, Tsuchida T, Shin-Ya K",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/27624401"
+                }
+            ],
+            "Mass": 648.79,
+            "PI": 8.75,
+            "Net Charge": 1,
+            "Hydrophobicity": 1.28,
+            "Frequent Amino Acids": "VLR",
+            "Absent Amino Acids": "ACDEFGHIKMNOPQSTUW",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 3,
+            "Polar Residues": 2,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_N_15240",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00210",
+                    "Similarity": 1.0,
+                    "Sequence": "DYHHGVRVL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05131",
+                    "Similarity": 1.0,
+                    "Sequence": "MNYEEFKKEIESIDYLSVENRYDRVLVYSSLGDYPLVAVSILETGFVDYNWRGHVRARDIPVLTEAVEKFAETPYEERFPKKLLPTYWRKLC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10135",
+                    "Similarity": 1.0,
+                    "Sequence": "INKHTKRCKDLNTFLHEPFSSVAATCQTPKIACKNGDKNCHQSHGAVSLTMCKLTSGKYPNCRYKEKRQNKSYVVACKPPQKKDSQQFHLVPVHLDRVL"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Human ovarian adenocarcinoma SK-OV-3(no activity data),Jurkat T-cell leukemia(no activity data),Human pleural mesothelioma ACC-MESO-1(no activity data),Micrococcus luteus(IC50=>100µM),Escherichia coli(no activity data)"
+        }
+    }
+}

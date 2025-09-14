@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_28959": {
+        "Sequence Information": {
+            "Peptide Name": "Eosinophil cationic protein (8-45) [C23,37S]",
+            "Sequence": "AQWFAIQHISLNPPRSTIAMRAINNYRWRSKNQNTFLR",
+            "Sequence Length": 38,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P12724",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P12724",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Refining the eosinophil cationic protein antibacterial pharmacophore by rational structure minimization.",
+                    "Pubmed ID": "21696142",
+                    "Reference": "J Med Chem. 2011;54:5237-5244",
+                    "Author": "Torrent M, Pulido D, de la Torre BG, García-Mayoral MF, Nogués MV, Bruix M, Andreu D, Boix E",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/21696142"
+                }
+            ],
+            "Mass": 4601.22,
+            "PI": 12.0,
+            "Net Charge": 7,
+            "Hydrophobicity": -0.72,
+            "Frequent Amino Acids": "NRA",
+            "Absent Amino Acids": "CDEGOUV",
+            "Basic Residues": 7,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 25,
+            "Positive Residues": 7,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_28959",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_10053",
+                    "Similarity": 1.0,
+                    "Sequence": "RPPQFTRAQWFAIQHISLN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10055",
+                    "Similarity": 1.0,
+                    "Sequence": "AQWFAIQHISLNPPRSTIAMRAINNYRWR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10056",
+                    "Similarity": 1.0,
+                    "Sequence": "TRAQWFAIQHISSTIAMRAINNYRWR"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=10.5±0.2 µM",
+            "Target Organism": "Escherichia coli BL2(MIC=0.45±0.09µM),Pseudomonas sp. ATCC 15915(MIC=1.5±0.3µM),Acinetobacter baumannii ATCC 15308(MIC=0.88±0.07µM),Staphylococcus aureus ATCC 502A(MIC=0.7±0.1µM),Micrococcus luteus ATCC 7468(MIC=1.5±0.3µM),Enterococcus faecium ATCC 19434(MIC=1.5±0.3µM)"
+        }
+    }
+}

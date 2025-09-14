@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_11960": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_11960",
+            "Peptide Name": "Ink (Derived from IN)",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "ILKWKWKWWKWRR",
+            "Sequence Length": 13,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic form",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.17604338] Gram-positive bacteria :Staphylococcus epidermidis(KCTC 1917)(MIC=1 μM), Staphylococcus aureus(KCTC 1621)(MIC=1 μM), MRSA1 (CCARM 3001)(MIC=2 μM), MRSA2 (CCARM 3543)(MIC=1 μM);Gram-negative bacteria :Escherichia coli(KCTC 1682)(MIC=4 μM), Pseudomonas aeruginosa(KCTC 1637)(MIC=2 μM), MDRPA1 (CCARM 2095)(MIC=4 μM), MDRPA2 (CCARM 2109)(MIC=8 μM)",
+            "Hemolytic Activity": "[Ref.17604338] MHC10>200 μM against human red blood cells",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C85H104N22O8",
+            "Mass": 2000.44,
+            "PI": 12.0,
+            "Net Charge": 6,
+            "Hydrophobicity": -1.6,
+            "Half Life": "Mammalian:20 hourYeast:30 minE.coli:>10 hour",
+            "Function": "Antibacterial activity against Gram-positive bacteria and Gram-negative bacteria",
+            "Literature": [
+                {
+                    "Title": "Cathelicidin-derived Trp/Pro-rich antimicrobial peptides with lysine peptoid residue (Nlys) therapeutic index and plausible mode of action.",
+                    "Pubmed ID": "17604338",
+                    "Reference": "J Pept Sci. 2007 Aug;13(8)529-35.",
+                    "Author": "Zhu WL, Hahm KS, Shin SY",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=17604338"
+                }
+            ],
+            "Frequent Amino Acids": "WKR",
+            "Absent Amino Acids": "ACDEFGHMNOPQSTUVY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 6,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_11960",
+                    "Similarity": 1.0,
+                    "Sequence": "ILKWKWKWWKWRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10916",
+                    "Similarity": 1.0,
+                    "Sequence": "WKWK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_12607",
+                    "Similarity": 1.0,
+                    "Sequence": "KWKWK"
+                }
+            ]
+        }
+    }
+}

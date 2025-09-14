@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_26026": {
+        "Sequence Information": {
+            "Peptide Name": "P18P1",
+            "Sequence": "LKKLLLLLKKLGGGWKTNKYGTLY",
+            "Sequence Length": 24,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Specifically targeted antimicrobial peptides synergize with bacterial-entrapping peptide against systemic MRSA infections.",
+                    "Pubmed ID": "38266820",
+                    "Reference": "J Adv Res. 2022;S2090-1232:00036-5",
+                    "Author": "Xu B, Wang L, Yang C, Yan R, Zhang P, Jin M, Du H, Wang Y",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/38266820"
+                }
+            ],
+            "Mass": 2749.38,
+            "PI": 10.22,
+            "Net Charge": 6,
+            "Hydrophobicity": -0.13,
+            "Frequent Amino Acids": "LKG",
+            "Absent Amino Acids": "ACDEFHIMOPQRSUV",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 16,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_26026",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06668",
+                    "Similarity": 1.0,
+                    "Sequence": "FAKLLAKALKKLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06745",
+                    "Similarity": 1.0,
+                    "Sequence": "VAKLLAKALKKLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11930",
+                    "Similarity": 1.0,
+                    "Sequence": "LKKLLKKL"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:10% Hemolysis=>256 µg/ml,Human embryonic kidney HEK293T cells:10% Cell death=64 µg/ml",
+            "Target Organism": "Staphylococcus aureus ATCC 25923(MIC=16µg/ml),Staphylococcus aureus USA 300(MIC=32µg/ml),Enterococcus faecalis ATCC 29212(MIC=16µg/ml),Bacillus subtilis ATCC 6633(MIC=32µg/ml),Escherichia coli ATCC 25922(MIC=16µg/ml),Pseudomonas aeruginosa ATCC 15442(MIC=32µg/ml),Acinetobacter baumannii ATCC 19606(MIC=16µg/ml)"
+        }
+    }
+}

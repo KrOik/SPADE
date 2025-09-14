@@ -1,0 +1,71 @@
+{
+    "SPADE_UN_18829": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_18829",
+            "Peptide Name": "WW309 (Synthetic AMPs, Trp-rich, Arg-rich; XXA, UCLL1c)",
+            "Source": "Amino acid substitution, computer designed",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "RRRRWWWL",
+            "Sequence Length": 8,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-MRSA"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 1314.55,
+            "PI": 12.0,
+            "Hydrophobicity": -2.11,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Lakshmaiah Narayana J, Mishra B, Lushnikova T, Wu Q, Chhonker YS, Zhang Y, Zarena D, Salnikov ES, Dang X, Wang F, Murphy C, Foster KW, Gorantla S, Bechinger B, Murry DJ, Wang G.2020",
+                    "Reference": "Proc Natl Acad Sci U S A. 2020 Aug 11;117(32):19446-19454. doi: 10.1073/pnas.2005540117.PubMed",
+                    "Title": "Two distinct amphipathic peptide antibiotics with systemic efficacy."
+                }
+            ],
+            "Frequent Amino Acids": "RWL",
+            "Absent Amino Acids": "ACDEFGHIKMNOPQSTUVY",
+            "Basic Residues": 4,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 4,
+            "Polar Residues": 4,
+            "Positive Residues": 4,
+            "Negative Residues": 0,
+            "Net Charge": 4,
+            "Comments": "Sequence analysis: APD analysis reveals that this sequence is poorly similar (87.5%) toww306. R: 50%; W: 38%.Activity: active against S. aureus M838-17 (MIC 6.25 uM), P. aeruginosa E411-17 (MIC 12.5 uM), and K-pneumoniae E406-17 (MIC >50 uM).Toxicity: human RBC:  not hemo.lytic (HC50 >200 uM).",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02907",
+                    "Similarity": 1.0,
+                    "Sequence": "SRDLICLCRNRRCNRGELFYGTCAGPFLRCCRRRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02908",
+                    "Similarity": 1.0,
+                    "Sequence": "SRDLICLCRKRRCNRGELFYGTCAGPFLRCCRRRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02991",
+                    "Similarity": 1.0,
+                    "Sequence": "FLRRSVSGFQECHSKGGYCYRYYCPRPHRRLGSCYPYAANCCRRRR"
+                }
+            ]
+        }
+    }
+}

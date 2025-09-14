@@ -1,0 +1,74 @@
+{
+    "SPADE_UN_00100": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_00100",
+            "Peptide Name": "Dermatoxin-J2 (DRT-J2; Frogs, amphibians, animals)",
+            "Source": "Phasmahyla jandaia (Jandaia leaf frog)",
+            "Family": "Belongs to the frog skin active peptide family (Dermaseptin subfamily)",
+            "Gene": "Not found",
+            "Sequence": "SLGGFLKGVGKALAGVGKMVADQFGNLLQAGQ",
+            "Sequence Length": 32,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P86622"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C140H231N39O40S",
+            "Mass": 3132.63,
+            "PI": 9.7,
+            "Net Charge": 2,
+            "Hydrophobicity": 0.41,
+            "Half Life": "Mammalian:1.9 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Antimicrobial peptide.",
+            "Tissue specificity": "Expressed by the skin glands.",
+            "PTM": "C-terminal amidation.",
+            "Literature": [
+                {
+                    "Title": "Peptidomic dissection of the skin secretion of Phasmahyla jandaia (Bokermann and Sazima, 1978) (Anura, Hylidae, Phyllomedusinae).",
+                    "Pubmed ID": "20932854",
+                    "Reference": "Toxicon. 2011 Jan;57(1)35-52.",
+                    "Author": "Rates B, Silva LP, Ireno IC, Leite FS, Borges MH, Bloch C Jr, De Lima ME, Pimenta AM.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=20932854"
+                }
+            ],
+            "Frequent Amino Acids": "GLA",
+            "Absent Amino Acids": "CEHIOPRTUWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 15,
+            "Polar Residues": 15,
+            "Positive Residues": 3,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_00099",
+                    "Similarity": 0.96875,
+                    "Sequence": "SLGGFLKGVGKALAGVGKVVADQFGNLLQAGQ"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_00101",
+                    "Similarity": 0.90625,
+                    "Sequence": "SLGGFLKGVGKVLAGVGKVVADQFGNLLEAGQ"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01520",
+                    "Similarity": 0.84375,
+                    "Sequence": "SLRGFLKGVGTALAGVGKVVADQFDKLLQAGQ"
+                }
+            ]
+        }
+    }
+}

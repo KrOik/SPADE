@@ -1,0 +1,64 @@
+{
+    "SPADE_UN_29514": {
+        "Sequence Information": {
+            "Peptide Name": "Histatin 5 (4-15)[K2Q][R3Q][R9Q][K10Q]",
+            "Sequence": "AQQHHGYKQQFH",
+            "Sequence Length": 12,
+            "Biological Activity": [
+                "Antifungal"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P15516",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P15516",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Anticandida activity is retained in P-113, a 12-amino-acid fragment of histatin 5",
+                    "Pubmed ID": "11302797",
+                    "Reference": "Antimicrob Agents Chemother. 2001;45:1367-1373",
+                    "Author": "Rothstein DM, Spacciapoli P, Tran LT, Xu T, Roberts FD, Dalla Serra M, Buxton DK, Oppenheim FG, Friden P",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/11302797"
+                }
+            ],
+            "Mass": 1508.6,
+            "PI": 8.65,
+            "Net Charge": 4,
+            "Hydrophobicity": -2.05,
+            "Frequent Amino Acids": "QHA",
+            "Absent Amino Acids": "CDEILMNOPRSTUVW",
+            "Basic Residues": 4,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 2,
+            "Polar Residues": 10,
+            "Positive Residues": 4,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_29514",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_10308",
+                    "Similarity": 1.0,
+                    "Sequence": "NNLLRAIEAQQH"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_14236",
+                    "Similarity": 1.0,
+                    "Sequence": "RQLLSGIVQQQNNLLRAIEAQQH"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_29514",
+                    "Similarity": 1.0,
+                    "Sequence": "AQQHHGYKQQFH"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Candida albicans ATCC 44505(LD50=>80µg/ml),Candida albicans ATCC 44505(LD90=>80µg/ml)"
+        }
+    }
+}

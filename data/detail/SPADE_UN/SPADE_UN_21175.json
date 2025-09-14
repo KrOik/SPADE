@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_21175": {
+        "Sequence Information": {
+            "Peptide Name": "Cyclo(1-4)-cILC-BP100",
+            "Sequence": "CILCKKILKYL",
+            "Sequence Length": 11,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Synthesis, biophysical and functional studies of two BP100 analogues modified by a hydrophobic chain and a cyclic peptide.",
+                    "Pubmed ID": "29750913",
+                    "Reference": "Biochim Biophys Acta. 2018;1860:1502-1516",
+                    "Author": "Carretero GPB, Saraiva GKV, Cauz ACG, Rodrigues MA, Kiyota S, Riske KA, Dos Santos AA, Pinatto-Botelho MF, Bemquerer MP, Gueiros-Filho FJ, Chaimovich H, Schreier S, Cuccovia IM",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/29750913"
+                }
+            ],
+            "Mass": 1337.78,
+            "PI": 9.31,
+            "Net Charge": 3,
+            "Hydrophobicity": 1.13,
+            "Frequent Amino Acids": "KLC",
+            "Absent Amino Acids": "ADEFGHMNOPQRSTUVW",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 4,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_21175",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_14149",
+                    "Similarity": 1.0,
+                    "Sequence": "GGCPDADKCTKYCQKQGISVGKCAKPVNACVCIL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_13997",
+                    "Similarity": 1.0,
+                    "Sequence": "DTVVELSEWGVPCATCIL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_21175",
+                    "Similarity": 1.0,
+                    "Sequence": "CILCKKILKYL"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=8.7 µM",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=4µM),Staphylococcus aureus ATCC 25923(MIC=4µM),Bacillus subtilis PY79(MIC=2µM)"
+        }
+    }
+}

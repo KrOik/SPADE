@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_21392": {
+        "Sequence Information": {
+            "Peptide Name": "Magainin-2 [I2G,F5A,A9F,G13I]",
+            "Sequence": "GGGKALHSFKKFIKAFVGEIMNS",
+            "Sequence Length": 23,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P11006",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P11006",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Inducing toxicity by introducing a leucine-zipper-like motif in frog antimicrobial peptide, magainin 2.",
+                    "Pubmed ID": "21434868",
+                    "Reference": "Biochem J. 2011;436:609-620",
+                    "Author": "Pandey BK, Srivastava S, Singh MK, Ghosh JK",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/21434868"
+                }
+            ],
+            "Mass": 2466.9,
+            "PI": 10.0,
+            "Net Charge": 4,
+            "Hydrophobicity": 0.08,
+            "Frequent Amino Acids": "GKF",
+            "Absent Amino Acids": "CDOPQRTUWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 13,
+            "Positive Residues": 5,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_UN_21392",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_08118",
+                    "Similarity": 1.0,
+                    "Sequence": "GIGAVLKVLTTGLPALISWIGGGGGG"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_13005",
+                    "Similarity": 1.0,
+                    "Sequence": "GGGGGGG"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_17269",
+                    "Similarity": 1.0,
+                    "Sequence": "HEHEHEHEHEHEHEHEEFGGGGGYGRRRRRRGGGGGG"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:16% Hemolysis=50 µM,Mouse fibroblasts NIH 3T3:100% Killing=80 µM,Chinese hamster ovary cells CHO-K1:55% Killing=100 µM",
+            "Target Organism": "Escherichia coli ATCC 10536(MIC=5.0µM),Staphylococcus aureus ATCC 9144(MIC=40.0µM),Bacillus subtilis ATCC 6633(MIC=10.0µM),Bacillus megaterium NRRL B-4272(MIC=12.0µM)"
+        }
+    }
+}

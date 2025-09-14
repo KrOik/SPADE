@@ -1,0 +1,76 @@
+{
+    "SPADE_UN_14463": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_14463",
+            "Peptide Name": "C41 [S15X](S15C)",
+            "Source": "Synthetic construct",
+            "Family": "Retroviridae",
+            "Gene": "Not found",
+            "Sequence": "EWDREINNYTSLIHXLIEESQNQQEKNEQELLELDKWASLW",
+            "Sequence Length": 41,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antiviral"
+            ],
+            "Target Organism": "[Ref.22770564]HIV-1:inhibition of cell-cell fusion between CHO-WT cells and K652 cells(IC50=4.1± 1.0 nM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information or data found in the reference(s) presented in this entry",
+            "Binding Target": "envelope glycoprotein(gp41)",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C220H330N58O73",
+            "Mass": 5084.73,
+            "PI": 4.22,
+            "Net Charge": -6,
+            "Hydrophobicity": -1.159,
+            "Half Life": "Mammalian:1 hourYeast:30 minE.coli:>10 hour",
+            "Mechanism of action": "The peptide have been shown to be effective inhibitors to prevent virus–host cell membrane fusion.",
+            "Literature": [
+                {
+                    "Title": "Site-specific PEGylation of HR2 peptides effects of PEG conjugation position and chain length on HIV-1 membrane fusion inhibition and proteolytic degradation.",
+                    "Pubmed ID": "22770564",
+                    "Reference": "Bioconjug Chem. 2012 Aug 15;23(8)1648-60.",
+                    "Author": "Danial M, van Dulmen TH, Aleksandrowicz J, Pötgens AJ, Klok HA.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=22770564"
+                },
+                {
+                    "Title": "Site-specific PEGylation of HR2 peptides: effects of PEG conjugation position and chain length on HIV-1 membrane fusion inhibition and proteolytic degradation",
+                    "Pubmed ID": "",
+                    "Author": "Danial M, van Dulmen TH, Aleksandrowicz J, Potgens AJ, Klok HA"
+                }
+            ],
+            "Frequent Amino Acids": "ELN",
+            "Absent Amino Acids": "CFGMOPUV",
+            "Basic Residues": 4,
+            "Acidic Residues": 10,
+            "Hydrophobic Residues": 14,
+            "Polar Residues": 18,
+            "Positive Residues": 4,
+            "Negative Residues": 10,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_10037",
+                    "Similarity": 1.0,
+                    "Sequence": "WMEWDREINNYTSLIHSLIEESQNQQEKN"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_09642",
+                    "Similarity": 1.0,
+                    "Sequence": "WMEWDREINNYTSLIHSLIEESQNQQEKNEQELLEL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_09768",
+                    "Similarity": 1.0,
+                    "Sequence": "WNASWSNKSLEQIWNNMTWMEWDREINNYTSLIHSLIEESQNQQEKNEQELLELDKWASLWNWF"
+                }
+            ]
+        }
+    }
+}

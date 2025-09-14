@@ -1,0 +1,74 @@
+{
+    "SPADE_N_02955": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02955",
+            "Peptide Name": "Beta-defensin 39 (BD-39, mBD-39; Defensin, beta 39; Rodents, mammals, animals)",
+            "Source": "Mus musculus (Mouse)",
+            "Family": "Belongs to the beta-defensin family",
+            "Gene": "Defb39",
+            "Sequence": "DDSIQCFQKNNTCHTNQCPYFQDEIGTCYDKRGKCCQKRLLHIRVPRKKKV",
+            "Sequence Length": 51,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q70KL3",
+                "http://www.uniprot.org/uniprot/Q7TNV6"
+            ],
+            "Protein Existence": "Transcript level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C259H418N82O76S6",
+            "Mass": 6088.98,
+            "PI": 9.22,
+            "Net Charge": 8,
+            "Hydrophobicity": -1.11,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:>10 hour",
+            "PTM": "Contains three disulfide bonds 6-35; 13-28; 18-36.",
+            "Literature": [
+                {
+                    "Title": "Identification on mouse chromosome 8 of new beta-defensin genes with regionally specific expression in the male reproductive organ.",
+                    "Pubmed ID": "14718547",
+                    "Reference": "J Biol Chem. 2004 Mar 26;279(13)12421-12426.",
+                    "Author": "Zaballos A, Villares R, Albar JP, Martínez-A C, Márquez G.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=14718547"
+                }
+            ],
+            "Frequent Amino Acids": "KCQ",
+            "Absent Amino Acids": "AMOUW",
+            "Basic Residues": 13,
+            "Acidic Residues": 5,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 35,
+            "Positive Residues": 13,
+            "Negative Residues": 5,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_08160",
+                    "Similarity": 1.0,
+                    "Sequence": "MKISYFLLLILSLGSSQINPVSGDDSIQCFQKNNTCHTNQCPYFQDEIGTCYDKRGKCCQKRLLHIRVPRKKKV"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03696",
+                    "Similarity": 1.0,
+                    "Sequence": "IQCFQKNNTCHTNQCPYFQDEIGTCYDKRGKCCQK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07477",
+                    "Similarity": 0.9722222222222222,
+                    "Sequence": "DSIQCFQKNNTCHTNQCPYFQDEIGTCYDRRGKCCQ"
+                }
+            ]
+        }
+    }
+}

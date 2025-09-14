@@ -1,0 +1,86 @@
+{
+    "SPADE_N_05742": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_05742",
+            "Peptide Name": "Chicken Heterophil Peptide 2 (CHP-2, avian beta-defensin, birds, animals)",
+            "Source": "Gallus gallus (Chicken)",
+            "Family": "Belongs to the beta-defensin family.",
+            "Gene": "Not found",
+            "Sequence": "GRKSDCFRKNGFCAFLKCPYLTLISGLCSFHLC",
+            "Sequence Length": 33,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P80390"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C167H259N45O42S5",
+            "Mass": 3729.44,
+            "PI": 9.04,
+            "Net Charge": 5,
+            "Hydrophobicity": 0.33,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Has bactericidal activity. Potent activity against E.coli ML-35, L.monocytogenes EGD and C.albicans.",
+            "Literature": [
+                {
+                    "Title": "Isolation of antimicrobial peptides from avian heterophils.",
+                    "Pubmed ID": "7964174",
+                    "Reference": "J. Leukoc. Biol. 1994; 56 661-665.",
+                    "Author": "Evans EW, Beach GG, Wunderlich J, Harmon BG.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=7964174"
+                },
+                {
+                    "Title": "Gallinacin-3, an inducible epithelial beta-defensin in the chicken.",
+                    "Pubmed ID": "",
+                    "Author": "Brogden K.A.,Sacco R.E.,Liu L.,Nguyen T.,Zhao C."
+                },
+                {
+                    "Title": "Gallinacins: cysteine-rich antimicrobial peptides of chicken leukocytes.",
+                    "Pubmed ID": "",
+                    "Author": "Lee T.D.,Tan L.,Kokryakov V.N.,Swiderek K.M.,Harwig S.S.L."
+                }
+            ],
+            "Frequent Amino Acids": "CLF",
+            "Absent Amino Acids": "EMOQUVW",
+            "Basic Residues": 6,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 18,
+            "Positive Residues": 6,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07453",
+                    "Similarity": 1.0,
+                    "Sequence": "GRKSDCFRKNGFCAFLKCPYLTLISGLCSFHLC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03195",
+                    "Similarity": 0.9696969696969697,
+                    "Sequence": "GRKSDCFRKNGFCAFLKCPYLTLISGKCSRFHLCCKRIW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03188",
+                    "Similarity": 0.8787878787878788,
+                    "Sequence": "GRKSDCFRKSGFCAFLKCPSLTLISGKCSRFYLCCKRIR"
+                }
+            ]
+        }
+    }
+}

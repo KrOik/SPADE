@@ -1,0 +1,72 @@
+{
+    "SPADE_N_03448": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03448",
+            "Peptide Name": "GAST1 protein, putative",
+            "Source": "Oryza sativa subsp. japonica (Rice)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "GSVSIEECPQKCDYRCSATKRQEPCLKYCNICCQKCLCVPSGTSGNKEECPCYNNLKSSQGNSKCP",
+            "Sequence Length": 66,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q10P25"
+            ],
+            "Protein Existence": "Predicted",
+            "Biological Activity": [
+                "Antimicrobial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C294H478N88O101S12",
+            "Mass": 7246.25,
+            "PI": 8.29,
+            "Net Charge": 3,
+            "Hydrophobicity": -0.75,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Sequence, annotation, and analysis of synteny between rice chromosome 3 and diverged grass species.",
+                    "Pubmed ID": "16109971",
+                    "Reference": "Genome Res. 2005 Sep;15(9)1284-91.",
+                    "Author": "Buell CR, Yuan Q, Ouyang S, Liu J, Zhu W, et al, Jiang J, Jackson S.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16109971"
+                }
+            ],
+            "Frequent Amino Acids": "CSK",
+            "Absent Amino Acids": "FHMOUW",
+            "Basic Residues": 9,
+            "Acidic Residues": 6,
+            "Hydrophobic Residues": 16,
+            "Polar Residues": 46,
+            "Positive Residues": 9,
+            "Negative Residues": 6,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_18463",
+                    "Similarity": 0.6610169491525424,
+                    "Sequence": "CGGKCNVRCSKAGQHEECLKYCNICCQKCNCVPSGTFGHKDECPCYRDMKNSKGGSKCP"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_08043",
+                    "Similarity": 0.6060606060606061,
+                    "Sequence": "MKLVVVQFFIISLLLTSSFSVLSSADSSCGGKCNVRCSKAGQHEECLKYCNICCQKCNCVPSGTFGHKDECPCYRDMKNSKGGSKCP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08298",
+                    "Similarity": 0.6060606060606061,
+                    "Sequence": "GSLRPSECGQRCSYRCSATSHKKPCMFFCQKCCAKCLCVPPGTFGNKQVCPCYNNWKTQQGGPKCP"
+                }
+            ]
+        }
+    }
+}

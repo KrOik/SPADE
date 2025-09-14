@@ -1,0 +1,70 @@
+{
+    "SPADE_N_13800": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_13800",
+            "Peptide Name": "Hs10 (predicted AMPs, encrypted peptides, cryptides; Lys-rich; UCLL1, BBL, BBMm, XXA)",
+            "Source": "human proteome,Homo sapiens, human, primates, mammals, animals",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "KFDLKVTIK",
+            "Sequence Length": 9,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram-",
+                "anti-sepsis"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 1091.34,
+            "PI": 9.7,
+            "Hydrophobicity": -0.07,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Santos MA, Silva FL, Lira BOV, Cardozo Fh JL, Vasconcelos AG, Araujo AR, Murad AM, Garay AV, Freitas SM, Leite JRSA, Bloch Júnior C, Ramada MHS, de Oliveira AL, Brand GD.2022.",
+                    "Reference": "Biochim Biophys Acta Gen Subj. 2022 Oct 21:130265. doi: 10.1016/j.bbagen.2022.130265.PubMed",
+                    "Title": "Probing human proteins for short encrypted antimicrobial peptides reveals Hs10, a peptide with selective activity for gram-negative bacteria."
+                }
+            ],
+            "Frequent Amino Acids": "KDF",
+            "Absent Amino Acids": "ACEGHMNOPQRSUWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 4,
+            "Polar Residues": 5,
+            "Positive Residues": 3,
+            "Negative Residues": 1,
+            "Net Charge": 2,
+            "Comments": "Sequence analysis:  APD analysis reveals this sequence is most similar (50%) toOsDEF8K: 33%; I=V=L=F=T=D=11%. GRAVY: -0.0667; mol wt: 1091.349: Mol formula: C52H90N12O13; Mol ex Coeff: 0.Activity: Active against Gram- E. coli EHEC O157:H7 (MIC 32 uM), K. pneumoniae KPC (MIC 64 uM), A. baumanii (MIC 128 uM), but not active against Gram+ S.aureus MDR (MIC > 128 uM), E. faecalis (MIC > 128 uM) S.aureus 111 or 117 or 118 (MIC> 128 uM). CLSI protocol for MIC assay.",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_24980",
+                    "Similarity": 1.0,
+                    "Sequence": "KFDLKVTIK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_02322",
+                    "Similarity": 1.0,
+                    "Sequence": "TIKRYIWIK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05141",
+                    "Similarity": 0.75,
+                    "Sequence": "MLIKKEKKAYLFTIYGLHSYPSVIGVDSYSDSVAMERFYKIWRKHYPKHYKTHKEFTVKKFDI"
+                }
+            ]
+        }
+    }
+}

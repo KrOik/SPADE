@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_28519": {
+        "Sequence Information": {
+            "Peptide Name": "Caltrin (Seminalplasmin) (28-40) [E5K][P1C][G13C], SAC",
+            "Sequence": "CKLLKTFLSKWIC",
+            "Sequence Length": 13,
+            "Biological Activity": [
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P06833",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P06833",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Consequences of introducing a disulfide bond into an antibacterial and hemolytic peptide.",
+                    "Pubmed ID": "10604598",
+                    "Reference": "J Pept Res. 1999;54:528-535",
+                    "Author": "Krishnakumari V, Sharadadevi A, Sitaram N, Nagaraj R",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/10604598"
+                }
+            ],
+            "Mass": 1583.01,
+            "PI": 9.39,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.74,
+            "Frequent Amino Acids": "KLC",
+            "Absent Amino Acids": "ADEGHMNOPQRUVY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 6,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_28519",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_12578",
+                    "Similarity": 1.0,
+                    "Sequence": "LLLKKLLLLCKKKKKCKL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_20228",
+                    "Similarity": 1.0,
+                    "Sequence": "LLLKKLLLLCKKKKKCKL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_28519",
+                    "Similarity": 1.0,
+                    "Sequence": "CKLLKTFLSKWIC"
+                }
+            ],
+            "Hemolytic Activity": "Rat erythrocytes:100% Hemolysis=5 µg/ml",
+            "Target Organism": "Escherichia coli W160-37(MIC=25µg/ml)"
+        }
+    }
+}

@@ -1,0 +1,83 @@
+{
+    "SPADE_N_06014": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_06014",
+            "Peptide Name": "Pxt‐12(CPF-St7)",
+            "Source": "Xenopus tropicalis",
+            "Family": "Not found",
+            "Gene": "N/A",
+            "Sequence": "NLLGSLLKTGLKVGSNLL",
+            "Sequence Length": 18,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P84386"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "[Ref.26802742]Gram-negative bacteria:Escherichia coli NBRC 14237(MIC<12.5 µM);Pseudomonas aeruginosa NBRC 12582(MIC<50 µM);Gram-positive bacteria:Staphylococcus aureus NBRC 12732(MIC<12.5 µM);Micrococcus luteus NBRC 12708(MIC<50 µM);Fungi:Candida albicans NBRC 1594(ND).[Ref.23935531]Gram-negative bacteria:Escherichia coli ATCC 25922(MIC=128 µM);Pseudomonas aeruginosa ATCC 15692(MIC >256 µM);Gram-positive bacteria:Staphylococcus aureus ATCC 25923(MIC=32 µM);Micrococcus luteus(MIC=2 µM);Fungi:Saccharomyces cerevisiae(MIC=64 µM);Parasite:Trypanosoma brucei(LC95=2-64 µM).",
+            "Hemolytic Activity": "[Ref.26802742]0% Hemolysis against Rat erythrocytes at 50 µM.[Ref.23935531]Hemolysis against Mouse erythrocytes(IC50=256 µM).",
+            "Cytotoxicity": "[Ref.23935531]Cytotoxicity against T-lymphocytes(IC50=128 µM).",
+            "Binding Target": "liposomes",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "0%,2.5%,6.6% α-helix were mearsured by CD spectra at 10 °C, 25 °C and 37 °C in 10 mm Tris-HCl (pH 7.2);68.2%,57.4%,50.5% α-helix were mearsured by CD spectra at 10 °C, 25 °C and 37 °C in 50% TFE.",
+            "Formula": "C83H150N22O24",
+            "Mass": 1840.21,
+            "PI": 10.0,
+            "Net Charge": 2,
+            "Hydrophobicity": 0.69,
+            "Half Life": "Mammalian:1.4 hourYeast:3 minE.coli:>10 hour",
+            "Comments": "Induced a significant and dose-dependent histamine release.",
+            "Literature": [
+                {
+                    "Title": "Physicochemical and biological characterizations of Pxt peptides from amphibian (Xenopus tropicalis) skin.",
+                    "Pubmed ID": "26802742",
+                    "Reference": "J Biochem. 2016 Jun;159(6)619-29.",
+                    "Author": "Shigeri Y, Horie M, Yoshida T, Hagihara Y, Imura T, Inagaki H, Haramoto Y, Ito Y, Asashima M.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=26802742"
+                },
+                {
+                    "Title": "Origin and functional diversification of an amphibian defense peptide arsenal.",
+                    "Pubmed ID": "23935531",
+                    "Reference": "PLoS Genet. 2013;9(8)e1003662.",
+                    "Author": "Roelants K, Fry BG, Ye L, Stijlemans B, Brys L, Kok P, Clynen E, Schoofs L, Cornelis P, Bossuyt F.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=23935531"
+                }
+            ],
+            "Frequent Amino Acids": "LGK",
+            "Absent Amino Acids": "ACDEFHIMOPQRUWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 8,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_08074",
+                    "Similarity": 1.0,
+                    "Sequence": "LRLLTPEHYQKVFRLGLAVPKKQIKTAVGRNRFKRICRESFRLHQNQLDFVVIAKKSAQDLSNEELFNLLG"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_10671",
+                    "Similarity": 1.0,
+                    "Sequence": "SNLLRAIEAQQHLLQLTVWQIKQLQARILAVERYLKDQ"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_28545",
+                    "Similarity": 1.0,
+                    "Sequence": "NLLGSLLKTGLKVGSNLL"
+                }
+            ]
+        }
+    }
+}

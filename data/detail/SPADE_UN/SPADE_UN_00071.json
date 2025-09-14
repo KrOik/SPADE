@@ -1,0 +1,85 @@
+{
+    "SPADE_UN_00071": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_00071",
+            "Peptide Name": "Caerin-1.19 (Frogs, amphibians, animals)",
+            "Source": "Litoria gracilenta (Dainty green tree frog)",
+            "Family": "Belongs to the frog skin active peptide family (Caerin subfamily)",
+            "Gene": "Not found",
+            "Sequence": "GLFKVLGSVAKHLLPHVAPIIAEKL",
+            "Sequence Length": 25,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P0C2A8"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antiviral"
+            ],
+            "Target Organism": "[Ref.16554081]Gram-positive bacteria:Bacillus cereus (MIC=50 µg/ml), Leuconostoc lactis (MIC=3 µg/ml), Listeria innocua (MIC=12 µg/ml), Micrococcus luteus (MIC=25 µg/ml), Staphylococcus aureus Strain ATCC 25923 (MIC=12 µg/ml), Staphylococcus aureus Strain ATCC 29213 (MIC=12 µg/ml), Staphylococcus epidermidis (MIC=12 µg/ml), Streptococcus uberis (MIC=25 µg/ml);Gram-negative bacteria:Pasteurella multocida (MIC=50 µg/ml).[Ref.26026377]Virus:HIV:inhibition of HIV Pseudovirus (PsV) infection in CD4+ T cells(IC50=2.5 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C127H212N32O29",
+            "Mass": 2651.24,
+            "PI": 9.7,
+            "Net Charge": 4,
+            "Hydrophobicity": 0.9,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Caerin-1.19 shows significant activity against Gram-positive organisms, but is less effective against Gram-negative organisms.",
+            "Tissue specificity": "Expressed by the skin dorsal glands.",
+            "PTM": "C-terminal amidation.",
+            "Literature": [
+                {
+                    "Title": "Inhibition of HIV infection by caerin 1 antimicrobial peptides.",
+                    "Pubmed ID": "26026377",
+                    "Reference": "Peptides. 2015 Sep;71296-303.",
+                    "Author": "VanCompernolle S, Smith PB, Bowie JH, Tyler MJ, Unutmaz D, Rollins-Smith LA.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=26026377"
+                },
+                {
+                    "Title": "New caerin antibiotic peptides from the skin secretion of the Dainty Green Tree Frog Litoria gracilenta. Identification using positive and negative ion electrospray mass spectrometry.",
+                    "Pubmed ID": "16554081",
+                    "Reference": "Toxicon. 2006 May;47(6)664-675.",
+                    "Author": "Maclean MJ, Brinkworth CS, Bilusich D, Bowie JH, Doyle JR, Llewellyn LE, Tyler MJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16554081"
+                }
+            ],
+            "Frequent Amino Acids": "LAK",
+            "Absent Amino Acids": "CDMNOQRTUWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 16,
+            "Polar Residues": 12,
+            "Positive Residues": 5,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_00071",
+                    "Similarity": 1.0,
+                    "Sequence": "GLFKVLGSVAKHLLPHVAPIIAEKL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01434",
+                    "Similarity": 0.96,
+                    "Sequence": "GLFKVLGSVAKHLLPHVAPVIAEKL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15842",
+                    "Similarity": 0.96,
+                    "Sequence": "GLFSVLGSVAKHLLPHVAPIIAEKL"
+                }
+            ]
+        }
+    }
+}

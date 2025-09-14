@@ -1,0 +1,76 @@
+{
+    "SPADE_N_02606": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02606",
+            "Peptide Name": "Defensin (Insects, animals)",
+            "Source": "Bombus pascuorum (Brown bumblebee)",
+            "Family": "Belongs to the invertebrate defensin family (Type 1 subfamily)",
+            "Gene": "Not found",
+            "Sequence": "VTCDLLSIKGVAEHSACAANCLSMGKAGGRCENGICLCRKTTFKELWDKRF",
+            "Sequence Length": 51,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P81462"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Antifungal"
+            ],
+            "Target Organism": "Gram-negative bacteria:Micrococcus luteus;Gram-negative bacteria:Escherichia coli D22.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C235H386N70O70S7",
+            "Mass": 5536.46,
+            "PI": 8.65,
+            "Net Charge": 4,
+            "Hydrophobicity": -0.0,
+            "Half Life": "Mammalian:100 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Antibacterial peptide against Gram-positive and Gram-negative bacteria and fungi.",
+            "Induction": "By bacterial infection.",
+            "Literature": [
+                {
+                    "Title": "Novel antibacterial peptides isolated from a European bumblebee, Bombus pascuorum (Hymenoptera, Apoidea).",
+                    "Pubmed ID": "9219367",
+                    "Reference": "Insect Biochem Mol Biol. 1997 May;27(5)413-422.",
+                    "Author": "Rees JA, Moniatte M, Bulet P.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=9219367"
+                }
+            ],
+            "Frequent Amino Acids": "CAG",
+            "Absent Amino Acids": "OPQUY",
+            "Basic Residues": 9,
+            "Acidic Residues": 5,
+            "Hydrophobic Residues": 18,
+            "Polar Residues": 30,
+            "Positive Residues": 9,
+            "Negative Residues": 5,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03383",
+                    "Similarity": 0.9615384615384616,
+                    "Sequence": "HSACAANCLSMGKAGGRCENGVCLCR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08076",
+                    "Similarity": 0.9411764705882353,
+                    "Sequence": "MVKVYFLVALLFVAVAAIMAAPVEEEYELLEQAGIEERADRQRRVTCDLLSIKGVAEHSACAANCLSMGKAGGRCENGVCLCRKTNFKDLWDKRFG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08193",
+                    "Similarity": 0.9411764705882353,
+                    "Sequence": "VTCDLLSIKGVAEHSACAANCLSMGKAGGRCENGVCLCRKTNFKDLWDKRF"
+                }
+            ]
+        }
+    }
+}

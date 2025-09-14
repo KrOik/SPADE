@@ -1,0 +1,75 @@
+{
+    "SPADE_N_03255": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03255",
+            "Peptide Name": "Meucin-24 (Arthropods, animals)",
+            "Source": "Mesobuthus eupeus (Lesser Asian scorpion) (Buthus eupeus)",
+            "Family": "Long chain scorpion toxin family (Class 2 subfamily)",
+            "Gene": "Not found",
+            "Sequence": "GRGREFMSNLKEKLSGVKEKMKNS",
+            "Sequence Length": 24,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P0CH57"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimalarial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "[Ref.20097251]Non-hemolytic effect against mouse erythrocytes even at 100 μM",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Circular dichroism (CD) analysis of chemically synthesized peptides demonstrates that meucin-24 presents an essential random coil conformation in water, but its alpha-helical content largely increases in the presence of 50% trifluoroethanol, a membrane-mimicking environment.",
+            "Formula": "C116H201N37O36S2",
+            "Mass": 2754.19,
+            "PI": 10.17,
+            "Net Charge": 4,
+            "Hydrophobicity": -1.3,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "The synthetic meucin-24 inhibits the development of P. berghei ookinetes, kills intraerythrocytic P.falciparum, and is cytotoxic to the Drosophila S2 cell at micromolar concentrations. No hemolytic activities have been found at micromolar concentrations.",
+            "Tissue specificity": "Expressed by the venom gland.",
+            "Miscellaneous": "The RNA coding for this protein is silently edited.",
+            "PTM": "Contains three disulfide bonds (By similarity).",
+            "Literature": [
+                {
+                    "Title": "Characterization of two linear cationic antimalarial peptides in the scorpion Mesobuthus eupeus.",
+                    "Pubmed ID": "20097251",
+                    "Reference": "Biochimie. 2010 Apr;92(4)350-359.",
+                    "Author": "Gao B, Xu J, Rodriguez Mdel C, Lanz-Mendoza H, HernÃ¡ndez-Rivas R, Du W, Zhu S.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=20097251"
+                }
+            ],
+            "Frequent Amino Acids": "KEG",
+            "Absent Amino Acids": "ACDHIOPQTUWY",
+            "Basic Residues": 7,
+            "Acidic Residues": 3,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 13,
+            "Positive Residues": 7,
+            "Negative Residues": 3,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_12924",
+                    "Similarity": 1.0,
+                    "Sequence": "GRRGGRGGRGRGR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_12949",
+                    "Similarity": 1.0,
+                    "Sequence": "RGRGRGR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_12950",
+                    "Similarity": 1.0,
+                    "Sequence": "RGRGRGRGR"
+                }
+            ]
+        }
+    }
+}

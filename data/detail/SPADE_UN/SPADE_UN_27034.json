@@ -1,0 +1,54 @@
+{
+    "SPADE_UN_27034": {
+        "Sequence Information": {
+            "Peptide Name": "Arenicin-2 [C3,20Abu]",
+            "Sequence": "RWXVYAYVRIRGVLVRYRRXW",
+            "Sequence Length": 21,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anticancer",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "Q5SC59",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/Q5SC59",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Promising antibacterial efficacy of arenicin peptides against the emerging opportunistic pathogen Mycobacterium abscessus",
+                    "Pubmed ID": "38287360",
+                    "Reference": "J Biomed Sci. 2024;31:18",
+                    "Author": "Casanova M, Maresca M, Poncin I, Point V, Olleik H, Boidin-Wichlacz C, Tasiemski A, Mabrouk K, Cavalier JF, Canaan S",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/38287360"
+                }
+            ],
+            "SPADE ID": "SPADE_UN_27034",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_05424",
+                    "Similarity": 1.0,
+                    "Sequence": "RKYVRRWVY"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_05463",
+                    "Similarity": 1.0,
+                    "Sequence": "RYRRWVRKR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_05185",
+                    "Similarity": 1.0,
+                    "Sequence": "RYRRRWYIR"
+                }
+            ],
+            "Hemolytic Activity": "Human bronchial epithelial cells BEAS-2B:50% Cytotoxicity=>100 µM,Human erythrocytes:10% Hemolysis=15.4±1.0 µM,Human erythrocytes:50% Hemolysis=>100 µM",
+            "Target Organism": "Mycobacterium abscessus subsp. abscessus CIP 104536T(MIC50=89.3±9.0µM),Mycobacterium abscessus subsp. abscessus CIP 104536T(MIC90=>100µM),Human hepatocellular carcinoma HepG2(50-60% Cytotoxicity=>100µM),Human renal carcinoma A498(50-60% Cytotoxicity=92.1±2.3µM)"
+        }
+    }
+}

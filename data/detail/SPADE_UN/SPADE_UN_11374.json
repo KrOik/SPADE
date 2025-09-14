@@ -1,0 +1,74 @@
+{
+    "SPADE_UN_11374": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_11374",
+            "Peptide Name": "Tricyclic peptide RP 71955 (Bacteriocin)",
+            "Source": "Streptomyces sp. (strain SP9440)",
+            "Family": "Belongs to the class I bacteriocin",
+            "Gene": "Not found",
+            "Sequence": "CLGIGSCNNFAGCGYAVVCFW",
+            "Sequence Length": 21,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P37046"
+            ],
+            "Protein Existence": "",
+            "Biological Activity": [
+                "Antiviral",
+                "Anti-HIV",
+                "Antimicrobial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "An internal amide bond between the NH2 of C1 and the gamma-COOH of D9 was observed, as well as two disulfide bridges, one between C1 and C13 and one between C7 and C19. In contrast. Class 2 lassos do not have disulfide bonds.",
+            "Formula": "C97H138N24O26S4",
+            "Mass": 2184.54,
+            "PI": 5.5,
+            "Net Charge": 0,
+            "Hydrophobicity": 1.16,
+            "Half Life": "Mammalian:1.2 hourYeast:>20 hourE.coli:>10 hour",
+            "Caution": "The isopeptide linked residue 9 is shown as Asn rather than Asp as mentioned in PubMed",
+            "Literature": [
+                {
+                    "Title": "Isolation of RP 71955, a new anti-HIV-1 peptide secondary metabolite.",
+                    "Pubmed ID": "8270499",
+                    "Reference": "J Antibiot (Tokyo). 1993 Nov;46(11)1756-7.",
+                    "Author": "Helynck G, Dubertret C, Mayaux JF, Leboul J.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=8270499"
+                }
+            ],
+            "Frequent Amino Acids": "CGA",
+            "Absent Amino Acids": "DEHKMOPQRTU",
+            "Basic Residues": 0,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 12,
+            "Positive Residues": 0,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_15069",
+                    "Similarity": 0.9523809523809523,
+                    "Sequence": "CLGIGSCNDFAGCGYAVVCFW"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_00018",
+                    "Similarity": 0.9523809523809523,
+                    "Sequence": "CLGIGSCNDFAGCGYAVVCFW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02509",
+                    "Similarity": 0.9047619047619048,
+                    "Sequence": "CLGVGSCNNFAGCGYAIVCFW"
+                }
+            ]
+        }
+    }
+}

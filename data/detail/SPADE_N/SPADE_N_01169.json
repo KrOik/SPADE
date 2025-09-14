@@ -1,0 +1,83 @@
+{
+    "SPADE_N_01169": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01169",
+            "Peptide Name": "Dybowskin-2CDYa (Chensinin-1; Frogs, amphibians, animals)",
+            "Source": "Rana dybowskii (Dybovsky's frog) (Korean brown frog)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "SAVGRHGRRFGLRKHRKH",
+            "Sequence Length": 18,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/B5A9T1"
+            ],
+            "Protein Existence": "Transcript level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.19539775] Gram-negative bacterium:Escherichia coli (MIC=3 µM);Gram-negative bacterium:Staphylococcus aureus (MIC=6 µM).[Ref.19341344] Gram-positive bacteria:Staphylococcus aureus (MIC=14.4 µM), Bacillus cereus (MIC=14.4 µM), Streptococcus lactis (MIC=14.4 µM).",
+            "Hemolytic Activity": "[Ref:19539775]HC50>300 μM against human red blood cells",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C92H155N41O20",
+            "Mass": 2155.48,
+            "PI": 12.0,
+            "Net Charge": 10,
+            "Hydrophobicity": -1.63,
+            "Half Life": "Mammalian:1.9 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Antimicrobial peptide. Has activity against the Gram-positive bacteria",
+            "Tissue specificity": "Expressed by the skin glands.",
+            "Literature": [
+                {
+                    "Title": "Characterization of antimicrobial peptides isolated from the skin of the Chinese frog, Rana dybowskii.",
+                    "Pubmed ID": "19539775",
+                    "Reference": "Comp Biochem Physiol B Biochem Mol Biol. 2009 Oct;154(2)174-178.",
+                    "Author": "Jin LL, Li Q, Song SS, Feng K, Zhang DB, Wang QY, Chen YH.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=19539775"
+                },
+                {
+                    "Title": "Molecular cloning of cDNAs encoding antimicrobial peptide precursors from the skin of the Chinese brown frog, Rana chensinensis.",
+                    "Pubmed ID": "19341344",
+                    "Reference": "Zoolog Sci. 2009 Mar;26(3)220-226.",
+                    "Author": "Shang D, Yu F, Li J, Zheng J, Zhang L, Li Y.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=19341344"
+                }
+            ],
+            "Frequent Amino Acids": "RGH",
+            "Absent Amino Acids": "CDEIMNOPQTUWY",
+            "Basic Residues": 10,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 4,
+            "Polar Residues": 13,
+            "Positive Residues": 10,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07594",
+                    "Similarity": 1.0,
+                    "Sequence": "RSAVGRHGRRFGLRKHRKH"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04985",
+                    "Similarity": 1.0,
+                    "Sequence": "KHRKHPG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01170",
+                    "Similarity": 0.9444444444444444,
+                    "Sequence": "SAVGRHSRRFGLRKHRKH"
+                }
+            ]
+        }
+    }
+}

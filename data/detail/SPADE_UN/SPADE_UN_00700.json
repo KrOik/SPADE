@@ -1,0 +1,91 @@
+{
+    "SPADE_UN_00700": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 2003/0176337 A1",
+                "Patent Link": "http://www.lens.org/lens/patent/US_2003_0176337_A1",
+                "Patent Type": "Patent Application",
+                "Publication Date": "2003-9-18",
+                "Family Info": "US6057291,US6297215,US6465429,US6906035,WO1998025953A1",
+                "Patent Title": "Antimicrobial cationic peptides.",
+                "Abstract": "A novel class of cationic peptides having antimicrobial activity is provided. Examples of such peptides include NH2-KWKSFIKKLTTAVKKVLTTGLPALIS-COOH (SEQ ID NO: 1) and NH2-KWKSFIKKLTSAAKKVVTTAKPLISS-COOH (SEQ ID NO: 2). Also provided are methods for inhibiting the growth of bacteria utilizing the peptides of the invention. The peptides are particularly useful for inhibiting endotoxemia in a subject."
+            },
+            {
+                "Patent No": "US 6906035 B2",
+                "Patent Link": "http://www.lens.org/lens/patent/US_6906035_B2",
+                "Patent Type": "Granted Patent",
+                "Publication Date": "2005-6-14",
+                "Family Info": "US4810777,US6057291,US6465429,CA2040510,WO8911290,WO9628559A1,WO9638473A",
+                "Patent Title": "Antimicrobial Cationic Peptides",
+                "Abstract": "A novel class of cationic peptides having antimicrobial activity is provided. Examples of such peptides include NH2KWKSFIKKLTTAVKKVLTTGLPALISCOOH (SEQ ID NO,1) and NH2KWKSFIKKLTSAAKKVVTTAKPLISSCOOH (SEQ ID NO23). Also provided are methods for inhibiti the growth of bacteria utilizing the peptides of the invention. The peptides are particularly useful for inhibiting endotoxemia in a subject."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_00700",
+            "Peptide Name": "CP206",
+            "Source": "Synthetic construct",
+            "Family": "Derived from the peptide CP26, CP29, CEME and CEMA",
+            "Gene": "Not found",
+            "Sequence": "KKWWKFIKKAVNSGTTGLQTLAS",
+            "Sequence Length": 23,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-negative bacteria:Escherichia coli (MIC=8 μg/ml), Pseudomonas aeruginosa H744 (MIC=16 μg/ml), Pseudomonas aeruginosa H374 (MIC=8 μg/ml).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Lipopolysaccharide (LPS)-binding",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C121H194N32O31",
+            "Mass": 2593.03,
+            "PI": 10.6,
+            "Net Charge": 5,
+            "Hydrophobicity": -0.44,
+            "Half Life": "Mammalian:1.3 hourYeast:3 minE.coli:2 min",
+            "Function": "Antibacterial activity against Gram-negative bacteria.",
+            "Literature": [
+                {
+                    "Title": "Biological properties of structurally related alpha-helical cationic antimicrobial peptides.",
+                    "Pubmed ID": "10085049",
+                    "Reference": "Infect Immun. 1999 Apr;67(4)2005-2009.",
+                    "Author": "Scott MG, Yan H, Hancock RE.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=10085049"
+                }
+            ],
+            "Frequent Amino Acids": "KTA",
+            "Absent Amino Acids": "CDEHMOPRUY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 15,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_11084",
+                    "Similarity": 1.0,
+                    "Sequence": "IKKILSKIKKWWK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11085",
+                    "Similarity": 1.0,
+                    "Sequence": "IKKIWSKIKKWWK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11936",
+                    "Similarity": 1.0,
+                    "Sequence": "WKKWWKKWWK"
+                }
+            ]
+        }
+    }
+}

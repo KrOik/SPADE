@@ -1,0 +1,81 @@
+{
+    "SPADE_N_05837": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_05837",
+            "Peptide Name": "Uperin 3.6 (Toad, amphibians, animals)",
+            "Source": "Uperoleia mjobergii (Australian toadlet)",
+            "Family": "Belongs to the frog skin active peptide (FSAP) family. Uperin subfamily.",
+            "Gene": "Not found",
+            "Sequence": "GVIDAAKKVVNVLKNLF",
+            "Sequence Length": 17,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P82043"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.10461748] Gram positive bacteria:Bacillus cereus (MIC=25 μg/ml), Leuconostoc lactis  (MIC=3 μg/ml), Listeria innocua (MIC=50 μg/ml), Micrococcus luteus (MIC=50 μg/ml), Staphylococcus aureus (MIC=25 μg/ml), Staphylococcus epidermidis (MIC=12 μg/ml), Streptococcus uberis (MIC=12 μg/ml);Gram-negative bacterium:Pasteurella haemolytica (MIC=25 μg/ml).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C85H146N22O22",
+            "Mass": 1828.2,
+            "PI": 9.7,
+            "Net Charge": 2,
+            "Hydrophobicity": 0.75,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Antibacterial activity against B.cereus, L.lactis, L.innocua, M.luteus, S.aureus, S.epidermidis and S.uberis.",
+            "Tissue specificity": "Expressed by the skin dorsal glands.",
+            "Literature": [
+                {
+                    "Title": "The solution structure of uperin 3.6, an antibiotic peptide from the granular dorsal glands of the Australian toadlet, Uperoleia mjobergii.",
+                    "Pubmed ID": "10461748",
+                    "Reference": "J Pept Res. 1999 Aug;54(2)137-45.",
+                    "Author": "Chia BC, Carver JA, Mulhern TD, Bowie JH",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=10461748"
+                },
+                {
+                    "Title": "New antibiotic uperin peptides from the dorsal glands of the australian toadlet Uperoleia mjobergii.",
+                    "Pubmed ID": "",
+                    "Author": "Wallace J.C.,Tyler M.J.,Bowie J.H.,Bradford A.M."
+                }
+            ],
+            "Frequent Amino Acids": "VKA",
+            "Absent Amino Acids": "CEHMOPQRSTUWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 11,
+            "Positive Residues": 3,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01077",
+                    "Similarity": 0.9411764705882353,
+                    "Sequence": "GVIDAAKKVVNVLKNLP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01078",
+                    "Similarity": 0.9411764705882353,
+                    "Sequence": "GVIAAAKKVVNVLKNLF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01079",
+                    "Similarity": 0.9411764705882353,
+                    "Sequence": "GVIDAAAKVVNVLKNLF"
+                }
+            ]
+        }
+    }
+}

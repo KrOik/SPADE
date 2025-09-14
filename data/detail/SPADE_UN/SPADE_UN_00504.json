@@ -1,0 +1,72 @@
+{
+    "SPADE_UN_00504": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_00504",
+            "Peptide Name": "LL-37 pentamide",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "LLGNFFRKSKQKIGKQFKRIVQRIKNFFRNLVPRTQS",
+            "Sequence Length": 37,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+"
+            ],
+            "Target Organism": "Gram-positive bacteria:Staphylococcus aureus 930918-3, S. aureuss 710A, S. aureuss ATCC (MRSA) 33591, Staphylococcus epidermidis ATCC 49741.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C208H343N65O48",
+            "Mass": 4522.36,
+            "PI": 12.0,
+            "Net Charge": 11,
+            "Hydrophobicity": -0.75,
+            "Half Life": "Mammalian:5.5 hourYeast:3 minE.coli:2 min",
+            "Function": "Has antibacterial activiy against Gram-positive bacteria.",
+            "Literature": [
+                {
+                    "Title": "RL-37, an alpha-helical antimicrobial peptide of the rhesus monkey.",
+                    "Pubmed ID": "11557457",
+                    "Reference": "Antimicrob Agents Chemother. 2001 Oct;45(10)2695-2702.",
+                    "Author": "Zhao C, Nguyen T, Boo LM, Hong T, Espiritu C, Orlov D, Wang W, Waring A, Lehrer RI.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=11557457"
+                }
+            ],
+            "Frequent Amino Acids": "KFR",
+            "Absent Amino Acids": "ACDEHMOUWY",
+            "Basic Residues": 11,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 14,
+            "Polar Residues": 23,
+            "Positive Residues": 11,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_04262",
+                    "Similarity": 0.9285714285714286,
+                    "Sequence": "KIGKEFKRIVQRIK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04261",
+                    "Similarity": 0.9166666666666666,
+                    "Sequence": "IGKEFKRIVQRI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14660",
+                    "Similarity": 0.9,
+                    "Sequence": "FFRKSKEKIGKEFKRIVQRI"
+                }
+            ]
+        }
+    }
+}

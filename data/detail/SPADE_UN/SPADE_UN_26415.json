@@ -1,0 +1,61 @@
+{
+    "SPADE_UN_26415": {
+        "Sequence Information": {
+            "Peptide Name": "",
+            "Sequence": "RRS",
+            "Sequence Length": 3,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Glycosylated Lipopeptides-Synthesis and Evaluation of Antimicrobial Activity and Cytotoxicity",
+                    "Pubmed ID": "36671557",
+                    "Reference": "Biomolecules. 2023;13:172",
+                    "Author": "Sikora K, Bauer M, Bartoszewska S, Neubauer D, Kamysz W",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/36671557"
+                }
+            ],
+            "Mass": 417.46,
+            "PI": 12.0,
+            "Net Charge": 2,
+            "Hydrophobicity": -3.27,
+            "Frequent Amino Acids": "RS",
+            "Absent Amino Acids": "ACDEFGHIKLMNOPQTUVWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 0,
+            "Polar Residues": 3,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_26415",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00105",
+                    "Similarity": 1.0,
+                    "Sequence": "RRSRKNGIGYAIGYAFGAVERAVLGGSRDYNK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00245",
+                    "Similarity": 1.0,
+                    "Sequence": "RVCRRRSAGFKGLCMSDHNCAQVCLQEGWGGGNCDGVIRQCKCIRQC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00246",
+                    "Similarity": 1.0,
+                    "Sequence": "RVCRRRSAGFKGLCMSDHNCAQVCLQEGWGGGNCDGVMRQCKCIRQC"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=227.01±5.69 µg/ml,Human keratinocytes HaCat:IC50=14.27±1.96 µg/ml",
+            "Target Organism": "Enterococcus faecium ATCC 700221(MIC=8µg/ml),Staphylococcus aureus ATCC 33591(MIC=16µg/ml),Klebsiella pneumoniae ATCC 700603(MIC=512µg/ml),Acinetobacter baumannii ATCC BAA-1605(MIC=64µg/ml),Pseudomonas aeruginosa ATCC 9027(MIC=64µg/ml),Klebsiella aerogenes ATCC 13048(MIC=512µg/ml),Candida glabrata ATCC 15126(MIC=32µg/ml)"
+        }
+    }
+}

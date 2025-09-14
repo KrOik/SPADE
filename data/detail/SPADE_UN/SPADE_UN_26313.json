@@ -1,0 +1,67 @@
+{
+    "SPADE_UN_26313": {
+        "Sequence Information": {
+            "Peptide Name": "Caerulein precursor fragment CPF-P3 (8-19)",
+            "Sequence": "KALKAALKIGAN",
+            "Sequence Length": 12,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "C0HKM9",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/C0HKM9",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "QSAR Reveals Decreased Lipophilicity of Polar Residues Determines the Selectivity of Antimicrobial Peptide Activity.",
+                    "Pubmed ID": "38911757",
+                    "Reference": "ACS Omega. 2024;92:26030-26049",
+                    "Author": "van der Walt M, Möller DS, van Wyk RJ, Ferguson PM, Hind CK, Clifford M, Do Carmo Silva P, Sutton JM, Mason AJ, Bester MJ, Gaspar ARM",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/38911757"
+                }
+            ],
+            "Mass": 1197.47,
+            "PI": 10.3,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.31,
+            "Frequent Amino Acids": "AKL",
+            "Absent Amino Acids": "CDEFHMOPQRSTUVWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 5,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_26313",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03579",
+                    "Similarity": 1.0,
+                    "Sequence": "GFASFLGKALKAALKIGANMLGGTPQQ"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03580",
+                    "Similarity": 1.0,
+                    "Sequence": "GFGSFLGKALKAALKIGANALGGSPQQ"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03593",
+                    "Similarity": 1.0,
+                    "Sequence": "GFGSFLGKALKAALKIGANVLGGAPQQ"
+                }
+            ],
+            "Hemolytic Activity": "Human keratinocytes HaCat:20% Cytotoxicity=256 µg/ml",
+            "Target Organism": "Escherichia coli NCTC 12923(MIC=>128µg/ml),Escherichia coli LEC001(MIC=>128µg/ml),Pseudomonas aeruginosa NCTC 13437(MIC=>128µg/ml),Pseudomonas aeruginosa PAO1(MIC=>128µg/ml),Acinetobacter baumannii ATCC 17978(MIC=>128µg/ml),Acinetobacter baumannii AYE(MIC=>128µg/ml),Klebsiella pneumoniae NCTC 13368(MIC=>128µg/ml),Klebsiella pneumoniae M6(MIC=>128µg/ml),Staphylococcus aureus ATCC 9144(MIC=>128µg/ml),Staphylococcus aureus NCTC 13616(MIC=>128µg/ml),Staphylococcus aureus USA 300(MIC=>128µg/ml),Candida auris TDG 1912(MIC50=>128µg/ml),Candida albicans NCPF 3281(MIC50=>128µg/ml),Candida tropicalis NCPF 8760(MIC50=>128µg/ml),Candida krusei NCPF 3876(MIC50=>128µg/ml),Candida glabrata NCPF 8018(MIC50=>128µg/ml),Candida parapsilosis NCPF 3209(MIC50=>128µg/ml)"
+        }
+    }
+}

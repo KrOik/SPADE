@@ -1,0 +1,64 @@
+{
+    "SPADE_UN_24577": {
+        "Sequence Information": {
+            "Peptide Name": "SARS-CoV S (668–679), SP-10",
+            "Sequence": "STSQKSIVAYTM",
+            "Sequence Length": 12,
+            "Biological Activity": [
+                "Antiviral"
+            ],
+            "Binding Target": "1. Virus entry",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P59594",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P59594",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Design and biological activities of novel inhibitory peptides for SARS-CoV spike protein and angiotensin-converting enzyme 2 interaction.",
+                    "Pubmed ID": "16337697",
+                    "Reference": "Antiviral Res. 2006;69:70-76",
+                    "Author": "Ho TY, Wu SL, Chen JC, Wei YC, Cheng SE, Chang YH, Liu HJ, Hsiang CY",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/16337697"
+                }
+            ],
+            "Mass": 1315.49,
+            "PI": 8.31,
+            "Net Charge": 1,
+            "Hydrophobicity": -0.01,
+            "Frequent Amino Acids": "STA",
+            "Absent Amino Acids": "CDEFGHLNOPRUW",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 4,
+            "Polar Residues": 8,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_24577",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_22222",
+                    "Similarity": 0.75,
+                    "Sequence": "AASFNKAMTNIVDAFTGVNDAITQTSQALQTVATALNKIQDVVNQQGNSLNHLTSQ"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_22225",
+                    "Similarity": 0.75,
+                    "Sequence": "AASFNKAINNIVASFSSVNDAITQTAEAIHTVTIALNKIQDVVNQQGSALNHLTSQ"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_11258",
+                    "Similarity": 0.5714285714285714,
+                    "Sequence": "LSQKSVK"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "SARS-CoV PsV(IC50 I=0.00188 ± 0.00052µM)"
+        }
+    }
+}

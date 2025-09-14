@@ -1,0 +1,72 @@
+{
+    "SPADE_N_02733": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02733",
+            "Peptide Name": "Salivary defensin",
+            "Source": "Anopheles stephensi (Indo-Pakistan malaria mosquito)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "ATCDLASGFGVGSSLCAAHCIARRYRGGYCNSQQVCVCRN",
+            "Sequence Length": 40,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/A2TJI3"
+            ],
+            "Protein Existence": "Predicted",
+            "Biological Activity": [
+                "Antimicrobial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C171H274N58O54S6",
+            "Mass": 4198.75,
+            "PI": 8.69,
+            "Net Charge": 4,
+            "Hydrophobicity": 0.11,
+            "Half Life": "Mammalian:4.4 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Molecular and phylogenetic analysis of a novel salivary defensin cDNA from malaria vector Anopheles stephensi.",
+                    "Pubmed ID": "18275930",
+                    "Reference": "Acta Trop. 2008 Apr;106(1)75-79.",
+                    "Author": "Dixit R, Sharma A, Patole MS, Shouche YS.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=18275930"
+                }
+            ],
+            "Frequent Amino Acids": "CAG",
+            "Absent Amino Acids": "EKMOPUW",
+            "Basic Residues": 5,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 14,
+            "Polar Residues": 30,
+            "Positive Residues": 5,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02711",
+                    "Similarity": 0.95,
+                    "Sequence": "ATCDLASGFGVGSSLCAAHCIARRYRGGYCNSKAVCVCRN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02724",
+                    "Similarity": 0.85,
+                    "Sequence": "ATCDLLSGFGVGDSACAAHCIARGNRGGYCNSQKVCVCRN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07472",
+                    "Similarity": 0.8275862068965517,
+                    "Sequence": "VNHALCAAHCIARRYRGGYCNSKAVCVCR"
+                }
+            ]
+        }
+    }
+}

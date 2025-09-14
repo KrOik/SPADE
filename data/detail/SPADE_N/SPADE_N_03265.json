@@ -1,0 +1,87 @@
+{
+    "SPADE_N_03265": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03265",
+            "Peptide Name": "Hge-scorpine (Hg-scorpine-like 1, HgeScplp1, Hgscplike1; Arthropods, animals)",
+            "Source": "Hadrurus gertschi (Scorpion)",
+            "Family": "Belongs to the long chain scorpion toxin family (Class 3 subfamily)",
+            "Gene": "Not found",
+            "Sequence": "GWMSEKKVQGILDKKLPEGIIRNAAKAIVHKMAKNQFGCFANVDVKGDCKRHCKAEDKEGICHGTKCKCGVPISYL",
+            "Sequence Length": 76,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q0GY40",
+                "http://www.uniprot.org/uniprot/A8SDT6"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "[Ref.18030427]Gram-postive bacteria:Bacillus subtilis(++), Staphylococcus aureus(-)",
+            "Hemolytic Activity": "[Swiss_Prot Entry Q0GY40]has hemolytic activity",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C365H599N107O102S8",
+            "Mass": 8374.84,
+            "PI": 9.26,
+            "Net Charge": 10,
+            "Hydrophobicity": -0.41,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Hge-scorpine has antibacterial activity against B. subtilis, but not against S. aureus. Also has hemolytic and cytolytic activities. Hge36 peptide blocks Kv1.1/KCNA1 (IC50=185 nM) potassium channels. Shows a weak hemolytic activity.",
+            "Tissue specificity": "Expressed by the venom gland.",
+            "Miscellaneous": "The C-terminus (AA 52-95) blocks Kv1.1/KCNA1, Kv1.2/KCNA2, and Kv1.3/KCNA2 potassium channels, showing a potential important role of AA 48-51. Hge36 peptide does not block Kv1.2/KCNA2 and Kv1.3/KCNA3.",
+            "PTM": "Contains three disulfide bonds (By similarity).",
+            "Literature": [
+                {
+                    "Title": "Cytolytic and K+ channel blocking activities of beta-KTx and scorpine-like peptides purified from scorpion venoms.",
+                    "Pubmed ID": "18030427",
+                    "Reference": "Cell Mol Life Sci. 2008 Jan;65(1)187-200.",
+                    "Author": "Diego-GarcÃ­a E, Abdel-Mottaleb Y, Schwartz EF, de la Vega RC, Tytgat J, Possani LD.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=18030427"
+                },
+                {
+                    "Title": "Transcriptome analysis of the venom gland of the Mexican scorpion Hadrurus gertschi (Arachnida: Scorpiones).",
+                    "Pubmed ID": "R2007J1500",
+                    "Author": "Possani L.D.,Rodriguez de la Vega R.C.,Diego-Garcia E.,Schwartz E.F."
+                },
+                {
+                    "Title": "Wide phylogenetic distribution of scorpine and long-chain beta-KTx-like peptides in scorpion venoms: identification of",
+                    "Pubmed ID": "",
+                    "Author": ""
+                }
+            ],
+            "Frequent Amino Acids": "KGA",
+            "Absent Amino Acids": "OU",
+            "Basic Residues": 18,
+            "Acidic Residues": 8,
+            "Hydrophobic Residues": 28,
+            "Polar Residues": 44,
+            "Positive Residues": 18,
+            "Negative Residues": 8,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06239",
+                    "Similarity": 0.5733333333333334,
+                    "Sequence": "GWINEKKMQQKIDEKIGKNIIGGMAKAVIHKMAKNEFQCVANVDTLGNCKKHCAKTTGEKGYCHGTKCKCGIELSY"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14014",
+                    "Similarity": 0.5526315789473685,
+                    "Sequence": "GLINEKKVQQYLDEKLPNGVVKGALKSLVHKAAKNQNLCAFNVDTVGMCDADCKRQGKAKGVCHGTKCKCDVELSYKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03267",
+                    "Similarity": 0.5333333333333333,
+                    "Sequence": "KWFNEKSIQNKIDEKIGKNFLGGMAKAVVHKLAKNEFMCVANVDMTKSCDTHCQKASGEKGYCHGTKCKCGVPLSY"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,75 @@
+{
+    "SPADE_N_01752": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01752",
+            "Peptide Name": "Brevinin-2Eg (Frogs, amphibians, animals)",
+            "Source": "Pelophylax ridibundus (Marsh frog) (Rana ridibunda)",
+            "Family": "Belongs to the frog skin active peptide family (Brevinin subfamily)",
+            "Gene": "Not found",
+            "Sequence": "GIMDTLKNLAKTAGKGALQSLLNHASCKLSGQC",
+            "Sequence Length": 33,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P86154"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Swiss_Prot Entry P86154]Shows antibacterial activity against representative Gram-negative and Gram-positive bacterial species",
+            "Hemolytic Activity": "[Ref.18855342]show hemolytic activity",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C142H247N43O45S3",
+            "Mass": 3372.94,
+            "PI": 9.31,
+            "Net Charge": 4,
+            "Hydrophobicity": -0.01,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Shows antibacterial activity against representative Gram-negative and Gram-positive bacterial species, and hemolytic activity.",
+            "Literature": [
+                {
+                    "Title": "De novo sequencing of peptides secreted by the skin glands of the Caucasian Green Frog Rana ridibunda.",
+                    "Pubmed ID": "18855342",
+                    "Reference": "Rapid Commun Mass Spectrom. 2008 Nov;22(22)3517-3525.",
+                    "Author": "Samgina TY, Artemenko KA, Gorshkov VA, Ogourtsov SV, Zubarev RA, Lebedev AT.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=18855342"
+                }
+            ],
+            "Frequent Amino Acids": "LAG",
+            "Absent Amino Acids": "EFOPRUVWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 20,
+            "Positive Residues": 5,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01840",
+                    "Similarity": 0.9696969696969697,
+                    "Sequence": "GIMDTLKNLAKTAGKGALQSLLNKASCKLSGQC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07870",
+                    "Similarity": 0.9696969696969697,
+                    "Sequence": "GIMDTLKNLAKTAGKGALQSLLNHASCKLSKQC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01777",
+                    "Similarity": 0.9393939393939394,
+                    "Sequence": "GILDTLKHLAKTAGKGALQSLLNHASCKLSGQC"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "SPADE_N_14785": {
+        "Sequence Information": {
+            "Peptide Name": "Temporin-1SKb, Temporin-1TGc",
+            "Sequence": "FLPVILPVIGKLLSGIL",
+            "Sequence Length": 17,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "1. Rana sakuraii \n2. Rana tagoi",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Expression of genes encoding antimicrobial and bradykinin-related peptides in skin of the stream brown frog Rana sakuraii.",
+                    "Pubmed ID": "17174009",
+                    "Reference": "Peptides. 2007;28:505-514",
+                    "Author": "Suzuki H, Iwamuro S, Ohnuma A, Coquet L, Leprince J, Jouenne T, Vaudry H, Taylor CK, Abel PW, Conlon JM",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/17174009"
+                },
+                {
+                    "Title": "Molecular cloning and sequence analyses of preprotemporin mRNAs containing premature stop codons from extradermal tissues of Rana tagoi.",
+                    "Pubmed ID": "16675060",
+                    "Reference": "Peptides. 2006;27:2124-2128",
+                    "Author": "Iwamuro S, Nakamura M, Ohnuma A, Conlon JM",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/16675060"
+                }
+            ],
+            "Mass": 1792.29,
+            "PI": 8.75,
+            "Net Charge": 1,
+            "Hydrophobicity": 2.06,
+            "Frequent Amino Acids": "LIG",
+            "Absent Amino Acids": "ACDEHMNOQRTUWY",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 6,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_N_14785",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_15317",
+                    "Similarity": 1.0,
+                    "Sequence": "NLSFLPV"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_00102",
+                    "Similarity": 1.0,
+                    "Sequence": "FLPVILPVIGKLLSGIL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_00215",
+                    "Similarity": 1.0,
+                    "Sequence": "MSMLVVVTENVPPRLRGRLAIWLLEVRAGVYVGDVSAKIREMIWEQIAGLAEEGNVVMAWATNTETGFEFQTFGLNRRTPVDLDGLRLVSFLPV"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=50 µM",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=>50µM),Staphylococcus aureus NCTC 8325(MIC=25µM)"
+        }
+    }
+}

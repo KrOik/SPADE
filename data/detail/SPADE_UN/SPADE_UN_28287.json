@@ -1,0 +1,68 @@
+{
+    "SPADE_UN_28287": {
+        "Sequence Information": {
+            "Peptide Name": "*VVRG*",
+            "Sequence": "WVLVLRLGY",
+            "Sequence Length": 9,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Broad-spectrum antimicrobial peptides by rational combinatorial design and high-throughput screening: the importance of interfacial activity",
+                    "Pubmed ID": "19445503",
+                    "Reference": "J Am Chem Soc. 2009;131:7609-7617",
+                    "Author": "Rathinakumar R, Walkenhorst WF, Wimley WC",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/19445503"
+                },
+                {
+                    "Title": "A lack of synergy between membrane-permeabilizing cationic antimicrobial peptides and conventional antibiotics.",
+                    "Pubmed ID": "25268681",
+                    "Reference": "Biochim Biophys Acta. 2015;1848:8-15",
+                    "Author": "He J, Starr CG, Wimley WC",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/25268681"
+                }
+            ],
+            "Mass": 1118.37,
+            "PI": 8.75,
+            "Net Charge": 1,
+            "Hydrophobicity": 1.41,
+            "Frequent Amino Acids": "LVG",
+            "Absent Amino Acids": "ACDEFHIKMNOPQSTU",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 4,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_28287",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01926",
+                    "Similarity": 1.0,
+                    "Sequence": "FPPWVL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11438",
+                    "Similarity": 1.0,
+                    "Sequence": "FWRWWVL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_02714",
+                    "Similarity": 1.0,
+                    "Sequence": "KWRAAQWVL"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:21% Hemolysis=15 µM,Sheep erythrocytes:16% Hemolysis=15 µM",
+            "Target Organism": "Escherichia coli ATCC 25922(MSC=2.9±1.6µM),Staphylococcus aureus ATCC 25923(MSC=4.8±0.8µM),Pseudomonas aeruginosa ATCC 27853(MSC=7.2±1.4µM),Cryptococcus neoformans ATCC 66031(MSC=>10µM)"
+        }
+    }
+}

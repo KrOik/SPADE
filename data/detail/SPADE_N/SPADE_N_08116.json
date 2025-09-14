@@ -1,0 +1,72 @@
+{
+    "SPADE_N_08116": {
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_08116",
+            "Sequence Length": 84,
+            "Mass": 7886.47,
+            "PI": 4.05,
+            "Net Charge": -3,
+            "Source": "Klebsiella pneumoniae",
+            "Biological Activity": [
+                "Antimicrobial"
+            ],
+            "Sequence": "GETDPNTQLLNDLGNNMAWGAALGAPGGLGSAALGAAGGALQTVGQGLIDHGPVNVPIPVLIGPSWNGSGSGYNSATSSSGSGS",
+            "Function": "Channel-forming bacteriocin. Forms cation-selective channels. Active on enterobacteria, with highest activity against E.coli. Not active on other Gram-negative bacteria, Gram-positive bacteria or fungi. The unmodified protein is active against E.coli and S.enteritidis. When the siderophore ester is present at Ser-99, antibacterial activity against these species is increased and activity is also detected against E.cloacae and K.pneumoniae.",
+            "Literature": [
+                {
+                    "Title": "Identification and properties of the genes encoding microcin E492 and its immunity protein.",
+                    "Pubmed ID": "",
+                    "Author": "Monasterio O.,Villanueva J.E.,Lagos R."
+                },
+                {
+                    "Title": "Microcin E492 is an unmodified peptide related in structure to colicin V.",
+                    "Pubmed ID": "R2002J0842",
+                    "Author": "Van Dorsselaer A.,Delalande F.,Vignon D.,Zorn N.,Pons A.-M."
+                },
+                {
+                    "Title": "Microcin E492 antibacterial activity: evidence for a TonB-dependent inner membrane permeabilization on Escherichia coli.",
+                    "Pubmed ID": "R2003J0840",
+                    "Author": "Barthelemy M.,Goulard C.,Santamaria M.,Thomas X.,Destoumieux-Garzon D."
+                },
+                {
+                    "Title": "Microcin E492 forms ion channels in phospholipid bilayer membrane.",
+                    "Pubmed ID": "",
+                    "Author": "Monasterio O.,Cecchi X.,Vergara C.,Wilkens M.,Lagos R."
+                },
+                {
+                    "Title": "Siderophore peptide, a new type of post-translationally modified antibacterial peptide with potent activity.",
+                    "Pubmed ID": "R2004J1197",
+                    "Author": "Blond A.,Afonso C.,Peduzzi J.,Destoumieux-Garzon D.,Thomas X."
+                }
+            ],
+            "Peptide Name": "Microcin E492 (MCEA_KLEPN)",
+            "Hemolytic Activity": [],
+            "Frequent Amino Acids": "GAS",
+            "Absent Amino Acids": "CFKORU",
+            "Basic Residues": 1,
+            "Acidic Residues": 4,
+            "Hydrophobic Residues": 36,
+            "Polar Residues": 40,
+            "Positive Residues": 1,
+            "Negative Residues": 4,
+            "Hydrophobicity": 0.01,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06106",
+                    "Similarity": 1.0,
+                    "Sequence": "MREISQKDLNLAFGAGETDPNTQLLNDLGNNMAWGAALGAPGGLGSAALGAAGGALQTVGQGLIDHGPVNVPIPVLIGPSWNGSGSGYNSATSSSGSGS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00184",
+                    "Similarity": 0.9880952380952381,
+                    "Sequence": "GETDPNTQLLNDLGNNMAWGAALGAPGGLGSAALGAAGGALQTVGQGLIDHGPVNVFIPVLIGPSWNGSGSGYNSATSSSGSGS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07320",
+                    "Similarity": 0.9,
+                    "Sequence": "GSGSGSGSGRQIKIWFQNRRMKWKKGC"
+                }
+            ]
+        }
+    }
+}

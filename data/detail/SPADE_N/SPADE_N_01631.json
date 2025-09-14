@@ -1,0 +1,76 @@
+{
+    "SPADE_N_01631": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01631",
+            "Peptide Name": "Temporin-GH (AMP-5; Frogs, amphibians, animals)",
+            "Source": "Rana guentheri (Gunther's frog)",
+            "Family": "Belongs to the frog skin active peptide family (Brevinin subfamily)",
+            "Gene": "Not found",
+            "Sequence": "FLPLLFGAISHLL",
+            "Sequence Length": 13,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P84858"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+"
+            ],
+            "Target Organism": "Gram-positive bacteria:Staphylococcus aureus FDA209P (MIC=44.3 µg/ml), Bacillus subtilis ATCC 6633 (MIC>64 µg/ml).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C73H113N15O15",
+            "Mass": 1440.77,
+            "PI": 6.74,
+            "Net Charge": 1,
+            "Hydrophobicity": 1.92,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Function": "Active against the Gram-positive bacteria S. aureus FDA209P and B. subtilis ATCC 6633, but not active against the Gram-negative bacteria E. coli or the fungus C. albicans.",
+            "Tissue specificity": "Expressed by the skin glands.",
+            "PTM": "Leucine amide at position 13.",
+            "Literature": [
+                {
+                    "Title": "Purification and characterization of novel antimicrobial peptides from the skin secretion of Hylarana guentheri.",
+                    "Pubmed ID": "16979798",
+                    "Reference": "Peptides. 2006 Dec;27(12)3077-3084",
+                    "Author": "Zhou J, McClean S, Thompson A, Zhang Y, Shaw C, Rao P, Bjourson AJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16979798"
+                }
+            ],
+            "Frequent Amino Acids": "LFA",
+            "Absent Amino Acids": "CDEKMNOQRTUVWY",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 3,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06384",
+                    "Similarity": 1.0,
+                    "Sequence": "HLLPPVPLFG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07356",
+                    "Similarity": 1.0,
+                    "Sequence": "HLLPPVPLFG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15901",
+                    "Similarity": 0.8461538461538461,
+                    "Sequence": "FLPLLFGALSTLLPKIF"
+                }
+            ]
+        }
+    }
+}

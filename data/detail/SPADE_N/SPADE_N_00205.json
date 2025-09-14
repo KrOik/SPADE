@@ -1,0 +1,89 @@
+{
+    "SPADE_N_00205": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 7078380 B2",
+                "Patent Link": "http://www.lens.org/lens/patent/US_7078380_B2",
+                "Patent Type": "Granted Patent",
+                "Publication Date": "2006-7-18",
+                "Family Info": "CA2426012A1,EP1334117A1,EP1334117B1,US20040106544,WO2002036612A1",
+                "Patent Title": "Antibacterial agents comprising conjugates of glycopeptides and peptidic membrane associating elements.",
+                "Abstract": "The invention concerns agents with anti-bacterial activity and methods and intermediates for their production. The present invention further concerns the use of such agents for the treatment of bacterial infections in animals, including man. The agents are derivatives of vancomycin-type antibiotics, of structure: V-L-W-X; wherein V is a glycopeptide moiety which inhibits peptidoglycan biosynthesis in bacteria; L is a linking group; W is a peptidic membrane-associating element such as an element based on naturally-occurring animal or bacterial peptide antibiotics; and X is hydrogen or a membrane-insertive element."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00205",
+            "Peptide Name": "Gramicidin A (GA; Nonribosomally synthesized bacteriocin)",
+            "Source": "Bacillus brevis (soil bacterium) (Gram-positive bacteria)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "VGALAVVVWLWLWLW",
+            "Sequence Length": 15,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Antiviral"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Amino acids 4, 6, 8, 10, and 12 are D-amino acids, allowing the formation of a special helical structure that head-to-head dimerizes into a cation channel in lipid bilayer with the C-terminus exposed. Structures solved in organic solvents by x-ray diffraction are believed to be non-channel forms.",
+            "Formula": "C96H135N19O16",
+            "Mass": 1811.22,
+            "PI": 5.49,
+            "Net Charge": 0,
+            "Hydrophobicity": 2.11,
+            "Half Life": "Mammalian:100 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "STUDIES ON A BACTERICIDAL AGENT EXTRACTED FROM A SOIL BACILLUS  I. PREPARATION OF THE AGENT. ITS ACTIVITY IN VIT.",
+                    "Pubmed ID": "19870884",
+                    "Reference": "J Exp Med. 1939 Jun 30;70(1)1-10.",
+                    "Author": "Dubos RJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=19870884"
+                },
+                {
+                    "Title": "Macromolecular structural elucidation with solid-state NMR-derived orientational constraints.",
+                    "Pubmed ID": "8810522",
+                    "Reference": "J Biomol NMR. 1996 Jul;8(1)1-14.",
+                    "Author": "Ketchem RR, Lee KC, Huo S, Cross TA.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=8810522"
+                }
+            ],
+            "Frequent Amino Acids": "LVW",
+            "Absent Amino Acids": "CDEFHIKMNOPQRSTUY",
+            "Basic Residues": 0,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 14,
+            "Polar Residues": 6,
+            "Positive Residues": 0,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03504",
+                    "Similarity": 1.0,
+                    "Sequence": "GKLNLFLSRLEILKLFVGAL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11866",
+                    "Similarity": 1.0,
+                    "Sequence": "GLFDIVKKVVGAL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14889",
+                    "Similarity": 1.0,
+                    "Sequence": "VGALAVVVWLWLWLWG"
+                }
+            ]
+        }
+    }
+}

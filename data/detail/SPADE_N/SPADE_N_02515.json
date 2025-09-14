@@ -1,0 +1,90 @@
+{
+    "SPADE_N_02515": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 7384911 B2",
+                "Patent Link": "http://www.lens.org/lens/patent/US_7384911_B2",
+                "Patent Type": "Granted Patent",
+                "Publication Date": "2008-6-10",
+                "Family Info": "CA2492053A1,DE60330454D1,EP1517916A2,EP1517916B1,US20050245437,WO2004003006A2,WO2004003006A3",
+                "Patent Title": "Peptides having antimicrobial properties and compositions containing them, notably for the preservation of foodstuffs.",
+                "Abstract": "An isolated peptide including an amino acid sequence of formula (II): Xaa-Ca1-Xab-Ca2-Xac-Ca3-Xad-Ca4-Xae-Ca5-Ca6-Xaf (II). wherein Xaa is Ser-Phe-Gly-Leu, Xab is Arg-Leu-Arg-Arg-Gly-Phe, Xac is Ala-Xac2-Gly-Arg, Xad is Arg-Phe-Pro-Ser-Ile-Pro-Ile-Gly-Arg, Xae is Ser-Arg-Phe-Val-Gln, and Xaf is Arg-Arg-Val-Trp, Xac2 is histidine or arginine, Ca1, Ca2, Ca3, Ca4, Ca5 and Ca6 are sulfur containing amino acids, wherein each of Ca1-Ca5, Ca2-Ca4 and Ca3-Ca6 are linked together by a sulfur bridge, and wherein the amino acid sequence has antimicrobial activity."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02515",
+            "Peptide Name": "Beta-defensin 1 (BD-1; sBD-1; mammals, animals)",
+            "Source": "Ovis aries (Sheep)",
+            "Family": "Belongs to the beta-defensin family",
+            "Gene": "DEFB1",
+            "Sequence": "QGVRNRLSCHRNKGVCVPSRCPRHMRQIGTCRGPPVKCCRKK",
+            "Sequence Length": 42,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/O19038"
+            ],
+            "Protein Existence": "Homology",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C195H342N78O50S7",
+            "Mass": 4803.75,
+            "PI": 11.26,
+            "Net Charge": 14,
+            "Hydrophobicity": -0.96,
+            "Half Life": "Mammalian:0.8 hourYeast:10 minE.coli:>10 hour",
+            "Function": "Has bactericidal activity (By similarity).",
+            "Literature": [
+                {
+                    "Title": "Antimicrobial peptide expression is developmentally regulated in the ovine gastrointestinal tract.",
+                    "Pubmed ID": "9478010",
+                    "Reference": "J Nutr. 1998 Feb;128(2 Suppl)297S-299S.",
+                    "Author": "Huttner K.M, Brezinski-Caliguri D.J, Mahoney M.M, Diamond G.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=9478010"
+                },
+                {
+                    "Title": "Localization and genomic organization of sheep antimicrobial peptides genes.",
+                    "Pubmed ID": "9461419",
+                    "Reference": "Gene. 1998 Jan 5;206(1)85-91.",
+                    "Author": "Huttner K.M, Lambeth M.R, Burkin H.R, Broad T.E.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=9461419"
+                }
+            ],
+            "Frequent Amino Acids": "RCG",
+            "Absent Amino Acids": "ADEFOUWY",
+            "Basic Residues": 14,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 31,
+            "Positive Residues": 14,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_08043",
+                    "Similarity": 1.0,
+                    "Sequence": "MRLHHLLLVLFFVVLSAGSGFTQGVRNRLSCHRNKGVCVPSRCPRHMRQIGTCRGPPVKCCRKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07653",
+                    "Similarity": 1.0,
+                    "Sequence": "NRLSCHRNKGVCVPSRCPRHMRQIGTCRGPPVKCCRKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07533",
+                    "Similarity": 0.8285714285714286,
+                    "Sequence": "PQSCHRNKGVCVPIRCPRSMRQIGTCLGAPVKCCR"
+                }
+            ]
+        }
+    }
+}

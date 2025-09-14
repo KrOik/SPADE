@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_23389": {
+        "Sequence Information": {
+            "Peptide Name": "Lactotransferrin (17-46), hLFcin",
+            "Sequence": "TKCFQWQRNMRKVRGPPVSCIKRDSPIQCI",
+            "Sequence Length": 30,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P02788",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P02788",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "De novo expression and antibacterial potential of four lactoferricin peptides in cell-free protein synthesis system.",
+                    "Pubmed ID": "33425692",
+                    "Reference": "Biotechnol Rep (Amst). 2020;29:e00583",
+                    "Author": "El-Baky NA, Elkhawaga MA, Abdelkhalek ES, Sharaf MM, Redwan EM, Kholef HR",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/33425692"
+                }
+            ],
+            "Mass": 3576.25,
+            "PI": 10.33,
+            "Net Charge": 6,
+            "Hydrophobicity": -0.72,
+            "Frequent Amino Acids": "RCI",
+            "Absent Amino Acids": "AEHLOUY",
+            "Basic Residues": 7,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 20,
+            "Positive Residues": 7,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_UN_23389",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03181",
+                    "Similarity": 1.0,
+                    "Sequence": "GRRRSVQWCAVSQPEATKCFQWQRNMRKVRGPPVSCIKRDSPIQCIQA"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07878",
+                    "Similarity": 1.0,
+                    "Sequence": "GRRRRSVQWCAVSQPEATKCFQWQRNMRKVRGPPVSCIKRDSPIQCI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08720",
+                    "Similarity": 1.0,
+                    "Sequence": "TKCFQWQRNMRKVR"
+                }
+            ],
+            "Hemolytic Activity": "Human PBMC:LC50=25.49±0.27 µg/ml",
+            "Target Organism": "Staphylococcus aureus MR(MIC=10µg/ml),Staphylococcus aureus ATCC 25923(MIC=2.5µg/ml),Escherichia coli ATCC 25922(MIC=2.5µg/ml),Salmonella typhimurium ATCC 19430(MIC=5µg/ml),Pseudomonas aeruginosa(MIC=5µg/ml)"
+        }
+    }
+}

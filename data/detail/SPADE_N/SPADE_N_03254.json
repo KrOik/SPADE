@@ -1,0 +1,82 @@
+{
+    "SPADE_N_03254": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03254",
+            "Peptide Name": "Potassium channel toxin Hge-beta-KTx (HgebetaKTx; Arthropods, animals)",
+            "Source": "Hadrurus gertschi (Scorpion)",
+            "Family": "Long chain scorpion toxin family (Class 2 subfamily)",
+            "Gene": "Not found",
+            "Sequence": "KSTVGQKLKKKLNQAVDKVKEVLNKSEYMCPVVSSFCKQHCARLGKSGQCDLLECICS",
+            "Sequence Length": 58,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q0GY41"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C275H467N79O83S7",
+            "Mass": 6432.58,
+            "PI": 9.17,
+            "Net Charge": 7,
+            "Hydrophobicity": -0.33,
+            "Half Life": "Mammalian:1.3 hourYeast:3 minE.coli:2 min",
+            "Function": "The full peptide presents antibacterial and cytotoxic activities. The C-terminus (33-76aa) blocks potassium channels Kv1.1/KCNA1, Kv1.2/KCNA2, and Kv1.3/KCNA3.",
+            "Tissue specificity": "Expressed by the venom gland.",
+            "PTM": "Contains three disulfide bonds (By similarity).",
+            "Literature": [
+                {
+                    "Title": "Transcriptome analysis of the venom gland of the Mexican scorpion Hadrurus gertschi (Arachnida Scorpiones).",
+                    "Pubmed ID": "17506894",
+                    "Reference": "BMC Genomics. 2007 May 16;8119.",
+                    "Author": "Schwartz EF, Diego-Garcia E, RodrÃ­guez de la Vega RC, Possani LD.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=17506894"
+                },
+                {
+                    "Title": "Cytolytic and K+ channel blocking activities of beta-KTx and scorpine-like peptides purified from scorpion venoms.",
+                    "Pubmed ID": "18030427",
+                    "Reference": "Cell Mol Life Sci. 2008 Jan;65(1)187-200.",
+                    "Author": "Diego-GarcÃ­a E, Abdel-Mottaleb Y, Schwartz EF, de la Vega RC, Tytgat J, Possani LD.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=18030427"
+                }
+            ],
+            "Frequent Amino Acids": "KCL",
+            "Absent Amino Acids": "OUW",
+            "Basic Residues": 12,
+            "Acidic Residues": 5,
+            "Hydrophobic Residues": 19,
+            "Polar Residues": 40,
+            "Positive Residues": 12,
+            "Negative Residues": 5,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_09725",
+                    "Similarity": 1.0,
+                    "Sequence": "KSTVGQKLKKKLNQAVDKVKEVLNKSEYMCPVVSSFCKQHCARLGKSGQCDLLECIC"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_21896",
+                    "Similarity": 0.5,
+                    "Sequence": "LKKLKKLLKKLKKKL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_24751",
+                    "Similarity": 0.5,
+                    "Sequence": "KLKLKLKLKLKLKLKLKLKLKLKL"
+                }
+            ]
+        }
+    }
+}

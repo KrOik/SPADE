@@ -1,0 +1,93 @@
+{
+    "SPADE_N_02272": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02272",
+            "Peptide Name": "Rhesus theta-defensin 2 (RTD-2; primates, mammals, animals)",
+            "Source": "Macaca mulatta (Rhesus macaque)",
+            "Family": "Belongs to the alpha-defensin family (Theta subfamily)",
+            "Gene": "Not found",
+            "Sequence": "RCLCRRGVCRCLCRRGVC",
+            "Sequence Length": 18,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P82271"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Antifungal",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-positive bacteria:Staphylococcus aureus 502a, Listeria monocytogenes;Gram-negative bacteria:Salmonella typhimurium, Escherichia coli ML35.Fungi:Candida albicans 16820, Cryptococcus neoformans 271A (the activity of RTD-2 against Escherichia coli ML35 was 2-3-fold less than those of RTD-1 and RTD-3).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C80H150N36O19S6",
+            "Mass": 2112.67,
+            "PI": 9.69,
+            "Net Charge": 6,
+            "Hydrophobicity": 0.18,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Function": "RTD-1 and RTD-2 have similar antimicrobial activities against the Gram-positive bacteria S. aureus 502A and L. monocytogenes, the Gram-negative bacterium S. typhimurium, and the fungi C. albicans 16820 and C. neoformans 271A. RTD-2 is 2-3-fold less active than RTD-1 against E. coli ML35.",
+            "Subunit structure": "RTD-2 is a cyclic homodimer composed of two subunits B; disulfide-linked.",
+            "PTM": "Forms a cyclic peptide with 1 subunit B (RTD-2) or with 1 subunit A (RTD-1). An additional intersubunit disulfide bond is formed.",
+            "Miscellaneous": "RTD-1 is 10-fold more present in cells than RTD-2.",
+            "Literature": [
+                {
+                    "Title": "A cyclic antimicrobial peptide produced in primate leukocytes by the ligation of two truncated alpha-defensins.",
+                    "Pubmed ID": "10521339",
+                    "Reference": "Science. 1999 Oct 15;286(5439)498-502.",
+                    "Author": "Tang YQ, Yuan J, Osapay G, Osapay K, Tran D, Miller CJ, Ouellette AJ, Selsted ME.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=10521339"
+                },
+                {
+                    "Title": "Circular minidefensins and posttranslational generation of molecular diversity.",
+                    "Pubmed ID": "1152799",
+                    "Reference": "J Leukoc Biol. 2001 Sep;70(3)461-464.",
+                    "Author": "Leonova L, Kokryakov VN, Aleshina G, Hong T, Nguyen T, Zhao C, Waring AJ, Lehrer RI.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=1152799"
+                },
+                {
+                    "Title": "Homodimeric theta-defensins from rhesus macaque leukocytes isolation, synthesis, antimicrobial activities, and bacterial binding properties of the cyclic peptides.",
+                    "Pubmed ID": "11675394",
+                    "Reference": "J Biol Chem. 2002 Feb 1;277(5)3079-3084.",
+                    "Author": "Tran D, Tran PA, Tang YQ, Yuan J, Cole T, Selsted ME.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=11675394"
+                }
+            ],
+            "Frequent Amino Acids": "CRG",
+            "Absent Amino Acids": "ADEFHIKMNOPQSTUWY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 4,
+            "Polar Residues": 14,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02269",
+                    "Similarity": 1.0,
+                    "Sequence": "RCLCRRGVC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06235",
+                    "Similarity": 1.0,
+                    "Sequence": "GVCRCLCRRGVCRCLCRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_29214",
+                    "Similarity": 0.9333333333333333,
+                    "Sequence": "GVCRCLCRRGVCRCICRR"
+                }
+            ]
+        }
+    }
+}

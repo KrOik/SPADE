@@ -1,0 +1,74 @@
+{
+    "SPADE_N_13649": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_13649",
+            "Peptide Name": "NLF20 (synthetic AMPs20, BBL; UCLL1; other derivatives: KYE28, KYE21)",
+            "Source": "fragments of a human antimicrobial protein, animal-derived, natural derivatives",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "NLFRKLTHRLFRRNFGYTLR",
+            "Sequence Length": 20,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Antifungal",
+                "Anti-inflammatory",
+                "anti-sepsis"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 2609.04,
+            "PI": 12.0,
+            "Hydrophobicity": -0.81,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Singh S, Papareddy P, Kalle M, Schmidtchen A, Malmsten M.",
+                    "Reference": "Biochim Biophys Acta. 2013;1828(11):2709–2719. doi:10.1016/j.bbamem.2013.06.015PubMed",
+                    "Title": "Importance of Lipopolysaccharide Aggregate Disruption for the Anti-Endotoxic Effects of Heparin Cofactor II Peptides"
+                }
+            ],
+            "Frequent Amino Acids": "RLF",
+            "Absent Amino Acids": "ACDEIMOPQSUVW",
+            "Basic Residues": 7,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 12,
+            "Positive Residues": 7,
+            "Negative Residues": 0,
+            "Net Charge": 7,
+            "Comments": "Sequence analysis: It corresponds to an epitope of the D helix of e serine proteinase inhibitor heparin cofactor II (HCII), a plasma protein mediating bacterial clearance. APD analysis reveals that this sequence is most similar (41.7%) topeptide P4.Activity: Active against Gram- P. aeruginosa (MBC 30 uM), E. coli (MBC <10 uM), Gram+ B. subtilis and S. aureus (MBC ~2.5 uM), fungi C. albicans and C. parapsilosis (PubMed). Note that peptide activity is retained in human blood, particularly for P. aeruginosa.MOA:  Appeared to target bacterial membranes.Structure: Helical after binding to LPS.Animal model:mouse:  Mice deficient in HCII displayed increased susceptibility to infection by P. aeruginosa. In an animal model of P. aeruginosa sepsis, NLF20 reduced bacterial levels, resulting in improved survival. Reduced mortality was also observed in experimental animal models of endotoxin shock, which was paralleled with modulated IFN-g, IL-10 and coagulation responses. Thus, it also shows anti-inflammatory effects in vitro as well as in vivo.SAR: The antibacterial activity of other regions of the protein has also been studied. These include KYE28 (KYEITTIHNLFRKLTHRLFRRNFGYTLR), KYE21 (KYEITTIHNLFRKLTHRLFRR).",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_22195",
+                    "Similarity": 1.0,
+                    "Sequence": "KYEITTIHNLFRKLTHRLFRRNFGYTLR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_22196",
+                    "Similarity": 0.8,
+                    "Sequence": "KYEITTIHNLARKLTHRLARRNAGATLR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_15534",
+                    "Similarity": 0.7142857142857143,
+                    "Sequence": "SLLSLFRKLI"
+                }
+            ]
+        }
+    }
+}

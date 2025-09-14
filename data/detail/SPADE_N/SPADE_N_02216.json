@@ -1,0 +1,75 @@
+{
+    "SPADE_N_02216": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02216",
+            "Peptide Name": "Penaeidin-3d (Pen-3d; shrimps, Arthropods, animals)",
+            "Source": "Litopenaeus vannamei (Whiteleg shrimp) (Penaeus vannamei)",
+            "Family": "Belongs to the penaeidin family",
+            "Gene": "Not found",
+            "Sequence": "QVYKGGYTRPIPRPPPFVRPLPGGPIGPYNGCPISCRGISFSQARSCCSRLGRCCHVGKGYS",
+            "Sequence Length": 62,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q963D0"
+            ],
+            "Protein Existence": "Homology",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Antifungal"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Chitin-binding",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C292H458N90O77S6",
+            "Mass": 6653.71,
+            "PI": 9.89,
+            "Net Charge": 10,
+            "Hydrophobicity": -0.37,
+            "Half Life": "Mammalian:0.8 hourYeast:10 minE.coli:>10 hour",
+            "Function": "Posesses antibacterial and antifungal activity. Presents chitin-binding activity.",
+            "PTM": "Contains three disulfide bonds 32-47; 36-54; 48-55, Pyrrolidone carboxylic acid and Serine amide at position 1 and 62 respectively.",
+            "Literature": [
+                {
+                    "Title": "Diversity of the penaeidin antimicrobial peptides in two shrimp species.",
+                    "Pubmed ID": "12242595",
+                    "Reference": "Immunogenetics. 2002 Sep;54(6)442-445.",
+                    "Author": "Cuthbertson BJ, Shepard EF, Chapman RW, Gross PS.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=12242595"
+                }
+            ],
+            "Frequent Amino Acids": "GPR",
+            "Absent Amino Acids": "DEMOUW",
+            "Basic Residues": 10,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 26,
+            "Polar Residues": 34,
+            "Positive Residues": 10,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02212",
+                    "Similarity": 0.9838709677419355,
+                    "Sequence": "QVYKGGYTRPIPRPPPFVRPLPGGPIGPYNGCPVSCRGISFSQARSCCSRLGRCCHVGKGYS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02218",
+                    "Similarity": 0.9838709677419355,
+                    "Sequence": "QVYKGGYTRPIPRPPPFVRPLPGGPIGPYNGCPISCRGISFSQARSYCSRLGRCCHVGKGYS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08304",
+                    "Similarity": 0.9838709677419355,
+                    "Sequence": "QVYKGGYTRPIPRPPPFVRPLPGGPIGPYNGCPVSCRGISFSQARSCCSRLGRCCHVGKGYSG"
+                }
+            ]
+        }
+    }
+}

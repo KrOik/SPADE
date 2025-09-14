@@ -1,0 +1,64 @@
+{
+    "SPADE_UN_22284": {
+        "Sequence Information": {
+            "Peptide Name": "GBV-B gp (1872-1889)",
+            "Sequence": "IWQYVCNFFVICFNVLKA",
+            "Sequence Length": 18,
+            "Biological Activity": [
+                "Antiviral"
+            ],
+            "Binding Target": "1. Virus entry",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "Q69422",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/Q69422",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Screening and Rational Design of Hepatitis C Virus Entry Inhibitory Peptides Derived From GB Virus A NS5A",
+                    "Pubmed ID": "23175359",
+                    "Reference": "J Virol. 2013;87:1649-1657",
+                    "Author": "Liu X, et al.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/23175359"
+                }
+            ],
+            "Mass": 2207.66,
+            "PI": 8.05,
+            "Net Charge": 1,
+            "Hydrophobicity": 1.33,
+            "Frequent Amino Acids": "FVC",
+            "Absent Amino Acids": "DEGHMOPRSTU",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 6,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_22284",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_14967",
+                    "Similarity": 0.6666666666666666,
+                    "Sequence": "EQVLKAVTNVLSPVFPGGET"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_18908",
+                    "Similarity": 0.5,
+                    "Sequence": "MFMAIVVLAALMVLPQVEGGCWEIWSRCTGWSSWGTGRLWKSCSDRCKELGKSGGRCVLKDASDCWMTDQAGQYVCNRRT"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14789",
+                    "Similarity": 0.5,
+                    "Sequence": "GLFNVFKKVGKNVLKNVAGSLMDNLKCKVSGEC"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Hepatitis C virus (HCV)(IC50 I=>20µM),Hepatitis C virus (HCV)(0-10% Inhibition=20µM)"
+        }
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "SPADE_UN_28280": {
+        "Sequence Information": {
+            "Peptide Name": "Cathelicidin-3 (1-15), Bactenecin-7 (1-15)",
+            "Sequence": "RRIRPRPPRLPRPRP",
+            "Sequence Length": 15,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P19661",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P19661",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Antimicrobial activity of Bac7 fragments against drug-resistant clinical isolates.",
+                    "Pubmed ID": "15572192",
+                    "Reference": "Peptides. 2004;25:2055-2061",
+                    "Author": "Benincasa M, Scocchi M, Podda E, Skerlavaj B, Dolzani L, Gennaro R",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/15572192"
+                },
+                {
+                    "Title": "Translocating proline-rich peptides from the antimicrobial peptide bactenecin 7.",
+                    "Pubmed ID": "12450378",
+                    "Reference": "Biochemistry. 2002;41:14150-14157",
+                    "Author": "Sadler K, Eom KD, Yang JL, Dimitrova Y, Tam JP",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/12450378"
+                },
+                {
+                    "Title": "Effect of size and N-terminal residue characteristics on bacterial cell penetration and antibacterial activity of the proline-rich peptide Bac7.",
+                    "Pubmed ID": "25525837",
+                    "Reference": "J Med Chem. 2015;58:1195-1204",
+                    "Author": "Guida F, Benincasa M, Zahariev S, Scocchi M, Berti F, Gennaro R, Tossi A",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/25525837"
+                }
+            ],
+            "Mass": 1920.32,
+            "PI": 12.0,
+            "Net Charge": 7,
+            "Hydrophobicity": -2.19,
+            "Frequent Amino Acids": "RPI",
+            "Absent Amino Acids": "ACDEFGHKMNOQSTUVWY",
+            "Basic Residues": 7,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 2,
+            "Polar Residues": 13,
+            "Positive Residues": 7,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_28280",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02463",
+                    "Similarity": 1.0,
+                    "Sequence": "RRIRPRPPRLPRPRPRPLPFPRPGPRPIPRPLPFPRPGPRPIPRPLPFPRPGPRPIPRP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05739",
+                    "Similarity": 1.0,
+                    "Sequence": "RRIRPRPPRLPRPRPRPLPFPRPGPRPIPRPLPFPRPGPRPIPRPLPFPRPGPRPIPRPL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05997",
+                    "Similarity": 1.0,
+                    "Sequence": "AFIQLSKPCISDKECSIVKNYRARCRKGYCVRRRIR"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=32-64µM),Escherichia coli ML-35(MIC=128µM),Salmonella enterica subsp. enterica serovar Typhimurium ATCC 14028(MIC=128µM),Serratia marcescens ATCC 8100(MIC=128µM),Staphylococcus aureus ATCC 25923(MIC=>128µM),Staphylococcus aureus ATCC 29213(MIC=>500µM),Candida albicans ATCC 37092(MIC=28.8µM),Escherichia coli HB101(MIC=16µM)"
+        }
+    }
+}

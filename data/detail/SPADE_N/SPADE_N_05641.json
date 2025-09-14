@@ -1,0 +1,81 @@
+{
+    "SPADE_N_05641": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 2012/0157374 A1",
+                "Patent Link": "http://www.lens.org/lens/patent/US_2012_0157374_A1",
+                "Patent Type": "Patent Application",
+                "Publication Date": "2012-6-21",
+                "Family Info": "EP2269627A1,EP2442823A1,WO2010146067A1",
+                "Patent Title": "Nodule specific medicago peptides having antimicrobial activity and pharmaceutical compositions containging the same.",
+                "Abstract": "The present invention relates to the use of at least one peptide originated from Medicago truncatula nodules, including the SEQ IDs NO: 1-463 or at least one peptide having a sequence derived from the SEQ IDs NO: 1-463 by deletion of about 9 to about 44 contiguous amino acids, from the N-terminal part of the peptide, in particular peptides having the SEQ IDS NO: 464 to 925, for the preparation of a drug intended for the treatment of human, animal or plant diseases induced by microorganisms, wherein the peptides have a broad-spectrum and fast antibiotic activity, in particular killing of the bacteria within 1 to 3 hours."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_05641",
+            "Peptide Name": "NCR335 (nodule-specific cysteine-rich peptides; plants)",
+            "Source": "Medicago truncatula",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "RLNTTFRPLNFKMLRFWGQNRNIMKHRGQKVHFSLILSDCKTNKDCPKLRRANVRCRKSYCVPI",
+            "Sequence Length": 64,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "Active against S. enterica (MIC 16 uM) and L. monocytogenes (MIC 32 uM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C340H557N111O84S6",
+            "Mass": 7736.14,
+            "PI": 11.27,
+            "Net Charge": 16,
+            "Hydrophobicity": -0.72,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Comparative Analysis of the Bacterial Membrane Disruption Effect of Two Natural Plant Antimicrobial Peptides.",
+                    "Pubmed ID": "28167938",
+                    "Reference": "Front Microbiol. 2017 Jan 23;851.",
+                    "Author": "Farkas A, Mar",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=28167938"
+                }
+            ],
+            "Frequent Amino Acids": "RKL",
+            "Absent Amino Acids": "EOU",
+            "Basic Residues": 18,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 24,
+            "Polar Residues": 41,
+            "Positive Residues": 18,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_06969",
+                    "Similarity": 1.0,
+                    "Sequence": "MQIGKNMVETPKLDYVIIFFFLYFFFRQMIILRLNTTFRPLNFKMLRFWGQNRNIMKHRGQKVHFSLILSDCKTNKDCPKLRRANVRCRKSYCVPI"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_24046",
+                    "Similarity": 1.0,
+                    "Sequence": "RLNTTFRPLNFKMLRFWGQ"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_24047",
+                    "Similarity": 1.0,
+                    "Sequence": "RLNTTFRPLNFKMLR"
+                }
+            ]
+        }
+    }
+}

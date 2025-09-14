@@ -1,0 +1,75 @@
+{
+    "SPADE_N_02112": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02112",
+            "Peptide Name": "Antifungal protein 1 (Pf-AFP1; Plants)",
+            "Source": "Passiflora edulis (Passion fruit)",
+            "Family": "Belongs to the 2S seed storage albumins family",
+            "Gene": "Not found",
+            "Sequence": "QSERFEQQMQGQDFSHDERFLSQAA",
+            "Sequence Length": 25,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P84884"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antifungal"
+            ],
+            "Target Organism": "Fungi:Trichoderma harzianum (IC50=32 µg/ml), Fusarium oxysporum (IC50=34 µg/ml), Aspergillus fumigatus (IC50=40 µg/ml).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C126H187N39O45S",
+            "Mass": 3000.13,
+            "PI": 4.5,
+            "Net Charge": -2,
+            "Hydrophobicity": -1.43,
+            "Half Life": "Mammalian:0.8 hourYeast:10 minE.coli:>10 hour",
+            "Function": "Function",
+            "Tissue specificity": "Expressed in seed (at protein level). Not detected in pulp, stems and leaves.",
+            "Developmental stage": "Expressed in dormant seed.",
+            "Literature": [
+                {
+                    "Title": "An antifungal peptide from passion fruit (Passiflora edulis) seeds with similarities to 2S albumin proteins.",
+                    "Pubmed ID": "16766236",
+                    "Reference": "Biochim Biophys Acta. 2006 Jun;1764(6)1141-6.",
+                    "Author": "Pelegrini PB, Noronha EF, Muniz MA, Vasconcelos IM, Chiarello MD, Oliveira JT, Franco OL.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16766236"
+                }
+            ],
+            "Frequent Amino Acids": "QEF",
+            "Absent Amino Acids": "CIKNOPTUVWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 5,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 14,
+            "Positive Residues": 3,
+            "Negative Residues": 5,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00259",
+                    "Similarity": 0.64,
+                    "Sequence": "PGAGSQEERMQGQMEGQDFSHEERFLSMVRE"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14055",
+                    "Similarity": 0.5714285714285714,
+                    "Sequence": "GLLSRLRDFLSDRGRRLGEKIERIGQKIKDLSERFQS"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_22046",
+                    "Similarity": 0.5714285714285714,
+                    "Sequence": "GLLSRLRDFLSDRGRRLGEKIERIGQKIKDLSERFQS"
+                }
+            ]
+        }
+    }
+}

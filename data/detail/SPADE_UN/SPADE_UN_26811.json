@@ -1,0 +1,64 @@
+{
+    "SPADE_UN_26811": {
+        "Sequence Information": {
+            "Peptide Name": "Bovicin HJ50 [R3A,K7A]",
+            "Sequence": "ADAGWIATLTKDCPNVISSICAGTIITACKNCA",
+            "Sequence Length": 33,
+            "Biological Activity": [
+                "Anti-Gram+"
+            ],
+            "Binding Target": "1. Lipid Bilayer\n2. Lipid II",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "H2A7G5",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/H2A7G5",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Type AII lantibiotic bovicin HJ50 with a rare disulfide bond: structure, structure-activity relationships and mode of action",
+                    "Pubmed ID": "24814218",
+                    "Reference": "Biochem J. 2014;497:497-508",
+                    "Author": "Zhang J, Feng Y, Teng K, Lin Y, Gao Y, Wang J, Zhong J",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/24814218"
+                }
+            ],
+            "Mass": 3325.85,
+            "PI": 5.97,
+            "Net Charge": 0,
+            "Hydrophobicity": 0.66,
+            "Frequent Amino Acids": "AIC",
+            "Absent Amino Acids": "EFHMOQRUY",
+            "Basic Residues": 2,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 17,
+            "Polar Residues": 16,
+            "Positive Residues": 2,
+            "Negative Residues": 2,
+            "SPADE ID": "SPADE_UN_26811",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00003",
+                    "Similarity": 0.9393939393939394,
+                    "Sequence": "ADRGWIKTLTKDCPNVISSICAGTIITACKNCA"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06046",
+                    "Similarity": 0.9393939393939394,
+                    "Sequence": "MMNATENQIFVETVSDQELEMLIGGADRGWIKTLTKDCPNVISSICAGTIITACKNCA"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03419",
+                    "Similarity": 0.9090909090909091,
+                    "Sequence": "MMNATENQIFVETVSDQELEMLIGGAGRGWIKTLTKDCPNVISSICAGTIITACKNCA"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Micrococcus luteus NCIB 8166(MIC=1.22µM)"
+        }
+    }
+}

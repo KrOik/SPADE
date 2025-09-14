@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_22654": {
+        "Sequence Information": {
+            "Peptide Name": "Blapersin/Bp Defensin [W2Y]",
+            "Sequence": "GYGCNIFGGNDYRCHRHCKSIRGYKGGYCKLGGICKCY",
+            "Sequence Length": 38,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "A0A1J9QEC5",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/A0A1J9QEC5",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "The second N-terminal aromatic residue of the fungal defensin, blapersin, of Blastomyces percursus is essential for its antibacterial activity.",
+                    "Pubmed ID": "32871207",
+                    "Reference": "Peptides. 2020;133:170400",
+                    "Author": "Wu J, Qu C, Zhang S, Chen W, Wang S",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/32871207"
+                }
+            ],
+            "Mass": 4251.9,
+            "PI": 9.22,
+            "Net Charge": 8,
+            "Hydrophobicity": -0.57,
+            "Frequent Amino Acids": "GCY",
+            "Absent Amino Acids": "AEMOPQTUVW",
+            "Basic Residues": 9,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 27,
+            "Positive Residues": 9,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_UN_22654",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_21855",
+                    "Similarity": 1.0,
+                    "Sequence": "IRGYKGGYCK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_21862",
+                    "Similarity": 1.0,
+                    "Sequence": "IRGYKGGYCK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_13692",
+                    "Similarity": 0.9736842105263158,
+                    "Sequence": "GWGCNIFGGNDYRCHRHCKSIRGYKGGYCKLGGICKCY"
+                }
+            ],
+            "Hemolytic Activity": "Mouse erythrocytes:13% Hemolysis=50 µM,Human embryonic kidney HEK293 cells:3% Killing=50 µM",
+            "Target Organism": "Staphylococcus aureus BNCC 337371(MIC=2µM),Staphylococcus aureus BNCC 340652(MIC=2µM),Bacillus cereus BNCC 103930(MIC=4µM),Bacillus subtilis BNCC 109047 (MIC=4µM),Micrococcus luteus BNCC 102589(MIC=2µM),Staphylococcus aureus ATCC 6538(MIC=4µM),Staphylococcus epidermidis ATCC 12228(MIC=2µM),Enterococcus faecalis(MIC=2µM),Enterococcus faecium(MIC=1µM),Escherichia coli ATCC 8739(no activity data),Serratia marcescens ATCC 14756(no activity data)"
+        }
+    }
+}

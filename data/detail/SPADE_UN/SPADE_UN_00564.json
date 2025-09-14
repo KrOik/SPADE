@@ -1,0 +1,75 @@
+{
+    "SPADE_UN_00564": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_00564",
+            "Peptide Name": "LK2(6)AN(2L) (Temporin-1CEa analog peptide)",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "FVKLKKILNIILSIFKK",
+            "Sequence Length": 17,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic",
+            "Biological Activity": [
+                "Anticancer"
+            ],
+            "Target Organism": "Cancer cell lines:MCF-7 (IC50=11 µM), MDA-MB-231 (IC50=41.55 µM), Bcap-37 (IC50=9.39 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C102H177N23O20",
+            "Mass": 2045.64,
+            "PI": 10.6,
+            "Net Charge": 5,
+            "Hydrophobicity": 0.91,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Function": "Has anticancer activity.",
+            "Literature": [
+                {
+                    "Title": "Design of potent, non-toxic anticancer peptides based on the structure of the antimicrobial peptide, temporin-1CEa.",
+                    "Pubmed ID": "23609760",
+                    "Reference": "Arch Pharm Res. 2013 Apr 23.",
+                    "Author": "Yang QZ, Wang C, Lang L, Zhou Y, Wang H, Shang DJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=23609760"
+                },
+                {
+                    "Title": "Design of potent, non-toxic anticancer peptides based on the structure of the antimicrobial peptide, temporin-1CEa",
+                    "Pubmed ID": "",
+                    "Author": "Yang QZ, Wang C, Lang L, Zhou Y, Wang H, Shang DJ"
+                }
+            ],
+            "Frequent Amino Acids": "KIL",
+            "Absent Amino Acids": "ACDEGHMOPQRTUWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 8,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_13254",
+                    "Similarity": 1.0,
+                    "Sequence": "GIGKFLKKAKKGKAFVKLKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_00563",
+                    "Similarity": 0.9411764705882353,
+                    "Sequence": "FVKLKKILNIINSIFKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_00561",
+                    "Similarity": 0.8823529411764706,
+                    "Sequence": "FVKLKKIANIINSIFKK"
+                }
+            ]
+        }
+    }
+}

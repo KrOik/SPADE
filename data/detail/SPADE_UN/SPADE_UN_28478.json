@@ -1,0 +1,62 @@
+{
+    "SPADE_UN_28478": {
+        "Sequence Information": {
+            "Peptide Name": "NC7 Dermaseptin S4 (1-13)AMD[M4K]",
+            "Sequence": "XALWKTLLKKVLKA",
+            "Sequence Length": 14,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antiparasitic",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P80280",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P80280",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Direct interaction of dermaseptin S4 aminoheptanoyl derivative with intraerythrocytic malaria parasite leading to increased specific antiparasitic activity in culture.",
+                    "Pubmed ID": "11937508",
+                    "Reference": "J Biol Chem. 2002;277:24067-24072",
+                    "Author": "Efron L, Dagan A, Gaidukov L, Ginsburg H, Mor A",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/11937508"
+                },
+                {
+                    "Title": "Effects of acyl versus aminoacyl conjugation on the properties of antimicrobial peptides.",
+                    "Pubmed ID": "15917541",
+                    "Reference": "Antimicrob Agents Chemother. 2005;49:2412-2420",
+                    "Author": "Radzishevsky IS, Rotem S, Zaknoon F, Gaidukov L, Dagan A, Mor A",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/15917541"
+                }
+            ],
+            "SPADE ID": "SPADE_UN_28478",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06886",
+                    "Similarity": 1.0,
+                    "Sequence": "ALWKTLLKKVLKAPKKKRKV"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06987",
+                    "Similarity": 1.0,
+                    "Sequence": "PKKKRKVALWKTLLKKVLKA"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06988",
+                    "Similarity": 1.0,
+                    "Sequence": "VKRKKKPALWKTLLKKVLKA"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=>60 µM,Human erythrocytes:10% Hemolysis=60 µM,Human erythrocytes:50% Hemolysis=80 µM",
+            "Target Organism": "Plasmodium falciparum(IC50=5.3±0.7µM),Plasmodium falciparum(IC50=6.2±0.5µM),Leishmania major (promastigote)(LC=6.25µM),Staphylococcus aureus B38302(MIC=18±7µM),Escherichia coli U16318(MIC=4.5±1.5µM)"
+        }
+    }
+}

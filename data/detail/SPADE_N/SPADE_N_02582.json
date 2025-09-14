@@ -1,0 +1,76 @@
+{
+    "SPADE_N_02582": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02582",
+            "Peptide Name": "Reactive oxygen species modulator 1 (ROS modulator 1; pigs, mammals, animals)",
+            "Source": "Sus scrofa (Pig)",
+            "Family": "Belongs to the MGR2 family",
+            "Gene": "romo1",
+            "Sequence": "MPVAVGPYGQSQPSCFDRVKMGFVMGCAVGMAAGALFGPFSCLRIGMRGRELMGGIGKTMMQSGGTFGPFMAIGMGIRC",
+            "Sequence Length": 79,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/A1XQR6"
+            ],
+            "Protein Existence": "Homology",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-positive bacteria:Staphylococcus aureus, Mycobacterium tuberculosis;Gram-negative bacterium:Pseudomonas aeruginosa.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C355H567N99O94S14",
+            "Mass": 8174.82,
+            "PI": 9.58,
+            "Net Charge": 5,
+            "Hydrophobicity": 0.49,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Has antibacterial activity against a variety of bacteria. Acts by inducing bacterial membrane breakage (By similarity). Induces production of reactive oxygen species (ROS) which are necessary for cell proliferation. May play a role in inducing oxidative DNA damage and replicative senescence. May play a role in the coordination of mitochondrial morphology and cell proliferation (By similarity).",
+            "Domain": "Contains a transmembrane helix.",
+            "Literature": [
+                {
+                    "Title": "Generation and analysis of cDNA sequences derived from a porcine skeletal muscle library.",
+                    "Pubmed ID": "PubMed ID is not available",
+                    "Reference": "Submitted (MAY-2006) to the EMBL/GenBank/DDBJ databases",
+                    "Author": "Cai G, Chen Y, Wang C, Li J, Peng G, Zhang H.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=PubMed ID is not available"
+                }
+            ],
+            "Frequent Amino Acids": "GMA",
+            "Absent Amino Acids": "HNOUW",
+            "Basic Residues": 7,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 40,
+            "Polar Residues": 32,
+            "Positive Residues": 7,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_27798",
+                    "Similarity": 1.0,
+                    "Sequence": "CLRIGMRGRELMGGIGKTM"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02444",
+                    "Similarity": 0.9746835443037974,
+                    "Sequence": "MPVAVGPYGQSQPSCFDRVKMGFVMGCAVGMAAGALFGTFSCLRIGMRGRELMGGIGKTMMQSGGTFGTFMAIGMGIRC"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_22361",
+                    "Similarity": 0.9642857142857143,
+                    "Sequence": "LMGGIGKTMMQSGGTFGTFMAIGMGIRC"
+                }
+            ]
+        }
+    }
+}

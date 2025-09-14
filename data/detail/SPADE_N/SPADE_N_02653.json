@@ -1,0 +1,71 @@
+{
+    "SPADE_N_02653": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02653",
+            "Peptide Name": "Phormia defensin B (insect defensin B; Insects, animals)",
+            "Source": "Phormia terranovae (Black blowfly)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "ATCDLLSGTGINHSACAAHCLLRGNRGGYCNRKGVCVCRN",
+            "Sequence Length": 40,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C167H279N61O52S6",
+            "Mass": 4165.77,
+            "PI": 8.96,
+            "Net Charge": 6,
+            "Hydrophobicity": -0.06,
+            "Half Life": "Mammalian:4.4 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "It contains three intramolecular disulfide bridges and differ from one another by only a single amino acid. This peptide is neither functionally nor structurally related to any known insect immune response peptides but show significant homology to microbicidal cationic peptides from mammalian granulocytes (defensins).",
+            "Literature": [
+                {
+                    "Title": "Insect immunity isolation from immune blood of the dipteran Phormia terranovae of two insect antibacterial peptides with sequence homology to rabbit lung macrophage bactericidal peptides.",
+                    "Pubmed ID": "2911573",
+                    "Reference": "Proc Natl Acad Sci U S A. 1989 Jan;86(1)262-266.",
+                    "Author": "Lambert J, Keppi E, Dimarcq JL, Wicker C, Reichhart JM, Dunbar B, Lepage P, Van Dorsselaer A, Hoffmann J, Fothergill J, et al.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=2911573"
+                }
+            ],
+            "Frequent Amino Acids": "CGA",
+            "Absent Amino Acids": "EFMOPQUW",
+            "Basic Residues": 7,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 28,
+            "Positive Residues": 7,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_11844",
+                    "Similarity": 1.0,
+                    "Sequence": "AAHCLLRGNR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_19402",
+                    "Similarity": 1.0,
+                    "Sequence": "AAHCLLRGNR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02652",
+                    "Similarity": 0.975,
+                    "Sequence": "ATCDLLSGTGINHSACAAHCLLRGNRGGYCNGKGVCVCRN"
+                }
+            ]
+        }
+    }
+}

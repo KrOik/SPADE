@@ -1,0 +1,80 @@
+{
+    "SPADE_N_00988": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00988",
+            "Peptide Name": "Sd1 (sugarcane defensin 1; Plant defensin)",
+            "Source": "Saccharum officinarum (Sugarcane)",
+            "Family": "Not found",
+            "Gene": "PDEF",
+            "Sequence": "RYCLSQSHRFKGLCMSSSNCANVCQTENFPGGECKADGATRKCFCKKIC",
+            "Sequence Length": 49,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/B2CNV2"
+            ],
+            "Protein Existence": "Predicted",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antifungal"
+            ],
+            "Target Organism": "Fungi:Neurospora crassa, Aspergillus niger, Fusarium solani (IC50=1-2 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Based on circular dichroism (CD) and nuclear magnetic resonance (NMR) spectroscopy showed that the structures of these Sds were compatible with alpha/beta proteins, a feature expected for plant defensins.",
+            "Formula": "C223H358N70O69S9",
+            "Mass": 5412.24,
+            "PI": 8.91,
+            "Net Charge": 6,
+            "Hydrophobicity": -0.45,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Function": "Sd1 is active against fungi, but not against bacteria.",
+            "Literature": [
+                {
+                    "Title": "Evolutionary relationship between defensins in the Poaceae family strengthened by the characterization of new sugarcane defensins.",
+                    "Pubmed ID": "18618271",
+                    "Reference": "Plant Mol Biol. 2008 Nov;68(4-5)321-335.",
+                    "Author": "De-Paula VS, Razzera G, Medeiros L, Miyamoto CA, Almeida MS, Kurtenbach E, Almeida FC, Valente AP.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=18618271"
+                },
+                {
+                    "Title": "Novel plant-defensin from sugarcane (Saccharum officinarum).",
+                    "Pubmed ID": "PubMed ID is not available",
+                    "Reference": "Submitted (FEB-2008) to the EMBL/GenBank/DDBJ databases.",
+                    "Author": "Padovan L, Segat L, Tossi A, Crovella S.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=PubMed ID is not available"
+                }
+            ],
+            "Frequent Amino Acids": "CKS",
+            "Absent Amino Acids": "OUW",
+            "Basic Residues": 9,
+            "Acidic Residues": 3,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 34,
+            "Positive Residues": 9,
+            "Negative Residues": 3,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03403",
+                    "Similarity": 0.7551020408163265,
+                    "Sequence": "MAPSRRMVASAFLLLAILVATEMGTTKVAEARHCLSQSHRFKGMCVSSNNCANVCRTESFPDGECKSHGLERKCFCKKVC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00250",
+                    "Similarity": 0.7021276595744681,
+                    "Sequence": "RTCESQSHRFKGACLSDTNCASVCQTEGFPAGDCKGARRRCFCVKPC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00875",
+                    "Similarity": 0.6595744680851063,
+                    "Sequence": "RTCESQSHRFKGTCVRQSNCAAVCQTEGFHGGNCRGFRRRCFCTKHC"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,84 @@
+{
+    "SPADE_N_03242": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03242",
+            "Peptide Name": "Mucroporin (Antimicrobial peptide 36.21; Arthropods, animals)",
+            "Source": "Lychas mucronatus (Chinese swimming scorpion)",
+            "Family": "Belongs to the short cationic antimicrobial peptide family",
+            "Gene": "Not found",
+            "Sequence": "LFGLIPSLIGGLVSAFK",
+            "Sequence Length": 17,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/B9UIY3"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-negative bacteria:Escherichia coli AB94012 (MIC>100 µg/ml), Pseudomonas aeruginosa AB93066 (MIC>100 µg/ml);Gram-positive bacteria:Bacillus thuringiensis AB92037 (MIC=25 µg/ml), Bacillus subtilis AB91021 (MIC=50 µg/ml), Staphylococcus aureus AB94004 (MIC=25 µg/ml), Methicillin-resistant coagulase-negative S. aureus (MIC=25 µg/ml).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Cell membrane",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C85H138N18O20",
+            "Mass": 1732.11,
+            "PI": 8.75,
+            "Net Charge": 1,
+            "Hydrophobicity": 1.62,
+            "Half Life": "Mammalian:5.5 hourYeast:3 minE.coli:2 min",
+            "Function": "Function",
+            "Tissue specificity": "Expressed by the venom gland.",
+            "Miscellaneous": "Minimum inhibitory concentrations (MIC) for Mucroporin-1 analog are the following",
+            "Literature": [
+                {
+                    "Title": "Comparative venom gland transcriptome analysis of the scorpion Lychas mucronatus reveals intraspecific toxic gene diversity and new venomous components.",
+                    "Pubmed ID": "20663230",
+                    "Reference": "BMC Genomics. 2010 Jul 28;11452.",
+                    "Author": "Ruiming Z, Yibao M, Yawen H, Zhiyong D, Yingliang W, Zhijian C, Wenxin L.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=20663230"
+                },
+                {
+                    "Title": "Mucroporin, the first cationic host defense peptide from the venom of Lychas mucronatus.",
+                    "Pubmed ID": "18779362",
+                    "Reference": "Antimicrob Agents Chemother. 2008 Nov;52(11)3967-3972.",
+                    "Author": "Dai C, Ma Y, Zhao Z, Zhao R, Wang Q, Wu Y, Cao Z, Li W.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=18779362"
+                }
+            ],
+            "Frequent Amino Acids": "LGF",
+            "Absent Amino Acids": "CDEHMNOQRTUWY",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 5,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_22231",
+                    "Similarity": 1.0,
+                    "Sequence": "SLIGGLVSAFK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_22232",
+                    "Similarity": 1.0,
+                    "Sequence": "VSAFK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03244",
+                    "Similarity": 0.8823529411764706,
+                    "Sequence": "LFGLIPSMMGGLVSAFK"
+                }
+            ]
+        }
+    }
+}

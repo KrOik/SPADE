@@ -1,0 +1,73 @@
+{
+    "SPADE_N_01345": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01345",
+            "Peptide Name": "Esculentin-2S (Frogs, amphibians, animals)",
+            "Source": "Odorrana schmackeri (piebald odorous frog)",
+            "Family": "Belongs to the frog skin active peptide family (Brevinin subfamily)",
+            "Gene": "Not found",
+            "Sequence": "GLFTLIKGAVKMIGKTVAKEAGKTGLELMACKVTNQC",
+            "Sequence Length": 37,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-positive bacterium:Staphylococcus aureus FDA 209P (MIC=2.6 µM);Gram-negative bacterium:Escherichia coli ATCC 25922 (MIC=1.1 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Cyclization (Cys31 and Cys37)",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C169H295N45O48S4",
+            "Mass": 3853.68,
+            "PI": 9.51,
+            "Net Charge": 4,
+            "Hydrophobicity": 0.36,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Shows antibacterial against the Gram-positive bacterium S. aureus and the Gram-negative bacterium E. coli.",
+            "Literature": [
+                {
+                    "Title": "Cloning from tissue surrogates antimicrobial peptide (esculentin) cDNAs from the defensive skin secretions of Chinese ranid frogs.",
+                    "Pubmed ID": "16427248",
+                    "Reference": "Genomics. 2006 May;87(5)638-644.",
+                    "Author": "Chen T, Zhou M, Chen W, Lorimer J, Rao P, Walker B, Shaw C.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16427248"
+                }
+            ],
+            "Frequent Amino Acids": "KGA",
+            "Absent Amino Acids": "DHOPRSUWY",
+            "Basic Residues": 6,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 16,
+            "Polar Residues": 21,
+            "Positive Residues": 6,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01341",
+                    "Similarity": 0.918918918918919,
+                    "Sequence": "GLFTLIKGAAKLIGKTVAKEAGKTGLELMACKITNQC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01337",
+                    "Similarity": 0.8918918918918919,
+                    "Sequence": "GLFTLIKGAAKLIGRTVAKEAGKTGLELMACKITNQC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01383",
+                    "Similarity": 0.8918918918918919,
+                    "Sequence": "GIFTLIKGAAKLIGKTVAKEAGKTGLELMACKITNQC"
+                }
+            ]
+        }
+    }
+}

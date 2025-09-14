@@ -1,0 +1,85 @@
+{
+    "SPADE_N_02928": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 7384911 B2",
+                "Patent Link": "http://www.lens.org/lens/patent/US_7384911_B2",
+                "Patent Type": "Granted Patent",
+                "Publication Date": "2008-6-10",
+                "Family Info": "CA2492053A1,DE60330454D1,EP1517916A2,EP1517916B1,US20050245437,WO2004003006A2,WO2004003006A3",
+                "Patent Title": "Peptides having antimicrobial properties and compositions containing them, notably for the preservation of foodstuffs.",
+                "Abstract": "An isolated peptide including an amino acid sequence of formula (II): Xaa-Ca1-Xab-Ca2-Xac-Ca3-Xad-Ca4-Xae-Ca5-Ca6-Xaf (II). wherein Xaa is Ser-Phe-Gly-Leu, Xab is Arg-Leu-Arg-Arg-Gly-Phe, Xac is Ala-Xac2-Gly-Arg, Xad is Arg-Phe-Pro-Ser-Ile-Pro-Ile-Gly-Arg, Xae is Ser-Arg-Phe-Val-Gln, and Xaf is Arg-Arg-Val-Trp, Xac2 is histidine or arginine, Ca1, Ca2, Ca3, Ca4, Ca5 and Ca6 are sulfur containing amino acids, wherein each of Ca1-Ca5, Ca2-Ca4 and Ca3-Ca6 are linked together by a sulfur bridge, and wherein the amino acid sequence has antimicrobial activity."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02928",
+            "Peptide Name": "Beta-defensin 2 (BD-2, mBD-2; Defensin, beta 2; Defb2; Rodents, mammals, animals)",
+            "Source": "Mus musculus (Mouse)",
+            "Family": "Belongs to the beta-defensin family",
+            "Gene": "Defb2",
+            "Sequence": "AVGSLKSIGYEAELDHCHTNGGYCVRAICPPSARRPGSCFPEKNPCCKYMK",
+            "Sequence Length": 51,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P82020"
+            ],
+            "Protein Existence": "Transcript level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C237H372N70O70S7",
+            "Mass": 5546.37,
+            "PI": 8.63,
+            "Net Charge": 5,
+            "Hydrophobicity": -0.44,
+            "Half Life": "Mammalian:4.4 hourYeast:>20 hourE.coli:>10 hour",
+            "PTM": "Contains three disulfide bonds 17-46; 24-39; 29-47.",
+            "Tissue specificity": "Kidney, uterus and to a lesser extent in heart.",
+            "Induction": "In tracheal epithelium, by lipopolysaccharide or inflammation.",
+            "Literature": [
+                {
+                    "Title": "A novel mouse beta defensin, Defb2, which is upregulated in the airways by lipopolysaccharide.",
+                    "Pubmed ID": "9923615",
+                    "Reference": "FEBS Lett. 1999 Jan 8;442(1)112-116.",
+                    "Author": "Morrison GM, Davidson DJ, Dorin JR.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=9923615"
+                }
+            ],
+            "Frequent Amino Acids": "CGP",
+            "Absent Amino Acids": "OQUW",
+            "Basic Residues": 9,
+            "Acidic Residues": 4,
+            "Hydrophobic Residues": 20,
+            "Polar Residues": 31,
+            "Positive Residues": 9,
+            "Negative Residues": 4,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_04182",
+                    "Similarity": 1.0,
+                    "Sequence": "MRTLCSLLLICCLLFSYTTPAVGSLKSIGYEAELDHCHTNGGYCVRAICPPSARRPGSCFPEKNPCCKYMK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04017",
+                    "Similarity": 1.0,
+                    "Sequence": "AELDHCHTNGGYCVRAICPPSARRPGSCFPEKNPCCKYMK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03680",
+                    "Similarity": 1.0,
+                    "Sequence": "DHCHTNGGYCVRAICPPSARRPGSCFPEKNPCCKY"
+                }
+            ]
+        }
+    }
+}

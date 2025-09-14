@@ -1,0 +1,74 @@
+{
+    "SPADE_N_02175": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02175",
+            "Peptide Name": "Nawaprin (Snakes, reptiles, animals)",
+            "Source": "Naja nigricollis (Black-necked spitting cobra)",
+            "Family": "Belongs to the snake waprin family",
+            "Gene": "Not found",
+            "Sequence": "NEKSGSCPDMSMPIPPLGICKTLCNSDSGCPNVQKCCKNGCGFMTCTTPVP",
+            "Sequence Length": 51,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P60589",
+                "http://www.uniprot.org/uniprot/P83769"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Cell membrane",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C216H354N60O72S11",
+            "Mass": 5296.2,
+            "PI": 7.69,
+            "Net Charge": 1,
+            "Hydrophobicity": -0.2,
+            "Half Life": "Mammalian:1.4 hourYeast:3 minE.coli:>10 hour",
+            "Function": "Damages membranes of susceptible bacteria. Does not inhibit the proteinases elastase and cathepsin G (By similarity).",
+            "Literature": [
+                {
+                    "Title": "Identification of a novel family of proteins in snake venoms. Purification and structural characterization of nawaprin from Naja nigricollis snake venom.",
+                    "Pubmed ID": "12878611",
+                    "Reference": "J Biol Chem. 2003 Oct 10;278(41)40097-104.",
+                    "Author": "Torres AM, Wong HY, Desai M, Moochhala S, Kuchel PW, Kini RM.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=12878611"
+                }
+            ],
+            "Frequent Amino Acids": "CPG",
+            "Absent Amino Acids": "AHORUWY",
+            "Basic Residues": 4,
+            "Acidic Residues": 3,
+            "Hydrophobic Residues": 17,
+            "Polar Residues": 28,
+            "Positive Residues": 4,
+            "Negative Residues": 3,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02180",
+                    "Similarity": 0.72,
+                    "Sequence": "ENEKAGSCPDVNQPIPPLGLCRNMCESDSGCPNNEKCCKNGCGFMTCSRPR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02177",
+                    "Similarity": 0.6862745098039216,
+                    "Sequence": "EQEKPGSCPNVDMPIPPLGLCKTTCSKDSDCSETKKCCKNGCGFMTCTTARP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02181",
+                    "Similarity": 0.6470588235294118,
+                    "Sequence": "QDGKAGSCPDVNQPIPPLGVCKTTCATDSNCPDIQKCCKNGCGHMSCTRPST"
+                }
+            ]
+        }
+    }
+}

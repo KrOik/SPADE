@@ -1,0 +1,68 @@
+{
+    "SPADE_UN_25562": {
+        "Sequence Information": {
+            "Peptide Name": "D-Plantaricin 149a (10-19)/C10-A2 ",
+            "Sequence": "IKQVKKLFKK",
+            "Sequence Length": 10,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anticancer",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P80214",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P80214",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "D- and N-Methyl Amino Acids for Modulating the Therapeutic Properties of Antimicrobial Peptides and Lipopeptides",
+                    "Pubmed ID": "37237724",
+                    "Reference": "Antibiotics (Basel). 2023;12:821",
+                    "Author": "Humpola MV, Spinelli R, Erben M, Perdomo V, Tonarelli GG, Albericio F, Siano A",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/37237724"
+                }
+            ],
+            "Mass": 1259.63,
+            "PI": 10.6,
+            "Net Charge": 5,
+            "Hydrophobicity": -0.77,
+            "Frequent Amino Acids": "KFI",
+            "Absent Amino Acids": "ACDEGHMNOPRSTUWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 4,
+            "Polar Residues": 6,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_25562",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00181",
+                    "Similarity": 1.0,
+                    "Sequence": "YSLQMGATAIKQVKKLFKKWGW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00182",
+                    "Similarity": 1.0,
+                    "Sequence": "GATAIKQVKKLFKKWGW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00209",
+                    "Similarity": 1.0,
+                    "Sequence": "YSLQMGATAIKQVKKLFKKKGG"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=>400 µM,Human erythrocytes:15% Hemolysis=200 µM",
+            "Target Organism": "Escherichia coli ATCC 35218(MIC=22.6µM),Pseudomonas aeruginosa ATCC 27853(MIC=1.6µM),Staphylococcus aureus BSF FBCB1313(MIC=>90.6µM),Staphylococcus aureus ATCC 25923(MIC=>90.6µM),Enterococcus faecalis ATCC 29212(MIC=>90.6µM),Candida albicans PEEC 2(MIC=90.6µM),Candida tropicalis DBFIQ 3(MIC=181.2µM),Human cervical carcinoma HeLa(IC50=>400µM)"
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "SPADE_N_02492": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02492",
+            "Peptide Name": "Drosomycin-like C",
+            "Source": "Drosophila melanogaster (Fruit fly)",
+            "Family": "Not found",
+            "Gene": "Drsl1",
+            "Sequence": "DCLSGRYRGSCAVWHRKKCVDICQREGRTSGHCSPSLKCWCEGC",
+            "Sequence Length": 44,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q86GH7"
+            ],
+            "Protein Existence": "Transcript level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antifungal"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C203H323N69O61S8",
+            "Mass": 4962.68,
+            "PI": 8.74,
+            "Net Charge": 6,
+            "Hydrophobicity": -0.62,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:>10 hour",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Functional divergence of six isoforms of antifungal peptide Drosomycin in Drosophila melanogaster.",
+                    "Pubmed ID": "16824706",
+                    "Reference": "Gene. 2006 Sep 1;37926-32.",
+                    "Author": "Yang WY, Wen SY, Huang YD, Ye MQ, Deng XJ, Han D, Xia QY, Cao Y.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16824706"
+                }
+            ],
+            "Frequent Amino Acids": "CGR",
+            "Absent Amino Acids": "FMNOU",
+            "Basic Residues": 10,
+            "Acidic Residues": 4,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 29,
+            "Positive Residues": 10,
+            "Negative Residues": 4,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02495",
+                    "Similarity": 1.0,
+                    "Sequence": "MEIKFLIVLSAVLMIIFLGAEESHADCLSGRYRGSCAVWHRKKCVDICQREGRTSGHCSPSLKCWCEGC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02494",
+                    "Similarity": 0.7272727272727273,
+                    "Sequence": "MQIKFLYLFLAVMTIFILGAKEADADCLSGRYGGPCAVWDNETCRRVCKEEGRSSGHCSPSLKCWCEGC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02685",
+                    "Similarity": 0.7272727272727273,
+                    "Sequence": "DCLSGRYKGPCAVWDNETCRRVCKEEGRSSGHCSPSLKCWCEGC"
+                }
+            ]
+        }
+    }
+}

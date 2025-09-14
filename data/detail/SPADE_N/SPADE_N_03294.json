@@ -1,0 +1,73 @@
+{
+    "SPADE_N_03294": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03294",
+            "Peptide Name": "Cytotoxic linear peptide (Non-disulfide bridged protein family 5, NDBP-5; Arthropods, animals)",
+            "Source": "Pandinus cavimanus (Tanzanian red clawed scorpion)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "FLGGLWKAMSNLL",
+            "Sequence Length": 13,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/H2CYR5"
+            ],
+            "Protein Existence": "Transcript level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Cell membrane",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C69H108N16O16S",
+            "Mass": 1449.76,
+            "PI": 8.75,
+            "Net Charge": 1,
+            "Hydrophobicity": 0.91,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Function": "Amphipathic peptide that has antibacterial activities.",
+            "Literature": [
+                {
+                    "Title": "Molecular diversity of the telson and venom components from Pandinus cavimanus (Scorpionidae Latreille 1802) transcriptome, venomics and function.",
+                    "Pubmed ID": "22121013",
+                    "Reference": "Proteomics. 2012 Jan;12(2)313-328.",
+                    "Author": "Diego-GarcÃ­a E, Peigneur S, Clynen E, Marien T, Czech L, Schoofs L, Tytgat J.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=22121013"
+                }
+            ],
+            "Frequent Amino Acids": "LGA",
+            "Absent Amino Acids": "CDEHIOPQRTUVY",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 4,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_18453",
+                    "Similarity": 1.0,
+                    "Sequence": "YYGNGVYCTKNKCTVDWAKATTCIAGMSIGGFLGG"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_10671",
+                    "Similarity": 1.0,
+                    "Sequence": "SNLLRAIEAQQHLLQLTVWQIKQLQARILAVERYLKDQ"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_06735",
+                    "Similarity": 0.8,
+                    "Sequence": "MSNTLMFVITFIVLVTLFLGPKNVYAFQPCVTTADCMKTLKTDENIWYECINDFCIPFPIPKGRK"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_15032": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_15032",
+            "Peptide Name": "A8",
+            "Source": "Synthetic construct",
+            "Family": "Herpesviridae",
+            "Gene": "Not found",
+            "Sequence": "MAVGLVLCDWWLGEYLLEA",
+            "Sequence Length": 19,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antiviral"
+            ],
+            "Target Organism": "[Ref.19740994]human cytomegalovirus(HCMV):inhibition of virus replication in HeLa cells(70% inhibition).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "pUL84(nonconventional nuclear localization signal of the essential viral replication factor)",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C103H153N21O27S2",
+            "Mass": 2181.57,
+            "PI": 4.05,
+            "Net Charge": -3,
+            "Hydrophobicity": 1.11,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Mechanism of action": "The peptide specifically bind to UL84 protein and  utilized to inhibit HCMV replication.",
+            "Literature": [
+                {
+                    "Title": "Inhibition of human cytomegalovirus replication via peptide aptamers directed against the nonconventional nuclear localization signal of the essential viral replication factor pUL84.",
+                    "Pubmed ID": "19740994",
+                    "Reference": "J Virol. 2009 Nov;83(22)11902-13.",
+                    "Author": "Kaiser N, Lischka P, Wagenknecht N, Stamminger T.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=19740994"
+                }
+            ],
+            "Frequent Amino Acids": "LAE",
+            "Absent Amino Acids": "FHIKNOPQRSTU",
+            "Basic Residues": 0,
+            "Acidic Residues": 3,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 6,
+            "Positive Residues": 0,
+            "Negative Residues": 3,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_16982",
+                    "Similarity": 0.8,
+                    "Sequence": "GLLEALAELLEGLRKRLRKFRNKIKEK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_16983",
+                    "Similarity": 0.8,
+                    "Sequence": "GLLEALAELLEGRKKRRQRRRPPQ"
+                }
+            ]
+        }
+    }
+}

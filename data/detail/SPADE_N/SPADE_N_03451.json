@@ -1,0 +1,77 @@
+{
+    "SPADE_N_03451": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03451",
+            "Peptide Name": "Antimicrobial peptide Def1-1",
+            "Source": "Nasonia vitripennis (Parasitic wasp)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "VTCDLLSFGGVVGDSACAANCLSMGKAGGSCNGGICECRKTTFKELWDQRF",
+            "Sequence Length": 51,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/D0EZK4"
+            ],
+            "Protein Existence": "Predicted",
+            "Biological Activity": [
+                "Antimicrobial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C223H354N64O72S7",
+            "Mass": 5308.04,
+            "PI": 6.18,
+            "Net Charge": 0,
+            "Hydrophobicity": 0.13,
+            "Half Life": "Mammalian:100 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Identification and characterization of the parasitic wasp Nasonia defensins positive selection targeting the functional region?",
+                    "Pubmed ID": "20097222",
+                    "Reference": "Dev Comp Immunol. 2010 Jun;34(6)659-668.",
+                    "Author": "Gao B, Zhu S.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=20097222"
+                },
+                {
+                    "Title": "Identification and characterization of the parasitic wasp Nasonia defensins: positive selection targeting the functional region?",
+                    "Pubmed ID": "R2010J0630",
+                    "Author": "Zhu S.,Gao B."
+                }
+            ],
+            "Frequent Amino Acids": "GCA",
+            "Absent Amino Acids": "HOPUY",
+            "Basic Residues": 5,
+            "Acidic Residues": 5,
+            "Hydrophobic Residues": 17,
+            "Polar Residues": 28,
+            "Positive Residues": 5,
+            "Negative Residues": 5,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07630",
+                    "Similarity": 1.0,
+                    "Sequence": "SFGGVVGDSACAANCLSMGKAGGSCNGGICECR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02639",
+                    "Similarity": 0.9019607843137255,
+                    "Sequence": "VTCELLMFGGVVGDSACAANCLSMGKAGGSCNGGLCDCRKTTFKELWDKRFG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07629",
+                    "Similarity": 0.8484848484848485,
+                    "Sequence": "SFGGKVGHSACAANCLSMGKAGGRCNGGVCQCR"
+                }
+            ]
+        }
+    }
+}

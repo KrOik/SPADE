@@ -1,0 +1,72 @@
+{
+    "SPADE_UN_15853": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_15853",
+            "Peptide Name": "B1CTcu5H",
+            "Source": "Synthetic",
+            "Family": "",
+            "Gene": "Not found",
+            "Sequence": "HIAGLAANFLPQILCKIARKC",
+            "Sequence Length": 21,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/E3SYG2##D2K8D1##C3RTH8"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Target Organism": "Tumor cells:A431 (50% Cytotoxicity>100 µg/ml)",
+            "Hemolytic Activity": "Human erythrocytes:30.4% Hemolysis=200 µg/ml",
+            "Cytotoxicity": "HEK293:50%Cytotoxicity>100 µg/ml; PBMC:50%Cytotoxicity=90±2.56 µg/ml",
+            "Binding Target": "Not available",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C103H174N30O24S2",
+            "Mass": 2280.8,
+            "PI": 9.5,
+            "Net Charge": 4,
+            "Hydrophobicity": 0.73,
+            "Half Life": "Mammalian:3.5 hourYeast:10 minE.coli:>10 hour",
+            "Literature": [
+                {
+                    "Title": "Structure-Activity Relationship and Mode of Action of a Frog Secreted Antibacterial Peptide B1CTcu5 Using Synthetically and Modularly Modified or Deleted (SMMD) Peptides",
+                    "Pubmed ID": "25997127",
+                    "Reference": "PLoS One. 2015 May 21;10(5)e0124210.",
+                    "Author": "Abraham P, Sundaram A, R A, V R, George S, Kumar KS.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=25997127"
+                }
+            ],
+            "Frequent Amino Acids": "AIL",
+            "Absent Amino Acids": "DEMOSTUVWY",
+            "Basic Residues": 4,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 12,
+            "Positive Residues": 4,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01469",
+                    "Similarity": 1.0,
+                    "Sequence": "GLFDIVKKIAGHIA"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_21314",
+                    "Similarity": 1.0,
+                    "Sequence": "IAGLAANFLPQILCKIARKC"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_21319",
+                    "Similarity": 1.0,
+                    "Sequence": "IAGLAANFLPQILCKIARK"
+                }
+            ]
+        }
+    }
+}

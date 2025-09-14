@@ -1,0 +1,72 @@
+{
+    "SPADE_N_05591": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_05591",
+            "Peptide Name": "Bovicin 255(Bacteriocin)",
+            "Source": "Streptococcus bovis",
+            "Family": "Belongs to the class II bacteriocin",
+            "Gene": "Not found",
+            "Sequence": "NGEWGYVVTKGAFQATTDVIANGWVSSLGGGYFGKP",
+            "Sequence Length": 36,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+"
+            ],
+            "Target Organism": "Gram-positive",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "The prepeptide shares homology with the nonlantibiotic bacteriocins lactococcin A of Lactobacillus lactis (identities, 29%; positives, 48%) and thermophilin A of Streptococcus thermophilus (identities, 35%; positives, 42%). However, the homology with thermophilin A seems to reside primarily in the leader sequence (identities, 65%; positives, 73%), whereas homology with lactococcin A is distributed along the length of the prepeptide.",
+            "Formula": "C172H249N43O51",
+            "Mass": 3735.07,
+            "PI": 6.07,
+            "Net Charge": 0,
+            "Hydrophobicity": -0.06,
+            "Half Life": "Mammalian:1.4 hourYeast:3 minE.coli:>10 hour",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Identification of bacteriocin-like inhibitors from rumen Streptococcus spp. and isolation and characterization of bovicin 255.",
+                    "Pubmed ID": "11157218",
+                    "Reference": "Appl Environ Microbiol. 2001 Feb;67(2)569-74.",
+                    "Author": "Whitford MF, McPherson MA, Forster RJ, Teather RM.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=11157218"
+                }
+            ],
+            "Frequent Amino Acids": "GVA",
+            "Absent Amino Acids": "CHMORU",
+            "Basic Residues": 2,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 16,
+            "Polar Residues": 19,
+            "Positive Residues": 2,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_13719",
+                    "Similarity": 0.75,
+                    "Sequence": "AKGVCKYVYPGSNGYACRYPNGEWGYIVTKSNFEATKDVIVNGWVSSLLGGGYFHGNRG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03322",
+                    "Similarity": 0.5,
+                    "Sequence": "QWGYGGPYGGYGGGYGGGPWGYGGGWRRRHWGGYGGGPWGGYGGGPWGGYY"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07801",
+                    "Similarity": 0.5,
+                    "Sequence": "QWGYGGPYGGYGGGYGGGPWGYGGGWRRRHWGGYGGGPWGGYGGGPWGGYYGK"
+                }
+            ]
+        }
+    }
+}

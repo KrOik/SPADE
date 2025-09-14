@@ -1,0 +1,60 @@
+{
+    "SPADE_N_15558": {
+        "Sequence Information": {
+            "Peptide Name": "PFQa",
+            "Sequence": "FLGALLGPLMNLLQ",
+            "Sequence Length": 14,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "1. Silurana  epitropicalis",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Host-defense peptides in skin secretions of the tetraploid frog Silurana epitropicalis with potent activity against methicillin-resistant Staphylococcus aureus (MRSA).",
+                    "Pubmed ID": "22800690",
+                    "Reference": "Peptides. 2012;37:113-119",
+                    "Author": "Conlon JM, Mechkarska M, Prajeep M, Sonnevend A, Coquet L, Leprince J, Jouenne T, Vaudry H, King JD",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/22800690"
+                }
+            ],
+            "Mass": 1499.86,
+            "PI": 5.53,
+            "Net Charge": 0,
+            "Hydrophobicity": 1.42,
+            "Frequent Amino Acids": "LGA",
+            "Absent Amino Acids": "CDEHIKORSTUVWY",
+            "Basic Residues": 0,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 5,
+            "Positive Residues": 0,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_N_15558",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_13818",
+                    "Similarity": 1.0,
+                    "Sequence": "KRVNWRKVGRNTALGASYVLSFLG"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_25163",
+                    "Similarity": 0.9285714285714286,
+                    "Sequence": "GGHYLGALLGPLMNLLQ"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_10115",
+                    "Similarity": 0.8333333333333334,
+                    "Sequence": "LSNLLQISNNSDEWLEALEIEHEKWKLTQWQSYEQF"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=105 µM",
+            "Target Organism": "Escherichia coli ATCC 25726(MIC=>160µM),Staphylococcus aureus ATCC 25923(MIC=>160µM)"
+        }
+    }
+}

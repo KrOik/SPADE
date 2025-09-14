@@ -1,0 +1,55 @@
+{
+    "SPADE_UN_21372": {
+        "Sequence Information": {
+            "Peptide Name": "Citropin-1.1 [G1NAla, F3W, K7R]",
+            "Sequence": "XLWDVIRKVASVIGGL",
+            "Sequence Length": 16,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P81835",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P81835",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Understanding interactions of Citropin 1.1 analogues with model membranes and their influence on biological activity.",
+                    "Pubmed ID": "31336137",
+                    "Reference": "Peptides. 2019;119:170119",
+                    "Author": "Rodrigues de Almeida N, Catazaro J, Krishnaiah M, Singh Chhonker Y, Murry DJ, Powers R, Conda-Sheridan M",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/31336137"
+                }
+            ],
+            "SPADE ID": "SPADE_UN_21372",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_09446",
+                    "Similarity": 1.0,
+                    "Sequence": "KVASVIGGL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_27823",
+                    "Similarity": 1.0,
+                    "Sequence": "KVASVIGGL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_21368",
+                    "Similarity": 0.9333333333333333,
+                    "Sequence": "GLWDVIKKVASVIGGL"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=>32 µg/ml,Human embryonic kidney HEK293 cells:IC50=30.90 µg/ml",
+            "Target Organism": "Staphylococcus aureus ATCC 43300(MIC=8µg/ml),Escherichia coli ATCC 25922(MIC=16µg/ml),Pseudomonas aeruginosa ATCC 27853(MIC=>32µg/ml),Klebsiella pneumoniae ATCC 700603(MIC=32µg/ml),Acinetobacter baumannii ATCC 19606(MIC=4µg/ml),Candida albicans ATCC 90028(MIC=32µg/ml),Cryptococcus neoformans var. grubii H99(MIC=16µg/ml)"
+        }
+    }
+}

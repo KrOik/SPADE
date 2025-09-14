@@ -1,0 +1,75 @@
+{
+    "SPADE_UN_25889": {
+        "Sequence Information": {
+            "Peptide Name": "LL-37 KR-8 [I3W,V4W,R6W,I7W], W542",
+            "Sequence": "KRWWQWWK",
+            "Sequence Length": 8,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anticancer",
+                "Anti-Mammalian Cell",
+                "Antibiofilm"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P49913",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P49913",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Enhanced Antimicrobial Screening Sensitivity Enabled the Identification of an Ultrashort Peptide KR-8 for Engineering of LL-37mini to Combat Drug-Resistant Pathogens.",
+                    "Pubmed ID": "37812567",
+                    "Reference": "ACS Infect Dis. 2023;9:2215-2225",
+                    "Author": "Mechesso AF, Su Y, Xie J, Wang G",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/37812567"
+                },
+                {
+                    "Title": "Segment-Based Peptide Design Reveals the Importance of N-Terminal High Cationicity for Antimicrobial Activity Against Gram-Negative Pathogens",
+                    "Pubmed ID": "39377976",
+                    "Reference": "Probiotics Antimicrob Proteins. 2024;doi: 10.1007/s12602-024-10376-3:",
+                    "Author": "Mechesso AF, Zhang W, Su Y, Xie J, Wang G",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/39377976"
+                }
+            ],
+            "Mass": 1303.51,
+            "PI": 11.17,
+            "Net Charge": 3,
+            "Hydrophobicity": -2.42,
+            "Frequent Amino Acids": "WKQ",
+            "Absent Amino Acids": "ACDEFGHILMNOPSTUVY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 0,
+            "Polar Residues": 8,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_25889",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_13941",
+                    "Similarity": 1.0,
+                    "Sequence": "GHYCNFSVTPKFKRW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14187",
+                    "Similarity": 1.0,
+                    "Sequence": "AGTEKIFNRLKKTINEGKKIAKRWW"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_02273",
+                    "Similarity": 1.0,
+                    "Sequence": "RGFWMKRWW"
+                }
+            ],
+            "Hemolytic Activity": "Human keratinocytes HaCat:50% Cell death=>100 µM,Human erythrocytes:18% Hemolysis=400 µM,Human keratinocytes HaCat:25% Cytotoxicity=100 µM",
+            "Target Organism": "Staphylococcus aureus USA 300 LAC(MIC=8µM),Escherichia coli E423-17(MIC=4µM),Pseudomonas aeruginosa E411-17(MIC=8µM),Klebsiella pneumoniae E406-17(MIC=>32µM),Acinetobacter baumannii B28-16(MIC=32µM),Staphylococcus aureus USA 300 LAC(MIC=>32µM),Staphylococcus aureus USA 300 LAC(MIC=16µM),Pseudomonas aeruginosa E411-17(MIC=16µM),Pseudomonas aeruginosa E411-17(MIC=>32µM),Staphylococcus epidermidis 1457(MIC=16µM),Human hepatocellular carcinoma HepG2(50-60% Cytotoxicity=12-100µM),Human lung carcinoma A549(10-20% Cytotoxicity=100µM)"
+        }
+    }
+}

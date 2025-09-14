@@ -1,0 +1,79 @@
+{
+    "SPADE_UN_11653": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_11653",
+            "Peptide Name": "Pal-ano-5 (Pal-anoplin peptide derivative)",
+            "Source": "Synthetic construct",
+            "Family": "Derived from the peptide Pal-anoplin",
+            "Gene": "Not found",
+            "Sequence": "GLLKR",
+            "Sequence Length": 5,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "[Ref.29614317] Gram-positive bacteria:Staphylococcus aureus ATCC 25923 (MIC=3.25 μg/mL);Gram-negative bacteria:Escherichia coli ATCC 25922 (MIC=6.5 μg/mL);Fungi:Candida albicans ATCC 10231 (MIC=13 μg/mL).",
+            "Hemolytic Activity": "[Ref.29614317] HC50= 66.12μg/mL against human red blood cells",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Acylation (Gly1 conjugated with a palmitoyl group)",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C26H51N9O6",
+            "Mass": 585.74,
+            "PI": 11.0,
+            "Net Charge": 2,
+            "Hydrophobicity": -0.24,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Antibacterial activity against the Gram-positive and Gram-negative bacteria. Antifungal activity. The peptide is palmitoylated.",
+            "Literature": [
+                {
+                    "Title": "Effects of truncation of the peptide chain on the secondary structure and bioactivities of palmitoylated anoplin.",
+                    "Pubmed ID": "29614317",
+                    "Reference": "Peptides. 2018 Jun;1047-14.",
+                    "Author": "Salas RL, Garcia JKDL, Miranda ACR, Rivera WL, Nellas RB, Sabido PMG.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=29614317"
+                },
+                {
+                    "Title": "Structure-activity relationship study of anoplin",
+                    "Pubmed ID": "",
+                    "Author": "Ifrah D, Doisy X, Ryge TS, Hansen PR"
+                }
+            ],
+            "Frequent Amino Acids": "LGK",
+            "Absent Amino Acids": "ACDEFHIMNOPQSTUVWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 2,
+            "Polar Residues": 2,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01232",
+                    "Similarity": 1.0,
+                    "Sequence": "FLPIVGKLLSGLSGLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01235",
+                    "Similarity": 1.0,
+                    "Sequence": "FLPIVGKLLSGLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01237",
+                    "Similarity": 1.0,
+                    "Sequence": "LLPIVGKLLSGLL"
+                }
+            ]
+        }
+    }
+}

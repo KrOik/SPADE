@@ -1,0 +1,77 @@
+{
+    "SPADE_N_03250": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03250",
+            "Peptide Name": "Peptide Hp1090 (Non-disulfide-bridged peptide 5.9, NDBP-5.9; Arthropods, animals)",
+            "Source": "Heterometrus petersii (Asian forest scorpion)",
+            "Family": "Belongs to the scorpion NDBP 5 family",
+            "Gene": "Not found",
+            "Sequence": "IFKAIWSGIKSLF",
+            "Sequence Length": 13,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P0DJ02"
+            ],
+            "Protein Existence": "Transcript level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Antiviral"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Binding to HCV",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "CD spectroscopy analysis indicates that Hp1090 is an amphipathic α-helical peptide that prevents the initiation of HCV infection by directly interactingwith viral particles and rapidly permeabilizing their phospholipid membranes.",
+            "Formula": "C76H116N16O16",
+            "Mass": 1509.83,
+            "PI": 10.0,
+            "Net Charge": 2,
+            "Hydrophobicity": 1.08,
+            "Half Life": "Mammalian:20 hourYeast:30 minE.coli:>10 hour",
+            "Function": "The peptide showed antibacterial activity against both Gram-negative and Gram-positive bacteria.",
+            "Tissue specificity": "Expressed by the venom gland.",
+            "Miscellaneous": "This peptide has a significant inhibitory effect on hepatitis C virus (HCV) infection (IC50=7.62 µg/ml). Furthermore, this peptide potently inhibits HCV before viral entry into cells and kills HCV rapidly in vitro.",
+            "PTM": "C-terminal amidation (By similarity).",
+            "Literature": [
+                {
+                    "Title": "A new natural alpha-helical peptide from the venom of the scorpion Heterometrus petersii kills HCV.",
+                    "Pubmed ID": "20950663",
+                    "Reference": "Peptides. 2011 Jan;32(1)11-19.",
+                    "Author": "Yan R, Zhao Z, He Y, Wu L, Cai D, Hong W, Wu Y, Cao Z, Zheng C, Li W.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=20950663"
+                }
+            ],
+            "Frequent Amino Acids": "IFK",
+            "Absent Amino Acids": "CDEHMNOPQRTUVY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 5,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03609",
+                    "Similarity": 1.0,
+                    "Sequence": "KKSLLAKAKNFGGKVITIFKA"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_16001",
+                    "Similarity": 1.0,
+                    "Sequence": "ECIPTKHDCTNDRKNCCPGHECKCYNTQIGGSKKEQCGCKKSLLAKAKNFGGKVITIFKA"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_30761",
+                    "Similarity": 1.0,
+                    "Sequence": "KKSLLAKAKNFGGKVITIFKA"
+                }
+            ]
+        }
+    }
+}

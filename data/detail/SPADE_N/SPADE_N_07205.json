@@ -1,0 +1,72 @@
+{
+    "SPADE_N_07205": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_07205",
+            "Peptide Name": "kV25K mutant",
+            "Source": "Protein derived",
+            "Family": "",
+            "Gene": "Not found",
+            "Sequence": "GLPVCGETCVGGTCNTPGCTCSWPKCTRN",
+            "Sequence Length": 29,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Notavailable"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Target Organism": "Not available",
+            "Hemolytic Activity": "Not available",
+            "Cytotoxicity": "Not available",
+            "Binding Target": "Not available",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Alexa-488",
+            "C-terminal Modification": "Cyclization",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C118H190N36O40S6",
+            "Mass": 2945.38,
+            "PI": 7.78,
+            "Net Charge": 1,
+            "Hydrophobicity": -0.13,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Literature": [
+                {
+                    "Title": "Identification and characterization of a new family of cell-penetrating peptides cyclic cell-penetrating peptides.",
+                    "Pubmed ID": "21873420",
+                    "Reference": "J Biol Chem. 2011 Oct 21;286(42)36932-48.",
+                    "Author": "Cascales L, Henriques ST, Kerr MC, Huang YH, Sweet MJ, Daly NL, Craik DJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=21873420"
+                }
+            ],
+            "Frequent Amino Acids": "CGT",
+            "Absent Amino Acids": "ADFHIMOQUY",
+            "Basic Residues": 2,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 18,
+            "Positive Residues": 2,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_15750",
+                    "Similarity": 1.0,
+                    "Sequence": "PVCTRNGLPVCGETCVGGTCNTPGCTCSW"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_28360",
+                    "Similarity": 1.0,
+                    "Sequence": "GLPVCGETCVGGTCNTPGCTCSWPKCTRN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00798",
+                    "Similarity": 0.9655172413793104,
+                    "Sequence": "GLPVCGETCVGGTCNTPGCTCSWPVCTRN"
+                }
+            ]
+        }
+    }
+}

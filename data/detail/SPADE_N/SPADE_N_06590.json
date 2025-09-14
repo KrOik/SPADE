@@ -1,0 +1,56 @@
+{
+    "SPADE_N_06590": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "EP3733685A1",
+                "Patent Link": "http://www.lens.org/lens/patent/EP3733685A1",
+                "Patent Type": "Patent Application",
+                "Publication Date": "2020-11-4",
+                "Family Info": "EP3733685A4##KR102194025B1##KR20190072467A##US2021163535A1",
+                "Patent Title": "Peptides Binding to Cd44v6 and Use Thereof",
+                "Abstract": "The present invention relates to a peptide bound to CD44v6 and uses for inhibiting cancer metastasis using the same, and the peptide of the present invention specifically binds to CD44v6 and inhibits it, thereby inhibiting cancer cell migration and metastasis. The peptides of the present invention selected two peptides (v6Pep-1 and v6Pep-2) that bind well to cells with high expression of human CD44v6 protein using phage peptide display technology and it was confirmed that it interferes with the binding between c-Met and CD44v6 to inhibit cancer cell migration. The peptide of the present invention is relatively stable in serum and shows a high potential as an anticancer treatment agent that suppresses metastasis due to the progression and migration of cancer in the future."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_06590",
+            "Sequence": "CNLNTIDTC",
+            "Sequence Length": 9,
+            "Peptide Name": "v6Pep-1",
+            "Source": "Screen of phage display p",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Frequent Amino Acids": "CNT",
+            "Absent Amino Acids": "AEFGHKMOPQRSUVWY",
+            "Basic Residues": 0,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 2,
+            "Polar Residues": 6,
+            "Positive Residues": 0,
+            "Negative Residues": 1,
+            "Mass": 996.12,
+            "PI": 4.05,
+            "Net Charge": -1,
+            "Hydrophobicity": 0.16,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_05611",
+                    "Similarity": 1.0,
+                    "Sequence": "KCSWWNASCHLGNNGKICTVSHECAAGCNL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00527",
+                    "Similarity": 1.0,
+                    "Sequence": "DTCHEYLYPEKCENNQCNSECATKFKEVGVFGFCVPPRSEPTEQFCICSYNC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03726",
+                    "Similarity": 1.0,
+                    "Sequence": "DTCWKLKGICRNTCQKEEIYHIFCGIQSLCCLE"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "SPADE_UN_14414": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_14414",
+            "Peptide Name": "VVS",
+            "Source": "Synthetic construct",
+            "Family": "Coronaviridae",
+            "Gene": "Not found",
+            "Sequence": "VEEVSKKVEEVSKKVEEVSKKVEEVSKKVEEVSKKXX",
+            "Sequence Length": 37,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antiviral"
+            ],
+            "Target Organism": "[Ref.30192544]MERS-CoV:inhibition of cell-cell fusion between 293T / MERS / EGPF cells and Huh-7 cells(EC50>10 μM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "[Ref.30192544]Huh-7 cell:CC50=74.5±6.8 μM.",
+            "Binding Target": "membrane",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Acetylation",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C175H303N45O59",
+            "Mass": 4240.29,
+            "PI": 6.46,
+            "Net Charge": 0,
+            "Hydrophobicity": -0.973,
+            "Half Life": "Mammalian:100 hourYeast:>20 hourE.coli:>10 hour",
+            "Mechanism of action": "The peptide can interact with both MERS-CoV and IAV NHR trimeric coiled coils to prevent virus–cell membrane fusion.",
+            "Literature": [
+                {
+                    "Title": "De Novo Design of α-Helical Lipopeptides Targeting Viral Fusion Proteins A Promising Strategy for Relatively Broad-Spectrum Antiviral Drug Discovery.",
+                    "Pubmed ID": "30192544",
+                    "Reference": "J Med Chem. 2018 Oct 11;61(19)8734-8745.",
+                    "Author": "Wang C, Zhao L, Xia S, Zhang T, Cao R, Liang G, Li Y, Meng G, Wang W, Shi W, Zhong W, Jiang S, Liu K.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=30192544"
+                }
+            ],
+            "Frequent Amino Acids": "EKV",
+            "Absent Amino Acids": "ACDFGHILMNOPQRTUWY",
+            "Basic Residues": 10,
+            "Acidic Residues": 10,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 25,
+            "Positive Residues": 10,
+            "Negative Residues": 10,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_16262",
+                    "Similarity": 1.0,
+                    "Sequence": "VEEVSKKVEEVSKKVEEVSKKVEEVSKKVEEVSKKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_14413",
+                    "Similarity": 0.7142857142857143,
+                    "Sequence": "AEEASKKAEEASKKAEEASKKAEEASKKAEEASKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_14415",
+                    "Similarity": 0.7142857142857143,
+                    "Sequence": "FEEFSKKFEEFSKKFEEFSKKFEEFSKKFEEFSKK"
+                }
+            ]
+        }
+    }
+}

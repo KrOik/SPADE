@@ -1,0 +1,59 @@
+{
+    "SPADE_UN_21565": {
+        "Sequence Information": {
+            "Peptide Name": "An-interferon fragment L-H5-K [E3K,K5Y,N7L,H9K,T12F,N16K], P11",
+            "Sequence": "LYKRYILRKFKFLKKKLKKK",
+            "Sequence Length": 20,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Two optimized antimicrobial peptides with therapeutic potential for clinical antibiotic-resistant Staphylococcus aureus.",
+                    "Pubmed ID": "31520928",
+                    "Reference": "Eur J Med Chem. 2019;183:111686",
+                    "Author": "Li C, Zhu C, Ren B, Yin X, Shim SH, Gao Y, Zhu J, Zhao P, Liu C, Yu R, Xia X, Zhang L",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/31520928"
+                }
+            ],
+            "Mass": 2670.42,
+            "PI": 10.93,
+            "Net Charge": 11,
+            "Hydrophobicity": -1.07,
+            "Frequent Amino Acids": "KLF",
+            "Absent Amino Acids": "ACDEGHMNOPQSTUVW",
+            "Basic Residues": 11,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 13,
+            "Positive Residues": 11,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_21565",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_11789",
+                    "Similarity": 1.0,
+                    "Sequence": "KLKKKKFKLQ"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_15941",
+                    "Similarity": 1.0,
+                    "Sequence": "KLKKKFKLLQ"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_19350",
+                    "Similarity": 1.0,
+                    "Sequence": "KLKKKKFKLQ"
+                }
+            ],
+            "Hemolytic Activity": "Mouse erythrocytes:10% Hemolysis=>640 µg/ml,Human embryonic kidney HEK293T cells:25% Killing=640 µg/ml",
+            "Target Organism": "Staphylococcus aureus MR(MIC=64µg/ml)"
+        }
+    }
+}

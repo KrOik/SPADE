@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_12144": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_12144",
+            "Peptide Name": "peptide 4 (Derived from B1)",
+            "Source": "synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "GGGGKKK",
+            "Sequence Length": 7,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic form",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.30842436] Gram-positive bacteria:MRSP C22963(MIC=8µg/ml), MSSA ATCC 29213(MIC=16µg/ml);Gram-negative bacteria:Pseudomonas aeruginosa(MIC=32µg/ml)",
+            "Hemolytic Activity": "[Ref.30842436] EC10=54μM, 24% hemolysis at 150 µM against human red blood cells",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C26H50N10O8",
+            "Mass": 630.74,
+            "PI": 10.3,
+            "Net Charge": 3,
+            "Hydrophobicity": -1.9,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Antibacterial activity against Gram-positive bacteria and Gram-nagetive bacteria.",
+            "Literature": [
+                {
+                    "Title": "Characterization, mechanism of action and optimization of activity of a novel peptide-peptoid hybrid against bacterial pathogens involved in canine skin infections",
+                    "Pubmed ID": "30842436",
+                    "Reference": "Sci Rep. 2019; 9 3679. Published online 2019 Mar 6. doi 10.1038/s41598-019-39042-3",
+                    "Author": "Ines Greco, Agnete Plahn Emborg, Bimal Jana, Natalia Molchanova, Alberto Oddo, Peter Damborg, Luca Guardabassi, Paul R. Hansen",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=30842436"
+                }
+            ],
+            "Frequent Amino Acids": "GK",
+            "Absent Amino Acids": "ACDEFHILMNOPQRSTUVWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 0,
+            "Polar Residues": 3,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_01709",
+                    "Similarity": 1.0,
+                    "Sequence": "GGGG"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_01723",
+                    "Similarity": 1.0,
+                    "Sequence": "GGG"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_08118",
+                    "Similarity": 1.0,
+                    "Sequence": "GIGAVLKVLTTGLPALISWIGGGGGG"
+                }
+            ]
+        }
+    }
+}

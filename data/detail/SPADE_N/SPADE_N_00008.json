@@ -1,0 +1,76 @@
+{
+    "SPADE_N_00008": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00008",
+            "Peptide Name": "Plantaricin W alpha (Plw-alpha; Bacteriocin)",
+            "Source": "Lactobacillus plantarum (Gram-positive bacteria)",
+            "Family": "Belongs to the lantibiotic family (Class I bacteriocin)",
+            "Gene": "plWalpha",
+            "Sequence": "KCKWWNISCDLGNNGHVCTLSHECQVSCN",
+            "Sequence Length": 29,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q9AF67",
+                "http://www.uniprot.org/uniprot/D2KR94"
+            ],
+            "Protein Existence": "Predicted",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+"
+            ],
+            "Target Organism": "Gram-positive bacteria:Lactobacillus spp, Lactococcus lactis, Listeria innocua, Listeria monocytogenes, Oenococcus oeni, Leuconostoc mesenteroides, Pediococcus acidilactici, Pediococcus pentosaceus, Enterococcus faecalis, Propionibacterium freudenreichii, Staphylococcus aureus.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C136H208N42O43S5",
+            "Mass": 3279.69,
+            "PI": 6.88,
+            "Net Charge": 2,
+            "Hydrophobicity": -0.39,
+            "Half Life": "Mammalian:1.3 hourYeast:3 minE.coli:2 min",
+            "Function": "Plantaricin W (Plw) is a new two-peptide bacteriocin, from Lactobacillus plantarum, which inhibits a large number of Gram-positive bacteria. The two individual peptides, Plwalpha (comprising 29 residues) and Plwbeta (comprising 32 residues), had low antimicrobial activity but acted synergistically. The data indicate that the two peptides work in a 1",
+            "PTM": "Chemical analyses showed that both peptides are lantibiotics, but two unmodified cysteines and one serine residue were present in Plwa, and Plwb contained one cysteine residue.",
+            "Literature": [
+                {
+                    "Title": "Plantaricin W from Lactobacillus plantarum belongs to a new family of two-peptide lantibiotics.",
+                    "Pubmed ID": "11238971",
+                    "Reference": "Microbiology. 2001 Mar;147(Pt 3)643-651.",
+                    "Author": "Holo H, Jeknic Z, Daeschel M, Stevanovic S, Nes IF.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=11238971"
+                }
+            ],
+            "Frequent Amino Acids": "CNS",
+            "Absent Amino Acids": "AFMOPRUY",
+            "Basic Residues": 4,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 20,
+            "Positive Residues": 4,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06134",
+                    "Similarity": 1.0,
+                    "Sequence": "MKISKIEAQARKDFFKKIDTNSNLLNVNGAKCKWWNISCDLGNNGHVCTLSHECQVSCN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05611",
+                    "Similarity": 0.6896551724137931,
+                    "Sequence": "KCSWWNASCHLGNNGKICTVSHECAAGCNL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00016",
+                    "Similarity": 0.6428571428571429,
+                    "Sequence": "CAWYNISCRLGNKGAYCTLTVECMPSCN"
+                }
+            ]
+        }
+    }
+}

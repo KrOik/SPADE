@@ -1,0 +1,89 @@
+{
+    "SPADE_N_01710": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01710",
+            "Peptide Name": "Brevinin-1PLb (Frogs, amphibians, animals)",
+            "Source": "Rana palustris (Pickerel frog)",
+            "Family": "Belongs to the frog skin active peptide family (Brevinin subfamily)",
+            "Gene": "Not found",
+            "Sequence": "FLPLIAGLAANFLPKIFCAITKKC",
+            "Sequence Length": 24,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/A7WNV3"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "Gram-positive bacterium:Staphylococcus aureus (MIC=9 µM);Gram-negative bacterium:Escherichia coli(MIC=26 µM).Yeast:Candida albicans (MIC=6 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C125H202N28O27S2",
+            "Mass": 2593.24,
+            "PI": 9.39,
+            "Net Charge": 3,
+            "Hydrophobicity": 1.24,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Function": "Has antimicrobial activity.",
+            "Tissue specificity": "Expressed by the skin glands.",
+            "Literature": [
+                {
+                    "Title": "Rapid identification of precursor cDNAs encoding five structural classes of antimicrobial peptides from pickerel frog (Rana palustris) skin secretion by single step shotgun cloning.",
+                    "Pubmed ID": "17698247",
+                    "Reference": "Peptides. 2007 Aug;28(8)1605-1610.",
+                    "Author": "Zhou M, Wang L, Owens DE, Chen T, Walker B, Shaw C.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=17698247"
+                },
+                {
+                    "Title": "Multiple antimicrobial peptides and peptides related to bradykinin and neuromedin N isolated from skin secretions of the pickerel frog, Rana palustris.",
+                    "Pubmed ID": "11087945",
+                    "Reference": "Biochim Biophys Acta. 2000 Nov 30;1543(1)95-105.",
+                    "Author": "Basir YJ, Knoop FC, Dulka J, Conlon JM.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=11087945"
+                },
+                {
+                    "Title": "The Chinese bamboo leaf odorous frog (Rana (odorrana) versabilis) and north american rana frogs share the same families of skin antimicrobial peptides.",
+                    "Pubmed ID": "R2006J1370",
+                    "Author": "Shaw C.,Walker B.,Rao P.,Zhou M.,Chen T."
+                }
+            ],
+            "Frequent Amino Acids": "ALF",
+            "Absent Amino Acids": "DEHMOQRSUVWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 16,
+            "Polar Residues": 11,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_22645",
+                    "Similarity": 1.0,
+                    "Sequence": "FLPKIFCAITKKC"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_21322",
+                    "Similarity": 1.0,
+                    "Sequence": "LIAGLAANFL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_22643",
+                    "Similarity": 0.9583333333333334,
+                    "Sequence": "FLPLIAGLAAKFLPKIFCAITKKC"
+                }
+            ]
+        }
+    }
+}

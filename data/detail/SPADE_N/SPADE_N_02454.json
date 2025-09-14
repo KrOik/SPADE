@@ -1,0 +1,74 @@
+{
+    "SPADE_N_02454": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02454",
+            "Peptide Name": "CP10A (Indolicidin peptide derivative; mammals, animals)",
+            "Source": "Bos taurus (Bovine)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "ILAWKWAWWAWRR",
+            "Sequence Length": 13,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P33046"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+"
+            ],
+            "Target Organism": "Gram-positive bacteria:Staphylococcus aureus ATCC 25923 (MIC=4 µg/ml), S. aureus SAP0017 MRSA (MIC=4 µg/ml), Staphylococcus haemolyticus Clinical isolate (MIC=2 µg/ml), S. haemolyticus Vancomycin-resistant isolate (MIC=1 µg/ml), Staphylococcus epidermidis Clinical isolate (MIC=2 µg/ml), Enterococcus faecalis ATCC 29212 (MIC=8 µg/ml), Listeria monocytogenes NCTC 7973 (MIC=1 µg/ml), Streptococcus pyogenes ATCC 19615 (MIC=1 µg/ml), Corynebacterium xerosis Lab strain (MIC=1 µg/ml).(Ref.2)",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "The structure of CP10A in DPC micelles determined from NMR data is mainly a-helical with elements of 310 helical geometry.",
+            "Formula": "C94H125N25O14",
+            "Mass": 1829.16,
+            "PI": 12.0,
+            "Net Charge": 3,
+            "Hydrophobicity": -0.28,
+            "Half Life": "Mammalian:20 hourYeast:30 minE.coli:>10 hour",
+            "Function": "A derivative of indolicidin, CP10A, has alanine residues substituted for proline residues and has improved activity against Gram-positive organisms.",
+            "Literature": [
+                {
+                    "Title": "Salt-resistant alpha-helical cationic antimicrobial peptides.",
+                    "Pubmed ID": "11294848",
+                    "Reference": "Antimicrob. Agents Chemother. 1999,431542-1548.",
+                    "Author": "Friedrich, C, M. G. Scott, N. Karunaratne, H. Yan, and R. E. Hancock.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=11294848"
+                }
+            ],
+            "Frequent Amino Acids": "WAR",
+            "Absent Amino Acids": "CDEFGHMNOPQSTUVY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 6,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_18549",
+                    "Similarity": 1.0,
+                    "Sequence": "ILAWKWAWWAWR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_25161",
+                    "Similarity": 1.0,
+                    "Sequence": "GILAWKWAWWAWRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_28112",
+                    "Similarity": 1.0,
+                    "Sequence": "ILAWKWAWWAWRR"
+                }
+            ]
+        }
+    }
+}

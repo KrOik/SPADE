@@ -1,0 +1,74 @@
+{
+    "SPADE_N_02748": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02748",
+            "Peptide Name": "WAP four-disulfide core domain protein 12 (mammals, animals)",
+            "Source": "Pongo abelii (Sumatran orangutan)",
+            "Family": "Not found",
+            "Gene": "WFDC12",
+            "Sequence": "VKKGIEKAGVCPADNVRCFKSDPPQCHTDQDCLGERKCCYLHCGFKCVIPVKELEEGGNKDEDVSRP",
+            "Sequence Length": 67,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/A4K2V4"
+            ],
+            "Protein Existence": "Homology",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C314H504N92O100S8",
+            "Mass": 7424.44,
+            "PI": 6.1,
+            "Net Charge": 1,
+            "Hydrophobicity": -0.69,
+            "Half Life": "Mammalian:100 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Antibacterial protein. Putative acid-stable proteinase inhibitor (By similarity).",
+            "Domain": "Contains 1 WAP domain",
+            "Literature": [
+                {
+                    "Title": "Comparative sequence analyses reveal rapid and divergent evolutionary changes of the WFDC locus in the primate lineage.",
+                    "Pubmed ID": "17267810",
+                    "Reference": "Genome Res. 2007 Mar;17(3)276-286.",
+                    "Author": "Hurle B, Swanson W; NISC Comparative Sequencing Program, Green ED.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=17267810"
+                }
+            ],
+            "Frequent Amino Acids": "CKD",
+            "Absent Amino Acids": "MOUW",
+            "Basic Residues": 13,
+            "Acidic Residues": 12,
+            "Hydrophobic Residues": 21,
+            "Polar Residues": 37,
+            "Positive Residues": 13,
+            "Negative Residues": 12,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02326",
+                    "Similarity": 0.9850746268656716,
+                    "Sequence": "VKEGIEKAGVCPADNVRCFKSDPPQCHTDQDCLGERKCCYLHCGFKCVIPVKELEEGGNKDEDVSRP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03146",
+                    "Similarity": 0.9850746268656716,
+                    "Sequence": "VKEGIEKAGVCPADNVRCFKSDPPQCHTDQDCLGERKCCYLHCGFKCVIPVKELEEGGNKDEDVSRPYPEPGWEAKCPGSSSTRCPQK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02295",
+                    "Similarity": 0.9701492537313433,
+                    "Sequence": "VKEDIEKAGVCPADNVRCFKSDPPQCHTDQDCLGERKCCYLHCGFKCVIPVKELEEGGNKDEDVSRPYPEPGWEAKCPGSSSTRCPQK"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,91 @@
+{
+    "SPADE_N_00194": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 2023/0416797 A1",
+                "Patent Link": "http://www.lens.org/lens/patent/US_2023_0416797_A1",
+                "Patent Type": "Patent Application",
+                "Publication Date": "2023-12-28",
+                "Family Info": "JP2023548477A,EP4243844A1,CN116685204A,WO2022104321A1",
+                "Patent Title": "MODULATING ANTIMICROBIAL PEPTIDE HALF-LIFE",
+                "Abstract": "Methods of modulating the half-life of an antimicrobial peptide are described. The method may include administering an antimicrobial peptide to an environment where the antimicrobial peptide remains active until a specified endpoint, and on or after the specified endpoint, digesting the antimicrobial peptide with a protease to thereby inactivate the antimicrobial peptide and modulate its half-life. Compositions and kits for modulating the half-life of an antimicrobial peptide are also described."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00194",
+            "Peptide Name": "Lichenin (Bacteriocin-like)",
+            "Source": "Bacillus licheniformis (Gram-positive bacteria)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "ISLEICXIFHDN",
+            "Sequence Length": 12,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P82907"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C58H88N14O17S",
+            "Mass": 1414.83,
+            "PI": 4.35,
+            "Net Charge": -1,
+            "Hydrophobicity": 0.675,
+            "Half Life": "Mammalian:20 hourYeast:30 minE.coli:>10 hour",
+            "Function": "Residue A7 is uncertain. Has antibacterial activity only against strictly anaerobic rumen bacteria.",
+            "Biophysicochemical properties": "pH dependence (Optimum pH is 6.8); Temperature dependence (Optimum temperature is 39 degrees Celsius).",
+            "Literature": [
+                {
+                    "Title": "Purification and characterization of a bacteriocin-like compound (Lichenin) produced anaerobically by Bacillus licheniformis isolated from water buffalo.",
+                    "Pubmed ID": "11576300",
+                    "Reference": "J Appl Microbiol. 2001 Oct;91(4)636-645.",
+                    "Author": "Pattnaik P, Kaushik JK, Grover S, Batish VK.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=11576300"
+                },
+                {
+                    "Title": "Effect of environmental factors on production of lichenin, a chromosomally encoded bacteriocin-like compound produced by Bacillus licheniformis 26L-10/3RA.",
+                    "Pubmed ID": "15881839",
+                    "Reference": "Microbiol Res. 2005;160(2)213-218.",
+                    "Author": "Pattnaik P, Grover S, Batish VK.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=15881839"
+                }
+            ],
+            "Frequent Amino Acids": "ICD",
+            "Absent Amino Acids": "AGKMOPQRTUVWY",
+            "Basic Residues": 1,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 4,
+            "Positive Residues": 1,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07713",
+                    "Similarity": 1.0,
+                    "Sequence": "ISLEICAIFHDN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15385",
+                    "Similarity": 1.0,
+                    "Sequence": "LVGISL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_12653",
+                    "Similarity": 1.0,
+                    "Sequence": "ILGTILKLLISL"
+                }
+            ]
+        }
+    }
+}

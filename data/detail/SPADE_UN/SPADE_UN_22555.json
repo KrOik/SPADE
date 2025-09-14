@@ -1,0 +1,67 @@
+{
+    "SPADE_UN_22555": {
+        "Sequence Information": {
+            "Peptide Name": "KL18",
+            "Sequence": "KLKLKLKLKLKLKLKLKL",
+            "Sequence Length": 18,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Phosphate-dependent aggregation of [KL]n peptides affects their membranolytic activity.",
+                    "Pubmed ID": "32704013",
+                    "Reference": "Sci Rep. 2020;10:12300",
+                    "Author": "Strandberg E, Schweigardt F, Wadhwani P, Bürck J, Reichert J, Cravo HLP, Burger L, Ulrich AS",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/32704013"
+                },
+                {
+                    "Title": "Membranolytic Mechanism of Amphiphilic Antimicrobial β-Stranded [KL]n Peptides",
+                    "Pubmed ID": "36140173",
+                    "Reference": "Biomedicines. 2022;10:2071",
+                    "Author": "Schweigardt F, Strandberg E, Wadhwani P, Reichert J, Bürck J, Cravo HLP, Burger L, Ulrich AS",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/36140173"
+                }
+            ],
+            "Mass": 2189.98,
+            "PI": 10.9,
+            "Net Charge": 9,
+            "Hydrophobicity": -0.05,
+            "Frequent Amino Acids": "KL",
+            "Absent Amino Acids": "ACDEFGHIMNOPQRSTUVWY",
+            "Basic Residues": 9,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 9,
+            "Positive Residues": 9,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_22555",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06547",
+                    "Similarity": 1.0,
+                    "Sequence": "LKLKLKLKLKLK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10571",
+                    "Similarity": 1.0,
+                    "Sequence": "KLKLVALHKQVL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10658",
+                    "Similarity": 1.0,
+                    "Sequence": "KLK"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:33% Hemolysis=1 µg/ml,Human erythrocytes:80% Hemolysis=2 µg/ml,Human erythrocytes:90-95% Hemolysis=4-16 µg/ml",
+            "Target Organism": "Escherichia coli DSM 1116(MIC=32µg/ml),Franconibacter helveticus DSM 18390(MIC=16µg/ml),Bacillus subtilis DSM 347(MIC=32µg/ml),Staphylococcus xylosus DSM 20267(MIC=8µg/ml)"
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_30196": {
+        "Sequence Information": {
+            "Peptide Name": "Lysozyme C (107-115)",
+            "Sequence": "RAWVAWRNR",
+            "Sequence Length": 9,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P61626",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P61626",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Enhanced antimicrobial activity of a peptide derived from human lysozyme by arylation of its tryptophan residues.",
+                    "Pubmed ID": "26785822",
+                    "Reference": "J Pept Sci. 2016;22:123-128",
+                    "Author": "González R, Mendive-Tapia L, Pastrian MB, Albericio F, Lavilla R, Cascone O, Iannucci NB",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/26785822"
+                },
+                {
+                    "Title": "Improved antimicrobial activity of h-lysozyme (107-115) by rational Ala substitution.",
+                    "Pubmed ID": "20582913",
+                    "Reference": "J Pept Sci. 2010;16:424-429",
+                    "Author": "González R, Albericio F, Cascone O, Iannucci NB",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/20582913"
+                }
+            ],
+            "Mass": 1214.38,
+            "PI": 12.0,
+            "Net Charge": 3,
+            "Hydrophobicity": -1.22,
+            "Frequent Amino Acids": "RAW",
+            "Absent Amino Acids": "CDEFGHIKLMOPQSTUY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 3,
+            "Polar Residues": 6,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_30196",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06493",
+                    "Similarity": 1.0,
+                    "Sequence": "RAWVAWR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_13536",
+                    "Similarity": 1.0,
+                    "Sequence": "KVFERCELARTLKRLGMDGYRGISLANWMCLAKWESGYNTRATNYNAGDRSTDYGIFQINSRYWCNDGKTPGAVNACHLSCSALLQDNIADAVACAKRVVRDPQGIRAWVAWRNRCQNRDVRQYVQGCGV"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14164",
+                    "Similarity": 1.0,
+                    "Sequence": "AGTEKIFQRLKKTIQEGKKIAKRAW"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:1% Hemolysis=15 µg/ml,Human erythrocytes:2% Hemolysis=50 µg/ml,Human erythrocytes:4% Hemolysis=125 µg/ml",
+            "Target Organism": "Staphylococcus aureus ATCC 29213(MIC=250µg/ml),Escherichia coli ATCC 25922(MIC=500µg/ml)"
+        }
+    }
+}

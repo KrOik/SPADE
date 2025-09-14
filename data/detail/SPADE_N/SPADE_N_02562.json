@@ -1,0 +1,86 @@
+{
+    "SPADE_N_02562": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 2004/0170642 A1",
+                "Patent Link": "http://www.lens.org/lens/patent/US_2004_0170642_A1",
+                "Patent Type": "Patent Application",
+                "Publication Date": "2004-9-2",
+                "Family Info": "CA2418854A1,EP1309345A2,US7658928,US20080166368,WO2002013857A2,WO2002013857A3,WO2002013857A8",
+                "Patent Title": "Vaccine which comprises at least one antigen and a cathelididin derived antimicrobial peptide of a derivative thereof.",
+                "Abstract": "Described is a vaccine which comprises at least one antigen and at least one cathelicidin derived antimicrobial peptide or a derivative thereof as well as the use of a cathelicidin derived antimicrobial peptide or a derivative thereof for the preparation of an adjuvant for enhancing the immune response to at least one antigen."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02562",
+            "Peptide Name": "Antibacterial peptide PMAP-37 (Myeloid antibacterial peptide 37; pigs, mammals, animals)",
+            "Source": "Sus scrofa (Pig)",
+            "Family": "Belongs to the cathelicidin family",
+            "Gene": "PMAP37",
+            "Sequence": "GLLSRLRDFLSDRGRRLGEKIERIGQKIKDLSEFFQS",
+            "Sequence Length": 37,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P49932"
+            ],
+            "Protein Existence": "Transcript level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-negative bacteria:Escherichia coli ML35 (MIC=2 µM), Escherichia coli ATCC 25922 (MIC=1 µM), Escherichia coli D21 (MIC=2 µM), Salmonella typhimurium ATCC 14028 (MIC=4 µM), Pseudomonas aeruginosa ATCC 27853 (MIC=2 µM).Gram-positive bacteria:Bacillus megaterium Bm11 (MIC=4 µM), Bacillus megaterium local isolate (IC=4 µM), Staphylococcus aureus ATCC 25923 (MIC=32 µM), Staphylococcus aureus Cowan 1 (MIC=64 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Cell membrane",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C192H320N60O56",
+            "Mass": 4364.96,
+            "PI": 10.24,
+            "Net Charge": 3,
+            "Hydrophobicity": -0.72,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Exerts antimicrobial activity against both Gram-positive and negative bacteria with minimal inhibitory concentrations ranging over 1-4 micro molar. Its activity appears to be mediated by its ability to damage bacterial membranes.",
+            "PTM": "Contains two disulfide bonds (By similarity).",
+            "Literature": [
+                {
+                    "Title": "PMAP-37, a novel antibacterial peptide from pig myeloid cells. cDNA cloning, chemical synthesis and activity.",
+                    "Pubmed ID": "7737198",
+                    "Reference": "Eur J Biochem. 1995 Mar 15;228(3)941-946.",
+                    "Author": "Tossi A, Scocchi M, Zanetti M, Storici P, Gennaro R.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=7737198"
+                }
+            ],
+            "Frequent Amino Acids": "LRG",
+            "Absent Amino Acids": "ACHMNOPTUVWY",
+            "Basic Residues": 9,
+            "Acidic Residues": 6,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 15,
+            "Positive Residues": 9,
+            "Negative Residues": 6,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_14054",
+                    "Similarity": 0.972972972972973,
+                    "Sequence": "GLLSRLRDRLSDRGRRLGEKIERIGQKIKDLSEFFQS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14055",
+                    "Similarity": 0.972972972972973,
+                    "Sequence": "GLLSRLRDFLSDRGRRLGEKIERIGQKIKDLSERFQS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14057",
+                    "Similarity": 0.972972972972973,
+                    "Sequence": "GLLSRLRDFLSDIGRRLGEKIERIGQKIKDLSEFFQS"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "SPADE_N_06410": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_06410",
+            "Peptide Name": "BmKn-22",
+            "Source": "Scorpion venom",
+            "Family": "",
+            "Gene": "Not found",
+            "Sequence": "FIGAIARLLSK",
+            "Sequence Length": 11,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Notavailable"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Target Organism": "Tumor cells:HSC-4 (IC50=97 μg/mL)",
+            "Hemolytic Activity": "Not available",
+            "Cytotoxicity": "Not available",
+            "Binding Target": "Not available",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C56H97N15O13",
+            "Mass": 1188.46,
+            "PI": 11.0,
+            "Net Charge": 2,
+            "Hydrophobicity": 1.22,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Comments": "BmKn-2 exerts selective cytotoxic effects on human oral cancer cells by inducting apoptosis via a p53-dependent intrinsic apoptotic pathway. BmKn-2 peptide originally derived from a natural source shows great promise as a candidate treatment for oral cancer",
+            "Literature": [
+                {
+                    "Title": "The scorpion venom peptide BmKn2 induces apoptosis in cancerous but not in normal human oral cells",
+                    "Pubmed ID": "27780132",
+                    "Reference": "Biomed Pharmacother. 2016 Dec;841042-1050.",
+                    "Author": "Satitmanwiwat S, Changsangfa C, Khanuengthong A, Promthep K, Roytrakul S, Arpornsuwan T, Saikhun K, Sritanaudomchai H.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=27780132"
+                }
+            ],
+            "Frequent Amino Acids": "AIL",
+            "Absent Amino Acids": "CDEHMNOPQTUVWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 5,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03284",
+                    "Similarity": 1.0,
+                    "Sequence": "FIGAIARLLSKIF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14357",
+                    "Similarity": 1.0,
+                    "Sequence": "FIGAIARLLSKI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14358",
+                    "Similarity": 1.0,
+                    "Sequence": "FIGAIARLLS"
+                }
+            ]
+        }
+    }
+}

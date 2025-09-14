@@ -1,0 +1,72 @@
+{
+    "SPADE_UN_15291": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_15291",
+            "Peptide Name": "PTP1",
+            "Source": "Synthetic",
+            "Family": "",
+            "Gene": "Not found",
+            "Sequence": "LLAGLAANFLPTIICKISYKC",
+            "Sequence Length": 21,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Notavailable"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Target Organism": "Tumor cells:A549 (IC50>100 µg/ml); Hep 3B (IC50>100 µg/ml); MCF-7 (IC50>100 µg/ml); PC-3 (IC50>100 µg/ml)",
+            "Hemolytic Activity": "Human RBCs:less than 6% hemolysis at 100 μg/ml",
+            "Cytotoxicity": "HEK293:IC50>100 µg/ml",
+            "Binding Target": "Not available",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C105H174N24O26S2",
+            "Mass": 2252.78,
+            "PI": 8.86,
+            "Net Charge": 2,
+            "Hydrophobicity": 1.23,
+            "Half Life": "Mammalian:5.5 hourYeast:3 minE.coli:2 min",
+            "Literature": [
+                {
+                    "Title": "In vitro activities of native and designed peptide antibiotics against drug sensitive and resistant tumor cell lines",
+                    "Pubmed ID": "14499271",
+                    "Reference": "Peptides. 2003 Jul;24(7)945-53.",
+                    "Author": "Kim S, Kim SS, Bang YJ, Kim SJ, Lee BJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=14499271"
+                }
+            ],
+            "Frequent Amino Acids": "LAI",
+            "Absent Amino Acids": "DEHMOQRUVW",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 11,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02026",
+                    "Similarity": 1.0,
+                    "Sequence": "FLPLLAGLAANFLPTIICKISYKC"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_26778",
+                    "Similarity": 1.0,
+                    "Sequence": "ISYKCQCHEAY"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_15292",
+                    "Similarity": 0.95,
+                    "Sequence": "FAGLAANFLPTIICKISYKC"
+                }
+            ]
+        }
+    }
+}

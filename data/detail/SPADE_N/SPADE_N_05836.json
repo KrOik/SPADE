@@ -1,0 +1,84 @@
+{
+    "SPADE_N_05836": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_05836",
+            "Peptide Name": "Turkey Heterophil Peptide 2 (THP-2; avian beta-defensin, birds, animals)",
+            "Source": "Meleagris gallopavo (Wild turkey)",
+            "Family": "Belongs to the beta-defensin family.",
+            "Gene": "Not found",
+            "Sequence": "LFCKRGTCHFGRCPSHLIKV",
+            "Sequence Length": 20,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P80392"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "",
+            "Mass": 2302.79,
+            "PI": 9.62,
+            "Net Charge": 6,
+            "Hydrophobicity": 0.11,
+            "Half Life": "Mammalian:Yeast:E.coli:",
+            "Function": "Antibacterial activity against the Gram-positive bacterium Staphylococcus aureus. Lacks antibacterial activity against the Gram-negative bacterium Escherichia coli K-12.",
+            "Tissue specificity": "Expressed in circulating heterophil granulocytes and bone marrow (at protein level).",
+            "Literature": [
+                {
+                    "Title": "Isolation of antimicrobial peptides from avian heterophils.",
+                    "Pubmed ID": "7964174",
+                    "Reference": "J. Leukoc. Biol. 1994 Nov; 56 661-665.",
+                    "Author": "Evans EW, Beach GG, Wunderlich J, Harmon BG.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=7964174"
+                },
+                {
+                    "Title": "Characterization of beta-defensin prepropeptide mRNA from chicken and turkey bone marrow.",
+                    "Pubmed ID": "",
+                    "Author": "Jackwood M.W.,Harmon B.G.,Brockus C.W."
+                },
+                {
+                    "Title": "Direct screening identifies mature beta-defensin 2 in avian heterophils.",
+                    "Pubmed ID": "R2009J0463",
+                    "Author": "Lay J.O. Jr.,Liyanage R.,Rath N.C.,Kannan L."
+                }
+            ],
+            "Frequent Amino Acids": "CFG",
+            "Absent Amino Acids": "ADEMNOQUWY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 12,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02849",
+                    "Similarity": 1.0,
+                    "Sequence": "LFCKRGTCHFGRCPSHLIKVGSCFGFRSCCKWPWDA"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08034",
+                    "Similarity": 1.0,
+                    "Sequence": "MRILYLLFSLLFLALQVSPGLSSPKRDMLFCKRGTCHFGRCPSHLIKVGSCFGFRSCCKWPWDA"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02847",
+                    "Similarity": 0.9,
+                    "Sequence": "LSCKRGTCHFGRCPSHLIKGSCSGG"
+                }
+            ]
+        }
+    }
+}

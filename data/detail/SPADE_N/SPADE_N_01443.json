@@ -1,0 +1,79 @@
+{
+    "SPADE_N_01443": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01443",
+            "Peptide Name": "Caerin-2.5 (Frogs, amphibians, animals)",
+            "Source": "Litoria gilleni (Centralian tree frog)",
+            "Family": "Belongs to the frog skin active peptide family (Caerin subfamily)",
+            "Gene": "Not found",
+            "Sequence": "GLVASIGRALGGLLADVVKSKEQPA",
+            "Sequence Length": 25,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P56237"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C108H189N31O33",
+            "Mass": 2449.84,
+            "PI": 8.59,
+            "Net Charge": 1,
+            "Hydrophobicity": 0.48,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Antimicrobial peptide, that adopts an alpha helical conformation which can disrupt bacterial membranes. Each caerin displays a different antimicrobial specificity.",
+            "Tissue specificity": "Expressed by the skin parotoid and/or rostral glands.",
+            "Literature": [
+                {
+                    "Title": "Peptides from Australian frogs. The structures of the caerins from Litoria caerula.",
+                    "Pubmed ID": "PubMed ID is not available",
+                    "Reference": "J. Chem. Res. 1993; 138 910-936.",
+                    "Author": "Stone DJM, Waugh RJ, Bowie JH, Wallace JC, Tyler MJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=PubMed ID is not available"
+                },
+                {
+                    "Title": "Peptides from Australian frogs. The structures of the caerins and caeridins from Litoria gilleni.",
+                    "Pubmed ID": "",
+                    "Author": "Tyler M.J.,Wallace J.C.,Bowie J.H.,Stone D.J.M.,Waugh R.J."
+                }
+            ],
+            "Frequent Amino Acids": "AGL",
+            "Absent Amino Acids": "CFHMNOTUWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 13,
+            "Positive Residues": 3,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01441",
+                    "Similarity": 1.0,
+                    "Sequence": "ALGGLLADVVKSKEQPA"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01440",
+                    "Similarity": 0.96,
+                    "Sequence": "GLVSSIGRALGGLLADVVKSKEQPA"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01439",
+                    "Similarity": 0.92,
+                    "Sequence": "GLVSSIGRALGGLLADVVKSKGQPA"
+                }
+            ]
+        }
+    }
+}

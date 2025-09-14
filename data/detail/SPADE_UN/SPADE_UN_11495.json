@@ -1,0 +1,74 @@
+{
+    "SPADE_UN_11495": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_11495",
+            "Peptide Name": "TWF (Tritrpticin peptide derivative)",
+            "Source": "Synthetic construct",
+            "Family": "Derived from the peptide Tritrpticin",
+            "Gene": "Not found",
+            "Sequence": "VRRFPFFFPFLRR",
+            "Sequence Length": 13,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anitifungal"
+            ],
+            "Target Organism": "[Ref.12207877]Gram-positive bacteria:Bacillus subtilis (MIC=8 μg/ml), Staphylococcus aureus (MIC=16 μg/ml), Staphylococcus epidermidis (MIC=8 μg/ml);Gram-negative bacteria:Escherichia coli (MIC=8 μg/ml), Salmonella typhimurium (MIC=8 μg/ml), Pseudomonas aeruginosa (MIC=16 μg/ml);Fungus:Candida albicans (MIC=16 μg/ml).",
+            "Hemolytic Activity": "[Ref.12207877]Non-hemolysis at 200 μg/ml against human red blood cells",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C90H129N25O14",
+            "Mass": 1785.15,
+            "PI": 12.0,
+            "Net Charge": 4,
+            "Hydrophobicity": 0.06,
+            "Half Life": "Mammalian:100 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Antimicrobial activity against Gram-positive bacteria, Gram-negative bacteria and fungi. No hemolytic activity.",
+            "Literature": [
+                {
+                    "Title": "Conformation-dependent antibiotic activity of tritrpticin, a cathelicidin-derived antimicrobial peptide.",
+                    "Pubmed ID": "12207877",
+                    "Reference": "Biochem Biophys Res Commun. 2002 Sep 6;296(5)1044-50.",
+                    "Author": "Yang ST, Yub Shin SY, Kim YC, Kim Y, Hahm KS, Kim JI.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=12207877"
+                }
+            ],
+            "Frequent Amino Acids": "FRP",
+            "Absent Amino Acids": "ACDEGHIKMNOQSTUWY",
+            "Basic Residues": 4,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 5,
+            "Positive Residues": 4,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06501",
+                    "Similarity": 1.0,
+                    "Sequence": "VRRFPPFLRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09256",
+                    "Similarity": 1.0,
+                    "Sequence": "GVRCVRRGVRCVRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09258",
+                    "Similarity": 1.0,
+                    "Sequence": "GVRVRRGVRVRR"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_28988": {
+        "Sequence Information": {
+            "Peptide Name": "Dermaseptin S4 (1-13)",
+            "Sequence": "ALWMTLLKKVLKA",
+            "Sequence Length": 13,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P80280",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P80280",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Physicochemical properties that enhance discriminative antibacterial activity of short dermaseptin derivatives.",
+                    "Pubmed ID": "16870756",
+                    "Reference": "Antimicrob Agents Chemother. 2006;50:2666-2672",
+                    "Author": "Rotem S, Radzishevsky I, Mor A",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/16870756"
+                }
+            ],
+            "Mass": 1514.96,
+            "PI": 10.3,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.89,
+            "Frequent Amino Acids": "LKA",
+            "Absent Amino Acids": "CDEFGHINOPQRSUY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 5,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_28988",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01512",
+                    "Similarity": 1.0,
+                    "Sequence": "ALWMTLLKKVLKAAAKALNAVLVGANA"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05740",
+                    "Similarity": 1.0,
+                    "Sequence": "ALWMTLLKKVLKAAAKAALNAVLVGANA"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_12397",
+                    "Similarity": 1.0,
+                    "Sequence": "ALWMTLLKKVLKAKAKALNAVLVGANA"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=20±2 µM",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=25±0µM),Staphylococcus aureus ATCC 25923(MIC=6±0µM)"
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_28718": {
+        "Sequence Information": {
+            "Peptide Name": "Beta-defensin 14 (1-23) [C11,18,23]",
+            "Sequence": "FLPKTLRKFFARIRGGRAAVLNA",
+            "Sequence Length": 23,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "Q7TNV9",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/Q7TNV9",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Analysis and separation of residues important for the chemoattractant and antimicrobial activities of beta-defensin 3.",
+                    "Pubmed ID": "18180295",
+                    "Reference": "J Biol Chem. 2008;283:6631-6639",
+                    "Author": "Taylor K, Clarke DJ, McCullough B, Chin W, Seo E, Yang D, Oppenheim J, Uhrin D, Govan JR, Campopiano DJ, Macmillan D, Barran P, Dorin JR",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/18180295"
+                },
+                {
+                    "Title": "Antimicrobial peptide-loaded liquid crystalline precursor bioadhesive system for the prevention of dental caries.",
+                    "Pubmed ID": "29872295",
+                    "Reference": "Int J Nanomedicine. 2018;13:3081-3091",
+                    "Author": "Aida KL, Kreling PF, Caiaffa KS, Calixto GMF, Chorilli M, Spolidorio DMP, Santos-Filho NA, Cilli EM, Duque C",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/29872295"
+                }
+            ],
+            "Mass": 2603.12,
+            "PI": 12.0,
+            "Net Charge": 6,
+            "Hydrophobicity": 0.14,
+            "Frequent Amino Acids": "ARF",
+            "Absent Amino Acids": "CDEHMOQSUWY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 11,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_28718",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_08368",
+                    "Similarity": 1.0,
+                    "Sequence": "FLPKTLRKFFARIRGGRAAVLNALGKEEQIGRASNSGRKCARKKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08630",
+                    "Similarity": 1.0,
+                    "Sequence": "FLPKTLRKFF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09882",
+                    "Similarity": 1.0,
+                    "Sequence": "FLPKTLRKFFARIRGGRAAVLNALGKEEQIGRASNSGRKAARKKK"
+                }
+            ],
+            "Hemolytic Activity": "Human keratinocytes HaCat:18% Killing=10 µg/ml,Human keratinocytes HaCat:>95% Killing=1000 µg/ml",
+            "Target Organism": "Pseudomonas aeruginosa PAO1(MBC=1.5µg/ml),Staphylococcus aureus ATCC 25923(MBC=3.13µg/ml),Streptococcus mutans UA159(MIC=15.60-31.25µg/ml),Streptococcus mutans UA159(MBC=31.25-62.5µg/ml)"
+        }
+    }
+}

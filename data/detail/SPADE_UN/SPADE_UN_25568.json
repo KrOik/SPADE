@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_25568": {
+        "Sequence Information": {
+            "Peptide Name": "",
+            "Sequence": "RWWRWF",
+            "Sequence Length": 6,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Identification of potent antimicrobial peptides via a machine-learning pipeline that mines the entire space of peptide sequences.",
+                    "Pubmed ID": "36635418",
+                    "Reference": "Nat Biomed Eng. 2023;:",
+                    "Author": "Huang J, Xu Y, Xue Y, Huang Y, Li X, Chen X, Zhang D, Zhang P, Zhao J, Ji J",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/36635418"
+                }
+            ],
+            "Mass": 1036.19,
+            "PI": 12.0,
+            "Net Charge": 2,
+            "Hydrophobicity": -1.48,
+            "Frequent Amino Acids": "WRF",
+            "Absent Amino Acids": "ACDEGHIKLMNOPQSTUVY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 1,
+            "Polar Residues": 5,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_25568",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_08959",
+                    "Similarity": 1.0,
+                    "Sequence": "WGRRGWGPGRRYWRRWW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11459",
+                    "Similarity": 1.0,
+                    "Sequence": "KWLRRVRWWR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11462",
+                    "Similarity": 1.0,
+                    "Sequence": "KRLRRVRWWR"
+                }
+            ],
+            "Hemolytic Activity": "Mouse fibroblasts NIH 3T3:IC50=314.2 µg/ml,Rabbit erythrocytes:50% Hemolysis=758.4 µg/ml",
+            "Target Organism": "Staphylococcus aureus ATCC 6538(MIC=8µg/ml),Staphylococcus aureus ATCC 43300(MIC=16µg/ml),Staphylococcus aureus(MIC=32µg/ml),Staphylococcus haemolyticus(MIC=8µg/ml),Pseudomonas aeruginosa(MIC=16µg/ml),Escherichia coli(MIC=64µg/ml),Acinetobacter baumannii(MIC=32µg/ml)"
+        }
+    }
+}

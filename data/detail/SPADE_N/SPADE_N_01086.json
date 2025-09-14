@@ -1,0 +1,92 @@
+{
+    "SPADE_N_01086": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 2020/0048303 A1",
+                "Patent Link": "http://www.lens.org/lens/patent/US_2020_0048303_A1",
+                "Patent Type": "Patent Application",
+                "Publication Date": "2020-2-13",
+                "Family Info": "WO2018165655A1",
+                "Patent Title": "Antimicrobial Peptides And Methods Of Making And Using Same",
+                "Abstract": "The present invention provides a new methodology combining MD simulations and database-guided high-throughput screening to rationally design pore forming membrane-active peptides. The present inventive methodology is able to allow tuning of a range of structural and functional properties such as pore size and selectively targeting membranes with specific lipid compositions. The present inventive methods will ultimately allow de novo design of membrane-active peptides for a wide range of biomedical applications, including for example, antimicrobial agents."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01086",
+            "Peptide Name": "Hylaseptin-P1 (HSP1)",
+            "Source": "Hyla punctata (Polka-dot tree frog) (Spotted tree frog)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "GILDAIKAIAKAAG",
+            "Sequence Length": 14,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P84292"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.14715660]Gram-positive bacterium:Staphylococcus aureus ATCC 25923 (MIC=6.1-8.0 µg/ml);Gram-negative bacteria:Pseudomonas aeruginosa ATCC 27853 (MIC=48.8-64.0 µg/ml), Escherichia coli ATCC 25922 (MIC=24.4-32.0 µg/ml).",
+            "Hemolytic Activity": "[Ref.14715660] HSP1 MIC concentration (256 μg/mL = 195.2 μM) produced 4.7% hemolysis against human erythrocytes.",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "[Ref.11297740] Free  /  [Ref.32828849] Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C59H106N16O17",
+            "Mass": 1311.57,
+            "PI": 8.59,
+            "Net Charge": 1,
+            "Hydrophobicity": 1.01,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Has antibacterial and antifungal activity. A weak hemolytic activity has been detected.",
+            "Literature": [
+                {
+                    "Title": "The NMR-derived solution structure of a new cationic antimicrobial peptide from the skin secretion of the anuran Hyla punctata.",
+                    "Pubmed ID": "14715660",
+                    "Reference": "J Biol Chem. 2004 Mar 26;279(13)13018-13026.",
+                    "Author": "Prates MV, Sfor§a ML, Regis WC, Leite JR, Silva LP, Pertinhez TA, Araºjo AL, Azevedo RB, Spisni A, Bloch C Jr.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=14715660"
+                },
+                {
+                    "Title": "Membrane interactions of the anuran antimicrobial peptide HSP1-NH 2 Different aspects of the association to anionic and zwitterionic biomimetic systems",
+                    "Pubmed ID": "32828849",
+                    "Reference": "Biochim Biophys Acta Biomembr\n. 2021 Jan 1;1863(1)183449. doi 10.1016/j.bbamem.2020.183449. Epub 2020 Aug 21.",
+                    "Author": "Isabela P Gomes 1, Talita L Santos 1, Amanda N de Souza 1, Lúcio O Nunes, Gabriele A Cardoso, Carolina O Matos, Lívia M F Costa, Luciano M Lião, Jarbas M Resende, Rodrigo M Verly",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=32828849"
+                }
+            ],
+            "Frequent Amino Acids": "AIG",
+            "Absent Amino Acids": "CEFHMNOPQRSTUVWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 7,
+            "Positive Residues": 2,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_05049",
+                    "Similarity": 1.0,
+                    "Sequence": "AAGIGILTV"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_07064",
+                    "Similarity": 1.0,
+                    "Sequence": "MNKTLKFVYVLILFISLSIVSKSVAQYNIGCKTDDDCQKYYTKMFGMKCFKSWCITGILD"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_07516",
+                    "Similarity": 1.0,
+                    "Sequence": "QYNIGCKTDDDCQKYYTKMFGMKCFKSWCITGILD"
+                }
+            ]
+        }
+    }
+}

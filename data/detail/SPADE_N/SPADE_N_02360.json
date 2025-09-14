@@ -1,0 +1,74 @@
+{
+    "SPADE_N_02360": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02360",
+            "Peptide Name": "Dinoponeratoxin Da-2501 (ants, insects, animals)",
+            "Source": "Dinoponera australis (Giant neotropical hunting ant)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "FWGTLAKLALKAVPAVMGMIKKE",
+            "Sequence Length": 23,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P0CF01"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C118H196N28O27S2",
+            "Mass": 2503.12,
+            "PI": 10.0,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.65,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Function": "Dinoponeratoxin Da-2051 may have antibacterial activity.",
+            "Tissue specificity": "Expressed by the venom gland.",
+            "Literature": [
+                {
+                    "Title": "A biochemical characterization of the major peptides from the venom of the giant Neotropical hunting ant Dinoponera australis.",
+                    "Pubmed ID": "19879289",
+                    "Reference": "Toxicon. 2010 Apr 1;55(4)702-710.",
+                    "Author": "Johnson SR, Copello JA, Evans MS, Suarez AV.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=19879289"
+                }
+            ],
+            "Frequent Amino Acids": "AKL",
+            "Absent Amino Acids": "CDHNOQRSUY",
+            "Basic Residues": 4,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 15,
+            "Polar Residues": 11,
+            "Positive Residues": 4,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02361",
+                    "Similarity": 1.0,
+                    "Sequence": "ALKAVPAVMGMIKKE"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14847",
+                    "Similarity": 0.9090909090909091,
+                    "Sequence": "FWGTLAKWALK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14848",
+                    "Similarity": 0.8461538461538461,
+                    "Sequence": "FWGTLAKWALKAI"
+                }
+            ]
+        }
+    }
+}

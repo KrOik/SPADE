@@ -1,0 +1,69 @@
+{
+    "SPADE_UN_18686": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_18686",
+            "Peptide Name": "cAMP559 (cAMP_559; Predicted AMPs)",
+            "Source": "AI predicted from human microbiota:gut",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "GPKGSAVRRLKWHASWVQNVVRQFGPYLLRA",
+            "Sequence Length": 31,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Inhibited the growth of S. aureus (relative OD drop by 35%), B. subtilis (61%), E. coli (51%), and P. aeruginosa (39%) at 60 uM.",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "C165H261N51O38",
+            "Mass": 3578.14,
+            "PI": 12.0,
+            "Hydrophobicity": -0.39,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Ma Y, Guo Z, Xia B, Zhang Y, Liu X, Yu Y, Tang N, Tong X, Wang M, Ye X, Feng J, Chen Y, Wang J. 2022",
+                    "Reference": "Nat Biotechnol. 2022 Mar 3. doi: 10.1038/s41587-022-01226-0.PubMed",
+                    "Title": "Identification of antimicrobial peptides from the human gut microbiome using deep learning."
+                }
+            ],
+            "Frequent Amino Acids": "RVA",
+            "Absent Amino Acids": "CDEIMOTU",
+            "Basic Residues": 7,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 16,
+            "Polar Residues": 20,
+            "Positive Residues": 7,
+            "Negative Residues": 0,
+            "Net Charge": 7,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_18692",
+                    "Similarity": 1.0,
+                    "Sequence": "FGPKGSAVRRLKWHASWVQNVVRQFGPYLLRA"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_18700",
+                    "Similarity": 0.9032258064516129,
+                    "Sequence": "FGPKGSAVRRLKWYASWVQNVVRQFGPYLSWAQDI"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_18694",
+                    "Similarity": 0.7741935483870968,
+                    "Sequence": "VGPKGWAVRPLKRYASWVQNVVRQFGPYPAWA"
+                }
+            ]
+        }
+    }
+}

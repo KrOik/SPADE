@@ -1,0 +1,55 @@
+{
+    "SPADE_N_14923": {
+        "Sequence Information": {
+            "Peptide Name": "Microcolin B",
+            "Sequence": "XXXPX",
+            "Sequence Length": 5,
+            "Biological Activity": [
+                "Anticancer",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "1. Lyngbya majuscula",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Bioassay-guided isolation and identification of desacetylmicrocolin B from Lyngbya cf. polychroa.",
+                    "Pubmed ID": "19431099",
+                    "Reference": "Planta Med. 2009;75:1427-1430",
+                    "Author": "Meickle T, Matthew S, Ross C, Luesch H, Paul VJ",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/19431099"
+                },
+                {
+                    "Title": "Microcolins A and B, new immunosuppressive peptides from the blue-green alga Lyngbya majuscula.",
+                    "Pubmed ID": "1517734",
+                    "Reference": "J Nat Prod. 1992;55:613-619",
+                    "Author": "Koehn FE, Longley RE, Reed JK",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/1517734"
+                }
+            ],
+            "SPADE ID": "SPADE_N_14923",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00001",
+                    "Similarity": 1.0,
+                    "Sequence": "GSGVIPTISHECHMNSFQFVFTCCS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00002",
+                    "Similarity": 1.0,
+                    "Sequence": "WKSESVCTPGCVTGLLQTCFLQTITCNCKISK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00003",
+                    "Similarity": 1.0,
+                    "Sequence": "ADRGWIKTLTKDCPNVISSICAGTIITACKNCA"
+                }
+            ],
+            "Hemolytic Activity": "Mouse lymphocytes:EC50=0.0015 µM,Mouse lymphocytes:50% Cytotoxicity=0.0226 µM",
+            "Target Organism": "Human colon adenocarcinoma HT29(IC50=0.0023µM),Human neuroblastoma IMR-32(IC50=0.0077µM),Paradendryphiella salina(LC50=200µg/ml)"
+        }
+    }
+}

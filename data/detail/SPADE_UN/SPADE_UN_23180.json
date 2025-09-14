@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_23180": {
+        "Sequence Information": {
+            "Peptide Name": "",
+            "Sequence": "AGTNRIAKELRRYIRKVGRIARKKW",
+            "Sequence Length": 25,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Synthetic Peptide Libraries Designed From a Minimal Alpha-Helical Domain of AS-48-Bacteriocin Homologs Exhibit Potent Antibacterial Activity.",
+                    "Pubmed ID": "33281785",
+                    "Reference": "Front Microbiol. 2020;11:589666",
+                    "Author": "Ross JN, Fields FR, Kalwajtys VR, Gonzalez AJ, O'Connor S, Zhang A, Moran TE, Hammers DE, Carothers KE, Lee SW",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/33281785"
+                }
+            ],
+            "Mass": 3040.62,
+            "PI": 12.0,
+            "Net Charge": 9,
+            "Hydrophobicity": -1.06,
+            "Frequent Amino Acids": "RKA",
+            "Absent Amino Acids": "CDFHMOPQSU",
+            "Basic Residues": 10,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 17,
+            "Positive Residues": 10,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_UN_23180",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_14256",
+                    "Similarity": 0.96,
+                    "Sequence": "AGTNRIAKELRRYIRKVGRIARKWW"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_23177",
+                    "Similarity": 0.96,
+                    "Sequence": "AGTNRIAKELRRYIRKVGRIARKWW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14235",
+                    "Similarity": 0.92,
+                    "Sequence": "AGTQRIAKELRRYIRKVGRIARKAW"
+                }
+            ],
+            "Hemolytic Activity": "Sheep erythrocytes:11.7% Hemolysis=>2 µM,Human keratinocytes HaCat:7% Cytotoxicity=32 µM,Human keratinocytes HaCat:32% Cytotoxicity=64 µM",
+            "Target Organism": "Escherichia coli BL21(MIC=1µM),Escherichia coli BL21(MBC=1µM),Streptococcus pyogenes M1T1 5448(MIC=1µM),Streptococcus pyogenes M1T1 5448(MBC=1µM),Staphylococcus aureus USA 300(MIC=64µM),Staphylococcus aureus USA 300(MBC=64µM),Pseudomonas aeruginosa PAO1(MIC=16µM),Pseudomonas aeruginosa PAO1(MBC=16µM)"
+        }
+    }
+}

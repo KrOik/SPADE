@@ -1,0 +1,59 @@
+{
+    "SPADE_UN_26131": {
+        "Sequence Information": {
+            "Peptide Name": "",
+            "Sequence": "GLFKIIKNIFSG",
+            "Sequence Length": 12,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Variational Autoencoder for Generation of Antimicrobial Peptides",
+                    "Pubmed ID": "32875208",
+                    "Reference": "ACS Omega. 2020;5:20746-20754",
+                    "Author": "Dean SN, Walper SA",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/32875208"
+                }
+            ],
+            "Mass": 1336.62,
+            "PI": 10.0,
+            "Net Charge": 2,
+            "Hydrophobicity": 0.83,
+            "Frequent Amino Acids": "IFG",
+            "Absent Amino Acids": "ACDEHMOPQRTUVWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 6,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_26131",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00154",
+                    "Similarity": 1.0,
+                    "Sequence": "DSIRDVSPTFNKIRRWFDGLFK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_11592",
+                    "Similarity": 1.0,
+                    "Sequence": "KKKKPLFGLFFGLF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01122",
+                    "Similarity": 0.9166666666666666,
+                    "Sequence": "GLFDIIKNIFSGL"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Escherichia coli BL21(EC50=84µg/ml),Acinetobacter baumannii ATCC 17978(EC50=13µg/ml),Staphylococcus aureus ATCC 12600(EC50=>400µg/ml)"
+        }
+    }
+}

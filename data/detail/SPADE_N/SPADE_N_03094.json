@@ -1,0 +1,85 @@
+{
+    "SPADE_N_03094": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03094",
+            "Peptide Name": "Lebocin-1/2 (Pro-rich; Insects, animals)",
+            "Source": "Bombyx mori (Silk moth)",
+            "Family": "Belongs to the lebocin family",
+            "Gene": "Not found",
+            "Sequence": "DLRFLYPRGKLPVPTPPPFNPKPIYIDMGNRY",
+            "Sequence Length": 32,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P54684"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-negative bacteria:Acinetobacter sp. NISL B-4653, Escherichia coli HB1ll, Pseudomonas fluorescens IAM1179;Gram-positive bacterium:Staphylococcus aureus ATCC6538P.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C179H271N45O43S",
+            "Mass": 3773.41,
+            "PI": 9.82,
+            "Net Charge": 3,
+            "Hydrophobicity": -0.67,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:>10 hour",
+            "Function": "Antibacterial peptide.",
+            "Tissue specificity": "Hemolymph. Produced in fat body.",
+            "Induction": "By bacterial infection.",
+            "PTM": "O-glycosylation is important for the antibacterial activity of lebocin, O-linked glycan structure is a disaccharide (Gal-GalNAc) in case of lebocin 1 and a monosaccharide (GalNAc) in case of lebocin 2.",
+            "Literature": [
+                {
+                    "Title": "A novel antibacterial peptide family isolated from the silkworm, Bombyx mori.",
+                    "Pubmed ID": "7654207",
+                    "Reference": "Biochem J. 1995 Sep 1;310 (Pt 2)651-656.",
+                    "Author": "Hara S, Yamakawa M.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=7654207"
+                },
+                {
+                    "Title": "cDNA cloning and gene expression of lebocin, a novel member of antibacterial peptides from the silkworm, Bombyx mori.",
+                    "Pubmed ID": "7545395",
+                    "Reference": "Biochem Biophys Res Commun. 1995 Sep 5;214(1)271-278.",
+                    "Author": "Chowdhury S, Taniai K, Hara S, Kadono-Okuda K, Kato Y, Yamamoto M, Xu J, Choi SK, Debnath NC, Choi HK, et al.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=7545395"
+                }
+            ],
+            "Frequent Amino Acids": "PLR",
+            "Absent Amino Acids": "ACEHOQSUW",
+            "Basic Residues": 5,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 20,
+            "Polar Residues": 12,
+            "Positive Residues": 5,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03095",
+                    "Similarity": 0.96875,
+                    "Sequence": "DLRFLYPRGKLPVPTLPPFNPKPIYIDMGNRY"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03096",
+                    "Similarity": 0.84375,
+                    "Sequence": "DLRFWNPREKLPLPTLPPFNPKPIYIDMGNRY"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11641",
+                    "Similarity": 0.625,
+                    "Sequence": "PPPPPPPP"
+                }
+            ]
+        }
+    }
+}

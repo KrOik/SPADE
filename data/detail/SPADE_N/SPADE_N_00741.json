@@ -1,0 +1,74 @@
+{
+    "SPADE_N_00741": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00741",
+            "Peptide Name": "Cliotide T2 (cT2; Plant defensin)",
+            "Source": "Clitoria ternatea (Butterfly pea)",
+            "Family": "Belongs to the cyclotide family",
+            "Gene": "Not found",
+            "Sequence": "GEFLKCGESCVQGECYTPGCSCDWPICKKN",
+            "Sequence Length": 30,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anticancer"
+            ],
+            "Target Organism": "[Ref.21596752]Gram-positive bacteria:Staphylococcus aureus ATCC12600, Enterococcus faecalis ATCC 47077 (less active);Gram-negative bacteria:Escherichia coli ATCC 700926 (MIC>100 µM), Pseudomonas aeruginosa ATCC 39018 (MIC>100 µM), Klebsiella pneumonia ATCC 13883 (MIC>100 µM).",
+            "Hemolytic Activity": "[Ref:21596752] HD50>100 µM against human type A erythrocytes",
+            "Cytotoxicity": "[Ref.21596752] Cytotoxicity:HeLa Cells (IC50=8.0 µM).",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "No specific N-terminal",
+            "C-terminal Modification": "No specific C-terminal",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C138H210N36O45S6",
+            "Mass": 3285.75,
+            "PI": 4.87,
+            "Net Charge": -1,
+            "Hydrophobicity": -0.39,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Cliotide T2 shows stronger antimicrobial activity against the Gram-negative bacteria than the Gram-positive bacteria. Cliotide T2 was relatively nonhemolytic (HD50>100 µM) .",
+            "Literature": [
+                {
+                    "Title": "Discovery and characterization of novel cyclotides originated from chimeric precursors consisting of albumin-1 chain a and cyclotide domains in the Fabaceae family.",
+                    "Pubmed ID": "21596752",
+                    "Reference": "J Biol Chem. 2011 Jul 8;286(27)24275-24287.",
+                    "Author": "Nguyen GK, Zhang S, Nguyen NT, Nguyen PQ, Chiu MS, Hardjojo A, Tam JP.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=21596752"
+                }
+            ],
+            "Frequent Amino Acids": "CGE",
+            "Absent Amino Acids": "AHMORU",
+            "Basic Residues": 3,
+            "Acidic Residues": 4,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 16,
+            "Positive Residues": 3,
+            "Negative Residues": 4,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00842",
+                    "Similarity": 0.72,
+                    "Sequence": "CGETCVTGTCYTPGCACDWPVCKRD"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11188",
+                    "Similarity": 0.7,
+                    "Sequence": "GSVIKCGESCLLGKCYTPGCTCSRPICKKN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06795",
+                    "Similarity": 0.7,
+                    "Sequence": "GSAIRCGESCLLGKCYTPGCTCDRPICKKN"
+                }
+            ]
+        }
+    }
+}

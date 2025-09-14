@@ -1,0 +1,88 @@
+{
+    "SPADE_N_02205": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02205",
+            "Peptide Name": "Cathelicidin-OH (Cathelicidin-related protein; Snakes, reptiles, animals)",
+            "Source": "Ophiophagus hannah (King cobra) (Naja hannah)",
+            "Family": "Belongs to the cathelicidin family.",
+            "Gene": "Not found",
+            "Sequence": "KFFKKLKNSVKKRAKKFFKKPRVIGVSIPF",
+            "Sequence Length": 30,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/B6S2X2"
+            ],
+            "Protein Existence": "Transcript level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram+",
+                "Antifungal"
+            ],
+            "Target Organism": "[Ref.18620012]Gram-negative bacteria:Escherichia coli ATCC 25922, Escherichia coli ML-35P, Escherichia coli clinic strain, Pseudomonas aeruginosa ATCC 27853, Pseudomonas aeruginosa PA 01, Pseudomonas aeruginosa clinic strain, Enterobacter aerogenes clinic strain, Enterobacter cloacae clinic strain.[Ref.22491685]Gram-positive bacteria :Staphylococcuss aureus ATCC 25923 (MIC=3.125 μg/ml), Staphylococcuss aureus ATCC 43300 MRSA (MIC=6.25 μg/ml), Staphylococcuss aureus clinical strain 1 (MIC=3.125 μg/ml), Staphylococcuss aureus clinical strain 2 (MIC=6.25 μg/ml), Staphylococcuss aureus clinical strain 3 (MIC=6.25 μg/ml), Enterococcus faecalis ATCC 29212 (MIC=25 μg/ml) ;Gram-negative bacteria :Escherichia coli ATCC 25922 (MIC=6.25 μg/ml), Escherichia coli ML-35p (MIC=3.125 μg/ml), Escherichia coli clinical strain 1 (MIC=6.25 μg/ml), Escherichia coli clinical strain 2 (MIC=3.125 μg/ml), Escherichia coli clinical strain 3 (MIC=1.56 μg/ml), Escherichia coli clinical strain 4 (MIC=12.5 μg/ml), Escherichia coli clinical strain 5 (MIC=3.125 μg/ml), Escherichia coli clinical strain 6 (MIC=3.125 μg/ml), Enterobacter cloacae ATCC 13047 (MIC=25 μg/ml), Enterobacter cloacae clinical strain (MIC=3.125 μg/ml), Enterobacter aerogenes clinical strain (MIC=6.25 μg/ml), Pseudomonas aeruginosa ATCC 27853 (MIC=6.25 μg/ml), Pseudomonas aeruginosa PA 01 (MIC=6.25 μg/ml), Pseudomonas aeruginosa clinical strain 1 (MIC=12.5 μg/ml), Pseudomonas aeruginosa clinical strain 2 (MIC=6.25 μg/ml), Haemophilus influenzae ATCC 49247 (MIC=3.125 μg/ml), Haemophilus influenzae ATCC 49766 (MIC=3.125 μg/ml), Klebsiella pneumoniae ATCC 13883 (MIC=6.25 μg/ml), Klebsiella pneumoniae ATCC 700603 (MIC=3.125 μg/ml) ;Fungi :Candida albicans ATCC 2002 (MIC>200 μg/ml), Candida albicans clinical strain (MIC>200 μg/ml)",
+            "Hemolytic Activity": "[Ref.22491685] 3% hemolysis at 100 μg/ml , 5% hemolysis at 200 μg/ml , 6% hemolysis at 300 μg/ml , 7% hemolysis at 400 μg/ml against human red blood cells",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Cell membrane",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C175H289N47O34",
+            "Mass": 3595.46,
+            "PI": 12.0,
+            "Net Charge": 12,
+            "Hydrophobicity": -0.52,
+            "Half Life": "Mammalian:1.3 hourYeast:3 minE.coli:2 min",
+            "Function": "Antibacterial activity against Gram-positive bacteria and Gram-negative bacteria, Antifungal activity agaist Candida albicans",
+            "Literature": [
+                {
+                    "Title": "Identification and characterization of novel reptile cathelicidins from elapid snakes.",
+                    "Pubmed ID": "18620012",
+                    "Reference": "Peptides. 2008 Oct;29(10)1685-91.",
+                    "Author": "Zhao H, Gan TX, Liu XD, Jin Y, Lee WH, Shen JH, Zhang Y.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=18620012"
+                },
+                {
+                    "Title": "Efficacy of OH-CATH30 and Its Analogs against Drug-ResistantBacteria In Vitro and in Mouse Models",
+                    "Pubmed ID": "22491685",
+                    "Reference": "Antimicrob Agents Chemother. 2012 Jun;56(6)3309-17. doi 10.1128/AAC.06304-11.",
+                    "Author": "Sheng-An Li, Wen-Hui Lee, and Yun Zhang",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=22491685"
+                },
+                {
+                    "Title": "Structure-function relationship of king cobra cathelicidin",
+                    "Pubmed ID": "",
+                    "Author": "Zhang Y, Zhao H, Yu GY, Liu XD, Shen JH, Lee WH"
+                }
+            ],
+            "Frequent Amino Acids": "KFV",
+            "Absent Amino Acids": "CDEHMOQTUWY",
+            "Basic Residues": 12,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 14,
+            "Polar Residues": 19,
+            "Positive Residues": 12,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02204",
+                    "Similarity": 1.0,
+                    "Sequence": "KRFKKFFKKLKNSVKKRAKKFFKKPRVIGVSIPF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11670",
+                    "Similarity": 1.0,
+                    "Sequence": "FKKFFKKLKNSVKKRAKKFFKKPRVIGVSIPF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11671",
+                    "Similarity": 1.0,
+                    "Sequence": "KRFKKFFKKLKNSVKKRAKKFFKK"
+                }
+            ]
+        }
+    }
+}

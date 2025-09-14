@@ -1,0 +1,71 @@
+{
+    "SPADE_N_14332": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_14332",
+            "Peptide Name": "EntV-derived P2 (Synthetic AMPs)",
+            "Source": "bacteria-derived, natural derivative",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "GQLVVWALQC",
+            "Sequence Length": 10,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antifungal",
+                "Antifungal",
+                "Antibiofilm"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 1116.33,
+            "PI": 5.52,
+            "Hydrophobicity": 1.2,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Guha S, Cristy SA, Buda De Cesare G, Cruz MR, Lorenz MC, Garsin DA. 2024",
+                    "Reference": "mBio. 2024 May 8;15(5):e0057024. doi: 10.1128/mbio.00570-24.PubMed",
+                    "Title": "Optimization of the antifungal properties of the bacterial peptide EntV by variant analysis."
+                }
+            ],
+            "Frequent Amino Acids": "LQV",
+            "Absent Amino Acids": "DEFHIKMNOPRSTUY",
+            "Basic Residues": 0,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 6,
+            "Positive Residues": 0,
+            "Negative Residues": 0,
+            "Net Charge": 0,
+            "Comments": "Sequence analysis: APD analysis reveals that this sequence is similar (70%) toEntV 10merV=L=Q: 20%, others: 10%.Activity: active against C. albicans and C. gattii based on the survival of the infected animal model:Caenorhabditis elegans.",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_05180",
+                    "Similarity": 1.0,
+                    "Sequence": "MDKAEKVDNIVRQVTGAIIKTTAKVAFIVFVLTFAGILVGYYSYSFLTNAGWFALPMILSVDLLYVAVLLGGLAFIFAEVYKVVLEVKKIVKRGGQL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03712",
+                    "Similarity": 1.0,
+                    "Sequence": "LQCMGNRGFCRSSCKKSEQAYFYCRTFQMCCLQ"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14585",
+                    "Similarity": 1.0,
+                    "Sequence": "LQCSCRRVCRNTCSCIR"
+                }
+            ]
+        }
+    }
+}

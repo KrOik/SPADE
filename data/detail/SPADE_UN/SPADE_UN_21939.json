@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_21939": {
+        "Sequence Information": {
+            "Peptide Name": "Polymerase basic protein 2 (372-388)[A1R,R4A,Q12K]",
+            "Sequence": "RILAKATRRLVKLIVSG",
+            "Sequence Length": 17,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Binding Target": "",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "Q0HD17",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/Q0HD17",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "In Silico Design of Polycationic Antimicrobial Peptides Active Against Pseudomonas Aeruginosa and Staphylococcus Aureus",
+                    "Pubmed ID": "29626331",
+                    "Reference": "Antonie Van Leeuwenhoek. 2018;111:1871-1882",
+                    "Author": "Hincapié O, Giraldo P, Orduz S",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/29626331"
+                }
+            ],
+            "Mass": 1894.36,
+            "PI": 12.0,
+            "Net Charge": 5,
+            "Hydrophobicity": 0.54,
+            "Frequent Amino Acids": "LRA",
+            "Absent Amino Acids": "CDEFHMNOPQUWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 8,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_21939",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_21940",
+                    "Similarity": 0.8666666666666667,
+                    "Sequence": "AILRKATRRLVKLIV"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_21942",
+                    "Similarity": 0.8666666666666667,
+                    "Sequence": "LRKATRRLVQLIVSG"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_21938",
+                    "Similarity": 0.8235294117647058,
+                    "Sequence": "AILRKATRRLVQLIVSG"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=>25µM),Klebsiella pneumoniae ATCC 700603(MIC=>25µM),Acinetobacter baumannii(MIC=>25µM),Pseudomonas aeruginosa ATCC 9027(MIC=>25µM),Staphylococcus aureus ATCC 25923(MIC=>25µM)"
+        }
+    }
+}

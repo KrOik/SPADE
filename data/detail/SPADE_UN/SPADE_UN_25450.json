@@ -1,0 +1,54 @@
+{
+    "SPADE_UN_25450": {
+        "Sequence Information": {
+            "Peptide Name": "Cathelicidin-PY [C3D,C7Dab]",
+            "Sequence": "RKDNFLXKLKEKLRTVITSHIDKVLRPQG",
+            "Sequence Length": 29,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "M9MMP3",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/M9MMP3",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Flow-Based Fmoc-SPPS Preparation and SAR Study of Cathelicidin-PY Reveals Selective Antimicrobial Activity.",
+                    "Pubmed ID": "36838983",
+                    "Reference": "Molecules. 2023;28:1993",
+                    "Author": "Dissanayake S, He J, Yang SH, Brimble MA, Harris PWR, Cameron AJ",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/36838983"
+                }
+            ],
+            "SPADE ID": "SPADE_UN_25450",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_13895",
+                    "Similarity": 1.0,
+                    "Sequence": "RKDNFLKKLKEKLRTVITSHIDKVLRPQG"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_25447",
+                    "Similarity": 1.0,
+                    "Sequence": "RKDNFLKKLKEKLRTVITSHIDKVLRPQG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05691",
+                    "Similarity": 0.9642857142857143,
+                    "Sequence": "RKCNFLCKLKEKLRTVITSHIDKVLRPQG"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=4µM),Escherichia coli ATCC 25922(MIC=1µM),Pseudomonas aeruginosa SVB-B9(MIC=32µM),Pseudomonas aeruginosa SVB-B9(MIC=8µM),Staphylococcus aureus ATCC 29213(MIC=>64µM),Candida albicans SC5314(MIC=>64µM)"
+        }
+    }
+}

@@ -1,0 +1,95 @@
+{
+    "SPADE_N_00059": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 2023/0416797 A1",
+                "Patent Link": "http://www.lens.org/lens/patent/US_2023_0416797_A1",
+                "Patent Type": "Patent Application",
+                "Publication Date": "2023-12-28",
+                "Family Info": "JP2023548477A,EP4243844A1,CN116685204A,WO2022104321A1",
+                "Patent Title": "MODULATING ANTIMICROBIAL PEPTIDE HALF-LIFE",
+                "Abstract": "Methods of modulating the half-life of an antimicrobial peptide are described. The method may include administering an antimicrobial peptide to an environment where the antimicrobial peptide remains active until a specified endpoint, and on or after the specified endpoint, digesting the antimicrobial peptide with a protease to thereby inactivate the antimicrobial peptide and modulate its half-life. Compositions and kits for modulating the half-life of an antimicrobial peptide are also described."
+            },
+            {
+                "Patent No": "US 2023/0416797 A1",
+                "Patent Link": "http://www.lens.org/lens/patent/US_2023_0416797_A1",
+                "Patent Type": "Patent Application",
+                "Publication Date": "2023-12-28",
+                "Family Info": "JP2023548477A,EP4243844A1,CN116685204A,WO2022104321A1",
+                "Patent Title": "MODULATING ANTIMICROBIAL PEPTIDE HALF-LIFE",
+                "Abstract": "Methods of modulating the half-life of an antimicrobial peptide are described. The method may include administering an antimicrobial peptide to an environment where the antimicrobial peptide remains active until a specified endpoint, and on or after the specified endpoint, digesting the antimicrobial peptide with a protease to thereby inactivate the antimicrobial peptide and modulate its half-life. Compositions and kits for modulating the half-life of an antimicrobial peptide are also described."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00059",
+            "Peptide Name": "Bacteriocin curvaticin",
+            "Source": "Lactobacillus curvatus L442 (Gram-positive bacteria)",
+            "Family": "Belongs to the class IIa bacteriocin",
+            "Gene": "Not found",
+            "Sequence": "AYPGNGVHCGKYSCTVDKQTAIGNIGNNAA",
+            "Sequence Length": 30,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P84886"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+"
+            ],
+            "Target Organism": "Gram-positive bacteria:Listeria monocytogenes, Lactobacillus sakeii, Lactobacillus plantarum, Lactobacillus farciminis.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C127H199N39O43S2",
+            "Mass": 3024.3,
+            "PI": 8.07,
+            "Net Charge": 2,
+            "Hydrophobicity": -0.36,
+            "Half Life": "Mammalian:4.4 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Has antibacterial activity.",
+            "PTM": "Problely contains one disulfide bond 9-14.",
+            "Biophysicochemical properties": "pH dependence (Stable below pH 6) and Temperature dependence (Stable below 60 degrees Celsius. Activity decreases sharply at temperatures above 60 degrees Celsius).",
+            "Literature": [
+                {
+                    "Title": "Purification and characterization of curvaticin L442, a bacteriocin produced by Lactobacillus curvatus L442.",
+                    "Pubmed ID": "16244793",
+                    "Reference": "Antonie Van Leeuwenhoek. 2006 Jan;89(1)19-26.",
+                    "Author": "Xiraphi N, Georgalaki M, Driessche GV, Devreese B, Beeumen JV, Tsakalidou E, Metaxopoulos J, Drosinos EH.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16244793"
+                }
+            ],
+            "Frequent Amino Acids": "GAN",
+            "Absent Amino Acids": "EFLMORUW",
+            "Basic Residues": 3,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 21,
+            "Positive Residues": 3,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00085",
+                    "Similarity": 0.8333333333333334,
+                    "Sequence": "KYYGNGVHCGKHSCTVDWGTAIGNIGNNAAANWATGGNAGWNK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06139",
+                    "Similarity": 0.8333333333333334,
+                    "Sequence": "MEKFIELSLKEVTAITGGKYYGNGVHCGKHSCTVDWGTAIGNIGNNAAANWATGGNAGWNK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08714",
+                    "Similarity": 0.8333333333333334,
+                    "Sequence": "KYYGNGVHCGKHSCTVDWGTAIGNIGNNAAANWATGGNAGWNKS"
+                }
+            ]
+        }
+    }
+}

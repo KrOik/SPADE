@@ -1,0 +1,72 @@
+{
+    "SPADE_UN_15293": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_15293",
+            "Peptide Name": "PTP4",
+            "Source": "Synthetic",
+            "Family": "",
+            "Gene": "Not found",
+            "Sequence": "FLKLLKKLAAKFLPTIICKISYKC",
+            "Sequence Length": 24,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Notavailable"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Target Organism": "Tumor cells:A549 (IC50=13.71 ± 2.12 µg/ml); MCF-7 (IC50=18.10 ± 2.13 µg/ml); Hep 3B (IC50=18.18 ± 3.31 µg/ml); PC-3 (IC50=18.63 ± 0.99 µg/ml)",
+            "Hemolytic Activity": "Human RBCs:45.17% hemolysis at 100 μg/ml",
+            "Cytotoxicity": "HEK293:IC50=26.15 ± 6.23 µg/ml",
+            "Binding Target": "Not available",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C135H228N30O28S2",
+            "Mass": 2783.57,
+            "PI": 9.93,
+            "Net Charge": 6,
+            "Hydrophobicity": 0.79,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Literature": [
+                {
+                    "Title": "In vitro activities of native and designed peptide antibiotics against drug sensitive and resistant tumor cell lines",
+                    "Pubmed ID": "14499271",
+                    "Reference": "Peptides. 2003 Jul;24(7)945-53.",
+                    "Author": "Kim S, Kim SS, Bang YJ, Kim SJ, Lee BJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=14499271"
+                }
+            ],
+            "Frequent Amino Acids": "KLI",
+            "Absent Amino Acids": "DEGHMNOQRUVW",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 14,
+            "Polar Residues": 13,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_12465",
+                    "Similarity": 1.0,
+                    "Sequence": "FLKLLKKLA"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_15294",
+                    "Similarity": 1.0,
+                    "Sequence": "FLKLLKKLAAKFL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_20088",
+                    "Similarity": 1.0,
+                    "Sequence": "FLKLLKKLA"
+                }
+            ]
+        }
+    }
+}

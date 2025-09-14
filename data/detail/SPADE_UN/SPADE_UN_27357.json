@@ -1,0 +1,53 @@
+{
+    "SPADE_UN_27357": {
+        "Sequence Information": {
+            "Peptide Name": "[Abu8]HV-BBI(5-15)",
+            "Sequence": "CWTXSIPPRPC",
+            "Sequence Length": 11,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "B1VC43",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/B1VC43",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Inhibitory and antimicrobial activities of OGTI and HV-BBI peptides, fragments and analogs derived from amphibian skin",
+                    "Pubmed ID": "22516177",
+                    "Reference": "Peptides. 2012;35:276-284",
+                    "Author": "Debowski D, Lukajtis R, Legowska A, Karna N, Pikula M, Wysocka M, Maliszewska I, Sienczyk M, Lesner A, Rolka K",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/22516177"
+                }
+            ],
+            "SPADE ID": "SPADE_UN_27357",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03558",
+                    "Similarity": 1.0,
+                    "Sequence": "IGCWTKSIPPRPCFVK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09102",
+                    "Similarity": 1.0,
+                    "Sequence": "SVIGCWTFSIPPRPCFVK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09103",
+                    "Similarity": 1.0,
+                    "Sequence": "CWTKSIPPRPC"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Escherichia coli PCM 2057(MIC=>1000µg/ml),Staphylococcus aureus PCM 1944(MIC=>1000µg/ml)"
+        }
+    }
+}

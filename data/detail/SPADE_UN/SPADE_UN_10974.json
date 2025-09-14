@@ -1,0 +1,55 @@
+{
+    "SPADE_UN_10974": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 2010/0279918 A1",
+                "Patent Link": "http://www.lens.org/lens/patent/US_2010_0279918_A1",
+                "Patent Type": "Patent Application",
+                "Publication Date": "2010-11-4",
+                "Family Info": "DE602007011901D1,EP1991586A1,EP1991586B1,WO2007108749A1,WO2007108749A8",
+                "Patent Title": "Chimeric Constructs Between Cancer-Homing Peptides and Cell-Penetrating Peptides Coupled to Anticancer Drugs and/or Diagnostic Agent/Agents.",
+                "Abstract": "A construct comprising a cancer-homing peptide, an optional linker and a cell-penetrating peptide coupled to an anticancer drug and/or a diagnostic agent is disclosed. The homing peptide is for example a linear pentapeptide such as CREKA (SEQ ID NO:1), AREKA (SEQ 5 ID NO: 23) or CREKA0 (SEQ ID NO: 23), or a cyclic nonapeptide CPGPEGAGC (SEQ ID NO:2), and the cell-penetrating peptide is for example one of the peptides SEQ ID NO:3-SEQ ID NO:20. The anticancer drug may be selected from alkylating agents, antimetabolites and cytotoxic antibiotics, and the diagnostic agent may be a fluorescent label. Further, a method of delivering an anticancer drug and/or a diagnostic agent into a cancer cell 0 comprising administration of a construct according to the invention in vivo or in vitro is described."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_10974",
+            "Sequence": "AREKA",
+            "Sequence Length": 5,
+            "Peptide Name": "Sequence 23 from Patent US 20100279918",
+            "Source": "Synthetic construct",
+            "Biological Activity": [
+                "Anticancer"
+            ],
+            "Frequent Amino Acids": "AEK",
+            "Absent Amino Acids": "CDFGHILMNOPQSTUVWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 2,
+            "Polar Residues": 4,
+            "Positive Residues": 2,
+            "Negative Residues": 1,
+            "Mass": 573.64,
+            "PI": 8.79,
+            "Net Charge": 1,
+            "Hydrophobicity": -1.66,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_04551",
+                    "Similarity": 1.0,
+                    "Sequence": "EKARHGSCNYVFPAH"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04566",
+                    "Similarity": 1.0,
+                    "Sequence": "EKARHGSCNYVF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04587",
+                    "Similarity": 1.0,
+                    "Sequence": "EKARHGSNYVFP"
+                }
+            ]
+        }
+    }
+}

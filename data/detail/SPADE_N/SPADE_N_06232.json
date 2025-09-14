@@ -1,0 +1,71 @@
+{
+    "SPADE_N_06232": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_06232",
+            "Peptide Name": "peptide 2 from hydrolysate of oyster",
+            "Source": "Crassostrea gigas(hydrolysate of oyster)",
+            "Family": "Retroviridae",
+            "Gene": "Not found",
+            "Sequence": "LLEYSL",
+            "Sequence Length": 6,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antiviral"
+            ],
+            "Target Organism": "[Ref.9918775]HIV-1:inhibition of HIV-1 protease(IC50=15 nM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information or data found in the reference(s) presented in this entry",
+            "Binding Target": "HIV-1 protease",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C35H56N6O11",
+            "Mass": 736.85,
+            "PI": 4.05,
+            "Net Charge": -1,
+            "Hydrophobicity": 0.97,
+            "Half Life": "Mammalian:5.5 hourYeast:3 minE.coli:2 min",
+            "Mechanism of action": "The HIV-1 protease is a virally encoded protease that serves to cleave the gag and gag-pol polyprotein precursor into mature, functional proteins. This specific proteolysis occurs late in the viral life cycle and is essential for the maturation of the infectious virus. The peptide inhibits HIV-1 protease and thus acts antiviral activity.",
+            "Literature": [
+                {
+                    "Title": "Isolation of HIV-1 protease-inhibiting peptides from thermolysin hydrolysate of oyster proteins.",
+                    "Pubmed ID": "9918775",
+                    "Reference": "Biochem Biophys Res Commun. 1998 Dec 30;253(3)604-8.",
+                    "Author": "Lee TG, Maruyama S.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=9918775"
+                }
+            ],
+            "Frequent Amino Acids": "LES",
+            "Absent Amino Acids": "ACDFGHIKMNOPQRTUVW",
+            "Basic Residues": 0,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 4,
+            "Polar Residues": 2,
+            "Positive Residues": 0,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01028",
+                    "Similarity": 1.0,
+                    "Sequence": "IIGPVLGLVGKPLESLLE"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04167",
+                    "Similarity": 1.0,
+                    "Sequence": "SSLLE"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05520",
+                    "Similarity": 1.0,
+                    "Sequence": "LLDVLLE"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_24997": {
+        "Sequence Information": {
+            "Peptide Name": "As-CATH4 (2-18)[R1L,R8L,K10L,K12L,K17L]",
+            "Sequence": "LGLFKKLLRLILKGFKL",
+            "Sequence Length": 17,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "A0A1U7S9K4",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/A0A1U7S9K4",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Hydrophobicity Determines the Bacterial Killing Rate of α-Helical Antimicrobial Peptides and Influences the Bacterial Resistance Development.",
+                    "Pubmed ID": "36283984",
+                    "Reference": "J Med Chem. 2022;:",
+                    "Author": "Zhang M, Ouyang J, Fu L, Xu C, Ge Y, Sun S, Li X, Lai S, Ke H, Yuan B, Yang K, Yu H, Gao L, Wang Y",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/36283984"
+                }
+            ],
+            "Mass": 2000.6,
+            "PI": 11.33,
+            "Net Charge": 5,
+            "Hydrophobicity": 0.93,
+            "Frequent Amino Acids": "LKF",
+            "Absent Amino Acids": "ACDEHMNOPQSTUVWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 7,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_24997",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_00680",
+                    "Similarity": 1.0,
+                    "Sequence": "GFKLKGMARISCLPNGQWSNFPPKCIRECAMVSS"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_28242",
+                    "Similarity": 1.0,
+                    "Sequence": "GFKLKGKAKISCLPNGQWSNFPPKCIRECAMVSS"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_24995",
+                    "Similarity": 0.9411764705882353,
+                    "Sequence": "LGLFKKLLRLIKKGFKL"
+                }
+            ],
+            "Hemolytic Activity": "Human keratinocytes HaCat:80% Cell death=200 µg/ml,Human erythrocytes:80% Hemolysis=200 µg/ml",
+            "Target Organism": "Staphylococcus aureus ATCC 25923(MIC=1.17µg/ml),Staphylococcus aureus(MIC=9.38µg/ml),Bacillus cereus(MIC=9.38µg/ml),Escherichia coli ATCC 25922(MIC=9.38µg/ml),Vibrio parahaemolyticus ATCC 17802(MIC=4.69µg/ml)"
+        }
+    }
+}

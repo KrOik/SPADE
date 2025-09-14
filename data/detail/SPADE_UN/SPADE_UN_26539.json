@@ -1,0 +1,62 @@
+{
+    "SPADE_UN_26539": {
+        "Sequence Information": {
+            "Peptide Name": "Temporin-FL [L4del, S10del]",
+            "Sequence": "FIPVSGLFKLL",
+            "Sequence Length": 11,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell",
+                "Antibiofilm"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Bioevaluation and Targeted Modification of Temporin-FL From the Skin Secretion of Dark-Spotted Frog (Pelophylax nigromaculatus).",
+                    "Pubmed ID": "34738013",
+                    "Reference": "Front Mol Biosci. 2021;8:707013",
+                    "Author": "Wang W, Yang W, Du S, Xi X, Ma C, Wang L, Zhou M, Chen T",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/34738013"
+                }
+            ],
+            "Mass": 1233.54,
+            "PI": 8.75,
+            "Net Charge": 1,
+            "Hydrophobicity": 1.73,
+            "Frequent Amino Acids": "LFG",
+            "Absent Amino Acids": "ACDEHMNOQRTUWY",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 4,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_26539",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06853",
+                    "Similarity": 1.0,
+                    "Sequence": "YPLPFIP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15523",
+                    "Similarity": 1.0,
+                    "Sequence": "FIPLVSGLFSKLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_06753",
+                    "Similarity": 1.0,
+                    "Sequence": "MEDIVKFVYVIIIFLSIFIIATNMEAKTICIGDSDCRNERCMPGIKPVCSEGWCDCIGFIP"
+                }
+            ],
+            "Hemolytic Activity": "Horse erythrocytes:50% Hemolysis=356 µM,Horse erythrocytes:<5% Hemolysis=64 µM,Human keratinocytes HaCat:IC50=375.1 µM",
+            "Target Organism": "Staphylococcus aureus NCTC 10788(MIC=8µM),Staphylococcus aureus NCTC 10788(MBC=16µM),Staphylococcus aureus NCTC 12493(MIC=16µM),Staphylococcus aureus NCTC 12493(MBC=32µM),Staphylococcus aureus ATCC 43300(MIC=64µM),Staphylococcus aureus ATCC 43300(MBC=128µM),Escherichia coli NCTC 10418(MIC=128µM),Escherichia coli NCTC 10418(MBC=128µM),Candida albicans NCYC 1467(MIC=32µM),Candida albicans NCYC 1467(MBC=128µM)"
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "SPADE_N_00303": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00303",
+            "Peptide Name": "Non-specific lipid-transfer protein Cw18 (LTP Cw-18; PKG2316; Plants)",
+            "Source": "Hordeum vulgare (Barley)",
+            "Family": "Belongs to the plant LTP family",
+            "Gene": "CW18",
+            "Sequence": "AITCGQVSSALGPCAAYAKGSGTSPSAGCCSGVKRLAGLARSTADKQATCRCLKSVAGAYNAGRAAGIPSRCGVSVPYTISASVDCSKIH",
+            "Sequence Length": 90,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q43871"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Antifungal"
+            ],
+            "Target Organism": "Fungi:Fusarim solani (EC50=3-20×10-6 M), Pseudomonas solanacearum (EC50=3-6×10-7 M), Pythium aphanidermatum, Clavibacter michiganensis subsp. Sepedonicus (EC50=l-3×10-7 M).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Lipid-binding",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C366H611N115O119S8",
+            "Mass": 8782.99,
+            "PI": 9.35,
+            "Net Charge": 9,
+            "Hydrophobicity": 0.18,
+            "Half Life": "Mammalian:4.4 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Plant non-specific lipid-transfer proteins transfer phospholipids as well as galactolipids across membranes. May play a role in wax or cutin deposition in the cell walls of expanding epidermal cells and certain secretory tissues.",
+            "Tissue specificity": "Highly expressed in leaves and coleoptiles. No expression in roots.",
+            "Induction": "By NaCl, abscisic acid and inoculation with the fungal pathogen E. graminis.",
+            "PTM": "Contains four disulfide bonds 4-52; 14-29; 30-72; 50-86.",
+            "Literature": [
+                {
+                    "Title": "Lipid transfer proteins (nsLTPs) from barley and maize leaves are potent inhibitors of bacterial and fungal plant pathogens.",
+                    "Pubmed ID": "8420795",
+                    "Reference": "FEBS Lett. 1993 Jan 25;316(2)119-122.",
+                    "Author": "Molina A, Segura A, García-Olmedo F.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=8420795"
+                },
+                {
+                    "Title": "Developmental and pathogen-induced expression of three barley genes encoding lipid transfer proteins.",
+                    "Pubmed ID": "8281190",
+                    "Reference": "Plant J. 1993 Dec;4(6)983-991.",
+                    "Author": "Molina A, Garc­a-Olmedo F.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=8281190"
+                },
+                {
+                    "Title": "Lipid transfer protein genes specifically expressed in barley leaves and coleoptiles.",
+                    "Pubmed ID": "",
+                    "Author": "Gausing K."
+                }
+            ],
+            "Frequent Amino Acids": "ASG",
+            "Absent Amino Acids": "EFMOUW",
+            "Basic Residues": 11,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 37,
+            "Polar Residues": 65,
+            "Positive Residues": 11,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_07871",
+                    "Similarity": 0.9888888888888889,
+                    "Sequence": "AITCGQVSSALGPCAAYAKGSSTSPSAGCCSGVKRLAGLARSTADKQATCRCLKSVAGAYNAGRAAGIPSRCGVSVPYTISASVDCSKIH"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01012",
+                    "Similarity": 0.8555555555555555,
+                    "Sequence": "AISCGQVSSALTPCVAYAKGSGTSPSGACCSGVRKLAGLARSTADKQATCRCLKSVAGGLNPNKAAGIPSKCGVSVPYTISASVDCSKIH"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_07872",
+                    "Similarity": 0.7666666666666667,
+                    "Sequence": "AISCGQVSSALSPCISYARGNGAKPPAACCSGYKRLAGAAQSTADKQATCRCIKSAAGGLNAGKAAGIPSMCGVSVPYAISASVDCSKIR"
+                }
+            ]
+        }
+    }
+}

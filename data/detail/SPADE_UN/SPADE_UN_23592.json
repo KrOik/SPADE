@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_23592": {
+        "Sequence Information": {
+            "Peptide Name": "Lactotransferrin (295-306)",
+            "Sequence": "EKFGKDKSPKFQ",
+            "Sequence Length": 12,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P02788",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P02788",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Peptides from the Intestinal Tract of Breast Milk-Fed Infants Have Antimicrobial and Bifidogenic Activity.",
+                    "Pubmed ID": "33673498",
+                    "Reference": "Int J Mol Sci. 2021;22:2377",
+                    "Author": "Beverly RL, Woonnimani P, Scottoline BP, Lueangsakulthai J, Dallas DC",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/33673498"
+                }
+            ],
+            "Mass": 1438.63,
+            "PI": 9.53,
+            "Net Charge": 2,
+            "Hydrophobicity": -1.94,
+            "Frequent Amino Acids": "KFD",
+            "Absent Amino Acids": "ACHILMNORTUVWY",
+            "Basic Residues": 4,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 2,
+            "Polar Residues": 10,
+            "Positive Residues": 4,
+            "Negative Residues": 2,
+            "SPADE ID": "SPADE_UN_23592",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06030",
+                    "Similarity": 1.0,
+                    "Sequence": "WNLLRQAQEKFGKDKSP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14624",
+                    "Similarity": 1.0,
+                    "Sequence": "WNLLRQAQEKFGKDKSPK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14625",
+                    "Similarity": 1.0,
+                    "Sequence": "DAIWNLLRQAQEKFGKDKSPK"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Escherichia coli(MIC=3000µg/ml),Staphylococcus aureus(MIC=3000µg/ml),Bifidobacterium longum subsp. infantis(MIC=>3000µg/ml)"
+        }
+    }
+}

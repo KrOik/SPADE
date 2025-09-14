@@ -1,0 +1,67 @@
+{
+    "SPADE_UN_24020": {
+        "Sequence Information": {
+            "Peptide Name": "RP40-19",
+            "Sequence": "DVATSARDPLFY",
+            "Sequence Length": 12,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "Q95P08",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/Q95P08",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Encrypted antimicrobial peptides from proteins present in the plasma of the millipede Rhinocricus sp.",
+                    "Pubmed ID": "33894375",
+                    "Reference": "J Proteomics. 2021;242:104239",
+                    "Author": "Segura-Ramírez PJ, de Godoy PM, Avino NA, Junior PIS",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/33894375"
+                }
+            ],
+            "Mass": 1354.46,
+            "PI": 4.21,
+            "Net Charge": -1,
+            "Hydrophobicity": -0.13,
+            "Frequent Amino Acids": "ADF",
+            "Absent Amino Acids": "CEGHIKMNOQUW",
+            "Basic Residues": 1,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 7,
+            "Positive Residues": 1,
+            "Negative Residues": 2,
+            "SPADE ID": "SPADE_UN_24020",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_10631",
+                    "Similarity": 0.8333333333333334,
+                    "Sequence": "ALGVATSA"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_10632",
+                    "Similarity": 0.8,
+                    "Sequence": "ALGVATS"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_10630",
+                    "Similarity": 0.7142857142857143,
+                    "Sequence": "ALGVATSAQ"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:0% Hemolysis=124 µM,Vero cells:20% Killing=100 µM",
+            "Target Organism": "Escherichia coli SBS 363(MIC=3.87µM),Micrococcus luteus A270(MIC=3.87µM),Candida albicans MDM8(MIC=7.75µM),Aspergillus niger(no activity data)"
+        }
+    }
+}

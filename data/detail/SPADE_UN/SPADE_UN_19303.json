@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_19303": {
+        "Sequence Information": {
+            "Peptide Name": "BMAP-28(1-18)",
+            "Sequence": "GGLRSLGRKILRAWKKYG",
+            "Sequence Length": 18,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P54229",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P54229",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Designing Antibacterial Peptides with Enhanced Killing Kinetics.",
+                    "Pubmed ID": "29527201",
+                    "Reference": "Front Microbiol. 2018;9:325",
+                    "Author": "Waghu FH, Joseph S, Ghawali S, Martis EA, Madan T, Venkatesh KV, Idicula-Thomas S",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/29527201"
+                }
+            ],
+            "Mass": 2059.46,
+            "PI": 11.74,
+            "Net Charge": 6,
+            "Hydrophobicity": -0.67,
+            "Frequent Amino Acids": "GKL",
+            "Absent Amino Acids": "CDEFHMNOPQTUV",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 13,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_19303",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02464",
+                    "Similarity": 1.0,
+                    "Sequence": "GGLRSLGRKILRAWKKYGPIIVPIIRIG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02486",
+                    "Similarity": 1.0,
+                    "Sequence": "GGLRSLGRKILRAWKKYGPQATPATRQ"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04275",
+                    "Similarity": 1.0,
+                    "Sequence": "GGLRSLGRKILRAWKKYGPIIVPIIRI"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:60% Hemolysis=100 µM",
+            "Target Organism": "Staphylococcus aureus ATCC 6538P(MIC=3.125-6.25µM),Staphylococcus aureus ATCC 25923(MIC=3.125-6.25µM),Escherichia coli ATCC 8739(MIC=3.125-6.25µM),Escherichia coli ATCC 25922(MIC=25-50µM)"
+        }
+    }
+}

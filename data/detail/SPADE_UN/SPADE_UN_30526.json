@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_30526": {
+        "Sequence Information": {
+            "Peptide Name": "Hepatitis B Virus Core Protein (147-175), HBc147-175",
+            "Sequence": "TVVRRRGRSPRRRTPSPRRRRSQSPRRRR",
+            "Sequence Length": 29,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "G9G8L1",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/G9G8L1",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Identification of a novel antimicrobial peptide from human hepatitis B virus core protein arginine-rich domain (ARD).",
+                    "Pubmed ID": "23785287",
+                    "Reference": "PLoS Pathog. 2013;9:e1003425",
+                    "Author": "Chen HL, Su PY, Chang YS, Wu SY, Liao YD, Yu HM, Lauderdale TL, Chang K, Shih C",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/23785287"
+                }
+            ],
+            "Mass": 3683.22,
+            "PI": 12.0,
+            "Net Charge": 15,
+            "Hydrophobicity": -2.55,
+            "Frequent Amino Acids": "RPS",
+            "Absent Amino Acids": "ACDEFHIKLMNOUWY",
+            "Basic Residues": 15,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 2,
+            "Polar Residues": 27,
+            "Positive Residues": 15,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_30526",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_11276",
+                    "Similarity": 1.0,
+                    "Sequence": "TVVRRRGRSPRRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11280",
+                    "Similarity": 1.0,
+                    "Sequence": "TVVRRRGRPRRRTPSPRRRRSQSPRRRRSQSRESQC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11281",
+                    "Similarity": 1.0,
+                    "Sequence": "TVVRRRGRSPRRRTPPRRRRSQSPRRRRSQSRESQC"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Pseudomonas aeruginosa ATCC 9027(MBC=1.84µg/ml),Pseudomonas aeruginosa ATCC 27853(MBC=3.68µg/ml),Klebsiella pneumoniae ATCC 13884(MBC=3.68µg/ml),Escherichia coli ATCC 25922(MBC=3.68µg/ml),Staphylococcus aureus ATCC 19636(MBC=>117.86µg/ml),Staphylococcus aureus ATCC 25923(MBC=>117.86µg/ml),Staphylococcus aureus ATCC 29213(MBC=>117.86µg/ml),Candida albicans ATCC 10231(MBC=36.7µg/ml)"
+        }
+    }
+}

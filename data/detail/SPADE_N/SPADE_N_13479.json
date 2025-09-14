@@ -1,0 +1,70 @@
+{
+    "SPADE_N_13479": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_13479",
+            "Peptide Name": "Cryptdin-1 (Crp1, cryp01, murine alpha defensins, 3S=S, natural AMPs; UCSS1a; mouse, rodents, mammals, animals)",
+            "Source": "small intestine, mice,Mus musculus",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "LRDLVCYCRTRGCKRRERMNGTCRKGHLLYTLCCR",
+            "Sequence Length": 35,
+            "UniProt Entry": "P82293",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 4235.07,
+            "PI": 9.86,
+            "Hydrophobicity": -0.67,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Eisenhauer PB, Harwig SSSL., Lehrer RI.1992",
+                    "Reference": "Infect. Immun. 1992; 60:3556-3565.PubMed.",
+                    "Title": "Cryptdins: antimicrobial defensins of the murine small intestine."
+                }
+            ],
+            "Frequent Amino Acids": "RCL",
+            "Absent Amino Acids": "AFIOPQSUW",
+            "Basic Residues": 11,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 24,
+            "Positive Residues": 11,
+            "Negative Residues": 2,
+            "Net Charge": 9,
+            "Comments": "Discovery: purified from acid extracts of intact mouse jejunum and ileum by a combination of CM-Sepharose chromatography and sequential C-18 reverse-phase HPLC.Activity: Active against E. coli, S. typhimurium, and L. monocytogenes. ALso killed E. coli (99.9% killing at 41.9 ug/ml) and S. aureus (99.9% killing at 11.9 ug/ml) based on virtual colony count assays. This method exposed bacteria to peptides for 2 h in 10 mM phospahtate buffer before incubating in media for 12 h (Wang et al., 2023).Structure: 3 Disulfid bridges: 6, 34; 8, 23; 13, 33.SAR: linearizing the peptide by substituting C with A led to increased activity against E. coli. However, disulfide bonds appear to be important for activity against S. aureus.",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02891",
+                    "Similarity": 0.9714285714285714,
+                    "Sequence": "LRDLVCYCRTRGCKRRERMNGTCRKGHLMYTLCCR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07963",
+                    "Similarity": 0.9714285714285714,
+                    "Sequence": "MKPLVLLSALVLLSFQVQADPIQNTDEETKTEEQSGEEDQAVSVSFGDREGASLQEESLRDLVCYCRTRGCKRRERMNGTCRKGHLMYTLCCR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02909",
+                    "Similarity": 0.9705882352941176,
+                    "Sequence": "LRDLVCYCRTRGCKRRERMNGTCRKGHLIYTLCC"
+                }
+            ]
+        }
+    }
+}

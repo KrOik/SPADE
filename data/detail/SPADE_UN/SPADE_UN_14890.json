@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_14890": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_14890",
+            "Peptide Name": "SARS-CoV (1130-1189)[F1P]",
+            "Source": "Synthetic construct",
+            "Family": "Coronaviridae",
+            "Gene": "Not found",
+            "Sequence": "PKEELDKYFKNHTSPDVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQELGKYE",
+            "Sequence Length": 60,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P59594"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antiviral"
+            ],
+            "Target Organism": "[Ref.15150417]SARS-CoV:inhibition of SARS-CoV infection in Vero 118 cells (EC50=24±2.8µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "membrane",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C298H479N79O102",
+            "Mass": 6800.46,
+            "PI": 4.57,
+            "Net Charge": -5,
+            "Hydrophobicity": -0.72,
+            "Half Life": "Mammalian:>20 hourYeast:>20 hourE.coli:?",
+            "Mechanism of action": "Inhibits virus infection by interfering with six-helix bundle formation(fusion inhibitor).",
+            "Literature": [
+                {
+                    "Title": "Severe acute respiratory syndrome coronavirus (SARS-CoV) infection inhibition using spike protein heptad repeat-derived peptides.",
+                    "Pubmed ID": "15150417",
+                    "Reference": "Proc Natl Acad Sci U S A. 2004 Jun 1;101(22)8455-60.",
+                    "Author": "Bosch BJ, Martina BE, Van Der Zee R, Lepault J, Haijema BJ, Versluis C, Heck AJ, De Groot R, Osterhaus AD, Rottier PJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=15150417"
+                }
+            ],
+            "Frequent Amino Acids": "ELD",
+            "Absent Amino Acids": "CMOUW",
+            "Basic Residues": 8,
+            "Acidic Residues": 13,
+            "Hydrophobic Residues": 23,
+            "Polar Residues": 29,
+            "Positive Residues": 8,
+            "Negative Residues": 13,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_14878",
+                    "Similarity": 1.0,
+                    "Sequence": "ELDSPKEELDKYFKNHTSPDVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQELGKYE"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_14879",
+                    "Similarity": 1.0,
+                    "Sequence": "PKEELDKYFKNHTSPDVDLGLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQELGKYE"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_14887",
+                    "Similarity": 1.0,
+                    "Sequence": "ELDSPKEELDKYFKNHTSPDVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLID"
+                }
+            ]
+        }
+    }
+}

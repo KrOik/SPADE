@@ -1,0 +1,71 @@
+{
+    "SPADE_N_14401": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_14401",
+            "Peptide Name": "An-cecB-1 (An-cecB fragment, Synthetic AMPs, XXA, UCLL1c; Other derivatives: An-cecB-2 and An-cecB-3)",
+            "Source": "amino acid truncation, animal-derived, natural derivative",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "APRWKFGKRLEKLGRNVF",
+            "Sequence Length": 18,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antiparasitic"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 2202.61,
+            "PI": 11.73,
+            "Hydrophobicity": -0.91,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Lou J, Zhang D, Wu J, Zhu G, Zhang M, Tang J, Fang Y, He X, Cao J. 2024",
+                    "Reference": "Antimicrob Agents Chemother. 2024 Jun 14:e0031124. doi: 10.1128/aac.00311-24.PubMed",
+                    "Title": "Antimalarial activity of cecropin antimicrobial peptides derived from Anopheles mosquitoes."
+                }
+            ],
+            "Frequent Amino Acids": "KRF",
+            "Absent Amino Acids": "CDHIMOQSTUY",
+            "Basic Residues": 6,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 9,
+            "Positive Residues": 6,
+            "Negative Residues": 1,
+            "Net Charge": 5,
+            "Comments": "Sequence analysis: APD analysis reveals that this sequence is similar (52.94%) toAn-cecBK=A: 18%, R=L: 12%. GRAVY: -0.309; Mol Wt: 3854.68; mol formula: C181H300N53O39; mol ex coeff: 7040.Activity: inhibited P. falciparum 3D7 (IC50 68.63 uM). In addiiton, it inhibited bacterial growth S.aureus (MIC >200 uM), B. subtilis (MIC 18.94 uM), and E. coli (MIC 12.7 uM).Animal model:mouse: showed a dose-dependent inhibition by 17.03%, 39.35%, and 54.19% when IP treated at 10, 20, and 50 mg/kg (4 hpi), respectively, in P. berghei-infected mice (IP).SAR: An-cecB-2 (seq: RAAKKALPVIAGYKAL) and An-cecB-3 (seq: GKRLEKLGRNVFRAAKK) showed small inhibitory effects at 200 uM, indicating the importance of the N-terminal sequence for peptide activity.",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02712",
+                    "Similarity": 1.0,
+                    "Sequence": "APRWKFGKRLEKLGRNVFRAAKKALPVIAGYKAL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_26234",
+                    "Similarity": 1.0,
+                    "Sequence": "APRWKFGKRLEKLGRNVF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07528",
+                    "Similarity": 0.7777777777777778,
+                    "Sequence": "MNFTKLFIMVAIAVLLIAGIQPVEAAPRMEIGKRREKLGRNVFKAAKKALPVIAGYKALG"
+                }
+            ]
+        }
+    }
+}

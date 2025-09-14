@@ -1,0 +1,90 @@
+{
+    "SPADE_UN_00009": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_00009",
+            "Peptide Name": "Lactacin-F subunit LafA (Bacteriocin)",
+            "Source": "Lactobacillus johnsonii (strain CNCM I-12250 / La1 / NCC 533) (Gram-positive bacteria)",
+            "Family": "Belongs to the class IIb bacteriocin",
+            "Gene": "lafA",
+            "Sequence": "RNNWQTNVGGAVGSAMIGATVGGTICGPACAVAGAHYLPILWTAVTAATGGFGKIRK",
+            "Sequence Length": 57,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P24022"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "Enterococcus faecalis and other Lactobacilli.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C248H395N73O70S3",
+            "Mass": 5615.43,
+            "PI": 9.85,
+            "Net Charge": 5,
+            "Hydrophobicity": 0.43,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Comments": "Heat stable bacteriocin. peptides for activity lafA and lafX. Associated with a 180 kDa bacteriocin complex.",
+            "Literature": [
+                {
+                    "Title": "Purification and partial characterization of lactacin F, a bacteriocin produced by Lactobacillus acidophilus 11088.",
+                    "Pubmed ID": "1903624",
+                    "Reference": "Appl Environ Microbiol. 1991 Jan;57(1)114-121.",
+                    "Author": "Fremaux C, Ahn C, Klaenhammer TR.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=1903624"
+                },
+                {
+                    "Title": "The genome sequence of the probiotic intestinal bacterium Lactobacillus johnsonii NCC 533.",
+                    "Pubmed ID": "14983040",
+                    "Reference": "Proc Natl Acad Sci U S A. 2004 Feb 24;101(8)2512-2517.",
+                    "Author": "Pridmore RD, Berger B, Desiere F, Vilanova D, Barretto C, Pittet AC, Zwahlen MC, Rouvet M, Altermann E, Barrangou R, Mollet B, Mercenier A, Klaenhammer T, Arigoni F, Schell MA.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=14983040"
+                },
+                {
+                    "Title": "Cloning, phenotypic expression, and DNA sequence of the gene for lactacin F, an antimicrobial peptide produced by Lactobacillus spp.",
+                    "Pubmed ID": "",
+                    "Author": "Klaenhammer T.R.,Muriana P.M."
+                },
+                {
+                    "Title": "Molecular analysis of the lactacin F operon.",
+                    "Pubmed ID": "",
+                    "Author": "Klaenhammer T.R.,Ahn C.,Fremaux C."
+                }
+            ],
+            "Frequent Amino Acids": "GAT",
+            "Absent Amino Acids": "DEOU",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 28,
+            "Polar Residues": 34,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06085",
+                    "Similarity": 1.0,
+                    "Sequence": "MKQFNYLSHKDLAVVVGGRNNWQTNVGGAVGSAMIGATVGGTICGPACAVAGAHYLPILWTAVTAATGGFGKIRK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_22197",
+                    "Similarity": 1.0,
+                    "Sequence": "VGGTICGPACAVAGAHYLPI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00116",
+                    "Similarity": 0.6140350877192983,
+                    "Sequence": "RNNWAANIGGVGGATVAGWALGNAVCGPACGFVGAHYVPIAWAGVTAATGGFGKIRK"
+                }
+            ]
+        }
+    }
+}

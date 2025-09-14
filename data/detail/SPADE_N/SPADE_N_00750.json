@@ -1,0 +1,103 @@
+{
+    "SPADE_N_00750": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00750",
+            "Peptide Name": "Cycloviolacin-O2 (Plant defensin)",
+            "Source": "Viola biflora (Yellow wood violet) & Viola odorata (Sweet violet)",
+            "Family": "Belongs to the cyclotide family",
+            "Gene": "Not found",
+            "Sequence": "GIPCGESCVWIPCISSAIGCSCKSKVCYRN",
+            "Sequence Length": 30,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P58434",
+                "http://www.uniprot.org/uniprot/P85526"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Insecticidal"
+            ],
+            "Target Organism": "[Ref.16872274]Human tumor cell lines:RPMI-8226/s (IC50=0.12 µM), RPMI-8226/Dox40 (IC50=0.12 µM), RPMI-8226/LR-5 (IC50=0.12 µM), U-937GTB (IC50=0.26 µM), U-937Vcr (IC50=0.20 µM), ACHN (IC50=0.22 µM), CCRF-CEM (IC50=0.11 µM), CCRF-CEM/VM-1 (IC50=0.14 µM), NCI-H69 (IC50=0.12 µM), NCI-H69AR (IC50=0.26 µM).",
+            "Hemolytic Activity": "[Ref:16872274] It has 35% hemolytic activity at 1.0 μM and 60% hemolytic activity at 1.5 μM against human type A red blood cells",
+            "Cytotoxicity": "[Ref.20580652] Cytotoxicity:U251(IC50=17.05μg/mL), MDA-MB-231(IC50=4.81μg/mL), A549(IC50=5.99μg/mL), DU145(IC50=5.08μg/mL), BEL-7402(IC5=6.07μg/mL).",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "No specific N-terminal",
+            "C-terminal Modification": "No specific C-terminal",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C133H215N37O40S6",
+            "Mass": 3164.74,
+            "PI": 8.33,
+            "Net Charge": 2,
+            "Hydrophobicity": 0.44,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Probably participates in a plant defense mechanism. Has strong cytotoxic activity against a variety of drug-resistant and drug-sensitive human tumor cell lines, and against primary chronic lymphocytic leukemia and ovarian carcinoma cells. Has weaker cytotoxic activity against normal lymphocytes. Has hemolytic activity.",
+            "PTM": "This is a cyclic peptide which contains three disulfide bonds 4-20; 8-22; 13-27.",
+            "Literature": [
+                {
+                    "Title": "A novel suite of cyclotides from Viola odorata sequence variation and the implications for structure, function and stability..",
+                    "Pubmed ID": "16872274",
+                    "Reference": "Biochem J. 2006 Nov 15;400(1)1-12.",
+                    "Author": "Ireland DC, Colgrave ML, Craik DJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16872274"
+                },
+                {
+                    "Title": "Plant cyclotides A unique family of cyclic and knotted proteins that defines the cyclic cystine knot structural motif.",
+                    "Pubmed ID": "10600388",
+                    "Reference": "J Mol Biol. 1999 Dec 17;294(5)1327-1336.",
+                    "Author": "Craik DJ, Daly NL, Bond T, Waine C.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=10600388"
+                },
+                {
+                    "Title": "A novel suite of cyclotides from Viola odorata sequence variation and the implications for structure, function and stability",
+                    "Pubmed ID": "16872274",
+                    "Reference": "Biochem J\n. 2006 Nov 15;400(1)1-12.",
+                    "Author": "David C Ireland 1, Michelle L Colgrave, David J Craik",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16872274"
+                },
+                {
+                    "Title": "Plant cyclotides: a unique family of cyclic and knotted proteins that defines the cyclic cystine knot structural motif.",
+                    "Pubmed ID": "",
+                    "Author": "Waine C.,Bond T.,Daly N.L.,Craik D.J."
+                },
+                {
+                    "Title": "Cyclotides: a novel type of cytotoxic agents.",
+                    "Pubmed ID": "R2002J0416",
+                    "Author": "Gullbo J.,Claeson P.,Johansson S.,Goransson U.,Lindholm P."
+                },
+                {
+                    "Title": "A novel suite of cyclotides from Viola odorata: sequence variation and the implications for structure, function and stability.",
+                    "Pubmed ID": "R2006J0070",
+                    "Author": "Craik D.J.,Colgrave M.L.,Ireland D.C."
+                }
+            ],
+            "Frequent Amino Acids": "CSI",
+            "Absent Amino Acids": "DFHLMOQTU",
+            "Basic Residues": 3,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 19,
+            "Positive Residues": 3,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06877",
+                    "Similarity": 1.0,
+                    "Sequence": "CGESCVWIPCISSAIGCSCKSKVCYRNGIP"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_17034",
+                    "Similarity": 1.0,
+                    "Sequence": "GIPCGSCVWIPCISSAIGCSCKSKVCYRN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00350",
+                    "Similarity": 0.9666666666666667,
+                    "Sequence": "GIPCGESCVWIPCITSAIGCSCKSKVCYRN"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_29205": {
+        "Sequence Information": {
+            "Peptide Name": "Penaeidin 4-1/Penaeidin-4d (1-22)",
+            "Sequence": "HSSGYTRPLRKPSRPIFIRPIG",
+            "Sequence Length": 22,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "Q962A7",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/Q962A7",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Discovery of synthetic penaeidin activity against antibiotic-resistant fungi.",
+                    "Pubmed ID": "16999777",
+                    "Reference": "Chem Biol Drug Des. 2006;68:120-127",
+                    "Author": "Cuthbertson BJ, Büllesbach EE, Gross PS",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/16999777"
+                }
+            ],
+            "Mass": 2535.95,
+            "PI": 12.0,
+            "Net Charge": 6,
+            "Hydrophobicity": -0.75,
+            "Frequent Amino Acids": "PRI",
+            "Absent Amino Acids": "ACDEMNOQUVW",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 17,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_29205",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02228",
+                    "Similarity": 1.0,
+                    "Sequence": "HSSGYTRPLRKPSRPIFIRPIGCDVCYGIPSSTARLCCFRYGDCCHL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08798",
+                    "Similarity": 1.0,
+                    "Sequence": "HSSGYTRPLRKPSRPIFIRPI"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_23203",
+                    "Similarity": 1.0,
+                    "Sequence": "HSSGYTRPLRKPSRPIFIRPI"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Micrococcus luteus(MIC=6.25-12.5µM),Bacillus cereus(MIC=>50µM),Bacillus subtilis(no activity data),Bacillus megaterium(MIC=>50µM),Bacillus sp. ATCC 14412(MIC=3.12-6.25µM),Staphylococcus haemolyticus(MIC=>50µM),Escherichia coli(MIC=>50µM),Cryptococcus neoformans Steroform A(MIC=2-5µM),Cryptococcus neoformans Steroform B(MIC=2-5µM),Cryptococcus neoformans Steroform C(MIC=1.6-2µM),Cryptococcus neoformans Steroform D(MIC=0.8-1.6µM),Candida albicans A39(MIC=12.5-25µM),Yarrowia lipolytica(MIC=2-5µM),Candida inconspicua(MIC=12.5-25µM),Candida krusei(MIC=5-10µM),Candida lusitaniae(MIC=2-5µM),Candida glabrata(MIC=5-10µM)"
+        }
+    }
+}

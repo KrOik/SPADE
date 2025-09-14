@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>地理位置语言检测测试</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: white;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        
+        .test-section {
+            margin: 20px 0;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .test-button {
+            background: linear-gradient(45deg, #ff6b6b, #ee5a24);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 10px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        
+        .test-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+        }
+        
+        .status {
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            background: rgba(255, 255, 255, 0.1);
+        }
+        
+        .info {
+            background: rgba(52, 152, 219, 0.3);
+            border-left: 4px solid #3498db;
+        }
+        
+        .success {
+            background: rgba(46, 204, 113, 0.3);
+            border-left: 4px solid #2ecc71;
+        }
+        
+        .warning {
+            background: rgba(241, 196, 15, 0.3);
+            border-left: 4px solid #f1c40f;
+        }
+        
+        .error {
+            background: rgba(231, 76, 60, 0.3);
+            border-left: 4px solid #e74c3c;
+        }
+        
+        .language-selector-container {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+        
+        .test-controls {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 20px 0;
+        }
+        
+        .mock-country {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 10px;
+            border-radius: 5px;
+            margin: 5px;
+            display: inline-block;
+        }
+        
+        .country-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🌍 地理位置语言检测测试</h1>
+        
+        <div class="test-section">
+            <h2>📋 测试说明</h2>
+            <p>此页面用于测试基于地理位置的语言自动检测功能：</p>
+            <ul>
+                <li>✅ 自动调用 ipapi.co API 获取用户地理位置</li>
+                <li>✅ 根据国家代码匹配支持的语言</li>
+                <li>✅ 如果用户所在地不在支持语言内，显示英文提示</li>
+                <li>✅ 更新语言选择器状态为英文</li>
+            </ul>
+        </div>
+        
+        <div class="test-section">
+            <h2>🎯 测试控制</h2>
+            <div class="test-controls">
+                <button class="test-button" onclick="testGeoLocation()">🌍 测试地理位置检测</button>
+                <button class="test-button" onclick="clearNotification()">🗑️ 清除通知标记</button>
+                <button class="test-button" onclick="resetLanguage()">🔄 重置语言</button>
+                <button class="test-button" onclick="showNotification()">💬 手动显示通知</button>
+            </div>
+        </div>
+        
+        <div class="test-section">
+            <h2>🌐 支持的国家/语言映射</h2>
+            <div class="country-list">
+                <div class="mock-country">🇨🇳 CN → 中文</div>
+                <div class="mock-country">🇹🇼 TW → 中文</div>
+                <div class="mock-country">🇭🇰 HK → 中文</div>
+                <div class="mock-country">🇸🇬 SG → 中文</div>
+                <div class="mock-country">🇪🇸 ES → Español</div>
+                <div class="mock-country">🇲🇽 MX → Español</div>
+                <div class="mock-country">🇦🇷 AR → Español</div>
+                <div class="mock-country">🇨🇴 CO → Español</div>
+                <div class="mock-country">🇵🇪 PE → Español</div>
+                <div class="mock-country">🇩🇪 DE → Deutsch</div>
+                <div class="mock-country">🇦🇹 AT → Deutsch</div>
+                <div class="mock-country">🇨🇭 CH → Deutsch</div>
+                <div class="mock-country">🇯🇵 JP → 日本語</div>
+                <div class="mock-country">🇺🇸 US → English</div>
+                <div class="mock-country">🇬🇧 GB → English</div>
+                <div class="mock-country">🇨🇦 CA → English</div>
+                <div class="mock-country">🇦🇺 AU → English</div>
+                <div class="mock-country">🇳🇿 NZ → English</div>
+            </div>
+        </div>
+        
+        <div class="test-section">
+            <h2>📊 测试状态</h2>
+            <div id="status" class="status info">
+                等待测试开始...
+            </div>
+        </div>
+        
+        <div class="test-section">
+            <h2>🔧 功能说明</h2>
+            <div class="info">
+                <h3>自动检测流程：</h3>
+                <ol>
+                    <li>页面加载后延迟1秒执行地理位置检测</li>
+                    <li>调用 ipapi.co/json/ API 获取用户国家代码</li>
+                    <li>根据国家代码映射到支持的语言</li>
+                    <li>如果语言不在支持列表中，显示"Language has been set to English"通知</li>
+                    <li>自动将语言选择器状态更新为英文</li>
+                </ol>
+            </div>
+            
+            <div class="warning">
+                <h3>注意事项：</h3>
+                <ul>
+                    <li>通知透明度设置为45%，符合要求</li>
+                    <li>通知会在5秒后自动消失</li>
+                    <li>使用sessionStorage避免重复显示通知</li>
+                    <li>支持移动端响应式设计</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <!-- 语言选择器容器 -->
+    <div class="language-selector-container" id="languageSelectorMinimal"></div>
+    
+    <!-- 引入语言选择器脚本 -->
+    <script src="../js/language-selector-minimal.js"></script>
+    
+    <script>
+        // 测试函数
+        function testGeoLocation() {
+            updateStatus('正在测试地理位置检测...', 'info');
+            
+            // 模拟API调用
+            fetch('https://ipapi.co/json/')
+                .then(response => response.json())
+                .then(data => {
+                    const countryCode = data.country_code;
+                    const detectedLanguage = mapCountryToLanguage(countryCode);
+                    const supportedLanguages = ['en', 'zh-Hans', 'es', 'de', 'ja'];
+                    
+                    let message = `检测到国家: ${countryCode} (${data.country_name})<br>`;
+                    message += `映射语言: ${detectedLanguage}<br>`;
+                    
+                    if (supportedLanguages.includes(detectedLanguage)) {
+                        message += `✅ 语言在支持列表中，将自动切换到 ${detectedLanguage}`;
+                        updateStatus(message, 'success');
+                    } else {
+                        message += `⚠️ 语言不在支持列表中，将显示英文通知并设置为英文`;
+                        updateStatus(message, 'warning');
+                    }
+                })
+                .catch(error => {
+                    updateStatus(`❌ API调用失败: ${error.message}`, 'error');
+                });
+        }
+        
+        function clearNotification() {
+            if (window.SPADE_LANGUAGE_SELECTOR_MINIMAL) {
+                window.SPADE_LANGUAGE_SELECTOR_MINIMAL.clearNotificationMark();
+                updateStatus('✅ 通知标记已清除，可以重新显示通知', 'success');
+            } else {
+                updateStatus('❌ 语言选择器未初始化', 'error');
+            }
+        }
+        
+        function resetLanguage() {
+            localStorage.removeItem('spade_language');
+            location.reload();
+        }
+        
+        function showNotification() {
+            if (window.SPADE_LANGUAGE_SELECTOR_MINIMAL && window.SPADE_LANGUAGE_SELECTOR_MINIMAL.getInstance()) {
+                window.SPADE_LANGUAGE_SELECTOR_MINIMAL.getInstance().showLanguageNotification();
+                updateStatus('✅ 手动显示通知', 'success');
+            } else {
+                updateStatus('❌ 语言选择器未初始化', 'error');
+            }
+        }
+        
+        function updateStatus(message, type) {
+            const statusElement = document.getElementById('status');
+            statusElement.className = `status ${type}`;
+            statusElement.innerHTML = message;
+        }
+        
+        function mapCountryToLanguage(countryCode) {
+            const countryLanguageMap = {
+                'CN': 'zh-Hans', 'TW': 'zh-Hans', 'HK': 'zh-Hans', 'SG': 'zh-Hans',
+                'ES': 'es', 'MX': 'es', 'AR': 'es', 'CO': 'es', 'PE': 'es',
+                'DE': 'de', 'AT': 'de', 'CH': 'de',
+                'JP': 'ja',
+                'US': 'en', 'GB': 'en', 'CA': 'en', 'AU': 'en', 'NZ': 'en'
+            };
+            return countryLanguageMap[countryCode] || 'en';
+        }
+        
+        // 页面加载完成后的初始化
+        document.addEventListener('DOMContentLoaded', () => {
+            updateStatus('✅ 页面已加载，语言选择器已初始化', 'success');
+            
+            // 监听语言选择器事件
+            document.addEventListener('languageSelector:initialized', () => {
+                updateStatus('✅ 语言选择器初始化完成，地理位置检测将在1秒后开始', 'success');
+            });
+            
+            document.addEventListener('languageSelector:languageChanged', (event) => {
+                updateStatus(`✅ 语言已切换: ${event.detail.from} → ${event.detail.to}`, 'success');
+            });
+        });
+    </script>
+</body>
+</html>

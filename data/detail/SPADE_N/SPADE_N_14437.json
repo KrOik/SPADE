@@ -1,0 +1,69 @@
+{
+    "SPADE_N_14437": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_14437",
+            "Peptide Name": "WL-1 (Synthetic AMPs, GF-17 analog, UCLL1)",
+            "Source": "amino acid substitution, human cathelicidin analog, animal-derived, natural derivative",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "GWKRIKQRIKDKLRNL",
+            "Sequence Length": 16,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antiviral"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 2052.47,
+            "PI": 11.74,
+            "Hydrophobicity": -1.52,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Guo X, An Y, Tan W, Ma L, Wang M, Li J, Li B, Hou W, Wu L. 2023",
+                    "Reference": "Front Microbiol. 2023 Jun 5;14:1201505. doi: 10.3389/fmicb.2023.1201505.PubMed",
+                    "Title": "Cathelicidin-derived antiviral peptide inhibits herpes simplex virus 1 infection."
+                }
+            ],
+            "Frequent Amino Acids": "KRI",
+            "Absent Amino Acids": "ACEFHMOPSTUVY",
+            "Basic Residues": 7,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 9,
+            "Positive Residues": 7,
+            "Negative Residues": 1,
+            "Net Charge": 6,
+            "Comments": "Peptide design: WL-1 is a modified version of GF-17 by making the following changes F17W, V21K, F27K, and deleting V32.Sequence analysis: APD analysis reveals that this sequence shows similarity (76.47%) toGF-17K: 25%; R: 19%, I=L: 13%.Activity: inhibited herpes simplex virus 1 (HSV-1) infection in epithelial and neuronal cells.Animal model:mouse: beneficial treatment outcomes were observed in HSV-1 ear infected mice after WL-1 treatment.",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_26853",
+                    "Similarity": 1.0,
+                    "Sequence": "GWKRIKQRIKDKLRNL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_25881",
+                    "Similarity": 1.0,
+                    "Sequence": "LRNLVPRTES"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_22155",
+                    "Similarity": 0.9166666666666666,
+                    "Sequence": "KRIKQRIKDFLR"
+                }
+            ]
+        }
+    }
+}

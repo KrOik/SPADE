@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_29750": {
+        "Sequence Information": {
+            "Peptide Name": "Caseicin B Minus-E4",
+            "Sequence": "VLNNLLR",
+            "Sequence Length": 7,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Extensive manipulation of caseicins A and B highlights the tolerance of these antimicrobial peptides to change.",
+                    "Pubmed ID": "22247170",
+                    "Reference": "Appl Environ Microbiol. 2012;78:2353-2358",
+                    "Author": "Norberg S, O'Connor PM, Stanton C, Ross RP, Hill C, Fitzgerald GF, Cotter PD",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/22247170"
+                },
+                {
+                    "Title": "PepVAE3: variational autoencoder framework for antimicrobial peptide generation and activity prediction",
+                    "Pubmed ID": "",
+                    "Reference": "bioRxiv. 2021;doi: https://doi.org/10.1101/2021.04.07.438720:",
+                    "Author": "Dean SN, Alvarez JAE, Zabetakis D, Walper SA, Malanoski AP",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/"
+                }
+            ],
+            "Mass": 841.01,
+            "PI": 9.72,
+            "Net Charge": 1,
+            "Hydrophobicity": 0.59,
+            "Frequent Amino Acids": "LNR",
+            "Absent Amino Acids": "ACDEFGHIKMOPQSTUWY",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 4,
+            "Polar Residues": 3,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_29750",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02438",
+                    "Similarity": 1.0,
+                    "Sequence": "RPKHPIKHQGLPQEVLNENLLRF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04412",
+                    "Similarity": 1.0,
+                    "Sequence": "VLNENLLR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08619",
+                    "Similarity": 1.0,
+                    "Sequence": "VLNENLL"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Cronobacter sakazakii DPC 6440(MIC=625µM),Cronobacter sakazakii DSM 4485(MIC=2500µM),Cronobacter sakazakii ATCC BAA-894(MIC=1250µM),Cronobacter muytjensii ATCC 51329(MIC=1250µM),Salmonella enterica subsp. enterica serovar Typhimurium LT2(MIC=1250µM),Escherichia coli NCIMB 11843(MIC=2500µM),Klebsiella pneumoniae NCIMB 13218(MIC=1250µM),Pseudomonas fluorescens NCIMB 9046(MIC=2500µM),Staphylococcus aureus NCTC 8325-4(MIC=312µM),Staphylococcus aureus SA113(MIC=312µM),Staphylococcus aureus RF122(MIC=1250µM),Staphylococcus aureus Newman(MIC=1250µM),Staphylococcus aureus RN4220(MIC=1250µM),Escherichia coli K-12(MIC=>128µM),Staphylococcus aureus ATCC 12600(MIC=>128µM),Pseudomonas aeruginosa ATCC 27853(MIC=64µM)"
+        }
+    }
+}

@@ -1,0 +1,70 @@
+{
+    "SPADE_N_01275": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01275",
+            "Peptide Name": "Odorranain-O1 (OdO1; Frogs, amphibians, animals)",
+            "Source": "Odorrana grahami (Yunnanfu frog)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "AVPLIYNRPGIYVTKRPKGK",
+            "Sequence Length": 20,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Homology",
+            "Biological Activity": [
+                "Antimicrobial"
+            ],
+            "Target Organism": "[Ref.17272268]Not detectable activity",
+            "Hemolytic Activity": "[Ref:17272268]Non-hemolytic activity against rabbit red blood cells",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C106H176N30O25",
+            "Mass": 2270.72,
+            "PI": 10.57,
+            "Net Charge": 5,
+            "Hydrophobicity": -0.51,
+            "Half Life": "Mammalian:4.4 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Found no antimicrobial activity against the tested microbes and also has no hemolytic activity against red cell.",
+            "Literature": [
+                {
+                    "Title": "Anti-infection peptidomics of amphibian skin.",
+                    "Pubmed ID": "17272268",
+                    "Reference": "Mol Cell Proteomics. 2007 May;6(5)882-894.",
+                    "Author": "Li J, Xu X, Xu C, Zhou W, Zhang K, Yu H, Zhang Y, Zheng Y, Rees HH, Lai R, Yang D, Wu J.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=17272268"
+                }
+            ],
+            "Frequent Amino Acids": "KPG",
+            "Absent Amino Acids": "CDEFHMOQSUW",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 12,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01295",
+                    "Similarity": 0.9,
+                    "Sequence": "AVPLIYNRPGIYAPKRPKGK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_03626",
+                    "Similarity": 0.6666666666666666,
+                    "Sequence": "RRAAVPLIVIRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_16157",
+                    "Similarity": 0.6666666666666666,
+                    "Sequence": "RRPKGRGKRRREKQRPDAVPRR"
+                }
+            ]
+        }
+    }
+}

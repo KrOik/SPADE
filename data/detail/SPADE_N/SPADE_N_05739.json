@@ -1,0 +1,101 @@
+{
+    "SPADE_N_05739": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 2004/0170642 A1",
+                "Patent Link": "http://www.lens.org/lens/patent/US_2004_0170642_A1",
+                "Patent Type": "Patent Application",
+                "Publication Date": "2004-9-2",
+                "Family Info": "CA2418854A1,EP1309345A2,US7658928,US20080166368,WO2002013857A2,WO2002013857A3,WO2002013857A8",
+                "Patent Title": "Vaccine which comprises at least one antigen and a cathelididin derived antimicrobial peptide of a derivative thereof.",
+                "Abstract": "Described is a vaccine which comprises at least one antigen and at least one cathelicidin derived antimicrobial peptide or a derivative thereof as well as the use of a cathelicidin derived antimicrobial peptide or a derivative thereof for the preparation of an adjuvant for enhancing the immune response to at least one antigen."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_05739",
+            "Peptide Name": "BACTENECIN 7 (bac 7, Pro-rich; bovine cathelicidin, cattle, ruminant, mammals, animals)",
+            "Source": "Bos taurus (Bovine neutrophils)",
+            "Family": "Belongs to the cathelicidin family.",
+            "Gene": "CATHL3",
+            "Sequence": "RRIRPRPPRLPRPRPRPLPFPRPGPRPIPRPLPFPRPGPRPIPRPLPFPRPGPRPIPRPL",
+            "Sequence Length": 60,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P19661"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram-",
+                "Anti-Gram+"
+            ],
+            "Target Organism": "[Ref.2777377] Gram-negative bacteria:Escherichia coli ATCC 25922 (MIC=12 µg/ml in Murller-Hinton, MIC=50 µg/ml in Iso-Sensitest), Salmonella typhimurium LT2 (MIC=12 µg/ml in Murller-Hinton, MIC=200 µg/ml in Iso-Sensitest), Salmonella typhimurium ATCC 14028 (MIC=25 µg/ml in Murller-Hinton, MIC=100 µg/ml in Iso-Sensitest), Klebsiella pneumoniae ATCC 13883 (MIC=12 µg/ml in Murller-Hinton, MIC=200 µg/ml in Iso-Sensitest), Enterobacter cloacae ATCC 13047 (MIC=25 µg/ml in Murller-Hinton, MIC=200 µg/ml in Iso-Sensitest), Pseudomonas aeruginosa ATCC 7700 (MIC=50 µg/ml in Murller-Hinton);Gram-positive bacterium:Staphylococcus epidermidis ATCC 12228 (MIC=200 µg/ml in Murller-Hinton, MIC=200 µg/ml in Iso-Sensitest).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C329H537N111O61",
+            "Mass": 7023.49,
+            "PI": 12.0,
+            "Net Charge": 17,
+            "Hydrophobicity": -1.29,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Function": "Antibacterial activity against an array of gram-negative and gram-positive bacteria.",
+            "PTM": "Elastase is responsible for its maturation.",
+            "Literature": [
+                {
+                    "Title": "Purification, composition, and activity of two bactenecins, antibacterial peptides of bovine neutrophils.",
+                    "Pubmed ID": "2777377",
+                    "Reference": "Infect Immun. 1989 Oct;57(10) 3142-6.",
+                    "Author": "Gennaro R, Skerlavaj B, Romeo D.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=2777377"
+                },
+                {
+                    "Title": "Molecular cloning of Bac7, a proline- and arginine-rich antimicrobial peptide from bovine neutrophils.",
+                    "Pubmed ID": "",
+                    "Author": "Zanetti M.,Romeo D.,Scocchi M."
+                },
+                {
+                    "Title": "Amino acid sequences of two proline-rich bactenecins. Antimicrobial peptides of bovine neutrophils.",
+                    "Pubmed ID": "",
+                    "Author": "Romeo D.,Przybylski M.,Schneider K.,Gennaro R.,Frank R.W."
+                },
+                {
+                    "Title": "Purification and structural characterization of bovine cathelicidins, precursors of antimicrobial peptides.",
+                    "Pubmed ID": "",
+                    "Author": "Romeo D.,Lenarcic B.,Tossi A.,Storici P."
+                }
+            ],
+            "Frequent Amino Acids": "PRL",
+            "Absent Amino Acids": "ACDEHKMNOQSTUVWY",
+            "Basic Residues": 17,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 40,
+            "Polar Residues": 17,
+            "Positive Residues": 17,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02463",
+                    "Similarity": 1.0,
+                    "Sequence": "RRIRPRPPRLPRPRPRPLPFPRPGPRPIPRPLPFPRPGPRPIPRPLPFPRPGPRPIPRP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07423",
+                    "Similarity": 1.0,
+                    "Sequence": "RRIRPRPPRLPRPRPRPLPFPRPGPRPIPRPLPFPRPGPRPIPRPLPFPRPGPRP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09653",
+                    "Similarity": 1.0,
+                    "Sequence": "RRIRPRPPRLPRPRPRPL"
+                }
+            ]
+        }
+    }
+}

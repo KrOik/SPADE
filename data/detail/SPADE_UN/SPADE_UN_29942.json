@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_29942": {
+        "Sequence Information": {
+            "Peptide Name": "CEM11, MSI-78 (11-22)",
+            "Sequence": "KFGKAFVKILKK",
+            "Sequence Length": 12,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P11006",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P11006",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Antimicrobial properties of membrane-active dodecapeptides derived from MSI-78.",
+                    "Pubmed ID": "25680229",
+                    "Reference": "Biochim Biophys Acta. 2015;1848:1139-1146",
+                    "Author": "Monteiro C, Fernandes M, Pinheiro M, Maia S, Seabra CL, Ferreira-da-Silva F, Costa F, Reis S, Gomes P, Martins MC",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/25680229"
+                }
+            ],
+            "Mass": 1406.8,
+            "PI": 10.6,
+            "Net Charge": 5,
+            "Hydrophobicity": 0.0,
+            "Frequent Amino Acids": "KFA",
+            "Absent Amino Acids": "CDEHMNOPQRSTUWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 6,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_29942",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_08600",
+                    "Similarity": 1.0,
+                    "Sequence": "RAGLQFPVGGIGKFLHSAKKFGK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10796",
+                    "Similarity": 1.0,
+                    "Sequence": "GKFLKKAKKFGK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10797",
+                    "Similarity": 1.0,
+                    "Sequence": "KFLKKAKKFGKA"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Staphylococcus aureus ATCC 33591(MIC=256-512µg/ml),Staphylococcus aureus ATCC 25923(MIC=256-512µg/ml),Staphylococcus epidermidis ATCC 35984(MIC=64-128µg/ml),Pseudomonas aeruginosa ATCC 27853(MIC=16-32µg/ml)"
+        }
+    }
+}

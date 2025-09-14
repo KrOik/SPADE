@@ -1,0 +1,74 @@
+{
+    "SPADE_UN_11341": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_11341",
+            "Peptide Name": "VG16KRKP",
+            "Source": "Synthetic construct",
+            "Family": "",
+            "Gene": "",
+            "Sequence": "VARGWKRKCPLFGKGG",
+            "Sequence Length": 16,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Antifungal",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-negative:E. coli (MIC=8 uM), X. campestris  (MIC=10 uM), X. oryzae  (MIC=15 uM);Gram-positive:B. subtilis (MIC=50 uM);Fungi:Candida albicans  (MIC=2 uM), Cryptococcus grubii  (MIC=5 uM)",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "cell membrane",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "The solution-NMR structure of VG16KRKP in lipopolysaccharide features a folded conformation with a centrally located turn-type structure stabilized by aromatic-aromatic packing interactions with extended N- and C-termini.",
+            "Formula": "C80H130N26O17S",
+            "Mass": 1760.12,
+            "PI": 11.11,
+            "Net Charge": 5,
+            "Hydrophobicity": -0.61,
+            "Half Life": "Mammalian:100 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "VG16KRKP is capable of inhibiting bacterial disease progression in plants.",
+            "Literature": [
+                {
+                    "Title": "Antimicrobial Peptides Insights into Membrane Permeabilization, Lipopolysaccharide Fragmentation and Application in Plant Disease Control",
+                    "Pubmed ID": "26144972",
+                    "Reference": "Sci Rep. 2015 Jul 6;511951.",
+                    "Author": "Datta A, Ghosh A, Airoldi C, etal.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=26144972"
+                }
+            ],
+            "Frequent Amino Acids": "GKR",
+            "Absent Amino Acids": "DEHIMNOQSTUY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 8,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_01876",
+                    "Similarity": 1.0,
+                    "Sequence": "RVARIVVIRVAR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_01970",
+                    "Similarity": 1.0,
+                    "Sequence": "RLARIVVARVAR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_24563",
+                    "Similarity": 0.9375,
+                    "Sequence": "VARGWKRKAPLFGKGG"
+                }
+            ]
+        }
+    }
+}

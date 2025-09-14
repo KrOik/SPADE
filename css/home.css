@@ -1,0 +1,523 @@
+<style>
+    /* 滚动条整体样式 */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+/* 滚动条轨道 */
+::-webkit-scrollbar-track {
+  background: rgba(255,255,255,0.05);
+  border-radius: 10px;
+}
+
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.2);
+  border-radius: 10px;
+}
+
+/* 鼠标悬停时的滑块 */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255,255,255,0.3);
+}
+
+/* 新的页面进度指示器样式 */
+.page-progress-indicator {
+    position: fixed;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.progress-bar {
+    position: absolute;
+    height: 180px;
+    width: 2px;
+    background: rgba(255,255,255,0.15);
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+    border-radius: 1px;
+    box-shadow: 0 0 10px rgba(255,255,255,0.1);
+}
+
+.progress-fill {
+    position: absolute;
+    width: 100%;
+    background: linear-gradient(to bottom, var(--accent-color), var(--primary-color));
+    top: 0;
+    height: 0%;
+    transition: height 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    border-radius: 1px;
+    box-shadow: 0 0 8px var(--accent-color);
+}
+
+.section-dots {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.section-dot {
+    position: relative;
+    width: 12px;
+    height: 12px;
+    background: rgba(255,255,255,0.2);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+}
+
+.section-dot::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: var(--accent-color);
+    opacity: 0;
+    transition: transform 0.15s ease-out, 
+                opacity 0.15s ease-out;
+}
+
+.section-dot:hover, 
+.section-dot.active {
+    background: var(--accent-color);
+    transform: scale(1.2);
+}
+
+.section-dot.active::before {
+    transform: translate(-50%, -50%) scale(1.5);
+    opacity: 0.3;
+    animation: pulse 2s infinite;
+}
+
+.dot-pulse {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: transparent;
+    z-index: -1;
+}
+
+.section-dot.active .dot-pulse {
+    animation: dot-pulse 2s infinite;
+}
+
+.dot-label {
+    position: absolute;
+    top: 50%;
+    right: calc(100% + 10px);
+    transform: translateY(-50%);
+    background: rgba(255,255,255,0.15);
+    padding: 5px 10px;
+    border-radius: 6px;
+    font-size: 12px;
+    color: white;
+    white-space: nowrap;
+    opacity: 0;
+    transform-origin: right center;
+    transform: translateY(-50%) translateX(10px) scale(0.8);
+    transition: opacity 0.2s ease-out, transform 0.2s ease-out;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.1);
+    font-weight: 500;
+}
+
+.section-dot:hover .dot-label {
+    opacity: 1;
+    transform: translateY(-50%) translateX(0) scale(1);
+}
+
+@keyframes dot-pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(80, 226, 194, 0.7);
+    }
+    70% {
+        box-shadow: 0 0 0 10px rgba(80, 226, 194, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(80, 226, 194, 0);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 0.3;
+    }
+    70% {
+        transform: translate(-50%, -50%) scale(1.5);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 0;
+    }
+}
+
+/* 添加统一的响应式设计 */
+/* 大型设备（1440px以上）的样式 */
+@media (min-width: 1441px) {
+    header {
+        padding: 15px 150px;
+    }
+}
+
+/* 中型桌面设备 (1280px - 1440px) */
+@media (min-width: 1280px) and (max-width: 1440px) {
+    header {
+        padding: 15px 80px;
+    }
+}
+
+/* 小型桌面设备 (1024px - 1279px) */
+@media (min-width: 1024px) and (max-width: 1279px) {
+    header {
+        padding: 15px 50px;
+    }
+    
+    header .logo {
+        font-size: 1.5em;
+    }
+    
+    header ul li a {
+        padding: 5px 12px;
+        font-size: 0.95em;
+    }
+}
+
+/* 平板设备 (768px - 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+    header {
+        padding: 15px 30px;
+    }
+    
+    header ul li a {
+        padding: 5px 10px;
+        font-size: 0.9em;
+    }
+    
+    .logo {
+        font-size: 1.4em !important;
+    }
+    
+    .language-selector {
+        top: 85px;
+    }
+    
+    .page-progress-indicator {
+        right: 15px;
+    }
+}
+
+/* 移动设备 (小于 768px) */
+@media (max-width: 767px) {
+    header {
+        padding: 12px 20px;
+    }
+
+    .nav-toggle {
+        display: block;
+    }
+
+    .nav-menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: rgba(43, 16, 85, 0.95);
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+        z-index: 1000;
+        border-radius: 0 0 10px 10px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    .nav-menu.active {
+        display: flex;
+    }
+
+    .nav-menu li {
+        margin: 10px 0;
+    }
+    
+    .nav-menu li a {
+        padding: 8px 20px;
+        font-size: 1em;
+        border-radius: 25px;
+    }
+    
+    .logo {
+        font-size: 1.2em !important;
+    }
+    
+    .logo-container div {
+        font-size: 0.5em !important;
+    }
+    
+    .team-link {
+        font-size: 0.5em;
+    }
+    
+    .language-selector {
+        top: 80px;
+        right: 10px;
+    }
+    
+    .language-current {
+        padding: 8px 10px;
+    }
+    
+    .language-options {
+        width: 150px;
+    }
+    
+    .language-options a {
+        padding: 8px 12px;
+        font-size: 0.9em;
+    }
+    
+    .page-progress-indicator {
+        right: 10px;
+    }
+    
+    .section-dot {
+        width: 10px;
+        height: 10px;
+    }
+    
+    .section-dots {
+        gap: 25px;
+    }
+    
+    /* 搜索部分移动端优化 */
+    .search-section {
+        padding: 100px 20px 60px;
+    }
+    
+    .title {
+        font-size: 2rem;
+        margin-bottom: 15px;
+    }
+    
+    .subtitle {
+        font-size: 1rem;
+        margin-bottom: 30px;
+    }
+    
+    .search-container {
+        flex-direction: column;
+        gap: 15px;
+        max-width: 100%;
+    }
+    
+    .search-category {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .search-input-wrapper {
+        width: 100%;
+    }
+    
+    .search-input {
+        padding: 12px 20px;
+        font-size: 1rem;
+    }
+    
+    /* 信息卡片移动端优化 */
+    .info-cards-section {
+        padding: 60px 20px;
+    }
+    
+    .info-card {
+        width: 100%;
+        min-height: auto;
+        padding: 25px;
+        margin-bottom: 20px;
+    }
+    
+    .info-cards-section .section-title {
+        font-size: 2rem;
+        margin-bottom: 15px;
+    }
+    
+    .info-cards-section .section-subtitle {
+        font-size: 1rem;
+        margin-bottom: 30px;
+    }
+    
+    .cards-container {
+        min-height: 450px;
+    }
+    
+    /* 地图部分移动端优化 */
+    .research-map-section {
+        padding: 60px 20px;
+    }
+    
+    .map-container {
+        height: 250px;
+        margin: 30px 0;
+    }
+    
+    .map-marker {
+        width: 8px;
+        height: 8px;
+    }
+    
+    .marker-details {
+        width: 90%;
+        max-width: 300px;
+        padding: 20px;
+    }
+    
+    /* 统计数据移动端优化 */
+    .stats-section {
+        padding: 60px 20px;
+    }
+    
+    .stats-container {
+        gap: 20px;
+        grid-template-columns: 1fr;
+    }
+    
+    .stats-card {
+        padding: 25px;
+    }
+    
+    .counter-number {
+        font-size: 2.5rem;
+    }
+    
+    /* 团队部分移动端优化 */
+    .team-section {
+        padding: 60px 20px;
+    }
+    
+    .team-molecule-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        margin-top: 30px;
+    }
+    
+    .team-member-card {
+        padding: 25px;
+    }
+    
+    .member-avatar {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+/* 超小屏幕设备 (小于 480px) */
+@media (max-width: 479px) {
+    header {
+        padding: 10px 15px;
+    }
+    
+    .logo {
+        font-size: 1em !important;
+    }
+    
+    .logo-container div {
+        font-size: 0.45em !important;
+        line-height: 1.2;
+    }
+    
+    .language-selector {
+        top: 75px;
+        right: 5px;
+    }
+    
+    .page-progress-indicator {
+        right: 5px;
+    }
+    
+    .search-section {
+        padding: 80px 15px 50px;
+    }
+    
+    .title {
+        font-size: 1.7rem;
+    }
+    
+    .subtitle {
+        font-size: 0.9rem;
+    }
+    
+    .info-cards-section,
+    .research-map-section,
+    .stats-section,
+    .team-section {
+        padding: 50px 15px;
+    }
+    
+    .info-cards-section .section-title,
+    .research-map-section .section-title,
+    .stats-section .section-title,
+    .team-section .section-title {
+        font-size: 1.8rem;
+    }
+    
+    .info-card {
+        padding: 20px;
+    }
+    
+    .stats-card {
+        padding: 20px;
+    }
+    
+    .team-member-card {
+        padding: 20px;
+    }
+}
+
+    /* 搜索按钮样式 */
+    .search-button {
+        background: none;
+        border: none;
+        padding: 0;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .search-button.searching {
+        animation: search-pulse 0.6s cubic-bezier(0.4, 0, 0.6, 1);
+    }
+    
+    @keyframes search-pulse {
+        0%, 100% { transform: scale(1); }
+        50% { transform: scale(1.2); }
+    }
+    
+    /* 输入框验证抖动动画 */
+    .search-input.shake {
+        animation: shake 0.5s cubic-bezier(.36,.07,.19,.97) both;
+        border-color: #ff5555;
+    }
+    
+    @keyframes shake {
+        0%, 100% { transform: translateX(0); }
+        10%, 30%, 50%, 70%, 90% { transform: translateX(-5px); }
+        20%, 40%, 60%, 80% { transform: translateX(5px); }
+    }
+</style>

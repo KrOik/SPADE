@@ -1,0 +1,72 @@
+{
+    "SPADE_UN_16979": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_16979",
+            "Peptide Name": "CAP7 (1-12), sC18*",
+            "Source": "Synthetic",
+            "Family": "",
+            "Gene": "Not found",
+            "Sequence": "GLRKRLRKFRNK",
+            "Sequence Length": 12,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P25230"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Target Organism": "Not available",
+            "Hemolytic Activity": "Not available",
+            "Cytotoxicity": "Not available",
+            "Binding Target": "Not available",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C69H126N28O14",
+            "Mass": 1571.92,
+            "PI": 12.0,
+            "Net Charge": 7,
+            "Hydrophobicity": -1.93,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Literature": [
+                {
+                    "Title": "Design of a novel cell-permeable chimeric peptide to promote wound healing",
+                    "Pubmed ID": "30389988",
+                    "Reference": "Sci Rep. 2018 Nov 2;8(1)16279.",
+                    "Author": "Horn M, Neundorf I.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=30389988"
+                }
+            ],
+            "Frequent Amino Acids": "RKL",
+            "Absent Amino Acids": "ACDEHIMOPQSTUVWY",
+            "Basic Residues": 7,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 3,
+            "Polar Residues": 8,
+            "Positive Residues": 7,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03331",
+                    "Similarity": 1.0,
+                    "Sequence": "GLRKRLRKFRNKIKEKLKKIGQKIQGFVPKLAPRTDY"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03505",
+                    "Similarity": 1.0,
+                    "Sequence": "GLRKRLRKFRNKIKEKLKKI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06003",
+                    "Similarity": 1.0,
+                    "Sequence": "GLRKRLRKFRNKIKEKLKKIGQKIQGLLPKLAPRTDY"
+                }
+            ]
+        }
+    }
+}

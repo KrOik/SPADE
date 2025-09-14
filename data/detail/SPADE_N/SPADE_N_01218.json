@@ -1,0 +1,72 @@
+{
+    "SPADE_N_01218": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01218",
+            "Peptide Name": "Amolopin-2g antimicrobial peptide (Frogs, amphibians, animals)",
+            "Source": "Amolops loloensis (Rufous-spotted torrent frog)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "MFTLKKSLLLLFFLGTINLSLCEQERNAEEERRDEPDERNAEVEKRFFPIVGKLLSGLSGLLGK",
+            "Sequence Length": 64,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/C5H0D8"
+            ],
+            "Protein Existence": "Homology",
+            "Biological Activity": [
+                "Antimicrobial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C329H536N88O97S2",
+            "Mass": 7340.44,
+            "PI": 5.39,
+            "Net Charge": -1,
+            "Hydrophobicity": -0.24,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Amphibian defense peptide.",
+            "Literature": [
+                {
+                    "Title": "Five novel antimicrobial peptides from skin secretions of the frog, Amolops loloensis.",
+                    "Pubmed ID": "19843479",
+                    "Reference": "Comp Biochem Physiol B Biochem Mol Biol. 2010 Jan;155(1)72-76.",
+                    "Author": "Wang M, Wang Y, Wang A, Song Y, Ma D, Yang H, Ma Y, Lai R.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=19843479"
+                }
+            ],
+            "Frequent Amino Acids": "LEF",
+            "Absent Amino Acids": "HOUWY",
+            "Basic Residues": 10,
+            "Acidic Residues": 11,
+            "Hydrophobic Residues": 27,
+            "Polar Residues": 25,
+            "Positive Residues": 10,
+            "Negative Residues": 11,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01565",
+                    "Similarity": 1.0,
+                    "Sequence": "FFPIVGKLLSGLSGLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01217",
+                    "Similarity": 0.984375,
+                    "Sequence": "MFTLKKSLLLLFFLGTINLSLCEQERNAEEERRDEPDERNAEVEKRFFPIVGKLLFGLSGLLGK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01564",
+                    "Similarity": 0.9375,
+                    "Sequence": "FFPIVGKLLFGLSGLL"
+                }
+            ]
+        }
+    }
+}

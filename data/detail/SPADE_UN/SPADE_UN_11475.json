@@ -1,0 +1,74 @@
+{
+    "SPADE_UN_11475": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_11475",
+            "Peptide Name": "DSE (Ctx-Ha peptide derivative)",
+            "Source": "Synthetic construct",
+            "Family": "Derived from the peptide Ctx-Ha",
+            "Gene": "Not found",
+            "Sequence": "GWLDVAKKIGKAAFNVAKNFLFNKAVNFAAKGIKKAVDLWG",
+            "Sequence Length": 42,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anitifungal"
+            ],
+            "Target Organism": "[Ref.22391524]Gram-positive bacterium:Staphylococcus aureus (MIC=8.9 μmol/L; MMC=13.3 μmol/L);Gram-negative bacterium:Escherichia coli (MIC=3.3 μmol/L; MMC=13.3 μmol/L);Fungi:Candida albicans (MIC=53.3 μmol/L; MMC=53.3 μmol/L)",
+            "Hemolytic Activity": "[Ref.22391524]HC50=0.6±0.1 μmol/L against human red blood cells",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C212H329N55O49",
+            "Mass": 4450.23,
+            "PI": 10.22,
+            "Net Charge": 6,
+            "Hydrophobicity": 0.18,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Antimicrobial activity against Gram-positive bacteria, Gram-negative bacteria and fungi.Has hemolytic activity.",
+            "Literature": [
+                {
+                    "Title": "Effects of dimerization on the structure and biological activity of antimicrobial peptide Ctx-Ha.",
+                    "Pubmed ID": "22391524",
+                    "Reference": "Antimicrob Agents Chemother. 2012 Jun;56(6)3004-10.",
+                    "Author": "Lorenzón EN, Cespedes GF, Vicente EF, Nogueira LG, Bauab TM, Castro MS, Cilli EM.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=22391524"
+                }
+            ],
+            "Frequent Amino Acids": "AKF",
+            "Absent Amino Acids": "CEHMOPQRSTUY",
+            "Basic Residues": 8,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 23,
+            "Polar Residues": 24,
+            "Positive Residues": 8,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_05706",
+                    "Similarity": 1.0,
+                    "Sequence": "GWLDVAKKIGKAAFNVAKNFL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15889",
+                    "Similarity": 0.9523809523809523,
+                    "Sequence": "GWLDVAKKIGKAAFNVAKNFI"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_11476",
+                    "Similarity": 0.9523809523809523,
+                    "Sequence": "GWLDVAKKIGKAAFNVAKNFI"
+                }
+            ]
+        }
+    }
+}

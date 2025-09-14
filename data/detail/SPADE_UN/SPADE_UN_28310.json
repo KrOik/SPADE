@@ -1,0 +1,69 @@
+{
+    "SPADE_UN_28310": {
+        "Sequence Information": {
+            "Peptide Name": "Ceratotoxin-A (17-36)",
+            "Sequence": "GKIALPIAKAALPVAAGLVG",
+            "Sequence Length": 20,
+            "Biological Activity": [
+                "Anti-Gram-"
+            ],
+            "Binding Target": "",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P36190",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P36190",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                },
+                {
+                    "uniprotId": "O17512",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/O17512",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Antibacterial activity and pore-forming properties of ceratotoxins: a mechanism of action based on the barrel stave model.",
+                    "Pubmed ID": "15581850",
+                    "Reference": "Biochim Biophys Acta. 2004;1667:148-156",
+                    "Author": "Bessin Y, Saint N, Marri L, Marchini D, Molle G",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/15581850"
+                }
+            ],
+            "Mass": 1830.26,
+            "PI": 10.0,
+            "Net Charge": 2,
+            "Hydrophobicity": 1.37,
+            "Frequent Amino Acids": "AGL",
+            "Absent Amino Acids": "CDEFHMNOQRSTUWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 7,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_28310",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02678",
+                    "Similarity": 1.0,
+                    "Sequence": "SIGSALKKALPVAKKIGKIALPIAKAALP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15754",
+                    "Similarity": 1.0,
+                    "Sequence": "SIGSALKKALPVAKKIGKIALPIAKAALPVAAGLVG"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_28307",
+                    "Similarity": 1.0,
+                    "Sequence": "SIGSALKKALPVAKKIGKIALPIAKAALP"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Escherichia coli LE392(no activity data)"
+        }
+    }
+}

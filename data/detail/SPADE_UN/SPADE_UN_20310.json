@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_20310": {
+        "Sequence Information": {
+            "Peptide Name": "CXCL14 (59-75) [N8K][E12K][R14W][V16K]",
+            "Sequence": "KRFIKWYKAWNKKWRKY",
+            "Sequence Length": 17,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "O95715",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/O95715",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Antimicrobial and anti-inflammatory activities of chemokine CXCL14-derived antimicrobial peptide and its analogs",
+                    "Pubmed ID": "29959905",
+                    "Reference": "Biochim Biophys Acta. 2019;1861:256-267",
+                    "Author": "Rajasekaran G, Kumar SD, Nam J, Jeon D, Kim Y, Lee CW, Park IS, Shin SY",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/29959905"
+                }
+            ],
+            "Mass": 2429.91,
+            "PI": 10.79,
+            "Net Charge": 8,
+            "Hydrophobicity": -1.89,
+            "Frequent Amino Acids": "KWR",
+            "Absent Amino Acids": "CDEGHLMOPQSTUV",
+            "Basic Residues": 8,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 3,
+            "Polar Residues": 14,
+            "Positive Residues": 8,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_20310",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_20310",
+                    "Similarity": 1.0,
+                    "Sequence": "KRFIKWYKAWNKKWRKY"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_12638",
+                    "Similarity": 0.8823529411764706,
+                    "Sequence": "KRFIKWYKAWNKKRRVY"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_12640",
+                    "Similarity": 0.8823529411764706,
+                    "Sequence": "KRFKKWYKAWRKKWRKY"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:10% Hemolysis=480 µM",
+            "Target Organism": "Escherichia coli KCTC 1682(MIC=4µM),Pseudomonas aeruginosa KCTC 1637(MIC=2µM),Salmonella typhimurium KCTC 1926(MIC=2µM),Bacillus subtilis KCTC 3068(MIC=8µM),Staphylococcus epidermidis KCTC 1917(MIC=4µM),Staphylococcus aureus KCTC 1621(MIC=2µM),Staphylococcus aureus CCARM 3089(MIC=2µM),Staphylococcus aureus CCARM 3090(MIC=2µM),Staphylococcus aureus CCARM 3095(MIC=2µM),Pseudomonas aeruginosa CCARM 2095(MIC=4µM),Pseudomonas aeruginosa CCARM 2109(MIC=8µM),Enterococcus faecium ATCC 51559(MIC=4µM),Escherichia coli KCTC 1682(MIC=8µM),Escherichia coli KCTC 1682(MIC=8µM),Staphylococcus aureus KCTC 1621(MIC=4µM),Staphylococcus aureus KCTC 1621(MIC=4µM),Staphylococcus aureus KCTC 1621(MIC=8µM)"
+        }
+    }
+}

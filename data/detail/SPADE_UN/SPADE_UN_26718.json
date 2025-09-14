@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_26718": {
+        "Sequence Information": {
+            "Peptide Name": "FLCpOH-LFcinB(2-11)",
+            "Sequence": "FKCRRWQWRM",
+            "Sequence Length": 10,
+            "Biological Activity": [
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P24627",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P24627",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "New Peptide Based Fluconazole Conjugates with Expanded Molecular Targets.",
+                    "Pubmed ID": "35456526",
+                    "Reference": "Pharmaceutics. 2022;14:693",
+                    "Author": "Brankiewicz W, Okońska J, Serbakowska K, Lica J, Drab M, Ptaszyńska N, Łęgowska A, Rolka K, Szweda P",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/35456526"
+                }
+            ],
+            "Mass": 1496.81,
+            "PI": 11.71,
+            "Net Charge": 4,
+            "Hydrophobicity": -1.55,
+            "Frequent Amino Acids": "RWC",
+            "Absent Amino Acids": "ADEGHILNOPSTUVY",
+            "Basic Residues": 4,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 3,
+            "Polar Residues": 7,
+            "Positive Residues": 4,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_26718",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02451",
+                    "Similarity": 1.0,
+                    "Sequence": "FKCRRWQWRMKKLGAPSITCVRRAF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03617",
+                    "Similarity": 1.0,
+                    "Sequence": "ALSFLFLFLFVAQEIVVTEANTCEHLADTYRGVCFTDASCDDHCKNKAHLISGTCHNFKC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06289",
+                    "Similarity": 1.0,
+                    "Sequence": "FKCRRWQWRMKKLGAPSITCVR"
+                }
+            ],
+            "Hemolytic Activity": "Human foreskin fibroblasts Hs27:IC50=>100 µM,Human foreskin fibroblasts Hs27:IC90=>100 µM,Human umbilical vein endothelial cells HUVEC:IC50=>100 µM,Human umbilical vein endothelial cells HUVEC:IC90=>100 µM",
+            "Target Organism": "Candida krusei DSM 6128(MIC50=31µM),Candida krusei DSM 6128(MIC90=62µM),Candida krusei DSM 6128(MFC=125µM),Candida glabrata DSM 11226(MIC50=>250µM),Candida glabrata DSM 11226(MIC90=>250µM),Candida albicans SC5314(MIC50=62µM),Candida albicans SC5314(MIC90=125µM),Candida albicans SC5314(MFC=250µM),Candida albicans ATCC 10231(MIC50=125µM),Candida albicans ATCC 10231(MIC90=250µM),Candida albicans Gu4(MIC50=>250µM),Candida albicans Gu4(MIC90=>250µM),Candida albicans Gu5(MIC50=>250µM),Candida albicans Gu5(MIC90=>250µM),Candida albicans(MIC50=190µM),Candida albicans(MIC90=250µM)"
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "SPADE_N_15723": {
+        "Sequence Information": {
+            "Peptide Name": "Arasin-likeSp",
+            "Sequence": "SPRVSRRYGRPFGGRPFVGGQFGGRPGCVCIRSPCPCANYG",
+            "Sequence Length": 41,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "1. Scylla paramamosain",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "F4Z1X1",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/F4Z1X1",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Two novel antimicrobial peptides, arasin-likeSp and GRPSp, from the mud crab Scylla paramamosain, exhibit the activity against some crustacean pathogenic bacteria.",
+                    "Pubmed ID": "21220028",
+                    "Reference": "Fish Shellfish Immunol. 2011;30:706-712",
+                    "Author": "Imjongjirak C, Amparyup P, Tassanakajon A",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/21220028"
+                },
+                {
+                    "Title": "Production of antimicrobial peptide arasin-like Sp in Escherichia coli via an ELP-intein self-cleavage system.",
+                    "Pubmed ID": "35240202",
+                    "Reference": "Biotechnol J. 2022;347:49-55",
+                    "Author": "Li X, Jiang Y, Lin Y",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/35240202"
+                }
+            ],
+            "Mass": 4373.0,
+            "PI": 10.75,
+            "Net Charge": 7,
+            "Hydrophobicity": -0.47,
+            "Frequent Amino Acids": "GRP",
+            "Absent Amino Acids": "DEHKLMOTUW",
+            "Basic Residues": 7,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 29,
+            "Positive Residues": 7,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_N_15723",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_00237",
+                    "Similarity": 1.0,
+                    "Sequence": "SPRVSRRYGRPFGGRPFVGGQFGGRPGCVCIRSPCPCANYG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_13603",
+                    "Similarity": 0.975609756097561,
+                    "Sequence": "SPRVRRRYGRPFGGRPFVGGQFGGRPGCVCIRSPCPCANYG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03517",
+                    "Similarity": 0.6451612903225806,
+                    "Sequence": "WNSNRRFRVGRPPVVGRPGCVCFRAPCPCSNY"
+                }
+            ],
+            "Hemolytic Activity": "Mouse erythrocytes:5.7% Hemolysis=40.5 µM",
+            "Target Organism": "Staphylococcus haemolyticus(MIC=12.5µM),Aerococcus viridans(MIC=0.39µM),Aerococcus viridans(MBC=12.5µM),Micrococcus luteus(MIC=0.78µM),Bacillus subtilis(MIC=12.5µM),Escherichia coli 363(MIC=>50µM),Aeromonas hydrophila(MIC=>50µM),Vibrio harveyi(MIC=1.56µM),Vibrio harveyi(MBC=3.125µM),Vibrio anguillarum(MIC=6.25µM),Bacillus subtilis(MIC=10.125µM),Bacillus subtilis(MBC=40.5µM),Vibrio harveyi CGMCC 1.1593(MBC=5.06µM),Vibrio harveyi CGMCC 1.1593(MBC=10.125µM)"
+        }
+    }
+}

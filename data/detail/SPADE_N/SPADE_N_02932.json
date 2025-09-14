@@ -1,0 +1,74 @@
+{
+    "SPADE_N_02932": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02932",
+            "Peptide Name": "Beta-defensin 5 (BD-5, mBD-5; Defensin, beta 5; Rodents, mammals, animals)",
+            "Source": "Mus musculus (Mouse)",
+            "Family": "Belongs to the beta-defensin family",
+            "Gene": "Defb5",
+            "Sequence": "KTINNPVSCCMIGGICRYLCKGNILQNGNCGVTSLNCCKRK",
+            "Sequence Length": 41,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q9EPV9"
+            ],
+            "Protein Existence": "Transcript level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Antifungal"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C181H312N58O54S8",
+            "Mass": 4421.29,
+            "PI": 9.21,
+            "Net Charge": 6,
+            "Hydrophobicity": 0.0,
+            "Half Life": "Mammalian:1.3 hourYeast:3 minE.coli:2 min",
+            "PTM": "Contains three disulfide bonds 9-37; 16-30; 20-38.",
+            "Literature": [
+                {
+                    "Title": "EST and genomic database mining yield novel human and mouse beta-defensins",
+                    "Pubmed ID": "PubMed ID is not available",
+                    "Reference": "Submitted (NOV-2000) to the EMBL/GenBank/DDBJ databases",
+                    "Author": "Adler D.A, Holloway J.L, Haldeman B.E, Rixon M, Jaspers S, Fox B, Gosink J, Sheppard P, Presnell S, Gao Z, Whitmore T, Stamm M, Laube D, Diamond G.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=PubMed ID is not available"
+                }
+            ],
+            "Frequent Amino Acids": "CNG",
+            "Absent Amino Acids": "ADEFHOUW",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 27,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_08027",
+                    "Similarity": 1.0,
+                    "Sequence": "MRIHYLLFAFLLVLLCPLASDFSKTINNPVSCCMIGGICRYLCKGNILQNGNCGVTSLNCCKRK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03689",
+                    "Similarity": 1.0,
+                    "Sequence": "VSCCMIGGICRYLCKGNILQNGNCGVTSLNCCKR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04185",
+                    "Similarity": 0.975609756097561,
+                    "Sequence": "MKIHYLLFAFLLVLLSPLAGVFSKTINNPVSCCMIGGICRYLCKGNILQNGSCGVTSLNCCKRK"
+                }
+            ]
+        }
+    }
+}

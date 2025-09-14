@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_29794": {
+        "Sequence Information": {
+            "Peptide Name": "Oncocin [R19N]",
+            "Sequence": "VDKPPYLPRPRPPRRIYNN",
+            "Sequence Length": 19,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "A0A2R7WNA0",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/A0A2R7WNA0",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Bactericidal oncocin derivatives with superior serum stabilities.",
+                    "Pubmed ID": "21185160",
+                    "Reference": "Int J Antimicrob Agents. 2011;37:166-170",
+                    "Author": "Knappe D, Kabankov N, Hoffmann R",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/21185160"
+                }
+            ],
+            "Mass": 2348.71,
+            "PI": 10.93,
+            "Net Charge": 4,
+            "Hydrophobicity": -1.69,
+            "Frequent Amino Acids": "PRN",
+            "Absent Amino Acids": "ACEFGHMOQSTUW",
+            "Basic Residues": 5,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 3,
+            "Polar Residues": 16,
+            "Positive Residues": 5,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_UN_29794",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_10450",
+                    "Similarity": 1.0,
+                    "Sequence": "VDKPPYLPRPRPPRRIYNNR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10452",
+                    "Similarity": 1.0,
+                    "Sequence": "VDKPPYLPRPRPPRRIYN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10687",
+                    "Similarity": 1.0,
+                    "Sequence": "VDKPPYLPRPRPPRRIYN"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Escherichia coli BL21AI(MIC=16µg/ml),Micrococcus luteus ATCC 10240(MIC=64µg/ml)"
+        }
+    }
+}

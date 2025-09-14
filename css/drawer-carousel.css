@@ -1,0 +1,324 @@
+/* 简化的抽屉式展示样式 */
+.drawer-showcase-section {
+    min-height: 100vh; /* 恢复正常高度 */
+    background: linear-gradient(135deg, 
+        rgba(43, 16, 85, 0.9) 0%, 
+        rgba(75, 50, 120, 0.8) 50%, 
+        rgba(119, 151, 222, 0.7) 100%);
+    backdrop-filter: blur(10px);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center; /* 恢复居中对齐 */
+    padding: 60px 0; /* 添加适当的内边距 */
+}
+
+.drawer-showcase-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../source/img/map/R.jpeg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.1;
+    z-index: -1;
+}
+
+.drawer-main {
+    width: 100%;
+    height: 80vh; /* 恢复适中高度 */
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 0 40px;
+    /* 移除sticky定位，恢复正常布局 */
+}
+
+.drawer-click-section {
+    width: 35%;
+    height: 100%;
+    padding: 20px 0;
+    position: relative;
+}
+
+.drawer-boxes {
+    margin-left: 10%;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.drawer-boxes::before {
+    content: "";
+    width: 8px;
+    height: 94%;
+    position: absolute;
+    left: -10px;
+    top: 3%;
+    z-index: 120;
+    background: linear-gradient(to bottom, 
+        rgba(255, 255, 255, 0.2), 
+        rgba(119, 151, 222, 0.5), 
+        rgba(255, 255, 255, 0.2));
+    border-radius: 4px;
+}
+
+.drawer-box {
+    height: calc(100% / 5.5);
+    width: 70%;
+    position: relative;
+    z-index: 100;
+    transform: translateX(-70%);
+    transition: transform .5s ease-in-out;
+    margin: 8px 0;
+}
+
+.drawer-box.active {
+    transform: translateX(0);
+}
+
+.drawer-btn {
+    width: 100%;
+    height: 100%;
+    font: 800 24px 'Arial', sans-serif;
+    background: linear-gradient(135deg, 
+        rgba(175, 190, 255, 0.8), 
+        rgba(119, 151, 222, 0.9));
+    border: none;
+    border-radius: 15px;
+    transition: all .5s ease-in-out;
+    color: rgba(255, 255, 255, 0.8);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.drawer-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, 
+        transparent, 
+        rgba(255, 255, 255, 0.2), 
+        transparent);
+    transition: left 0.5s ease;
+}
+
+.drawer-btn:hover::before {
+    left: 100%;
+}
+
+.drawer-btn.active {
+    background: linear-gradient(135deg, 
+        rgba(119, 151, 222, 0.95), 
+        rgba(43, 16, 85, 0.9));
+    color: white;
+    transform: scale(1.02);
+    box-shadow: 0 12px 35px rgba(119, 151, 222, 0.3);
+}
+
+.drawer-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.drawer-head {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 120px;
+    font-weight: 700;
+    right: -25px;
+    top: calc(50% - 80px);
+    text-shadow: 2px -1px 8px rgba(250, 80, 193, 0.5);
+    z-index: 10;
+}
+
+.drawer-slide-section {
+    position: relative;
+    height: 100%;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    padding: 0 40px;
+    background: linear-gradient(to right bottom,
+        rgba(255, 255, 255, 0.15),
+        rgba(255, 255, 255, 0.08),
+        rgba(255, 255, 255, 0.05));
+    backdrop-filter: blur(15px);
+    border-radius: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+}
+
+.drawer-slide-bar {
+    position: absolute;
+    top: 10%;
+    left: 40px;
+    height: 80%;
+    width: 2px;
+    background: linear-gradient(to bottom, 
+        rgba(255, 255, 255, 0.3), 
+        rgba(119, 151, 222, 0.6), 
+        rgba(255, 255, 255, 0.3));
+    border-radius: 1px;
+}
+
+.drawer-bar {
+    position: absolute;
+    height: calc(100% / 4);
+    width: 6px;
+    top: 0;
+    left: -2px;
+    background: linear-gradient(to bottom, 
+        var(--accent-color), 
+        rgba(119, 151, 222, 0.8));
+    transition: transform .5s ease-in-out;
+    border-radius: 3px;
+    box-shadow: 0 0 15px var(--accent-color);
+}
+
+.drawer-card-section {
+    height: 100%;
+    width: 80%;
+    overflow: hidden;
+    position: relative;
+}
+
+.drawer-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    padding: 8% 5%;
+    color: white;
+    font-size: 16px;
+    transition: transform .5s ease-in-out;
+    position: relative;
+}
+
+.drawer-card-small-title {
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 15px;
+    color: var(--accent-color);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.drawer-card-title {
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 25px;
+    color: white;
+    line-height: 1.2;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.drawer-card-content {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 30px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.drawer-card-img {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.drawer-card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.drawer-card-img:hover img {
+    transform: scale(1.1);
+}
+
+/* 响应式设计 */
+@media (max-width: 1024px) {
+    .drawer-main {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .drawer-click-section,
+    .drawer-slide-section {
+        width: 100%;
+        height: 400px;
+    }
+
+    .drawer-boxes {
+        flex-direction: row;
+        margin-left: 0;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .drawer-box {
+        width: calc(25% - 10px);
+        height: 80px;
+        transform: translateY(50px);
+    }
+
+    .drawer-box.active {
+        transform: translateY(0);
+    }
+
+    .drawer-head {
+        font-size: 60px;
+        right: -15px;
+        top: calc(50% - 40px);
+    }
+
+    .drawer-card-title {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 768px) {
+    .drawer-showcase-section {
+        padding: 40px 0;
+    }
+
+    .drawer-main {
+        padding: 10px;
+    }
+
+    .drawer-card-title {
+        font-size: 28px;
+    }
+
+    .drawer-card-content {
+        font-size: 14px;
+    }
+
+    .drawer-card-img {
+        height: 200px;
+    }
+} 

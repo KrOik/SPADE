@@ -1,0 +1,61 @@
+{
+    "SPADE_UN_26896": {
+        "Sequence Information": {
+            "Peptide Name": "str208",
+            "Sequence": "RWLQRIRGWL",
+            "Sequence Length": 10,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anticancer",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Novel active Trp- and Arg-rich antimicrobial peptides with high solubility and low red blood cell toxicity designed using machine learning tools",
+                    "Pubmed ID": "39645171",
+                    "Reference": "Int J Antimicrob Agents. 2024;doi: 10.1016/j.ijantimicag.2024.107399:107399",
+                    "Author": "Henson BAB, Álvarez-Huerta JA, Wedamulla PG, Palacios AV, Scott MRM, Lim DTE, Scott WMH, Villanueva MTL, Ye E, Straus SK",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/39645171"
+                }
+            ],
+            "Mass": 1383.65,
+            "PI": 12.0,
+            "Net Charge": 3,
+            "Hydrophobicity": -0.71,
+            "Frequent Amino Acids": "RLW",
+            "Absent Amino Acids": "ACDEFHKMNOPSTUVY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 3,
+            "Polar Residues": 7,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_26896",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02745",
+                    "Similarity": 1.0,
+                    "Sequence": "RRLRPRRPRLPRPRPRPRPRPRSLPLPRPQPRRIPRPILLPWRPPRPIPRPQPQPIPRWL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03198",
+                    "Similarity": 1.0,
+                    "Sequence": "RYHMQCGYRGTFCTPGKCPHGNAYLGLCRPKYSCCRWL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05316",
+                    "Similarity": 1.0,
+                    "Sequence": "LRIKFFKTAYDRVEWFRNGINGLGETIKFFGGKIIGGAVRKLGEFKKLSWKYRQKLQRKVFKRYERWL"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:<5% Hemolysis=250 µg/ml",
+            "Target Organism": "Staphylococcus aureus USA 300 LAC(MIC=2µg/ml),Staphylococcus aureus USA 300 LAC(MIC=8µg/ml),Enterococcus faecalis(MIC=8µg/ml),Klebsiella pneumoniae ATCC 13883(MIC=2µg/ml),Pseudomonas aeruginosa PAO1(MIC=32µg/ml),Escherichia coli O157:H7(MIC=8µg/ml),Escherichia coli O157:H7(MIC=16µg/ml),Human hepatocellular carcinoma HepG2(40-50% Cytotoxicity=40µg/ml),Chinese Hamster Ovarian Cancer(50% Cell death=40µg/ml),Human prostate adenocarcinoma PC-3(30-40% Cytotoxicity=40µg/ml)"
+        }
+    }
+}

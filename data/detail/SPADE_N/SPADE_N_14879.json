@@ -1,0 +1,66 @@
+{
+    "SPADE_N_14879": {
+        "Sequence Information": {
+            "Peptide Name": "Oncorhyncin III",
+            "Sequence": "PKRKSATKGDEPARRSARLSARPVPKPAAKPKKAAAPKKAVKGKKAAENGDAKAEAKVQAAGDGAG",
+            "Sequence Length": 66,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer\n2. DNA / RNA",
+            "Source": "1. Oncorhynchus mykiss",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P02315",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P02315",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Oncorhyncin III: a potent antimicrobial peptide derived from the non-histone chromosomal protein H6 of rainbow trout, Oncorhynchus mykiss",
+                    "Pubmed ID": "12713443",
+                    "Reference": "Biochem J. 2003;373:621-628",
+                    "Author": "Fernandes JM, Saint N, Kemp GD, Smith VJ",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/12713443"
+                }
+            ],
+            "Mass": 6642.59,
+            "PI": 10.72,
+            "Net Charge": 13,
+            "Hydrophobicity": -1.11,
+            "Frequent Amino Acids": "AKP",
+            "Absent Amino Acids": "CFHIMOUWY",
+            "Basic Residues": 19,
+            "Acidic Residues": 6,
+            "Hydrophobic Residues": 22,
+            "Polar Residues": 44,
+            "Positive Residues": 19,
+            "Negative Residues": 6,
+            "SPADE ID": "SPADE_N_14879",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_00163",
+                    "Similarity": 1.0,
+                    "Sequence": "PKRKSATKGDEPARRSARLSARPVPKPAAKPKKAAAPKKAVKGKKAAENGDAKAEAKVQAAGDGAG"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_11538",
+                    "Similarity": 1.0,
+                    "Sequence": "PKRKSATKGDEPARRSARLSARPVPKPAAKPKKAAAPKKAVKGKKAAENGDAKAEAKVQAAGDGAGNAK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09465",
+                    "Similarity": 0.7333333333333333,
+                    "Sequence": "KDEPQRRSARLSAKPAPPKPEPKPKKAPAKK"
+                }
+            ],
+            "Hemolytic Activity": "Trout erythrocytes:5% Hemolysis=1 µM",
+            "Target Organism": "Aerococcus viridans NCIMB 1120(MIC=0.06-0.12µM),Aeromonas hydrophila NCIMB 1134(MIC=>0.5µM),Aeromonas salmonicida MT004(MIC=>0.5µM),Bacillus subtilis ATCC 6051(MIC=0.25-0.5µM),Escherichia coli NCIMB 12210(MIC=0.25-0.5µM),Vibrio anguillarum NCIMB 2129(MIC=0.25-0.5µM),Micrococcus luteus NCIMB 376(MIC=0.12-0.25µM),Planococcus citreus NCIMB 1493(MIC=0.06-0.12µM),Planococcus citreus NCIMB 1493(MIC=0.12-0.24µM),Planococcus citreus NCIMB 1493(MIC=0.48-0.96µM)"
+        }
+    }
+}

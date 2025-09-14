@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_11746": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_11746",
+            "Peptide Name": "CPF-12 (Derived from  CPF-C1)",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "LLWKALRLWWKVL",
+            "Sequence Length": 13,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic form",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.28371431]Gram-positive bacteria :Staphylococcuss aureus ATCC 25923 (MIC=16 μg/ml), Staphylococcuss aureus 725 (MIC=16 μg/ml), Staphylococcuss aureus 794 (MIC=16 μg/ml), Staphylococcuss aureus 936 (MIC=16 μg/ml);Gram-negative bacteria :Escherichia coli ATCC 25922 (MIC=16 μg/ml), Escherichia coli 780 (MIC=16 μg/ml), Escherichia coli 804 (MIC=32 μg/ml), Escherichia coli 850 (MIC=16 μg/ml), Pseudomonas aeruginosa ATCC 27853 (MIC=64 μg/ml), Pseudomonas aeruginosa 2760 (MIC=64 μg/ml), Pseudomonas aeruginosa 9132 (MIC>256 μg/ml), Acinetobacter baumannii ATCC 19606 (MIC=16 μg/ml), Acinetobacter baumannii 1980 (MIC=16 μg/ml), Acinetobacter baumannii 2982 (MIC=16 μg/ml), Acinetobacter baumannii 4956 (MIC=16 μg/ml)",
+            "Hemolytic Activity": "[Ref.28371431]0% hemolysis at 4 μg/ml , 3% hemolysis at 8 μg/ml , 0% hemolysis at 16 μg/ml , 0% hemolysis at 32 μg/ml , 0% hemolysis at 64 μg/ml , 3% hemolysis at 128 μg/ml , 8% hemolysis at 256 μg/ml , 38% hemolysis at 512 μg/ml against human red blood cells",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "Mixed(D-Trp3, D-Leu6, D-Arg7, D-Trp9, D-Lys11)",
+            "Structure Description": "Not found",
+            "Formula": "C49H70N10O3",
+            "Mass": 1725.17,
+            "PI": 11.17,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.77,
+            "Half Life": "Mammalian:5.5 hourYeast:3 minE.coli:2 min",
+            "Function": "Antibacterial activity against Gram-positive bacteria and Gram-negative bacteria",
+            "Literature": [
+                {
+                    "Title": "Novel Antimicrobial Peptide CPF-C1 Analogs with Superior Stabilities and Activities against Multidrug-Resistant Bacteria",
+                    "Pubmed ID": "28371431",
+                    "Reference": "Chem Biol Drug Des. 2017 Nov;90(5)690-702. doi 10.1111/cbdd.12988.",
+                    "Author": "Junqiu Xie,Qian Zhao,Sisi Li,Zhibin Yan,Jing Li,Yao Li,Lingyun Mou,Bangzhi Zhang,Wenle Yang,Xiaokang Miao,Xianxing Jiang,and Rui Wang",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=28371431"
+                }
+            ],
+            "Frequent Amino Acids": "LWK",
+            "Absent Amino Acids": "CDEFGHIMNOPQSTUY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 5,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_12082",
+                    "Similarity": 1.0,
+                    "Sequence": "NVLLWK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_11744",
+                    "Similarity": 1.0,
+                    "Sequence": "WFWKLLWKALRLWWKVL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_17451",
+                    "Similarity": 1.0,
+                    "Sequence": "NVLLWK"
+                }
+            ]
+        }
+    }
+}

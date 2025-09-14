@@ -1,0 +1,59 @@
+{
+    "SPADE_UN_21566": {
+        "Sequence Information": {
+            "Peptide Name": "An-interferon fragment V-H5-K [Y2W,E3K,K5W,I6V,N7V,H9K,F10W,T12W,L13V,N16K,L17V], P12",
+            "Sequence": "VWKRWVVRKWKWVKKKVKKK",
+            "Sequence Length": 20,
+            "Biological Activity": [
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Two optimized antimicrobial peptides with therapeutic potential for clinical antibiotic-resistant Staphylococcus aureus.",
+                    "Pubmed ID": "31520928",
+                    "Reference": "Eur J Med Chem. 2019;183:111686",
+                    "Author": "Li C, Zhu C, Ren B, Yin X, Shim SH, Gao Y, Zhu J, Zhao P, Liu C, Yu R, Xia X, Zhang L",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/31520928"
+                }
+            ],
+            "Mass": 2724.43,
+            "PI": 12.0,
+            "Net Charge": 11,
+            "Hydrophobicity": -1.33,
+            "Frequent Amino Acids": "KVW",
+            "Absent Amino Acids": "ACDEFGHILMNOPQSTUY",
+            "Basic Residues": 11,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 15,
+            "Positive Residues": 11,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_21566",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_09961",
+                    "Similarity": 1.0,
+                    "Sequence": "VGALAVVVWKWKWKW"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_28820",
+                    "Similarity": 1.0,
+                    "Sequence": "VGALAVVVWKWKWKW"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_16136",
+                    "Similarity": 1.0,
+                    "Sequence": "KKKVVVVVKKK"
+                }
+            ],
+            "Hemolytic Activity": "Mouse erythrocytes:10% Hemolysis=57.24±5.2 µg/ml,Human embryonic kidney HEK293T cells:40% Killing=640 µg/ml",
+            "Target Organism": "Candida albicans ATCC 5314(MIC=64µg/ml)"
+        }
+    }
+}

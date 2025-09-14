@@ -1,0 +1,62 @@
+{
+    "SPADE_UN_30292": {
+        "Sequence Information": {
+            "Peptide Name": "Tritrpticin [W 6 5-OH-W]",
+            "Sequence": "VRRFPXWWPFLRR",
+            "Sequence Length": 13,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anticancer",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": " P51524",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/ P51524",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Hydroxy-tryptophan containing derivatives of tritrpticin: modification of antimicrobial activity and membrane interactions.",
+                    "Pubmed ID": "25178967",
+                    "Reference": "Biochim Biophys Acta. 2015;1848:277-288",
+                    "Author": "Arias M, Jensen KV, Nguyen LT, Storey DG, Vogel HJ",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/25178967"
+                },
+                {
+                    "Title": "Selective anticancer activity of synthetic peptides derived from the host defence peptide tritrpticin.",
+                    "Pubmed ID": "32126228",
+                    "Reference": "Biochim Biophys Acta. 2020;1862:183228",
+                    "Author": "Arias M, Haney EF, Hilchie AL, Corcoran JA, Hyndman ME, Hancock REW, Vogel HJ",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/32126228"
+                }
+            ],
+            "SPADE ID": "SPADE_UN_30292",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02575",
+                    "Similarity": 1.0,
+                    "Sequence": "VRRFPWWWPFLRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06501",
+                    "Similarity": 1.0,
+                    "Sequence": "VRRFPPFLRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06506",
+                    "Similarity": 1.0,
+                    "Sequence": "VRRFPAWWPFLRR"
+                }
+            ],
+            "Hemolytic Activity": "Human PBMC:IC50=39.8 µM,Human erythrocytes:50% Hemolysis=>=65 µM",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=4-8µM),Escherichia coli ATCC 25922(MBC=4-8µM),Bacillus subtilis 168(MIC=2µM),Bacillus subtilis 168(MBC=2µM),Jurkat T-cell leukemia(IC50=16.1µM)"
+        }
+    }
+}

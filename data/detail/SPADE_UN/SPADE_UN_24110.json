@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_24110": {
+        "Sequence Information": {
+            "Peptide Name": "PHNX-1",
+            "Sequence": "FLLKIVALLKKKLL",
+            "Sequence Length": 14,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Ab initio Designed Antimicrobial Peptides Against Gram-Negative Bacteria",
+                    "Pubmed ID": "34867843",
+                    "Reference": "Front Microbiol. 2021;12:715246",
+                    "Author": "Bobde SS, Alsaab FM, Wang G, van Hoek ML",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/34867843"
+                }
+            ],
+            "Mass": 1640.19,
+            "PI": 10.48,
+            "Net Charge": 4,
+            "Hydrophobicity": 1.46,
+            "Frequent Amino Acids": "LKA",
+            "Absent Amino Acids": "CDEGHMNOPQRSTUWY",
+            "Basic Residues": 4,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 4,
+            "Positive Residues": 4,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_24110",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_08367",
+                    "Similarity": 1.0,
+                    "Sequence": "KLLK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09755",
+                    "Similarity": 1.0,
+                    "Sequence": "KLLKTFLSKWI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11495",
+                    "Similarity": 1.0,
+                    "Sequence": "LLK"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:40% Hemolysis=100 µg/ml",
+            "Target Organism": "Escherichia coli ATCC 51659(MIC=32µg/ml),Staphylococcus aureus ATCC 33592(MIC=64µg/ml),Escherichia coli ATCC 4157(MIC=16µg/ml),Staphylococcus aureus ATCC BAA-1718(MIC=32µg/ml),Escherichia coli ATCC 51659(EC50=0.12µg/ml),Staphylococcus aureus ATCC 33592(EC50=0.22µg/ml)"
+        }
+    }
+}

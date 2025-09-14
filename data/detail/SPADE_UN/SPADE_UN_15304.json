@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_15304": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_15304",
+            "Peptide Name": "r8-BadBH3",
+            "Source": "Synthetic",
+            "Family": "",
+            "Gene": "Not found",
+            "Sequence": "RRRRRRRRGNLWAAQRYGRELRRMSDEFVDSFKK",
+            "Sequence Length": 34,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Notavailable"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Target Organism": "Tumor cells:NGP (>50% apoptosis at 20 µM); SK-N-AS (0% apoptosis at 10 µM); SK-N-AS (10% apoptosis at 20 µM); IMR-5 (15% apoptosis at 10 µM); NGP (20% apoptosis at 10 µM); IMR-5 (20% apoptosis at 20 µM); NB69 (30% apoptosis at 10 µM); NGP (30% apoptosis at 50 µM); SK-N-AS (30% apoptosis at 50 µM); IMR-5 (50% apoptosis at 50 µM); NB69 (80% apoptosis at 20 µM); NB69 (80% apoptosis at 50 µM)",
+            "Hemolytic Activity": "Not available",
+            "Cytotoxicity": "Not available",
+            "Binding Target": "Not available",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "Mix",
+            "Structure Description": "Not found",
+            "Formula": "C139H199N43O32S",
+            "Mass": 4410.01,
+            "PI": 12.0,
+            "Net Charge": 10,
+            "Hydrophobicity": -1.9,
+            "Half Life": "Mammalian:/Yeast:/E.coli:/",
+            "Comments": "Induce apoptosis in highly malignant NB-derived cell lines",
+            "Literature": [
+                {
+                    "Title": "BH3 peptidomimetics potently activate apoptosis and demonstrate single agent efficacy in neuroblastoma",
+                    "Pubmed ID": "16568093",
+                    "Reference": "Cancer Immunol Immunother. 2006 Jan;55(1)56-60.",
+                    "Author": "Yao Z, Qiu S, Wang L, Lu R, Zhou CL, Zhao PP, Li HQ, Gao WY.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16568093"
+                }
+            ],
+            "Frequent Amino Acids": "RAD",
+            "Absent Amino Acids": "CHIOPTU",
+            "Basic Residues": 14,
+            "Acidic Residues": 4,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 22,
+            "Positive Residues": 14,
+            "Negative Residues": 4,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_10932",
+                    "Similarity": 1.0,
+                    "Sequence": "RRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11097",
+                    "Similarity": 1.0,
+                    "Sequence": "WWRRRRRRRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11098",
+                    "Similarity": 1.0,
+                    "Sequence": "WWWRRRRRRRR"
+                }
+            ]
+        }
+    }
+}

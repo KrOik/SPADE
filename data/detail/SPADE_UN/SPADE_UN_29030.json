@@ -1,0 +1,64 @@
+{
+    "SPADE_UN_29030": {
+        "Sequence Information": {
+            "Peptide Name": "P28",
+            "Sequence": "TEVSEALGGAGLTGGFYEPL",
+            "Sequence Length": 20,
+            "Biological Activity": [
+                "Antiviral"
+            ],
+            "Binding Target": "1. Virus replication\n2. Virus entry",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "Q9WGY8",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/Q9WGY8",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Peptides derived from a distinct region of GB virus C glycoprotein E2 mediate strain-specific HIV-1 entry inhibition.",
+                    "Pubmed ID": "21543477",
+                    "Reference": "J Virol. 2011;85:7037-7047",
+                    "Author": "Koedel Y, Eissmann K, Wend H, Fleckenstein B, Reil H",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/21543477"
+                }
+            ],
+            "Mass": 1968.12,
+            "PI": 4.05,
+            "Net Charge": -3,
+            "Hydrophobicity": 0.22,
+            "Frequent Amino Acids": "GEL",
+            "Absent Amino Acids": "CDHIKMNOQRUW",
+            "Basic Residues": 0,
+            "Acidic Residues": 3,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 13,
+            "Positive Residues": 0,
+            "Negative Residues": 3,
+            "SPADE ID": "SPADE_UN_29030",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01533",
+                    "Similarity": 0.7142857142857143,
+                    "Sequence": "GMWSKIKNAGKAAAKASKKAAGKAALGAVSEAL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05214",
+                    "Similarity": 0.6,
+                    "Sequence": "MLNSRGEPLLPINTQVRLNNFTFECNGRGRSPMGRVIGYDNSVCKEFTDYYIVESGDLQGYAHYTNVTEVVLGGT"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07903",
+                    "Similarity": 0.6,
+                    "Sequence": "MAFLKKSLFLVLFLGLVSLSICEEKRENEDEEEQEDDEQSEEKRGMWSKIKNAGKAAAKASKKAAGKAALGAVSEALGEQ"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "HIV-1 NL4-3(IC50 REP=>100µM),HIV-1 YU2(IC50 REP=>100µM),HIV-1 92UG024(IC50 REP=>100µM),HIV-1 RU570(IC50 REP=>100µM)"
+        }
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "SPADE_N_01166": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01166",
+            "Peptide Name": "Dybowskin-5 (Frogs, amphibians, animals)",
+            "Source": "Rana dybowskii (Korea brown frog)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "GLFSVVTGVLKAVGKNVAKNVGGSLLEQLKCKKISGGC",
+            "Sequence Length": 38,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "[Ref.17698251]Gram-positive bacteria:Micrococcus luteus ATCC4698 (MIC=6.25 µg/ml), Staphylococcus aureus KCTC3881 (MIC=25 µg/ml), Bacillus subtilis ATCC6633 (MIC=50 µg/ml), Staphylococcus epidermidis ATCC12228 (MIC=50 µg/ml);Gram-negative bacteria:Shigella dysenteriae ATCC9752 (MIC=50 µg/ml), Escherichia coli KCTC2433 (MIC=60 µg/ml), Klebsiella pneumoniae ATCC10031 (MIC=50 µg/ml);Yeast:Candida albicans ATCC36232 (MIC=50 µg/ml).",
+            "Hemolytic Activity": "[Ref:17698251] It has 17.84% hemolytic activity at 100 μg/ml against human red blood cells",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Cyclization (Cys31 and Cys37)",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C168H293N47O48S2",
+            "Mass": 3803.54,
+            "PI": 9.79,
+            "Net Charge": 5,
+            "Hydrophobicity": 0.44,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Dybowskin-5 has hemolytic activity against human red blood cells (hRBCs).",
+            "Literature": [
+                {
+                    "Title": "Purification and characterization of antimicrobial peptides from the skin secretion of Rana dybowskii.",
+                    "Pubmed ID": "17698251",
+                    "Reference": "Peptides 2007; 28 1532-1539.",
+                    "Author": "Kim SS, Shim MS, Chung J, Lim DY, Lee BJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=17698251"
+                }
+            ],
+            "Frequent Amino Acids": "GKV",
+            "Absent Amino Acids": "DHMOPRUWY",
+            "Basic Residues": 6,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 15,
+            "Polar Residues": 23,
+            "Positive Residues": 6,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01788",
+                    "Similarity": 1.0,
+                    "Sequence": "GLFSVVTGVLKAVGKNVAKNVGGSLLEQLKCKISGGC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01790",
+                    "Similarity": 1.0,
+                    "Sequence": "GLFSVVTGVLKAVGKNVAGSLLEQLKCKISGGC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01947",
+                    "Similarity": 0.9090909090909091,
+                    "Sequence": "MFTSKKSMLLLFFLGTISLSLCQEERDADEDEVIEEEVKRGLFSVVKGVLKGVGKNVAGSLLDQLKCKISGGC"
+                }
+            ]
+        }
+    }
+}

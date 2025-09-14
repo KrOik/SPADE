@@ -1,0 +1,94 @@
+{
+    "SPADE_N_02142": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 2012/0102595 A1",
+                "Patent Link": "http://www.lens.org/lens/patent/US_2012_0102595_A1",
+                "Patent Type": "Patent Application",
+                "Publication Date": "2012-4-26",
+                "Family Info": "Unknown",
+                "Patent Title": "Novel Antifungal Proteins and Methods of Use.",
+                "Abstract": "Compositions and methods for protecting a plant from a pathogen, particularly a fungal pathogen, are provided. Compositions include amino acid sequences, and variants and fragments thereof, for novel variants of antipathogenic polypeptides generated through DNA shuffling that exhibit improved antipathogenic activity. Polynucleotides that encode the antipathogenic polypeptides are also provided. A method for inducing pathogen resistance in a plant using the polynucleotides disclosed herein is further provided. Compositions comprising an antipathogenic polypeptide or a microorganism comprising an antipathogenic polynucleotide of the invention in combination with a carrier and methods of using these compositions to protect a plant from a pathogen are further provided. Plants, plant cells, seeds, and microorganisms comprising an antipathogenic polynucleotide or polypeptide of the invention are also disclosed."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02142",
+            "Peptide Name": "Antifungal protein (PgAFP; Cys-rich)",
+            "Source": "Penicillium chrysogenum (Penicillium notatum)",
+            "Family": "Not found",
+            "Gene": "afp",
+            "Sequence": "LSKFGGECSLKHNTCTYLKGGKNHVVNCGSAANKKCKSDRHHCEYDEHHKRVDCQTPV",
+            "Sequence Length": 58,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/D0EXD3",
+                "http://www.uniprot.org/uniprot/B6GXZ8"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Antifungal",
+                "Antiparasitic"
+            ],
+            "Target Organism": "Fungi:Polytrichum commune Pc332, Penicillium echinulatum Pe321, Aspergillus niger An261.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C272H431N89O85S6",
+            "Mass": 6500.27,
+            "PI": 8.83,
+            "Net Charge": 10,
+            "Hydrophobicity": -1.03,
+            "Half Life": "Mammalian:5.5 hourYeast:3 minE.coli:2 min",
+            "Function": "Has strong antifungal activity against the molds Polytrichum commune Pc332, Penicillium echinulatum Pe321, and Aspergillus niger An261.",
+            "PTM": "Contains three disulfide bonds (By similarity).",
+            "Literature": [
+                {
+                    "Title": "Characterization of the novel antifungal protein PgAFP and the encoding gene of Penicillium chrysogenum.",
+                    "Pubmed ID": "19914321",
+                    "Reference": "Peptides. 2010 Apr;31(4)541-547.",
+                    "Author": "Rodríguez-Martín A, Acosta R, Liddell S, Núñez F, Benito MJ, Asensio MA.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=19914321"
+                },
+                {
+                    "Title": "Selection of antifungal protein-producing molds from dry-cured meat products.",
+                    "Pubmed ID": "19683356",
+                    "Reference": "Int J Food Microbiol. 2009 Sep 30;135(1)39-46.",
+                    "Author": "Acosta R, Rodríguez-Martín A, Martín A, Núñez F, Asensio MA.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=19683356"
+                }
+            ],
+            "Frequent Amino Acids": "KCH",
+            "Absent Amino Acids": "IMOUW",
+            "Basic Residues": 16,
+            "Acidic Residues": 6,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 42,
+            "Positive Residues": 16,
+            "Negative Residues": 6,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_14863",
+                    "Similarity": 1.0,
+                    "Sequence": "KFGGECSLKHNTCTYLKGGKNHVVNCGSAANKKCKSDRHHCEYDEHHKRVDCQTPV"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_08873",
+                    "Similarity": 0.9122807017543859,
+                    "Sequence": "LSKYGGECSRHNTCTYRKGGKNQVVNCGSAANKKCKSDRHHCEYDEYHKRVDCQTPV"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_08865",
+                    "Similarity": 0.896551724137931,
+                    "Sequence": "LSKYGGECSLKHNTCTYRKGGKNQVVNCGTAANKKCKTDRHHCEYDEYHKRVDCQTPV"
+                }
+            ]
+        }
+    }
+}

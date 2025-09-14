@@ -1,0 +1,67 @@
+{
+    "SPADE_UN_28144": {
+        "Sequence Information": {
+            "Peptide Name": "V681 [V13K,T15K]",
+            "Sequence": "KWKSFLKTFKSAKKKVLHTALKAISS",
+            "Sequence Length": 26,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Effects of net charge and the number of positively charged residues on the biological activity of amphipathic alpha-helical cationic antimicrobial peptides.",
+                    "Pubmed ID": "18098173",
+                    "Reference": "Biopolymers. 2008;90:369-383",
+                    "Author": "Jiang Z, Vasil AI, Hale JD, Hancock RE, Vasil ML, Hodges RS",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/18098173"
+                },
+                {
+                    "Title": "Potent antimicrobial peptides with selectivity for Bacillus anthracis over human erythrocytes.",
+                    "Pubmed ID": "21741801",
+                    "Reference": "Int J Antimicrob Agents. 2011;38:237-242",
+                    "Author": "Dawson RM, Fox MA, Atkins HS, Liu CQ",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/21741801"
+                }
+            ],
+            "Mass": 2976.6,
+            "PI": 10.85,
+            "Net Charge": 9,
+            "Hydrophobicity": -0.34,
+            "Frequent Amino Acids": "KSA",
+            "Absent Amino Acids": "CDEGMNOPQRUY",
+            "Basic Residues": 9,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 16,
+            "Positive Residues": 9,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_28144",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_27003",
+                    "Similarity": 1.0,
+                    "Sequence": "KWKWKPGKWKWK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_11432",
+                    "Similarity": 0.9615384615384616,
+                    "Sequence": "KWKSFLKTFKSAKKTVLHTALKAISS"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_16958",
+                    "Similarity": 0.9615384615384616,
+                    "Sequence": "KWKSFLKTFKSAKKTVLHTALKAISS"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:6% Hemolysis=100 µM",
+            "Target Organism": "Pseudomonas aeruginosa PAO1(MIC=31.3µg/ml),Pseudomonas aeruginosa PAK(MIC=62.5µg/ml),Pseudomonas aeruginosa CP204(MIC=7.8µg/ml),Pseudomonas aeruginosa PA14(MIC=31.3µg/ml),Pseudomonas aeruginosa WR5(MIC=62.5µg/ml),Pseudomonas aeruginosa M2(MIC=31.3µg/ml),Escherichia coli UB1005(MIC=8µg/ml),Escherichia coli DH5alpha(MIC=1µg/ml),Salmonella typhimurium C587(MIC=4µg/ml),Staphylococcus aureus C622(MIC=32µg/ml),Staphylococcus epidermidis C621(MIC=8µg/ml),Bacillus subtilis ATCC 6633(MIC=32µg/ml),Escherichia coli K91BK(MIC=100µM),Escherichia coli K91BK(IC50=70.7µM),Bacillus subtilis var. niger ATCC 9372(MIC=6.25µM),Bacillus subtilis var. niger ATCC 9372(IC50=1.86±0.14µM),Bacillus anthracis Sterne 34F2(MIC=>=100µM),Bacillus anthracis Sterne 34F2(IC50=70.7±6.1µM),Burkholderia thailandensis ATCC 700388(no activity data)"
+        }
+    }
+}

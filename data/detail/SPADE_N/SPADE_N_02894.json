@@ -1,0 +1,87 @@
+{
+    "SPADE_N_02894": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02894",
+            "Peptide Name": "Alpha-defensin cryptdin-5 (Defensin-related cryptdin5; Rodents, mammals, animals)",
+            "Source": "Mus musculus (Mouse)",
+            "Family": "Belongs to the alpha-defensin family",
+            "Gene": "Defa5",
+            "Sequence": "SKKLICYCRIRGCKRRERVFGTCRNLFLTFVFCCS",
+            "Sequence Length": 35,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P28312",
+                "http://www.uniprot.org/uniprot/Q64382"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-positive bacterium:Listeria monocytogenes EGD;Gram-negative bacteria:Escherichia coli ML-35p, mouse-avirulent Salmonella typhimurium 7953.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C184H301N57O44S6",
+            "Mass": 4208.1,
+            "PI": 9.86,
+            "Net Charge": 8,
+            "Hydrophobicity": 0.12,
+            "Half Life": "Mammalian:1.9 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Probably contributes to the antimicrobial barrier Function",
+            "PTM": "Contains three disulfide bonds.",
+            "Literature": [
+                {
+                    "Title": "Enteric defensins antibiotic peptide components of intestinal host defense.",
+                    "Pubmed ID": "1500431",
+                    "Reference": "J Cell Biol. 1992 Aug;118(4)929-936.",
+                    "Author": "Selsted ME, Miller SI, Henschen AH, Ouellette AJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=1500431"
+                },
+                {
+                    "Title": "Structure and diversity of the murine cryptdin gene family.",
+                    "Pubmed ID": "",
+                    "Author": "Ouellette A.J.,Selsted M.E.,Huttner K.M."
+                },
+                {
+                    "Title": "Enteric defensins: antibiotic peptide components of intestinal host defense.",
+                    "Pubmed ID": "",
+                    "Author": "Ouellette A.J.,Henschen A.H.,Miller S.I.,Selsted M.E."
+                }
+            ],
+            "Frequent Amino Acids": "CRF",
+            "Absent Amino Acids": "ADHMOPQUW",
+            "Basic Residues": 9,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 23,
+            "Positive Residues": 9,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_04215",
+                    "Similarity": 1.0,
+                    "Sequence": "MKTFVLLSALVLLAFQVQADPIHKTDEETNTEEQPGEEDQAVSISFGGQEGSALHEELSKKLICYCRIRGCKRRERVFGTCRNLFLTFVFCCS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07657",
+                    "Similarity": 1.0,
+                    "Sequence": "LSKKLICYCRIRGCKRRERVFGTCRNLFLTFVFCCS"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_24869",
+                    "Similarity": 0.8571428571428571,
+                    "Sequence": "LKKLCRILKKLCRILKKLCRI"
+                }
+            ]
+        }
+    }
+}

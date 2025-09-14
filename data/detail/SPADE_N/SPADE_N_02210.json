@@ -1,0 +1,102 @@
+{
+    "SPADE_N_02210": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 6642203 B1",
+                "Patent Link": "http://www.lens.org/lens/patent/US_6642203_B1",
+                "Patent Type": "Granted Patent",
+                "Publication Date": "2003-11-4",
+                "Family Info": "DE69827262D1,EP1000153A2,EP1000153B1,WO1999005270A2,WO1999005270A3",
+                "Patent Title": "Crustacean antimicrobial peptides.",
+                "Abstract": "The invention concerns antimicrobial peptides obtained from penaeid prawns having the following characteristics: a molecular mass of about 5 to 7 kDa; a pHi not less than 9; an N-terminal portion comprising a region (A) of about 15 to 25 amino acids rich in proline; and a C-terminal portion comprising a region (B) of about 20 to 30 amino acids and containing 6 cysteine residues forming three intramolecular disulfide bonds. The invention also concerns the nucleic acid sequences coding for said peptides and enabling their production by genetic engineering."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02210",
+            "Peptide Name": "Penaeidin-2a (Pen-2a; shrimps, Arthropods, animals)",
+            "Source": "Litopenaeus vannamei (Whiteleg shrimp) (Penaeus vannamei)",
+            "Family": "Belongs to the penaeidin family",
+            "Gene": "Not found",
+            "Sequence": "YRGGYTGPIPRPPPIGRPPFRPVCNACYRLSVSDARNCCIKFGSCCHLVK",
+            "Sequence Length": 50,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P81057"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Antifungal",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-positive bacterium:Micrococcus luteus;Gram-negative bacterium:Escherichia coli.Fungi:Neurospora crassa, Fusarium oxysporum, Saccharomyces cerevisiae TGY.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Chitin-binding",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C243H382N74O62S6",
+            "Mass": 5524.48,
+            "PI": 9.55,
+            "Net Charge": 8,
+            "Hydrophobicity": -0.25,
+            "Half Life": "Mammalian:2.8 hourYeast:10 minE.coli:2 min",
+            "Tissue specificity": "Higher expression in hemocytes and to a lesser extent in heart, testis, gills, intestine, lymphonoid organ and hepatopancreas. Traces in eyes and subcuticular epithelium. Not present in the brain.",
+            "Developmental stage": "Expression decreases 3 hours after microbial challenge to return to control levels after 12 hours and slightly increases after 24 hours.",
+            "PTM": "Contains three disulfide bonds 24-38; 27-45; 39-46 and Lysine amide at position 50.",
+            "Literature": [
+                {
+                    "Title": "Penaeidins, a family of antimicrobial peptides from penaeid shrimp (Crustacea, Decapoda).",
+                    "Pubmed ID": "11028917",
+                    "Reference": "Cell Mol Life Sci. 2000 Aug;57(8-9)1260-1271.",
+                    "Author": "Destoumieux D, Munoz M, Bulet P, Bachère E.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=11028917"
+                },
+                {
+                    "Title": "Penaeidins, a new family of antimicrobial peptides isolated from the shrimp Penaeus vannamei (Decapoda).",
+                    "Pubmed ID": "9353298",
+                    "Reference": "J Biol Chem. 1997 Nov 7;272(45)28398-28406.",
+                    "Author": "Destoumieux D, Bulet P, Loew D, Van Dorsselaer A, Rodriguez J, Bachère E.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=9353298"
+                },
+                {
+                    "Title": "Recombinant expression and range of activity of penaeidins, antimicrobial peptides from penaeid shrimp.",
+                    "Pubmed ID": "10561573",
+                    "Reference": "Eur J Biochem. 1999 Dec;266(2)335-346.",
+                    "Author": "Destoumieux D, Bulet P, Strub JM, Van Dorsselaer A, Bachère E.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=10561573"
+                }
+            ],
+            "Frequent Amino Acids": "PCR",
+            "Absent Amino Acids": "EMOQUW",
+            "Basic Residues": 9,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 23,
+            "Polar Residues": 29,
+            "Positive Residues": 9,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_07972",
+                    "Similarity": 1.0,
+                    "Sequence": "MRLVVCLVFLASFALVCQGEAYRGGYTGPIPRPPPIGRPPFRPVCNACYRLSVSDARNCCIKFGSCCHLVKG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02211",
+                    "Similarity": 0.98,
+                    "Sequence": "YRGGYTGPIPRPPPIGRPPLRPVCNACYRLSVSDARNCCIKFGSCCHLVK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02209",
+                    "Similarity": 0.92,
+                    "Sequence": "YRGGYTGPIPRPPPIGRPPLRLVVCACYRLSVSDARNCCIKFGSCCHLVK"
+                }
+            ]
+        }
+    }
+}

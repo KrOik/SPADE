@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_14553": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_14553",
+            "Peptide Name": "T-256",
+            "Source": "Synthetic construct(derived from measles virus(MV) fusion (F) protein)",
+            "Family": "Paramyxoviridae",
+            "Gene": "Not found",
+            "Sequence": "YLHRIDLGPPISLERLDVGTNLGNAIAKLEDAKEL",
+            "Sequence Length": 35,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P69353"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antiviral"
+            ],
+            "Target Organism": "[Ref.8700906]measles virus(MV):protection of HEp2 cell from viral cytopathic effect(CPE)(EC50=90.7 μg/ml).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "[Ref.8700906]No significant cytotoxic against HEp2 cells(CC50>100 μM).",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Acetylation",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C171H283N47O53",
+            "Mass": 3845.36,
+            "PI": 4.95,
+            "Net Charge": -1,
+            "Hydrophobicity": -0.16,
+            "Half Life": "Mammalian:2.8 hourYeast:10 minE.coli:2 min",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Peptides from conserved regions of paramyxovirus fusion (F) proteins are potent inhibitors of viral fusion.",
+                    "Pubmed ID": "8700906",
+                    "Reference": "Proc Natl Acad Sci U S A. 1996 Mar 5;93(5)2186-91.",
+                    "Author": "Lambert DM, Barney S, Lambert AL, Guthrie K, Medinas R, Davis DE, Bucy T, Erickson J, Merutka G, Petteway SR Jr.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=8700906"
+                }
+            ],
+            "Frequent Amino Acids": "LAD",
+            "Absent Amino Acids": "CFMOQUW",
+            "Basic Residues": 5,
+            "Acidic Residues": 6,
+            "Hydrophobic Residues": 17,
+            "Polar Residues": 14,
+            "Positive Residues": 5,
+            "Negative Residues": 6,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_10037",
+                    "Similarity": 1.0,
+                    "Sequence": "PDAVYLHRIDLGPPISLERLDVGTNLGNAIAKLED"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_10016",
+                    "Similarity": 1.0,
+                    "Sequence": "LHRIDLGPPISLERLDVGTNLGNAIAKLEAKELL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_14554",
+                    "Similarity": 1.0,
+                    "Sequence": "LHRIDLGPPISLERLDVGTNLGNAIAKLEDAKELL"
+                }
+            ]
+        }
+    }
+}

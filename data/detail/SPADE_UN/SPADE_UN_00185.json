@@ -1,0 +1,76 @@
+{
+    "SPADE_UN_00185": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_00185",
+            "Peptide Name": "Omwaprin-c (Oxywaprin-c; Snakes, reptiles, animals)",
+            "Source": "Oxyuranus microlepidotus (Inland taipan)",
+            "Family": "Belongs to the snake waprin family",
+            "Gene": "Not found",
+            "Sequence": "QDRPKKPGLCPPRPQKPCVKECKNDWSCPGQQKCCNYGCIDECRDPIFVN",
+            "Sequence Length": 50,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/B5L5M9"
+            ],
+            "Protein Existence": "Homology",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Antimalarial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C242H383N73O72S8",
+            "Mass": 5723.6,
+            "PI": 8.49,
+            "Net Charge": 3,
+            "Hydrophobicity": -1.11,
+            "Half Life": "Mammalian:0.8 hourYeast:10 minE.coli:>10 hour",
+            "Function": "Damages membranes of susceptible bacteria. Does not inhibit the proteinases elastase and cathepsin G (By similarity).",
+            "Tissue specificity": "Expressed by the venom gland.",
+            "PTM": "Contains four disulfide bonds (By similarity).",
+            "Literature": [
+                {
+                    "Title": "Common evolution of waprin and Kunitz-like toxin families in Australian venomous snakes.",
+                    "Pubmed ID": "18979207",
+                    "Reference": "Cell Mol Life Sci. 2008 Dec;65(24)4039-4054.",
+                    "Author": "St Pierre L, Earl ST, Filippovich I, Sorokina N, Masci PP, De Jersey J, Lavin MF.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=18979207"
+                }
+            ],
+            "Frequent Amino Acids": "CPK",
+            "Absent Amino Acids": "AHMOTU",
+            "Basic Residues": 9,
+            "Acidic Residues": 6,
+            "Hydrophobic Residues": 16,
+            "Polar Residues": 28,
+            "Positive Residues": 9,
+            "Negative Residues": 6,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_00183",
+                    "Similarity": 0.98,
+                    "Sequence": "QDRPKKPGLCPPRPQKPPCVKECKNDWSCPGQQKCCSYGCIDECRDPIFVN"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_00184",
+                    "Similarity": 0.98,
+                    "Sequence": "KDRPKKPGLCPPRPQKPCVKECKNDWSCPGQQKCCNYGCIDECRDPIFVN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02187",
+                    "Similarity": 0.96,
+                    "Sequence": "KDRPKKPGLCPPRPQKPCVKECKNDWSCSGQQKCCNYGCIDECRDPIFVN"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "SPADE_N_00389": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00389",
+            "Peptide Name": "Pisum sativum defensin 2 (Psd2; Plant defensin)",
+            "Source": "Pisum sativum (Garden pea)",
+            "Family": "Belongs to the DEFL family",
+            "Gene": "Not found",
+            "Sequence": "KTCENLSGTFKGPCIPDGNCNKHCRNNEHLLSGRCRDDFRCWCTNRC",
+            "Sequence Length": 47,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P81930"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antifungal"
+            ],
+            "Target Organism": "PD:Aspergillus niger (MIC=10.2 µg/ml), Aspergillus versicolor (MIC=0.34 µg/ml), Fusarium moniliforme (MIC=10.0 µg/ml), Fusarium oxysporum (MIC>100 µg/ml), Fusarium solani (MIC=8.5 µg/ml), Neurospora crassa (MIC<0.5 µg/ml), Saccharomyces cerevisae (MIC>100 µg/ml), Trichophyton mentagrophytes (MIC<100 µg/ml).PD+:Aspergillus niger (MIC=7.8 µg/ml), Aspergillus versicolor (MIC=5.9 µg/ml), Fusarium moniliforme (MIC=25 µg/ml), Fusarium oxysporum (MIC>100 µg/ml), Fusarium solani (MIC=5.0 µg/ml).NOTE:PD+ = potato dextrose medium supplemented with 1 mM CaCl2.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Cyclization of a C-terminal Cys residue (forming a disulfide bond)",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C219H346N76O69S8",
+            "Mass": 5404.08,
+            "PI": 8.52,
+            "Net Charge": 5,
+            "Hydrophobicity": -1.0,
+            "Half Life": "Mammalian:1.3 hourYeast:3 minE.coli:2 min",
+            "PTM": "Contains four disulfide bonds 3-47; 14-35; 20-41; 24-43.",
+            "Literature": [
+                {
+                    "Title": "Characterization of two novel defense peptides from pea (Pisum sativum) seeds.",
+                    "Pubmed ID": "10860545",
+                    "Reference": "Arch Biochem Biophys. 2000 Jun 15;378(2)278-286.",
+                    "Author": "Almeida M.S, Cabral K.M, Zingali R.B, Kurtenbach E.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=10860545"
+                }
+            ],
+            "Frequent Amino Acids": "CNR",
+            "Absent Amino Acids": "AMOQUVY",
+            "Basic Residues": 10,
+            "Acidic Residues": 5,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 29,
+            "Positive Residues": 10,
+            "Negative Residues": 5,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_07862",
+                    "Similarity": 0.9347826086956522,
+                    "Sequence": "KTCENLSGTFKGPCIPDGNCNKHCKNNEHLLSGRCRDDFCWCTRNC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11225",
+                    "Similarity": 0.9333333333333333,
+                    "Sequence": "GRCRDDFRCWCTKRC"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_30432",
+                    "Similarity": 0.9333333333333333,
+                    "Sequence": "GRCRDDFRCWCTKRC"
+                }
+            ]
+        }
+    }
+}

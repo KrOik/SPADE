@@ -1,0 +1,86 @@
+{
+    "SPADE_N_03284": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 10548948 B2",
+                "Patent Link": "http://www.lens.org/lens/patent/US_10548948_B2",
+                "Patent Type": "Granted Patent",
+                "Publication Date": "2020-2-4",
+                "Family Info": "US20180250362A1,WO2018160577A1,US20200108121A1",
+                "Patent Title": "Methods Of Treating Fungal Infections"
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03284",
+            "Peptide Name": "Peptide BmKn2 (Biologically active peptide 4; NDBP-5.1; Arthropods, animals)",
+            "Source": "Mesobuthus martensii (Buthus martensii)",
+            "Family": "Not found",
+            "Gene": "Kn2",
+            "Sequence": "FIGAIARLLSKIF",
+            "Sequence Length": 13,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q6JQN2"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-positive bacteria:Staphylococcus aureus (MIC=0.6 µg/ml), Micrococcus luteus(MIC=8 µg/ml), Bacillus subtilis (MIC=5 µg/ml);Gram-negative bacteria:Escherichia coli (MIC=1.5 µg/ml), Pseudomonas aeruginosa (MIC=21.3 µg/ml).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C71H117N17O15",
+            "Mass": 1448.79,
+            "PI": 11.0,
+            "Net Charge": 2,
+            "Hydrophobicity": 1.59,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Function": "Has antibacterial activity against Gram-positive bacteria and Gram-negative bacteria.",
+            "Tissue specificity": "Expressed by the venom gland.",
+            "PTM": "C-terminal amidation.",
+            "Literature": [
+                {
+                    "Title": "Identification and functional characterization of novel scorpion venom peptides with no disulfide bridge from Buthus martensii Karsch.",
+                    "Pubmed ID": "15062994",
+                    "Reference": "Peptides. 2004 Feb;25(2)143-150.",
+                    "Author": "Zeng XC, Wang SX, Zhu Y, Zhu SY, Li WX.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=15062994"
+                }
+            ],
+            "Frequent Amino Acids": "IAF",
+            "Absent Amino Acids": "CDEHMNOPQTUVWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 5,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06410",
+                    "Similarity": 1.0,
+                    "Sequence": "FIGAIARLLSK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14357",
+                    "Similarity": 1.0,
+                    "Sequence": "FIGAIARLLSKI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14358",
+                    "Similarity": 1.0,
+                    "Sequence": "FIGAIARLLS"
+                }
+            ]
+        }
+    }
+}

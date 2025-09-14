@@ -1,0 +1,54 @@
+{
+    "SPADE_UN_26593": {
+        "Sequence Information": {
+            "Peptide Name": "RIK-10 [I2Bip,D4R,L9Bip], Bip-RIK-10+",
+            "Sequence": "RXKRFLRNXV",
+            "Sequence Length": 10,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P49913",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P49913",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Segment-Based Peptide Design Reveals the Importance of N-Terminal High Cationicity for Antimicrobial Activity Against Gram-Negative Pathogens",
+                    "Pubmed ID": "39377976",
+                    "Reference": "Probiotics Antimicrob Proteins. 2024;doi: 10.1007/s12602-024-10376-3:",
+                    "Author": "Mechesso AF, Zhang W, Su Y, Xie J, Wang G",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/39377976"
+                }
+            ],
+            "SPADE ID": "SPADE_UN_26593",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07017",
+                    "Similarity": 1.0,
+                    "Sequence": "SRRARRSPRESGKKRKRKR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08920",
+                    "Similarity": 1.0,
+                    "Sequence": "GLPALISWIKRKR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09675",
+                    "Similarity": 1.0,
+                    "Sequence": "SCLPKEEQIGKSTRGRKCRRKR"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:10% Hemolysis=<8 µM,Human erythrocytes:50% Hemolysis=30 µM",
+            "Target Organism": "Staphylococcus aureus USA 300 LAC(MIC=1µM),Staphylococcus epidermidis 1457(MIC=2µM),Escherichia coli E423-17(MIC=2µM),Pseudomonas aeruginosa E411-17(MIC=2µM),Klebsiella pneumoniae E406-17(MIC=2µM),Acinetobacter baumannii B28-16(MIC=2µM)"
+        }
+    }
+}

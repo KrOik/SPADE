@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_26871": {
+        "Sequence Information": {
+            "Peptide Name": "LL-37 (5–24)",
+            "Sequence": "FFRKSKEKIGKEFKRIVQRI",
+            "Sequence Length": 20,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P49913",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P49913",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Design, synthesis, and characterization of non-hemolytic antimicrobial peptides related to human cathelicidin LL-37.",
+                    "Pubmed ID": "37228679",
+                    "Reference": "RSC Adv. 2023;13:15594-15605",
+                    "Author": "Krishnamoorthy R, Adhikari P, Anaikutti P",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/37228679"
+                }
+            ],
+            "Mass": 2538.04,
+            "PI": 11.12,
+            "Net Charge": 6,
+            "Hydrophobicity": -0.93,
+            "Frequent Amino Acids": "KFI",
+            "Absent Amino Acids": "ACDHLMNOPTUWY",
+            "Basic Residues": 8,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 13,
+            "Positive Residues": 8,
+            "Negative Residues": 2,
+            "SPADE ID": "SPADE_UN_26871",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02277",
+                    "Similarity": 1.0,
+                    "Sequence": "GDFFRKSKEKIGKEFKRIVQRIKDFLRN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03107",
+                    "Similarity": 1.0,
+                    "Sequence": "ALLGDFFRKSKEKIGKEFKRIVQRIKDFLRNLVPRTES"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03128",
+                    "Similarity": 1.0,
+                    "Sequence": "LLGDFFRKSKEKIGKEFKRIVQR"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Staphylococcus aureus ATCC 9144(MIC=10µg/ml),Bacillus subtilis(MIC=0.6µg/ml),Escherichia coli ATCC 25922(MIC=0.8µg/ml),Pseudomonas aeruginosa ATCC 1688(MIC=25µg/ml)"
+        }
+    }
+}

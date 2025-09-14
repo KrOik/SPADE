@@ -1,0 +1,73 @@
+{
+    "SPADE_N_01180": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01180",
+            "Peptide Name": "Phylloseptin-s3 (Frogs, amphibians, animals)",
+            "Source": "Phyllomedusa sauvagei (Sauvage's leaf frog)",
+            "Family": "Not found",
+            "Gene": "preproPLS-S3",
+            "Sequence": "FLSLIPHIVSGVASLAIHFG",
+            "Sequence Length": 20,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/F7UI86"
+            ],
+            "Protein Existence": "Homology",
+            "Biological Activity": [
+                "Antimicrobial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C100H156N24O24",
+            "Mass": 2078.45,
+            "PI": 6.92,
+            "Net Charge": 2,
+            "Hydrophobicity": 1.56,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Function": "Amphibian defense peptide. May have antimicriobial activity.",
+            "PTM": "Pyrrolidone carboxylic acid at Q1.",
+            "Literature": [
+                {
+                    "Title": "Phylloseptins from phyllomedusa sauvagei.",
+                    "Pubmed ID": "PubMed ID is not available",
+                    "Reference": "Submitted (OCT-2007) to the EMBL/GenBank/DDBJ databases",
+                    "Author": "Abbassi F, Galanth C, Piesse C, Nicolas P, Amiche M, Ladram A.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=PubMed ID is not available"
+                }
+            ],
+            "Frequent Amino Acids": "ILS",
+            "Absent Amino Acids": "CDEKMNOQRTUWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 9,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_11336",
+                    "Similarity": 1.0,
+                    "Sequence": "FLSLIPHIVSGVASLAIHF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01179",
+                    "Similarity": 0.95,
+                    "Sequence": "FLSLIPHIVSGVASLAKHFG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06789",
+                    "Similarity": 0.9473684210526315,
+                    "Sequence": "FLSLIPHIVSGVASLAKHF"
+                }
+            ]
+        }
+    }
+}

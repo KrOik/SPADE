@@ -1,0 +1,72 @@
+{
+    "SPADE_UN_15431": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_15431",
+            "Peptide Name": "Compound 5",
+            "Source": "Synthetic",
+            "Family": "",
+            "Gene": "Not found",
+            "Sequence": "RTXCXFLRXC",
+            "Sequence Length": 10,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Notavailable"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Target Organism": "Tumor cells:PC-12 (IC50=629µg/ml)",
+            "Hemolytic Activity": "Not available",
+            "Cytotoxicity": "Madin-Darby canine kidney cells:IC50=548µg/ml; Human dermal fibroblasts:IC50=534µg/ml",
+            "Binding Target": "Not available",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "C9",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "Mix",
+            "Structure Description": "Not found",
+            "Formula": "C28H46N12O4S2",
+            "Mass": 116958,
+            "PI": 8.83,
+            "Net Charge": 2,
+            "Hydrophobicity": -0.09,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Literature": [
+                {
+                    "Title": "A bioinspired peptide scaffold with high antibiotic activity and low in vivo toxicity",
+                    "Pubmed ID": "26024044",
+                    "Reference": "Sci Rep. 2015 May 29;510558.",
+                    "Author": "Rabanal F, Grau-Campistany A, Vila-Farrés X, Gonzalez-Linares J, Borràs M, Vila J, Manresa A, Cajal Y.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=26024044"
+                }
+            ],
+            "Frequent Amino Acids": "XCR",
+            "Absent Amino Acids": "ADEGHIKMNOPQSUVWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 2,
+            "Polar Residues": 5,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01768",
+                    "Similarity": 1.0,
+                    "Sequence": "SLLDTFKNLAVNAAKSAGVSVLNALSCKISRTC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02286",
+                    "Similarity": 1.0,
+                    "Sequence": "MRTIAILAAILLFALLAQAKSLQETADEAATQEQPGEDDQDLAVSFEENGLSTLRDSGSQARRTCRCRIRRCRGLESSFGNCILHGQFAKLCCR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02781",
+                    "Similarity": 1.0,
+                    "Sequence": "RTCRCRLGRCSRRESYSGSCNINGRIYSLCCR"
+                }
+            ]
+        }
+    }
+}

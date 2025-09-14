@@ -1,0 +1,75 @@
+{
+    "SPADE_N_05823": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_05823",
+            "Peptide Name": "Panurgine 1(bees,insects,animals)",
+            "Source": "Panurgus calcaratus(communal bee)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "LNWGAILKHIIK",
+            "Sequence Length": 12,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/C0HL84"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.23483218] Gram-negative bacteria:Escherichia coli(MIC=3.7μM), Pseudomonas aeruginosa(MIC=51.7μM) ;Gram-positive bacteria:Micrococcus luteus(MIC=1.5μM), Bacillus subtilis(MIC=1.3μM), Staphylococcus aureus(MIC=10.6μM) ;Yeast:Candida albicans(MIC=7.3μM)",
+            "Hemolytic Activity": "[Ref.23483218] LC50=119μM against rat red blood cells",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C68H112N18O14",
+            "Mass": 1405.73,
+            "PI": 10.0,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.59,
+            "Half Life": "Mammalian:5.5 hourYeast:3 minE.coli:2 min",
+            "Function": "Exhibits antimicrobial activity against the Gram-positive and Gram-negative bacteria, antifungal activity, and low hemolytic activity against human erythrocytes.",
+            "Literature": [
+                {
+                    "Title": "Panurgines, novel antimicrobial peptides from the venom of communal bee Panurgus calcaratus (Hymenoptera Andrenidae).",
+                    "Pubmed ID": "23483218",
+                    "Reference": "Amino Acids. 2013 Jul;45(1)143-57.",
+                    "Author": "Čujová S, Slaninová J, Monincová L, Fuμík V, Bednárová L, μtokrová J, Hovorka O, Voburka Z, Straka J, μeμovskμ V.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=23483218"
+                }
+            ],
+            "Frequent Amino Acids": "IKL",
+            "Absent Amino Acids": "CDEFMOPQRSTUVY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 5,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_10401",
+                    "Similarity": 1.0,
+                    "Sequence": "HIIKGL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_16286",
+                    "Similarity": 1.0,
+                    "Sequence": "HIIKKIRTWYRKAWHVLGKV"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_29436",
+                    "Similarity": 1.0,
+                    "Sequence": "HIIKGL"
+                }
+            ]
+        }
+    }
+}

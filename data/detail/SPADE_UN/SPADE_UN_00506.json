@@ -1,0 +1,70 @@
+{
+    "SPADE_UN_00506": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_00506",
+            "Peptide Name": "TvD1 (Recombinant peptide; alpha-defensin)",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "KTCENLADTYRGPCFTTGSCDDHCKNKEHLLSGRCRDDFRCWCTKRC",
+            "Sequence Length": 47,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic",
+            "Biological Activity": [
+                "Antimicrobial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C224H351N73O72S8",
+            "Mass": 5475.15,
+            "PI": 8.2,
+            "Net Charge": 4,
+            "Hydrophobicity": -1.01,
+            "Half Life": "Mammalian:1.3 hourYeast:3 minE.coli:2 min",
+            "Function": "The purified peptide also showed significant inhibition of root elongation in Arabidopsis seedlings, subsequently affecting the extension of growing root hairs indicating that it has the potential to disturb the plant growth and development.",
+            "Literature": [
+                {
+                    "Title": "Prokaryotic expression of a constitutively expressed Tephrosia villosa defensin and its potent antifungal activity.",
+                    "Pubmed ID": "18726095",
+                    "Reference": "Appl Microbiol Biotechnol. 2008 Oct;80(6)1023-1032.",
+                    "Author": "Vijayan S, Guruprasad L, Kirti PB.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=18726095"
+                }
+            ],
+            "Frequent Amino Acids": "CDR",
+            "Absent Amino Acids": "IMOQUV",
+            "Basic Residues": 11,
+            "Acidic Residues": 7,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 30,
+            "Positive Residues": 11,
+            "Negative Residues": 7,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_11225",
+                    "Similarity": 1.0,
+                    "Sequence": "GRCRDDFRCWCTKRC"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_30432",
+                    "Similarity": 1.0,
+                    "Sequence": "GRCRDDFRCWCTKRC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00951",
+                    "Similarity": 0.9523809523809523,
+                    "Sequence": "KTCENLADTYKGPCFTTGSCD"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "SPADE_UN_00446": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_00446",
+            "Peptide Name": "[K7, P8, K11]-IsCT (IsCT analog through amino acids substitution)",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "ILGKIWKIKKLF",
+            "Sequence Length": 12,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.15369808]Gram-negative bacteria:Escherichia coli KCTC 1682 (MIC=2 µM), Pseudomonas aeruginosa KCTC 1637 (MIC=2 µM), Salmonella typhimurium KCTC 1926 (MIC=1 µM);Gram-positive bacteria:Staphylococcus epidermidis KCTC 1917 (MIC=1 µM), Staphylococcus aureus KCTC 1621 (MIC=2 µM);Antibiotic-resistant bacteria:Methicillin-resistant Staphylococcus aureus (MRSA) CCARM 3001 (MIC=1 µM), multidrug-resistant Pseudomonas aeruginosa (MDRPA) (CCARM 3543) (MIC=1 µM) and multidrug-resistant Pseudomonas aeruginosa (MDRPA) CCARM 2095 (MIC=1 µM).",
+            "Hemolytic Activity": "[Ref.15369808]Non-hemolytic activity",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Cell membrane",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C76H127N17O13",
+            "Mass": 1486.93,
+            "PI": 10.48,
+            "Net Charge": 4,
+            "Hydrophobicity": 0.58,
+            "Half Life": "Mammalian:20 hourYeast:30 minE.coli:>10 hour",
+            "Function": "[K7, P8, K11]-IsCT exhibited more potent antibacterial activity than native IsCT but no hemolytic activity, even at concentrations as high as 100 µM. [K7, P8, K11]-IsCT displays a similar or 2-fold higher antibacterial activity relative to that of native IsCT.",
+            "Chemical modification": "C-terminal amidation.",
+            "Literature": [
+                {
+                    "Title": "Antibiotic activity and structural analysis of the scorpion-derived antimicrobial peptide IsCT and its analogs.",
+                    "Pubmed ID": "15369808",
+                    "Reference": "Biochem Biophys Res Commun. 2004 Oct 15;323(2)712-719.",
+                    "Author": "Lee K, Shin SY, Kim K, Lim SS, Hahm KS, Kim Y.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=15369808"
+                }
+            ],
+            "Frequent Amino Acids": "KIL",
+            "Absent Amino Acids": "ACDEHMNOPQRSTUVY",
+            "Basic Residues": 4,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 4,
+            "Positive Residues": 4,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03354",
+                    "Similarity": 1.0,
+                    "Sequence": "AIGNILKTLGNLAQKILGK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05584",
+                    "Similarity": 1.0,
+                    "Sequence": "MGALIKTGAKIIGSGAAGGLGTYIGHKILGK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08877",
+                    "Similarity": 1.0,
+                    "Sequence": "ILGKIWKPIKKLF"
+                }
+            ]
+        }
+    }
+}

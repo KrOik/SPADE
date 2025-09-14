@@ -1,0 +1,75 @@
+{
+    "SPADE_N_02196": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02196",
+            "Peptide Name": "L-amino-acid oxidase (Casca LAO, LAAO, LAO; Snakes, reptiles, animals)",
+            "Source": "Crotalus durissus cascavella (Northeastern Brazilian rattlesnake)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "ADDRNPLEQCFRETDYEEFLEIARNNLKATSNPKHVVIVGAGMAGLSAAYVLSGGGHQVTV",
+            "Sequence Length": 61,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P0C2D2"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Antiparasitic",
+                "Cytotoxic"
+            ],
+            "Target Organism": "Xanthomonas axonopodis pv passiflorae, Streptococcus mutans, Leishmania amazonensis.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C285H450N82O92S2",
+            "Mass": 6561.25,
+            "PI": 5.08,
+            "Net Charge": -1,
+            "Hydrophobicity": -0.22,
+            "Half Life": "Mammalian:4.4 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "Catalyzes an oxidative deamination of predominantly hydrophobic and aromatic L-amino acids, thus producing hydrogen peroxide that may contribute to the diverse toxic effects of this enzyme. Effects of snake L-amino oxidases on platelets are controversial, since they either induce aggregation or inhibit agonist-induced aggregation. These different effects are probably due to different experimental conditions. This protein may also induce hemorrhage, hemolysis, and edema. Also has parasiticidal activities against leishmania, as a result of enzyme-catalyzed hydrogen peroxide production, and the 50% inhibitory concentration was estimated in 2.39 microg/ml.",
+            "Literature": [
+                {
+                    "Title": "Isolation of a new L-amino acid oxidase from Crotalus durissus cascavella venom.",
+                    "Pubmed ID": "16307769",
+                    "Reference": "Toxicon. 2006 Jan;47(1)47-57.",
+                    "Author": "Toyama MH, Toyama Dde O, Passero LF, Laurenti MD, Corbett CE, Tomokane TY, Fonseca FV, Antunes E, Joazeiro PP, Beriam LO, Martins MA, Monteiro HS, Fonteles MC.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16307769"
+                }
+            ],
+            "Frequent Amino Acids": "AGV",
+            "Absent Amino Acids": "OUW",
+            "Basic Residues": 7,
+            "Acidic Residues": 8,
+            "Hydrophobic Residues": 27,
+            "Polar Residues": 35,
+            "Positive Residues": 7,
+            "Negative Residues": 8,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03223",
+                    "Similarity": 0.9,
+                    "Sequence": "ADDRNPLEECFRETDYEEFLEIARNGLKKT"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02163",
+                    "Similarity": 0.8918918918918919,
+                    "Sequence": "ADDKNPLEECFRETDYEEFLEIARNGLKATSNPKRVV"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_00236",
+                    "Similarity": 0.8571428571428571,
+                    "Sequence": "ADDKNPLEEFRETNYEVFLEIAKNGLKATSNPKRVVIVGAGMAGLSAAY"
+                }
+            ]
+        }
+    }
+}

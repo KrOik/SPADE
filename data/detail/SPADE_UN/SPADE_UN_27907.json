@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_27907": {
+        "Sequence Information": {
+            "Peptide Name": "Ixosin-B (21-30)[G21K,D24Y]",
+            "Sequence": "KKSYVRRWRS",
+            "Sequence Length": 10,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "A7UDM9",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/A7UDM9",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Structure-activity relationship of potent antimicrobial peptide analogs of Ixosin-B amide.",
+                    "Pubmed ID": "23570790",
+                    "Reference": "Bioorg Med Chem Lett. 2013;23:2929-2932",
+                    "Author": "Wu YS, Liao ZJ, Wang KS, Lung FD",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/23570790"
+                }
+            ],
+            "Mass": 1365.59,
+            "PI": 11.73,
+            "Net Charge": 5,
+            "Hydrophobicity": -2.09,
+            "Frequent Amino Acids": "RKS",
+            "Absent Amino Acids": "ACDEFGHILMNOPQTU",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 1,
+            "Polar Residues": 9,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_27907",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_05324",
+                    "Similarity": 1.0,
+                    "Sequence": "LILDGKQIKQISCFAKSVQSETIDLIKNIDKGKHVLEMIFLGEDPKNRIDISSNKKS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10149",
+                    "Similarity": 1.0,
+                    "Sequence": "GIHDILKYGKKS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10152",
+                    "Similarity": 1.0,
+                    "Sequence": "GIKKILKYGKKS"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=>100µM),Staphylococcus aureus ATCC 25923(MIC=>100µM),Pseudomonas aeruginosa ATCC 27853(MIC=>100µM)"
+        }
+    }
+}

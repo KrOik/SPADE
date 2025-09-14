@@ -1,0 +1,76 @@
+{
+    "SPADE_UN_14380": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_14380",
+            "Peptide Name": "peptide derived from hydrolysate of oyster",
+            "Source": "Synthetic construct",
+            "Family": "Retroviridae",
+            "Gene": "Not found",
+            "Sequence": "LEYS",
+            "Sequence Length": 4,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antiviral"
+            ],
+            "Target Organism": "[Ref.9918775]HIV-1:inhibition of HIV-1 protease(IC50=4800 nM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information or data found in the reference(s) presented in this entry",
+            "Binding Target": "HIV-1 protease",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C23H34N4O9",
+            "Mass": 510.54,
+            "PI": 4.05,
+            "Net Charge": -1,
+            "Hydrophobicity": -0.45,
+            "Half Life": "Mammalian:5.5 hourYeast:3 minE.coli:2 min",
+            "Mechanism of action": "The HIV-1 protease is a virally encoded protease that serves to cleave the gag and gag-pol polyprotein precursor into mature, functional proteins. This specific proteolysis occurs late in the viral life cycle and is essential for the maturation of the infectious virus. The peptide inhibits HIV-1 protease and thus acts antiviral activity.",
+            "Literature": [
+                {
+                    "Title": "Isolation of HIV-1 protease-inhibiting peptides from thermolysin hydrolysate of oyster proteins.",
+                    "Pubmed ID": "9918775",
+                    "Reference": "Biochem Biophys Res Commun. 1998 Dec 30;253(3)604-8.",
+                    "Author": "Lee TG, Maruyama S.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=9918775"
+                },
+                {
+                    "Title": "Isolation of HIV-1 protease-inhibiting peptides from thermolysin hydrolysate of oyster proteins",
+                    "Pubmed ID": "",
+                    "Author": "Lee TG, Maruyama S"
+                }
+            ],
+            "Frequent Amino Acids": "ELS",
+            "Absent Amino Acids": "ACDFGHIKMNOPQRTUVW",
+            "Basic Residues": 0,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 2,
+            "Polar Residues": 2,
+            "Positive Residues": 0,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02938",
+                    "Similarity": 1.0,
+                    "Sequence": "GLEYSQSFPGGEIAVCETCRLGRGKCRRTCIESEKIAGWCKLNFFCCRERI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02992",
+                    "Similarity": 1.0,
+                    "Sequence": "GLEYSQSFPGGEFAVCETCRLGRGKCRRTCLDSEKIAGKCKLNFFCCRERI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06231",
+                    "Similarity": 1.0,
+                    "Sequence": "LLEYSI"
+                }
+            ]
+        }
+    }
+}

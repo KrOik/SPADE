@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_15112": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_15112",
+            "Peptide Name": "TAT(48-57)[G1R]",
+            "Source": "Synthetic construct",
+            "Family": "Retroviridae",
+            "Gene": "Not found",
+            "Sequence": "RRKKRRQRRR",
+            "Sequence Length": 10,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P04610"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antiviral"
+            ],
+            "Target Organism": "[Ref.22319541]HIV-1 IIIB:inhibition of virus infection in P4-R5 MAGI cells(EC50=0.065 mg/mL).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information or data found in the reference(s) presented in this entry",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C59H118N34O12",
+            "Mass": 1495.79,
+            "PI": 12.0,
+            "Net Charge": 9,
+            "Hydrophobicity": -4.28,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Infection by CXCR4-Tropic Human Immunodeficiency Virus Type 1 Is Inhibited by the Cationic Cell-Penetrating Peptide Derived from HIV-1 Tat.",
+                    "Pubmed ID": "22319541",
+                    "Reference": "Int J Pept. 2012;2012349427.",
+                    "Author": "Keogan S, Passic S, Krebs FC.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=22319541"
+                }
+            ],
+            "Frequent Amino Acids": "RKQ",
+            "Absent Amino Acids": "ACDEFGHILMNOPSTUVWY",
+            "Basic Residues": 9,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 0,
+            "Polar Residues": 10,
+            "Positive Residues": 9,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00088",
+                    "Similarity": 1.0,
+                    "Sequence": "IAPIIVAGLGYLVKDAWDHSDQIISGFKKGWNGGRRK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02201",
+                    "Similarity": 1.0,
+                    "Sequence": "RVRRFWPLVPVAINTVAAGINLYKAIRRK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02301",
+                    "Similarity": 1.0,
+                    "Sequence": "GIINTLQKYYCRVRGGRCAVLTCLPKEEQIGKCSTRGRKCCRRKK"
+                }
+            ]
+        }
+    }
+}

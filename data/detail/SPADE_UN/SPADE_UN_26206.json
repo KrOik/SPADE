@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_26206": {
+        "Sequence Information": {
+            "Peptide Name": "Ctriporin [G4K]",
+            "Sequence": "FLWKLIPGAISAVTSLIKK",
+            "Sequence Length": 19,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "G1FE62",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/G1FE62",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Cationicity Enhancement on the Hydrophilic Face of Ctriporin Significantly Reduces Its Hemolytic Activity and Improves the Antimicrobial Activity against Antibiotic-Resistant ESKAPE Pathogens.",
+                    "Pubmed ID": "38535822",
+                    "Reference": "Toxins (Basel). 2024;16:156",
+                    "Author": "Luo X, Deng H, Ding L, Ye X, Sun F, Qin C, Chen Z",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/38535822"
+                }
+            ],
+            "Mass": 2085.57,
+            "PI": 10.3,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.98,
+            "Frequent Amino Acids": "IKL",
+            "Absent Amino Acids": "CDEHMNOQRUY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 9,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_26206",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_26206",
+                    "Similarity": 1.0,
+                    "Sequence": "FLWKLIPGAISAVTSLIKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_17621",
+                    "Similarity": 1.0,
+                    "Sequence": "LIKKLKEYLKKLI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03240",
+                    "Similarity": 0.9473684210526315,
+                    "Sequence": "FLWGLIPGAISAVTSLIKK"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:75.6±10.1% Hemolysis=256 µg/ml",
+            "Target Organism": "Staphylococcus aureus ATCC 29213(MIC=8µg/ml),Staphylococcus aureus ATCC 25923(MIC=16µg/ml),Enterococcus faecalis ATCC 29212(MIC=16µg/ml),Escherichia coli ATCC 25922(MIC=8µg/ml),Escherichia coli ATCC 35218(MIC=32µg/ml),Pseudomonas aeruginosa ATCC 27853(MIC=>64µg/ml),Klebsiella pneumoniae ATCC 700603(MIC=64µg/ml),Acinetobacter baumannii ATCC 19606(MIC=8µg/ml)"
+        }
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "SPADE_N_03652": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03652",
+            "Peptide Name": "Myotoxin (CAM-toxin)",
+            "Source": "Crotalus adamanteus (Eastern diamondback rattlesnake)",
+            "Family": "Belongs to the crotamine-myotoxin family",
+            "Gene": "Not found",
+            "Sequence": "YKRCHKKGGHCFPKTVICLPPSSDFGKMDCRWRWKCCKKGSVNNAISI",
+            "Sequence Length": 48,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P24330",
+                "http://www.uniprot.org/uniprot/F8S0Z6",
+                "http://www.uniprot.org/uniprot/J3RY57"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Toxin"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C368H569N97O88S8",
+            "Mass": 5515.54,
+            "PI": 9.7,
+            "Net Charge": 11,
+            "Hydrophobicity": -0.59,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Cationic peptide that possess multiple functions. It acts as a cell-penetrating peptide (CPP), and as a potent voltage- gated potassium channel (Kv) inhibitor. It exhibits antimicrobial activities, hind limb paralysis, and severe muscle necrosis by a non-enzymatic mechanism (By similarity).",
+            "Miscellaneous": "This myotoxin is the most abundant transcript in the venom of the specimen analyzed (PubMed",
+            "Tissue specificity": "Expressed by the venom gland.(Ref.3)",
+            "Toxic Dose": "LD(50) is 0.96 mg/kg by subcutaneous injection.(Ref.1)",
+            "Literature": [
+                {
+                    "Title": "The venom-gland transcriptome of the eastern diamondback rattlesnake (Crotalus adamanteus).",
+                    "Pubmed ID": "23025625",
+                    "Reference": "BMC Genomics. 2012 Jul 16;13312.",
+                    "Author": "Rokyta DR, Lemmon AR, Margres MJ, Aronow K.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=23025625"
+                },
+                {
+                    "Title": "Amino acid sequence of a myotoxin from venom of the eastern diamondback rattlesnake (Crotalus adamanteus).",
+                    "Pubmed ID": "1862521",
+                    "Reference": "Toxicon. 1991;29(4-5)461-468.",
+                    "Author": "Samejima Y, Aoki Y, Mebs D.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=1862521"
+                }
+            ],
+            "Frequent Amino Acids": "KCG",
+            "Absent Amino Acids": "EOQU",
+            "Basic Residues": 13,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 16,
+            "Polar Residues": 30,
+            "Positive Residues": 13,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03651",
+                    "Similarity": 0.9791666666666666,
+                    "Sequence": "YKRCHKKGGHCFPKTVICLPPSSDFGKMDCRWKWKCCKKGSVNNAISI"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_00835",
+                    "Similarity": 0.9777777777777777,
+                    "Sequence": "YKRCHKKGGHCFPKTVICLPPSSDFGKMDCRWKWKCCKKGSVNNA"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_00834",
+                    "Similarity": 0.9555555555555556,
+                    "Sequence": "YKRCHKKEGHCFPKTVICLPPSSDFGKMDCRWKWKCCKKGSVNNA"
+                }
+            ]
+        }
+    }
+}

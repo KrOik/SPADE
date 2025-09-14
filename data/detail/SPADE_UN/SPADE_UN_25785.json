@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_25785": {
+        "Sequence Information": {
+            "Peptide Name": "Tpen-Cecropin",
+            "Sequence": "RWKFGKKLERMGKRIFKATEKGLPVATGVAALARG",
+            "Sequence Length": 35,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Screening and Functional Analyses of Novel Cecropins from Insect Transcriptome.",
+                    "Pubmed ID": "37887806",
+                    "Reference": "Insects. 2023;14:794",
+                    "Author": "Guo L, Tang M, Luo S, Zhou X",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/37887806"
+                }
+            ],
+            "Mass": 3872.63,
+            "PI": 11.6,
+            "Net Charge": 8,
+            "Hydrophobicity": -0.39,
+            "Frequent Amino Acids": "KAG",
+            "Absent Amino Acids": "CDHNOQSUY",
+            "Basic Residues": 10,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 14,
+            "Polar Residues": 21,
+            "Positive Residues": 10,
+            "Negative Residues": 2,
+            "SPADE ID": "SPADE_UN_25785",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_25785",
+                    "Similarity": 1.0,
+                    "Sequence": "RWKFGKKLERMGKRIFKATEKGLPVATGVAALARG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02716",
+                    "Similarity": 0.6875,
+                    "Sequence": "GGLKKFGKKLEGVGKRVFKASEKALPVVTGFKAL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14087",
+                    "Similarity": 0.6857142857142857,
+                    "Sequence": "KWKFGKKLERMGKRVLHATEKVLPAAQGVAGVATAFR"
+                }
+            ],
+            "Hemolytic Activity": "Sheep erythrocytes:1.72±1.28% Hemolysis=50 µg/ml",
+            "Target Organism": "Micrococcus luteus ATCC 9341(MIC=>128µg/ml),Staphylococcus aureus ATCC 6538(MIC=>128µg/ml),Escherichia coli ATCC 25922(MIC=8µg/ml),Pseudomonas aeruginosa CGMCC 1.10712(MIC=32µg/ml)"
+        }
+    }
+}

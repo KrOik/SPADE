@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_13867": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_13867",
+            "Peptide Name": "7R-Ahx-HBV Large envelope protein (96-116)",
+            "Source": "Synthetic construct",
+            "Family": "Hepadnaviridae",
+            "Gene": "Not found",
+            "Sequence": "RRRRRRRXPLSPPLRNTHPQAMQWNSTTF",
+            "Sequence Length": 29,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P03138"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antiviral"
+            ],
+            "Target Organism": "[Ref.21144865]HBV:inhibition of cell proliferation in HepG2.2.15 cells(EC50=6.5 ± 1.5 μM;EC90=41.4 ±8.7 μM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "[Ref.21144865]HepG2.2.15:LC50=515.9± 43.8 μM.",
+            "Binding Target": "DNA",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C150H245N59O37S",
+            "Mass": 3628.37,
+            "PI": 12.85,
+            "Net Charge": 9,
+            "Hydrophobicity": -1.728,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Mechanism of action": "The peptide can efficiently enter cells and inhibit the envelopment of HBV nucleocapsids and subsequent secretion of viral particles.",
+            "Literature": [
+                {
+                    "Title": "Artificial recombinant cell-penetrating peptides interfere with envelopment of hepatitis B virus nucleocapsid and viral production.",
+                    "Pubmed ID": "21144865",
+                    "Reference": "Antiviral Res. 2011 Jan;89(1)109-14.",
+                    "Author": "Pan XB, Wei L, Han JC, Ma H, Deng K, Cong X.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=21144865"
+                }
+            ],
+            "Frequent Amino Acids": "RPT",
+            "Absent Amino Acids": "CDEGIKOUVY",
+            "Basic Residues": 9,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 19,
+            "Positive Residues": 9,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_10932",
+                    "Similarity": 1.0,
+                    "Sequence": "RRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11097",
+                    "Similarity": 1.0,
+                    "Sequence": "WWRRRRRRRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11098",
+                    "Similarity": 1.0,
+                    "Sequence": "WWWRRRRRRRR"
+                }
+            ]
+        }
+    }
+}

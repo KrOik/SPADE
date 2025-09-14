@@ -1,0 +1,68 @@
+{
+    "SPADE_UN_21735": {
+        "Sequence Information": {
+            "Peptide Name": "C10-W1R2",
+            "Sequence": "RWR",
+            "Sequence Length": 3,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Tuning the antimicrobial pharmacophore to enable discovery of short lipopeptides with multiple modes of action.",
+                    "Pubmed ID": "24946217",
+                    "Reference": "Eur J Med Chem. 2014;83:36-44",
+                    "Author": "Fang Y, Zhong W, Wang Y, Xun T, Lin D, Liu W, Wang J, Lv L, Liu S, He J",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/24946217"
+                },
+                {
+                    "Title": "Ultra-short lipopeptides against gram-positive bacteria while alleviating antimicrobial resistance.",
+                    "Pubmed ID": "33422980",
+                    "Reference": "Eur J Med Chem. 2021;212:113138",
+                    "Author": "Zhong C, Zhang F, Zhu N, Zhu Y, Yao J, Gou S, Xie J, Ni J",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/33422980"
+                }
+            ],
+            "Mass": 516.6,
+            "PI": 12.0,
+            "Net Charge": 2,
+            "Hydrophobicity": -3.3,
+            "Frequent Amino Acids": "RW",
+            "Absent Amino Acids": "ACDEFGHIKLMNOPQSTUVY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 0,
+            "Polar Residues": 3,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_21735",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02132",
+                    "Similarity": 1.0,
+                    "Sequence": "QLKVDLWGTRSGIQPEQHSSGKSDVRRWRSRY"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02195",
+                    "Similarity": 1.0,
+                    "Sequence": "YKQCHKKGGHCFPKEKICLPPSSDFGKMDCRWRWKCCKKGSG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02450",
+                    "Similarity": 1.0,
+                    "Sequence": "NPLSCRLNRGICVPIRCPGNLRQIGTCFTPSVKCCRWR"
+                }
+            ],
+            "Hemolytic Activity": "Mouse erythrocytes:10% Hemolysis=>256 µM",
+            "Target Organism": "Staphylococcus aureus ATCC 12600(MIC=7.8µg/ml),Escherichia coli ATCC 25922(MIC=15.6µg/ml),Candida albicans ATCC 14053(MIC=>62.5µg/ml),Staphylococcus epidermidis ATCC 12228(MIC=16µM),Staphylococcus aureus ATCC 25923(MIC=16µM),Staphylococcus aureus ATCC 29213(MIC=32µM),Bacillus subtilis ATCC 23857(MIC=16µM),Staphylococcus aureus 75(MIC=16µM),Staphylococcus aureus 113(MIC=16µM),Pseudomonas aeruginosa ATCC 27853(MIC=16µM),Pseudomonas aeruginosa ATCC 9027(MIC=32µM),Klebsiella pneumoniae ATCC 700603(MIC=>128µM),Acinetobacter baumannii ATCC 19606(MIC=128µM)"
+        }
+    }
+}

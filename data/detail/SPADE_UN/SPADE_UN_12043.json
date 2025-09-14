@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_12043": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_12043",
+            "Peptide Name": "2W-3 (Derived from PMAP-36)",
+            "Source": "synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "RRLRKKTWKRLW",
+            "Sequence Length": 12,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic form",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.31276398] Gram-positive bacteria:Staphylococcus aureus 29213 (MIC=64 μM), Staphylococcus aureus 25923 (MIC>128 μM), Staphylococcus  epidermidis 12228 (MIC=64 μM);Gram-negative bacteria:Escherichia coli 25922 (MIC=16 μM), Escherichia coli 1005 (MIC=32 μM), Staphylococcus typhi (MIC=64 μM)",
+            "Hemolytic Activity": "[Ref.31276398] MHC>128μM. The minimum hemolytic concentration (MHC) is measured as the lowest concentration of the peptides that caused 5% hemolysis of human red blood cells (hRBCs).",
+            "Cytotoxicity": "[Ref.31276398] The cell viability of the murine macrophage cell line RAW264.7 induced by 2W-3 is 95.2%, 89.7%, 87.2%, 91.6%, 85%, 88.4%, 84.8% AND 89.1% at peptide concentrations of 1, 2, 4, 8, 16, 32, 64 and 128 μM",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C80H135N29O14",
+            "Mass": 1727.11,
+            "PI": 12.0,
+            "Net Charge": 7,
+            "Hydrophobicity": -2.05,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Function": "Antibacterial activity against Gram-positive bacteria and Gram-negative bacteria.",
+            "Literature": [
+                {
+                    "Title": "Design of Trp-rich dodecapeptides with broad-spectrum antimicrobial potency and membrane-disruptive mechanism",
+                    "Pubmed ID": "31276398",
+                    "Reference": "J Med Chem. 2019 Aug 8;62(15)6941-6957. doi 10.1021/acs.jmedchem.9b00291.",
+                    "Author": "Lyu Y, Chen T, Shang L, Yang Y, Li Z, Zhu J, Shan A.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=31276398"
+                }
+            ],
+            "Frequent Amino Acids": "RKL",
+            "Absent Amino Acids": "ACDEFGHIMNOPQSUVY",
+            "Basic Residues": 7,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 4,
+            "Polar Residues": 8,
+            "Positive Residues": 7,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_09468",
+                    "Similarity": 1.0,
+                    "Sequence": "MDSQIKHAVVVKVMGRTGSRGQVTQVRVKFTDSDRFIMRNVKGPVREGDVLTLLESEREARRLR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_09469",
+                    "Similarity": 1.0,
+                    "Sequence": "MDTSRVQPIKLARVTKVLGRTGSQGQCTQVRVEFMDDTSRSIIRNVKGPVREGDVLTLLESEREARRLR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_09470",
+                    "Similarity": 1.0,
+                    "Sequence": "MDTQVKLAVVVKVMGRTGSRGQVTQVRVKFLDDQNRLIMRNVKGPVCEGDILTLLESEREARRLR"
+                }
+            ]
+        }
+    }
+}

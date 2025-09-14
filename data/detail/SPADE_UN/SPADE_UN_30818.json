@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_30818": {
+        "Sequence Information": {
+            "Peptide Name": "W1",
+            "Sequence": "WRPGRW",
+            "Sequence Length": 6,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Short, multiple-stranded β-hairpin peptides have antimicrobial potency with high selectivity and salt resistance.",
+                    "Pubmed ID": "26546414",
+                    "Reference": "Acta Biomater. 2016;30:78-93",
+                    "Author": "Chou S, Shao C, Wang J, Shan A, Xu L, Dong N, Li Z",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/26546414"
+                }
+            ],
+            "Mass": 856.97,
+            "PI": 12.0,
+            "Net Charge": 2,
+            "Hydrophobicity": -2.13,
+            "Frequent Amino Acids": "RWG",
+            "Absent Amino Acids": "ACDEFHIKLMNOQSTUVY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 0,
+            "Polar Residues": 6,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_30818",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06577",
+                    "Similarity": 1.0,
+                    "Sequence": "HWRP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06582",
+                    "Similarity": 1.0,
+                    "Sequence": "RWRP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06583",
+                    "Similarity": 1.0,
+                    "Sequence": "WRP"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:5% Hemolysis=>256 µM",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=>128µM),Escherichia coli UB1005(MIC=>128µM),Salmonella enterica subsp. enterica serovar Typhimurium C77-31(MIC=>128µM),Staphylococcus aureus ATCC 29213(MIC=>128µM),Staphylococcus aureus ATCC 43300(MIC=>128µM),Bacillus subtilis CMCC 63501(MIC=>128µM)"
+        }
+    }
+}

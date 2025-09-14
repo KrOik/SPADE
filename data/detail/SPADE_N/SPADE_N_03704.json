@@ -1,0 +1,55 @@
+{
+    "SPADE_N_03704": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 2003/0176652 A1",
+                "Patent Link": "http://www.lens.org/lens/patent/US_2003_0176652_A1",
+                "Patent Type": "Patent Application",
+                "Publication Date": "2003-9-18",
+                "Family Info": "US20050277176,WO2003024992A2,WO2003024992A3",
+                "Patent Title": "Human and mouse beta-defensins, antimicrobial peptides.",
+                "Abstract": "The present invention employs an iterative application of BLAST and Hidden Markov Model (HMM) based searches which identified 34 beta-defensin genes in the human genome and 48 in the mouse genome. The present invention relates to novel antimicrobial peptides and derivatives thereof as well as the beta-defensin genes encoding the peptides. The invention further relates to methods of use of the peptides including a method of inhibiting microbial growth by administering an effective amount of the peptide alone or in combination with other antimicrobial agents or antibiotics."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03704",
+            "Sequence": "RRCLMGLGRCRDHCNVDEKEIQKCKMKKCCVG",
+            "Sequence Length": 32,
+            "Peptide Name": "Sequence 30 from Patent US 20030176652",
+            "Source": "Homo sapiens",
+            "Biological Activity": [
+                "Antimicrobial"
+            ],
+            "Frequent Amino Acids": "CKR",
+            "Absent Amino Acids": "AFOPSTUWY",
+            "Basic Residues": 10,
+            "Acidic Residues": 4,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 20,
+            "Positive Residues": 10,
+            "Negative Residues": 4,
+            "Mass": 3741.53,
+            "PI": 9.13,
+            "Net Charge": 6,
+            "Hydrophobicity": -0.74,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_14587",
+                    "Similarity": 0.75,
+                    "Sequence": "MKLLFPIFASLMLQYQVNTEYFGLGRCVMGLGRCKDHCAVNEKEIDKCKKKKCCIGPKGIQLIKSYLQNEMIRTLEEVAKKNITKNSKVVTPSKYRPLSHLPEIKSTNPFASINTTIIPNGTTVNSTTTNSTTSRRSTHPATSTKSDTKKRRDSPTESPPADSSPIDPADSMT"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_13615",
+                    "Similarity": 0.5161290322580645,
+                    "Sequence": "KKCWNGGRCRKKCKENEKPIGYCRNGKKCCVN"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_21351",
+                    "Similarity": 0.5161290322580645,
+                    "Sequence": "KKCWNGGRCRKKCKENEKPIGYCRNGKKCCVN"
+                }
+            ]
+        }
+    }
+}

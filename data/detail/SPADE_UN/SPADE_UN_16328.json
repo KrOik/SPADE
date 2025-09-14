@@ -1,0 +1,72 @@
+{
+    "SPADE_UN_16328": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_16328",
+            "Peptide Name": "Modifed Opero2",
+            "Source": "Synthetic",
+            "Family": "",
+            "Gene": "Not found",
+            "Sequence": "GLKKVIKLLRPLL",
+            "Sequence Length": 13,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/A0A0L7L9V8"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Target Organism": "Tumor cells:A549 (CC50=50 μM)",
+            "Hemolytic Activity": "Human erythrocytes:<10% Hemolysis=50 µM",
+            "Cytotoxicity": "Not available",
+            "Binding Target": "Not available",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C72H135N19O14",
+            "Mass": 1490.96,
+            "PI": 11.26,
+            "Net Charge": 4,
+            "Hydrophobicity": 0.73,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Literature": [
+                {
+                    "Title": "Design of antimicrobial and cytolytic peptides by computational analysis of bacterial, algal, and invertebrate proteomes",
+                    "Pubmed ID": "33063186",
+                    "Reference": "Amino Acids. 2020 Oct;52(10)1403-1412",
+                    "Author": "Duque-Salazar G, Mendez-Otalvaro E, Ceballos-Arroyo AM, Orduz S.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=33063186"
+                }
+            ],
+            "Frequent Amino Acids": "LKG",
+            "Absent Amino Acids": "ACDEFHMNOQSTUWY",
+            "Basic Residues": 4,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 5,
+            "Positive Residues": 4,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01750",
+                    "Similarity": 1.0,
+                    "Sequence": "FLGSLIGAAIPAIKQLLGLKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11065",
+                    "Similarity": 1.0,
+                    "Sequence": "GKLWGLKGKLWGLKGKLWGLK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_13158",
+                    "Similarity": 1.0,
+                    "Sequence": "KKLGWGLKK"
+                }
+            ]
+        }
+    }
+}

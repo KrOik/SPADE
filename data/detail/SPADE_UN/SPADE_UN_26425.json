@@ -1,0 +1,49 @@
+{
+    "SPADE_UN_26425": {
+        "Sequence Information": {
+            "Peptide Name": "",
+            "Sequence": "RRX",
+            "Sequence Length": 3,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Glycosylated Lipopeptides-Synthesis and Evaluation of Antimicrobial Activity and Cytotoxicity",
+                    "Pubmed ID": "36671557",
+                    "Reference": "Biomolecules. 2023;13:172",
+                    "Author": "Sikora K, Bauer M, Bartoszewska S, Neubauer D, Kamysz W",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/36671557"
+                }
+            ],
+            "SPADE ID": "SPADE_UN_26425",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00066",
+                    "Similarity": 1.0,
+                    "Sequence": "ATYYGNGLYCNKEKCWVDWNQAKGEIGKIIVNGWVNHGPWAPRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00076",
+                    "Similarity": 1.0,
+                    "Sequence": "VNYGNGVSCSKTKCSVNWGQAFQERYTAGINSFVSGVASGAGSIGRRP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00079",
+                    "Similarity": 1.0,
+                    "Sequence": "FVYGNGVTSILVQAQFLVNGQRRFFYTPDK"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=345.72±51.94 µg/ml,Human keratinocytes HaCat:IC50=20.46±3.05 µg/ml",
+            "Target Organism": "Enterococcus faecium ATCC 700221(MIC=16µg/ml),Staphylococcus aureus ATCC 33591(MIC=32µg/ml),Klebsiella pneumoniae ATCC 700603(MIC=>512µg/ml),Acinetobacter baumannii ATCC BAA-1605(MIC=64µg/ml),Pseudomonas aeruginosa ATCC 9027(MIC=256µg/ml),Klebsiella aerogenes ATCC 13048(MIC=>512µg/ml),Candida glabrata ATCC 15126(MIC=128µg/ml)"
+        }
+    }
+}

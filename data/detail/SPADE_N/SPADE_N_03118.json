@@ -1,0 +1,84 @@
+{
+    "SPADE_N_03118": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03118",
+            "Peptide Name": "CXC chemokine GRObeta [5-73] (Human, mammals, animals)",
+            "Source": "Homo sapiens (Human)",
+            "Family": "Belongs to the intercrine alpha (chemokine CxC) family",
+            "Gene": "CXCL2",
+            "Sequence": "TELRCQCLQTLQGIHLKNIQSVKVKSPGPHCAQTEVIATLKNGQKACLNPASPMVKKIIEKMLKNGKSN",
+            "Sequence Length": 69,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P19875"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Antiparasitic",
+                "Chemotactic"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "GRObeta [5-73] forms a dimer in solution that is architectured by a six-stranded antiparallel beta-sheet (residues 25 to 29, 39 to 44, 49 to 52) and a pair of helices (residues 58 to 68) with 2-fold symmetry, while the C terminus of the protein is disordered.(Ref.2)",
+            "Formula": "C325H561N97O95S6",
+            "Mass": 7539.91,
+            "PI": 9.75,
+            "Net Charge": 10,
+            "Hydrophobicity": -0.38,
+            "Half Life": "Mammalian:7.2 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Produced by activated monocytes and neutrophils and expressed at sites of inflammation. Hematoregulatory chemokine, which, in vitro, suppresses hematopoietic progenitor cell proliferation. GRO-beta(5-73) shows a highly enhanced hematopoietic activity.",
+            "PTM": "The N-terminal processed form GRO-beta(5-73) is produced by proteolytic cleavage after secretion from bone marrow stromal cells.",
+            "Medical use": "GRO-beta(5-73) is available under the name Garnocestim as immunomodulator. It is used prior to hematopoietic transplantation for peripheral blood stem cell mobilization and reduction of incidence, duration, and/or severity of chemotherapy induced cytopenias.",
+            "Literature": [
+                {
+                    "Title": "Many chemokines including CCL20/MIP-3alpha display antimicrobial activity.",
+                    "Pubmed ID": "12949249",
+                    "Reference": "J Leukoc Biol. 2003 Sep;74(3)448-455.",
+                    "Author": "Yang D, Chen Q, Hoover DM, Staley P, Tucker KD, Lubkowski J, Oppenheim JJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=12949249"
+                },
+                {
+                    "Title": "Nuclear magnetic resonance solution structure of truncated human GRObeta [5-73] and its structural comparison with CXC chemokine family members GROalpha and IL-8.",
+                    "Pubmed ID": "10600366",
+                    "Reference": "J Mol Biol. 1999 Dec 17;294(5)1065-1072.",
+                    "Author": "Qian YQ, Johanson KO, McDevitt P.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=10600366"
+                }
+            ],
+            "Frequent Amino Acids": "KLQ",
+            "Absent Amino Acids": "DFOUWY",
+            "Basic Residues": 13,
+            "Acidic Residues": 3,
+            "Hydrophobic Residues": 26,
+            "Polar Residues": 44,
+            "Positive Residues": 13,
+            "Negative Residues": 3,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06809",
+                    "Similarity": 0.8636363636363636,
+                    "Sequence": "NGKKACLNPASPMVQKIIEKIL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06808",
+                    "Similarity": 0.8333333333333334,
+                    "Sequence": "NGRKACLNPASPIVKKIIEKMLNS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07427",
+                    "Similarity": 0.5606060606060606,
+                    "Sequence": "AELRCMCIKTTSGIHPKNIQSLEVIGKGTHCNQVEVIATLKDGRKICLDPDAPRIKKIVQKKLAGD"
+                }
+            ]
+        }
+    }
+}

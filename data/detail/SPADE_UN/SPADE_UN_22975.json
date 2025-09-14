@@ -1,0 +1,67 @@
+{
+    "SPADE_UN_22975": {
+        "Sequence Information": {
+            "Peptide Name": "Aurein-2.2 (1-14)[G11K, A12L, G14K]",
+            "Sequence": "GLFDIVKKVVKLLK",
+            "Sequence Length": 14,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P82389",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P82389",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Morphing of Amphipathic Helices to Explore the Activity and Selectivity of Membranolytic Antimicrobial Peptides.",
+                    "Pubmed ID": "32936629",
+                    "Reference": "Biochemistry. 2020;59:3772-3781",
+                    "Author": "Müller AT, Posselt G, Gabernet G, Neuhaus C, Bachler S, Blatter M, Pfeiffer B, Hiss JA, Dittrich PS, Altmann K-H, Wessler S, Schneider G",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/32936629"
+                }
+            ],
+            "Mass": 1600.04,
+            "PI": 10.0,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.84,
+            "Frequent Amino Acids": "KLV",
+            "Absent Amino Acids": "ACEHMNOPQRSTUWY",
+            "Basic Residues": 4,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 6,
+            "Positive Residues": 4,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_UN_22975",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01559",
+                    "Similarity": 1.0,
+                    "Sequence": "FLPIVGKLLSGLF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11867",
+                    "Similarity": 1.0,
+                    "Sequence": "GLFDIVKKVV"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_12265",
+                    "Similarity": 1.0,
+                    "Sequence": "FFPIFGKLLRGLF"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:<=5% Hemolysis=32 µM,Human dermal microvascular endothelial cells HDME:50% Cell death=236 µM",
+            "Target Organism": "Staphylococcus aureus SH1000(MIC=50µM),Staphylococcus aureus ATCC 43300(MIC=>20µM),Escherichia coli ATCC 25922(MIC=>20µM),Klebsiella pneumoniae ATCC 700603(MIC=>20µM),Pseudomonas aeruginosa ATCC 27853(MIC=>20µM),Acinetobacter baumannii ATCC 19606(MIC=>20µM),Candida albicans ATCC 90028(MIC=>20µM),Cryptococcus neoformans ATCC 208821(MIC=>20µM)"
+        }
+    }
+}

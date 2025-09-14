@@ -1,0 +1,73 @@
+{
+    "SPADE_N_03230": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03230",
+            "Peptide Name": "Probable antimicrobial peptide Con10 (Arthropods, animals)",
+            "Source": "Opisthacanthus cayaporum (South American scorpion)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "FWSFLVKAASKILPSLIGGGDDNKSSS",
+            "Sequence Length": 27,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/C5J897"
+            ],
+            "Protein Existence": "Transcript level",
+            "Biological Activity": [
+                "Antimicrobial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C129H202N32O39",
+            "Mass": 2825.17,
+            "PI": 8.5,
+            "Net Charge": 1,
+            "Hydrophobicity": 0.11,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Function": "Probable antimicrobial peptide.",
+            "Tissue specificity": "Expressed by the venom gland.",
+            "Literature": [
+                {
+                    "Title": "Cloning and characterization of cDNA sequences encoding for new venom peptides of the Brazilian scorpion Opisthacanthus cayaporum.",
+                    "Pubmed ID": "19379768",
+                    "Reference": "Toxicon. 2009 Sep 1;54(3)252-261.",
+                    "Author": "Silva EC, Camargos TS, Maranhão AQ, Silva-Pereira I, Silva LP, Possani LD, Schwartz EF.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=19379768"
+                }
+            ],
+            "Frequent Amino Acids": "SGK",
+            "Absent Amino Acids": "CEHMOQRTUY",
+            "Basic Residues": 3,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 13,
+            "Positive Residues": 3,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_30042",
+                    "Similarity": 0.75,
+                    "Sequence": "FWGFLGKLAMKAVPSLIGGNKSSSK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11377",
+                    "Similarity": 0.7368421052631579,
+                    "Sequence": "IWSFLIKAATKLLPSLFGG"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_30652",
+                    "Similarity": 0.7368421052631579,
+                    "Sequence": "IWSFLIKAATKLLPSLFGG"
+                }
+            ]
+        }
+    }
+}

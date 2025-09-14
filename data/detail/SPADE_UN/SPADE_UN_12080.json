@@ -1,0 +1,72 @@
+{
+    "SPADE_UN_12080": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_12080",
+            "Peptide Name": "3IH2 (De Novo Synthesis)",
+            "Source": "synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "IHHIHHIIHHIHHI",
+            "Sequence Length": 14,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic form",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.31199117] Gram-negative Bacteria:Escherichia coli 25922 (MIC=4μM), Escherichia coli UB1005 (MIC=8μM), Escherichia coli K88 (MIC=4μM), Escherichia coli K99 (MIC=4μM), Escherichia coli 078 (MIC=8μM), Escherichia coli 987P (MIC=2μM), Pseudomonas aeruginosa 27853 (MIC=4μM), Pseudomonas aeruginosa PAO1 (MIC=4μM), Salmonella typhimurium 14028 (MIC=32μM), Salmonella typhimurium 7731 (MIC=16μM)",
+            "Hemolytic Activity": "[Ref.31199117] 5% hemolysis at 63μM, 8% hemolysis at 128μM against human red blood cells",
+            "Cytotoxicity": "[Ref.31199117] ①The cell viability of HEK293T cells induced by 3IH2 is 105.8%, 105.8%, 105.2%, 104.2%, 101.1%, 101.7% and 100.8% at peptide concentrations of 2, 4, 8, 16, 32, 64 and 128 μM at pH 7.4, while that induced by Melittin is 47.2%, 1.7%, 1.9%, 0.6%, 0.6%, 0.6% and 1.7% at 2, 4, 8, 16, 32, 64 and 128 μM. ②The cell viability of HEK293T cells induced by 3IH2 is 106.2%, 105.9%, 105.9%, 105.6%, 104.2%, 104.8% and 101.4% at peptide concentrations of 2, 4, 8, 16, 32, 64 and 128 μM at pH 6.0, while that induced by Melittin is 43.8%, 3.4%, 3.4%, 0%, 2.2%, 0% and 1.1% at 2, 4, 8, 16, 32, 64 and 128 μM.",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "The α-helical coiled coils would show a sequence periodicity of seven residues (heptad repeat), indicated as “abcdefg”, with hydrophobic residues in the “a” and “d” positions “forming the knobs-into-holes packing interactions and providing the energy needed to distort the mechanical-stabilized α-helices”.",
+            "Formula": "C84H124N30O15",
+            "Mass": 1794.08,
+            "PI": 7.28,
+            "Net Charge": 8,
+            "Hydrophobicity": 0.1,
+            "Half Life": "Mammalian:20 hourYeast:30 minE.coli:>10 hour",
+            "Function": "Antibacterial activity against Gram-negative bacteria.",
+            "Literature": [
+                {
+                    "Title": "Highly Stabilized α-Helical Coiled Coils Kill Gram-Negative Bacteria by Multicomplementary Mechanisms under Acidic Condition",
+                    "Pubmed ID": "31199117",
+                    "Reference": "ACS Appl Mater Interfaces. 2019 Jun 26;11(25)22113-22128. doi 10.1021/acsami.9b04654. Epub 2019 Jun 14.",
+                    "Author": "Lai Z, Tan P, Zhu Y, Shao C, Shan A, Li L.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=31199117"
+                }
+            ],
+            "Frequent Amino Acids": "HI",
+            "Absent Amino Acids": "ACDEFGKLMNOPQRSTUVWY",
+            "Basic Residues": 8,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 8,
+            "Positive Residues": 8,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_12079",
+                    "Similarity": 1.0,
+                    "Sequence": "IHHIHHI"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_12081",
+                    "Similarity": 1.0,
+                    "Sequence": "IHHIHHIIHHIHHIIHHIHHI"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_12082",
+                    "Similarity": 1.0,
+                    "Sequence": "IHHIHHIIHHIHHIIHHIHHIIHHIHHI"
+                }
+            ]
+        }
+    }
+}

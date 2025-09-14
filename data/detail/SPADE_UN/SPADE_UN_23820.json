@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_23820": {
+        "Sequence Information": {
+            "Peptide Name": "Temporin-B LG21 [N7A]",
+            "Sequence": "LLPIVGALLKSLLGWKRKRFG",
+            "Sequence Length": 21,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P79874",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P79874",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "'Lollipop'-shaped helical structure of a hybrid antimicrobial peptide of temporin B-lipopolysaccharide binding motif and mapping cationic residues in antibacterial activity",
+                    "Pubmed ID": "27015761",
+                    "Reference": "Biochim Biophys Acta. 2016;1860:1362-1372",
+                    "Author": "Mohanram H, Bhattacharjya S",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/27015761"
+                }
+            ],
+            "Mass": 2365.95,
+            "PI": 12.0,
+            "Net Charge": 5,
+            "Hydrophobicity": 0.52,
+            "Frequent Amino Acids": "LGK",
+            "Absent Amino Acids": "CDEHMNOQTUY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 11,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_23820",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03525",
+                    "Similarity": 1.0,
+                    "Sequence": "KRFGRLAKSFLRMRILLPRRKILLAS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09769",
+                    "Similarity": 1.0,
+                    "Sequence": "LLPIVGALLKSLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_28559",
+                    "Similarity": 1.0,
+                    "Sequence": "LLPIVGALLKSLL"
+                }
+            ],
+            "Hemolytic Activity": "Mouse erythrocytes:10% Hemolysis=100 µM",
+            "Target Organism": "Escherichia coli(MIC=4µM),Pseudomonas aeruginosa ATCC 27853(MIC=4µM),Klebsiella pneumoniae ATCC 13883(MIC=4µM),Salmonella enterica subsp. enterica serovar Typhimurium ATCC 14028(MIC=4µM),Bacillus subtilis(MIC=4µM),Staphylococcus aureus ATCC 25923(MIC=8µM),Streptococcus pyogenes ATCC 19615(MIC=10µM),Enterococcus faecalis ATCC 29212(MIC=10µM)"
+        }
+    }
+}

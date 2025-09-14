@@ -1,0 +1,59 @@
+{
+    "SPADE_N_15985": {
+        "Sequence Information": {
+            "Peptide Name": "SA-hepcidin 1",
+            "Sequence": "QSHLSMCRYCCNCCRNNKGCGFCCKF",
+            "Sequence Length": 26,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "1. Scatophagus argus",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Two hepcidins from spotted scat (Scatophagus argus) possess antibacterial and antiviral functions in vitro.",
+                    "Pubmed ID": "26845697",
+                    "Reference": "Fish Shellfish Immunol. 2016;50:191-199",
+                    "Author": "Gui L, Zhang P, Zhang Q, Zhang J",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/26845697"
+                }
+            ],
+            "Mass": 3009.58,
+            "PI": 8.75,
+            "Net Charge": 5,
+            "Hydrophobicity": -0.25,
+            "Frequent Amino Acids": "CNF",
+            "Absent Amino Acids": "ADEIOPTUVW",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 14,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_N_15985",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_04095",
+                    "Similarity": 1.0,
+                    "Sequence": "GCGFCC"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_01367",
+                    "Similarity": 0.9333333333333333,
+                    "Sequence": "CCCNCCKGCGFCCKF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15419",
+                    "Similarity": 0.9230769230769231,
+                    "Sequence": "QSHLSMCRYCCNCCKGNKGCGFCCKF"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Staphylococcus aureus(MIC=50µM),Vibrio fluvialis(MIC=25µM),Vibrio anguillarum(MIC=50µM),Vibrio alginolyticus(MIC=50µM),Vibrio parahaemolyticus(MIC=>50µM),Escherichia coli(MIC=50µM)"
+        }
+    }
+}

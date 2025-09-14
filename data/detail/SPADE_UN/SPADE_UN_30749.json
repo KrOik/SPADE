@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_30749": {
+        "Sequence Information": {
+            "Peptide Name": "Cyclo CP-11",
+            "Sequence": "ICLKKWPWWPWRRCK",
+            "Sequence Length": 15,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "1QX9",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P33046",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P33046",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Structure-based design of an indolicidin peptide analogue with increased protease stability.",
+                    "Pubmed ID": "14640680",
+                    "Reference": "Biochemistry. 2003;42:14130-14138",
+                    "Author": "Rozek A, Powers JP, Friedrich CL, Hancock RE",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/14640680"
+                }
+            ],
+            "Mass": 2086.57,
+            "PI": 10.33,
+            "Net Charge": 5,
+            "Hydrophobicity": -0.95,
+            "Frequent Amino Acids": "WKC",
+            "Absent Amino Acids": "ADEFGHMNOQSTUVY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 4,
+            "Polar Residues": 11,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_30749",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06800",
+                    "Similarity": 1.0,
+                    "Sequence": "AFCGETCLLGKCYTPGCSCHTGICLK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06801",
+                    "Similarity": 1.0,
+                    "Sequence": "AFCGETCLLGTCYTPGCRCTAGICLK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06804",
+                    "Similarity": 1.0,
+                    "Sequence": "AFCGETCVLGTCYTPGCSCNFGICLK"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:<5% Hemolysis=256 µg/ml",
+            "Target Organism": "Escherichia coli(MIC=16µg/ml),Pseudomonas aeruginosa(MIC=64µg/ml),Salmonella typhimurium(MIC=64µg/ml),Staphylococcus aureus(MIC=16µg/ml),Staphylococcus aureus MR(MIC=16µg/ml),Staphylococcus epidermidis(MIC=8µg/ml),Enterococcus faecalis(MIC=64µg/ml)"
+        }
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "SPADE_UN_30612": {
+        "Sequence Information": {
+            "Peptide Name": "Tritrpticin (2-13)[R1,2,12,13K][L11Del]",
+            "Sequence": "KKFPWWWPFKK",
+            "Sequence Length": 11,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P51524",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P51524",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                },
+                {
+                    "uniprotId": "P51525",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P51525",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Selective cytotoxicity following Arg-to-Lys substitution in tritrpticin adopting a unique amphipathic turn structure.",
+                    "Pubmed ID": "12681513",
+                    "Reference": "FEBS Lett. 2003;540:229-233",
+                    "Author": "Yang ST, Shin SY, Lee CW, Kim YC, Hahm KS, Kim JI",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/12681513"
+                },
+                {
+                    "Title": "Design of perfectly symmetric Trp-rich peptides with potent and broad-spectrum antimicrobial activities.",
+                    "Pubmed ID": "16563706",
+                    "Reference": "Int J Antimicrob Agents. 2006;27:325-330",
+                    "Author": "Yang ST, Shin SY, Hahm KS, Kim JI",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/16563706"
+                }
+            ],
+            "Mass": 1577.91,
+            "PI": 10.48,
+            "Net Charge": 4,
+            "Hydrophobicity": -1.45,
+            "Frequent Amino Acids": "KWF",
+            "Absent Amino Acids": "ACDEGHILMNOQRSTUVY",
+            "Basic Residues": 4,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 2,
+            "Polar Residues": 9,
+            "Positive Residues": 4,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_30612",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02179",
+                    "Similarity": 1.0,
+                    "Sequence": "KFFKKLKNSVKKRAKKFFKKPKVIGVTFPF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02202",
+                    "Similarity": 1.0,
+                    "Sequence": "KRFKKFFKKLKNSVKKRAKKFFKKPKVIGVTFPF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02203",
+                    "Similarity": 1.0,
+                    "Sequence": "KRFKKFFKKLKKSVKKRAKKFFKKPRVIGVSIPF"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:-=NA,Human erythrocytes:50% Hemolysis=>200 µM",
+            "Target Organism": "Escherichia coli KCTC 1682(MIC=8µg/ml),Salmonella typhimurium KCTC 1926(MIC=8µg/ml),Pseudomonas aeruginosa KCTC 1637(MIC=8µg/ml),Bacillus subtilis KCTC 3068(MIC=2µg/ml),Staphylococcus aureus KCTC 1621(MIC=4µg/ml),Staphylococcus epidermidis KCTC 1917(MIC=1µg/ml),Staphylococcus aureus(MIC=4-8µg/ml),Enterococcus faecium(MIC=8µg/ml)"
+        }
+    }
+}

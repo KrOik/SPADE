@@ -1,0 +1,72 @@
+{
+    "SPADE_UN_18880": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_18880",
+            "Peptide Name": "KWI-19 (synthetic AMPs, ILTI-fragment-derived, UCLL1)",
+            "Source": "Designed",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "KWIRRIIRDYKKFFIKFII",
+            "Sequence Length": 19,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antifungal",
+                "Synergistic AMPs",
+                "Hemolytic",
+                "Antibiofilm"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 2584.2,
+            "PI": 11.12,
+            "Hydrophobicity": 0.03,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "de Oliveira Almeida LH, Ramalho SR, Almeida CV, de Oliveira Gutierrez C, de Cassia Orlandi Sardi J, de Miranda A, de Oliveira RA, de Rezende SB, Crusca E, Franco OL, de Oliveira CFR, Cardoso MH, Macedo MLR. 2024",
+                    "Reference": "Biochim Biophys Acta Gen Subj. 2024 Feb 13:130583. doi: 10.1016/j.bbagen.2024.130583.PubMed",
+                    "Title": "A potent candicidal peptide designed based on an encrypted peptide from a proteinase inhibitor."
+                }
+            ],
+            "Frequent Amino Acids": "IKF",
+            "Absent Amino Acids": "ACEGHLMNOPQSTUV",
+            "Basic Residues": 7,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 8,
+            "Positive Residues": 7,
+            "Negative Residues": 1,
+            "Net Charge": 6,
+            "Comments": "Discovery: seq scanned for encrypted antifungal region followed by amino acid changes.Sequence analysis: APD analysis reveals that this sequence is most similar (60%) topredicted Hs02I: 32%; F=R: 16%; K: 21%.Activity: active against C. albicans ATCC 90028 (MIC 5.0 uM), C-glabrata ATCC 90030 (MIC >20 uM), C. krusei ATCC 6258 (MIC 20 uM), C. parapsilosis ATCC 2209 (MIC 10 uM), C. tropicalis ATCC 750 (MIC 5.0 uM), C. guillermondii ATCC 6260 (MIC 2.5 uM). Minimal fungicidal concentration (MFC) is the same as MIC or higher.Biofilms:fungi:C. tropicalis: at the MIC, it inhibited 81.8% biofilm formation and disrupted 87.3% preformed biofilm mass.Synergy:drug:  KWI-19 and antifungal amphotericin B showed synergistic effects against C. tropicalis (FIC 0.06).MOA:fungi:C. tropicalis: it showed membrane damage after 24 h incubation.Structure: KWI-19 is helical in memrbane-mimetic 50% TFE or SDS micelles.Toxicity: human RBC (HC50 ~10 uM), hemolytic. RAW 264.7 cell viability (IC50 64 uM).Animal model:wax moth: it protected the animals when treated with this peptide at 12.5 uM.",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_05904",
+                    "Similarity": 1.0,
+                    "Sequence": "WNRVKWIRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_12895",
+                    "Similarity": 0.75,
+                    "Sequence": "RIIRRIRRIIR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_20610",
+                    "Similarity": 0.75,
+                    "Sequence": "RIIRRIRRIIR"
+                }
+            ]
+        }
+    }
+}

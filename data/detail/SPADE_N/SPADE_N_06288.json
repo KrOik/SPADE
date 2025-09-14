@@ -1,0 +1,73 @@
+{
+    "SPADE_N_06288": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_06288",
+            "Peptide Name": "Phylloseptin-L1",
+            "Source": "skin secretions of the lemur leaf frog Hylomantis lemur (Hylidae: Phyllomedusinae)",
+            "Family": "",
+            "Gene": "Not found",
+            "Sequence": "LLGMIPLAISAISALSKL",
+            "Sequence Length": 18,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/A0A5Q0MU22##P0DQK9##L0P329"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Target Organism": "Tumor cells:Hep-G2 (LC50=35 μM)",
+            "Hemolytic Activity": "Human erythrocytes:LC50=200 μM",
+            "Cytotoxicity": "Not available",
+            "Binding Target": "Not available",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C84H151N19O22S",
+            "Mass": 1811.28,
+            "PI": 8.75,
+            "Net Charge": 1,
+            "Hydrophobicity": 1.75,
+            "Half Life": "Mammalian:5.5 hourYeast:3 minE.coli:2 min",
+            "Comments": "Cytolytic",
+            "Literature": [
+                {
+                    "Title": "Peptides with differential cytolytic activity from skin secretions of the lemur leaf frog Hylomantis lemur (Hylidae Phyllomedusinae)",
+                    "Pubmed ID": "17561225",
+                    "Reference": "Toxicon. 2007 Sep 15;50(4)498-506.",
+                    "Author": "Conlon JM, Woodhams DC, Raza H, Coquet L, Leprince J, Jouenne T, Vaudry H, Rollins-Smith LA.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=17561225"
+                }
+            ],
+            "Frequent Amino Acids": "LAI",
+            "Absent Amino Acids": "CDEFHNOQRTUVWY",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 7,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_15649",
+                    "Similarity": 0.9444444444444444,
+                    "Sequence": "LLGMIPVAISAISALSKL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15650",
+                    "Similarity": 0.9444444444444444,
+                    "Sequence": "LLGMIPLAISAISSLSKL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11656",
+                    "Similarity": 0.8888888888888888,
+                    "Sequence": "LLGMIPVAIKAISALSKL"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,32 @@
+[build]
+  # 构建命令
+  command = "echo 'Building SPADE serverless functions...'"
+  
+  # 发布目录
+  publish = "."
+  
+  # Functions目录
+  functions = "program/functions"
+
+[build.environment]
+  # Python版本
+  PYTHON_VERSION = "3.8"
+
+# Functions配置
+[functions]
+  # Functions目录
+  directory = "program/functions"
+
+# 重定向规则
+[[redirects]]
+  from = "/api/peptide/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
+
+# Headers配置
+[[headers]]
+  for = "/.netlify/functions/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Access-Control-Allow-Methods = "GET, POST, OPTIONS"
+    Access-Control-Allow-Headers = "Content-Type" 

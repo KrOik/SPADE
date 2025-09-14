@@ -1,0 +1,71 @@
+{
+    "SPADE_UN_00284": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_00284",
+            "Peptide Name": "ETD179 (Mutant of ARD1; Heliomicin analogs)",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "DKLIGSCVWGAVNYTSNCRAECKRRGYKGGHCGSFLNVNCWCET",
+            "Sequence Length": 44,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antifungal"
+            ],
+            "Target Organism": "Fungi:Candida albicans IHEM 8060 (MIC50=1.56 µg/ml), Aspergillus fumigatus GASP4707 (MIC50=12.5 µg/ml).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C207H318N64O62S6",
+            "Mass": 4887.52,
+            "PI": 8.65,
+            "Net Charge": 4,
+            "Hydrophobicity": -0.4,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:>10 hour",
+            "Function": "Possess antifungal activity.",
+            "Literature": [
+                {
+                    "Title": "Lead optimization of antifungal peptides with 3D NMR structures analysis.",
+                    "Pubmed ID": "14978308",
+                    "Reference": "Protein Sci. 2004 Mar;13(3)703-713.",
+                    "Author": "Landon C, Barbault F, Legrain M, Menin L, Guenneugues M, Schott V, Vovelle F, Dimarcq JL.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=14978308"
+                }
+            ],
+            "Frequent Amino Acids": "CGN",
+            "Absent Amino Acids": "MOPQU",
+            "Basic Residues": 7,
+            "Acidic Residues": 3,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 29,
+            "Positive Residues": 7,
+            "Negative Residues": 3,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_08666",
+                    "Similarity": 1.0,
+                    "Sequence": "SFLNVNCWCET"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_00283",
+                    "Similarity": 0.9772727272727273,
+                    "Sequence": "DKLIGSCVWGAVNYTSNCNAECKRRGYKGGHCGSFLNVNCWCET"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_00285",
+                    "Similarity": 0.9772727272727273,
+                    "Sequence": "DKLIGSCVWGAVNYTSNCRAECKRRGYKGGHCGSFANVNCWCET"
+                }
+            ]
+        }
+    }
+}

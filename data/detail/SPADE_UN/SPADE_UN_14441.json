@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_14441": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_14441",
+            "Peptide Name": "Alloferon (10-13)",
+            "Source": "Synthetic construct(derived from Alloferon-1)",
+            "Family": "Herpesviridae, Picornaviridae",
+            "Gene": "Not found",
+            "Sequence": "GVHG",
+            "Sequence Length": 4,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P83412"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antiviral"
+            ],
+            "Target Organism": "[Ref.22883213]Herpesvirus 1 McIntire (HHV-1MC):inhibition of virus replication in Vero cells(IC50=500 µM);HHV-1 clinical strain:inhibition of virus replication in Vero cells(IC50=1500 µM);Coxsackie virus 971 PT B2:inhibition of virus replication in HEp-2 cells(IC50=1040 µM);inhibition of virus replication in LLC-MK2 cells(IC50=540 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "[Ref.22883213]No cytotoxic against Vero, Hep-2 and LLC-MK2 cells up to 1174 µM.",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C15H24N6O5",
+            "Mass": 368.39,
+            "PI": 6.74,
+            "Net Charge": 1,
+            "Hydrophobicity": 0.05,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "New alloferon analogues synthesis and antiviral properties.",
+                    "Pubmed ID": "22883213",
+                    "Reference": "Chem Biol Drug Des. 2013 Feb;81(2)302-9.",
+                    "Author": "Kuczer M, Majewska A, Zahorska R.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=22883213"
+                }
+            ],
+            "Frequent Amino Acids": "GHV",
+            "Absent Amino Acids": "ACDEFIKLMNOPQRSTUWY",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 1,
+            "Polar Residues": 2,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00070",
+                    "Similarity": 1.0,
+                    "Sequence": "KYYGNGVHGKHSTVDWGTAIGNIGNNAAANATGNAGG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00500",
+                    "Similarity": 1.0,
+                    "Sequence": "RTTTGGSPGYGIGGRTKTCFTPALCIYRGVHGCDSYCKTKNFDYGYCRQEHCCCVNY"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02658",
+                    "Similarity": 1.0,
+                    "Sequence": "HGVSGHGQHGVHG"
+                }
+            ]
+        }
+    }
+}

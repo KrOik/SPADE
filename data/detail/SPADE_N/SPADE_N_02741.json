@@ -1,0 +1,75 @@
+{
+    "SPADE_N_02741": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02741",
+            "Peptide Name": "Spodoptera cecropins B (insects, invertebrates, animals)",
+            "Source": "Spodoptera litura larvae (Common cutworm)",
+            "Family": "Belongs to the cecropin family",
+            "Gene": "CECB",
+            "Sequence": "RWKVFKKIEKMGRNIRDGIVKAGPAIEVLGSAKALGK",
+            "Sequence Length": 37,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q9XZH0"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C184H315N55O46S",
+            "Mass": 4065.88,
+            "PI": 10.71,
+            "Net Charge": 7,
+            "Hydrophobicity": -0.27,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Function": "Cecropins have lytic and antibacterial activity against several Gram-positive and Gram-negative bacteria. It retains antibacterial activities in all conditions tested (at pH 5.6-8.0 and in the presence of 50-150 mM NaCl) that was adapted to confirm the antibacterial properties of Spodoptera cecropins.",
+            "Induction": "Induced as part of the humoral response to a bacterial invasion. Transcripts appear within the immunized fat body.",
+            "Tissue specificity": "Expressed in immunized fat body.",
+            "Literature": [
+                {
+                    "Title": "Antibacterial properties and partial cDNA sequences of cecropin-like antibacterial peptides from the common cutworm, Spodoptera litura.",
+                    "Pubmed ID": "11790350",
+                    "Reference": "Comp Biochem Physiol C Toxicol Pharmacol. 2000 Mar;125(3)287-297.",
+                    "Author": "Choi CS, Lee IH, Kim E, Kim SI, Kim HR.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=11790350"
+                }
+            ],
+            "Frequent Amino Acids": "KGA",
+            "Absent Amino Acids": "CHOQTUY",
+            "Basic Residues": 10,
+            "Acidic Residues": 3,
+            "Hydrophobic Residues": 17,
+            "Polar Residues": 19,
+            "Positive Residues": 10,
+            "Negative Residues": 3,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_04198",
+                    "Similarity": 0.9459459459459459,
+                    "Sequence": "MNFAKILSFVFALVLALSMTSAAPEPRWKIFKKIEKMGRNIRDGIVKAGPAIEVLGSAKAIGK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05692",
+                    "Similarity": 0.9459459459459459,
+                    "Sequence": "RWKIFKKIEKMGRNIRDGIVKAGPAIEVLGSAKAIGK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03090",
+                    "Similarity": 0.9428571428571428,
+                    "Sequence": "RWKIFKKIEKMGRNIRDGIVKAGPAIEVLGSAKAI"
+                }
+            ]
+        }
+    }
+}

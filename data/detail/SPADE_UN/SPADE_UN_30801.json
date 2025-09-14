@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_30801": {
+        "Sequence Information": {
+            "Peptide Name": "",
+            "Sequence": "LWE",
+            "Sequence Length": 3,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Small lipopeptides possess anti-biofilm capability comparable to daptomycin and vancomycin.",
+                    "Pubmed ID": "26257894",
+                    "Reference": "RSC Adv. 2015;5:59758-59769",
+                    "Author": "Mishra B, Lushnikova T, Wang G",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/26257894"
+                }
+            ],
+            "Mass": 446.5,
+            "PI": 4.6,
+            "Net Charge": -1,
+            "Hydrophobicity": -0.2,
+            "Frequent Amino Acids": "ELW",
+            "Absent Amino Acids": "ACDFGHIKMNOPQRSTUVY",
+            "Basic Residues": 0,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 1,
+            "Polar Residues": 2,
+            "Positive Residues": 0,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_UN_30801",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01135",
+                    "Similarity": 1.0,
+                    "Sequence": "SLWENFKNAGKQFILNILDKIRCRVAGGCRT"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01423",
+                    "Similarity": 1.0,
+                    "Sequence": "SLWETIKNAGKGFIQNLDKIR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01424",
+                    "Similarity": 1.0,
+                    "Sequence": "SLWETIKNAGKGFILNILDKIRCKVAGGCKT"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=>>100 µM",
+            "Target Organism": "Staphylococcus aureus USA 300(MIC=>50µM),Pseudomonas aeruginosa PAO1(MIC=>50µM),Escherichia coli ATCC 25922(MIC=>50µM),Klebsiella pneumoniae(MIC=>50µM)"
+        }
+    }
+}

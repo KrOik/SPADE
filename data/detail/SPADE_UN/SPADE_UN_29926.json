@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_29926": {
+        "Sequence Information": {
+            "Peptide Name": "LKH-Anoplin",
+            "Sequence": "LKHGLLKRIKTLL",
+            "Sequence Length": 13,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P0C005",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P0C005",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Copper-binding tripeptide motif increases potency of the antimicrobial peptide Anoplin via Reactive Oxygen Species generation.",
+                    "Pubmed ID": "25482446",
+                    "Reference": "Biochem Biophys Res Commun. 2015;456:446-451",
+                    "Author": "Libardo MD, Nagella S, Lugo A, Pierce S, Angeles-Boza AM",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/25482446"
+                }
+            ],
+            "Mass": 1532.96,
+            "PI": 11.26,
+            "Net Charge": 5,
+            "Hydrophobicity": 0.23,
+            "Frequent Amino Acids": "LKG",
+            "Absent Amino Acids": "ACDEFMNOPQSUVWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 7,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_29926",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_27598",
+                    "Similarity": 1.0,
+                    "Sequence": "LNWGALLKHLLK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_29926",
+                    "Similarity": 1.0,
+                    "Sequence": "LKHGLLKRIKTLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02432",
+                    "Similarity": 1.0,
+                    "Sequence": "GLLKRIKTLL"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:30% Hemolysis=8 µM",
+            "Target Organism": "Bacillus subtilis PS832(MIC=8µM),Escherichia coli MG1655(MIC=8µM)"
+        }
+    }
+}

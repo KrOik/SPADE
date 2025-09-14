@@ -1,0 +1,67 @@
+{
+    "SPADE_UN_28133": {
+        "Sequence Information": {
+            "Peptide Name": "HP(6-13) 50S ribosomal protein L1",
+            "Sequence": "FKRLEKLF",
+            "Sequence Length": 8,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P56029",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P56029",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Amphipathic alpha-helical peptide, HP (2-20), and its analogues derived from Helicobacter pylori: pore formation mechanism in various lipid compositions.",
+                    "Pubmed ID": "17961502",
+                    "Reference": "Biochim Biophys Acta. 2008;1778:229-241",
+                    "Author": "Park SC, Kim MH, Hossain MA, Shin SY, Kim Y, Stella L, Wade JD, Park Y, Hahm KS",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/17961502"
+                }
+            ],
+            "Mass": 1080.32,
+            "PI": 9.99,
+            "Net Charge": 2,
+            "Hydrophobicity": -0.33,
+            "Frequent Amino Acids": "FKL",
+            "Absent Amino Acids": "ACDGHIMNOPQSTUVWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 4,
+            "Polar Residues": 4,
+            "Positive Residues": 3,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_UN_28133",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02973",
+                    "Similarity": 1.0,
+                    "Sequence": "MRTLCSLLLIGCLLFSYATPVAGILGPLRIQTDYHRCLREKGFCLNAVCPRSTLFVGTCFPYKFYCCKFKR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08320",
+                    "Similarity": 1.0,
+                    "Sequence": "FKCWRWQWRWKKLGAKVFKRLEKLFSKI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10659",
+                    "Similarity": 1.0,
+                    "Sequence": "KWFKRLEKLFSKI"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:0% Hemolysis=100 µM",
+            "Target Organism": "Candida albicans(MIC=>100µM),Candida albicans(MIC=>200µM),Staphylococcus aureus(MIC=>100µM),Staphylococcus aureus(MIC=>100µM),Escherichia coli(MIC=>100µM),Escherichia coli(MIC=>100µM)"
+        }
+    }
+}

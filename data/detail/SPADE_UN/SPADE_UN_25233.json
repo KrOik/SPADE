@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_25233": {
+        "Sequence Information": {
+            "Peptide Name": "CaCa2",
+            "Sequence": "FIKTQVLKHLVAGVRVARGLDWKWR",
+            "Sequence Length": 25,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "E2B1C7",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/E2B1C7",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Associating Biological Activity and Predicted Structure of Antimicrobial Peptides from Amphibians and Insects",
+                    "Pubmed ID": "36551368",
+                    "Reference": "Antibiotics (Basel). 2022;11:1710",
+                    "Author": "Richter A, Sutherland D, Ebrahimikondori H, Louie N, Li C, Coombe L, Lin D, Warren RL, Yanai A, Krobthong S, Helbing CC, Hof F, Hoang LMN, Birol I",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/36551368"
+                }
+            ],
+            "Mass": 2977.56,
+            "PI": 11.73,
+            "Net Charge": 6,
+            "Hydrophobicity": 0.02,
+            "Frequent Amino Acids": "VKL",
+            "Absent Amino Acids": "CEMNOPSUY",
+            "Basic Residues": 7,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 14,
+            "Positive Residues": 7,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_UN_25233",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_25233",
+                    "Similarity": 1.0,
+                    "Sequence": "FIKTQVLKHLVAGVRVARGLDWKWR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14036",
+                    "Similarity": 0.8333333333333334,
+                    "Sequence": "LPWKWRWWKWRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_05665",
+                    "Similarity": 0.7142857142857143,
+                    "Sequence": "ILPWKWRWWKWRR"
+                }
+            ],
+            "Hemolytic Activity": "Pig erythrocytes:50% Hemolysis=>128 µg/ml",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=8µg/ml),Salmonella enterica subsp. enterica serovar Enteritidis(MIC=>128µg/ml),Staphylococcus aureus ATCC 29213(MIC=64-128µg/ml)"
+        }
+    }
+}

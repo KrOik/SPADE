@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_22696": {
+        "Sequence Information": {
+            "Peptide Name": "Indolicidin [W4C, P7C]",
+            "Sequence": "ILPCKWCWWPWRR",
+            "Sequence Length": 13,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P33046",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P33046",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Indolicidin analogs with broad-spectrum antimicrobial activity and low hemolytic activity",
+                    "Pubmed ID": "32593681",
+                    "Reference": "Peptides. 2020;132:170356",
+                    "Author": "Smirnova MP, Kolodkin NI, Kolobov AA, Afonin VG, Afonina IV, Stefanenko LI, Shpen VM, Shamova OV",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/32593681"
+                }
+            ],
+            "Mass": 1830.23,
+            "PI": 9.7,
+            "Net Charge": 3,
+            "Hydrophobicity": -0.49,
+            "Frequent Amino Acids": "WCP",
+            "Absent Amino Acids": "ADEFGHMNOQSTUVY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 4,
+            "Polar Residues": 9,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_22696",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_11211",
+                    "Similarity": 1.0,
+                    "Sequence": "WWPWRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_01079",
+                    "Similarity": 1.0,
+                    "Sequence": "WWPWRRK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_30420",
+                    "Similarity": 1.0,
+                    "Sequence": "WWPWRR"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=87.5±13.69 µg/ml",
+            "Target Organism": "Escherichia coli ML-35p(MIC50=20.8±6.45µg/ml),Staphylococcus aureus ATCC 33591(MIC50=45.8±10.21µg/ml),Pseudomonas aeruginosa ATCC 27853(MIC50=11.3±3.06µg/ml),Bacillus subtilis ATCC 6633(MIC50=141.7±20.41µg/ml),Bacillus subtilis L2(MIC50=166.7±25.82µg/ml)"
+        }
+    }
+}

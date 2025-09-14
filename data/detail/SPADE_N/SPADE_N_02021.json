@@ -1,0 +1,86 @@
+{
+    "SPADE_N_02021": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 2008/0170991 A1",
+                "Patent Link": "http://www.lens.org/lens/patent/US_2008_0170991_A1",
+                "Patent Type": "Patent Application",
+                "Publication Date": "2008-7-17",
+                "Family Info": "CA2661634A1,CN101511382A,EP2061488A2,EP2061488A4,US7846895,US20110207657,WO2008030988A2,WO2008030988A3",
+                "Patent Title": "Selectively targeted antimicrobial peptides and the use thereof.",
+                "Abstract": "The present invention relates to targeting peptides capable of specifically binding to microbial organisms (e.g., P. aeruginosa or S. mutans), antimicrobial peptides having antimicrobial activities, and specifically/selectively targeted antimicrobial peptides (STAMPs). In addition, the present invention provides methods of selectively killing or inhibiting microbial organisms by using the peptides or compositions provided by the present invention."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02021",
+            "Peptide Name": "Gaegurin-1 (Gaegurin 1; GGN1; Frogs, amphibians, animals)",
+            "Source": "Glandirana rugosa (Japanese wrinkled frog) (Rana rugosa)",
+            "Family": "Belongs to the frog skin active peptide family (Brevinin subfamily)",
+            "Gene": "GGN1",
+            "Sequence": "SLFSLIKAGAKFLGKNLLKQGACYAACKASKQC",
+            "Sequence Length": 33,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P80395"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "[Ref.7999137]Gram-positive bacteria:Micrococcus luteus (MIC=5 µg/ml), Staphylococcus epidermidis (MIC=50 µg/ml), Bacillus subtilis (MIC=50 µg/ml);Gram-negative bacteria:Klebsiella pneumoniae (MIC=100 µg/ml), Shigella dysentariae (MIC=25 µg/ml), Pseudomonas putida (MIC=50 µg/ml), Pseudomonas aeruginosa (MIC=50 µg/ml), Eshchericia coli (MIC=25 µg/ml).",
+            "Hemolytic Activity": "[Ref.7999137] It has 0.04% hemolytic activity at 0.1 μg/ml, 0.14% hemolytic activity at 1 μg/ml, 0.51% hemolytic activity at 10 μg/ml, 0.59% hemolytic activity at 100 μg/ml against human red blood cells.",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Cyclization (Cys27 and Cys33)",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C155H258N42O41S3",
+            "Mass": 3462.16,
+            "PI": 9.74,
+            "Net Charge": 6,
+            "Hydrophobicity": 0.26,
+            "Half Life": "Mammalian:1.9 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Has hemolytic activity against rabbit red cells.",
+            "Literature": [
+                {
+                    "Title": "Antimicrobial peptides from the skin of a Korean frog, Rana rugosa.",
+                    "Pubmed ID": "7999137",
+                    "Reference": "Biochem Biophys Res Commun. 1994 Nov 30;205(1)948-954.",
+                    "Author": "Park JM, Jung J-E, Lee BJ.1994",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=7999137"
+                }
+            ],
+            "Frequent Amino Acids": "AKL",
+            "Absent Amino Acids": "DEHMOPRTUVW",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 15,
+            "Polar Residues": 22,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01398",
+                    "Similarity": 0.9090909090909091,
+                    "Sequence": "SLFSLIKAGAKFLGKNLLKQGAQYAACKVSKEC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06531",
+                    "Similarity": 0.7878787878787878,
+                    "Sequence": "SLFSLIKAGAKFLGKNMLKQGPQYPACKVSKDSENVNWKS"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_13069",
+                    "Similarity": 0.7575757575757576,
+                    "Sequence": "SIFSLFKMGAKALGKTLLKQAGKAGAEYAACKATNQC"
+                }
+            ]
+        }
+    }
+}

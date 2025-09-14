@@ -1,0 +1,61 @@
+{
+    "SPADE_UN_30150": {
+        "Sequence Information": {
+            "Peptide Name": "",
+            "Sequence": "GIGK",
+            "Sequence Length": 4,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Ultrashort antibacterial and antifungal lipopeptides",
+                    "Pubmed ID": "17038500",
+                    "Reference": "Proc Natl Acad Sci U S A. 2006;103:15997–16002",
+                    "Author": "Makovitzki A, Avrahami D, Shai Y",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/17038500"
+                }
+            ],
+            "Mass": 373.45,
+            "PI": 8.75,
+            "Net Charge": 1,
+            "Hydrophobicity": -0.05,
+            "Frequent Amino Acids": "GIK",
+            "Absent Amino Acids": "ACDEFHLMNOPQRSTUVWY",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 1,
+            "Polar Residues": 3,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_30150",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00124",
+                    "Similarity": 1.0,
+                    "Sequence": "GPGKWLPWLQPAYDFVTGLAKGIGKEGNKNKWKNV"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00525",
+                    "Similarity": 1.0,
+                    "Sequence": "QNAICQKFLSETDCGAGSCTALCLQLWKGIGKCIKTDDHKLLCLCKYECIV"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01174",
+                    "Similarity": 1.0,
+                    "Sequence": "ALWKNMLKGIGKLAGQAALGAVKTLVGAES"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:6% Hemolysis=20 µM,Human erythrocytes:10% Hemolysis=50 µM",
+            "Target Organism": "Escherichia coli D21(MIC=>100µM),Escherichia coli ATCC 25922(MIC=>100µM),Pseudomonas aeruginosa ATCC 27853(MIC=>100µM),Staphylococcus aureus ATCC 6538P(MIC=>100µM),Acinetobacter baumannii ATCC 19606(MIC=>100µM),Aspergillus fumigatus ATCC 26430(MIC=>100µM),Aspergillus flavus ATCC 9643(MIC=>100µM),Candida albicans ATCC 10231(MIC=>100µM),Cryptococcus neoformans ATCC MYA-422(MIC=100µM)"
+        }
+    }
+}

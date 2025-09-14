@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_25253": {
+        "Sequence Information": {
+            "Peptide Name": "OdMa9",
+            "Sequence": "GLISGILGAGKKVLC",
+            "Sequence Length": 15,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Associating Biological Activity and Predicted Structure of Antimicrobial Peptides from Amphibians and Insects",
+                    "Pubmed ID": "36551368",
+                    "Reference": "Antibiotics (Basel). 2022;11:1710",
+                    "Author": "Richter A, Sutherland D, Ebrahimikondori H, Babcock A, Louie N, Li C, Coombe L, Lin D, Warren RL, Yanai A, Kotkoff M, Helbing CC, Hof F, Hoang LMN, Birol I",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/36551368"
+                }
+            ],
+            "Mass": 1428.78,
+            "PI": 9.31,
+            "Net Charge": 2,
+            "Hydrophobicity": 1.25,
+            "Frequent Amino Acids": "GLI",
+            "Absent Amino Acids": "DEFHMNOPQRTUWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 7,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_25253",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_25246",
+                    "Similarity": 1.0,
+                    "Sequence": "GLISGILGAGKKVLCGLSGLC"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_25252",
+                    "Similarity": 1.0,
+                    "Sequence": "GLISGILGAGKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_25253",
+                    "Similarity": 1.0,
+                    "Sequence": "GLISGILGAGKKVLC"
+                }
+            ],
+            "Hemolytic Activity": "Pig erythrocytes:50% Hemolysis=>128 µg/ml",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=64-128µg/ml),Salmonella enterica subsp. enterica serovar Enteritidis(MIC=128µg/ml),Staphylococcus aureus ATCC 29213(MIC=>128µg/ml)"
+        }
+    }
+}

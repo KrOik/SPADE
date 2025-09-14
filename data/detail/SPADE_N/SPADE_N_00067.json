@@ -1,0 +1,93 @@
+{
+    "SPADE_N_00067": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00067",
+            "Peptide Name": "Curvacin A (Bacteriocin)",
+            "Source": "Lactobacillus curvatus LTH1174 (Gram-positive bacteria)",
+            "Family": "Belongs to the class IIa bacteriocin",
+            "Gene": "curA",
+            "Sequence": "ARSYGNGVYCNNKKCWVNRGEATQSIIGGMISGWASGLAGM",
+            "Sequence Length": 41,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P0A311",
+                "http://www.uniprot.org/uniprot/P35619",
+                "http://www.uniprot.org/uniprot/P80097"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+"
+            ],
+            "Target Organism": "Gram-positive bacteria:Closely related Lactobacilli, Listeria monocytogenes and ivanovvi, Enterococcus faecalis, Carnobacterium sp and Brocothrix thermosphacta.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "In DPC micelles, the cationic and hydrophilic N-terminal half of the peptide forms an S-shaped beta-sheet-like domain stabilized by a disulfide bridge and a few hydrogen bonds. This domain is followed by a helix-hinge-helix motif: a hydrophilic 6-mer helix (residues 19-24) and an amphiphilic/hydrophobic 11-mer helix (residues 29-39).",
+            "Formula": "C184H288N56O56S4",
+            "Mass": 4308.86,
+            "PI": 9.31,
+            "Net Charge": 3,
+            "Hydrophobicity": -0.19,
+            "Half Life": "Mammalian:4.4 hourYeast:>20 hourE.coli:>10 hour",
+            "PTM": "Contains one disulfide bond 10-15.",
+            "Literature": [
+                {
+                    "Title": "Cloning and sequencing of curA encoding curvacin A, the bacteriocin produced by Lactobacillus curvatus LTH1174.",
+                    "Pubmed ID": "7694558",
+                    "Reference": "Arch Microbiol. 1993;160(4)279-283.",
+                    "Author": "Tichaczek PS, Vogel RF, Hammes WP.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=7694558"
+                },
+                {
+                    "Title": "Three-dimensional structure in lipid micelles of the pediocin-like antimicrobial peptide curvacin A.",
+                    "Pubmed ID": "16331975",
+                    "Reference": "Biochemistry. 2005 Dec 13;44(49)16149-16157.",
+                    "Author": "Haugen HS, Fimland G, Nissen-Meyer J, Kristiansen PE.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16331975"
+                },
+                {
+                    "Title": "Purification and amino acid sequence of sakacin A, a bacteriocin from Lactobacillus sake Lb706.",
+                    "Pubmed ID": "",
+                    "Author": "Blom H.,Aukrust T.,Birkeland S.-E.,Axelsson L.,Holck A.L."
+                },
+                {
+                    "Title": "The genes involved in production of and immunity to sakacin A, a bacteriocin from Lactobacillus sake Lb706.",
+                    "Pubmed ID": "",
+                    "Author": "Holck A.,Axelsson L."
+                }
+            ],
+            "Frequent Amino Acids": "GAN",
+            "Absent Amino Acids": "DFHOPU",
+            "Basic Residues": 4,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 16,
+            "Polar Residues": 24,
+            "Positive Residues": 4,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06058",
+                    "Similarity": 1.0,
+                    "Sequence": "MNNVKELSMTELQTITGGARSYGNGVYCNNKKCWVNRGEATQSIIGGMISGWASGLAGM"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00061",
+                    "Similarity": 0.7804878048780488,
+                    "Sequence": "ATRSYGNGVYCNNSKCWVNWGEAKENIAGIVISGWASGLAGMGH"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06070",
+                    "Similarity": 0.7804878048780488,
+                    "Sequence": "MRKKLFSLALIGIFGLVVTNFGTKVDAATRSYGNGVYCNNSKCWVNWGEAKENIAGIVISGWASGLAGMGH"
+                }
+            ]
+        }
+    }
+}

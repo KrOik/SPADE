@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_11404": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_11404",
+            "Peptide Name": "TSG-7 (Ixosin-B peptide derivative)",
+            "Source": "Synthetic construct",
+            "Family": "Derived from Ixosin-B",
+            "Gene": "Not found",
+            "Sequence": "WKSYVRRWRSRY",
+            "Sequence Length": 12,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.23570790]Gram-positive bacteria:Staphylococcus aureus (MIC=32 μM);Gram-negative bacteria:Escherichia coli (MIC=16 μM), Pseudomonas aeruginosa (MIC=100 μM)",
+            "Hemolytic Activity": "[Ref.23570790]1.5±1.4% hemolysis at 100μM against human red blood cells.",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C81H119N27O17",
+            "Mass": 1742.98,
+            "PI": 11.57,
+            "Net Charge": 5,
+            "Hydrophobicity": -1.97,
+            "Half Life": "Mammalian:2.8 hourYeast:3 minE.coli:2 min",
+            "Function": "Antibacterial activity against Gram-positive  and Gram-negative bacteria. Has hemolytic activity",
+            "Literature": [
+                {
+                    "Title": "Structure-activity relationship of potent antimicrobial peptide analogs of Ixosin-B amide.",
+                    "Pubmed ID": "23570790",
+                    "Reference": "Bioorg Med Chem Lett. 2013 May 15;23(10)2929-32.",
+                    "Author": "Wu YS, Liao ZJ, Wang KS, Lung FD.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=23570790"
+                }
+            ],
+            "Frequent Amino Acids": "RSW",
+            "Absent Amino Acids": "ACDEFGHILMNOPQTU",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 10,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00094",
+                    "Similarity": 1.0,
+                    "Sequence": "KSYGNGVHCNKKKCWVDWGSAISTIGNNSAANWATGGAAGWKS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00096",
+                    "Similarity": 1.0,
+                    "Sequence": "KSYGNGVQCNKKKCWVDWGSAISTIGNNSAANWATGGAAGWKS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06101",
+                    "Similarity": 1.0,
+                    "Sequence": "MKKAALKFIIVIAILGFSFSFFSIQSEAKSYGNGVQCNKKKCWVDWGSAISTIGNNSAANWATGGAAGWKS"
+                }
+            ]
+        }
+    }
+}

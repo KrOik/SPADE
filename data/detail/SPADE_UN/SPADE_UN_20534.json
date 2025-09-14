@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_20534": {
+        "Sequence Information": {
+            "Peptide Name": "GGHG-Bactenecin-1 [L2R,C3W,R4K,W10W,C11R], Cu-ATCUN-2",
+            "Sequence": "GGHGRRWKIVVIRWRR",
+            "Sequence Length": 16,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer\n2. DNA / RNA",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P22226",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P22226",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Cu-ATCUN Derivatives of Sub5 Exhibit Enhanced Antimicrobial Activity via Multiple Modes of Action.",
+                    "Pubmed ID": "30742402",
+                    "Reference": "ACS Chem Biol. 2019;:",
+                    "Author": "Alexander JL, Thompson Z, Yu Z, Cowan JA",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/30742402"
+                },
+                {
+                    "Title": "Enhanced Synergism and Mechanism of Action Studies of Synthetic Antimicrobial Metallopeptides",
+                    "Pubmed ID": "33825350",
+                    "Reference": "ChemMedChem. 2021;16:2112-2120",
+                    "Author": "Thompson Z, Greve JM, Cowan JA",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/33825350"
+                }
+            ],
+            "Mass": 2032.41,
+            "PI": 12.0,
+            "Net Charge": 7,
+            "Hydrophobicity": -0.95,
+            "Frequent Amino Acids": "RGI",
+            "Absent Amino Acids": "ACDEFLMNOPQSTUY",
+            "Basic Residues": 7,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 4,
+            "Polar Residues": 12,
+            "Positive Residues": 7,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_20534",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00984",
+                    "Similarity": 1.0,
+                    "Sequence": "GYGGHGGHGGHGGHGGHGGHGHGGGGHG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00985",
+                    "Similarity": 1.0,
+                    "Sequence": "GYHGGHGGHGGGYNGGGGHGGHGGGYNGGGHHGGGGHG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_12824",
+                    "Similarity": 1.0,
+                    "Sequence": "GGHRRWKIVVIRWRR"
+                }
+            ],
+            "Hemolytic Activity": "Human dermal fibroblasts:-=NA,Human dermal fibroblasts:IC50=132.5±34.0 µM",
+            "Target Organism": "Staphylococcus aureus ATCC 43300(MIC=1.3µM),Pseudomonas aeruginosa PAO1(MIC=1.7µM),Klebsiella pneumoniae(MIC=4.7µM),Acinetobacter baumannii(MIC=0.4µM),Staphylococcus epidermidis BCM0060(MIC=2.3µM),Streptococcus pneumoniae(MIC=9.3µM),Enterococcus faecium(MIC=0.3µM),Bacillus subtilis(MIC=1.33µM),Escherichia coli ATCC 25922(MIC=1µM),Escherichia coli ATCC 25922(MIC=3.0±0.4µM),Staphylococcus aureus ATCC 43300(MIC=2.7±0.4µM),Acinetobacter baumannii(MIC=3.6±0.4µM),Enterococcus faecalis(MIC=1.0±0.0µM)"
+        }
+    }
+}

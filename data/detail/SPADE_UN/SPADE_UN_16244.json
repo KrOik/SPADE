@@ -1,0 +1,72 @@
+{
+    "SPADE_UN_16244": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_16244",
+            "Peptide Name": "Pyrrhocoricin [L7R, R14K]",
+            "Source": "Synthetic",
+            "Family": "",
+            "Gene": "Not found",
+            "Sequence": "VDKGSYRPRPTPPKPIYNRN",
+            "Sequence Length": 20,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P37362"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Target Organism": "Tumor cells:A431 (<10% Cytotoxicity=10 µM); MDA-MB-231 (Not active up to 10 µM)",
+            "Hemolytic Activity": "Not available",
+            "Cytotoxicity": "Not available",
+            "Binding Target": "Not available",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C105H167N33O29",
+            "Mass": 2355.65,
+            "PI": 10.43,
+            "Net Charge": 4,
+            "Hydrophobicity": -1.78,
+            "Half Life": "Mammalian:100 hourYeast:>20 hourE.coli:>10 hour",
+            "Literature": [
+                {
+                    "Title": "Identification and elucidation of proline-rich antimicrobial peptides with enhanced potency and delivery",
+                    "Pubmed ID": "31209863",
+                    "Reference": "Biotechnol Bioeng. 2019 Oct;116(10)2439-2450.",
+                    "Author": "Lai PK, Tresnak DT, Hackel BJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=31209863"
+                }
+            ],
+            "Frequent Amino Acids": "PRK",
+            "Absent Amino Acids": "ACEFHLMOQUW",
+            "Basic Residues": 5,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 12,
+            "Positive Residues": 5,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_13455",
+                    "Similarity": 0.95,
+                    "Sequence": "VDKGSYKPRPTPPKPIYNRN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_13465",
+                    "Similarity": 0.95,
+                    "Sequence": "VDKGSYRPRPTPPRPIYNRN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_13466",
+                    "Similarity": 0.95,
+                    "Sequence": "VDKGSYLPRPTPPKPIYNRN"
+                }
+            ]
+        }
+    }
+}

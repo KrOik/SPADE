@@ -1,0 +1,89 @@
+{
+    "SPADE_UN_00303": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 2008/0207522 A1",
+                "Patent Link": "http://www.lens.org/lens/patent/US_2008_0207522_A1",
+                "Patent Type": "Patent Application",
+                "Publication Date": "2008-8-28",
+                "Family Info": "CA2629751A1,EP1824976A1,EP1824976A4,EP2116603A2,EP2116603A3,WO2006050611A1",
+                "Patent Title": "Antimicrobial Peptides.",
+                "Abstract": "A novel class of peptides having antimicrobial activity is provided. Also provided are methods for inhibiting the growth of bacteria utilizing the peptides of the invention. Pharmaceutical compositions comprising the novel class of peptides are also provided."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_00303",
+            "Peptide Name": "R5 (Bac2A variant through single amino acid substitution)",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "RLARRVVIRVAR",
+            "Sequence Length": 12,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "Gram-negative bacteria:Pseudomonas aeruginosa (MIC=63 µg/ml), Escherichia coli (MIC=16 µg/ml), Salmonella typhimurium (MIC=31 µg/ml);Gram-positive bacteria:Staphylococcus aureus (MIC=63 µg/ml), Staphylococcus epidermidis (MIC=16 µg/ml), Enterococcus faecalis (MIC=125 µg/ml).Yeast:Candida albicans (MIC=125 µg/ml).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C63H121N27O13",
+            "Mass": 1464.81,
+            "PI": 12.0,
+            "Net Charge": 5,
+            "Hydrophobicity": 0.17,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Function": "Optimized 12-mer peptides shows broad spectrum antibacterial activity against Gram-positive and Gram-negative bacteria. Also has antifungal activity against C. albicans.",
+            "Literature": [
+                {
+                    "Title": "High-throughput generation of small antibacterial peptides with improved activity.",
+                    "Pubmed ID": "16041366",
+                    "Reference": "Nat Biotechnol. 2005 Aug;23(8)1008-1012.",
+                    "Author": "Hilpert K, Volkmer-Engert R, Walter T, Hancock RE.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16041366"
+                },
+                {
+                    "Title": "High-throughput generation of small antibacterial peptides with improved activity",
+                    "Pubmed ID": "",
+                    "Author": "Hilpert K, Volkmer-Engert R, Walter T, Hancock RE"
+                }
+            ],
+            "Frequent Amino Acids": "RVA",
+            "Absent Amino Acids": "CDEFGHKMNOPQSTUWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 10,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_01828",
+                    "Similarity": 1.0,
+                    "Sequence": "VVIRVAR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_01834",
+                    "Similarity": 1.0,
+                    "Sequence": "VVIRVA"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_01841",
+                    "Similarity": 1.0,
+                    "Sequence": "VVIRV"
+                }
+            ]
+        }
+    }
+}

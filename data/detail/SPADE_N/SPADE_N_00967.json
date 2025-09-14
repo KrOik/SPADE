@@ -1,0 +1,75 @@
+{
+    "SPADE_N_00967": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00967",
+            "Peptide Name": "Vicilin-like Antimicrobial peptide 2c-2 (MiAMP2c-2; Plant defensin)",
+            "Source": "Macadamia integrifolia (Macadamia nut)",
+            "Family": "Belongs to the vicilin-like family",
+            "Gene": "AMP2-2",
+            "Sequence": "RQRDPQQQYEQCQERCQRHETEPRHMQTCQQRCERRYEKEKRKQQKR",
+            "Sequence Length": 47,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q9SPL4"
+            ],
+            "Protein Existence": "Transcript level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Antifungal"
+            ],
+            "Target Organism": "Gram-positive bacteria:(- Ca2+, + Ca2+):Clavibacter michiganensis (IC50=50, >50 µg/ml);Fungi (- Ca2+, + Ca2+):Alternaria helianthi (IC50=5-10, ND µg/ml), Ceratocystis paradoxa (IC50=20-50, >50 µg/ml), Cercospora nicotianae (IC50=5-10, 5-10 µg/ml), Chalara elegans (IC50=2-5, 10-20 µg/ml), Fusarium oxysporum (IC50=10, 20-50 µg/ml), Leptosphaeria maculans (IC50=25, >50 µg/ml), Sclerotinia sclerotiorum (IC50=20-50, >50 µg/ml), Verticillium dahliae (IC50=5-10, >50 µg/ml), Saccharomyces cerevisiae (IC50=20-50, >50 µg/ml), Phytophthora cryptogea (IC50=5-10, 10-25 µg/ml), Phytophthora parasitica nicotianae (IC50=10-20, >50 µg/ml).[NOTE:, Ca2+ = Medium with low content of CaCl2 (50 µM); + Ca2+ = Medium supplemented with high concentration of CaCl2 (1 mM)]",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C248H409N97O80S5",
+            "Mass": 6189.83,
+            "PI": 9.61,
+            "Net Charge": 8,
+            "Hydrophobicity": -2.81,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Function": "Antimicrobial peptides 2c has antibacterial and antifungal activity against a range of species (By similarity).",
+            "Literature": [
+                {
+                    "Title": "A family of antimicrobial peptides is produced by processing of a 7S globulin protein in Macadamia integrifolia kernels.",
+                    "Pubmed ID": "10571855",
+                    "Reference": "Plant J. 1999 Sep;19(6)699-710.",
+                    "Author": "Marcus JP, Green JL, Goulter KC, Manners JM.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=10571855"
+                }
+            ],
+            "Frequent Amino Acids": "QRE",
+            "Absent Amino Acids": "AFGILNOSUVW",
+            "Basic Residues": 16,
+            "Acidic Residues": 8,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 36,
+            "Positive Residues": 16,
+            "Negative Residues": 8,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00966",
+                    "Similarity": 1.0,
+                    "Sequence": "RQRDPQQQYEQCQERCQRHETEPRHMQTCQQRCERRYEKEKRKQQKRYEEQQREDEEKYEERMKEED"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00968",
+                    "Similarity": 1.0,
+                    "Sequence": "RQRDPQQQYEQCQERCQRHETEPRHMQTCQQRCERRYEKEKRKQQ"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00965",
+                    "Similarity": 0.9361702127659575,
+                    "Sequence": "RQRDPQQQYEQCQKHCQRRETEPRHMQTCQQRCERRYEKEKRKQQKRYEEQQREDEEKYEERMKEEDN"
+                }
+            ]
+        }
+    }
+}

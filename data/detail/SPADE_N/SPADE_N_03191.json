@@ -1,0 +1,73 @@
+{
+    "SPADE_N_03191": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03191",
+            "Peptide Name": "fowlicidin-2",
+            "Source": "Gallus gallus",
+            "Family": "Not found",
+            "Gene": "CATHL2",
+            "Sequence": "LVQRGRFGRFLRKIRRFRPKVTITIQGSARFG",
+            "Sequence Length": 32,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Transcript level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.27698732] Gram-positive bacterium:Staphylococcus aureus ATCC 29213 (MIC=4µM);Gram-negative bacterium:Escherichia coli ATCC 25922 (MIC=1µM), Pseudomonas aeruginosa ATCC 27853 (MIC=4µM), Salmonella typhimurium C77-31 (MIC=2µM)",
+            "Hemolytic Activity": "[Ref.27698732] 15% hemolysis at 10µM,40% hemolysis at 80µM,60% hemolysis at 200µM against human red blood cells.",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not foundn",
+            "Formula": "C173H290N60O38",
+            "Mass": 3818.53,
+            "PI": 12.0,
+            "Net Charge": 10,
+            "Hydrophobicity": -0.43,
+            "Half Life": "Mammalian:5.5 hourYeast:3 minE.coli:2 min",
+            "Function": "Antibacterial activity against the Gram-negative bacteria and Gram-positive bacteria. Has hemolytic activity.",
+            "Literature": [
+                {
+                    "Title": "Recombinant expression and biological characterization of the antimicrobial peptide fowlicidin-2 in Pichia pastoris.",
+                    "Pubmed ID": "27698732",
+                    "Reference": "Exp Ther Med. 2016 Oct;12(4)2324-2330.",
+                    "Author": "Xing LW, Tian SX, Gao W, Yang N, Qu P, Liu D, Jiao J, Wang J, Feng XJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=27698732"
+                }
+            ],
+            "Frequent Amino Acids": "RFG",
+            "Absent Amino Acids": "CDEHMNOUWY",
+            "Basic Residues": 10,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 18,
+            "Positive Residues": 10,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_09822",
+                    "Similarity": 1.0,
+                    "Sequence": "LVQRGRFGRFLRKI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09823",
+                    "Similarity": 1.0,
+                    "Sequence": "LVQRGRFGRFLRKIR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09824",
+                    "Similarity": 1.0,
+                    "Sequence": "LVQRGRFGRFLRKIRRFR"
+                }
+            ]
+        }
+    }
+}

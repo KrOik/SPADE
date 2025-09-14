@@ -1,0 +1,54 @@
+{
+    "SPADE_UN_22600": {
+        "Sequence Information": {
+            "Peptide Name": "Anoplin [L3Beta-Ala]",
+            "Sequence": "GLXKRIKTLL",
+            "Sequence Length": 10,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P0C005",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P0C005",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Synthesis and anti-pseudomonal activity of new ß-Ala modified analogues of the antimicrobial peptide anoplin",
+                    "Pubmed ID": "32654770",
+                    "Reference": "Int J Med Microbiol. 2020;310:151433",
+                    "Author": "Zhong C, Zhu Y, Zhu N, Liu T, Gou S, Zhang F, Yao J, Xie J, Ni J",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/32654770"
+                }
+            ],
+            "SPADE ID": "SPADE_UN_22600",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00713",
+                    "Similarity": 1.0,
+                    "Sequence": "KVFLGLK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05779",
+                    "Similarity": 1.0,
+                    "Sequence": "VKNFDKFSTNEEFSSVYKVGKKWHCEGVIIFYLNSYEKKIAWASKKVGKAWRNRSKRILRALFAKFERYLQDGKYIFVAKNEITELSFSRLEKNLKHGLK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08681",
+                    "Similarity": 1.0,
+                    "Sequence": "SNGPVKKWGSIKGLK"
+                }
+            ],
+            "Hemolytic Activity": "Mouse erythrocytes:<5% Hemolysis=256 µM",
+            "Target Organism": "Pseudomonas aeruginosa ATCC 27853(MIC=32µM),Pseudomonas aeruginosa ATCC 9027(MIC=32µM),Pseudomonas aeruginosa 119(MIC=16µM),Pseudomonas aeruginosa 124(MIC=16µM),Pseudomonas aeruginosa 86(MIC=32µM),Escherichia coli ATCC 25922(MIC=>128µM),Klebsiella pneumoniae ATCC 700603(MIC=>128µM),Acinetobacter baumannii ATCC 19606(MIC=128µM),Staphylococcus aureus ATCC 25923(MIC=>128µM),Staphylococcus epidermidis ATCC 12228(MIC=>128µM),Pseudomonas aeruginosa ATCC 27853(MIC=128µM),Pseudomonas aeruginosa ATCC 27853(MIC=128µM),Pseudomonas aeruginosa ATCC 27853(MIC=>128µM),Pseudomonas aeruginosa ATCC 27853(MIC=64µM),Pseudomonas aeruginosa ATCC 9027(MIC=64µM),Pseudomonas aeruginosa ATCC 9027(MIC=128µM),Pseudomonas aeruginosa ATCC 9027(MIC=>128µM),Pseudomonas aeruginosa ATCC 9027(MIC=>128µM)"
+        }
+    }
+}

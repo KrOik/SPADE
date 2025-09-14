@@ -1,0 +1,73 @@
+{
+    "SPADE_N_01764": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01764",
+            "Peptide Name": "Brevinin-1LT1 (Frogs, amphibians, animals)",
+            "Source": "Hylarana latouchii (Chinese broad-folded frog)",
+            "Family": "Belongs to the frog skin active peptide family (Brevinin subfamily)",
+            "Gene": "Not found",
+            "Sequence": "FMGSALRIAAKVLPAALCQIFKKC",
+            "Sequence Length": 24,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.19340924]Gram-positive bacteria:Staphylococcus aureus (MIC=6.25 µM), Bacillus subtilis (MIC=6.25 µM);Gram-negative bacterium:Pseudomonas fluorescens (MIC=100 µM);Yeast:Candida albicans (MIC=50 µM).",
+            "Hemolytic Activity": "[Ref.19340924]LC50>200 µg/ml against rabbit red blood cells",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C118H199N31O27S3",
+            "Mass": 2580.23,
+            "PI": 9.85,
+            "Net Charge": 4,
+            "Hydrophobicity": 0.98,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Function": "Shows antibacterial activity against representative Gram-negative and Gram-positive bacterial species, and hemolytic activity against rabbit red blood cells.",
+            "Literature": [
+                {
+                    "Title": "Isolation, characterization and molecular cloning of new antimicrobial peptides belonging to the brevinin-1 and temporin families from the skin of Hylarana latouchii (Anura Ranidae).",
+                    "Pubmed ID": "19340924",
+                    "Reference": "Biochimie. 2009 Apr;91(4)540-547.",
+                    "Author": "Wang H, Yan X, Yu H, Hu Y, Yu Z, Zheng H, Chen Z, Zhang Z, Liu J.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=19340924"
+                }
+            ],
+            "Frequent Amino Acids": "AKL",
+            "Absent Amino Acids": "DEHNOTUWY",
+            "Basic Residues": 4,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 15,
+            "Polar Residues": 14,
+            "Positive Residues": 4,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01765",
+                    "Similarity": 0.8333333333333334,
+                    "Sequence": "FFGSVLKVAAKVLPAALCQIFKKC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15813",
+                    "Similarity": 0.7916666666666666,
+                    "Sequence": "FMGTALKIAANVLPAAFCKIFKKC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14012",
+                    "Similarity": 0.7916666666666666,
+                    "Sequence": "FLGTVLKVAAKVLPAALCQIFKKC"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "SPADE_N_03492": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03492",
+            "Peptide Name": "Limnonectin-1Fa (Frogs, amphibians, animals)",
+            "Source": "Limnonectes fujianensis (Fujian large-headed frog)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "SFPFFPPGICKRLKRC",
+            "Sequence Length": 16,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-negative bacterium:Escherichia coli (MIC=35 µM)",
+            "Hemolytic Activity": "[Ref.21396976] It exhibits no hemolytic activity at a concentration of up to 160 μM.",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Cyclization(Cys10 and Cys16).",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C89H138N24O18S2",
+            "Mass": 1896.33,
+            "PI": 10.11,
+            "Net Charge": 4,
+            "Hydrophobicity": -0.07,
+            "Half Life": "Mammalian:1.9 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Possesses relatively potent growth inhibitory activity against the Gram-negative bacterium E. coli. Ineffective against the Gram-positive bacterium S. aureus and the potentially pathogenic yeast C. albicans at concentrations up to 160 µM.",
+            "Literature": [
+                {
+                    "Title": "Limnonectins A new class of antimicrobial peptides from the skin secretion of the Fujian large-headed frog (Limnonectes fujianensis).",
+                    "Pubmed ID": "21396976",
+                    "Reference": "Biochimie. 2011 Jun;93(6)981-987.",
+                    "Author": "Wu Y, Wang L, Zhou M, Ma C, Chen X, Bai B, Chen T, Shaw C.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=21396976"
+                }
+            ],
+            "Frequent Amino Acids": "FPC",
+            "Absent Amino Acids": "ADEHMNOQTUVWY",
+            "Basic Residues": 4,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 7,
+            "Positive Residues": 4,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_13982",
+                    "Similarity": 1.0,
+                    "Sequence": "KRFKKFFKKVKKSVKKRLKKIFKKPMVIGVSFPF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15432",
+                    "Similarity": 1.0,
+                    "Sequence": "PFFP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03754",
+                    "Similarity": 0.8571428571428571,
+                    "Sequence": "CKRLCYKQRCVTYCRGR"
+                }
+            ]
+        }
+    }
+}

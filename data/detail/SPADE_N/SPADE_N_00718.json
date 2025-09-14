@@ -1,0 +1,72 @@
+{
+    "SPADE_N_00718": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00718",
+            "Peptide Name": "Psyle A (Cyclotides; Plants)",
+            "Source": "Psychotria leptothyrsa",
+            "Family": "Belongs to the cyclotide family",
+            "Gene": "Not found",
+            "Sequence": "GIACGESCVFLGCFIPGCSCKSKVCYFN",
+            "Sequence Length": 28,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anti-HIV",
+                "Anticancer"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "[Ref.20575512] Cytotoxicity:the human lymphoma cell line U-937 GTB (IC50 = 26 µM).",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "No specific N-terminal",
+            "C-terminal Modification": "No specific C-terminal",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C128H195N31O36S6",
+            "Mass": 2936.49,
+            "PI": 7.77,
+            "Net Charge": 1,
+            "Hydrophobicity": 0.88,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Cyclotide cytotoxicity on the human lymphoma cell line U-937 GTB (IC50=26 µM).",
+            "Literature": [
+                {
+                    "Title": "Isolation, characterization, and bioactivity of cyclotides from the Micronesian plant Psychotria leptothyrsa.",
+                    "Pubmed ID": "20575512",
+                    "Reference": "J Nat Prod. 2010 Jul 23;73(7)1207-1213.",
+                    "Author": "Gerlach SL, Burman R, Bohlin L, Mondal D, Göransson U.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=20575512"
+                }
+            ],
+            "Frequent Amino Acids": "CGF",
+            "Absent Amino Acids": "DHMOQRTUW",
+            "Basic Residues": 2,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 16,
+            "Positive Residues": 2,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00849",
+                    "Similarity": 0.84,
+                    "Sequence": "CGETCVVLPCFIVPGCSCKSSVCYFN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00831",
+                    "Similarity": 0.8,
+                    "Sequence": "CAETCVVLPCFIVPGCSCKSSVCYFN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00794",
+                    "Similarity": 0.7857142857142857,
+                    "Sequence": "GIPCGESCVFIPCITGIAGCSCKSKVCYRN"
+                }
+            ]
+        }
+    }
+}

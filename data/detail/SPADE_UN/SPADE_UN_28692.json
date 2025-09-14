@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_28692": {
+        "Sequence Information": {
+            "Peptide Name": "BMAP-28 [I10A]",
+            "Sequence": "GGLRSLGRKALRAWKKYGPIIVPIIRI",
+            "Sequence Length": 27,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P54229",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P54229",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Structure-function study of cathelicidin-derived bovine antimicrobial peptide BMAP-28: design of its cell-selective analogs by amino acid substitutions in the heptad repeat sequences.",
+                    "Pubmed ID": "19735644",
+                    "Reference": "Biochim Biophys Acta. 2009;1788:2411-2420",
+                    "Author": "Ahmad A, Asthana N, Azmi S, Srivastava RM, Pandey BK, Yadav V, Ghosh JK",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/19735644"
+                }
+            ],
+            "Mass": 3032.72,
+            "PI": 12.0,
+            "Net Charge": 7,
+            "Hydrophobicity": 0.16,
+            "Frequent Amino Acids": "IGR",
+            "Absent Amino Acids": "CDEFHMNOQTU",
+            "Basic Residues": 7,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 16,
+            "Positive Residues": 7,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_28692",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_28692",
+                    "Similarity": 1.0,
+                    "Sequence": "GGLRSLGRKALRAWKKYGPIIVPIIRI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02464",
+                    "Similarity": 0.9629629629629629,
+                    "Sequence": "GGLRSLGRKILRAWKKYGPIIVPIIRIG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04275",
+                    "Similarity": 0.9629629629629629,
+                    "Sequence": "GGLRSLGRKILRAWKKYGPIIVPIIRI"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:20% Hemolysis=20 µM",
+            "Target Organism": "Staphylococcus aureus ATCC 9144(MIC=3.2±0.5µM),Bacillus subtilis ATCC 6633(MIC=1.5±0.2µM),Escherichia coli DH5alpha(MIC=2.6±0.4µM),Escherichia coli ATCC 10536(MIC=2.3±0.4µM)"
+        }
+    }
+}

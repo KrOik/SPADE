@@ -1,0 +1,87 @@
+{
+    "SPADE_N_03321": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03321",
+            "Peptide Name": "Neuropeptide-like protein 31 (NLP-31; nematodes, animals)",
+            "Source": "Caenorhabditis elegans",
+            "Family": "Belongs to the YARP family",
+            "Gene": "nlp-31",
+            "Sequence": "NAQWGYGGYGRGYGGYGGYGRGYGGYGGYGRGYGGYGRGMYGGYGRPYGGYGWGK",
+            "Sequence Length": 55,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/O44662"
+            ],
+            "Protein Existence": "Transcript level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "Gram-positive bacterium:Micrococcus luteus;Gram-negative bacterium:E.coli.Fungi:D.coniospora.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C262H339N75O72S",
+            "Mass": 5723.02,
+            "PI": 9.7,
+            "Net Charge": 6,
+            "Hydrophobicity": -1.14,
+            "Half Life": "Mammalian:1.4 hourYeast:3 minE.coli:>10 hour",
+            "Function": "Antimicrobial peptide that has antifungal and weak antibacterial activity.",
+            "Tissue specificity": "Expressed in hypoderm.",
+            "Developmental stage": "Expressed in precomma stasge embryos.",
+            "Induction": "Strongly up-regulated upon D. coniospora infection.",
+            "PTM": "C-terminal amidation.",
+            "Literature": [
+                {
+                    "Title": "Identification of neuropeptide-like protein gene families in Caenorhabditis elegans and other species.",
+                    "Pubmed ID": "11717458",
+                    "Reference": "Proc Natl Acad Sci U S A. 2001 Nov 20;98(24)14000-5.",
+                    "Author": "Nathoo AN, Moeller RA, Westlund BA, Hart AC.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=11717458"
+                },
+                {
+                    "Title": "TLR-independent control of innate immunity in Caenorhabditis elegans by the TIR domain adaptor protein TIR-1, an ortholog of human SARM.",
+                    "Pubmed ID": "15048112",
+                    "Reference": "Nat Immunol. 2004 May;5(5)488-494.",
+                    "Author": "Couillault C, Pujol N, Reboul J, Sabatier L, Guichou JF, Kohara Y, Ewbank JJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=15048112"
+                }
+            ],
+            "Frequent Amino Acids": "GYR",
+            "Absent Amino Acids": "CDEFHILOSTUV",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 19,
+            "Polar Residues": 23,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07800",
+                    "Similarity": 1.0,
+                    "Sequence": "QWGYGGYGRGYGGYGGYGRGYGGYGGYGRGYGGYGRGMYGGYGRPYGGYGWGK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03320",
+                    "Similarity": 0.9787234042553191,
+                    "Sequence": "QWGYGGYGRGYGGYGGYGRGYGGYGRGYGGYGRGMWGRPYGGYGWGK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03318",
+                    "Similarity": 0.9285714285714286,
+                    "Sequence": "QWGYGGYGRGYGGYGGYGRGMYGGYGRGMYGGYGRGMYGGWGK"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_29996": {
+        "Sequence Information": {
+            "Peptide Name": "LL-37 (6-20)",
+            "Sequence": "FRKSKEKIGKEFKRI",
+            "Sequence Length": 15,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P49913",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P49913",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "The ATPase activity of the mycobacterial plasma membrane is inhibited by the LL37-analogous peptide LLAP.",
+                    "Pubmed ID": "26218806",
+                    "Reference": "Peptides. 2015;71:222-228",
+                    "Author": "Chingaté S, Delgado G, Salazar LM, Soto CY",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/26218806"
+                }
+            ],
+            "Mass": 1894.27,
+            "PI": 10.57,
+            "Net Charge": 5,
+            "Hydrophobicity": -1.47,
+            "Frequent Amino Acids": "KEF",
+            "Absent Amino Acids": "ACDHLMNOPQTUVWY",
+            "Basic Residues": 7,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 4,
+            "Polar Residues": 11,
+            "Positive Residues": 7,
+            "Negative Residues": 2,
+            "SPADE ID": "SPADE_UN_29996",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02277",
+                    "Similarity": 1.0,
+                    "Sequence": "GDFFRKSKEKIGKEFKRIVQRIKDFLRN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03107",
+                    "Similarity": 1.0,
+                    "Sequence": "ALLGDFFRKSKEKIGKEFKRIVQRIKDFLRNLVPRTES"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03128",
+                    "Similarity": 1.0,
+                    "Sequence": "LLGDFFRKSKEKIGKEFKRIVQR"
+                }
+            ],
+            "Hemolytic Activity": "Murine macrophage cells J774A.1:50% Cell death=11226 µg/ml,Human erythrocytes:4% Hemolysis=50 µg/ml",
+            "Target Organism": "Mycobacterium smegmatis mc2-155(MIC=2400µg/ml)"
+        }
+    }
+}

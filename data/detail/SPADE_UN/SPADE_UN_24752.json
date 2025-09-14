@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_24752": {
+        "Sequence Information": {
+            "Peptide Name": "KL26",
+            "Sequence": "KLKLKLKLKLKLKLKLKLKLKLKLKL",
+            "Sequence Length": 26,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Membranolytic Mechanism of Amphiphilic Antimicrobial β-Stranded [KL]n Peptides",
+                    "Pubmed ID": "36140173",
+                    "Reference": "Biomedicines. 2022;10:2071",
+                    "Author": "Schweigardt F, Strandberg E, Wadhwani P, Reichert J, Bürck J, Cravo HLP, Burger L, Ulrich AS",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/36140173"
+                }
+            ],
+            "Mass": 3155.3,
+            "PI": 11.08,
+            "Net Charge": 13,
+            "Hydrophobicity": -0.05,
+            "Frequent Amino Acids": "KL",
+            "Absent Amino Acids": "ACDEFGHIMNOPQRSTUVWY",
+            "Basic Residues": 13,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 13,
+            "Positive Residues": 13,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_24752",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06547",
+                    "Similarity": 1.0,
+                    "Sequence": "LKLKLKLKLKLK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10571",
+                    "Similarity": 1.0,
+                    "Sequence": "KLKLVALHKQVL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10658",
+                    "Similarity": 1.0,
+                    "Sequence": "KLK"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=<1 µg/ml",
+            "Target Organism": "Escherichia coli DSM 1116(MIC=64µg/ml),Franconibacter helveticus DSM 18390(MIC=16µg/ml),Bacillus subtilis DSM 347(MIC=32µg/ml),Staphylococcus xylosus DSM 20287(MIC=16µg/ml)"
+        }
+    }
+}

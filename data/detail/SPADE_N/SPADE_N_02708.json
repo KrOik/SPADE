@@ -1,0 +1,75 @@
+{
+    "SPADE_N_02708": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02708",
+            "Peptide Name": "Def-BAT (hybrid defensins; Insects, animals)",
+            "Source": "Anopheles gambiae (African malaria mosquito)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "ATCDLASFSSQWVTPNDSLCAAHCIARRYRGGYCNGKRVCVCR",
+            "Sequence Length": 43,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q17027"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+"
+            ],
+            "Target Organism": "Gram-positive bacteria:Staphylococcus aureus strain 21 (IC90=6.25 µg/mL), Staphylococcus aureus strain 4 (IC90=6.25 µg/mL).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "For Def-BAT, the two extended strands do not form an anti-parallel β-sheet. The helix is separated from the β-sheet by a turn (T1) and the two strands of the b-sheet by turn T2.",
+            "Formula": "C198H313N65O59S6",
+            "Mass": 4740.39,
+            "PI": 8.94,
+            "Net Charge": 5,
+            "Hydrophobicity": -0.15,
+            "Half Life": "Mammalian:4.4 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Responsible for the anti Gram-positive activity of immune hemolymph and proves to be efficient against sensitive",
+            "Comments": "strains as against resistant and multi-resistant strains.",
+            "Literature": [
+                {
+                    "Title": "Rational design of peptides active against the gram positive bacteria Staphylococcus aureus.",
+                    "Pubmed ID": "18214975",
+                    "Reference": "Proteins. 2008 Jul;72(1)229-239.",
+                    "Author": "Landon C, Barbault F, Legrain M, Guenneugues M, Vovelle F.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=18214975"
+                }
+            ],
+            "Frequent Amino Acids": "CAR",
+            "Absent Amino Acids": "EMOU",
+            "Basic Residues": 7,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 16,
+            "Polar Residues": 32,
+            "Positive Residues": 7,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07474",
+                    "Similarity": 1.0,
+                    "Sequence": "SQWVTPNDSLCAAHCIARRYRGGYCNGKRVCVCR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09011",
+                    "Similarity": 1.0,
+                    "Sequence": "YCNGKRVCVCR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09015",
+                    "Similarity": 1.0,
+                    "Sequence": "YCNGKRVCVC"
+                }
+            ]
+        }
+    }
+}

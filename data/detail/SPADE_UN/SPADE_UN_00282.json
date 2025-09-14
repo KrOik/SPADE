@@ -1,0 +1,71 @@
+{
+    "SPADE_UN_00282": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_00282",
+            "Peptide Name": "Palustrin-2ISb-des-C7-des-N9",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "GKKLFVNVLDKIRCKVAGGC",
+            "Sequence Length": 20,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antifungal"
+            ],
+            "Target Organism": "Yeast:Candida albicans (MIC=100 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Cyclization(Cys14 and Cys20).",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C95H166N28O24S2",
+            "Mass": 2148.64,
+            "PI": 9.7,
+            "Net Charge": 4,
+            "Hydrophobicity": 0.3,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Possess antifungal activity.",
+            "Literature": [
+                {
+                    "Title": "Identification and structure-activity relationship of an antimicrobial peptide of the palustrin-8 family isolated from the skin of the endangered frog Odorrana ishikawae.",
+                    "Pubmed ID": "21911019",
+                    "Reference": "Peptides. 2011 Oct;32(10)2052-2057.",
+                    "Author": "Iwakoshi-Ukena E, Okada G, Okimoto A, Fujii T, Sumida M, Ukena K.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=21911019"
+                }
+            ],
+            "Frequent Amino Acids": "KGV",
+            "Absent Amino Acids": "EHMOPQSTUWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 12,
+            "Positive Residues": 5,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01152",
+                    "Similarity": 1.0,
+                    "Sequence": "GLWNSIKIAGKKLFVNVLDKIRCKVAGGCKTSPDVE"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04517",
+                    "Similarity": 1.0,
+                    "Sequence": "MKTVLAFLFLTFIAFTYAESYEDVKEEIKNEVEREIFEDLEEESDVLDSNVREFNDAKPWRFRRAIRRVRWRKVAPYIPFVVRTVGKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_00277",
+                    "Similarity": 1.0,
+                    "Sequence": "GLWNSIKIAGKKLFVNVLDKIRCKVAGGCKTSPDVEYHK"
+                }
+            ]
+        }
+    }
+}

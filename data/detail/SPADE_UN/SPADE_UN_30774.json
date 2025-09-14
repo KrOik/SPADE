@@ -1,0 +1,58 @@
+{
+    "SPADE_UN_30774": {
+        "Sequence Information": {
+            "Peptide Name": "",
+            "Sequence": "RFWWF",
+            "Sequence Length": 5,
+            "Biological Activity": [
+                "Antifungal"
+            ],
+            "Binding Target": "1. Membrane Protein\n2. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Surface-active fungicidal D-peptide inhibitors of the plasma membrane proton pump that block azole resistance.",
+                    "Pubmed ID": "15616276",
+                    "Reference": "Antimicrob Agents Chemother. 2005;49:57-70",
+                    "Author": "Monk BC, et al.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/15616276"
+                }
+            ],
+            "Mass": 840.97,
+            "PI": 9.75,
+            "Net Charge": 1,
+            "Hydrophobicity": -0.14,
+            "Frequent Amino Acids": "FWR",
+            "Absent Amino Acids": "ACDEGHIKLMNOPQSTUVY",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 2,
+            "Polar Residues": 3,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_30774",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_11475",
+                    "Similarity": 1.0,
+                    "Sequence": "RFWWFRRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11476",
+                    "Similarity": 1.0,
+                    "Sequence": "RRRFWWFRRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11477",
+                    "Similarity": 1.0,
+                    "Sequence": "RRRFWWFR"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Saccharomyces cerevisiae T48(MIC90=11µM),Candida albicans FR2(MIC90=88µM),Candida glabrata CBS 138(MIC90=44µM),Candida tropicalis IFO 0618(MIC90=44µM)"
+        }
+    }
+}

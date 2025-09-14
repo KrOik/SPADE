@@ -1,0 +1,72 @@
+{
+    "SPADE_UN_13443": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_13443",
+            "Peptide Name": "CPF-2-1 (Variant of CPF-C1)",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "N/A",
+            "Sequence": "KFWSLLKKALRLWKKVL",
+            "Sequence Length": 17,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic form",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+"
+            ],
+            "Target Organism": "[Ref.32590058] Gram-positive:S. aureus ATCC 25923 (MIC = 16 μg/mL, MIC = 16 μg/mL in 10% serum, MIC = 32 μg/mL in 150 mM)",
+            "Hemolytic Activity": "[Ref.32590058]It showed almost no hemolytic activity, even at concentrations up to 128 μg/ml.",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Bacterial membrane",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "Mixed (D-Lys1, D-Trp3, D-Lys7, D-Leu10, D-Arg11, D-Trp13 and D-Lys15)",
+            "Structure Description": "Not found",
+            "Formula": "C108H177N27O19",
+            "Mass": 2157.73,
+            "PI": 11.39,
+            "Net Charge": 6,
+            "Hydrophobicity": 0.07,
+            "Half Life": "Mammalian:1.3 hourYeast:3 minE.coli:2 min",
+            "Comments": "CPF-2 has potential as a lead compound to treat infections caused by S. aureus and MRSA, including the associated biofilms.",
+            "Literature": [
+                {
+                    "Title": "CPF-C1 analog with effective antimicrobial and antibiofilm activities against Staphylococcus aureus including MRSA",
+                    "Pubmed ID": "32590058",
+                    "Reference": "Biochimie. 2020 Sep;1761-11. doi 10.1016/j.biochi.2020.06.003. Epub 2020 Jun 23.",
+                    "Author": "Xie J, Li Y, Guo X, Rao J, Yan T, Mou L, Wu X, Xie X, Yang W, Zhang B.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=32590058"
+                }
+            ],
+            "Frequent Amino Acids": "KLW",
+            "Absent Amino Acids": "CDEGHIMNOPQTUY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 9,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_11745",
+                    "Similarity": 1.0,
+                    "Sequence": "LLKKALRLWKKVL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_22428",
+                    "Similarity": 1.0,
+                    "Sequence": "RLWKIGKVLKWI"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_11743",
+                    "Similarity": 0.9411764705882353,
+                    "Sequence": "KFWKLLKKALRLWKKVL"
+                }
+            ]
+        }
+    }
+}

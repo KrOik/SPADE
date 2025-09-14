@@ -1,0 +1,79 @@
+{
+    "SPADE_N_05455": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_05455",
+            "Peptide Name": "Mu-agatoxin-Hc1a (Mu-AGTX-Hc1a; Curtatoxin-1; CT-I)",
+            "Source": "Hololena curta (Funnel-web spider) (Agelena curta)",
+            "Family": "Belongs to the beta/delta-agatoxin family",
+            "Gene": "Not found",
+            "Sequence": "SCVGEYGRCRSAYEDCCDGYYCNCSQPPYCLCRNNN",
+            "Sequence Length": 36,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P15967"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Insecticidal"
+            ],
+            "Target Organism": "A.domestica (LD50=20 Î¼g/g)",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C165H242N50O58S8",
+            "Mass": 4110.51,
+            "PI": 4.78,
+            "Net Charge": -1,
+            "Hydrophobicity": -0.79,
+            "Half Life": "Mammalian:1.9 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Insecticidal neurotoxin that induces irreversible neuromuscular blockade in the cricket A.domestica. Modifies presynaptic voltage-gated sodium channels (Nav), causing them to open at the normal resting potential of the nerve. This leads to spontaneous release of neurotransmitter and repetitive action potentials in motor neuronS.",
+            "Literature": [
+                {
+                    "Title": "CurtatoxinS. Neurotoxic insecticidal polypeptides isolated from thefunnel-web spider Hololena curta.",
+                    "Pubmed ID": "2298738",
+                    "Reference": "J. Biol. CheM. 2652054-2059 (1990).",
+                    "Author": "Stapleton A., Blankenship D.T., Ackermann D.L., Chen T.-M. , Gorder G.W., Manley G.D., Palfreyman M. G., Coutant J.E., Cardin A.D.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=2298738"
+                },
+                {
+                    "Title": "Agatoxins ion channel specific toxins from the American funnel webspider, Agelenopsis aperta.",
+                    "Pubmed ID": "15066410",
+                    "Reference": "Toxicon 43509-525 (2004).",
+                    "Author": "Adams M. E.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=15066410"
+                }
+            ],
+            "Frequent Amino Acids": "CYN",
+            "Absent Amino Acids": "FHIKMOTUW",
+            "Basic Residues": 3,
+            "Acidic Residues": 4,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 26,
+            "Positive Residues": 3,
+            "Negative Residues": 4,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_05437",
+                    "Similarity": 0.75,
+                    "Sequence": "DCVGENGRCRDWYNDCCDGFYCSCRQPPYCICRNNN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05438",
+                    "Similarity": 0.75,
+                    "Sequence": "ECVGENGHCRSWYNDCCDGYYCSCMQPPNCICRNNN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05446",
+                    "Similarity": 0.5833333333333334,
+                    "Sequence": "ACVGDGQRCASWSGPYCCDGYYCSCRSMPYCRCRNNS"
+                }
+            ]
+        }
+    }
+}

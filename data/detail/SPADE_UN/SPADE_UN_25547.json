@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_25547": {
+        "Sequence Information": {
+            "Peptide Name": "Gedanan",
+            "Sequence": "FLRRFWRIWRR",
+            "Sequence Length": 11,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Discovering highly potent antimicrobial peptides with deep generative model HydrAMP.",
+                    "Pubmed ID": "36922490",
+                    "Reference": "Nat Commun. 2023;14:1453",
+                    "Author": "Szymczak P, Możejko M, Grzegorzek T, Jurczak R, Bauer M, Neubauer D, Michalski M, Sikora K, Setny P, Kamysz W, Szczurek E",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/36922490"
+                }
+            ],
+            "Mass": 1692.03,
+            "PI": 12.0,
+            "Net Charge": 5,
+            "Hydrophobicity": -0.95,
+            "Frequent Amino Acids": "RFW",
+            "Absent Amino Acids": "ACDEGHKMNOPQSTUVY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 4,
+            "Polar Residues": 7,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_25547",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02137",
+                    "Similarity": 1.0,
+                    "Sequence": "GLHKVMREVLGYERNSYKKFFLR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04949",
+                    "Similarity": 1.0,
+                    "Sequence": "RAIKRRPGLDFDDDGEGNSKFLR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06501",
+                    "Similarity": 1.0,
+                    "Sequence": "VRRFPPFLRR"
+                }
+            ],
+            "Hemolytic Activity": "Sheep erythrocytes:50% Hemolysis=512 µg/ml",
+            "Target Organism": "Staphylococcus aureus ATCC 33591(MIC=8µg/ml),Staphylococcus aureus ATCC 33591(MBC=16µg/ml),Escherichia coli ATCC 25922(MIC=32µg/ml),Escherichia coli ATCC 25922(MBC=32µg/ml),Escherichia coli ATCC 43827(MIC=32µg/ml),Escherichia coli ATCC 43827(MBC=32µg/ml),Acinetobacter baumannii ATCC BAA-1605(MIC=32µg/ml),Acinetobacter baumannii ATCC BAA-1605(MBC=64µg/ml),Pseudomonas aeruginosa ATCC 9027(MIC=16µg/ml),Pseudomonas aeruginosa ATCC 9027(MBC=32µg/ml)"
+        }
+    }
+}

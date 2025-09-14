@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_27545": {
+        "Sequence Information": {
+            "Peptide Name": "Halictine-1/25, HAL-1/25",
+            "Sequence": "WSKILGHLIR",
+            "Sequence Length": 10,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Novel antimicrobial peptides from the venom of the eusocial bee Halictus sexcinctus (Hymenoptera: Halictidae) and their analogs.",
+                    "Pubmed ID": "20198492",
+                    "Reference": "Amino Acids. 2010;39:763-775",
+                    "Author": "Monincová L, Budesínský M, Slaninová J, Hovorka O, Cvacka J, Voburka Z, Fucík V, Borovicková L, Bednárová L, Straka J, Cerovský V",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/20198492"
+                }
+            ],
+            "Mass": 1222.48,
+            "PI": 11.0,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.29,
+            "Frequent Amino Acids": "ILG",
+            "Absent Amino Acids": "ACDEFMNOPQTUVY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 4,
+            "Polar Residues": 6,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_27545",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_05821",
+                    "Similarity": 1.0,
+                    "Sequence": "GMWSKILGHLIR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08522",
+                    "Similarity": 1.0,
+                    "Sequence": "FLGALFKVWSK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09200",
+                    "Similarity": 1.0,
+                    "Sequence": "MWSKILGHLIR"
+                }
+            ],
+            "Hemolytic Activity": "Rat erythrocytes:50% Hemolysis=>200 µM",
+            "Target Organism": "Bacillus subtilis 168(MIC=18.3µM),Staphylococcus aureus(MIC=>100µM),Escherichia coli B(MIC=>100µM),Pseudomonas aeruginosa(MIC=>100µM)"
+        }
+    }
+}

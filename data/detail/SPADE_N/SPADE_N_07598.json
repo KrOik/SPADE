@@ -1,0 +1,62 @@
+{
+    "SPADE_N_07598": {
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_07598",
+            "Sequence Length": 14,
+            "Mass": 1504.71,
+            "PI": 5.23,
+            "Net Charge": 0,
+            "Source": "Streptomyces sp.",
+            "Biological Activity": [
+                "Antibacterial"
+            ],
+            "Sequence": "STNCFCYPCCSCSS",
+            "Function": "Has bacteriocidal activity against both aerobic and anaerobic Gram-positive bacteria. Inhibits growth of B.subtilis (MIC=\"0.047\" ug/ml) and methicillin-resistant S.aureus (MRSA) (MIC=\"0.047\" ug/ml). Has poor activity against Gram-negative bacteria, with the exception of B.fragilis. Inhibits bacterial protein biosynthesis by acting on elongation factor Tu (EF-Tu). Full antibiotic activity depends on the presence of the modified residue Ile-50.",
+            "Literature": [
+                {
+                    "Title": "Antibiotic GE37468 A: a new inhibitor of bacterial protein synthesis. I. Isolation and characterization.",
+                    "Pubmed ID": "R1995J0156",
+                    "Author": "Colombo L.,Ferrari P.,Le Monnier F.,Montanini N.,Stella S."
+                },
+                {
+                    "Title": "Antibiotic GE37468 A: a novel inhibitor of bacterial protein synthesis. II. Structure elucidation.",
+                    "Pubmed ID": "R1995J0157",
+                    "Author": "Zerilli L.F.,Selva E.,Stella S.,Colombo L.,Ferrari P."
+                },
+                {
+                    "Title": "Identification of the thiazolyl peptide GE37468 gene cluster from Streptomyces ATCC 55365 and heterologous expression in Streptomyces lividans.",
+                    "Pubmed ID": "R2011J0665",
+                    "Author": "Walsh C.T.,Young T.S."
+                }
+            ],
+            "Peptide Name": "Thiocillin GE37468 (THCL_STRSQ)",
+            "Hemolytic Activity": [],
+            "Frequent Amino Acids": "CSF",
+            "Absent Amino Acids": "ADEGHIKLMOQRUVW",
+            "Basic Residues": 0,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 3,
+            "Polar Residues": 12,
+            "Positive Residues": 0,
+            "Negative Residues": 0,
+            "Hydrophobicity": 0.36,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_13776",
+                    "Similarity": 1.0,
+                    "Sequence": "SCSSLTTLRPCG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00169",
+                    "Similarity": 0.9285714285714286,
+                    "Sequence": "STNCFCYICCSCSS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05570",
+                    "Similarity": 0.8333333333333334,
+                    "Sequence": "CCSCSCSTCTCTCTCASSAATKM"
+                }
+            ]
+        }
+    }
+}

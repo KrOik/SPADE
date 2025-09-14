@@ -1,0 +1,56 @@
+{
+    "SPADE_UN_08737": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 2005/0277589 A1",
+                "Patent Link": "http://www.lens.org/lens/patent/US_2005_0277589_A1",
+                "Patent Type": "Patent Application",
+                "Publication Date": "2005-12-15",
+                "Family Info": "CA2491011A1,DE60313970D1,DE60313970T2,EP1519951A2,EP1519951B1,US7884070,WO2004005339A2,WO2004005339A3",
+                "Patent Title": "Linear cationic peptides having antibacterial and/or antifungal properties.",
+                "Abstract": "A peptide including a first peptide sequence of formula KLAKLAK in which K is lysine, L is leucine and A is alanine, and a second peptide sequence of formula (B) in which B is a peptide of 4 to 15 amino acids positively charged at neutral pH, including at least one peptide motif of formula Î²xxÎ² in which Î² is a basic amino acid and X is any amino acid, and in which the first peptide sequence is repeated n times and the second peptide sequence is repeated m times, n and m being whole numbers between 1 and 5."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_08737",
+            "Sequence": "VKRGLKL",
+            "Sequence Length": 7,
+            "Peptide Name": "Sequence 1 from Patent US 20050277589",
+            "Source": "Synthetic construct",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antifungal"
+            ],
+            "Frequent Amino Acids": "KLG",
+            "Absent Amino Acids": "ACDEFHIMNOPQSTUWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 3,
+            "Polar Residues": 4,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "Mass": 813.04,
+            "PI": 11.17,
+            "Net Charge": 3,
+            "Hydrophobicity": -0.13,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07018",
+                    "Similarity": 1.0,
+                    "Sequence": "VKRGLKLRHVRPRVTRMDV"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07404",
+                    "Similarity": 1.0,
+                    "Sequence": "CVKRGLKLRHVRPRVTRDV"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_13839",
+                    "Similarity": 1.0,
+                    "Sequence": "RKIIAVSVHKLCRVKR"
+                }
+            ]
+        }
+    }
+}

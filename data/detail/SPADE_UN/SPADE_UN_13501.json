@@ -1,0 +1,79 @@
+{
+    "SPADE_UN_13501": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_13501",
+            "Peptide Name": "Reverse Pxt-12",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "LLNSGVKLGTKLLSGLLN",
+            "Sequence Length": 18,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "[Ref.26802742]Gram-negative bacteria:Escherichia coli NBRC 14237(ND);Pseudomonas aeruginosa NBRC 12582(ND);Gram-positive bacteria:Staphylococcus aureus NBRC 12732(ND);Micrococcus luteus NBRC 12708(ND);Fungi:Candida albicans NBRC 1594(ND).",
+            "Hemolytic Activity": "[Ref.26802742]0% Hemolysis against Rat erythrocytes at 50 µM.",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "liposomes",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "0%,0%,2.0% α-helix were mearsured by CD spectra at 10 °C, 25 °C and 37 °C in 10 mm Tris-HCl (pH 7.2);23.7%,21.0%,17.9% α-helix were mearsured by CD spectra at 10 °C, 25 °C and 37 °C in 50% TFE.",
+            "Formula": "C83H150N22O24",
+            "Mass": 1840.21,
+            "PI": 10.0,
+            "Net Charge": 2,
+            "Hydrophobicity": 0.69,
+            "Half Life": "Mammalian:5.5 hourYeast:3 minE.coli:2 min",
+            "Comments": "Induced a significant and dose-dependent histamine release.",
+            "Literature": [
+                {
+                    "Title": "Physicochemical and biological characterizations of Pxt peptides from amphibian (Xenopus tropicalis) skin.",
+                    "Pubmed ID": "26802742",
+                    "Reference": "J Biochem. 2016 Jun;159(6)619-29.",
+                    "Author": "Shigeri Y, Horie M, Yoshida T, Hagihara Y, Imura T, Inagaki H, Haramoto Y, Ito Y, Asashima M.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=26802742"
+                },
+                {
+                    "Title": "Physicochemical and biological characterizations of Pxt peptides from amphibian (Xenopus tropicalis) skin",
+                    "Pubmed ID": "",
+                    "Author": "Shigeri Y, Horie M, Yoshida T, Hagihara Y, Imura T, Imura T, Haramoto Y, Ito Y, Asashima M"
+                }
+            ],
+            "Frequent Amino Acids": "LGK",
+            "Absent Amino Acids": "ACDEFHIMOPQRUWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 8,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01397",
+                    "Similarity": 1.0,
+                    "Sequence": "GLLNTFKDWAISIAKGAGKGVLTTLSCKLDKSC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08353",
+                    "Similarity": 1.0,
+                    "Sequence": "GLLNVIKDTAQNLFAAALDKLKCKVTKCN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08354",
+                    "Similarity": 1.0,
+                    "Sequence": "GLLNVIKDTAQNLFAAALEKLKCKVTKCN"
+                }
+            ]
+        }
+    }
+}

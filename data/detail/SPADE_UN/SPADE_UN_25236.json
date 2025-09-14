@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_25236": {
+        "Sequence Information": {
+            "Peptide Name": "LeBo1",
+            "Sequence": "GIFSLIKGAAK",
+            "Sequence Length": 11,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Binding Target": "",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "F1T151",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/F1T151",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Associating Biological Activity and Predicted Structure of Antimicrobial Peptides from Amphibians and Insects",
+                    "Pubmed ID": "36551368",
+                    "Reference": "Antibiotics (Basel). 2022;11:1710",
+                    "Author": "Richter A, Sutherland D, Ebrahimikondori H, Babcock A, Louie N, Li C, Coombe L, Lin D, Warren RL, Yanai A, Kotkoff M, Helbing CC, Hof F, Hoang LMN, Birol I",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/36551368"
+                }
+            ],
+            "Mass": 1104.34,
+            "PI": 10.0,
+            "Net Charge": 2,
+            "Hydrophobicity": 0.89,
+            "Frequent Amino Acids": "AGI",
+            "Absent Amino Acids": "CDEHMNOPQRTUVWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 5,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_25236",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01365",
+                    "Similarity": 1.0,
+                    "Sequence": "GIFSLIKGAAKLITKTVAKEAGKTGLELMACKVTNQC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01586",
+                    "Similarity": 1.0,
+                    "Sequence": "FLGALAKIISGIF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08363",
+                    "Similarity": 1.0,
+                    "Sequence": "GIFSLIKGAAKVVAKGLGKEVGKFGLDLMACKVTNQC"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=>128µg/ml),Salmonella enterica subsp. enterica serovar Enteritidis(MIC=>128µg/ml),Staphylococcus aureus ATCC 29213(MIC=>128µg/ml)"
+        }
+    }
+}

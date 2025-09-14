@@ -1,0 +1,69 @@
+{
+    "SPADE_N_13872": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_13872",
+            "Peptide Name": "Cloacaenodin (natural AMPs; a class 2 lasso peptide, lactam; XXJ; UCSB1a; bacteriocins; Gram-negative bacteria, prokaryotes)",
+            "Source": "Enterobacter cloacae",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "GHSVDRIPEYFGPPGLPGPVLFYS",
+            "Sequence Length": 24,
+            "UniProt Entry": "",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 2601.91,
+            "PI": 5.32,
+            "Hydrophobicity": -0.1,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Carson DV, Patiño M, Elashal HE, Cartagena AJ, Zhang Y, Whitley ME, So L, Kayser-Browne AK, Earl AM, Bhattacharyya RP, Link AJ. 2022",
+                    "Reference": "ACS Infect Dis. 2022 Dec 15. doi: 10.1021/acsinfecdis.2c00446.PubMed",
+                    "Title": "Cloacaenodin, an Antimicrobial Lasso Peptide with Activity against Enterobacter."
+                }
+            ],
+            "Frequent Amino Acids": "PGF",
+            "Absent Amino Acids": "ACKMNOQTUW",
+            "Basic Residues": 2,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 14,
+            "Polar Residues": 8,
+            "Positive Residues": 2,
+            "Negative Residues": 2,
+            "Net Charge": 0,
+            "Comments": "Sequence analysis: APD analysis reveals this sequence is most similar (44%) toCitrocinP: 21%, G: 17% (four G), V=L=F=S=Y: 8% (i.e., two each in the sequence).  GRAVY: -0.1; M Wt: 2601.95; Mol formula: C124H177N29O33; Mol ex coeff: 2980.Chemical modification: Cloacaenodin is unique with a C-terminal serine and 9-membered ring (others with 8-membered ring and a C-terminal G or P or N).Activity: Cloacaenodin showed no activity against E.coli MG1655, B. subtilis 168, S.enterica serovar Newport, K.aerogenes ATCC 13048, E.hormaechei ATCC 700323, and E.kobei BAA260. However, it inhibited (zones of inhibition) multiple Enterobacter genus strains, including E. cloacae ATCC 13047 (liquid MIC 940 nM; 7.5 uM agar), E. cloacae UCI102 clinical (MIC 1.0 iM agar), E. mori DSM 26271 (MIC 1.9 uM Agar), E. asburiae DSM 17506 and clincal strains (MIC 1.0-3.8 uM Agar), E. amnigenus ATCC 33072 (MIC 230 and 500 nM, two methods), E. nimipressuralis DSM 18955 (MIC 1.9 uM Agar), E. ludwigii MGH216 (MIC 1.0 uM agar), E. kobei MGH178 (MIC 2.0 uM agar), and E. hormaechei UCI35 (MIC 2 uM agar).Structure: determined in water by 2D NMR. FIve Pro and 4 Gly posed challenge to NMR analysis. F22 and Y23 amide chemical shifts at 9.21 and 10.32 ppm, respectively. Wide chemical shift range from 10.32 to 6.3 ppm for the amide region indicates a folded lasso structure. Cloacaenodin has a loop region of 13 amino acids, which is the second largest loop observed after ubonodin.You can rotate, zoom, and view the 3D structureherein the PDB.Peptide stability: this lasso is resistant to multiple proteases (trypsin, chymotrypsin, elastase, and thermolysin).SAR: The C-terminal serine is critical for threading through the ring structure: S24G mutant is unable to do so and this peptide is inactive against bacteria. However, S24A, S24C, and S24T are antibacterial. G1A and E9D were not expressed. Y10A had a drastically reduced activity. V4P favored peptide threading at a cost of reduced expression (1% of the WT).MOA:bacteria:Enterobacter: Cloacaenodin utilizes a TonB-dependent transporter (named CloU) to cross the outer membrane (OM) of susceptible bacteria, and the protein SbmA to cross the inner membrane (IM) (Carson et al., 2024).  Updated 4/2024",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_25309",
+                    "Similarity": 0.9583333333333334,
+                    "Sequence": "GHSVDRIPEYFGPPGLPGPVLFYG"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_15633",
+                    "Similarity": 0.5555555555555556,
+                    "Sequence": "RRIPFWPPNLPGPRRPPWFLPDFRIPRIPRKR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_13155",
+                    "Similarity": 0.5,
+                    "Sequence": "PVLFPVLF"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_11618": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_11618",
+            "Peptide Name": "[Pro3,DLeu9]TL(1) (Temporin L peptide derivative)",
+            "Source": "Synthetic construct",
+            "Family": "Derived from Temporin L",
+            "Gene": "Not found",
+            "Sequence": "FVPWFSKFLGRIL",
+            "Sequence Length": 13,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.28863356] Gram-positive bacteria:Bacillus megaterium Bm11 (MIC=3.125μM), Staphylococcus aureus Cowan I (MIC=12.5μM), Staphylococcus epidermidis ATCC 12228 (MIC=6.25μM);Gram-negative bacteria:Acinetobacter baumannii ATCC 19606 (MIC=12.5μM), Escherichia coli D21 (MIC=12.5μM), Pseudomonas syringae pv tabaci 1918 (MIC=12.5μM), Pseudomonas aeruginosa ATCC 2785 (MIC=50μM);Yeasts:Candida albicans ATCC 10231 (MIC=3.125μM), Candida crusei ATCC 6258 (3.125μM).",
+            "Hemolytic Activity": "[Ref.28863356] 21±4% hemolysis at 50μM, 7±3% hemolysis at 25μM, 6±3% hemolysis at 12.5μM, 3±2% hemolysis at 6.25μM, 1±1%  hemolysis at 3.125μM against human red blood cells.20.63 ± 2.66% cytotoxic effect at 12.5μM, 57.52 ± 3.99%  cytotoxic effect at 25μM, 91.58 ± 3.85% cytotoxic effect at 50 μM on HaCaT cells.",
+            "Cytotoxicity": "[Ref.28863356] The cytotoxic effects of the peptide are 20.63±2.66%, 57.52±3.99% and 91.58±3.85% at 12.5, 25 and 50 μM",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "Mixed (D-Leu9)",
+            "Structure Description": "The analogues bearing a D residue shows a reduction in the percentage of helicity compared to the corresponding L analogues in the MMs",
+            "Formula": "C83H120N18O15",
+            "Mass": 1609.95,
+            "PI": 11.0,
+            "Net Charge": 2,
+            "Hydrophobicity": 0.97,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Function": "Antimicrobial activity against the Gram-negative bacteria, Gram-positive bacteria and Fungi. The position 9 of [Pro3,DLeu9]TL(1) is D-Leucine.",
+            "Literature": [
+                {
+                    "Title": "Glycine-replaced derivatives of [Pro3,DLeu9]TL, a temporin L analogue Evaluation of antimicrobial, cytotoxic and hemolytic activities",
+                    "Pubmed ID": "28863356",
+                    "Reference": "Eur J Med Chem. 2017 Oct 20;139750-761.",
+                    "Author": "Merlino F, Carotenuto A, Casciaro B, Martora F, Loffredo MR, Di Grazia A, Yousif AM, Brancaccio D, Palomba L, Novellino E, Galdiero M, Iovene MR, Mangoni ML, Grieco P.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=28863356"
+                }
+            ],
+            "Frequent Amino Acids": "FLG",
+            "Absent Amino Acids": "ACDEHMNOQTUY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 4,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_14145",
+                    "Similarity": 1.0,
+                    "Sequence": "FVPWFSKFLGRIL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_14148",
+                    "Similarity": 1.0,
+                    "Sequence": "FVPWFSKFLRIL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_14149",
+                    "Similarity": 1.0,
+                    "Sequence": "FVPWFSKFLRIL"
+                }
+            ]
+        }
+    }
+}

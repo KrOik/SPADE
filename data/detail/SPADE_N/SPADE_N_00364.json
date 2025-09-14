@@ -1,0 +1,77 @@
+{
+    "SPADE_N_00364": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00364",
+            "Peptide Name": "Defensin-like protein (Sesquin; Plant defensin)",
+            "Source": "Vigna unguiculata subsp. sesquipedalis (Yard-Long bean)",
+            "Family": "Belongs to the DEFL family",
+            "Gene": "Not found",
+            "Sequence": "KTCENLADTY",
+            "Sequence Length": 10,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P84868"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antiviral",
+                "Antifungal"
+            ],
+            "Target Organism": "Fungi:Botrytis cinerea (IC50=2.5±0.01 µM), Fusarium oxysporum (IC50=1.4±0.02 µM), Mycosphaerella arachidicola (IC50=0.15±0.002 µM).Gram-positive bacteria:Bacillus megaterium, Mycobacterium phlei;Gram-negative bacteria:Escherichia coli, Proteus vulgaris.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C48H76N12O19S",
+            "Mass": 1157.25,
+            "PI": 4.37,
+            "Net Charge": -1,
+            "Hydrophobicity": -0.9,
+            "Half Life": "Mammalian:1.3 hourYeast:3 minE.coli:2 min",
+            "Function": "Has antifungal and antibacterial activity. Has mitogenic activity towards murine splenocytes. Inhibits the proliferation of M1 leukemia and MCF-7 breast cancer cells in vitro. Inhibits human immunodeficiency virus-1 (HIV-1) reverse transcriptase.",
+            "Literature": [
+                {
+                    "Title": "Sesquin, a potent defensin-like antimicrobial peptide from ground beans with inhibitory activities toward tumor cells and HIV-1 reverse transcriptase.",
+                    "Pubmed ID": "15949629",
+                    "Reference": "Peptides. 2005 Jul;26(7)1120-1126.",
+                    "Author": "Wong JH, Ng TB",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=15949629"
+                }
+            ],
+            "Frequent Amino Acids": "TAC",
+            "Absent Amino Acids": "FGHIMOPQRSUVW",
+            "Basic Residues": 1,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 3,
+            "Polar Residues": 7,
+            "Positive Residues": 1,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00951",
+                    "Similarity": 1.0,
+                    "Sequence": "KTCENLADTYKGPCFTTGSCD"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01158",
+                    "Similarity": 1.0,
+                    "Sequence": "FFPIGVFCKIFKTC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01264",
+                    "Similarity": 1.0,
+                    "Sequence": "GFLDTFKNLALNAAKSAGVSVLNSLSCKLFKTC"
+                }
+            ]
+        }
+    }
+}

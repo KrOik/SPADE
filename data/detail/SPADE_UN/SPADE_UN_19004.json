@@ -1,0 +1,70 @@
+{
+    "SPADE_UN_19004": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_19004",
+            "Peptide Name": "CPP-KR12 (Synthetic AMPs, KR-12 derived, Arg-rich, cell-penetrating, conjugated peptide, UCLL1; BBMm, BBN)",
+            "Source": "Designed, peptide conjugate, peptide hybrid, man-made sequences",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "RKKRRQRRRGSSKRIVQRIKDFLR",
+            "Sequence Length": 24,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram-",
+                "Anti-inflammatory"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 3124.71,
+            "PI": 12.0,
+            "Hydrophobicity": -2.03,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Ki MR, Kim SH, Park TI, Pack SP.2023",
+                    "Reference": "Int J Mol Sci. 2023 Nov 16;24(22):16423. doi: 10.3390/ijms242216423.PubMed",
+                    "Title": "Self-Entrapment of Antimicrobial Peptides in Silica Particles for Stable and Effective Antimicrobial Peptide Delivery System"
+                }
+            ],
+            "Frequent Amino Acids": "RKI",
+            "Absent Amino Acids": "ACEHMNOPTUWY",
+            "Basic Residues": 13,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 18,
+            "Positive Residues": 13,
+            "Negative Residues": 1,
+            "Net Charge": 12,
+            "Comments": "Sequence analysis: APD analysis reveals that this sequence is similar (80.77%) toTAT-KR-12R: 38%; K: 17%.Activity: active against E. coli (MIC 12.09 uM), P. aeruginosa (MIC 6,12 uM), S.aureus (MIC > 320 uM).Similar to KR-12, the peptide is also anti-inflammatory by supressing the cytokine levels of TNF-alpha, IL-1beta, and IL-6 from PS-stimulated RAW264.7 cells. cf. CPP is unable to do so.MOA:bacteria:E. coli: MOA:bacteria:P. aeruginosa: membrane permeation.peptide formulation:Silica precipitation:CPP-KR12@Si: both KR-12 and CPP-KR12 are able to precipitate silica to form silica particles, allowing controlled delivery. The peptide retained its activity against Gran-negative bacteria and became more active against S. aureus after formulation.",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_04904",
+                    "Similarity": 1.0,
+                    "Sequence": "RKKRRQRRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04906",
+                    "Similarity": 1.0,
+                    "Sequence": "YGRKKRRQRRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06292",
+                    "Similarity": 1.0,
+                    "Sequence": "KAQIRAMECNILGRKKRRQRRR"
+                }
+            ]
+        }
+    }
+}

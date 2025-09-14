@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_24402": {
+        "Sequence Information": {
+            "Peptide Name": "PN5",
+            "Sequence": "FKFLARTGKFL",
+            "Sequence Length": 11,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "A Novel Antimicrobial Peptides From Pine Needles of Pinus densiflora Sieb. et Zucc. Against Foodborne Bacteria",
+                    "Pubmed ID": "34093476",
+                    "Reference": "Front Microbiol. 2021;12:662462",
+                    "Author": "Lee J, Kang HK, Cheong H, Park Y",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/34093476"
+                }
+            ],
+            "Mass": 1327.62,
+            "PI": 11.17,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.4,
+            "Frequent Amino Acids": "FKL",
+            "Absent Amino Acids": "CDEHIMNOPQSUVWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 5,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_24402",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_11155",
+                    "Similarity": 1.0,
+                    "Sequence": "ARRWFKFL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_13810",
+                    "Similarity": 1.0,
+                    "Sequence": "TSVFISAVCYSGCGSLALVCFVSNGITNGLDYFKSSAPLSTSETSCGEAFDTCTDHCLANFKF"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_04072",
+                    "Similarity": 1.0,
+                    "Sequence": "FKIHFRLKVHIRFKF"
+                }
+            ],
+            "Hemolytic Activity": "Mouse erythrocytes:5% Hemolysis=200 µg/ml,Human keratinocytes HaCat:19% Cytotoxicity=200 µg/ml",
+            "Target Organism": "Staphylococcus aureus ATCC 25923(MIC=32µg/ml),Listeria monocytogenes KCTC 3710(MIC=32µg/ml),Escherichia coli ATCC 25922(MIC=64µg/ml),Salmonella typhimurium KCTC 1926(MIC=64µg/ml)"
+        }
+    }
+}

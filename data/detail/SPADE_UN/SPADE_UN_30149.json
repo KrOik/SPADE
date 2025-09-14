@@ -1,0 +1,53 @@
+{
+    "SPADE_UN_30149": {
+        "Sequence Information": {
+            "Peptide Name": "Anoplin [L2,10NVAL; I6NAL]",
+            "Sequence": "GXLKRXKTLX",
+            "Sequence Length": 10,
+            "Biological Activity": [
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P0C005",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P0C005",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Rational design of alpha-helical antimicrobial peptides: do's and don'ts.",
+                    "Pubmed ID": "25530580",
+                    "Reference": "Chembiochem. 2015;16:242-253",
+                    "Author": "Uggerhøj LE, Poulsen TJ, Munk JK, Fredborg M, Sondergaard TE, Frimodt-Moller N, Hansen PR, Wimmer R",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/25530580"
+                }
+            ],
+            "SPADE ID": "SPADE_UN_30149",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00713",
+                    "Similarity": 1.0,
+                    "Sequence": "KVFLGLK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03564",
+                    "Similarity": 1.0,
+                    "Sequence": "SVKKFWGGVKAIFKGARKGLK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03565",
+                    "Similarity": 1.0,
+                    "Sequence": "FVKKFWGGVKAIFKGARKGLK"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=>500 µM",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=100µM)"
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_11411": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_11411",
+            "Peptide Name": "gp41w-FKA (gp41 peptide derivative)",
+            "Source": "Synthetic construct",
+            "Family": "Derived from the HIV glycoprotein, gp41",
+            "Gene": "Not found",
+            "Sequence": "KFAKKFKWFAKAAFKFFKK",
+            "Sequence Length": 19,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.23019445]Gram-positive bacterium:Staphylococcus aureus (MIC<10 μg/ml, MBC=20-30 μg/ml);Gram-negative bacterium:Escherichia coli (MIC=10-30 μg/ml, MBC=40-50 μg/ml)",
+            "Hemolytic Activity": "[Ref.23019445]EC50=195 μg/mL against human red blood cells.",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "gp41w-FKA binds at the interfacial region of a phospholipid bilayer.",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "gp41w-FKA peptide to adopt a helical conformation in the cosolvent mixture of chloroform, methanol and water. The peptide formed a very well defined",
+            "Formula": "C125H182N28O20",
+            "Mass": 2396.96,
+            "PI": 10.85,
+            "Net Charge": 8,
+            "Hydrophobicity": -0.43,
+            "Half Life": "Mammalian:1.3 hourYeast:3 minE.coli:2 min",
+            "Function": "Antibacterial activity against Gram-positive and Gram-negative bacteria. Has hemolytic activity.",
+            "Literature": [
+                {
+                    "Title": "Design of a novel tryptophan-rich membrane-active antimicrobial peptide from the membrane-proximal region of the HIV glycoprotein, gp41.",
+                    "Pubmed ID": "23019445",
+                    "Reference": "Beilstein J Org Chem. 2012;81172-84. Epub 2012 Jul 24.",
+                    "Author": "Haney EF, Nguyen LT, Schibli DJ, Vogel HJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=23019445"
+                }
+            ],
+            "Frequent Amino Acids": "KFA",
+            "Absent Amino Acids": "CDEGHILMNOPQRSTUVY",
+            "Basic Residues": 8,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 12,
+            "Positive Residues": 8,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_01224",
+                    "Similarity": 1.0,
+                    "Sequence": "KFAK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_21998",
+                    "Similarity": 1.0,
+                    "Sequence": "KKFAK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_22190",
+                    "Similarity": 1.0,
+                    "Sequence": "FAKKFAKKFK"
+                }
+            ]
+        }
+    }
+}

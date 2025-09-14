@@ -1,0 +1,81 @@
+{
+    "SPADE_N_03607": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03607",
+            "Peptide Name": "HPA3NT3-A2 (HPA3NT3 peptide analogs)",
+            "Source": "Helicobacter pylori",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "AKRLKKLAKKIWKWK",
+            "Sequence Length": 15,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "[Ref.22982494] Gram-positive bacteria :Staphylococcus aureus(MIC=4 μM), Listeria monocytogenes(MIC=2 μM), Staphylococcus epidermidis(MIC=2-4 μM), Bacillus subtilis(MIC=2 μM);Gram-negative bacteria :Escherichia coli(MIC=4 μM), Pseudomonas aeruginosa(MIC=2 μM), Primula vulgaris(MIC=2-4 μM), Salmonella typhimurium(MIC=2 μM);Fungi :Candida albicans(MIC=8 μM), Trichosporon beigelii(MIC=16 μM), Aspergillus awamori(MIC=8 μM), Aspergillus flavus(MIC=8 μM), Aspergillus fumigatus(MIC=4 μM), Aspergillus parasiticus(MIC=8 μM)",
+            "Hemolytic Activity": "[Ref.22982494] 0% hemolysis at 250 μM against human red blood cells",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C94H161N27O16",
+            "Mass": 1925.46,
+            "PI": 11.47,
+            "Net Charge": 8,
+            "Hydrophobicity": -1.19,
+            "Half Life": "Mammalian:4.4 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Antibacterial activity against Gram-positive bacteria and Gram-negative bacteria. Antifungal activity against Candida albicans, Trichosporon beigelli, Aspergillus awamori, Aspergillus flavus, Aspergillus fumigatus, Aspergillus parasiticus",
+            "Literature": [
+                {
+                    "Title": "Antimicrobial HPA3NT3 peptide analogs Placement of aromatic rings and positive charges are key determinants for cell selectivity and mechanism of action.",
+                    "Pubmed ID": "22982494",
+                    "Reference": "Biochim Biophys Acta. 2013 Feb;1828(2)443-454.  doi 10.1016/j.bbamem.2012.09.005",
+                    "Author": "Lee JK, Park SC, Hahm KS, Park Y.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=22982494"
+                },
+                {
+                    "Title": "All d-Lysine Analogues of the Antimicrobial Peptide HPA3NT3-A2 Increased Serum Stability and without Drug Resistance.",
+                    "Pubmed ID": "32781586",
+                    "Reference": "Int J Mol Sci. 2020 Aug 6;21(16)5632. doi 10.3390/ijms21165632",
+                    "Author": "Lee JK, Park Y.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=32781586"
+                }
+            ],
+            "Frequent Amino Acids": "KAL",
+            "Absent Amino Acids": "CDEFGHMNOPQSTUVY",
+            "Basic Residues": 8,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 10,
+            "Positive Residues": 8,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_22642",
+                    "Similarity": 1.0,
+                    "Sequence": "AKRLKKLAKKIWKWK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_28458",
+                    "Similarity": 1.0,
+                    "Sequence": "AKRLKKLAKKIWKWK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10570",
+                    "Similarity": 1.0,
+                    "Sequence": "WKRLVAASAKKK"
+                }
+            ]
+        }
+    }
+}

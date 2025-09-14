@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_19789": {
+        "Sequence Information": {
+            "Peptide Name": "Crotamine (30-39)[C1,7,8S]",
+            "Sequence": "SRWRWKSSKK",
+            "Sequence Length": 10,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "Q9PWF3",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/Q9PWF3",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "CyLoP-1: Membrane-active peptide with cell-penetrating and antimicrobial properties.",
+                    "Pubmed ID": "27836642",
+                    "Reference": "Biochim Biophys Acta. 2017;1859:167-176",
+                    "Author": "Ponnappan N, Budagavi DP, Chugh A",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/27836642"
+                }
+            ],
+            "Mass": 1348.56,
+            "PI": 12.0,
+            "Net Charge": 5,
+            "Hydrophobicity": -2.49,
+            "Frequent Amino Acids": "KSR",
+            "Absent Amino Acids": "ACDEFGHILMNOPQTUVY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 0,
+            "Polar Residues": 10,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_19789",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_04143",
+                    "Similarity": 1.0,
+                    "Sequence": "GRSRW"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_00645",
+                    "Similarity": 1.0,
+                    "Sequence": "KMDSRWRWKSSKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_01509",
+                    "Similarity": 1.0,
+                    "Sequence": "QRSVSNAATRVCRTGRSRW"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Escherichia coli DH5alpha(MIC=30µM),Bacillus cereus(MIC=30µM),Staphylococcus aureus ATCC 43300(MIC=20µM),Salmonella enterica subsp. enterica serovar Typhi(MIC=20µM),Vibrio cholerae(MIC=30µM),Xanthomonas oryzae ITCC BB00026(MIC=10µM),Xanthomonas axonopodis ITCC BD00029(MIC=10µM),Candida albicans MTCC 227(MIC=>40µM),Fusarium solani MTCC 10158(MIC=20µM)"
+        }
+    }
+}

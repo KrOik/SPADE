@@ -1,0 +1,82 @@
+{
+    "SPADE_N_03090": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03090",
+            "Peptide Name": "Cecropin-B (Lepidopteran-A/B; Insects, animals)",
+            "Source": "Bombyx mori (Silk moth)",
+            "Family": "Belongs to the cecropin family",
+            "Gene": "CECB1 and CECB2",
+            "Sequence": "RWKIFKKIEKMGRNIRDGIVKAGPAIEVLGSAKAI",
+            "Sequence Length": 35,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P04142"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C177H302N52O44S",
+            "Mass": 3894.68,
+            "PI": 10.64,
+            "Net Charge": 6,
+            "Hydrophobicity": -0.13,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Function": "Cecropins have lytic and antibacterial activity against several Gram-positive and Gram-negative bacteria.",
+            "Tissue specificity": "Highest expression in fat body and hemocytes. Is also expressed in Malpighian tubules and to a much lesser extent in midgut. Not present in silk gland.",
+            "PTM": "Lepidopteran-B differs from lepidopteran-A by its hydroxylated residue.",
+            "Literature": [
+                {
+                    "Title": "Isolation and structure of cecropins, inducible antibacterial peptides, from the silkworm, Bombyx mori.",
+                    "Pubmed ID": "2184991",
+                    "Reference": "Comp. Biochem. Physiol. 1990; 95551-554.",
+                    "Author": "Morishima I, Suginaka S, Ueno T, Hirano H.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=2184991"
+                },
+                {
+                    "Title": "Cloning of cDNAs for cecropins A and B, and expression of the genes in the silkworm, Bombyx mori.",
+                    "Pubmed ID": "7765280",
+                    "Reference": "Biosci Biotechnol Biochem. 1994 Aug;58(8)1476-1478.",
+                    "Author": "Yamano Y, Matsumoto M, Inoue K, Kawabata T, Morishima I.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=7765280"
+                }
+            ],
+            "Frequent Amino Acids": "IKA",
+            "Absent Amino Acids": "CHOQTUY",
+            "Basic Residues": 9,
+            "Acidic Residues": 3,
+            "Hydrophobic Residues": 17,
+            "Polar Residues": 17,
+            "Positive Residues": 9,
+            "Negative Residues": 3,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_04198",
+                    "Similarity": 1.0,
+                    "Sequence": "MNFAKILSFVFALVLALSMTSAAPEPRWKIFKKIEKMGRNIRDGIVKAGPAIEVLGSAKAIGK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05692",
+                    "Similarity": 1.0,
+                    "Sequence": "RWKIFKKIEKMGRNIRDGIVKAGPAIEVLGSAKAIGK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_12134",
+                    "Similarity": 0.9714285714285714,
+                    "Sequence": "RWKIFKKIEKMGRNIRDGIVKAGPAIQVLGSAKAI"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "SPADE_N_03426": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03426",
+            "Peptide Name": "Defensin (Spodoptericin)",
+            "Source": "Spodoptera frugiperda (Fall armyworm)",
+            "Family": "Not found",
+            "Gene": "Def",
+            "Sequence": "VSCDFEEANEDAVCQEHCLPKGYTYGICVSHTCSCI",
+            "Sequence Length": 36,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q7Z0G6"
+            ],
+            "Protein Existence": "Predicted",
+            "Biological Activity": [
+                "Antimicrobial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C165H249N43O58S6",
+            "Mass": 3955.39,
+            "PI": 4.35,
+            "Net Charge": -3,
+            "Hydrophobicity": -0.01,
+            "Half Life": "Mammalian:100 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Characterization and transcriptional profiles of three Spodoptera frugiperda genes encoding cysteine-rich peptides. A new class of defensin-like genes from lepidopteran insects?",
+                    "Pubmed ID": "14597170",
+                    "Reference": "Gene. 2003 Nov 13;31943-53.",
+                    "Author": "Volkoff AN, Rocher J, d'Alençon E, Bouton M, Landais I, Quesada-Moraga E, Vey A, Fournier P, Mita K, Devauchelle G.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=14597170"
+                }
+            ],
+            "Frequent Amino Acids": "CES",
+            "Absent Amino Acids": "MORUW",
+            "Basic Residues": 3,
+            "Acidic Residues": 6,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 23,
+            "Positive Residues": 3,
+            "Negative Residues": 6,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03391",
+                    "Similarity": 0.7777777777777778,
+                    "Sequence": "IWCEFEEATETAICQEHCLPKGYSYGICVSNTCSCI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03043",
+                    "Similarity": 0.6666666666666666,
+                    "Sequence": "MGSKVYYVLMLALSFYVVQLCAFPRNSVAFEKQHESLPHADYIVTQKTESHEKTTAEPKLPGRIWCQYEEVTEDAICQEHCIPKGYSYGLCISNTCSCI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11463",
+                    "Similarity": 0.6388888888888888,
+                    "Sequence": "RIPCQYEDATEDTICQQHCLPKGYSYGICVSYRCSCV"
+                }
+            ]
+        }
+    }
+}

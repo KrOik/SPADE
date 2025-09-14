@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_27650": {
+        "Sequence Information": {
+            "Peptide Name": "Granulysin (31-50)",
+            "Sequence": "TRVSRTGRSRWRDVSRNFMR",
+            "Sequence Length": 20,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P22749",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P22749",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Granulysin, a T cell product, kills bacteria by altering membrane permeability.",
+                    "Pubmed ID": "11120840",
+                    "Reference": "J Immunol. 2000;165:7102-7108",
+                    "Author": "Ernst WA, Thoma-Uszynski S, Teitelbaum R, Ko C, Hanson DA, Clayberger C, Krensky AM, Leippe M, Bloom BR, Ganz T, Modlin RL",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/11120840"
+                }
+            ],
+            "Mass": 2523.84,
+            "PI": 12.0,
+            "Net Charge": 6,
+            "Hydrophobicity": -1.52,
+            "Frequent Amino Acids": "RST",
+            "Absent Amino Acids": "ACEHIKLOPQUY",
+            "Basic Residues": 7,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 4,
+            "Polar Residues": 16,
+            "Positive Residues": 7,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_UN_27650",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_04148",
+                    "Similarity": 1.0,
+                    "Sequence": "QRSVSNAATRVSRTGRSRWRDVSRNFMRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04150",
+                    "Similarity": 1.0,
+                    "Sequence": "QRSVSRAATRVSRTGRSRWRDVSRNFMRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09260",
+                    "Similarity": 1.0,
+                    "Sequence": "GRDYRTSLTIVQKLKKMVDKPTQRSVSNAATRVSR"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Mycobacterium tuberculosis(40-50% Killing=25µM),Mycobacterium tuberculosis(60-70% Killing=100µM)"
+        }
+    }
+}

@@ -1,0 +1,70 @@
+{
+    "SPADE_UN_18949": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_18949",
+            "Peptide Name": "[W7]KR12-KAEK (Synthetic AMPs, KR-12 analog, XXA, UCLL1c)",
+            "Source": "designed, human cathelicidin analog, animal-derived, natural derivative",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "KRIVQRWKDFLRKAEK",
+            "Sequence Length": 16,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Antibiofilm"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 2101.5,
+            "PI": 11.07,
+            "Hydrophobicity": -1.46,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Vasconcelos MA, da Silva BR, Andrade AL, de Azevedo Pinheiro A, Evaristo FFV, Arruda FVS, Lorenzón EN, Cilli EM, Teixeira EH. 2023",
+                    "Reference": "Curr Microbiol. 2023 Aug 22;80(10):325. doi: 10.1007/s00284-023-03445-3.PubMed",
+                    "Title": "Antimicrobial and Antibiofilm Activity of Synthetic Peptide [W7]KR12-KAEK Against Enterococcus faecalis Strains."
+                }
+            ],
+            "Frequent Amino Acids": "KRA",
+            "Absent Amino Acids": "CGHMNOPSTUY",
+            "Basic Residues": 7,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 10,
+            "Positive Residues": 7,
+            "Negative Residues": 2,
+            "Net Charge": 5,
+            "Comments": "Sequence analysis: APD analysis reveals that this sequence is similar (68.75%) toKR-12R: 19%, K: 25%.Activity: active against E. faecalis ATCC 10100 or ATCC 19433 (MIC 15.6-31.25 ug/ml). MBC is 62.5 ug/ml.Warning: other bacteria not tested.It inhibited formation of biofilms:bacteria:E. faecalis at 2xMIC. Also showed an effect on pre-formed biofilms.",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03128",
+                    "Similarity": 1.0,
+                    "Sequence": "LLGDFFRKSKEKIGKEFKRIVQR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04258",
+                    "Similarity": 1.0,
+                    "Sequence": "EFKRIV"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04259",
+                    "Similarity": 1.0,
+                    "Sequence": "KEFKRIVQ"
+                }
+            ]
+        }
+    }
+}

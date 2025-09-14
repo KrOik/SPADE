@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_20209": {
+        "Sequence Information": {
+            "Peptide Name": "bp56",
+            "Sequence": "LKKKLKCLCKLLKKLL",
+            "Sequence Length": 16,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "An antimicrobial bicyclic peptide from chemical space against multidrug resistant Gram-negative bacteria.",
+                    "Pubmed ID": "29717727",
+                    "Reference": "Chem Commun (Camb). 2018;54:5130-5133",
+                    "Author": "Di Bonaventura I, Baeriswyl S, Capecchi A, Gan BH, Jin X, Siriwardena TN, He R, Köhler T, Pompilio A, Di Bonaventura G, van Delden C, Javor S, Reymond JL",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/29717727"
+                }
+            ],
+            "Mass": 1913.61,
+            "PI": 10.16,
+            "Net Charge": 7,
+            "Hydrophobicity": 0.27,
+            "Frequent Amino Acids": "KLC",
+            "Absent Amino Acids": "ADEFGHIMNOPQRSTUVWY",
+            "Basic Residues": 7,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 7,
+            "Positive Residues": 7,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_20209",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06023",
+                    "Similarity": 1.0,
+                    "Sequence": "KLLKKLLKLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10501",
+                    "Similarity": 1.0,
+                    "Sequence": "KLKKKLKKLLKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11215",
+                    "Similarity": 1.0,
+                    "Sequence": "LLKKLLKKM"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:<5% Hemolysis=500 µg/ml",
+            "Target Organism": "Bacillus subtilis BR151(MIC=1µg/ml),Pseudomonas aeruginosa PAO1(MIC=4µg/ml),Pseudomonas aeruginosa PA14(MIC=8µg/ml),Pseudomonas aeruginosa PEJ 2.6(MIC=8µg/ml),Pseudomonas aeruginosa PEJ 9.1(MIC=16µg/ml),Pseudomonas aeruginosa ZEM9.A(MIC=64µg/ml),Acinetobacter baumannii ATCC 19606(MIC=4µg/ml),Acinetobacter baumannii(MIC=4µg/ml),Pseudomonas aeruginosa(MIC=64-128µg/ml),Escherichia coli W3110(MIC=4µg/ml),Klebsiella pneumoniae(MIC=64µg/ml),Staphylococcus aureus COL(MIC=>64µg/ml)"
+        }
+    }
+}

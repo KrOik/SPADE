@@ -1,0 +1,76 @@
+{
+    "SPADE_N_02417": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02417",
+            "Peptide Name": "Paneth cell-specific alpha-defensin 1 (DEFA1; horse defensin; houses, mammals, animals",
+            "Source": "Equus caballus (Horse)",
+            "Family": "Not found",
+            "Gene": "DEFA1",
+            "Sequence": "AREASKSLIGTASCTCRRAWICRWGERHSGKCIDQKGSTYRLCCRR",
+            "Sequence Length": 46,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/A6YB85"
+            ],
+            "Protein Existence": "Predicted",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "Gram-negative bacteria:Escherichia coli [ATCC 11775 (MBC=0.4 µM); ATCC 25922 (MBC=0.4 µM); ATCC 35218 (MBC=0.4 µM)], E. coli D31 (MBC=0.8 µM), Pseudomonas aeruginosa ATCC 11440 (MBC=3 µM);Gram-positive bacteria:Staphylococcus aureus [ATCC 6538 (MBC=0.8 µM); ATCC 12600 (MBC=1.5 µM)], Staphylococcus epidermidis ATCC 14990 (MBC=1.5 µM), Enterococcus faecalis ATCC 29212 (MBC=6.1 µM), E. faecalis PEG 205 (wild-type) (MBC=3 µM), Streptococcus pyogenes ATCC 12344 (MBC=0.8 µM), Bacillus megaterium ATCC 14581 (MBC=0.2 µM).Yeast:Candida albicans ATCC 24433 (MIC=0.8 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C217H360N78O63S6",
+            "Mass": 5262.06,
+            "PI": 9.86,
+            "Net Charge": 9,
+            "Hydrophobicity": -0.7,
+            "Half Life": "Mammalian:4.4 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Membrane permeabilization is at least an essential part of the peptide's mode of action.",
+            "Literature": [
+                {
+                    "Title": "A novel horse alpha-defensin gene transcription, recombinant expression and characterization of the structure and function.",
+                    "Pubmed ID": "17620056",
+                    "Reference": "Biochem J. 2007 Oct 15;407(2)267-276.",
+                    "Author": "Bruhn O, Regenhard P, Michalek M, Paul S, Gelhaus C, Jung S, Thaller G, Podschun R, Leippe M, Grötzinger J, Kalm E.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=17620056"
+                }
+            ],
+            "Frequent Amino Acids": "RCS",
+            "Absent Amino Acids": "FMNOPUV",
+            "Basic Residues": 12,
+            "Acidic Residues": 3,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 32,
+            "Positive Residues": 12,
+            "Negative Residues": 3,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_08312",
+                    "Similarity": 1.0,
+                    "Sequence": "SCTCRRAWICRWGERHSGKCIDQKGSTYRLCCRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_14413",
+                    "Similarity": 0.7142857142857143,
+                    "Sequence": "AEEASKKAEEASKKAEEASKKAEEASKKAEEASKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_16261",
+                    "Similarity": 0.625,
+                    "Sequence": "AEEASKKAEEASKKAEEASKKAEEASKKAEEASKKK"
+                }
+            ]
+        }
+    }
+}

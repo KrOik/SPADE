@@ -1,0 +1,54 @@
+{
+    "SPADE_UN_23929": {
+        "Sequence Information": {
+            "Peptide Name": "Temporin-L [F1PHE-NH-C5,Q3P,L9l,G10k]l",
+            "Sequence": "XVPWFSKFLKRIL",
+            "Sequence Length": 13,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P57104",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P57104",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Novel temporin L antimicrobial peptides: promoting self-assembling by lipidic tags to tackle superbugs.",
+                    "Pubmed ID": "32957844",
+                    "Reference": "J Enzyme Inhib Med Chem. 2020;35:1751-1764",
+                    "Author": "Bellavita R, Falanga A, Buommino E, Merlino F, Casciaro B, Cappiello F, Mangoni ML, Catania MR, Paolillo R, Grieco P, Galdieroa S",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/32957844"
+                }
+            ],
+            "SPADE ID": "SPADE_UN_23929",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_11706",
+                    "Similarity": 1.0,
+                    "Sequence": "FVPWFSKFLKRIL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_14148",
+                    "Similarity": 1.0,
+                    "Sequence": "FVPWFSKFLRIL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_14149",
+                    "Similarity": 1.0,
+                    "Sequence": "FVPWFSKFLRIL"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:35% Hemolysis=25 µM,Human keratinocytes HaCat:13% Killing=25 µM",
+            "Target Organism": "Pseudomonas aeruginosa ATCC 27853(MIC=25µM),Klebsiella pneumoniae ATCC BAA-1705(MIC=6.25µM),Staphylococcus aureus ATCC 25923(MIC=6.25µM),Pseudomonas aeruginosa(MIC=25µM),Klebsiella pneumoniae(MIC=12.5µM),Staphylococcus aureus(MIC=12.5µM)"
+        }
+    }
+}

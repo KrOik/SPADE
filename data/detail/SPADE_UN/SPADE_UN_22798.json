@@ -1,0 +1,61 @@
+{
+    "SPADE_UN_22798": {
+        "Sequence Information": {
+            "Peptide Name": "",
+            "Sequence": "ICRKPIICRKPIICRKPIICRKPIICRKPI",
+            "Sequence Length": 30,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anticancer",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Rational Avoidance of Protease Cleavage Sites and Symmetrical End-Tagging Significantly Enhances the Stability and Therapeutic Potential of Antimicrobial Peptides",
+                    "Pubmed ID": "32706256",
+                    "Reference": "J Med Chem. 2020;63:9421-9435",
+                    "Author": "Zhu Y, Shao C, Li G, Lai Z, Tan P, Jian Q, Cheng B, Shan A",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/32706256"
+                }
+            ],
+            "Mass": 3572.67,
+            "PI": 10.58,
+            "Net Charge": 10,
+            "Hydrophobicity": 0.25,
+            "Frequent Amino Acids": "ICK",
+            "Absent Amino Acids": "ADEFGHLMNOQSTUVWY",
+            "Basic Residues": 10,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 15,
+            "Polar Residues": 15,
+            "Positive Residues": 10,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_22798",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_22795",
+                    "Similarity": 1.0,
+                    "Sequence": "ICRKPIICRKPI"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_22796",
+                    "Similarity": 1.0,
+                    "Sequence": "ICRKPIICRKPIICRKPI"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_22797",
+                    "Similarity": 1.0,
+                    "Sequence": "ICRKPIICRKPIICRKPIICRKPI"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:0% Hemolysis=128 µM,Human embryonic kidney HEK293T cells:0% Killing=128 µM",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=4µM),Salmonella enterica subsp. enterica serovar Typhimurium ATCC 14028(MIC=4µM),Escherichia coli UB1005(MIC=2µM),Salmonella enterica subsp. enterica serovar Typhimurium C77-31(MIC=4µM),Salmonella enterica subsp. enterica serovar Choleraesuis CVCC 503(MIC=8µM),Salmonella enterica subsp. enterica serovar Pullorum C79-13(MIC=8µM),Staphylococcus aureus ATCC 29213(MIC=>64µM),Staphylococcus aureus ATCC 43300(MIC=>64µM),Staphylococcus aureus(MIC=>64µM),Enterococcus faecalis ATCC 29212(MIC=>64µM),Staphylococcus epidermidis ATCC 12228(MIC=>64µM),Streptococcus agalactiae(MIC=>64µM),Murine macrophage cells RAW 264.7(0-10% Killing=128µM)"
+        }
+    }
+}

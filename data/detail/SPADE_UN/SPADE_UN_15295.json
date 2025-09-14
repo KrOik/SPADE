@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_15295": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_15295",
+            "Peptide Name": "PTP7",
+            "Source": "Synthetic",
+            "Family": "",
+            "Gene": "Not found",
+            "Sequence": "FLGALFKALSKLL",
+            "Sequence Length": 13,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P80399"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Target Organism": "Tumor cells:PANC-1 (IC50=11 μM ); PC-3 (IC50=5.01±0.42 µg/ml); MCF-7 (IC50=5.25±0.63 µg/ml); Hep 3B (IC50=5.40 ± 0.91 µg/ml); A549 (IC50=8.01 ± 1.32 µg/ml)",
+            "Hemolytic Activity": "Human RBCs:less than 6% hemolysis at 100 μg/ml",
+            "Cytotoxicity": "HEK293:IC50=6.71 ± 0.47 µg/ml; MCF-10A:IC50=8 μM",
+            "Binding Target": "Not available",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C71H117N15O15",
+            "Mass": 1420.78,
+            "PI": 10.0,
+            "Net Charge": 2,
+            "Hydrophobicity": 1.48,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Comments": "Induce cell death via apoptosis",
+            "Literature": [
+                {
+                    "Title": "In vitro activities of native and designed peptide antibiotics against drug sensitive and resistant tumor cell lines",
+                    "Pubmed ID": "14499271",
+                    "Reference": "Peptides. 2003 Jul;24(7)945-53.",
+                    "Author": "Kim S, Kim SS, Bang YJ, Kim SJ, Lee BJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=14499271"
+                }
+            ],
+            "Frequent Amino Acids": "LAF",
+            "Absent Amino Acids": "CDEHIMNOPQRTUVWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 5,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_09282",
+                    "Similarity": 1.0,
+                    "Sequence": "FHEAIAPVVHAAVKALVGFLG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_13818",
+                    "Similarity": 1.0,
+                    "Sequence": "KRVNWRKVGRNTALGASYVLSFLG"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_27670",
+                    "Similarity": 1.0,
+                    "Sequence": "FHEAIAPVVHAAVKALVGFLG"
+                }
+            ]
+        }
+    }
+}

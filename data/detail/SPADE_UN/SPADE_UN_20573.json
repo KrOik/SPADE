@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_20573": {
+        "Sequence Information": {
+            "Peptide Name": "LL-37 KR-12 [R6A]",
+            "Sequence": "KRIVQAIKDFLR",
+            "Sequence Length": 12,
+            "Biological Activity": [
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P49913",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P49913",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Structural location determines functional roles of the basic amino acids of KR-12, the smallest antimicrobial peptide from human cathelicidin LL-37.",
+                    "Pubmed ID": "24307932",
+                    "Reference": "RSC Adv. 2013;42:",
+                    "Author": "Mishra B, Epand RF, Epand RM, Wang G",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/24307932"
+                }
+            ],
+            "Mass": 1486.8,
+            "PI": 11.0,
+            "Net Charge": 3,
+            "Hydrophobicity": -0.18,
+            "Frequent Amino Acids": "IKR",
+            "Absent Amino Acids": "CEGHMNOPSTUWY",
+            "Basic Residues": 4,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 6,
+            "Positive Residues": 4,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_UN_20573",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_04255",
+                    "Similarity": 1.0,
+                    "Sequence": "LLGDFFRKSKEKIGKEFKRIVQ"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04256",
+                    "Similarity": 1.0,
+                    "Sequence": "LLGDFFRKSKEKIGKEFKRIV"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04258",
+                    "Similarity": 1.0,
+                    "Sequence": "EFKRIV"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:8.5% Hemolysis=100 µM",
+            "Target Organism": "Escherichia coli K-12(MIC=40±20µM)"
+        }
+    }
+}

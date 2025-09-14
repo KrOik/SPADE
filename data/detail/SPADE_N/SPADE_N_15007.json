@@ -1,0 +1,49 @@
+{
+    "SPADE_N_15007": {
+        "Sequence Information": {
+            "Peptide Name": "Brevibacillin I",
+            "Sequence": "XLXIIVKIVKYL",
+            "Sequence Length": 12,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anticancer",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "1. Brevibacillus laterosporus DSM 25",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Brevibacillin 2V, a Novel Antimicrobial Lipopeptide With an Exceptionally Low Hemolytic Activity.",
+                    "Pubmed ID": "34220785",
+                    "Reference": "Front Microbiol. 2021;12:693725",
+                    "Author": "Zhao X, Wang X, Shukla R, Kumar R, Weingarth M, Breukink E, Kuipers OP",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/34220785"
+                }
+            ],
+            "SPADE ID": "SPADE_N_15007",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_15007",
+                    "Similarity": 1.0,
+                    "Sequence": "LIIVKIVKYL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_05353",
+                    "Similarity": 1.0,
+                    "Sequence": "WYKKIRLII"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08685",
+                    "Similarity": 1.0,
+                    "Sequence": "VKYLEFKSESIKQVK"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=18.8±0.5 µg/ml",
+            "Target Organism": "Staphylococcus aureus ATCC 15975(MIC=2µg/ml),Enterococcus faecium LMG 16003(MIC=2µg/ml),Enterococcus faecalis LMG 16216(MIC=2µg/ml),Bacillus cereus ATCC 14579(MIC=2µg/ml),Acinetobacter baumannii ATCC 17978(MIC=64µg/ml),Escherichia coli ATCC 25922(MIC=32µg/ml),Pseudomonas aeruginosa LMG 6395(MIC=64µg/ml),Klebsiella pneumoniae LMG 20218(MIC=64µg/ml),Human hepatocellular carcinoma HepG2(50-60% Cytotoxicity=7.38±0.30µg/ml)"
+        }
+    }
+}

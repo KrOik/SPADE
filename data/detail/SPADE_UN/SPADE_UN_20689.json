@@ -1,0 +1,48 @@
+{
+    "SPADE_UN_20689": {
+        "Sequence Information": {
+            "Peptide Name": "",
+            "Sequence": "XFXKLKK",
+            "Sequence Length": 7,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Characterization, mechanism of action and optimization of activity of a novel peptide-peptoid hybrid against bacterial pathogens involved in canine skin infections.",
+                    "Pubmed ID": "30842436",
+                    "Reference": "Sci Rep. 2019;9:3679",
+                    "Author": "Greco I, Emborg AP, Jana B, Molchanova N, Oddo A, Damborg P, Guardabassi L, Hansen PR",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/30842436"
+                }
+            ],
+            "SPADE ID": "SPADE_UN_20689",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06190",
+                    "Similarity": 1.0,
+                    "Sequence": "MNKMAMIDLAKLFLASKITAIEFSERICVERRRLYGVKDLSPNILNCGEELFMAAERFEPDADRANYEIDDNGLKVEVRSILEKFKL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09629",
+                    "Similarity": 1.0,
+                    "Sequence": "FLLFFKL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10025",
+                    "Similarity": 1.0,
+                    "Sequence": "DLKGTFAALSELHCDKLHVDPENFKL"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:<8% Hemolysis=150 µM",
+            "Target Organism": "Staphylococcus pseudintermedius C22963(MIC=8-16µg/ml),Staphylococcus aureus ATCC 29213(MIC=16-32µg/ml),Pseudomonas aeruginosa 26314(MIC=64µg/ml)"
+        }
+    }
+}

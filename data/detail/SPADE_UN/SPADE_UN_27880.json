@@ -1,0 +1,67 @@
+{
+    "SPADE_UN_27880": {
+        "Sequence Information": {
+            "Peptide Name": "Lasiocepsin [C17A,C27A]",
+            "Sequence": "GLPRKILCAIAKKKGKAKGPLKLVCKA",
+            "Sequence Length": 27,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "W5IDB3",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/W5IDB3",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Lasiocepsin, a novel cyclic antimicrobial peptide from the venom of eusocial bee Lasioglossum laticeps (Hymenoptera: Halictidae).",
+                    "Pubmed ID": "22038181",
+                    "Reference": "Amino Acids. 2012;43:751-761",
+                    "Author": "Monincová L, Slaninová J, Fucík V, Hovorka O, Voburka Z, Bednárová L, Malon P, Stokrová J, Cerovský V",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/22038181"
+                }
+            ],
+            "Mass": 2833.64,
+            "PI": 10.49,
+            "Net Charge": 9,
+            "Hydrophobicity": 0.02,
+            "Frequent Amino Acids": "KAL",
+            "Absent Amino Acids": "DEFHMNOQSTUWY",
+            "Basic Residues": 9,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 14,
+            "Positive Residues": 9,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_27880",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_27884",
+                    "Similarity": 0.9285714285714286,
+                    "Sequence": "GLPRKILAAIAKKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02592",
+                    "Similarity": 0.9259259259259259,
+                    "Sequence": "GLPRKILCAIAKKKGKCKGPLKLVCKC"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_27878",
+                    "Similarity": 0.9259259259259259,
+                    "Sequence": "GLPRKILAAIAKKKGKAKGPLKLVAKA"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:-=NA",
+            "Target Organism": "Bacillus subtilis(MIC=0.5µM),Staphylococcus aureus(MIC=>100µM),Escherichia coli B(MIC=55µM),Pseudomonas aeruginosa(MIC=65µM),Candida albicans F7-39/IDE99(MIC=70µM)"
+        }
+    }
+}

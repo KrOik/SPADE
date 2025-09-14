@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_18948": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_18948",
+            "Peptide Name": "TAT-KR-12 (Synthetic AMPs, cell-penetrating, conjugated peptide, XXA, UCLL1c; BBL)",
+            "Source": "designed, human cathelicidin analog, animal-derived, natural derivative",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "YGRKKRRQRRRKRIVQRIKDFLR",
+            "Sequence Length": 23,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-inflammatory",
+                "anti-sepsis",
+                "Wound healing"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 3113.72,
+            "PI": 12.0,
+            "Hydrophobicity": -2.11,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Huo S, Chen C, Lyu Z, Zhang S, Wang Y, Nie B, Yue B.2020",
+                    "Reference": "ACS Infect Dis. 2020 Dec 11;6(12):3147-3162. doi: 10.1021/acsinfecdis.0c00264.PubMed",
+                    "Title": "Overcoming Planktonic and Intracellular Staphylococcus aureus-Associated Infection with a Cell-Penetrating Peptide-Conjugated Antimicrobial Peptide."
+                }
+            ],
+            "Frequent Amino Acids": "RKI",
+            "Absent Amino Acids": "ACEHMNOPSTUW",
+            "Basic Residues": 13,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 17,
+            "Positive Residues": 13,
+            "Negative Residues": 1,
+            "Net Charge": 12,
+            "Comments": "Peptide conjugate:CPP: TAT cell penetraing peptide is coupled with KR-12 at the N-terminus.Sequence analysis: APD analysis reveals that this sequence is similar (58.33%) toSK-21R: 39%, K: 17%.Activity: active against Gram+ S. aureus ATCC 25923 or MRSA ATCC 43300 (MIC 16 ug/ml), S. epidermidis ATCC 35984 or MRSE ATCC 287 (MIC 8 ug/ml), and Gram- E. coli ATCC 25922 (MIC 16 ug/ml). MBC values are 2-4 fold higher.SAR: this peptide conjugate is more active than KR-12 (MIC 256-512 ug/ml against Gram+), especially against Gram+ pathogens.MOA:bacteria:E. coli: it permeated (ONPG and PI) and depolarized membranes (DiSC3(5)).Animal model:mouse: skin abscess: more effective than vancomycin in treating intracellular bacterial infection. Reduced CFU and promoted wound healing. In the 100 ng/ml LPS-stimulated RAW264.7 cells, this peptide could suppress the release of NO, IL-1beta, TNF-alpha (Anti-inflammatary).",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_04906",
+                    "Similarity": 1.0,
+                    "Sequence": "YGRKKRRQRRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07214",
+                    "Similarity": 1.0,
+                    "Sequence": "GCGGGYGRKKRRQRRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07216",
+                    "Similarity": 1.0,
+                    "Sequence": "CGGGYGRKKRRQRRR"
+                }
+            ]
+        }
+    }
+}

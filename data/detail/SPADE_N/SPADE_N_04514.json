@@ -1,0 +1,55 @@
+{
+    "SPADE_N_04514": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "WO 2004018706 A2",
+                "Patent Link": "http://www.lens.org/lens/patent/WO_2004018706_A2",
+                "Patent Type": "Patent Application",
+                "Publication Date": "2004-3-4",
+                "Family Info": "CA2495794A1,CN1678632A,EP1534745A2,WO2004018706A2",
+                "Patent Title": "A genomic approach to identification of novel broad-spectrum antimicrobial peptides from bony fish.",
+                "Abstract": "There is provided a method of identifying candidate nucleic acid sequences encoding antimicrobial peptides. The method comprises: identifying an initial peptide of interest; identifying genomic DNA encoding the initial peptide; identifying a flanking sequence on each side of the initial peptide; obtaining primers complementary to the flanking sequences; and, screening a wide range of nucleic acid sequences to identify candidate sequences capable of being amplified using the primers from step e). In some instances the antimicrobial peptide is a hepcidin or a pleurocidin."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_04514",
+            "Sequence": "MHFRFKRQSHLSLCRWCCNCCHNKGCGFCCKF",
+            "Sequence Length": 32,
+            "Peptide Name": "Sequence 285 from Patent WO 2004018706",
+            "Source": "Unidentified",
+            "Biological Activity": [
+                "Antimicrobial"
+            ],
+            "Frequent Amino Acids": "CFH",
+            "Absent Amino Acids": "ADEIOPTUVY",
+            "Basic Residues": 9,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 22,
+            "Positive Residues": 9,
+            "Negative Residues": 0,
+            "Mass": 3884.66,
+            "PI": 9.14,
+            "Net Charge": 9,
+            "Hydrophobicity": -0.25,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_01322",
+                    "Similarity": 1.0,
+                    "Sequence": "MKTFSVAVAVVVVLACMFILESTAVPFSEVRTEEVESIDSPVGEHQQPGGTSMNLPMHFRFKRQSHLSLCRWCCNCCHNKGCGFCCKF"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_01324",
+                    "Similarity": 1.0,
+                    "Sequence": "RTEEVESIDSPVGEHQQPGGTSMNLPMHFRFKRQSHLSLCRWCCNCCHNKGCGFCCKF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14747",
+                    "Similarity": 1.0,
+                    "Sequence": "QSHLSLCRWCCNCCHNKGCGFCCKF"
+                }
+            ]
+        }
+    }
+}

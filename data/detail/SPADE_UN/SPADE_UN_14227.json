@@ -1,0 +1,76 @@
+{
+    "SPADE_UN_14227": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_14227",
+            "Peptide Name": "peptide 23",
+            "Source": "Synthetic construct",
+            "Family": "Retroviridae",
+            "Gene": "Not found",
+            "Sequence": "LQQLLAIHFRIGRRRRRRRR",
+            "Sequence Length": 20,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antiviral"
+            ],
+            "Target Organism": "[Ref.20708407]HIV-1:Inhibition of 3′-processing catalyzed by integrase(IC50=0.34 ± 0.06 µM);inhibition of strand transfer catalyzed by integrase(IC50=0.18 ± 0.03 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information or data found in the reference(s) presented in this entry",
+            "Binding Target": "Integrase",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Acetylation",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C114H205N51O23",
+            "Mass": 2658.18,
+            "PI": 12.0,
+            "Net Charge": 10,
+            "Hydrophobicity": -1.31,
+            "Half Life": "Mammalian:5.5 hourYeast:3 minE.coli:2 min",
+            "Mechanism of action": "The peptide acts antiviral activity by inhibiting the activity of integrase.",
+            "Literature": [
+                {
+                    "Title": "Peptidic HIV integrase inhibitors derived from HIV gene products structure-activity relationship studies.",
+                    "Pubmed ID": "20708407",
+                    "Reference": "Bioorg Med Chem. 2010 Sep 15;18(18)6771-5.",
+                    "Author": "Suzuki S, Maddali K, Hashimoto C, Urano E, Ohashi N, Tanaka T, Ozaki T, Arai H, Tsutsumi H, Narumi T, Nomura W, Yamamoto N, Pommier Y, Komano JA, Tamamura H.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=20708407"
+                },
+                {
+                    "Title": "Peptidic HIV integrase inhibitors derived from HIV gene products: structure-activity relationship studies",
+                    "Pubmed ID": "",
+                    "Author": "Suzuki S, Maddali K, Hashimoto C, Urano E, Ohashi n, Tanaka T, Ozaki T, Arai H, Tsutsumi H, narumi T"
+                }
+            ],
+            "Frequent Amino Acids": "RLI",
+            "Absent Amino Acids": "CDEKMNOPSTUVWY",
+            "Basic Residues": 10,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 13,
+            "Positive Residues": 10,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_13957",
+                    "Similarity": 1.0,
+                    "Sequence": "IHFRIGRRRRRRRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_15514",
+                    "Similarity": 1.0,
+                    "Sequence": "RRRYIGRYVRFWK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_15515",
+                    "Similarity": 1.0,
+                    "Sequence": "RRRYIGRYVRFWK"
+                }
+            ]
+        }
+    }
+}

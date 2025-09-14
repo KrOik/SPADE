@@ -1,0 +1,74 @@
+{
+    "SPADE_UN_20344": {
+        "Sequence Information": {
+            "Peptide Name": "Chitin-binding protein 3 (3-8), Mo-CBP3 (3-8)",
+            "Sequence": "AIQRCC",
+            "Sequence Length": 6,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P86528",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P86528",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Mo-CBP3-PepI, Mo-CBP3-PepII, and Mo-CBP3-PepIII are synthetic antimicrobial peptides active against human pathogens by stimulating ROS generation and increasing plasma membrane permeability",
+                    "Pubmed ID": "30389515",
+                    "Reference": "Biochimie. 2019;157:10-21",
+                    "Author": "Oliveira JTA, Souza PFN, Vasconcelos IM, Dias LP, Martins TF, Van Tilburg MF, Guedes MIF, Sousa DOB",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/30389515"
+                },
+                {
+                    "Title": "Synthetic peptides against Trichophyton mentagrophytes and T. rubrum: Mechanisms of action and efficiency compared to griseofulvin and itraconazole.",
+                    "Pubmed ID": "33238167",
+                    "Reference": "Life Sci. 2021;265:118803",
+                    "Author": "Lima PG, Souza PFN, Freitas CDT, Bezerra LP, Neto NAS, Silva AFB, Oliveira JTA, Sousa DOB",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/33238167"
+                }
+            ],
+            "Mass": 692.85,
+            "PI": 8.11,
+            "Net Charge": 1,
+            "Hydrophobicity": 0.55,
+            "Frequent Amino Acids": "CAI",
+            "Absent Amino Acids": "DEFGHKLMNOPSTUVWY",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 4,
+            "Polar Residues": 2,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_20344",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02111",
+                    "Similarity": 1.0,
+                    "Sequence": "CPAIQRCCQQLRNIQPPCRCCQ"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05387",
+                    "Similarity": 1.0,
+                    "Sequence": "LSNVNGFDDPSLLLKMIEQQQQQIALLLKIAQSNDVIADKDYQPIIDEYAFDKKVNASIEKRERQESTKVKFRKGGIAIQ"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05883",
+                    "Similarity": 1.0,
+                    "Sequence": "IWGALLGTLIPAITSAIQ"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:0% Hemolysis=280 µM",
+            "Target Organism": "Staphylococcus aureus ATCC 25923(MIC50=4.4µM),Staphylococcus aureus ATCC 25923(MBC=35µM),Bacillus subtilis ATCC 6633(no activity data),Klebsiella pneumoniae ATCC 10031(no activity data),Escherichia coli ATCC 8739(MIC50=140µM),Candida albicans ATCC 10231(MIC50=2.2µM),Candida albicans ATCC 10231(MIC90=4.4µM),Candida tropicalis(MIC50=17.5µM),Candida tropicalis(MIC90=>280µM),Candida parapsilosis ATCC 22019(MIC50=2.2µM),Candida parapsilosis ATCC 22019(MIC90=2.2µM),Candida krusei ATCC 6258(MIC50=2.2µM),Candida krusei ATCC 6258(MIC90=>280µM),Trichophyton mentagrophytes(90-100% Inhibition=50µg/ml),Trichophyton rubrum(0-10% Inhibition=50µg/ml)"
+        }
+    }
+}

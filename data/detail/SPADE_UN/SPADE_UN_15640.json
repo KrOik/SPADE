@@ -1,0 +1,72 @@
+{
+    "SPADE_UN_15640": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_15640",
+            "Peptide Name": "DAP2",
+            "Source": "Synthetic",
+            "Family": "",
+            "Gene": "Not found",
+            "Sequence": "RWGKWFKKNSHLS",
+            "Sequence Length": 13,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Notavailable"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Target Organism": "Tumor cells:A549 (IC50>100 µM); NCI/ADR-RES (IC50>100 µM); OVCAR-3 (IC50>100 µM); T24 (IC50>100 µM)",
+            "Hemolytic Activity": "Not available",
+            "Cytotoxicity": "HUVEC:IC50>100 μM; NL20:IC50>100 μM",
+            "Binding Target": "Not available",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C79H116N24O17",
+            "Mass": 1673.92,
+            "PI": 11.26,
+            "Net Charge": 5,
+            "Hydrophobicity": -1.55,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Literature": [
+                {
+                    "Title": "Re-engineering Antimicrobial Peptides into Oncolytics Targeting Drug-Resistant Ovarian Cancers",
+                    "Pubmed ID": "33184577",
+                    "Reference": "Cell Mol Bioeng. 2020 Jun 24;13(5)447-461.",
+                    "Author": "Aronson MR, Dahl ES, Halle JA, Simonson AW, Gogal RA, Glick AB, Aird KM, Medina SH.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=33184577"
+                }
+            ],
+            "Frequent Amino Acids": "KSW",
+            "Absent Amino Acids": "ACDEIMOPQTUVY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 4,
+            "Polar Residues": 8,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_14966",
+                    "Similarity": 1.0,
+                    "Sequence": "QEWCRGLGGFCSFYQCRPGHDLGPQDCWPERRCCRWGK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_06660",
+                    "Similarity": 1.0,
+                    "Sequence": "MAKIANFVYSMIIFLSLFLVATKAEWYYPCNTDSDCPQNMCPPDMEPRCWTGYCSSCYIRWGK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_07116",
+                    "Similarity": 1.0,
+                    "Sequence": "YYPCNTDSDCPQNMCPPDMEPRCWTGYCSSCYIRWGK"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,92 @@
+{
+    "SPADE_N_03422": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 2023/0416797 A1",
+                "Patent Link": "http://www.lens.org/lens/patent/US_2023_0416797_A1",
+                "Patent Type": "Patent Application",
+                "Publication Date": "2023-12-28",
+                "Family Info": "JP2023548477A,EP4243844A1,CN116685204A,WO2022104321A1",
+                "Patent Title": "MODULATING ANTIMICROBIAL PEPTIDE HALF-LIFE",
+                "Abstract": "Methods of modulating the half-life of an antimicrobial peptide are described. The method may include administering an antimicrobial peptide to an environment where the antimicrobial peptide remains active until a specified endpoint, and on or after the specified endpoint, digesting the antimicrobial peptide with a protease to thereby inactivate the antimicrobial peptide and modulate its half-life. Compositions and kits for modulating the half-life of an antimicrobial peptide are also described."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03422",
+            "Peptide Name": "Plantaricin NC8 beta peptide",
+            "Source": "Lactobacillus plantarum",
+            "Family": "Not found",
+            "Gene": "plnc8B",
+            "Sequence": "MNNLNKFSTLGKSSLSQIEGGSVPTSVYTLGIKILWSAYKHRKTIEKSFNKGFYH",
+            "Sequence Length": 55,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q84HW1"
+            ],
+            "Protein Existence": "Predicted",
+            "Biological Activity": [
+                "Antimicrobial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C283H443N75O80S",
+            "Mass": 6208.06,
+            "PI": 10.0,
+            "Net Charge": 8,
+            "Hydrophobicity": -0.41,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Purification and genetic characterization of plantaricin NC8, a novel coculture-inducible two-peptide bacteriocin from Lactobacillus plantarum NC8.",
+                    "Pubmed ID": "12514019",
+                    "Reference": "Appl Environ Microbiol. 2003 Jan;69(1)383-389.",
+                    "Author": "Maldonado A, Ruiz-Barba JL, Jiménez-Díaz R.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=12514019"
+                },
+                {
+                    "Title": "Induction of plantaricin production in Lactobacillus plantarum NC8 after coculture with specific gram-positive bacteria is mediated by an autoinduction mechanism.",
+                    "Pubmed ID": "R2004J0689",
+                    "Author": "Ruiz-Barba J.L.,Jimenez-Diaz R.,Maldonado A."
+                },
+                {
+                    "Title": "Comparative study of the pln locus of the quorum-sensing regulated bacteriocin-producing L. plantarum J51 strain.",
+                    "Pubmed ID": "R2008J0369",
+                    "Author": "Zarazaga M.,Diez L.,Saenz Y.,Rojo-Bezares B.,Navarro L."
+                }
+            ],
+            "Frequent Amino Acids": "SKG",
+            "Absent Amino Acids": "CDOU",
+            "Basic Residues": 10,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 21,
+            "Polar Residues": 33,
+            "Positive Residues": 10,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00110",
+                    "Similarity": 1.0,
+                    "Sequence": "SVPTSVYTLGIKILWSAYKHRKTIEKSFNKGFYH"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_13698",
+                    "Similarity": 1.0,
+                    "Sequence": "SVPTSVYTLGIKILWS"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_13699",
+                    "Similarity": 1.0,
+                    "Sequence": "VPTSVYTLGIKILWSA"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "SPADE_UN_13410": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_13410",
+            "Peptide Name": "A4K14-citropin1.1",
+            "Source": "Synthetic construct",
+            "Family": "N/A",
+            "Gene": "N/A",
+            "Sequence": "GLFAVIKKVASVIKGL",
+            "Sequence Length": 16,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic form",
+            "Biological Activity": [
+                "Anticancer"
+            ],
+            "Target Organism": "[Ref.33363118] Cancer cell lines:C4-2B (IC50 = 29.05 μM), A549 (IC50 = 14.97 μM), U87 (IC50 = 14.8 μM), MCF-7 (14.16 μM)",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Acetylation",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "[Ref.33363118] CD analysis indicates that the helicity of intial A4K14-citropin 1.1 was 61.5% and that of the stapled peptides ranged from 13.6 to 89.8%.",
+            "Formula": "C79H139N19O18",
+            "Mass": 1643.07,
+            "PI": 10.3,
+            "Net Charge": 3,
+            "Hydrophobicity": 1.39,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Antitumor activity against A549, HCT116 and HepG2 cancer cells.",
+            "Comments": "A4K14-citropin 1.1 is a structurally optimized derivative of citropin-1.1 derived from amphibians' skin secreta peptide Citropin, which exhibits broad biological activities. Citropin-1.1 is Amphibian defense peptide with antibiotic and antimicrobial activity. Bowie and his team found that replacement of Asp4 and Gly14 with Ala and Lys (termed A4K14-CITROPIN 1.1) resulted in a more stable α-helix than Citropin on the C-terminal section, and it led to better biologicla activities",
+            "Literature": [
+                {
+                    "Title": "Design, Synthesis, and Antitumor Activities Study of Stapled A4K14-Citropin 1.1 Peptides",
+                    "Pubmed ID": "33363118",
+                    "Reference": "Front Chem. 2020 Dec 10;8616147. doi 10.3389/fchem.2020.616147. eCollection 2020.",
+                    "Author": "Nan Wang, Gang Xie, Chao Liu, Wei Cong, Shipeng He, Yinghua Li, Li Fan, Hong-Gang Hu",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=33363118"
+                }
+            ],
+            "Frequent Amino Acids": "KVA",
+            "Absent Amino Acids": "CDEHMNOPQRTUWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 9,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_09459",
+                    "Similarity": 1.0,
+                    "Sequence": "GLFAVIKKVASVI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09460",
+                    "Similarity": 1.0,
+                    "Sequence": "GLFAVIKKVASV"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10395",
+                    "Similarity": 1.0,
+                    "Sequence": "IKGLFHAGKMIHGLV"
+                }
+            ]
+        }
+    }
+}

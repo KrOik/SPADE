@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_12126": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_12126",
+            "Peptide Name": "LGL13K (De Novo Synthesis)",
+            "Source": "synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "GKIIKLKASLKLL",
+            "Sequence Length": 13,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic form",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.31071184] Gram-positive bacteria:Staphylococcus aureus Xen36(MIC=83.3μg/ml), Staphylococcus aureus USA300(Uknow);Gram-negative bacteria:Pseudomonas aeruginosa (MIC=10.4μg/ml)",
+            "Hemolytic Activity": "[Ref.31071184] LD50=560μg/ml against human blood cells",
+            "Cytotoxicity": "[Ref.31071184] The cytotoxicity of L-GL13K on HEK cells is 2.1%, 3.3%, 2.4%, 1.2%24.3%, 51.7% and 73.6% at peptide concentrations of 1, 3.9, 15.6, 62.5, 250 and 1000 μg/mL, while the cytotoxicity of PMX on HEK cells (Control samples) is 1.2%, 1.2%, 6.6%, 3.6%, 39.6%, 47.1% and 68.5% at peptide concentrations of 1, 3.9, 15.6, 62.5, 250 and 1000 μg/mL.",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C68H129N17O15",
+            "Mass": 1424.86,
+            "PI": 10.48,
+            "Net Charge": 4,
+            "Hydrophobicity": 0.71,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Antibacterial activity against Gram-positive bacteria and Gram-nagetive bacteria.",
+            "Literature": [
+                {
+                    "Title": "In vivo activity and low toxicity of the second-generation antimicrobial peptide DGL13K.",
+                    "Pubmed ID": "31071184",
+                    "Reference": "PLoS One. 2019 May 9;14(5)e0216669. doi 10.1371/journal.pone.0216669. eCollection 2019.",
+                    "Author": "Gorr SU, Flory CM, Schumacher RJ",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=31071184"
+                }
+            ],
+            "Frequent Amino Acids": "KLI",
+            "Absent Amino Acids": "CDEFHMNOPQRTUVWY",
+            "Basic Residues": 4,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 6,
+            "Positive Residues": 4,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_05731",
+                    "Similarity": 1.0,
+                    "Sequence": "FLGGLLASLLGKI"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_12127",
+                    "Similarity": 1.0,
+                    "Sequence": "GKIIKLKASLKLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_12408",
+                    "Similarity": 1.0,
+                    "Sequence": "GIIPIISIIGKII"
+                }
+            ]
+        }
+    }
+}

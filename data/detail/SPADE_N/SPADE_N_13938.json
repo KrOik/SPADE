@@ -1,0 +1,72 @@
+{
+    "SPADE_N_13938": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_13938",
+            "Peptide Name": "Aranetoxin-Ab3a (AATX-Ab3a, predicted AMPs, UCLL1; BBMm)",
+            "Source": "Sequence alignment",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "KEPRLLCRQCVRMILNVEKL",
+            "Sequence Length": 20,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Antifungal"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 2442.02,
+            "PI": 9.5,
+            "Hydrophobicity": -0.1,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Shin MK, Hwang IW, Jang BY, Bu KB, Yoo JS, Sung JS.2023",
+                    "Reference": "Front Microbiol. 2023 Jul 28;14:1249175. doi: 10.3389/fmicb.2023.1249175.Pub-Med.",
+                    "Title": "In silico identification of novel antimicrobial peptides from the venom gland transcriptome of the spider Argiope bruennichi (Scopoli, 1772)."
+                }
+            ],
+            "Frequent Amino Acids": "LRC",
+            "Absent Amino Acids": "ADFGHOSTUWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 11,
+            "Positive Residues": 5,
+            "Negative Residues": 2,
+            "Net Charge": 3,
+            "Comments": "Discovery: identified from the venom transcriptome of the spider Argiope bruennichi (Scopoli, 1772) using sequence alignment followed by online prediction tool analysis of a potential amphipathic region.Sequence analysis: APD analysis reveals this sequence is most similar (42.86%) toTemporin-LaK: 18%; I=F: 12%; GRAVY: 0.46;  M Wt: 2010.446; Mol formula: C97H157N23O22; mol ex coeff: 1490.Activity: inhibited Gram+ B. cereus (MIC 4-64 uM) and S-aureus(MIC > 64 uM), Gram- E. coli (MIC 8 uM), MDR P. aeruginosa (MIC 4-64 uM), and fungi C. albicans (MIC 32 uM) and filamentous fungus F. oxysporum (MIC 64 uM).MOA:bacteria: it permeabilized membranes.Toxicity: The peptide showed a low toxicity to HaCaT (IC50 ~64 uM) and hADMSC cells (IC50 > 64 uM).",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_25682",
+                    "Similarity": 1.0,
+                    "Sequence": "KEPRLLCRQCVRMILNVEKL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_18788",
+                    "Similarity": 0.625,
+                    "Sequence": "GCRRLLGRLLRRLGRLLCR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_18791",
+                    "Similarity": 0.625,
+                    "Sequence": "GCRRLCGRLGRRLCRLLCR"
+                }
+            ]
+        }
+    }
+}

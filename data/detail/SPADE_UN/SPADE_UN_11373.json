@@ -1,0 +1,81 @@
+{
+    "SPADE_UN_11373": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_11373",
+            "Peptide Name": "Salivaricin G32(Bacteriocin)",
+            "Source": "Streptococcus salivarius strain G32",
+            "Family": "Belongs to the lantibiotics family (Class I bacteriocin)",
+            "Gene": "slnA",
+            "Sequence": "GNGVFKTISHECHLNTWAFLATCCS",
+            "Sequence Length": 25,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/H6VLK4"
+            ],
+            "Protein Existence": "",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+"
+            ],
+            "Target Organism": "Gram-positive",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "The first modified amino acid was found to be a dehydrobutyrine (Dhb) at position 8 that could form a beta-methyl-lanthionine bond with Cys13. A second beta-methyl-lanthionine formation between Dhb and Cys was found at positions 10 and 32, respectively. A disulfide bridge was between the two Cys residues at positions 21 and 29. The data is in accordance with the sequence analysis of bovicin HJ50 and thermophilin 1277.",
+            "Formula": "C120H179N33O35S3",
+            "Mass": 2740.1,
+            "PI": 6.89,
+            "Net Charge": 2,
+            "Hydrophobicity": 0.27,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "The inhibitory peptide differs from the Streptococcus pyogenes-produced SA-FF22 in the absence of lysine in position 2.",
+            "Literature": [
+                {
+                    "Title": "Salivaricin G32, a Homolog of the Prototype Streptococcus pyogenes Nisin-Like Lantibiotic SA-FF22, Produced by the Commensal Species Streptococcus salivarius.",
+                    "Pubmed ID": "22567013",
+                    "Reference": "Int J Microbiol. 2012;2012738503.",
+                    "Author": "Wescombe PA, Dyet KH, Dierksen KP, Power DA, Jack RW, Burton JP, Inglis MA, Wescombe AL, Tagg JR.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=22567013"
+                },
+                {
+                    "Title": "Macedovicin, the second food-grade lantibiotic produced by Streptococcus macedonicus ACA-DC 198.",
+                    "Pubmed ID": "23122510",
+                    "Reference": "Food Microbiol. 2013 Feb;33(1)124-30.",
+                    "Author": "Georgalaki M, Papadimitriou K, Anastasiou R, Pot B, Van Driessche G, Devreese B, Tsakalidou E.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=23122510"
+                }
+            ],
+            "Frequent Amino Acids": "CTA",
+            "Absent Amino Acids": "DMOPQRUY",
+            "Basic Residues": 3,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 16,
+            "Positive Residues": 3,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00025",
+                    "Similarity": 0.96,
+                    "Sequence": "GKNGVFKTISHECHLNTWAFLATCCS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06146",
+                    "Similarity": 0.96,
+                    "Sequence": "MEKNNEVINSIQEVSLEELDQIIGAGKNGVFKTISHECHLNTWAFLATCCS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06147",
+                    "Similarity": 0.96,
+                    "Sequence": "MTKEHEIINSIQEVSLEELDQIIGAGKNGVFKTISHECHLNTWAFLATCCS"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "SPADE_N_15238": {
+        "Sequence Information": {
+            "Peptide Name": "Pseudoxylallemycin A",
+            "Sequence": "XFXF",
+            "Sequence Length": 4,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anticancer",
+                "Anti-Mammalian Cell"
+            ],
+            "Source": "1. Pseudoxylaria sp. X802",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Pseudoxylallemycins A-F, Cyclic Tetrapeptides with Rare Allenyl Modifications Isolated from Pseudoxylaria sp. X802: A Competitor of Fungus-Growing Termite Cultivars.",
+                    "Pubmed ID": "27341414",
+                    "Reference": "Org Lett. 2016;18:3338-3341",
+                    "Author": "Guo H, Kreuzenbeck NB, Otani S, Garcia-Altares M, Dahse HM, Weigel C, Aanen DK, Hertweck C, Poulsen M, Beemelmanns C",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/27341414"
+                }
+            ],
+            "SPADE ID": "SPADE_N_15238",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00079",
+                    "Similarity": 1.0,
+                    "Sequence": "FVYGNGVTSILVQAQFLVNGQRRFFYTPDK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00199",
+                    "Similarity": 1.0,
+                    "Sequence": "TPGGIDFISGGPHVAQDVLNAIKNFFK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00255",
+                    "Similarity": 1.0,
+                    "Sequence": "PNPKVFFDMTIGGQSAGRIVMEEYA"
+                }
+            ],
+            "Hemolytic Activity": "Human umbilical vein endothelial cells HUVEC:IC50=14.0 µg/ml",
+            "Target Organism": "Staphylococcus aureus SG511(MIC=>100µg/ml),Mycobacterium vaccae JMRC:STI:10670(MIC=12.5µg/ml),Pseudomonas aeruginosa K799/61(MIC=12.5µg/ml),Human myelogenous leukemia K562(IC50=19.4µg/ml),Human cervical carcinoma HeLa(50-60% Cytotoxicity=40.4µg/ml)"
+        }
+    }
+}

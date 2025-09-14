@@ -1,0 +1,49 @@
+{
+    "SPADE_UN_20557": {
+        "Sequence Information": {
+            "Peptide Name": "AMP-B1",
+            "Sequence": "XRWRWPPWRWRD",
+            "Sequence Length": 12,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Evaluation of topologically distinct constrained antimicrobial peptides with broad-spectrum antimicrobial activity.",
+                    "Pubmed ID": "30004546",
+                    "Reference": "Org Biomol Chem. 2018;16:5764-5770",
+                    "Author": "Yuan F, Tian Y, Qin W, Li J, Yang D, Zhao B, Yin F, Li Z",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/30004546"
+                }
+            ],
+            "SPADE ID": "SPADE_UN_20557",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_10913",
+                    "Similarity": 1.0,
+                    "Sequence": "WRWRWR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10914",
+                    "Similarity": 1.0,
+                    "Sequence": "WRWR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11374",
+                    "Similarity": 1.0,
+                    "Sequence": "RWR"
+                }
+            ],
+            "Hemolytic Activity": "Mouse erythrocytes:30-40% Hemolysis=64 µM",
+            "Target Organism": "Escherichia coli DH10B(MIC=4µM),Escherichia coli DH10B(90-100% Killing=8µM),Staphylococcus aureus Newman(MIC=4µM),Staphylococcus aureus Newman(90-100% Killing=4µM),Candida albicans 5314(MIC=6µM)"
+        }
+    }
+}

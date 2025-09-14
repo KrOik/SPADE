@@ -1,0 +1,74 @@
+{
+    "SPADE_N_02230": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02230",
+            "Peptide Name": "Styelin-B (Styelin B; invertebrates, animals)",
+            "Source": "Styela clava (Sea squirt)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "GXFGPAFHSVSNFAKKHKTA",
+            "Sequence Length": 20,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P81470"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C94H137N27O23",
+            "Mass": 2142.63,
+            "PI": 10.3,
+            "Net Charge": 5,
+            "Hydrophobicity": -0.415,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Bactericidal against several Gram-positive and Gram-negative bacteria.",
+            "Tissue specificity": "Hemocytes and pharyngeal tissues.",
+            "Literature": [
+                {
+                    "Title": "Styelins, broad-spectrum antimicrobial peptides from the solitary tunicate, Styela clava.",
+                    "Pubmed ID": "9467865",
+                    "Reference": "Comp Biochem Physiol B Biochem Mol Biol. 1997 Nov;118(3)515-521.",
+                    "Author": "Lee IH, Cho Y, Lehrer RI.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=9467865"
+                }
+            ],
+            "Frequent Amino Acids": "AFK",
+            "Absent Amino Acids": "CDEILMOQRUWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 13,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_05744",
+                    "Similarity": 1.0,
+                    "Sequence": "GFGPAFHSVSNFAKKHKTA"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_13106",
+                    "Similarity": 1.0,
+                    "Sequence": "GFGPFHSVSNAKKHKTA"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05743",
+                    "Similarity": 0.9473684210526315,
+                    "Sequence": "GFGKAFHSVSNFAKKHKTA"
+                }
+            ]
+        }
+    }
+}

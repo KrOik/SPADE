@@ -1,0 +1,85 @@
+{
+    "SPADE_N_01199": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01199",
+            "Peptide Name": "Phylloseptin-7 (PS-7; Frogs, amphibians, animals)",
+            "Source": "Phyllomedusa hypochondrialis (Orange-legged leaf frog)",
+            "Family": "Not found",
+            "Gene": "psn7",
+            "Sequence": "FLSLIPHAINAVSAIAKHFG",
+            "Sequence Length": 20,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P84572",
+                "http://www.uniprot.org/uniprot/Q0VZ42"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.16963159]Gram-negative bacteria:Escherichia coli (MIC=6 µM), Pseudomonas aeruginosa (MIC=6 µM);Gram-positive bacterium:Staphylococcus aureus (MIC=6 µM)",
+            "Hemolytic Activity": "[Ref:16963159]Non-hemolytic activity at 6 μM against human erythrocytes",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C100H156N26O24",
+            "Mass": 2106.47,
+            "PI": 8.76,
+            "Net Charge": 3,
+            "Hydrophobicity": 1.03,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Function": "Has antibacterial activity against the Gram-negative bacteria E. coli and P. aeruginosa, and the Gram-positive bacteria",
+            "Tissue specificity": "Expressed by the skin glands.",
+            "PTM": "C-terminal amidation.",
+            "Literature": [
+                {
+                    "Title": "Isolation and biochemical characterization of peptides presenting antimicrobial activity from the skin of Phyllomedusa hypochondrialis.",
+                    "Pubmed ID": "16963159",
+                    "Reference": "Peptides. 2006 Dec;27(12)3092-3999.",
+                    "Author": "ConceiÃ§Ã£o K, Konno K, Richardson M, Antoniazzi MM, Jared C, Daffre S, Camargo AC, Pimenta DC.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16963159"
+                },
+                {
+                    "Title": "Elements of the granular gland peptidome and transcriptome persist in air-dried skin of the South American orange-legged leaf frog, Phyllomedusa hypocondrialis.",
+                    "Pubmed ID": "16713656",
+                    "Reference": "Peptides. 2006 Sep;27(9)2129-2136.",
+                    "Author": "Chen T, Zhou M, Gagliardo R, Walker B, Shaw C.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16713656"
+                }
+            ],
+            "Frequent Amino Acids": "AIF",
+            "Absent Amino Acids": "CDEMOQRTUWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 11,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01200",
+                    "Similarity": 1.0,
+                    "Sequence": "FLSLIPHAINAVSAIAKHF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01198",
+                    "Similarity": 1.0,
+                    "Sequence": "SLIPHAINAVSAIAKHF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01188",
+                    "Similarity": 0.9473684210526315,
+                    "Sequence": "FLSLIPHAINAVSAIAKHS"
+                }
+            ]
+        }
+    }
+}

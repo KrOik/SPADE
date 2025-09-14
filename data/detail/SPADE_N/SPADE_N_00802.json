@@ -1,0 +1,87 @@
+{
+    "SPADE_N_00802": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00802",
+            "Peptide Name": "Kalata-B5 (Plant defensin)",
+            "Source": "Oldenlandia affinis",
+            "Family": "Belongs to the cyclotide family",
+            "Gene": "Not found",
+            "Sequence": "TPCGESCVYIPCISGVIGCSCTDKVCYLN",
+            "Sequence Length": 29,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P58456"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Unknown"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "[Ref.20564013] HD50=27.4±1.2 μM against Human red blood cells .",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "No specific N-terminal",
+            "C-terminal Modification": "No specific C-terminal",
+            "Stereochemistry": "L",
+            "Structure Description": "It displays a typical tightly folded cyclic Scystine knot structure. A range of pH and temperature titrations reveal that a conserved glutamic acid in loop 1 Sof the structure forms a key hydrogen bond network, similar to that reported previously for other cyclotides.",
+            "Formula": "C127H203N31O42S6",
+            "Mass": 3028.54,
+            "PI": 4.37,
+            "Net Charge": -1,
+            "Hydrophobicity": 0.68,
+            "Half Life": "Mammalian:7.2 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Probably participates in a plant defense mechanism.",
+            "PTM": "Kalata-B5 is a cyclic peptide which contains three disulfide bonds 4-20; 8-22; 13-27.",
+            "Literature": [
+                {
+                    "Title": "Plant cyclotides A unique family of cyclic and knotted proteins that defines the cyclic cystine knot structural motif.",
+                    "Pubmed ID": "10600388",
+                    "Reference": "J Mol Biol. 1999 Dec 17;294(5)1327-1336.",
+                    "Author": "Craik DJ, Daly NL, Bond T, Waine C.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=10600388"
+                },
+                {
+                    "Title": "The cyclotide fingerprint in oldenlandia affinis elucidation of chemically modified, linear and novel macrocyclic peptides.",
+                    "Pubmed ID": "17534989",
+                    "Reference": "Chembiochem. 2007 Jun 18;8(9)1001-1011.",
+                    "Author": "Plan MR, Göransson U, Clark RJ, Daly NL, Colgrave ML, Craik DJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=17534989"
+                },
+                {
+                    "Title": "Structural and biochemical characteristics of the cyclotide kalata B5 from Oldenlandia affinis.",
+                    "Pubmed ID": "20564013",
+                    "Reference": "Biopolymers. 2010;94(5)647-658.",
+                    "Author": "Plan MR, Rosengren KJ, Sando L, Daly NL, Craik DJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=20564013"
+                }
+            ],
+            "Frequent Amino Acids": "CGI",
+            "Absent Amino Acids": "AFHMOQRUW",
+            "Basic Residues": 1,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 18,
+            "Positive Residues": 1,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_15753",
+                    "Similarity": 1.0,
+                    "Sequence": "GTPCGESCVYIPCISGVIGCSCTDKVCYLN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07742",
+                    "Similarity": 1.0,
+                    "Sequence": "CGESCVYIPCISGVIGCSCTDKVCYLNTP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08289",
+                    "Similarity": 0.9655172413793104,
+                    "Sequence": "GTPCGSSCVYIPCISGVIGCSCTDKVCYLN"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "SPADE_UN_13437": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_13437",
+            "Peptide Name": "GHaR6R (variant of temporin-GHaR)",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "N/A",
+            "Sequence": "FLQRIRGALGRLF",
+            "Sequence Length": 13,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic form",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "[Ref.33291521] Gram-positive bacteria:S. aureus(MIC / MBC = 3.1μM / 12.5μM), B. subtilis(MIC / MBC = 25μM / 50μM), S. mutans(MIC / MBC = 12.5μM /  12.5μM), MRSA(MIC / MBC = 6.2μM / 12.5μM), MRSA-1(MIC /MBC = 12.5μM / 25μM), MRSA-2(MIC / MBC = 12.5μM / 25μM), MRSA-3(MIC / MBC = 6.2μM / 25μM)Gram-negative bacteria:E. coli(MIC / MBC = 12.5μM / 12.5μM),  D31(MIC /MBC = 25μM / 50μM), P. aeruginosa(MIC / MBC > 50μM / 50μM), PAO1(MIC / MBC = 3.1μM / 25μM)Fungi:C. albicans(MIC / MBC = 50μM / 50μM)",
+            "Hemolytic Activity": "[Ref.33291521]HL10 = 150μM against human red blood cells (hRBCs)",
+            "Cytotoxicity": "[Ref.33291521]GHaR6R induced a cell viability of 98%, 95% and 83% to human oral epithelial cells at 3.1μM, 6.2μM and 12.5μM.",
+            "Binding Target": "Cell membrane",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C72H119N23O15",
+            "Mass": 1546.86,
+            "PI": 12.0,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.42,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Comments": "GHaR6R not only exerted antimicrobial activity by destroying cell membranes of planktonic bacteria, but also exhibited anti-biofilm activity. The low-toxicity peptides of GHaR6R is expected to become promising antimicrobial candidate to develop anti-caries agents.",
+            "Literature": [
+                {
+                    "Title": "Temporin-Like Peptides Show Antimicrobial and Anti-Biofilm Activities against Streptococcus mutans with Reduced Hemolysis",
+                    "Pubmed ID": "33291521",
+                    "Reference": "Molecules. 2020 Dec 4;25(23)5724. doi 10.3390/molecules25235724.",
+                    "Author": "Wei H, Xie Z, Tan X, Guo R, Song Y, Xie X, Wang R, Li L, Wang M, Zhang Y",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=33291521"
+                }
+            ],
+            "Frequent Amino Acids": "LRF",
+            "Absent Amino Acids": "CDEHKMNOPSTUVWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 5,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_13436",
+                    "Similarity": 0.9230769230769231,
+                    "Sequence": "FLQRIIGALGRLF"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_13438",
+                    "Similarity": 0.8461538461538461,
+                    "Sequence": "FLQRIIRALGRLF"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_13439",
+                    "Similarity": 0.8461538461538461,
+                    "Sequence": "FLQRIIGRLGRLF"
+                }
+            ]
+        }
+    }
+}

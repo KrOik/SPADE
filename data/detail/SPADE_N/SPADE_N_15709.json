@@ -1,0 +1,60 @@
+{
+    "SPADE_N_15709": {
+        "Sequence Information": {
+            "Peptide Name": "C-C motif chemokine 28, CCL28",
+            "Sequence": "SEAILPIASSCCTEVSHHISRRLLERVNMCRIQRADGDCDLAAVILHVKRRRICVSPHXHTVKQWMKVQAAKKNGKGNVCHRKKHHGKRNSNRAHQGKHETYGHKTPY",
+            "Sequence Length": 108,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "1. Homo sapiens",
+            "Gene": "1. CCL28",
+            "PDB ID": "6CWS",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "Q9NRJ3",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/Q9NRJ3",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                },
+                {
+                    "uniprotId": "A0N0Q3",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/A0N0Q3",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "CCL28 has dual roles in mucosal immunity as a chemokine with broad-spectrum antimicrobial activity.",
+                    "Pubmed ID": "12538707",
+                    "Reference": "J Immunol. 2003;170:1452-1461",
+                    "Author": "Hieshima K, Ohtani H, Shibano M, Izawa D, Nakayama T, Kawasaki Y, Shiba F, Shiota M, Katou F, Saito T, Yoshie O",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/12538707"
+                }
+            ],
+            "SPADE ID": "SPADE_N_15709",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_13528",
+                    "Similarity": 1.0,
+                    "Sequence": "MQQRGLAIVALAVCAALHASEAILPIASSCCTEVSHHISRRLLERVNMCRIQRADGDCDLAAVILHVKRRRICVSPHNHTVKQWMKVQAAKKNGKGNVCHRKKHHGKRNSNRAHQGKHETYGHKTPY"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09476",
+                    "Similarity": 1.0,
+                    "Sequence": "HRKKHHGKRNSNRAHQGKHETYGHKTPY"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_27858",
+                    "Similarity": 1.0,
+                    "Sequence": "HRKKHHGKRNSNRAHQGKHETYGHKTPY"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:-=NA",
+            "Target Organism": "Pseudomonas aeruginosa ATCC 10145(IC50=0.4±0.1µM),Klebsiella pneumoniae NCTC 9632(IC50=0.3±0.1µM),Streptococcus mutans ATCC 25175(IC50=1.7±0.4µM),Streptococcus pyogenes(IC50=3.0\u0007±0.2µM),Staphylococcus aureus ATCC 6538P(IC50=0.9\u0007±0.1µM),Candida albicans(IC50=0.7±0.2µM)"
+        }
+    }
+}

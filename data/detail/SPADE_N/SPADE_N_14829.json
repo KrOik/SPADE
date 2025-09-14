@@ -1,0 +1,67 @@
+{
+    "SPADE_N_14829": {
+        "Sequence Information": {
+            "Peptide Name": "Nigrocin-OG2",
+            "Sequence": "GLLGKILGVEKKVLCGLSGMC",
+            "Sequence Length": 21,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "",
+            "Source": "1. Odorrana grahami ",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "A6MB02",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/A6MB02",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Anti-infection peptidomics of amphibian skin",
+                    "Pubmed ID": "17272268",
+                    "Reference": "Mol Cell Proteomics. 2007;6:882-894",
+                    "Author": "Li J, Xu X, Xu C, Zhou W, Zhang K, Yu H, Zhang Y, Zheng Y, Rees HH, Lai R, Yang D, Wu JM",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/17272268"
+                }
+            ],
+            "Mass": 2118.67,
+            "PI": 8.86,
+            "Net Charge": 2,
+            "Hydrophobicity": 0.99,
+            "Frequent Amino Acids": "GLK",
+            "Absent Amino Acids": "ADFHNOPQRTUWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 10,
+            "Positive Residues": 3,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_N_14829",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01219",
+                    "Similarity": 1.0,
+                    "Sequence": "MFTLKKSLLLLFFLGTINLSLCEQERNAEEERRDDLGERQAEVEKRFFPIVGKLLFGLFGLLGK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01220",
+                    "Similarity": 1.0,
+                    "Sequence": "MFPLKKSLLLLFFLATINLSLCEQERNAEEERRDEPDERNAEVEKRFFPIVGKLLSGLLGK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01221",
+                    "Similarity": 1.0,
+                    "Sequence": "MFTLKKSLLLLFFLATINLSFCEQERNAEEERRDEPDERNAEVEKRFFPIVGKLLFGLLGK"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:60% Hemolysis=50 µg/ml,Human mast cells:(36.7±5.2)% degranulation=50 µg/ml",
+            "Target Organism": "Escherichia coli(no activity data),Staphylococcus aureus(no activity data),Bacillus subtilis(no activity data),Candida albicans(no activity data)"
+        }
+    }
+}

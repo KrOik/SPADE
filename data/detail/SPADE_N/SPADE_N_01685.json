@@ -1,0 +1,74 @@
+{
+    "SPADE_N_01685": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01685",
+            "Peptide Name": "Brevinin-1CHc (Frogs, amphibians, animals)",
+            "Source": "Rana chiricahuensis",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "FFPTIAGLTKLFCAITKKC",
+            "Sequence Length": 19,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Homology",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "Gram-negative bacterium:E. coli (MIC=80 µM);Gram-positive bacterium:S. aureus (MIC=20 µM).Yeast:C. albicans (MIC=20 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Cyclization (Cys13 and Cys19)",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C100H160N22O23S2",
+            "Mass": 2102.6,
+            "PI": 9.39,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.94,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Characterization of antimicrobial peptides in skin secretions from discrete populations of Lithobates chiricahuensis (Ranidae) from central and southern Arizona.",
+                    "Pubmed ID": "21262304",
+                    "Reference": "Peptides. 2011 Apr;32(4)664-669.",
+                    "Author": "Conlon JM, Mechkarska M, Coquet L, Jouenne T, Leprince J, Vaudry H, Kolodziejek J, Nowotny N, King JD.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=21262304"
+                }
+            ],
+            "Frequent Amino Acids": "FKT",
+            "Absent Amino Acids": "DEHMNOQRSUVWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 10,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01730",
+                    "Similarity": 0.8421052631578947,
+                    "Sequence": "FLPIIAGVAAKVLPKLFCAITKKC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01731",
+                    "Similarity": 0.8421052631578947,
+                    "Sequence": "FLPVIAGLAAKVLPKLFCAITKKC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01656",
+                    "Similarity": 0.7894736842105263,
+                    "Sequence": "FLPLIAGLAANFLPKLFCKITKKC"
+                }
+            ]
+        }
+    }
+}

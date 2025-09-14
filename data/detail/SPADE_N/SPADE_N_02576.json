@@ -1,0 +1,100 @@
+{
+    "SPADE_N_02576": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 7384911 B2",
+                "Patent Link": "http://www.lens.org/lens/patent/US_7384911_B2",
+                "Patent Type": "Granted Patent",
+                "Publication Date": "2008-6-10",
+                "Family Info": "CA2492053A1,DE60330454D1,EP1517916A2,EP1517916B1,US20050245437,WO2004003006A2,WO2004003006A3",
+                "Patent Title": "Peptides having antimicrobial properties and compositions containing them, notably for the preservation of foodstuffs.",
+                "Abstract": "An isolated peptide including an amino acid sequence of formula (II): Xaa-Ca1-Xab-Ca2-Xac-Ca3-Xad-Ca4-Xae-Ca5-Ca6-Xaf (II). wherein Xaa is Ser-Phe-Gly-Leu, Xab is Arg-Leu-Arg-Arg-Gly-Phe, Xac is Ala-Xac2-Gly-Arg, Xad is Arg-Phe-Pro-Ser-Ile-Pro-Ile-Gly-Arg, Xae is Ser-Arg-Phe-Val-Gln, and Xaf is Arg-Arg-Val-Trp, Xac2 is histidine or arginine, Ca1, Ca2, Ca3, Ca4, Ca5 and Ca6 are sulfur containing amino acids, wherein each of Ca1-Ca5, Ca2-Ca4 and Ca3-Ca6 are linked together by a sulfur bridge, and wherein the amino acid sequence has antimicrobial activity."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02576",
+            "Peptide Name": "Beta-defensin 1 (BD-1; Defensin, beta 1; pigs, mammals, animals)",
+            "Source": "Sus scrofa (Pig)",
+            "Family": "Belongs to the beta-defensin family",
+            "Gene": "DEFB1",
+            "Sequence": "NIGNSVSCLRNKGVCMPGKCAPKMKQIGTCGMPQVKCCKRK",
+            "Sequence Length": 41,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/O62697"
+            ],
+            "Protein Existence": "Homology",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-positive bacteria:Listeria monocytogenes, Streptococcus suis, Actinobacillus pleuropneumoniae;Gram-negative bacterium:Escherichia coli.Yeast:Candida albicans.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C180H319N59O50S9",
+            "Mass": 4398.41,
+            "PI": 9.82,
+            "Net Charge": 9,
+            "Hydrophobicity": -0.37,
+            "Half Life": "Mammalian:1.4 hourYeast:3 minE.coli:>10 hour",
+            "Function": "Has bactericidal activity (By similarity).",
+            "PTM": "Contains three disulfide bonds 8-37; 15-30; 20-38 (By similarity).",
+            "Literature": [
+                {
+                    "Title": "The host defense peptide Beta-defensin 1 confers protection against Bordetella pertussis in newborn piglets.",
+                    "Pubmed ID": "16552064",
+                    "Reference": "Infect Immun. 2006 Apr;74(4)2338-2352.",
+                    "Author": "Elahi S, Buchanan RM, Attah-Poku S, Townsend HG, Babiuk LA, Gerdts V.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16552064"
+                },
+                {
+                    "Title": "Molecular cloning and tissue expression of porcine beta-defensin-1.",
+                    "Pubmed ID": "9537511",
+                    "Reference": "FEBS Lett. 1998 Mar 6;424(1-2)37-40.",
+                    "Author": "Zhang G, Wu H, Shi J, Ganz T, Ross CR, Blecha F.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=9537511"
+                },
+                {
+                    "Title": "Cloning and characterization of the gene for a new epithelial beta-defensin. Genomic structure, chromosomal localization, and evidence for its constitutive expression.",
+                    "Pubmed ID": "10446172",
+                    "Reference": "Biol Chem. 1999 Aug 20;274(34)24031-24037.",
+                    "Author": "Zhang G, Hiraiwa H, Yasue H, Wu H, Ross CR, Troyer D, Blecha F.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=10446172"
+                }
+            ],
+            "Frequent Amino Acids": "KCG",
+            "Absent Amino Acids": "DEFHOUWY",
+            "Basic Residues": 9,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 27,
+            "Positive Residues": 9,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03613",
+                    "Similarity": 1.0,
+                    "Sequence": "KNIGNSVSCLRNKGVCMPGKCAPKMKQIGTCGMPQVKCCKRK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08045",
+                    "Similarity": 1.0,
+                    "Sequence": "MRLHRLLLVFLLMVLLPVPGLLKNIGNSVSCLRNKGVCMPGKCAPKMKQIGTCGMPQVKCCKRK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02577",
+                    "Similarity": 1.0,
+                    "Sequence": "SVSCLRNKGVCMPGKCAPKMKQIGTCGMPQVKCCKRK"
+                }
+            ]
+        }
+    }
+}

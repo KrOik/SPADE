@@ -1,0 +1,84 @@
+{
+    "SPADE_N_02064": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 2006/0093596 A1",
+                "Patent Link": "http://www.lens.org/lens/patent/US_2006_0093596_A1",
+                "Patent Type": "Patent Application",
+                "Publication Date": "2006-5-4",
+                "Family Info": "CA2495794A1,CN1678632A,EP1534745A2,WO2004018706A2,WO2004018706A3",
+                "Patent Title": "Genomic approach to identification of novel broad-spectrum antimicrobial peptides from bony fish.",
+                "Abstract": "There is provided a method of identifying candidate nucleic acid sequences encoding antimicrobial peptides. The method comprises: identifying an initial peptide of interest; identifying genomic DNA encoding the initial peptide; identifying a flanking sequence on each side of the initial peptide; obtaining primers complementary to the flanking sequences; and, screening a wide range of nucleic acid sequences to identify candidate sequences capable of being amplified using the primers from step e). In some instances the antimicrobial peptide is a hepcidin or a pleurocidin."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02064",
+            "Peptide Name": "NRC-2 (fish, chordates, animals)",
+            "Source": "Pseudopleuronectes americanus (Winter flounder 1a)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "WLRRIGKGVKIIGGAALDHL",
+            "Sequence Length": 20,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "Gram-negative bacteria:Aeromonas salmonicida 99-1 (MIC>128 µg/ml), Aeromonas salmonicida 97-4 (MIC=128 µg/ml), Salmonella enterica serovar Typhimurium MS7953s (MIC=64 µg/ml), S. enterica serovar Typhimurium 14028s (MIC>64 µg/ml), Pseudomonas aeruginosa K799 (MIC=64 µg/ml), Pseudomonas aeruginosa Z61 (MIC=32 µg/ml), Escherichia coli CGSC 4908 (MIC=64 µg/ml), E. coli UB1005 (MIC=64 µg/ml), E. coli DC2 (MIC=64 µg/ml);Gram-positive bacteria:Staphylococcus epidermidis C621 (MIC>64 µg/ml), Staphylococcus aureus (MRSA) C623 (MIC>64 µg/ml).Yeast:Candida albicans C627 (MIC>64 µg/ml).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C100H169N31O23",
+            "Mass": 2173.61,
+            "PI": 11.0,
+            "Net Charge": 4,
+            "Hydrophobicity": 0.33,
+            "Half Life": "Mammalian:2.8 hourYeast:3 minE.coli:2 min",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Novel antimicrobial peptides derived from flatfish genes.",
+                    "Pubmed ID": "12878506",
+                    "Reference": "Antimicrob Agents Chemother. 2003 Aug;47(8)2464-2470.",
+                    "Author": "Patrzykat A, Gallant JW, Seo JK, Pytyck J, Douglas SE.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=12878506"
+                }
+            ],
+            "Frequent Amino Acids": "GIL",
+            "Absent Amino Acids": "CEFMNOPQSTUY",
+            "Basic Residues": 5,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 8,
+            "Positive Residues": 5,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02065",
+                    "Similarity": 1.0,
+                    "Sequence": "GRRKRKWLRRIGKGVKIIGGAALDHL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04080",
+                    "Similarity": 1.0,
+                    "Sequence": "MKFTATFLLLFIFVLMVDLGEGRRKRKWLRRIGKGVKIIGGAALDHLGQGQVQGQDYDYQEGQELNKR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04086",
+                    "Similarity": 1.0,
+                    "Sequence": "MKFTATFLLLFIFVLMVDLGEGRRKRKWLRRIGKGVKIIGGAALDHLGQGQVQGQDYDYQEGQELNKRAVDE"
+                }
+            ]
+        }
+    }
+}

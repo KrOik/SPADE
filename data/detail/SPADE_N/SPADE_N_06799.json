@@ -1,0 +1,72 @@
+{
+    "SPADE_N_06799": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_06799",
+            "Peptide Name": "Linear Cyclotide Panitide L2",
+            "Source": "Steinchisma laxum (Panicum laxum)",
+            "Family": "",
+            "Gene": "Not found",
+            "Sequence": "XLPICGETCVLGRCYTPNCRCQYPICVR",
+            "Sequence Length": 28,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/K9Y2Z0"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Target Organism": "Tumor cells:HeLa  (IC50=6 µM)",
+            "Hemolytic Activity": "Not available",
+            "Cytotoxicity": "Not available",
+            "Binding Target": "Not available",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C129H208N38O35S6",
+            "Mass": 363545,
+            "PI": 8.11,
+            "Net Charge": 2,
+            "Hydrophobicity": 0.229,
+            "Half Life": "Mammalian:/Yeast:/E.coli:/",
+            "Literature": [
+                {
+                    "Title": "Discovery of linear cyclotides in monocot plant Panicum laxum of Poaceae family provides new insights into evolution and distribution of cyclotides in plants",
+                    "Pubmed ID": "23195955",
+                    "Reference": "J Biol Chem. 2013 Feb 1;288(5)3370-80",
+                    "Author": "Nguyen GK, Lian Y, Pang EW, Nguyen PQ, Tran TD, Tam JP.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=23195955"
+                }
+            ],
+            "Frequent Amino Acids": "CPR",
+            "Absent Amino Acids": "ADFHKMOSUW",
+            "Basic Residues": 3,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 17,
+            "Positive Residues": 3,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00340",
+                    "Similarity": 0.9629629629629629,
+                    "Sequence": "QLPICGETCVLGGCYTPNCRCQYPICVR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06798",
+                    "Similarity": 0.9259259259259259,
+                    "Sequence": "LPICGETCVLGTCYTPGCRCQYPICVR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06803",
+                    "Similarity": 0.8518518518518519,
+                    "Sequence": "LPICGETCVLGTCYTPGCSCAYPICVR"
+                }
+            ]
+        }
+    }
+}

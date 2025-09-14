@@ -1,0 +1,72 @@
+{
+    "SPADE_N_00064": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00064",
+            "Peptide Name": "Mundticin KS (Bacteriocin)",
+            "Source": "Enterococcus mundtii NFRI 7393 (Gram-positive bacteria)",
+            "Family": "Belongs to the class IIa bacteriocin",
+            "Gene": "Not found",
+            "Sequence": "KYYGNGVSCNKKGCSVDWGKAIGIIGNNSAANLATGGAAGWKS",
+            "Sequence Length": 43,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+"
+            ],
+            "Target Organism": "Gram-positive bacteria:Enterococcus faecium IFO13712 (+++), Enterococcus faecalis IFO12964 (+++), Enterococcus mundtii JCM 8731 (+++), Lactobacillus plantarum ATCC 8041 (+), Lactobacillus lactis NFRI 7307 (+), Lactobacillus curvatus JCM 1096 (+), Listeria monocytogenes ATCC 15313 and ATCC 49594 (++) Note:Symbols:+,sensitive to mundticin KS (+, ++, and +++ reflect the degree of sensitivity).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C186H291N55O58S2",
+            "Mass": 4289.76,
+            "PI": 9.45,
+            "Net Charge": 4,
+            "Hydrophobicity": -0.25,
+            "Half Life": "Mammalian:1.3 hourYeast:3 minE.coli:2 min",
+            "Function": "Mundticin KS is active against closely related lactic acid bacteria and the food-borne pathogen Listeria monocytogenes.",
+            "Literature": [
+                {
+                    "Title": "Biochemical and genetic characterization of munddticin KS, an antilisterial peptide produced by Enterococcus mundtii NFRI 7397.",
+                    "Pubmed ID": "12147478",
+                    "Reference": "Appl Environ Microbiol. 2002 Aug;68(8)3830-3840.",
+                    "Author": "Kawamoto S, Shima J, Sato R, Eguchi T, Ohmomo S, Shibato J, Horikoshi N, Takeshita K, Sameshima T.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=12147478"
+                }
+            ],
+            "Frequent Amino Acids": "GAK",
+            "Absent Amino Acids": "EFHMOPQRU",
+            "Basic Residues": 5,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 16,
+            "Polar Residues": 27,
+            "Positive Residues": 5,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_04433",
+                    "Similarity": 1.0,
+                    "Sequence": "MSQVVGGKYYGNGVSCNKKGCSVDWGKAIGIIGNNSAANLATGGAAGWKS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04435",
+                    "Similarity": 1.0,
+                    "Sequence": "KYYGNGVSCNKKGCSVDWGKAIGIIGNNS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06069",
+                    "Similarity": 1.0,
+                    "Sequence": "MKKLTSKEMAQVVGGKYYGNGVSCNKKGCSVDWGKAIGIIGNNSAANLATGGAAGWKS"
+                }
+            ]
+        }
+    }
+}

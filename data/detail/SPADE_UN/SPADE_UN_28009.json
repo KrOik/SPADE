@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_28009": {
+        "Sequence Information": {
+            "Peptide Name": "Indolicidin [W4K,W6K]",
+            "Sequence": "ILPKKKPWWPWRR",
+            "Sequence Length": 13,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P33046",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P33046",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Structure-activity relationship of indolicidin, a Trp-rich antibacterial peptide.",
+                    "Pubmed ID": "20196123",
+                    "Reference": "J Pept Sci. 2010;16:171-177",
+                    "Author": "Ando S, Mitsuyasu K, Soeda Y, Hidaka M, Ito Y, Matsubara K, Shindo M, Uchida Y, Aoyagi H",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/20196123"
+                }
+            ],
+            "Mass": 1791.19,
+            "PI": 12.0,
+            "Net Charge": 5,
+            "Hydrophobicity": -1.53,
+            "Frequent Amino Acids": "KPW",
+            "Absent Amino Acids": "ACDEFGHMNOQSTUVY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 2,
+            "Polar Residues": 11,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_28009",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02700",
+                    "Similarity": 1.0,
+                    "Sequence": "VFIDILDKMENAIHKAAQAGIGLAKPIENMILPK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02701",
+                    "Similarity": 1.0,
+                    "Sequence": "VFIDILDKMENAIHKAAQAGIGIAKPIEKMILPK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07984",
+                    "Similarity": 1.0,
+                    "Sequence": "MKYFVVLVVLALILAITVDPSDAVFIDILDKMENAIHKAAQAGIGLAKPIENMILPK"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:8% Hemolysis=50 µM",
+            "Target Organism": "Bacillus subtilis IFO 3513(MIC=6.25µg/ml),Staphylococcus aureus IFO 12732(MIC=6.25µg/ml),Escherichia coli IFO 12734(MIC=100.0µg/ml)"
+        }
+    }
+}

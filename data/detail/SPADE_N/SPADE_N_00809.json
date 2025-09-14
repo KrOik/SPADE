@@ -1,0 +1,73 @@
+{
+    "SPADE_N_00809": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00809",
+            "Peptide Name": "Kalata-B11 (Plant defensin)",
+            "Source": "Oldenlandia affinis",
+            "Family": "Belongs to the cyclotide family",
+            "Gene": "Not found",
+            "Sequence": "GLPVCGETCFGGTCNTPGCSCTDPICTRD",
+            "Sequence Length": 29,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P85129"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Unknown"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "No specific N-terminal",
+            "C-terminal Modification": "No specific C-terminal",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C115H183N33O43S6",
+            "Mass": 2908.27,
+            "PI": 4.27,
+            "Net Charge": -2,
+            "Hydrophobicity": 0.02,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Probably participates in a plant defense mechanism.",
+            "PTM": "Kalata-B11 are cyclic peptides which may contain three disulfide bonds 5-19; 9-21; 14-26.",
+            "Literature": [
+                {
+                    "Title": "The cyclotide fingerprint in oldenlandia affinis elucidation of chemically modified, linear and novel macrocyclic peptides.",
+                    "Pubmed ID": "17534989",
+                    "Reference": "Chembiochem. 2007 Jun 18;8(9)1001-1011.",
+                    "Author": "Plan MR, Göransson U, Clark RJ, Daly NL, Colgrave ML, Craik DJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=17534989"
+                }
+            ],
+            "Frequent Amino Acids": "CGT",
+            "Absent Amino Acids": "AHKMOQUWY",
+            "Basic Residues": 1,
+            "Acidic Residues": 3,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 15,
+            "Positive Residues": 1,
+            "Negative Residues": 3,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00799",
+                    "Similarity": 0.9655172413793104,
+                    "Sequence": "GLPVCGETCFGGTCNTPGCSCTWPICTRD"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07744",
+                    "Similarity": 0.9615384615384616,
+                    "Sequence": "VCGETCFGGTCNTPGCSCTWPICTRDGLP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15749",
+                    "Similarity": 0.9130434782608695,
+                    "Sequence": "PICTRNGLPVCGETCFGGTCNTPGCTCTW"
+                }
+            ]
+        }
+    }
+}

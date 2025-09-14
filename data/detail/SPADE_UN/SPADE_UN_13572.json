@@ -1,0 +1,71 @@
+{
+    "SPADE_UN_13572": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_13572",
+            "Peptide Name": "Peptide 2",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "GGVLVQPG",
+            "Sequence Length": 8,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antiviral(SARS-CoV-2)"
+            ],
+            "Target Organism": "[Ref.34502335]Virus:SARS-CoV-2 UC-1074:inhibition of virus activity in Vero cells(EC50≥17.6 ± 2.4 μM);SARS-CoV-2 UC-1075:inhibition of virus activity in Vero cells(EC50>20 μM);cytomegalovirus (HCMV) AD-169 Strain:inhibition of virus activity in human embryonic lung (HEL) cells(EC50>20 µM);cytomegalovirus (HCMV) Davis strain:inhibition of virus activity in human embryonic lung (HEL) cells(EC50>20 µM);varicella-zoster virus (VZV) TK+ VZV Strain OKA:inhibition of virus activity in human embryonic lung (HEL) cells(EC50=50.05 µM);varicella-zoster virus (VZV) TK-VZV Strain 07–1:inhibition of virus activity in human embryonic lung (HEL) cells(EC50=48.42 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "[Ref.34502335]Vero cell:CC50=83.0 ± 17.0 µM.",
+            "Binding Target": "Main protease",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Acylation",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C32H55N9O10",
+            "Mass": 725.83,
+            "PI": 5.53,
+            "Net Charge": 0,
+            "Hydrophobicity": 0.74,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Antiviral activity against Influenza virus.",
+            "Literature": [
+                {
+                    "Title": "Peptide Derivatives of the Zonulin Inhibitor Larazotide (AT1001) as Potential Anti SARS-CoV-2 Molecular Modelling, Synthesis and Bioactivity Evaluation.",
+                    "Pubmed ID": "34502335",
+                    "Reference": "Int J Mol Sci. 2021 Aug 30;22(17)9427.",
+                    "Author": "Di Micco S, Musella S, Sala M, Scala MC, Andrei G, Snoeck R, Bifulco G, Campiglia P, Fasano A.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=34502335"
+                }
+            ],
+            "Frequent Amino Acids": "GVL",
+            "Absent Amino Acids": "ACDEFHIKMNORSTUWY",
+            "Basic Residues": 0,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 4,
+            "Polar Residues": 3,
+            "Positive Residues": 0,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03002",
+                    "Similarity": 1.0,
+                    "Sequence": "EFKRCWNGQGACRTYCTRQEKFIHLCPDASLCCLSYSLKASPHSRAGGV"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_07609",
+                    "Similarity": 1.0,
+                    "Sequence": "IIGGV"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_11363",
+                    "Similarity": 1.0,
+                    "Sequence": "GWVAVGAGTAALASGGV"
+                }
+            ]
+        }
+    }
+}

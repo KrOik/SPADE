@@ -1,0 +1,73 @@
+{
+    "SPADE_N_06282": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_06282",
+            "Peptide Name": "D-K6L9",
+            "Source": "Host Defense lytic Peptide",
+            "Family": "",
+            "Gene": "Not found",
+            "Sequence": "LKLLKKLLKKLLKLL",
+            "Sequence Length": 15,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Notavailable"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Target Organism": "Tumor cells:CL-1 (LC50=3 μmol/L); MDA-MB-231 (LC50=3 μmol/L); 22Rv1 (LC50=6 μmol/L)",
+            "Hemolytic Activity": "Not available",
+            "Cytotoxicity": "Not available",
+            "Binding Target": "surface phosphatidylserine",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "Mix",
+            "Structure Description": "Not found",
+            "Formula": "C66H119N15O8",
+            "Mass": 1805.47,
+            "PI": 10.7,
+            "Net Charge": 6,
+            "Hydrophobicity": 0.72,
+            "Half Life": "Mammalian:5.5 hourYeast:3 minE.coli:2 min",
+            "Comments": "The exclusive selectivity of the peptide towards cancer derives from its specific binding to surface phosphatidylserine and the killing of the cancer cells via cytoplasmic membrane depolarization ",
+            "Literature": [
+                {
+                    "Title": "Inhibition of tumor growth and elimination of multiple metastases in human prostate and breast xenografts by systemic inoculation of a host defense-like lytic peptide",
+                    "Pubmed ID": "16707464",
+                    "Reference": "Cancer Res. 2006 May 15;66(10)5371-8.",
+                    "Author": "Papo N, Seger D, Makovitzki A, Kalchenko V, Eshhar Z, Degani H, Shai Y.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16707464"
+                }
+            ],
+            "Frequent Amino Acids": "LK",
+            "Absent Amino Acids": "ACDEFGHIMNOPQRSTUVWY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 6,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06023",
+                    "Similarity": 1.0,
+                    "Sequence": "KLLKKLLKLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10504",
+                    "Similarity": 1.0,
+                    "Sequence": "LLKKLLKKLLKL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_12457",
+                    "Similarity": 1.0,
+                    "Sequence": "ALKLLKKLL"
+                }
+            ]
+        }
+    }
+}

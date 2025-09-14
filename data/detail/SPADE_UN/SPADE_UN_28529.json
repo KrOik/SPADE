@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_28529": {
+        "Sequence Information": {
+            "Peptide Name": "Caltrin (Seminalplasmin) (28-40) [E5K] [L4,T6del]",
+            "Sequence": "PKLKFLSKWIG",
+            "Sequence Length": 11,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P06833",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P06833",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Addition and omission analogs of the 13-residue antibacterial and hemolytic peptide PKLLKTFLSKWIG: structural preferences, model membrane binding and biological activities.",
+                    "Pubmed ID": "10195441",
+                    "Reference": "J Pept Res. 1999;53:47-55",
+                    "Author": "Bikshapathy E, Sitaram N, Nagaraj R",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/10195441"
+                }
+            ],
+            "Mass": 1316.63,
+            "PI": 10.31,
+            "Net Charge": 3,
+            "Hydrophobicity": -0.05,
+            "Frequent Amino Acids": "KLF",
+            "Absent Amino Acids": "ACDEHMNOQRTUVY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 4,
+            "Polar Residues": 7,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_28529",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00506",
+                    "Similarity": 1.0,
+                    "Sequence": "RMTTASTPGYGIKQEDRLCIQGQEGTKLCSSGTSRDCLNFCLIRGYAGGSCYAYTLDQCCCRIPPPKLK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05449",
+                    "Similarity": 1.0,
+                    "Sequence": "QDFMKHLDKKTQTPKL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14751",
+                    "Similarity": 1.0,
+                    "Sequence": "GLIGSIGKALGGLLVDVLKPKL"
+                }
+            ],
+            "Hemolytic Activity": "Rat erythrocytes:0% Hemolysis=300 µM",
+            "Target Organism": "Escherichia coli W160-37(MIC=154µM),Staphylococcus aureus(MIC=154µM)"
+        }
+    }
+}

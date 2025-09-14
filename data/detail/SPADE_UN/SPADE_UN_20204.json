@@ -1,0 +1,59 @@
+{
+    "SPADE_UN_20204": {
+        "Sequence Information": {
+            "Peptide Name": "bp13",
+            "Sequence": "LLLKKLLKKCLKCKK",
+            "Sequence Length": 15,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "An antimicrobial bicyclic peptide from chemical space against multidrug resistant Gram-negative bacteria.",
+                    "Pubmed ID": "29717727",
+                    "Reference": "Chem Commun (Camb). 2018;54:5130-5133",
+                    "Author": "Di Bonaventura I, et al.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/29717727"
+                }
+            ],
+            "Mass": 1800.45,
+            "PI": 10.16,
+            "Net Charge": 7,
+            "Hydrophobicity": 0.03,
+            "Frequent Amino Acids": "KLC",
+            "Absent Amino Acids": "ADEFGHIMNOPQRSTUVWY",
+            "Basic Residues": 7,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 7,
+            "Positive Residues": 7,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_20204",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_11337",
+                    "Similarity": 1.0,
+                    "Sequence": "LLLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_12210",
+                    "Similarity": 1.0,
+                    "Sequence": "KKLLLLLKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_12211",
+                    "Similarity": 1.0,
+                    "Sequence": "KLLLLLK"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Bacillus subtilis BR151(MIC=1µg/ml),Pseudomonas aeruginosa PAO1(MIC=256µg/ml)"
+        }
+    }
+}

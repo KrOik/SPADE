@@ -1,0 +1,77 @@
+{
+    "SPADE_N_05727": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_05727",
+            "Peptide Name": "Substance P (Mammals, animals)",
+            "Source": "Not found",
+            "Family": "Belongs to the tachykinin family.",
+            "Gene": "TAC1",
+            "Sequence": "RPKPQQFFGLM",
+            "Sequence Length": 11,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P67932",
+                "http://www.uniprot.org/uniprot/P67933"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "[Ref.12074933]Gram-negative bacteria:Escherichia coli (MIC=0.06%), Proteus vulgaris (MIC=0.13%), Pseudomonas aeruginosa (MIC=0.13%) ;Gram-positive bacteria:Staphylococcus aureus (MIC=0.007%), Enterococcus faecalis (MIC=0.13%);Yeast:Candida albicans (MIC=0.25%)",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C63H97N17O14S",
+            "Mass": 1348.61,
+            "PI": 11.0,
+            "Net Charge": 2,
+            "Hydrophobicity": -0.7,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Function": "Substance P possesses direct antimicrobial activity. Antimicrobial activity against Gram-positive bacteria, Gram-negative bacteria and fungi.",
+            "Literature": [
+                {
+                    "Title": "Direct antimicrobial properties of substance P.",
+                    "Pubmed ID": "12074933",
+                    "Reference": "Life Sci. 2002 Jul 5;71(7)747-50.",
+                    "Author": "Kowalska K, Carr DB, Lipkowski AW.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=12074933"
+                }
+            ],
+            "Frequent Amino Acids": "FPQ",
+            "Absent Amino Acids": "ACDEHINOSTUVWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 4,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_04923",
+                    "Similarity": 1.0,
+                    "Sequence": "KVTKRKHDNEGSGSKRPK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05074",
+                    "Similarity": 1.0,
+                    "Sequence": "MANLGYWLLALFVTMWTDVGLCKKRPKP"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_02965",
+                    "Similarity": 1.0,
+                    "Sequence": "SYHRRARPK"
+                }
+            ]
+        }
+    }
+}

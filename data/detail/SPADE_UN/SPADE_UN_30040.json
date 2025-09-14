@@ -1,0 +1,61 @@
+{
+    "SPADE_UN_30040": {
+        "Sequence Information": {
+            "Peptide Name": "VpAmp1.0",
+            "Sequence": "LPFFLLSLIPSAISAIKKI",
+            "Sequence Length": 19,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Peptides from the scorpion Vaejovis punctatus with broad antimicrobial activity.",
+                    "Pubmed ID": "26352292",
+                    "Reference": "Peptides. 2015;73:51-59",
+                    "Author": "Ramírez-Carreto S, iménez-Vargas JM, Rivas-Santiago B, Corzo G, Possani LD, Becerril B, Ortiz E",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/26352292"
+                }
+            ],
+            "Mass": 2071.59,
+            "PI": 10.0,
+            "Net Charge": 2,
+            "Hydrophobicity": 1.53,
+            "Frequent Amino Acids": "ILS",
+            "Absent Amino Acids": "CDEGHMNOQRTUVWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 7,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_30040",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_10907",
+                    "Similarity": 1.0,
+                    "Sequence": "FFLLSLIPSAISAIKKI"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_30041",
+                    "Similarity": 1.0,
+                    "Sequence": "FFLLSLIPSAISAIKKI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11082",
+                    "Similarity": 1.0,
+                    "Sequence": "IKKIWSKIKKWLK"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=9.2±0.3 µM",
+            "Target Organism": "Staphylococcus aureus ATCC 25923(MIC=2.5µM),Streptococcus agalactiae(MIC=2.5µM),Escherichia coli ATCC 25922(MIC=24.0µM),Pseudomonas aeruginosa ATCC 9027(MIC=2.5µM),Candida albicans(MIC=6.25µM),Candida glabrata(MIC=>50.0µM),Mycobacterium tuberculosis H37Rv(MIC=17.4±6.4µM),Mycobacterium tuberculosis(MIC=4.8±1.5µM)"
+        }
+    }
+}

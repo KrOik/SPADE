@@ -1,0 +1,84 @@
+{
+    "SPADE_N_02983": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02983",
+            "Peptide Name": "Neutrophil antibiotic peptide NP-4 (RatNP-4; Rodents, mammals, animals)",
+            "Source": "Rattus norvegicus (Rat)",
+            "Family": "Belongs to the alpha-defensin family",
+            "Gene": "Np4",
+            "Sequence": "ACYCRIGACVSGERLTGACGLNGRIYRLCCR",
+            "Sequence Length": 31,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q62714"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antiviral",
+                "Antifungal"
+            ],
+            "Target Organism": "Gram-positive bacterium:Staphylococcus aureus 502A (MIC=50 µg/ml);Gram-negative bacteria:Escherichia coli ML-35, Acinetobacter calcoaceticus (MIC=50 µg/ml).Fungi:Cryptococcus neoformans (MIC=10 µg/ml), Candida albicans.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C136H229N47O39S6",
+            "Mass": 3338.95,
+            "PI": 8.96,
+            "Net Charge": 4,
+            "Hydrophobicity": 0.3,
+            "Half Life": "Mammalian:4.4 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "Active in vitro against S. aureus, fungi, Gram-positive and Gram-negative bacteria and to a lesser extent against an enveloped virus.",
+            "Literature": [
+                {
+                    "Title": "Purification and antimicrobial properties of three defensins from rat neutrophils.",
+                    "Pubmed ID": "2543629",
+                    "Reference": "Infect. Immun. 1989;572021-2027.",
+                    "Author": "Eisenhauer P.B, Harwig S.S.S.L, Szklarek D, Ganz T, Selsted M.E, Lehrer R.I.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=2543629"
+                },
+                {
+                    "Title": "Rat neutrophil defensins. Precursor structures and expression during neutrophilic myelopoiesis.",
+                    "Pubmed ID": "7594610",
+                    "Reference": "J. Immunol. 1995;1554476-4484.",
+                    "Author": "Yount N.Y, Wang MS.C, Yuan J, Banaiee N, Ouellette A.J, Selsted M.E.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=7594610"
+                }
+            ],
+            "Frequent Amino Acids": "CGR",
+            "Absent Amino Acids": "DFHKMOPQUW",
+            "Basic Residues": 5,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 20,
+            "Positive Residues": 5,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_08055",
+                    "Similarity": 1.0,
+                    "Sequence": "MRTLTLLITLLLLALHTQAESPQERAKAAPDQDMVMEDQDIFISFGGYKGTVLQDAVVKAGQACYCRIGACVSGERLTGACGLNGRIYRLCCR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04206",
+                    "Similarity": 0.967741935483871,
+                    "Sequence": "ACTCRIGACVSGERLTGACGLNGRIYRLCCR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02982",
+                    "Similarity": 0.7241379310344828,
+                    "Sequence": "CSCRTSSCRFGERLSGACRLNGRIYRLCC"
+                }
+            ]
+        }
+    }
+}

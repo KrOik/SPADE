@@ -1,0 +1,64 @@
+{
+    "SPADE_UN_25927": {
+        "Sequence Information": {
+            "Peptide Name": "AS-hepcidin 3 (52-71)",
+            "Sequence": "CRFCCGCCPDMVGCGTCCKF",
+            "Sequence Length": 20,
+            "Biological Activity": [
+                "Anti-Gram-"
+            ],
+            "Binding Target": "",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "A0A671WIN7",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/A0A671WIN7",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "The Long-Term Effect of a Nine Amino-Acid Antimicrobial Peptide AS-hepc3(48-56) Against Pseudomonas aeruginosa With No Detectable Resistance.",
+                    "Pubmed ID": "34676176",
+                    "Reference": "Front Cell Infect Microbiol. 2021;11:752637",
+                    "Author": "Zhu D, Chen F, Chen Y-C, Peng H, Wang K-J",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/34676176"
+                }
+            ],
+            "Mass": 2136.65,
+            "PI": 7.7,
+            "Net Charge": 1,
+            "Hydrophobicity": 0.82,
+            "Frequent Amino Acids": "CGF",
+            "Absent Amino Acids": "AEHILNOQSUWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 8,
+            "Positive Residues": 2,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_UN_25927",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_25926",
+                    "Similarity": 1.0,
+                    "Sequence": "SPAGRNSRRRRCRFCCGCCPDMVGCGTCCKF"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_25929",
+                    "Similarity": 1.0,
+                    "Sequence": "RRRRCRFCC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02503",
+                    "Similarity": 0.9,
+                    "Sequence": "MKTFSVAVAVAVVLTFICLQESSAVSFTEVQEQEEPMSNDSPVAAHEEMSEESWKMPYNNRHKRSPAGRNKRRRRCRFCCGCCPNMIGCGTCCKF"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Pseudomonas aeruginosa PAO1(MIC=>128µM)"
+        }
+    }
+}

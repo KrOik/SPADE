@@ -1,0 +1,84 @@
+{
+    "SPADE_N_00161": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00161",
+            "Peptide Name": "Colicin-V (Microcin-V; Bacteriocin)",
+            "Source": "Escherichia coli (Gram-negative bacteria)",
+            "Family": "Belongs to the class IIa microcin",
+            "Gene": "cvaC",
+            "Sequence": "ASGRDIAMAIGTLSGQFVAGGIGAAAGGVAGGAIYDYASTHKPNPAMSPSGLGGTIKQKPEGIPSEAWNYAAGRLCNWSPNNLSDVCL",
+            "Sequence Length": 88,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P22522"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-negative bacteria:Escherichia coli (also closely related bacteria), Enterobacteriaceae.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Cell membrane",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C381H594N108O120S4",
+            "Mass": 8735.7,
+            "PI": 6.78,
+            "Net Charge": 1,
+            "Hydrophobicity": -0.0,
+            "Half Life": "Mammalian:4.4 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Colicin V kills sensitive cells by disrupting the membrane potential. It targets bacterial membranes and induces ion channel formation, leading to the disruption of the proton-motive force and hence ATP production.",
+            "PTM": "Contains one disulfide bond between 76-87.",
+            "Literature": [
+                {
+                    "Title": "Purification and characterization of colicin V from Escherichia coli culture supernatants.",
+                    "Pubmed ID": "8204625",
+                    "Reference": "Biochemistry. 1994 Jun 7;33(22)6911-6917.",
+                    "Author": "Fath MJ, Zhang LH, Rush J, Kolter R.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=8204625"
+                },
+                {
+                    "Title": "The leader peptide of colicin V shares consensus sequences with leader peptides that are common among peptide bacteriocins produced by Gram-positive bacteria.",
+                    "Pubmed ID": "7952189",
+                    "Reference": "Microbiology. 1994 Sep;140 (Pt 9)2383-2389.",
+                    "Author": "H¥varstein LS, Holo H, Nes IF.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=7952189"
+                },
+                {
+                    "Title": "Genetic analysis of an MDR-like export system the secretion of colicin V.",
+                    "Pubmed ID": "2249654",
+                    "Reference": "EMBO J. 1990 Dec;9(12)3875-3884.",
+                    "Author": "Gilson L, Mahanty HK, Kolter R.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=2249654"
+                }
+            ],
+            "Frequent Amino Acids": "GAS",
+            "Absent Amino Acids": "OU",
+            "Basic Residues": 6,
+            "Acidic Residues": 5,
+            "Hydrophobic Residues": 42,
+            "Polar Residues": 46,
+            "Positive Residues": 6,
+            "Negative Residues": 5,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06057",
+                    "Similarity": 1.0,
+                    "Sequence": "MRTLTLNELDSVSGGASGRDIAMAIGTLSGQFVAGGIGAAAGGVAGGAIYDYASTHKPNPAMSPSGLGGTIKQKPEGIPSEAWNYAAGRLCNWSPNNLSD"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_13793",
+                    "Similarity": 1.0,
+                    "Sequence": "GKYYGNGVSCNKKGCSVDWGRAIGIIGNNSAANLATGGAAGWKSGGGASGRDIAMAIGTLSGQFVAGGIGAAAGGVAGGAIYDYASTHKPNPAMSPSGLG"
+                }
+            ]
+        }
+    }
+}

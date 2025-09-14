@@ -1,0 +1,77 @@
+{
+    "SPADE_N_06449": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_06449",
+            "Peptide Name": "Bacteriocin ASP-1",
+            "Source": "Bacillus subtilis URID 12.1",
+            "Family": "",
+            "Gene": "Not found",
+            "Sequence": "FTVAXFI",
+            "Sequence Length": 7,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Notavailable"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Target Organism": "Tumor cells:HepG2 (IC50=192µg/ml); MCF-7 (IC50=280µg/ml)",
+            "Hemolytic Activity": "Human erythrocytes:<5% Hemolysis=128µg/ml; 30% Hemolysis=256µg/ml",
+            "Cytotoxicity": "Not available",
+            "Binding Target": "Not available",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Acetylation",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C36H50N6O7",
+            "Mass": 89603,
+            "PI": 6.11,
+            "Net Charge": 0,
+            "Hydrophobicity": 2.2,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Literature": [
+                {
+                    "Title": "Purification and characterization of a novel anti-staphylococcal peptide (ASP-1) from bacillus sp. URID 12.1",
+                    "Pubmed ID": "28887200",
+                    "Reference": "Int J Antimicrob Agents. 2018 Jan;51(1)89-97.",
+                    "Author": "Chalasani AG, Roy U, Nema S.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=28887200"
+                },
+                {
+                    "Title": "Purification and characterization of a novel anti-staphylococcal peptide (ASP-1) from bacillus sp",
+                    "Pubmed ID": "",
+                    "Author": "Chalasani AG, Roy U, nema S"
+                }
+            ],
+            "Frequent Amino Acids": "FAI",
+            "Absent Amino Acids": "CDEGHKLMNOPQRSUWY",
+            "Basic Residues": 0,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 3,
+            "Positive Residues": 0,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02254",
+                    "Similarity": 1.0,
+                    "Sequence": "ARLKKCFNNVTGYCRKKCKVGEIHEIGCLSGKLCCVNDEENKKHVPFKKPHQQPVEKLSVQQDYVILPTITIFTV"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02340",
+                    "Similarity": 1.0,
+                    "Sequence": "ARLKKCFNNVTGYCRKKCKVGERYEIGCLSGKLCCINYEEEKEHVSFKKPHQHSGEKLSVQQDYIILPTVTIFTV"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03173",
+                    "Similarity": 1.0,
+                    "Sequence": "ARLKKCFNKVTGYCRKKCKVGERYEIGCLSGKLCCANDEEEKKHVSFKKPHQHSGEKLSVLQDYIILPTITIFTV"
+                }
+            ]
+        }
+    }
+}

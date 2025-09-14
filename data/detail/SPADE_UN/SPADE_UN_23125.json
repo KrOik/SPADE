@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_23125": {
+        "Sequence Information": {
+            "Peptide Name": "GGHG-Ovispirin-3",
+            "Sequence": "GGHGIRRIIRKIIHIIKK",
+            "Sequence Length": 18,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Binding Target": "1. Lipid Bilayer\n2. DNA / RNA",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P49929",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P49929",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Amino Terminal Copper and Nickel Binding Motif Derivatives of Ovispirin-3 Display Increased Antimicrobial Activity via Lipid Oxidation.",
+                    "Pubmed ID": "29172482",
+                    "Reference": "J Med Chem. 2017;60:10047-10055",
+                    "Author": "Alexander JL, Yu Z, Cowan JA",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/29172482"
+                }
+            ],
+            "Mass": 2108.62,
+            "PI": 12.0,
+            "Net Charge": 8,
+            "Hydrophobicity": -0.07,
+            "Frequent Amino Acids": "IGK",
+            "Absent Amino Acids": "ACDEFLMNOPQSTUVWY",
+            "Basic Residues": 8,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 11,
+            "Positive Residues": 8,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_23125",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00984",
+                    "Similarity": 1.0,
+                    "Sequence": "GYGGHGGHGGHGGHGGHGGHGHGGGGHG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00985",
+                    "Similarity": 1.0,
+                    "Sequence": "GYHGGHGGHGGGYNGGGGHGGHGGGYNGGGHHGGGGHG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14607",
+                    "Similarity": 1.0,
+                    "Sequence": "GGHGGHGGHGGHGGHGGHGHGGGGHG"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=>16µM),Pseudomonas aeruginosa(MIC=>16µM),Klebsiella pneumoniae(MIC=16µM),Acinetobacter baumannii(MIC=2.7µM),Staphylococcus aureus ATCC 43300(MIC=16µM),Streptococcus pneumoniae(MIC=16µM),Enterococcus faecium(MIC=16µM)"
+        }
+    }
+}

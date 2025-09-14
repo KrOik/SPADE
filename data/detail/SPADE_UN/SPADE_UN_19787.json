@@ -1,0 +1,67 @@
+{
+    "SPADE_UN_19787": {
+        "Sequence Information": {
+            "Peptide Name": "A9K",
+            "Sequence": "AAAAAAAAAK",
+            "Sequence Length": 10,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Antibacterial activities of short designer peptides: a link between propensity for nanostructuring and capacity for membrane destabilization",
+                    "Pubmed ID": "20078032",
+                    "Reference": "Biomacromolecules. 2010;11:402-411",
+                    "Author": "Chen C, Pan F, Zhang S, Hu J, Cao M, Wang J, Xu H, Zhao X, Lu JR",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/20078032"
+                },
+                {
+                    "Title": "Antifungal peptides: a potential new class of antifungals for treating vulvovaginal candidiasis caused by fluconazole-resistant Candida albicans.",
+                    "Pubmed ID": "28105725",
+                    "Reference": "J Pept Sci. 2017;23:215-221",
+                    "Author": "Ng SM, Yap YY, Cheong JW, Ng FM, Lau QY, Barkham T, Teo JW, Hill J, Chia CS",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/28105725"
+                }
+            ],
+            "Mass": 785.89,
+            "PI": 8.8,
+            "Net Charge": 1,
+            "Hydrophobicity": 1.23,
+            "Frequent Amino Acids": "AK",
+            "Absent Amino Acids": "CDEFGHILMNOPQRSTUVWY",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 1,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_19787",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_01000",
+                    "Similarity": 1.0,
+                    "Sequence": "KKAAAAAAAAAAAAAAAKKKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_01038",
+                    "Similarity": 1.0,
+                    "Sequence": "KKAAAAAAAAAAAAAAAAAAKKKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_01724",
+                    "Similarity": 1.0,
+                    "Sequence": "AAA"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:<5% Hemolysis=100 µg/ml,Human erythrocytes:55% Hemolysis=500 µg/ml",
+            "Target Organism": "Escherichia coli DH5alpha(80-90% Killing=100µg/ml),Staphylococcus aureus ATCC 25923(70-80% Killing=100µg/ml),Candida albicans ATCC 64550 (MIC=>100µM)"
+        }
+    }
+}

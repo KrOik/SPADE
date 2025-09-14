@@ -1,0 +1,70 @@
+{
+    "SPADE_N_13911": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_13911",
+            "Peptide Name": "PvGBP2 (Leu-rich, predicted AMPs,  UCLL1)",
+            "Source": "Shrimp,Penaeus vannamei, Crustaceans, arthropods, invertebrates, animals",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "FLKLGRKSRYGMLKL",
+            "Sequence Length": 15,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Antibiofilm"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 1810.26,
+            "PI": 11.17,
+            "Hydrophobicity": -0.25,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Yang S, Yuan Z, Aweya JJ, Deng S, Weng W, Zhang Y, Liu G. 2022",
+                    "Reference": "Food Science and Human Wellness 2022; 11:1607-1613. https://doi.org/10.1016/j.fshw.2022.06.019.SciDirect.",
+                    "Title": "Antibacterial and antibiofilm activity of peptide PvGBP2 against pathogenic bacteria that contaminate Auricularia auricular culture bags"
+                }
+            ],
+            "Frequent Amino Acids": "LKG",
+            "Absent Amino Acids": "ACDEHINOPQTUVW",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 7,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "Net Charge": 5,
+            "Comments": "Discovery: Machine learning predicted from beta-1,3-glucan-binding protein sequence (1454 aa) of Penaeus vannamei (shrimp).Sequence analysis: APD analysis reveals this sequence is most similar (53.33%) tofrog Temporin-1RNbL: 27%; K: 20%; R=G: 13%. GRAVY: -0.247; M Wt: 1810.275; Mol formula:  C84H144N24O18S1; molar extinction coeff: 1490.Activity: active against B. subtilis AY867792.1 (MIC 8.6 uM) or (15.6 ug/ml), B. cereus KX890470.1 (MIC 11 uM) or (31.25 ug/ml), and B. nealsonii JQ579625.1 (MIC 31.25 ug/ml). Inhibited biofilm formation of B. subtilis at 0.5x MIC.",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_11014",
+                    "Similarity": 1.0,
+                    "Sequence": "LTLGEFLKL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_11015",
+                    "Similarity": 1.0,
+                    "Sequence": "ELTLGEFLKL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_23570",
+                    "Similarity": 1.0,
+                    "Sequence": "NPQAGRIKTVTSFDLPALRFLKL"
+                }
+            ]
+        }
+    }
+}

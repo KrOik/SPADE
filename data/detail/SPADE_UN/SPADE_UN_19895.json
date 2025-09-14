@@ -1,0 +1,64 @@
+{
+    "SPADE_UN_19895": {
+        "Sequence Information": {
+            "Peptide Name": "Temporin-AL-i [F2I,G6K,L13F]",
+            "Sequence": "FIPIVKKLLSGLF",
+            "Sequence Length": 13,
+            "Biological Activity": [
+                "Anti-Gram-"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "C5H0E0",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/C5H0E0",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Using Evolutionary Algorithms and Machine Learning to Explore Sequence Space for the Discovery of Antimicrobial Peptides",
+                    "Pubmed ID": "",
+                    "Reference": "Chem (Cell). 2018;4:533–543",
+                    "Author": "Yoshida M, et al.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/"
+                }
+            ],
+            "Mass": 1474.87,
+            "PI": 10.0,
+            "Net Charge": 2,
+            "Hydrophobicity": 1.51,
+            "Frequent Amino Acids": "LFI",
+            "Absent Amino Acids": "ACDEHMNOQRTUWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 5,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_19895",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_06753",
+                    "Similarity": 1.0,
+                    "Sequence": "MEDIVKFVYVIIIFLSIFIIATNMEAKTICIGDSDCRNERCMPGIKPVCSEGWCDCIGFIP"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_19895",
+                    "Similarity": 1.0,
+                    "Sequence": "FIPIVKKLLSGLF"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_15659",
+                    "Similarity": 1.0,
+                    "Sequence": "GLFDIVKGIKSLF"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Escherichia coli MG1655(IC50=2.38µM)"
+        }
+    }
+}

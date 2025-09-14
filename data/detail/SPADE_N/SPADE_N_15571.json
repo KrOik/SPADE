@@ -1,0 +1,61 @@
+{
+    "SPADE_N_15571": {
+        "Sequence Information": {
+            "Peptide Name": "GK37",
+            "Sequence": "GKFSIFGKILSSIAKVFKGVGKVRKSFQNASDLDKP",
+            "Sequence Length": 36,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell",
+                "Antibiofilm"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Peptide Toxin Diversity and a Novel Antimicrobial Peptide from the Spider Oxyopes forcipiformis",
+                    "Pubmed ID": "39591221",
+                    "Reference": "Toxins (Basel). 2024;16:466",
+                    "Author": "Wang K , Mwangi J, Cao K, Wang Y, Gao J, Yang M, Michira BB, Lu Q, Li J",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/39591221"
+                }
+            ],
+            "Mass": 3898.55,
+            "PI": 10.39,
+            "Net Charge": 6,
+            "Hydrophobicity": -0.12,
+            "Frequent Amino Acids": "KSF",
+            "Absent Amino Acids": "CEHMOTUWY",
+            "Basic Residues": 8,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 14,
+            "Polar Residues": 22,
+            "Positive Residues": 8,
+            "Negative Residues": 2,
+            "SPADE ID": "SPADE_N_15571",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02792",
+                    "Similarity": 0.8333333333333334,
+                    "Sequence": "GKFSVFGKILRSIAKVFKGVGKVRKQFKTASDLDKNQ"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02795",
+                    "Similarity": 0.8055555555555556,
+                    "Sequence": "GKFSVFSKILRSIAKVFKGVGKVRKQFKTASDLDKNQ"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07690",
+                    "Similarity": 0.8055555555555556,
+                    "Sequence": "GKFSVFSKILRSIAKVFKGVGKVRKGFKTASDLDKNQ"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:23% Hemolysis=6.209 µM,Human embryonic kidney HEK293T cells:50% Cell death=12.416 µM",
+            "Target Organism": "Staphylococcus aureus ATCC 6538(MIC=1.552µM),Staphylococcus aureus ATCC 6538(MIC=6.25µM),Staphylococcus aureus ATCC 6538(MBC=15.52µM),Escherichia coli ATCC 8739(MIC=3.104µM),Acinetobacter baumannii ATCC 19606(MIC=6.209µM),Pseudomonas aeruginosa ATCC 27853(MIC=12.42µM)"
+        }
+    }
+}

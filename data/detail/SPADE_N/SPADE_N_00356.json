@@ -1,0 +1,81 @@
+{
+    "SPADE_N_00356": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00356",
+            "Peptide Name": "Defensin-like protein 2 (MTI-2; Trypsin inhibitor 2; Plant defensin)",
+            "Source": "Sinapis alba (White mustard) (Brassica hirta)",
+            "Family": "Belongs to the DEFL family",
+            "Gene": "Not found",
+            "Sequence": "DSECLKEYGGDVGFPFCAPRIFPTICYTRCRENKGAKGGRCIWGEGTNVKCLCDYCNDSPFDQ",
+            "Sequence Length": 63,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P26780"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antifungal"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C303H456N84O94S8",
+            "Mass": 7035.89,
+            "PI": 5.17,
+            "Net Charge": -1,
+            "Hydrophobicity": -0.52,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:>10 hour",
+            "Function": "Inhibits bovine beta-trypsin and alpha-chymotrypsin on a 1",
+            "PTM": "Problely contains four disulfide bonds 4-56; 17-41; 26-51; 30-53.",
+            "Literature": [
+                {
+                    "Title": "The gene coding for the mustard trypsin inhibitor-2 is discontinuous and wound-inducible.",
+                    "Pubmed ID": "7750566",
+                    "Reference": "FEBS Lett. 1995 May 8;364(2)179-181.",
+                    "Author": "Ceci LR, Spoto N, de Virgilio M, Gallerani R.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=7750566"
+                },
+                {
+                    "Title": "Purification, inhibitory properties and amino acid sequence of a new serine proteinase inhibitor from white mustard (Sinapis alba L.) seed.",
+                    "Pubmed ID": "1451776",
+                    "Reference": "FEBS Lett. 1992 Apr 13;301(1)10-14.",
+                    "Author": "Menegatti E, Tedeschi G, Ronchi S, Bortolotti F, Ascenzi P, Thomas RM, Bolognesi M, Palmieri S.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=1451776"
+                }
+            ],
+            "Frequent Amino Acids": "CGD",
+            "Absent Amino Acids": "HMOU",
+            "Basic Residues": 8,
+            "Acidic Residues": 9,
+            "Hydrophobic Residues": 21,
+            "Polar Residues": 32,
+            "Positive Residues": 8,
+            "Negative Residues": 9,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00584",
+                    "Similarity": 0.8360655737704918,
+                    "Sequence": "QGNECLKEYGGDVGFGFCAPRIFPTICYTRCRENKGAKGGRCRWGQGSNVKCLCDFCDDTPQ"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00585",
+                    "Similarity": 0.7142857142857143,
+                    "Sequence": "HDSECLKEYGGDVGFGFCAPKIFPTICYRNCQKDKGANGGKCLWGEGGKVKCLCDFCSNESFNQFISLT"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03618",
+                    "Similarity": 0.7,
+                    "Sequence": "DSECLKEYGGDVGFGFCAPRIYPSFCVQRCRADKGALSGKCIWGQGSNVKCLCNFCRHEP"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "SPADE_UN_24871": {
+        "Sequence Information": {
+            "Peptide Name": "Brevinin-2GUb (1-23)",
+            "Sequence": "GVIIDTLKGAAKTVAAELLRKAH",
+            "Sequence Length": 23,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Study on the Structure-Activity Relationship of an Antimicrobial Peptide, Brevinin-2GUb, from the Skin Secretion of Hylarana guentheri.",
+                    "Pubmed ID": "34438945",
+                    "Reference": "Antibiotics (Basel). 2021;10:895",
+                    "Author": "Lin Y, Liu S, Xi X, Ma C, Wang L, Chen X, Shi Z, Chen T, Shaw C, Zhou M",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/34438945"
+                }
+            ],
+            "Mass": 2375.81,
+            "PI": 9.7,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.4,
+            "Frequent Amino Acids": "AKL",
+            "Absent Amino Acids": "CFMNOPQSUWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 11,
+            "Positive Residues": 5,
+            "Negative Residues": 2,
+            "SPADE ID": "SPADE_UN_24871",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01708",
+                    "Similarity": 1.0,
+                    "Sequence": "GVIIDTLKGAAKTVAAELLRKAHCKLTNSC"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_24873",
+                    "Similarity": 1.0,
+                    "Sequence": "GVIIDTLKGAAKTVAAELL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_24876",
+                    "Similarity": 0.9285714285714286,
+                    "Sequence": "GVIIKTLKGAAKTV"
+                }
+            ],
+            "Hemolytic Activity": "Horse erythrocytes:50% Hemolysis=16393 µM,Human keratinocytes HaCat:IC50=381.6 µM",
+            "Target Organism": "Staphylococcus aureus ATCC 6538(MIC=256µM),Staphylococcus aureus ATCC 6538(MBC=>512µM),Escherichia coli ATCC 8739(MIC=128µM),Escherichia coli ATCC 8739(MBC=128µM),Candida albicans ATCC 10231(MIC=>512µM),Staphylococcus aureus NCTC 12493(MIC=>512µM),Klebsiella pneumoniae ATCC 43816(MIC=512µM),Klebsiella pneumoniae ATCC 43816(MBC=>512µM),Pseudomonas aeruginosa ATCC 9027(MIC=>512µM),Enterococcus faecalis NCTC 12697(MIC=>512µM),Staphylococcus aureus(MIC=>512µM),Escherichia coli ATCC BAA-2340(MIC=>512µM),Pseudomonas aeruginosa B004 V2S2B(MIC=>512µM),Klebsiella pneumoniae ATCC BAA-1705(MIC=>512µM)"
+        }
+    }
+}

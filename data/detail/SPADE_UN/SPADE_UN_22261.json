@@ -1,0 +1,64 @@
+{
+    "SPADE_UN_22261": {
+        "Sequence Information": {
+            "Peptide Name": "SARS-Cov-S (899-958)",
+            "Sequence": "HHHHHHYENQKQIANQFNKAISQIQESLTTTSTALGKLQDVVNQNAQALNTLVKQLSSNFGAISSV",
+            "Sequence Length": 66,
+            "Biological Activity": [
+                "Antiviral"
+            ],
+            "Binding Target": "1. Virus entry",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P59594",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P59594",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Fusion Core Structure of the Severe Acute Respiratory Syndrome Coronavirus (SARS-CoV): In Search of Potent SARS-CoV Entry Inhibitors.",
+                    "Pubmed ID": "18442051",
+                    "Reference": "J Cell Biochem. 2008;104:2335-2347",
+                    "Author": "Chu LHM, Chan SH, Tsai SN, Wang Y, Cheng CHK, Wong KB, Waye MMY, Ngai SM",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/18442051"
+                }
+            ],
+            "Mass": 7319.99,
+            "PI": 8.42,
+            "Net Charge": 7,
+            "Hydrophobicity": -0.58,
+            "Frequent Amino Acids": "QNS",
+            "Absent Amino Acids": "CMOPRUW",
+            "Basic Residues": 10,
+            "Acidic Residues": 3,
+            "Hydrophobic Residues": 22,
+            "Polar Residues": 44,
+            "Positive Residues": 10,
+            "Negative Residues": 3,
+            "SPADE ID": "SPADE_UN_22261",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_05064",
+                    "Similarity": 1.0,
+                    "Sequence": "MVRDGYIADDKNCAYFCGRNAYCDDECKKNGAESGYCQWAGVYGNACWCYKLPDKVPIRVPGKCNGGLEHHHHHH"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09580",
+                    "Similarity": 1.0,
+                    "Sequence": "MGLPVTGVEELVELVSSDDPVADHQELPVELGERLFNIRKKRAPAKCTPYCYPTRDGVFCGVRCDFQHHHHHH"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11237",
+                    "Similarity": 1.0,
+                    "Sequence": "FLGGLIKIVPAMICAVTKKCHHHHHH"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "SARS-CoV PsV(no activity data)"
+        }
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_28328": {
+        "Sequence Information": {
+            "Peptide Name": "HBD-3 (22-45)-D [C33,41Del][K45R], [D]HC-3(R)",
+            "Sequence": "SCLPKEEQIGKSTRGRKCRRKR",
+            "Sequence Length": 22,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P81534",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P81534",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Effect of selectively introducing arginine and D-amino acids on the antimicrobial activity and salt sensitivity in analogs of human beta-defensins.",
+                    "Pubmed ID": "24086767",
+                    "Reference": "PLoS One. 2013;8:e77031",
+                    "Author": "Olli S, Rangaraj N, Nagaraj R",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/24086767"
+                }
+            ],
+            "Mass": 2617.07,
+            "PI": 10.96,
+            "Net Charge": 7,
+            "Hydrophobicity": -1.82,
+            "Frequent Amino Acids": "RKC",
+            "Absent Amino Acids": "ADFHMNOUVWY",
+            "Basic Residues": 9,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 4,
+            "Polar Residues": 18,
+            "Positive Residues": 9,
+            "Negative Residues": 2,
+            "SPADE ID": "SPADE_UN_28328",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_28328",
+                    "Similarity": 1.0,
+                    "Sequence": "SCLPKEEQIGKSTRGRKCRRKR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_04303",
+                    "Similarity": 1.0,
+                    "Sequence": "RGRKRRK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_15464",
+                    "Similarity": 1.0,
+                    "Sequence": "CRRKRRRCRRDSDCPGACICRGNGYCGSGSDGGV"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Escherichia coli MG1655(LC=2.5µM),Pseudomonas aeruginosa NCTC 6751(LC=2.5µM),Staphylococcus aureus ATCC 8530(LC=2.5µM),Candida albicans(MFC=2.5µM)"
+        }
+    }
+}

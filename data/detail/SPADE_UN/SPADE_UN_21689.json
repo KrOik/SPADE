@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_21689": {
+        "Sequence Information": {
+            "Peptide Name": "Alyteserin-1c [E4R;A8,18S;S12K]",
+            "Sequence": "GLKRIFKSGLGKLVKGISAHVAS",
+            "Sequence Length": 23,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "H0USY4",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/H0USY4",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Increases in Hydrophilicity and Charge on the Polar Face of Alyteserin 1c Helix Change its Selectivity towards Gram-Positive Bacteria.",
+                    "Pubmed ID": "31783657",
+                    "Reference": "Antibiotics (Basel). 2019;8:E238",
+                    "Author": "Liscano Y, Salamanca CH, Vargas L, Cantor S, Laverde-Rojas V, Onate-Garzón J",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/31783657"
+                }
+            ],
+            "Mass": 2366.85,
+            "PI": 11.33,
+            "Net Charge": 6,
+            "Hydrophobicity": 0.34,
+            "Frequent Amino Acids": "GKL",
+            "Absent Amino Acids": "CDEMNOPQTUWY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 13,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_21689",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_09488",
+                    "Similarity": 0.8636363636363636,
+                    "Sequence": "GLKKIFKAGLGSLVKGIAHVAS"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_27868",
+                    "Similarity": 0.8636363636363636,
+                    "Sequence": "GLKKIFKAGLGSLVKGIAHVAS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01020",
+                    "Similarity": 0.8260869565217391,
+                    "Sequence": "GLKEIFKAGLGSLVKGIAAHVAS"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:0% Hemolysis=31.3 µM,Human erythrocytes:4% Hemolysis=125 µM",
+            "Target Organism": "Staphylococcus aureus ATCC 25923(MIC=62.5µM),Staphylococcus aureus ATCC 29213(MIC=250µM),Staphylococcus aureus ATCC 43300(MIC=250µM),Listeria monocytogenes ATCC BAA-751(MIC=62.5µM),Bacillus cereus ATCC 11778(MIC=125µM),Escherichia coli ATCC 25922(MIC=62.5µM),Pseudomonas aeruginosa ATCC 9027(MIC=250µM),Salmonella enterica subsp. enterica serovar Typhimurium ATCC 14028(MIC=125µM)"
+        }
+    }
+}

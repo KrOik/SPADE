@@ -1,0 +1,71 @@
+{
+    "SPADE_UN_18840": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_18840",
+            "Peptide Name": "LL-37_Ranalexin hybrid peptide (LL-37_Renalexin, LL-37+GS+Ranalexin, synthetic AMPs)",
+            "Source": "Hybrid peptide, designed",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "LLGDFFRKSKEKIGKEFKRIVQRIKDFLRNLVPRTESGSFLGGLIKIVPAMICAVTKKC",
+            "Sequence Length": 59,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-MRSA"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 6725.09,
+            "PI": 10.3,
+            "Hydrophobicity": -0.0,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Narh JK, Casillas-Vega NG, Zarate X. 2024",
+                    "Reference": "Appl Microbiol Biotechnol. 2024 Dec;108(1):126. doi: 10.1007/s00253-023-12887-5.PubMed",
+                    "Title": "LL-37_Renalexin hybrid peptide exhibits antimicrobial activity at lower MICs than its counterpart single peptides."
+                }
+            ],
+            "Frequent Amino Acids": "KIL",
+            "Absent Amino Acids": "HOUWY",
+            "Basic Residues": 14,
+            "Acidic Residues": 5,
+            "Hydrophobic Residues": 26,
+            "Polar Residues": 29,
+            "Positive Residues": 14,
+            "Negative Residues": 5,
+            "Net Charge": 9,
+            "Comments": "Sequence analysis: APD analysis reveals that this sequence is similar (62.71%) toLL-37A hybrid peptide consisting of full length LL-37 and ranalexin are connected via a GS linker.Activity: active against S. aureus MRSA (MIC 17.5-20.1 uM), E. coli (MIC 19.7-21.4 uM), and K. pneumoniae (MIC 27.8 uM) bacteria clinical isolates.Recombinant production:bacteria:Escherichia coli: expressed as a fusion with small metal-binding proteins SmbP or CusF3H+.  cleaved with enzyme enterokinase, Purified via immobilized metal affinity chromatography, yield: 0.7-2.1 mg/L after affinity column.",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03107",
+                    "Similarity": 1.0,
+                    "Sequence": "ALLGDFFRKSKEKIGKEFKRIVQRIKDFLRNLVPRTES"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03128",
+                    "Similarity": 1.0,
+                    "Sequence": "LLGDFFRKSKEKIGKEFKRIVQR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03129",
+                    "Similarity": 1.0,
+                    "Sequence": "FALLGDFFRKSKEKIGKEFKRIVQRIKDFLRNLVPRTES"
+                }
+            ]
+        }
+    }
+}

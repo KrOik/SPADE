@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_28617": {
+        "Sequence Information": {
+            "Peptide Name": "Beta-defensin 103 (6-45), hBD-3",
+            "Sequence": "LQKYYCRVRGGRCAVLSCLPKEEQIGKCSTRGRKCCRRKK",
+            "Sequence Length": 40,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P81534",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P81534",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Engineering disulfide bonds of the novel human beta-defensins hBD-27 and hBD-28: differences in disulfide formation and biological activity among human beta-defensins.",
+                    "Pubmed ID": "15625724",
+                    "Reference": "Biopolymers. 2005;80:34-49",
+                    "Author": "Schulz A, Klüver E, Schulz-Maronde S, Adermann K",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/15625724"
+                },
+                {
+                    "Title": "Structure-activity relation of human beta-defensin 3: influence of disulfide bonds and cysteine substitution on antimicrobial activity and cytotoxicity.",
+                    "Pubmed ID": "16008365",
+                    "Reference": "Biochemistry. 2005;44:9804-9816",
+                    "Author": "Klüver E, Schulz-Maronde S, Scheid S, Meyer B, Forssmann WG, Adermann K",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/16008365"
+                }
+            ],
+            "Mass": 4662.59,
+            "PI": 10.08,
+            "Net Charge": 11,
+            "Hydrophobicity": -0.9,
+            "Frequent Amino Acids": "RCK",
+            "Absent Amino Acids": "DFHMNOUW",
+            "Basic Residues": 13,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 27,
+            "Positive Residues": 13,
+            "Negative Residues": 2,
+            "SPADE ID": "SPADE_UN_28617",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03155",
+                    "Similarity": 1.0,
+                    "Sequence": "GIINTLQKYYCRVRGGRCAVLSCLPKEEQIGKCSTRGRKCCRRKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08033",
+                    "Similarity": 1.0,
+                    "Sequence": "MRIHYLLFTLLFLFLVPVPGHGGIINTLQKYYCRVRGGRCAVLSCLPKEEQIGKCSTRGRKCCRRKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10191",
+                    "Similarity": 1.0,
+                    "Sequence": "LQKYYCRVRGGRCAVLS"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:1% Hemolysis=10 µg/ml,Human erythrocytes:2% Hemolysis=100 µg/ml,Human erythrocytes:12% Hemolysis=500 µg/ml",
+            "Target Organism": "Escherichia coli DSM 1103(MIC=9.4µg/ml),Klebsiella pneumoniae DSM 681(MIC=25µg/ml),Pseudomonas aeruginosa DSM 1128(MIC=18.75µg/ml),Staphylococcus aureus ATCC 25923(MIC=4.7µg/ml),Streptococcus pneumoniae DSM 11865(MIC=4.7µg/ml),Escherichia coli DSM 1103(MIC=>300µg/ml),Klebsiella pneumoniae DSM 681(MIC=>300µg/ml),Pseudomonas aeruginosa DSM 1128(MIC=>300µg/ml),Staphylococcus aureus ATCC 25923(MIC=100µg/ml),Streptococcus pneumoniae DSM 11865(MIC=>300µg/ml)"
+        }
+    }
+}

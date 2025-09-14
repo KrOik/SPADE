@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_11842": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_11842",
+            "Peptide Name": "WR1 (Derived from PG-1)",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "WRCRRRFCRW",
+            "Sequence Length": 10,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic form",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.24621994] Gram-positive bacteria :Staphylococcus aureus(MIC=8 μM), Staphylococcus epidermidis(MIC=8 μM), Streptococcus faecalis(MIC=8 μM), Bacillus subtilis(MIC=2 μM);Gram-negative bacteria :Escherichia coli(MIC=2 μM), Salmonella pullorum(MIC=4 μM), Salmonella typhimurium(MIC=16 μM), Bacteriump yocyaneum(MIC>128 μM)",
+            "Hemolytic Activity": "[Ref.24621994] MHC10>128 μM against human red blood cells",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C67H101N27O11S2",
+            "Mass": 1524.82,
+            "PI": 11.83,
+            "Net Charge": 5,
+            "Hydrophobicity": -1.65,
+            "Half Life": "Mammalian:2.8 hourYeast:3 minE.coli:2 min",
+            "Function": "Antibacterial activity against Gram-positive bacteria and Gram-negative bacteria",
+            "Literature": [
+                {
+                    "Title": "Antimicrobial potency and selectivity of simplified symmetric-end peptides",
+                    "Pubmed ID": "24621994",
+                    "Reference": "PLoS One. 2014 Mar 12;9(3)e91007. doi 10.1371/journal.pone.0091007.",
+                    "Author": "Na Dong , Xin Zhu , Shuli Chou , Anshan Shan , Weizhong Li , Junguang Jiang",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=24621994"
+                }
+            ],
+            "Frequent Amino Acids": "RCW",
+            "Absent Amino Acids": "ADEGHIKLMNOPQSTUVY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 3,
+            "Polar Residues": 7,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06457",
+                    "Similarity": 1.0,
+                    "Sequence": "CRRWQWRC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11323",
+                    "Similarity": 1.0,
+                    "Sequence": "CRRWQWRC"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_03880",
+                    "Similarity": 1.0,
+                    "Sequence": "RIWVIWRC"
+                }
+            ]
+        }
+    }
+}

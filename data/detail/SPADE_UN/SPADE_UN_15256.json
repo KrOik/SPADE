@@ -1,0 +1,71 @@
+{
+    "SPADE_UN_15256": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_15256",
+            "Peptide Name": "RJ5-I15E16",
+            "Source": "Synthetic construct",
+            "Family": "Herpesviridae",
+            "Gene": "Not found",
+            "Sequence": "AKKAAKKAKKAAKKIEKAAKK",
+            "Sequence Length": 21,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antiviral"
+            ],
+            "Target Organism": "[Ref.16923027]Herpes simplex virus 1(HSV-1):inhibition of viral entry into Vero cells(IC50=112 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "[Ref.16923027]No cytotoxicity against Human fibroblasts MRC-5 cells up to 448 µM.",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C101H192N32O24",
+            "Mass": 2238.81,
+            "PI": 10.65,
+            "Net Charge": 10,
+            "Hydrophobicity": -1.31,
+            "Half Life": "Mammalian:4.4 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Prediction of activity, synthesis and biological testing of anti-HSV active peptides.",
+                    "Pubmed ID": "16923027",
+                    "Reference": "Chem Biol Drug Des. 2006 Jul;68(1)58-66.",
+                    "Author": "Jenssen H, Gutteberg TJ, Rekdal Ø, Lejon T.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16923027"
+                }
+            ],
+            "Frequent Amino Acids": "KAE",
+            "Absent Amino Acids": "CDFGHLMNOPQRSTUVWY",
+            "Basic Residues": 11,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 19,
+            "Positive Residues": 11,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_09055",
+                    "Similarity": 1.0,
+                    "Sequence": "AKKWFW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_12831",
+                    "Similarity": 1.0,
+                    "Sequence": "AAKKGCWTVSIPPKPCF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14639",
+                    "Similarity": 1.0,
+                    "Sequence": "AKKWFW"
+                }
+            ]
+        }
+    }
+}

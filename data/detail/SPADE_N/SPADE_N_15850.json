@@ -1,0 +1,62 @@
+{
+    "SPADE_N_15850": {
+        "Sequence Information": {
+            "Peptide Name": "Ranatuerin-2VLb",
+            "Sequence": "GIMDTIKGAAKDLAGQLLDKLKCKITKC",
+            "Sequence Length": 28,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anticancer",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "1. Lithobates vaillanti",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Purification of peptides with differential cytolytic activities from the skin secretions of the Central American frog, Lithobates vaillanti (Ranidae).",
+                    "Pubmed ID": "19379837",
+                    "Reference": "Comp Biochem Physiol C Toxicol Pharmacol. 2009;150:150-154",
+                    "Author": "Conlon JM, Raza H, Coquet L, Jouenne T, Leprince J, Vaudry H, King JD",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/19379837"
+                }
+            ],
+            "Mass": 2976.62,
+            "PI": 9.19,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.04,
+            "Frequent Amino Acids": "KLA",
+            "Absent Amino Acids": "EFHNOPRSUVWY",
+            "Basic Residues": 6,
+            "Acidic Residues": 3,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 15,
+            "Positive Residues": 6,
+            "Negative Residues": 3,
+            "SPADE ID": "SPADE_N_15850",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_16234",
+                    "Similarity": 1.0,
+                    "Sequence": "GIMDTIKGAAKDLAGQLLDKLKCKITKC"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_18592",
+                    "Similarity": 0.9285714285714286,
+                    "Sequence": "GIMDTIKGAAKDVAAQLLDKLKCKITKC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01929",
+                    "Similarity": 0.8928571428571429,
+                    "Sequence": "GIMDTVKNAAKDLAGQLLDKLKCKITAC"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=>200 µM",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=75µM),Staphylococcus aureus ATCC 25923(MIC=>150µM),Candida albicans ATCC 90028(MIC=150µM),Human hepatocellular carcinoma HepG2(LC50=30µM)"
+        }
+    }
+}

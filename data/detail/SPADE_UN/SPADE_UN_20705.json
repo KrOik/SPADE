@@ -1,0 +1,61 @@
+{
+    "SPADE_UN_20705": {
+        "Sequence Information": {
+            "Peptide Name": "Holothuroidin 1",
+            "Sequence": "HLGHHALDHLLK",
+            "Sequence Length": 12,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell",
+                "Antibiofilm"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Immune mediators of sea-cucumber Holothuria tubulosa (Echinodermata) as source of novel antimicrobial and anti-staphylococcal biofilm agents.",
+                    "Pubmed ID": "23800329",
+                    "Reference": "AMB Express. 2013;3:35",
+                    "Author": "Schillaci D, Cusimano MG, Cunsolo V, Saletti R, Russo D, Vazzana M, Vitale M, Arizza V",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/23800329"
+                }
+            ],
+            "Mass": 1390.59,
+            "PI": 7.1,
+            "Net Charge": 4,
+            "Hydrophobicity": -0.3,
+            "Frequent Amino Acids": "HLA",
+            "Absent Amino Acids": "CEFIMNOPQRSTUVWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 7,
+            "Positive Residues": 5,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_UN_20705",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_13007",
+                    "Similarity": 1.0,
+                    "Sequence": "MRGSHHHHHHGSSGENLYFQSLASHLGHHALDHLLK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_20707",
+                    "Similarity": 1.0,
+                    "Sequence": "ASHLGHHALDHLLK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_20734",
+                    "Similarity": 1.0,
+                    "Sequence": "MRGSHHHHHHGSSGENLYFQSLASHLGHHALDHLLK"
+                }
+            ],
+            "Hemolytic Activity": "Rabbit erythrocytes:1% Hemolysis=1500-3200 µg/ml,Rabbit erythrocytes:3% Hemolysis=6200 µg/ml,Rabbit erythrocytes:12.5% Hemolysis=50000 µg/ml",
+            "Target Organism": "Staphylococcus aureus ATCC 29213(MIC=>12500µg/ml),Staphylococcus aureus ATCC 25923(MIC=12500µg/ml),Staphylococcus aureus ATCC 6538(MIC=12500µg/ml),Staphylococcus epidermidis ATCC 35984(MIC=12500µg/ml),Enterococcus faecalis ATCC 29212(MIC=>12500µg/ml),Pseudomonas aeruginosa ATCC 15442(MIC=12500µg/ml)"
+        }
+    }
+}

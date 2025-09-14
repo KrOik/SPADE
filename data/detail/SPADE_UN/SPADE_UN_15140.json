@@ -1,0 +1,76 @@
+{
+    "SPADE_UN_15140": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_15140",
+            "Peptide Name": "RSG-P2G4",
+            "Source": "Synthetic construct",
+            "Family": "Retroviridae",
+            "Gene": "Not found",
+            "Sequence": "RPRGRRGSRPSGAERRRRRAAAA",
+            "Sequence Length": 23,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antiviral"
+            ],
+            "Target Organism": "[Ref.20580677]HIV-1 IIIB:inhibition of virus replication in PM1-CCR5 cells(EC50=2.2±0.51 μM);HIV-1 Bal:inhibition of virus replication in PM1-CCR5 cells(EC50>10 μM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information or data found in the reference(s) presented in this entry",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C102H187N53O28",
+            "Mass": 2603.91,
+            "PI": 12.0,
+            "Net Charge": 9,
+            "Hydrophobicity": -1.98,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Mechanism of action": "Peptide derived from the RNA-binding domain of HIV-1 Rev can act as dual-target inhibitors that inhibit HIV-1 entry and viral production in the early and late phases of replication.",
+            "Literature": [
+                {
+                    "Title": "Rev-derived peptides inhibit HIV-1 replication by antagonism of Rev and a co-receptor, CXCR4.",
+                    "Pubmed ID": "20580677",
+                    "Reference": "Int J Biochem Cell Biol. 2010 Sep;42(9)1482-8.",
+                    "Author": "Shimane K, Kodama EN, Nakase I, Futaki S, Sakurai Y, Sakagami Y, Li X, Hattori T, Sarafianos SG, Matsuoka M.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=20580677"
+                },
+                {
+                    "Title": "Rev-derived peptides inhibit HIV-1 replication by antagonism of Rev and a co-receptor, CXCR4",
+                    "Pubmed ID": "",
+                    "Author": "Shimane K, Kodama En, nakase I, Futaki S, Sakurai Y, Sakagami Y, Li X, Hattori T, Sarafianos SG, Mat"
+                }
+            ],
+            "Frequent Amino Acids": "RAG",
+            "Absent Amino Acids": "CDFHIKLMNOQTUVWY",
+            "Basic Residues": 10,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 17,
+            "Positive Residues": 10,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_13904",
+                    "Similarity": 1.0,
+                    "Sequence": "QAQALLPIASYAGLTVSAPVFAALVTVYGAYALYRYNIRRRENSYQRIRSDHDSHSCANNRGWCRPTCFSHEYTDWFNNDVCGSYRCCRPGRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14865",
+                    "Similarity": 1.0,
+                    "Sequence": "AQALLPIASYAGLTVSAPVFAALVTVYGAYALYRYNIRRRENSYQRIRSDHDSHSCANNRGWCRPTCFSHEYTDWFNNDVCGSYRCCRPGRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_12530",
+                    "Similarity": 1.0,
+                    "Sequence": "RRRR"
+                }
+            ]
+        }
+    }
+}

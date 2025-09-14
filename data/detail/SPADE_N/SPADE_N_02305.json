@@ -1,0 +1,73 @@
+{
+    "SPADE_N_02305": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02305",
+            "Peptide Name": "Beta-defensin 108B (Beta-defensin 8; BD-8, DEFB-8, hBD-8; primates, mammals, animals)",
+            "Source": "Pan troglodytes (Chimpanzee)",
+            "Family": "Belongs to the beta-defensin family",
+            "Gene": "DEFB108B",
+            "Sequence": "KFKEICERPDGSCRDFCLETEIHVGRCLNSRPCCLPLGHQPRIESTTPKKD",
+            "Sequence Length": 51,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q5IAA6"
+            ],
+            "Protein Existence": "Homology",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C247H402N76O76S6",
+            "Mass": 5844.69,
+            "PI": 7.79,
+            "Net Charge": 3,
+            "Hydrophobicity": -0.78,
+            "Half Life": "Mammalian:1.3 hourYeast:3 minE.coli:2 min",
+            "PTM": "contains three disulfide bonds 6-33; 13-27; 17-34.",
+            "Literature": [
+                {
+                    "Title": "The complexity of selection at the major primate beta-defensin locus.",
+                    "Pubmed ID": "15904491",
+                    "Reference": "BMC Evol Biol. 2005 May 18;532.",
+                    "Author": "Semple C.A.M, Maxwell A, Gautier P, Kilanowski F.M, Eastwood H, Barran P.E, Dorin J.R.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=15904491"
+                }
+            ],
+            "Frequent Amino Acids": "CEP",
+            "Absent Amino Acids": "AMOUWY",
+            "Basic Residues": 11,
+            "Acidic Residues": 8,
+            "Hydrophobic Residues": 15,
+            "Polar Residues": 26,
+            "Positive Residues": 11,
+            "Negative Residues": 8,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03161",
+                    "Similarity": 0.9803921568627451,
+                    "Sequence": "KFKEICERPNGSCRDFCLETEIHVGRCLNSRPCCLPLGHQPRIESTTPKKD"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04012",
+                    "Similarity": 0.972972972972973,
+                    "Sequence": "EICERPNGSCRDFCLETEIHVGRCLNSRPCCLPLGHQ"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03745",
+                    "Similarity": 0.9696969696969697,
+                    "Sequence": "EICERPNGSCRDFCLETEIHVGRCLNSRPCCLP"
+                }
+            ]
+        }
+    }
+}

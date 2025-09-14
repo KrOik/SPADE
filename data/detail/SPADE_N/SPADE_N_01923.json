@@ -1,0 +1,73 @@
+{
+    "SPADE_N_01923": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01923",
+            "Peptide Name": "Tryptophyllin-T3-1 (Pha-T3-1; Tryptophyllin-9; Frogs, amphibians, animals)",
+            "Source": "Phyllomedusa azurea (Orange-legged monkey frog) (Phyllomedusa hypochondrialis azurea)",
+            "Family": "Belongs to the frog skin active peptide family (Tryptophillin subfamily)",
+            "Gene": "Not found",
+            "Sequence": "QDKPFWPPPIYIM",
+            "Sequence Length": 13,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P84949"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C81H114N16O18S",
+            "Mass": 1631.93,
+            "PI": 5.83,
+            "Net Charge": 0,
+            "Hydrophobicity": -0.45,
+            "Half Life": "Mammalian:0.8 hourYeast:10 minE.coli:>10 hour",
+            "Function": "Amphibian defensive peptide.",
+            "PTM": "Pyrrolidone carboxylic acid at Q1.",
+            "Literature": [
+                {
+                    "Title": "Amphibian skin secretomics application of parallel quadrupole time-of-flight mass spectrometry and peptide precursor cDNA cloning to rapidly characterize the skin secretory peptidome of Phyllomedusa hypochondrialis azurea discovery of a novel peptide family, the hyposins.",
+                    "Pubmed ID": "17696382",
+                    "Reference": "J Proteome Res. 2007 Sep;6(9)3604-3613.",
+                    "Author": "Thompson AH, Bjourson AJ, Orr DF, Shaw C, McClean S.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=17696382"
+                }
+            ],
+            "Frequent Amino Acids": "PID",
+            "Absent Amino Acids": "ACEGHLNORSTUV",
+            "Basic Residues": 1,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 3,
+            "Positive Residues": 1,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01924",
+                    "Similarity": 0.9230769230769231,
+                    "Sequence": "QDKPFWPPPIYPM"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00583",
+                    "Similarity": 0.8,
+                    "Sequence": "KDKECLKGYIDAPLSYCMARIYPSLCYRNCRFYKGAKGGKCDGLKCFCDFCSDKPF"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_00146",
+                    "Similarity": 0.7692307692307693,
+                    "Sequence": "QDKPFWSPPIYPV"
+                }
+            ]
+        }
+    }
+}

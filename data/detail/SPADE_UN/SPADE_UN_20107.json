@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_20107": {
+        "Sequence Information": {
+            "Peptide Name": "Cecropin-B (1-21), ChoC",
+            "Sequence": "KWKVFKKIEKMGRNIRNGIVK",
+            "Sequence Length": 21,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P01508",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P01508",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Tuneable poration: host defense peptides as sequence probes for antimicrobial mechanisms",
+                    "Pubmed ID": "30297841",
+                    "Reference": "Sci Rep. 2018;8:14926",
+                    "Author": "Pfeil MP, Pyne ALB, Losasso V, Ravi J, Lamarre B, Faruqui N, Alkassem H, Hammond K, Judge PJ, Winn M, Martyna GJ, Crain J, Watts A, Hoogenboom BW, Ryadnov MG",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/30297841"
+                }
+            ],
+            "Mass": 2573.16,
+            "PI": 11.26,
+            "Net Charge": 7,
+            "Hydrophobicity": -0.86,
+            "Frequent Amino Acids": "KIG",
+            "Absent Amino Acids": "ACDHLOPQSTUY",
+            "Basic Residues": 8,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 14,
+            "Positive Residues": 8,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_UN_20107",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03071",
+                    "Similarity": 1.0,
+                    "Sequence": "KWKVFKKIEKMGRNIRNGIVKAGPAIAVLGEAKAL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05832",
+                    "Similarity": 1.0,
+                    "Sequence": "KWKVFKKIEKMGRNIRNGIVKAGPAIAVLGEAKALG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08001",
+                    "Similarity": 1.0,
+                    "Sequence": "MNFSRIFFFVFALVLALSTVSAAPEPKWKVFKKIEKMGRNIRNGIVKAGPAIAVLGEAKALG"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:<1% Hemolysis=>250 µM",
+            "Target Organism": "Salmonella typhimurium DA6192(MIC=>12µM),Salmonella typhimurium DA22427(MIC=>12µM),Salmonella typhimurium DA23899(MIC=>25µM),Pseudomonas aeruginosa ATCC 27853(MIC=<1.5µM),Escherichia coli K-12(MIC=<6µM),Staphylococcus aureus ATCC 6538(MIC=>100µM),Micrococcus luteus NCIMB 13267(MIC=<1µM),Bacillus subtilis ATCC 6633(MIC=<5µM)"
+        }
+    }
+}

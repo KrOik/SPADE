@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_19193": {
+        "Sequence Information": {
+            "Peptide Name": "Pseudin-2 [E14K,L18K]",
+            "Sequence": "GLNALKKVFQGIHKAIKKINNHVQ",
+            "Sequence Length": 24,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P83189",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P83189",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Investigation of cationicity and structure of pseudin-2 analogues for enhanced bacterial selectivity and anti-inflammatory activity.",
+                    "Pubmed ID": "28469145",
+                    "Reference": "Sci Rep. 2017;7:1455",
+                    "Author": "Jeon D, Jeong MC, Jacob B, Bang JK, Kim EH, Cheong C, Jung ID, Park Y, Kim Y",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/28469145"
+                }
+            ],
+            "Mass": 2699.2,
+            "PI": 10.6,
+            "Net Charge": 7,
+            "Hydrophobicity": -0.35,
+            "Frequent Amino Acids": "KIN",
+            "Absent Amino Acids": "CDEMOPRSTUWY",
+            "Basic Residues": 7,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 14,
+            "Positive Residues": 7,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_19193",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_12407",
+                    "Similarity": 1.0,
+                    "Sequence": "ALWMTLKKKVLKAKAKLLNAVLVGLNA"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_19193",
+                    "Similarity": 1.0,
+                    "Sequence": "GLNALKKVFQGIHKAIKKINNHVQ"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10201",
+                    "Similarity": 0.9583333333333334,
+                    "Sequence": "GLNALKKVFQGIHKAIKLINNHVQ"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:1.1% Hemolysis=100 µM",
+            "Target Organism": "Escherichia coli KCTC 1682(MIC=1µM),Acinetobacter baumannii KCTC 2508(MIC=2µM),Pseudomonas aeruginosa KCTC 1637(MIC=2µM),Salmonella typhimurium KCTC 1926(MIC=2µM),Staphylococcus aureus KCTC 1621(MIC=8µM),Bacillus subtilis KCTC 3028(MIC=8µM),Staphylococcus epidermidis KCTC 1917(MIC=16µM),Salmonella typhimurium CCARM 8003(MIC=4µM),Salmonella typhimurium CCARM 8007(MIC=4µM),Escherichia coli CCARM 1229(MIC=2µM),Escherichia coli CCARM 1238(MIC=2µM),Pseudomonas aeruginosa CCARM 2002(MIC=2µM),Pseudomonas aeruginosa CCARM 2095(MIC=4µM),Acinetobacter baumannii CCARM 12035(MIC=2µM),Acinetobacter baumannii CCARM 12036(MIC=2µM),Staphylococcus aureus CCARM 3089(MIC=8µM),Staphylococcus aureus CCARM 3108(MIC=4µM),Staphylococcus aureus CCARM 3126(MIC=4µM)"
+        }
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "SPADE_UN_23003": {
+        "Sequence Information": {
+            "Peptide Name": "Polymyxin FADDI-031",
+            "Sequence": "XTXXXXAXXT",
+            "Sequence Length": 10,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Teaching 'old' polymyxins new tricks: new-generation lipopeptides targeting gram-negative 'superbugs'.",
+                    "Pubmed ID": "24601489",
+                    "Reference": "ACS Chem Biol. 2014;9:1172-1177",
+                    "Author": "Velkov T, Roberts KD, Nation RL, Wang J, Thompson PE, Li J",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/24601489"
+                }
+            ],
+            "SPADE ID": "SPADE_UN_23003",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00018",
+                    "Similarity": 1.0,
+                    "Sequence": "CSTNTFSLSDYWGNKGNWCTATHECMSWCK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00030",
+                    "Similarity": 1.0,
+                    "Sequence": "ITSISLCTPGCKTGALMGCNMKTATCNCSIHVSK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00031",
+                    "Similarity": 1.0,
+                    "Sequence": "ITSKSLCTPGCKTGILMTCPLKTATCGCHFG"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:<5% Hemolysis=32 µg/ml",
+            "Target Organism": "Pseudomonas aeruginosa ATCC 27853(MIC=1µg/ml),Pseudomonas aeruginosa(MIC=4-32µg/ml),Acinetobacter baumannii ATCC 19606(MIC=4µg/ml),Acinetobacter baumannii ATCC 17978(MIC=4µg/ml),Acinetobacter baumannii(MIC=1-16µg/ml),Klebsiella pneumoniae ATCC 13883(MIC=0.5µg/ml),Klebsiella pneumoniae(MIC=16->32µg/ml),Enterococcus faecium ATCC 70022(MIC=32µg/ml),Staphylococcus aureus ATCC 43300(MIC=16µg/ml),Staphylococcus aureus ATCC 700698(MIC=32µg/ml),Staphylococcus aureus ATCC 700699(MIC=16µg/ml)"
+        }
+    }
+}

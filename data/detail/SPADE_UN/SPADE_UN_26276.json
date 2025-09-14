@@ -1,0 +1,55 @@
+{
+    "SPADE_UN_26276": {
+        "Sequence Information": {
+            "Peptide Name": "4B8M",
+            "Sequence": "PPXF",
+            "Sequence Length": 4,
+            "Biological Activity": [
+                "Antiviral",
+                "Anticancer",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Cytoplasmic Protein\n2. Virus replication\n3. Immunomodulation",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Structural and Biofunctional Insights into the Cyclo(Pro-Pro-Phe-Phe-) Scaffold from Experimental and In Silico Studies: Melanoma and Beyond",
+                    "Pubmed ID": "35806175",
+                    "Reference": "Int J Mol Sci. 2022;23:7173",
+                    "Author": "Bojarska J, Breza M, Jaremko M, Czyz M, Gajos-Michniewicz A, Zimecki M, Kaczmarek K, Madura ID, Wojciechowski JM, Wolf WM",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/35806175"
+                },
+                {
+                    "Title": "Antiviral Activity of a Cyclic Pro-Pro- β3-HoPhe-Phe Tetrapeptide against HSV-1 and HAdV-5",
+                    "Pubmed ID": "35684487",
+                    "Reference": "Molecules. 2022;27:3552",
+                    "Author": "Zaczyńska E, Kaczmarek K, Zabrocki J, Artym J, Zimecki M",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/35684487"
+                }
+            ],
+            "SPADE ID": "SPADE_UN_26276",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00189",
+                    "Similarity": 1.0,
+                    "Sequence": "TPVVNPPFLQQT"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00338",
+                    "Similarity": 1.0,
+                    "Sequence": "AKCIKNGKGCREDQGPPFCCSGFCYRQVGWARGYCKNR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00450",
+                    "Similarity": 1.0,
+                    "Sequence": "SDIKPTGRIDNQCKRMCSATYGNGKCAADCRSDGFSSGQCFTSPPFDNRCCCNN"
+                }
+            ],
+            "Hemolytic Activity": "Mouse splenocytes:15% Cell death=50 µg/ml",
+            "Target Organism": "Human melanoma DMBC28(10-20% Killing=50µM),Human melanoma DMBC29(10-20% Killing=50µM),Human lung carcinoma A549(no activity data),Human Adenovirus AdV-5(IC50 REP=>25µg/ml),HSV-1(IC50 REP=>25µg/ml)"
+        }
+    }
+}

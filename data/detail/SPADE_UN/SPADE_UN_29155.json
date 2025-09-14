@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_29155": {
+        "Sequence Information": {
+            "Peptide Name": "Beta-defensin 103 (6-22), hBD-3",
+            "Sequence": "LQKYYCRVRGGRCAVLS",
+            "Sequence Length": 17,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P81534",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P81534",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Structure-activity relation of human beta-defensin 3: influence of disulfide bonds and cysteine substitution on antimicrobial activity and cytotoxicity.",
+                    "Pubmed ID": "16008365",
+                    "Reference": "Biochemistry. 2005;44:9804-9816",
+                    "Author": "Klüver E, Schulz-Maronde S, Scheid S, Meyer B, Forssmann WG, Adermann K",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/16008365"
+                }
+            ],
+            "Mass": 1972.34,
+            "PI": 9.84,
+            "Net Charge": 4,
+            "Hydrophobicity": -0.14,
+            "Frequent Amino Acids": "RCG",
+            "Absent Amino Acids": "DEFHIMNOPTUW",
+            "Basic Residues": 4,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 10,
+            "Positive Residues": 4,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_29155",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03155",
+                    "Similarity": 1.0,
+                    "Sequence": "GIINTLQKYYCRVRGGRCAVLSCLPKEEQIGKCSTRGRKCCRRKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03971",
+                    "Similarity": 1.0,
+                    "Sequence": "LQKYYCRVRGGRCAVLSCLPKEEQIGKCSTRGRKCCRRKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08030",
+                    "Similarity": 1.0,
+                    "Sequence": "MRIHYLLFALLFLFLVPVPGHGGIINTLQKYYCRVRGGRCAVLSCLPKEEQIGKCPMRGRKCCRRKK"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Escherichia coli DSM 1103(MIC=>200µg/ml),Klebsiella pneumoniae DSM 681(MIC=>300µg/ml),Pseudomonas aeruginosa DSM 1128(MIC=>200µg/ml),Staphylococcus aureus ATCC 25923(MIC=>200µg/ml),Streptococcus pneumoniae DSM 11865(MIC=>300µg/ml)"
+        }
+    }
+}

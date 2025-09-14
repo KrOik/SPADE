@@ -1,0 +1,67 @@
+{
+    "SPADE_UN_30221": {
+        "Sequence Information": {
+            "Peptide Name": "Cathelicidin-BF-15 [L11F]",
+            "Sequence": "VKRFKKFFRKFKKSV",
+            "Sequence Length": 15,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "B6D434",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/B6D434",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "A Designed Tryptophan- and Lysine/Arginine-Rich Antimicrobial Peptide with Therapeutic Potential for Clinical Antibiotic-Resistant Candida albicans Vaginitis.",
+                    "Pubmed ID": "26881456",
+                    "Reference": "J Med Chem. 2016;59:1791-1799",
+                    "Author": "Jin L, Bai X, Luan N, Yao H, Zhang Z, Liu W, Chen Y, Yan X, Rong M, Lai R, Lu Q",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/26881456"
+                }
+            ],
+            "Mass": 1973.45,
+            "PI": 12.0,
+            "Net Charge": 8,
+            "Hydrophobicity": -0.91,
+            "Frequent Amino Acids": "KFR",
+            "Absent Amino Acids": "ACDEGHILMNOPQTUWY",
+            "Basic Residues": 8,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 9,
+            "Positive Residues": 8,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_30221",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_30221",
+                    "Similarity": 1.0,
+                    "Sequence": "VKRFKKFFRKFKKSV"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_22042",
+                    "Similarity": 1.0,
+                    "Sequence": "KRFKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06995",
+                    "Similarity": 1.0,
+                    "Sequence": "FKKFRKF"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:10% Hemolysis=>320 µg/ml,Human erythrocytes:50% Hemolysis=>320 µg/ml,Human erythrocytes:8% Hemolysis=320 µg/ml",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=37.50µg/ml),Staphylococcus aureus ATCC 2592(MIC=>100µg/ml),Bacillus subtilis(MIC=>100µg/ml),Candida albicans ATCC 2002(MIC=9.38µg/ml)"
+        }
+    }
+}

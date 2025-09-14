@@ -1,0 +1,55 @@
+{
+    "SPADE_N_03738": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 2003/0176652 A1",
+                "Patent Link": "http://www.lens.org/lens/patent/US_2003_0176652_A1",
+                "Patent Type": "Patent Application",
+                "Publication Date": "2003-9-18",
+                "Family Info": "US20050277176,WO2003024992A2,WO2003024992A3",
+                "Patent Title": "Human and mouse beta-defensins, antimicrobial peptides.",
+                "Abstract": "The present invention employs an iterative application of BLAST and Hidden Markov Model (HMM) based searches which identified 34 beta-defensin genes in the human genome and 48 in the mouse genome. The present invention relates to novel antimicrobial peptides and derivatives thereof as well as the beta-defensin genes encoding the peptides. The invention further relates to methods of use of the peptides including a method of inhibiting microbial growth by administering an effective amount of the peptide alone or in combination with other antimicrobial agents or antibiotics."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03738",
+            "Sequence": "ETCRLGRGKCRRACIESEKIVGWCKLNFFCCRE",
+            "Sequence Length": 33,
+            "Peptide Name": "Sequence 68 from Patent US 20030176652",
+            "Source": "Mus musculus",
+            "Biological Activity": [
+                "Antimicrobial"
+            ],
+            "Frequent Amino Acids": "CRE",
+            "Absent Amino Acids": "DHMOPQUY",
+            "Basic Residues": 8,
+            "Acidic Residues": 4,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 19,
+            "Positive Residues": 8,
+            "Negative Residues": 4,
+            "Mass": 3895.61,
+            "PI": 8.94,
+            "Net Charge": 4,
+            "Hydrophobicity": -0.37,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02951",
+                    "Similarity": 1.0,
+                    "Sequence": "EIAVCETCRLGRGKCRRACIESEKIVGWCKLNFFCCRERI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04192",
+                    "Similarity": 1.0,
+                    "Sequence": "MPQTFFVFCFLFFVFLQLFPGTGEIAVCETCRLGRGKCRRACIESEKIVGWCKLNFFCCRERI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02938",
+                    "Similarity": 0.9393939393939394,
+                    "Sequence": "GLEYSQSFPGGEIAVCETCRLGRGKCRRTCIESEKIAGWCKLNFFCCRERI"
+                }
+            ]
+        }
+    }
+}

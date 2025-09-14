@@ -1,0 +1,75 @@
+{
+    "SPADE_UN_21740": {
+        "Sequence Information": {
+            "Peptide Name": "Pleurocidin-like peptide GC3.8 (23-45), NRC-17",
+            "Sequence": "GWKKWLRKGAKHLGQAAIKGLAS",
+            "Sequence Length": 23,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anticancer",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "Q7SZG8",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/Q7SZG8",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Novel antimicrobial peptides derived from flatfish genes.",
+                    "Pubmed ID": "12878506",
+                    "Reference": "Antimicrob Agents Chemother. 2003;47:2464-2470",
+                    "Author": "Patrzykat A, Gallant JW, Seo JK, Pytyck J, Douglas SE",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/12878506"
+                },
+                {
+                    "Title": "The zebrafish embryo as a tool for screening and characterizing pleurocidin host-defense peptides as anti-cancer agents.",
+                    "Pubmed ID": "21729875",
+                    "Reference": "Dis Model Mech. 2011;4:622-633",
+                    "Author": "Morash MG, Douglas SE, Robotham A, Ridley CM, Gallant JW, Soanes KH",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/21729875"
+                }
+            ],
+            "Mass": 2504.98,
+            "PI": 11.39,
+            "Net Charge": 7,
+            "Hydrophobicity": -0.51,
+            "Frequent Amino Acids": "KAG",
+            "Absent Amino Acids": "CDEFMNOPTUVY",
+            "Basic Residues": 7,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 15,
+            "Positive Residues": 7,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_21740",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02068",
+                    "Similarity": 1.0,
+                    "Sequence": "GWKKWLRKGAKHLGQAAIK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04065",
+                    "Similarity": 1.0,
+                    "Sequence": "MKFTATFLVLFMVVLMAGSGECGWKKWLRKGAKHLGQAAIKGLASCEEQQELDKRSMDDEPSAIVFD"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_21729",
+                    "Similarity": 1.0,
+                    "Sequence": "GWKKWLRKGAKHLGQAAIK"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=>256 µg/ml,Zebrafish embryos:100% Killing=5 µM,Zebrafish embryos:>10% Killing=5 µM",
+            "Target Organism": "Aeromonas salmonicida 99-1(MIC=2µg/ml),Aeromonas salmonicida 97-4(MIC=1µg/ml),Salmonella enterica serovar typhimurium MS7953s(MIC=1µg/ml),Salmonella enterica subsp. enterica serovar Typhimurium ATCC 14028s(MIC=8µg/ml),Pseudomonas aeruginosa K799(MIC=4µg/ml),Pseudomonas aeruginosa Z61(MIC=2µg/ml),Escherichia coli CGSC 4908(MIC=1µg/ml),Escherichia coli UB1005(MIC=4µg/ml),Escherichia coli DC2(MIC=1µg/ml),Staphylococcus epidermidis C621(MIC=32µg/ml),Staphylococcus aureus C623(MIC=16µg/ml),Candida albicans C627(MIC=8µg/ml),Human promyelocytic leukemia HL-60(50% Cell death=16µg/ml)"
+        }
+    }
+}

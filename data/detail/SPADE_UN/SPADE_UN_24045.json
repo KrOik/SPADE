@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_24045": {
+        "Sequence Information": {
+            "Peptide Name": "Peptide 73-L-C, 73Lc",
+            "Sequence": "RLWDIVRRWVGWLGPLGVRGC",
+            "Sequence Length": 21,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Binding Target": "",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P82389",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P82389",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Enzymatically releasable polyethylene glycol - host defense peptide conjugates with improved activity and biocompatibility",
+                    "Pubmed ID": "34597746",
+                    "Reference": "J Control Release. 2021;339:220-231",
+                    "Author": "Drayton M, Alford MA, Pletzer D, Haney EF, Machado Y, Luo H, Overall CM, Kizhakkedathu JN, Hancock REW, Straus SK",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/34597746"
+                }
+            ],
+            "Mass": 2494.96,
+            "PI": 11.52,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.17,
+            "Frequent Amino Acids": "GRL",
+            "Absent Amino Acids": "AEFHKMNOQSTUY",
+            "Basic Residues": 4,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 13,
+            "Positive Residues": 4,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_UN_24045",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_12669",
+                    "Similarity": 1.0,
+                    "Sequence": "RLWDIVRRWVGWL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14887",
+                    "Similarity": 1.0,
+                    "Sequence": "GPLGVRGKRLWDIVRRWVGWL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14888",
+                    "Similarity": 1.0,
+                    "Sequence": "RLWDIVRRWVGWLGPLGVRG"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Staphylococcus aureus ATCC 25923(MIC=>125µg/ml),Staphylococcus aureus USA 300(MIC=>125µg/ml)"
+        }
+    }
+}

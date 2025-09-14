@@ -1,0 +1,68 @@
+{
+    "SPADE_N_05885": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_05885",
+            "Peptide Name": "P1-Ll-1577 (De Novo Synthesis)",
+            "Source": "Leptodactylus latrans (Anura: Leptodactylidae)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "DEMKLDGFNMHLE",
+            "Sequence Length": 13,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic form",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.30423858] Gram-positive bacteria:Staphylococcus aureus ATCC 25923(MIC=40.5μM);Gram-negative bacteria:Escherichia coli ATCC 25922(MIC=20μM)",
+            "Hemolytic Activity": "[Ref.30423858] 100% hemolysis MHC=640μM against human blood cells",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "P1-Ll-1577, although presenting contributions of turn structure, is less ordered in the presence of TFE (percentage of an unordered structure higher than 40%).",
+            "Formula": "C67H103N17O23S2",
+            "Mass": 1578.76,
+            "PI": 4.53,
+            "Net Charge": -2,
+            "Hydrophobicity": -0.83,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:>10 hour",
+            "Function": "Antibacterial activity against Gram-positive bacteria and Gram-nagetive bacteria.",
+            "Literature": [
+                {
+                    "Title": "Leptodactylus latrans Amphibian Skin Secretions as a Novel Source for the Isolation of Antibacterial Peptides",
+                    "Pubmed ID": "30423858",
+                    "Reference": "Molecules. 2018 Nov; 23(11) 2943. Published online 2018 Nov 11. doi 10.3390/molecules23112943",
+                    "Author": "Alvaro Siano, Maria Veronica Humpola, Eliandre de Oliveira, Fernando Albericio, Arturo C Simonetta, Rafael Lajmanovich, Georgina G Tonarelli",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=30423858"
+                }
+            ],
+            "Frequent Amino Acids": "DEL",
+            "Absent Amino Acids": "ACIOPQRSTUVWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 4,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 3,
+            "Positive Residues": 2,
+            "Negative Residues": 4,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_20284",
+                    "Similarity": 1.0,
+                    "Sequence": "DEMKLDGFNMHLE"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05300",
+                    "Similarity": 0.5384615384615384,
+                    "Sequence": "MKQARILFDESKAMIKASPKLDKNFRTLRDEIHYDATISKIMPQASDSDKLDGLNTHMGIF"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "SPADE_UN_19119": {
+        "Sequence Information": {
+            "Peptide Name": "Dermaseptin-S1 (1-15)",
+            "Sequence": "ALWKTMLKKLGTMAL",
+            "Sequence Length": 15,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antiparasitic",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P24302",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P24302",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Synthesis and antimicrobial activity of dermaseptin S1 analogues.",
+                    "Pubmed ID": "18676150",
+                    "Reference": "Bioorg Med Chem. 2008;16:8205-8209",
+                    "Author": "Savoia D, Guerrini R, Marzola E, Salvadori S",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/18676150"
+                }
+            ],
+            "Mass": 1705.18,
+            "PI": 10.3,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.55,
+            "Frequent Amino Acids": "LKA",
+            "Absent Amino Acids": "CDEFHINOPQRSUVY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 7,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_19119",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01173",
+                    "Similarity": 1.0,
+                    "Sequence": "ALWKTMLKKLGTMALHAGKAAFGAAADTISQ"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01509",
+                    "Similarity": 1.0,
+                    "Sequence": "ALWKTMLKKLGTMALHAGKAALGAAADTISQGTQ"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03993",
+                    "Similarity": 1.0,
+                    "Sequence": "ALWKTMLKKLGTMALHAGKAALGAADTISQTQ"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=>100 µM",
+            "Target Organism": "Staphylococcus aureus Cowan 1(MIC=11.5µM),Staphylococcus aureus Cowan 1(LD50=2.7µM),Escherichia coli HB101(MIC=2.9µM),Escherichia coli HB101(LD50=1.4µM),Leishmania major MHOM/IL/67/JERICHO-II(MIC=22.8µM),Leishmania major MHOM/IL/67/JERICHO-II(LC50=8.7µM),Staphylococcus aureus ATCC 6538P(MIC=5.7µM),Staphylococcus aureus(MIC=>47µM),Bacillus subtilis ATCC 9466(MIC=5.7µM),Pseudomonas aeruginosa ATCC 15442(MIC=>47µM),Pseudomonas aeruginosa(MIC=>47µM),Burkholderia cepacia 6/06(MIC=23.7µM),Stenotrophomonas maltophilia FC(MIC=>45µM),Candida albicans(MIC=23.7µM)"
+        }
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_30420": {
+        "Sequence Information": {
+            "Peptide Name": "Indolicidin (8-13), Ind-6",
+            "Sequence": "WWPWRR",
+            "Sequence Length": 6,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P33046",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P33046",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Prokaryotic Selectivity, Bactericidal Mechanism and LPS-neutralizing Activity of Lys-linked Dimeric Peptide of Indolicidin C-terminal Hexapeptide",
+                    "Pubmed ID": "",
+                    "Reference": "Bull Korean Chem Soc. 2013;34:2187–2190",
+                    "Author": "Shin SY",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/"
+                }
+            ],
+            "Mass": 986.13,
+            "PI": 12.0,
+            "Net Charge": 2,
+            "Hydrophobicity": -2.22,
+            "Frequent Amino Acids": "WRP",
+            "Absent Amino Acids": "ACDEFGHIKLMNOQSTUVY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 0,
+            "Polar Residues": 6,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_30420",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02453",
+                    "Similarity": 1.0,
+                    "Sequence": "ILKKWPWWPWRRK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02455",
+                    "Similarity": 1.0,
+                    "Sequence": "ICLKKWPWWPWRRCK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02467",
+                    "Similarity": 1.0,
+                    "Sequence": "ILPWKWPWWPWRR"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=>200 µg/ml",
+            "Target Organism": "Escherichia coli KCTC 1682(MIC=64µg/ml),Pseudomonas aeruginosa KCTC 1637(MIC=32µg/ml),Salmonella typhimurium KCTC 1926(MIC=32µg/ml),Bacillus subtilis KCTC 3068(MIC=32µg/ml),Staphylococcus epidermidis KCTC 1917(MIC=32µg/ml),Staphylococcus aureus KCTC 1621(MIC=16µg/ml)"
+        }
+    }
+}

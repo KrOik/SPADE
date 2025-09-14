@@ -1,0 +1,67 @@
+{
+    "SPADE_UN_30572": {
+        "Sequence Information": {
+            "Peptide Name": "D-Hylin-a1 [L6W]",
+            "Sequence": "DIFGAIWPLALGALKNLIK",
+            "Sequence Length": 19,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "5J6V",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P85982",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P85982",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Influence of N-terminus modifications on the biological activity, membrane interaction, and secondary structure of the antimicrobial peptide hylin-a1.",
+                    "Pubmed ID": "20560142",
+                    "Reference": "Biopolymers. 2011;96:41-48",
+                    "Author": "Crusca E Jr, Rezende AA, Marchetto R, Mendes-Giannini MJ, Fontes W, Castro MS, Cilli EM",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/20560142"
+                }
+            ],
+            "Mass": 2053.49,
+            "PI": 8.59,
+            "Net Charge": 1,
+            "Hydrophobicity": 0.99,
+            "Frequent Amino Acids": "LAI",
+            "Absent Amino Acids": "CEHMOQRSTUVY",
+            "Basic Residues": 2,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 8,
+            "Positive Residues": 2,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_UN_30572",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_30572",
+                    "Similarity": 1.0,
+                    "Sequence": "DIFGAIWPLALGALKNLIK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11301",
+                    "Similarity": 1.0,
+                    "Sequence": "IFGAIWPLALGALKNLIK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_30570",
+                    "Similarity": 1.0,
+                    "Sequence": "IFGAIWPLALGALKNLIK"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=5 µM",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=>128µM),Staphylococcus aureus ATCC 25923(MIC=8µM),Pseudomonas aeruginosa ATCC 27853(MIC=>128µM),Bacillus subtilis ATCC 19659(MIC=4µM),Candida albicans ATCC 90028(MIC=16µM),Candida krusei ATCC 6258(MIC=16µM),Candida parapsilosis ATCC 22019(MIC=16µM),Cryptococcus neoformans ATCC 90012(MIC=16µM)"
+        }
+    }
+}

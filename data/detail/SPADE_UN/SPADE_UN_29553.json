@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_29553": {
+        "Sequence Information": {
+            "Peptide Name": "alphaS2-casein f(193-207) [Y203,V204,R205,Y206,L207-W]",
+            "Sequence": "WIQPKTKVIPWWWWW",
+            "Sequence Length": 15,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P02663",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P02663",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Structure-activity relationship of synthetic variants of the milk-derived antimicrobial peptide ?s2-casein f(183-207).",
+                    "Pubmed ID": "23793637",
+                    "Reference": "Appl Environ Microbiol. 2013;79:5179-5185",
+                    "Author": "Alvarez-Ordónez A, Begley M, Clifford T, Deasy T, Considine K, Hill C",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/23793637"
+                }
+            ],
+            "Mass": 2140.53,
+            "PI": 10.0,
+            "Net Charge": 2,
+            "Hydrophobicity": -0.49,
+            "Frequent Amino Acids": "WIK",
+            "Absent Amino Acids": "ACDEFGHLMNORSUY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 3,
+            "Polar Residues": 12,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_29553",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_10465",
+                    "Similarity": 1.0,
+                    "Sequence": "KAMKPWIQPKTKVIP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10482",
+                    "Similarity": 1.0,
+                    "Sequence": "WIQPKTKVIP"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_29521",
+                    "Similarity": 1.0,
+                    "Sequence": "KAMKPWIQPKTKVIP"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Cronobacter sakazakii DPC 6440(MIC=78.125µM),Listeria monocytogenes LO28(MIC=4.883µM)"
+        }
+    }
+}

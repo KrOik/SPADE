@@ -1,0 +1,72 @@
+{
+    "SPADE_UN_17034": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_17034",
+            "Peptide Name": "[Glu(Me)]cyO2",
+            "Source": "Synthetic",
+            "Family": "",
+            "Gene": "Not found",
+            "Sequence": "GIPCGXSCVWIPCISSAIGCSCKSKVCYRN",
+            "Sequence Length": 30,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P58434"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Target Organism": "Tumor cells:U-937/GTB (IC50=36(32-40)μM)",
+            "Hemolytic Activity": "Not available",
+            "Cytotoxicity": "Not available",
+            "Binding Target": "Not available",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C128H206N36O36S6",
+            "Mass": 364508,
+            "PI": 8.38,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.56,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Literature": [
+                {
+                    "Title": "Key role of glutamic acid for the cytotoxic activity of the cyclotide cycloviolacin O2",
+                    "Pubmed ID": "16389447",
+                    "Reference": "Cell Mol Life Sci. 2006 Jan;63(2)235-45.",
+                    "Author": "Herrmann A, Svangård E, Claeson P, Gullbo J, Bohlin L, Göransson U.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16389447"
+                }
+            ],
+            "Frequent Amino Acids": "CSI",
+            "Absent Amino Acids": "DEFHLMOQTU",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 19,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00750",
+                    "Similarity": 1.0,
+                    "Sequence": "GIPCGESCVWIPCISSAIGCSCKSKVCYRN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06877",
+                    "Similarity": 1.0,
+                    "Sequence": "CGESCVWIPCISSAIGCSCKSKVCYRNGIP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00350",
+                    "Similarity": 0.9655172413793104,
+                    "Sequence": "GIPCGESCVWIPCITSAIGCSCKSKVCYRN"
+                }
+            ]
+        }
+    }
+}

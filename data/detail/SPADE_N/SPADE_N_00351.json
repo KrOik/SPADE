@@ -1,0 +1,83 @@
+{
+    "SPADE_N_00351": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 5750504 A",
+                "Patent Link": "http://www.lens.org/lens/patent/US_5750504_A",
+                "Patent Type": "Granted Patent",
+                "Publication Date": "1998-5-12",
+                "Family Info": "CA2177854A1,CN1080303C,CN1139454A,DE69434071D1,DE69434071T2,EP0736096A1,EP0736096B1,US5919918,WO1995018229A1",
+                "Patent Title": "Antimicrobial proteins.",
+                "Abstract": "Antimicrobial proteins capable of isolation from seeds of Heuchera or Aesculus show a wide range of antifungal activity and some activity against Gram-positive bacteria. DNA encoding the proteins may be isolated and incorporated into vectors. Plants transformed with this DNA may be produced. The proteins find commercial application as antifungal or antibacterial agents; transformed plants will show increased disease-resistance."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00351",
+            "Peptide Name": "Ct-AMP1 (CtAMP1, C. ternatea-antimicrobial peptide 1; Plant defensin)",
+            "Source": "Clitoria ternatea",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "NLCERASLTWTGNCGNTGHCDTQCRNWESAKHGACHKRGNWKCFCYFDC",
+            "Sequence Length": 49,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Antifungal"
+            ],
+            "Target Organism": "Gram-positive bacterium:Bacillus subtilis (IC50=15 µg/mL).Medium A:Botrytis cinerea (IC50=20 µg/ml), Cladosporium sphaerospermum (IC50=6 µg/ml), Fusarium culmorum (IC50=10 µg/ml), Leptosphaeria maculans (IC50=6 µg/ml), Penicillium digitatum (IC50=20 µg/ml), Trichoderma viride (IC50>100 µg/ml), Septoria tritiei (IC50=2 µg/ml), Verticilium albo-atrum (IC50=2 µg/ml). NOTE:Medium B = 1/2 strength potato dextrose broth.Medium B:Botrytis cinerea (IC50>100 µg/ml), Cladosporium sphaerospermum (IC50=100 µg/ml), Fusarium culmorum (IC50=50 µg/ml), Leptosphaeria maculans (IC50=20 µg/ml), Penicillium digitatum (IC50=80 µg/ml), Trichoderma viride (IC50>100 µg/ml), Septoria tritiei (IC50=80 µg/ml), Verticilium albo-atrum (IC50>100 µg/ml).NOTE:Medium B = Medium A supplemented with 1 mM CaCl2 and 50 mM KCI.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C234H344N76O71S8",
+            "Mass": 5614.22,
+            "PI": 8.21,
+            "Net Charge": 5,
+            "Hydrophobicity": -0.85,
+            "Half Life": "Mammalian:1.4 hourYeast:3 minE.coli:>10 hour",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Isolation and characterisation of plant defensins from seeds of Asteraceae, Fabaceae, Hippocastanaceae and Saxifragaceae.",
+                    "Pubmed ID": "7628617",
+                    "Reference": "FEBS Lett. 1995 Jul 17;368(2)257-262.",
+                    "Author": "Osborn RW, De Samblanx GW, Thevissen K, Goderis I, Torrekens S, Van Leuven F, Attenborough S, Rees SB, Broekaert WF.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=7628617"
+                }
+            ],
+            "Frequent Amino Acids": "CGN",
+            "Absent Amino Acids": "IMOPUV",
+            "Basic Residues": 9,
+            "Acidic Residues": 4,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 33,
+            "Positive Residues": 9,
+            "Negative Residues": 4,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_08081",
+                    "Similarity": 1.0,
+                    "Sequence": "NLCERASLTWTGNCGNTGHCDTQCRNWESAKHGACHKRGINWKCFCYFDC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00355",
+                    "Similarity": 0.9795918367346939,
+                    "Sequence": "NLCERASLTWTGNCGNTGHCDTQCRNWESAKHGACHKRGNWKCFCYFNC"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_08285",
+                    "Similarity": 0.9183673469387755,
+                    "Sequence": "NLCERASLTWTGNCGNTGHCDTKCRNWEGAKHGACHKRNGKWKCFCYFNC"
+                }
+            ]
+        }
+    }
+}

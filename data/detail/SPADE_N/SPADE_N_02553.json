@@ -1,0 +1,80 @@
+{
+    "SPADE_N_02553": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02553",
+            "Peptide Name": "PtALF7 (Portunus trituberculatus anti-lipopolysaccharide factor isoform 7; crabs, Arthropods, ani",
+            "Source": "Portunus trituberculatus (Swimming Crab)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "MRKGVVTGLFVALVVMCLYLPQPCEAQYEALTAAILTKLSKMWHSDTLNFLGHTCHVSRTPTVKRFKLYWKGKFWCPGWA",
+            "Sequence Length": 80,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-negative bacteria:Vibrio alginolyticus (MIC=0.51-1.02 µM), Edwardsiella tarda (MIC=2.04-4.07 µM), Pseudomonas aeruginosa (MIC=1.02-2.04 µM);Gram-positive bacteria:Micrococcus luteus (MIC=32.59-65.19 µM), Staphylococcus aureus (MIC=8.15-16.30 µM).Fungi:Pichia pastoris (MIC>130.37 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Lipopolysaccharide (LPS)-binding",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C426H655N109O103S7",
+            "Mass": 9175.88,
+            "PI": 9.59,
+            "Net Charge": 10,
+            "Hydrophobicity": 0.19,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "Contains a signal peptide and an LPS-binding Domain (CHVSRTPTVKRFKLYWKGKFWC) and two conserved cysteine residues which can form a disulfide bridge.",
+            "Literature": [
+                {
+                    "Title": "Multiple isoforms of immune-related genes from hemocytes and eyestalk cDNA libraries of swimming crab Portunus trituberculatus.",
+                    "Pubmed ID": "21362485",
+                    "Reference": "Fish Shellfish Immunol. 2011 Jul;31(1)29-42.",
+                    "Author": "Liu Y, Cui Z, Song C, Wang S, Li Q.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=21362485"
+                },
+                {
+                    "Title": "Molecular cloning, genomic structure and antimicrobial activity of PtALF7, a unique isoform of anti-lipopolysaccharide factor from the swimming crab Portunus trituberculatus.",
+                    "Pubmed ID": "23261507",
+                    "Reference": "Fish Shellfish Immunol. 2013 Feb;34(2)652-659.",
+                    "Author": "Liu Y, Cui Z, Li X, Song C, Shi G, Wang C.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=23261507"
+                }
+            ],
+            "Frequent Amino Acids": "LKT",
+            "Absent Amino Acids": "OU",
+            "Basic Residues": 13,
+            "Acidic Residues": 3,
+            "Hydrophobic Residues": 42,
+            "Polar Residues": 46,
+            "Positive Residues": 13,
+            "Negative Residues": 3,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_15830",
+                    "Similarity": 1.0,
+                    "Sequence": "QYEALTAAILTKLSKMWHSDTLNFLGHTCHVSRTPTVKRFKLYWKGKFWCPGWAPFSGTSRTKSRSGSAREATKSFVDQALQRRLITQQEADLWLKG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15828",
+                    "Similarity": 0.660377358490566,
+                    "Sequence": "YEALVASILGKLSGLWHSDTVDFMGHTCHIRRRPKFRKFKLYHEGKFWCPGWTHLEGNSRTKSRSGSARDAIKDFVYKALQNKLITENNAAAWLK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09797",
+                    "Similarity": 0.5925925925925926,
+                    "Sequence": "QYEALVTSILGKLTGLWHNDSVDFMGHICYFRRRPKIRRFKLYHEGKFWCPGWAPFEGRCKYCVVF"
+                }
+            ]
+        }
+    }
+}

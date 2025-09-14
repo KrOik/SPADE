@@ -1,0 +1,87 @@
+{
+    "SPADE_N_02469": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 5459235 A",
+                "Patent Link": "http://www.lens.org/lens/patent/US_5459235_A",
+                "Patent Type": "Granted Patent",
+                "Publication Date": "1995-10-17",
+                "Family Info": "CA2155739A1,DE69431654D1,DE69431654T2,EP0689550A1,EP0689550A4,EP0689550B1,US5821224,US6211148,WO1994021672A1",
+                "Patent Title": "Antimicrobial peptides antibodies and nucleic acid molecules from bovine neutrophils.",
+                "Abstract": "The present invention provides a new family of cysteine-rich antimicrobial peptides isolated from bovine neutrophils herein named beta defensins. Thirteen structurally homologous peptides were purified to homogeneity from a granule-rich cytoplasmic fraction of purified blood neutrophils. These antimicrobial compounds are useful in human and veterinary medicine, and as agents in agricultural, food science, and industrial applications."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02469",
+            "Peptide Name": "Bovine Beta-defensin 2 (bBD-2; BNBD-2; BNDB-2; mammals, animals)",
+            "Source": "Bos taurus (Bovine)",
+            "Family": "Belongs to the beta-defensin family",
+            "Gene": "DEFB2",
+            "Sequence": "VRNHVTCRINRGFCVPIRCPGRTRQIGTCFGPRIKCCRSW",
+            "Sequence Length": 40,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P46160"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-positive bacterium:Staphylococcus aureus 502A (MIC=10-300 µg/ml);Gram-negative bacterium:Escherichia coli ML35 (MIC=10-300 µg/ml).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C197H325N71O48S6",
+            "Mass": 4648.52,
+            "PI": 11.2,
+            "Net Charge": 10,
+            "Hydrophobicity": -0.32,
+            "Half Life": "Mammalian:100 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Has bactericidal activity. Active against E. coli ML35 and S. aureus 502A.",
+            "Tissue specificity": "Neutrophilic granules.",
+            "PTM": "Contains three disulfide bonds 7-36; 14-29; 19-37. (By similarity)",
+            "Literature": [
+                {
+                    "Title": "Purification, primary structures, and antibacterial activities of Beta-defensins, a new family of antimicrobial peptides from bovine neutrophils.",
+                    "Pubmed ID": "8454635",
+                    "Reference": "J Biol Chem. 1993 Mar 25;268(9)6641-6648.",
+                    "Author": "Selsted ME, Tang YQ, Morris WL, McGuire PA, Novotny MJ, Smith W, Henschen AH, Cullor JS.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=8454635"
+                }
+            ],
+            "Frequent Amino Acids": "RCG",
+            "Absent Amino Acids": "ADELMOUY",
+            "Basic Residues": 10,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 26,
+            "Positive Residues": 10,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02470",
+                    "Similarity": 1.0,
+                    "Sequence": "EGVRNHVTCRINRGFCVPIRCPGRTRQIGTCFGPRIKCCRSW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05830",
+                    "Similarity": 1.0,
+                    "Sequence": "QGVRNHVTCRINRGFCVPIRCPGRTRQIGTCFGPRIKCCRSW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07892",
+                    "Similarity": 1.0,
+                    "Sequence": "LALLFLVLSAGSGFTQGVRNHVTCRINRGFCVPIRCPGRTRQIGTCFGPRIKCCRSW"
+                }
+            ]
+        }
+    }
+}

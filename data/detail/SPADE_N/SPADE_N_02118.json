@@ -1,0 +1,76 @@
+{
+    "SPADE_N_02118": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02118",
+            "Peptide Name": "Armadillidin (Glyc-rich)",
+            "Source": "Armadillidium vulgare (Pillbug) (Pill woodlouse)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "GHLGRPYIGGGGGFNRGGGFHRGGGFHRGGGFHSGGGFHRGGGFHSGGSFGYR",
+            "Sequence Length": 53,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q64HC7"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-positive bacteria:Bacillus megaterium LM101 (MIC=0.5-1.25 µM), Enterococcus faecalis LM002, Micrococcus luteus LM610, Listeria ivanovii BUG496;Gram-negative bacteria:Escherichia coli JM83, Salmonella thyphimurium LM122, Enterobacter cloacae LM111, Citrobacter freundii LM457.NOTE:Because of the low amount of the purified peptide, this minimal concentration activity is only tested on B. megaterium.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C233H322N84O60",
+            "Mass": 5259.58,
+            "PI": 12.0,
+            "Net Charge": 12,
+            "Hydrophobicity": -0.72,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Has antibacterial activity against the Gram-positive bacterium B. megaterium LM101.",
+            "Tissue specificity": "Expressed in hemocytes and at very low levels in ovary. Not expressed in adipose tissue, brain, caecum, gut, heart and nervous chain.",
+            "Literature": [
+                {
+                    "Title": "Armadillidin a novel glycine-rich antibacterial peptide directed against Gram-positive bacteria in the woodlouse Armadillidium vulgare (terrestrial isopod, crustacean).",
+                    "Pubmed ID": "15752546",
+                    "Reference": "Dev Comp Immunol. 2005;29(6)489-499.",
+                    "Author": "Herbinière J, Braquart-Varnier C, Grève P, Strub JM, Frère J, Van Dorsselaer A, Martin G.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=15752546"
+                }
+            ],
+            "Frequent Amino Acids": "GFH",
+            "Absent Amino Acids": "ACDEKMOQTUVW",
+            "Basic Residues": 12,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 18,
+            "Positive Residues": 12,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07544",
+                    "Similarity": 1.0,
+                    "Sequence": "MKFFALFSFFVLCVALATAGHLGRPYIGGGGGFNRGGGFHRGGGFHRGGGFHSGGGFHRGGGFHSGGSFGYRG"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_01709",
+                    "Similarity": 1.0,
+                    "Sequence": "GGGG"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_08791",
+                    "Similarity": 1.0,
+                    "Sequence": "GGGG"
+                }
+            ]
+        }
+    }
+}

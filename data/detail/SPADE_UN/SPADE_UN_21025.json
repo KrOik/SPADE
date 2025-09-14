@@ -1,0 +1,59 @@
+{
+    "SPADE_UN_21025": {
+        "Sequence Information": {
+            "Peptide Name": "D-Cathelicidin-1 [R2D-LYS-C10], D-Bactenecin-1 [R2D-LYS-C10]",
+            "Sequence": "RXCRIVVIRVCR",
+            "Sequence Length": 12,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P22226",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P22226",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                },
+                {
+                    "uniprotId": "L8HPZ1",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/L8HPZ1",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "A significantly enhanced antibacterial spectrum of D-enantiomeric lipopeptide bactenecin.",
+                    "Pubmed ID": "31056261",
+                    "Reference": "Biochem Biophys Res Commun. 2019;:",
+                    "Author": "Sim JY, Kim S, Lee J, Lim H, Kim HH, Park ZY, Kim JI",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/31056261"
+                }
+            ],
+            "SPADE ID": "SPADE_UN_21025",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00562",
+                    "Similarity": 1.0,
+                    "Sequence": "LMDSMPQRHPVEGWCKRPLPNQKPGPCNNDRCSARCKEQKQFEFKGGKAMGICSSENRCLCTFRCR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00578",
+                    "Similarity": 1.0,
+                    "Sequence": "MSNGMPRTVPCIEGRILWNRTLPCSSILCGDHCVPHGYRAGTCDIVNDRAICKCSRCR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02532",
+                    "Similarity": 1.0,
+                    "Sequence": "KWCFRVCYRGICYRRCR"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:2.1% Hemolysis=100 µM",
+            "Target Organism": "Escherichia coli KCTC 1682(MIC=1-2µM),Salmonella typhimurium KCTC 1926(MIC=1-2µM),Pseudomonas aeruginosa KCTC 1637(MIC=2-4µM),Pseudomonas aeruginosa CCARM 2180(MIC=2-4µM),Acinetobacter baumannii KCCM 1053(MIC=2-4µM),Acinetobacter baumannii ATCC BAA-1605(MIC=4-8µM),Staphylococcus aureus KCTC 1621(MIC=4-8µM),Staphylococcus aureus KCCM 40510(MIC=2-4µM),Staphylococcus epidermidis KCTC 1917(MIC=1-2µM),Bacillus subtilis KCTC 3068(MIC=1-2µM),Enterococcus faecalis KCCM 11814(MIC=4µM),Enterococcus faecalis ATCC 51575(MIC=1-2µM)"
+        }
+    }
+}

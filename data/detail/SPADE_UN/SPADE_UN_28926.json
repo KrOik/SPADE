@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_28926": {
+        "Sequence Information": {
+            "Peptide Name": "Gaegurin 5 (1-11)[G3W]",
+            "Sequence": "FLWALFKVASK",
+            "Sequence Length": 11,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P80399",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P80399",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Systematic peptide engineering and structural characterization to search for the shortest antimicrobial peptide analogue of gaegurin 5",
+                    "Pubmed ID": "14739294",
+                    "Reference": "J Biol Chem. 2004;279:14784-14791",
+                    "Author": "Won HS, Jung SJ, Kim HE, Seo MD, Lee BJ",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/14739294"
+                }
+            ],
+            "Mass": 1309.6,
+            "PI": 10.0,
+            "Net Charge": 2,
+            "Hydrophobicity": 1.05,
+            "Frequent Amino Acids": "AFK",
+            "Absent Amino Acids": "CDEGHIMNOPQRTUY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 4,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_28926",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_28926",
+                    "Similarity": 1.0,
+                    "Sequence": "FLWALFKVASK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08509",
+                    "Similarity": 1.0,
+                    "Sequence": "ALFKVASKVLPSV"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15486",
+                    "Similarity": 1.0,
+                    "Sequence": "ALF"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=100 µg/ml",
+            "Target Organism": "Bacillus subtilis(MIC=12.5µg/ml),Micrococcus luteus(MIC=50µg/ml),Staphylococcus aureus(MIC=12.5µg/ml),Staphylococcus epidermidis(MIC=25µg/ml),Escherichia coli(MIC=100µg/ml),Shigella dysenteriae(MIC=>200µg/ml),Salmonella typhimurium(MIC=>200µg/ml),Klebsiella pneumoniae(MIC=100µg/ml),Proteus mirabilis(MIC=>200µg/ml),Pseudomonas aeruginosa(MIC=>200µg/ml)"
+        }
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_24340": {
+        "Sequence Information": {
+            "Peptide Name": "Mastoparan-T (4-14) [L13F], MpVT4",
+            "Sequence": "KAIAAFAKKFI",
+            "Sequence Length": 11,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P0C1Q7",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P0C1Q7",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "In Silico and In Vitro Structure-Activity Relationship of Mastoparan and Its Analogs.",
+                    "Pubmed ID": "35056876",
+                    "Reference": "Molecules. 2022;27:561",
+                    "Author": "Rungsa P, Peigneur S, Jangpromma N, Klaynongsruang S, Tytgat J, Daduang S",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/35056876"
+                }
+            ],
+            "Mass": 1207.51,
+            "PI": 10.3,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.92,
+            "Frequent Amino Acids": "AKF",
+            "Absent Amino Acids": "CDEGHLMNOPQRSTUVWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 3,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_24340",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03090",
+                    "Similarity": 1.0,
+                    "Sequence": "RWKIFKKIEKMGRNIRDGIVKAGPAIEVLGSAKAI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08436",
+                    "Similarity": 1.0,
+                    "Sequence": "KIGKAIKWGKAIKIGKAI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10213",
+                    "Similarity": 1.0,
+                    "Sequence": "RMKKLGNHKVSCERNTKRCRKAI"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:5% Hemolysis=100 µg/ml",
+            "Target Organism": "Pseudomonas aeruginosa ATCC 27853(MIC=25µg/ml),Staphylococcus aureus ATCC 25923(MIC=>50µg/ml),Bacillus subtilis ATCC 6633(MIC=>50µg/ml),Escherichia coli O157:H7(MIC=>50µg/ml),Escherichia coli DH5alpha(MIC=25µg/ml),Klebsiella pneumoniae ATCC 27736(MIC=>50µg/ml)"
+        }
+    }
+}

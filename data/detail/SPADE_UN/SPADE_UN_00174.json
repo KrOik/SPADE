@@ -1,0 +1,76 @@
+{
+    "SPADE_UN_00174": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_00174",
+            "Peptide Name": "Pleurocidin-like peptide AP1 (NRC-11; fish, chordates, animals; Predicted)",
+            "Source": "Hippoglossoides platessoides (American plaice AP1)",
+            "Family": "Not found",
+            "Gene": "ple",
+            "Sequence": "GWKSVFRKAKKVGKTVGGLALDHYLG",
+            "Sequence Length": 26,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q7SZH4"
+            ],
+            "Protein Existence": "Predicted",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "Gram-negative bacteria:Aeromonas salmonicida 99-1 (MIC=8 µg/ml), A. salmonicida 97-4 (MIC=8 µg/ml), Salmonella enterica serovar Typhimurium MS7953s (MIC=4 µg/ml), S. enterica serovar Typhimurium 14028s (MIC=32 µg/ml), Pseudomonas aeruginosa K799 (MIC=32 µg/ml), Pseudomonas aeruginosa Z61 (MIC=4 µg/ml), Escherichia coli CGSC 4908 (MIC=4 µg/ml), E. coli UB1005 (MIC=16µg/ml), E. coli DC2 (MIC=4 µg/ml);Gram-positive bacteria:Staphylococcus epidermidis C621 (MIC=64 µg/ml), Staphylococcus aureus (MRSA) C623 (MIC>64 µg/ml).Yeast:Candida albicans C627 (MIC=32 µg/ml).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C131H211N37O32",
+            "Mass": 2816.31,
+            "PI": 10.3,
+            "Net Charge": 6,
+            "Hydrophobicity": -0.23,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Novel antimicrobial peptides derived from flatfish genes.",
+                    "Pubmed ID": "12878506",
+                    "Reference": "Antimicrob Agents Chemother. 2003 Aug;47(8)2464-2470.",
+                    "Author": "Patrzykat A, Gallant JW, Seo JK, Pytyck J, Douglas SE.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=12878506"
+                }
+            ],
+            "Frequent Amino Acids": "GKL",
+            "Absent Amino Acids": "CEIMNOPQU",
+            "Basic Residues": 7,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 15,
+            "Positive Residues": 7,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_04057",
+                    "Similarity": 1.0,
+                    "Sequence": "MKFTATFLMLFIFVLMVEPGECGWKSVFRKAKKVGKTVGGLALDHYLGEQQELDKRAVDEDPSIVFD"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07947",
+                    "Similarity": 1.0,
+                    "Sequence": "MKFTATFLMLFIFVLMVEPGECGWKSVFRKAKKVGKTVGGLALDHYLGEQQELDKRAVDEDPSAIVFD"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_01320",
+                    "Similarity": 1.0,
+                    "Sequence": "GWKSVFRKAKKVGKTVGGLALDHYL"
+                }
+            ]
+        }
+    }
+}

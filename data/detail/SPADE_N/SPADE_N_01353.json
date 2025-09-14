@@ -1,0 +1,73 @@
+{
+    "SPADE_N_01353": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01353",
+            "Peptide Name": "Esculentin-2-ALb (Frogs, amphibians, animals)",
+            "Source": "Amolops loloensis",
+            "Family": "Belongs to the frog skin active peptide family (Brevinin subfamily)",
+            "Gene": "Not found",
+            "Sequence": "GIFSLIKTAAKFVGKNLLKQAGKAGVEHLACKANNQC",
+            "Sequence Length": 37,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.19843479]Gram-positive bacteria:Staphylococcus aureus ATCC2592 (MIC=1.25 µg/mL), Bacillus pumilus (MIC=2.5 µg/mL), Bacillus cereus (MIC=7.5 µg/mL);Gram-negative bacteria:Escherichia coli ATCC25922 (MIC=12.5 µg/mL), Bacillus dysenteriae (MIC=7.5 µg/mL), Acinetobacter calcoaceticus (MIC=12.5 µg/mL), Psecdomonas aeruginosa (MIC=50 µg/mL);Yeast:Candida albicans ATCC2002 (MIC=2.5 µg/mL).",
+            "Hemolytic Activity": "[Ref:19843479] It has 17% hemolytic activity at 100 μg/mL against rabbit red blood cells",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Cyclization (Cys31 and Cys37)",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C172H288N50O47S2",
+            "Mass": 3872.56,
+            "PI": 9.79,
+            "Net Charge": 6,
+            "Hydrophobicity": 0.09,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Esculentin-2-Alb exhibits hemolytic activity against rabbit red blood cells.",
+            "Literature": [
+                {
+                    "Title": "Five novel antimicrobial peptides from skin secretions of the frog, Amolops loloen.",
+                    "Pubmed ID": "19843479",
+                    "Reference": "Comp Biochem Physiol B Biochem Mol Biol. 2010 Jan;155(1)72-76.",
+                    "Author": "Wang M, Wang Y, Wang A, Song Y, Ma D, Yang H, Ma Y, Lai R.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=19843479"
+                }
+            ],
+            "Frequent Amino Acids": "AKG",
+            "Absent Amino Acids": "DMOPRUWY",
+            "Basic Residues": 7,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 16,
+            "Polar Residues": 24,
+            "Positive Residues": 7,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01228",
+                    "Similarity": 1.0,
+                    "Sequence": "MFTMKKSLLLLFFLGTISLSLCEEERSADEDDGEKGVKRGIFSLIKTAAKFVGKNLLKQAGKAGVEHLACKANNQC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03470",
+                    "Similarity": 0.972972972972973,
+                    "Sequence": "MFTLKKSMLLLFFLGTISLSLCEEERSADEDDGEKEVKRGIFSLIKTAAKFVGKNLLKQAGKAGMEHLACKANNQC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15915",
+                    "Similarity": 0.972972972972973,
+                    "Sequence": "GIFSLIKTAAKFVGKNLLKQAGKAGLEHLACKANNQC"
+                }
+            ]
+        }
+    }
+}

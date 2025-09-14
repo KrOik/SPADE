@@ -1,0 +1,67 @@
+{
+    "SPADE_N_05517": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_05517",
+            "Peptide Name": "PseA(Bacteriocin)",
+            "Source": "Bacillus pseudomycoides DSM 12442",
+            "Family": "Belongs to the lantibiotics family (Class I bacteriocin)",
+            "Gene": "Not found",
+            "Sequence": "GDCGGTCTWTKDCSICPSWSCWSWSC",
+            "Sequence Length": 26,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+"
+            ],
+            "Target Organism": "Gram-positive",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "This antibiotic with four thioether rings and a disulfide bond. The leader sequence shows highest (37%) similarity to the leader sequence of mersacidin.The N terminus of the corepeptide contains the conserved lipid II binding motif of class II lantibiotics (TxS/TxE/DC) and, interestingly, the C terminus of the core peptide contains two SWSC motifs. Such motifs also are found in the heterocycloanthracins.",
+            "Formula": "C120H167N31O39S6",
+            "Mass": 2860.18,
+            "PI": 4.21,
+            "Net Charge": -1,
+            "Hydrophobicity": -0.15,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Pseudomycoicidin, a Class II Lantibiotic from Bacillus pseudomycoides.",
+                    "Pubmed ID": "25769830",
+                    "Reference": "Appl Environ Microbiol. 2015 May 15;81(10)3419-29.",
+                    "Author": "Basi-Chipalu S, Dischinger J, Josten M, Szekat C, Zweynert A, Sahl HG, Bierbaum G.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=25769830"
+                }
+            ],
+            "Frequent Amino Acids": "CSW",
+            "Absent Amino Acids": "AEFHLMNOQRUVY",
+            "Basic Residues": 1,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 15,
+            "Positive Residues": 1,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_15749",
+                    "Similarity": 0.7777777777777778,
+                    "Sequence": "PICTRNGLPVCGETCFGGTCNTPGCTCTW"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_15786",
+                    "Similarity": 0.5,
+                    "Sequence": "FISWSSWSVI"
+                }
+            ]
+        }
+    }
+}

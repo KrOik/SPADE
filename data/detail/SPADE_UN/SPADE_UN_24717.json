@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_24717": {
+        "Sequence Information": {
+            "Peptide Name": "[(C10)C5] BP214",
+            "Sequence": "KKLFKKGILRYK",
+            "Sequence Length": 12,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "C-Locked Analogs of the Antimicrobial Peptide BP214.",
+                    "Pubmed ID": "36009951",
+                    "Reference": "Antibiotics (Basel). 2022;11:1080",
+                    "Author": "Andersen IKL, Thomsen TT, Rashid J, Bobak TR, Oddo A, Franzyk H, Løbner-Olesen A, Hansen PR",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/36009951"
+                }
+            ],
+            "Mass": 1521.93,
+            "PI": 10.68,
+            "Net Charge": 6,
+            "Hydrophobicity": -0.9,
+            "Frequent Amino Acids": "KLF",
+            "Absent Amino Acids": "ACDEHMNOPQSTUVW",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 4,
+            "Polar Residues": 8,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_24717",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02049",
+                    "Similarity": 1.0,
+                    "Sequence": "FIGGIISLIKKLF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02050",
+                    "Similarity": 1.0,
+                    "Sequence": "FIGGIISFIKKLF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08877",
+                    "Similarity": 1.0,
+                    "Sequence": "ILGKIWKPIKKLF"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:59% Hemolysis=150 µM",
+            "Target Organism": "Staphylococcus aureus ATCC 29213(MIC=4µg/ml),Escherichia coli ATCC 25922(MIC=8µg/ml),Klebsiella pneumoniae ATCC 13883(MIC=16µg/ml),Acinetobacter baumannii ATCC 19606(MIC=4µg/ml),Pseudomonas aeruginosa ATCC 27853(MIC=8µg/ml)"
+        }
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "SPADE_UN_13434": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_13434",
+            "Peptide Name": "P5",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "N/A",
+            "Sequence": "RIVQRIKKWLLKWKKLGY",
+            "Sequence Length": 18,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic form",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.31778756] Gram-negative bacteria:P. aeruginosa (MIC = 64 μg/mL, MBC = 128 μg/mL);Gram-positive bacteria:S. aureus (MIC = 16 µg/mL, MBC = 64 μg/mL)",
+            "Hemolytic Activity": "[Ref.31778756]P5 displayed less than 10% hemolysis in all the range tested (0-1024 μg/mL)",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Bacterial cytoplasmic membranes",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C115H190N32O21",
+            "Mass": 2356.94,
+            "PI": 11.26,
+            "Net Charge": 7,
+            "Hydrophobicity": -0.61,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Comments": "This new peptide could be good candidates for future drug development for anti-biofilm and anti-infective therapy.",
+            "Literature": [
+                {
+                    "Title": "Antibacterial, anti-biofilm and in vivo activities of the antimicrobial peptides P5 and P6.2",
+                    "Pubmed ID": "31778756",
+                    "Reference": "Microb Pathog. 2020 Feb;139103886. doi 10.1016/j.micpath.2019.103886. Epub 2019 Nov 25.",
+                    "Author": "Martínez M, Polizzotto A, Flores N, Semorile L, Maffía PC",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=31778756"
+                },
+                {
+                    "Title": "Antimicrobial activity of de novo designed cationic peptides against multi-resistant clinical isolates",
+                    "Pubmed ID": "",
+                    "Author": "Faccone D, Veliz O, Corso A, noguera M, Martinez M, Payes C, Semorile L, Maffia PC"
+                }
+            ],
+            "Frequent Amino Acids": "KLI",
+            "Absent Amino Acids": "ACDEFHMNOPSTU",
+            "Basic Residues": 7,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 10,
+            "Positive Residues": 7,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03128",
+                    "Similarity": 1.0,
+                    "Sequence": "LLGDFFRKSKEKIGKEFKRIVQR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04253",
+                    "Similarity": 1.0,
+                    "Sequence": "LLGDFFRKSKEKIGKEFKRIVQRIK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04254",
+                    "Similarity": 1.0,
+                    "Sequence": "LLGDFFRKSKEKIGKEFKRIVQRI"
+                }
+            ]
+        }
+    }
+}

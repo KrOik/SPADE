@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPADE 优化数据加载演示</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        .card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .controls {
+            margin-bottom: 20px;
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        button {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #2980b9;
+        }
+        input[type="text"] {
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            width: 250px;
+        }
+        .results {
+            margin-top: 20px;
+        }
+        .peptide-item {
+            border: 1px solid #eee;
+            border-radius: 4px;
+            padding: 10px;
+            margin-bottom: 10px;
+            background-color: #f9f9f9;
+        }
+        .peptide-item h3 {
+            margin-top: 0;
+            color: #2c3e50;
+        }
+        .peptide-sequence {
+            font-family: monospace;
+            background-color: #f0f0f0;
+            padding: 5px;
+            border-radius: 3px;
+            overflow-wrap: break-word;
+        }
+        .loading {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid rgba(0,0,0,0.3);
+            border-radius: 50%;
+            border-top-color: #3498db;
+            animation: spin 1s ease-in-out infinite;
+            margin-left: 10px;
+            vertical-align: middle;
+        }
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        .stats {
+            background-color: #f8f9fa;
+            border-left: 4px solid #3498db;
+            padding: 10px 15px;
+            margin-bottom: 20px;
+        }
+        .tabs {
+            display: flex;
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 20px;
+        }
+        .tab {
+            padding: 10px 20px;
+            cursor: pointer;
+            border: 1px solid transparent;
+        }
+        .tab.active {
+            border: 1px solid #ddd;
+            border-bottom-color: white;
+            border-radius: 4px 4px 0 0;
+            margin-bottom: -1px;
+            background-color: white;
+        }
+        .tab-content {
+            display: none;
+        }
+        .tab-content.active {
+            display: block;
+        }
+        #loadingProgress {
+            width: 100%;
+            height: 20px;
+            background-color: #f0f0f0;
+            border-radius: 4px;
+            margin-top: 10px;
+            overflow: hidden;
+        }
+        #progressBar {
+            height: 100%;
+            background-color: #3498db;
+            width: 0%;
+            transition: width 0.3s;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>SPADE 优化数据加载演示</h1>
+        
+        <div class="tabs">
+            <div class="tab active" data-tab="search">搜索肽</div>
+            <div class="tab" data-tab="details">肽详情</div>
+            <div class="tab" data-tab="performance">性能测试</div>
+        </div>
+        
+        <div id="searchTab" class="tab-content active">
+            <div class="card">
+                <h2>肽搜索</h2>
+                <div class="controls">
+                    <input type="text" id="searchInput" placeholder="输入关键词、序列或ID...">
+                    <select id="searchField">
+                        <option value="name">名称</option>
+                        <option value="sequence">序列</option>
+                        <option value="id">ID</option>
+                    </select>
+                    <button id="searchButton">搜索</button>
+                </div>
+                <div class="stats" id="searchStats"></div>
+                <div class="results" id="searchResults"></div>
+            </div>
+        </div>
+        
+        <div id="detailsTab" class="tab-content">
+            <div class="card">
+                <h2>肽详情</h2>
+                <div class="controls">
+                    <input type="text" id="peptideId" placeholder="输入肽ID (例如: SPADE_N_00001)">
+                    <button id="loadDetailButton">加载详情</button>
+                </div>
+                <div id="peptideDetails"></div>
+            </div>
+        </div>
+        
+        <div id="performanceTab" class="tab-content">
+            <div class="card">
+                <h2>性能测试</h2>
+                <div class="controls">
+                    <button id="loadMetadataButton">加载元数据</button>
+                    <button id="loadFirstChunkButton">加载第一个块</button>
+                    <button id="loadAllChunksButton">加载所有块</button>
+                    <button id="runSearchTestButton">运行搜索测试</button>
+                </div>
+                <div id="loadingProgress">
+                    <div id="progressBar"></div>
+                </div>
+                <div class="stats" id="performanceStats"></div>
+                <pre id="performanceResults"></pre>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // 全局变量
+        let chunkedIndexLoader = null;
+        let metadata = null;
+        
+        // 初始化函数
+        async function init() {
+            try {
+                // 动态加载脚本
+                await loadScript('./data/optimized/chunks/chunked_loader.js');
+                
+                // 初始化加载器
+                chunkedIndexLoader = window.chunkedIndexLoader;
+                if (chunkedIndexLoader) {
+                    console.log('分块索引加载器已初始化');
+                }
+            } catch (error) {
+                console.error('初始化失败:', error);
+                alert('初始化失败，请确保已运行数据优化脚本并生成了优化数据。');
+            }
+        }
+        
+        // 动态加载脚本
+        function loadScript(src) {
+            return new Promise((resolve, reject) => {
+                const script = document.createElement('script');
+                script.src = src;
+                script.onload = () => resolve();
+                script.onerror = () => reject(new Error(`加载脚本失败: ${src}`));
+                document.head.appendChild(script);
+            });
+        }
+        
+        // 搜索功能
+        async function searchPeptides() {
+            const searchInput = document.getElementById('searchInput').value.trim();
+            const searchField = document.getElementById('searchField').value;
+            const searchResults = document.getElementById('searchResults');
+            const searchStats = document.getElementById('searchStats');
+            
+            if (!searchInput) {
+                alert('请输入搜索关键词');
+                return;
+            }
+            
+            searchResults.innerHTML = '<div class="loading"></div> 正在搜索...';
+            searchStats.innerHTML = '';
+            
+            try {
+                const startTime = performance.now();
+                
+                let results;
+                if (searchField === 'id' && searchInput.length > 3) {
+                    // 使用ID精确查找
+                    const entry = await chunkedIndexLoader.getEntryById(searchInput);
+                    results = entry ? [entry] : [];
+                } else {
+                    // 使用关键词搜索
+                    results = await chunkedIndexLoader.searchInChunks(searchInput, searchField);
+                }
+                
+                const endTime = performance.now();
+                const searchTime = (endTime - startTime).toFixed(2);
+                
+                searchStats.innerHTML = `找到 ${results.length} 个结果，搜索耗时 ${searchTime} 毫秒`;
+                
+                if (results.length === 0) {
+                    searchResults.innerHTML = '<p>未找到匹配的肽</p>';
+                    return;
+                }
+                
+                // 显示结果
+                searchResults.innerHTML = '';
+                results.slice(0, 50).forEach(peptide => {
+                    const peptideElement = document.createElement('div');
+                    peptideElement.className = 'peptide-item';
+                    peptideElement.innerHTML = `
+                        <h3>${peptide.name || '未命名'} (${peptide.id})</h3>
+                        <p><strong>序列:</strong> <span class="peptide-sequence">${peptide.sequence}</span></p>
+                        <p><strong>长度:</strong> ${peptide.length}</p>
+                        <p><strong>活性:</strong> ${Array.isArray(peptide.activity) ? peptide.activity.join(', ') : peptide.activity || '未知'}</p>
+                        <button class="view-details" data-id="${peptide.id}">查看详情</button>
+                    `;
+                    searchResults.appendChild(peptideElement);
+                });
+                
+                // 添加详情按钮事件
+                document.querySelectorAll('.view-details').forEach(button => {
+                    button.addEventListener('click', function() {
+                        const id = this.getAttribute('data-id');
+                        document.getElementById('peptideId').value = id;
+                        document.querySelector('[data-tab="details"]').click();
+                        loadPeptideDetails(id);
+                    });
+                });
+                
+                if (results.length > 50) {
+                    const moreInfo = document.createElement('p');
+                    moreInfo.textContent = `显示前50个结果，共找到 ${results.length} 个匹配项`;
+                    searchResults.appendChild(moreInfo);
+                }
+                
+            } catch (error) {
+                console.error('搜索出错:', error);
+                searchResults.innerHTML = `<p>搜索出错: ${error.message}</p>`;
+            }
+        }
+        
+        // 加载肽详情
+        async function loadPeptideDetails(id = null) {
+            const peptideId = id || document.getElementById('peptideId').value.trim();
+            const detailsContainer = document.getElementById('peptideDetails');
+            
+            if (!peptideId) {
+                alert('请输入肽ID');
+                return;
+            }
+            
+            detailsContainer.innerHTML = '<div class="loading"></div> 正在加载详情...';
+            
+            try {
+                // 先从索引中获取基本信息
+                const indexEntry = await chunkedIndexLoader.getEntryById(peptideId);
+                if (!indexEntry) {
+                    detailsContainer.innerHTML = '<p>未找到该ID的肽</p>';
+                    return;
+                }
+                
+                // 加载基础数据
+                const basicDataUrl = `./data/optimized/basic/${peptideId}.json`;
+                const basicResponse = await fetch(basicDataUrl);
+                
+                if (!basicResponse.ok) {
+                    throw new Error(`加载基础数据失败: HTTP ${basicResponse.status}`);
+                }
+                
+                const basicData = await basicResponse.json();
+                const peptideData = basicData[peptideId];
+                
+                // 显示基础数据
+                let detailsHtml = `
+                    <div class="card">
+                        <h3>${peptideData.basic["Peptide Name"] || '未命名'} (${peptideId})</h3>
+                        <p><strong>序列:</strong> <span class="peptide-sequence">${peptideData.basic.Sequence || ''}</span></p>
+                        <p><strong>长度:</strong> ${peptideData.basic["Sequence Length"] || peptideData.basic.Sequence?.length || '未知'}</p>
+                        <p><strong>来源:</strong> ${peptideData.basic.Source || '未知'}</p>
+                        <p><strong>生物活性:</strong> ${Array.isArray(peptideData.basic["Biological Activity"]) ? peptideData.basic["Biological Activity"].join(', ') : peptideData.basic["Biological Activity"] || '未知'}</p>
+                        <p><strong>目标生物:</strong> ${peptideData.basic["Target Organism"] || '未知'}</p>
+                        <p><strong>线性/环状:</strong> ${peptideData.basic["Linear/Cyclic"] || '未知'}</p>
+                        <button id="loadExtendedButton" data-url="${peptideData.extended_data_url}">加载扩展数据</button>
+                    </div>
+                    <div id="extendedDataContainer"></div>
+                `;
+                
+                detailsContainer.innerHTML = detailsHtml;
+                
+                // 添加加载扩展数据按钮事件
+                document.getElementById('loadExtendedButton').addEventListener('click', async function() {
+                    const url = this.getAttribute('data-url');
+                    await loadExtendedData(url);
+                });
+                
+            } catch (error) {
+                console.error('加载详情出错:', error);
+                detailsContainer.innerHTML = `<p>加载详情出错: ${error.message}</p>`;
+            }
+        }
+        
+        // 加载扩展数据
+        async function loadExtendedData(url) {
+            const extendedContainer = document.getElementById('extendedDataContainer');
+            extendedContainer.innerHTML = '<div class="loading"></div> 正在加载扩展数据...';
+            
+            try {
+                const extendedDataUrl = `./data/optimized/extended/${url}`;
+                const extendedResponse = await fetch(extendedDataUrl);
+                
+                if (!extendedResponse.ok) {
+                    throw new Error(`加载扩展数据失败: HTTP ${extendedResponse.status}`);
+                }
+                
+                const extendedData = await extendedResponse.json();
+                const peptideId = Object.keys(extendedData)[0];
+                const fullData = extendedData[peptideId];
+                
+                // 格式化显示扩展数据
+                let extendedHtml = '<div class="card"><h3>扩展数据</h3>';
+                
+                // 处理临床信息
+                if (fullData["Clinical Information"]) {
+                    extendedHtml += '<h4>临床信息</h4><ul>';
+                    for (const [key, value] of Object.entries(fullData["Clinical Information"])) {
+                        extendedHtml += `<li><strong>${key}:</strong> ${formatValue(value)}</li>`;
+                    }
+                    extendedHtml += '</ul>';
+                }
+                
+                // 处理专利信息
+                if (fullData["Patent Information"]) {
+                    extendedHtml += '<h4>专利信息</h4><ul>';
+                    for (const [key, value] of Object.entries(fullData["Patent Information"])) {
+                        extendedHtml += `<li><strong>${key}:</strong> ${formatValue(value)}</li>`;
+                    }
+                    extendedHtml += '</ul>';
+                }
+                
+                // 处理序列信息中的扩展字段
+                if (fullData["Sequence Information"]) {
+                    extendedHtml += '<h4>序列详细信息</h4><ul>';
+                    const basicFields = ["SPADE ID", "DRAMP ID", "Peptide Name", "Sequence", "Source", 
+                                       "Biological Activity", "Target Organism", "Linear/Cyclic", "Sequence Length"];
+                    
+                    for (const [key, value] of Object.entries(fullData["Sequence Information"])) {
+                        if (!basicFields.includes(key)) {
+                            extendedHtml += `<li><strong>${key}:</strong> ${formatValue(value)}</li>`;
+                        }
+                    }
+                    extendedHtml += '</ul>';
+                }
+                
+                extendedHtml += '</div>';
+                extendedContainer.innerHTML = extendedHtml;
+                
+            } catch (error) {
+                console.error('加载扩展数据出错:', error);
+                extendedContainer.innerHTML = `<p>加载扩展数据出错: ${error.message}</p>`;
+            }
+        }
+        
+        // 格式化值显示
+        function formatValue(value) {
+            if (value === null || value === undefined) {
+                return '未知';
+            } else if (Array.isArray(value)) {
+                return value.join(', ');
+            } else if (typeof value === 'object') {
+                return JSON.stringify(value);
+            } else {
+                return value.toString();
+            }
+        }
+        
+        // 性能测试函数
+        async function loadMetadata() {
+            const statsElement = document.getElementById('performanceStats');
+            const resultsElement = document.getElementById('performanceResults');
+            
+            statsElement.innerHTML = '正在加载元数据...';
+            
+            try {
+                const startTime = performance.now();
+                metadata = await chunkedIndexLoader.init();
+                const endTime = performance.now();
+                
+                statsElement.innerHTML = `元数据加载完成，耗时 ${(endTime - startTime).toFixed(2)} 毫秒`;
+                resultsElement.innerHTML = JSON.stringify(metadata, null, 2);
+                
+                updateProgressBar(100);
+            } catch (error) {
+                console.error('加载元数据出错:', error);
+                statsElement.innerHTML = `加载元数据出错: ${error.message}`;
+                updateProgressBar(0);
+            }
+        }
+        
+        async function loadFirstChunk() {
+            const statsElement = document.getElementById('performanceStats');
+            const resultsElement = document.getElementById('performanceResults');
+            
+            statsElement.innerHTML = '正在加载第一个块...';
+            updateProgressBar(0);
+            
+            try {
+                const startTime = performance.now();
+                const chunk = await chunkedIndexLoader.loadChunk(0);
+                const endTime = performance.now();
+                
+                statsElement.innerHTML = `第一个块加载完成，包含 ${chunk.length} 个条目，耗时 ${(endTime - startTime).toFixed(2)} 毫秒`;
+                resultsElement.innerHTML = `加载了 ${chunk.length} 个条目\n前5个条目:\n${JSON.stringify(chunk.slice(0, 5), null, 2)}`;
+                
+                updateProgressBar(100);
+            } catch (error) {
+                console.error('加载第一个块出错:', error);
+                statsElement.innerHTML = `加载第一个块出错: ${error.message}`;
+                updateProgressBar(0);
+            }
+        }
+        
+        async function loadAllChunks() {
+            const statsElement = document.getElementById('performanceStats');
+            const resultsElement = document.getElementById('performanceResults');
+            
+            if (!metadata) {
+                await loadMetadata();
+            }
+            
+            const totalChunks = metadata.total_chunks;
+            statsElement.innerHTML = `正在加载所有 ${totalChunks} 个块...`;
+            updateProgressBar(0);
+            
+            try {
+                const startTime = performance.now();
+                
+                // 逐个加载块并更新进度
+                const allData = [];
+                for (let i = 0; i < totalChunks; i++) {
+                    const chunk = await chunkedIndexLoader.loadChunk(i);
+                    if (chunk) {
+                        allData.push(...chunk);
+                    }
+                    updateProgressBar(((i + 1) / totalChunks) * 100);
+                }
+                
+                const endTime = performance.now();
+                const loadTime = (endTime - startTime).toFixed(2);
+                
+                statsElement.innerHTML = `所有块加载完成，共 ${allData.length} 个条目，耗时 ${loadTime} 毫秒`;
+                resultsElement.innerHTML = `加载了 ${allData.length} 个条目\n平均每块加载时间: ${(loadTime / totalChunks).toFixed(2)} 毫秒`;
+                
+            } catch (error) {
+                console.error('加载所有块出错:', error);
+                statsElement.innerHTML = `加载所有块出错: ${error.message}`;
+            }
+        }
+        
+        async function runSearchTest() {
+            const statsElement = document.getElementById('performanceStats');
+            const resultsElement = document.getElementById('performanceResults');
+            
+            statsElement.innerHTML = '正在运行搜索测试...';
+            resultsElement.innerHTML = '';
+            updateProgressBar(0);
+            
+            try {
+                // 准备测试关键词
+                const testQueries = [
+                    { term: 'anti', field: 'name' },
+                    { term: 'ACDEF', field: 'sequence' },
+                    { term: 'bacteria', field: 'name' }
+                ];
+                
+                let results = [];
+                let progress = 0;
+                
+                for (const query of testQueries) {
+                    const startTime = performance.now();
+                    const searchResults = await chunkedIndexLoader.searchInChunks(query.term, query.field);
+                    const endTime = performance.now();
+                    
+                    results.push({
+                        query: query.term,
+                        field: query.field,
+                        resultCount: searchResults.length,
+                        time: (endTime - startTime).toFixed(2)
+                    });
+                    
+                    progress += (100 / testQueries.length);
+                    updateProgressBar(progress);
+                }
+                
+                // 显示结果
+                statsElement.innerHTML = '搜索测试完成';
+                
+                let resultText = '搜索测试结果:\n\n';
+                results.forEach(result => {
+                    resultText += `查询: "${result.query}" (字段: ${result.field})\n`;
+                    resultText += `结果数: ${result.resultCount}\n`;
+                    resultText += `耗时: ${result.time} 毫秒\n\n`;
+                });
+                
+                resultsElement.innerHTML = resultText;
+                
+            } catch (error) {
+                console.error('搜索测试出错:', error);
+                statsElement.innerHTML = `搜索测试出错: ${error.message}`;
+                updateProgressBar(0);
+            }
+        }
+        
+        // 更新进度条
+        function updateProgressBar(percentage) {
+            const progressBar = document.getElementById('progressBar');
+            progressBar.style.width = `${percentage}%`;
+        }
+        
+        // 标签切换
+        function setupTabs() {
+            const tabs = document.querySelectorAll('.tab');
+            const tabContents = document.querySelectorAll('.tab-content');
+            
+            tabs.forEach(tab => {
+                tab.addEventListener('click', function() {
+                    const tabId = this.getAttribute('data-tab');
+                    
+                    // 移除所有活动标签
+                    tabs.forEach(t => t.classList.remove('active'));
+                    tabContents.forEach(c => c.classList.remove('active'));
+                    
+                    // 激活当前标签
+                    this.classList.add('active');
+                    document.getElementById(`${tabId}Tab`).classList.add('active');
+                });
+            });
+        }
+        
+        // 页面加载完成后初始化
+        document.addEventListener('DOMContentLoaded', function() {
+            setupTabs();
+            init().then(() => {
+                console.log('初始化完成');
+            }).catch(error => {
+                console.error('初始化失败:', error);
+            });
+            
+            // 添加事件监听器
+            document.getElementById('searchButton').addEventListener('click', searchPeptides);
+            document.getElementById('loadDetailButton').addEventListener('click', () => loadPeptideDetails());
+            document.getElementById('loadMetadataButton').addEventListener('click', loadMetadata);
+            document.getElementById('loadFirstChunkButton').addEventListener('click', loadFirstChunk);
+            document.getElementById('loadAllChunksButton').addEventListener('click', loadAllChunks);
+            document.getElementById('runSearchTestButton').addEventListener('click', runSearchTest);
+            
+            // 回车键搜索
+            document.getElementById('searchInput').addEventListener('keypress', function(e) {
+                if (e.key === 'Enter') {
+                    searchPeptides();
+                }
+            });
+            
+            document.getElementById('peptideId').addEventListener('keypress', function(e) {
+                if (e.key === 'Enter') {
+                    loadPeptideDetails();
+                }
+            });
+        });
+    </script>
+</body>
+</html>

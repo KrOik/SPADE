@@ -1,0 +1,100 @@
+{
+    "SPADE_N_05587": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 2023/0416797 A1",
+                "Patent Link": "http://www.lens.org/lens/patent/US_2023_0416797_A1",
+                "Patent Type": "Patent Application",
+                "Publication Date": "2023-12-28",
+                "Family Info": "JP2023548477A,EP4243844A1,CN116685204A,WO2022104321A1",
+                "Patent Title": "MODULATING ANTIMICROBIAL PEPTIDE HALF-LIFE",
+                "Abstract": "Methods of modulating the half-life of an antimicrobial peptide are described. The method may include administering an antimicrobial peptide to an environment where the antimicrobial peptide remains active until a specified endpoint, and on or after the specified endpoint, digesting the antimicrobial peptide with a protease to thereby inactivate the antimicrobial peptide and modulate its half-life. Compositions and kits for modulating the half-life of an antimicrobial peptide are also described."
+            },
+            {
+                "Patent No": "US 2023/0416797 A1",
+                "Patent Link": "http://www.lens.org/lens/patent/US_2023_0416797_A1",
+                "Patent Type": "Patent Application",
+                "Publication Date": "2023-12-28",
+                "Family Info": "JP2023548477A,EP4243844A1,CN116685204A,WO2022104321A1",
+                "Patent Title": "MODULATING ANTIMICROBIAL PEPTIDE HALF-LIFE",
+                "Abstract": "Methods of modulating the half-life of an antimicrobial peptide are described. The method may include administering an antimicrobial peptide to an environment where the antimicrobial peptide remains active until a specified endpoint, and on or after the specified endpoint, digesting the antimicrobial peptide with a protease to thereby inactivate the antimicrobial peptide and modulate its half-life. Compositions and kits for modulating the half-life of an antimicrobial peptide are also described."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_05587",
+            "Peptide Name": "Epilancin 15X(Bacteriocin)",
+            "Source": "Staphylococcus epidermidis 15X154",
+            "Family": "Belongs to the lantibiotics family (Class I bacteriocin)",
+            "Gene": "Not found",
+            "Sequence": "SASIVKTTIKASKKLCRGFTLTCGCHFTGKK",
+            "Sequence Length": 31,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P86047"
+            ],
+            "Protein Existence": "",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+"
+            ],
+            "Target Organism": "Gram-positive",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "The peptide was found to highly resemble the previously identified epilancin K7 with 68% sequence identity, three nearly identical lanthionine rings and a modified amino acid at the N-terminus. The C-terminal B and C rings of epilancin 15X are structurally similar to the D and E rings of nisin A that are believed to be involved in pore formation.",
+            "Formula": "C145H248N42O40S3",
+            "Mass": 3315.97,
+            "PI": 10.07,
+            "Net Charge": 8,
+            "Hydrophobicity": -0.02,
+            "Half Life": "Mammalian:1.9 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "The compound contains an unusual N-terminal D-lactate group that could be essential for biological activity. This study demonstrates that this moiety confers stability against proteolytic degradation by aminopeptidases.",
+            "Literature": [
+                {
+                    "Title": "Isolation and structural characterization of epilancin 15X, a novel lantibiotic from a clinical strain of Staphylococcus epidermidis.",
+                    "Pubmed ID": "15792796",
+                    "Reference": "FEBS Lett. 2005 Mar 28;579(9)1917-22.",
+                    "Author": "Ekkelenkamp MB, Hanssen M, Danny Hsu ST, de Jong A, Milatovic D, Verhoef J, van Nuland NA.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=15792796"
+                },
+                {
+                    "Title": "Biosynthesis of the antimicrobial peptide epilancin 15X and its N-terminal lactate.",
+                    "Pubmed ID": "21802007",
+                    "Reference": "Chem Biol. 2011 Jul 29;18(7)857-67.",
+                    "Author": "Vel",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=21802007"
+                }
+            ],
+            "Frequent Amino Acids": "KTC",
+            "Absent Amino Acids": "DEMNOPQUWY",
+            "Basic Residues": 8,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 22,
+            "Positive Residues": 8,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00027",
+                    "Similarity": 1.0,
+                    "Sequence": "ASIVKTTIKASKKLCRGFTLTCGCHFTGKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05609",
+                    "Similarity": 0.8333333333333334,
+                    "Sequence": "ASVVKTTIKASKKLCKGATLTCGCNITGKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08117",
+                    "Similarity": 0.7666666666666667,
+                    "Sequence": "AAIVKAAIKAAKKLCRGFALACGCHFAGKK"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_21391": {
+        "Sequence Information": {
+            "Peptide Name": "Melittin Scrambled",
+            "Sequence": "GGILVAKLVTTLGPALISWIKRKRQQ",
+            "Sequence Length": 26,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P01501",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P01501",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Cell-selective lysis by novel analogues of melittin against human red blood cells and Escherichia coli.",
+                    "Pubmed ID": "20695504",
+                    "Reference": "Biochemistry. 2010;49:7920-7929",
+                    "Author": "Pandey BK, Ahmad A, Asthana N, Azmi S, Srivastava RM, Srivastava S, Verma R, Vishwakarma AL, Ghosh JK",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/20695504"
+                }
+            ],
+            "Mass": 2847.45,
+            "PI": 12.0,
+            "Net Charge": 5,
+            "Hydrophobicity": 0.27,
+            "Frequent Amino Acids": "LGI",
+            "Absent Amino Acids": "CDEFHMNOUY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 15,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_21391",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_30491",
+                    "Similarity": 0.9333333333333333,
+                    "Sequence": "LLPALISWIKRKRQQ"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_30428",
+                    "Similarity": 0.8666666666666667,
+                    "Sequence": "GLPALISWIKRKRQQG"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_30481",
+                    "Similarity": 0.8666666666666667,
+                    "Sequence": "GLPALISWIKRKRQQ"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:5% Hemolysis=7.5 µM",
+            "Target Organism": "Escherichia coli DH5alpha(MIC=4.8±0.4µM),Escherichia coli ATCC 10536(MIC=4.7±0.5µM),Staphylococcus aureus ATCC 9144(MIC=5.0±0.6µM),Bacillus subtilis ATCC 6633(MIC=5.8±0.6µM)"
+        }
+    }
+}

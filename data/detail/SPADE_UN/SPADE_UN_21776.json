@@ -1,0 +1,59 @@
+{
+    "SPADE_UN_21776": {
+        "Sequence Information": {
+            "Peptide Name": "RW-AH",
+            "Sequence": "WWRRWWRRWRRWWRRWWR",
+            "Sequence Length": 18,
+            "Biological Activity": [
+                "Anticancer",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Human lactoferricin derived di-peptides deploying loop structures induce apoptosis specifically in cancer cells through targeting membranous phosphatidylserine.",
+                    "Pubmed ID": "26239537",
+                    "Reference": "Biochim Biophys Acta. 2015;1848:2918-2931",
+                    "Author": "Riedl S, Leber R, Rinner B, Schaider H, Lohner K, Zweytick D",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/26239537"
+                }
+            ],
+            "Mass": 3099.58,
+            "PI": 12.0,
+            "Net Charge": 9,
+            "Hydrophobicity": -2.7,
+            "Frequent Amino Acids": "RW",
+            "Absent Amino Acids": "ACDEFGHIKLMNOPQSTUVY",
+            "Basic Residues": 9,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 0,
+            "Polar Residues": 18,
+            "Positive Residues": 9,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_21776",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02088",
+                    "Similarity": 1.0,
+                    "Sequence": "WWRELLKKLAFTAAGHLGSVLAAKQSGW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10113",
+                    "Similarity": 1.0,
+                    "Sequence": "RRWWRWWR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11151",
+                    "Similarity": 1.0,
+                    "Sequence": "RRWWRRWRR"
+                }
+            ],
+            "Hemolytic Activity": "Human dermal fibroblasts:LC50=9.6±0.2 µM",
+            "Target Organism": "Human melanoma A375(LC50=8.4±0.5µM),Human Melanoma SBcl-2(LC50=4.6±0.2µM),Human metastatic melanoma WM164(90-100% Killing=20µM),Human glioblastoma U251-MG(90-100% Killing=20µM)"
+        }
+    }
+}

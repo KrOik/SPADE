@@ -1,0 +1,80 @@
+{
+    "SPADE_UN_13519": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_13519",
+            "Peptide Name": "MBD-4 (11-40)(P9)",
+            "Source": "Synthetic construct",
+            "Family": "Belongs to the beta-defensin family.",
+            "Gene": "Defb4",
+            "Sequence": "NGAICWGPCPTAFRQIGNCGHFKVRCCKIR",
+            "Sequence Length": 30,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P82019"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antiviral(SARS-CoV-2)"
+            ],
+            "Target Organism": "[Ref.32843628]Virus:SARS-CoV-2:Inhibition of infection in Vero E6 cells(IC50=2.4 µg/ml);SARS-CoV:Inhibition of infection in Vero E6 cells(IC50=6.2 µg/ml);MERS-CoV:Inhibition of infection in Vero E6 cells(IC50=8.8 µg/ml);Human rhinovirus (HRV):inhibition of infection in RD cells(IC50=34 µg/ml);Human parainﬂuenza virus 3:Inhibition of infection in LLC-MK2 cells(IC50>25 µg/ml);Human Influenza A Virus H1N1:Inhibition of infection In MDCK cells(IC50=1.6 µg/ml);Human Influenza A Virus H7N9:Inhibition of infection In MDCK cells(IC50=3.3 µg/ml).[Ref.26911565]Virus:Human Influenza A Virus H1N1(IC50=1.2 µg/ml);Human Influenza A Virus H3N2(IC50=1.2 µg/ml);Human Influenza A Virus H5N1(IC50=2.4 µg/ml);Human Influenza A Virus H7N7(IC50=0.8 µg/ml);Human Influenza A Virus H7N9(IC50=4.6 µg/ml);MERS-CoV(IC50=4.8 µg/ml);SARS-CoV(IC50=4.8 µg/ml)",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "[Ref.26911565]Xytotoxicity against Madin-Darby canine kidney cells(TC50=380 μg/ml).",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C144H227N47O35S5",
+            "Mass": 3336.96,
+            "PI": 9.41,
+            "Net Charge": 6,
+            "Hydrophobicity": -0.07,
+            "Half Life": "Mammalian:1.4 hourYeast:3 minE.coli:>10 hour",
+            "Mechanism of action": "Mechanistic studies show that positively charged P9 broadly inhibits viral replication by binding to different viruses and then inhibits virus–host endosomal acidification to prevent the endosomal release of pH-dependent viruses.",
+            "Literature": [
+                {
+                    "Title": "A novel peptide with potent and broad-spectrum antiviral activities against multiple respiratory viruses.",
+                    "Pubmed ID": "26911565",
+                    "Reference": "Sci Rep. 2016 Feb 25;622008.",
+                    "Author": "Zhao H, Zhou J, Zhang K, Chu H, Liu D, Poon VK, Chan CC, Leung HC, Fai N, Lin YP, Zhang AJ, Jin DY, Yuen KY, Zheng BJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=26911565"
+                },
+                {
+                    "Title": "A broad-spectrum virus- and host-targeting peptide against respiratory viruses including influenza virus and SARS-CoV-2.",
+                    "Pubmed ID": "32843628",
+                    "Reference": "Nat Commun. 2020 Aug 25;11(1)4252.",
+                    "Author": "Zhao H, To KKW, Sze KH, Yung TT, Bian M, Lam H, Yeung ML, Li C, Chu H, Yuen KY.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=32843628"
+                }
+            ],
+            "Frequent Amino Acids": "CGI",
+            "Absent Amino Acids": "DELMOSUY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 18,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02930",
+                    "Similarity": 1.0,
+                    "Sequence": "QIINNPITCMTNGAICWGPCPTAFRQIGNCGHFKVRCCKIR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03687",
+                    "Similarity": 1.0,
+                    "Sequence": "ITCMTNGAICWGPCPTAFRQIGNCGHFKVRCCKI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04019",
+                    "Similarity": 1.0,
+                    "Sequence": "INNPITCMTNGAICWGPCPTAFRQIGNCGHFKVRCCKIR"
+                }
+            ]
+        }
+    }
+}

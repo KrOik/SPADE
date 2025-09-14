@@ -1,0 +1,82 @@
+{
+    "SPADE_UN_11447": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 10548948 B2",
+                "Patent Link": "http://www.lens.org/lens/patent/US_10548948_B2",
+                "Patent Type": "Granted Patent",
+                "Publication Date": "2020-2-4",
+                "Family Info": "US20180250362A1,WO2018160577A1,US20200108121A1",
+                "Patent Title": "Methods Of Treating Fungal Infections"
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_11447",
+            "Peptide Name": "Kn2-7 (BmKn2 peptide derivative)",
+            "Source": "Synthetic construct",
+            "Family": "Derived from the peptide BmKn2",
+            "Gene": "Not found",
+            "Sequence": "FIKRIARLLRKIF",
+            "Sequence Length": 13,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.22792229]Gram-positive bacteria:Staphylococcus aureus AB94004 (MIC=3.13 μg/ml), Staphylococcus aureus ATCC 25923 (MIC=3.13 μg/ml), Bacillus subtilis AB91021 (MIC=6.25 μg/ml), Bacillus thuringiensis AB92037 (MIC=6.25 μg/ml), Micrococcus luteus AB93113 (MIC=6.25 μg/ml);Gram-negative bacteria:Escherichia coli AB94012 (MIC=6.25 μg/ml), Escherichia coli ATCC 25922 (MIC=25 μg/ml), Pseudomonas aeruginosa AB93066 (MIC=25 μg/ml), Pseudomonas aeruginosa A092994 (MIC=50 μg/ml), Pseudomonas aeruginosa A093052 (MIC=100 μg/ml), Pseudomonas aeruginosa A093056 (MIC=50 μg/ml), Pseudomonas aeruginosa A093085 (MIC=50 μg/ml), Pseudomonas aeruginosa A093115 (MIC=100 μg/ml).",
+            "Hemolytic Activity": "[Ref.22792229]Non-hemolysis at 6.25 μg/ml, 5% hemolysis at 12.5 μg/ml,10% hemolysis at 25 μg/ml 15% hemolysis at 50 μg/ml, 40% hemolysis at 100 μg/ml against human red blood cells",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C81H140N24O14",
+            "Mass": 1674.13,
+            "PI": 12.0,
+            "Net Charge": 5,
+            "Hydrophobicity": 0.55,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Function": "Antibacterial activity against Gram-positive bacteria and Gram-negative bacteria. Has hemolytic activity.",
+            "Literature": [
+                {
+                    "Title": "Antibacterial activity and mechanism of a scorpion venom peptide derivative in vitro and in vivo.",
+                    "Pubmed ID": "22792229",
+                    "Reference": "PLoS One. 2012;7(7)e40135. doi 10.1371/journal.pone.0040135.",
+                    "Author": "Cao L, Dai C, Li Z, Fan Z, Song Y, Wu Y, Cao Z, Li W.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=22792229"
+                }
+            ],
+            "Frequent Amino Acids": "IRF",
+            "Absent Amino Acids": "CDEGHMNOPQSTUVWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 6,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_14365",
+                    "Similarity": 0.9230769230769231,
+                    "Sequence": "FIKRIARLLSKIF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14366",
+                    "Similarity": 0.9230769230769231,
+                    "Sequence": "FIKAIARLLRKIF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14370",
+                    "Similarity": 0.9230769230769231,
+                    "Sequence": "FIKKIARLLRKIF"
+                }
+            ]
+        }
+    }
+}

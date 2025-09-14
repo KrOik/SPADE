@@ -1,0 +1,73 @@
+{
+    "SPADE_N_03069": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03069",
+            "Peptide Name": "Cecropin-A (Insects, animals)",
+            "Source": "Trichoplusia ni (Cabbage looper)",
+            "Family": "Belongs to the cecropin family",
+            "Gene": "Not found",
+            "Sequence": "RWKFFKKIEKVGQNIRDGIIKAGPAVAVVGQAASIT",
+            "Sequence Length": 36,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P50724"
+            ],
+            "Protein Existence": "Homology",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C179H295N51O46",
+            "Mass": 3897.57,
+            "PI": 10.57,
+            "Net Charge": 5,
+            "Hydrophobicity": 0.06,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "PCR differential display of immune gene expression in Trichoplusia ni.",
+                    "Pubmed ID": "8882660",
+                    "Reference": "Insect Biochem Mol Biol. 1996 Feb;26(2)177-184.",
+                    "Author": "Kang D, Liu G, Gunne H, Steiner H.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=8882660"
+                }
+            ],
+            "Frequent Amino Acids": "AIK",
+            "Absent Amino Acids": "CHLMOUY",
+            "Basic Residues": 7,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 18,
+            "Polar Residues": 21,
+            "Positive Residues": 7,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_08021",
+                    "Similarity": 1.0,
+                    "Sequence": "MNLVKILFCVFACLVFTVTAVPEPRWKFFKKIEKVGQNIRDGIIKAGPAVAVVGQAASITGK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07535",
+                    "Similarity": 0.9444444444444444,
+                    "Sequence": "RWKFFKKIEKVGQNIRDGIIKAGPAVAVVGQAAAIS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07537",
+                    "Similarity": 0.9444444444444444,
+                    "Sequence": "MNFKKILFFVFACLVFTVTAAPEPRWKFFKKIEKVGQNIRDGIIKAGPAVAVVGQAAAISGK"
+                }
+            ]
+        }
+    }
+}

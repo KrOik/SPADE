@@ -1,0 +1,61 @@
+{
+    "SPADE_UN_26252": {
+        "Sequence Information": {
+            "Peptide Name": "Nigrosin-6VL [C15Del]",
+            "Sequence": "GLLSGVLGAGKKIVGLSGRC",
+            "Sequence Length": 20,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Modification and Synergistic Studies of a Novel Frog Antimicrobial Peptide against Pseudomonas aeruginosa Biofilms.",
+                    "Pubmed ID": "39061256",
+                    "Reference": "J Antibiot (Tokyo). 2024;13:574",
+                    "Author": "Liu X, Shi D, Cheng S, Chen X, Ma C, Jiang Y, Wang T, Chen T, Shaw C, Wang L, Zhou M",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/39061256"
+                }
+            ],
+            "Mass": 1885.28,
+            "PI": 10.06,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.81,
+            "Frequent Amino Acids": "GLK",
+            "Absent Amino Acids": "DEFHMNOPQTUWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 11,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_26252",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_14378",
+                    "Similarity": 1.0,
+                    "Sequence": "WFGHLYRGITSVVKHVHGLLSG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15504",
+                    "Similarity": 1.0,
+                    "Sequence": "GLLSGVLGAGKKIVCGLSGRC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15688",
+                    "Similarity": 1.0,
+                    "Sequence": "FFGHLYRGITSVVKHVHGLLSG"
+                }
+            ],
+            "Hemolytic Activity": "Horse erythrocytes:10% Hemolysis=>256 µM",
+            "Target Organism": "Staphylococcus aureus ATCC 6538(MIC=>128µM),Staphylococcus aureus NCTC 12493(MIC=>128µM),Enterococcus faecalis NCTC 12697(MIC=>128µM),Escherichia coli ATCC 8739(MIC=16µM),Escherichia coli ATCC 8739(MBC=32µM),Klebsiella pneumoniae ATCC 43816(MIC=64µM),Klebsiella pneumoniae ATCC 43816(MBC=128µM),Pseudomonas aeruginosa ATCC 9027(MIC=64µM),Pseudomonas aeruginosa ATCC 9027(MBC=128µM),Acinetobacter baumannii ATCC BAA-747(MIC=>128µM),Candida albicans ATCC 10231(MIC=>128µM)"
+        }
+    }
+}

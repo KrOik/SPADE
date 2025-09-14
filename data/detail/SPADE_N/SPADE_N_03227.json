@@ -1,0 +1,76 @@
+{
+    "SPADE_N_03227": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03227",
+            "Peptide Name": "TsAP-1 (T. serrulatus antimicrobial peptide 1; scorpions, arachnids, invertebrates, animals)",
+            "Source": "Tityus serrulatus (Brazilian yellow scorpion)",
+            "Family": "Belongs to the non-disulfide-bridged peptide (NDBP) superfamily. Short antimicrobial peptide (group 4) family.",
+            "Gene": "Not found",
+            "Sequence": "FLSLIPSLVGGSISAFK",
+            "Sequence Length": 17,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/S6CWV8"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anticancer"
+            ],
+            "Target Organism": "[Ref.23770440] Gram-positive bacteria :Staphylococcus aureus(MIC=120 μM, MBC>160 μM);Gram-negative bacteria :Escherichia coli(MIC=160 μM, MBC>160 μM);Fungi :Candida albicans(MIC=160 μM, MBC>160 μM)",
+            "Hemolytic Activity": "[Ref.23770440] 0% hemolysis at 40 μM , 2% hemolysis at 80 μM , 5% hemolysis at 120 μM , 7% hemolysis at 160 μM against horse red blood cells",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C83H134N18O22",
+            "Mass": 1736.06,
+            "PI": 8.75,
+            "Net Charge": 1,
+            "Hydrophobicity": 1.32,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Function": "Antibacterial activity against Gram-positive bacteria and Gram-negative bacteria. Antifungal activity against Candida albicans, Anticancer activity against HI57 and H838.",
+            "Literature": [
+                {
+                    "Title": "Two peptides, TsAP-1 and TsAP-2, from the venom of the Brazilian yellow scorpion, Tityus serrulatus evaluation of their antimicrobial and anticancer activities.",
+                    "Pubmed ID": "23770440",
+                    "Reference": "Biochimie. 2013 Jun 14. doi 10.1016/j.biochi.2013.06.003.",
+                    "Author": "Guo X, Ma C, Du Q, Wei R, Wang L, Zhou M, Chen T, Shaw C.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=23770440"
+                }
+            ],
+            "Frequent Amino Acids": "SLF",
+            "Absent Amino Acids": "CDEHMNOQRTUWY",
+            "Basic Residues": 1,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 7,
+            "Positive Residues": 1,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_05855",
+                    "Similarity": 0.8823529411764706,
+                    "Sequence": "FFSLIPSLVGGLISAFK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05646",
+                    "Similarity": 0.7692307692307693,
+                    "Sequence": "FPFLLSLIPSAISAIKRL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10907",
+                    "Similarity": 0.7692307692307693,
+                    "Sequence": "FFLLSLIPSAISAIKKI"
+                }
+            ]
+        }
+    }
+}

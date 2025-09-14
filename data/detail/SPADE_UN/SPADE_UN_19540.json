@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_19540": {
+        "Sequence Information": {
+            "Peptide Name": "Gommut 2, Gomesin [PYA1KWI][C8,13W][K10R][[Q11G][V14I][G19W]",
+            "Sequence": "KWICRRLWYRGRWITYCRWR",
+            "Sequence Length": 20,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P82358",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P82358",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Hairpin structure stability plays a role in the activity of two antimicrobial peptides.",
+                    "Pubmed ID": "27859052",
+                    "Reference": "FEBS Lett. 2016;590:4480-4488",
+                    "Author": "Sivanesam K, Kier BL, Whedon SD, Chatterjee C, Andersen NH",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/27859052"
+                }
+            ],
+            "Mass": 2858.4,
+            "PI": 11.37,
+            "Net Charge": 7,
+            "Hydrophobicity": -1.02,
+            "Frequent Amino Acids": "RWC",
+            "Absent Amino Acids": "ADEFHMNOPQSUV",
+            "Basic Residues": 7,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 15,
+            "Positive Residues": 7,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_19540",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_19540",
+                    "Similarity": 1.0,
+                    "Sequence": "KWICRRLWYRGRWITYCRWR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_25409",
+                    "Similarity": 1.0,
+                    "Sequence": "WRRLRRLLRRLRRL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_00363",
+                    "Similarity": 0.8571428571428571,
+                    "Sequence": "RWRWRWRW"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Escherichia coli DH5alpha(MIC=12.5µM),Escherichia coli DH5alpha(IC50=8.6µM),Corynebacterium glutamicum ATCC 13032(MIC=0.78µM)"
+        }
+    }
+}

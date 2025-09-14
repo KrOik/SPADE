@@ -1,0 +1,68 @@
+{
+    "SPADE_N_14810": {
+        "Sequence Information": {
+            "Peptide Name": "Cathelicidin ModoCath6",
+            "Sequence": "VRRSKRGIKVPSFVKKVLKDVVSESIS",
+            "Sequence Length": 27,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anticancer",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "1. Monodelphis domestica",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Opossum Cathelicidins Exhibit Antimicrobial Activity Against a Broad Spectrum of Pathogens Including West Nile Virus",
+                    "Pubmed ID": "32194564",
+                    "Reference": "Front Immunol. 2020;:",
+                    "Author": "Cho HS, Yum J, Larivière A, Lévêque N, Le QVC, Ahn B, Jeon H, Hong K, Soundrarajan N, Kim JH, Bodet C, Park C",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/32194564"
+                },
+                {
+                    "Title": "Bactericidal activities and biochemical features of 16 antimicrobial peptides against bovine-mastitis causative pathogens",
+                    "Pubmed ID": "39543729",
+                    "Reference": "Vet Res. 2024;55:150",
+                    "Author": "Cho HS, Kim D, Jeon H, Somasundaram P, Soundrarajan N, Park C",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/39543729"
+                }
+            ],
+            "Mass": 3042.62,
+            "PI": 11.12,
+            "Net Charge": 6,
+            "Hydrophobicity": -0.19,
+            "Frequent Amino Acids": "VKS",
+            "Absent Amino Acids": "ACHMNOQTUWY",
+            "Basic Residues": 8,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 17,
+            "Positive Residues": 8,
+            "Negative Residues": 2,
+            "SPADE ID": "SPADE_N_14810",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_17505",
+                    "Similarity": 1.0,
+                    "Sequence": "VRRSKRGIKVPSFVKKVLKDVVSESIS"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_21466",
+                    "Similarity": 0.6,
+                    "Sequence": "GIKRGIKRGIKR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_17615",
+                    "Similarity": 0.5333333333333333,
+                    "Sequence": "KVVKKVKKKVKKVVK"
+                }
+            ],
+            "Hemolytic Activity": "Human embryonic kidney HEK293T cells:5% Cytotoxicity=16 µg/ml,Human embryonic kidney HEK293T cells:11% Cytotoxicity=32-64 µg/ml,Human Primary Epidermal Keratinocytes (HEK):0% Cytotoxicity=16-32 µg/ml,Human Primary Epidermal Keratinocytes (HEK):11% Cytotoxicity=64 µg/ml",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=5µg/ml),Pseudomonas aeruginosa ATCC 27853(MIC=>32µg/ml),Salmonella enterica subsp. enterica serovar Typhimurium ATCC 14028(MIC=>32µg/ml),Staphylococcus aureus ATCC 6538(MIC=>32µg/ml),Bacillus cereus ATCC 10876(MIC=>32µg/ml),Enterococcus faecalis ATCC 29212(MIC=>32µg/ml),Human breast adenocarcinoma MCF-7(0-10% Cytotoxicity=16-64µg/ml),Streptococcus agalactiae ATCC 27956(MIC=13.2µM),Streptococcus dysgalactiae subsp. dysgalactiae ATCC 27957(MIC=13.2µM),Streptococcus equi subsp. zooepidemicus ATCC 43079(MIC=13.2µM)"
+        }
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "SPADE_UN_11717": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_11717",
+            "Peptide Name": "L31-P113",
+            "Source": "Synthetic construct",
+            "Family": "Derived from LL-37",
+            "Gene": "Not found",
+            "Sequence": "LGDFFRKSKEKIGKEFKRIVQRIKDFLRNLAKRHHGYKRKFH",
+            "Sequence Length": 42,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "[Ref.29859288] Gram-positive bacteria:Staphylococcus aureus ATCC 25923 (MIC=25 ± 0 μg/mL);Gram-negative bacteria:Escherichia coli ATCC 25922 (MIC=16.6 ± 7.2 μM);Fungi:Candida albicans ATCC 90028 (MIC=166.6 ± 57.7 μg/mL)",
+            "Hemolytic Activity": "[Ref.29859288] Hemolysis 12.0 ± 0.7% at 500 μg/ml against human red blood cells",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "The peptide adopts a conformational structure with 80 % alpha helix.",
+            "Formula": "C242H389N77O55",
+            "Mass": 5257.16,
+            "PI": 11.12,
+            "Net Charge": 14,
+            "Hydrophobicity": -1.22,
+            "Half Life": "Mammalian:5.5 hourYeast:3 minE.coli:2 min",
+            "Function": "Antibacterial activity against the Gram-positive and Gram-negative bacteria. Antifungal activity.",
+            "Literature": [
+                {
+                    "Title": "Expression in Escherichia coli of novel recombinant hybrid antimicrobial peptide AL32-P113 with enhanced antimicrobial activity in vitro.",
+                    "Pubmed ID": "29859288",
+                    "Reference": "Gene. 2018 May 30. pii S0378-1119(18)30617-6.",
+                    "Author": "Wanmakok M, Orrapin S, Intorasoot A, Intorasoot S.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=29859288"
+                },
+                {
+                    "Title": "Expression in Escherichia coli of novel recombinant hybrid antimicrobial peptide AL32-P113 with enhanced antimicrobial activity in vitro",
+                    "Pubmed ID": "",
+                    "Author": "Wanmakok M, Orrapin S, Intorasoot A, Intorasoot S"
+                }
+            ],
+            "Frequent Amino Acids": "KRF",
+            "Absent Amino Acids": "CMOPTUW",
+            "Basic Residues": 18,
+            "Acidic Residues": 4,
+            "Hydrophobic Residues": 14,
+            "Polar Residues": 24,
+            "Positive Residues": 18,
+            "Negative Residues": 4,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03128",
+                    "Similarity": 1.0,
+                    "Sequence": "LLGDFFRKSKEKIGKEFKRIVQR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04247",
+                    "Similarity": 1.0,
+                    "Sequence": "LLGDFFRKSKEKIGKEFKRIVQRIKDFLRNL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04248",
+                    "Similarity": 1.0,
+                    "Sequence": "LLGDFFRKSKEKIGKEFKRIVQRIKDFLRN"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_00666": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_00666",
+            "Peptide Name": "PL-101",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "FFHLHFHY",
+            "Sequence Length": 8,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.12569105] Gram-negative bacterium:Escherichia coli (MEC=7 μg/ml), Pseudomonas aeruginosa (MEC=10 μg/ml).;Gram-positive bacteria:Staphylococcus aureus (MEC=3 μg/ml), MRSA (MEC=4 μg/ml) at PH 6.5.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C60H70N14O10",
+            "Mass": 1147.29,
+            "PI": 7.02,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.16,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Function": "Antibacterial activity against Gram-negative bacteria and Gram-positive bacteria.",
+            "Literature": [
+                {
+                    "Title": "Plicatamide, an antimicrobial octapeptide from Styela plicata hemocytes.",
+                    "Pubmed ID": "12569105",
+                    "Reference": "J Biol Chem. 2003 Apr 11;278(15)13546-53.",
+                    "Author": "Tincu JA, Menzel LP, Azimov R, Sands J, Hong T, Waring AJ, Taylor SW, Lehrer RI.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=12569105"
+                }
+            ],
+            "Frequent Amino Acids": "FHL",
+            "Absent Amino Acids": "ACDEGIKMNOPQRSTUVW",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 4,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_09199",
+                    "Similarity": 1.0,
+                    "Sequence": "FFHLHFH"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10384",
+                    "Similarity": 1.0,
+                    "Sequence": "KWFFFH"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_13499",
+                    "Similarity": 1.0,
+                    "Sequence": "FFHLHFH"
+                }
+            ]
+        }
+    }
+}

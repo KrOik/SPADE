@@ -1,0 +1,67 @@
+{
+    "SPADE_UN_21533": {
+        "Sequence Information": {
+            "Peptide Name": "GGH-Citropin-1.1",
+            "Sequence": "GGHGLFDVIKKVASVIGGL",
+            "Sequence Length": 19,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell",
+                "Antibiofilm"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P81835",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P81835",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Antimicrobial and Antibiofilm Activities of Helical Antimicrobial Peptide Sequences Incorporating Metal-Binding Motifs.",
+                    "Pubmed ID": "31448597",
+                    "Reference": "Biochemistry. 2019;58:3802-3812",
+                    "Author": "Agbale CM, Sarfo JK, Galyuon IK, Juliano SA, Silva GGO, Buccini DF, Cardoso MH, Torres MDT, Angeles-Boza AM, de la Fuente-Núnez C, Franco OL",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/31448597"
+                }
+            ],
+            "Mass": 1867.2,
+            "PI": 8.6,
+            "Net Charge": 2,
+            "Hydrophobicity": 0.87,
+            "Frequent Amino Acids": "GVI",
+            "Absent Amino Acids": "CEMNOPQRTUWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 10,
+            "Positive Residues": 3,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_UN_21533",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00984",
+                    "Similarity": 1.0,
+                    "Sequence": "GYGGHGGHGGHGGHGGHGGHGHGGGGHG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00985",
+                    "Similarity": 1.0,
+                    "Sequence": "GYHGGHGGHGGGYNGGGGHGGHGGGYNGGGHHGGGGHG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14607",
+                    "Similarity": 1.0,
+                    "Sequence": "GGHGGHGGHGGHGGHGGHGHGGGGHG"
+                }
+            ],
+            "Hemolytic Activity": "Mouse erythrocytes:0.2±0.05% Hemolysis=34 µM",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=34µM),Escherichia coli KPC 001812446(MIC=34µM),Escherichia coli KPC 002101123(MIC=9µM),Klebsiella pneumoniae KPC 001825971(MIC=>34µM),Klebsiella pneumoniae ATCC 13883(MIC=34µM),Pseudomonas aeruginosa ATCC 27853(MIC=>34µM),Staphylococcus aureus MR(MIC=17µM),Staphylococcus aureus ATCC 25923(MIC=9µM)"
+        }
+    }
+}

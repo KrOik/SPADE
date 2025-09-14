@@ -1,0 +1,59 @@
+{
+    "SPADE_UN_26980": {
+        "Sequence Information": {
+            "Peptide Name": "DAP-3",
+            "Sequence": "WRRLRRWWRRLWR",
+            "Sequence Length": 13,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Novel-designed antimicrobial peptides with dual antimicrobial and anti-inflammatory actions against Cutibacterium acnes for acne vulgaris therapy",
+                    "Pubmed ID": "39662606",
+                    "Reference": "Biochem Pharmacol. 2024;doi: 10.1016/j.bcp.2024.116708:116708",
+                    "Author": "Kim H, Jang JH, Kim HR, Cho JH",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/39662606"
+                }
+            ],
+            "Mass": 2082.47,
+            "PI": 12.0,
+            "Net Charge": 7,
+            "Hydrophobicity": -2.12,
+            "Frequent Amino Acids": "RWL",
+            "Absent Amino Acids": "ACDEFGHIKMNOPQSTUVY",
+            "Basic Residues": 7,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 2,
+            "Polar Residues": 11,
+            "Positive Residues": 7,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_26980",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_11151",
+                    "Similarity": 1.0,
+                    "Sequence": "RRWWRRWRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_13428",
+                    "Similarity": 1.0,
+                    "Sequence": "RRWPWWPWRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_00310",
+                    "Similarity": 1.0,
+                    "Sequence": "RRWKIVVIRWRR"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:28.5% Hemolysis=64 µM,Human keratinocytes HaCat:20% Cytotoxicity=64 µM",
+            "Target Organism": "Cutibacterium acnes KCTC 3314(MIC=2µM),Cutibacterium acnes KCTC 5012(MIC=2µM),Cutibacterium acnes CCARM 9009(MIC=2µM),Cutibacterium acnes CCARM 9010(MIC=2µM),Cutibacterium acnes CCARM 9169(MIC=2µM)"
+        }
+    }
+}

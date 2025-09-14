@@ -1,0 +1,79 @@
+{
+    "SPADE_N_00775": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00775",
+            "Peptide Name": "Cycloviolacin-H4 (Plant defensin)",
+            "Source": "Viola hederacea (Australian violet)",
+            "Family": "Belongs to the cyclotide family",
+            "Gene": "Not found",
+            "Sequence": "GIPCAESCVWIPCTVTALLGCSCSNNVCYN",
+            "Sequence Length": 30,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P85234"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antiviral"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "[Ref.16441062] HD50=5.5 µM against human type A red blood cells.",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "No specific N-terminal",
+            "C-terminal Modification": "No specific C-terminal",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C131H206N34O42S6",
+            "Mass": 3121.63,
+            "PI": 4.05,
+            "Net Charge": -1,
+            "Hydrophobicity": 0.79,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Probably participates in a plant defense mechanism.",
+            "PTM": "This is a cyclic peptide which contains three disulfide bonds 4-20; 8-22; 13-27.",
+            "Literature": [
+                {
+                    "Title": "Plant cyclotides A unique family of cyclic and knotted proteins that defines the cyclic cystine knot structural motif.",
+                    "Pubmed ID": "10600388",
+                    "Reference": "J Mol Biol. 1999 Dec 17;294(5)1327-1336.",
+                    "Author": "Craik DJ, Daly NL, Bond T, Waine C.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=10600388"
+                },
+                {
+                    "Title": "Cycloviolacin H4, a hydrophobic cyclotide from Viola hederaceae.",
+                    "Pubmed ID": "R2006J0417",
+                    "Author": "Craik D.J.,Wang C.,Colgrave M.L.,Chen B."
+                }
+            ],
+            "Frequent Amino Acids": "CNS",
+            "Absent Amino Acids": "DFHKMOQRU",
+            "Basic Residues": 0,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 20,
+            "Positive Residues": 0,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07747",
+                    "Similarity": 1.0,
+                    "Sequence": "CAESCVWIPCTVTALLGCSCSNNVCYNGIP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00853",
+                    "Similarity": 0.9666666666666667,
+                    "Sequence": "GIPCAESCVWIPCTVTALLGCSCSNKVCYN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00749",
+                    "Similarity": 0.9333333333333333,
+                    "Sequence": "GIPCAESCVYIPCTVTALLGCSCSNRVCYN"
+                }
+            ]
+        }
+    }
+}

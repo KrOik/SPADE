@@ -1,0 +1,78 @@
+{
+    "SPADE_N_00698": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00698",
+            "Peptide Name": "Defensin-like protein 2 (Dm-AMP2; Plant defensin)",
+            "Source": "Dahlia merckii (Bedding dahlia)",
+            "Family": "Belongs to the DEFL family",
+            "Gene": "Not found",
+            "Sequence": "EVCEKASKTWSGNCGNTGHC",
+            "Sequence Length": 20,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antifungal"
+            ],
+            "Target Organism": "Medium A:Botrytis cinerea (IC50=10 µg/ml), Cladosporium sphaerospermum (IC50=3 µg/ml), Fusarium culmorum (IC50=5 µg/ml), Leptosphaeria maculans (IC50=1 µg/ml), Penicillium digitatum (IC50=2 µg/ml), Trichoderma viride (IC50>100 µg/ml), Septoria tritiei (IC50=1 µg/ml), Verticilium albo-atrum (IC50=2 µg/ml). NOTE:Medium A = 1/2 strength potato dextrose broth.Medium B:Botrytis cinerea (IC50>100 µg/ml), Cladosporium sphaerospermum (IC50=12 µg/ml), Fusarium culmorum (IC50=12 µg/ml), Leptosphaeria maculans (IC50=20 µg/ml), Penicillium digitatum (IC50=50 µg/ml), Trichoderma viride (IC50>100 µg/ml), Septoria tritiei (IC50=2 µg/ml), Verticilium albo-atrum (IC50>100 µg/ml).NOTE:Medium B = Medium A supplemented with 1 mM CaCl2 and 50 mM KCI.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "cell membrabce",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C84H131N27O31S3",
+            "Mass": 2111.3,
+            "PI": 6.82,
+            "Net Charge": 1,
+            "Hydrophobicity": -0.83,
+            "Half Life": "Mammalian:1 hourYeast:30 minE.coli:>10 hour",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "A new family of basic cysteine-rich plant antifungal proteins from Brassicaceae species.",
+                    "Pubmed ID": "8422949",
+                    "Reference": "FEBS Lett. 1993 Feb 1;316(3)233-240.",
+                    "Author": "Terras FR, Torrekens S, Van Leuven F, Osborn RW, Vanderleyden J, Cammue BP, Broekaert WF.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=8422949"
+                },
+                {
+                    "Title": "Isolation and characterisation of plant defensins from seeds of Asteraceae, Fabaceae, Hippocastanaceae and Saxifragaceae.",
+                    "Pubmed ID": "7628617",
+                    "Reference": "FEBS Lett. 1995 Jul 17;368(2)257-262.",
+                    "Author": "Osborn RW, De Samblanx GW, Thevissen K, Goderis I, Torrekens S, Van Leuven F, Attenborough S, Rees SB, Broekaert WF.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=7628617"
+                }
+            ],
+            "Frequent Amino Acids": "CGE",
+            "Absent Amino Acids": "DFILMOPQRUY",
+            "Basic Residues": 3,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 3,
+            "Polar Residues": 14,
+            "Positive Residues": 3,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00697",
+                    "Similarity": 0.95,
+                    "Sequence": "ELCEKASKTWSGNCGNTGHCDNQCKSWEGAAHGACHVRNGKHMCFCYFNC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04500",
+                    "Similarity": 0.9,
+                    "Sequence": "ELCEKASKTWSGNCGNTKHCDDQCKSWEGAAHGACHVRNGKHMCFCYFNCN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04501",
+                    "Similarity": 0.9,
+                    "Sequence": "ELCEKASKTWSGNCGNTKHCDNKCKSWEGAAHGACHVRSGKHMCFCYFNC"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "SPADE_N_06243": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_06243",
+            "Peptide Name": "Subtilosin-A",
+            "Source": "Bacillus subtilis",
+            "Family": "Herpesviridae",
+            "Gene": "Not found",
+            "Sequence": "NKGCATCSIGAACLVDGPIPDFEIAGATGLFGLWG",
+            "Sequence Length": 35,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/O07623"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antiviral"
+            ],
+            "Target Organism": "[Ref.25087911]herpes simplex virus type 2(HSV-2):inhibition of viral replication in Vero cells(90% inhibition at 25 μg/mL,EC50= 18.2μg/mL).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "[Ref.25087911]Vero cells:CC50=316.8 μg/mL.",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "No specific N-terminal",
+            "C-terminal Modification": "No specific C-terminal",
+            "Stereochemistry": "Mixed(D-Thr28,D-Phe31)",
+            "Structure Description": "Not found",
+            "Formula": "C139H214N36O41S3",
+            "Mass": 3425.91,
+            "PI": 4.05,
+            "Net Charge": -2,
+            "Hydrophobicity": 0.69,
+            "Half Life": "Mammalian:1.4 hourYeast:3 minE.coli:>10 hour",
+            "Mechanism of action": "Subtilosin displays antiviral and virucidal actions against HSV-2. The target of subtilosin inhibitory effect would be late stages of the viral replicative cycle such as viral glycoprotein intracellular transport.",
+            "Literature": [
+                {
+                    "Title": "Antiherpes simplex virus type 2 activity of the antimicrobial peptide subtilosin.",
+                    "Pubmed ID": "25087911",
+                    "Reference": "J Appl Microbiol. 2014 Nov;117(5)1253-9.",
+                    "Author": "Quintana VM, Torres NI, Wachsman MB, Sinko PJ, Castilla V, Chikindas M.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=25087911"
+                }
+            ],
+            "Frequent Amino Acids": "GAC",
+            "Absent Amino Acids": "HMOQRUY",
+            "Basic Residues": 1,
+            "Acidic Residues": 3,
+            "Hydrophobic Residues": 17,
+            "Polar Residues": 14,
+            "Positive Residues": 1,
+            "Negative Residues": 3,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06034",
+                    "Similarity": 1.0,
+                    "Sequence": "LGPQLNKGCATCSIGAACLVDGPIPDEIAG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06150",
+                    "Similarity": 1.0,
+                    "Sequence": "MKKAVIVENKGCATCSIGAACLVDGPIPDFEIAGATGLFGLWG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15846",
+                    "Similarity": 1.0,
+                    "Sequence": "NKGCATCSIGAACLVDGPIPDFEIAGAGLFGLWG"
+                }
+            ]
+        }
+    }
+}

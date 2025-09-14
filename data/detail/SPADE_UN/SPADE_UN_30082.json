@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_30082": {
+        "Sequence Information": {
+            "Peptide Name": "W - Myxinidin [H3R,D4R,P11R]",
+            "Sequence": "WGIRRILKYGKRS",
+            "Sequence Length": 13,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Structural insights into and activity analysis of the antimicrobial peptide myxinidin.",
+                    "Pubmed ID": "24957834",
+                    "Reference": "Antimicrob Agents Chemother. 2014;58:5280-5390",
+                    "Author": "Cantisani M, Finamore E, Mignogna E, Falanga A, Nicoletti GF, Pedone C, Morelli G, Leone M, Galdiero M, Galdiero S",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/24957834"
+                }
+            ],
+            "Mass": 1632.95,
+            "PI": 11.73,
+            "Net Charge": 5,
+            "Hydrophobicity": -0.95,
+            "Frequent Amino Acids": "RGI",
+            "Absent Amino Acids": "ACDEFHMNOPQTUV",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 3,
+            "Polar Residues": 10,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_30082",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_02599",
+                    "Similarity": 1.0,
+                    "Sequence": "VFARRIWGI"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_29099",
+                    "Similarity": 1.0,
+                    "Sequence": "WGIRRILKYGKRS"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_30082",
+                    "Similarity": 1.0,
+                    "Sequence": "WGIRRILKYGKRS"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:4% Hemolysis=200 µM",
+            "Target Organism": "Escherichia coli ATCC 11219(MIC=10µM),Pseudomonas aeruginosa ATCC 13388(MIC=4µM),Salmonella enterica subsp. enterica serovar Typhimurium ATCC 14028(MIC=10µM),Klebsiella pneumoniae ATCC 10031(MIC=20µM),Staphylococcus aureus ATCC 6538(MIC=4µM)"
+        }
+    }
+}

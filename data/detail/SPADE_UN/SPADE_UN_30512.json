@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_30512": {
+        "Sequence Information": {
+            "Peptide Name": "GRR10W4-NH2",
+            "Sequence": "GRRPRPRPRPWWWW",
+            "Sequence Length": 14,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P51888",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P51888",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Highly selective end-tagged antimicrobial peptides derived from PRELP.",
+                    "Pubmed ID": "21298015",
+                    "Reference": "PLoS One. 2011;6:e16400",
+                    "Author": "Malmsten M, Kasetty G, Pasupuleti M, Alenfall J, Schmidtchen A",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/21298015"
+                }
+            ],
+            "Mass": 1989.3,
+            "PI": 12.0,
+            "Net Charge": 5,
+            "Hydrophobicity": -2.35,
+            "Frequent Amino Acids": "RPW",
+            "Absent Amino Acids": "ACDEFHIKLMNOQSTUVY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 0,
+            "Polar Residues": 14,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_30512",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00076",
+                    "Similarity": 1.0,
+                    "Sequence": "VNYGNGVSCSKTKCSVNWGQAFQERYTAGINSFVSGVASGAGSIGRRP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04470",
+                    "Similarity": 1.0,
+                    "Sequence": "QPTRRPRPGTGPGRRPRPRPRP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06050",
+                    "Similarity": 1.0,
+                    "Sequence": "MNSVKELNVKEMKQLHGGVNYGNGVSCSKTKCSVNWGQAFQERYTAGINSFVSGVASGAGSIGRRP"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:4% Hemolysis=60 µM",
+            "Target Organism": "Staphylococcus aureus ATCC 29213(MIC=40µM),Pseudomonas aeruginosa ATCC 27853(MIC=20µM),Escherichia coli ATCC 25922(MIC=20µM)"
+        }
+    }
+}

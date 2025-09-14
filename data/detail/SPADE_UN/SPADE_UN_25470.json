@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_25470": {
+        "Sequence Information": {
+            "Peptide Name": "DefA",
+            "Sequence": "DKLIGSCVWGAVNYTSDCNAECKRRGYKGGHCGSFANVNCWCET",
+            "Sequence Length": 44,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P84156",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P84156",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Identification and Characterization of Antimicrobial Peptides From Butterflies: An Integrated Bioinformatics and Experimental Study.",
+                    "Pubmed ID": "34512599",
+                    "Reference": "Front Microbiol. 2021;12:720381",
+                    "Author": "Wang M, Zhou Z, Li S, Zhu W, Hu X",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/34512599"
+                }
+            ],
+            "Mass": 4804.34,
+            "PI": 7.77,
+            "Net Charge": 2,
+            "Hydrophobicity": -0.42,
+            "Frequent Amino Acids": "CGN",
+            "Absent Amino Acids": "MOPQU",
+            "Basic Residues": 6,
+            "Acidic Residues": 4,
+            "Hydrophobic Residues": 15,
+            "Polar Residues": 29,
+            "Positive Residues": 6,
+            "Negative Residues": 4,
+            "SPADE ID": "SPADE_UN_25470",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02657",
+                    "Similarity": 0.9772727272727273,
+                    "Sequence": "DKLIGSCVWGAVNYTSNCNAECKRRGYKGGHCGSFANVNCWCET"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03054",
+                    "Similarity": 0.9772727272727273,
+                    "Sequence": "DKLIGSCVWGAVNYTSDCNGECKRRGYKGGHCGSFANVNCWCET"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09520",
+                    "Similarity": 0.9772727272727273,
+                    "Sequence": "DKLIGSCVWGAVNYTSDCAAECKRRGYKGGHCGSFANVNCWCET"
+                }
+            ],
+            "Hemolytic Activity": "Mouse erythrocytes:<10% Hemolysis=64 µM,Human embryonic kidney HEK293 cells:<10% Cytotoxicity=64 µM",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=8µM),Escherichia coli ATCC 25922(MBC=32µM),Staphylococcus aureus ATCC 6538P(MIC=1µM),Staphylococcus aureus ATCC 6538P(MBC=16µM)"
+        }
+    }
+}

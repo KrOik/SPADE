@@ -1,0 +1,77 @@
+{
+    "SPADE_N_01725": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01725",
+            "Peptide Name": "Brevinin-2Ej (Frogs, amphibians, animals)",
+            "Source": "Rana esculenta complex",
+            "Family": "Belongs to the frog skin active peptide family (Brevinin subfamily)",
+            "Gene": "Not found",
+            "Sequence": "GIFLDKLKNFAKGVAQSLLNKASCKLSGQC",
+            "Sequence Length": 30,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-negative bacterium:Escherichia coli (MIC=2 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C141H237N39O40S2",
+            "Mass": 3182.76,
+            "PI": 9.6,
+            "Net Charge": 4,
+            "Hydrophobicity": 0.1,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Potently and selectively inhibits the growth of the Gram-positive bacterium Escherichia coli. No peptide, at concentrations up to 100 µM, inhibited the growth of the fungal pathogen C. albicans.",
+            "Literature": [
+                {
+                    "Title": "Characterization of novel antimicrobial peptides from the skins of frogs of the Rana esculenta complex.",
+                    "Pubmed ID": "14499272",
+                    "Reference": "Peptides. 2003 Jul;24(7)955-961.",
+                    "Author": "Ali MF, Knoop FC, Vaudry H, Conlon JM.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=14499272"
+                },
+                {
+                    "Title": "De novo sequencing of peptides secreted by the skin glands of the caucasian green frog Rana ridibunda.",
+                    "Pubmed ID": "R2008J0426",
+                    "Author": "Zubarev R.A.,Ogourtsov S.V.,Gorshkov V.A.,Artemenko K.A.,Samgina T.Y."
+                }
+            ],
+            "Frequent Amino Acids": "KLA",
+            "Absent Amino Acids": "EHMOPRTUWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 18,
+            "Positive Residues": 5,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01722",
+                    "Similarity": 1.0,
+                    "Sequence": "GIFDKLKNFAKGVAQSLLNKASCKLSGQC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06917",
+                    "Similarity": 1.0,
+                    "Sequence": "KLKNFAKGVAQSLLNKASCKLSGQC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01753",
+                    "Similarity": 0.96,
+                    "Sequence": "KLKNFAIGVAQSLLNKASCKLSGQC"
+                }
+            ]
+        }
+    }
+}

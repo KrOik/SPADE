@@ -1,0 +1,59 @@
+{
+    "SPADE_UN_26123": {
+        "Sequence Information": {
+            "Peptide Name": "",
+            "Sequence": "GLGIIPHRRYGK",
+            "Sequence Length": 12,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Binding Target": "",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Variational Autoencoder for Generation of Antimicrobial Peptides",
+                    "Pubmed ID": "32875208",
+                    "Reference": "ACS Omega. 2020;5:20746-20754",
+                    "Author": "Dean SN, Walper SA",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/32875208"
+                }
+            ],
+            "Mass": 1366.61,
+            "PI": 11.0,
+            "Net Charge": 4,
+            "Hydrophobicity": -0.62,
+            "Frequent Amino Acids": "GIR",
+            "Absent Amino Acids": "ACDEFMNOQSTUVW",
+            "Basic Residues": 4,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 3,
+            "Polar Residues": 9,
+            "Positive Residues": 4,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_26123",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06807",
+                    "Similarity": 1.0,
+                    "Sequence": "GLGGLGI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07329",
+                    "Similarity": 1.0,
+                    "Sequence": "KLGGLGI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10613",
+                    "Similarity": 1.0,
+                    "Sequence": "KLGGLGI"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Escherichia coli BL21(EC50=>400µg/ml),Acinetobacter baumannii ATCC 17978(EC50=>400µg/ml),Staphylococcus aureus ATCC 12600(EC50=>400µg/ml)"
+        }
+    }
+}

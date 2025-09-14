@@ -1,0 +1,77 @@
+{
+    "SPADE_N_01276": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01276",
+            "Peptide Name": "Odorranain-P1a (OdP1a; Brevinin-1HS1; Brevinin-1-OA2; Frogs, amphibians, animals)",
+            "Source": "Odorrana grahami (Yunnanfu frog) (Rana grahami)",
+            "Family": "Belongs to the frog skin active peptide (FSAP) family. Brevinin subfamily.",
+            "Gene": "Not found",
+            "Sequence": "VIPFVASVAAEMMQHVYCAASKKC",
+            "Sequence Length": 24,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/A6MBQ8",
+                "http://www.uniprot.org/uniprot/A6MBQ6"
+            ],
+            "Protein Existence": "Transcript level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "[Ref.17272268] Gram-negative bacterium:Escherichia coli (MIC=3.50 μg/ml);Gram-positive bacteria:Staphylococcus aureus (MIC=3.50 μg/ml), Bacillus subtilis (MIC=1.75 μg/ml).Yeast:Candida albicans (MIC=1.75 μg/ml).",
+            "Hemolytic Activity": "[Ref.17272268] RCH=11.2 ± 2.9% against rabbit red blood cells. RCH, red cell hemolysis.",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Cyclization (Cys18 and Cys24)",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C114H183N29O31S4",
+            "Mass": 2584.11,
+            "PI": 8.02,
+            "Net Charge": 2,
+            "Hydrophobicity": 0.81,
+            "Half Life": "Mammalian:100 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Odorranain-P1a exhibites antimicrobial activities against all of the tested microbes including Gram-positive and Gram-negative bacteria and fungi. Also has hemolytic activity against rabbit red cell.",
+            "Literature": [
+                {
+                    "Title": "Anti-infection peptidomics of amphibian skin.",
+                    "Pubmed ID": "17272268",
+                    "Reference": "Mol Cell Proteomics. 2007 May;6(5)882-894.",
+                    "Author": "Li J, Xu X, Xu C, Zhou W, Zhang K, Yu H, Zhang Y, Zheng Y, Rees HH, Lai R, Yang D, Wu J.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=17272268"
+                }
+            ],
+            "Frequent Amino Acids": "AVC",
+            "Absent Amino Acids": "DGLNORTUW",
+            "Basic Residues": 3,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 15,
+            "Polar Residues": 18,
+            "Positive Residues": 3,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03468",
+                    "Similarity": 1.0,
+                    "Sequence": "MFTMKKSLLLLFFLGTINLSLCQEEERNADEEERRDERDVEVEKRVIPFVASVAAEMMQHVYCAASKKC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03472",
+                    "Similarity": 1.0,
+                    "Sequence": "MFTMKKSLLLLFFLGTINLSFCQEEVRNADEEERRDERDVEVEKRVIPFVASVAAEMMQHVYCAASKKC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03473",
+                    "Similarity": 1.0,
+                    "Sequence": "MFTMKKSLLLLFFLGTINLSLCQEEVRNADEEERRDERDVEVEKRVIPFVASVAAEMMQHVYCAASKKC"
+                }
+            ]
+        }
+    }
+}

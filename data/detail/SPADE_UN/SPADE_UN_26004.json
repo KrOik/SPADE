@@ -1,0 +1,67 @@
+{
+    "SPADE_UN_26004": {
+        "Sequence Information": {
+            "Peptide Name": "Pilosulin-2, Pilosulin-1 (1-20)[G3L,V5K,I12K,G14A]",
+            "Sequence": "GLLSKFGRLARKLARVIPKV",
+            "Sequence Length": 20,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "Q07932",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/Q07932",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Identification and optimization of an antimicrobial peptide from the ant venom toxin pilosulin.",
+                    "Pubmed ID": "15639237",
+                    "Reference": "Arch Biochem Biophys. 2005;434:358-364",
+                    "Author": "Zelezetsky I, Pag U, Antcheva N, Sahl HG, Tossi A",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/15639237"
+                }
+            ],
+            "Mass": 2222.76,
+            "PI": 12.0,
+            "Net Charge": 6,
+            "Hydrophobicity": 0.3,
+            "Frequent Amino Acids": "LKR",
+            "Absent Amino Acids": "CDEHMNOQTUWY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 10,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_26004",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01875",
+                    "Similarity": 1.0,
+                    "Sequence": "GLLGGLLGPLLGGGGGGGGGLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_26004",
+                    "Similarity": 1.0,
+                    "Sequence": "GLLSKFGRLARKLARVIPKV"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_15923",
+                    "Similarity": 0.8333333333333334,
+                    "Sequence": "ILGKLLSTAAGLLSKL"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:15% Hemolysis=10 µM,Human erythrocytes:40% Hemolysis=100 µM",
+            "Target Organism": "Staphylococcus aureus(MIC=2µM),Micrococcus luteus(MIC=1µM),Enterococcus faecium(MIC=1-2µM),Staphylococcus haemolyticus(MIC=1.5µM),Staphylococcus epidermidis LT1324(MIC=1.5µM),Staphylococcus aureus(MIC=2-3µM),Staphylococcus aureus LT1338(MIC=4µM),Staphylococcus aureus LT1334(MIC=3µM),Citrobacter freundii(MIC=2µM),Klebsiella pneumoniae(MIC=1µM),Escherichia coli(MIC=1-2µM),Stenotrophomonas maltophilia(MIC=1-1.5µM),Pseudomonas aeruginosa(MIC=2µM),Candida albicans(MIC=>=4µM),Escherichia coli ML-35(MIC=1µM),Pseudomonas aeruginosa ATCC 27853(MIC=4µM),Salmonella enterica subsp. enterica serovar Typhimurium ATCC 14028(MIC=4-8µM),Staphylococcus aureus 710A(MIC=4-8µM),Bacillus megaterium Bm11(MIC=2µM)"
+        }
+    }
+}

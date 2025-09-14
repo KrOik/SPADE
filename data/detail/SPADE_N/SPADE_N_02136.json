@@ -1,0 +1,69 @@
+{
+    "SPADE_N_02136": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02136",
+            "Peptide Name": "Chymotrypsin-elastase inhibitor ixodidin (Ticks, Arthropods, animals)",
+            "Source": "Boophilus microplus (Cattle tick)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "QRGSRGQRCGPGEVFNQCGSACPRVCGRPPAQACTLQCVSGCFCRRGYIRTQRGGCIPERQCHQR",
+            "Sequence Length": 65,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P83516"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "Escherichia coli (20% inhibition at 1mM), Micrococcus luteus(MIC=0.12-0.24 mM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "pyroglutamic acid",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C287H471N109O85S10",
+            "Mass": 7129.14,
+            "PI": 9.53,
+            "Net Charge": 10,
+            "Hydrophobicity": -0.72,
+            "Half Life": "Mammalian:0.8 hourYeast:10 minE.coli:>10 hour",
+            "Function": "Inhibits chymotrypsin and elastase. Has antibacterial activity against Gram-positive bacterium M.luteus and the Gram-negative bacterium E. coli.",
+            "PTM": "Contains five disulfide bonds.",
+            "Literature": [
+                {
+                    "Title": "Ixodidin, a novel antimicrobial peptide from the hemocytes of the cattle tick Boophilus microplus with inhibitory activity against serine proteinases.",
+                    "Pubmed ID": "16191451",
+                    "Reference": "Peptides. 2006 Apr;27(4)667-74.",
+                    "Author": "Fogaça AC, Almeida IC, Eberlin MN, Tanaka AS, Bulet P, Daffre S.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16191451"
+                }
+            ],
+            "Frequent Amino Acids": "RCG",
+            "Absent Amino Acids": "DKMOUW",
+            "Basic Residues": 12,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 17,
+            "Polar Residues": 43,
+            "Positive Residues": 12,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_08817",
+                    "Similarity": 1.0,
+                    "Sequence": "RGSRGQRCGPGEVFNQCGSACPRVCGRPPAQACTLQCVSGCFCRRGYIRTQRGGCIPERQCHQR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07761",
+                    "Similarity": 0.9846153846153847,
+                    "Sequence": "ERGSRGQRCGPGEVFNQCGSACPRVCGRPPAQACTLQCVSGCFCRRGYIRTQRGGCIPERQCHQR"
+                }
+            ]
+        }
+    }
+}

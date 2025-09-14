@@ -1,0 +1,74 @@
+{
+    "SPADE_UN_23549": {
+        "Sequence Information": {
+            "Peptide Name": "Bac7 (1-16)[R1W,P5R,P7W,P15W], B7-005",
+            "Sequence": "WRIRRRWPRLPRPRWR",
+            "Sequence Length": 16,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anticancer",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Cytoplasmic Protein\n2. Lipid Bilayer\n3. DNA / RNA",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P19661",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P19661",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Peptide Inhibitors of Bacterial Protein Synthesis with Broad Spectrum and SbmA-Independent Bactericidal Activity against Clinical Pathogens.",
+                    "Pubmed ID": "32787108",
+                    "Reference": "J Med Chem. 2020;63:9590-9602",
+                    "Author": "Mardirossian M, Sola R, Beckert B, Valencic E, Collis DWP, Borišek J, Armas F, Di Stasi A, Buchmann J, Syroegin EA, Polikanov YS, Magistrato A, Hilpert K, Wilson DN, Scocchi M",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/32787108"
+                },
+                {
+                    "Title": "The proline-rich antimicrobial peptide B7-005: low bacterial resistance, safe for human cells and effective in zebrafish embryo bacteraemia model",
+                    "Pubmed ID": "39626774",
+                    "Reference": "Open Biol. 2024;14:240286",
+                    "Author": "Di Stasi A, Bozzer S, Pacor S, de Pascale L, Morici M, Favero L, Spazzapan M, Pegoraro S, Bulla R, Wilson DN, Macor P, Scocchi M, Mardirossian M",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/39626774"
+                }
+            ],
+            "Mass": 2343.79,
+            "PI": 12.0,
+            "Net Charge": 8,
+            "Hydrophobicity": -2.2,
+            "Frequent Amino Acids": "RPW",
+            "Absent Amino Acids": "ACDEFGHKMNOQSTUVY",
+            "Basic Residues": 8,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 2,
+            "Polar Residues": 14,
+            "Positive Residues": 8,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_23549",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_02990",
+                    "Similarity": 1.0,
+                    "Sequence": "GKYKWWRIR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_03075",
+                    "Similarity": 1.0,
+                    "Sequence": "PRWRIVVIRVRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_04190",
+                    "Similarity": 1.0,
+                    "Sequence": "FWRGWRIRR"
+                }
+            ],
+            "Hemolytic Activity": "Human keratinocytes HaCat:IC50=120 µM,Human umbilical vein endothelial cells HUVEC:IC50=250 µM",
+            "Target Organism": "Escherichia coli BW25113(MIC=2µM),Escherichia coli ATCC 25922(MIC=1µM),Escherichia coli ATCC 25922(MIC=3µM),Escherichia coli BW25113 del-sbmA(MIC=4µM),Klebsiella pneumoniae ATCC 700603(MIC=2µM),Acinetobacter baumannii ATCC 19606(MIC=4µM),Pseudomonas aeruginosa ATCC 27853(MIC=32µM),Staphylococcus aureus ATCC 25923(MIC=12µM),Escherichia coli BW25113(MBC=4µM),Escherichia coli BW25113 del-sbmA(MBC=4µM),Escherichia coli ATCC 25922(MBC=2µM),Klebsiella pneumoniae ATCC 700603(MBC=8µM),Acinetobacter baumannii ATCC 19606(MBC=8µM),Pseudomonas aeruginosa ATCC 27853(MBC=>64µM),Staphylococcus aureus ATCC 25923(MBC=>64µM),Human chronic B cell leukemia MEC-1(no activity data),Human chronic B cell leukemia MEC-1(IC50=45µM),Escherichia coli ATCC 25922(MIC=4µM),Escherichia coli ATCC 25922(MIC=8µM),Human lung carcinoma A549(IC50=190µM)"
+        }
+    }
+}

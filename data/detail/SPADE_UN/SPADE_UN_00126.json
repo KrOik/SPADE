@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_00126": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_00126",
+            "Peptide Name": "Brevinin-2PRe (Frogs, amphibians, animals)",
+            "Source": "Rana pirica (Hokkaido frog)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "GLLSVLKGVLKTAGKHIFKNVGGSLLDQAKCKISGQC",
+            "Sequence Length": 37,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.15003829] Gram-negative bacterium:Escherichia coli(MIC=3μM), Pseudemonas aeruginosa(MIC=3μM), Enterobacter cloacae(MIC=3μM), Klebsiella pneumoniae(MIC=6μM);Gram-positive bacterium:Staphylococcus aureus(MIC=25μM);Yeast:Candida albicans(MIC>100μM)",
+            "Hemolytic Activity": "[Ref.15003829] HC50=80 μM against human erythrocytes",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Cyclization (Cys31 and Cys37)",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C169H292N48O47S2",
+            "Mass": 3812.55,
+            "PI": 9.79,
+            "Net Charge": 6,
+            "Hydrophobicity": 0.26,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "activity against reference strains of Gram-negative (Escherichia coli, Pseudomonas aeruginosa, Enterobacter cloacae, Klebsiella pneumoniae) and Gram-positive (Staphlococcus aureus) bacteria but displayed relatively low hemolytic activity.",
+            "Literature": [
+                {
+                    "Title": "A family of brevinin-2 peptides with potent activity against Pseudomonas aeruginosa from the skin of the Hokkaido frog, Rana pirica.",
+                    "Pubmed ID": "15003829",
+                    "Reference": "Regul Pept. 2004 May 15;118(3)135-141.",
+                    "Author": "Conlon JM, Sonnevend A, Patel M, Al-Dhaheri K, Nielsen PF, Kolodziejek J, Nowotny N, Iwamuro S, P",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=15003829"
+                }
+            ],
+            "Frequent Amino Acids": "GKL",
+            "Absent Amino Acids": "EMOPRUWY",
+            "Basic Residues": 7,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 14,
+            "Polar Residues": 21,
+            "Positive Residues": 7,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_15610",
+                    "Similarity": 0.972972972972973,
+                    "Sequence": "GLLSVLKGVLKTTGKHIFKNVGGSLLDQAKCKISGQC"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_18559",
+                    "Similarity": 0.972972972972973,
+                    "Sequence": "GLLSVLKGVLKTTGKHIFKNVGGSLLDQAKCKISGQC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08340",
+                    "Similarity": 0.972972972972973,
+                    "Sequence": "GLMSVLKGVLKTAGKHIFKNVGGSLLDQAKCKISGQC"
+                }
+            ]
+        }
+    }
+}

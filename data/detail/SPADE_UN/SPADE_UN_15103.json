@@ -1,0 +1,71 @@
+{
+    "SPADE_UN_15103": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_15103",
+            "Peptide Name": "BMAP-18I6L10",
+            "Source": "Synthetic construct(derived from BMAP-27)",
+            "Family": "Retroviridae",
+            "Gene": "Not found",
+            "Sequence": "GRFKRIRKKLKKLFKKIS",
+            "Sequence Length": 18,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antiviral"
+            ],
+            "Target Organism": "[Ref.18591279]HIV-1IIIB:inhibition the cytopathic effect of HIV in CEM-SS cells(EC50>44.0 μM).(EC50:50% effective concentration for inhibition of virus replication)",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "[Ref.18591279]CEM-SS cells:TC50=2.79 μM.(TC50:the concentration that reduced cell viability by 50%)",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C107H192N34O20",
+            "Mass": 2274.89,
+            "PI": 12.0,
+            "Net Charge": 10,
+            "Hydrophobicity": -1.1,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Anti-human immunodeficiency virus type 1 activities of antimicrobial peptides derived from human and bovine cathelicidins.",
+                    "Pubmed ID": "18591279",
+                    "Reference": "Antimicrob Agents Chemother. 2008 Sep;52(9)3438-40.",
+                    "Author": "Wang G, Watson KM, Buckheit RW Jr.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=18591279"
+                }
+            ],
+            "Frequent Amino Acids": "KRF",
+            "Absent Amino Acids": "ACDEHMNOPQTUVWY",
+            "Basic Residues": 10,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 11,
+            "Positive Residues": 10,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_21992",
+                    "Similarity": 1.0,
+                    "Sequence": "KKLFK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06423",
+                    "Similarity": 0.9,
+                    "Sequence": "KLKKLFKKILKY"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_23074",
+                    "Similarity": 0.9,
+                    "Sequence": "KLKKLFKKILKY"
+                }
+            ]
+        }
+    }
+}

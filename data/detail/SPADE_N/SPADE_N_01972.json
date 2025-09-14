@@ -1,0 +1,74 @@
+{
+    "SPADE_N_01972": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01972",
+            "Peptide Name": "Ranatuerin-2Ya (Frogs, amphibians, animals)",
+            "Source": "Not found",
+            "Family": "Belongs to the frog skin active peptide family (Brevinin subfamily)",
+            "Gene": "Not found",
+            "Sequence": "GLMDTIKGVAKTVAASWLDKLKCKITGC",
+            "Sequence Length": 28,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "[Ref.19254736] Gram-negative bacterium:Escherichia coli (MIC=50 µM);Gram-positive bacterium:Staphylococcus aureus (MIC=50 µM).",
+            "Hemolytic Activity": "[Ref.19254736] LC50>100 μM against human red blood cells",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C130H224N34O37S3",
+            "Mass": 2951.57,
+            "PI": 9.24,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.34,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Antibacterial activity against Gram-positive bacteria and Gram-negative bacteria. Ranatuerin-2Ya showed appreciably greater cytolytic activity against HepG2 cells (LC(50)=20microM) than against erythrocytes (LC(50)>100microM).",
+            "Literature": [
+                {
+                    "Title": "Peptides with potent cytolytic activity from the skin secretions of the North American leopard frogs, Lithobates blairi and Lithobates yavapaiensis.",
+                    "Pubmed ID": "19254736",
+                    "Reference": "Toxicon. 2009 Jun;53(7-8)699-705. doi 10.1016/j.toxicon.2009.02.018.",
+                    "Author": "Conlon JM, Ahmed E, Coquet L, Jouenne T, Leprince J, Vaudry H, King JD.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=19254736"
+                }
+            ],
+            "Frequent Amino Acids": "KAG",
+            "Absent Amino Acids": "EFHNOPQRUY",
+            "Basic Residues": 5,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 16,
+            "Positive Residues": 5,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_01930",
+                    "Similarity": 0.8928571428571429,
+                    "Sequence": "GIMDTVKGVAKTVAASLLDKLKCKITGC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01986",
+                    "Similarity": 0.8928571428571429,
+                    "Sequence": "GLLDTIKGVAKTVAASMLDKLKCKISGC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08342",
+                    "Similarity": 0.8571428571428571,
+                    "Sequence": "GLMDTIKGVAKNVAASLLEKLKCKVTGC"
+                }
+            ]
+        }
+    }
+}

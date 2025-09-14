@@ -1,0 +1,84 @@
+{
+    "SPADE_UN_11847": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_11847",
+            "Peptide Name": "Feleucin-K3 (Derived from Feleucin-BO1)",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "FLKLLKKLL",
+            "Sequence Length": 9,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic form",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "[Ref.25056849] Gram-positive bacteria :Staphylococcus aureus(MIC=34 μM, MBC=128 μM)",
+            "Hemolytic Activity": "[Ref.25056849] 100% hemolysis at >250 mg/L against horse red blood cells",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "In F-K3, these latter residues are substituted with Lys (K) residues, whose side-chains occupied the same positions, producing a model cationic amphipathic character in this analogue.",
+            "Formula": "C57H102N12O10",
+            "Mass": 1115.49,
+            "PI": 10.3,
+            "Net Charge": 3,
+            "Hydrophobicity": 1.12,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Function": "Antibacterial activity against Gram-positive bacteria",
+            "Literature": [
+                {
+                    "Title": "Feleucin-BO1 A Novel Antimicrobial Non-Apeptide Amide from the Skin Secretion of the Toad, Bombina orientalis, and Design of a Potent Broad-Spectrum Synthetic Analogue, Feleucin-K3",
+                    "Pubmed ID": "25056849",
+                    "Reference": "Chem Biol Drug Des. 2015 Mar;85(3)259-67. doi 10.1111/cbdd.12396.",
+                    "Author": "Xiaojuan Hou, Qiang Du, Renjie Li, Mei Zhou, Hui Wang2, Lei Wang2, Can Guo, Tianbao Chen and Chris Shaw",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=25056849"
+                },
+                {
+                    "Title": "Feleucin-BO1: A novel Antimicrobial non-Apeptide Amide from the Skin Secretion of the Toad, Bombina orientalis, and Design of a Potent Broad-Spectrum Synthetic Analogue, Feleucin-K3",
+                    "Pubmed ID": "",
+                    "Author": "Hou X, Du Q, Li R, Zhou M, Wang H, Wang L, Guo C, Chen T, Shaw C"
+                },
+                {
+                    "Title": "Potent effects of amino acid scanned antimicrobial peptide Feleucin-K3 analogs against both multidrug-resistant strains and biofilms of Pseudomonas aeruginosa",
+                    "Pubmed ID": "",
+                    "Author": "Xie J, Li Y, Li J, Yan Z, Wang D, Guo X, Zhang J, Zhang B, Mou L, Yang W, Jiang X"
+                }
+            ],
+            "Frequent Amino Acids": "LKF",
+            "Absent Amino Acids": "ACDEGHIMNOPQRSTUVWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 3,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06813",
+                    "Similarity": 1.0,
+                    "Sequence": "DGRELCLDPKENWVQRVVEKFLK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10600",
+                    "Similarity": 1.0,
+                    "Sequence": "KAGLQFPVGRIARFLK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_12648",
+                    "Similarity": 1.0,
+                    "Sequence": "KKFFRAWWAPRFLK"
+                }
+            ]
+        }
+    }
+}

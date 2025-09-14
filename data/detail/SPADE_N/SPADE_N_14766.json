@@ -1,0 +1,76 @@
+{
+    "SPADE_N_14766": {
+        "Sequence Information": {
+            "Peptide Name": "Cecropin A-like 4, Sarcotoxin-G",
+            "Sequence": "GWLKKIGKKIERVGQHTRDATIQAIGVAQQAANVAATLKG",
+            "Sequence Length": 40,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Binding Target": "",
+            "Source": "1. Musca domestica",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "A0A0A0UYU9",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/A0A0A0UYU9",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                },
+                {
+                    "uniprotId": "A0A1I8M6I1",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/A0A1I8M6I1",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                },
+                {
+                    "uniprotId": "A0A1I8MVY1",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/A0A1I8MVY1",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Antibacterial mechanism of peptide Cec4 against Acinetobacter baumannii.",
+                    "Pubmed ID": "31496754",
+                    "Reference": "Infect Drug Resist. 2019;12:2417-2428",
+                    "Author": "Peng J, Long H, Liu W, Wu Z, Wang T, Zeng Z, Guo G, Wu J",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/31496754"
+                }
+            ],
+            "Mass": 4227.87,
+            "PI": 10.57,
+            "Net Charge": 6,
+            "Hydrophobicity": -0.26,
+            "Frequent Amino Acids": "AGK",
+            "Absent Amino Acids": "CFMOPSUY",
+            "Basic Residues": 8,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 16,
+            "Polar Residues": 24,
+            "Positive Residues": 8,
+            "Negative Residues": 2,
+            "SPADE ID": "SPADE_N_14766",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03421",
+                    "Similarity": 0.975,
+                    "Sequence": "MNFNKLFVFVALVLAVCIGQSEAGWLKKIGKKIERVGQHTRDATIQTIGVAQQAANVAATLKG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07455",
+                    "Similarity": 0.975,
+                    "Sequence": "GSPEFGWLKKIGKKIERVGQHTRDATIQTIGVAQQAANVAATLKG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07996",
+                    "Similarity": 0.975,
+                    "Sequence": "MNFNKVLVLLAVIFAVFAGQTEAGWLKKIGKKIERVGQHTRDATIQTIGVAQQAANVAATLKG"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Acinetobacter baumannii ATCC 19606(MIC=>256µg/ml),Acinetobacter baumannii(MIC=>256µg/ml),Staphylococcus aureus ATCC 25923(MIC=>256µg/ml),Candida albicans ATCC 10231(MIC=>256µg/ml)"
+        }
+    }
+}

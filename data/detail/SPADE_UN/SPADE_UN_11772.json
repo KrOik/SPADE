@@ -1,0 +1,78 @@
+{
+    "SPADE_UN_11772": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_11772",
+            "Peptide Name": "A (A1R, A8R, I17R) (Derived from AR-23)",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "RIGSILGRLAKGLPTLRSWIKNR",
+            "Sequence Length": 23,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic form",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.27271216]Gram-positive bacteria :Staphylococcuss aureus (MIC=100 μM), Staphylococcus epidermidis (MIC=3.13 μM), Bacillus subtilis (MIC=12.5 μM);Gram-negative bacteria :Escherichia coli (MIC=12.5 μM), Pseudomonas aeruginosa (MIC=12.5 μM), Klebsiella pneumoniae (MIC=12.5 μM)",
+            "Hemolytic Activity": "[Ref.27271216] 4% hemolysis at 40 μM , 10% hemolysis at 60 μM , 15% hemolysis at 80 μM , 20% hemolysis at 100 μM against human red blood cells",
+            "Cytotoxicity": "[Ref.27271216] In L929 cells, the cell viability is 92%, 92%, 80%, 60% and 12% at peptide concentrations of 3.12, 6.25, 12.5, 25 and 50 μM",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C117H205N39O28",
+            "Mass": 2606.12,
+            "PI": 12.0,
+            "Net Charge": 6,
+            "Hydrophobicity": -0.21,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Function": "Antibacterial activity against Gram-positive bacteria and Gram-negative bacteria",
+            "Literature": [
+                {
+                    "Title": "Design of an α-helical antimicrobial peptide with improved cell selective and potent anti-biofilm activity",
+                    "Pubmed ID": "27271216",
+                    "Reference": "Sci Rep. 2016 Jun 8;627394. doi 10.1038/srep27394.",
+                    "Author": "Shi-KunZhang, Jin-wen Song, FengGong, Su-Bo Li, Hong-Yu Chang, Hui-MinXie, Hong-WeiGao, Ying-XiaTan & Shou-Ping Ji",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=27271216"
+                },
+                {
+                    "Title": "Design of an ?-helical antimicrobial peptide with improved cell-selective and potent anti-biofilm activity",
+                    "Pubmed ID": "",
+                    "Author": "Zhang SK, Song JW, Gong F, Li SB, Chang HY, Xie HM, Gao HW, Tan YX, Ji SP"
+                }
+            ],
+            "Frequent Amino Acids": "LRG",
+            "Absent Amino Acids": "CDEFHMOQUVY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 11,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_11768",
+                    "Similarity": 0.9565217391304348,
+                    "Sequence": "RIGSILGRLAKGLPTLISWIKNR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_11771",
+                    "Similarity": 0.9565217391304348,
+                    "Sequence": "RIGSILGRLAKGLPTLKSWIKNR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_11764",
+                    "Similarity": 0.9130434782608695,
+                    "Sequence": "RIGSILGALAKGLPTLISWIKNR"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_29095": {
+        "Sequence Information": {
+            "Peptide Name": "Myxinidin [H3K,D4K,P11K]",
+            "Sequence": "GIKKILKYGKKS",
+            "Sequence Length": 12,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Structure-activity relations of myxinidin, an antibacterial peptide derived from the epidermal mucus of hagfish.",
+                    "Pubmed ID": "24002100",
+                    "Reference": "Antimicrob Agents Chemother. 2013;57:5665-5673",
+                    "Author": "Cantisani M, Leone M, Mignogna E, Kampanaraki K, Falanga A, Morelli G, Galdiero M, Galdiero S",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/24002100"
+                }
+            ],
+            "Mass": 1362.7,
+            "PI": 10.3,
+            "Net Charge": 5,
+            "Hydrophobicity": -0.8,
+            "Frequent Amino Acids": "KGI",
+            "Absent Amino Acids": "ACDEFHMNOPQRTUVW",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 3,
+            "Polar Residues": 9,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_29095",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_13164",
+                    "Similarity": 1.0,
+                    "Sequence": "KKIGIWIGIKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14468",
+                    "Similarity": 1.0,
+                    "Sequence": "RWRRFWGKAKRGIKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_20921",
+                    "Similarity": 1.0,
+                    "Sequence": "KKIGIWIGIKK"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:3% Hemolysis=50 µM,Human erythrocytes:10% Hemolysis=100 µM,Human erythrocytes:18% Hemolysis=200 µM,Vero cells:-=NA",
+            "Target Organism": "Escherichia coli ATCC 11219(MIC=20µM),Pseudomonas aeruginosa ATCC 13388(MIC=>50µM),Salmonella enterica subsp. enterica serovar Typhimurium ATCC 14028(MIC=20µM),Klebsiella pneumoniae ATCC 10031(MIC=>50µM),Staphylococcus aureus ATCC 6538(MIC=5µM)"
+        }
+    }
+}

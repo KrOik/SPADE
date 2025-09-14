@@ -1,0 +1,73 @@
+{
+    "SPADE_N_03308": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03308",
+            "Peptide Name": "UyCT1 (Arthropods, animals)",
+            "Source": "Urodacus yaschenkoi (Scorpion)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "GFWGKLWEGVKNAI",
+            "Sequence Length": 14,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.23182832]Gram-positive bacterium:Staphylococcus aureus ATCC 25953 (MIC=15 µM);Gram-negative bacteria:Escherichia coli ATCC 25922 (MIC=10 µM), Pseudomonas aeruginosa ATCC 9027 (MIC=10 µM).",
+            "Hemolytic Activity": "[Ref.23182832]20% hemolytic activity at 12.5 μM, 45% hemolytic activity at 25 μM, 80% hemolytic activity at 50 μM, 90% hemolytic activity at 100 μM against human erythrocytes",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C78H113N19O18",
+            "Mass": 1604.85,
+            "PI": 8.59,
+            "Net Charge": 1,
+            "Hydrophobicity": -0.05,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Shows minimum inhibitory concentration against Gram-positive and Gram-negative bacteria. Has hemolytic activity.",
+            "Literature": [
+                {
+                    "Title": "Characterization of the venom from the Australian scorpion Urodacus yaschenkoi Molecular mass analysis of components, cDNA sequences and peptides with antimicrobial activity.",
+                    "Pubmed ID": "23182832",
+                    "Reference": "Toxicon. 2013 Mar 1;6344-54.",
+                    "Author": "Luna-Ramírez K, Quintero-Hernández V, Vargas-Jaimes L, Batista CV, Winkel KD, Possani LD.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=23182832"
+                }
+            ],
+            "Frequent Amino Acids": "GKW",
+            "Absent Amino Acids": "CDHMOPQRSTUY",
+            "Basic Residues": 2,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 5,
+            "Positive Residues": 2,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_11534",
+                    "Similarity": 1.0,
+                    "Sequence": "GFWGKLWEGVKNAIKKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_30842",
+                    "Similarity": 1.0,
+                    "Sequence": "GFWGKLWEGVKNAIKKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03309",
+                    "Similarity": 1.0,
+                    "Sequence": "FWGKLWEGVKNAI"
+                }
+            ]
+        }
+    }
+}

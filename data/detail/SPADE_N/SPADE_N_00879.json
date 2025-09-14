@@ -1,0 +1,73 @@
+{
+    "SPADE_N_00879": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00879",
+            "Peptide Name": "Tu-AMP2 (Plant defensin)",
+            "Source": "Tulipa gesneriana L.",
+            "Family": "Belongs to the thionin family",
+            "Gene": "Not found",
+            "Sequence": "KSCCRNTTARNCYNVCRIPG",
+            "Sequence Length": 20,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "Gram-negative bacteria:Erwinia carotovora (IC50=15 µg/ml), Agrobacterium radiobacter (IC50=17 µg/ml), Agrobacterium rhizogenes (IC50=20 µg/ml);Gram-positive bacteria:Clavibacter michiganensis (IC50=17 µg/ml), Curtobacterium flaccumfaciens (IC50=15 µg/ml).Fungi:Fusarium oxysporum (IC50=2 µg/ml), Geotrichum candidum (IC50=2 µg/ml).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C89H151N33O28S4",
+            "Mass": 2259.62,
+            "PI": 9.3,
+            "Net Charge": 4,
+            "Hydrophobicity": -0.65,
+            "Half Life": "Mammalian:1.3 hourYeast:3 minE.coli:2 min",
+            "Literature": [
+                {
+                    "Title": "Purification, characterization, and sequencing of novel antimicrobial peptides, Tu-AMP 1 and Tu-AMP 2, from bulbs of tulip (Tulipa gesneriana L.).",
+                    "Pubmed ID": "15056889",
+                    "Reference": "Biosci Biotechnol Biochem. 2004 Mar;68(3)571-577.",
+                    "Author": "Fujimura M, Ideguchi M, Minami Y, Watanabe K, Tadera K.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=15056889"
+                }
+            ],
+            "Frequent Amino Acids": "CNR",
+            "Absent Amino Acids": "DEFHLMOQUW",
+            "Basic Residues": 4,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 17,
+            "Positive Residues": 4,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_08277",
+                    "Similarity": 1.0,
+                    "Sequence": "KSCCRNTTARNCYNVCRIPGTPRPVCAATCDCKIITGTKCPPGYEK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00878",
+                    "Similarity": 0.95,
+                    "Sequence": "KSCCRNTVARNCYNVCRIPGTPRPVCAATCDCKLITGTKCPPGYEK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00902",
+                    "Similarity": 0.9,
+                    "Sequence": "KSCCRNTWARNCYNVCRLPGTISREICAKKCDCKIISGTTCPSDYPK"
+                }
+            ]
+        }
+    }
+}

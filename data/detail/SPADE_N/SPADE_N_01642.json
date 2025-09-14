@@ -1,0 +1,80 @@
+{
+    "SPADE_N_01642": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01642",
+            "Peptide Name": "RV-23 (Frogs, amphibians, animals)",
+            "Source": "Rana aurora draytonii (California red-legged frog)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "RIGVLLARLPKLFSLFKLMGKKV",
+            "Sequence Length": 23,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.27271216]Gram-positive bacteria :Staphylococcuss aureus (MIC=12.5 μM), Staphylococcus epidermidis (MIC=3.13 μM), Bacillus subtilis (MIC=3.13 μM);Gram-negative bacteria :Escherichia coli (MIC=6.25 μM), Pseudomonas aeruginosa (MIC=6.25 μM), Klebsiella pneumoniae (MIC=6.25 μM)",
+            "Hemolytic Activity": "[Ref.27271216] 60% hemolysis at 20 μM , 90% hemolysis at 40 μM , 100% hemolysis at 60 μM , 100% hemolysis at 100 μM against human red blood cells",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C126H219N33O25S",
+            "Mass": 2628.36,
+            "PI": 12.0,
+            "Net Charge": 6,
+            "Hydrophobicity": 0.75,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Function": "Antibacterial activity against Gram-positive bacteria and Gram-negative bacteria",
+            "Literature": [
+                {
+                    "Title": "Evidence from peptidomic analysis of skin secretions that the red-legged frogs, Rana aurora draytonii and Rana aurora aurora, are distinct species.",
+                    "Pubmed ID": "16307827",
+                    "Reference": "Peptides. 2006 Jun;27(6)1305-1312.",
+                    "Author": "Conlon JM, Al-Ghafari N, Coquet L, Leprince J, Jouenne T, Vaudry H, Davidson C.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16307827"
+                },
+                {
+                    "Title": "Design of an α-helical antimicrobial peptide with improved cell selective and potent anti-biofilm activity",
+                    "Pubmed ID": "27271216",
+                    "Reference": "Sci Rep. 2016 Jun 8;627394. doi 10.1038/srep27394.",
+                    "Author": "Shi-KunZhang, Jin-wen Song, FengGong, Su-Bo Li, Hong-Yu Chang, Hui-MinXie, Hong-WeiGao, Ying-XiaTan & Shou-Ping Ji",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=27271216"
+                }
+            ],
+            "Frequent Amino Acids": "LKF",
+            "Absent Amino Acids": "CDEHNOQTUWY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 14,
+            "Polar Residues": 10,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_23641",
+                    "Similarity": 0.8571428571428571,
+                    "Sequence": "KLFKKLFK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_23642",
+                    "Similarity": 0.8571428571428571,
+                    "Sequence": "KLFKKLFK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_23643",
+                    "Similarity": 0.8571428571428571,
+                    "Sequence": "KLFKKLFK"
+                }
+            ]
+        }
+    }
+}

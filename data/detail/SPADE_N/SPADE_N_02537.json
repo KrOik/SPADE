@@ -1,0 +1,100 @@
+{
+    "SPADE_N_02537": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "US 2002/0156017 A1",
+                "Patent Link": "http://www.lens.org/lens/patent/US_2002_0156017_A1",
+                "Patent Type": "Patent Application",
+                "Publication Date": "2002-10-24",
+                "Family Info": "CA2412531A1,CA2412531C,EP1294745A2,US6337317,US6747007,WO2002000687A2,WO2002000687A3,WO2002000687A9",
+                "Patent Title": "Antimicrobial peptides and methods of use thereof.",
+                "Abstract": "A class of cationic, polyphemusin-like peptides having antimicrobial activity is provided. Examples of such peptides include FRWCFRVCYKGRCRYKCR (SEQ ID NO: 3), RRWCFRVCYKGFCRYKCR (SEQ ID NO: 4), and RRWCFRVCYRGRFCYRKCR (SEQ ID NO: 11). Also provided are methods for inhibiting the growth of microbes such as bacteria, yeast and viruses utilizing the peptides of the invention. The peptides are particularly useful for inhibiting endotoxemia in a subject."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02537",
+            "Peptide Name": "Polyphemusin-1 (PM1; crabs, Arthropods, animals)",
+            "Source": "Limulus polyphemus (Atlantic horseshoe crab)",
+            "Family": "Belongs to the tachyplesin/polyphemusin family",
+            "Gene": "Not found",
+            "Sequence": "RRWCFRVCYRGFCYRKCR",
+            "Sequence Length": 18,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P14215"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "Gram-negative bacteria:Escherichia coli UB1005 (MIC=0.5 µg/ml), E. coli DC2 (MIC=1 µg/ml), Salmonella typhimurium (defensin-sensitive) (MIC=0.25 µg/ml), S. typhimurium (MIC=1 µg/ml), Pseudomonas aeruginosa K799 (MIC=2 µg/ml), P. aeruginosa Z61 (MIC=1 µg/ml);Gram-positive bacteria:Staphylococcus aureus SAP0017 (MIC=2 µg/ml), Staphylococcus epidermidis (MIC=1 µg/ml), Enterococcus faecalis (MIC=1 µg/ml).Yeasy:Candida albicans (MIC=4 µg/ml).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "The solution structure of polyphemusin I is determined using (1)H-NMR spectroscopy. Polyphemusin I is found to be an amphipathic, beta-hairpin connected by a type I' beta-turn.",
+            "Formula": "C108H164N38O21S4",
+            "Mass": 2458.96,
+            "PI": 10.33,
+            "Net Charge": 7,
+            "Hydrophobicity": -0.83,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Function": "PM1 showes high antimicrobial activity against the Gram-negative, Gram-positive and fungal specimens tested.",
+            "Tissue specificity": "Hemocytes.",
+            "PTM": "Contains two disulfide bonds 4-17; 8-13 and C-terminal amidation.",
+            "Literature": [
+                {
+                    "Title": "Antimicrobial peptides, isolated from horseshoe crab hemocytes, tachyplesin II, and polyphemusins I and II chemical structures and biological activity.",
+                    "Pubmed ID": "2514185",
+                    "Reference": "J Biochem. 1989 Oct;106(4)663-668.",
+                    "Author": "Miyata T, Tokunaga F, Yonega T, Yoshikawa K, Iwanaga S, Niwa M, Takao T, Shimonishi Y.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=2514185"
+                },
+                {
+                    "Title": "Structure-activity relationships for the beta-hairpin cationic antimicrobial peptide polyphemusin I.",
+                    "Pubmed ID": "15134657",
+                    "Reference": "Biochim Biophys Acta. 2004 May 6;1698(2)239-250.",
+                    "Author": "Powers JP, Rozek A, Hancock RE.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=15134657"
+                },
+                {
+                    "Title": "Antimicrobial peptides, isolated from horseshoe crab hemocytes, tachyplesin II, and polyphemusins I and II: chemical structures and biological activity.",
+                    "Pubmed ID": "",
+                    "Author": "Iwanaga S.,Yoshikawa K.,Yonega T.,Tokunaga F.,Miyata T."
+                }
+            ],
+            "Frequent Amino Acids": "RCF",
+            "Absent Amino Acids": "ADEHILMNOPQSTU",
+            "Basic Residues": 7,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 14,
+            "Positive Residues": 7,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03663",
+                    "Similarity": 1.0,
+                    "Sequence": "RRWCFRVCYRGRFCYRKCR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_00323",
+                    "Similarity": 1.0,
+                    "Sequence": "RRWWRRWRRW"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_00872",
+                    "Similarity": 1.0,
+                    "Sequence": "RRWCFVCRGCYCR"
+                }
+            ]
+        }
+    }
+}

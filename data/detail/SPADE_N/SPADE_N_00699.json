@@ -1,0 +1,74 @@
+{
+    "SPADE_N_00699": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00699",
+            "Peptide Name": "Defensin-2 (Plant defensin)",
+            "Source": "Pinus sylvestris (Scots pine)",
+            "Family": "Belongs to the DEFL family",
+            "Gene": "Def2",
+            "Sequence": "RMCKTPSAKFKGYCVSSTNCKNVCRTEGFPTGSCDFHITSRKCYCYKPCP",
+            "Sequence Length": 50,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/A4L7R8"
+            ],
+            "Protein Existence": "Homology",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antifungal"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C240H375N69O70S9",
+            "Mass": 5635.55,
+            "PI": 9.18,
+            "Net Charge": 8,
+            "Hydrophobicity": -0.56,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Function": "Plant defense peptide. Has antifungal activity.",
+            "PTM": "Contains three disulfide bonds (By similarity).",
+            "Literature": [
+                {
+                    "Title": "Molecular cloning and characterization of Scotch pine Defensin-2.",
+                    "Pubmed ID": "19253756",
+                    "Reference": "Tsitol Genet. 2008 Nov-Dec;42(6)55-60.",
+                    "Author": "Koval'ova VA, Hut RT.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=19253756"
+                }
+            ],
+            "Frequent Amino Acids": "CKS",
+            "Absent Amino Acids": "LOQUW",
+            "Basic Residues": 10,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 15,
+            "Polar Residues": 36,
+            "Positive Residues": 10,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00700",
+                    "Similarity": 0.88,
+                    "Sequence": "RMCKTPSGKFKGYCVNNTNCKNVCRTEGFPTGSCDFHVAGRKCYCYKPCP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03399",
+                    "Similarity": 0.78,
+                    "Sequence": "MADKGVCSRLSALFLLVLLVISIGMMQLELAEARTCKTPSGKFKGVCASSNNCKNVCQTEGFPSGSCDFHVANRKCYCSKPCP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03400",
+                    "Similarity": 0.78,
+                    "Sequence": "MADKGVGSRLSAIFLLVLLVISIGMMQLELAEGRTCKTPSGKFKGVCASSNNCKNVCQTEGFPSGSCDFHVANRKCYCSKPCP"
+                }
+            ]
+        }
+    }
+}

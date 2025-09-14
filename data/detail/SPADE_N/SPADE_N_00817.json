@@ -1,0 +1,87 @@
+{
+    "SPADE_N_00817": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00817",
+            "Peptide Name": "Leaf cyclotide 2 (Vhl-2; Plant defensin)",
+            "Source": "Viola hederacea (Australian violet)",
+            "Family": "Belongs to the cyclotide family",
+            "Gene": "Not found",
+            "Sequence": "GLPVCGETCFTGTCYTNGCTCDPWPVCTRN",
+            "Sequence Length": 30,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P85231"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antiviral"
+            ],
+            "Target Organism": "[Ref.15824119]Virus:HIV(EC50= 0.87 μM)",
+            "Hemolytic Activity": "[Ref:15824119]Has hemolytic activity",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "cell membrabce",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Analysis of surface hydrophobicity and haemolytic activity for a range of cyclotides indicates a correlation between them, with increasing hydrophobicity resulting in increased haemolytic activity.",
+            "Formula": "C133H200N36O44S6",
+            "Mass": 3199.62,
+            "PI": 4.37,
+            "Net Charge": -1,
+            "Hydrophobicity": -0.04,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Probably participates in a plant defense mechanism. Has hemolytic activity.",
+            "Tissue specificity": "Expressed in leaves.",
+            "PTM": "This is a cyclic peptide which contains three disulfide bonds 5-19; 9-21; 14-27.",
+            "Literature": [
+                {
+                    "Title": "Isolation and characterization of novel cyclotides from Viola hederaceae solution structure and anti-HIV activity of vhl-1, a leaf-specific expressed cyclotide.",
+                    "Pubmed ID": "15824119",
+                    "Reference": "J Biol Chem. 2005 Jun 10;280(23)22395-22405.",
+                    "Author": "Chen B, Colgrave ML, Daly NL, Rosengren KJ, Gustafson KR, Craik DJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=15824119"
+                },
+                {
+                    "Title": "Structure and activity of the leaf-specific cyclotide vhl-2.",
+                    "Pubmed ID": "Pubmed ID is not available",
+                    "Reference": "Aust. J. Chem. 2010;63771-778.",
+                    "Author": "Daly NL, Chen B, Nguyencong P, Craik DJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=Pubmed ID is not available"
+                },
+                {
+                    "Title": "Isolation and characterization of novel cyclotides from Viola hederaceae: solution structure and anti-HIV activity of vhl-1, a leaf-specific expressed cyclotide.",
+                    "Pubmed ID": "R2005J0740",
+                    "Author": "Gustafson K.R.,Rosengren K.J.,Daly N.L.,Colgrave M.L.,Chen B."
+                }
+            ],
+            "Frequent Amino Acids": "CTG",
+            "Absent Amino Acids": "AHIKMOQSU",
+            "Basic Residues": 1,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 18,
+            "Positive Residues": 1,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07750",
+                    "Similarity": 1.0,
+                    "Sequence": "CGETCFTGTCYTNGCTCDPWPVCTRNGLPV"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00709",
+                    "Similarity": 0.9,
+                    "Sequence": "GLPVCGETCFGGTCNTPGCTCDPWPVCTRN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00774",
+                    "Similarity": 0.8666666666666667,
+                    "Sequence": "GLPVCGETCFGGTCNTPGCICDPWPVCTRN"
+                }
+            ]
+        }
+    }
+}

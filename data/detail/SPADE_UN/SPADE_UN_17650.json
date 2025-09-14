@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_17650": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_17650",
+            "Peptide Name": "P2",
+            "Source": "Synthetic",
+            "Family": "",
+            "Gene": "Not found",
+            "Sequence": "KRGDKA",
+            "Sequence Length": 6,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Notavailable"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Target Organism": "Tumor cells:HepG2 (IC50=10.92µg/mL); HEp-2 (IC50=11.38µg/mL); MCF-7  (IC50=38.53µg/mL); A375 (IC50=91.28µg/mL)",
+            "Hemolytic Activity": "Not available",
+            "Cytotoxicity": "Vero:IC50=65.03µg/mL",
+            "Binding Target": "Not available",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "α-(2,5,7-tri-tert-butyl) tryptophan (W*)",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C27H51N11O9",
+            "Mass": 673.76,
+            "PI": 9.99,
+            "Net Charge": 2,
+            "Hydrophobicity": -2.4,
+            "Half Life": "Mammalian:1.3 hourYeast:3 minE.coli:2 min",
+            "Comments": "The perceived cancer cell-selective killing of both peptides P1 and P2 seems to stalk from cationic peptides and the electrostatic interactions between the anionic lipids of cancer cells on account of specific binding between integrins proteins and N (APN/CD13) ligand-receptor on the cancer cell membrane and the presence of binding RGD and NGR motifs in peptides.",
+            "Literature": [
+                {
+                    "Title": "Design and synthesis of novel N-terminal peptides of integrin and aminopeptidase are new finding for anticancer activity",
+                    "Pubmed ID": "36863075",
+                    "Reference": "Bioorg Chem. 2023 May;134106435.",
+                    "Author": "Krishnamoorthy R, Singh M, Anaikutti P, Paul L E, Dhanasekaran S, Sathiah T.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=36863075"
+                }
+            ],
+            "Frequent Amino Acids": "KAD",
+            "Absent Amino Acids": "CEFHILMNOPQSTUVWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 1,
+            "Polar Residues": 4,
+            "Positive Residues": 3,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03324",
+                    "Similarity": 1.0,
+                    "Sequence": "DIDFSTCARMDVPILKKAAQGLCITSCSMQNCGTGSCKKRSGRPTCVCYRCANGGGDIPLGALIKRG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07934",
+                    "Similarity": 1.0,
+                    "Sequence": "MFVRSLFLALLLATIVAADIDFSTCARMDVPILKKAAQGLCITSCSMQNCGTGSCKKRSGRPTCVCYRCANGGGDIPLGALIKRG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08215",
+                    "Similarity": 1.0,
+                    "Sequence": "FTCDVLSAEGGFRGVSIKLNHAACAAHCLYLKKRGGYCNDKAVCVCRK"
+                }
+            ]
+        }
+    }
+}

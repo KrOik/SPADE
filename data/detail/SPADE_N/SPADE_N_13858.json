@@ -1,0 +1,70 @@
+{
+    "SPADE_N_13858": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_13858",
+            "Peptide Name": "PeNi3 (predicted AMPs, Nigrocin, XXU, 1S=S, UCSS1a)",
+            "Source": "frog,Pelophylax nigromaculatus, frog, amphibians, animals, Asia",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "GIFSLIKGAAKVVAKGLG",
+            "Sequence Length": 18,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 1729.11,
+            "PI": 10.3,
+            "Hydrophobicity": 1.06,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Richter A, Sutherland D, Ebrahimikondori H, Babcock A, Louie N, Li C, Coombe L, Lin D, Warren RL, Yanai A, Kotkoff M, Helbing CC, Hof F, Hoang LMN, Birol I. 2022",
+                    "Reference": "Antibiotics. 2022; 11(12):1710.MDPI",
+                    "Title": "Associating biological activity and predicted structure of antimicrobial peptides from amphibians and insects"
+                }
+            ],
+            "Frequent Amino Acids": "GAK",
+            "Absent Amino Acids": "CDEHMNOPQRTUWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 9,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "Net Charge": 3,
+            "Comments": "Sequence analysis: APD analysis reveals this sequence is most similar (57.89%) tofrog CPF-L2Only differs at positions 4 and 18. G: 22%; A=K: 17%; I=V=L: 11%;   GRAVY: 1.06; M Wt:  1729.131; Mol formula: C81H141N21O20; Mol ex coeff: 0.Activity: Active against E. coli ATCC 25922 (MIC 16-32 ug/ml), S. enteritidis (MIC 64-128 ug/ml), and S. aureus ATCC 29213 (MIC 64-128 ug/ml).Toxicity: porcine RBC: HC50 >128 ug/ml.",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_08363",
+                    "Similarity": 1.0,
+                    "Sequence": "GIFSLIKGAAKVVAKGLGKEVGKFGLDLMACKVTNQC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_13863",
+                    "Similarity": 1.0,
+                    "Sequence": "GIFSLIKGAAKVVAKGLGK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_25236",
+                    "Similarity": 1.0,
+                    "Sequence": "GIFSLIKGAAK"
+                }
+            ]
+        }
+    }
+}

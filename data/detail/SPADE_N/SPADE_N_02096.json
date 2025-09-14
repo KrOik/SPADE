@@ -1,0 +1,79 @@
+{
+    "SPADE_N_02096": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02096",
+            "Peptide Name": "Histone HIIb-1 (Antibacterial histone-like protein 1, HLP-1; catfishes, chordates, animals)",
+            "Source": "Ictalurus punctatus (Channel catfish)",
+            "Family": "Belongs to the histone H2B family",
+            "Gene": "Not found",
+            "Sequence": "PDPAKTAPKKGSKKAVTKXA",
+            "Sequence Length": 20,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P81903"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Antifungal"
+            ],
+            "Target Organism": "Aeromonas hydrophila, vibrio alginolyticus, Escherichia coli D31, Saprolegnia spp.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C85H149N25O24",
+            "Mass": 2034.62,
+            "PI": 10.3,
+            "Net Charge": 5,
+            "Hydrophobicity": -1.145,
+            "Half Life": "Mammalian:>20 hourYeast:>20 hourE.coli:?",
+            "Function": "Core component of nucleosome. Nucleosomes wrap and compact DNA into chromatin, limiting DNA accessibility to the cellular machineries which require DNA as a template. Histones thereby play a central role in transcription regulation, DNA repair, DNA replication and chromosomal stability. DNA accessibility is regulated via a complex set of post-translational modifications of histones, also called histone code, and nucleosome remodeling.",
+            "Literature": [
+                {
+                    "Title": "Antimicrobial activity in the skin of the channel catfish Ictalurus punctatus characterization of broad-spectrum histone-like antimicrobial proteins.",
+                    "Pubmed ID": "9645227",
+                    "Reference": "Cell Mol Life Sci. 1998 May;54(5)467-475.",
+                    "Author": "Robinette D, Wada S, Arroll T, Levy MG, Miller WL, Noga EJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=9645227"
+                },
+                {
+                    "Title": "Antimicrobial activity in the skin of the channel catfish Ictalurus punctatus: characterization of broad-spectrum histone-like antimicrobial proteins.",
+                    "Pubmed ID": "",
+                    "Author": "Miller W.L.,Levy M.G.,Arroll T.,Wada S.,Robinette D."
+                }
+            ],
+            "Frequent Amino Acids": "KAP",
+            "Absent Amino Acids": "CEFHILMNOQRUWY",
+            "Basic Residues": 6,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 14,
+            "Positive Residues": 6,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_05747",
+                    "Similarity": 1.0,
+                    "Sequence": "PDPAKTAPKKGSKKAVTKA"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02095",
+                    "Similarity": 0.9411764705882353,
+                    "Sequence": "PDPAKTAPKKKSKKAVT"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_13567",
+                    "Similarity": 0.8947368421052632,
+                    "Sequence": "MPEPAKSAPAPKKGSKKAVTKAQKKDGKKRKRSRKESYSVYVYKVLKQVHPDTGISSKAMGIMNSFVNDIFERIAGEASRLAHYNKRSTITSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK"
+                }
+            ]
+        }
+    }
+}

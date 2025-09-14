@@ -1,0 +1,71 @@
+{
+    "SPADE_UN_14160": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_14160",
+            "Peptide Name": "Dermaseptin K4K20S4",
+            "Source": "Synthetic construct(derived from Dermaseptin S4)",
+            "Family": "Herpesviridae",
+            "Gene": "Not found",
+            "Sequence": "ALWKTLLKKVLKAAAKAALKAVLVGANA",
+            "Sequence Length": 28,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antiviral"
+            ],
+            "Target Organism": "[Ref.23161023]HSV-2 acyclovir-sensitive strain(911411):inhibition the cytopathic effect(CPE) of HSV-2 in Vero cells(EC50=2.1 μM);HSV-2 acyclovir-resistant strain(ROI2):inhibition of cytopathic effet(CPE) of HSV-2 in Vero cells(EC50=5.4 μM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "[Ref.23161023]Vero cells:CC50=25 μM.",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C135H238N36O31",
+            "Mass": 2861.56,
+            "PI": 10.7,
+            "Net Charge": 6,
+            "Hydrophobicity": 0.81,
+            "Half Life": "Mammalian:4.4 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "In vitro antiviral activity of dermaseptin S(4) and derivatives from amphibian skin against herpes simplex virus type 2.",
+                    "Pubmed ID": "23161023",
+                    "Reference": "J Med Virol. 2013 Feb;85(2)272-81.",
+                    "Author": "Bergaoui I, Zairi A, Tangy F, Aouni M, Selmi B, Hani K.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=23161023"
+                }
+            ],
+            "Frequent Amino Acids": "AKL",
+            "Absent Amino Acids": "CDEFHIMOPQRSUY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 19,
+            "Polar Residues": 20,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06987",
+                    "Similarity": 1.0,
+                    "Sequence": "PKKKRKVALWKTLLKKVLKA"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06988",
+                    "Similarity": 1.0,
+                    "Sequence": "VKRKKKPALWKTLLKKVLKA"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06989",
+                    "Similarity": 1.0,
+                    "Sequence": "RQARRNRRRALWKTLLKKVLKA"
+                }
+            ]
+        }
+    }
+}

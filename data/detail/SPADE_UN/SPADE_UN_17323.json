@@ -1,0 +1,72 @@
+{
+    "SPADE_UN_17323": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_17323",
+            "Peptide Name": "SP-Tatm3xCherry",
+            "Source": "Synthetic",
+            "Family": "",
+            "Gene": "Not found",
+            "Sequence": "YGRKKRRQRRRYGRKKRRQRRRYGRKKRRQRRR",
+            "Sequence Length": 33,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Notavailable"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Target Organism": "Not available",
+            "Hemolytic Activity": "Not available",
+            "Cytotoxicity": "Not available",
+            "Binding Target": "Not available",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Coupled to signal peptide",
+            "C-terminal Modification": "mCherry",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C192H350N96O40",
+            "Mass": 4643.45,
+            "PI": 12.0,
+            "Net Charge": 24,
+            "Hydrophobicity": -3.64,
+            "Half Life": "Mammalian:2.8 hourYeast:10 minE.coli:2 min",
+            "Literature": [
+                {
+                    "Title": "Early endosomal escape of a cyclic cell-penetrating peptide allows effective cytosolic cargo delivery.",
+                    "Pubmed ID": "24928321",
+                    "Reference": "J Control Release. 2014 Aug 28;18844-52.",
+                    "Author": "Shen Y, Nagpal P, Hay JG, Sauthoff H.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=24928321"
+                }
+            ],
+            "Frequent Amino Acids": "RKG",
+            "Absent Amino Acids": "ACDEFHILMNOPSTUVW",
+            "Basic Residues": 24,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 3,
+            "Polar Residues": 30,
+            "Positive Residues": 24,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_04906",
+                    "Similarity": 1.0,
+                    "Sequence": "YGRKKRRQRRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07245",
+                    "Similarity": 1.0,
+                    "Sequence": "YGRKKRRQRRREILSRPAYRKIL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07257",
+                    "Similarity": 1.0,
+                    "Sequence": "YGRKKRRQRRRREADFFWSLCTADMS"
+                }
+            ]
+        }
+    }
+}

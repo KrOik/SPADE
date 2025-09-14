@@ -1,0 +1,67 @@
+{
+    "SPADE_UN_27186": {
+        "Sequence Information": {
+            "Peptide Name": "D-[K19] Kassinatuerin-1",
+            "Sequence": "GFMKYIGPLIPHAVKAISKLI",
+            "Sequence Length": 21,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P0C010",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P0C010",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Antimicrobial and cytolytic properties of the frog skin peptide, kassinatuerin-1 and its L- and D-lysine-substituted derivatives.",
+                    "Pubmed ID": "15885852",
+                    "Reference": "Peptides. 2005;26:2104-2110",
+                    "Author": "Conlon JM, Abraham B, Galadari S, Knoop FC, Sonnevend A, Pál T",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/15885852"
+                }
+            ],
+            "Mass": 2296.86,
+            "PI": 10.0,
+            "Net Charge": 4,
+            "Hydrophobicity": 0.81,
+            "Frequent Amino Acids": "IKA",
+            "Absent Amino Acids": "CDENOQRTUW",
+            "Basic Residues": 4,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 10,
+            "Positive Residues": 4,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_27186",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_27187",
+                    "Similarity": 1.0,
+                    "Sequence": "GFMKYIGPLIPHAVKAISKLI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01134",
+                    "Similarity": 0.9523809523809523,
+                    "Sequence": "GFMKYIGPLIPHAVKAISDLI"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_27184",
+                    "Similarity": 0.9523809523809523,
+                    "Sequence": "GFMKYIKPLIPHAVKAISKLI"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=140 µM,Mouse fibroblasts L929:50% Cell death=14 µM",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=6.25µM),Klebsiella pneumoniae KK3 9904(MIC=25µM),Enterobacter cloacae HNTCC 53001(MIC=12.5µM),Pseudomonas aeruginosa ATCC 27853(MIC=25µM),Staphylococcus aureus NCTC 8325(MIC=100µM),Staphylococcus epidermidis RP62A(MIC=12.5µM),Enterococcus faecalis ATCC 29212(MIC=50µM),Streptococcus group B HNTCC 80130(MIC=12.5µM),Candida albicans ATCC 90028(MIC=100µM),Escherichia coli(MIC=6.25µM),Staphylococcus aureus T7/20(MIC=100µM)"
+        }
+    }
+}

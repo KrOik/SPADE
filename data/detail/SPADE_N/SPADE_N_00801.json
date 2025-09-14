@@ -1,0 +1,90 @@
+{
+    "SPADE_N_00801": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00801",
+            "Peptide Name": "Kalata-B4 (Plant defensin)",
+            "Source": "Oldenlandia affinis",
+            "Family": "Belongs to the cyclotide family",
+            "Gene": "Not found",
+            "Sequence": "GLPVCGETCVGGTCNTPGCTCSWPVCTRD",
+            "Sequence Length": 29,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P83938"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Unknown"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Binds to the micelle surface",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "No specific N-terminal",
+            "C-terminal Modification": "No specific C-terminal",
+            "Stereochemistry": "L",
+            "Structure Description": "The charged residues (Glu3 and Arg24), along with the cation-binding site (near Glu3) are segregated on the other side of the molecule and in contact with polar head groups of detergent. The spatial structure of kalata B1 is only slightly changed during incorporation into micelles and represents a distorted triple-stranded beta-sheet cross-linked by a cystine knot. Detailed structural analysis and comparison with other knottins revealed",
+            "Formula": "C117H186N34O41S6",
+            "Mass": 2917.32,
+            "PI": 4.67,
+            "Net Charge": -1,
+            "Hydrophobicity": 0.15,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Probably participates in a plant defense mechanism.",
+            "PTM": "Kalata-B4 is a cyclic peptide which may contain three disulfide bonds 5-19; 9-21; 14-26.",
+            "Literature": [
+                {
+                    "Title": "Plant cyclotides A unique family of cyclic and knotted proteins that defines the cyclic cystine knot structural motif.",
+                    "Pubmed ID": "10600388",
+                    "Reference": "J Mol Biol. 1999 Dec 17;294(5)1327-1336.",
+                    "Author": "Craik DJ, Daly NL, Bond T, Waine C.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=10600388"
+                },
+                {
+                    "Title": "Conformation and mode of membrane interaction in cyclotides. Spatial structure of kalata B1 bound to a dodecylphosphocholine micelle.",
+                    "Pubmed ID": "16817894",
+                    "Reference": "FEBS J. 2006 Jun;273(12)2658-2672.",
+                    "Author": "Shenkarev ZO, Nadezhdin KD, Sobol VA, Sobol AG, Skjeldal L, Arseniev AS.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16817894"
+                },
+                {
+                    "Title": "Plant cyclotides: a unique family of cyclic and knotted proteins that defines the cyclic cystine knot structural motif.",
+                    "Pubmed ID": "",
+                    "Author": "Waine C.,Bond T.,Daly N.L.,Craik D.J."
+                },
+                {
+                    "Title": "The cyclotide fingerprint in Oldenlandia affinis: elucidation of chemically modified, linear and novel macrocyclic peptides.",
+                    "Pubmed ID": "R2007J1382",
+                    "Author": "Colgrave M.L.,Daly N.L.,Clark R.J.,Goeransson U.,Plan M.R.R."
+                }
+            ],
+            "Frequent Amino Acids": "CGT",
+            "Absent Amino Acids": "AFHIKMOQUY",
+            "Basic Residues": 1,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 17,
+            "Positive Residues": 1,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_15750",
+                    "Similarity": 1.0,
+                    "Sequence": "PVCTRNGLPVCGETCVGGTCNTPGCTCSW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00798",
+                    "Similarity": 0.9655172413793104,
+                    "Sequence": "GLPVCGETCVGGTCNTPGCTCSWPVCTRN"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_16221",
+                    "Similarity": 0.9655172413793104,
+                    "Sequence": "GLPVCGETCVGGTCNTPGCTCSWWPVCTRN"
+                }
+            ]
+        }
+    }
+}

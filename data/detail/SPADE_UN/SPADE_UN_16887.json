@@ -1,0 +1,72 @@
+{
+    "SPADE_UN_16887": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_16887",
+            "Peptide Name": "D LL-37 (17-32)",
+            "Source": "Synthetic",
+            "Family": "",
+            "Gene": "Not found",
+            "Sequence": "FKRIVQRIKDFLRNLV",
+            "Sequence Length": 16,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P49913"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Target Organism": "Not available",
+            "Hemolytic Activity": "Not available",
+            "Cytotoxicity": "Not available",
+            "Binding Target": "Not available",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "Mix",
+            "Structure Description": "Not found",
+            "Formula": "C77H122N26O15",
+            "Mass": 2045.48,
+            "PI": 11.72,
+            "Net Charge": 4,
+            "Hydrophobicity": -0.08,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Literature": [
+                {
+                    "Title": "Solution structures of human LL-37 fragments and NMR-based identification of a minimal membrane-targeting antimicrobial and anticancer region",
+                    "Pubmed ID": "16637646",
+                    "Reference": "J Am Chem Soc. 2006 May 3;128(17)5776-85.",
+                    "Author": "Li X, Li Y, Han H, Miller DW, Wang G.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16637646"
+                }
+            ],
+            "Frequent Amino Acids": "RFI",
+            "Absent Amino Acids": "ACEGHMOPSTUWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 9,
+            "Positive Residues": 5,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02277",
+                    "Similarity": 1.0,
+                    "Sequence": "GDFFRKSKEKIGKEFKRIVQRIKDFLRN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02334",
+                    "Similarity": 1.0,
+                    "Sequence": "LLGDFFRKAREKIGEEFKRIVQRIKDFLRNLVPRTES"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03100",
+                    "Similarity": 1.0,
+                    "Sequence": "KSKEKIGKEFKRIVQRIKDFLRNLVPR"
+                }
+            ]
+        }
+    }
+}

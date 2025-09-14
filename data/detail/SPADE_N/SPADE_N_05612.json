@@ -1,0 +1,71 @@
+{
+    "SPADE_N_05612": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_05612",
+            "Peptide Name": "Paenicidin B (bacteriocin)",
+            "Source": "Paenibacillus terrae; old: Bacillus circulans NRRL B-30644",
+            "Family": "Belongs to the lantibiotic family.",
+            "Gene": "Not found",
+            "Sequence": "VLSIVACSSGCGSGKTAASCVATCGNKCFTNVGSLC",
+            "Sequence Length": 36,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "Active against B. subtilis JH642 (MIC 50 uM), L. lactis subsp. cremoris HP (12.5 uM), L. monocytogenes ATCC 15313 (100 uM), and S. aureus ATCC 25923 (MIC 100 uM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C137H232N40O48S6",
+            "Mass": 3399.94,
+            "PI": 8.34,
+            "Net Charge": 2,
+            "Hydrophobicity": 0.84,
+            "Half Life": "Mammalian:100 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Biochemical, structural, and genetic characterization of tridecaptin A?, an antagonist of Campylobacter jejuni.",
+                    "Pubmed ID": "24382692",
+                    "Reference": "Chembiochem. 2014 Jan 24;15(2)243-9.",
+                    "Author": "Lohans CT1, van Belkum MJ, Cochrane SA, Huang Z, Sit CS, McMullen LM, Vederas JC.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=24382692"
+                }
+            ],
+            "Frequent Amino Acids": "CSG",
+            "Absent Amino Acids": "DEHMOPQRUWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 27,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_05574",
+                    "Similarity": 0.9444444444444444,
+                    "Sequence": "VLSIVACSSGCGSGKTAASCVETCGNRCFTNVGSLC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06119",
+                    "Similarity": 0.9444444444444444,
+                    "Sequence": "MAENLFDLDIQVNKSQGSVEPQVLSIVACSSGCGSGKTAASCVETCGNRCFTNVGSLC"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_17233",
+                    "Similarity": 0.7857142857142857,
+                    "Sequence": "ACSGSGSGCGSGSGSCG"
+                }
+            ]
+        }
+    }
+}

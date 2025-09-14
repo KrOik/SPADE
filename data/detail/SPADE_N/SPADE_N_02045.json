@@ -1,0 +1,75 @@
+{
+    "SPADE_N_02045": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02045",
+            "Peptide Name": "Chrysophsin-1 (fish, chordates, animals)",
+            "Source": "Chrysophrys major (Red sea bream)",
+            "Family": "Belongs to the pleurocidin family",
+            "Gene": "Not found",
+            "Sequence": "FFGWLIKGAIHAGKAIHGLIHRRRH",
+            "Sequence Length": 25,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P83545"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.12581207]Gram-positive bacteria:Bacillus subtilis ATCC 6633 (MIC=0.25 µM), Lactococcus garvieae ATCC 49156 (MIC=10 µM), S.iniae F-8502 (MIC=2.5 µM);Gram-negative bacteria:Escherichia coli WT-2 (MIC=0.25 µM), Vibrio anguillarum ATCC 19264 (MIC=2.5 µM), Vibriopenaeicida KHA (MIC=10 µM), V. harveyi ATCC 14126 (MIC=2.5 µM), V. vulnificus ATCC 33148 (MIC=5 µM), Aeromonas salmonicida NCMB 1102 (MIC=10 µM), Pseudomonas putida ATCC 12633 (MIC=40 µM).",
+            "Hemolytic Activity": "[Ref.12581207]10% hemolytic activity at 0.25 μM, 80% hemolytic activity at 1 μM against human erythrocytes",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Cell membrane",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C136H211N45O26",
+            "Mass": 2892.42,
+            "PI": 12.0,
+            "Net Charge": 9,
+            "Hydrophobicity": -0.0,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Function": "Shows hemolytic activity human red blood cells.",
+            "Literature": [
+                {
+                    "Title": "Purification and characterization of three isoforms of chrysophsin, a novel antimicrobial peptide in the gills of the red sea bream, Chrysophrys major.",
+                    "Pubmed ID": "12581207",
+                    "Reference": "Eur J Biochem. 2003 Feb;270(4)675-686.",
+                    "Author": "Iijima N, Tanimoto N, Emoto Y, Morita Y, Uematsu K, Murakami T, Nakai T.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=12581207"
+                }
+            ],
+            "Frequent Amino Acids": "GHI",
+            "Absent Amino Acids": "CDEMNOPQSTUVY",
+            "Basic Residues": 9,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 12,
+            "Positive Residues": 9,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_10901",
+                    "Similarity": 1.0,
+                    "Sequence": "FFGWLIKGAIHAGKAIHGLI"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_28264",
+                    "Similarity": 1.0,
+                    "Sequence": "FFGWLIKGAIHAGKAIHGLIH"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_30036",
+                    "Similarity": 1.0,
+                    "Sequence": "FFGWLIKGAIHAGKAIHGLI"
+                }
+            ]
+        }
+    }
+}

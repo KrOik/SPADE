@@ -1,0 +1,74 @@
+{
+    "SPADE_N_03630": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03630",
+            "Peptide Name": "Parigidin-br1",
+            "Source": "Palicourea rigida",
+            "Family": "Belongs to the cyclotide family (Bracelet subfamily)",
+            "Gene": "Not found",
+            "Sequence": "GGSVPCGESCVFIPCITSLAGCSCKNKVCYYD",
+            "Sequence Length": 32,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/B3EWF1"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Toxin"
+            ],
+            "Target Organism": "[Swiss_Prot Entry B3EWF1]No antibacterial activity against E.coli strain ATCC 8739 and S.aureus strain ATCC 25923",
+            "Hemolytic Activity": "[Ref.22074926] It has 28% and 41% hemolysis at 20 μM and 40 μM against human red blood cells.",
+            "Cytotoxicity": "[Ref.22074926] It exhibited cytotoxic effects on SF-9 cells with CC50 values to be 1.7 μm at 24 h, 10.3 μm at 48 h and 73.1 μm at 72 h.",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "No specific N-terminal",
+            "C-terminal Modification": "No specific C-terminal",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C140H219N35O45S6",
+            "Mass": 3304.83,
+            "PI": 6.15,
+            "Net Charge": 0,
+            "Hydrophobicity": 0.48,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Probably participates in a plant defense mechanism. Reduces growth of and increases mortality in larvae of D.saccharalis. Kills cultured SF-9 cells of S.frugiperda probably by disrupting plasma membranes. Has hemolytic activity against human erythrocytes. Has no antibacterial activity against E.coli strain ATCC 8739 and S.aureus strain ATCC 25923.",
+            "Tissue specificity": "Expressed in leaves, flowers, peduncles and seeds (at protein level).",
+            "PTM": "This is a cyclic peptide.",
+            "Literature": [
+                {
+                    "Title": "Identification and structural characterization of novel cyclotide with activity against an insect pest of sugar cane.",
+                    "Pubmed ID": "22074926",
+                    "Reference": "J Biol Chem. 2012 Jan 2;287(1)134-147.",
+                    "Author": "Pinto MF, Fensterseifer IC, Migliolo L, Sousa DA, de Capdville G, Arboleda-Valencia JW, Colgrave ML, Craik DJ, Magalhães BS, Dias SC, Franco OL.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=22074926"
+                }
+            ],
+            "Frequent Amino Acids": "CGS",
+            "Absent Amino Acids": "HMOQRUW",
+            "Basic Residues": 2,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 20,
+            "Positive Residues": 2,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03475",
+                    "Similarity": 1.0,
+                    "Sequence": "SCVFIPCITSLAGCSCKNKVCYYDGGSVPCGE"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_08803",
+                    "Similarity": 1.0,
+                    "Sequence": "GGGGSGGGGSGGGGSGGGGSGGGGSGGGGS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00791",
+                    "Similarity": 0.8709677419354839,
+                    "Sequence": "GTVPCGESCVFIPCITGIAGCSCKNKVCYID"
+                }
+            ]
+        }
+    }
+}

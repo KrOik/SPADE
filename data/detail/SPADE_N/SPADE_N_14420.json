@@ -1,0 +1,69 @@
+{
+    "SPADE_N_14420": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_14420",
+            "Peptide Name": "Api Ib R3M6R10E18 (Apidaecin IB R3,M6,R10,E18 variant, Pro-rich, PrAMPs, Arg-rich, synthetic AMPs, UCLL1)",
+            "Source": "expression library screen, amino acid substitution, insects, animal-derived, natural derivative",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "GNRRPMYIPRPRPPHPRE",
+            "Sequence Length": 18,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 2226.57,
+            "PI": 11.83,
+            "Hydrophobicity": -2.09,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Huang W, Baliga C, Vázquez-Laslop N, Mankin AS.2024",
+                    "Reference": "Nucleic Acids Res. 2024 Jul 2:gkae567. doi: 10.1093/nar/gkae567.PubMed",
+                    "Title": "Sequence diversity of apidaecin-like peptides arresting the terminating ribosome."
+                }
+            ],
+            "Frequent Amino Acids": "PRE",
+            "Absent Amino Acids": "ACDFKLOQSTUVW",
+            "Basic Residues": 6,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 8,
+            "Positive Residues": 6,
+            "Negative Residues": 1,
+            "Net Charge": 5,
+            "Comments": "Sequence analysis: APD analysis reveals that this sequence is similar (77.78%) toApidaecin IBP: 33%, R: 28%.Activity: it inhibited E. coli BL21 (MIC 8-16 uM) in RPMI/serum or TSB and MIC>64 uM in LB. Activity in LB < RPMI < TSB. It appears that this Pro-rich peptide is more active in the TSB medium. Warning: Other bacteria not tested.",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_26295",
+                    "Similarity": 1.0,
+                    "Sequence": "GNRRPMYIPRPRPPHPRE"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_11263",
+                    "Similarity": 1.0,
+                    "Sequence": "PRPPHPR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_11281",
+                    "Similarity": 1.0,
+                    "Sequence": "PRPHPR"
+                }
+            ]
+        }
+    }
+}

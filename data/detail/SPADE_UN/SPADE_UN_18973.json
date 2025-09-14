@@ -1,0 +1,69 @@
+{
+    "SPADE_UN_18973": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_18973",
+            "Peptide Name": "DeNo1014 (Synthetic AMPs, Lys-rich, Leu-rich, UCLL1)",
+            "Source": "AI-aided de novo designed",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "ALPSLLKKLAKKLAKKLLKKLLKKLLKKLLKKL",
+            "Sequence Length": 33,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 3794.06,
+            "PI": 11.11,
+            "Hydrophobicity": 0.05,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Li C, Sutherland D, Richter A, Coombe L, Yanai A, Warren RL, Kotkoff M, Hof F, Hoang LMN, Helbing CC, Birol I.2024",
+                    "Reference": "Protein Sci. 2024 Aug;33(8):e5088. doi: 10.1002/pro.5088.PubMed",
+                    "Title": "De novo synthetic antimicrobial peptide design with a recurrent neural network"
+                }
+            ],
+            "Frequent Amino Acids": "KLA",
+            "Absent Amino Acids": "CDEFGHIMNOQRTUVWY",
+            "Basic Residues": 14,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 18,
+            "Polar Residues": 18,
+            "Positive Residues": 14,
+            "Negative Residues": 0,
+            "Net Charge": 14,
+            "Comments": "Sequence analysis: APD analysis reveals that this sequence is similar (48.48%) tode novo GLK-19K: 42%, L: 42%.Activity: Active against E. coli ATCC 25922 (MIC 64 ug/ml) and S.aureus ATCC 29213 (MIC > 128 ug/ml). Warning: other bacteria not tested.In vitro toxicity: porcine RBC: HC50 => 128 ug/ml. Poorly hemo.lytic.",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_08367",
+                    "Similarity": 1.0,
+                    "Sequence": "KLLK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11930",
+                    "Similarity": 1.0,
+                    "Sequence": "LKKLLKKL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11931",
+                    "Similarity": 1.0,
+                    "Sequence": "LKKLLKKLLK"
+                }
+            ]
+        }
+    }
+}

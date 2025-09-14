@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_26489": {
+        "Sequence Information": {
+            "Peptide Name": "Penetratin [F7L,N9I,M12W,W14N], T1-6",
+            "Sequence": "RQIKIWLQIRRWKNKK",
+            "Sequence Length": 16,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "Q86FU0",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/Q86FU0",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "A Foundation Model Identifies Broad-Spectrum Antimicrobial Peptides against Drug-Resistant Bacterial Infection",
+                    "Pubmed ID": "39214978",
+                    "Reference": "Nat Commun. 2024;15:7538",
+                    "Author": "Li T, Ren X, Luo X, Wang Z, Li Z, Shen J, Li Y, Yuan D, Nussinov R, Zeng X, Shi J, Cheng F",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/39214978"
+                }
+            ],
+            "Mass": 2194.67,
+            "PI": 12.0,
+            "Net Charge": 7,
+            "Hydrophobicity": -1.51,
+            "Frequent Amino Acids": "KIR",
+            "Absent Amino Acids": "ACDEFGHMOPSTUVY",
+            "Basic Residues": 7,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 4,
+            "Polar Residues": 12,
+            "Positive Residues": 7,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_26489",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06946",
+                    "Similarity": 1.0,
+                    "Sequence": "RQIKIW"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_23435",
+                    "Similarity": 1.0,
+                    "Sequence": "RQIK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00604",
+                    "Similarity": 1.0,
+                    "Sequence": "KNKKVVIIPGPKGERPDIKVVEGPSTVEDDFCYDCVRRCMVKGVGFYFRSCKGFVCRCYYPFMGGYGP"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:5% Hemolysis=25 µg/ml",
+            "Target Organism": "Escherichia coli ATCC BAA-1025(MIC=7.81µg/ml),Staphylococcus aureus ATCC 25904(MIC=31.25µg/ml),Klebsiella pneumoniae ATCC 27736(MIC=15.63µg/ml),Pseudomonas aeruginosa ATCC 47085(MIC=15.63µg/ml),Staphylococcus aureus ATCC BAA-1717(MIC=62.5µg/ml)"
+        }
+    }
+}

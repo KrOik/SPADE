@@ -1,0 +1,75 @@
+{
+    "SPADE_UN_00017": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_00017",
+            "Peptide Name": "Amythiamicin A/B (Bacteriocin)",
+            "Source": "Amycolatopsis sp. (strain MI481-42F4 / FERM P-12739)",
+            "Family": "Belongs to the thiocillin family",
+            "Gene": "Not found",
+            "Sequence": "SCNCVCGVCCSCSP",
+            "Sequence Length": 14,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P0C912"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+"
+            ],
+            "Target Organism": "Gram-positive bacteria:Staphylococcus aureus MS9610 (MIC=0.2 µg/ml), Methicillin-resistant S. aureus (MIC=0.2 µg/ml), Staphylococcus aureus FDA209P (MIC=0.1 µg/ml), Micrococcus luteus FDA16 (MIC=0.1 µg/ml), M. luteus IFO3333 (MIC=0.78 µg/ml), M. luteus PCI1001 (MIC=0.2 µg/ml), Bacillus anthracis (MIC=0.1 µg/ml), B. subtilis NRRL B-558 (MIC=0.2 µg/ml), B. subtilis PCI219 (MIC=0.2 µg/ml), B. cereus ATCC 10702 (MIC=0.1 µg/ml).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C48H81N15O19S6",
+            "Mass": 1364.64,
+            "PI": 5.23,
+            "Net Charge": 0,
+            "Hydrophobicity": 1.11,
+            "Half Life": "Mammalian:1.9 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Has bacteriocidal activity against Gram-positive bacteria",
+            "PTM": "①Maturation of thiazole and oxazole containing antibiotics involves the enzymic condensation of a Cys, Ser or Thr with the alpha-carbonyl of the preceding amino acid to form a thioether or ether bond, then dehydration to form a double bond with the alpha-amino nitrogen. Thiazoline or oxazoline rings are dehydrogenated to form thiazole or oxazole rings.  ②Maturation of pyridinyl containing antibiotics involves the cross-linking of a Ser and a Cys-Ser pair usually separated by 7 or 8 residues along the peptide chain. The Ser residues are dehydrated to didehydroalanines, then bonded between their beta carbons. The alpha carbonyl of the Cys condenses with the alpha carbon of the first Ser to form a pyridinyl ring. The ring may be multiply dehydrogenated to form a pyridine ring with loss of the amino nitrogen of the first Ser. ③The diketopiperazine ester in form C may be formed by cyclization and transesterification of the C-terminal dipeptide.",
+            "Literature": [
+                {
+                    "Title": "Novel antibiotics, amythiamicins. I. Taxonomy, fermentation, isolation, physico-chemical properties, and antimicrobial activity.",
+                    "Pubmed ID": "8040071",
+                    "Reference": "J Antibiot (Tokyo). 1994 Jun;47(6)668-674.",
+                    "Author": "Shimanaka K, Kinoshita N, Iinuma H, Hamada M, Takeuchi T.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=8040071"
+                }
+            ],
+            "Frequent Amino Acids": "CSV",
+            "Absent Amino Acids": "ADEFHIKLMOQRTUWY",
+            "Basic Residues": 0,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 3,
+            "Polar Residues": 12,
+            "Positive Residues": 0,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_11361",
+                    "Similarity": 1.0,
+                    "Sequence": "SCNCVCGVCCSC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00168",
+                    "Similarity": 0.9285714285714286,
+                    "Sequence": "SCNCVCGFCCSCSP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05573",
+                    "Similarity": 0.9285714285714286,
+                    "Sequence": "SCNCVCGFCCSCSPSA"
+                }
+            ]
+        }
+    }
+}

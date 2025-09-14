@@ -1,0 +1,74 @@
+{
+    "SPADE_N_02504": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02504",
+            "Peptide Name": "Brevinin-1-AJ1 antimicrobial peptide",
+            "Source": "Amolops jingdongensis (Chinese torrent frog)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "MFTLKKSLLLLFFLGTINLSLCEQERNADEEERRDDSDKRDVEVEKRFLSTLLKVAFKVVPTLFCPITKKC",
+            "Sequence Length": 71,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/K7Z430"
+            ],
+            "Protein Existence": "Homology",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Antifungal"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "[Ref.22828809] 7.62% hemolytic activity at 25 μg/ml,24.58% hemolytic activity at 50 μg/ml, 83.05% hemolytic activity at 100 μg/ml, 87.65% hemolytic activity at 200 μg/ml against rabbit red blood cells",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Cyclization (Cys65 and Cys71)",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C373H611N97O108S4",
+            "Mass": 8310.69,
+            "PI": 7.68,
+            "Net Charge": 1,
+            "Hydrophobicity": -0.16,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Antimicrobial peptide diversity in the skin of the torrent frog, Amolops jingdongensis.",
+                    "Pubmed ID": "22828809",
+                    "Reference": "Amino Acids. 2012 Jul 25",
+                    "Author": "He X, Yang S, Wei L, Liu R, Lai R, Rong M.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=22828809"
+                }
+            ],
+            "Frequent Amino Acids": "LKE",
+            "Absent Amino Acids": "HOUWY",
+            "Basic Residues": 13,
+            "Acidic Residues": 12,
+            "Hydrophobic Residues": 30,
+            "Polar Residues": 35,
+            "Positive Residues": 13,
+            "Negative Residues": 12,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_15616",
+                    "Similarity": 1.0,
+                    "Sequence": "FLSTLLKVAFKVVPTLFCPITKKC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07515",
+                    "Similarity": 0.9047619047619048,
+                    "Sequence": "FTMKKSLLLLFFLGTINFSLC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01408",
+                    "Similarity": 0.88,
+                    "Sequence": "FTMKKSLLLIFFLGTISLSLCEQER"
+                }
+            ]
+        }
+    }
+}

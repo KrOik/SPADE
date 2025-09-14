@@ -1,0 +1,61 @@
+{
+    "SPADE_UN_21500": {
+        "Sequence Information": {
+            "Peptide Name": "HW2",
+            "Sequence": "RRWHWHWPGWHWHWRR",
+            "Sequence Length": 16,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anticancer",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Bioactivity and Bactericidal Mechanism of Histidine-Rich ?-Hairpin Peptide Against Gram-Negative Bacteria.",
+                    "Pubmed ID": "31416220",
+                    "Reference": "Int J Mol Sci. 2019;20:E3954",
+                    "Author": "Dong N, Wang C, Zhang T, Zhang L, Xue C, Feng X, Bi C, Shan A",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/31416220"
+                }
+            ],
+            "Mass": 2462.74,
+            "PI": 12.0,
+            "Net Charge": 8,
+            "Hydrophobicity": -2.39,
+            "Frequent Amino Acids": "WHR",
+            "Absent Amino Acids": "ACDEFIKLMNOQSTUVY",
+            "Basic Residues": 8,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 0,
+            "Polar Residues": 16,
+            "Positive Residues": 8,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_21500",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_08934",
+                    "Similarity": 1.0,
+                    "Sequence": "WGRRRWGPGRRYRRW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_12365",
+                    "Similarity": 1.0,
+                    "Sequence": "WRRWIRWL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_12799",
+                    "Similarity": 1.0,
+                    "Sequence": "WRRW"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:5% Hemolysis=8 µM,Human erythrocytes:15% Hemolysis=128 µM,Human embryonic kidney HEK293T cells:95% Killing=128 µM",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=4µM),Escherichia coli K88(MIC=4µM),Escherichia coli K99(MIC=4µM),Escherichia coli UB1005(MIC=2µM),Salmonella enterica subsp. enterica serovar Pullorum C79-13(MIC=2µM),Pseudomonas aeruginosa ATCC 27853(MIC=8µM),Staphylococcus aureus ATCC 29213(MIC=4µM),Staphylococcus aureus ATCC 43300(MIC=2µM),Staphylococcus epidermidis ATCC 12228(MIC=2µM),Murine macrophage cells RAW 264.7(90-100% Killing=128µM)"
+        }
+    }
+}

@@ -1,0 +1,83 @@
+{
+    "SPADE_N_00920": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00920",
+            "Peptide Name": "Antimicrobial peptide 1a (WAMP-1a; Plant defensin)",
+            "Source": "Triticum kiharae (wheat)",
+            "Family": "Belongs to the hevein-like family",
+            "Gene": "Not found",
+            "Sequence": "AQRCGDQARGAKCPNCLCCGKYGFCGSGDAYCGAGSCQSQCRGC",
+            "Sequence Length": 44,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P85966"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "Fungi:Bipolaris sorokiniana (IC50=5 µg/ml), Botrytis cinerea (IC50=20 µg/ml), Fusarium oxysporum (IC50=5 µg/ml), Fusarium solani (IC50=5 µg/ml), Fusarium verticillioides (IC50=30 µg/ml), Neurospora crassa (IC50=10 µg/ml);Gram-positive bacterium:Clavibacter michiganensis (1.3cm inhibition for 2.5 µg/50µl);Gram-negative bacteria:Erwinia carotovora (1.1cm for 2.5 µg/50µl), Pseudomonas syringae (0.9cm for 2.5 µg/50µl).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Chitin-binding",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C172H272N60O59S10",
+            "Mass": 4445.02,
+            "PI": 8.41,
+            "Net Charge": 3,
+            "Hydrophobicity": -0.35,
+            "Half Life": "Mammalian:4.4 hourYeast:>20 hourE.coli:>10 hour",
+            "PTM": "Contains five disulfide bonds 4-19; 13-25; 16-44; 18-32; 37-41.",
+            "Literature": [
+                {
+                    "Title": "A novel antifungal hevein-type peptide from Triticum kiharae seeds with a unique 10-cysteine motif.",
+                    "Pubmed ID": "19583772",
+                    "Reference": "FEBS J. 2009 Aug;276(15)4266-4275.",
+                    "Author": "Odintsova TI, Vassilevski AA, Slavokhotova AA, Musolyamov AK, Finkina EI, Khadeeva NV, Rogozhin EA, Korostyleva TV, Pukhalsky VA, Grishin EV, Egorov TA.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=19583772"
+                },
+                {
+                    "Title": "Diversity of wheat anti-microbial peptides.",
+                    "Pubmed ID": "16269343",
+                    "Reference": "Peptides. 2005 Nov;26(11)2064-2073.",
+                    "Author": "Egorov TA, Odintsova TI, Pukhalsky VA, Grishin EV.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16269343"
+                }
+            ],
+            "Frequent Amino Acids": "CGA",
+            "Absent Amino Acids": "EHIMOTUVW",
+            "Basic Residues": 5,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 30,
+            "Positive Residues": 5,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00921",
+                    "Similarity": 1.0,
+                    "Sequence": "AQRCGDQARGAKCPNCLCCGKYGFCGSGDAYCGAGSCQSQCRGCR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_22819",
+                    "Similarity": 1.0,
+                    "Sequence": "AQRCGDQARGAKC"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_22828",
+                    "Similarity": 1.0,
+                    "Sequence": "LCCGKYGFCGSG"
+                }
+            ]
+        }
+    }
+}

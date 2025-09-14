@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_24210": {
+        "Sequence Information": {
+            "Peptide Name": "PonericinN [L8,12,16A]",
+            "Sequence": "KKKKKKWAGSAAIGAALPSVVGLFQ",
+            "Sequence Length": 25,
+            "Biological Activity": [
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P82423",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P82423",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Uncoupling Amphipathicity and Hydrophobicity: Role of Charge Clustering in Membrane Interactions of Cationic Antimicrobial Peptides.",
+                    "Pubmed ID": "34423969",
+                    "Reference": "Biochemistry. 2021;60:2586-2592",
+                    "Author": "He S, Stone TA, Deber CM",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/34423969"
+                }
+            ],
+            "Mass": 2584.11,
+            "PI": 10.7,
+            "Net Charge": 6,
+            "Hydrophobicity": 0.0,
+            "Frequent Amino Acids": "KAG",
+            "Absent Amino Acids": "CDEHMNORTUY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 14,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_24210",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_08584",
+                    "Similarity": 1.0,
+                    "Sequence": "KKKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10106",
+                    "Similarity": 1.0,
+                    "Sequence": "FKFKKKKKKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10107",
+                    "Similarity": 1.0,
+                    "Sequence": "GFGKGFGKKKKKK"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:0% Hemolysis=5 µM,Human erythrocytes:1% Hemolysis=100 µM",
+            "Target Organism": "Escherichia coli K-12(MIC=<5µM)"
+        }
+    }
+}

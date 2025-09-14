@@ -1,0 +1,74 @@
+{
+    "SPADE_N_00066": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00066",
+            "Peptide Name": "Bacteriocin hiracin-JM79 (HirJM79; Bacteriocin)",
+            "Source": "Enterococcus hirae DCH5 (Gram-positive bacteria)",
+            "Family": "Belongs to the class IIa bacteriocin",
+            "Gene": "hirJM79",
+            "Sequence": "ATYYGNGLYCNKEKCWVDWNQAKGEIGKIIVNGWVNHGPWAPRR",
+            "Sequence Length": 44,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q0Z8B6"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+"
+            ],
+            "Target Organism": "Gram-positive bacteria:Lactobacillus helveticus, Lactobacillus curvatus, Lactobacillus bulgaricus, Lactobacillus sakeii, Pediococcus pentosaceus, Enterococcus faecium, Enterococcus faecalis, Propionibacterium sp, Propionibacterium acidipropionici, Clostridium tyrobutiricum, Listeria monocytogenes, Listeria ivanovii, Listeria seeligeri, Listeria welshimeri, Listeria grayi, Staphylococcus aureus, Staphylococcus aureus.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C232H340N66O61S2",
+            "Mass": 5093.72,
+            "PI": 9.15,
+            "Net Charge": 4,
+            "Hydrophobicity": -0.75,
+            "Half Life": "Mammalian:4.4 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Has antibacterial activity. Lacks antibacterial activity against Gram-negative bacteria.",
+            "Literature": [
+                {
+                    "Title": "Amino acid and nucleotide sequence, adjacent genes, and heterologous expression of hiracin JM79, a sec-dependent bacteriocin produced by Enterococcus hirae DCH5, isolated from Mallard ducks (Anas platyrhynchos).",
+                    "Pubmed ID": "17326750",
+                    "Reference": "FEMS Microbiol Lett. 2007 May;270(2)227-236.",
+                    "Author": "S¡nchez J, Diep DB, Herranz C, Nes IF, Cintas LM, Hern¡ndez PE.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=17326750"
+                }
+            ],
+            "Frequent Amino Acids": "GNK",
+            "Absent Amino Acids": "FMOSU",
+            "Basic Residues": 7,
+            "Acidic Residues": 3,
+            "Hydrophobic Residues": 19,
+            "Polar Residues": 25,
+            "Positive Residues": 7,
+            "Negative Residues": 3,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06045",
+                    "Similarity": 1.0,
+                    "Sequence": "MKKKVLKHCVILGILGTCLAGIGTGIKVDAATYYGNGLYCNKEKCWVDWNQAKGEIGKIIVNGWVNHGPWAPRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00219",
+                    "Similarity": 1.0,
+                    "Sequence": "TYYGNGLYCNKEKCWVDWNQAKGEIGKIIVNGWVNH"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07504",
+                    "Similarity": 1.0,
+                    "Sequence": "YYGNGLYCNKEKCWVDWNQAKGEIGKIIVNGWV"
+                }
+            ]
+        }
+    }
+}

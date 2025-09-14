@@ -1,0 +1,52 @@
+{
+    "SPADE_UN_17743": {
+        "Clinical Information": [],
+        "Patent Information": [
+            {
+                "Patent No": "CN115317622A",
+                "Patent Link": "http://www.lens.org/lens/patent/CN115317622A",
+                "Patent Type": "Patent Application",
+                "Publication Date": "2022-11-11",
+                "Family Info": "Notavailable",
+                "Patent Title": "Preparation and application of anti-tumor polypeptide coupling medicine",
+                "Abstract": "The invention discloses an anti-tumor polypeptide conjugate drug and application thereof. The molecular sequence of the polypeptide coupled drug is as follows: MTX-Gly-Phe-Leu-Gly-Gly-Ile-Gly-Ala-Val-Leu-Lys-Val-Leu-Thr-Thr-Gly-Leu-Pro-Ala-Leu-Ile-Ser-Trp-Ile-Lys-Arg-Lys-Arg-Gln-Gln-NH 2 Wherein the Gly-Phe-Leu-Gly sequence linked to MTX is cleaved by cathepsin-B or the like. The antitumor polypeptide provided by the invention has membrane penetrability, and can be used as a carrier of a small-molecule antitumor drug to prepare a polypeptide coupled drug, so that the antitumor drug can be promoted to penetrate a cell membrane of a tumor cell, the release of the small-molecule drug is completed, and the tumor treatment is carried out."
+            }
+        ],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_17743",
+            "Sequence": "XGFLGGIGAVLKVLTTGLPALISWIKRKRQQ",
+            "Sequence Length": 31,
+            "Peptide Name": "MTX-GFLG-Melittin",
+            "Source": "Synthetic",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Frequent Amino Acids": "GLI",
+            "Absent Amino Acids": "CDEHMNOUY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 15,
+            "Polar Residues": 14,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02602",
+                    "Similarity": 1.0,
+                    "Sequence": "GIGAVLKVLTTGLPALISWIKRKRQQ"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05970",
+                    "Similarity": 1.0,
+                    "Sequence": "GIGAVLKVL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08888",
+                    "Similarity": 1.0,
+                    "Sequence": "GIGAVLTTGLPALISWIKRKRQQ"
+                }
+            ]
+        }
+    }
+}

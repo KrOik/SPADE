@@ -1,0 +1,74 @@
+{
+    "SPADE_UN_00130": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_00130",
+            "Peptide Name": "Brevinin-1VLe (Frogs, amphibians, animals)",
+            "Source": "Rana vaillanti (Central American frog)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "FLPLIAGVAASILPKIFCFITKKC",
+            "Sequence Length": 24,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal"
+            ],
+            "Target Organism": "Gram-negative bacterium:E. coli (MIC>100 µM);Gram-positive bacterium:S. aureus (MIC=3 µM).Yeast:C. albicans (MIC=3 µM).",
+            "Hemolytic Activity": "[Ref.19379837] LC50=5 mM against human erythrocytes",
+            "Cytotoxicity": "[Ref.19379837] LC50=7mM against HepG2 hepatoma-derived cells",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Cyclization (Cys18 and Cys24)",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C126H205N27O27S2",
+            "Mass": 2594.27,
+            "PI": 9.39,
+            "Net Charge": 3,
+            "Hydrophobicity": 1.48,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Function": "Inhibits the growth of reference strains of S. aureus, E. coli and C. albicans and to lyse human erythrocytes from a healthy donor and HepG2 human hepatoma-derived cells",
+            "Literature": [
+                {
+                    "Title": "Purification of peptides with differential cytolytic activities from the skin secretions of the Central American frog, Lithobates vaillanti (Ranidae).",
+                    "Pubmed ID": "19379837",
+                    "Reference": "Comp Biochem Physiol C Toxicol Pharmacol. 2009 Aug;150(2)150-154.",
+                    "Author": "Conlon JM, Raza H, Coquet L, Jouenne T, Leprince J, Vaudry H, King JD.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=19379837"
+                }
+            ],
+            "Frequent Amino Acids": "IAF",
+            "Absent Amino Acids": "DEHMNOQRUWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 16,
+            "Polar Residues": 11,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_00130",
+                    "Similarity": 1.0,
+                    "Sequence": "FLPLIAGVAASILPKIFCFITKKC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_13902",
+                    "Similarity": 0.8823529411764706,
+                    "Sequence": "FLPLIAGKIFCAISKKC"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_25462",
+                    "Similarity": 0.8823529411764706,
+                    "Sequence": "FLPLIAGKIFCAISKKC"
+                }
+            ]
+        }
+    }
+}

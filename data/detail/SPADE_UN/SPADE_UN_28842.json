@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_28842": {
+        "Sequence Information": {
+            "Peptide Name": "Val/Arg-rich peptide G2",
+            "Sequence": "GVVVRIGRVVVRGVRR",
+            "Sequence Length": 16,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Cell selectivity and interaction with model membranes of Val/Arg-rich peptides.",
+                    "Pubmed ID": "21425418",
+                    "Reference": "J Pept Sci. 2011;17:520-526",
+                    "Author": "Ma QQ, Shan AS, Dong N, Gu Y, Sun WY, Hu WN, Feng XJ",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/21425418"
+                }
+            ],
+            "Mass": 1777.17,
+            "PI": 12.0,
+            "Net Charge": 5,
+            "Hydrophobicity": 0.64,
+            "Frequent Amino Acids": "VRG",
+            "Absent Amino Acids": "ACDEFHKLMNOPQSTUWY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 8,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_28842",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_28842",
+                    "Similarity": 1.0,
+                    "Sequence": "GVVVRIGRVVVRGVRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07295",
+                    "Similarity": 1.0,
+                    "Sequence": "VVVR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15521",
+                    "Similarity": 1.0,
+                    "Sequence": "VVV"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:5% Hemolysis=>256 µM",
+            "Target Organism": "Escherichia coli(MIC=8µM),Salmonella typhimurium(MIC=4µM),Staphylococcus aureus(MIC=8µM),Bacillus subtilis(MIC=8µM)"
+        }
+    }
+}

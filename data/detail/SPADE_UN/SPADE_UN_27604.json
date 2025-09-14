@@ -1,0 +1,74 @@
+{
+    "SPADE_UN_27604": {
+        "Sequence Information": {
+            "Peptide Name": "LL-37(13-37)",
+            "Sequence": "IGKEFKRIVQRIKDFLRNLVPRTES",
+            "Sequence Length": 25,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anticancer",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "2FCG",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P49913",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P49913",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Solution structures of human LL-37 fragments and NMR-based identification of a minimal membrane-targeting antimicrobial and anticancer region.",
+                    "Pubmed ID": "16637646",
+                    "Reference": "J Am Chem Soc. 2006;128:5776-5785",
+                    "Author": "Li X, Li Y, Han H, Miller DW, Wang G",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/16637646"
+                },
+                {
+                    "Title": "Evaluation of LL-37 antimicrobial peptide derivatives alone and in combination with vancomycin against S. aureus.",
+                    "Pubmed ID": "30120393",
+                    "Reference": "J Antibiot (Tokyo). 2018;71:971-974",
+                    "Author": "Shurko JF, Galega RS, Li C, Lee GC",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/30120393"
+                }
+            ],
+            "Mass": 3043.57,
+            "PI": 10.93,
+            "Net Charge": 4,
+            "Hydrophobicity": -0.62,
+            "Frequent Amino Acids": "RIK",
+            "Absent Amino Acids": "ACHMOUWY",
+            "Basic Residues": 7,
+            "Acidic Residues": 3,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 16,
+            "Positive Residues": 7,
+            "Negative Residues": 3,
+            "SPADE ID": "SPADE_UN_27604",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02277",
+                    "Similarity": 1.0,
+                    "Sequence": "GDFFRKSKEKIGKEFKRIVQRIKDFLRN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03100",
+                    "Similarity": 1.0,
+                    "Sequence": "KSKEKIGKEFKRIVQRIKDFLRNLVPR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03107",
+                    "Similarity": 1.0,
+                    "Sequence": "ALLGDFFRKSKEKIGKEFKRIVQRIKDFLRNLVPRTES"
+                }
+            ],
+            "Hemolytic Activity": "Human brain microvascular endothelial cells HBMEC:50% Cell death=38±3 µM",
+            "Target Organism": "Escherichia coli K-12(MIC=80µM),Human epithelial carcinoma KBv(LC50=39±0µM),Human epithelial carcinoma KB(LC50=40±0µM),Staphylococcus aureus ATCC 25923(MIC=512µg/ml),Staphylococcus aureus ATCC 43300(MIC=512µg/ml),Staphylococcus aureus ATCC 700699(MIC=1024µg/ml),Staphylococcus aureus(MIC=512µg/ml)"
+        }
+    }
+}

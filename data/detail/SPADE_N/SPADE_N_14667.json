@@ -1,0 +1,70 @@
+{
+    "SPADE_N_14667": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_14667",
+            "Peptide Name": "NZX (D9S, M13I, and K32R plectasin analog, synthetic AMPs, 3S=S, UCSS1a)",
+            "Source": "amino acid substitution, fungal defensin analog, fungi-derived, natural derivative",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "GFGCNGPWSEDDIQCHNHCKSIKGYKGGYCARGGFVCKCY",
+            "Sequence Length": 40,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-MRSA"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 4389.93,
+            "PI": 8.3,
+            "Hydrophobicity": -0.58,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Liu H, Yang N, Mao R, Teng D, Hao Y, Wang X, Wang J.2020",
+                    "Reference": "Appl Microbiol Biotechnol. 2020 Feb;104(4):1555-1568. doi: 10.1007/s00253-019-10313-3.PubMed",
+                    "Title": "A new high-yielding antimicrobial peptide NZX and its antibacterial activity against Staphylococcus hyicus in vitro/vivo."
+                }
+            ],
+            "Frequent Amino Acids": "GCK",
+            "Absent Amino Acids": "LMOTU",
+            "Basic Residues": 7,
+            "Acidic Residues": 3,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 23,
+            "Positive Residues": 7,
+            "Negative Residues": 3,
+            "Net Charge": 4,
+            "Comments": "Sequence analysis: APD analysis reveals that this sequence is similar (97.5%) toNZL (NZ2114 variant 6)G: 20%; C: 15%.  Four K residues were replaced with four R.Activity:  Active against S. aureus ATCC43300 MRSA or TCC25923 (MIC 0.46-0.91 uM) and S. hyicus NCTC10350 or 437–2 (MIC 0.91 uM).Peptide stability:  not heat stable at 100oC after 1 h incubation (ok till 80oC). pepsin-resistant but trypsin-sensitive.Antimicrobial robustness: activity is pH-insensitive (pH 2-10).In vitro toxicity: mouse RBC: 1.9% hemolysis at 128 ug/ml (poor hemo.lytic). No cytotoxicity to HaCaT cell (92.7% survival at 128 ug/ml).Animal model:mouse: peritonitis model, female ICR mice infected with S. hyicus NCTC10350, i.p./i.p., mice survived 67% and 100% treated twice at 5 and 10 mg/kg, respectively.In vivo PK:mice:IV: t1/2 0.32-0.45 h Cmax 2.85-20.55 ug/ml (Zheng et al., 2022).Recombinant production:yeast:Pichia pastoris X33: expressed and ion exchange purified, yield: 965 mg/L; purity: 92.6% based on 5 L fermenetor.",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_22184",
+                    "Similarity": 1.0,
+                    "Sequence": "GFGCNGPWSEDDIQCHNHCKSIKGYKGGYCARGGFVCKCY"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14125",
+                    "Similarity": 0.975,
+                    "Sequence": "GFGCNGPWSEDDIQCHNHCKSIKGYKGGYCAKGGFVCKCY"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14126",
+                    "Similarity": 0.975,
+                    "Sequence": "GFGCNGPWSEDDLQCHNHCKSIKGYKGGYCARGGFVCKCY"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,70 @@
+{
+    "SPADE_N_14505": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_14505",
+            "Peptide Name": "R-Thanatin (R-THA, synthetic AMPs, Arg-rich, 1S=S, UCSS1a, XXA)",
+            "Source": "sequence truncation, amino acid substitution, insects, animal-derived, natural derivatives",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "IYNCRRRFCKQR",
+            "Sequence Length": 12,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-MRSA"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 1642.95,
+            "PI": 10.86,
+            "Hydrophobicity": -1.49,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Hou Z, Da F, Liu B, Xue X, Xu X, Zhou Y, Li M, Li Z, Ma X, Meng J, Jia M, Wang Y, Luo X. 2013",
+                    "Reference": "Antimicrob Agents Chemother. 2013 Oct;57(10):5045-52. doi: 10.1128/AAC.00504-13.PubMed",
+                    "Title": "R-thanatin inhibits growth and biofilm formation of methicillin-resistant Staphylococcus epidermidis in vivo and in vitro."
+                }
+            ],
+            "Frequent Amino Acids": "RCF",
+            "Absent Amino Acids": "ADEGHLMOPSTUVW",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 3,
+            "Polar Residues": 10,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "Net Charge": 5,
+            "Comments": "Sequence analysis: APD analysis reveals that this sequence is similar (53.33%) toI14M thanatinR: 33%, C: 17%. GRAVY: -1.49; mol Wt: 1642.97.Activity: active against S. aureus ATCC 29213 or MRSA (MIC 64 ug/ml),  10 methicillin-resistant S. epidermidis MRSE (MIC 2-8 ug/ml), S. haemolyticus XJ31196 or 3 more strains (MIC 2-8 ug/ml), and S. hominis XJ31287 and 3 more strains (MIC 2-8 ug/ml).Inhibited biofilm formation:bacteria:S. epidermidis at 0.5 MIC.In vitro toxicity: human RBC 10%, not hemo.lytic at 512 ug/ml, not toxic to human umbilical vein endothelial cells at 1024 ug/ml.MOA:bacteria:S. epidermidis:  permeated bacterial membranes (PI).Resistance development:no:bacteria:S. epidermidis: MIC did not increase after 15 passages. Cf: MIC values of antibiotics (erythromycin, ceftriaxone, and oxacillin) increased by 8-64 fold.Antimicrobial robustness:  MIC retained after incubation with 50% plasma for 3 and 6 h (serum-insensitive?).Animal model:rat: urinary tract-infection model, stent inserted into bladder via surgery, infected with MRSE strain XJ75284, treated with the peptide after 16 or 28 h, CFU decreased in bladder, kidney, and stent was obsrved in a dose-dependent manner (2.5, 5, and 10 mg/kg).Updated 4/2025",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00553",
+                    "Similarity": 1.0,
+                    "Sequence": "KRCHLTIDKATACSLSDCRLSCYSGYNGVGKCFDDPKVAGPSNCGCIYNC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11325",
+                    "Similarity": 1.0,
+                    "Sequence": "CRRWWRFC"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_30587",
+                    "Similarity": 1.0,
+                    "Sequence": "CRRWWRFC"
+                }
+            ]
+        }
+    }
+}

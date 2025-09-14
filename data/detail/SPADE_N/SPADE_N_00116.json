@@ -1,0 +1,78 @@
+{
+    "SPADE_N_00116": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00116",
+            "Peptide Name": "Gassericin T (gassericin K7 B; Bacteriocin)",
+            "Source": "Lactobacillus gasseri LA158 (Gram-positive bacteria)",
+            "Family": "Belongs to the class IIb bacteriocin",
+            "Gene": "gatA",
+            "Sequence": "RNNWAANIGGVGGATVAGWALGNAVCGPACGFVGAHYVPIAWAGVTAATGGFGKIRK",
+            "Sequence Length": 57,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q9XDR7"
+            ],
+            "Protein Existence": "Predicted",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C250H380N74O66S2",
+            "Mass": 5542.28,
+            "PI": 9.85,
+            "Net Charge": 5,
+            "Hydrophobicity": 0.46,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Comments": "No comments found on DRAMP database",
+            "Literature": [
+                {
+                    "Title": "Primary amino acid and DNA sequences of gassericin T, a lactacin F-family bacteriocin produced by Lactobacillus gasseri SBT2055.",
+                    "Pubmed ID": "11129595",
+                    "Reference": "Biosci Biotechnol Biochem. 2000 Oct;64(10)2201-2208.",
+                    "Author": "Kawai Y, Saitoh B, Takahashi O, Kitazawa H, Saito T, Nakajima H, Itoh T.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=11129595"
+                },
+                {
+                    "Title": "DNA analysis of the genes encoding acidocin LF221 A and acidocin LF221 B, two bacteriocins produced by Lactobacillus gasseri LF221.",
+                    "Pubmed ID": "R2004J0475",
+                    "Author": "Rogelj I.,Matijasic B.B.,Allison G.E.,Venema K.,Majhenic A.C."
+                }
+            ],
+            "Frequent Amino Acids": "GAV",
+            "Absent Amino Acids": "DEMOQSU",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 30,
+            "Polar Residues": 33,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06083",
+                    "Similarity": 1.0,
+                    "Sequence": "MKNFNTLSFETLANIVGGRNNWAANIGGVGGATVAGWALGNAVCGPACGFVGAHYVPIAWAGVTAATGGFGKIRK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_06085",
+                    "Similarity": 0.6140350877192983,
+                    "Sequence": "MKQFNYLSHKDLAVVVGGRNNWQTNVGGAVGSAMIGATVGGTICGPACAVAGAHYLPILWTAVTAATGGFGKIRK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_00009",
+                    "Similarity": 0.6140350877192983,
+                    "Sequence": "RNNWQTNVGGAVGSAMIGATVGGTICGPACAVAGAHYLPILWTAVTAATGGFGKIRK"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "SPADE_UN_15299": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_15299",
+            "Peptide Name": "HCAP18(109-135)",
+            "Source": "hCAP18 Synthetic",
+            "Family": "",
+            "Gene": "Not found",
+            "Sequence": "FRKSKEKIGKEFKRIVQRIKDFLRNLV",
+            "Sequence Length": 27,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q1KLX1##P49913"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Target Organism": "Tumor cells:SAS-H1 (88 ± 7.2% cytotoxicity=40 mg/ml)",
+            "Hemolytic Activity": "Not available",
+            "Cytotoxicity": "Not available",
+            "Binding Target": "Not available",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C155H263N47O37",
+            "Mass": 3377.04,
+            "PI": 11.1,
+            "Net Charge": 7,
+            "Hydrophobicity": -0.82,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Literature": [
+                {
+                    "Title": "C-terminal domain of human CAP18 antimicrobial peptide induces apoptosis in oral squamous cell carcinoma SAS-H1 cells",
+                    "Pubmed ID": "15279899",
+                    "Reference": "Cancer Lett. 2004 Aug 30;212(2)185-94.",
+                    "Author": "Okumura K, Itoh A, Isogai E, Hirose K, Hosokawa Y, Abiko Y, Shibata T, Hirata M, Isogai H.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=15279899"
+                }
+            ],
+            "Frequent Amino Acids": "KRF",
+            "Absent Amino Acids": "ACHMOPTUWY",
+            "Basic Residues": 10,
+            "Acidic Residues": 3,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 15,
+            "Positive Residues": 10,
+            "Negative Residues": 3,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02277",
+                    "Similarity": 1.0,
+                    "Sequence": "GDFFRKSKEKIGKEFKRIVQRIKDFLRN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03107",
+                    "Similarity": 1.0,
+                    "Sequence": "ALLGDFFRKSKEKIGKEFKRIVQRIKDFLRNLVPRTES"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03128",
+                    "Similarity": 1.0,
+                    "Sequence": "LLGDFFRKSKEKIGKEFKRIVQR"
+                }
+            ]
+        }
+    }
+}

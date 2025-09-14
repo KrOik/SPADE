@@ -1,0 +1,73 @@
+{
+    "SPADE_N_07386": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_07386",
+            "Peptide Name": "Iturin A",
+            "Source": "Bacillus subtilis",
+            "Family": "",
+            "Gene": "Not found",
+            "Sequence": "NYNQPNS",
+            "Sequence Length": 7,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Notavailable"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Target Organism": "Tumor cells:HepG2 (10% viability=75μM)",
+            "Hemolytic Activity": "Not available",
+            "Cytotoxicity": "Not available",
+            "Binding Target": "Not available",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "β-amino fatty acid with a-(CH2)10CH3 group",
+            "Stereochemistry": "Mix",
+            "Structure Description": "Not found",
+            "Formula": "C17H22N6O5",
+            "Mass": 835.82,
+            "PI": 5.52,
+            "Net Charge": 0,
+            "Hydrophobicity": -2.53,
+            "Half Life": "Mammalian:1.4 hourYeast:3 minE.coli:>10 hour",
+            "Comments": "Iturin A significantly inhibited the growth of tumor cells, induce apoptosis, autophagy and paraptosis.",
+            "Literature": [
+                {
+                    "Title": "Effects of Bacillus subtilis iturin A on HepG2 cells in vitro and vivo",
+                    "Pubmed ID": "33970365",
+                    "Reference": "AMB Express. 2021 May 10;11(1)67.",
+                    "Author": "Zhao H, Yan L, Guo L, Sun H, Huang Q, Shao D, Jiang C, Shi J.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=33970365"
+                }
+            ],
+            "Frequent Amino Acids": "NPQ",
+            "Absent Amino Acids": "ACDEFGHIKLMORTUVW",
+            "Basic Residues": 0,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 2,
+            "Polar Residues": 6,
+            "Positive Residues": 0,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07213",
+                    "Similarity": 1.0,
+                    "Sequence": "NNNYNQP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14916",
+                    "Similarity": 1.0,
+                    "Sequence": "NYNQPNS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14938",
+                    "Similarity": 1.0,
+                    "Sequence": "NYNQPNS"
+                }
+            ]
+        }
+    }
+}

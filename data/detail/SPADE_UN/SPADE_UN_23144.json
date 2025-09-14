@@ -1,0 +1,61 @@
+{
+    "SPADE_UN_23144": {
+        "Sequence Information": {
+            "Peptide Name": "",
+            "Sequence": "V",
+            "Sequence Length": 1,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anticancer",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Antimicrobial and antitumor activity of peptidomimetics synthesized from amino acids.",
+                    "Pubmed ID": "33276980",
+                    "Reference": "Bioorg Chem. 2021;106:104506",
+                    "Author": "Li H, Fu S, Wang Y, Yuan X, Liu L, Dong H, Wang Q, Zhang Z",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/33276980"
+                }
+            ],
+            "Mass": 117.15,
+            "PI": 5.49,
+            "Net Charge": 0,
+            "Hydrophobicity": 4.2,
+            "Frequent Amino Acids": "V",
+            "Absent Amino Acids": "ACDEFGHIKLMNOPQRSTUWY",
+            "Basic Residues": 0,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 1,
+            "Polar Residues": 0,
+            "Positive Residues": 0,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_23144",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00001",
+                    "Similarity": 1.0,
+                    "Sequence": "GSGVIPTISHECHMNSFQFVFTCCS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00002",
+                    "Similarity": 1.0,
+                    "Sequence": "WKSESVCTPGCVTGLLQTCFLQTITCNCKISK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00003",
+                    "Similarity": 1.0,
+                    "Sequence": "ADRGWIKTLTKDCPNVISSICAGTIITACKNCA"
+                }
+            ],
+            "Hemolytic Activity": "Mouse fibroblasts L929:0% Killing=62.5 µg/ml,Mouse fibroblasts L929:40% Killing=1000 µg/ml",
+            "Target Organism": "Escherichia coli(MIC=1.67µg/ml),Salmonella enterica(MIC=6.5µg/ml),Staphylococcus aureus(MIC=3.3µg/ml),Bacillus subtilis(MIC=4.2µg/ml),Staphylococcus aureus(MIC=8.3µg/ml),Human gastric cancer SGC-7901(IC50=37µg/ml)"
+        }
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "SPADE_UN_15867": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_15867",
+            "Peptide Name": "",
+            "Source": "Synthetic",
+            "Family": "",
+            "Gene": "Not found",
+            "Sequence": "RWNGRIIKGFYNLVKIWKDLKG",
+            "Sequence Length": 22,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Notavailable"
+            ],
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Anticancer"
+            ],
+            "Target Organism": "Tumor cells:MCF-7 (EC50=42±4 µM)",
+            "Hemolytic Activity": "Human erythrocytes：50% Hemolysis=89±6 µM",
+            "Cytotoxicity": "Not available",
+            "Binding Target": "Not available",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C129H202N36O28",
+            "Mass": 2705.21,
+            "PI": 10.57,
+            "Net Charge": 5,
+            "Hydrophobicity": -0.51,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Literature": [
+                {
+                    "Title": "Designing Anticancer Peptides by Constructive Machine Learning",
+                    "Pubmed ID": "29679519",
+                    "Reference": "ChemMedChem. 2018 Jul 6;13(13)1300-1302.",
+                    "Author": "Grisoni F, Neuhaus CS, Gabernet G, Müller AT, Hiss JA, Schneider G.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=29679519"
+                }
+            ],
+            "Frequent Amino Acids": "KGI",
+            "Absent Amino Acids": "ACEHMOPQSTU",
+            "Basic Residues": 6,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 10,
+            "Positive Residues": 6,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_12123",
+                    "Similarity": 0.8571428571428571,
+                    "Sequence": "GWKDLLKGAAKALVKTVF"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_19705",
+                    "Similarity": 0.8571428571428571,
+                    "Sequence": "GWKDLLKGAAKALVKTVF"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_20560",
+                    "Similarity": 0.5,
+                    "Sequence": "GIIKRIIKRIIKRI"
+                }
+            ]
+        }
+    }
+}

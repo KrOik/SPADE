@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_25154": {
+        "Sequence Information": {
+            "Peptide Name": "I-Ovispirin (4-18), OV3-00",
+            "Sequence": "IRRIIRKIIHIIKKYG",
+            "Sequence Length": 16,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P49929",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P49929",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Activity and Synergy of Cu-ATCUN Antimicrobial Peptides",
+                    "Pubmed ID": "36430622",
+                    "Reference": "Int J Mol Sci. 2022;23:14151",
+                    "Author": "Greve JM, Cowan JA",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/36430622"
+                }
+            ],
+            "Mass": 2020.56,
+            "PI": 11.74,
+            "Net Charge": 7,
+            "Hydrophobicity": 0.09,
+            "Frequent Amino Acids": "IKR",
+            "Absent Amino Acids": "ACDEFLMNOPQSTUVW",
+            "Basic Residues": 7,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 9,
+            "Positive Residues": 7,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_25154",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02518",
+                    "Similarity": 1.0,
+                    "Sequence": "IRRIIRKIIHIIKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11568",
+                    "Similarity": 1.0,
+                    "Sequence": "KCRQWQSKIRRTNPIFCIRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11569",
+                    "Similarity": 1.0,
+                    "Sequence": "KARQWQSKIRRTNPIFAIRR"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=2µM),Acinetobacter baumannii ATCC BAA-747(MIC=4µM),Pseudomonas aeruginosa ATCC 27583(MIC=16µM),Klebsiella pneumoniae ATCC 700603(MIC=4µM),Staphylococcus aureus ATCC 43300(MIC=8µM),Enterococcus faecium ATCC 700221(MIC=4µM)"
+        }
+    }
+}

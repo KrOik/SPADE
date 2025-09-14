@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_00251": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_00251",
+            "Peptide Name": "Beta-defensin (Birds, animals)",
+            "Source": "Dromaius novaehollandiae (Emu)",
+            "Family": "Belongs to the beta-defensin family",
+            "Gene": "Not found",
+            "Sequence": "LPRHTLHCVAYHGYCFHSKV",
+            "Sequence Length": 20,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P86385"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C108H158N32O25S2",
+            "Mass": 2368.74,
+            "PI": 8.86,
+            "Net Charge": 6,
+            "Hydrophobicity": -0.09,
+            "Half Life": "Mammalian:5.5 hourYeast:3 minE.coli:2 min",
+            "Function": "Has bactericidal activity (By similarity).",
+            "Literature": [
+                {
+                    "Title": "Molecular characterization of goose- and chicken-type lysozymes in emu (Dromaius novaehollandiae) evidence for extremely low lysozyme levels in emu egg white.",
+                    "Pubmed ID": "22044478",
+                    "Reference": "Gene. 2012 Jan 15;492(1)244-249.",
+                    "Author": "Maehashi K, Matano M, Irisawa T, Uchino M, Kashiwagi Y, Watanabe T.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=22044478"
+                }
+            ],
+            "Frequent Amino Acids": "HCL",
+            "Absent Amino Acids": "DEIMNOQUW",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 15,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03205",
+                    "Similarity": 0.7,
+                    "Sequence": "LPRDTSRCVGYHGYCIRSKVCPKPFAAFGTCSWRQKTCCVDTTSDFHTCQDKGGHCVSPKIRCLEEQLGLCPLKRWTCCKEI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07600",
+                    "Similarity": 0.6470588235294118,
+                    "Sequence": "DTSRCVGYHGYCIRSKVCPKPFAAFGTCSWRQKTCCVDTTSDFHTCQDKGGHCVSPKIRCLEEQLGLCPLKRWTCCKEI"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_23837",
+                    "Similarity": 0.5,
+                    "Sequence": "PRLPRIPRLPRYPRYPRWPRHPT"
+                }
+            ]
+        }
+    }
+}

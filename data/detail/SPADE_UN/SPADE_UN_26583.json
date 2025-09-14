@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_26583": {
+        "Sequence Information": {
+            "Peptide Name": "Temporin F [G11K]",
+            "Sequence": "FLPLIGKVLSKIL",
+            "Sequence Length": 13,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P56921",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P56921",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Synthesis and characterization of new antimicrobial peptides derived from Temporin F",
+                    "Pubmed ID": "39357847",
+                    "Reference": "J Pept Sci. 2024;:e3655",
+                    "Author": "Bosquetti LM, Oliveira CS, Cerchiaro G, Oliveira Junior VX",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/39357847"
+                }
+            ],
+            "Mass": 1440.85,
+            "PI": 10.0,
+            "Net Charge": 2,
+            "Hydrophobicity": 1.58,
+            "Frequent Amino Acids": "LIK",
+            "Absent Amino Acids": "ACDEHMNOQRTUWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 5,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_26583",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_26583",
+                    "Similarity": 1.0,
+                    "Sequence": "FLPLIGKVLSKIL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01575",
+                    "Similarity": 0.9230769230769231,
+                    "Sequence": "FLPLIGKVLSGIL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14480",
+                    "Similarity": 0.9230769230769231,
+                    "Sequence": "FLKLIGKVLSKIL"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:5% Hemolysis=50 µM",
+            "Target Organism": "Escherichia coli BL21(MIC=32µM),Enterobacter cloacae beta-12(MIC=64µM),Pseudomonas aeruginosa PA14(MIC=64µM),Staphylococcus epidermidis ATCC 12228(MIC=32µM)"
+        }
+    }
+}

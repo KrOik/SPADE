@@ -1,0 +1,61 @@
+{
+    "SPADE_UN_27270": {
+        "Sequence Information": {
+            "Peptide Name": "SCL-d peptide 2 ",
+            "Sequence": "RRWWCC",
+            "Sequence Length": 6,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "The antimicrobial activity of hexapeptides derived from synthetic combinatorial libraries.",
+                    "Pubmed ID": "7883644",
+                    "Reference": "J Appl Bacteriol. 1995;78:39-46",
+                    "Author": "Blondelle SE, Takahashi E, Dinh KT, Houghten RA",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/7883644"
+                }
+            ],
+            "Mass": 909.09,
+            "PI": 9.02,
+            "Net Charge": 2,
+            "Hydrophobicity": -0.97,
+            "Frequent Amino Acids": "CRW",
+            "Absent Amino Acids": "ADEFGHIKLMNOPQSTUVY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 2,
+            "Polar Residues": 4,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_27270",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02472",
+                    "Similarity": 1.0,
+                    "Sequence": "QVVRNPQSCRWNMGVCIPISCPGNMRQIGTCFGPRVPCCRRW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02473",
+                    "Similarity": 1.0,
+                    "Sequence": "QGVRNHVTCRIYGGFCVPIRCPGRTRQIGTCFGRPVKCCRRW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08044",
+                    "Similarity": 1.0,
+                    "Sequence": "MRLHHLLLVLLFLVLSAGSGFTQVVRNPQSCRWNMGVCIPISCPGNMRQIGTCFGPRVPCCRRW"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:10% Hemolysis=100 µg/ml",
+            "Target Organism": "Staphylococcus aureus ATCC 29213(IC50=47-63µg/ml),Streptococcus sanguinis ATCC 10566(IC50=92-94µg/ml),Escherichia coli ATCC 25922(IC50=54-68µg/ml),Pseudomonas aeruginosa ATCC 27853(IC50=86-88µg/ml),Candida albicans ATCC 10231(IC50=162-166µg/ml)"
+        }
+    }
+}

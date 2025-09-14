@@ -1,0 +1,54 @@
+{
+    "SPADE_UN_22722": {
+        "Sequence Information": {
+            "Peptide Name": "Magainin (i+4)15(K4H, A9K, K10H)",
+            "Sequence": "GXGHFXHSKHKFGKAXVGEXXNS",
+            "Sequence Length": 23,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P11006",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P11006",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Design of stapled antimicrobial peptides that are stable, nontoxic and kill antibiotic-resistant bacteria in mice.",
+                    "Pubmed ID": "31427820",
+                    "Reference": "Nat Biotechnol. 2019;37:1186-1197",
+                    "Author": "Mourtada R, Herce HD, Yin DJ, Moroco JA, Wales TE, Engen JR,  Walensky LD",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/31427820"
+                }
+            ],
+            "SPADE ID": "SPADE_UN_22722",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_08842",
+                    "Similarity": 1.0,
+                    "Sequence": "GGHGGHGGHGGHGGHGGH"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14608",
+                    "Similarity": 1.0,
+                    "Sequence": "GYGGHGGHGGHGGHGGHGGH"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_14609",
+                    "Similarity": 1.0,
+                    "Sequence": "GGHGGHGGHGGHGGH"
+                }
+            ],
+            "Hemolytic Activity": "Human renal proximal tubular epithelial cells (HRPTEC):13.3% Cytotoxicity=100 µg/ml",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=3.12µg/ml),Bacillus cereus ATCC 14579(MIC=25.0µg/ml),Pseudomonas aeruginosa ATCC 27853(MIC=50µg/ml),Staphylococcus aureus ATCC 25923(MIC=>50µg/ml)"
+        }
+    }
+}

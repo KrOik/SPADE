@@ -1,0 +1,75 @@
+{
+    "SPADE_N_00781": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00781",
+            "Peptide Name": "Cyclotide phyb-A (Plant defensin)",
+            "Source": "Petunia hybrida (Petunia)",
+            "Family": "Belongs to the cyclotide family",
+            "Gene": "Not found",
+            "Sequence": "GIGCGESCVWIPCVSAAIGCSCSNKICYRN",
+            "Sequence Length": 30,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/B3EWH5"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Unknown"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "No specific N-terminal",
+            "C-terminal Modification": "No specific C-terminal",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C128H205N37O40S6",
+            "Mass": 3094.61,
+            "PI": 7.77,
+            "Net Charge": 1,
+            "Hydrophobicity": 0.58,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Probably participates in a plant defense mechanism (By similarity).",
+            "Tissue specificity": "Expressed in midvein, lamina and periphery of leaves (at protein level).",
+            "Domain": "The presence of a 'disulfide through disulfide knot' structurally defines this protein as a knottin.",
+            "PTM": "This is a cyclic peptide which may contain three disulfide bonds 4-2; 8-22; 13-27.",
+            "Literature": [
+                {
+                    "Title": "Cyclotides associate with leaf vasculature and are the products of a novel precursor in Petunia (Solanaceae).",
+                    "Pubmed ID": "PubMed ID is not available",
+                    "Reference": "J. Biol. Chem. 2012;28727033-27046.",
+                    "Author": "Poth A.G, Mylne J.S, Grassl J, Lyons R.E, Millar A.H, Colgrave M.L, Craik D.J.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=PubMed ID is not available"
+                }
+            ],
+            "Frequent Amino Acids": "CGI",
+            "Absent Amino Acids": "DFHLMOQTU",
+            "Basic Residues": 2,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 19,
+            "Positive Residues": 2,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_08283",
+                    "Similarity": 0.8666666666666667,
+                    "Sequence": "GIPCGESCVWIPCISAAIGCSCKNKVCYRN"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_16996",
+                    "Similarity": 0.8571428571428571,
+                    "Sequence": "GIPCGESCVWIPCISSAIGCSCSVCYRN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07733",
+                    "Similarity": 0.8518518518518519,
+                    "Sequence": "CGESCVWIPCISSAIGCSCKNKVCYRNGIP"
+                }
+            ]
+        }
+    }
+}

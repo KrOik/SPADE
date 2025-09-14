@@ -1,0 +1,1718 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPADE Tools</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- 这一行代码将favicon.ico图标设置为网站的快捷图标，显示在浏览器的地址栏和书签栏中。 -->
+    <link rel="shortcut icon" href="source/img/favicon.ico">
+    <!-- 这一行代码从CDN加载tranzy库的UMD版本，用于在网站中实现动画和过渡效果。 -->
+    <script src="https://unpkg.com/tranzy/dist/tranzy.umd.js"></script>
+
+    <!-- <link rel="stylesheet" href="css/translation-component.css">
+    <script src="js/translation-component.js"></script> -->
+    <link rel="stylesheet" href="css/language-selector-minimal.css">
+    <script src="js/language-selector-minimal.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+        /* 自定义滚动条样式 */
+        ::-webkit-scrollbar {
+            width: 5px;
+        }
+        
+        ::-webkit-scrollbar-track {
+            background: rgba(255, 255, 255, 0.05);
+        }
+        
+        ::-webkit-scrollbar-thumb {
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 5px;
+        }
+        
+        /* 移动端横屏提示弹窗样式 */
+        .orientation-modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(43, 16, 85, 0.95);
+            backdrop-filter: blur(10px);
+            z-index: 10001;
+            display: none;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-family: inherit;
+        }
+        
+        .orientation-modal.show {
+            display: flex;
+            animation: fadeIn 0.5s ease;
+        }
+        
+        .orientation-content {
+            text-align: center;
+            padding: 40px 30px;
+            max-width: 350px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            position: relative;
+            overflow: hidden;
+            animation: modalSlideIn 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+        }
+        
+        .orientation-content::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(45deg, rgba(117, 151, 222, 0.1), rgba(80, 226, 194, 0.1));
+            pointer-events: none;
+        }
+        
+        .orientation-content::after {
+            content: '';
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            right: -2px;
+            bottom: -2px;
+            border-radius: 22px;
+            background: linear-gradient(45deg, 
+                rgba(117, 151, 222, 0.3), 
+                rgba(80, 226, 194, 0.3), 
+                rgba(117, 151, 222, 0.3)
+            );
+            z-index: -1;
+            animation: borderPulse 3s ease-in-out infinite;
+        }
+        
+        .phone-animation {
+            width: 80px;
+            height: 140px;
+            margin: 0 auto 30px;
+            position: relative;
+            animation: floatPhone 3s ease-in-out infinite;
+        }
+        
+        .phone-frame {
+            width: 100%;
+            height: 100%;
+            border: 3px solid #fff;
+            border-radius: 15px;
+            position: relative;
+            background: linear-gradient(135deg, #7597de, #2b1055);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            transform-origin: center center;
+            animation: rotatePhone 3s ease-in-out infinite;
+        }
+        
+        .phone-screen {
+            position: absolute;
+            top: 8px;
+            left: 8px;
+            right: 8px;
+            bottom: 8px;
+            background: #000;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        
+        .phone-content {
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(45deg, #2b1055, #7597de);
+            position: relative;
+        }
+        
+        .phone-content::after {
+            content: 'SPADE';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff;
+            font-size: 8px;
+            font-weight: bold;
+        }
+        
+        .rotate-arrow {
+            position: absolute;
+            right: -20px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 30px;
+            height: 30px;
+            animation: pulseArrow 2s ease-in-out infinite;
+        }
+        
+        .rotate-arrow::before {
+            content: '↻';
+            font-size: 24px;
+            color: #50e2c2;
+            display: block;
+            animation: spinArrow 2s linear infinite;
+        }
+        
+        .orientation-title {
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+            background: linear-gradient(90deg, #7597de, #50e2c2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .orientation-message {
+            font-size: 1rem;
+            line-height: 1.6;
+            color: rgba(255, 255, 255, 0.9);
+            margin-bottom: 25px;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .orientation-tip {
+            font-size: 0.85rem;
+            color: rgba(255, 255, 255, 0.7);
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding-top: 20px;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .tip-icon {
+            display: inline-block;
+            margin-right: 8px;
+            animation: bounce 2s ease-in-out infinite;
+        }
+        
+        .orientation-close-btn {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 25px;
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 0.9rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+            z-index: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+        
+        .orientation-close-btn:hover {
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            transform: translateY(-2px);
+        }
+        
+        .orientation-close-btn i {
+            font-size: 0.8rem;
+        }
+        
+        /* 动画定义 */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: scale(0.9);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+        
+        @keyframes modalSlideIn {
+            0% {
+                opacity: 0;
+                transform: translateY(30px) scale(0.9);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0) scale(1);
+            }
+        }
+        
+        @keyframes borderPulse {
+            0%, 100% {
+                opacity: 0.3;
+                transform: scale(1);
+            }
+            50% {
+                opacity: 0.6;
+                transform: scale(1.02);
+            }
+        }
+        
+        @keyframes floatPhone {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+        
+        @keyframes rotatePhone {
+            0% {
+                transform: rotate(0deg);
+            }
+            25% {
+                transform: rotate(-5deg);
+            }
+            50% {
+                transform: rotate(90deg);
+            }
+            75% {
+                transform: rotate(85deg);
+            }
+            100% {
+                transform: rotate(90deg);
+            }
+        }
+        
+        @keyframes pulseArrow {
+            0%, 100% {
+                transform: translateY(-50%) scale(1);
+                opacity: 1;
+            }
+            50% {
+                transform: translateY(-50%) scale(1.2);
+                opacity: 0.8;
+            }
+        }
+        
+        @keyframes spinArrow {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+        
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-8px);
+            }
+            60% {
+                transform: translateY(-4px);
+            }
+        }
+        
+        /* 横屏状态下隐藏弹窗 */
+        @media screen and (orientation: landscape) and (max-width: 1024px) {
+            .orientation-modal {
+                display: none !important;
+            }
+        }
+        
+        /* 平板横屏优化 */
+        @media screen and (orientation: landscape) and (min-width: 768px) and (max-width: 1024px) {
+            .orientation-modal {
+                display: none !important;
+            }
+        }
+        
+        /* 小屏幕设备特殊处理 */
+        @media screen and (max-width: 480px) {
+            .orientation-content {
+                max-width: 300px;
+                padding: 30px 25px;
+            }
+            
+            .orientation-title {
+                font-size: 1.2rem;
+            }
+            
+            .orientation-message {
+                font-size: 0.9rem;
+            }
+            
+            .phone-animation {
+                width: 70px;
+                height: 120px;
+            }
+        }
+        
+        /* 确保弹窗在所有其他元素之上 */
+        .orientation-modal {
+            z-index: 10001 !important;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            background: linear-gradient(to bottom, #7d2ae8, #5e17eb);
+            color: #fff;
+            overflow-x: hidden; /* 防止水平滚动 */
+        }
+
+        body:not(.home-page) header {
+            background: linear-gradient(to bottom, rgba(43, 16, 85, 0.98) 0%, rgba(43, 16, 85, 0.9) 100%); /* 轻微调整透明度 */
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 15px 100px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* 增强阴影 */
+            z-index: 1000; /* 提高层级 */
+            backdrop-filter: blur(8px); /* 增强模糊效果 */
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* 添加细微边框 */
+            transition: background 0.3s ease; /* 添加背景过渡 */
+        }
+
+        .logo-container {
+            position: relative;
+            display: inline-block;
+            align-items: center;
+        }
+
+        .team-link {
+            font-size: 0.6em;
+            color: rgba(255, 255, 255, 0.8);
+            display: block;
+            margin-top: 5px;
+            letter-spacing: 1px;
+            text-decoration: underline; 
+            transition: color 0.3s ease; 
+        }
+
+        .team-link:hover {
+            color: #fff; 
+        }
+
+        header .logo {
+            color: #fff;
+            font-weight: 800;
+            text-decoration: none;
+            font-size: 1.6em;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            display: flex;
+            align-items: center;
+        }
+        
+        header .logo img {
+            margin-right: 10px; 
+        }
+
+        header ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        header ul li {
+            list-style: none;
+            margin-left: 20px;
+        }
+        
+        header ul li a {
+            text-decoration: none;
+            padding: 6px 15px;
+            color: #fff;
+            border-radius: 20px;
+        }
+
+        header ul li a:hover,
+        header ul li a.active {
+            background: rgba(255, 255, 255, 0.9); /* 使用带透明度的白色背景 */
+            color: #2b1055;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 添加轻微阴影 */
+            transform: translateY(-2px); /* 轻微上移效果 */
+            transition: all 0.3s ease; /* 平滑过渡 */
+        }
+
+        /* 语言选择器样式 - 已移至 translation-component.css */
+
+        /* 主容器样式 */
+        .main-container {
+            position: relative;
+            top: 120px; /* 增加顶部距离 */
+            padding: 50px 40px; /* 调整内边距 */
+            max-width: 1200px;
+            margin: 0 auto;
+            color: white; /* 保持主内容区白色字体 */
+        }
+
+        .page-title {
+            text-align: center;
+            font-size: 2.8em; /* 略微增大 */
+            margin-bottom: 60px; /* 增加底部间距 */
+            color: #2b1055; /* 使用深紫色标题 */
+            font-weight: 700;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* 添加轻微文本阴影 */
+        }
+
+        .tools-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 40px; /* 增加卡片间距 */
+            margin-top: 50px;
+        }
+
+        .tool-card {
+            background: rgba(43, 16, 85, 0.75); /* 稍微调整透明度 */
+            border-radius: 20px; /* 更大的圆角 */
+            padding: 30px; /* 增加内边距 */
+            backdrop-filter: blur(12px); /* 增强模糊 */
+            transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1), box-shadow 0.4s cubic-bezier(0.25, 1, 0.5, 1), background 0.4s ease; /* 更流畅的过渡 */
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15); /* 调整阴影 */
+            border: 1px solid rgba(255, 255, 255, 0.1); /* 添加细微边框 */
+        }
+
+        .tool-card:hover {
+            transform: translateY(-12px) scale(1.03); /* 增强悬停效果 */
+            box-shadow: 0 18px 35px rgba(0, 0, 0, 0.2); /* 增强悬停阴影 */
+            background: rgba(43, 16, 85, 0.9); /* 悬停时背景更深 */
+        }
+
+        .tool-card h3 {
+            font-size: 1.5em; /* 增大标题 */
+            margin-bottom: 15px;
+            color: #ffffff; /* 确保白色 */
+            font-weight: 600;
+        }
+
+        .tool-card p {
+            color: rgba(255, 255, 255, 0.85); /* 提高文本对比度 */
+            margin-bottom: 25px; /* 增加段落间距 */
+            font-size: 0.98em; /* 调整字体大小 */
+            line-height: 1.6; /* 调整行高 */
+        }
+
+        .tool-card .btn {
+            background: rgba(255, 255, 255, 0.15); /* 调整按钮背景 */
+            color: white;
+            padding: 10px 22px; /* 调整按钮内边距 */
+            border-radius: 50px; /* 全圆角 */
+            text-decoration: none;
+            display: inline-block;
+            transition: background 0.3s ease, transform 0.3s ease; /* 添加过渡 */
+            border: 1px solid rgba(255, 255, 255, 0.2); /* 添加边框 */
+            font-size: 0.9em;
+            font-weight: 500;
+        }
+
+        .tool-card .btn:hover {
+            background: rgba(255, 255, 255, 0.3); /* 悬停时更亮 */
+            transform: scale(1.05); /* 轻微放大 */
+        }
+
+        .tool-card:active {
+             transform: translateY(0px); /* 按下时恢复 */
+             box-shadow: 0 2px 5px rgba(43, 16, 85, 0.3); /* 按下时阴影 */
+        }
+
+        .tool-icon {
+            position: absolute;
+            top: 25px; /* 调整位置 */
+            right: 25px; /* 调整位置 */
+            font-size: 2.5em; /* 增大图标 */
+            color: rgba(255, 255, 255, 0.15); /* 调整透明度 */
+            transition: transform 0.4s ease, color 0.4s ease; /* 添加过渡 */
+        }
+
+        .tool-card:hover .tool-icon {
+            transform: rotate(10deg) scale(1.1); /* 悬停时旋转放大 */
+            color: rgba(255, 255, 255, 0.3); /* 悬停时更明显 */
+        }
+
+        /* 工具模态窗口样式 */
+        .tool-modal {
+            display: none; /* 初始隐藏 */
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6); /* 背景变暗 */
+            z-index: 10000; /* 最高层级 */
+            justify-content: center;
+            align-items: center;
+            backdrop-filter: blur(8px); /* 背景模糊 */
+            opacity: 0; /* 初始透明 */
+            transform: scale(0.95); /* 初始缩小 */
+            transition: opacity 0.3s ease, transform 0.3s ease; /* 过渡动画 */
+            padding: 20px; /* 添加内边距以适应小屏幕 */
+        }
+
+        .tool-modal.active { /* 用于JS控制显示 */
+            display: flex;
+            opacity: 1;
+            transform: scale(1);
+        }
+
+        .modal-content {
+            background: #ffffff; /* 白色背景 */
+            width: 90%; /* 调整宽度 */
+            max-width: 800px; /* 最大宽度 */
+            max-height: 90vh; /* 最大高度 */
+            border-radius: 15px; /* 圆角 */
+            padding: 40px; /* 增加内边距 */
+            position: relative;
+            overflow-y: auto;
+            color: #333;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.25); /* 增强阴影 */
+            transform: translateY(-20px); /* 初始轻微上移 */
+            transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1); /* 内容动画 */
+        }
+
+        .tool-modal.active .modal-content {
+             transform: translateY(0); /* 激活时恢复位置 */
+        }
+
+        .close-modal {
+            position: absolute;
+            top: 15px; /* 调整位置 */
+            right: 15px; /* 调整位置 */
+            font-size: 30px; /* 增大关闭按钮 */
+            cursor: pointer;
+            color: #aaa; /* 灰色 */
+            transition: color 0.3s ease, transform 0.3s ease; /* 添加过渡 */
+            line-height: 1;
+        }
+
+        .close-modal:hover {
+            color: #2b1055; /* 悬停时深紫色 */
+            transform: rotate(90deg); /* 悬停时旋转 */
+        }
+
+        .modal-title {
+            font-size: 2em; /* 调整标题大小 */
+            color: #2b1055;
+            margin-bottom: 25px; /* 增加间距 */
+            padding-bottom: 15px;
+            border-bottom: 2px solid #e0bbe4; /* 使用主题色系作为下划线 */
+            font-weight: 600;
+        }
+
+        .tool-form {
+            margin-top: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            color: #555;
+            font-weight: 500;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-size: 1em;
+            transition: border-color 0.3s;
+        }
+
+        .form-control:focus {
+            border-color: #a26fb0; /* 主题色系的焦点色 */
+            outline: none;
+            box-shadow: 0 0 0 3px rgba(162, 111, 176, 0.2); /* 添加焦点阴影 */
+        }
+
+        textarea.form-control {
+            min-height: 120px; /* 调整文本域最小高度 */
+            resize: vertical;
+        }
+
+        .submit-btn {
+            background: linear-gradient(45deg, #3a1675, #2b1055); /* 按钮渐变 */
+            color: white;
+            border: none;
+            padding: 14px 30px; /* 增大按钮 */
+            border-radius: 50px; /* 全圆角 */
+            cursor: pointer;
+            font-size: 1.05em; /* 增大字体 */
+            font-weight: 500;
+            transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease; /* 添加过渡 */
+            box-shadow: 0 4px 10px rgba(43, 16, 85, 0.3); /* 添加阴影 */
+        }
+
+        .submit-btn:hover {
+            background: linear-gradient(45deg, #4a2090, #3a1675); /* 悬停时改变渐变 */
+            transform: translateY(-2px); /* 轻微上移 */
+            box-shadow: 0 6px 15px rgba(43, 16, 85, 0.4); /* 增强阴影 */
+        }
+
+        .submit-btn:active {
+             transform: translateY(0px); /* 按下时恢复 */
+             box-shadow: 0 2px 5px rgba(43, 16, 85, 0.3); /* 按下时阴影 */
+        }
+
+        /* 响应式设计 */
+        @media (max-width: 1024px) { /* 调整断点 */
+            body:not(.home-page) header {
+                padding: 15px 50px; /* 调整内边距 */
+            }
+            .main-container {
+                padding: 40px 30px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            body:not(.home-page) header {
+                 padding: 15px 20px; /* 进一步调整内边距 */
+                 flex-direction: column; /* 垂直排列 */
+                 align-items: flex-start; /* 左对齐 */
+            }
+            .logo-container {
+                 margin-bottom: 10px; /* 添加间距 */
+            }
+            header ul {
+                 margin-top: 10px; /* 添加间距 */
+                 flex-wrap: wrap; /* 允许换行 */
+                 justify-content: flex-start; /* 左对齐 */
+            }
+            header ul li {
+                 margin-left: 0; /* 移除左边距 */
+                 margin-right: 15px; /* 添加右边距 */
+                 margin-bottom: 5px; /* 添加下边距 */
+            }
+            .main-container {
+                padding: 30px 15px; /* 调整内边距 */
+                top: 160px; /* 根据header高度调整 */
+            }
+            .tools-grid {
+                grid-template-columns: 1fr;
+                gap: 30px; /* 调整间距 */
+            }
+            .modal-content {
+                width: 95%; /* 调整宽度 */
+                padding: 25px; /* 调整内边距 */
+                max-height: 85vh; /* 调整最大高度 */
+            }
+            .page-title {
+                 font-size: 2.2em; /* 调整标题大小 */
+                 margin-bottom: 40px;
+            }
+            .tool-card {
+                 padding: 25px;
+            }
+            .language-selector {
+                 top: 160px; /* 根据header调整 */
+                 right: 15px;
+            }
+        }
+
+        /* 新增：数据库和预测工具部分的样式 */
+        .db-section {
+            margin-top: 80px;
+            padding-top: 40px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .db-section-title {
+            text-align: center;
+            font-size: 2.2em;
+            margin-bottom: 50px;
+            color: #fff;
+            font-weight: 700;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+        }
+
+        .db-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 30px;
+            margin-bottom: 50px;
+        }
+
+        .db-card {
+            background: rgba(43, 16, 85, 0.75); /* 稍微调整透明度 */
+            border-radius: 20px; /* 更大的圆角 */
+            padding: 30px; /* 增加内边距 */
+            backdrop-filter: blur(12px); /* 增强模糊 */
+            transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1), box-shadow 0.4s cubic-bezier(0.25, 1, 0.5, 1), background 0.4s ease; /* 更流畅的过渡 */
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15); /* 调整阴影 */
+            border: 1px solid rgba(255, 255, 255, 0.1); /* 添加细微边框 */
+        }
+
+        .db-card:hover {
+            transform: translateY(-12px) scale(1.03); /* 增强悬停效果 */
+            box-shadow: 0 18px 35px rgba(0, 0, 0, 0.2); /* 增强悬停阴影 */
+            background: rgba(43, 16, 85, 0.9); /* 悬停时背景更深 */
+        }
+
+        .db-card:active {
+             transform: translateY(0px); /* 按下时恢复 */
+             box-shadow: 0 2px 5px rgba(43, 16, 85, 0.3); /* 按下时阴影 */
+        }
+
+        .db-card h4 {
+            font-size: 1.5em; /* 增大标题 */
+            margin-bottom: 15px;
+            color: #ffffff; /* 确保白色 */
+            font-weight: 600;
+        }
+
+        .db-card .db-url {
+            font-size: 0.98em; /* 调整字体大小 */
+            color: rgba(255, 255, 255, 0.85);
+            margin-bottom: 25px; /* 增加段落间距 */
+            word-break: break-all;
+        }
+
+        .db-card p {
+            color: rgba(255, 255, 255, 0.85); /* 提高文本对比度 */
+            margin-bottom: 25px; /* 增加段落间距 */
+            font-size: 0.98em; /* 调整字体大小 */
+            line-height: 1.6; /* 调整行高 */
+        }
+
+        .db-card .btn {
+            background: rgba(255, 255, 255, 0.15); /* 调整按钮背景 */
+            color: white;
+            padding: 10px 22px; /* 调整按钮内边距 */
+            border-radius: 50px; /* 全圆角 */
+            text-decoration: none;
+            display: inline-block;
+            transition: background 0.3s ease, transform 0.3s ease; /* 添加过渡 */
+            border: 1px solid rgba(255, 255, 255, 0.2); /* 添加边框 */
+            font-size: 0.9em;
+            font-weight: 500;
+            margin-top: 20px; /* 恢复上边距 */
+        }
+
+        .db-card .btn:hover {
+            background: rgba(255, 255, 255, 0.3); /* 悬停时更亮 */
+            transform: scale(1.05); /* 轻微放大 */
+        }
+
+        .db-source-info {
+            margin-top: 60px;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 0.9em;
+            line-height: 1.6;
+            text-align: center;
+        }
+
+        .db-source-info a {
+            color: #7597de;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .db-source-info a:hover {
+            text-decoration: underline;
+        }
+
+        .db-source-info h5 {
+            font-size: 1.1em;
+            margin-bottom: 15px;
+            color: #fff;
+        }
+
+        /* 响应式调整 */
+        @media (max-width: 768px) {
+            .db-section {
+                margin-top: 60px;
+            }
+            .db-section-title {
+                font-size: 1.8em;
+                margin-bottom: 30px;
+            }
+            .db-grid {
+                gap: 20px;
+            }
+            .db-card {
+                padding: 25px;
+            }
+            .db-card h4 {
+                font-size: 1.2em;
+            }
+            .db-card p {
+                font-size: 0.85em;
+            }
+            .db-source-info {
+                margin-top: 40px;
+                padding-top: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body class="other-page">
+    <!-- 移动端横屏提示弹窗 -->
+    <div class="orientation-modal" id="orientationModal">
+        <div class="orientation-content">
+            <div class="phone-animation">
+                <div class="phone-frame">
+                    <div class="phone-screen">
+                        <div class="phone-content"></div>
+                    </div>
+                </div>
+                <div class="rotate-arrow"></div>
+            </div>
+            
+            <h3 class="orientation-title" data-translate="Better Experience">Better Experience</h3>
+            <p class="orientation-message" data-translate="For the best browsing experience, we recommend using SPADE database in landscape mode.">
+                For the best browsing experience, we recommend using SPADE database in <strong>landscape</strong> mode.
+            </p>
+            <div class="orientation-tip">
+                <span class="tip-icon">💡</span>
+                <span data-translate="In landscape mode, you can better view data tables, charts and research content">In landscape mode, you can better view data tables, charts and research content</span>
+            </div>
+            
+            <!-- 横屏时显示的关闭按钮 -->
+            <button class="orientation-close-btn" id="orientationCloseBtn" style="display: none;">
+                <i class="fas fa-times"></i>
+                <span data-translate="Continue anyway">Continue anyway</span>
+            </button>
+        </div>
+    </div>
+    
+    <header>
+      <div class="logo-container">
+        <a href="#" class="logo">
+          <img src="./source/img/logo.png"  style="vertical-align: middle; height: 30px;">
+          SPADE
+        </a>
+        <div style="color: white; font-size: 0.6em;">System for Antimicrobial Peptide<br>Management and Database</div>
+        <!-- <a href="https://2025.igem.wiki/xjtlu - software" class="team-link" target="_blank" rel="noopener noreferrer">Belongs to 2025-XJTLU-Software</a> -->
+      </div>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+      <ul class="nav-menu">
+        <li><a href="home.html" data-translate="home_nav">Home</a></li>
+        <li><a href="search.html" data-translate="search_nav">Search</a></li>
+        <li><a href="tools.html" class="active" data-translate="tools_nav">Tools</a></li>
+        <li><a href="statistics.html" data-translate="statistics_nav">Statistics</a></li>
+        <!-- <li><a href="amp_visualization.html">AMP Visualization</a></li> -->
+        <!-- <li><a href="chat.html">Chat</a></li> -->
+        <!-- <li><a href="login.html">Login</a></li> -->
+      </ul>
+    </header>
+
+    <!-- 语言选择器 -->
+    <!-- <div class="language-selector">
+        <div class="language-current" id="currentLang">
+            <i class="fas fa-globe"></i>
+            <span id="currentLangText">English</span>
+        </div>
+        <div class="language-options">
+        </div>
+    </div> -->
+
+    <div class="main-container">
+        <h1 class="page-title" data-translate="tools_title">Antimicrobial Peptide Analysis Tools</h1>
+        
+        <!-- <div class="tools-grid"> -->
+            <!-- 工具卡片 1 -->
+            <!-- <div class="tool-card" onclick="openModal('sequence-analysis')">
+                <i class="fas fa-dna tool-icon"></i>
+                <h3>Sequence Analysis</h3>
+                <p>Analyze peptide sequences for common motifs, patterns, and structural predictions.</p>
+                <a href="#" class="btn">Use Tool</a>
+            </div> -->
+            
+            <!-- 工具卡片 2 -->
+            <!-- <div class="tool-card" onclick="openModal('activity-prediction')">
+                <i class="fas fa-chart-line tool-icon"></i>
+                <h3>Activity Prediction</h3>
+                <p>Predict antimicrobial activity based on sequence, comparing to known active peptides.</p>
+                <a href="#" class="btn">Use Tool</a>
+            </div> -->
+            
+            <!-- 工具卡片 3 -->
+            <!-- <div class="tool-card" onclick="openModal('similarity-search')">
+                <i class="fas fa-search tool-icon"></i>
+                <h3>Similarity Search</h3>
+                <p>Find peptides with similar sequences or properties in our database.</p>
+                <a href="#" class="btn">Use Tool</a>
+            </div> -->
+            
+            <!-- 工具卡片 4 -->
+            <!-- <div class="tool-card" onclick="openModal('physicochemical-properties')">
+                <i class="fas fa-flask tool-icon"></i>
+                <h3>Physicochemical Properties</h3>
+                <p>Calculate key properties such as hydrophobicity, charge, and isoelectric point.</p>
+                <a href="#" class="btn">Use Tool</a>
+            </div> -->
+            
+            <!-- 工具卡片 5 -->
+            <!-- <div class="tool-card" onclick="openModal('structure-visualization')">
+                <i class="fas fa-cube tool-icon"></i>
+                <h3>Structure Visualization</h3>
+                <p>Visualize predicted 3D structures of peptides and analyze structural features.</p>
+                <a href="#" class="btn">Use Tool</a>
+            </div> -->
+            
+            <!-- 工具卡片 6 -->
+            <!-- <div class="tool-card" onclick="openModal('target-prediction')">
+                <i class="fas fa-bullseye tool-icon"></i>
+                <h3>Target Prediction</h3>
+                <p>Predict potential microbial targets for antimicrobial peptides.</p>
+                <a href="#" class="btn">Use Tool</a>
+            </div>
+        </div> -->
+
+        <div class="db-section">
+            <h2 class="page-title" data-translate="databases_prediction_tools_title">Antimicrobial Peptide Databases and Prediction Tools</h2>
+<div class="db-grid">
+                <!-- Animal-derived Databases -->
+                <div class="tool-card">
+                    <h4>APD (USA)</h4>
+                    <p>The original antimicrobial peptide database for anticancer, antibacterial, antifungal, antiviral, anti-HIV, antiparasitic, antidiabetic, wound healing peptides and beyond. (Country: USA, Published: 2004,2009,2016,2020,2022)</p>
+                    <a href="https://aps.unmc.edu/" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>DADP (Croatia)</h4>
+                    <p>Focuses on amphibian defense peptides, detailing structure-activity relationship data of skin secretory peptides to provide valuable information for related research.</p>
+                    <a href="http://split4.pmfst.hr/dadp/" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <!-- Plant-derived Databases -->
+                <div class="tool-card">
+                    <h4>PhytAMP (Canada/Tunisia)</h4>
+                    <p>A specialized database focusing on plant antimicrobial peptides, integrating signal peptide prediction tools to assist researchers in exploring plant defense mechanisms.</p>
+                    <a href="http://phytamp.pfba-lab-tun.org/main.php" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>ARA-PEPs (Belgium)</h4>
+                    <p>As one of the largest repositories for plant sORFs-encoded peptides, it provides comprehensive peptide information and supports subcellular localization analysis to facilitate plant gene function research.</p>
+                    <a href="http://www.sorfs.org/database/ara-peps" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <!-- Microbe-derived Databases -->
+                <div class="tool-card">
+                    <h4>BAGEL (Netherlands)</h4>
+                    <p>A web-based genomic mining tool for bacteriocins, capable of effectively identifying bacteriocin gene clusters and supporting CRISPR sequence recognition.</p>
+                    <a href="http://bagel4.molgenrug.nl/" target="_blank" rel="noopener noreferrer" class="btn">Access Tool</a>
+                </div>
+
+                <!-- Comprehensive/Multi-functional Databases -->
+                <div class="tool-card">
+                    <h4>CAMP (India)</h4>
+                    <p>Integrates multiple machine learning algorithms such as SVM and random forest, providing not only AMP activity prediction but also comprehensive database retrieval.</p>
+                    <a href="http://www.camp.bicnirrh.res.in/" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>DRAMP (China)</h4>
+                    <p>Contains antimicrobial peptides from various biological sources, providing detailed structural, functional, and activity data as an important reference for AMP research.</p>
+                    <a href="http://dramp.cpu-bioinfor.org/" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+                <!-- Additional Databases from refer/相关数据库与预测网站 --- Related Databases & Prediction Websites.html -->
+                <div class="tool-card">
+                    <h4>Peptaibols</h4>
+                    <p>A collection of peptaibols (Country: England, Published: 2003,2004)</p>
+                    <a href="http://www.cryst.bbk.ac.uk/peptaibol" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>DAMPD (formerly ANTIMIC)</h4>
+                    <p>Dragon database for antimicrobial sequences (Country: South Africa/Saudi Arabia, Published: 2004,2012)</p>
+                    <a href="http://apps.sanbi.ac.za/dampd/" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>Cybase</h4>
+                    <p>The database of cyclic proteins (Country: Australia, Published: 2006,2008)</p>
+                    <a href="http://www.cybase.org.au/" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>Defensins</h4>
+                    <p>Defensins knowledgebase (Country: Singapore, Published: 2007)</p>
+                    <a href="http://defensins.bii.a-star.edu.sg/" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>BACTIBASE</h4>
+                    <p>A data repository of bacteriocins (Country: Canada/Tunisie, Published: 2007,2010)</p>
+                    <a href="http://bactibase.pfba-lab-tun.org/main.php" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>LAMP</h4>
+                    <p>A database linking other AMP databases (Country: China, Published: 2013,2020)</p>
+                    <a href="http://biotechlab.fudan.edu.cn/database/lamp" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>HIPdb</h4>
+                    <p>A database for HIV inhibiting peptides (Country: India, Published: 2013)</p>
+                    <a href="http://crdd.osdd.net/servers/hipdb/" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>MilkAMP</h4>
+                    <p>A database for milk AMPs (Country: Canada, Published: 2014)</p>
+                    <a href="http://milkampdb.org/" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>Hemolytik</h4>
+                    <p>Hemolytic peptides (Country: India, Published: 2014)</p>
+                    <a href="http://crdd.osdd.net/raghava/hemolytik/" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>ParaPep</h4>
+                    <p>A database for antiparasitic sequences (Country: India, Published: 2014)</p>
+                    <a href="http://crdd.osdd.net/raghava/parapep/" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>CancerPPD/AntiCP 2.0</h4>
+                    <p>A database for anticancer peptides and proteins (Country: India, Published: 2014,2021)</p>
+                    <a href="http://crdd.osdd.net/raghava/cancerppd/" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>DBAASP</h4>
+                    <p>Database of AMPs with mainly synthetic peptides (Country: Georgia, Published: 2014,2016,2021)</p>
+                    <a href="http://dbaasp.org/home.xhtml" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>BaAMPs</h4>
+                    <p>Biofilm-active AMPs database (Country: Italy, Published: 2015)</p>
+                    <a href="http://www.baamps.it/" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>ANTISTAPHYBASE</h4>
+                    <p>A database for anti-Staphylococcal peptides and essential oils (Country: France/Tunisia/Canada/USA, Published: 2016)</p>
+                    <a href="https://www.antistaphybase.com/" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>SATPdb</h4>
+                    <p>Database of therapeutic peptides (Country: India, Published: 2016)</p>
+                    <a href="http://crdd.osdd.net/raghava/satpdb/" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>InverPep</h4>
+                    <p>Invertebrate AMPs (Country: Colombia, Published: 2017)</p>
+                    <a href="http://ciencias.medellin.unal.edu.co/gruposdeinvestigacion/prospeccionydisenobiomoleculas/InverPep/public/home_en" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>MBPDB</h4>
+                    <p>Milk bioactive peptide database (Country: Denmark, Published: 2017)</p>
+                    <a href="http://webs.iiitd.edu.in/raghava/antitbpdb/" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>AntiTbPdb</h4>
+                    <p>Anti-TB Peptides (Country: India, Published: 2018)</p>
+                    <a href="https://mbpdb.nws.oregonstate.edu/" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>LABiocin</h4>
+                    <p>Bacteriocins from Lactic Acid Bacteria (LAB) (Country: Lebanon/France/Morocco, Published: 2019)</p>
+                    <a href="https://labiocin.univ-lille.fr/" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>PlantAFP</h4>
+                    <p>Plant antifungal peptides (AFPs) (Country: India, Published: 2019)</p>
+                    <a href="http://bioinformatics.cimap.res.in/sharma/PlantAFP/" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>PubMed (USA)</h4>
+                    <p>A biomedical and life sciences publication resource from the U.S. National Library of Medicine.</p>
+                    <a href="http://www.ncbi.nlm.nih.gov/pubmed" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>UniProt (Europe)</h4>
+                    <p>UniProt knowledge base, compiling protein sequences and functional annotations.</p>
+                    <a href="http://www.ebi.ac.uk/uniprot/" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>Google Scholar (USA)</h4>
+                    <p>Web-based search engine for academic literature across multiple disciplines.</p>
+                    <a href="https://scholar.google.com/" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>PDB (RCSB Protein Data Bank) (USA)</h4>
+                    <p>Global authoritative database storing 3D structural data of biological macromolecules.</p>
+                    <a href="https://www.rcsb.org/" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>Peptaibols (England)</h4>
+                    <p>Database collecting peptaibols (fungal-derived peptides) (Published: 2003, 2004)</p>
+                    <a href="http://www.cryst.bbk.ac.uk/peptaibol" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>APD (USA)</h4>
+                    <p>Earliest comprehensive AMP database covering anti-cancer, antibacterial, anti-HIV peptides (Published: 2004, 2009, 2016, 2020, 2022)</p>
+                    <a href="https://aps.unmc.edu/" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>DAMPD (South Africa / Saudi Arabia)</h4>
+                    <p>Antimicrobial sequence database focusing on bacteriocins and related peptides (Published: 2004, 2012)</p>
+                    <a href="http://apps.sanbi.ac.za/dampd/" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>Cybase (Australia)</h4>
+                    <p>Database of cyclic proteins featuring AMPs with cyclic structures (Published: 2006, 2008)</p>
+                    <a href="http://www.cybase.org.au/" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>Defensins (Singapore)</h4>
+                    <p>Specialized knowledge base for defensins from plant, animal, and microbial sources (Published: 2007)</p>
+                    <a href="http://defensins.bii.a-star.edu.sg/" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>BACTIBASE (Canada / Tunisia)</h4>
+                    <p>Bacteriocin repository collecting bacterial antimicrobial peptides and action mechanisms (Published: 2007, 2010)</p>
+                    <a href="http://bactibase.pfba-lab-tun.org/main.php" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>PhytAMP (Canada / Tunisia)</h4>
+                    <p>Plant-derived AMP database focusing on plant immunity-related peptides (Published: 2009)</p>
+                    <a href="http://phytamp.pfba-lab-tun.org/main.php" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>CAMP (India)</h4>
+                    <p>AMP collection including patented and predicted peptides with activity data queries (Published: 2010, 2014, 2016, 2023)</p>
+                    <a href="http://www.bicnirrh.res.in/antimicrobial" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>YADAMP (Italy)</h4>
+                    <p>Comprehensive AMP database supplementing peptide information missed by other resources (Published: 2012)</p>
+                    <a href="http://yadamp.unisa.it/" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>DADP (Croatia)</h4>
+                    <p>Amphibian defense peptide database focusing on peptides from frogs and toads (Published: 2012)</p>
+                    <a href="http://split4.pmfst.hr/dadp/" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>THIOBASE (China)</h4>
+                    <p>Bacterial thiopeptide database featuring macrocyclic core-structured thiopeptide antibiotics (Published: 2012)</p>
+                    <a href="http://db-mml.sjtu.edu.cn/THIOBASE/" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>EnzyBase (China)</h4>
+                    <p>Enzybiotic database including lysozymes, bacteriocins, and other enzymatic antimicrobial molecules (Published: 2012)</p>
+                    <a href="http://biotechlab.fudan.edu.cn/database/EnzyBase/home.php" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>LAMP (China)</h4>
+                    <p>Integrated AMP database linking multiple AMP resources with comprehensive search functions (Published: 2013, 2020)</p>
+                    <a href="http://biotechlab.fudan.edu.cn/database/lamp" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>HIPdb (India)</h4>
+                    <p>Specialized database for HIV-inhibitory peptides with target information (Published: 2013)</p>
+                    <a href="http://crdd.osdd.net/servers/hipdb/" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>MilkAMP (Canada)</h4>
+                    <p>Milk-derived AMP database focusing on antimicrobial peptides in dairy products (Published: 2014)</p>
+                    <a href="http://milkampdb.org/" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>Hemolytik (India)</h4>
+                    <p>Hemolytic peptide database with activity mechanisms (Published: 2014)</p>
+                    <a href="http://crdd.osdd.net/raghava/hemolytik/" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>ParaPep (India)</h4>
+                    <p>Anti-parasitic peptide database covering peptides against malaria, flukes, etc. (Published: 2014)</p>
+                    <a href="http://crdd.osdd.net/raghava/parapep/" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>CancerPPD (India)</h4>
+                    <p>Anti-cancer peptide & protein database with tumor-inhibiting peptides (Published: 2014, 2021)</p>
+                    <a href="http://crdd.osdd.net/raghava/cancerppd/" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>DBAASP (Georgia)</h4>
+                    <p>Synthetic AMP database with artificially designed peptides and activity data (Published: 2014, 2016, 2021)</p>
+                    <a href="http://dbaasp.org/home.xhtml" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>BaAMPs (Italy)</h4>
+                    <p>Biofilm-active AMP database for peptides inhibiting bacterial biofilm formation (Published: 2015)</p>
+                    <a href="http://www.baamps.it/" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>ANTISTAPHYBASE (France / Tunisia / Canada / USA)</h4>
+                    <p>Anti-staphylococcal peptide database with peptides and essential oils against Staphylococcus aureus (Published: 2016)</p>
+                    <a href="https://www.antistaphybase.com/" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>SATPdb (India)</h4>
+                    <p>Therapeutic peptide database with AMPs for clinical applications (Published: 2016)</p>
+                    <a href="http://crdd.osdd.net/raghava/satpdb/" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>DRAMP (China)</h4>
+                    <p>Antimicrobial peptide data warehouse with multi-source integration and sequence analysis tools (Published: 2016, 2019, 2022)</p>
+                    <a href="http://dramp.cpu-bioinfor.org/" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>InverPep (Colombia)</h4>
+                    <p>Invertebrate AMP database with peptides from insects, crustaceans, etc. (Published: 2017)</p>
+                    <a href="http://ciencias.medellin.unal.edu.co/gruposdeinvestigacion/prospeccionydisenobiomoleculas/InverPep/public/home_en" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>ARA-PEPs (Belgium)</h4>
+                    <p>Largest plant sORF-encoded peptide library (Published: 2017)</p>
+                    <a href="http://www.biw.kuleuven.be/CSB/ARA-PEPs" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>MBPDB (Denmark)</h4>
+                    <p>Milk bioactive peptide database with antibacterial and immunomodulatory peptides (Published: 2017)</p>
+                    <a href="http://webs.iiitd.edu.in/raghava/antitbpdb/" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>AntiTbPdb (India)</h4>
+                    <p>Anti-tuberculosis peptide database targeting Mycobacterium tuberculosis (Published: 2018)</p>
+                    <a href="https://mbpdb.nws.oregonstate.edu/" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>LABiocin (Lebanon / France / Morocco)</h4>
+                    <p>Lactic acid bacteria bacteriocin database with application scenarios (Published: 2019)</p>
+                    <a href="https://labiocin.univ-lille.fr/" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>PlantAFP (India / Czech Republic)</h4>
+                    <p>Plant antifungal peptide database with antifungal AMPs (Published: 2019)</p>
+                    <a href="http://bioinformatics.cimap.res.in/sharma/PlantAFP/" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>ADAPTABLE (France)</h4>
+                    <p>AMP sequence merging platform with multi-database alignment tools (Published: 2019)</p>
+                    <a href="http://gec.u-picardie.fr/adaptable" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>FoldamerDB (Hungary)</h4>
+                    <p>Peptide foldamer database with artificial AMP-mimicking structures (Published: 2020)</p>
+                    <a href="http://foldamerdb.ttk.hu/" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>ACD (India)</h4>
+                    <p>Antimicrobial chemotherapy database integrating peptide-drug combination data (Published: 2020)</p>
+                    <a href="http://amdr.amu.ac.in/acd" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>AntiCP 2.0 (India)</h4>
+                    <p>Upgraded anti-cancer peptide database with apoptosis-inducing peptides (Published: 2020)</p>
+                    <a href="https://webs.iiitd.edu.in/raghava/anticp2/" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>FermFooDb (India)</h4>
+                    <p>Fermented food bioactive peptide database from fermentation processes (Published: 2021)</p>
+                    <a href="https://webs.iiitd.edu.in/raghava/fermfoodb/" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>B-AMP (India / UK / USA)</h4>
+                    <p>Biofilm-specific AMP database targeting bacterial biofilms (Published: 2021)</p>
+                    <a href="https://b-amp.karishmakaushiklab.com/" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>SuPepMem (Spain / Portugal)</h4>
+                    <p>Immunopeptide MD simulation database for innate immunity AMPs (Published: 2022)</p>
+                    <a href="https://supepmem.com/" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>ACovPepDB (China)</h4>
+                    <p>Anti-coronavirus peptide database for COVID-19 and other coronaviruses (Published: 2022)</p>
+                    <a href="http://i.uestc.edu.cn/ACovPepDB/" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>ApInAPDB (Iran)</h4>
+                    <p>Apoptosis-inducing anti-cancer peptide database (Published: 2022)</p>
+                    <a href="http://bioinf.modares.ac.ir/software/ApInAPDB/" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>AMPDB v1 (India)</h4>
+                    <p>Basic AMP database (Version 1) with sequence and physicochemical properties (Published: 2023)</p>
+                    <a href="https://bblserver.org.in/ampdb/" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>DRAVP (China)</h4>
+                    <p>Antiviral peptide database for influenza, HIV, and other viruses (Published: 2023)</p>
+                    <a href="http://dravp.cpu-bioinfor.org/" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>GtoPdb (UK / France)</h4>
+                    <p>Guide to Pharmacology database for AMP-receptor interaction and drug target data (Published: 2023)</p>
+                    <a href="https://www.guidetopharmacology.org/" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>aSynPEP-DB (Spain / Germany / Poland)</h4>
+                    <p>ESKAPE bacteriophage-derived AMP database against drug-resistant bacteria (Published: 2023)</p>
+                    <a href="https://asynpepdb.ppmclab.com/" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>ESKtides (China)</h4>
+                    <p>Bacteriophage-derived AMP database for ESKAPE drug-resistant bacteria (Published: 2024)</p>
+                    <a href="http://www.phageonehealth.cn:9000/ESKtides" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>AbAMPdb (India)</h4>
+                    <p>Anti-Acinetobacter baumannii peptide database for multidrug-resistant strains (Published: 2024)</p>
+                    <a href="https://abampdb.mgbio.tech/" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>AVR/I/SSAPDB (India)</h4>
+                    <p>Anti-resistant Staphylococcus peptide database for VRSA, VISA, VSSA (Published: 2024)</p>
+                    <a href="https://bblserver.org.in/avrissa/" target="_blank" rel="noopener noreferrer" class="btn">Access Database</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>APD peptide predictor (USA)</h4>
+                    <p>AMP classification & prediction tool based on APD database with sequence activity scoring (Published: 2004)</p>
+                    <a href="https://aps.unmc.edu/prediction" target="_blank" rel="noopener noreferrer" class="btn">Access Tool</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>BAGLE (Netherlands)</h4>
+                    <p>Bacteriocin genomic mining tool for predicting bacteriocin-encoding genes (Published: 2006)</p>
+                    <a href="http://bagel.molgenrug.nl/" target="_blank" rel="noopener noreferrer" class="btn">Access Tool</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>AntiBP (India)</h4>
+                    <p>Machine learning-based AMP predictor supporting SVM, QM, and ANN models (Published: 2007)</p>
+                    <a href="http://www.imtech.res.in/raghava/antibp2/" target="_blank" rel="noopener noreferrer" class="btn">Access Tool</a>
+                </div>
+
+                <div class="tool-card">
+                    <h4>AMPer (Canada)</h4>
+                    <p>Automated gene-encoded AMP discovery tool via genomic analysis for potential peptide regions</p>
+                    <a href="http://marray.cmdr.ubc.ca/cgi-bin/amp.pl" target="_blank" rel="noopener noreferrer" class="btn">Access Tool</a>
+                </div>
+            </div>
+        </div>
+
+    <div class="db-source-info" style="color: #2b1055;">
+        <h5 class="page-title" style="color: #2b1055;" data-translate="data_sources_references">Data Sources and References</h5>
+        <p style="color: #2b1055; text-align: left;" data-translate="database_info_source">Database information integrated on this page is compiled from the APS Database of the United Nations Medical College (<a href="https://aps.unmc.edu/links" target="_blank" rel="noopener noreferrer">https://aps.unmc.edu/links</a>) and related literatures.</p>
+        <p style="color: #2b1055; text-align: left;"><strong data-translate="references_label">References:</strong></p>
+    <ul style="text-align: left;">
+        <li style="color: #2b1055;">Wang, G. (2017) Antimicrobial Peptides: Discovery, Design and Novel Therapeutic Strategies. CABI.</li>
+        <li style="color: #2b1055;">Haug, B. E., & Svendsen, J. S. (2007). Antimicrobial peptides: discovery, design and therapeutic potential. Current Pharmaceutical Design, 13(28), 2878-2895.</li>
+        <li style="color: #2b1055;">Fjell, C. D., Hiss, J. A., Hancock, R. E., & Schneider, G. (2012). Designing antimicrobial peptides: a quantitative structure-activity relationship approach. Nature Reviews Drug Discovery, 11(1), 37-51.</li>
+        <li style="color: #2b1055;">Other references are detailed on the original UNMC APS page.</li>
+    </ul>
+    <p style="color: #2b1055; text-align: left;">
+        <strong style="color: #2b1055;" data-translate="disclaimer_label">Disclaimer:</strong>
+        <span data-translate="disclaimer_text">External links are for reference only and do not represent this site's endorsement of their content or services. All copyrights of databases and tools belong to their original creators.
+        In case of intellectual property disputes, please contact the site administrator to remove relevant content.</span>
+    </p>
+</div>
+
+    <!-- 模态窗口 - 序列分析 -->
+    <div id="sequence-analysis-modal" class="tool-modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeModal('sequence-analysis')">&times;</span>
+            <h2 class="modal-title">Sequence Analysis Tool</h2>
+            <form class="tool-form">
+                <div class="form-group">
+                    <label for="sequence-input">Enter Peptide Sequence</label>
+                    <textarea id="sequence-input" class="form-control" placeholder="Enter amino acid sequence in single letter code (e.g., GLFDIIKKIAESF)" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label>Analysis Options</label>
+                    <div>
+                        <input type="checkbox" id="motif-search" checked>
+                        <label for="motif-search">Motif Search</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="secondary-structure" checked>
+                        <label for="secondary-structure">Secondary Structure Prediction</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="amino-composition" checked>
+                        <label for="amino-composition">Amino Acid Composition</label>
+                    </div>
+                </div>
+                <button type="submit" class="submit-btn">Analyze Sequence</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- 模态窗口 - 活性预测 -->
+    <div id="activity-prediction-modal" class="tool-modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeModal('activity-prediction')">&times;</span>
+            <h2 class="modal-title">Activity Prediction Tool</h2>
+            <form class="tool-form">
+                <div class="form-group">
+                    <label for="activity-sequence">Enter Peptide Sequence</label>
+                    <textarea id="activity-sequence" class="form-control" placeholder="Enter amino acid sequence in single letter code" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="prediction-model">Select Prediction Model</label>
+                    <select id="prediction-model" class="form-control">
+                        <option value="general">General Antimicrobial</option>
+                        <option value="antibacterial">Antibacterial</option>
+                        <option value="antifungal">Antifungal</option>
+                        <option value="antiviral">Antiviral</option>
+                    </select>
+                </div>
+                <button type="submit" class="submit-btn">Predict Activity</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- 模态窗口 - 相似性搜索 -->
+    <div id="similarity-search-modal" class="tool-modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeModal('similarity-search')">&times;</span>
+            <h2 class="modal-title">Similarity Search Tool</h2>
+            <form class="tool-form">
+                <div class="form-group">
+                    <label for="similarity-sequence">Enter Query Sequence</label>
+                    <textarea id="similarity-sequence" class="form-control" placeholder="Enter amino acid sequence to find similar peptides"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="similarity-threshold">Similarity Threshold (%)</label>
+                    <input type="range" id="similarity-threshold" class="form-control" min="50" max="100" value="70">
+                    <output for="similarity-threshold">70%</output>
+                </div>
+                <div class="form-group">
+                    <label for="max-results">Maximum Results</label>
+                    <input type="number" id="max-results" class="form-control" min="1" max="100" value="20">
+                </div>
+                <button type="submit" class="submit-btn">Search Similar Peptides</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- 模态窗口 - 物理化学性质 -->
+    <div id="physicochemical-properties-modal" class="tool-modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeModal('physicochemical-properties')">&times;</span>
+            <h2 class="modal-title">Physicochemical Properties Calculator</h2>
+            <form class="tool-form">
+                <div class="form-group">
+                    <label for="properties-sequence">Enter Peptide Sequence</label>
+                    <textarea id="properties-sequence" class="form-control" placeholder="Enter amino acid sequence" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label>Properties to Calculate</label>
+                    <div>
+                        <input type="checkbox" id="calc-hydrophobicity" checked>
+                        <label for="calc-hydrophobicity">Hydrophobicity</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="calc-charge" checked>
+                        <label for="calc-charge">Net Charge</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="calc-pi" checked>
+                        <label for="calc-pi">Isoelectric Point</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="calc-molecular-weight" checked>
+                        <label for="calc-molecular-weight">Molecular Weight</label>
+                    </div>
+                </div>
+                <button type="submit" class="submit-btn">Calculate Properties</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- 模态窗口 - 结构可视化 -->
+    <div id="structure-visualization-modal" class="tool-modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeModal('structure-visualization')">&times;</span>
+            <h2 class="modal-title">Structure Visualization Tool</h2>
+            <form class="tool-form">
+                <div class="form-group">
+                    <label for="structure-sequence">Enter Peptide Sequence</label>
+                    <textarea id="structure-sequence" class="form-control" placeholder="Enter amino acid sequence for structure prediction" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="structure-method">Prediction Method</label>
+                    <select id="structure-method" class="form-control">
+                        <option value="alphafold">AlphaFold-based</option>
+                        <option value="rosetta">Rosetta</option>
+                        <option value="homology">Homology Modeling</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="visualization-type">Visualization Type</label>
+                    <select id="visualization-type" class="form-control">
+                        <option value="cartoon">Cartoon</option>
+                        <option value="surface">Surface</option>
+                        <option value="stick">Stick</option>
+                        <option value="sphere">Sphere</option>
+                    </select>
+                </div>
+                <button type="submit" class="submit-btn">Visualize Structure</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- 模态窗口 - 靶点预测 -->
+    <div id="target-prediction-modal" class="tool-modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeModal('target-prediction')">&times;</span>
+            <h2 class="modal-title">Target Prediction Tool</h2>
+            <form class="tool-form">
+                <div class="form-group">
+                    <label for="target-sequence">Enter Peptide Sequence</label>
+                    <textarea id="target-sequence" class="form-control" placeholder="Enter amino acid sequence" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="organism-type">Target Organism Type</label>
+                    <select id="organism-type" class="form-control">
+                        <option value="bacteria">Bacteria</option>
+                        <option value="fungi">Fungi</option>
+                        <option value="virus">Virus</option>
+                        <option value="all">All Microbes</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="prediction-confidence">Minimum Prediction Confidence</label>
+                    <select id="prediction-confidence" class="form-control">
+                        <option value="high">High (>80%)</option>
+                        <option value="medium" selected>Medium (>60%)</option>
+                        <option value="low">Low (>40%)</option>
+                    </select>
+                </div>
+                <button type="submit" class="submit-btn">Predict Targets</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        // 导航栏响应式控制
+        const navToggle = document.querySelector('.nav-toggle');
+        const navMenu = document.querySelector('.nav-menu');
+
+        if (navToggle) {
+            navToggle.addEventListener('click', () => {
+                navMenu.classList.toggle('active');
+            });
+        }
+
+        // 模态窗口控制
+        function openModal(toolId) {
+            const modal = document.getElementById(`${toolId}-modal`);
+            modal.classList.add('active'); // 使用类来控制显示和动画
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal(toolId) {
+            const modal = document.getElementById(`${toolId}-modal`);
+            modal.classList.remove('active'); // 移除类
+            document.body.style.overflow = 'auto';
+        }
+
+        // 点击模态窗口外部关闭
+        window.addEventListener('click', function(event) {
+            document.querySelectorAll('.tool-modal').forEach(modal => {
+                if (event.target === modal) {
+                    // 从 ID 中提取 toolId
+                    const toolId = modal.id.replace('-modal', '');
+                    closeModal(toolId);
+                }
+            });
+        });
+
+        // 范围滑块值实时显示
+        document.getElementById('similarity-threshold').addEventListener('input', function() {
+            document.querySelector('output[for="similarity-threshold"]').textContent = this.value + '%';
+        });
+
+        // 移动端横屏提示功能
+        initOrientationModal();
+    </script>
+</body>
+</html>

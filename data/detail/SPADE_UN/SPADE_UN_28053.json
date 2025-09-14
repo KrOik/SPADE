@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_28053": {
+        "Sequence Information": {
+            "Peptide Name": "Indolicidin [W4K,W6K,W8K,W9K,W11K]",
+            "Sequence": "ILPKKKPKKPKRR",
+            "Sequence Length": 13,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P33046",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P33046",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Structure-function relationships in the tryptophan-rich, antimicrobial peptide indolicidin.",
+                    "Pubmed ID": "11695650",
+                    "Reference": "J Pept Sci. 2001;7:552-564",
+                    "Author": "Staubitz P, Peschel A, Nieuwenhuizen WF, Otto M, Götz F, Jung G, Jack RW",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/11695650"
+                }
+            ],
+            "Mass": 1617.08,
+            "PI": 12.0,
+            "Net Charge": 8,
+            "Hydrophobicity": -2.22,
+            "Frequent Amino Acids": "KPR",
+            "Absent Amino Acids": "ACDEFGHMNOQSTUVWY",
+            "Basic Residues": 8,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 2,
+            "Polar Residues": 11,
+            "Positive Residues": 8,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_28053",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02700",
+                    "Similarity": 1.0,
+                    "Sequence": "VFIDILDKMENAIHKAAQAGIGLAKPIENMILPK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02701",
+                    "Similarity": 1.0,
+                    "Sequence": "VFIDILDKMENAIHKAAQAGIGIAKPIEKMILPK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07984",
+                    "Similarity": 1.0,
+                    "Sequence": "MKYFVVLVVLALILAITVDPSDAVFIDILDKMENAIHKAAQAGIGLAKPIENMILPK"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:100% Hemolysis=>1000 µM",
+            "Target Organism": "Micrococcus luteus ATCC 9341(MIC=>100µM)"
+        }
+    }
+}

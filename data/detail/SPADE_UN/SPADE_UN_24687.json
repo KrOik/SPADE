@@ -1,0 +1,66 @@
+{
+    "SPADE_UN_24687": {
+        "Sequence Information": {
+            "Peptide Name": "P4",
+            "Sequence": "RTKLWEMLVELGNMDKAVKLWRKLKR",
+            "Sequence Length": 26,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "Q76V07",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/Q76V07",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "New Antimicrobial Peptide with Two CRAC Motifs: Activity against Escherichia coli and Bacillus subtilis.",
+                    "Pubmed ID": "36013956",
+                    "Reference": "Microorganisms. 2022;10:1538",
+                    "Author": "Koksharova O, Safronova N, Dunina-Barkovskaya A",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/36013956"
+                }
+            ],
+            "Mass": 3242.95,
+            "PI": 10.55,
+            "Net Charge": 5,
+            "Hydrophobicity": -0.65,
+            "Frequent Amino Acids": "KLR",
+            "Absent Amino Acids": "CFHIOPQSUY",
+            "Basic Residues": 8,
+            "Acidic Residues": 3,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 16,
+            "Positive Residues": 8,
+            "Negative Residues": 3,
+            "SPADE ID": "SPADE_UN_24687",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_12054",
+                    "Similarity": 0.8333333333333334,
+                    "Sequence": "WRKLWRGGLKRWLK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_19633",
+                    "Similarity": 0.8333333333333334,
+                    "Sequence": "WRKLWRGGLKRWLK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_12055",
+                    "Similarity": 0.8,
+                    "Sequence": "GRKLWRKWLKRWLP"
+                }
+            ],
+            "Hemolytic Activity": "Murine macrophage cells IC-21:82% Cytotoxicity=50 µM",
+            "Target Organism": "Bacillus subtilis 168(IC50=0.07±0.01µM),Escherichia coli MC4100(IC50=1.9±0.4µM)"
+        }
+    }
+}

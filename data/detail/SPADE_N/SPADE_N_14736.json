@@ -1,0 +1,55 @@
+{
+    "SPADE_N_14736": {
+        "Sequence Information": {
+            "Peptide Name": "Pentaminomycin B",
+            "Sequence": "LVWXL",
+            "Sequence Length": 5,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anticancer"
+            ],
+            "Binding Target": "",
+            "Source": "1. Streptomyces cacaoi subsp. cacaoi",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Pentaminomycins A and B, Hydroxyarginine-Containing Cyclic Pentapeptides from Streptomyces sp. RK88-1441",
+                    "Pubmed ID": "29513529",
+                    "Reference": "J Nat Prod. 2018;81:806-810",
+                    "Author": "Jang JP, Hwang GJ, Kwon MC, Ryoo IJ, Jang M, Takahashi S, Ko SK",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/29513529"
+                },
+                {
+                    "Title": "Pentaminomycins F and G, Nonribosomal Peptides Containing 2-Pyridylalanine.",
+                    "Pubmed ID": "33793225",
+                    "Reference": "J Nat Prod. 2021;84:1127-1134",
+                    "Author": "Carretero-Molina D, Ortiz-López FJ, González-Martín J, Sánchez-Hidalgo M, Román-Hurtado F, Díaz C, de la Cruz M, Genilloud O, Reyes F",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/33793225"
+                }
+            ],
+            "SPADE ID": "SPADE_N_14736",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_02861",
+                    "Similarity": 1.0,
+                    "Sequence": "KNKRSQLVW"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_05538",
+                    "Similarity": 1.0,
+                    "Sequence": "AKKIKWLVW"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_13386",
+                    "Similarity": 1.0,
+                    "Sequence": "VWLVVV"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Human cervical carcinoma HeLa(IC50=>30µM),Mouse breast cancer 4T1(IC50=>30µM),Mouse skin melanoma B16-F10(IC50=>30µM),Acinetobacter baumannii(MIC=16-32µg/ml),Escherichia coli ATCC 25922(no activity data),Klebsiella pneumoniae ATCC 700603(no activity data),Pseudomonas aeruginosa(no activity data)"
+        }
+    }
+}

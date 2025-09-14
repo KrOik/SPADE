@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_26187": {
+        "Sequence Information": {
+            "Peptide Name": "PDZD2 (173-188)",
+            "Sequence": "LIMLRRFKHKAHSTYN",
+            "Sequence Length": 16,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Binding Target": "",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "O15018",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/O15018",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "The limits of prediction: Why intrinsically disordered regions challenge our understanding of antimicrobial peptides",
+                    "Pubmed ID": "38404711",
+                    "Reference": "Comput Struct Biotechnol J. 2024;23:972-981",
+                    "Author": "Bello-Madruga R, Torrent Burgas M",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/38404711"
+                }
+            ],
+            "Mass": 2015.39,
+            "PI": 11.1,
+            "Net Charge": 6,
+            "Hydrophobicity": -0.68,
+            "Frequent Amino Acids": "HKL",
+            "Absent Amino Acids": "CDEGOPQUVW",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 10,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_26187",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_07067",
+                    "Similarity": 1.0,
+                    "Sequence": "MAKTLKFSYPMILFIFLFLVAYKIEALTKCETDANCPEISIFSPFFYKCINNGCVLIML"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_07519",
+                    "Similarity": 1.0,
+                    "Sequence": "LTKCETDANCPEISIFSPFFYKCINNGCVLIML"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_26840",
+                    "Similarity": 0.6666666666666666,
+                    "Sequence": "ILKPFMLRR"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Escherichia coli BW25113(MIC=>100µM),Pseudomonas aeruginosa ATCC 15692(MIC=>100µM),Staphylococcus aureus ATCC 12600(MIC=>100µM),Micrococcus luteus ATCC 15307(MIC=>100µM)"
+        }
+    }
+}

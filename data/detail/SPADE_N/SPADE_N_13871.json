@@ -1,0 +1,70 @@
+{
+    "SPADE_N_13871": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_13871",
+            "Peptide Name": "P9  (synthetic AMPs20, fragment of CXCL10, UCLL1; derivative: stapled peptides)",
+            "Source": "Sequence truncation, animal-derived, natural derivative",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "PESKAIKNLLKAVSKERSKRSP",
+            "Sequence Length": 22,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Not found",
+            "Hemolytic Activity": "Not found",
+            "Cytotoxicity": "Not found",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "Not found",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 2466.88,
+            "PI": 10.57,
+            "Hydrophobicity": -1.16,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Crawford MA, Ward AE, Gray V, Bailer P, Fisher DJ, Kubicka E, Cui Z, Luo Q, Gray MC, Criss AK, Lum LG, Tamm LK, Letteri RA, Hughes MA. 2022",
+                    "Reference": "ACS Infect Dis. 2022 Dec 7. doi: 10.1021/acsinfecdis.2c00456.PubMed",
+                    "Title": "Disparate Regions of the Human Chemokine CXCL10 Exhibit Broad-Spectrum Antimicrobial Activity against Biodefense and Antibiotic-Resistant Bacterial Pathogens."
+                }
+            ],
+            "Frequent Amino Acids": "KSA",
+            "Absent Amino Acids": "CDFGHMOQTUWY",
+            "Basic Residues": 7,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 15,
+            "Positive Residues": 7,
+            "Negative Residues": 2,
+            "Net Charge": 5,
+            "Comments": "Sequence analysis: APD analysis reveals this sequence is most similar (39.29%) tofrog Caerin 2.6A peptide corresponding to the helical region of human CXCL10 (see AP02080). K: 23%; S: 18%. GRAVY: -1.159; M Wt: 2466.894; Mol formula: C107H193N33O32; Mol ex coeff: 0.Activity: alamarBlue analysis: P9 reduced the viability of A. baumannii, P. aeruginosa, E. cloacae, S. typhi, N. gonorrhoeae strains FA1090 and H041, E. coli clinical isolate FI-4531 that expresses mcr-1, colistin-resistant K. pneumoniae clinical isolates, E. faecium, but not S.aureus at 5.6 uM in Kph buffer + 1% TSB (low salt media). This activity is lost against in RPMI medium even at 50 uM. Salt-sensitive (RPMI with physiological levels of salts).Structure: it is ramdom in Kph buffer-only but became helical in 50% TFE or in liposomes that mimic bacterial membranes.Peptide engineering:in some instances (e.g., S. flexneri, K. pneumoniae MS84) the pre-stapled variant outperformed stapled P9.Toxicity:  at bactericidal concnetration (50 uM), the peptide was not toxic to hRBC. With and without stapling, P9 is toxic to T cells (45 and 75% killing). Irrespective of the culture medium, the pre-stapled variant exerted significantly more cytotoxicity than stapled peptide P9. Updated 5/2024",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03117",
+                    "Similarity": 1.0,
+                    "Sequence": "VPLSRTVRCTCISISNQPVNPRSLEKLEIIPASQFCPRVEIIATMKKKGEKRCLNPESKAIKNLLKAVSKERSKRSP"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_04560",
+                    "Similarity": 0.6,
+                    "Sequence": "SWKSFLKTFSKAKKKALKTLLKAISK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_04561",
+                    "Similarity": 0.6,
+                    "Sequence": "KWKSFLKTFSKAKKKALKTLLKAISK"
+                }
+            ]
+        }
+    }
+}

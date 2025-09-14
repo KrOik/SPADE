@@ -1,0 +1,67 @@
+{
+    "SPADE_UN_21966": {
+        "Sequence Information": {
+            "Peptide Name": "Pug-2",
+            "Sequence": "GAVGSVV",
+            "Sequence Length": 7,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Mammalian Cell",
+                "Antibiofilm"
+            ],
+            "Binding Target": "",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "A Novel Non-Cytotoxic Synthetic Peptide, Pug-1, Exhibited an Antibiofilm Effect on Streptococcus Mutans Adhesion.",
+                    "Pubmed ID": "31837275",
+                    "Reference": "Lett Appl Microbiol. 2019;:",
+                    "Author": "Kokilakanit P, Koontongkaew S, Roytrakul S, Utispan K",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/31837275"
+                },
+                {
+                    "Title": "Assessment of in vitro activities of novel modified antimicrobial peptides against clarithromycin resistant Mycobacterium abscessus.",
+                    "Pubmed ID": "34780520",
+                    "Reference": "PLoS One. 2021;16:e0260003",
+                    "Author": "Sudadech P, Roytrakul S, Kaewprasert O, Sirichoat A, Chetchotisakd P, Kanthawong S, Faksri K",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/34780520"
+                }
+            ],
+            "Mass": 587.67,
+            "PI": 5.53,
+            "Net Charge": 0,
+            "Hydrophobicity": 1.83,
+            "Frequent Amino Acids": "VGA",
+            "Absent Amino Acids": "CDEFHIKLMNOPQRTUWY",
+            "Basic Residues": 0,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 4,
+            "Polar Residues": 3,
+            "Positive Residues": 0,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_21966",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00126",
+                    "Similarity": 1.0,
+                    "Sequence": "DKQAADTFLSAVGGAASGFTYCASNGVWHPYILAGCAGVGAVGSVVFPH"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_04109",
+                    "Similarity": 1.0,
+                    "Sequence": "LYLGAV"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_13524",
+                    "Similarity": 1.0,
+                    "Sequence": "SVVNIQKEIDRLNEVAKNLNESLIDLQELGK"
+                }
+            ],
+            "Hemolytic Activity": "Human keratinocytes HaCat:25% Killing=3.125 µg/ml,Human keratinocytes HaCat:35% Killing=200 µg/ml",
+            "Target Organism": "Streptococcus mutans ATCC 25175(MIC50=>200µg/ml),Streptococcus mutans DMST 41283(MIC50=>200µg/ml),Mycobacterium abscessus ATCC 19977(MIC=>400µg/ml)"
+        }
+    }
+}

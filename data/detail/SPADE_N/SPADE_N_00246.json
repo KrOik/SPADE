@@ -1,0 +1,74 @@
+{
+    "SPADE_N_00246": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00246",
+            "Peptide Name": "Defensin-like protein 21 (SI alpha-2.1; Plant defensin)",
+            "Source": "Sorghum bicolor (Sorghum) (Sorghum vulgare)",
+            "Family": "Belongs to the DEFL family",
+            "Gene": "Not found",
+            "Sequence": "RVCRRRSAGFKGLCMSDHNCAQVCLQEGWGGGNCDGVMRQCKCIRQC",
+            "Sequence Length": 47,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q09198"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antifungal"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C208H344N76O62S10",
+            "Mass": 5222.08,
+            "PI": 8.97,
+            "Net Charge": 6,
+            "Hydrophobicity": -0.42,
+            "Half Life": "Mammalian:1 hourYeast:2 minE.coli:2 min",
+            "Function": "Has antifungal activity (By similarity).",
+            "PTM": "Contains four disulfide bonds 3-47; 14-34; 20-41; 24-43.",
+            "Literature": [
+                {
+                    "Title": "Amino acid sequence and disulphide-bridge pattern of three gamma-thionins from Sorghum bicolor.",
+                    "Pubmed ID": "7705336",
+                    "Reference": "Eur J Biochem. 1995 Mar 1;228(2)250-256.",
+                    "Author": "Nitti G, Orrù S, Bloch C Jr, Morhy L, Marino G, Pucci P.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=7705336"
+                }
+            ],
+            "Frequent Amino Acids": "CGR",
+            "Absent Amino Acids": "OPTUY",
+            "Basic Residues": 9,
+            "Acidic Residues": 3,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 30,
+            "Positive Residues": 9,
+            "Negative Residues": 3,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00245",
+                    "Similarity": 0.9787234042553191,
+                    "Sequence": "RVCRRRSAGFKGLCMSDHNCAQVCLQEGWGGGNCDGVIRQCKCIRQC"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_00024",
+                    "Similarity": 0.9361702127659575,
+                    "Sequence": "RVCRRRSAGFKGVCMSDHNCAQVCLQEGYGGGNCDGIMRQCKCIRQC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00244",
+                    "Similarity": 0.8936170212765957,
+                    "Sequence": "RVCMGKSAGFKGLCMRDQNCAQVCLQEGWGGGNCDGVMRQCKCIRQCW"
+                }
+            ]
+        }
+    }
+}

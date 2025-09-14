@@ -1,0 +1,73 @@
+{
+    "SPADE_N_00869": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00869",
+            "Peptide Name": "Cyclotide vico-B (Plant defensin)",
+            "Source": "Viola cotyledon (Violeta)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "GSIPCAESCVYIPCITGIAGCSCKNKVCYYN",
+            "Sequence Length": 31,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P84636"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C139H219N35O43S6",
+            "Mass": 3260.82,
+            "PI": 7.76,
+            "Net Charge": 1,
+            "Hydrophobicity": 0.49,
+            "Half Life": "Mammalian:30 hourYeast:>20 hourE.coli:>10 hour",
+            "Function": "Probably participates in a plant defense mechanism.",
+            "PTM": "Problely contains three disulfide bonds 5-21; 9-23; 14-28. This is a cyclic peptide (cross-link at G1-N31).",
+            "Literature": [
+                {
+                    "Title": "Expression of Viola cyclotides by liquid chromatography-mass spectrometry and tandem mass spectrometry sequencing of intercysteine loops after introduction of charges and cleavage sites by aminoethylation.",
+                    "Pubmed ID": "12782038",
+                    "Reference": "Anal Biochem. 2003 Jul 1;318(1)107-117.",
+                    "Author": "Göransson U, Broussalis AM, Claeson P.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=12782038"
+                }
+            ],
+            "Frequent Amino Acids": "CIG",
+            "Absent Amino Acids": "DFHLMOQRUW",
+            "Basic Residues": 2,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 13,
+            "Polar Residues": 21,
+            "Positive Residues": 2,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00868",
+                    "Similarity": 0.967741935483871,
+                    "Sequence": "GSIPCAESCVYIPCFTGIAGCSCKNKVCYYN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00828",
+                    "Similarity": 0.8709677419354839,
+                    "Sequence": "GSVPCGESCVYIPCFTGIAGCSCKSKVCYYN"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00840",
+                    "Similarity": 0.8695652173913043,
+                    "Sequence": "CVWIPCISGIAGCSCKNKVCYLN"
+                }
+            ]
+        }
+    }
+}

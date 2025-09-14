@@ -1,0 +1,67 @@
+{
+    "SPADE_UN_20299": {
+        "Sequence Information": {
+            "Peptide Name": "BHV12L-Bombinin (104-121) [L2l], Bombinin HD",
+            "Sequence": "LLGPVLGLVSNVLGGLL",
+            "Sequence Length": 17,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "A0A1M4NFQ7",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/A0A1M4NFQ7",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "The synergistic antimicrobial effects of novel bombinin and bombinin H peptides from the skin secretion of Bombina orientalis",
+                    "Pubmed ID": "28894024",
+                    "Reference": "Biosci Rep. 2017;37:",
+                    "Author": "Xiang J, Zhou M, Wu Y, Chen T, Shaw C, Wang L",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/28894024"
+                }
+            ],
+            "Mass": 1634.01,
+            "PI": 5.53,
+            "Net Charge": 0,
+            "Hydrophobicity": 1.86,
+            "Frequent Amino Acids": "LGV",
+            "Absent Amino Acids": "ACDEFHIKMOQRTUWY",
+            "Basic Residues": 0,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 7,
+            "Positive Residues": 0,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_20299",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_20299",
+                    "Similarity": 1.0,
+                    "Sequence": "LLGPVLGLVSNVLGGLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_18985",
+                    "Similarity": 1.0,
+                    "Sequence": "VLGGLLKKLLKKLLKKL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01069",
+                    "Similarity": 0.9411764705882353,
+                    "Sequence": "LLGPVLGLVSNALGGLLKNI"
+                }
+            ],
+            "Hemolytic Activity": "Horse erythrocytes:50% hemolysis=>512 µg/ml,Human microvascular endothelial cells HMEC-1:50% Cell death=104.23±0.24 µg/ml",
+            "Target Organism": "Staphylococcus aureus NCTC 10788(MIC=128µg/ml),Staphylococcus aureus ATCC 12493(no activity data),Escherichia coli NCTC 10418(no activity data),Pseudomonas aeruginosa ATCC 27853(no activity data),Candida albicans NCPF 1467(no activity data)"
+        }
+    }
+}

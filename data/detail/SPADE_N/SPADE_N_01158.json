@@ -1,0 +1,75 @@
+{
+    "SPADE_N_01158": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_01158",
+            "Peptide Name": "Japonicin-1 (Frogs, amphibians, animals)",
+            "Source": "Rana japonica (Japanese brown frog)",
+            "Family": "Belongs to the frog skin active peptide family (Brevinin subfamily)",
+            "Gene": "Not found",
+            "Sequence": "FFPIGVFCKIFKTC",
+            "Sequence Length": 14,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P83305"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-negative bacterium:Escherichia coli (MIC=30 µM);Gram-positive bacterium:Staphylococcus aureus (MIC>100 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Cyclization (Cys8 and Cys14)",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C82H120N16O16S2",
+            "Mass": 1650.06,
+            "PI": 8.9,
+            "Net Charge": 2,
+            "Hydrophobicity": 1.35,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Tissue specificity": "Expressed by the skin dorsal glands.",
+            "Literature": [
+                {
+                    "Title": "Antimicrobial peptides with atypical structural features from the skin of the Japanese brown frog Rana japonica.",
+                    "Pubmed ID": "11835990",
+                    "Reference": "Peptides. 2002;23419-425",
+                    "Author": "Isaacson T, Soto A, Iwamuro S, Knoop FC, Conlon JM.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=11835990"
+                }
+            ],
+            "Frequent Amino Acids": "FCI",
+            "Absent Amino Acids": "ADEHLMNOQRSUWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 8,
+            "Polar Residues": 6,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07500",
+                    "Similarity": 0.8,
+                    "Sequence": "LSGRVLFPLSCIGSSGFCFPFRCPHNREEIGRCFFPIQ"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07194",
+                    "Similarity": 0.75,
+                    "Sequence": "GVFPI"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_01670",
+                    "Similarity": 0.7142857142857143,
+                    "Sequence": "FFPIIAGMAAKLIPSLFCKITKKC"
+                }
+            ]
+        }
+    }
+}

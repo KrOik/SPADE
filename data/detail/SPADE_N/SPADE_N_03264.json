@@ -1,0 +1,78 @@
+{
+    "SPADE_N_03264": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03264",
+            "Peptide Name": "Non-disulfide-bridged peptide 5.6 (NDBP-5.6; Arthropods, animals)",
+            "Source": "Hadrurus gertschi (Scorpion)",
+            "Family": "Belongs to the scorpion NDBP 5 family",
+            "Gene": "Not found",
+            "Sequence": "FIFDLLKKLV",
+            "Sequence Length": 10,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P0C8W2"
+            ],
+            "Protein Existence": "Transcript level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "[Ref.17506894]Weak hemolytic activity against sheep red blood cells",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Cell membrane",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C63H102N12O13",
+            "Mass": 1235.56,
+            "PI": 8.59,
+            "Net Charge": 1,
+            "Hydrophobicity": 1.44,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Function": "Has weak hemolytic activity.",
+            "Literature": [
+                {
+                    "Title": "Transcriptome analysis of the venom gland of the Mexican scorpion Hadrurus gertschi (Arachnida Scorpiones).",
+                    "Pubmed ID": "17506894",
+                    "Reference": "BMC Genomics. 2007 May 16;8119.",
+                    "Author": "Schwartz E.F, Diego-Garcia E, Rodriguez de la Vega R.C, Possani L.D.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=17506894"
+                },
+                {
+                    "Title": "Transcriptome analysis of the venom gland of the Mexican scorpion Hadrurus gertschi (Arachnida: Scorpiones).",
+                    "Pubmed ID": "R2007J1500",
+                    "Author": "Possani L.D.,Rodriguez de la Vega R.C.,Diego-Garcia E.,Schwartz E.F."
+                }
+            ],
+            "Frequent Amino Acids": "LFK",
+            "Absent Amino Acids": "ACEGHMNOPQRSTUWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 3,
+            "Positive Residues": 2,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_04093",
+                    "Similarity": 1.0,
+                    "Sequence": "FKHKFKHKFIF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11495",
+                    "Similarity": 1.0,
+                    "Sequence": "LLK"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_30797",
+                    "Similarity": 1.0,
+                    "Sequence": "LLK"
+                }
+            ]
+        }
+    }
+}

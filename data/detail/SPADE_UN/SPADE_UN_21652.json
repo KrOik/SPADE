@@ -1,0 +1,67 @@
+{
+    "SPADE_UN_21652": {
+        "Sequence Information": {
+            "Peptide Name": "IsCT [I1W]",
+            "Sequence": "WLGKIWEGIKSLF",
+            "Sequence Length": 13,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Antifungal",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "Q8MMJ7",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/Q8MMJ7",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "IsCT-based Analogs Intending Better Biological Activity",
+                    "Pubmed ID": "31642159",
+                    "Reference": "J Pept Sci. 2019;:e3219",
+                    "Author": "Acevedo ICC, Silva Jr PI, Silva FD, Araujo I, Alves FL, Oliveira CS, Oliveira Jr VX",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/31642159"
+                }
+            ],
+            "Mass": 1576.88,
+            "PI": 8.59,
+            "Net Charge": 1,
+            "Hydrophobicity": 0.36,
+            "Frequent Amino Acids": "GIK",
+            "Absent Amino Acids": "ACDHMNOPQRTUVY",
+            "Basic Residues": 2,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 8,
+            "Positive Residues": 2,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_UN_21652",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_03259",
+                    "Similarity": 0.9230769230769231,
+                    "Sequence": "ILGKIWEGIKSLF"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15602",
+                    "Similarity": 0.9090909090909091,
+                    "Sequence": "ILGKIWEGIKS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_11303",
+                    "Similarity": 0.8571428571428571,
+                    "Sequence": "MGAIIKAGAKIVGKGVLGGGASWLGWNVGEKIWK"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:0% Hemolysis=1.56 µM,Human erythrocytes:95% Hemolysis=100 µM",
+            "Target Organism": "Escherichia coli SBS 363(MIC=1.56µM),Enterobacter cloacae beta-12(MIC=12.5µM),Pseudomonas aeruginosa NCIB 10421(MIC=12.5µM),Serratia marcescens ATCC 4112(MIC=0.78µM),Bacillus megaterium ATCC 10778(MIC=0.78µM),Bacillus subtilis ATCC 6633(MIC=0.78µM),Micrococcus luteus A270(MIC=0.78µM),Staphylococcus aureus ATCC 29213(MIC=1.6µM),Candida albicans MDM8(MIC=3.13µM),Candida tropicalis IOC 4560(MIC=1.56µM)"
+        }
+    }
+}

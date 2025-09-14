@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_26466": {
+        "Sequence Information": {
+            "Peptide Name": "DeNo1047",
+            "Sequence": "ALPSIIKGLLKKL",
+            "Sequence Length": 13,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "De novo synthetic antimicrobial peptide design with a recurrent neural network",
+                    "Pubmed ID": "38988311",
+                    "Reference": "Protein Sci. 2024;33:e5088",
+                    "Author": "Li C, Sutherland D, Richter A, Coombe L, Yanai A, Warren RL, Kotkoff M, Hof F, Hoang LMN, Helbing CC, Birol I",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/38988311"
+                }
+            ],
+            "Mass": 1393.8,
+            "PI": 10.3,
+            "Net Charge": 3,
+            "Hydrophobicity": 0.88,
+            "Frequent Amino Acids": "LKI",
+            "Absent Amino Acids": "CDEFHMNOQRTUVWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 6,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_26466",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02677",
+                    "Similarity": 1.0,
+                    "Sequence": "SIGSAFKKALPVAKKIGKAALPIAKAALP"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_24914",
+                    "Similarity": 1.0,
+                    "Sequence": "LKKLWKRIIKVGR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_13498",
+                    "Similarity": 1.0,
+                    "Sequence": "GLLKKLLKIAAKVGKKLL"
+                }
+            ],
+            "Hemolytic Activity": "Pig erythrocytes:50% Hemolysis=>128 µg/ml",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=>=128µg/ml),Escherichia coli ATCC 25922(MBC=>=128µg/ml),Staphylococcus aureus ATCC 29213(MIC=>128µg/ml),Staphylococcus aureus ATCC 29213(MBC=>128µg/ml)"
+        }
+    }
+}

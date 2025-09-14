@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_12168": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_12168",
+            "Peptide Name": "Val-nHSLP",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "WWVXARAXRR",
+            "Sequence Length": 10,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic form",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "[Ref.28073163] Gram-positive bacteria:Bacillus megaterium ATCC 14581 (IC50 = 2.25 μM, MIC = 5.00 μM), Staphylococcus aureus ATCC 6538 (IC50 = 0.63 μM, MIC = 10.0 μM), Enterococcus faecalis ATCC 29212 (IC50 = 0.66 μM, MIC = 5.00 μM);Gram-negative bacteria:Escherichia coli ATCC 700926 (IC50 = 38.3 μM, MIC > 20 μM);Fungi:Candida albicans 002 ATCC 64385 (IC50 > 20 μM, MIC > 20 μM), C. albicans 004 ATCC MYA-2876 (IC50 > 20 μM, MIC > 20 μM).",
+            "Hemolytic Activity": "[Ref.28073163] HC50 = 13.4 μM against human red blood cells. Note:HC50 is the half-maximal hemolytic concentration.",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Linear",
+            "N-terminal Modification": "Acylation (Valerylamide)",
+            "C-terminal Modification": "Amidation",
+            "Stereochemistry": "L",
+            "Structure Description": "Overall, the peptides showed some β-strand secondary structural characteristics and little α-helical content.",
+            "Formula": "C₆₅H₁₀₃N₂₁O₁₁",
+            "Mass": 1354.62,
+            "PI": 12.3,
+            "Net Charge": 3,
+            "Hydrophobicity": -0.75,
+            "Half Life": "Mammalian:2.8 hourYeast:3 minE.coli:2 min",
+            "Function": "Antibacterial activity against Gram-positive and Gram-negative bacteria. Antifungal activity against Candida albicans is not noteable under 20 μM.",
+            "Literature": [
+                {
+                    "Title": "Hydrocarbon-stapled lipopeptides exhibit selective antimicrobial activity",
+                    "Pubmed ID": "28073163",
+                    "Reference": "Biopolymers. 2017 May;108(3). doi 10.1002/bip.23006.",
+                    "Author": "Zachary B Jenner, Christopher M Crittenden, Martín Gonzalez, Jennifer S Brodbelt, Kerry A Bruns",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=28073163"
+                }
+            ],
+            "Frequent Amino Acids": "RAW",
+            "Absent Amino Acids": "CDEFGHIKLMNOPQSTUY",
+            "Basic Residues": 3,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 5,
+            "Polar Residues": 6,
+            "Positive Residues": 3,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_13088",
+                    "Similarity": 1.0,
+                    "Sequence": "AAAALSRWWLRWWVA"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_13688",
+                    "Similarity": 1.0,
+                    "Sequence": "RRRWWWWV"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_03035",
+                    "Similarity": 1.0,
+                    "Sequence": "KPQTRNWWV"
+                }
+            ]
+        }
+    }
+}

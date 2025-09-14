@@ -1,0 +1,73 @@
+{
+    "SPADE_UN_00336": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_00336",
+            "Peptide Name": "LFB A5 (derivative of LFB, residue substitution with alanine at position 5)",
+            "Source": "Synthetic construct",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "FKCRAWQWRMKKLGA",
+            "Sequence Length": 15,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-negative bacterium:Escherichia coli (MIC=61 µM);Gram-positive bacterium:Staphylococcus aureus (MIC>100 µM).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C88H137N27O17S2",
+            "Mass": 1909.33,
+            "PI": 11.11,
+            "Net Charge": 5,
+            "Hydrophobicity": -0.79,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:2 min",
+            "Function": "Has antibacterial activity against the Gram-positive bacterium S. aureus and the Gram-negative bacteria E. coli.",
+            "Literature": [
+                {
+                    "Title": "Antibacterial activity of 15-residue lactoferricin derivatives",
+                    "Pubmed ID": "11095180",
+                    "Reference": "J Pept Res. 2000 Nov;56(5)265-274.",
+                    "Author": "StrÃ¸m MB, Rekdal O, Svendsen JS.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=11095180"
+                }
+            ],
+            "Frequent Amino Acids": "KAR",
+            "Absent Amino Acids": "DEHINOPSTUVY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 7,
+            "Polar Residues": 9,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07625",
+                    "Similarity": 1.0,
+                    "Sequence": "WQWRMKKLGAPCISCLRRAFALESIRAIPEKKADAVTLDDAMVFEAGRGCLRLRPVAAEMYGTKECIQS"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_07564",
+                    "Similarity": 1.0,
+                    "Sequence": "WQWR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_00272",
+                    "Similarity": 1.0,
+                    "Sequence": "KKLGAPSITCVRRAFA"
+                }
+            ]
+        }
+    }
+}

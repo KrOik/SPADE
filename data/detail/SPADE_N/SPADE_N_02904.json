@@ -1,0 +1,81 @@
+{
+    "SPADE_N_02904": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02904",
+            "Peptide Name": "Alpha-defensin cryptdin-16 (Defensin-related cryptdin-16; Rodents, mammals, animals)",
+            "Source": "Mus musculus (Mouse)",
+            "Family": "Belongs to the alpha-defensin family",
+            "Gene": "Defa16",
+            "Sequence": "LRDLVCYCRSRGCKGRERMNGTCRKGHLMYTLCCR",
+            "Sequence Length": 35,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P50714"
+            ],
+            "Protein Existence": "Transcript level",
+            "Biological Activity": [
+                "Antimicrobial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "No cytotoxicity information found in the reference(s) presented",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Cyclic",
+            "N-terminal Modification": "Free",
+            "C-terminal Modification": "Free",
+            "Stereochemistry": "L",
+            "Structure Description": "Not found",
+            "Formula": "C167H285N61O46S8",
+            "Mass": 4139.95,
+            "PI": 9.61,
+            "Net Charge": 8,
+            "Hydrophobicity": -0.61,
+            "Half Life": "Mammalian:5.5 hourYeast:3 minE.coli:2 min",
+            "Function": "Probably contributes to the antimicrobial barrier Function",
+            "Tissue specificity": "Paneth cells of the small bowel.",
+            "PTM": "Contains three disulfide bonds (By similarity).",
+            "Literature": [
+                {
+                    "Title": "Mouse Paneth cell defensins primary structures and antibacterial activities of numerous cryptdin isoforms.",
+                    "Pubmed ID": "7927786",
+                    "Reference": "Genomics. 1994;19448-453.",
+                    "Author": "Ouellette AJ, Hsieh MM, Nosek MT, Cano-Gauci DF, Huttner KM, Buick RN, Selsted ME.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=7927786"
+                },
+                {
+                    "Title": "Structure and diversity of the murine cryptdin gene family.",
+                    "Pubmed ID": "8188287",
+                    "Reference": "Infect Immun. 1994 Nov;62(11)5040-5047.",
+                    "Author": "Huttner KM, Selsted ME, Ouellette AJ.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=8188287"
+                }
+            ],
+            "Frequent Amino Acids": "RCG",
+            "Absent Amino Acids": "AFIOPQUW",
+            "Basic Residues": 10,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 9,
+            "Polar Residues": 23,
+            "Positive Residues": 10,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07972",
+                    "Similarity": 1.0,
+                    "Sequence": "MKTLILLSALVLLAFQVQADPIQNTDEETKTEEQPGEEDQAVSVSFGDPEGTSLQEESLRDLVCYCRSRGCKGRERMNGTCRKGHLMYTLCCR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02890",
+                    "Similarity": 0.9714285714285714,
+                    "Sequence": "LRDLVCYCRSRGCKGRERMNGTCRKGHLLYTLCCR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07954",
+                    "Similarity": 0.9714285714285714,
+                    "Sequence": "MKKLVLLFALVLLGFQVQADSIQNTDEETKTEEQPGEEDQAVSVSFGDPEGTSLQEESLRDLVCYCRSRGCKGRERMNGTCRKGHLLYTLCCR"
+                }
+            ]
+        }
+    }
+}

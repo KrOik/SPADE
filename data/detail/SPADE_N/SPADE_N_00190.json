@@ -1,0 +1,76 @@
+{
+    "SPADE_N_00190": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00190",
+            "Peptide Name": "Bacteriocin plantarican ASM1 (PASM1; Bacteriocin)",
+            "Source": "Lactobacillus plantarum A-1 (Gram-positive bacteria)",
+            "Family": "Not found",
+            "Gene": "bactA1",
+            "Sequence": "KPAWCWYTLAMCGAGYDSGTCDYMYSHCFGVKHSSGGGGSYHC",
+            "Sequence Length": 43,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/C7G1H4"
+            ],
+            "Protein Existence": "Protein level",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+"
+            ],
+            "Target Organism": "Gram-positive bacteria:Lactobacillus plantarum, L. pentosus, L. curvatus, L. lindneri, Leuconostoc mesenteroides and Enterococcus faecalis.",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C203H279N53O60S7",
+            "Mass": 4646.16,
+            "PI": 6.97,
+            "Net Charge": 3,
+            "Hydrophobicity": -0.24,
+            "Half Life": "Mammalian:1.3 hourYeast:3 minE.coli:2 min",
+            "Function": "Bacteriocin with a narrow antibacterial spectrum. Has Antibacterial activity.",
+            "Biophysicochemical properties": "pH dependence (Stable from pH 5.5-8.5); Temperature dependence (Thermostable, activity is retained after incubation at 90degrees Celsius for 15 minutes).",
+            "PTM": "Contains two disulfide bonds.",
+            "Literature": [
+                {
+                    "Title": "Isolation and characterization of plantaricin ASM1 a new bacteriocin produced by Lactobacillus plantarum A-1.",
+                    "Pubmed ID": "19939484",
+                    "Reference": "Int J Food Microbiol. 2010 Jan 31;137(1)94-99.",
+                    "Author": "Hata T, Tanaka R, Ohmomo S.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=19939484"
+                }
+            ],
+            "Frequent Amino Acids": "GCS",
+            "Absent Amino Acids": "EINOQRU",
+            "Basic Residues": 5,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 16,
+            "Polar Residues": 26,
+            "Positive Residues": 5,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_06126",
+                    "Similarity": 1.0,
+                    "Sequence": "MSKLVKTLTVDEISKIQTNGGKPAWCWYTLAMCGAGYDSGTCDYMYSHCFGVKHSSGGGGSYHC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_15399",
+                    "Similarity": 1.0,
+                    "Sequence": "KPAWCWYTLAMCGAGYDGTCDYMYSHCFGVKHSSGGGGSYH"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00208",
+                    "Similarity": 0.8837209302325582,
+                    "Sequence": "KPAWCWYTLAMCGAGYDSGTCDYMYSHCFGIKHHSSGSSSYHC"
+                }
+            ]
+        }
+    }
+}

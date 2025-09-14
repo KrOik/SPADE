@@ -1,0 +1,81 @@
+{
+    "SPADE_N_00518": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_00518",
+            "Peptide Name": "Putative defensin-like protein 120 (Protein LCR56; Plant defensin)",
+            "Source": "Arabidopsis thaliana (Mouse-ear cress)",
+            "Family": "Belongs to the DEFL family",
+            "Gene": "LCR56",
+            "Sequence": "QEMCHDLIKKTDCDDATCVTLCKQKWNGNGGGSCFQIVNLKSCLCAFPCQV",
+            "Sequence Length": 51,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P82770"
+            ],
+            "Protein Existence": "Homology",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antifungal"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C235H376N66O74S9",
+            "Mass": 5598.48,
+            "PI": 6.69,
+            "Net Charge": 1,
+            "Hydrophobicity": -0.09,
+            "Half Life": "Mammalian:0.8 hourYeast:10 minE.coli:>10 hour",
+            "Function": "Defense response to fungus.",
+            "PTM": "Contains four disulfide bonds (By similarity).",
+            "Literature": [
+                {
+                    "Title": "Two large Arabidopsis thaliana gene families are homologous to the Brassica gene superfamily that encodes pollen coat proteins and the male component of the self-incompatibility response.",
+                    "Pubmed ID": "11437247",
+                    "Reference": "Plant Mol Biol. 2001 May;46(1)17-34.",
+                    "Author": "Vanoosthuyse V, Miege C, Dumas C, Cock JM.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=11437247"
+                },
+                {
+                    "Title": "Genome organization of more than 300 defensin-like genes in Arabidopsis.",
+                    "Pubmed ID": "15955924",
+                    "Reference": "Plant Physiol. 2005 Jun;138(2)600-610.",
+                    "Author": "Silverstein KA, Graham MA, Paape TD, VandenBosch KA.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=15955924"
+                }
+            ],
+            "Frequent Amino Acids": "CKD",
+            "Absent Amino Acids": "ORUY",
+            "Basic Residues": 6,
+            "Acidic Residues": 5,
+            "Hydrophobic Residues": 16,
+            "Polar Residues": 31,
+            "Positive Residues": 6,
+            "Negative Residues": 5,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_00519",
+                    "Similarity": 0.7,
+                    "Sequence": "QETCHDLIMKRDCDEATCVNMCQQKWKGSGGSCFQNFNVMSCICNFPCQV"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00517",
+                    "Similarity": 0.673469387755102,
+                    "Sequence": "QEMCRDLLMRAKNCDDSTCATLCKQKWKGNGSCFPNVYRKSCLCTFPCKT"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_00516",
+                    "Similarity": 0.6530612244897959,
+                    "Sequence": "QEMCRDILMKAKNCDEGTCDTLCKQKWKGNGSCFPNVYTYRKSCLCTFPCKT"
+                }
+            ]
+        }
+    }
+}

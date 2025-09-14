@@ -1,0 +1,48 @@
+{
+    "SPADE_UN_29010": {
+        "Sequence Information": {
+            "Peptide Name": "",
+            "Sequence": "FXXKXXFXXKKKKK",
+            "Sequence Length": 14,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "De novo design of selective antibiotic peptides by incorporation of unnatural amino acids.",
+                    "Pubmed ID": "17547385",
+                    "Reference": "J Med Chem. 2007;50:3026-2036",
+                    "Author": "Hicks RP, Bhonsle JB, Venugopal D, Koser BW, Magill AJ",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/17547385"
+                }
+            ],
+            "SPADE ID": "SPADE_UN_29010",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_10086",
+                    "Similarity": 1.0,
+                    "Sequence": "FKFKKKKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10106",
+                    "Similarity": 1.0,
+                    "Sequence": "FKFKKKKKKK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10108",
+                    "Similarity": 1.0,
+                    "Sequence": "FKFKKKKKK"
+                }
+            ],
+            "Hemolytic Activity": "Human erythrocytes:50% Hemolysis=25 µM,Human erythrocytes:87% Hemolysis=100 µM",
+            "Target Organism": "Salmonella enterica subsp. enterica serovar Typhimurium ATCC 13311(MIC=22µg/ml),Staphylococcus aureus ATCC 33592(MIC=6.6µg/ml),Mycobacterium fortuitum ATCC 110(MIC=66µg/ml),Bacillus subtilis ATCC 43223(MIC=2.2µg/ml)"
+        }
+    }
+}

@@ -1,0 +1,70 @@
+{
+    "SPADE_N_13485": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_13485",
+            "Peptide Name": "Bombinin H3 (XXD, XXA; natural AMPs; UCLL1c; toad, amphibians, animals)",
+            "Source": "Bombina variegata, Europe",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "ILGPVLGMVGSALGGLLKKI",
+            "Sequence Length": 20,
+            "UniProt Entry": "Ref",
+            "Protein Existence": "Not found",
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Hemolytic"
+            ],
+            "Target Organism": "Active against E. coli D21(LC 3.7 uM) and S. aureus Cowan 1 (LC 2.4 uM).",
+            "Hemolytic Activity": "highly Hemolytic (Lethal concentration 15.7 uM).",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not found",
+            "N-terminal Modification": "Not found",
+            "C-terminal Modification": "NH2",
+            "Stereochemistry": "Not found",
+            "Structure Description": "Not found",
+            "Formula": "Not found",
+            "Mass": 1936.45,
+            "PI": 10.0,
+            "Hydrophobicity": 1.4,
+            "Half Life": "Not found",
+            "Function": "Not found",
+            "Literature": [
+                {
+                    "Author": "Mignogna G, Simmaco M, Kreil G, Barra D.1993",
+                    "Reference": "EMBO J. 1993; 12:4829-4832",
+                    "Title": "Antibacterial and haemolytic peptides containing D-alloisoleucine from the skin of Bombina variegata"
+                }
+            ],
+            "Frequent Amino Acids": "GLI",
+            "Absent Amino Acids": "CDEFHNOQRTUWY",
+            "Basic Residues": 2,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 12,
+            "Polar Residues": 6,
+            "Positive Residues": 2,
+            "Negative Residues": 0,
+            "Net Charge": 2,
+            "Caution": "Note that the abundance of amino acid at position 1 is Leu (31%) and Ile (69%). To distiguish it from Bombinin H1, L is used at position 1. Moreover, position 2 is a D-amino acid (X=D-alloisoleucine) represented by I.",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_09177",
+                    "Similarity": 1.0,
+                    "Sequence": "GLLKKIKTLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10426",
+                    "Similarity": 1.0,
+                    "Sequence": "GLLKKIKKLL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10427",
+                    "Similarity": 1.0,
+                    "Sequence": "GLLKKIKWLL"
+                }
+            ]
+        }
+    }
+}

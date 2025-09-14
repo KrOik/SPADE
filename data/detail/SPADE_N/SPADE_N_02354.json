@@ -1,0 +1,84 @@
+{
+    "SPADE_N_02354": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_02354",
+            "Peptide Name": "Beta-defensin 1 (BD-1; Defensin, beta 1; primates, mammals, animals)",
+            "Source": "Nomascus concolor (Black crested gibbon) (Hylobates moloch) (Hylobates lar)",
+            "Family": "Belongs to the beta-defensin family",
+            "Gene": "DEFB1",
+            "Sequence": "DHYNCVRSGGQCLYSACPIYTKIQGTCYQGKAKCCK",
+            "Sequence Length": 36,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/Q7JGM2",
+                "http://www.uniprot.org/uniprot/Q95J22",
+                "http://www.uniprot.org/uniprot/Q7JGM1",
+                "http://www.uniprot.org/uniprot/A4H1Z5"
+            ],
+            "Protein Existence": "Homology",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C169H265N49O51S6",
+            "Mass": 3991.6,
+            "PI": 8.86,
+            "Net Charge": 5,
+            "Hydrophobicity": -0.46,
+            "Half Life": "Mammalian:1.1 hourYeast:3 minE.coli:>10 hour",
+            "Function": "Has bactericidal activity (By similarity).",
+            "PTM": "Contains three disulfide bonds (By similarity).",
+            "Literature": [
+                {
+                    "Title": "Small cationic protein from a marine turtle has beta-defensin-like fold and antibacterial and antiviral activity.",
+                    "Pubmed ID": "16700051",
+                    "Reference": "Proteins. 2006 Aug 1;64(2)524-531.",
+                    "Author": "Chattopadhyay S, Sinha NK, Banerjee S, Roy D, Chattopadhyay D, Roy S.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=16700051"
+                },
+                {
+                    "Title": "Beta-defensin 1 gene variability among non-human primates.",
+                    "Pubmed ID": "11862391",
+                    "Reference": "Immunogenetics. 2002 Feb;53(10-11)907-913.",
+                    "Author": "Del Pero M, Boniotto M, Zuccon D, Cervella P, Spano A, Amoroso A, Crovella S.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=11862391"
+                }
+            ],
+            "Frequent Amino Acids": "CGK",
+            "Absent Amino Acids": "EFMOUW",
+            "Basic Residues": 6,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 27,
+            "Positive Residues": 6,
+            "Negative Residues": 1,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_08063",
+                    "Similarity": 1.0,
+                    "Sequence": "MRTSYLLLFTLCLLLSEMASGDNFLTGLGHRSDHYNCVRSGGQCLYSACPIYTKIQGTCYQGKAKCCK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02246",
+                    "Similarity": 0.9722222222222222,
+                    "Sequence": "DHYNCVRSGGQCLYSACPIYTKIQGTCYHGKAKCCK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08062",
+                    "Similarity": 0.9722222222222222,
+                    "Sequence": "MRTSYLLLFTLCLLLSEMASGDNFLTGLGHRSDHYNCVRSGGQCLYSACPIYTKIQGTCYHGKAKCCK"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "SPADE_UN_30092": {
+        "Sequence Information": {
+            "Peptide Name": "Bac7 (1-16)-C-BY",
+            "Sequence": "RRIRPRPPRLPRPRPRC",
+            "Sequence Length": 17,
+            "Biological Activity": [
+                "Anti-Gram-"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P19661",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P19661",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Effect of size and N-terminal residue characteristics on bacterial cell penetration and antibacterial activity of the proline-rich peptide Bac7.",
+                    "Pubmed ID": "25525837",
+                    "Reference": "J Med Chem. 2015;58:1195-1204",
+                    "Author": "Guida F, Benincasa M, Zahariev S, Scocchi M, Berti F, Gennaro R, Tossi A",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/25525837"
+                }
+            ],
+            "Mass": 2179.65,
+            "PI": 12.0,
+            "Net Charge": 8,
+            "Hydrophobicity": -2.05,
+            "Frequent Amino Acids": "RPC",
+            "Absent Amino Acids": "ADEFGHKMNOQSTUVWY",
+            "Basic Residues": 8,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 3,
+            "Polar Residues": 14,
+            "Positive Residues": 8,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_30092",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_09654",
+                    "Similarity": 1.0,
+                    "Sequence": "RRIRPRPPRLPRPRP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09655",
+                    "Similarity": 1.0,
+                    "Sequence": "RRIRPRPPRLPRP"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09805",
+                    "Similarity": 1.0,
+                    "Sequence": "RRIRPRP"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Escherichia coli ATCC 25922(MIC=0.5-1µM),Escherichia coli HB101(MIC=0.5µM)"
+        }
+    }
+}

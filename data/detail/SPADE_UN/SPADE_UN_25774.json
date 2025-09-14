@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_25774": {
+        "Sequence Information": {
+            "Peptide Name": "nAMP-LP-104",
+            "Sequence": "QWWGGRGGGRWRGGWRGGWRGRGRGWW",
+            "Sequence Length": 27,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "A0A914NHM3",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/A0A914NHM3",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that may represent a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Novel integrated computational AMP discovery approaches highlight diversity in the helminth AMP repertoire.",
+                    "Pubmed ID": "37523405",
+                    "Reference": "PLoS Pathog. 2023;19:e1011508",
+                    "Author": "Irvine AE, McKenzie D, McCoy CJ, Graham RLJ, Graham C, Huws SA, Atkinson LE, Mousley A",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/37523405"
+                }
+            ],
+            "Mass": 3227.53,
+            "PI": 12.0,
+            "Net Charge": 7,
+            "Hydrophobicity": -1.71,
+            "Frequent Amino Acids": "GRW",
+            "Absent Amino Acids": "ACDEFHIKLMNOPSTUVY",
+            "Basic Residues": 7,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 0,
+            "Polar Residues": 27,
+            "Positive Residues": 7,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_25774",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_UN_12920",
+                    "Similarity": 1.0,
+                    "Sequence": "GRGR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_12948",
+                    "Similarity": 1.0,
+                    "Sequence": "RGRGR"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_12949",
+                    "Similarity": 0.8571428571428571,
+                    "Sequence": "RGRGRGR"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Escherichia coli K-12(MIC=128µg/ml),Acinetobacter baumannii DSM 30007(MIC=64µg/ml),Pseudomonas aeruginosa PAO1(MIC=512µg/ml),Staphylococcus aureus RN4220(MIC=256µg/ml),Staphylococcus aureus MRSA-15(MIC=256µg/ml),Enterococcus faecalis JH-2-2(MIC=256µg/ml)"
+        }
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_20753": {
+        "Sequence Information": {
+            "Peptide Name": "CAMP-B",
+            "Sequence": "RRRWRKRRWWW",
+            "Sequence Length": 11,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "Beta-defensin derived cationic antimicrobial peptides with potent killing activity against gram negative and gram positive bacteria.",
+                    "Pubmed ID": "29871599",
+                    "Reference": "BMC Microbiol. 2018;18:54",
+                    "Author": "Yang M, Zhang C, Zhang MZ, Zhang S",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/29871599"
+                }
+            ],
+            "Mass": 1828.14,
+            "PI": 12.0,
+            "Net Charge": 7,
+            "Hydrophobicity": -3.14,
+            "Frequent Amino Acids": "RWK",
+            "Absent Amino Acids": "ACDEFGHILMNOPQSTUVY",
+            "Basic Residues": 7,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 0,
+            "Polar Residues": 11,
+            "Positive Residues": 7,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_20753",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02852",
+                    "Similarity": 1.0,
+                    "Sequence": "IPRPLDPCIAQNGRCFTGICRYPYFWIGTCRNGKSCCRRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_07057",
+                    "Similarity": 1.0,
+                    "Sequence": "GPWERCTAQCGGGIQARRR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10311",
+                    "Similarity": 1.0,
+                    "Sequence": "GWLQLALHLLQLGLHLLQLALQLRRR"
+                }
+            ],
+            "Hemolytic Activity": "Mouse erythrocytes:<=5% Hemolysis=512 µg/ml,Murine dendritic cells JAWS II:0% Killing=<128 µg/ml,Murine dendritic cells JAWS II:13% Killing=512 µg/ml,Chinese hamster ovary cells CHO-K1:0% Killing=64 µg/ml,Chinese hamster ovary cells CHO-K1:20% Killing=512 µg/ml",
+            "Target Organism": "Pseudomonas aeruginosa ATCC 27853(MIC=32µg/ml),Pseudomonas aeruginosa(MIC=32-64µg/ml),Staphylococcus aureus ATCC 29213(MIC=32µg/ml),Staphylococcus pseudintermedius(MIC=32-64µg/ml)"
+        }
+    }
+}

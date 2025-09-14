@@ -1,0 +1,74 @@
+{
+    "SPADE_UN_00615": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_UN_00615",
+            "Peptide Name": "L5K5W1 (L5K5Wn model peptide)",
+            "Source": "Synthetic construct (De novo design)",
+            "Family": "Not found",
+            "Gene": "Not found",
+            "Sequence": "WLKKLLKKLLK",
+            "Sequence Length": 11,
+            "UniProt Entry": "No entry found",
+            "Protein Existence": "Synthetic",
+            "Biological Activity": [
+                "Antimicrobial",
+                "Antibacterial",
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Target Organism": "Gram-positive bacteria:Bacillus subtilis ATCC 6633 (MIC=2 µg/mL), Staphylococcus aureus ATCC 6538p (MIC=2 µg/mL), Staphylococcus epidermis ATCC 12228 (MIC=2 µg/mL), Micrococcus luteus ATCC 10240 (MIC=4 µg/mL), MRSA-TK784 (MIC=8 µg/mL).Gram-negative bacteria:Escherichia coli ATCC 25922 (MIC=4 µg/mL), Shigella dysenteriae ATCC 9752 (MIC=2 µg/mL), Salmonella typhimurium ATCC 14028 (MIC=2 µg/mL), Klebsiella pneumoniae ATCC 10031 (MIC=2 µg/mL), Pseudomonas aeruginosa ATCC 27853 (MIC=8 µg/mL).",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C71H127N17O12",
+            "Mass": 1410.87,
+            "PI": 10.6,
+            "Net Charge": 5,
+            "Hydrophobicity": -0.13,
+            "Half Life": "Mammalian:2.8 hourYeast:3 minE.coli:2 min",
+            "Function": "Has antibacterial activity against the Gram-positive, Gram-negative bacteria and a multi-drug resistant strain.",
+            "Chemical modification": "C-terminal amidation.",
+            "Literature": [
+                {
+                    "Title": "Structural characterization of de novo designed L5K5W model peptide isomers with potent antimicrobial and varied hemolytic activities.",
+                    "Pubmed ID": "23344198",
+                    "Reference": "Molecules. 2013 Jan 11;18(1)859-876.",
+                    "Author": "Kim SJ, Kim JS, Lee YS, Sim DW, Lee SH, Bahk YY, Lee KH, Kim EH, Park SJ, Lee BJ, Won HS.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=23344198"
+                }
+            ],
+            "Frequent Amino Acids": "KLW",
+            "Absent Amino Acids": "ACDEFGHIMNOPQRSTUVY",
+            "Basic Residues": 5,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 6,
+            "Polar Residues": 5,
+            "Positive Residues": 5,
+            "Negative Residues": 0,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_05872",
+                    "Similarity": 1.0,
+                    "Sequence": "HLNKRVQRELIGWLDWLK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_05973",
+                    "Similarity": 1.0,
+                    "Sequence": "GFFKKAWRKVKHAGRRVLKKGVGRHYVNNWLK"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_12052",
+                    "Similarity": 1.0,
+                    "Sequence": "WRKLWRPGLKRWLK"
+                }
+            ]
+        }
+    }
+}

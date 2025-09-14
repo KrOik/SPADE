@@ -1,0 +1,65 @@
+{
+    "SPADE_UN_28893": {
+        "Sequence Information": {
+            "Peptide Name": "Hemoglobin subunit alpha (107-128)",
+            "Sequence": "VTLASHLPSDFTPAVHASLDKF",
+            "Sequence Length": 22,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "P01966",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/P01966",
+                    "description": "The amino acid sequence of the current peptide coincides with the amino acid sequence of the UniProt entry."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Obtaining antimicrobial peptides by controlled peptic hydrolysis of bovine hemoglobin.",
+                    "Pubmed ID": "21510973",
+                    "Reference": "Int J Biol Macromol. 2011;49:143-153",
+                    "Author": "Adje EY, Balti R, Kouach M, Dhulster P, Guillochon D, Nedjar-Arroume N",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/21510973"
+                }
+            ],
+            "Mass": 2353.63,
+            "PI": 5.97,
+            "Net Charge": 1,
+            "Hydrophobicity": 0.3,
+            "Frequent Amino Acids": "ALS",
+            "Absent Amino Acids": "CEGIMNOQRUWY",
+            "Basic Residues": 3,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 10,
+            "Polar Residues": 12,
+            "Positive Residues": 3,
+            "Negative Residues": 2,
+            "SPADE ID": "SPADE_UN_28893",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_05863",
+                    "Similarity": 1.0,
+                    "Sequence": "VNFKLLSHSLLVTLASHL"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_09053",
+                    "Similarity": 1.0,
+                    "Sequence": "VTLASHLPSDFTPAVHASLDKFLANVS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_10021",
+                    "Similarity": 1.0,
+                    "Sequence": "LVTLASHLPSDFTPAVHASLDKFLANVSTVLTSKYR"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Micrococcus luteus A270(MIC=53µM),Listeria innocua(MIC=53µM),Escherichia coli(MIC=26µM)"
+        }
+    }
+}

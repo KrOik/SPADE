@@ -1,0 +1,75 @@
+{
+    "SPADE_N_03022": {
+        "Clinical Information": [],
+        "Patent Information": [],
+        "Sequence Information": {
+            "SPADE ID": "SPADE_N_03022",
+            "Peptide Name": "Defensin 5 (Enteric defensin; RD-5; Rodents, mammals, animals)",
+            "Source": "Rattus norvegicus (Rat)",
+            "Family": "Belongs to the alpha-defensin family",
+            "Gene": "Not found",
+            "Sequence": "LRDLKCFCRRKSCNWGEGIMGICKKRYGSPILCCR",
+            "Sequence Length": 35,
+            "UniProt Entry": [
+                "http://www.uniprot.org/uniprot/P82106"
+            ],
+            "Protein Existence": "Transcript level",
+            "Biological Activity": [
+                "Antimicrobial"
+            ],
+            "Target Organism": "No MICs found in DRAMP database",
+            "Hemolytic Activity": "No hemolysis information or data found in the reference(s) presented in this entry",
+            "Cytotoxicity": "Not included yet",
+            "Binding Target": "Not found",
+            "Linear/Cyclic": "Not included yet",
+            "N-terminal Modification": "Not included yet",
+            "C-terminal Modification": "Not included yet",
+            "Stereochemistry": "Not included yet",
+            "Structure Description": "Not found",
+            "Formula": "C174H290N56O44S7",
+            "Mass": 4094.97,
+            "PI": 9.55,
+            "Net Charge": 7,
+            "Hydrophobicity": -0.31,
+            "Half Life": "Mammalian:5.5 hourYeast:3 minE.coli:2 min",
+            "Function": "Probably contributes to the antimicrobial barrier Function",
+            "Tissue specificity": "Small intestine. Not present in heart, liver, spleen, kidney, large intestine and colon.",
+            "Induction": "By hemorrhagic shock.",
+            "PTM": "Contains three disulfide bonds (By similarity).",
+            "Literature": [
+                {
+                    "Title": "Induction of a rat enteric defensin gene by hemorrhagic shock.",
+                    "Pubmed ID": "10456932",
+                    "Reference": "Infect Immun. 1999 Sep;67(9)4787-4793.",
+                    "Author": "Condon MR, Viera A, D'Alessio M, Diamond G.",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/?term=10456932"
+                }
+            ],
+            "Frequent Amino Acids": "CRG",
+            "Absent Amino Acids": "AHOQTUV",
+            "Basic Residues": 9,
+            "Acidic Residues": 2,
+            "Hydrophobic Residues": 11,
+            "Polar Residues": 19,
+            "Positive Residues": 9,
+            "Negative Residues": 2,
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_07957",
+                    "Similarity": 1.0,
+                    "Sequence": "MKKLVLLSALVLLALQVEAEPTPKTDEGTKTDEQPGKEDQVVSVSIEGQGDPAFQDAVLRDLKCFCRRKSCNWGEGIMGICKKRYGSPILCCR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08159",
+                    "Similarity": 0.9142857142857143,
+                    "Sequence": "MKTLVLLSALVLLALQVQAEPTPKTDEGTKTDEQPGKEDQVVSVSIEGQGDPAFQDAVLRDLKCFCRAKSCNWGEGIMGICNKRYGSLILCCR"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_08186",
+                    "Similarity": 0.9142857142857143,
+                    "Sequence": "MKKLVLLSALVLLALQVQAEPTPKTDEGTKTDEQPGKEDQVVSVSIEGQGDPAFQDAVLRDLKCFCRAKSCNWGEGIMGICNKRYGSLILCCR"
+                }
+            ]
+        }
+    }
+}

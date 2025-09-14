@@ -1,0 +1,60 @@
+{
+    "SPADE_UN_27005": {
+        "Sequence Information": {
+            "Peptide Name": "G(RF)2R",
+            "Sequence": "RFRFRPGRFRFR",
+            "Sequence Length": 12,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-",
+                "Anti-Mammalian Cell"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "",
+            "Gene": "",
+            "PDB ID": "",
+            "UniProt Entry": [],
+            "Literature": [
+                {
+                    "Title": "The novel β-hairpin antimicrobial peptide D-G(RF)3 demonstrates exceptional antibacterial efficacy",
+                    "Pubmed ID": "39675159",
+                    "Reference": "Eur J Med Chem. 2025;283:117149",
+                    "Author": "Li B, Liu Y, Yan P, Ouyang X, Ba Z, Wang Y, Yang T, Yu Z, Ren B, Zhong C, Liu H, Zhang Y, Gou S, Ni J",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/39675159"
+                }
+            ],
+            "Mass": 1697.99,
+            "PI": 12.0,
+            "Net Charge": 6,
+            "Hydrophobicity": -1.48,
+            "Frequent Amino Acids": "RFG",
+            "Absent Amino Acids": "ACDEHIKLMNOQSTUVWY",
+            "Basic Residues": 6,
+            "Acidic Residues": 0,
+            "Hydrophobic Residues": 4,
+            "Polar Residues": 8,
+            "Positive Residues": 6,
+            "Negative Residues": 0,
+            "SPADE ID": "SPADE_UN_27005",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_02465",
+                    "Similarity": 1.0,
+                    "Sequence": "GRFKRFRKKFKKLFKKLSPVIPLLHLG"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_02482",
+                    "Similarity": 1.0,
+                    "Sequence": "GRFKRFRKKFKKLFKKLS"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_03222",
+                    "Similarity": 1.0,
+                    "Sequence": "RFRLPFRRPPIRIHPPPFYPPFRRFL"
+                }
+            ],
+            "Hemolytic Activity": "Mouse erythrocytes:<5% Hemolysis=256 µM",
+            "Target Organism": "Staphylococcus aureus ATCC 25923(MIC=16µM),Bacillus subtilis ATCC 23857(MIC=4µM),Staphylococcus epidermidis ATCC 12228(MIC=4µM),Klebsiella pneumoniae ATCC 700603(MIC=16µM),Escherichia coli ATCC 25922(MIC=8µM),Pseudomonas aeruginosa ATCC 27853(MIC=16µM)"
+        }
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "SPADE_N_14744": {
+        "Sequence Information": {
+            "Peptide Name": "Copsin",
+            "Sequence": "QNCPTRRGLCVTSGLTACRNHCRSCHRGDVGCVRCSNAQCTGFLGTTCTCINPCPRC",
+            "Sequence Length": 57,
+            "Biological Activity": [
+                "Anti-Gram+",
+                "Anti-Gram-"
+            ],
+            "Binding Target": "1. Lipid Bilayer",
+            "Source": "1. Coprinopsis cinerea",
+            "Gene": "",
+            "PDB ID": "2MN5",
+            "UniProt Entry": [
+                {
+                    "uniprotId": "A0A097PTA8",
+                    "uniprotUrl": "http://www.uniprot.org/uniprot/A0A097PTA8",
+                    "description": "The amino acid sequence of the current peptide coincides with the part of the UniProt entry that represents a peptide precursor."
+                }
+            ],
+            "Literature": [
+                {
+                    "Title": "Induction of antibacterial proteins and peptides in the coprophilous mushroom Coprinopsis cinerea in response to bacteria.",
+                    "Pubmed ID": "30301946",
+                    "Reference": "ISME J. 2019;13:588-602",
+                    "Author": "Kombrink A, Tayyrov A, Essig A, Stöckli M, Micheller S, Hintze J, van Heuvel Y, Dürig N, Lin CW, Kallio PT, Aebi M, Künzler M",
+                    "URL": "http://www.ncbi.nlm.nih.gov/pubmed/30301946"
+                }
+            ],
+            "Mass": 6093.03,
+            "PI": 8.86,
+            "Net Charge": 8,
+            "Hydrophobicity": -0.21,
+            "Frequent Amino Acids": "CRT",
+            "Absent Amino Acids": "EKMOUWY",
+            "Basic Residues": 9,
+            "Acidic Residues": 1,
+            "Hydrophobic Residues": 22,
+            "Polar Residues": 35,
+            "Positive Residues": 9,
+            "Negative Residues": 1,
+            "SPADE ID": "SPADE_N_14744",
+            "Similar Sequences": [
+                {
+                    "SPADE_ID": "SPADE_N_10789",
+                    "Similarity": 1.0,
+                    "Sequence": "NCPTRRGLCVTSGLTACRNHCRSCHRGDVGCVRCSNAQCTGFLGTTCTCINPCPRC"
+                },
+                {
+                    "SPADE_ID": "SPADE_N_12936",
+                    "Similarity": 0.7543859649122807,
+                    "Sequence": "QSCPTRRGLCFTSGLAACRAHCRGCHLGSNGRDCVRCPNGAQCTGVIGQTCTCLNPCPVC"
+                },
+                {
+                    "SPADE_ID": "SPADE_UN_20655",
+                    "Similarity": 0.7543859649122807,
+                    "Sequence": "QSCPTRRGLCFTSGLAACRAHCRGCHLGSNGRDCVRCPNGAQCTGVIGQTCTCLNPCPVC"
+                }
+            ],
+            "Hemolytic Activity": "",
+            "Target Organism": "Bacillus subtilis 168(MIC=4µg/ml),Enterococcus faecalis DSM 20478(MIC=8µg/ml),Enterococcus faecium DSM 13590(MIC=4µg/ml),Staphylococcus carnosus DSM 20501(MIC=8µg/ml),Staphylococcus aureus DSM 4910(MIC=>64µg/ml),Escherichia coli DSM 1103(MIC=>64µg/ml),Pseudomonas aeruginosa DSM 1117(MIC=>64µg/ml),Listeria monocytogenes WSLC 1042(MIC=1µg/ml),Corynebacterium diphtheriae DSM 44123(MIC=9µg/ml)"
+        }
+    }
+}
