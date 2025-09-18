@@ -234,7 +234,7 @@ Although the platform performs well, there is still room for improvement in pred
 
 With the increasingly serious problem of antibiotic resistance, the research value of antimicrobial peptides as a new type of antimicrobial agent is becoming increasingly prominent. The development and application of the SPADE platform will provide new ideas and methods for antimicrobial peptide research, promote the development of antimicrobial peptide research, and provide new possibilities for solving the problem of antibiotic resistance.
 
-Rrefenrence: 
+Rrefenrence : 
 [1] Antimicrobial Peptide Database - DBAASP. https://dbaasp.org/home.
 
 [2] TG-CDDPM: text-guided antimicrobial peptides generation based on conditional denoising diffusion probabilistic model. Briefings in Bioinformatics, 2024.
