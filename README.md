@@ -233,3 +233,35 @@ The SPADE platform, as an intelligent platform for antimicrobial peptide researc
 Although the platform performs well, there is still room for improvement in prediction under extreme conditions, recognition of specially modified sequences, and mobile user experience. Through continuous optimization and iteration, the platform will become an important infrastructure in the field of antimicrobial peptide research, providing strong support for the research and application of antimicrobial peptides.
 
 With the increasingly serious problem of antibiotic resistance, the research value of antimicrobial peptides as a new type of antimicrobial agent is becoming increasingly prominent. The development and application of the SPADE platform will provide new ideas and methods for antimicrobial peptide research, promote the development of antimicrobial peptide research, and provide new possibilities for solving the problem of antibiotic resistance.
+
+Rrefenrence: 
+[1] Antimicrobial Peptide Database - DBAASP. https://dbaasp.org/home.
+
+[2] TG-CDDPM: text-guided antimicrobial peptides generation based on conditional denoising diffusion probabilistic model. Briefings in Bioinformatics, 2024.
+
+[3] Review on antimicrobial peptides databases and the computational tools. Database, Oxford Academic, 2024.
+
+[4] AmPEP: Sequence-based prediction of antimicrobial peptides using distribution patterns of amino acid properties and random forest. https://repository.um.edu.mo/handle/10692/932.
+
+[5] Antimicrobial Peptide Database. https://aps.unmc.edu/.
+
+[6] A review on antimicrobial peptides databases and the computational tools. https://academic.oup.com/database/article-abstract/doi/10.1093/database/baac011/6550847.
+
+[7] The antimicrobial peptide database is 20 years old: recent developments and future directions. https://onlinelibrary.wiley.com/doi/abs/10.1002/pro.4778.
+
+[8] Improving the Annotation of the Venom Gland Transcriptome of Pamphobeteus verdolaga, Prospecting Novel Bioactive Peptides. https://www.mdpi.com/2072-6651/14/6/408.
+
+[9] A Foundation Model Identifies Broad-Spectrum Antimicrobial Peptides against Drug-Resistant Bacterial Infection. Nature Communications, 2024.
+
+[10] 西交利物浦大学学生团队连续十年参赛. https://www.163.com/dy/article/JGQBE2JE0534B975.html.
+
+[11] 西浦学子获国际遗传工程机器大赛金牌. https://news.sina.com.cn/c/2017-11-28/doc-ifypapmz5823563.shtml.
+
+[12] 学子 西浦学子首次斩获国际遗传工程机器大赛金奖. https://www.sohu.com/a/208610779_270298.
+
+[13] 2025科普专栏丨SYPHU-China 抗微生物肽:来自自然的"微生物克星". https://new.qq.com/rain/a/20250724A028CC00.
+
+[14] 抗菌肽的来源、作用机制及临床应用研究进展. https://www.hanspub.org/journal/PaperInformation.aspx?paperID=37249&btwaf=20049259.
+
+[15] 中国iGEMer首度集结苏州!西交利物浦大学举办第十一届CCiC大会. https://finance.sina.com.cn/jjxw/2024-07-13/doc-inccwzps7419471.shtml.
+
