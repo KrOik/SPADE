@@ -18,53 +18,68 @@ SPADE is a comprehensive software tool designed to streamline the discovery and 
 
 ## How to Use
 
-The SPADE platform is designed to be intuitive and user-friendly, allowing researchers to navigate its features with ease. Here’s a step-by-step guide to get you started:
+SPADE (Synthetic Biology and AI-driven Discovery Engine for Antimicrobial Peptides) is a comprehensive platform designed to accelerate the discovery and development of novel antimicrobial peptides. It integrates synthetic biology principles and artificial intelligence to provide a powerful and intuitive research tool.
 
-### 1. Access the Platform
+Here’s a visual guide to its key features:
 
-Navigate to the SPADE homepage at [xjtlu-spade.netlify.app](https://xjtlu-spade.netlify.app). You will be greeted with the main dashboard, which provides an overview of the platform's capabilities.
+<p align="center">
+  <strong>1. Welcome Page & Dashboard</strong><br>
+  Start on the main page for an overview of the platform. The backend dashboard provides insights into how SPADE's extensive data is managed and organized, showcasing the database that powers the platform.
+  <br>
+  <img src="source/img/usage/mainpage.webp" alt="SPADE Homepage" width="400">
+</p>
 
-![SPADE Dashboard](source/img/usage/spade_dashboard_1.jpg.webp)
+<p align="center">
+  <strong>2. Database Retrieval and Navigation</strong><br>
+  Use the <strong>Search</strong> page to query curated AMP entries. You can filter results by species, activity spectrum, sequence length, physicochemical properties, and more. From the results, view detailed information for each peptide and seamlessly navigate to related sequences using the quick link feature.
+  <br>
+  <img src="source/img/usage/spade_data_display.jpg.webp" alt="SPADE Search Page" width="260">
+  <img src="source/img/usage/spade_detailed_information.jpg.webp" alt="Detailed Peptide Information" width="260">
+</p>
 
-### 2. Select a Function
+<p align="center">
+  <strong>3. Analysis and Visualization</strong><br>
+  The platform offers detail visualization. You can view peptide activity, assess toxicity, and analyze physicochemical properties.
+  <br>
+  <img src="source/img/usage/visualizeofAMP.webp" alt="AMP Info. Visualization" width="300">
+</p>
 
-Choose your desired function from the main navigation menu. Key functions include:
-- **Search**: For querying the AMP database.
-- **Statistics**: For batch analysis of peptide data (under development).
-- **Tools**: For accessing helpful third-party bioinformatics tools.
+<p align="center">
+  <strong>4. Tools for Antimicrobial Peptide Research</strong><br>
+  The SPADE platform includes a dedicated tools page that provides access to over 60 different tools for antimicrobial peptide research, including sequence analysis, structure prediction, and more.
+  <br>
+  <img src="source/img/usage/quicklinkOfAMP.webp" alt="Similar Peptide Links" width="260">
+</p>
 
-![SPADE Dashboard Navigation](source/img/usage/spade_dashboard_2.jpg.webp)
+<p align="center">
+  <strong>5. Platform Statistics and Monitoring</strong><br>
+  The statistics section provides batch analysis tools for length distribution, amino-acid frequency, and property histograms. SPADE also includes a dedicated access dashboard for monitoring platform usage and traffic.
+  <br>
+  <img src="source/img/usage/stafAMP.webp" alt="Statistics Chart 1" width="245">
+  <img src="source/img/usage/stafAMP2.webp" alt="Statistics Chart 2" width="245">
+</p>
 
-### 3. Input Parameters and Search
+<p align="center">
+  <strong>6. Platform Monitoring and Accessibility</strong><br>
+  Powerful backend supervision platform to ensure that the platform maintains accessibility and high performance for all users.
+  <br>
+  <img src="source/img/usage/spade_access_detection.jpg.webp" alt="Access Detection Dashboard" width="400">
+  <img src="source/img/usage/spade_accessibility.jpg.webp" alt="Accessibility Management" width="400">
+</p>
 
-On the **Search** page, you can filter AMP entries based on various criteria such as species, activity, sequence length, and physicochemical properties.
+### Key Features at a Glance
 
-![SPADE Search and Filtering](source/img/usage/spade_access_detection.jpg.webp)
-
-### 4. View Results
-
-After executing a search, the platform displays the results in a clear and organized table.
-
-![SPADE Data Display](source/img/usage/spade_data_display.jpg.webp)
-
-### 5. Explore Detailed Information
-
-Click on any entry in the results table to view a detailed page with comprehensive information about the peptide, including its sequence, properties, and a dedicated "Quick Notes" panel for your own annotations.
-
-![SPADE Detailed Information](source/img/usage/spade_detailed_information.jpg.webp)
-
-### Accessibility
-
-The platform includes features to enhance accessibility, ensuring a better experience for all users.
-
-![SPADE Accessibility Features](source/img/usage/spade_accessibility.jpg.webp)
+-   **AMP Sequence Generation**: Generate new potential antimicrobial peptide sequences based on advanced AI models.
+-   **Activity Prediction**: Evaluate the antimicrobial activity of input sequences against specific pathogens.
+-   **Toxicity Assessment**: Predict the potential toxicity of peptide sequences to identify safe therapeutic candidates.
+-   **Database Integration**: Access and compare findings with existing AMP databases and scientific literature.
 
 
 ## Contributing
 
 We welcome contributions from the community to make SPADE even better! Whether you're a developer, a researcher, or a user, there are many ways to contribute:
 
-- **Reporting Bugs**: If you find a bug, please open an issue on our GitHub repository at [https://github.com/your-team/spade](https://github.com/your-team/spade).
+- **Reporting Bugs**: If you find a bug, please open an issue on our GitHub repository at [https://github.com/KrOik/SPADE](https://github.com/KrOik/SPADE).
 - **Suggesting Enhancements**: Have an idea for a new feature or an improvement to an existing one? We'd love to hear it.
 - **Contributing Code**: We are open to pull requests. Please read our contribution guidelines before submitting.
 - **Improving Documentation**: If you find any part of the documentation unclear or incomplete, feel free to suggest changes.
