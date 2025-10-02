@@ -12,13 +12,65 @@ Our platform is designed for researchers in bioinformatics, molecular biology, a
 
 SPADE aims to lower the barrier to entry for AMP research, making it easier for scientists to find and engineer effective and safe antimicrobial candidates.
 
+## Software
+
+SPADE is a comprehensive software tool designed to streamline the discovery and engineering of antimicrobial peptides (AMPs). It provides a user-friendly platform that integrates a vast database of AMPs with a powerful predictive model, making it an essential tool for researchers in bioinformatics, molecular biology, and drug discovery. The software is designed to be accessible to a wide audience, with a clear and intuitive interface that guides users through the process of searching, analyzing, and predicting the properties of AMPs.
+
 ## How to Use
 
-*This section will be updated with step-by-step instructions, screenshots, and visual aids to guide users through the software.*
+The SPADE platform is designed to be intuitive and user-friendly, allowing researchers to navigate its features with ease. Here’s a step-by-step guide to get you started:
 
-## Installation
+### 1. Access the Platform
 
-*This section will be updated with clear instructions on how to deploy and install the software.*
+Navigate to the SPADE homepage at [xjtlu-spade.netlify.app](https://xjtlu-spade.netlify.app). You will be greeted with the main dashboard, which provides an overview of the platform's capabilities.
+
+![SPADE Dashboard](source/img/usage/spade_dashboard_1.jpg.webp)
+
+### 2. Select a Function
+
+Choose your desired function from the main navigation menu. Key functions include:
+- **Search**: For querying the AMP database.
+- **Statistics**: For batch analysis of peptide data (under development).
+- **Tools**: For accessing helpful third-party bioinformatics tools.
+
+![SPADE Dashboard Navigation](source/img/usage/spade_dashboard_2.jpg.webp)
+
+### 3. Input Parameters and Search
+
+On the **Search** page, you can filter AMP entries based on various criteria such as species, activity, sequence length, and physicochemical properties.
+
+![SPADE Search and Filtering](source/img/usage/spade_access_detection.jpg.webp)
+
+### 4. View Results
+
+After executing a search, the platform displays the results in a clear and organized table.
+
+![SPADE Data Display](source/img/usage/spade_data_display.jpg.webp)
+
+### 5. Explore Detailed Information
+
+Click on any entry in the results table to view a detailed page with comprehensive information about the peptide, including its sequence, properties, and a dedicated "Quick Notes" panel for your own annotations.
+
+![SPADE Detailed Information](source/img/usage/spade_detailed_information.jpg.webp)
+
+### Accessibility
+
+The platform includes features to enhance accessibility, ensuring a better experience for all users.
+
+![SPADE Accessibility Features](source/img/usage/spade_accessibility.jpg.webp)
+
+
+## Contributing
+
+We welcome contributions from the community to make SPADE even better! Whether you're a developer, a researcher, or a user, there are many ways to contribute:
+
+- **Reporting Bugs**: If you find a bug, please open an issue on our GitHub repository at [https://github.com/your-team/spade](https://github.com/your-team/spade).
+- **Suggesting Enhancements**: Have an idea for a new feature or an improvement to an existing one? We'd love to hear it.
+- **Contributing Code**: We are open to pull requests. Please read our contribution guidelines before submitting.
+- **Improving Documentation**: If you find any part of the documentation unclear or incomplete, feel free to suggest changes.
+- **Sharing Data**: If you have curated AMP data that you would like to share, please get in touch with us.
+
+Your contributions are valuable and help us advance the field of antimicrobial peptide research.
 
 ## Design
 
@@ -48,10 +100,6 @@ The SPADE platform is built on a modern web-based architecture, consisting of a 
 During the development of the prototype, we made several design trade-offs to balance functionality, performance, and development speed. For example, in the initial version, we used a flattened data storage model for simplicity and rapid prototyping. However, we have designed a more advanced database architecture using PostgreSQL and Elasticsearch for future versions to improve search performance and scalability.
 
 A known issue is that the user experience on mobile devices needs further optimization. The current interface is best suited for desktop browsers, and we plan to improve mobile responsiveness in future iterations.
-
-## API
-
-*This section will be updated with an overview of the software's API.*
 
 ---
 
