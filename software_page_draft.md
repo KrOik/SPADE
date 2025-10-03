@@ -14,27 +14,25 @@ A typical combination might target antifungal activity against Candida albicans 
 
 ## 2. A Guided Tour of the SPADE Platform
 
-SPADE is organized into modules that mirror a typical discovery workflow. Each page focuses on a single task and keeps navigation simple.
+The website follows a workflow that aligns with how people actually use AMP data: you begin on the Home page to understand the modules and reach the key entry points, you set conditions on the Search page with a left‑side filter panel and watch the results table update as you refine queries, and you open a peptide’s card to read consolidated details in one place so the transition from overview to inspection does not interrupt the task.
 
-- Home Page (home.html): overview of the platform and entry points to core modules.
+The Home page introduces the platform and provides direct navigation to Search, Peptide Card, AMP Visualization, Tools and Statistics; images on this page are placeholders that will be replaced later.
 
-![SPADE Home Page](source/img/usage/mainpage.jpg "Suggested Image: A screenshot of the SPADE home page, highlighting the main navigation and mission statement.")
+![Placeholder – Home](source/img/usage/mainpage.jpg "Placeholder image: SPADE home page overview")
 
-- Search Page (search.html): fast, multi-dimensional filtering over a curated index of >46,000 peptides. Filters cover basic properties (ID, name, length), activity types and target organisms, physicochemical attributes (charge, hydrophobicity), and predicted structural features.
+The Search page implements multi‑dimensional filtering over a curated index of more than 46,000 peptides, with fields that match common habits—ID, name, sequence length, activity type and target organism, physicochemical attributes such as net charge and hydrophobicity, and predicted structural features—so typical queries can be expressed in one pass and the table of results remains the primary data display for scanning and selection.
 
-![SPADE Search Page](source/img/usage/mainpage.jpg "Suggested Image: A screenshot of the Search page, showing the filter panel on the left and the results table on the right.")
+![Placeholder – Search](source/img/usage/mainpage.jpg "Placeholder image: filter panel and results table")
 
-- Peptide Card (peptide_card.html): consolidated view of a single peptide—sequence, properties, activities, structure, and literature links.
+The Peptide Card presents a single peptide in a structured view that brings together sequence, derived properties, measured activities, predicted structure, and literature references; the card is designed as the second data display page in the workflow, and clicking from the results table to the card keeps context while shifting from list‑level screening to item‑level verification.
 
-- AMP Visualization (amp_visualization.html): graphical views such as hydrophobicity profiles and 2D structure predictions to aid interpretation.
+AMP Visualization focuses on scoring views that help interpretation, exposing plots such as hydrophobicity profiles and simple 2D structure predictions alongside score‑based visualizations that summarize how a peptide aligns with desired properties; the visuals can be opened from the card to keep analysis contiguous.
 
-![SPADE Peptide Card and Visualization](source/img/usage/mainpage.jpg "Suggested Image: A composite image showing a Peptide Card on one side and a visualization (e.g., hydrophobicity plot) on the other.")
+![Placeholder – Card and Visualization](source/img/usage/mainpage.jpg "Placeholder image: card plus visualization composite")
 
-- Tools Page (tools.html): links to internal scripts and vetted external tools for alignment, structure prediction, toxicity analysis, etc.
+The Tools page links to internal scripts and selected external utilities for alignment, structure prediction and toxicity analysis, and the Statistics page offers interactive charts that summarize global distributions—sequence lengths, activity types and target organisms—so dataset shape can be reviewed before or after focused filtering.
 
-- Statistics Page (Statistics.html): interactive charts summarizing global distributions (lengths, activity types, target organisms).
-
-![SPADE Tools and Statistics Pages](source/img/usage/mainpage.jpg "Suggested Image: A composite image showing the Tools page and an example chart from the Statistics page.")
+![Placeholder – Tools and Statistics](source/img/usage/mainpage.jpg "Placeholder image: tools page and statistics chart")
 
 ## 3. Design Philosophy and Architectural Overview
 
