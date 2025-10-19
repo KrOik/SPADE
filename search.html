@@ -12,6 +12,8 @@
   <script src="js/language-selector-minimal.js"></script>
   <!-- 闪光搜索框控制器 -->
   <script src="js/shimmer-search.js"></script>
+  <!-- 搜索索引加载器 -->
+  <script src="js/search-index-loader.js"></script>
   <style>
      @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
      
@@ -1658,11 +1660,17 @@ thead th:last-child {
     // --- Function Declarations ---
 
     function search() {
-      // 基础检索参数
-      const idInput = document.getElementById("idInput").value.trim().toLowerCase();
-      const nameInput = document.getElementById("nameInput").value.trim().toLowerCase();
-      const sequenceInput = document.getElementById("sequenceInput").value.trim().toLowerCase();
-      const lengthInput = document.getElementById("lengthInput").value.trim();
+      // 基础检索参数（安全获取，容忍缺失字段）
+      const getVal = (id, lower = false) => {
+        const el = document.getElementById(id);
+        const v = (el && typeof el.value === 'string') ? el.value : '';
+        const t = v.trim();
+        return lower ? t.toLowerCase() : t;
+      };
+      const idInput = getVal("idInput", true);
+      const nameInput = getVal("nameInput", true);
+      const sequenceInput = getVal("sequenceInput", true);
+      const lengthInput = getVal("lengthInput");
 
       // 活性类型检索参数
       const activityType = document.getElementById("activityTypeSelect").value;
@@ -1801,25 +1809,13 @@ thead th:last-child {
 
     async function loadInitialData() {
       const tableBody = document.getElementById('table-body');
-      const loadingText = window.SPADE_LANGUAGE_SELECTOR_MINIMAL?.getInstance()?.getTranslation("Loading...") || "Loading...";
+      const loadingText = window.SPADE_SEARCH_INDEX_LOADER?.t("Loading...", "Loading...") || "Loading...";
       tableBody.innerHTML = `<tr><td colspan="7" style="text-align:center; padding: 20px;">${loadingText}</td></tr>`;
       try {
-        // 首先尝试加载扩展索引
-        let response = await fetch('./data/index/peptide_extended_index.json');
-        if (!response.ok) {
-          console.log('扩展索引不存在，使用基础索引');
-          // 如果扩展索引不存在，使用基础索引
-          response = await fetch('./data/index/peptide_index.json');
-          if (!response.ok) throw new Error(`Index file loading failed (${response.status})`);
-        }
-        
-        peptideIndexData = await response.json();
-        if (!Array.isArray(peptideIndexData)) throw new Error("Index data format error");
-
+        const index = await window.SPADE_SEARCH_INDEX_LOADER.load();
+        peptideIndexData = Array.isArray(index) ? index : [];
         allPeptideFiles = peptideIndexData.map(p => `${p.id}.json`);
-        resetSearch(); // Initial load is a "reset" state
-        
-        // 数据加载完成后重新翻译页面
+        resetSearch();
         setTimeout(() => {
           const languageSelector = window.SPADE_LANGUAGE_SELECTOR_MINIMAL?.getInstance();
           if (languageSelector) {
@@ -1828,7 +1824,7 @@ thead th:last-child {
         }, 500);
       } catch (error) {
         console.error('Loading initial data failed:', error);
-        const errorText = window.SPADE_LANGUAGE_SELECTOR_MINIMAL?.getInstance()?.getTranslation("Loading failed, please refresh the page or contact the administrator.") || "Loading failed, please refresh the page or contact the administrator.";
+        const errorText = window.SPADE_SEARCH_INDEX_LOADER?.t("Loading failed, please refresh the page or contact the administrator.", "Loading failed, please refresh the page or contact the administrator.") || "Loading failed, please refresh the page or contact the administrator.";
         tableBody.innerHTML = `<tr><td colspan="7" style="text-align:center; padding: 20px;">${errorText}</td></tr>`;
       }
     }
@@ -2070,6 +2066,23 @@ thead th:last-child {
       document.getElementById('prevPageBtn').addEventListener('click', () => displayPage(currentPage - 1));
       document.getElementById('nextPageBtn').addEventListener('click', () => displayPage(currentPage + 1));
       document.getElementById('resetSearchBtn').addEventListener('click', resetSearch);
+
+      // 输入框与选择框支持按回车触发搜索
+      [
+        'idInput','nameInput','sequenceInput','lengthInput',
+        'activityTypeSelect','targetOrganismSelect',
+        'chargeSelect','hydrophobicitySelect','structureSelect'
+      ].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) {
+          el.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter') {
+              e.preventDefault();
+              search();
+            }
+          });
+        }
+      });
 
       // 初始化移动端功能
       initOrientationModal();
