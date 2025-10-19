@@ -1672,16 +1672,16 @@ thead th:last-child {
       const sequenceInput = getVal("sequenceInput", true);
       const lengthInput = getVal("lengthInput");
 
-      // 活性类型检索参数
-      const activityType = document.getElementById("activityTypeSelect").value;
+      // 活性类型检索参数（容忍缺失元素）
+      const activityType = getVal("activityTypeSelect", true);
 
-      // 目标生物检索参数
-      const targetOrganism = document.getElementById("targetOrganismSelect").value;
+      // 目标生物检索参数（容忍缺失元素）
+      const targetOrganism = getVal("targetOrganismSelect");
 
-      // 结构特征检索参数
-      const charge = document.getElementById("chargeSelect").value;
-      const hydrophobicity = document.getElementById("hydrophobicitySelect").value;
-      const structure = document.getElementById("structureSelect").value;
+      // 结构特征检索参数（容忍缺失元素）
+      const charge = getVal("chargeSelect", true);
+      const hydrophobicity = getVal("hydrophobicitySelect", true);
+      const structure = getVal("structureSelect", true);
 
       isFiltered = true;
       let results = [...peptideIndexData];
@@ -1716,28 +1716,27 @@ thead th:last-child {
           // 支持数组和字符串格式
           const activityTypes = Array.isArray(p.activity_type) ? 
             p.activity_type.join(',').toLowerCase() : 
-            p.activity_type.toLowerCase();
-          return activityTypes.includes(activityType.toLowerCase());
+            (typeof p.activity_type === 'string' ? p.activity_type.toLowerCase() : '');
+          return activityTypes.includes(activityType);
         });
       }
 
       // 目标生物过滤
       if (targetOrganism) {
+        const targetLower = targetOrganism.toLowerCase();
         results = results.filter(p => {
           if (!p.target_organisms) return false;
           
           // 支持数组格式
           if (Array.isArray(p.target_organisms)) {
             return p.target_organisms.some(org => {
-              const orgLower = org.toLowerCase();
-              const targetLower = targetOrganism.toLowerCase();
+              const orgLower = String(org).toLowerCase();
               // 支持完整匹配和部分匹配
               return orgLower === targetLower || orgLower.includes(targetLower) || targetLower.includes(orgLower);
             });
           } else {
             // 支持字符串格式
-            const orgLower = p.target_organisms.toLowerCase();
-            const targetLower = targetOrganism.toLowerCase();
+            const orgLower = String(p.target_organisms).toLowerCase();
             return orgLower === targetLower || orgLower.includes(targetLower) || targetLower.includes(orgLower);
           }
         });
@@ -1746,27 +1745,28 @@ thead th:last-child {
       // 结构特征过滤
       if (charge) {
         results = results.filter(p => {
-          if (!p.charge) return false;
-          return p.charge.toLowerCase().includes(charge.toLowerCase());
+          const c = p.charge ? String(p.charge).toLowerCase() : '';
+          return c.includes(charge);
         });
       }
 
       if (hydrophobicity) {
         results = results.filter(p => {
-          if (!p.hydrophobicity) return false;
-          return p.hydrophobicity.toLowerCase().includes(hydrophobicity.toLowerCase());
+          const h = p.hydrophobicity ? String(p.hydrophobicity).toLowerCase() : '';
+          return h.includes(hydrophobicity);
         });
       }
 
       if (structure) {
         results = results.filter(p => {
-          if (!p.secondary_structure) return false;
-          return p.secondary_structure.toLowerCase().includes(structure.toLowerCase());
+          const s = p.secondary_structure ? String(p.secondary_structure).toLowerCase() : '';
+          return s.includes(structure);
         });
       }
       
       currentFilterFiles = results.map(p => `${p.id}.json`);
-      document.getElementById('resetSearchBtn').style.display = 'inline-block';
+      const resetBtn = document.getElementById('resetSearchBtn');
+      if (resetBtn) resetBtn.style.display = 'inline-block';
       displayPage(1);
     }
 
