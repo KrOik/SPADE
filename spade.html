@@ -22,6 +22,14 @@
     <script src="js/translation-component.js"></script> -->
     <link rel="stylesheet" href="css/language-selector-minimal.css">
     <script src="js/language-selector-minimal.js"></script>
+    <script>
+      // Hide language selector on SPADE Docs page
+      document.addEventListener('languageSelector:initialized', () => {
+        if (window.SPADE_LANGUAGE_SELECTOR_MINIMAL) {
+          window.SPADE_LANGUAGE_SELECTOR_MINIMAL.destroy();
+        }
+      });
+    </script>
     
     <script>
         tailwind.config = {
