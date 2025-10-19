@@ -11,10 +11,11 @@ class LanguageSelectorMinimal {
       mode: 'dropdown', // 'dropdown' | 'toggle'
       autoClose: true,
       closeOnOutsideClick: true,
-      supportedLanguages: ['en', 'zh-Hans', 'es', 'de', 'ja'],
+      supportedLanguages: ['en', 'zh-Hans', 'fr', 'pt', 'de', 'es', 'ja'],
       showNativeNames: true,
       showFlags: true,
       enableGeoLocation: true, // 启用地理位置检测
+      forceReloadOnAutoSwitch: false,
       ...options
     };
 
@@ -477,10 +478,12 @@ class LanguageSelectorMinimal {
         isAutoSwitch: isAutoSwitch
       });
       
-      // 强制刷新页面
-      setTimeout(() => {
-        location.reload();
-      }, 100);
+      // 自动切换时可选择刷新；手动切换不刷新
+      if (isAutoSwitch && this.options.forceReloadOnAutoSwitch) {
+        setTimeout(() => {
+          location.reload();
+        }, 100);
+      }
       
     } catch (error) {
       console.error('Language switch failed:', error);
@@ -523,8 +526,10 @@ class LanguageSelectorMinimal {
     const languageMap = {
       'en': { name: 'English', nativeName: 'English', flag: '🇺🇸', code: 'en' },
       'zh-Hans': { name: '中文', nativeName: '简体中文', flag: '🇨🇳', code: 'zh' },
-      'es': { name: 'Español', nativeName: 'Español', flag: '🇪🇸', code: 'es' },
+      'fr': { name: 'Français', nativeName: 'Français', flag: '🇫🇷', code: 'fr' },
+      'pt': { name: 'Português', nativeName: 'Português', flag: '🇵🇹', code: 'pt' },
       'de': { name: 'Deutsch', nativeName: 'Deutsch', flag: '🇩🇪', code: 'de' },
+      'es': { name: 'Español', nativeName: 'Español', flag: '🇪🇸', code: 'es' },
       'ja': { name: '日本語', nativeName: '日本語', flag: '🇯🇵', code: 'ja' }
     };
     
@@ -791,6 +796,10 @@ class LanguageSelectorMinimal {
     
     if (browserLang.startsWith('zh')) {
       return 'zh-Hans';
+    } else if (browserLang.startsWith('fr')) {
+      return 'fr';
+    } else if (browserLang.startsWith('pt')) {
+      return 'pt';
     } else if (browserLang.startsWith('es')) {
       return 'es';
     } else if (browserLang.startsWith('de')) {
@@ -807,7 +816,8 @@ class LanguageSelectorMinimal {
    */
   getTranslation(key, lang) {
     lang = lang || this.state.currentLanguage;
-    return this.state.translations[lang]?.[key] || key;
+    const t = this.state.translations || {};
+    return (t[lang] && t[lang][key]) || (t['en'] && t['en'][key]) || key;
   }
 
   /**
